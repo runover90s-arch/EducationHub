@@ -1,0 +1,26 @@
+:root {
+  --md-text-font-size: 0.98rem;
+}
+
+.md-typeset {
+  line-height: 1.72;
+}
+
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3 {
+  font-weight: 700;
+}
+
+.md-typeset table:not([class]) {
+  font-size: 0.95rem;
+}
+
+.md-typeset .admonition,
+.md-typeset details {
+  border-width: 0;
+}
+
+.arithmatex {
+  overflow-x: auto;
+}
