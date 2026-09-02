@@ -155,7 +155,7 @@ hoặc dạng tương đương tùy chiều truyền.
 !!! warning "Modulo pha"
     Hai pha chênh nhau $2\pi$, $4\pi$, ... mô tả cùng trạng thái. Vì vậy từ pha rút gọn không luôn suy ra duy nhất khoảng cách nếu đề chưa bổ sung miền của $d$.
 
-## 7. Đồ thị $u-t$
+## 7. Đồ thị u–t
 
 Đồ thị $u-t$ tại một vị trí cố định là dao động điều hòa của **một phần tử**.
 
@@ -165,7 +165,7 @@ Có thể đọc:
 - $T$ từ khoảng thời gian lặp lại cùng trạng thái;
 - pha ban đầu từ $u(0)$ và chiều chuyển động.
 
-## 8. Đồ thị $u-x$
+## 8. Đồ thị u–x
 
 Đồ thị $u-x$ tại một thời điểm cố định là ảnh không gian.
 

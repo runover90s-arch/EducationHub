@@ -128,7 +128,7 @@ $$
 
 nên động năng chiếm $3/4$ cơ năng.
 
-## 6. Bài toán $W_d=nW_t$
+## 6. Bài toán động năng bằng n lần thế năng
 
 Ta có
 
@@ -154,7 +154,7 @@ $$
 |v|=\omega A\sqrt{\frac{n}{n+1}}.
 $$
 
-## 7. Bài toán $W_t=nW_d$
+## 7. Bài toán thế năng bằng n lần động năng
 
 Tương tự:
 
@@ -283,7 +283,7 @@ $$
 
 Do đó $W_d=3W_t$.
 
-## Ví dụ 2 — Tìm vị trí khi $W_t=3W_d$
+## Ví dụ 2 — Tìm vị trí khi thế năng bằng 3 lần động năng
 
 Ta có
 
@@ -307,7 +307,7 @@ Vật dao động với $f=2$ Hz. Động năng và thế năng biến thiên v�
 
 > Đây là cách phân loại phục vụ mục đích sư phạm, không phải phân loại học thuật chính thức.
 
-### Dạng 1 — Cơ năng từ $A$, $k$, $m$, $\omega$
+### Dạng 1 — Cơ năng từ A, k, m và ω
 
 Chọn dạng công thức ít đổi đơn vị nhất.
 

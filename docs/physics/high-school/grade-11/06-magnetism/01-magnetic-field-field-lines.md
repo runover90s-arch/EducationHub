@@ -46,7 +46,7 @@ Ta không nhìn thấy từ trường trực tiếp. Ta nhận biết nó qua t�
 !!! note "Điện tích đứng yên và điện tích chuyển động"
     Trong mô hình phổ thông, điện tích đứng yên là nguồn điện trường. Điện tích chuyển động còn gắn với hiện tượng từ. Điện trường và từ trường về sâu hơn là hai mặt của trường điện từ, nhưng chương này chưa cần dùng cấu trúc tương đối tính đó để giải bài.
 
-## 3. Vectơ cảm ứng từ $\vec B$
+## 3. Vectơ cảm ứng từ B
 
 Tại mỗi điểm của từ trường, ta dùng vectơ **cảm ứng từ** $\vec B$ để đặc trưng phương, chiều và độ mạnh của tác dụng từ.
 

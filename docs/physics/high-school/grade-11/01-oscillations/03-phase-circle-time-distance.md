@@ -215,7 +215,7 @@ $$
 
 rồi chia quãng đường theo các mốc vị trí cân bằng hoặc biên mà vật đi qua.
 
-### Tại sao không dùng $|x_2-x_1|$?
+### Tại sao không dùng |x₂ − x₁|?
 
 Vì quãng đường là tổng chiều dài quỹ đạo vật đã đi. Nếu giữa hai thời điểm vật đổi chiều, $|x_2-x_1|$ chỉ là độ lớn độ dời, nhỏ hơn quãng đường thực tế.
 
@@ -263,7 +263,7 @@ Trong con lắc lò xo thẳng đứng, điều kiện lò xo dãn/nén có th�
 
 Phần công thức hệ thống sẽ được trình bày ở [Bài 4 — Con lắc lò xo](04-spring-oscillator.md).
 
-## Ví dụ 1 — Thời gian từ cân bằng đến $x=A/2$
+## Ví dụ 1 — Thời gian từ cân bằng đến x = A/2
 
 Vật đi từ vị trí cân bằng theo chiều dương. Trạng thái đầu có pha $-\pi/2$; trạng thái $x=A/2$ theo chiều dương có pha $-\pi/3$.
 
@@ -273,13 +273,13 @@ $$
 \Delta t=\frac{\pi/6}{\omega}=\frac{T}{12}.
 $$
 
-## Ví dụ 2 — Quãng đường trong $3T/4$
+## Ví dụ 2 — Quãng đường trong 3T/4
 
 Bắt đầu tại biên dương. Trong $T/2$, vật đi từ $+A$ đến $-A$: quãng đường $2A$. Trong $T/4$ tiếp theo, vật đi từ $-A$ đến vị trí cân bằng: thêm $A$.
 
 Vậy $S=3A$.
 
-## Ví dụ 3 — Quãng đường cực đại trong $T/6$
+## Ví dụ 3 — Quãng đường cực đại trong T/6
 
 Góc quét là
 

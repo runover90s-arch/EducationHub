@@ -58,7 +58,7 @@ $$
 
 Chu kì chỉ phụ thuộc vào cấu tạo của hệ thông qua $m$ và $k$, không phụ thuộc biên độ nếu mô hình lò xo tuyến tính và các điều kiện lí tưởng còn đúng.
 
-## 2. Ảnh hưởng của $m$ và $k$
+## 2. Ảnh hưởng của m và k
 
 Từ $T\propto\sqrt{m/k}$:
 
@@ -333,7 +333,7 @@ trong đó $x'$ phải đo từ vị trí cân bằng mới.
 !!! danger "Bẫy nâng cao"
     Không được lấy li độ cũ làm li độ mới nếu vị trí cân bằng thay đổi sau biến cố.
 
-## Ví dụ 1 — Tìm $k$ từ chu kì
+## Ví dụ 1 — Tìm k từ chu kì
 
 Vật $m=0,20$ kg dao động với $T=0,40$ s. Lấy $\pi^2\approx10$.
 
@@ -379,7 +379,7 @@ Nếu giữ nguyên vật, chu kì mới bằng $1/\sqrt3$ lần chu kì cũ.
 
 > Đây là cách phân loại phục vụ mục đích sư phạm, không phải phân loại học thuật chính thức.
 
-### Dạng 1 — Chu kì, tần số, thay đổi $m$ hoặc $k$
+### Dạng 1 — Chu kì, tần số, thay đổi m hoặc k
 
 Đưa bài về $T^2\propto m/k$ trước khi thay số.
 

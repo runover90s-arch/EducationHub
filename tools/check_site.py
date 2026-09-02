@@ -134,6 +134,21 @@ def lint_markdown(path: Path) -> list[Issue]:
 
         line = strip_inline_code(original)
 
+        # Inline math inside headings is rendered correctly in the heading body,
+        # but MkDocs may reuse the raw heading text in the table of contents,
+        # page metadata, or navigation. This can expose \( ... \) after
+        # Arithmatex conversion. Keep headings plain-text/Unicode and place the
+        # fully typeset expression in the paragraph immediately below.
+        if re.match(r"^\s*#{1,6}\s+", original) and "$" in line:
+            issues.append(
+                Issue(
+                    path,
+                    lineno,
+                    "MATH006",
+                    "Không đặt LaTeX inline trong tiêu đề Markdown; dùng chữ/kí hiệu Unicode trong tiêu đề và để công thức đầy đủ ở phần nội dung.",
+                )
+            )
+
         # In Markdown lists/admonitions, indented $$ blocks are easy to parse as
         # normal paragraph text instead of math. Keep those equations inline or
         # restructure the nested block deliberately and verify the render.

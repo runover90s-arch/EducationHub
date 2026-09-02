@@ -304,7 +304,7 @@ $$
 
 ---
 
-## 10. Vì sao $\omega T=2\pi$?
+## 10. Vì sao ωT = 2π?
 
 Sau đúng một chu kì, trạng thái dao động lặp lại.
 

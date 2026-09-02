@@ -15,6 +15,7 @@ python tools/check_site.py
 Trình kiểm tra phát hiện:
 
 - delimiter LaTeX thô `\\(...\\)` hoặc `\\[...\\]` trong Markdown;
+- LaTeX trong tiêu đề Markdown (`#`, `##`, `###`); tiêu đề dùng kí hiệu Unicode/chữ thường, còn công thức đầy đủ đặt ở nội dung ngay bên dưới;
 - lệnh LaTeX như `\\omega`, `\\frac`, `\\cos` nằm ngoài vùng toán;
 - dấu `$` hoặc `$$` không cân bằng;
 - `$$` bị thụt lề trong list/admonition, là trường hợp dễ hiện nguyên LaTeX trên web;

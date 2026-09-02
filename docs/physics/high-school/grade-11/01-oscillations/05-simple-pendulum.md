@@ -344,7 +344,7 @@ Chu kì tăng $20\%$.
 
 Dùng $\omega=\sqrt{g/\ell}$ rồi kết hợp điều kiện ban đầu.
 
-### Dạng 2 — Thay đổi $\ell$ hoặc $g$
+### Dạng 2 — Thay đổi ℓ hoặc g
 
 Ưu tiên bình phương tỉ số chu kì để tránh căn phức tạp.
 
@@ -356,7 +356,7 @@ Nếu góc không nhỏ, ưu tiên công thức bảo toàn cơ năng chính xá
 
 Viết phương trình hướng tâm trước, sau đó thay $v^2$ từ bảo toàn cơ năng.
 
-### Dạng 5 — Thí nghiệm xác định $g$
+### Dạng 5 — Thí nghiệm xác định g
 
 Dùng quan hệ tuyến tính $T^2\propto\ell$ và đọc hệ số góc.
 

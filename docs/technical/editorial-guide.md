@@ -114,6 +114,7 @@ Khi kiến thức đã được giải thích đầy đủ ở bài trước:
 - công thức trong câu dùng `$...$`;
 - công thức cần tách dòng dùng `$$...$$`;
 - không viết trực tiếp delimiter `\\(...\\)` hoặc `\\[...\\]` trong Markdown;
+- không đặt `$...$` trong tiêu đề Markdown; dùng kí hiệu Unicode hoặc chữ thường trong tiêu đề, rồi trình bày công thức bằng MathJax ở phần thân bài;
 - không tách một kí hiệu đơn thành một khối công thức lớn;
 - công thức ngắn nên nằm ngay trong câu nếu cách đó dễ đọc hơn;
 - chỉ dùng display math khi công thức cần nhấn mạnh, có phân số lớn hoặc có nhiều bước biến đổi.

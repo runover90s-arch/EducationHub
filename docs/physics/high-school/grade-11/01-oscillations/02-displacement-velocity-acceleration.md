@@ -141,7 +141,7 @@ Vì vậy:
 - $|a|_{\max}=\omega^2A$ tại hai biên;
 - $|a|_{\min}=0$ tại vị trí cân bằng.
 
-## 5. Quan hệ pha giữa $x$, $v$, $a$
+## 5. Quan hệ pha giữa x, v và a
 
 Ba đại lượng cùng dao động với tần số góc $\omega$ nhưng lệch pha nhau:
 
@@ -170,7 +170,7 @@ Do gia tốc luôn hướng về vị trí cân bằng:
 - vật đi **từ biên về vị trí cân bằng**: nhanh dần;
 - vật đi **từ vị trí cân bằng ra biên**: chậm dần.
 
-## 7. Hệ thức độc lập thời gian giữa $x$ và $v$
+## 7. Hệ thức độc lập thời gian giữa x và v
 
 Từ
 
@@ -205,7 +205,7 @@ Dùng khi đề cho trạng thái tại một thời điểm bằng $x$ và $v$ 
 
 Công thức $v^2=\omega^2(A^2-x^2)$ chỉ cho **độ lớn** của vận tốc. Muốn xác định dấu của $v$, cần thêm thông tin về chiều chuyển động.
 
-## 8. Hệ thức giữa $x$ và $a$
+## 8. Hệ thức giữa x và a
 
 Do $a=-\omega^2x$:
 
@@ -221,7 +221,7 @@ $$
 
 Đây cũng là cách kiểm tra nhanh dữ kiện có nhất quán hay không.
 
-## 9. Hệ thức giữa $v$ và $a$
+## 9. Hệ thức giữa v và a
 
 Thay $x=-a/\omega^2$ vào hệ thức $x-v$:
 
@@ -235,9 +235,9 @@ $$
 A^2=\frac{v^2}{\omega^2}+\frac{a^2}{\omega^4}.
 $$
 
-## 10. Xác định $\omega$ từ hai trạng thái
+## 10. Xác định ω từ hai trạng thái
 
-### Trường hợp biết $(x_1,v_1)$ và $(x_2,v_2)$
+### Trường hợp biết (x₁, v₁) và (x₂, v₂)
 
 Từ
 
@@ -253,7 +253,7 @@ $$
 
 Điều kiện: $x_1^2\ne x_2^2$.
 
-### Trường hợp biết $(v_1,a_1)$ và $(v_2,a_2)$
+### Trường hợp biết (v₁, a₁) và (v₂, a₂)
 
 Từ hệ thức $v-a$:
 
@@ -263,7 +263,7 @@ $$
 
 Cần kiểm tra dấu và đơn vị trước khi lấy căn.
 
-## 11. Đồ thị $x-t$, $v-t$, $a-t$
+## 11. Đồ thị x–t, v–t và a–t
 
 Ba đồ thị đều là các đường hình sin/cos có cùng chu kì $T$.
 
@@ -290,7 +290,7 @@ Từ đồ thị $v-t$:
 - lúc $v=0$, vật ở biên;
 - lúc $|v|$ cực đại, vật qua vị trí cân bằng.
 
-## 12. Đồ thị quan hệ $v-x$
+## 12. Đồ thị quan hệ v–x
 
 Hệ thức
 
@@ -307,7 +307,7 @@ Các giao điểm với trục:
 
 Đường elip này mô tả toàn bộ trạng thái động học có thể có của vật trong một dao động điều hòa.
 
-## 13. Đồ thị quan hệ $a-x$
+## 13. Đồ thị quan hệ a–x
 
 Từ $a=-\omega^2x$, đồ thị $a$ theo $x$ là đường thẳng đi qua gốc tọa độ có hệ số góc $-\omega^2$.
 
@@ -363,13 +363,13 @@ Một chuyển động có $a=-4x+2$ không thỏa trực tiếp dạng $a=-\ome
 
 > Đây là cách phân loại phục vụ mục đích sư phạm, không phải phân loại học thuật chính thức.
 
-### Dạng 1 — Từ phương trình li độ suy ra $v$, $a$
+### Dạng 1 — Từ phương trình li độ suy ra v và a
 
 **Dấu hiệu:** đề cho $x(t)$ và hỏi vận tốc, gia tốc, cực trị hoặc trạng thái tại thời điểm.
 
 **Phương pháp:** đọc $A,\omega,\varphi$ → viết $v(t)$ → dùng $a=-\omega^2x$ nếu tiện.
 
-### Dạng 2 — Quan hệ trạng thái $x-v-a$
+### Dạng 2 — Quan hệ trạng thái x–v–a
 
 **Dấu hiệu:** đề không cho thời gian hoặc cho trạng thái ở một vài thời điểm.
 

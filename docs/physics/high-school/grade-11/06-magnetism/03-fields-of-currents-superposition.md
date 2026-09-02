@@ -114,7 +114,7 @@ $$
 B=\sqrt{B_1^2+B_2^2}.
 $$
 
-### Góc bất kì $\theta$
+### Góc bất kì θ
 
 $$
 B=\sqrt{B_1^2+B_2^2+2B_1B_2\cos\theta}.

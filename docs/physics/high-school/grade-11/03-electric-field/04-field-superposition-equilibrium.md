@@ -73,7 +73,7 @@ $$
 \tan\alpha=\frac{E_y}{E_x}.
 $$
 
-## 5. Hai điện trường hợp góc $\theta$
+## 5. Hai điện trường hợp góc θ
 
 $$
 E=\sqrt{E_1^2+E_2^2+2E_1E_2\cos\theta}.

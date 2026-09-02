@@ -43,7 +43,7 @@ $$
 
 Đây là cơ sở của phép đo.
 
-## 2. Ý nghĩa của đồ thị $U-I$
+## 2. Ý nghĩa của đồ thị U–I
 
 Viết theo dạng đường thẳng:
 
@@ -112,7 +112,7 @@ Nên có ít nhất 4–5 điểm trải trên một khoảng dòng hợp lí th
 
 Nếu mô hình nguồn gần tuyến tính trong vùng đo, các điểm nằm gần một đường thẳng giảm.
 
-### Bước 6 — Suy ra $\mathcal E$ và $r$
+### Bước 6 — Suy ra suất điện động và r
 
 Kéo đường thẳng phù hợp qua xu hướng chung của các điểm.
 
@@ -187,7 +187,7 @@ Hai cách cho cùng kết quả, nên phép tính tự nhất quán.
 
 Cột cuối dùng để kiểm tra: nếu mô hình tốt, các giá trị $U+rI$ phải gần nhau và gần $\mathcal E$.
 
-## 9. Mạch hở có đo được $\mathcal E$ không?
+## 9. Mạch hở có đo được suất điện động không?
 
 Khi vôn kế có điện trở rất lớn và mạch ngoài gần như hở, dòng qua nguồn rất nhỏ:
 

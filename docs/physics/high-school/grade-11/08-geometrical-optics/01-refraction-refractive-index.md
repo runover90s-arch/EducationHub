@@ -79,7 +79,7 @@ $n_{21}$ là chiết suất tỉ đối của môi trường 2 đối với môi
 
 Từ Snell:
 
-### Nếu $n_2>n_1$
+### Nếu n₂ > n₁
 
 $$
 \sin r<\sin i\Rightarrow r<i
@@ -87,7 +87,7 @@ $$
 
 với góc trong miền 0–90°. Tia khúc xạ **lệch về phía pháp tuyến**.
 
-### Nếu $n_2<n_1$
+### Nếu n₂ < n₁
 
 $r>i$: tia **lệch xa pháp tuyến**.
 

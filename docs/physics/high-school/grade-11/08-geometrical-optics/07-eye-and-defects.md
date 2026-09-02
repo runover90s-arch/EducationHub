@@ -40,13 +40,13 @@ Trong bài phổ thông, ta thường thay cả hệ bằng một **thấu kính
 
 ## 3. Điểm cực viễn và cực cận
 
-### Cực viễn $C_V$
+### Cực viễn CV
 
 Điểm xa nhất mắt nhìn rõ khi **không điều tiết**.
 
 Với mắt bình thường (không tật) theo mô hình lí tưởng, cực viễn ở vô cực.
 
-### Cực cận $C_C$
+### Cực cận CC
 
 Điểm gần nhất mắt có thể nhìn rõ khi điều tiết tối đa.
 

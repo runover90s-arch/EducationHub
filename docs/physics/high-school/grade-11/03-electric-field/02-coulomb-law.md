@@ -113,7 +113,7 @@ $F=\sqrt{F_1^2+F_2^2}$.
 ### Hai lực cùng phương
 Phải xét chiều rồi cộng đại số.
 
-### Hai lực hợp góc $\alpha$
+### Hai lực hợp góc α
 $$
 F=\sqrt{F_1^2+F_2^2+2F_1F_2\cos\alpha}.
 $$
