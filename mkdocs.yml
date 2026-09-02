@@ -1,10 +1,30 @@
-site_name: Giáo trình Vật lí 11
-site_description: Giáo trình Vật lí 11 từ nền tảng đến nâng cao
-site_url: ""
+site_name: Education Hub
+site_description: Hệ thống giáo trình học tập đa ngành, có cấu trúc và lộ trình rõ ràng
+site_url: https://runover90s-arch.github.io/EducationHub/
+use_directory_urls: true
 
 theme:
   name: material
   language: vi
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Chuyển sang giao diện sáng
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Chuyển sang giao diện tối
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Theo giao diện hệ thống
   features:
     - navigation.tabs
     - navigation.sections
@@ -29,27 +49,30 @@ markdown_extensions:
 
 extra_javascript:
   - javascripts/mathjax.js
-  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
 
 extra_css:
   - stylesheets/extra.css
 
 nav:
   - Trang chủ: index.md
-  - Vật lí:
-      - Tổng quan: physics/index.md
-      - THPT:
-          - Tổng quan: physics/high-school/index.md
-          - Vật lí 11:
-              - Tổng quan: physics/high-school/grade-11/index.md
-              - Lộ trình học: physics/high-school/grade-11/roadmap.md
-              - Bản đồ kiến thức: physics/high-school/grade-11/knowledge-map.md
-              - Thuật ngữ: physics/high-school/grade-11/glossary.md
-              - Chương 1 — Dao động cơ học:
-                  - Tổng quan: physics/high-school/grade-11/01-oscillations/index.md
-                  - Bài 1 — Đại cương về dao động điều hòa: physics/high-school/grade-11/01-oscillations/01-harmonic-oscillation-foundations.md
+  - Thư viện giáo trình: catalog.md
+  - Lĩnh vực:
+      - Vật lí:
+          - Tổng quan: physics/index.md
+          - Trung học phổ thông:
+              - Tổng quan: physics/high-school/index.md
+              - Vật lí 11:
+                  - Tổng quan: physics/high-school/grade-11/index.md
+                  - Lộ trình học: physics/high-school/grade-11/roadmap.md
+                  - Bản đồ kiến thức: physics/high-school/grade-11/knowledge-map.md
+                  - Thuật ngữ: physics/high-school/grade-11/glossary.md
+                  - Chương 1 — Dao động cơ học:
+                      - Tổng quan: physics/high-school/grade-11/01-oscillations/index.md
+                      - Bài 1 — Đại cương về dao động điều hòa: physics/high-school/grade-11/01-oscillations/01-harmonic-oscillation-foundations.md
   - Kỹ thuật biên soạn:
       - Tổng quan: technical/index.md
       - Quy chuẩn nội dung: technical/editorial-guide.md
       - Chuẩn bài tập và lời giải: technical/exercise-solution-standard.md
       - Kiểm soát độ bao phủ: technical/content-coverage.md
+      - Kiểm tra website và LaTeX: technical/site-quality.md

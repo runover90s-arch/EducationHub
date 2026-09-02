@@ -12,5 +12,9 @@ window.MathJax = {
 };
 
 document$.subscribe(() => {
+  if (!window.MathJax || !MathJax.startup || !MathJax.typesetPromise) return;
+  MathJax.startup.output.clearCache();
+  MathJax.typesetClear();
+  MathJax.texReset();
   MathJax.typesetPromise();
 });

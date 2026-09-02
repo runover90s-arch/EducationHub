@@ -22,11 +22,8 @@ Sau bài này, bạn cần làm được các việc sau:
 1. Nhận biết dao động cơ.
 2. Xác định vị trí cân bằng.
 3. Phân biệt dao động tuần hoàn, dao động tự do và dao động điều hòa.
-4. Đọc đúng phương trình
-   \[
-   x=A\cos(\omega t+\varphi).
-   \]
-5. Hiểu ý nghĩa của \(x,A,\omega,\varphi,\omega t+\varphi\).
+4. Đọc đúng phương trình $x=A\cos(\omega t+\varphi)$.
+5. Hiểu ý nghĩa của $x,A,\omega,\varphi,\omega t+\varphi$.
 6. Tính được chu kì, tần số, tần số góc.
 7. Xác định quỹ đạo và miền giá trị của li độ.
 8. Đọc các thông tin cơ bản từ đồ thị li độ – thời gian.
@@ -38,7 +35,7 @@ Sau bài này, bạn cần làm được các việc sau:
 
 Bạn cần biết:
 
-- hàm \(\sin\), \(\cos\);
+- hàm $\sin$, $\cos$;
 - đơn vị thời gian;
 - khái niệm đồ thị;
 - đổi độ sang radian khi cần;
@@ -134,25 +131,25 @@ Một dao động được gọi là **dao động điều hòa** nếu li độ
 
 Dạng chuẩn thường dùng:
 
-\[
+$$
 \boxed{x=A\cos(\omega t+\varphi)}
-\]
+$$
 
 Trong đó:
 
-- \(x\): li độ tại thời điểm \(t\);
-- \(A\): biên độ dao động;
-- \(\omega\): tần số góc;
-- \(\varphi\): pha ban đầu;
-- \(\omega t+\varphi\): pha dao động tại thời điểm \(t\).
+- $x$: li độ tại thời điểm $t$;
+- $A$: biên độ dao động;
+- $\omega$: tần số góc;
+- $\varphi$: pha ban đầu;
+- $\omega t+\varphi$: pha dao động tại thời điểm $t$.
 
 ### Tại sao dùng dạng cos?
 
 Dùng cos hay sin đều được vì hai hàm chỉ lệch pha nhau:
 
-\[
+$$
 \sin\alpha=\cos\left(\alpha-\frac{\pi}{2}\right).
-\]
+$$
 
 Trong giáo trình này, khi viết phương trình chuẩn, ta ưu tiên dạng cos.
 
@@ -164,36 +161,32 @@ Trong giáo trình này, khi viết phương trình chuẩn, ta ưu tiên dạng
 
 **Li độ** là tọa độ của vật tính từ vị trí cân bằng trên trục dao động đã chọn.
 
-### Kí hiệu
-
-\[
-x
-\]
+**Kí hiệu:** $x$.
 
 ### Miền giá trị
 
 Vì:
 
-\[
+$$
 -1\le \cos(\omega t+\varphi)\le 1,
-\]
+$$
 
 nên:
 
-\[
+$$
 \boxed{-A\le x\le A}.
-\]
+$$
 
-Hai vị trí \(x=+A\) và \(x=-A\) là hai vị trí biên.
+Hai vị trí $x=+A$ và $x=-A$ là hai vị trí biên.
 
 ### Dấu của li độ
 
-- \(x>0\): vật nằm phía dương của VTCB.
-- \(x<0\): vật nằm phía âm.
-- \(x=0\): vật ở VTCB.
+- $x>0$: vật nằm phía dương của VTCB.
+- $x<0$: vật nằm phía âm.
+- $x=0$: vật ở VTCB.
 
 !!! warning "Bẫy thường gặp"
-    Dấu của \(x\) cho biết vị trí so với VTCB, **không tự động cho biết chiều chuyển động**.
+    Dấu của $x$ cho biết vị trí so với VTCB, **không tự động cho biết chiều chuyển động**.
 
 ---
 
@@ -203,49 +196,49 @@ Hai vị trí \(x=+A\) và \(x=-A\) là hai vị trí biên.
 
 **Biên độ** là độ lớn li độ cực đại của vật.
 
-\[
+$$
 \boxed{A=x_{\max}=|x|_{\max}}
-\]
+$$
 
 Theo quy ước:
 
-\[
+$$
 \boxed{A>0}.
-\]
+$$
 
 ### Ý nghĩa hình học
 
-Vật dao động trên đoạn thẳng từ \(-A\) đến \(+A\).
+Vật dao động trên đoạn thẳng từ $-A$ đến $+A$.
 
 Vì vậy chiều dài quỹ đạo là:
 
-\[
+$$
 \boxed{L=2A}.
-\]
+$$
 
 ### Ví dụ
 
 Với:
 
-\[
+$$
 x=6\cos(4\pi t-\frac{\pi}{3})\;(\text{cm}),
-\]
+$$
 
 ta có:
 
-- \(A=6\) cm;
-- \(x\in[-6;6]\) cm;
-- chiều dài quỹ đạo \(L=12\) cm.
+- $A=6$ cm;
+- $x\in[-6;6]$ cm;
+- chiều dài quỹ đạo $L=12$ cm.
 
 !!! danger "Sai lầm nghiêm trọng"
     Không viết biên độ âm. Nếu gặp biểu thức
-    \[
+    $$
     x=-5\cos(\omega t+\alpha),
-    \]
+    $$
     phải đưa về dạng có biên độ dương:
-    \[
+    $$
     x=5\cos(\omega t+\alpha+\pi).
-    \]
+    $$
 
 ---
 
@@ -253,21 +246,21 @@ ta có:
 
 ### Định nghĩa
 
-Pha dao động tại thời điểm \(t\) là:
+Pha dao động tại thời điểm $t$ là:
 
-\[
+$$
 \boxed{\Phi=\omega t+\varphi}.
-\]
+$$
 
 ### Pha ban đầu
 
-Tại \(t=0\):
+Tại $t=0$:
 
-\[
+$$
 \Phi_0=\varphi.
-\]
+$$
 
-Vì vậy \(\varphi\) được gọi là **pha ban đầu**.
+Vì vậy $\varphi$ được gọi là **pha ban đầu**.
 
 ### Vai trò của pha
 
@@ -275,21 +268,21 @@ Pha giúp xác định trạng thái dao động của vật tại một thời 
 
 Từ:
 
-\[
+$$
 x=A\cos\Phi,
-\]
+$$
 
 ta thấy cùng một biên độ nhưng pha khác nhau có thể cho vị trí khác nhau.
 
 ### Tính tuần hoàn của pha
 
-Do hàm cos có chu kì \(2\pi\):
+Do hàm cos có chu kì $2\pi$:
 
-\[
+$$
 \cos(\Phi+2k\pi)=\cos\Phi,\qquad k\in\mathbb Z.
-\]
+$$
 
-Vì vậy hai pha hơn kém nhau \(2k\pi\) cho cùng giá trị cos.
+Vì vậy hai pha hơn kém nhau $2k\pi$ cho cùng giá trị cos.
 
 ---
 
@@ -297,43 +290,35 @@ Vì vậy hai pha hơn kém nhau \(2k\pi\) cho cùng giá trị cos.
 
 ### 9.1. Chu kì
 
-**Chu kì \(T\)** là khoảng thời gian để vật thực hiện một dao động toàn phần.
+**Chu kì $T$** là khoảng thời gian để vật thực hiện một dao động toàn phần.
 
-Đơn vị SI:
+**Đơn vị SI:** $[T]=\text{s}$.
 
-\[
-[T]=\text{s}.
-\]
+Nếu trong thời gian $\Delta t$ vật thực hiện $N$ dao động toàn phần:
 
-Nếu trong thời gian \(\Delta t\) vật thực hiện \(N\) dao động toàn phần:
-
-\[
+$$
 \boxed{T=\frac{\Delta t}{N}}.
-\]
+$$
 
 ---
 
 ### 9.2. Tần số
 
-**Tần số \(f\)** là số dao động toàn phần vật thực hiện trong một giây.
+**Tần số $f$** là số dao động toàn phần vật thực hiện trong một giây.
 
-Đơn vị:
-
-\[
-[f]=\text{Hz}.
-\]
+**Đơn vị:** $[f]=\text{Hz}$.
 
 Ta có:
 
-\[
+$$
 \boxed{f=\frac{1}{T}}
-\]
+$$
 
-và nếu có \(N\) dao động trong \(\Delta t\):
+và nếu có $N$ dao động trong $\Delta t$:
 
-\[
+$$
 \boxed{f=\frac{N}{\Delta t}}.
-\]
+$$
 
 ---
 
@@ -341,52 +326,48 @@ và nếu có \(N\) dao động trong \(\Delta t\):
 
 Với phương trình:
 
-\[
+$$
 x=A\cos(\omega t+\varphi),
-\]
+$$
 
 tần số góc là:
 
-\[
+$$
 \boxed{\omega=2\pi f=\frac{2\pi}{T}}.
-\]
+$$
 
-Đơn vị thường dùng:
-
-\[
-[\omega]=\text{rad/s}.
-\]
+**Đơn vị thường dùng:** $[\omega]=\text{rad/s}$.
 
 Suy ra:
 
-\[
+$$
 \boxed{T=\frac{2\pi}{\omega}},\qquad
 \boxed{f=\frac{\omega}{2\pi}}.
-\]
+$$
 
 ---
 
-## 10. Vì sao \(\omega T=2\pi\)?
+## 10. Vì sao $\omega T=2\pi$?
 
 Sau đúng một chu kì, trạng thái dao động lặp lại.
 
 Pha tăng thêm:
 
-\[
+$$
 \Delta\Phi=\omega T.
-\]
+$$
 
-Để hàm cos lặp lại như cũ sau một chu kì ngắn nhất, pha phải tăng \(2\pi\):
+Để hàm cos lặp lại như cũ sau một chu kì ngắn nhất, pha phải tăng $2\pi$:
 
-\[
+$$
 \omega T=2\pi.
-\]
+$$
 
 Do đó:
 
-\[
+$$
 T=\frac{2\pi}{\omega}.
-\]
+$$
 
 Đây là nguồn gốc của hệ thức giữa chu kì và tần số góc.
 
@@ -394,15 +375,15 @@ T=\frac{2\pi}{\omega}.
 
 ## 11. Số dao động trong một khoảng thời gian
 
-Nếu chu kì là \(T\), số dao động toàn phần trong thời gian \(\Delta t\) là:
+Nếu chu kì là $T$, số dao động toàn phần trong thời gian $\Delta t$ là:
 
-\[
+$$
 \boxed{N=\frac{\Delta t}{T}=f\Delta t=\frac{\omega\Delta t}{2\pi}}.
-\]
+$$
 
 ### Lưu ý
 
-Công thức trên cho số chu kì tương ứng với khoảng thời gian. Nếu đề hỏi **số lần vật đi qua một vị trí**, **số lần đạt biên**, hoặc **số lần có một giá trị li độ**, không được lấy ngay \(N\) làm đáp án. Các bài đó cần phân tích trạng thái dao động.
+Công thức trên cho số chu kì tương ứng với khoảng thời gian. Nếu đề hỏi **số lần vật đi qua một vị trí**, **số lần đạt biên**, hoặc **số lần có một giá trị li độ**, không được lấy ngay $N$ làm đáp án. Các bài đó cần phân tích trạng thái dao động.
 
 ---
 
@@ -410,19 +391,19 @@ Công thức trên cho số chu kì tương ứng với khoảng thời gian. N�
 
 Với:
 
-\[
+$$
 x=A\cos(\omega t+\varphi),
-\]
+$$
 
-đồ thị \(x\) theo \(t\) là một đường hình sin.
+đồ thị $x$ theo $t$ là một đường hình sin.
 
 ### Đọc biên độ
 
-Biên độ là giá trị lớn nhất của \(|x|\):
+Biên độ là giá trị lớn nhất của $|x|$:
 
-\[
+$$
 A=|x|_{\max}.
-\]
+$$
 
 ### Đọc chu kì
 
@@ -436,11 +417,11 @@ Trên đồ thị, có thể đo khoảng thời gian giữa:
 
 ### Đọc tần số
 
-Sau khi có \(T\):
+Sau khi có $T$:
 
-\[
+$$
 f=\frac{1}{T}.
-\]
+$$
 
 ---
 
@@ -448,57 +429,57 @@ f=\frac{1}{T}.
 
 Phương trình chuẩn phải ở dạng:
 
-\[
+$$
 x=A\cos(\omega t+\varphi),
-\]
+$$
 
 với:
 
-\[
+$$
 A>0,\qquad \omega>0.
-\]
+$$
 
 ### Trường hợp hệ số cos âm
 
 Ví dụ:
 
-\[
+$$
 x=-4\cos(5t-\frac{\pi}{6}).
-\]
+$$
 
 Dùng:
 
-\[
+$$
 -\cos\alpha=\cos(\alpha+\pi),
-\]
+$$
 
 ta được:
 
-\[
+$$
 x=4\cos\left(5t-\frac{\pi}{6}+\pi\right)
 =4\cos\left(5t+\frac{5\pi}{6}\right).
-\]
+$$
 
 ### Trường hợp dùng sin
 
 Ví dụ:
 
-\[
+$$
 x=3\sin(2\pi t+\frac{\pi}{3}).
-\]
+$$
 
 Dùng:
 
-\[
+$$
 \sin\alpha=\cos\left(\alpha-\frac{\pi}{2}\right),
-\]
+$$
 
 ta được:
 
-\[
+$$
 x=3\cos\left(2\pi t+\frac{\pi}{3}-\frac{\pi}{2}\right)
 =3\cos\left(2\pi t-\frac{\pi}{6}\right).
-\]
+$$
 
 ---
 
@@ -508,23 +489,23 @@ Có thể xem pha như một "đồng hồ trạng thái" của dao động.
 
 Mỗi khi pha tăng thêm:
 
-\[
+$$
 2\pi,
-\]
+$$
 
 vật hoàn thành một chu kì.
 
 Mỗi khi thời gian tăng thêm:
 
-\[
+$$
 T,
-\]
+$$
 
 pha tăng thêm:
 
-\[
+$$
 \omega T=2\pi.
-\]
+$$
 
 Điều này giải thích vì sao phương pháp đường tròn lượng giác rất hữu ích. Ta sẽ học riêng phương pháp đó ở Bài 3.
 
@@ -541,9 +522,9 @@ pha tăng thêm:
 
 Đề cho trực tiếp:
 
-\[
+$$
 x=A\cos(\omega t+\varphi).
-\]
+$$
 
 #### Cần tìm
 
@@ -554,18 +535,18 @@ Thường là:
 - chu kì;
 - tần số;
 - pha ban đầu;
-- pha tại thời điểm \(t\);
-- li độ tại thời điểm \(t\).
+- pha tại thời điểm $t$;
+- li độ tại thời điểm $t$.
 
 #### Phương pháp
 
 1. Đưa phương trình về dạng chuẩn nếu cần.
-2. Đọc \(A,\omega,\varphi\).
+2. Đọc $A,\omega,\varphi$.
 3. Tính:
-   \[
+   $$
    T=\frac{2\pi}{\omega},\qquad f=\frac{\omega}{2\pi}.
-   \]
-4. Nếu hỏi tại thời điểm \(t\), thay \(t\) vào pha hoặc phương trình.
+   $$
+4. Nếu hỏi tại thời điểm $t$, thay $t$ vào pha hoặc phương trình.
 
 ---
 
@@ -573,39 +554,39 @@ Thường là:
 
 Dùng:
 
-\[
+$$
 T=\frac{\Delta t}{N},
 \qquad
 f=\frac{N}{\Delta t},
 \qquad
 \omega=2\pi f.
-\]
+$$
 
 ---
 
 ### Dạng 3 — Đọc biên độ và chu kì từ đồ thị
 
-1. Tìm \(|x|_{\max}\Rightarrow A\).
+1. Tìm $|x|_{\max}\Rightarrow A$.
 2. Chọn hai trạng thái lặp lại gần nhau nhất.
-3. Lấy hiệu thời gian để có \(T\).
-4. Từ đó tính \(f,\omega\).
+3. Lấy hiệu thời gian để có $T$.
+4. Từ đó tính $f,\omega$.
 
 ---
 
 ## 16. Bẫy thường gặp
 
-!!! warning "Bẫy 1 — Nhầm \(\omega\) với \(f\)"
+!!! warning "Bẫy 1 — Nhầm $\omega$ với $f$"
     Trong
-    \[
+    $$
     x=A\cos(\omega t+\varphi),
-    \]
-    hệ số của \(t\) là \(\omega\), **không phải** \(f\).
+    $$
+    hệ số của $t$ là $\omega$, **không phải** $f$.
 
-!!! warning "Bẫy 2 — Quên \(2\pi\)"
-    \[
+!!! warning "Bẫy 2 — Quên $2\pi$"
+    $$
     \omega=2\pi f,
-    \]
-    không phải \(\omega=f\).
+    $$
+    không phải $\omega=f$.
 
 !!! warning "Bẫy 3 — Biên độ âm"
     Biên độ theo quy ước phải dương.
@@ -617,7 +598,7 @@ f=\frac{N}{\Delta t},
     Vật có thể đi qua cùng một vị trí theo hai chiều khác nhau.
 
 !!! warning "Bẫy 6 — Đơn vị"
-    Nếu \(x\) ghi bằng cm thì biên độ đọc ra từ phương trình cũng đang ở cm. Khi tính những đại lượng cần SI, phải đổi đơn vị đúng lúc.
+    Nếu $x$ ghi bằng cm thì biên độ đọc ra từ phương trình cũng đang ở cm. Khi tính những đại lượng cần SI, phải đổi đơn vị đúng lúc.
 
 ---
 
@@ -627,51 +608,51 @@ f=\frac{N}{\Delta t},
 
 Cho:
 
-\[
+$$
 x=8\cos(4\pi t-\frac{\pi}{3})\;(\text{cm}).
-\]
+$$
 
-Xác định \(A,\omega,T,f,\varphi\).
+Xác định $A,\omega,T,f,\varphi$.
 
 ### Giải
 
 So sánh với:
 
-\[
+$$
 x=A\cos(\omega t+\varphi),
-\]
+$$
 
 ta có:
 
-\[
+$$
 A=8\text{ cm},
-\]
+$$
 
-\[
+$$
 \omega=4\pi\text{ rad/s},
-\]
+$$
 
-\[
+$$
 \varphi=-\frac{\pi}{3}\text{ rad}.
-\]
+$$
 
 Chu kì:
 
-\[
+$$
 T=\frac{2\pi}{4\pi}=0,5\text{ s}.
-\]
+$$
 
 Tần số:
 
-\[
+$$
 f=\frac{1}{T}=2\text{ Hz}.
-\]
+$$
 
 **Kết quả**
 
-\[
+$$
 \boxed{A=8\text{ cm},\ \omega=4\pi\text{ rad/s},\ T=0,5\text{ s},\ f=2\text{ Hz},\ \varphi=-\frac{\pi}{3}}
-\]
+$$
 
 ---
 
@@ -679,33 +660,33 @@ f=\frac{1}{T}=2\text{ Hz}.
 
 Vẫn với:
 
-\[
+$$
 x=8\cos(4\pi t-\frac{\pi}{3})\;(\text{cm}).
-\]
+$$
 
-Tính pha và li độ tại \(t=0,25\) s.
+Tính pha và li độ tại $t=0,25$ s.
 
 ### Giải
 
 Pha:
 
-\[
+$$
 \Phi=4\pi\cdot0,25-\frac{\pi}{3}
 =\pi-\frac{\pi}{3}
 =\frac{2\pi}{3}.
-\]
+$$
 
 Li độ:
 
-\[
+$$
 x=8\cos\frac{2\pi}{3}
 =8\left(-\frac12\right)
 =-4\text{ cm}.
-\]
+$$
 
-\[
+$$
 \boxed{\Phi=\frac{2\pi}{3},\quad x=-4\text{ cm}}
-\]
+$$
 
 ---
 
@@ -713,25 +694,25 @@ x=8\cos\frac{2\pi}{3}
 
 Một vật thực hiện 30 dao động toàn phần trong 12 s.
 
-Tính \(T,f,\omega\).
+Tính $T,f,\omega$.
 
 ### Giải
 
-\[
+$$
 f=\frac{N}{\Delta t}=\frac{30}{12}=2,5\text{ Hz}.
-\]
+$$
 
-\[
+$$
 T=\frac{1}{f}=0,4\text{ s}.
-\]
+$$
 
-\[
+$$
 \omega=2\pi f=5\pi\text{ rad/s}.
-\]
+$$
 
-\[
+$$
 \boxed{T=0,4\text{ s},\ f=2,5\text{ Hz},\ \omega=5\pi\text{ rad/s}}
-\]
+$$
 
 ---
 
@@ -739,9 +720,9 @@ T=\frac{1}{f}=0,4\text{ s}.
 
 Cho:
 
-\[
+$$
 x=-6\sin\left(2\pi t+\frac{\pi}{6}\right)\text{ cm}.
-\]
+$$
 
 Viết về dạng cos với biên độ dương.
 
@@ -749,33 +730,33 @@ Viết về dạng cos với biên độ dương.
 
 Ta có:
 
-\[
+$$
 \sin\alpha=\cos\left(\alpha-\frac{\pi}{2}\right).
-\]
+$$
 
 Suy ra:
 
-\[
+$$
 x=-6\cos\left(2\pi t+\frac{\pi}{6}-\frac{\pi}{2}\right)
 =-6\cos\left(2\pi t-\frac{\pi}{3}\right).
-\]
+$$
 
 Đổi dấu trước cos:
 
-\[
+$$
 -\cos\beta=\cos(\beta+\pi).
-\]
+$$
 
 Do đó:
 
-\[
+$$
 x=6\cos\left(2\pi t-\frac{\pi}{3}+\pi\right)
 =6\cos\left(2\pi t+\frac{2\pi}{3}\right)\text{ cm}.
-\]
+$$
 
-\[
+$$
 \boxed{x=6\cos\left(2\pi t+\frac{2\pi}{3}\right)\text{ cm}}
-\]
+$$
 
 ---
 
@@ -805,40 +786,40 @@ D. pha ban đầu.
 
 Trong phương trình:
 
-\[
+$$
 x=5\cos(4\pi t-\frac{\pi}{3})\text{ cm},
-\]
+$$
 
 tần số góc là:
 
-A. \(4\) rad/s.  
-B. \(4\pi\) rad/s.  
-C. \(2\) Hz.  
-D. \(\pi/3\) rad.
+A. $4$ rad/s.  
+B. $4\pi$ rad/s.  
+C. $2$ Hz.  
+D. $\pi/3$ rad.
 
 ### Câu 4
 
-Một vật dao động điều hòa có biên độ \(A=7\) cm. Chiều dài quỹ đạo là:
+Một vật dao động điều hòa có biên độ $A=7$ cm. Chiều dài quỹ đạo là:
 
-A. \(7\) cm.  
-B. \(14\) cm.  
-C. \(3,5\) cm.  
-D. \(49\) cm.
+A. $7$ cm.  
+B. $14$ cm.  
+C. $3,5$ cm.  
+D. $49$ cm.
 
 ### Câu 5
 
 Với phương trình:
 
-\[
+$$
 x=4\cos(10\pi t+\frac{\pi}{6})\text{ cm},
-\]
+$$
 
 chu kì là:
 
-A. \(0,1\) s.  
-B. \(0,2\) s.  
-C. \(5\) s.  
-D. \(10\) s.
+A. $0,1$ s.  
+B. $0,2$ s.  
+C. $5$ s.  
+D. $10$ s.
 
 ---
 
@@ -852,33 +833,33 @@ Một vật thực hiện 18 dao động toàn phần trong 9 s. Tần số củ
 
 Cho:
 
-\[
+$$
 x=6\cos(5\pi t-\frac{\pi}{2})\text{ cm}.
-\]
+$$
 
 Tính:
 
 1. chu kì;
 2. tần số;
-3. pha tại \(t=0,3\) s.
+3. pha tại $t=0,3$ s.
 
 ### Câu 8
 
 Cho:
 
-\[
+$$
 x=3\cos(2\pi t+\frac{\pi}{3})\text{ cm}.
-\]
+$$
 
 Tính li độ tại:
 
-1. \(t=0\);
-2. \(t=\dfrac16\) s;
-3. \(t=\dfrac13\) s.
+1. $t=0$;
+2. $t=\dfrac16$ s;
+3. $t=\dfrac13$ s.
 
 ### Câu 9
 
-Một dao động có chu kì \(0,25\) s.
+Một dao động có chu kì $0,25$ s.
 
 Tính:
 
@@ -894,16 +875,16 @@ Tính:
 
 Cho:
 
-\[
+$$
 x=4\cos\left(5\pi t+\frac{\pi}{6}\right)\text{ cm}.
-\]
+$$
 
 Xét các phát biểu:
 
-a) Biên độ của dao động là \(4\) cm.  
-b) Tần số là \(5\pi\) Hz.  
-c) Tại \(t=0\), li độ là \(2\sqrt3\) cm.  
-d) Chiều dài quỹ đạo là \(8\) cm.
+a) Biên độ của dao động là $4$ cm.  
+b) Tần số là $5\pi$ Hz.  
+c) Tại $t=0$, li độ là $2\sqrt3$ cm.  
+d) Chiều dài quỹ đạo là $8$ cm.
 
 Hãy xác định đúng hoặc sai cho từng ý.
 
@@ -926,12 +907,12 @@ Hãy xác định đúng hoặc sai.
 
 Một vật có phương trình:
 
-\[
+$$
 x=-5\cos\left(4\pi t-\frac{\pi}{6}\right)\text{ cm}.
-\]
+$$
 
 1. Viết phương trình về dạng chuẩn với biên độ dương.
-2. Xác định \(A,T,f,\varphi\) của phương trình chuẩn.
+2. Xác định $A,T,f,\varphi$ của phương trình chuẩn.
 
 ### Câu 13
 
@@ -946,7 +927,7 @@ Tính:
 
 ### Câu 14
 
-Một đồ thị li độ – thời gian có giá trị cực đại \(+5\) cm và cực tiểu \(-5\) cm. Hai đỉnh liên tiếp của đồ thị xuất hiện tại \(t=0,2\) s và \(t=0,8\) s.
+Một đồ thị li độ – thời gian có giá trị cực đại $+5$ cm và cực tiểu $-5$ cm. Hai đỉnh liên tiếp của đồ thị xuất hiện tại $t=0,2$ s và $t=0,8$ s.
 
 Tính:
 
@@ -959,9 +940,9 @@ Tính:
 
 Cho:
 
-\[
+$$
 x=10\cos\left(2\pi t+\frac{\pi}{3}\right)\text{ mm}.
-\]
+$$
 
 Trong khoảng thời gian 3 s, vật thực hiện bao nhiêu dao động toàn phần?
 
@@ -970,16 +951,16 @@ Trong khoảng thời gian 3 s, vật thực hiện bao nhiêu dao động toàn
 # Gợi ý
 
 ??? hint "Câu 7"
-    Từ hệ số của \(t\), đọc \(\omega=5\pi\). Sau đó dùng
-    \[
+    Từ hệ số của $t$, đọc $\omega=5\pi$. Sau đó dùng
+    $$
     T=\frac{2\pi}{\omega},\qquad f=\frac1T.
-    \]
+    $$
 
 ??? hint "Câu 12"
     Dùng
-    \[
+    $$
     -\cos\alpha=\cos(\alpha+\pi).
-    \]
+    $$
 
 ??? hint "Câu 14"
     Khoảng thời gian giữa hai đỉnh liên tiếp chính là một chu kì.
@@ -1010,21 +991,21 @@ Tần số là số dao động toàn phần trong một giây.
 
 So sánh:
 
-\[
+$$
 x=5\cos(4\pi t-\frac{\pi}{3})
-\]
+$$
 
 với:
 
-\[
+$$
 x=A\cos(\omega t+\varphi),
-\]
+$$
 
 suy ra:
 
-\[
+$$
 \omega=4\pi\text{ rad/s}.
-\]
+$$
 
 ---
 
@@ -1034,9 +1015,9 @@ suy ra:
 
 Chiều dài quỹ đạo:
 
-\[
+$$
 L=2A=2\cdot7=14\text{ cm}.
-\]
+$$
 
 ---
 
@@ -1044,25 +1025,25 @@ L=2A=2\cdot7=14\text{ cm}.
 
 **Đáp án: B.**
 
-\[
+$$
 \omega=10\pi\text{ rad/s}.
-\]
+$$
 
-\[
+$$
 T=\frac{2\pi}{10\pi}=0,2\text{ s}.
-\]
+$$
 
 ---
 
 ## Câu 6
 
-\[
+$$
 f=\frac{N}{\Delta t}=\frac{18}{9}=2\text{ Hz}.
-\]
+$$
 
-\[
+$$
 \boxed{f=2\text{ Hz}}
-\]
+$$
 
 ---
 
@@ -1070,160 +1051,160 @@ f=\frac{N}{\Delta t}=\frac{18}{9}=2\text{ Hz}.
 
 Phương trình:
 
-\[
+$$
 x=6\cos(5\pi t-\frac{\pi}{2})\text{ cm}.
-\]
+$$
 
 Ta có:
 
-\[
+$$
 \omega=5\pi\text{ rad/s}.
-\]
+$$
 
 ### 1. Chu kì
 
-\[
+$$
 T=\frac{2\pi}{5\pi}=0,4\text{ s}.
-\]
+$$
 
 ### 2. Tần số
 
-\[
+$$
 f=\frac1T=\frac1{0,4}=2,5\text{ Hz}.
-\]
+$$
 
-### 3. Pha tại \(t=0,3\) s
+### 3. Pha tại $t=0,3$ s
 
-\[
+$$
 \Phi=5\pi\cdot0,3-\frac{\pi}{2}
 =\frac{3\pi}{2}-\frac{\pi}{2}
 =\pi.
-\]
+$$
 
-\[
+$$
 \boxed{T=0,4\text{ s},\quad f=2,5\text{ Hz},\quad \Phi=\pi}
-\]
+$$
 
 ---
 
 ## Câu 8
 
-\[
+$$
 x=3\cos(2\pi t+\frac{\pi}{3})\text{ cm}.
-\]
+$$
 
-### 1. Tại \(t=0\)
+### 1. Tại $t=0$
 
-\[
+$$
 x=3\cos\frac{\pi}{3}
 =3\cdot\frac12
 =1,5\text{ cm}.
-\]
+$$
 
-### 2. Tại \(t=\dfrac16\) s
+### 2. Tại $t=\dfrac16$ s
 
-\[
+$$
 \Phi=2\pi\cdot\frac16+\frac{\pi}{3}
 =\frac{\pi}{3}+\frac{\pi}{3}
 =\frac{2\pi}{3}.
-\]
+$$
 
-\[
+$$
 x=3\cos\frac{2\pi}{3}
 =-1,5\text{ cm}.
-\]
+$$
 
-### 3. Tại \(t=\dfrac13\) s
+### 3. Tại $t=\dfrac13$ s
 
-\[
+$$
 \Phi=2\pi\cdot\frac13+\frac{\pi}{3}
 =\frac{2\pi}{3}+\frac{\pi}{3}
 =\pi.
-\]
+$$
 
-\[
+$$
 x=3\cos\pi=-3\text{ cm}.
-\]
+$$
 
-\[
+$$
 \boxed{x(0)=1,5\text{ cm},\quad x(\frac16)=-1,5\text{ cm},\quad x(\frac13)=-3\text{ cm}}
-\]
+$$
 
 ---
 
 ## Câu 9
 
-\[
+$$
 T=0,25\text{ s}.
-\]
+$$
 
 ### 1. Tần số
 
-\[
+$$
 f=\frac1T=\frac1{0,25}=4\text{ Hz}.
-\]
+$$
 
 ### 2. Tần số góc
 
-\[
+$$
 \omega=2\pi f=8\pi\text{ rad/s}.
-\]
+$$
 
 ### 3. Số dao động trong 5 s
 
-\[
+$$
 N=f\Delta t=4\cdot5=20.
-\]
+$$
 
-\[
+$$
 \boxed{f=4\text{ Hz},\quad \omega=8\pi\text{ rad/s},\quad N=20}
-\]
+$$
 
 ---
 
 ## Câu 10
 
-\[
+$$
 x=4\cos\left(5\pi t+\frac{\pi}{6}\right)\text{ cm}.
-\]
+$$
 
 ### a) Đúng
 
-\[
+$$
 A=4\text{ cm}.
-\]
+$$
 
 ### b) Sai
 
-\(5\pi\) là tần số góc:
+$5\pi$ là tần số góc:
 
-\[
+$$
 \omega=5\pi\text{ rad/s}.
-\]
+$$
 
 Tần số là:
 
-\[
+$$
 f=\frac{\omega}{2\pi}
 =\frac{5\pi}{2\pi}
 =2,5\text{ Hz}.
-\]
+$$
 
 ### c) Đúng
 
-Tại \(t=0\):
+Tại $t=0$:
 
-\[
+$$
 x=4\cos\frac{\pi}{6}
 =4\cdot\frac{\sqrt3}{2}
 =2\sqrt3\text{ cm}.
-\]
+$$
 
 ### d) Đúng
 
-\[
+$$
 L=2A=8\text{ cm}.
-\]
+$$
 
 **Kết luận:** a Đúng; b Sai; c Đúng; d Đúng.
 
@@ -1233,11 +1214,11 @@ L=2A=8\text{ cm}.
 
 ### a) Đúng
 
-\[
+$$
 \Phi=\omega t+\varphi
-\]
+$$
 
-là hàm bậc nhất theo \(t\).
+là hàm bậc nhất theo $t$.
 
 ### b) Sai
 
@@ -1251,9 +1232,9 @@ Một vật có thể đi qua cùng một li độ theo hai chiều khác nhau. 
 
 Biên độ theo quy ước:
 
-\[
+$$
 A>0.
-\]
+$$
 
 **Kết luận:** a Đúng; b Sai; c Đúng; d Sai.
 
@@ -1263,53 +1244,53 @@ A>0.
 
 Ban đầu:
 
-\[
+$$
 x=-5\cos\left(4\pi t-\frac{\pi}{6}\right)\text{ cm}.
-\]
+$$
 
 ### 1. Chuẩn hóa
 
 Dùng:
 
-\[
+$$
 -\cos\alpha=\cos(\alpha+\pi).
-\]
+$$
 
 Suy ra:
 
-\[
+$$
 x=5\cos\left(4\pi t-\frac{\pi}{6}+\pi\right)
-\]
+$$
 
-\[
+$$
 x=5\cos\left(4\pi t+\frac{5\pi}{6}\right)\text{ cm}.
-\]
+$$
 
 ### 2. Các đại lượng
 
-\[
+$$
 A=5\text{ cm}.
-\]
+$$
 
-\[
+$$
 \omega=4\pi\text{ rad/s}.
-\]
+$$
 
-\[
+$$
 T=\frac{2\pi}{4\pi}=0,5\text{ s}.
-\]
+$$
 
-\[
+$$
 f=\frac1T=2\text{ Hz}.
-\]
+$$
 
-\[
+$$
 \varphi=\frac{5\pi}{6}\text{ rad}.
-\]
+$$
 
-\[
+$$
 \boxed{A=5\text{ cm},\ T=0,5\text{ s},\ f=2\text{ Hz},\ \varphi=\frac{5\pi}{6}}
-\]
+$$
 
 ---
 
@@ -1319,35 +1300,35 @@ Trong 6 s có 15 dao động.
 
 ### 1. Chu kì
 
-\[
+$$
 T=\frac{\Delta t}{N}
 =\frac{6}{15}
 =0,4\text{ s}.
-\]
+$$
 
 ### 2. Tần số
 
-\[
+$$
 f=\frac{N}{\Delta t}
 =\frac{15}{6}
 =2,5\text{ Hz}.
-\]
+$$
 
 ### 3. Tần số góc
 
-\[
+$$
 \omega=2\pi f=5\pi\text{ rad/s}.
-\]
+$$
 
 ### 4. Chiều dài quỹ đạo
 
-\[
+$$
 L=2A=2\cdot4=8\text{ cm}.
-\]
+$$
 
-\[
+$$
 \boxed{T=0,4\text{ s},\ f=2,5\text{ Hz},\ \omega=5\pi\text{ rad/s},\ L=8\text{ cm}}
-\]
+$$
 
 ---
 
@@ -1355,71 +1336,71 @@ L=2A=2\cdot4=8\text{ cm}.
 
 Đồ thị có:
 
-\[
+$$
 x_{\max}=+5\text{ cm},\qquad x_{\min}=-5\text{ cm}.
-\]
+$$
 
 ### 1. Biên độ
 
-\[
+$$
 A=5\text{ cm}.
-\]
+$$
 
 ### 2. Chu kì
 
-Hai đỉnh liên tiếp tại \(0,2\) s và \(0,8\) s:
+Hai đỉnh liên tiếp tại $0,2$ s và $0,8$ s:
 
-\[
+$$
 T=0,8-0,2=0,6\text{ s}.
-\]
+$$
 
 ### 3. Tần số
 
-\[
+$$
 f=\frac1T=\frac1{0,6}=\frac53\text{ Hz}.
-\]
+$$
 
 ### 4. Tần số góc
 
-\[
+$$
 \omega=2\pi f
 =2\pi\cdot\frac53
 =\frac{10\pi}{3}\text{ rad/s}.
-\]
+$$
 
-\[
+$$
 \boxed{A=5\text{ cm},\ T=0,6\text{ s},\ f=\frac53\text{ Hz},\ \omega=\frac{10\pi}{3}\text{ rad/s}}
-\]
+$$
 
 ---
 
 ## Câu 15
 
-\[
+$$
 x=10\cos\left(2\pi t+\frac{\pi}{3}\right)\text{ mm}.
-\]
+$$
 
 Từ phương trình:
 
-\[
+$$
 \omega=2\pi\text{ rad/s}.
-\]
+$$
 
 Suy ra:
 
-\[
+$$
 f=\frac{\omega}{2\pi}=1\text{ Hz}.
-\]
+$$
 
-Trong \(3\) s:
+Trong $3$ s:
 
-\[
+$$
 N=f\Delta t=1\cdot3=3.
-\]
+$$
 
-\[
+$$
 \boxed{N=3\text{ dao động toàn phần}}
-\]
+$$
 
 ---
 
@@ -1427,34 +1408,16 @@ N=f\Delta t=1\cdot3=3.
 
 1. Dao động cơ là chuyển động qua lại quanh vị trí cân bằng.
 2. Dao động tuần hoàn có trạng thái lặp lại sau những khoảng thời gian bằng nhau.
-3. Dao động điều hòa có:
-   \[
-   x=A\cos(\omega t+\varphi).
-   \]
-4. Biên độ:
-   \[
-   A>0,\qquad -A\le x\le A.
-   \]
-5. Chiều dài quỹ đạo:
-   \[
-   L=2A.
-   \]
-6. Chu kì và tần số:
-   \[
-   f=\frac1T.
-   \]
-7. Tần số góc:
-   \[
-   \omega=2\pi f=\frac{2\pi}{T}.
-   \]
-8. Pha:
-   \[
-   \Phi=\omega t+\varphi.
-   \]
+3. Dao động điều hòa có phương trình $x=A\cos(\omega t+\varphi)$.
+4. Biên độ thỏa $A>0$ và $-A\le x\le A$.
+5. Chiều dài quỹ đạo là $L=2A$.
+6. Chu kì và tần số liên hệ bởi $f=\frac1T$.
+7. Tần số góc: $\omega=2\pi f=\frac{2\pi}{T}$.
+8. Pha dao động: $\Phi=\omega t+\varphi$.
 
 ## 5 điều cần nhớ
 
-1. Hệ số của \(t\) trong phương trình chuẩn là \(\omega\), không phải \(f\).
+1. Hệ số của $t$ trong phương trình chuẩn là $\omega$, không phải $f$.
 2. Biên độ luôn lấy dương.
 3. Li độ có thể âm; quãng đường không âm.
 4. Cùng vị trí chưa chắc cùng trạng thái.

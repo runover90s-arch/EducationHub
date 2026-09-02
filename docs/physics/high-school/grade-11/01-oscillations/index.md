@@ -20,7 +20,7 @@ tags:
 Sau chương này, người học cần:
 
 - mô tả được dao động cơ và dao động điều hòa;
-- sử dụng đúng các đại lượng \(A,\omega,\varphi,T,f\);
+- sử dụng đúng các đại lượng $A,\omega,\varphi,T,f$;
 - liên hệ được li độ, vận tốc, gia tốc;
 - đọc và suy ra thông tin từ đồ thị;
 - giải các bài toán thời gian, quãng đường, số lần qua vị trí;
@@ -30,16 +30,14 @@ Sau chương này, người học cần:
 
 ## Cấu trúc dự kiến
 
-| Bài | Nội dung | Mức chính |
-|---|---|---|
-| 1 | Đại cương về dao động điều hòa | Foundation |
-| 2 | Li độ, vận tốc và gia tốc | Foundation → Standard |
-| 3 | Đường tròn lượng giác và bài toán thời gian | Standard → Applied |
-| 4 | Con lắc lò xo | Standard → Advanced |
-| 5 | Con lắc đơn | Standard → Advanced |
-| 6 | Năng lượng trong dao động | Standard → Applied |
-| 7 | Dao động tắt dần, cưỡng bức, cộng hưởng | Foundation → Applied |
-| 8 | Bài tập tổng hợp và quiz chương | Mixed |
+1. **Bài 1 — Đại cương về dao động điều hòa** — Foundation.
+2. **Bài 2 — Li độ, vận tốc và gia tốc** — Foundation → Standard.
+3. **Bài 3 — Đường tròn lượng giác và bài toán thời gian** — Standard → Applied.
+4. **Bài 4 — Con lắc lò xo** — Standard → Advanced.
+5. **Bài 5 — Con lắc đơn** — Standard → Advanced.
+6. **Bài 6 — Năng lượng trong dao động** — Standard → Applied.
+7. **Bài 7 — Dao động tắt dần, cưỡng bức và cộng hưởng** — Foundation → Applied.
+8. **Bài 8 — Bài tập tổng hợp và quiz chương** — Mixed.
 
 ## Bắt đầu
 

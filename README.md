@@ -1,14 +1,23 @@
-# Education Hub — Vật lí 11
+# Education Hub
 
-Kho giáo trình Vật lí 11 được biên soạn theo hướng học từ nền tảng đến vận dụng nâng cao.
+Kho giáo trình học tập đa ngành được xuất bản bằng MkDocs Material.
 
-Nội dung học tập chính nằm trong thư mục `docs/`.
+Nội dung học tập nằm trong `docs/`. Vật lí 11 là giáo trình đầu tiên đang được xây dựng trong nhánh:
 
-## Chạy website ở máy cá nhân
+`Vật lí -> Trung học phổ thông -> Vật lí 11`.
+
+## Chạy tại Codespaces hoặc máy cá nhân
 
 ```bash
 pip install -r requirements.txt
+python tools/check_site.py
 mkdocs serve
 ```
 
-Sau đó mở địa chỉ MkDocs hiển thị trong terminal.
+## Kiểm tra trước khi push
+
+```bash
+python tools/check_site.py
+```
+
+Trình kiểm tra sẽ rà lỗi Markdown/LaTeX, liên kết nội bộ và chạy `mkdocs build --strict`.

@@ -1,30 +1,46 @@
 ---
-title: "Giáo trình Vật lí 11"
-description: "Học Vật lí 11 theo lộ trình rõ ràng, từ bản chất đến bài tập."
+title: "Education Hub"
+description: "Không gian giáo trình học tập đa ngành, được tổ chức theo lĩnh vực, bậc học và lộ trình kiến thức."
 ---
 
-# Giáo trình Vật lí 11
+# Education Hub
 
-Đây là không gian học Vật lí 11 theo một lộ trình thống nhất: **hiểu hiện tượng → nắm mô hình → sử dụng công thức đúng điều kiện → luyện bài tập → kiểm tra sai lầm → mở rộng nâng cao**.
+**Education Hub** là không gian học tập đa ngành. Mỗi giáo trình được đặt đúng vị trí trong hệ thống kiến thức, có lộ trình học, kiến thức tiên quyết, bài giảng, bài tập và lời giải.
 
-## Học như thế nào?
+Cấu trúc học tập chung:
 
-Nếu học lần đầu, nên đi theo thứ tự:
+**Lĩnh vực → bậc học hoặc chuyên ngành → môn học → chương → bài học.**
 
-1. **Dao động cơ học**
-2. **Sóng**
-3. **Điện trường**
-4. **Dòng điện và mạch điện**
+## Giáo trình hiện có
 
-Mỗi bài được tổ chức để người học có thể:
+<div class="grid cards" markdown>
 
-- biết mình đang học khái niệm gì;
-- hiểu ý nghĩa vật lí của công thức;
-- biết điều kiện áp dụng;
-- nhận ra bẫy thường gặp;
-- luyện bài từ cơ bản đến nâng cao;
-- xem lời giải theo mức độ chi tiết phù hợp.
+-   **Vật lí**
 
-## Bắt đầu
+    ---
 
-Đi tới [Vật lí 11](physics/high-school/grade-11/index.md) để xem toàn bộ lộ trình.
+    Hệ thống kiến thức Vật lí theo từng bậc học. Hiện đã bắt đầu xây dựng giáo trình **Vật lí 11**.
+
+    [Đi tới Vật lí](physics/index.md)
+
+-   **Thư viện giáo trình**
+
+    ---
+
+    Xem các giáo trình đã có trong Education Hub. Chỉ những môn đã có nội dung mới được đưa vào danh mục.
+
+    [Mở thư viện](catalog.md)
+
+</div>
+
+## Cách học trong Education Hub
+
+Một bài học được tổ chức theo hướng:
+
+**hiểu hiện tượng → nắm mô hình → hiểu công thức và điều kiện → luyện bài → kiểm tra sai lầm → mở rộng nâng cao.**
+
+Bạn có thể học tuần tự theo lộ trình của môn hoặc dùng mục lục và tìm kiếm để đi thẳng đến kiến thức cần tra cứu.
+
+## Dành cho người biên soạn
+
+Quy tắc cấu trúc nội dung, chuẩn trình bày công thức, kiểm tra lỗi và quy trình mở rộng hệ thống được tách riêng tại [Kỹ thuật biên soạn](technical/index.md).

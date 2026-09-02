@@ -14,3 +14,4 @@ Người học bình thường không cần đọc phần này.
 - [Quy chuẩn nội dung](editorial-guide.md)
 - [Chuẩn bài tập và lời giải](exercise-solution-standard.md)
 - [Kiểm soát độ bao phủ](content-coverage.md)
+- [Kiểm tra website và LaTeX](site-quality.md)

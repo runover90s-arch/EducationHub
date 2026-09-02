@@ -131,5 +131,5 @@ Khi bài có đồ thị:
 - chỉ rõ trục;
 - đơn vị;
 - các mốc đọc;
-- vì sao khoảng thời gian chọn được là \(T\), \(T/2\), \(T/4\)...;
+- vì sao khoảng thời gian chọn được là $T$, $T/2$, $T/4$...;
 - tránh suy luận từ hình vẽ không đúng tỉ lệ nếu đề không cho phép.

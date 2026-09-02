@@ -31,7 +31,7 @@ Mục tiêu:
 
 Trật tự đề nghị:
 
-**Đại cương → \(x,v,a\) → đường tròn lượng giác → con lắc lò xo → con lắc đơn → năng lượng → các loại dao động.**
+**Đại cương → $x,v,a$ → đường tròn lượng giác → con lắc lò xo → con lắc đơn → năng lượng → các loại dao động.**
 
 ## Giai đoạn 2 — Sóng
 

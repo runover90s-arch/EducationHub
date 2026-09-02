@@ -106,3 +106,38 @@ Khi kiến thức đã được giải thích đầy đủ ở bài trước:
 - tóm tắt tối thiểu phần cần nhớ;
 - liên kết về bài cũ;
 - không sao chép nguyên một mục dài.
+
+## 10. Chuẩn LaTeX và khoảng trắng
+
+Để công thức hiển thị ổn định với MkDocs Material + Arithmatex + MathJax:
+
+- công thức trong câu dùng `$...$`;
+- công thức cần tách dòng dùng `$$...$$`;
+- không viết trực tiếp delimiter `\\(...\\)` hoặc `\\[...\\]` trong Markdown;
+- không tách một kí hiệu đơn thành một khối công thức lớn;
+- công thức ngắn nên nằm ngay trong câu nếu cách đó dễ đọc hơn;
+- chỉ dùng display math khi công thức cần nhấn mạnh, có phân số lớn hoặc có nhiều bước biến đổi.
+
+Ví dụ nên dùng:
+
+```text
+**Kí hiệu:** $x$.
+```
+
+thay vì tạo một khối chỉ chứa `x`.
+
+## 11. Trình bày trên điện thoại
+
+Nội dung phải được kiểm tra ở màn hình hẹp trước khi xuất bản.
+
+- tiêu đề không được chiếm gần toàn bộ màn hình;
+- bảng nhiều cột phải cuộn ngang thay vì ép mỗi từ xuống một dòng;
+- công thức dài được phép cuộn ngang;
+- hạn chế chuỗi nhiều display equation liên tiếp nếu có thể viết thành một phép biến đổi duy nhất;
+- khoảng cách giữa tiêu đề, đoạn văn và công thức phải đủ rõ nhưng không tạo vùng trắng vô nghĩa.
+
+Trước khi push, chạy:
+
+```bash
+python tools/check_site.py
+```
