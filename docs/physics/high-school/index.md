@@ -7,4 +7,12 @@ description: "Các giáo trình Vật lí ở bậc trung học phổ thông."
 
 ## Giáo trình hiện có
 
-- [Vật lí 11](grade-11/index.md) — đang được biên soạn từ nền tảng đến nâng cao.
+<div class="grid cards" markdown>
+
+-   **Vật lí 11**
+
+    Dao động, sóng, điện trường, dòng điện và mạch điện; có lộ trình, knowledge map, bài tập, lời giải và nội dung nâng cao tách lớp.
+
+    [Mở Vật lí 11](grade-11/index.md)
+
+</div>

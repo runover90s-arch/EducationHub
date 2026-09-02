@@ -7,87 +7,125 @@ description: "Lộ trình học dựa trên quan hệ tiên quyết giữa các 
 
 ## Giai đoạn 0 — Chuẩn bị
 
-Trước khi bắt đầu, người học nên sử dụng được:
+Trước khi bắt đầu, người học nên dùng được:
 
-- đại số cơ bản;
-- phương trình bậc nhất và bậc hai;
-- tỉ lệ, biến đổi công thức;
-- lượng giác cơ bản;
-- vectơ ở mức độ phổ thông;
-- đọc đồ thị theo hai trục;
+- đại số và biến đổi công thức;
+- tỉ lệ, căn bậc hai;
+- lượng giác cơ bản, radian;
+- vectơ và phân tích thành phần;
+- đạo hàm cơ bản của sin–cos ở mức cần cho dao động;
+- đọc đồ thị;
+- định luật Newton, công–năng lượng cơ bản;
 - đơn vị SI và đổi đơn vị.
 
-## Giai đoạn 1 — Dao động điều hòa
+## Giai đoạn 1 — Dao động cơ học
 
-Mục tiêu:
+Học theo thứ tự:
 
-- hiểu dao động, vị trí cân bằng, biên độ, pha;
-- sử dụng phương trình dao động;
-- liên hệ li độ, vận tốc, gia tốc;
-- đọc đồ thị;
-- xử lí thời gian, quãng đường và số lần đi qua vị trí;
-- hiểu con lắc lò xo và con lắc đơn;
-- hiểu năng lượng và cộng hưởng.
+1. [Đại cương dao động điều hòa](01-oscillations/01-harmonic-oscillation-foundations.md)
+2. [$x,v,a$](01-oscillations/02-displacement-velocity-acceleration.md)
+3. [Pha, đường tròn, thời gian và quãng đường](01-oscillations/03-phase-circle-time-distance.md)
+4. [Con lắc lò xo](01-oscillations/04-spring-oscillator.md)
+5. [Con lắc đơn](01-oscillations/05-simple-pendulum.md)
+6. [Năng lượng](01-oscillations/06-oscillation-energy.md)
+7. [Tổng hợp, tắt dần, cưỡng bức, cộng hưởng](01-oscillations/07-combined-damped-forced-resonance.md)
 
-Trật tự đề nghị:
-
-**Đại cương → $x,v,a$ → đường tròn lượng giác → con lắc lò xo → con lắc đơn → năng lượng → các loại dao động.**
+Sau đó làm [bài tập chương](01-oscillations/exercises.md), tự kiểm tra bằng [quiz](01-oscillations/quiz.md), rồi đối chiếu [lời giải](01-oscillations/solutions.md).
 
 ## Giai đoạn 2 — Sóng
 
-Chỉ nên học sau khi đã chắc:
+Prerequisite quan trọng nhất là **pha** và **độ lệch pha**.
 
-- dao động điều hòa;
-- chu kì, tần số, pha;
-- độ lệch pha.
+Thứ tự:
 
-Trật tự đề nghị:
+**sóng cơ → phương trình sóng → giao thoa → sóng dừng → âm → sóng điện từ → giao thoa ánh sáng → thực hành đo tần số và tốc độ truyền âm → Doppler → nhiễu xạ/tán sắc → quang phổ → giao thoa nhiều bức xạ.**
 
-**Sóng cơ → phương trình sóng → giao thoa → sóng dừng → sóng âm → sóng điện từ → giao thoa ánh sáng.**
+Mốc đạt yêu cầu:
+
+- phân biệt $u-t$ và $u-x$;
+- dùng $v=\lambda f$;
+- lập độ lệch pha theo khoảng cách;
+- đếm cực đại/cực tiểu bằng điều kiện pha và miền hình học;
+- dùng đúng điều kiện biên của sóng dừng;
+- hiểu mức cường độ âm;
+- dùng khoảng vân Young;
+- biết đo tần số từ dạng sóng và đo tốc độ âm từ cộng hưởng hoặc thời gian truyền;
+- ở tuyến mở rộng, xử lí đúng dấu trong hiệu ứng Doppler, nhận biết nhiễu xạ, tán sắc, quang phổ và điều kiện trùng vân của nhiều bước sóng.
 
 ## Giai đoạn 3 — Điện trường
 
-Mục tiêu:
+Thứ tự:
 
-- hiểu điện tích và tương tác điện;
-- phân biệt lực điện và điện trường;
-- sử dụng vectơ cường độ điện trường;
-- hiểu công, thế năng, điện thế, hiệu điện thế;
-- hiểu tụ điện và năng lượng điện trường.
+**điện tích → Coulomb → điện trường → chồng chất → công/thế năng/điện thế → tụ điện → chuyển động điện tích → tụ nâng cao.**
 
-Trật tự đề nghị:
+Mốc đạt yêu cầu:
 
-**Điện tích → Coulomb → điện trường → tổng hợp điện trường → công/điện thế → tụ điện.**
-
-Nội dung chuyển động của điện tích và ghép tụ phức tạp học sau phần nền.
+- tách rõ đại lượng vectơ $\vec E$ và vô hướng V;
+- xác định hướng lực theo dấu q;
+- dùng $A=qU$ đúng thứ tự;
+- phân biệt điều kiện **tụ nối nguồn** và **tụ cô lập**.
 
 ## Giai đoạn 4 — Dòng điện và mạch điện
 
-Mục tiêu:
+Thứ tự:
 
-- hiểu bản chất dòng điện;
-- dùng định luật Ohm đúng phạm vi;
-- xử lí mạch nối tiếp, song song và hỗn hợp;
-- hiểu nguồn điện, điện trở trong;
-- tính năng lượng, công suất;
-- dùng định luật Ohm toàn mạch;
-- xử lí bộ nguồn.
+**dòng điện → điện trở/Ohm → nguồn → năng lượng/công suất → Ohm toàn mạch → ghép nguồn → đọc mạch → phương pháp nâng cao → thực hành đo suất điện động và điện trở trong.**
 
-Sau khi chắc phần chuẩn mới học:
+Phần [Kirchhoff, xếp chồng, nguồn tương đương và RC](04-current-circuits/08-advanced-circuit-methods.md) chỉ học sau khi đã chắc topology mạch và định luật Ohm.
 
-- Kirchhoff;
-- phương pháp xếp chồng;
-- nguồn tương đương;
-- mạch RC.
+## Giai đoạn 5 — Dòng điện trong các môi trường (mở rộng)
 
-## Giai đoạn 5 — Luyện tổng hợp
+Nếu học kho chuyên đề Vật lí 11 đầy đủ, tiếp tục:
 
-Mỗi chương thực hiện theo chu trình:
+**kim loại → điện phân → chất khí → bán dẫn → chân không và tế bào quang điện.**
 
-1. ôn bản đồ kiến thức;
-2. làm Level 1;
-3. chữa sai ngay;
-4. làm Level 2;
-5. làm Level 3;
-6. quay lại các lỗi lặp lại;
-7. chỉ chuyển Level 4–5 khi phần chuẩn đã vững.
+Mục tiêu không phải thuộc năm danh sách riêng. Với mỗi môi trường, phải trả lời được **hạt tải điện là gì, sinh ra thế nào, dịch chuyển ra sao và hiện tượng đặc trưng là gì**.
+
+## Giai đoạn 6 — Từ trường và cảm ứng từ (mở rộng)
+
+Thứ tự:
+
+1. [Từ trường và đường sức](06-magnetism/01-magnetic-field-field-lines.md)
+2. [Lực từ lên dòng điện](06-magnetism/02-magnetic-force-current-wire.md)
+3. [Từ trường của dòng điện và chồng chất](06-magnetism/03-fields-of-currents-superposition.md)
+4. [Dòng song song và khung dây](06-magnetism/04-parallel-currents-current-loop.md)
+5. [Lực Lorentz](06-magnetism/05-lorentz-force-charged-particle.md)
+
+Mốc đạt yêu cầu: không chỉ tính được B mà còn phải xác định đúng **chiều vectơ** trước khi cộng hoặc tính lực.
+
+## Giai đoạn 7 — Cảm ứng điện từ (mở rộng)
+
+Thứ tự:
+
+**từ thông → Faraday–Lenz → suất điện động do chuyển động → tự cảm và năng lượng từ trường.**
+
+Mốc quan trọng nhất: phân biệt **từ trường tồn tại** với **từ thông biến thiên**. Có B không đồng nghĩa tự động có dòng cảm ứng.
+
+## Giai đoạn 8 — Quang hình (mở rộng)
+
+Thứ tự:
+
+**khúc xạ → bản mặt song song → phản xạ toàn phần → lăng kính/tán sắc → thấu kính → phương pháp thấu kính → mắt → dụng cụ quang.**
+
+Ở phần này, luôn vẽ tia và dự đoán hình học trước khi thay số. Với thấu kính, phải dùng một quy ước dấu nhất quán từ đầu tới cuối.
+
+## Giai đoạn 9 — Luyện tổng hợp
+
+Với mỗi chương:
+
+1. làm Level 1 không nhìn công thức;
+2. chữa ngay lỗi khái niệm;
+3. làm Level 2–3;
+4. đánh dấu lỗi lặp;
+5. học lại đúng bài liên quan;
+6. làm Level 4;
+7. chỉ vào Level 5 khi phần chuẩn ổn định.
+
+### Quy tắc tự kiểm tra
+
+Nếu một câu sai do:
+- **không nhớ công thức** → quay về lý thuyết;
+- **nhớ công thức nhưng dùng sai điều kiện** → đọc mục bẫy/trường hợp đặc biệt;
+- **sai dấu/vectơ** → vẽ hình và chọn trục;
+- **sai mạch** → đánh dấu nút trước khi tính;
+- **sai số học** → giữ biểu thức chính xác lâu hơn, làm tròn ở cuối.

@@ -5,7 +5,7 @@ description: "Không gian giáo trình học tập đa ngành, được tổ ch�
 
 # Education Hub
 
-**Education Hub** là không gian học tập đa ngành. Mỗi giáo trình được đặt đúng vị trí trong hệ thống kiến thức, có lộ trình học, kiến thức tiên quyết, bài giảng, bài tập và lời giải.
+**Education Hub** là không gian học tập đa ngành. Mỗi giáo trình được đặt đúng vị trí trong hệ thống kiến thức, có lộ trình, prerequisite, bài giảng, bài tập, lời giải và phần nâng cao khi phù hợp.
 
 Cấu trúc học tập chung:
 
@@ -19,7 +19,7 @@ Cấu trúc học tập chung:
 
     ---
 
-    Hệ thống kiến thức Vật lí theo từng bậc học. Hiện đã bắt đầu xây dựng giáo trình **Vật lí 11**.
+    Nhánh Vật lí hiện có **Vật lí 11** ở bậc trung học phổ thông, gồm 4 chương từ dao động–sóng đến điện trường và mạch điện.
 
     [Đi tới Vật lí](physics/index.md)
 
@@ -27,7 +27,7 @@ Cấu trúc học tập chung:
 
     ---
 
-    Xem các giáo trình đã có trong Education Hub. Chỉ những môn đã có nội dung mới được đưa vào danh mục.
+    Xem các giáo trình đã có nội dung thực tế. Các môn chưa được biên soạn không tạo mục rỗng.
 
     [Mở thư viện](catalog.md)
 
@@ -35,12 +35,12 @@ Cấu trúc học tập chung:
 
 ## Cách học trong Education Hub
 
-Một bài học được tổ chức theo hướng:
+Mỗi bài được tổ chức theo hướng:
 
-**hiểu hiện tượng → nắm mô hình → hiểu công thức và điều kiện → luyện bài → kiểm tra sai lầm → mở rộng nâng cao.**
+**hiểu hiện tượng → nắm mô hình → hiểu công thức và điều kiện → luyện bài → chữa sai → mở rộng.**
 
-Bạn có thể học tuần tự theo lộ trình của môn hoặc dùng mục lục và tìm kiếm để đi thẳng đến kiến thức cần tra cứu.
+Bạn có thể học tuần tự theo roadmap của môn hoặc dùng mục lục và tìm kiếm để đi thẳng đến kiến thức cần tra cứu.
 
 ## Dành cho người biên soạn
 
-Quy tắc cấu trúc nội dung, chuẩn trình bày công thức, kiểm tra lỗi và quy trình mở rộng hệ thống được tách riêng tại [Kỹ thuật biên soạn](technical/index.md).
+Quy tắc cấu trúc nội dung, chuẩn bài tập–lời giải, kiểm soát độ bao phủ và kiểm tra LaTeX được tách riêng tại [Kỹ thuật biên soạn](technical/index.md).

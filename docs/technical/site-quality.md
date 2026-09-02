@@ -1,60 +1,63 @@
 ---
 title: "Kiểm tra website và LaTeX"
-description: "Quy trình kiểm tra công thức, liên kết và build trước khi xuất bản."
 ---
 
 # Kiểm tra website và LaTeX
 
-Education Hub có trình kiểm tra tự động tại:
-
-`tools/check_site.py`
-
-## Chạy kiểm tra đầy đủ
+Education Hub có quality gate tại:
 
 ```bash
 python tools/check_site.py
 ```
 
-Lệnh này thực hiện ba lớp kiểm tra:
+## Những lỗi được kiểm tra ở source
 
-1. rà Markdown và cú pháp LaTeX thường gây lỗi hiển thị;
-2. kiểm tra liên kết Markdown nội bộ;
-3. chạy `mkdocs build --strict` để phát hiện lỗi cấu hình hoặc cảnh báo build.
+Trình kiểm tra phát hiện:
 
-## Chuẩn viết công thức
+- delimiter LaTeX thô `\\(...\\)` hoặc `\\[...\\]` trong Markdown;
+- lệnh LaTeX như `\\omega`, `\\frac`, `\\cos` nằm ngoài vùng toán;
+- dấu `$` hoặc `$$` không cân bằng;
+- `$$` bị thụt lề trong list/admonition, là trường hợp dễ hiện nguyên LaTeX trên web;
+- display math chỉ chứa một kí hiệu và tạo khoảng trắng vô ích;
+- nhiều display math ngắn xếp sát nhau, làm lời giải bị giãn quá mức trên mobile;
+- link Markdown nội bộ bị chết;
+- file được khai báo trong `nav`, CSS hoặc JavaScript nhưng không tồn tại;
+- `mkdocs.yml` không hợp lệ.
 
-Trong file Markdown, dùng:
+## Kiểm tra sau khi render
 
-- công thức trong dòng: `$x=A\cos(\omega t+\varphi)$`;
-- công thức tách dòng: mở và đóng bằng `$$`.
+Khi không dùng `--lint-only`, script còn chạy:
 
-Không viết trực tiếp `\(...\)` hoặc `\[...\]` trong file Markdown. Với cấu hình hiện tại, `pymdownx.arithmatex` chịu trách nhiệm nhận diện công thức và chuyển sang dạng MathJax cần xử lí.
+```bash
+mkdocs build --strict
+```
 
-## Các lỗi trình kiểm tra phát hiện
+Sau đó nó quét **HTML đã build**. Những chuỗi như `$$`, `\\omega`, `\\frac`, `\\cos` còn xuất hiện dưới dạng văn bản nhìn thấy được bên ngoài vùng `arithmatex` sẽ làm kiểm tra thất bại.
 
-- delimiter LaTeX thô `\(`, `\)`, `\[`, `\]`;
-- lệnh như `\omega`, `\frac`, `\cos` nằm ngoài vùng toán;
-- dấu `$` hoặc khối `$$` không cân bằng;
-- khối công thức chỉ chứa một kí hiệu đơn, thường gây khoảng trắng lớn không cần thiết;
-- liên kết `.md` nội bộ trỏ tới file không tồn tại;
-- lỗi hoặc warning từ `mkdocs build --strict`.
+Điểm này quan trọng vì một file Markdown có thể nhìn đúng về mặt cú pháp nhưng vẫn bị parser hiểu sai trong list hoặc admonition. Kiểm tra HTML giúp bắt đúng loại lỗi từng xuất hiện trên giao diện điện thoại.
 
-## Quy tắc trình bày công thức
+## Cú pháp toán chuẩn
 
-Công thức tách dòng chỉ dùng khi nó thực sự cần được nhấn mạnh hoặc có nhiều bước biến đổi.
+Công thức trong dòng:
 
-Ví dụ, không nên viết một kí hiệu đơn như sau:
+```markdown
+$x=A\cos(\omega t+\varphi)$
+```
 
-```text
+Công thức cần tách dòng:
+
+```markdown
 $$
-x
+\omega=2\pi f
 $$
 ```
 
-Nên viết gọn trong câu:
+Không dùng display math chỉ để hiển thị một biến như `$x$`, `$T$` hoặc một kết quả rất ngắn. Những trường hợp đó nên để inline.
 
-```text
-**Kí hiệu:** $x$.
+## Khi chỉ muốn lint nhanh
+
+```bash
+python tools/check_site.py --lint-only
 ```
 
-Cách này tránh tạo khoảng trống lớn trên màn hình điện thoại.
+Chế độ này không cần MkDocs nhưng cũng không thể phát hiện lỗi chỉ xuất hiện sau khi Markdown được render thành HTML.

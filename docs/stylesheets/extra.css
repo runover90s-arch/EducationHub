@@ -1,7 +1,7 @@
-/* Education Hub: compact, readable layout for desktop and mobile. */
+/* Education Hub — compact, mobile-first reading layout. */
 
 :root {
-  --education-content-width: 54rem;
+  --education-content-width: 56rem;
 }
 
 .md-grid {
@@ -13,125 +13,176 @@
   margin-inline: auto;
 }
 
+/* Keep the textbook readable without the oversized feel of the first build. */
 .md-typeset {
-  font-size: 0.98rem;
-  line-height: 1.68;
+  font-size: 0.90rem;
+  line-height: 1.58;
 }
 
 .md-typeset h1,
 .md-typeset h2,
-.md-typeset h3 {
+.md-typeset h3,
+.md-typeset h4 {
   font-weight: 700;
   letter-spacing: -0.012em;
 }
 
 .md-typeset h1 {
-  margin-bottom: 0.8em;
+  margin: 0.35rem 0 0.65rem;
 }
 
 .md-typeset h2 {
-  margin-top: 1.7em;
-  margin-bottom: 0.65em;
+  margin-top: 1.35rem;
+  margin-bottom: 0.48rem;
 }
 
 .md-typeset h3 {
-  margin-top: 1.35em;
-  margin-bottom: 0.45em;
+  margin-top: 1rem;
+  margin-bottom: 0.38rem;
+}
+
+.md-typeset h4 {
+  margin-top: 0.9rem;
+  margin-bottom: 0.32rem;
 }
 
 .md-typeset p,
 .md-typeset ul,
 .md-typeset ol {
-  margin-top: 0.55em;
-  margin-bottom: 0.75em;
+  margin-top: 0.38em;
+  margin-bottom: 0.58em;
 }
 
 .md-typeset li + li {
-  margin-top: 0.2em;
+  margin-top: 0.12em;
 }
 
-/* Math: keep display equations close to the sentence that introduces them. */
+/* Math: display only when the equation genuinely benefits from its own line. */
 .md-typeset div.arithmatex {
   max-width: 100%;
-  margin: 0.55rem 0;
+  margin: 0.35rem 0;
   overflow-x: auto;
   overflow-y: hidden;
-  padding: 0.05rem 0;
+  padding: 0;
 }
 
 .md-typeset span.arithmatex {
   white-space: nowrap;
 }
 
+.md-typeset mjx-container {
+  font-size: 97% !important;
+}
+
 .md-typeset mjx-container[jax="CHTML"][display="true"] {
-  margin: 0.35rem 0 !important;
+  margin: 0.24rem 0 !important;
   overflow-x: auto;
   overflow-y: hidden;
-  padding: 0.05rem 0.1rem;
+  padding: 0.02rem 0.05rem;
 }
 
-/* Tables stay readable instead of crushing every word into a narrow column. */
-.md-typeset table:not([class]) {
-  font-size: 0.92rem;
-}
-
+/* Compact callouts, especially on phone screens. */
 .md-typeset .admonition,
 .md-typeset details {
   border-width: 0;
+  margin-top: 0.7rem;
+  margin-bottom: 0.7rem;
+}
+
+.md-typeset .admonition-title,
+.md-typeset summary {
+  padding-top: 0.55rem;
+  padding-bottom: 0.55rem;
+}
+
+.md-typeset .admonition > :last-child,
+.md-typeset details > :last-child {
+  margin-bottom: 0.55rem;
+}
+
+/* Tables: preserve column widths and let narrow screens scroll horizontally. */
+.md-typeset table:not([class]) {
+  font-size: 0.86rem;
 }
 
 .md-typeset .grid.cards > ul > li,
 .md-typeset .grid.cards > ol > li {
-  padding: 1rem 1.05rem;
+  padding: 0.85rem 0.95rem;
 }
 
 @media screen and (max-width: 44.9844em) {
   .md-content__inner {
-    margin: 0 0.8rem;
+    margin: 0 0.72rem;
   }
 
   .md-typeset {
-    font-size: 0.94rem;
-    line-height: 1.62;
+    font-size: 0.84rem;
+    line-height: 1.55;
   }
 
   .md-typeset h1 {
-    font-size: 1.8rem;
-    line-height: 1.22;
-    margin-top: 0.25rem;
-    margin-bottom: 0.85rem;
+    font-size: 1.58rem;
+    line-height: 1.2;
+    margin-top: 0.2rem;
+    margin-bottom: 0.65rem;
   }
 
   .md-typeset h2 {
-    font-size: 1.43rem;
-    line-height: 1.28;
-    margin-top: 1.45rem;
+    font-size: 1.25rem;
+    line-height: 1.26;
+    margin-top: 1.15rem;
+    margin-bottom: 0.42rem;
   }
 
   .md-typeset h3 {
-    font-size: 1.14rem;
-    line-height: 1.34;
-    margin-top: 1.15rem;
+    font-size: 1.06rem;
+    line-height: 1.3;
+    margin-top: 0.88rem;
+    margin-bottom: 0.32rem;
+  }
+
+  .md-typeset h4 {
+    font-size: 0.96rem;
+  }
+
+  .md-typeset p,
+  .md-typeset ul,
+  .md-typeset ol {
+    margin-top: 0.3em;
+    margin-bottom: 0.48em;
+  }
+
+  .md-typeset ul,
+  .md-typeset ol {
+    padding-left: 1.1rem;
   }
 
   .md-typeset div.arithmatex,
   .md-typeset mjx-container[jax="CHTML"][display="true"] {
-    margin-top: 0.35rem !important;
-    margin-bottom: 0.35rem !important;
+    margin-top: 0.2rem !important;
+    margin-bottom: 0.2rem !important;
+  }
+
+  .md-typeset mjx-container {
+    font-size: 94% !important;
+  }
+
+  .md-header__title {
+    font-size: 0.92rem;
   }
 
   .md-typeset table:not([class]) {
     display: block;
     width: 100%;
-    min-width: 38rem;
+    min-width: 34rem;
     max-width: none;
     overflow-x: auto;
     white-space: nowrap;
-    font-size: 0.84rem;
+    font-size: 0.78rem;
   }
 
   .md-typeset table:not([class]) th,
   .md-typeset table:not([class]) td {
-    padding: 0.55rem 0.7rem;
+    padding: 0.45rem 0.58rem;
   }
 }

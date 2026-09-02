@@ -141,3 +141,23 @@ Trước khi push, chạy:
 ```bash
 python tools/check_site.py
 ```
+
+## Quy tắc trình bày công thức trên màn hình nhỏ
+
+Để tránh bài học bị kéo dài bởi các khoảng trắng lớn, công thức được chọn cách trình bày theo vai trò của nó:
+
+- Công thức ngắn nằm trong một câu giải thích nên viết **inline**, ví dụ: `Chu kì là $T=2\pi/\omega$.`
+- Chỉ dùng công thức **display** (`$$...$$`) khi công thức là trọng tâm, dài, có nhiều bước biến đổi hoặc cần căn chỉnh nhiều dòng.
+- Không tách mỗi đại lượng của một lời giải thành một khối display riêng. Với các kết quả như $A$, $\omega$, $T$, $f$, nên dùng câu hoặc danh sách ngắn.
+- Trong `admonition`, `details` và danh sách đánh số, ưu tiên công thức inline. Không đặt delimiter `$$` thụt lề nếu không thực sự cần thiết, vì Markdown có thể xuất nguyên kí hiệu `$$` ra trang.
+- Khi một lời giải có nhiều bước biến đổi liên tiếp, dùng **một** khối `aligned` thay vì nhiều khối công thức rời nhau.
+
+Ví dụ nên dùng:
+
+```markdown
+- Biên độ: $A=8$ cm.
+- Chu kì: $T=0,5$ s.
+- Tần số: $f=2$ Hz.
+```
+
+Thay vì ba khối `$$...$$` riêng biệt.

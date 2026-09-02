@@ -1,6 +1,6 @@
 ---
 title: "Vật lí 11"
-description: "Giáo trình Vật lí 11 gồm dao động, sóng, điện trường, dòng điện và mạch điện."
+description: "Giáo trình Vật lí 11 gồm phần lõi hiện hành và các chuyên đề mở rộng: dòng điện trong môi trường, từ trường, cảm ứng điện từ và quang hình."
 tags:
   - physics
   - grade-11
@@ -8,76 +8,97 @@ tags:
 
 # Vật lí 11
 
-## Mục tiêu của giáo trình
+**Vật lí 11** là một giáo trình nằm trong **Education Hub → Vật lí → Trung học phổ thông**. Nội dung được tổ chức để vừa học mới, ôn hệ thống, vừa luyện bài theo mức độ.
 
-Giáo trình hướng tới ba việc đồng thời:
+## Cách dùng giáo trình
 
-- xây nền lý thuyết chắc;
-- biến công thức thành công cụ có điều kiện và có ý nghĩa;
-- tạo khả năng xử lí bài tập từ nhận biết đến bài tổng hợp.
+Mỗi mạch kiến thức đi theo chu trình:
 
-Nội dung không được thiết kế theo kiểu "học thuộc công thức rồi thay số". Mỗi mạch kiến thức sẽ đi qua:
+**Hiện tượng → khái niệm → mô hình → công thức và điều kiện → trực giác → phương pháp → bài tập → lời giải → sai lầm → nâng cao.**
 
-**Hiện tượng → đại lượng → mô hình → hệ thức → điều kiện → phương pháp → bài tập → sai lầm → mở rộng.**
+Người học lần đầu nên đi tuần tự. Người ôn tập có thể dùng [Bản đồ kiến thức](knowledge-map.md), [Thuật ngữ](glossary.md) và hệ bài tập cuối chương.
 
-## Cấu trúc toàn môn
+## Phần I — Dao động và sóng
 
-### Phần I — Dao động và sóng
+<div class="grid cards" markdown>
 
-**Chương 1 — Dao động cơ học**
+-   **Chương 1 — Dao động cơ học**
 
-1. Đại cương về dao động điều hòa.
-2. Li độ, vận tốc và gia tốc trong dao động điều hòa.
-3. Phương pháp đường tròn lượng giác và bài toán thời gian.
-4. Con lắc lò xo.
-5. Con lắc đơn.
-6. Năng lượng trong dao động.
-7. Dao động tắt dần, dao động cưỡng bức và cộng hưởng.
-8. Bài tập tổng hợp, quiz và lời giải chương.
+    Dao động điều hòa; li độ–vận tốc–gia tốc; pha và đường tròn lượng giác; con lắc lò xo, con lắc đơn; năng lượng; dao động tắt dần, cưỡng bức và cộng hưởng.
 
-**Chương 2 — Sóng**
+    [Mở Chương 1](01-oscillations/index.md)
 
-1. Đại cương về sóng cơ và sự truyền sóng.
-2. Phương trình sóng, độ lệch pha và trạng thái dao động của các điểm.
-3. Giao thoa sóng cơ.
-4. Sóng dừng.
-5. Sóng âm.
-6. Sóng điện từ.
-7. Giao thoa ánh sáng.
-8. Bài tập tổng hợp, quiz và lời giải chương.
+-   **Chương 2 — Sóng**
 
-### Phần II — Điện trường, dòng điện và mạch điện
+    Sóng cơ, phương trình sóng, giao thoa, sóng dừng, sóng âm, sóng điện từ, giao thoa ánh sáng, thực hành âm; phần mở rộng có Doppler, nhiễu xạ, tán sắc, quang phổ và giao thoa nhiều bức xạ.
 
-**Chương 3 — Điện trường**
+    [Mở Chương 2](02-waves/index.md)
 
-1. Thuyết electron và định luật bảo toàn điện tích.
-2. Lực tương tác tĩnh điện — định luật Coulomb.
-3. Điện trường và cường độ điện trường.
-4. Tổng hợp điện trường, cân bằng điện tích và đường sức.
-5. Công của lực điện, thế năng điện, điện thế và hiệu điện thế.
-6. Tụ điện.
-7. Chuyển động của điện tích trong điện trường đều.
-8. Ghép tụ và các bài toán nâng cao về tụ điện.
-9. Bài tập tổng hợp, quiz và lời giải chương.
+</div>
 
-**Chương 4 — Dòng điện và mạch điện**
+## Phần II — Điện trường, dòng điện và mạch điện
 
-1. Dòng điện và cường độ dòng điện.
-2. Điện trở, định luật Ohm và đoạn mạch chỉ chứa điện trở.
-3. Nguồn điện, suất điện động và điện trở trong.
-4. Năng lượng điện, công suất điện và định luật Joule–Lenz.
-5. Định luật Ohm cho toàn mạch.
-6. Ghép nguồn thành bộ.
-7. Đọc và biến đổi mạch; ampe kế, vôn kế lí tưởng.
-8. Các chuyên đề nâng cao: Kirchhoff, xếp chồng, nguồn tương đương và mạch RC.
-9. Bài tập tổng hợp, quiz và lời giải chương.
+<div class="grid cards" markdown>
 
-!!! note "Phân tầng kiến thức"
-    Các nội dung vượt quá mạch nền tảng sẽ được đặt riêng ở **Level 4 — Advanced** hoặc **Level 5 — Enrichment**. Người học không cần học phần nâng cao để hiểu phần cơ bản.
+-   **Chương 3 — Điện trường**
 
-## Tài liệu điều hướng
+    Điện tích và thuyết electron; Coulomb; điện trường; công–điện thế; chuyển động điện tích; tụ điện từ cơ bản đến nâng cao; cân bằng hệ điện tích và con lắc điện.
+
+    [Mở Chương 3](03-electric-field/index.md)
+
+-   **Chương 4 — Dòng điện và mạch điện**
+
+    Cường độ dòng điện, điện trở, nguồn điện, định luật Ohm, năng lượng–công suất, ghép nguồn, đọc mạch, thực hành nguồn điện và các bài nguồn–máy thu–nhánh tụ.
+
+    [Mở Chương 4](04-current-circuits/index.md)
+
+</div>
+
+## Phần III — Chuyên đề mở rộng và tương thích hệ Vật lí 11 rộng hơn
+
+!!! info "Cách dùng phần mở rộng"
+    Chương 5–8 **không được trộn vào tuyến lõi Chương 1–4**. Chúng được giữ thành các chương riêng để người học có thể học toàn bộ kho chuyên đề Vật lí 11 mà vẫn biết phần nào là tuyến chính, phần nào là mở rộng. Nếu mục tiêu chỉ là chương trình lõi hiện hành, có thể dừng sau Chương 4 rồi quay lại phần này khi cần.
+
+<div class="grid cards" markdown>
+
+-   **Chương 5 — Dòng điện trong các môi trường**
+
+    Kim loại, điện phân, chất khí, bán dẫn, chân không và tế bào quang điện; nhấn mạnh hạt tải điện và cơ chế dẫn điện của từng môi trường.
+
+    [Mở Chương 5](05-current-media/index.md)
+
+-   **Chương 6 — Từ trường và cảm ứng từ**
+
+    Đường sức từ, lực từ, từ trường của dòng điện, tổng hợp cảm ứng từ, lực giữa các dòng điện, khung dây và lực Lorentz.
+
+    [Mở Chương 6](06-magnetism/index.md)
+
+-   **Chương 7 — Cảm ứng điện từ**
+
+    Từ thông, Faraday–Lenz, thanh dẫn chuyển động, tự cảm và năng lượng từ trường.
+
+    [Mở Chương 7](07-electromagnetic-induction/index.md)
+
+-   **Chương 8 — Khúc xạ ánh sáng và quang hình**
+
+    Khúc xạ, phản xạ toàn phần, bản mặt song song, lăng kính, thấu kính, mắt, kính lúp, kính hiển vi và kính thiên văn.
+
+    [Mở Chương 8](08-geometrical-optics/index.md)
+
+</div>
+
+## Phân tầng
+
+- **Level 1 — Foundation:** định nghĩa, đại lượng, công thức nền.
+- **Level 2 — Standard:** bài chuẩn và liên hệ trực tiếp.
+- **Level 3 — Applied:** bài nhiều bước, đồ thị, phối hợp kiến thức.
+- **Level 4 — Advanced:** bài tổng hợp, biến đổi cấu hình, phương pháp mạch nâng cao.
+- **Level 5 — Enrichment:** mở rộng giúp nối sang tư duy đại học; không trộn vào phần nền.
+
+> Đây là cách phân loại phục vụ mục đích sư phạm, không phải phân loại học thuật chính thức.
+
+## Điều hướng nhanh
 
 - [Lộ trình học](roadmap.md)
 - [Bản đồ kiến thức](knowledge-map.md)
 - [Thuật ngữ](glossary.md)
-- [Chương 1 — Dao động cơ học](01-oscillations/index.md)

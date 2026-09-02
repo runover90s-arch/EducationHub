@@ -13,9 +13,9 @@ Trang này chỉ liệt kê **giáo trình đã có nội dung thực tế**. L�
 
 <div class="grid cards" markdown>
 
--   **Vật lí 11** · đang biên soạn
+-   **Vật lí 11** · bản đầy đủ hiện tại
 
-    Dao động cơ học, sóng, điện trường, dòng điện và mạch điện; tổ chức từ nền tảng đến nâng cao.
+    Tuyến lõi gồm 4 chương: Dao động cơ học; Sóng; Điện trường; Dòng điện và mạch điện. Kho mở rộng thêm Dòng điện trong các môi trường; Từ trường; Cảm ứng điện từ; Khúc xạ ánh sáng và quang hình. Các phần mở rộng được tách nhãn rõ để không làm lẫn tuyến học chính.
 
     [Mở giáo trình](physics/high-school/grade-11/index.md)
 
