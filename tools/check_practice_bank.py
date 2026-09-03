@@ -31,8 +31,8 @@ for ex in sorted(GRADE.glob('[0-9][0-9]-*/practice/*/exercises.md')):
         continue
     et=ex.read_text(encoding='utf-8')
     st=sol.read_text(encoding='utf-8')
-    qheads=list(re.finditer(r'^### Câu (\d+)\b.*$',et,re.M))
-    sheads=list(re.finditer(r'^## Câu (\d+)\b.*$',st,re.M))
+    qheads=list(re.finditer(r'^### (?:Câu|Bài) (\d+)\b.*$',et,re.M))
+    sheads=list(re.finditer(r'^## (?:Câu|Bài) (\d+)\s*$',st,re.M))
     qnums=[int(m.group(1)) for m in qheads]
     snums=[int(m.group(1)) for m in sheads]
     if qnums != list(range(1,len(qnums)+1)):
@@ -59,7 +59,7 @@ for ex in sorted(GRADE.glob('[0-9][0-9]-*/practice/*/exercises.md')):
     mA=re.search(r'^## Phần A .*?$(.*?)(?=^## Phần B|^## Phần C|^## Phần D|\Z)',et,re.M|re.S)
     if mA:
         block=mA.group(1)
-        hs=list(re.finditer(r'^### Câu \d+.*$',block,re.M))
+        hs=list(re.finditer(r'^### (?:Câu|Bài) \d+.*$',block,re.M))
         for i,h in enumerate(hs):
             body=block[h.end(): hs[i+1].start() if i+1<len(hs) else len(block)]
             for opt in 'ABCD':

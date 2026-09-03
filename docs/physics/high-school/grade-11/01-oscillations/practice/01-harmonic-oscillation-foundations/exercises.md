@@ -9,13 +9,13 @@ tags:
 
 # Bài tập — Bài 1 — Đại cương về dao động điều hòa
 
-> Hệ bài tập được biên soạn theo các dạng xuất hiện trong bộ tài liệu Vật lí 11 của dự án. Câu hỏi được giữ ngắn, trực tiếp; độ khó tăng dần và không cố tình thêm dữ kiện gây nhiễu.
+> Hệ bài tập bám sát nội dung và mức độ của bộ tài liệu Vật lí 11 đang dùng trong dự án. Dữ kiện và độ khó của bài được giữ nguyên khi nhập từ nguồn; phần trình bày được chuẩn hóa để người học đọc đề, xem hình và mở lời giải theo một luồng thống nhất.
 
 [← Trở lại bài học](../../01-harmonic-oscillation-foundations.md)
 
 ## Phần A — Trắc nghiệm 4 lựa chọn
 
-### Câu 1 — Mức 1 — Nhận biết
+### Bài 1 — Mức 1 — Nhận biết
 
 Một vật dao động điều hòa theo phương trình $x=6\cos(4\pi t-\pi/3)$ cm. Biên độ và tần số của dao động là
 
@@ -24,7 +24,10 @@ B. $4$ cm và $6$ Hz.
 C. $6$ cm và $4$ Hz.  
 D. $3$ cm và $2$ Hz.
 
-### Câu 2 — Mức 1 — Nhận biết
+??? success "Đáp án và lời giải"
+    Chọn **A**. So sánh với $x=A\cos(\omega t+\varphi)$: $A=6$ cm, $\omega=4\pi$ rad/s nên $f=\omega/(2\pi)=2$ Hz.
+
+### Bài 2 — Mức 1 — Nhận biết
 
 Một dao động có chu kì $T=0,25$ s. Tần số góc bằng
 
@@ -33,7 +36,10 @@ B. $4\pi$ rad/s.
 C. $8\pi$ rad/s.  
 D. $16\pi$ rad/s.
 
-### Câu 3 — Mức 1 — Nhận biết
+??? success "Đáp án và lời giải"
+    Chọn **C**. $\omega=2\pi/T=2\pi/0,25=8\pi$ rad/s.
+
+### Bài 3 — Mức 1 — Nhận biết
 
 Một vật dao động điều hòa có biên độ $A=5$ cm. Chiều dài quỹ đạo là
 
@@ -42,7 +48,10 @@ B. $5$ cm.
 C. $10$ cm.  
 D. $20$ cm.
 
-### Câu 4 — Mức 1 — Nhận biết
+??? success "Đáp án và lời giải"
+    Chọn **C**. Vật chuyển động giữa hai biên $-A$ và $+A$, vì vậy chiều dài quỹ đạo là $2A=10$ cm.
+
+### Bài 4 — Mức 1 — Nhận biết
 
 Phát biểu nào đúng?
 
@@ -51,9 +60,12 @@ B. Dao động điều hòa là dao động có li độ biến thiên theo hàm
 C. Biên độ dao động điều hòa có thể âm.  
 D. Tần số góc có đơn vị héc.
 
+??? success "Đáp án và lời giải"
+    Chọn **B**. Dao động điều hòa là trường hợp đặc biệt của dao động tuần hoàn; biên độ được quy ước dương và tần số góc có đơn vị rad/s.
+
 ## Phần B — Đúng/Sai
 
-### Câu 5 — Mức 2 — Thông hiểu
+### Bài 5 — Mức 2 — Thông hiểu
 
 Xét dao động $x=8\cos(5t+\pi/6)$ cm. Đánh dấu Đúng/Sai:
 
@@ -62,7 +74,13 @@ b) Chu kì bằng $2\pi/5$ s.
 c) Tần số bằng $5$ Hz.  
 d) Pha ban đầu bằng $\pi/6$ rad.
 
-### Câu 6 — Mức 2 — Thông hiểu
+??? success "Đáp án và lời giải"
+    a) **Đúng**. $A=8$ cm.  
+    b) **Đúng**. $T=2\pi/\omega=2\pi/5$ s.  
+    c) **Sai**. $f=\omega/(2\pi)=5/(2\pi)$ Hz.  
+    d) **Đúng**. $\varphi=\pi/6$ rad.
+
+### Bài 6 — Mức 2 — Thông hiểu
 
 Một vật dao động điều hòa có phương trình $x=A\cos(\omega t+\varphi)$ với $A>0$, $\omega>0$. Xét các phát biểu:
 
@@ -71,1519 +89,2211 @@ b) Sau mỗi khoảng thời gian $T$, trạng thái dao động lặp lại.
 c) Hệ số của $t$ trong pha chính là tần số $f$.  
 d) Nếu đổi $A$ thành $-A$ mà giữ nguyên pha thì vẫn đang viết ở dạng chuẩn.
 
+??? success "Đáp án và lời giải"
+    a) **Đúng**.  
+    b) **Đúng**.  
+    c) **Sai**. Hệ số của $t$ là $\omega$, không phải $f$.  
+    d) **Sai**. Dạng chuẩn lấy $A>0$; nếu gặp biên độ âm phải chuyển dấu vào pha.
+
 ## Phần C — Trả lời ngắn
 
-### Câu 7 — Mức 3 — Vận dụng
+### Bài 7 — Mức 3 — Vận dụng
 
 Một vật thực hiện $45$ dao động toàn phần trong $18$ s. Tính chu kì, tần số và tần số góc.
 
-### Câu 8 — Mức 3 — Vận dụng
+??? success "Đáp án và lời giải"
+    Ta có $f=N/\Delta t=45/18=2,5$ Hz. Do đó $T=1/f=0,4$ s và $\omega=2\pi f=5\pi$ rad/s.
+
+### Bài 8 — Mức 3 — Vận dụng
 
 Vật dao động theo $x=10\cos(2\pi t+\pi/3)$ cm. Tính pha dao động và li độ tại $t=1/6$ s.
 
-### Câu 9 — Mức 3 — Vận dụng
+??? success "Đáp án và lời giải"
+    Pha tại $t=1/6$ s:
+
+    $\Phi=2\pi\cdot\frac16+\frac\pi3=\frac{2\pi}{3}$.
+
+    Suy ra $x=10\cos(2\pi/3)=-5$ cm.
+
+### Bài 9 — Mức 3 — Vận dụng
 
 Một vật dao động điều hòa có $f=4$ Hz và quỹ đạo dài $16$ cm. Viết các giá trị $A$, $T$ và $\omega$.
 
+??? success "Đáp án và lời giải"
+    Quỹ đạo dài $2A=16$ cm nên $A=8$ cm. $T=1/f=0,25$ s và $\omega=2\pi f=8\pi$ rad/s.
+
 ## Phần D — Vận dụng và vận dụng cao
 
-### Câu 10 — Mức 4 — Vận dụng cao
+### Bài 10 — Mức 4 — Vận dụng cao
 
 Một vật dao động điều hòa. Tại $t=0$ vật ở vị trí $x=A/2$ và đang chuyển động theo chiều âm. Biết chu kì $T=0,8$ s, biên độ $A=6$ cm. Viết phương trình dao động dạng cos.
 
----
+??? success "Đáp án và lời giải"
+    **Chọn dạng chuẩn:** $x=A\cos(\omega t+\varphi)$.
 
-[Đáp án và lời giải →](solutions.md)
+    $\omega=2\pi/T=2,5\pi$ rad/s. Tại $t=0$:
 
-## Ngân hàng bài tập PDF mở rộng
+    $\cos\varphi=x_0/A=1/2$.
 
-> Nội dung câu hỏi và dữ kiện trong phần này được giữ nguyên; hệ thống chỉ chuẩn hóa xuống dòng và mã kí tự để hiển thị trên web. Câu trùng được loại bỏ. Với câu có công thức/kí hiệu bị sai khi trích xuất chữ từ PDF, đề bài được giữ dưới dạng ảnh để không làm thay đổi dữ kiện.
+    Vì vật chuyển động theo chiều âm nên $v_0=-A\omega\sin\varphi<0$, tức $\sin\varphi>0$. Do đó chọn $\varphi=\pi/3$.
+
+    Vậy
+
+    $x=6\cos\left(2,5\pi t+\frac{\pi}{3}\right)\text{ cm}.$
+
+    Kiểm tra: tại $t=0$, $x=3$ cm và $v<0$, đúng với đề.
+
+## Ngân hàng bài tập mở rộng
+
+> Các bài dưới đây được đánh số nối tiếp phần bài tập phía trên. Đề bài được trình bày bằng Markdown; chỉ đồ thị, hình vẽ hoặc sơ đồ thực sự cần thiết mới được giữ dưới dạng hình. Đáp án và lời giải được đặt trong nút mở rộng ngay dưới từng bài.
 
 ### Nhận biết — Trả lời ngắn
 
-#### Bài PDF 1
+#### Bài 11
 
 <!-- source-id: BT-Chuong-I-p31-q1-77 -->
 
-Câu 1. Một chất điểm dao động điều hoà trên trục Ox. Đồ thị li độ - thời gian (x -1) của vật được
-cho như hình bên dưới. Độ dịch chuyển của vật kể từ thời điểm t = 0  đến t = 0,125 s là bao nhiêu
-xentimet?(Lấy 3 chữ số có nghĩa)
+Một chất điểm dao động điều hòa trên trục $Ox$. Đồ thị li độ – thời gian $(x-t)$ của vật được cho như hình dưới. Độ dịch chuyển của vật từ $t=0$ đến $t=0{,}125$ s là bao nhiêu xentimét? **Lấy 3 chữ số có nghĩa.**
 
-Đáp án
-7
-,
-0
-7
+![Đồ thị hoặc hình minh họa của Bài 11](../../../assets/exercise-figures/clean-bai-1/bt-011-p031-q01.webp){ loading=lazy }
 
-![Hình/bảng/đồ thị đi kèm bài PDF 1](../../../assets/exercise-figures/i-p031-q01-40448.webp){ loading=lazy }
+??? success "Đáp án và lời giải"
+    **Đáp án: $7{,}07$ cm.**
 
-#### Bài PDF 2
+    Từ đồ thị đọc được biên độ $A=5\sqrt2$ cm. Ở $t=0$, vật ở vị trí cân bằng nên $x_1=0$; tại $t=0{,}125$ s, vật ở biên dương nên $x_2=5\sqrt2$ cm.
+
+    $\Delta x=x_2-x_1=5\sqrt2-0\approx7{,}07\ \text{cm}.$
+
+#### Bài 12
 
 <!-- source-id: BT-Chuong-I-p31-q2-78 -->
 
-Câu 2. Một vật dao động điều hoà dọc theo trục Ox. Đồ thị li độ - thời gian của vật được cho như
-hình bên dưới. Lấy gia tổc rơi tự do là
-2
-2
-g = π
-10 m/s
-
-. Chu kỳ dao động của vật bằng bao nhiêu
-giây?
+Một vật dao động điều hòa dọc theo trục $Ox$. Đồ thị li độ – thời gian của vật được cho như hình dưới. Lấy $g=\pi^2\approx10\ \text{m/s}^2$. Chu kì dao động của vật bằng bao nhiêu giây?
 
-Đáp án
-0
-,
-6
+![Đồ thị hoặc hình minh họa của Bài 12](../../../assets/exercise-figures/clean-bai-1/bt-012-p031-q02.webp){ loading=lazy }
 
-![Hình/bảng/đồ thị đi kèm bài PDF 2](../../../assets/exercise-figures/i-p031-q02-12420.webp){ loading=lazy }
+??? success "Đáp án và lời giải"
+    **Đáp án: $0{,}8$ s.**
 
-#### Bài PDF 3
+    Từ đồ thị, tại $t_1=\dfrac13$ s vật qua vị trí cân bằng theo chiều âm; tại $t_2=\dfrac{14}{15}$ s vật ở biên dương. Khoảng thời gian giữa hai trạng thái này bằng $\dfrac{3T}{4}$:
+
+    $\Delta t=\frac{14}{15}-\frac13=0{,}6\ \text{s}=\frac{3T}{4}.$
+
+    Suy ra
+
+    $T=0{,}8\ \text{s}.$
+
+    **Lưu ý:** $0{,}6$ s là khoảng thời gian $\Delta t$ giữa hai trạng thái đã cho, không phải chu kì $T$.
+
+#### Bài 13
 
 <!-- source-id: BT-Chuong-I-p31-q3-79 -->
 
-Câu 3. Hình bên dưới là đồ thị của một vật dao động điều hòa với chu kì 1,2s. Gía trị của t0 trong đồ
-thị là bao nhiêu giây?
+Hình dưới là đồ thị của một vật dao động điều hòa có chu kì $T=1{,}2$ s. Giá trị của $t_0$ trên đồ thị là bao nhiêu giây?
 
-Đáp án
-0
-,
-7
+![Đồ thị hoặc hình minh họa của Bài 13](../../../assets/exercise-figures/clean-bai-1/bt-013-p032-q03.webp){ loading=lazy }
 
-![Hình/bảng/đồ thị đi kèm bài PDF 3](../../../assets/exercise-figures/i-p031-q03-13280.webp){ loading=lazy }
+??? success "Đáp án và lời giải"
+    **Đáp án: $0{,}7$ s.**
 
-#### Bài PDF 4
+    Tại $t=0$, đồ thị có $x=\dfrac{\sqrt3}{2}A$ và đang đi lên. Vật cần $T/12$ để tới biên dương, rồi thêm $T/2$ để tới biên âm. Với $T=1{,}2$ s:
+
+    $t_0=\frac{T}{12}+\frac{T}{2}=\frac{7T}{12}=0{,}7\ \text{s}.$
+
+#### Bài 14
 
 <!-- source-id: BT-Chuong-I-p32-q4-80 -->
 
-![Đề bài PDF — Bài 4](../../../assets/exercise-figures/source-faithful/i-p032-q04-de.webp){ loading=lazy }
+Một vật dao động theo phương trình
 
-#### Bài PDF 5
+$$
+x=6\sqrt{3}\cos\left(\frac{\pi}{2}t-\frac{\pi}{3}\right)\ \text{cm}.
+$$
+
+Kể từ $t=0$, thời điểm vật cách vị trí cân bằng $9$ cm và đang lại gần vị trí cân bằng lần thứ $2021$ là bao nhiêu giây? **Chỉ lấy phần nguyên của kết quả.**
+
+??? success "Đáp án và lời giải"
+    **Đáp án: $4041$ s.**
+
+    Biên độ $A=6\sqrt3$ cm, nên điều kiện $|x|=9$ cm tương đương
+
+    $$|x|=\frac{\sqrt3}{2}A.$$
+
+    Trong mỗi chu kì có **hai** lần vật ở khoảng cách này và đang chuyển động về vị trí cân bằng. Ta có
+
+    $$2021=1010\cdot2+1.$$
+
+    Sau $1010$ chu kì đã có $2020$ lần thỏa điều kiện. Với $\omega=\pi/2$ rad/s thì $T=4$ s. Từ trạng thái ban đầu đến lần thỏa điều kiện kế tiếp cần thêm $T/4=1$ s. Do đó
+
+    $$t=1010T+\frac{T}{4}=1010\cdot4+1=4041\ \text{s}.$$
+
+#### Bài 15
 
 <!-- source-id: BT-Chuong-I-p45-q1-126 -->
 
-Câu 1. Cho đồ thị li độ theo thời gian của một vật dao động điều hoà như hình vẽ. Tính chu kì
-dao động của vật theo đơn vị giây?
+Cho đồ thị li độ theo thời gian của một vật dao động điều hòa như hình dưới. Tính chu kì dao động của vật theo đơn vị giây.
 
-![Hình/bảng/đồ thị đi kèm bài PDF 5](../../../assets/exercise-figures/i-p045-q01-45201.webp){ loading=lazy }
+![Đồ thị hoặc hình minh họa của Bài 15](../../../assets/exercise-figures/clean-bai-1/bt-015-p045-q01.webp){ loading=lazy }
 
-#### Bài PDF 6
+??? success "Đáp án và lời giải"
+    **Đáp án: $2$ s.**
+
+    Trên đồ thị, cực đại ở $t=\dfrac23$ s và cực tiểu kế tiếp ở $t=\dfrac53$ s. Hai trạng thái này cách nhau nửa chu kì:
+
+    $\frac{T}{2}=\frac53-\frac23=1\ \text{s}\Rightarrow T=2\ \text{s}.$
+
+#### Bài 16
 
 <!-- source-id: BT-Chuong-I-p45-q2-127 -->
 
-Câu 2. Một vật dao động điều hòa với phương trình 𝑥= 2 𝑐𝑜𝑠(2𝜋𝑡−
-𝜋
-6) (𝑐𝑚). Xác định li độ
-của vật theo đơn vị cm ở thời điểm t = 2 s. (Làm tròn đến số thập phân thứ 2 sau giấu phẩy)
+Một vật dao động điều hòa với phương trình
 
-#### Bài PDF 7
+$$
+x=2\cos\left(2\pi t-\frac{\pi}{6}\right)\ \text{cm}.
+$$
+
+Xác định li độ của vật tại $t=2$ s. Kết quả tính bằng xentimét và làm tròn đến hai chữ số thập phân.
+
+??? success "Đáp án và lời giải"
+    **Đáp án: $1{,}73$ cm.**
+
+    Thay $t=2$ s vào phương trình:
+
+    $x=2\cos\left(4\pi-\frac{\pi}{6}\right) =2\cos\frac{11\pi}{6} =\sqrt3 \approx1{,}73\ \text{cm}.$
+
+    **Kiểm tra kết quả:** phải nhân với biên độ $A=2$ cm; vì vậy li độ đúng là $1{,}73$ cm.
+
+#### Bài 17
 
 <!-- source-id: BT-Chuong-I-p45-q3-128 -->
 
-Câu 3. Một chất điểm dao động điều hoà. Trong thời gian 1 phút, vật thực hiện được 30 dao động.
-Chu kì dao động của chất điểm bằng bao nhiêu giây?
+Một chất điểm dao động điều hòa. Trong thời gian $1$ phút, vật thực hiện được $30$ dao động. Chu kì dao động của chất điểm bằng bao nhiêu giây?
 
-#### Bài PDF 8
+??? success "Đáp án và lời giải"
+    **Đáp án: $2$ s.**
+
+    Đổi $1$ phút $=60$ s. Với $N=30$ dao động:
+
+    $T=\frac{\Delta t}{N}=\frac{60}{30}=2\ \text{s}.$
+
+#### Bài 18
 
 <!-- source-id: BT-Chuong-I-p45-q4-129 -->
 
-Câu 4. Một chất điểm dao động điều hoà theo phương trình 𝑥= 2 𝑐𝑜𝑠(2𝜋𝑡) ( x  tính bằng cm, t
-tính bằng s). Tại thời điểm
-1
-t
-3
-=
-s chất điểm có li độ bằng bao nhiêu cm.
+Một chất điểm dao động điều hòa theo phương trình
 
-#### Bài PDF 9
+$$
+x=2\cos(2\pi t)\ \text{cm}.
+$$
+
+Tại thời điểm $t=\dfrac13$ s, chất điểm có li độ bằng bao nhiêu xentimét?
+
+??? success "Đáp án và lời giải"
+    **Đáp án: $-1$ cm.**
+
+    $x\left(\frac13\right)=2\cos\frac{2\pi}{3}=2\left(-\frac12\right)=-1\ \text{cm}.$
+
+#### Bài 19
 
 <!-- source-id: BT-Chuong-I-p46-q5-130 -->
 
-Câu 5. Hình vẽ  là đồ thị phụ thuộc thời gian của li độ dao động điều hòa. Chu kì dao động là bao
-nhiêu giây?
+Hình dưới là đồ thị li độ theo thời gian của một vật dao động điều hòa. Chu kì dao động bằng bao nhiêu giây?
 
-![Hình/bảng/đồ thị đi kèm bài PDF 9](../../../assets/exercise-figures/i-p046-q05-66510.webp){ loading=lazy }
+![Đồ thị hoặc hình minh họa của Bài 19](../../../assets/exercise-figures/clean-bai-1/bt-019-p046-q05.webp){ loading=lazy }
 
-#### Bài PDF 10
+??? success "Đáp án và lời giải"
+    **Đáp án: $3$ s.**
+
+    Trên trục thời gian, $1$ s ứng với $4$ ô. Từ đồ thị, nửa chu kì chiếm $6$ ô nên cả chu kì chiếm $12$ ô:
+
+    $T=\frac{12}{4}=3\ \text{s}.$
+
+#### Bài 20
 
 <!-- source-id: BT-Chuong-I-p46-q6-131 -->
 
-Câu 6. Một chất điểm dao động điều hoà theo phương trình 𝑥= 3 𝑐𝑜𝑠(4𝜋𝑡+
-𝜋
-3) ( x  tính bằng
-cm, t  tính bằng s). Trong một chu kì chất điểm đi được bao nhiêu cm?
+Một chất điểm dao động điều hòa theo phương trình
 
-#### Bài PDF 11
+$$
+x=3\cos\left(4\pi t+\frac{\pi}{3}\right)\ \text{cm}.
+$$
+
+Trong một chu kì, chất điểm đi được quãng đường bao nhiêu xentimét?
+
+??? success "Đáp án và lời giải"
+    **Đáp án: $12$ cm.**
+
+    Biên độ là $A=3$ cm. Trong một chu kì, quãng đường vật đi được bằng $4A$:
+
+    $S=4A=12\ \text{cm}.$
+
+#### Bài 21
 
 <!-- source-id: BT-Chuong-I-p52-q2-155 -->
 
-Câu 2. Cho đồ thị li độ theo thời gian của một vật dao động điều hoà như hình vẽ. Tính tần số
-dao động của vật theo đơn vị Hz (làm tròn đến hai chữ số thập phân sau giấu phẩy)?
+Cho đồ thị li độ theo thời gian của một vật dao động điều hòa như hình dưới. Tính tần số dao động theo đơn vị héc; làm tròn đến hai chữ số thập phân.
 
-![Hình/bảng/đồ thị đi kèm bài PDF 11](../../../assets/exercise-figures/i-p052-q02-59133.webp){ loading=lazy }
+![Đồ thị hoặc hình minh họa của Bài 21](../../../assets/exercise-figures/clean-bai-1/bt-021-p053-q02.webp){ loading=lazy }
 
-#### Bài PDF 12
+??? success "Đáp án và lời giải"
+    **Đáp án: $8{,}33$ Hz.**
+
+    Từ đồ thị, chu kì là $T=120$ ms $=0{,}12$ s. Vì $f=1/T$,
+
+    $$f=\frac{1}{0{,}12}\approx8{,}33\ \text{Hz}.$$
+
+#### Bài 22
 
 <!-- source-id: BT-Chuong-I-p53-q3-156 -->
 
-Câu 3. Cho đồ thị li độ theo thời gian của một vật dao động điều hoà như hình vẽ. Xác định pha
-dao động của vật tại thời điểm t = 4s theo đơn vị rad (làm tròn đến chữ số thập phân thứ hai sau
-dấu phẩy)?
+Cho đồ thị li độ theo thời gian của một vật dao động điều hòa như hình dưới. Xác định **pha dao động** của vật tại thời điểm $t=4$ s theo đơn vị radian; làm tròn đến hai chữ số thập phân.
 
-![Hình/bảng/đồ thị đi kèm bài PDF 12](../../../assets/exercise-figures/i-p053-q03-25918.webp){ loading=lazy }
+![Đồ thị hoặc hình minh họa của Bài 22](../../../assets/exercise-figures/clean-bai-1/bt-022-p053-q03.webp){ loading=lazy }
 
-#### Bài PDF 13
+??? success "Đáp án và lời giải"
+    **Đáp án: $4{,}71$ rad.**
+
+    Từ đồ thị: $A=2$ cm, $T=4$ s nên
+
+    $$\omega=\frac{2\pi}{T}=\frac{\pi}{2}\ \text{rad/s}.$$
+
+    Tại $t=0$, vật qua vị trí cân bằng theo chiều dương, do đó có thể chọn $\varphi=-\pi/2$. Pha tại $t=4$ s là
+
+    $$\Phi(4)=\omega\cdot4+\varphi=\frac{\pi}{2}\cdot4-\frac{\pi}{2}=\frac{3\pi}{2}\approx4{,}71\ \text{rad}.$$
+
+    Lưu ý: pha là $\omega t+\varphi$, **không phải** giá trị của hàm $x=A\cos(\omega t+\varphi)$.
+
+#### Bài 23
 
 <!-- source-id: BT-Chuong-I-p53-q4-157 -->
 
-Câu 4. Một chất điểm dao động điều hoà theo phương trình 𝑥= 6 𝑐𝑜𝑠(4𝜋𝑡+
-𝜋
-3) ( x  tính bằng
-cm, t  tính bằng s). Tại thời điểm
-1
-t
-3
-=
-s chất điểm có li độ bằng bao nhiêu cm.
+Một chất điểm dao động điều hòa theo phương trình
 
-#### Bài PDF 14
+$$
+x=6\cos\left(4\pi t+\frac{\pi}{3}\right)\ \text{cm}.
+$$
+
+Tại thời điểm $t=\dfrac13$ s, chất điểm có li độ bằng bao nhiêu xentimét?
+
+??? success "Đáp án và lời giải"
+    **Đáp án: $3$ cm.**
+
+    Thay $t=1/3$ s vào đúng phương trình đã cho:
+
+    $$x=6\cos\left(4\pi\cdot\frac13+\frac{\pi}{3}\right)=6\cos\left(\frac{5\pi}{3}\right)=3\ \text{cm}.$$
+
+#### Bài 24
 
 <!-- source-id: BT-Chuong-I-p55-q5-158 -->
 
-Câu 5. Cho đồ thị li độ theo thời gian của hai chất điểm dao động điều hoà như hình vẽ. Xác định
-thời điểm gần nhất (theo đơn vị giây) kể từ t = 0 mà li độ của  x1 = 0 cm, li độ của x2 = 5 cm?
-(làm tròn đến chữ số thập phân thứ nhất sau dấu phẩy)
+Cho đồ thị li độ theo thời gian của hai chất điểm dao động điều hòa như hình dưới. Xác định thời điểm gần nhất kể từ $t=0$ mà đồng thời $x_1=0$ cm và $x_2=5$ cm. Kết quả tính bằng giây và làm tròn đến một chữ số thập phân.
 
-![Hình/bảng/đồ thị đi kèm bài PDF 14](../../../assets/exercise-figures/i-p055-q05-67117.webp){ loading=lazy }
+![Đồ thị hoặc hình minh họa của Bài 24](../../../assets/exercise-figures/clean-bai-1/bt-024-p055-q05.webp){ loading=lazy }
 
-#### Bài PDF 15
+??? success "Đáp án và lời giải"
+    **Đáp án: $0{,}4$ s.**
+
+    Quan sát đồng thời hai đường trên đồ thị và xét từ $t=0$ theo chiều tăng của thời gian. Thời điểm đầu tiên tại đó $x_1=0$ cm và $x_2=5$ cm là
+
+    $$t=0{,}4\ \text{s}.$$
+
+#### Bài 25
 
 <!-- source-id: BT-Chuong-I-p55-q6-159 -->
 
-![Đề bài PDF — Bài 15](../../../assets/exercise-figures/source-faithful/i-p055-q06-de.webp){ loading=lazy }
+Một chất điểm dao động điều hòa với phương trình
+
+$$
+x=2\cos\left(2\pi t+\frac{\pi}{2}\right)\ \text{cm}.
+$$
+
+Tại thời điểm $t=\dfrac14$ s, chất điểm có li độ bằng bao nhiêu xentimét?
+
+??? success "Đáp án và lời giải"
+    **Đáp án: $-2$ cm.**
+
+    Thay $t=1/4$ s vào phương trình:
+
+    $$x=2\cos\left(2\pi\cdot\frac14+\frac{\pi}{2}\right)=2\cos\pi=-2\ \text{cm}.$$
 
 ### Nhận biết — Trắc nghiệm 4 lựa chọn
 
-#### Bài PDF 16
+#### Bài 26
 
 <!-- source-id: BT-Chuong-I-p27-q16-70 -->
 
-Câu 16. Một vật dao động điều hòa trên trục Ox. Hình bên là đồ thị biểu diễn sự phụ thuộc của li độ x vào
-thời gian t. Phương trình dao động của li độ là
+Một vật dao động điều hòa trên trục $Ox$. Đồ thị li độ – thời gian của vật được cho như hình dưới. Phương trình dao động của vật là
 
-A. x = 5cos(2πt-π/2) cm.
+A. $x=5\cos\left(2\pi t-\dfrac{\pi}{2}\right)$ cm.  
+B. $x=5\cos\left(2\pi t+\dfrac{\pi}{2}\right)$ cm.  
+C. $x=5\cos\left(\pi t+\dfrac{\pi}{2}\right)$ cm.  
+D. $x=5\cos(\pi t)$ cm.
 
-B. x = 5cos(2πt+π/2) cm.
+![Đồ thị hoặc hình minh họa của Bài 26](../../../assets/exercise-figures/clean-bai-1/bt-026-p027-q16.webp){ loading=lazy }
 
-C. x = 5cos(πt+π/2) cm.
+??? success "Đáp án và lời giải"
+    **Đáp án: D.**
 
-D. x=5cosπt cm.
+    Từ đồ thị, biên độ $A=5$ cm. Vật ở biên dương tại $t=0$ và biên âm tại $t=1$ s, nên $T/2=1$ s, tức $T=2$ s. Do đó
 
-![Hình/bảng/đồ thị đi kèm bài PDF 16](../../../assets/exercise-figures/i-p027-q16-60522.webp){ loading=lazy }
+    $\omega=\frac{2\pi}{T}=\pi\ \text{rad/s}.$
 
-#### Bài PDF 17
+    Tại $t=0$, $x=A$ nên có thể chọn $\varphi=0$. Vì vậy
+
+    $x=5\cos(\pi t)\ \text{cm}.$
+
+#### Bài 27
 
 <!-- source-id: BT-Chuong-I-p27-q17-71 -->
 
-Câu 17. Một vật giao động điều hòa có đồ thị li độ theo
-thời gian như đồ thị hình bên. Tần số góc của vật là
+Một vật dao động điều hòa có đồ thị li độ – thời gian như hình dưới. Tần số góc của vật là
 
-A. π rad/s.
-B. 2π rad/s.
+A. $\pi$ rad/s.  
+B. $2\pi$ rad/s.  
+C. $\dfrac{\pi}{2}$ rad/s.  
+D. $4\pi$ rad/s.
 
-C. π
-2
-rad/s.
-D. 4π rad/s.
+![Đồ thị hoặc hình minh họa của Bài 27](../../../assets/exercise-figures/clean-bai-1/bt-027-p027-q17.webp){ loading=lazy }
 
-![Hình/bảng/đồ thị đi kèm bài PDF 17](../../../assets/exercise-figures/i-p027-q17-45916.webp){ loading=lazy }
+??? success "Đáp án và lời giải"
+    **Đáp án: B.**
 
-#### Bài PDF 18
+    Từ đồ thị, hai cực đại liên tiếp cách nhau $1$ s nên $T=1$ s. Vì vậy
+
+    $\omega=\frac{2\pi}{T}=2\pi\ \text{rad/s}.$
+
+#### Bài 28
 
 <!-- source-id: BT-Chuong-I-p37-q2-84 -->
 
-Câu 2. Một chất điểm dao động điều hòa với phương trình x = Acos(ωt + φ), trong đó A, ω là các
-hằng số dương. Pha của dao động ở thởi điểm t là
-A. ωt + φ.
-B. ω.
-C. φ.
+Một chất điểm dao động điều hòa với phương trình x = Acos(ωt + φ), trong đó A, ω là các hằng số dương. Pha của dao động ở thời điểm t là  
+A. ωt + φ.  
+B. ω.  
+C. φ.  
 D. ωt.
 
-#### Bài PDF 19
+??? success "Đáp án và lời giải"
+    **Đáp án: A.**
+
+    Trong dạng $x=A\cos(\omega t+\varphi)$, pha tại thời điểm $t$ là $\omega t+\varphi$.
+
+#### Bài 29
 
 <!-- source-id: BT-Chuong-I-p37-q3-85 -->
 
-![Đề bài PDF — Bài 19](../../../assets/exercise-figures/source-faithful/i-p037-q03-de.webp){ loading=lazy }
+Một chất điểm dao động điều hòa theo phương trình $x=A\cos(\omega t+\varphi)$, với $A>0$. Đại lượng $A$ được gọi là
 
-#### Bài PDF 20
+A. biên độ của dao động.  
+B. pha của dao động.  
+C. tần số góc của dao động.  
+D. pha ban đầu của dao động.
+
+??? success "Đáp án và lời giải"
+    **Đáp án: A.**
+
+    Trong dạng chuẩn $x=A\cos(\omega t+\varphi)$ với $A>0$, $A$ là **biên độ dao động**.
+
+#### Bài 30
 
 <!-- source-id: BT-Chuong-I-p37-q4-86 -->
 
-Câu 4. Trong phương trình dao động điều hoà: x = Acos(ωt + ϕ), radian (rad) là đơn vị của đại
-lượng
-    A. biên độ A
+Trong phương trình dao động điều hòa $x=A\cos(\omega t+\varphi)$, radian (rad) là đơn vị của đại lượng nào?
 
-B. tần số góc ω
-    C. pha dao động (ωt + ϕ)
-D. chu kỳ dao động T
+A. Biên độ $A$.  
+B. Tần số góc $\omega$.  
+C. Pha dao động $(\omega t+\varphi)$.  
+D. Chu kì $T$.
 
-#### Bài PDF 21
+??? success "Đáp án và lời giải"
+    **Đáp án: C.**
+
+    Pha dao động $(\omega t+\varphi)$ là một góc nên được đo bằng radian. Tần số góc $\omega$ có đơn vị rad/s, còn $A$ có đơn vị độ dài và $T$ có đơn vị giây.
+
+#### Bài 31
 
 <!-- source-id: BT-Chuong-I-p37-q5-87 -->
 
-Câu 5. Tần số góc có đơn vị là
-A. Hz.
-B. cm.
-C. rad.
+Tần số góc có đơn vị là  
+A. Hz.  
+B. cm.  
+C. rad.  
 D. rad/s.
 
-#### Bài PDF 22
+??? success "Đáp án và lời giải"
+    **Đáp án: D.**
+
+    Trong phương trình chuẩn, hệ số của $t$ trong pha là tần số góc $\omega$; đơn vị là rad/s.
+
+#### Bài 32
 
 <!-- source-id: BT-Chuong-I-p37-q6-88 -->
 
-Câu 6. Vật dao động điều hòa với li độ, biên độ, tần số và pha ban đầu lần lượt là x, A, f, φ. Đại
-lượng luôn dương trong bốn đại lượng trên là
-A. f, x.
-B. A, f.
-C. A, φ.
-D. A, x.
+Một vật dao động điều hòa có li độ, biên độ, tần số và pha ban đầu lần lượt là $x$, $A$, $f$, $\varphi$. Đại lượng luôn dương trong bốn đại lượng trên là
 
-#### Bài PDF 23
+A. $f, x$.  
+B. $A, f$.  
+C. $A, \varphi$.  
+D. $A, x$.
+
+??? success "Đáp án và lời giải"
+    **Đáp án: B.**
+
+    Theo quy ước của phương trình dao động điều hòa, biên độ $A>0$ và tần số $f>0$. Li độ $x$ có thể dương, âm hoặc bằng $0$; pha ban đầu $\varphi$ cũng có thể mang dấu tùy cách chọn gốc thời gian.
+
+#### Bài 33
 
 <!-- source-id: BT-Chuong-I-p37-q7-89 -->
 
-![Đề bài PDF — Bài 23](../../../assets/exercise-figures/source-faithful/i-p037-q07-de.webp){ loading=lazy }
+Một chất điểm dao động có phương trình
 
-#### Bài PDF 24
+$$x=5\cos(10t+\pi)\ \text{cm}.$$
+
+Chất điểm này dao động với biên độ là
+
+A. $5$ cm.  
+B. $10$ cm.  
+C. $20$ cm.  
+D. $15$ cm.
+
+??? success "Đáp án và lời giải"
+    **Đáp án: A.**
+
+    Biên độ là hệ số dương đứng trước hàm cos, nên $A=5$ cm.
+
+#### Bài 34
 
 <!-- source-id: BT-Chuong-I-p38-q10-91 -->
 
-Câu 10. Một chất điểm dao động điều hòa với phương trình x = Acos(ωt + φ), trong đó ω có giá
-trị dương. Đại lượng ω gọi là
-A. biên độ dao động.
-B. chu kì của daođộng.
-C. tần số góc của dao động.
-D. pha ban đầu của daođộng.
+Một chất điểm dao động điều hòa theo phương trình $x=A\cos(\omega t+\varphi)$, trong đó $\omega>0$. Đại lượng $\omega$ được gọi là
 
-#### Bài PDF 25
+A. biên độ dao động.  
+B. chu kì dao động.  
+C. tần số góc của dao động.  
+D. pha ban đầu của dao động.
+
+??? success "Đáp án và lời giải"
+    **Đáp án: C.**
+
+    Trong dạng chuẩn $x=A\cos(\omega t+\varphi)$, $\omega$ là **tần số góc**, có đơn vị rad/s.
+
+#### Bài 35
 
 <!-- source-id: BT-Chuong-I-p38-q11-92 -->
 
-Câu 11. Vật dao động điều hòa với phương trình: x = 8cos(πt + π/6)cm. Pha ban đầu của dao động
-là
-A.
-/ 6rad
-π
+Một vật dao động điều hòa với phương trình
 
-B.
-/ 6rad
-π
-−
+$$
+x=8\cos\left(\pi t+\frac{\pi}{6}\right)\ \text{cm}.
+$$
 
-C. (
-)
-/ 6
-t
-rad
-π
-π
-+
+Pha ban đầu của dao động là
 
-D.
-/ 3rad
-π
+A. $\dfrac{\pi}{6}$ rad.  
+B. $-\dfrac{\pi}{6}$ rad.  
+C. $\pi t+\dfrac{\pi}{6}$ rad.  
+D. $\dfrac{\pi}{3}$ rad.
 
-#### Bài PDF 26
+??? success "Đáp án và lời giải"
+    **Đáp án: A.**
+
+    So sánh với $x=A\cos(\omega t+\varphi)$, ta có pha ban đầu $\varphi=\dfrac{\pi}{6}$ rad.
+
+#### Bài 36
 
 <!-- source-id: BT-Chuong-I-p38-q12-93 -->
 
-Câu 12. Một vật dao động điều hòa với phương trình x = 2cos(20t + π/2) cm. Pha của dao động
-tại thời điểm t là:
-A. π/2 (rad)
-B. 20t + π/2 (rad)
-C. 2 rad/s
-D. 20 (rad)
+Một vật dao động điều hòa theo phương trình
 
-#### Bài PDF 27
+$$
+x=2\cos\left(20t+\frac{\pi}{2}\right)\ \text{cm}.
+$$
+
+Pha của dao động tại thời điểm $t$ là
+
+A. $\dfrac{\pi}{2}$ rad.  
+B. $20t+\dfrac{\pi}{2}$ rad.  
+C. $2$ rad/s.  
+D. $20$ rad.
+
+??? success "Đáp án và lời giải"
+    **Đáp án: B.**
+
+    Với $x=A\cos(\omega t+\varphi)$, pha tại thời điểm $t$ là $\omega t+\varphi$. Ở đây
+
+    $\Phi(t)=20t+\frac{\pi}{2}\ \text{rad}.$
+
+#### Bài 37
 
 <!-- source-id: BT-Chuong-I-p38-q13-94 -->
 
-Câu 13. Một vật nhỏ dao động điều hòa theo một quỹ đạo dài 8cm. Dao động này có biên độ là:
+Một vật nhỏ dao động điều hòa trên một quỹ đạo dài $8$ cm. Biên độ dao động bằng
 
-A. 16 cm.
+A. $16$ cm.  
+B. $8$ cm.  
+C. $48$ cm.  
+D. $4$ cm.
 
-B. 8 cm.
+??? success "Đáp án và lời giải"
+    **Đáp án: D.**
 
-C. 48 cm.
+    Quỹ đạo dao động là đoạn thẳng từ $-A$ đến $+A$, có độ dài $L=2A$. Do $L=8$ cm,
 
-D. 4 cm.
+    $A=\frac{L}{2}=4\ \text{cm}.$
 
-#### Bài PDF 28
+#### Bài 38
 
 <!-- source-id: BT-Chuong-I-p38-q14-95 -->
 
-Câu 14. Một vật nhỏ dao động điều hòa theo phương trình  x = A cos10t  (t tính bằng s). Tại t=2s,
-pha của dao động là:
-A. 5 rad.
-B. 10 rad.
+Một vật nhỏ dao động điều hòa theo phương trình $x=A\cos(10t)$, với $t$ tính bằng giây. Tại $t=2$ s, pha của dao động là
 
-C. 40 rad.
+A. $5$ rad.  
+B. $10$ rad.  
+C. $40$ rad.  
+D. $20$ rad.
 
-D. 20 rad.
+??? success "Đáp án và lời giải"
+    **Đáp án: D.**
 
-#### Bài PDF 29
+    Pha dao động là $\Phi=10t$. Tại $t=2$ s:
+
+    $\Phi=10\cdot2=20\ \text{rad}.$
+
+#### Bài 39
 
 <!-- source-id: BT-Chuong-I-p38-q15-96 -->
 
-Câu 15. Một chất điểm dao dộng theo phương trình  x = 6cosωt (cm). Dao động của chất điểm có
-biên độ là
-A.12 cm.
+Một chất điểm dao động theo phương trình $x=6\cos(\omega t)$ (cm). Biên độ dao động của chất điểm là
 
-B. 3 cm.
+A. $12$ cm.  
+B. $3$ cm.  
+C. $6$ cm.  
+D. $2$ cm.
 
-C. 6 cm.
+??? success "Đáp án và lời giải"
+    **Đáp án: C.**
 
-D. 2 cm.
+    Trong phương trình $x=A\cos(\omega t+\varphi)$, biên độ là hệ số dương đứng trước hàm cos. Vì vậy $A=6$ cm.
 
-#### Bài PDF 30
+#### Bài 40
 
 <!-- source-id: BT-Chuong-I-p38-q16-97 -->
 
-Câu 16. Chu kì trong dao động điều hòa có đơn vị là
-A. Hz.
-B. kg.
-
-C. m.
-
+Chu kì trong dao động điều hòa có đơn vị là  
+A. Hz.  
+B. kg.  
+C. m.  
 D. s.
 
-#### Bài PDF 31
+??? success "Đáp án và lời giải"
+    **Đáp án: D.**
+
+    Chu kì là thời gian ngắn nhất để trạng thái dao động lặp lại; $T=2\pi/\omega=1/f$.
+
+#### Bài 41
 
 <!-- source-id: BT-Chuong-I-p38-q17-98 -->
 
-Câu 17. Một chất điểm dao động điều hòa trên đoạn thẳng có chiều dài quỹ đạo L. Biên độ của
-dao động là:
-A. 2L.
-B. L/2.
+Một chất điểm dao động điều hòa trên đoạn thẳng có chiều dài quỹ đạo $L$. Biên độ dao động là
 
-C. L.
+A. $2L$.  
+B. $\dfrac{L}{2}$.  
+C. $L$.  
+D. $\dfrac{L}{4}$.
 
-D. L/4.
+??? success "Đáp án và lời giải"
+    **Đáp án: B.**
 
-#### Bài PDF 32
+    Vật chuyển động giữa hai biên $-A$ và $+A$, nên chiều dài quỹ đạo là $L=2A$. Suy ra
+
+    $$A=\frac{L}{2}.$$
+
+#### Bài 42
 
 <!-- source-id: BT-Chuong-I-p38-q18-99 -->
 
-Câu 18. Công thức nào sau đây biểu diễn sự liên hệ giữa tần số góc ω, tần số f  và chu kì T  của
-một dao động điều hòa?
-A.
-2
-2 T
-.
-f
-π
-ω= π
-=
+Công thức nào sau đây biểu diễn đúng mối liên hệ giữa tần số góc $\omega$, tần số $f$ và chu kì $T$ của dao động điều hòa?
 
-B.
-T
-2 f
-.
-2
-ω= π=
-π
-C.
-1
-T
-.
-f
-2
-ω
-=
-=
-π
-D.
-2
-2 f
-.
-T
-π
-ω= π=
+A. $\omega=\dfrac{2\pi}{f}=2\pi T$.  
+B. $\omega=\dfrac{T}{2\pi}=2\pi f$.  
+C. $\omega=\dfrac{1}{2\pi f}=T$.  
+D. $\omega=2\pi f=\dfrac{2\pi}{T}$.
 
-#### Bài PDF 33
+??? success "Đáp án và lời giải"
+    **Đáp án: D.**
+
+    Ba đại lượng liên hệ bởi
+
+    $\omega=2\pi f=\frac{2\pi}{T}.$
+
+#### Bài 43
 
 <!-- source-id: BT-Chuong-I-p41-q40-121 -->
 
-Câu 40. Biết phương trình dao động của một trong hai vật là x = 8cos(5πt) cm. Phương trình dao
-động của vật còn lại là
-A. x = 6cos (5πt −π
-2)  cm.
-B. x = 6cos(5πt) cm
-C. x = 6cos(4πt) cm.
-D. x = 6cos (4πt −π
-2)  cm.
+Dựa vào đồ thị hai dao động dưới đây. Biết phương trình dao động của một trong hai vật là
 
-#### Bài PDF 34
+$$x_1=8\cos(5\pi t)\ \text{cm}.$$
+
+Phương trình dao động của vật còn lại là
+
+A. $x_2=6\cos\left(5\pi t-\dfrac{\pi}{2}\right)$ cm.  
+B. $x_2=6\cos(5\pi t)$ cm.  
+C. $x_2=6\cos(4\pi t)$ cm.  
+D. $x_2=6\cos\left(4\pi t-\dfrac{\pi}{2}\right)$ cm.
+
+![Đồ thị hoặc hình minh họa của Bài 43](../../../assets/exercise-figures/clean-bai-1/bt-043-p041-q40.webp){ loading=lazy }
+
+??? success "Đáp án và lời giải"
+    **Đáp án: A.**
+
+    Từ đồ thị chung, dao động còn lại có biên độ $6$ cm và cùng chu kì với $x_1$, nên cùng $\omega=5\pi$ rad/s. Hai dao động lệch nhau một phần tư chu kì, tức $\pi/2$; dao động thứ hai trễ pha so với $x_1$. Do đó
+
+    $x_2=6\cos\left(5\pi t-\frac{\pi}{2}\right)\ \text{cm}.$
+
+#### Bài 44
 
 <!-- source-id: BT-Chuong-I-p47-q1-132 -->
 
-Câu 1. Trong phương trình dao động điều hoà x = Acos(ωt + φ), radian trên giây là thứ nguyên
-của đại lượng
-A. A.
-B. ω.
-C. ωt + φ.
-D. T.
+Trong phương trình dao động điều hòa $x=A\cos(\omega t+\varphi)$, radian trên giây (rad/s) là đơn vị của đại lượng
 
-#### Bài PDF 35
+A. $A$.  
+B. $\omega$.  
+C. $\omega t+\varphi$.  
+D. $T$.
+
+??? success "Đáp án và lời giải"
+    **Đáp án: B.**
+
+    $\omega$ là tần số góc nên có đơn vị rad/s. Pha $\omega t+\varphi$ có đơn vị radian, còn $T$ có đơn vị giây.
+
+#### Bài 45
 
 <!-- source-id: BT-Chuong-I-p47-q3-134 -->
 
-Câu 3. Một vật dao động điều hòa theo phương trình x = 6cos(4πt) cm. Biên độ dao động của vật
-là
-
-A.  4 cm.
-B. 6 cm.
-C. –6 cm.
+Một vật dao động điều hòa theo phương trình x = 6cos(4πt) cm. Biên độ dao động của vật là  
+A. 4 cm.  
+B. 6 cm.  
+C. –6 cm.  
 D. 12 m.
 
-#### Bài PDF 36
+??? success "Đáp án và lời giải"
+    **Đáp án: B.**
+
+    Trong $x=6\cos(4\pi t)$ cm, hệ số dương đứng trước hàm cos là biên độ. Do đó $A=6$ cm.
+
+#### Bài 46
 
 <!-- source-id: BT-Chuong-I-p47-q5-136 -->
 
-Câu 5. Biên độ của dao động là
+Dựa vào đồ thị li độ – thời gian dưới đây. Biên độ của dao động là
 
-A. -5 cm.
+A. $-5$ cm.  
+B. $5$ cm.  
+C. $10$ cm.  
+D. $-10$ cm.
 
-B. 5 cm.
+![Đồ thị hoặc hình minh họa của Bài 46](../../../assets/exercise-figures/clean-bai-1/bt-046-p047-q05.webp){ loading=lazy }
 
-C. 10 cm.
+??? success "Đáp án và lời giải"
+    **Đáp án: B.**
 
-D. -10 cm.
+    Từ đồ thị, li độ cực đại là $+5$ cm và cực tiểu là $-5$ cm, nên biên độ $A=5$ cm.
 
-#### Bài PDF 37
+#### Bài 47
 
 <!-- source-id: BT-Chuong-I-p47-q6-137 -->
 
-Câu 6. Pha ban đầu của dao động là
-A. 0,5π rad.
-B. – 0,5π rad.
-C. 0,25π rad.
-D. π rad.
+Dựa vào đồ thị li độ – thời gian dưới đây. Pha ban đầu của dao động là
 
-#### Bài PDF 38
+A. $0{,}5\pi$ rad.  
+B. $-0{,}5\pi$ rad.  
+C. $0{,}25\pi$ rad.  
+D. $\pi$ rad.
+
+![Đồ thị hoặc hình minh họa của Bài 47](../../../assets/exercise-figures/clean-bai-1/bt-047-p047-q06.webp){ loading=lazy }
+
+??? success "Đáp án và lời giải"
+    **Đáp án: B.**
+
+    Tại $t=0$, vật qua vị trí cân bằng theo chiều dương. Với dạng cos, $x_0=0$ và $v_0>0$ cho $\varphi=-\pi/2$ rad.
+
+#### Bài 48
 
 <!-- source-id: BT-Chuong-I-p47-q7-138 -->
 
-Câu 7. Tần số của dao động là
+Dựa vào đồ thị li độ – thời gian dưới đây. Tần số của dao động là
 
-A. 0,2 Hz.
-B. 0,1 Hz.
-C. 5 Hz.
-D. 10 Hz.
+A. $0{,}2$ Hz.  
+B. $0{,}1$ Hz.  
+C. $5$ Hz.  
+D. $10$ Hz.
 
-#### Bài PDF 39
+![Đồ thị hoặc hình minh họa của Bài 48](../../../assets/exercise-figures/clean-bai-1/bt-048-p047-q07.webp){ loading=lazy }
+
+??? success "Đáp án và lời giải"
+    **Đáp án: B.**
+
+    Hai trạng thái cùng pha liên tiếp trên đồ thị cách nhau $T=10$ s, nên
+
+    $$f=\frac1T=0{,}1\ \text{Hz}.$$
+
+#### Bài 49
 
 <!-- source-id: BT-Chuong-I-p47-q8-139 -->
 
-Câu 8. Một vật dao động điều hòa thực hiện 20 dao động toàn phần trong 20 s. Tần số dao động
-của vật là
-A. 0,5 Hz.
-B. 0,05 Hz.
-C. 2 Hz.
-D. 1 Hz.
+Một vật dao động điều hòa thực hiện $20$ dao động toàn phần trong $20$ s. Tần số dao động của vật là
 
-#### Bài PDF 40
+A. $0{,}5$ Hz.  
+B. $0{,}05$ Hz.  
+C. $2$ Hz.  
+D. $1$ Hz.
+
+??? success "Đáp án và lời giải"
+    **Đáp án: D.**
+
+    Tần số là số dao động toàn phần trong một đơn vị thời gian:
+
+    $f=\frac{N}{\Delta t}=\frac{20}{20}=1\ \text{Hz}.$
+
+#### Bài 50
 
 <!-- source-id: BT-Chuong-I-p48-q9-140 -->
 
-![Đề bài PDF — Bài 40](../../../assets/exercise-figures/source-faithful/i-p048-q09-de.webp){ loading=lazy }
+Vật dao động điều hòa với phương trình
 
-#### Bài PDF 41
+$$x=5\cos\left(8\pi t-\frac{\pi}{4}\right)\ \text{cm},$$
+
+trong đó $t$ được tính bằng giây. Pha ban đầu của dao động là
+
+A. $-\dfrac{\pi}{4}$.  
+B. $\dfrac{\pi}{4}$.  
+C. $8\pi$.  
+D. $8\pi t-\dfrac{\pi}{4}$.
+
+??? success "Đáp án và lời giải"
+    **Đáp án: A.**
+
+    So sánh với $x=A\cos(\omega t+\varphi)$ cho $\varphi=-\pi/4$.
+
+#### Bài 51
 
 <!-- source-id: BT-Chuong-I-p48-q10-141 -->
 
-Câu 10. Trong phương trình dao động điều hòa x = Acos(ωt + φ), đại lượng (ωt + φ) được gọi là
-A. biên độ dao động.
-
-B. tần số góc của dao động.
-C. pha của dao động.
-
+Trong phương trình dao động điều hòa x = Acos(ωt + φ), đại lượng (ωt + φ) được gọi là  
+A. biên độ dao động.  
+B. tần số góc của dao động.  
+C. pha của dao động.  
 D. chu kì của dao động.
 
-#### Bài PDF 42
+??? success "Đáp án và lời giải"
+    **Đáp án: C.**
+
+    Trong dạng $x=A\cos(\omega t+\varphi)$, pha tại thời điểm $t$ là $\omega t+\varphi$.
+
+#### Bài 52
 
 <!-- source-id: BT-Chuong-I-p48-q11-142 -->
 
-Câu 11. Một vật nhỏ dao động điều hòa theo phương trình x = Acos20t (t tính bằng s). Tại thời
-điểm           t = 2 s, pha của dao động là
-A. 10 rad.
-B. 40 rad.
-C. 5 rad.
-D. 20 rad.
+Một vật nhỏ dao động điều hòa theo phương trình $x=A\cos(20t)$, với $t$ tính bằng giây. Tại $t=2$ s, pha của dao động là
 
-#### Bài PDF 43
+A. $10$ rad.  
+B. $40$ rad.  
+C. $5$ rad.  
+D. $20$ rad.
+
+??? success "Đáp án và lời giải"
+    **Đáp án: B.**
+
+    Pha dao động là $\Phi=20t$. Tại $t=2$ s:
+
+    $\Phi=20\cdot2=40\ \text{rad}.$
+
+#### Bài 53
 
 <!-- source-id: BT-Chuong-I-p48-q13-144 -->
 
-Câu 13. Một vật dao động điều hòa có phương trình x = 2cos(2πt – π/6) cm. Li độ của vật tại thời
-điểm t = 0,25 (s) là
-
-A. 1 cm.
-B. 1,5 cm.
-C. 0,5 cm.
+Một vật dao động điều hòa có phương trình x = 2cos(2πt – π/6) cm. Li độ của vật tại thời điểm t = 0,25 (s) là  
+A. 1 cm.  
+B. 1,5 cm.  
+C. 0,5 cm.  
 D. –1 cm.
 
-#### Bài PDF 44
+??? success "Đáp án và lời giải"
+    **Đáp án: A.**
+
+    Tại $t=0{,}25$ s:
+
+    $$x=2\cos\left(2\pi\cdot0{,}25-\frac{\pi}{6}\right)=2\cos\frac{\pi}{3}=1\ \text{cm}.$$
+
+#### Bài 54
 
 <!-- source-id: BT-Chuong-I-p48-q14-145 -->
 
-Câu 14. Một vật dao động điều hòa theo phương trình x = 3cos(πt + π/2) cm, pha dao động tại thời
-điểm t = 1 (s) là
-
-A. π (rad).
-B. 2π (rad).
-C. 1,5π (rad).
+Một vật dao động điều hòa theo phương trình x = 3cos(πt + π/2) cm, pha dao động tại thời điểm t = 1 (s) là  
+A. π (rad).  
+B. 2π (rad).  
+C. 1,5π (rad).  
 D. 0,5π (rad).
 
-#### Bài PDF 45
+??? success "Đáp án và lời giải"
+    **Đáp án: C.**
+
+    Pha dao động tại $t=1$ s là
+
+    $$\Phi=\pi\cdot1+\frac{\pi}{2}=\frac{3\pi}{2}=1{,}5\pi\ \text{rad}.$$
+
+#### Bài 55
 
 <!-- source-id: BT-Chuong-I-p48-q15-146 -->
 
-![Đề bài PDF — Bài 45](../../../assets/exercise-figures/source-faithful/i-p048-q15-de.webp){ loading=lazy }
+Một vật dao động điều hòa trên trục $Ox$. Đồ thị dưới đây biểu diễn sự phụ thuộc của li độ $x$ vào thời gian $t$. Phương trình dao động của vật là
 
-#### Bài PDF 46
+A. $x=4\cos\left(5\pi t-\dfrac{\pi}{2}\right)$ cm.  
+B. $x=8\cos\left(10\pi t+\dfrac{\pi}{2}\right)$ cm.  
+C. $x=4\cos\left(5\pi t+\dfrac{\pi}{2}\right)$ cm.  
+D. $x=8\cos\left(10\pi t-\dfrac{\pi}{2}\right)$ cm.
+
+![Đồ thị hoặc hình minh họa của Bài 55](../../../assets/exercise-figures/clean-bai-1/bt-055-p048-q15.webp){ loading=lazy }
+
+??? success "Đáp án và lời giải"
+    **Đáp án: C.**
+
+    Từ đồ thị: $A=4$ cm. Hai lần qua vị trí cân bằng cùng chiều cách nhau một chu kì; đọc trên trục thời gian được $T=0{,}4$ s, nên $\omega=2\pi/T=5\pi$ rad/s. Tại $t=0$, $x=0$ và đồ thị đang đi xuống nên $v_0<0$, suy ra $\varphi=\pi/2$. Vì vậy
+
+    $$x=4\cos\left(5\pi t+\frac{\pi}{2}\right)\ \text{cm}.$$
+
+#### Bài 56
 
 <!-- source-id: BT-Chuong-I-p48-q16-147 -->
 
-Câu 16. Biên độ của dao động là
+Dựa vào đồ thị li độ – thời gian dưới đây. Biên độ của dao động là
 
-A. -5 cm.
+A. $-5$ cm.  
+B. $5$ cm.  
+C. $10$ cm.  
+D. $-10$ cm.
 
-B. 5 cm.
+![Đồ thị hoặc hình minh họa của Bài 56](../../../assets/exercise-figures/clean-bai-1/bt-056-p048-q16.webp){ loading=lazy }
 
-C. 10 cm.
+??? success "Đáp án và lời giải"
+    **Đáp án: C.**
 
-D. -10 cm.
+    Từ đồ thị chung, li độ cực đại có độ lớn $10$ cm nên $A=10$ cm.
 
-#### Bài PDF 47
+#### Bài 57
 
 <!-- source-id: BT-Chuong-I-p48-q17-148 -->
 
-Câu 17. Pha ban đầu của dao động là
-A. 0,5π rad.
-B. – 0,5π rad.
-C. 0,25π rad.
-D. π rad.
-x(cm)
-4
-2
+Dựa vào đồ thị li độ – thời gian dưới đây. Pha ban đầu của dao động là
 
-#### Bài PDF 48
+A. $0{,}5\pi$ rad.  
+B. $-0{,}5\pi$ rad.  
+C. $0{,}25\pi$ rad.  
+D. $\pi$ rad.
+
+![Đồ thị hoặc hình minh họa của Bài 57](../../../assets/exercise-figures/clean-bai-1/bt-057-p048-q17.webp){ loading=lazy }
+
+??? success "Đáp án và lời giải"
+    **Đáp án: B.**
+
+    Tại $t=0$, đồ thị đi qua vị trí cân bằng theo chiều dương, nên $\varphi=-\pi/2$ rad.
+
+#### Bài 58
 
 <!-- source-id: BT-Chuong-I-p49-q18-149 -->
 
-Câu 18. Tần số của dao động là
+Dựa vào đồ thị li độ – thời gian dưới đây. Tần số của dao động là
 
-A. 0,2 Hz.
-B. 0,5 Hz.
-C. 1 Hz.
-D. 2 Hz.
+A. $0{,}2$ Hz.  
+B. $0{,}5$ Hz.  
+C. $1$ Hz.  
+D. $2$ Hz.
+
+![Đồ thị hoặc hình minh họa của Bài 58](../../../assets/exercise-figures/clean-bai-1/bt-058-p048-q18.webp){ loading=lazy }
+
+??? success "Đáp án và lời giải"
+    **Đáp án: B.**
+
+    Từ đồ thị, một chu kì kéo dài $T=2$ s nên
+
+    $$f=\frac1T=0{,}5\ \text{Hz}.$$
 
 ### Nhận biết — Đúng/Sai
 
-#### Bài PDF 49
+#### Bài 59
 
 <!-- source-id: BT-Chuong-I-p28-q1-73 -->
 
-Câu 1. Một vật dao động điều hòa có đồ thị li độ  phụ thuộc thời gian như hình bên dưới.
+Một vật dao động điều hòa có đồ thị li độ phụ thuộc thời gian như hình dưới. Xét các phát biểu:
 
-Nhận định nào sau đây đúng, nhận định nào sai khi nói về dao động trên?
+a) Biên độ dao động của vật là $5$ cm.  
+b) Tần số dao động của vật là $1$ Hz.  
+c) Tần số góc của dao động là $\pi$ rad/s.  
+d) Độ dịch chuyển của vật ở thời điểm $1{,}2$ s là $2$ cm.
 
-Phát biểu
-Đúng
-Sai
-a
-Biên độ dao động của vật là 5 cm
+![Đồ thị hoặc hình minh họa của Bài 59](../../../assets/exercise-figures/clean-bai-1/bt-059-p028-q01.webp){ loading=lazy }
 
-S
-b
-Tần số dao động của vật là 1 Hz.
-Đ
+??? success "Đáp án và lời giải"
+    **Kết luận:** a) Sai; b) Đúng; c) Sai; d) Đúng.
 
-c
-Tần số góc của dao động là π rad/s
+    Từ đồ thị đọc được $A=4$ cm và $T=1$ s, nên $f=1$ Hz và $\omega=2\pi$ rad/s. Tại $t=1{,}2$ s, đồ thị cho $x=2$ cm.
 
-S
-d
-Độ dịch chuyển của vật ở thời điểm 1,2 s là 2 cm.
-Đ
-
-![Hình/bảng/đồ thị đi kèm bài PDF 49](../../../assets/exercise-figures/i-p028-q01-44168.webp){ loading=lazy }
-
-#### Bài PDF 50
+#### Bài 60
 
 <!-- source-id: BT-Chuong-I-p42-q1-122 -->
 
-Câu 1. Cho hai dao động điều hoà có đồ thị dao động như hình vẽ.
+Cho hai dao động điều hòa có đồ thị như hình dưới. Xét các phát biểu:
 
-Phát biểu
-Đúng Sai
-a. Hai dao động có cùng chu kì
-Đ
+a) Hai dao động có cùng chu kì.  
+b) Tần số của hai dao động là $0{,}5$ Hz.  
+c) Hai dao động cùng pha.  
+d) Biên độ của hai dao động là $2$ cm và $6$ cm.
 
-b. Tần số của hai dao động là 0,5 Hz
+![Đồ thị hoặc hình minh họa của Bài 60](../../../assets/exercise-figures/clean-bai-1/bt-060-p042-q01.webp){ loading=lazy }
 
-S
-c. Hai dao động cùng pha
-Đ
+??? success "Đáp án và lời giải"
+    **Kết luận:** a) Đúng; b) Sai; c) Đúng; d) Đúng.
 
-d. Biên độ của hai dao động là 2cm và 6cm
-Đ
+    Hai đường có cùng chu kì $T=0{,}5$ s nên cùng tần số $f=2$ Hz. Các đỉnh và đáy xuất hiện đồng thời nên hai dao động cùng pha. Biên độ đọc từ trục tung lần lượt là $2$ cm và $6$ cm.
 
-![Hình/bảng/đồ thị đi kèm bài PDF 50](../../../assets/exercise-figures/i-p042-q01-96327.webp){ loading=lazy }
-
-#### Bài PDF 51
+#### Bài 61
 
 <!-- source-id: BT-Chuong-I-p42-q2-123 -->
 
-Câu 2. Một vật dao động điều hòa có đồ thị li độ phụ thuộc thời gian như hình.
+Một vật dao động điều hòa có đồ thị li độ phụ thuộc thời gian như hình dưới. Xét các phát biểu:
 
-Phát biểu
-Đúng Sai
-a. Biên độ dao động của vật bằng 2 cm.
-Đ
+a) Biên độ dao động của vật bằng $2$ cm.  
+b) Chu kì dao động của vật bằng $0{,}6$ s.  
+c) Pha ban đầu của dao động là $-0{,}5\pi$ rad.  
+d) Tại thời điểm $t=0{,}6$ s, vật ở vị trí cân bằng.
 
-b. Chu kì dao động của vật bằng 0,6 s.
+![Đồ thị hoặc hình minh họa của Bài 61](../../../assets/exercise-figures/clean-bai-1/bt-061-p042-q02.webp){ loading=lazy }
 
-S
-c. Pha ban đầu của dao động là - 0,5π rad.
+??? success "Đáp án và lời giải"
+    **Kết luận:** a) Đúng; b) Sai; c) Sai; d) Đúng.
 
-S
-d. Tại thời điểm t = 0,6 s vật ở vị trí cân bằng.
-Đ
+    Từ đồ thị: $A=2$ cm. Chu kì không phải $0{,}6$ s. Trạng thái tại $t=0$ không tương ứng pha ban đầu $-\pi/2$ như phát biểu c. Tại $t=0{,}6$ s, đường cong cắt trục $x=0$ nên vật ở vị trí cân bằng.
 
-![Hình/bảng/đồ thị đi kèm bài PDF 51](../../../assets/exercise-figures/i-p042-q02-30219.webp){ loading=lazy }
-
-#### Bài PDF 52
+#### Bài 62
 
 <!-- source-id: BT-Chuong-I-p43-q3-124 -->
 
-Câu 3. Cho đồ thị li độ theo thời gian của một vật dao động điều hoà như hình vẽ:
+Cho đồ thị li độ theo thời gian của một vật dao động điều hòa như hình dưới. Xét các phát biểu:
 
-Phát biểu
-Đúng Sai
-a. Biên độ dao động của vật bằng 0,2 cm
-Đ
+a) Biên độ dao động của vật bằng $0{,}2$ cm.  
+b) Chu kì dao động của vật bằng $0{,}4$ s.  
+c) Pha ban đầu của dao động là $0{,}5\pi$ rad.  
+d) Tại thời điểm $t=0{,}5$ s, vật ở vị trí biên.
 
-b. Chu kì dao động của vật bằng 0,4 s
-Đ
+![Đồ thị hoặc hình minh họa của Bài 62](../../../assets/exercise-figures/clean-bai-1/bt-062-p043-q03.webp){ loading=lazy }
 
-c. Pha ban đầu của dao động là 0,5π rad
+??? success "Đáp án và lời giải"
+    **Kết luận:** a) Đúng; b) Đúng; c) Sai; d) Đúng.
 
-S
-d. Tại thời điểm t = 0,5 s vật ở vị trí biên
-Đ
+    Đồ thị cho $A=0{,}2$ cm và $T=0{,}4$ s. Trạng thái ban đầu không phù hợp với $\varphi=\pi/2$. Tại $t=0{,}5$ s, vật đạt một vị trí biên.
 
-![Hình/bảng/đồ thị đi kèm bài PDF 52](../../../assets/exercise-figures/i-p043-q03-69226.webp){ loading=lazy }
-
-#### Bài PDF 53
+#### Bài 63
 
 <!-- source-id: BT-Chuong-I-p44-q4-125 -->
 
-Câu 4. Cho hai dao động điều hòa cùng tần số có đồ thị như
-sau:
+Cho hai dao động điều hòa cùng tần số có đồ thị như hình dưới. Xét các phát biểu:
 
-Phát biểu
-Đúng Sai
-a. Hai dao động có cùng chu kì
-Đ
+a) Hai dao động có cùng chu kì.  
+b) Chu kì của hai dao động là $4$ s.  
+c) Hai dao động cùng pha.  
+d) Biên độ của hai dao động là $3$ cm và $2$ cm.
 
-b. Chu kì của hai dao động là 4s
-Đ
+![Đồ thị hoặc hình minh họa của Bài 63](../../../assets/exercise-figures/clean-bai-1/bt-063-p044-q04.webp){ loading=lazy }
 
-c. Hai dao động cùng pha
+??? success "Đáp án và lời giải"
+    **Kết luận:** a) Đúng; b) Đúng; c) Sai; d) Đúng.
 
-S
-d. Biên độ của hai dao động là 3cm và 2cm
-Đ
+    Hai dao động có cùng chu kì $T=4$ s nhưng các thời điểm đạt cực trị không trùng nhau, nên không cùng pha. Biên độ đọc trên đồ thị lần lượt là $3$ cm và $2$ cm.
 
-![Hình/bảng/đồ thị đi kèm bài PDF 53](../../../assets/exercise-figures/i-p044-q04-50802.webp){ loading=lazy }
-
-#### Bài PDF 54
+#### Bài 64
 
 <!-- source-id: BT-Chuong-I-p49-q1-150 -->
 
-Câu 1. Cho đồ thị li độ theo thời gian của một vật dao động điều hoà như hình vẽ:
+Cho đồ thị li độ theo thời gian của một vật dao động điều hòa như hình dưới. Xét các phát biểu:
 
-Phát biểu
-Đúng Sai
-a. Biên độ dao động của vật bằng 10 cm
-Đ
-S
-b. Chu kì dao động của vật bằng 1 s
+a) Biên độ dao động của vật bằng $10$ cm.  
+b) Chu kì dao động của vật bằng $1$ s.  
+c) Pha ban đầu của dao động là $0{,}5\pi$ rad.  
+d) Tại thời điểm $t=1{,}5$ s, vật ở vị trí biên.
 
-S
-c. Pha ban đầu của dao động là 0,5π rad
+![Đồ thị hoặc hình minh họa của Bài 64](../../../assets/exercise-figures/clean-bai-1/bt-064-p049-q01.webp){ loading=lazy }
 
-S
-d. Tại thời điểm t = 1,5 s vật ở vị trí biên
-Đ
+??? success "Đáp án và lời giải"
+    **Kết luận:** a) Đúng; b) Sai; c) Sai; d) Đúng.
 
-![Hình/bảng/đồ thị đi kèm bài PDF 54](../../../assets/exercise-figures/i-p049-q01-30543.webp){ loading=lazy }
+    Từ đồ thị: $A=10$ cm. Khoảng thời gian từ một trạng thái lặp lại đến trạng thái tương ứng cho $T=2$ s, không phải $1$ s. Ở $t=0$, vật qua vị trí cân bằng theo chiều dương nên $\varphi=-\pi/2$ (hoặc một giá trị tương đương modulo $2\pi$), không phải $+\pi/2$. Tại $t=1{,}5$ s, vật ở biên.
 
-#### Bài PDF 55
+#### Bài 65
 
 <!-- source-id: BT-Chuong-I-p49-q2-151 -->
 
-Câu 2. Một vật dao động điều hòa theo phương trình
-(
-)(
-)
-x
-5cos 10 t
-cm .
-=
-π
+Một vật dao động điều hòa theo phương trình
 
-Phát biểu
-Đúng Sai
-a. Pha ban đầu của dao động là 10π (rad)
+$$x=5\cos(10\pi t)\ \text{cm}.$$
 
-S
-b. Tần số của dao động là 5 Hz
-Đ
+Xét các phát biểu:
 
-c. Pha của dao động là tại thời điểm t = 0,075 s là
-3π
-4  rad
-Đ
+a) Pha ban đầu của dao động là $10\pi$ rad.  
+b) Tần số của dao động là $5$ Hz.  
+c) Pha dao động tại thời điểm $t=0{,}075$ s là $\dfrac{3\pi}{4}$ rad.  
+d) Tại thời điểm $t=0{,}075$ s, li độ của vật là $-2{,}5\sqrt2$ cm.
 
-d. Tại thời điểm t = 0,075 s li độ của vật là −2,5√2(𝑐𝑚).
-Đ
+??? success "Đáp án và lời giải"
+    **Kết luận:** a) Sai; b) Đúng; c) Đúng; d) Đúng.
+
+    Với $x=5\cos(10\pi t)$ cm: $\varphi=0$, $\omega=10\pi$ rad/s nên $f=5$ Hz. Tại $t=0{,}075$ s:
+
+    $$\Phi=10\pi\cdot0{,}075=\frac{3\pi}{4},$$
+
+    và
+
+    $$x=5\cos\frac{3\pi}{4}=-\frac{5\sqrt2}{2}=-2{,}5\sqrt2\ \text{cm}.$$
 
 ### Thông hiểu — Trắc nghiệm 4 lựa chọn
 
-#### Bài PDF 56
+#### Bài 66
 
 <!-- source-id: BT-Chuong-I-p8-q3-3 -->
 
-Câu 3. Trong phương trình dao động điều hòa x = Acos(ωt + φ) , đại lượng (ωt + φ) gọi là
-     A. tần số góc của dao động.
-     B. pha của dao động.
-     C. biên độ của dao động.
-     D. chu kì của dao động.
+Trong phương trình dao động điều hòa x = Acos(ωt + φ) , đại lượng (ωt + φ) gọi là  
+A. tần số góc của dao động.  
+B. pha của dao động.  
+C. biên độ của dao động.  
+D. chu kì của dao động.
 
-#### Bài PDF 57
+??? success "Đáp án và lời giải"
+    **Đáp án: B.**
+
+    Trong dạng $x=A\cos(\omega t+\varphi)$, pha tại thời điểm $t$ là $\omega t+\varphi$.
+
+#### Bài 67
 
 <!-- source-id: BT-Chuong-I-p8-q6-6 -->
 
-Câu 6. Một vật dao động điều hòa với phương trình x = Acos(ωt + φ), mét(m). Trong phương trình
-đại lượng chỉ độ dịch chuyển từ vị trí cân bằng đến vị trí của vật tại thời điểm t là
- A. ω.
-B. A.
-C. x.
-D. φ.
+Một vật dao động điều hòa theo phương trình $x=A\cos(\omega t+\varphi)$ (m). Đại lượng biểu thị độ dịch chuyển có hướng của vật khỏi vị trí cân bằng tại thời điểm $t$ là
 
-#### Bài PDF 58
+A. $\omega$.  
+B. $A$.  
+C. $x$.  
+D. $\varphi$.
+
+??? success "Đáp án và lời giải"
+    **Đáp án: C.**
+
+    Trong phương trình dao động, $x$ là **li độ**: độ dịch chuyển có hướng của vật so với vị trí cân bằng tại thời điểm đang xét.
+
+#### Bài 68
 
 <!-- source-id: BT-Chuong-I-p8-q8-8 -->
 
-Câu 8. Đối với dao động tuần hoàn, số lần dao động được lặp lại trong một đơn vị thời gian gọi là
-
-A. tần số dao động.
-B. chu kỳ dao động.
-C. pha ban đầu.
+Đối với dao động tuần hoàn, số lần dao động được lặp lại trong một đơn vị thời gian gọi là  
+A. tần số dao động.  
+B. chu kỳ dao động.  
+C. pha ban đầu.  
 D. tần số góc.
 
-#### Bài PDF 59
+??? success "Đáp án và lời giải"
+    **Đáp án: A.**
+
+    Theo định nghĩa, tần số $f$ là số dao động toàn phần vật thực hiện trong một đơn vị thời gian.
+
+#### Bài 69
 
 <!-- source-id: BT-Chuong-I-p8-q9-9 -->
 
-Câu 9. Trường hợp nào sau đây chuyển động của vật không phải là dao động cơ?
-
-A. Máy bay hạ cánh xuống sân bay.
-B. Chiếc đu đung đưa.
-
-C. Dây đàn vĩ cầm rung động.
+Trường hợp nào sau đây chuyển động của vật không phải là dao động cơ?  
+A. Máy bay hạ cánh xuống sân bay.  
+B. Chiếc đu đung đưa.  
+C. Dây đàn vĩ cầm rung động.  
 D. Pittông chuyển động lên xuống trong xilanh.
 
-#### Bài PDF 60
+??? success "Đáp án và lời giải"
+    **Đáp án: A.**
+
+    Đối chiếu với định nghĩa dao động cơ: chuyển động lặp lại quanh một vị trí cân bằng.
+
+#### Bài 70
 
 <!-- source-id: BT-Chuong-I-p9-q12-12 -->
 
-Câu 12. Hình vẽ là đồ thị dao động điều hòa x(t) của một vật. Biểu thị bằng chữ "B" trong hình là
-chỉ đại lượng đặc trưng nào của dao động điều hòa?
-
-A. Tần số.
-B. Chu kỳ.
-C. Tần số góc.
+Hình vẽ là đồ thị dao động điều hòa x(t) của một vật. Biểu thị bằng chữ "B" trong hình là chỉ đại lượng đặc trưng nào của dao động điều hòa?  
+A. Tần số.  
+B. Chu kỳ.  
+C. Tần số góc.  
 D. Biên độ.
 
-![Hình/bảng/đồ thị đi kèm bài PDF 60](../../../assets/exercise-figures/i-p009-q12-99143.webp){ loading=lazy }
+![Đồ thị hoặc hình minh họa của Bài 70](../../../assets/exercise-figures/clean-bai-1/bt-070-p009-q12.webp){ loading=lazy }
 
-#### Bài PDF 61
+??? success "Đáp án và lời giải"
+    **Đáp án: D.**
+
+    Trên đồ thị, kí hiệu **B** biểu diễn khoảng cách cực đại từ vị trí cân bằng đến biên, tức **biên độ** của dao động.
+
+#### Bài 71
 
 <!-- source-id: BT-Chuong-I-p9-q15-15 -->
 
-Câu 15. Đồ thị li độ theo thời gian của một chất
-điểm dao động điều hoà được mô tả như hình bên.
-Pha ban đầu của dao động là
-A.
-2π  rad.
-3
-−
+Đồ thị li độ theo thời gian của một chất điểm dao động điều hòa được cho như hình dưới. Pha ban đầu của dao động là
 
-B.  2π  rad.
-3
+A. $-\dfrac{2\pi}{3}$ rad.  
+B. $\dfrac{2\pi}{3}$ rad.  
+C. $\dfrac{\pi}{6}$ rad.  
+D. $-\dfrac{\pi}{6}$ rad.
 
-C. π  rad.
-6
+![Đồ thị hoặc hình minh họa của Bài 71](../../../assets/exercise-figures/clean-bai-1/bt-071-p009-q15.webp){ loading=lazy }
 
-D.
-π  rad.
-6
-−
+??? success "Đáp án và lời giải"
+    **Đáp án: A.**
 
-![Hình/bảng/đồ thị đi kèm bài PDF 61](../../../assets/exercise-figures/i-p009-q15-94560.webp){ loading=lazy }
+    Từ đồ thị, $A=6$ cm và tại $t=0$ có $x_0=-3$ cm, đồng thời đường cong đang đi lên nên $v_0>0$.
 
-#### Bài PDF 62
+    $\cos\varphi=\frac{x_0}{A}=-\frac12.$
+
+    Vì $v_0=-A\omega\sin\varphi>0$ nên $\sin\varphi<0$. Do đó có thể chọn
+
+    $\varphi=-\frac{2\pi}{3}\ \text{rad}.$
+
+#### Bài 72
 
 <!-- source-id: BT-Chuong-I-p9-q16-16 -->
 
-Câu 16. Một chất điểm dao động điều hòa theo phương trình:
-2π
-x = 8cos(
-t + π)
-3
-mm, biên độ dao
-động của chất điểm là
-     A. 8 cm.
-B. 2π
-3
- m.
-C. 0,8 cm.
-  D. 2π
-3
- cm.
+Một chất điểm dao động điều hòa theo phương trình
 
-#### Bài PDF 63
+$$
+x=8\cos\left(\frac{2\pi}{3}t+\pi\right)\ \text{mm}.
+$$
+
+Biên độ dao động của chất điểm là
+
+A. $8$ cm.  
+B. $\dfrac{2\pi}{3}$ m.  
+C. $0{,}8$ cm.  
+D. $\dfrac{2\pi}{3}$ cm.
+
+??? success "Đáp án và lời giải"
+    **Đáp án: C.**
+
+    Biên độ là $A=8$ mm. Đổi đơn vị:
+
+    $$8\ \text{mm}=0{,}8\ \text{cm}.$$
+
+#### Bài 73
 
 <!-- source-id: BT-Chuong-I-p10-q18-18 -->
 
-Câu 18. Cho một chất điểm dao động điều hòa quanh vị trí cân bằng O. Li độ biến thiên theo thời
-gian như hình. Biên độ dao động là
+Cho một chất điểm dao động điều hòa quanh vị trí cân bằng $O$. Đồ thị li độ – thời gian được cho như hình dưới. Biên độ dao động là
 
-A. 5 cm
-B. - 5 cm
-C. 4 cm
-D. – 4 cm
+A. $5$ cm.  
+B. $-5$ cm.  
+C. $4$ cm.  
+D. $-4$ cm.
 
-![Hình/bảng/đồ thị đi kèm bài PDF 63](../../../assets/exercise-figures/i-p010-q18-33266.webp){ loading=lazy }
+![Đồ thị hoặc hình minh họa của Bài 73](../../../assets/exercise-figures/clean-bai-1/bt-073-p010-q18.webp){ loading=lazy }
 
-#### Bài PDF 64
+??? success "Đáp án và lời giải"
+    **Đáp án: A.**
+
+    Từ đồ thị, li độ cực đại là $+5$ cm và li độ cực tiểu là $-5$ cm. Vì biên độ là độ lớn li độ cực đại nên $A=5$ cm.
+
+#### Bài 74
 
 <!-- source-id: BT-Chuong-I-p10-q19-19 -->
 
-Câu 19. Đồ thị như hình  biểu diễn sự phụ thuộc của li độ x vào
-thời gian của một vật dao động điều hoà. Đoạn PR trên trục thời
-gian t biểu thị
-A. một phần hai chu kỳ.
-B. hai lần tần số.
-C. một phần hai tần số.
-D. hai lần chu kỳ.
+Đồ thị dưới biểu diễn sự phụ thuộc của li độ $x$ vào thời gian $t$ của một vật dao động điều hòa. Đoạn $PR$ trên trục thời gian biểu thị
 
-![Hình/bảng/đồ thị đi kèm bài PDF 64](../../../assets/exercise-figures/i-p010-q19-41370.webp){ loading=lazy }
+A. một nửa chu kì.  
+B. hai lần tần số.  
+C. một nửa tần số.  
+D. hai lần chu kì.
 
-#### Bài PDF 65
+![Đồ thị hoặc hình minh họa của Bài 74](../../../assets/exercise-figures/clean-bai-1/bt-074-p010-q19.webp){ loading=lazy }
+
+??? success "Đáp án và lời giải"
+    **Đáp án: A.**
+
+    Tại hai thời điểm ứng với $P$ và $R$, vật ở hai trạng thái ngược pha: một thời điểm ở biên âm và thời điểm kia ở biên dương. Hai trạng thái ngược pha cách nhau nửa chu kì, nên
+
+    $$PR=\frac{T}{2}.$$
+
+#### Bài 75
 
 <!-- source-id: BT-Chuong-I-p10-q20-20 -->
 
-Câu 20. Một vật dao động điều hòa trên trục Ox. Hình bên là đồ
-thị biểu diễn sự phụ thuộc của li độ x vào thời gian t. Pha ban
-đầu của dao động là
-A. 0,5π rad.
-B. – 0,5π rad.
-C. 0,25π rad.
-D. π rad.
+Một vật dao động điều hòa trên trục $Ox$. Đồ thị li độ – thời gian được cho như hình dưới. Pha ban đầu của dao động là
 
-![Hình/bảng/đồ thị đi kèm bài PDF 65](../../../assets/exercise-figures/i-p010-q20-30814.webp){ loading=lazy }
+A. $0{,}5\pi$ rad.  
+B. $-0{,}5\pi$ rad.  
+C. $0{,}25\pi$ rad.  
+D. $\pi$ rad.
 
-#### Bài PDF 66
+![Đồ thị hoặc hình minh họa của Bài 75](../../../assets/exercise-figures/clean-bai-1/bt-075-p010-q20.webp){ loading=lazy }
+
+??? success "Đáp án và lời giải"
+    **Đáp án: A.**
+
+    Tại $t=0$, vật qua vị trí cân bằng nên $x_0=0$. Đồ thị đi xuống ngay sau $t=0$, do đó $v_0<0$.
+
+    Với $x=A\cos(\omega t+\varphi)$:
+
+    $\cos\varphi=0,\qquad v_0=-A\omega\sin\varphi<0.$
+
+    Suy ra $\sin\varphi>0$, nên có thể chọn
+
+    $\varphi=\frac{\pi}{2}=0{,}5\pi\ \text{rad}.$
+
+#### Bài 76
 
 <!-- source-id: BT-Chuong-I-p11-q21-21 -->
 
-Câu 21. Một dao động điều hòa theo phương trình
-(
-)
-x = 10cos 4πt  cm , li độ của vật tại thời điểm
-t = 5 s là
-A. 4,56 cm.
-B. 10 cm.
-C. 4cm.
+Một vật dao động điều hòa theo phương trình
 
-D. 10 m.
+$$
+x=10\cos(4\pi t)\ \text{cm}.
+$$
 
-#### Bài PDF 67
+Li độ của vật tại $t=5$ s là
+
+A. $4{,}56$ cm.  
+B. $10$ cm.  
+C. $4$ cm.  
+D. $10$ m.
+
+??? success "Đáp án và lời giải"
+    **Đáp án: B.**
+
+    Thay $t=5$ s vào phương trình:
+
+    $x=10\cos(4\pi\cdot5)=10\cos(20\pi)=10\ \text{cm}.$
+
+#### Bài 77
 
 <!-- source-id: BT-Chuong-I-p11-q22-22 -->
 
-Câu 22. Một dao động điều hoà có phương trình x = 6cos(4πt) cm thì tần số góc của dao động là
-     A. 4π Hz.
-     B. 4π rad.
-     C. 4π rad/s.
-     D. 4π s.
+Một vật dao động điều hòa theo phương trình
 
-#### Bài PDF 68
+$$
+x=6\cos(4\pi t)\ \text{cm}.
+$$
+
+Tần số góc của dao động là
+
+A. $4\pi$ Hz.  
+B. $4\pi$ rad.  
+C. $4\pi$ rad/s.  
+D. $4\pi$ s.
+
+??? success "Đáp án và lời giải"
+    **Đáp án: C.**
+
+    So sánh với $x=A\cos(\omega t+\varphi)$, hệ số của $t$ trong pha là
+
+    $$\omega=4\pi\ \text{rad/s}.$$
+
+#### Bài 78
 
 <!-- source-id: BT-Chuong-I-p11-q23-23 -->
 
-Câu 23. Một vật nhỏ dao động điều hòa với biên độ 4 cm trên trục Ox. Tại thời điểm pha của dao
-động là π  rad
-4
- thì vật có li độ
-A. – 2 cm và theo chiều dương trục Ox.
+Một vật nhỏ dao động điều hòa với biên độ $A=4$ cm. Tại một thời điểm, pha dao động bằng $\dfrac{\pi}{4}$ rad. Khi đó vật có li độ và chiều chuyển động là
 
-B. 2 2 cm  và theo chiều âm trục Ox.
-C. – 2 cm và theo chiều âm trục Ox.
-D. 2 2 cm  và theo chiều dương của trục Ox.
+A. $-2$ cm và chuyển động theo chiều dương của trục $Ox$.  
+B. $2\sqrt2$ cm và chuyển động theo chiều âm của trục $Ox$.  
+C. $-2$ cm và chuyển động theo chiều âm của trục $Ox$.  
+D. $2\sqrt2$ cm và chuyển động theo chiều dương của trục $Ox$.
 
-#### Bài PDF 69
+??? success "Đáp án và lời giải"
+    **Đáp án: B.**
+
+    Với pha $\Phi=\pi/4$:
+
+    $x=A\cos\Phi=4\cos\frac{\pi}{4}=2\sqrt2\ \text{cm}.$
+
+    Vận tốc có dấu
+
+    $v=-A\omega\sin\Phi<0$
+
+    vì $\sin(\pi/4)>0$. Do đó vật đang chuyển động theo chiều âm.
+
+#### Bài 79
 
 <!-- source-id: BT-Chuong-I-p11-q24-24 -->
 
-Câu 24. Một dao động điều hòa đơn giản thực hiện được 5 dao động điều hòa trong thời gian 4,8 s.
-Chu kỳ (T) của dao động này là
-A. 4,8 s.
-B. 0,96 s.
-C. 9,8 s.
+Một dao động điều hòa thực hiện được $5$ dao động toàn phần trong $4{,}8$ s. Chu kì dao động là
 
-D. 9,6 s.
+A. $4{,}8$ s.  
+B. $0{,}96$ s.  
+C. $9{,}8$ s.  
+D. $9{,}6$ s.
 
-#### Bài PDF 70
+??? success "Đáp án và lời giải"
+    **Đáp án: B.**
 
-<!-- source-id: BT-Chuong-I-p11-q25-25 -->
+    $T=\frac{\Delta t}{N}=\frac{4{,}8}{5}=0{,}96\ \text{s}.$
 
-Câu 25. Một vật dao động điều hòa trên trục Ox. Hình bên là
-đồ thị biểu diễn sự phụ thuộc của li độ x vào thời gian t. Pha ban
-đầu của dao động là
-A. 0,5π rad.
-
-B. – 0,5π rad.
-C. 0,25π rad.
-
-D. π rad.
-
-![Hình/bảng/đồ thị đi kèm bài PDF 70](../../../assets/exercise-figures/i-p011-q25-07859.webp){ loading=lazy }
-
-#### Bài PDF 71
+#### Bài 80
 
 <!-- source-id: BT-Chuong-I-p12-q26-26 -->
 
-Câu 26. Một chất điểm dao động điều hoà có tần số góc ω = 10π (rad/s). Tần số của dao động là
-A. 5Hz.
+Một chất điểm dao động điều hòa có tần số góc $\omega=10\pi$ rad/s. Tần số dao động là
 
-B.10Hz.
+A. $5$ Hz.  
+B. $10$ Hz.  
+C. $20$ Hz.  
+D. $5\pi$ Hz.
 
-C. 20Hz.
+??? success "Đáp án và lời giải"
+    **Đáp án: A.**
 
-D. 5π Hz.
+    $f=\frac{\omega}{2\pi}=\frac{10\pi}{2\pi}=5\ \text{Hz}.$
 
-#### Bài PDF 72
+#### Bài 81
 
 <!-- source-id: BT-Chuong-I-p12-q27-27 -->
 
-Câu 27. Một vật dao động điều hòa trên trục Ox. Hình bên là
-đồ thị biểu diễn sự phụ thuộc của li độ x vào thời gian t. Tần số
-góc của dao động bằng
-A. 5π rad/s.
+Một vật dao động điều hòa trên trục $Ox$. Đồ thị li độ – thời gian được cho như hình dưới. Tần số góc của dao động bằng
 
-B. 5 rad/s.
+A. $5\pi$ rad/s.  
+B. $5$ rad/s.  
+C. $10$ rad/s.  
+D. $10\pi$ rad/s.
 
-C. 10 rad/s.
+![Đồ thị hoặc hình minh họa của Bài 81](../../../assets/exercise-figures/clean-bai-1/bt-082-p012-q27.webp){ loading=lazy }
 
-D. 10π rad/s.
+??? success "Đáp án và lời giải"
+    **Đáp án: A.**
 
-![Hình/bảng/đồ thị đi kèm bài PDF 72](../../../assets/exercise-figures/i-p012-q27-21513.webp){ loading=lazy }
+    Từ đồ thị, thời gian từ lúc qua vị trí cân bằng theo chiều âm đến lần kế tiếp qua vị trí cân bằng theo chiều dương là $0{,}2$ s, tức $T/2=0{,}2$ s. Do đó $T=0{,}4$ s và
 
-#### Bài PDF 73
+    $\omega=\frac{2\pi}{T}=5\pi\ \text{rad/s}.$
+
+#### Bài 82
 
 <!-- source-id: BT-Chuong-I-p12-q28-28 -->
 
-Câu 28. Hình vẽ bên là đồ thị biểu diễn sự phụ thuộc của li độ
-vào thời gian t của một vật dao động điều hòa. Thời điểm vật đi
-qua vị trí cân bằng lần đầu tiên là
-A. 0,4 s.
+Hình dưới là đồ thị li độ – thời gian $(x-t)$ của một vật dao động điều hòa. Thời điểm vật đi qua vị trí cân bằng lần đầu tiên là
 
-B. 0,2 s.
+A. $0{,}4$ s.  
+B. $0{,}2$ s.  
+C. $0{,}1$ s.  
+D. $0{,}8$ s.
 
-C. 0,1 s.
+![Đồ thị hoặc hình minh họa của Bài 82](../../../assets/exercise-figures/clean-bai-1/bt-083-p012-q28.webp){ loading=lazy }
 
-D. 0,8 s.
+??? success "Đáp án và lời giải"
+    **Đáp án: A.**
 
-![Hình/bảng/đồ thị đi kèm bài PDF 73](../../../assets/exercise-figures/i-p012-q28-16100.webp){ loading=lazy }
+    Vị trí cân bằng ứng với $x=0$. Quan sát đồ thị từ $t=0$, lần đầu đường cong cắt trục thời gian tại $t=0{,}4$ s.
 
-#### Bài PDF 74
+    Vì vậy thời điểm vật đi qua vị trí cân bằng lần đầu tiên là $0{,}4$ s.
+
+#### Bài 83
 
 <!-- source-id: BT-Chuong-I-p12-q29-29 -->
 
-Câu 29. Một vật dao động điều hòa trên trục Ox. Hình
-bên là đồ thị biểu diễn sự phụ thuộc của li độ x vào thời
-gian t. Tần số và biên độ của dao động là:
-A. 2Hz; 10 cm.
+Một vật dao động điều hòa trên trục $Ox$. Hình dưới là đồ thị biểu diễn sự phụ thuộc của li độ $x$ vào thời gian $t$. Tần số và biên độ của dao động lần lượt là
 
-B. 2 Hz; 20cm
-C. 1 Hz; 10cm.
+A. $2$ Hz và $10$ cm.  
+B. $2$ Hz và $20$ cm.  
+C. $1$ Hz và $10$ cm.  
+D. $1$ Hz và $20$ cm.
 
-D. 1Hz; 20cm.
+![Đồ thị hoặc hình minh họa của Bài 83](../../../assets/exercise-figures/clean-bai-1/bt-084-p012-q29.webp){ loading=lazy }
 
-![Hình/bảng/đồ thị đi kèm bài PDF 74](../../../assets/exercise-figures/i-p012-q29-05190.webp){ loading=lazy }
+??? success "Đáp án và lời giải"
+    **Đáp án: C.**
 
-#### Bài PDF 75
+    Từ đồ thị, độ lớn li độ cực đại là $10$ cm nên biên độ $A=10$ cm.
+
+    Hai trạng thái cùng pha liên tiếp lặp lại sau $1$ s, do đó $T=1$ s và
+
+    $f=\frac{1}{T}=1\ \text{Hz}.$
+
+    Vậy $f=1$ Hz và $A=10$ cm.
+
+#### Bài 84
 
 <!-- source-id: BT-Chuong-I-p12-q30-30 -->
 
-Câu 30. Một dao động điều hòa có đồ thị như hình vẽ. Kết
-luận nào sau đây sai?
-A. A = 4 cm.
+Một dao động điều hòa có đồ thị như hình dưới. Kết luận nào sau đây **sai**?
 
-B. T = 0,5 s.
+A. $A=4$ cm.  
+B. $T=0{,}5$ s.  
+C. $f=1$ Hz.  
+D. $\omega=2\pi$ rad/s.
 
-C. f  = 1 Hz.
+![Đồ thị hoặc hình minh họa của Bài 84](../../../assets/exercise-figures/clean-bai-1/bt-085-p012-q30.webp){ loading=lazy }
 
-D. ω = 2π rad/s.
+??? success "Đáp án và lời giải"
+    **Đáp án: B.**
 
-![Hình/bảng/đồ thị đi kèm bài PDF 75](../../../assets/exercise-figures/i-p012-q30-66404.webp){ loading=lazy }
+    Từ đồ thị, biên độ $A=4$ cm. Vật đi từ biên âm tại $t=0$ đến biên dương tại $t=0{,}5$ s, đây là nửa chu kì:
 
-#### Bài PDF 76
+    $\frac{T}{2}=0{,}5\ \text{s}\Rightarrow T=1\ \text{s}.$
+
+    Suy ra $f=1$ Hz và $\omega=2\pi$ rad/s. Vì vậy phát biểu B là sai.
+
+#### Bài 85
 
 <!-- source-id: BT-Chuong-I-p13-q31-31 -->
 
-Câu 31. Hình vẽ là đồ thị li độ - thời gian của hai dao động. Nhận định nào sau đây đúng khi nói về
-hai dao động?
+Hình dưới là đồ thị li độ – thời gian của hai dao động. Nhận định nào sau đây đúng?
 
-A. Hai dao động cùng biên độ và tần số.
-B. Hai dao động khác biên độ và tần số.
-C. Hai dao động khác biên độ và cùng tần số.
+A. Hai dao động cùng biên độ và cùng tần số.  
+B. Hai dao động khác biên độ và khác tần số.  
+C. Hai dao động khác biên độ và cùng tần số.  
 D. Hai dao động cùng biên độ và khác tần số.
 
-![Hình/bảng/đồ thị đi kèm bài PDF 76](../../../assets/exercise-figures/i-p013-q31-61224.webp){ loading=lazy }
+![Đồ thị hoặc hình minh họa của Bài 85](../../../assets/exercise-figures/clean-bai-1/bt-086-p013-q31.webp){ loading=lazy }
 
-#### Bài PDF 77
+??? success "Đáp án và lời giải"
+    **Đáp án: C.**
+
+    Hai đường có các thời điểm lặp lại trạng thái cách nhau như nhau, nên chúng có cùng chu kì và cùng tần số. Tuy nhiên độ lệch cực đại của hai đường so với vị trí cân bằng khác nhau, nên biên độ khác nhau.
+
+#### Bài 86
 
 <!-- source-id: BT-Chuong-I-p38-q19-100 -->
 
-Câu 19. Một chất điểm dao động điều hoà có phương trình li độ theo thời gian là:
-𝑥= 2√3cos (10𝜋𝑡+ 𝜋
-3) (cm)
-Tần số của dao động là
+Một chất điểm dao động điều hòa theo phương trình
 
-A. 10 Hz.
-B. 20 Hz.
-C. 10𝜋Hz.
-D. 5 Hz.
+$$
+x=2\sqrt3\cos\left(10\pi t+\frac{\pi}{3}\right)\ \text{cm}.
+$$
 
-#### Bài PDF 78
+Tần số dao động là
+
+A. $10$ Hz.  
+B. $20$ Hz.  
+C. $10\pi$ Hz.  
+D. $5$ Hz.
+
+??? success "Đáp án và lời giải"
+    **Đáp án: D.**
+
+    $\omega=10\pi$ rad/s, do đó
+
+    $f=\frac{\omega}{2\pi}=5\ \text{Hz}.$
+
+#### Bài 87
 
 <!-- source-id: BT-Chuong-I-p39-q21-102 -->
 
-Câu 21. Một vật dao động điều hòa với biên độ A = 5 cm. Trong các giá trị sau, giá trị nào có thể
-là li độ của vật ?
-A. x = 6 cm.
-B. x = 10 cm.
-C. x = – 6 cm.
-D. x = 1,2 cm.
+Một vật dao động điều hòa với biên độ $A=5$ cm. Giá trị nào sau đây **có thể** là li độ của vật?
 
-#### Bài PDF 79
+A. $x=6$ cm.  
+B. $x=10$ cm.  
+C. $x=-6$ cm.  
+D. $x=1{,}2$ cm.
+
+??? success "Đáp án và lời giải"
+    **Đáp án: D.**
+
+    Trong dao động điều hòa, li độ luôn thỏa $|x|\le A$. Với $A=5$ cm, chỉ $x=1{,}2$ cm nằm trong khoảng $[-5;5]$ cm.
+
+#### Bài 88
 
 <!-- source-id: BT-Chuong-I-p39-q22-103 -->
 
-Câu 22. Một vật dao động điều hòa, sau 3 giây vật thực hiện được 30 dao động. Hãy xác định tần
-số góc của vật dao động?
-A. 10 rad/s
-B. 20π rad/s
-C. 90 rad/s
-D. 0.1 rad/s
-Dựa vào đồ thị li độ - thời gian của một vật dao động điều hoà
-ở hình 1.1 để trả lời các câu hỏi 23, 24:
+Một vật dao động điều hòa thực hiện được $30$ dao động trong $3$ s. Tần số góc của dao động là
 
-![Hình/bảng/đồ thị đi kèm bài PDF 79](../../../assets/exercise-figures/i-p039-q22-20489.webp){ loading=lazy }
+A. $10$ rad/s.  
+B. $20\pi$ rad/s.  
+C. $90$ rad/s.  
+D. $0{,}1$ rad/s.
 
-#### Bài PDF 80
+??? success "Đáp án và lời giải"
+    **Đáp án: B.**
+
+    $f=\frac{N}{\Delta t}=\frac{30}{3}=10\ \text{Hz}.$
+
+    Do đó
+
+    $\omega=2\pi f=20\pi\ \text{rad/s}.$
+
+#### Bài 89
 
 <!-- source-id: BT-Chuong-I-p39-q23-104 -->
 
-Câu 23. Pha ban đầu của dao động là
-A. 0,5π rad.
-B. – 0,5π rad.
-C. 0,25π rad.
-D. π rad.
+Dựa vào đồ thị li độ – thời gian dưới đây, pha ban đầu của dao động là
 
-#### Bài PDF 81
+A. $0{,}5\pi$ rad.  
+B. $-0{,}5\pi$ rad.  
+C. $0{,}25\pi$ rad.  
+D. $\pi$ rad.
+
+![Đồ thị hoặc hình minh họa của Bài 89](../../../assets/exercise-figures/clean-bai-1/bt-090-p039-shared.webp){ loading=lazy }
+
+??? success "Đáp án và lời giải"
+    **Đáp án: A.**
+
+    Tại $t=0$, vật qua vị trí cân bằng và đồ thị đi xuống, nên $x_0=0$, $v_0<0$. Với dạng cos, điều này tương ứng
+
+    $\varphi=\frac{\pi}{2}=0{,}5\pi\ \text{rad}.$
+
+#### Bài 90
 
 <!-- source-id: BT-Chuong-I-p39-q24-105 -->
 
-Câu 24. Chu kì của dao động là
+Dựa vào đồ thị li độ – thời gian dưới đây, chu kì dao động là
 
-A. 0,2 s.
-B. 0,4 s.
+A. $0{,}2$ s.  
+B. $0{,}4$ s.  
+C. $5$ s.  
+D. $2{,}5$ s.
 
-C. 5 s.
-D. 2,5 s.
+![Đồ thị hoặc hình minh họa của Bài 90](../../../assets/exercise-figures/clean-bai-1/bt-090-p039-shared.webp){ loading=lazy }
 
-#### Bài PDF 82
+??? success "Đáp án và lời giải"
+    **Đáp án: B.**
+
+    Tại $t=0$, vật qua vị trí cân bằng theo chiều âm. Đến $t=0{,}2$ s, vật qua vị trí cân bằng theo chiều dương. Hai trạng thái này ngược pha và cách nhau $T/2$, nên
+
+    $\frac{T}{2}=0{,}2\ \text{s}\Rightarrow T=0{,}4\ \text{s}.$
+
+#### Bài 91
 
 <!-- source-id: BT-Chuong-I-p39-q25-106 -->
 
-![Đề bài PDF — Bài 82](../../../assets/exercise-figures/source-faithful/i-p039-q25-de.webp){ loading=lazy }
+Một vật dao động điều hòa theo phương trình
 
-#### Bài PDF 83
+$$x=5\cos\left[10\left(\pi t+\frac{\pi}{4}\right)\right]\ \text{cm},$$
+
+trong đó $t$ tính bằng giây. Tần số dao động của vật là
+
+A. $5$ Hz.  
+B. $15$ Hz.  
+C. $10$ Hz.  
+D. $6$ Hz.
+
+??? success "Đáp án và lời giải"
+    **Đáp án: A.**
+
+    Khai triển pha: $10(\pi t+\pi/4)=10\pi t+5\pi/2$, nên $\omega=10\pi$ rad/s và $f=\omega/(2\pi)=5$ Hz.
+
+#### Bài 92
 
 <!-- source-id: BT-Chuong-I-p39-q26-107 -->
 
-![Đề bài PDF — Bài 83](../../../assets/exercise-figures/source-faithful/i-p039-q26-de.webp){ loading=lazy }
+Một vật dao động điều hòa theo phương trình
 
-#### Bài PDF 84
+$$x=4\cos\left(4\pi t+\frac{\pi}{3}\right)\ \text{cm},$$
+
+trong đó $t$ tính bằng giây. Thời gian để vật thực hiện một dao động toàn phần là
+
+A. $4$ s.  
+B. $0{,}5$ s.  
+C. $2$ s.  
+D. $1$ s.
+
+??? success "Đáp án và lời giải"
+    **Đáp án: B.**
+
+    $\omega=4\pi$ rad/s nên $T=2\pi/\omega=0{,}5$ s.
+
+#### Bài 93
 
 <!-- source-id: BT-Chuong-I-p39-q27-108 -->
 
-![Đề bài PDF — Bài 84](../../../assets/exercise-figures/source-faithful/i-p039-q27-de.webp){ loading=lazy }
+Một chất điểm dao động điều hòa với phương trình
 
-#### Bài PDF 85
+$$x=2\cos\left(2\pi t+\frac{\pi}{2}\right)\ \text{cm}.$$
+
+Tại thời điểm $t=0{,}25$ s, chất điểm có li độ bằng
+
+A. $2$ cm.  
+B. $\sqrt3$ cm.  
+C. $-\sqrt3$ cm.  
+D. $-2$ cm.
+
+??? success "Đáp án và lời giải"
+    **Đáp án: D.**
+
+    $$x(0{,}25)=2\cos\left(2\pi\cdot0{,}25+\frac{\pi}{2}\right)=2\cos\pi=-2\ \text{cm}.$$
+
+#### Bài 94
 
 <!-- source-id: BT-Chuong-I-p40-q31-112 -->
 
-Câu 31. Một vật dao động điều hoà có phương trình x = 4cos(20πt – π/6) cm. Tần số và pha ban
-đầu của dao động lần lượt là
-A. 10 Hz và -π/6 rad
-C. 1/10 Hz và –π/6 rad
-B. 1/10 Hz và π/6 rad
-D. 10 Hz và π/6 rad
+Một vật dao động điều hòa theo phương trình
 
-#### Bài PDF 86
+$$
+x=4\cos\left(20\pi t-\frac{\pi}{6}\right)\ \text{cm}.
+$$
+
+Tần số và pha ban đầu của dao động lần lượt là
+
+A. $10$ Hz và $-\dfrac{\pi}{6}$ rad.  
+B. $0{,}1$ Hz và $\dfrac{\pi}{6}$ rad.  
+C. $0{,}1$ Hz và $-\dfrac{\pi}{6}$ rad.  
+D. $10$ Hz và $\dfrac{\pi}{6}$ rad.
+
+??? success "Đáp án và lời giải"
+    **Đáp án: A.**
+
+    Từ phương trình, $\omega=20\pi$ rad/s và $\varphi=-\pi/6$. Vì vậy
+
+    $f=\frac{\omega}{2\pi}=10\ \text{Hz}.$
+
+#### Bài 95
 
 <!-- source-id: BT-Chuong-I-p40-q32-113 -->
 
-Câu 32. Một chất điểm dao động điều hoà theo phương trình
-(
-)
-x
-5cos 2 t
-=
-π cm, chu kỳ dao động
-của chất điểm là
-A. T = 1 s.
-B. T = 2 s.
-C. T = 0,5 s.
-D. T = 1 Hz.
+Một chất điểm dao động điều hòa theo phương trình
 
-#### Bài PDF 87
+$$
+x=5\cos(2\pi t)\ \text{cm}.
+$$
+
+Chu kì dao động của chất điểm là
+
+A. $1$ s.  
+B. $2$ s.  
+C. $0{,}5$ s.  
+D. $1$ Hz.
+
+??? success "Đáp án và lời giải"
+    **Đáp án: A.**
+
+    $\omega=2\pi$ rad/s nên
+
+    $T=\frac{2\pi}{\omega}=1\ \text{s}.$
+
+#### Bài 96
 
 <!-- source-id: BT-Chuong-I-p40-q33-114 -->
 
-Câu 33. Một vật dao động tuần hoàn mỗi phút thực hiện được 360 dao động. Tần số dao động của
-con lắc là
-A. 7 Hz.
-B. 5 Hz.
-C. 8 Hz.
-D. 6 Hz.
+Một vật dao động tuần hoàn, mỗi phút thực hiện được $360$ dao động. Tần số dao động của vật là
+
+A. $7$ Hz.  
+B. $5$ Hz.  
+C. $8$ Hz.  
+D. $6$ Hz.
+
+??? success "Đáp án và lời giải"
+    **Đáp án: D.**
+
+    Một phút bằng $60$ s, do đó
+
+    $f=\frac{N}{\Delta t}=\frac{360}{60}=6\ \text{Hz}.$
 
 ### Vận dụng — Trả lời ngắn
 
-#### Bài PDF 88
+#### Bài 97
 
 <!-- source-id: BT-Chuong-I-p22-q2-48 -->
 
-Câu 2. Một chất điểm dao động điều hòa với biên độ 5 cm và thời gian thực hiện được 1 dao động là
-1/3s. Tính tốc độ trung bình trong một dao động (tính bằng m/s)? (Kết quả lấy theo đơn vị chuẩn của
-hệ SI và lấy đến 1 chữ số sau dấu phẩy thập phân)
+Một chất điểm dao động điều hòa với biên độ $5$ cm và thời gian thực hiện một dao động toàn phần là $\dfrac13$ s. Tính tốc độ trung bình trong một dao động, theo đơn vị m/s. **Làm tròn đến một chữ số thập phân.**
 
-Đáp án
-0
-,
-6
+??? success "Đáp án và lời giải"
+    **Đáp án: $0{,}6$ m/s.**
 
-#### Bài PDF 89
+    Trong một chu kì, vật đi quãng đường $4A=20$ cm $=0{,}20$ m. Do đó
+
+    $\bar v=\frac{4A}{T}=\frac{0{,}20}{1/3}=0{,}60\ \text{m/s}.$
+
+#### Bài 98
 
 <!-- source-id: BT-Chuong-I-p22-q4-50 -->
 
-Câu 4. Một vật dao động điều hòa trên trục Ox. Hình dưới là đồ thị biểu diễn sự phụ thuộc của li độ
-x vào thời gian t. Chu kỳ dao động của vật bao nhiêu giây?
+Một vật dao động điều hòa trên trục $Ox$. Đồ thị li độ – thời gian được cho như hình dưới. Chu kì dao động của vật bằng bao nhiêu giây?
 
-Đáp án
-0
-,
-3
-6
+![Đồ thị hoặc hình minh họa của Bài 98](../../../assets/exercise-figures/clean-bai-1/bt-099-p022-q04.webp){ loading=lazy }
 
-![Hình/bảng/đồ thị đi kèm bài PDF 89](../../../assets/exercise-figures/i-p022-q04-33988.webp){ loading=lazy }
+??? success "Đáp án và lời giải"
+    **Đáp án: $0{,}36$ s.**
 
-#### Bài PDF 90
+    Tại $t=0$, đồ thị cho $x=A/2$ và vật đang đi lên, tương ứng pha $\varphi=-\pi/3$.
+
+    Từ trạng thái ban đầu đến trạng thái được đánh dấu tại $t=0{,}3$ s, vật lần lượt đi qua các khoảng pha tương ứng $T/6$, $T/2$ và $T/6$. Vì vậy
+
+    $0{,}3=\frac{T}{6}+\frac{T}{2}+\frac{T}{6}=\frac{5T}{6}.$
+
+    Suy ra
+
+    $T=0{,}3\cdot\frac65=0{,}36\ \text{s}.$
+
+#### Bài 99
 
 <!-- source-id: BT-Chuong-I-p23-q5-51 -->
 
-![Đề bài PDF — Bài 90](../../../assets/exercise-figures/source-faithful/i-p023-q05-de.webp){ loading=lazy }
+Một vật dao động điều hòa theo phương trình
 
-#### Bài PDF 91
+$$x=6\cos\left(2\pi t+\frac{3\pi}{4}\right)\ \text{cm}.$$
+
+Kể từ thời điểm $t=\dfrac{13}{8}$ s, xác định **thời điểm gần nhất tính từ gốc thời gian** mà vật đi qua vị trí cách vị trí cân bằng $3\sqrt2$ cm **lần thứ hai**, đồng thời vật đang chuyển động ra xa vị trí cân bằng.
+
+??? success "Đáp án và lời giải"
+    **Đáp án: $2{,}5$ s.**
+
+    Chu kì $T=1$ s. Tại $t_0=13/8$ s:
+
+    $$\Phi_0=2\pi\cdot\frac{13}{8}+\frac{3\pi}{4}=4\pi,$$
+
+    nên vật đang ở biên dương $x=A$. Điều kiện cách vị trí cân bằng $3\sqrt2$ cm tương ứng $|x|=A\sqrt2/2$. Kể từ biên dương, hai lần đầu thỏa điều kiện **và đang đi ra xa vị trí cân bằng** lần lượt xuất hiện sau các quãng pha thích hợp; lần thứ hai cách trạng thái ban đầu $7T/8$. Vì vậy
+
+    $$t=t_0+\frac{7T}{8}=\frac{13}{8}+\frac78=\frac{20}{8}=2{,}5\ \text{s}.$$
+
+#### Bài 100
 
 <!-- source-id: BT-Chuong-I-p23-q6-52 -->
 
-Câu 6. Một vật dao động điều hòa theo phương trình x = 10cos(3πt −
-π
-3) (cm). Kể từ t = 0, thời điểm
-vật qua vị trí x = 8 cm lần thứ 16 bằng bao nhiêu giây?
+Một vật dao động điều hòa theo phương trình
 
-Đáp án
-4
-,
-8
-5
+$$
+x=10\cos\left(3\pi t-\frac{\pi}{3}\right)\ \text{cm}.
+$$
 
-#### Bài PDF 92
+Kể từ $t=0$, thời điểm vật đi qua vị trí $x=8$ cm **lần thứ 16** là bao nhiêu giây?
+
+??? success "Đáp án và lời giải"
+    **Đáp án: $4{,}85$ s.**
+
+    Ta có
+
+    $\omega=3\pi\ \text{rad/s},\qquad T=\frac{2\pi}{\omega}=\frac23\ \text{s}.$
+
+    Điều kiện $x=8$ cm cho
+
+    $\cos\Phi=\frac{8}{10}=0{,}8.$
+
+    Đặt $\alpha=\arccos(0{,}8)$. Tại $t=0$, pha $\Phi_0=-\pi/3$. Trong mỗi chu kì vật đi qua $x=8$ cm hai lần. Sau $7T$ đã có $14$ lần; trong chu kì tiếp theo, lần thứ 16 ứng với pha $\Phi=2\pi+\alpha$ tính từ đầu chu kì đó. Do đó
+
+    $t=7T+\frac{T}{6}+\frac{\alpha}{2\pi}T =\frac{14}{3}+\frac19+\frac{\arccos(0{,}8)}{3\pi} \approx4{,}846\ \text{s}.$
+
+    Làm tròn đến hai chữ số thập phân: $t\approx4{,}85$ s.
+
+#### Bài 101
 
 <!-- source-id: BT-Chuong-I-p24-q7-53 -->
 
-Câu 7. Cho đồ thị li độ - thời gian của một vật dao động điều hòa như hình . Độ dịch chuyển của vật
-từ lúc t1 = 5s đến t2 = 9s là bao nhiêu xentimet ?
+Cho đồ thị li độ – thời gian của một vật dao động điều hòa như hình dưới. Độ dịch chuyển của vật từ lúc $t_1=5$ s đến $t_2=9$ s là bao nhiêu xentimét?
 
-Đáp án
-2
-,
-5
+![Đồ thị hoặc hình minh họa của Bài 101](../../../assets/exercise-figures/clean-bai-1/bt-102-p024-q07.webp){ loading=lazy }
 
-![Hình/bảng/đồ thị đi kèm bài PDF 92](../../../assets/exercise-figures/i-p024-q07-36941.webp){ loading=lazy }
+??? success "Đáp án và lời giải"
+    **Đáp án: $-2{,}5$ cm.**
 
-#### Bài PDF 93
+    Từ đồ thị:
+
+    - tại $t_1=5$ s: $x_1=0$ cm;
+    - tại $t_2=9$ s: $x_2=-2{,}5$ cm.
+
+    Theo định nghĩa độ dịch chuyển trong khoảng thời gian này:
+
+    $$\Delta x=x_2-x_1=-2{,}5-0=-2{,}5\ \text{cm}.$$
+
+    Dấu âm cho biết vị trí cuối nằm về phía âm của trục tọa độ so với vị trí đầu.
+
+#### Bài 102
 
 <!-- source-id: BT-Chuong-I-p24-q8-54 -->
 
-![Đề bài PDF — Bài 93](../../../assets/exercise-figures/source-faithful/i-p024-q08-de.webp){ loading=lazy }
+Một vật dao động điều hòa theo phương trình
+
+$$x=4\cos\left(5\pi t-\frac{\pi}{3}\right)\ \text{cm}.$$
+
+Kể từ thời điểm $t=\dfrac{41}{12}$ s, xác định **thời điểm gần nhất tính từ gốc thời gian** mà vật đi qua vị trí $x=3$ cm **lần thứ hai**. Kết quả làm tròn đến hai chữ số thập phân.
+
+??? success "Đáp án và lời giải"
+    **Đáp án: $3{,}71$ s.**
+
+    Ta có $\omega=5\pi$ rad/s nên $T=0{,}4$ s. Tại $t_0=41/12$ s:
+
+    $$\Phi_0=5\pi\frac{41}{12}-\frac{\pi}{3}=\frac{67\pi}{4}\equiv\frac{3\pi}{4}\pmod{2\pi}.$$
+
+    Điều kiện $x=3$ cm cho
+
+    $$\cos\Phi=\frac34.$$
+
+    Đặt $\alpha=\arccos(3/4)$. Sau pha $3\pi/4$, hai lần tiếp theo vật đạt $x=3$ cm ứng với $\Phi=2\pi-\alpha$ và $\Phi=2\pi+\alpha$. Vì đề hỏi **lần thứ hai**, ta dùng $2\pi+\alpha$:
+
+    $$\Delta t=\frac{2\pi+\alpha-3\pi/4}{5\pi}=\frac14+\frac{\alpha}{5\pi}\approx0{,}296\ \text{s}.$$
+
+    Suy ra
+
+    $$t=t_0+\Delta t\approx3{,}4167+0{,}296=3{,}71\ \text{s}.$$
 
 ### Vận dụng — Trắc nghiệm 4 lựa chọn
 
-#### Bài PDF 94
+#### Bài 103
 
 <!-- source-id: BT-Chuong-I-p15-q36-36 -->
 
-![Đề bài PDF — Bài 94](../../../assets/exercise-figures/source-faithful/i-p015-q36-de.webp){ loading=lazy }
+Hình dưới là đồ thị biểu diễn độ dời $x$ theo thời gian $t$ của một vật dao động điều hòa. Phương trình dao động của vật là
 
-#### Bài PDF 95
+A. $x=4\cos\left(10\pi t+\dfrac{2\pi}{3}\right)$ cm.  
+B. $x=4\cos\left(20\pi t+\dfrac{2\pi}{3}\right)$ cm.  
+C. $x=4\cos\left(10\pi t+\dfrac{5\pi}{6}\right)$ cm.  
+D. $x=4\cos\left(20\pi t-\dfrac{\pi}{3}\right)$ cm.
+
+![Đồ thị hoặc hình minh họa của Bài 103](../../../assets/exercise-figures/clean-bai-1/bt-104-p015-q36.webp){ loading=lazy }
+
+??? success "Đáp án và lời giải"
+    **Đáp án: A.**
+
+    Từ đồ thị đọc được $A=4$ cm. Chu kì $T=0{,}2$ s nên $\omega=10\pi$ rad/s. Trạng thái ban đầu trên đồ thị cho $\varphi=2\pi/3$, vì vậy phương án A phù hợp.
+
+#### Bài 104
 
 <!-- source-id: BT-Chuong-I-p15-q38-38 -->
 
-Câu 38. Một vật dao động điều hòa trên trục Ox. Tại thời điểm t = 0, vật ở biên dương. Tại thời điểm
-t = τ và t = 2τ, vật có li độ tương ứng là
-2
-3
- cm và -5 cm. Biên độ dao động của vật  bằng
-A. 9 cm.
+Một vật dao động điều hòa trên trục $Ox$. Tại $t=0$, vật ở biên dương. Tại các thời điểm $t=\tau$ và $t=2\tau$, vật có li độ lần lượt là $3\sqrt2$ cm và $-5$ cm. Biên độ dao động của vật bằng
 
-B.3 cm.
+A. $9$ cm.  
+B. $3$ cm.  
+C. $6$ cm.  
+D. $5$ cm.
 
-C. 6 cm.
+??? success "Đáp án và lời giải"
+    **Đáp án: A.**
 
-D. 5 cm.
+    Vì tại $t=0$ vật ở biên dương, có thể viết
 
-#### Bài PDF 96
+    $$x=A\cos(\omega t).$$
+
+    Đặt $c=\cos(\omega\tau)$. Từ dữ kiện tại $t=\tau$:
+
+    $$Ac=3\sqrt2.\tag{1}$$
+
+    Tại $t=2\tau$:
+
+    $A\cos(2\omega\tau)=A(2c^2-1)=-5.\tag{2}$
+
+    Từ (1), $c^2=18/A^2$. Thay vào (2):
+
+    $A\left(\frac{36}{A^2}-1\right)=-5 \Rightarrow A^2-5A-36=0.$
+
+    Do $A>0$, suy ra $A=9$ cm.
+
+#### Bài 105
 
 <!-- source-id: BT-Chuong-I-p16-q39-39 -->
 
-![Đề bài PDF — Bài 96](../../../assets/exercise-figures/source-faithful/i-p016-q39-de.webp){ loading=lazy }
+Một vật dao động điều hòa trên trục $Ox$. Hình dưới là đồ thị biểu diễn sự phụ thuộc của li độ $x$ vào thời gian $t$. Phương trình dao động của vật là
 
-#### Bài PDF 97
+A. $x=6\cos\left(\dfrac{\pi}{3}t-\dfrac{2\pi}{3}\right)$ cm.  
+B. $x=6\cos\left(\dfrac{2\pi}{3}t+\dfrac{2\pi}{3}\right)$ cm.  
+C. $x=6\cos\left(\dfrac{\pi}{3}t+\dfrac{2\pi}{3}\right)$ cm.  
+D. $x=6\cos\left(\dfrac{2\pi}{3}t-\dfrac{2\pi}{3}\right)$ cm.
+
+![Đồ thị hoặc hình minh họa của Bài 105](../../../assets/exercise-figures/clean-bai-1/bt-106-p016-q39.webp){ loading=lazy }
+
+??? success "Đáp án và lời giải"
+    **Đáp án: B.**
+
+    Từ đồ thị đọc được $A=6$ cm. Khoảng thời gian từ $t=2{,}5$ s đến $t=4{,}25$ s tương ứng tổng $T/3+T/4=7T/12$, do đó
+
+    $$1{,}75=\frac{7T}{12}\Rightarrow T=3\ \text{s},\qquad \omega=\frac{2\pi}{3}\ \text{rad/s}.$$
+
+    Tại $t=2{,}5$ s, vật có $x=A/2$ ở nhánh phù hợp của đồ thị, suy ra pha tại thời điểm đó là $\pi/3$ (theo modulo $2\pi$). Từ $\omega t+\varphi\equiv\pi/3$ ta được $\varphi\equiv2\pi/3$. Vậy
+
+    $$x=6\cos\left(\frac{2\pi}{3}t+\frac{2\pi}{3}\right)\ \text{cm}.$$
+
+#### Bài 106
 
 <!-- source-id: BT-Chuong-I-p16-q40-40 -->
 
-Câu 40. Một vật dao động điều hòa trên trục Ox. Hình bên là đồ thị biểu diễn sự phụ thuộc của li
-độ x vào thời gian t. Pha ban đầu của dao động là
+Một vật dao động điều hòa trên trục $Ox$. Đồ thị li độ – thời gian được cho như hình dưới. Pha ban đầu của dao động là
 
-A. π  rad.
-6
+A. $\dfrac{\pi}{6}$ rad.  
+B. $-\dfrac{\pi}{6}$ rad.  
+C. $\dfrac{\pi}{3}$ rad.  
+D. $-\dfrac{\pi}{3}$ rad.
 
-B.
-π  rad.
-6
-−
+![Đồ thị hoặc hình minh họa của Bài 106](../../../assets/exercise-figures/clean-bai-1/bt-107-p016-q40.webp){ loading=lazy }
 
-  C. π  rad.
-3
+??? success "Đáp án và lời giải"
+    **Đáp án: B.**
 
-D.
-π  rad.
-3
-−
+    Từ đồ thị, khoảng thời gian từ $t=0{,}3$ s đến $t=0{,}8$ s tương ứng
 
-![Hình/bảng/đồ thị đi kèm bài PDF 97](../../../assets/exercise-figures/i-p016-q40-22971.webp){ loading=lazy }
+    $\frac{T}{3}+\frac{T}{12}=0{,}5\ \text{s}.$
 
-#### Bài PDF 98
+    Suy ra $T=6/5$ s và
+
+    $\omega=\frac{2\pi}{T}=\frac{5\pi}{3}\ \text{rad/s}.$
+
+    Tại $t=0{,}3$ s, đồ thị cho $x=A/2$ và vật đang đi xuống, nên pha khi đó là $\pi/3$. Vì
+
+    $\omega\cdot0{,}3+\varphi=\frac{\pi}{3},$
+
+    ta có
+
+    $\frac{5\pi}{3}\cdot0{,}3+\varphi=\frac{\pi}{3} \Rightarrow \varphi=-\frac{\pi}{6}.$
+
+#### Bài 107
 
 <!-- source-id: BT-Chuong-I-p26-q2-56 -->
 
-Câu 2. Một vật dao động điều hòa theo phương trình
-(
-)
-x = 10cos 2πt + π  (cm). Tần số góc dao
-động của vật là
+Một vật dao động điều hòa theo phương trình
 
-A. ω = 2π rad/s.
-B. ω = π rad/s.
-C. ω = 2πt rad/s.
-D. ω = 2πt + π  rad/s.
+$$
+x=10\cos(2\pi t+\pi)\ \text{cm}.
+$$
 
-#### Bài PDF 99
+Tần số góc của dao động là
+
+A. $2\pi$ rad/s.  
+B. $\pi$ rad/s.  
+C. $2\pi t$ rad/s.  
+D. $(2\pi t+\pi)$ rad/s.
+
+??? success "Đáp án và lời giải"
+    **Đáp án: A.**
+
+    So sánh với $x=A\cos(\omega t+\varphi)$, ta đọc trực tiếp
+
+    $$\omega=2\pi\ \text{rad/s}.$$
+
+#### Bài 108
 
 <!-- source-id: BT-Chuong-I-p26-q3-57 -->
 
-Câu 3. Trong phương trình dao động điều hoà
-(
-)
-o
-x = Acos ωt + φ
-, độ dịch chuyển cực đại của
-vật tính từ vị trí cân bằng là
- A. biên độ A.
+Trong phương trình dao động điều hòa
 
-B. tần số góc ω.
- C. pha dao động (ωt +  φo).
-D. chu kỳ dao động T.
+$$
+x=A\cos(\omega t+\varphi_0),
+$$
 
-#### Bài PDF 100
+độ dịch chuyển cực đại của vật tính từ vị trí cân bằng là
+
+A. biên độ $A$.  
+B. tần số góc $\omega$.  
+C. pha dao động $(\omega t+\varphi_0)$.  
+D. chu kì $T$.
+
+??? success "Đáp án và lời giải"
+    **Đáp án: A.**
+
+    Biên độ $A$ chính là độ lớn li độ cực đại, tức khoảng cách lớn nhất từ vật đến vị trí cân bằng.
+
+#### Bài 109
 
 <!-- source-id: BT-Chuong-I-p26-q4-58 -->
 
-![Đề bài PDF — Bài 100](../../../assets/exercise-figures/source-faithful/i-p026-q04-de.webp){ loading=lazy }
+Phương trình dao động của một vật dao động điều hòa có dạng
 
-#### Bài PDF 101
+$$x=A\cos\left(\omega t+\frac{3\pi}{4}\right).$$
+
+Gốc thời gian đã được chọn lúc nào?
+
+A. Lúc chất điểm đi qua vị trí $x=A/2$ theo chiều dương.  
+B. Lúc chất điểm đi qua vị trí $x=A\sqrt2/2$ theo chiều dương.  
+C. Lúc chất điểm đi qua vị trí $x=-A\sqrt2/2$ theo chiều âm.  
+D. Lúc chất điểm đi qua vị trí $x=A/2$ theo chiều âm.
+
+??? success "Đáp án và lời giải"
+    **Đáp án: C.**
+
+    Tại $t=0$, pha bằng $3\pi/4$, nên $x_0=A\cos(3\pi/4)=-A\sqrt2/2$. Đồng thời $v_0=-A\omega\sin(3\pi/4)<0$, tức vật đang chuyển động theo chiều âm.
+
+#### Bài 110
 
 <!-- source-id: BT-Chuong-I-p26-q5-59 -->
 
-![Đề bài PDF — Bài 101](../../../assets/exercise-figures/source-faithful/i-p026-q05-de.webp){ loading=lazy }
+Một chất điểm dao động điều hòa có phương trình li độ theo thời gian
 
-#### Bài PDF 102
+$$x=5\sqrt3\cos\left(20\pi t+\frac{\pi}{4}\right)\ \text{cm}.$$
+
+Tần số dao động là
+
+A. $10$ Hz.  
+B. $20$ Hz.  
+C. $10\pi$ Hz.  
+D. $5$ Hz.
+
+??? success "Đáp án và lời giải"
+    **Đáp án: A.**
+
+    Hệ số của $t$ trong pha là $\omega=20\pi$ rad/s, do đó $f=\omega/(2\pi)=10$ Hz.
+
+#### Bài 111
 
 <!-- source-id: BT-Chuong-I-p26-q7-61 -->
 
-Câu 7. Trường hợp nào sau đây chuyển động của vật không phải là dao động cơ?
-
-A. Dây đàn vĩ cầm rung động.
-
-B. Cành cây đung đưa trước gió.
-
-C. Thuyền nhấp nhô trên mặt biển.
-
+Trường hợp nào sau đây chuyển động của vật không phải là dao động cơ?  
+A. Dây đàn vĩ cầm rung động.  
+B. Cành cây đung đưa trước gió.  
+C. Thuyền nhấp nhô trên mặt biển.  
 D. Thả một vật rơi từ trên cao xuống.
 
-#### Bài PDF 103
+??? success "Đáp án và lời giải"
+    **Đáp án: D.**
+
+    Dao động cơ là chuyển động có trạng thái lặp lại quanh một vị trí cân bằng. Dây đàn rung, cành cây đung đưa và thuyền nhấp nhô đều có tính dao động; vật rơi tự do từ trên cao xuống không chuyển động qua lại quanh một vị trí cân bằng.
+
+#### Bài 112
 
 <!-- source-id: BT-Chuong-I-p27-q11-65 -->
 
-Câu 11. Nhận định nào sau đây là đúng?
-A. Biên độ là đại lượng đại số.
-B. Biên độ là đại lượng luôn dương.
-C. Biên độ là đại lượng luôn âm.
+Nhận định nào sau đây là đúng?  
+A. Biên độ là đại lượng đại số.  
+B. Biên độ là đại lượng luôn dương.  
+C. Biên độ là đại lượng luôn âm.  
 D. Biên độ là đại lượng biến đổi theo thời gian.
 
-#### Bài PDF 104
+??? success "Đáp án và lời giải"
+    **Đáp án: B.**
+
+    Biên độ là độ lệch cực đại so với vị trí cân bằng và được lấy dương; trong phương trình chuẩn nó là hệ số $A$.
+
+#### Bài 113
 
 <!-- source-id: BT-Chuong-I-p27-q12-66 -->
 
-Câu 12. Trong phương trình dao động điều hoà
-(
-)
-o
-x = Acos ωt + φ
-. Chọn đáp án phát biểu sai.
-A. Biên độ A phụ thuộc vào cách kích thích dao động.
-B. Biên độ A không phụ thuộc vào gốc thời gian.
-C. Pha ban đầu φ  không phụ thuộc vào gốc thời gian.
-D. Tần số góc ω  phụ thuộc vào các đặc tính của hệ.
+Trong phương trình dao động điều hòa
 
-#### Bài PDF 105
+$$
+x=A\cos(\omega t+\varphi_0),
+$$
+
+phát biểu nào sau đây **sai**?
+
+A. Biên độ $A$ phụ thuộc vào cách kích thích dao động.  
+B. Biên độ $A$ không phụ thuộc vào cách chọn gốc thời gian.  
+C. Pha ban đầu $\varphi_0$ không phụ thuộc vào cách chọn gốc thời gian.  
+D. Tần số góc $\omega$ phụ thuộc vào các đặc tính của hệ.
+
+??? success "Đáp án và lời giải"
+    **Đáp án: C.**
+
+    Pha ban đầu $\varphi_0$ **phụ thuộc vào cách chọn gốc thời gian**. Nếu thay đổi mốc $t=0$, giá trị pha ban đầu thay đổi tương ứng. Vì vậy phát biểu C là sai.
+
+    Biên độ không thay đổi chỉ vì đổi mốc thời gian, còn tần số góc của dao động riêng được quyết định bởi các đặc tính của hệ.
+
+#### Bài 114
 
 <!-- source-id: BT-Chuong-I-p40-q34-115 -->
 
-Câu 34. Một vật dao động điều hoà theo phương trình x = 2cos(4πt + π/3) cm. Chu kỳ và tần số
-dao động của vật là
+Một vật dao động điều hòa theo phương trình
 
-A. T = 2 (s) và f = 0,5 Hz.
-B. T = 0,5 (s) và f = 2 Hz
+$$
+x=2\cos\left(4\pi t+\frac{\pi}{3}\right)\ \text{cm}.
+$$
 
-C. T = 0,25 (s) và f = 4 Hz.
-D. T = 4 (s) và f = 0,5 Hz.
+Chu kì và tần số dao động của vật là
 
-#### Bài PDF 106
+A. $T=2$ s và $f=0{,}5$ Hz.  
+B. $T=0{,}5$ s và $f=2$ Hz.  
+C. $T=0{,}25$ s và $f=4$ Hz.  
+D. $T=4$ s và $f=0{,}5$ Hz.
+
+??? success "Đáp án và lời giải"
+    **Đáp án: B.**
+
+    $\omega=4\pi$ rad/s nên
+
+    $T=\frac{2\pi}{\omega}=\frac12\ \text{s}=0{,}5\ \text{s}, \qquad f=\frac1T=2\ \text{Hz}.$
+
+#### Bài 115
 
 <!-- source-id: BT-Chuong-I-p41-q37-118 -->
 
-![Đề bài PDF — Bài 106](../../../assets/exercise-figures/source-faithful/i-p041-q37-de.webp){ loading=lazy }
+Một vật dao động điều hòa có đồ thị biểu diễn như hình dưới. Phương trình dao động của vật là
 
-#### Bài PDF 107
+A. $x=10\cos(0{,}5\pi t)$ cm.  
+B. $x=10\cos\left(4t+\dfrac{\pi}{2}\right)$ cm.  
+C. $x=4\cos(10t)$ cm.  
+D. $x=10\cos(8\pi t)$ cm.
+
+![Đồ thị hoặc hình minh họa của Bài 115](../../../assets/exercise-figures/clean-bai-1/bt-116-p041-q37.webp){ loading=lazy }
+
+??? success "Đáp án và lời giải"
+    **Đáp án: A.**
+
+    Từ đồ thị: $A=10$ cm. Hai cực đại liên tiếp ở $t=0$ s và $t=4$ s nên $T=4$ s:
+
+    $$\omega=\frac{2\pi}{T}=\frac{\pi}{2}=0{,}5\pi\ \text{rad/s}.$$
+
+    Tại $t=0$, vật ở biên dương nên có thể chọn $\varphi=0$. Do đó
+
+    $$x=10\cos(0{,}5\pi t)\ \text{cm}.$$
+
+#### Bài 116
 
 <!-- source-id: BT-Chuong-I-p41-q38-119 -->
 
-Câu 38. Chu kì dao động của vật là
-A. 0,5 s
-B. 0,02 s
+Dựa vào đồ thị hai dao động dưới đây. Chu kì dao động là
 
-C. 0,4 s
-D. 0,05 s
+A. $0{,}5$ s.  
+B. $0{,}02$ s.  
+C. $0{,}4$ s.  
+D. $0{,}05$ s.
+
+![Đồ thị hoặc hình minh họa của Bài 116](../../../assets/exercise-figures/clean-bai-1/bt-117-p041-q38.webp){ loading=lazy }
+
+??? success "Đáp án và lời giải"
+    **Đáp án: C.**
+
+    Trên trục thời gian, mỗi ô ứng với $5\times10^{-2}$ s. Một chu kì dài $8$ ô, do đó
+
+    $T=8\cdot5\times10^{-2}=0{,}4\ \text{s}.$
 
 ### Vận dụng — Đúng/Sai
 
-#### Bài PDF 108
+#### Bài 117
 
 <!-- source-id: BT-Chuong-I-p18-q3-43 -->
 
-Câu 3. Vật dao động điều hòa có đồ thị li độ  phụ thuộc thời gian như hình . Nhận định nào đúng,
-nhận định nào sai?
+Vật dao động điều hòa có đồ thị li độ phụ thuộc thời gian như hình dưới. Xét các phát biểu:
 
-Nội dung
-Đúng Sai
+a) Tại thời điểm $t=0{,}1$ s, li độ của vật là $-2$ cm.  
+b) Quãng đường vật đi được sau $0{,}6$ s là $10$ cm.  
+c) Tại thời điểm $t=0{,}5$ s, li độ của vật là $-2$ cm.  
+d) Tại thời điểm $t=0$, vật ở biên dương.
 
-![Hình/bảng/đồ thị đi kèm bài PDF 108](../../../assets/exercise-figures/i-p018-q03-49402.webp){ loading=lazy }
+![Đồ thị hoặc hình minh họa của Bài 117](../../../assets/exercise-figures/clean-bai-1/bt-118-p018-q03.webp){ loading=lazy }
 
-#### Bài PDF 109
+??? success "Đáp án và lời giải"
+    **Kết luận:** a) Đúng; b) Sai; c) Đúng; d) Sai.
+
+    Từ đồ thị: $A=2$ cm, vật ở vị trí cân bằng tại $t=0$ và đi theo chiều âm. Tại $t=0{,}1$ s và $t=0{,}5$ s, đồ thị đạt biên âm $x=-2$ cm. Sau $0{,}6$ s, quãng đường vật đi được là $12$ cm chứ không phải $10$ cm.
+
+#### Bài 118
 
 <!-- source-id: BT-Chuong-I-p20-q5-45 -->
 
-Câu 5. Đồ thị li độ - thời gian (x -t) của một vật dao động điều hoà như hình. Phát biểu nào sau đây
-đúng, phát biểu nào sai?
+Đồ thị li độ – thời gian của một vật dao động điều hòa như hình dưới. Xét các phát biểu:
 
-![Hình/bảng/đồ thị đi kèm bài PDF 109](../../../assets/exercise-figures/i-p020-q05-18791.webp){ loading=lazy }
+a) Biên độ dao động của vật là $4$ cm.  
+b) Chu kì dao động của vật là $0{,}75$ s.  
+c) Tại thời điểm $t=0$, vật có li độ $2$ cm và đi theo chiều dương.  
+d) Tại thời điểm $t=0{,}75$ s, vật đi qua vị trí cân bằng theo chiều dương.
 
-#### Bài PDF 110
+![Đồ thị hoặc hình minh họa của Bài 118](../../../assets/exercise-figures/clean-bai-1/bt-119-p020-q05.webp){ loading=lazy }
+
+??? success "Đáp án và lời giải"
+    **Kết luận:** a) Sai; b) Sai; c) Sai; d) Sai.
+
+    - Từ trục tung, biên độ là $A=2$ cm, không phải $4$ cm.
+    - Trên trục thời gian, $5$ ô ứng với $0{,}75$ s nên mỗi ô là $0{,}15$ s; một chu kì dài $6$ ô, do đó $T=0{,}9$ s.
+    - Tại $t=0$, vật có $x=2$ cm nhưng đồ thị đang đi xuống, nên vật chuyển động theo chiều âm.
+    - Tại $t=0{,}75$ s, vật ở biên dương, không đi qua vị trí cân bằng.
+
+#### Bài 119
 
 <!-- source-id: BT-Chuong-I-p20-q6-46 -->
 
-Câu 6. Dao động của một vật là tổng hợp của hai dao động điều hoà cùng phương có li độ lần lượt
-là x1 và x2. Hình vẽ là đồ thị biểu diễn sự phụ thuộc của x1 và x2 theo thời gian t.
-Nhận định nào dưới đây đúng, nhận định nào sai?
+Dao động của một vật là tổng hợp của hai dao động điều hòa cùng phương có li độ lần lượt là $x_1$ và $x_2$. Đồ thị dưới đây biểu diễn sự phụ thuộc của $x_1$ và $x_2$ theo thời gian $t$. Xét các phát biểu:
 
-Nội dung
-Đúng Sai
-a.  Biên độ dao động của vật là 4 cm.
+a) Tại thời điểm $0{,}4$ s, hai dao động thành phần có cùng li độ.  
+b) Chu kì dao động là $1{,}2$ s.  
+c) Tại thời điểm $t=0$, pha dao động của $x_2$ là $\dfrac{\pi}{4}$ rad.  
+d) Dao động $x_1$ nhanh pha hơn dao động $x_2$ một góc $\dfrac{2\pi}{3}$ rad.
 
-b. Chu kì dao động của vật là 0,75 s.
+![Đồ thị hoặc hình minh họa của Bài 119](../../../assets/exercise-figures/clean-bai-1/bt-120-p021-q06.webp){ loading=lazy }
 
-c. Thời điểm ban đầu (t = 0) vật có li độ 2 cm và đi theo chiều dương.
+??? success "Đáp án và lời giải"
+    **Kết luận:** a) Đúng; b) Đúng; c) Sai; d) Sai.
 
-d. Tại thời điểm t = 0,75 s, vật đi qua vị trí cân bằng theo chiều dưomg.
+    - Tại $t=0{,}4$ s, hai đường đồ thị cắt nhau nên $x_1=x_2$.
+    - $8$ ô ngang ứng với $0{,}8$ s, suy ra mỗi ô là $0{,}1$ s. Một chu kì dài $12$ ô nên $T=1{,}2$ s.
+    - Với $x_2$, tại $t=0$ có $x_2=-2$ cm, $A_2=4$ cm và đồ thị đang đi xuống. Do đó $\cos\varphi_2=-1/2$ và $\sin\varphi_2>0$, suy ra $\varphi_2=2\pi/3$, không phải $\pi/4$.
+    - Độ lệch thời gian giữa hai dao động là $\Delta t=0{,}2$ s. Vì $T=1{,}2$ s,
 
-Nội dung
-Đúng Sai
-a. Tại thời điểm 0,4 s, hai dao động thành phần có cùng li độ.
-Đ
+    $$\Delta\varphi=\omega\Delta t=\frac{2\pi}{T}\Delta t=\frac{\pi}{3}.$$
 
-b. Chu kì dao động của vật là 1,2 s.
-Đ
-
-c. Tại thời điểm t = 0 pha dao động của x2 là π  rad.
-4
-
-S
-d. Dao động x1 nhanh pha hơn dao động x2 là 2π  rad.
-3
-
-S
-
-![Hình/bảng/đồ thị đi kèm bài PDF 110](../../../assets/exercise-figures/i-p020-q06-48177.webp){ loading=lazy }
-
+    Vì vậy $x_1$ nhanh pha hơn $x_2$ một góc $\pi/3$, không phải $2\pi/3$.

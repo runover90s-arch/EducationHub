@@ -1,8 +1,8 @@
 {
   "raw_detected": 2094,
-  "deduplicated_verified_imported": 1664,
+  "deduplicated_verified_imported": 1663,
   "by_lesson": {
-    "01-oscillations/01-harmonic-oscillation-foundations": 110,
+    "01-oscillations/01-harmonic-oscillation-foundations": 109,
     "01-oscillations/02-displacement-velocity-acceleration": 52,
     "01-oscillations/03-phase-circle-time-distance": 31,
     "01-oscillations/04-spring-oscillator": 4,
@@ -41,8 +41,8 @@
   },
   "visual_crops": 344,
   "unverified_excluded": 207,
-  "chapter_review_duplicates_not_copied": 113,
+  "chapter_review_duplicates_not_copied": 114,
   "source_faithful_image_questions": 46,
   "source_faithful_solution_images": 15,
-  "visual_crops_referenced": 307
+  "visual_crops_referenced": 308
 }
