@@ -71,3 +71,47 @@ Trong chu kì còn có thời điểm $\Delta\ell=0$, khi đó lực đàn hồi
 ---
 
 [← Bài tập](exercises.md)
+
+## Đáp án và lời giải — Ngân hàng PDF mở rộng
+
+> Câu có lời giải trong tài liệu được giữ phần hướng dẫn. Câu trắc nghiệm không kèm lời giải dài chỉ hiện đáp án đã đối chiếu từ dấu đáp án/khóa đáp án của tài liệu.
+
+### Nhận biết — Đúng/Sai
+
+#### Bài PDF 1
+
+Hướng dẫn giải
+a. Biên độ là khoảng cách lớn nhất từ vị trí cân bằng đến điểm có độ dịch chuyển cực đại trên đồ thị.
+=&gt; Sai.
+b. Chu kì của dao động điều hòa là khoảng thời gian ngắn  nhất để vật thực hiện được một dao động
+toàn phần, và được tính bằng 1/f. =&gt; Sai.
+c. Tần số là số lần vật đạt giá trị biên độ trong một giây, được xác định bằng nghịch đảo của chu kì.
+=&gt; Đúng.
+d. Độ lệch pha là sự khác biệt giữa pha ban đầu và pha tại một thời điểm bất kỳ trên đồ thị, được
+biểu diễn bằng độ hoặc radian. =&gt; Đúng.
+
+### Thông hiểu — Trắc nghiệm 4 lựa chọn
+
+#### Bài PDF 2
+
+**Đáp án:** A
+
+Đây là câu trắc nghiệm có đáp án được xác định từ khóa đáp án của tài liệu; không có lời giải dài kèm theo trong phần nguồn tương ứng.
+
+#### Bài PDF 3
+
+**Đáp án:** B
+
+Đây là câu trắc nghiệm có đáp án được xác định từ khóa đáp án của tài liệu; không có lời giải dài kèm theo trong phần nguồn tương ứng.
+
+#### Bài PDF 4
+
+Hướng dẫn giải
+Ta có: 𝑇=
+𝛥𝑡
+𝑁=
+30
+15 = 2 𝑠⇒𝜔=
+2𝜋
+𝑇= 𝜋 (rad/s)
+

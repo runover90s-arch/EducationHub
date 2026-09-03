@@ -288,6 +288,17 @@ Tụ C nối giữa hai nút A,B của một mạch điện trở. Sau khi ổn 
 4. RC xác lập: tụ là nhánh hở.
 5. Năng lượng tụ riêng không bảo toàn khi có nguồn/điện trở trao đổi năng lượng.
 
+<!-- V9_SOURCE_TYPES -->
+
+## Các dạng bài được hệ thống hóa từ ngân hàng PDF
+
+Các dạng dưới đây chỉ sử dụng những nhóm bài đã được gọi tên rõ trong các tài liệu bài tập. Phần trình bày được tổ chức lại để người học nhận diện đề, chọn công cụ và tự kiểm tra kết quả; không tạo thêm tên dạng mới.
+
+### Dạng 2 — Công suất cực đại
+
+Với một nguồn có suất điện động $\mathcal E$ và điện trở trong $r$ cấp cho tải biến đổi $R$, công suất tải $P=\mathcal E^2R/(R+r)^2$ đạt cực đại khi $R=r$.
+
+Nếu tải nhìn thấy một mạng mạch phức tạp, trước hết tìm nguồn tương đương và điện trở tương đương nhìn từ hai cực tải, sau đó mới áp dụng điều kiện cực đại. Không dùng $R=r$ nếu $r$ chưa phải điện trở tương đương mà tải thực sự nhìn thấy.
 
 <!-- LESSON_PRACTICE_LINKS -->
 ## Luyện tập sau bài

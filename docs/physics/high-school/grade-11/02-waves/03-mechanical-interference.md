@@ -211,6 +211,29 @@ Hai nguồn cùng pha cách nhau $a=10$ cm, $\lambda=2$ cm. Trên đoạn nối 
 4. Cực tiểu bằng 0 chỉ khi hai biên độ tới bằng nhau và ngược pha.
 5. Khi đếm, phải kiểm tra biên và đầu mút.
 
+<!-- V9_SOURCE_TYPES -->
+
+## Các dạng bài được hệ thống hóa từ ngân hàng PDF
+
+Các dạng dưới đây chỉ sử dụng những nhóm bài đã được gọi tên rõ trong các tài liệu bài tập. Phần trình bày được tổ chức lại để người học nhận diện đề, chọn công cụ và tự kiểm tra kết quả; không tạo thêm tên dạng mới.
+
+### Dạng 6 — Điều kiện cực đại, cực tiểu
+
+Viết hiệu đường đi $\Delta d=|d_2-d_1|$, sau đó áp dụng điều kiện giao thoa tương ứng với quan hệ pha của hai nguồn. Với hai nguồn cùng pha: cực đại khi $\Delta d=k\lambda$, cực tiểu khi $\Delta d=(k+1/2)\lambda$.
+
+Khi nguồn lệch pha, phải đưa độ lệch pha ban đầu vào điều kiện; không dùng máy móc công thức nguồn cùng pha.
+
+### Dạng 7 — Phương trình giao thoa, biên độ giao thoa
+
+Viết dao động do từng nguồn truyền tới điểm xét, bảo toàn đúng phần trễ pha do quãng đường rồi cộng hai dao động cùng tần số. Có thể dùng công thức tổng hai cos để rút biên độ tổng hợp.
+
+Biên độ tại điểm phụ thuộc hiệu pha hai sóng tới, còn pha chung phụ thuộc cả tổng quãng đường; hai đại lượng này không được nhầm lẫn.
+
+### Dạng 8 — Số điểm cực đại, cực tiểu
+
+Lập điều kiện cực đại hoặc cực tiểu dưới dạng bất đẳng thức cho số nguyên $k$ từ miền giá trị của hiệu đường đi trên đoạn đang xét. Sau đó đếm số giá trị nguyên thỏa mãn.
+
+Phải xem hai đầu đoạn có được tính hay không và chúng có đúng là điểm cực đại/cực tiểu theo điều kiện hay không; đây là nguồn sai số đếm phổ biến.
 
 <!-- LESSON_PRACTICE_LINKS -->
 ## Luyện tập sau bài

@@ -18,6 +18,8 @@ Mỗi mạch kiến thức đi theo chu trình:
 
 Người học lần đầu nên đi tuần tự. Người ôn tập có thể dùng [Bản đồ kiến thức](knowledge-map.md), [Thuật ngữ](glossary.md) và hệ bài tập cuối chương.
 
+Hiện phần luyện tập theo từng bài có **2.204 câu/bài**, chưa tính các bộ tổng hợp chương và kiểm tra cuối chương. Mỗi bài học có trang **Bài tập** và **Đáp án & lời giải** riêng để có thể luyện sâu mà không làm phần lý thuyết trở nên quá dài.
+
 ## Phần I — Dao động và sóng
 
 <div class="grid cards" markdown>

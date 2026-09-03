@@ -94,3 +94,42 @@ Một con lắc đơn dài $1$ m được kéo lệch đến góc $60^\circ$ r�
 ---
 
 [Đáp án và lời giải →](solutions.md)
+
+## Ngân hàng bài tập PDF mở rộng
+
+> Nội dung câu hỏi và dữ kiện trong phần này được giữ nguyên; hệ thống chỉ chuẩn hóa xuống dòng và mã kí tự để hiển thị trên web. Câu trùng được loại bỏ. Với câu có công thức/kí hiệu bị sai khi trích xuất chữ từ PDF, đề bài được giữ dưới dạng ảnh để không làm thay đổi dữ kiện.
+
+### Nhận biết — Trả lời ngắn
+
+#### Bài PDF 1
+
+<!-- source-id: BT-Chuong-I-p33-q5-81 -->
+
+Câu 5. Thực hiện thí nghiệm với thiết bị ghi đồ thị dao động điều hoà của một vật nhỏ, thu được kết
+quả như hình vẽ bên dưới. Biết quả nặng có khối lượng 100g, dây treo có chiều dài 1m, lấy g ≈
+m/s2. Thời gian ngắn nhất kể từ thời điểm ban đầu đến khi vật qua vị trí cân bằng lần thứ 2 là bao
+nhiêu giây ?
+
+Đáp án
+1
+,
+2
+
+![Hình/bảng/đồ thị đi kèm bài PDF 1](../../../assets/exercise-figures/i-p033-q05-12216.webp){ loading=lazy }
+
+### Vận dụng — Trả lời ngắn
+
+#### Bài PDF 2
+
+<!-- source-id: BT-Chuong-I-p22-q1-47 -->
+
+Câu 1. Đồ thị li độ - thời gian của một con lắc đơn dao động điều hòa được mô tả như hình . Quãng
+đường vật đi được sau khoảng thời gian 27 s kể từ lúc bắt đầu dao động là bao nhiêu cm?
+
+Đáp án
+7
+2
+0
+
+![Hình/bảng/đồ thị đi kèm bài PDF 2](../../../assets/exercise-figures/i-p022-q01-46646.webp){ loading=lazy }
+

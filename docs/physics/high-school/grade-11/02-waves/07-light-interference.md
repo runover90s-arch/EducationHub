@@ -211,6 +211,29 @@ Các công thức chuẩn $\delta\approx ax/D$ và $i=\lambda D/a$ dùng trong m
 4. Đỏ có khoảng vân lớn hơn tím trong cùng bố trí.
 5. Giao thoa ánh sáng thể hiện tính chất sóng của ánh sáng.
 
+<!-- V9_SOURCE_TYPES -->
+
+## Các dạng bài được hệ thống hóa từ ngân hàng PDF
+
+Các dạng dưới đây chỉ sử dụng những nhóm bài đã được gọi tên rõ trong các tài liệu bài tập. Phần trình bày được tổ chức lại để người học nhận diện đề, chọn công cụ và tự kiểm tra kết quả; không tạo thêm tên dạng mới.
+
+### Dạng 9 — Vị trí vân sáng, vân tối – khoảng vân
+
+Với thí nghiệm Young, tính khoảng vân $i=\lambda D/a$ trước. Vân sáng có vị trí $x_s=ki$; vân tối có vị trí $x_t=(k+1/2)i$.
+
+Khi đề cho vị trí đo từ vân trung tâm, dùng trị đại số nếu cần xét hai phía; khi chỉ hỏi khoảng cách thì dùng độ lớn. Đổi đồng nhất đơn vị của $\lambda$, $D$, $a$ trước khi tính.
+
+### Dạng 10 — Tìm số vân sáng, vân tối trên một miền
+
+Chuyển hai biên của miền quan sát thành bất đẳng thức đối với chỉ số $k$. Đếm số nguyên thỏa mãn cho vân sáng và vân tối riêng biệt.
+
+Không áp dụng công thức “chiều dài chia khoảng vân” một cách máy móc khi miền không đối xứng qua vân trung tâm hoặc khi hai đầu miền rơi đúng vào vị trí vân.
+
+### Dạng 11 — Bài toán trùng vân
+
+Vân của hai bức xạ trùng nhau khi vị trí của chúng bằng nhau, dẫn đến điều kiện $k_1\lambda_1=k_2\lambda_2$. Rút tỉ số bước sóng về tỉ số các số nguyên tối giản để tìm khoảng lặp của hệ vân.
+
+Sau khi có vị trí trùng cơ bản, dùng điều kiện miền quan sát để đếm các vị trí trùng.
 
 <!-- LESSON_PRACTICE_LINKS -->
 ## Luyện tập sau bài

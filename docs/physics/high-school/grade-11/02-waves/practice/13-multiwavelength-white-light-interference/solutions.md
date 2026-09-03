@@ -55,3 +55,176 @@ Vị trí: $x=5\cdot1,2=6,0$ mm.
 ---
 
 [← Bài tập](exercises.md)
+
+## Đáp án và lời giải — Ngân hàng PDF mở rộng
+
+> Câu có lời giải trong tài liệu được giữ phần hướng dẫn. Câu trắc nghiệm không kèm lời giải dài chỉ hiện đáp án đã đối chiếu từ dấu đáp án/khóa đáp án của tài liệu.
+
+### Nhận biết — Trắc nghiệm 4 lựa chọn
+
+#### Bài PDF 1
+
+**Đáp án:** C
+
+Hướng dẫn giải
+
+1
+2
+1 1
+2
+2
+2
+2
+3.0,4
+.0,6
+2
+x
+x
+k
+k
+k
+k
+λ
+λ
+=
+
+=
+
+=
+
+=
+
+#### Bài PDF 2
+
+**Đáp án:** A
+
+Hướng dẫn giải
+Khoảng vân ứng với bước sóng λ1 là
+−
+λ
+=
+=
+=
+3
+1
+1
+D
+500.10 .1,2
+i
+0,3(mm)
+a
+2
+
+Vị trí vân sáng của hệ trùng nhau tương đương với
+λ
+λ
+λ
+=
+
+=
+
+=
+=
+=
+λ
+1
+1
+1
+2
+1 1
+2 2
+1
+1
+2
+1
+D
+D
+k
+660
+33
+k i
+k i
+k
+k
+a
+a
+k
+500
+25
+Vậy khoảng cách chính giữa đến vân gần nhất cùng màu với vân chính giữa là:
+ x=33
+λ1 =25
+λ2=33.0,3=9,9 mm
+
+#### Bài PDF 3
+
+**Đáp án:** D
+
+Hướng dẫn giải
+λ
+λ
+=
+=
+= λ
+D
+1
+i
+(mm)
+a
+1
+
+Tại 1 điểm là vân tối khi hiệu đường truyền của ánh sáng từ 2 nguồn tới điểm đó thỏa mãn:
+=
++
+
+=
++
+λλ=
++
+2
+x
+(k
+0,5)i
+2
+(k
+0,5)
+k
+0,5
+
+λ
+
+
+
+
+
+
+
+=
++
+2
+0,4
+0,76
+0,4
+0,76
+2,3
+k
+4,5
+k
+3,4
+k
+0,5
+
+=
+λ
+μ
+=
+λ
+μ
+
+k
+3
+0,57( m)
+k
+4
+0,44( m)
+

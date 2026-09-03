@@ -467,6 +467,24 @@ $$
 48=36+12.
 $$
 
+<!-- V9_CHAPTER_BANK -->
+## Đáp án theo từng bài trong chương
+
+Mỗi ngân hàng giữ lời giải riêng để tránh một trang lời giải quá dài và giúp đối chiếu đúng bài đang luyện.
+
+- **Bài 1 — Dòng điện và cường độ dòng điện**: [Mở đáp án và lời giải](practice/01-current-intensity/solutions.md)
+- **Bài 2 — Điện trở và định luật Ohm cho đoạn mạch**: [Mở đáp án và lời giải](practice/02-resistance-ohm-law/solutions.md)
+- **Bài 3 — Nguồn điện, suất điện động và điện trở trong**: [Mở đáp án và lời giải](practice/03-emf-internal-resistance/solutions.md)
+- **Bài 4 — Năng lượng điện, công suất và định luật Joule–Lenz**: [Mở đáp án và lời giải](practice/04-energy-power-joule/solutions.md)
+- **Bài 5 — Định luật Ohm cho toàn mạch**: [Mở đáp án và lời giải](practice/05-full-circuit-ohm-law/solutions.md)
+- **Bài 6 — Ghép nguồn thành bộ**: [Mở đáp án và lời giải](practice/06-source-combinations/solutions.md)
+- **Bài 7 — Đọc và biến đổi mạch; ampe kế, vôn kế lí tưởng**: [Mở đáp án và lời giải](practice/07-circuit-reading-meters/solutions.md)
+- **Bài 8 — Kirchhoff, xếp chồng, nguồn tương đương và mạch RC**: [Mở đáp án và lời giải](practice/08-advanced-circuit-methods/solutions.md)
+- **Bài 9 — Thực hành đo suất điện động và điện trở trong của pin**: [Mở đáp án và lời giải](practice/09-practical-emf-internal-resistance/solutions.md)
+- **Bài 10 — Đoạn mạch chứa nguồn, máy thu và tụ điện**: [Mở đáp án và lời giải](practice/10-source-receiver-capacitor-branches/solutions.md)
+
+<!-- /V9_CHAPTER_BANK -->
+
 ---
 
 [← Bài tập](exercises.md) | [↑ Chương](index.md) | [Kiểm tra cuối chương →](quiz.md)

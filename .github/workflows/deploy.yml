@@ -38,6 +38,7 @@ jobs:
       - name: Check exercises, Markdown, LaTeX, layout and rendered HTML
         run: |
           python tools/check_practice_bank.py
+          python tools/check_pdf_import.py
           python tools/check_site.py
 
       - name: Configure GitHub Pages

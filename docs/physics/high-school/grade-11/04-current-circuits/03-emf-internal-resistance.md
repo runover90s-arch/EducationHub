@@ -189,6 +189,23 @@ Nguồn 9 V, dòng 0,5 A. Công suất nguồn 4,5 W.
 4. Mạch hở giúp đo gần đúng suất điện động.
 5. Dấu công thức phải gắn với chiều dòng và quy ước hiệu điện thế.
 
+<!-- V9_SOURCE_TYPES -->
+
+## Các dạng bài được hệ thống hóa từ ngân hàng PDF
+
+Các dạng dưới đây chỉ sử dụng những nhóm bài đã được gọi tên rõ trong các tài liệu bài tập. Phần trình bày được tổ chức lại để người học nhận diện đề, chọn công cụ và tự kiểm tra kết quả; không tạo thêm tên dạng mới.
+
+### Dạng 1 — Tìm công của nguồn điện, thời gian sử dụng và dòng điện qua nguồn
+
+Công của nguồn liên hệ với điện lượng qua nguồn bởi $A_{ng}=\mathcal E q=\mathcal E It$. Khi đề cho dung lượng hoặc thời gian sử dụng, đổi đúng đơn vị rồi dùng quan hệ điện lượng.
+
+Phân biệt công của nguồn với điện năng hữu ích ở mạch ngoài; có điện trở trong thì một phần năng lượng tỏa nhiệt bên trong nguồn.
+
+### Dạng 2 — Tìm suất điện động, điện trở trong và hiệu điện thế hai cực nguồn
+
+Dùng phương trình cực nguồn khi phát điện $U=\mathcal E-Ir$ cùng định luật Ohm toàn mạch. Nếu có nhiều trạng thái tải khác nhau, lập một phương trình cho mỗi trạng thái rồi giải hệ để tìm $\mathcal E$ và $r$.
+
+Đồ thị $U-I$ là đường thẳng có tung độ gốc $\mathcal E$ và độ dốc bằng $-r$, rất hữu ích cho bài thực nghiệm.
 
 <!-- LESSON_PRACTICE_LINKS -->
 ## Luyện tập sau bài

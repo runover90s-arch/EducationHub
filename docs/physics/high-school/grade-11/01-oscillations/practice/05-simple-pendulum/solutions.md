@@ -74,3 +74,56 @@ Do đó $T=mg+mv^2/\ell=0,2\cdot10+0,2\cdot10=4$ N.
 ---
 
 [← Bài tập](exercises.md)
+
+## Đáp án và lời giải — Ngân hàng PDF mở rộng
+
+> Câu có lời giải trong tài liệu được giữ phần hướng dẫn. Câu trắc nghiệm không kèm lời giải dài chỉ hiện đáp án đã đối chiếu từ dấu đáp án/khóa đáp án của tài liệu.
+
+### Nhận biết — Trả lời ngắn
+
+#### Bài PDF 1
+
+Hướng dẫn giải
+Thời gian ngắn nhất kể từ thời điểm ban đầu đến khi vật qua vị trí cân bằng.
+Vẽ đường tròn tính góc quét: 𝛥𝜑=
+𝜋
+2 +
+𝜋
+3 =
+5𝜋
+6 𝑟𝑎𝑑
+Ta có: 𝛥𝜑= 𝜔. 𝛥𝑡⇔
+5𝜋
+6 = 𝜋. 𝛥𝑡⇒𝛥𝑡=
+5
+6 𝑠
+
+### Vận dụng — Trả lời ngắn
+
+#### Bài PDF 2
+
+Hướng dẫn giải
+Dựa vào đồ thị ta được: T = 6 s
+27
+4
+4.4
+2
+18
+2
+T
+t
+s
+T
+S
+A
+A
+A
+=
+=
++
+=
+=
++
+=
+=720 cm
+

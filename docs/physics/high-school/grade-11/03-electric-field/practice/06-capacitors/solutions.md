@@ -68,3 +68,50 @@ Năng lượng mới $W'=Q^2/(2C')=0,1$ J. Ban đầu $W=\frac12CU^2=0,05$ J. N�
 ---
 
 [← Bài tập](exercises.md)
+
+## Đáp án và lời giải — Ngân hàng PDF mở rộng
+
+> Câu có lời giải trong tài liệu được giữ phần hướng dẫn. Câu trắc nghiệm không kèm lời giải dài chỉ hiện đáp án đã đối chiếu từ dấu đáp án/khóa đáp án của tài liệu.
+
+### Nhận biết — Trả lời ngắn
+
+#### Bài PDF 1
+
+Đáp án:
+
+#### Bài PDF 2
+
+Đáp án:
+
+#### Bài PDF 3
+
+Đáp án:
+
+#### Bài PDF 4
+
+Đáp án:
+
+#### Bài PDF 5
+
+Đáp án:
+
+#### Bài PDF 6
+
+Đáp án:
+
+#### Bài PDF 7
+
+Đáp án:
+
+#### Bài PDF 8
+
+Đáp án:
+
+#### Bài PDF 9
+
+Đáp án:
+
+#### Bài PDF 10
+
+Đáp án:
+

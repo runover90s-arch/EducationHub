@@ -17,6 +17,7 @@ import re, sys
 ROOT=Path(__file__).resolve().parents[1]
 GRADE=ROOT/'docs/physics/high-school/grade-11'
 MIN_TOTAL=500
+MIN_PDF_TOTAL=1600
 
 errors=[]
 questions_seen={}
@@ -87,7 +88,10 @@ for p in GRADE.rglob('*.md'):
 if total < MIN_TOTAL:
     errors.append(f'Ngân hàng theo từng bài chỉ còn {total} câu, thấp hơn ngưỡng bảo vệ {MIN_TOTAL}.')
 
-print(f'[practice] {pairs} bộ bài tập theo bài, {total} câu/bài mới.')
+pdf_total=sum(1 for p in GRADE.glob('[0-9][0-9]-*/practice/*/exercises.md') for _ in re.finditer(r'<!-- source-id:',p.read_text(encoding='utf-8')))
+if pdf_total < MIN_PDF_TOTAL:
+    errors.append(f'Ngân hàng PDF mở rộng chỉ còn {pdf_total} câu, thấp hơn ngưỡng bảo vệ {MIN_PDF_TOTAL}.')
+print(f'[practice] {pairs} bộ bài tập theo bài, {total} câu biên soạn trước + {pdf_total} câu nhập từ PDF.')
 if errors:
     for e in errors: print('ERROR PRACTICE001:',e)
     print(f'[practice] {len(errors)} lỗi.')

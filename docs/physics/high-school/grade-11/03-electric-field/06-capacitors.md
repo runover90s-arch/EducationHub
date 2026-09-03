@@ -209,6 +209,17 @@ $\varepsilon_r=4$. C tăng 4 lần, U không đổi → Q và W đều tăng 4 l
 4. Điện môi làm tăng C.
 5. Luôn kiểm tra điện áp định mức trong ứng dụng thực tế.
 
+<!-- V9_SOURCE_TYPES -->
+
+## Các dạng bài được hệ thống hóa từ ngân hàng PDF
+
+Các dạng dưới đây chỉ sử dụng những nhóm bài đã được gọi tên rõ trong các tài liệu bài tập. Phần trình bày được tổ chức lại để người học nhận diện đề, chọn công cụ và tự kiểm tra kết quả; không tạo thêm tên dạng mới.
+
+### Dạng 1 — Tính điện dung, điện tích, hiệu điện thế và năng lượng của tụ điện
+
+Ba đại lượng cơ bản liên hệ bởi $Q=CU$. Năng lượng tụ có thể viết dưới các dạng $W=\tfrac12CU^2=Q^2/(2C)=\tfrac12QU$. Chọn dạng phù hợp với các đại lượng đề cho để giảm biến đổi.
+
+Khi tụ vẫn nối với nguồn, hiệu điện thế được giữ không đổi; khi tụ bị ngắt khỏi nguồn và cô lập, điện tích toàn phần trên tụ được giữ không đổi. Đây là điều kiện quyết định trong các bài thay đổi điện môi hoặc khoảng cách bản.
 
 <!-- LESSON_PRACTICE_LINKS -->
 ## Luyện tập sau bài

@@ -201,6 +201,23 @@ Một điểm $\vec E=0$ có thể không phải cân bằng bền. Phân tích 
 4. Có trọng lực thì tổng tất cả lực bằng 0, không chỉ lực điện.
 5. E=0 không đồng nghĩa điện thế V=0.
 
+<!-- V9_SOURCE_TYPES -->
+
+## Các dạng bài được hệ thống hóa từ ngân hàng PDF
+
+Các dạng dưới đây chỉ sử dụng những nhóm bài đã được gọi tên rõ trong các tài liệu bài tập. Phần trình bày được tổ chức lại để người học nhận diện đề, chọn công cụ và tự kiểm tra kết quả; không tạo thêm tên dạng mới.
+
+### Dạng 2 — Xác định cường độ điện trường tổng hợp tại một điểm
+
+Tính từng $\vec E_i$ tại điểm xét rồi dùng nguyên lí chồng chất $\vec E=\sum\vec E_i$. Xác định phương chiều trước khi cộng độ lớn.
+
+Trong cấu hình đối xứng, hãy khai thác các thành phần triệt tiêu theo đối xứng thay vì dùng lượng giác dài dòng.
+
+### Dạng 3 — Tìm vị trí cường độ điện trường tổng hợp triệt tiêu
+
+Trước tiên xác định miền có thể có $\vec E_1$ và $\vec E_2$ ngược chiều. Sau đó đặt điều kiện $E_1=E_2$. Với hai điện tích cùng dấu, điểm triệt tiêu thường nằm giữa hai điện tích; với hai điện tích trái dấu, điểm có thể nằm ngoài đoạn nối hai điện tích về phía điện tích có độ lớn nhỏ hơn.
+
+Sau khi giải đại số, phải kiểm tra nghiệm có nằm trong miền đã chọn không.
 
 <!-- LESSON_PRACTICE_LINKS -->
 ## Luyện tập sau bài

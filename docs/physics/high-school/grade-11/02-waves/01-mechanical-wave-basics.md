@@ -226,6 +226,40 @@ Tỉ số bước sóng bằng tỉ số tốc độ.
 4. Hai điểm cách nhau $\lambda$ trên cùng phương truyền dao động cùng pha.
 5. Đồ thị $u-x$ là ảnh không gian tại một thời điểm, khác đồ thị $u-t$ của một phần tử.
 
+<!-- V9_SOURCE_TYPES -->
+
+## Các dạng bài được hệ thống hóa từ ngân hàng PDF
+
+Các dạng dưới đây chỉ sử dụng những nhóm bài đã được gọi tên rõ trong các tài liệu bài tập. Phần trình bày được tổ chức lại để người học nhận diện đề, chọn công cụ và tự kiểm tra kết quả; không tạo thêm tên dạng mới.
+
+### Dạng 1 — Vận dụng công thức liên hệ các đại lượng sóng
+
+Dạng này dùng các hệ thức $v=\lambda f=\lambda/T$ cùng ý nghĩa vật lí của số ngọn sóng, số chu kì và khoảng cách giữa các đỉnh liên tiếp.
+
+Khi đề cho “N ngọn sóng đi qua”, phải đọc kĩ xem thời gian được tính từ ngọn đầu đến ngọn cuối; thông thường khoảng giữa N ngọn liên tiếp chứa N−1 chu kì. Tương tự, khoảng cách từ đỉnh thứ nhất tới đỉnh thứ N chứa N−1 bước sóng.
+
+Luôn phân biệt tốc độ truyền sóng với tốc độ dao động của phần tử môi trường.
+
+### Dạng 1 — Bài toán sóng truyền trên mặt nước
+
+Đọc dữ kiện quan sát mặt nước theo ba lớp: dao động của nguồn, tốc độ lan truyền và hình học các đỉnh/lõm sóng. Từ số dao động xác định $f$ hoặc $T$; từ khoảng cách giữa các gợn liên tiếp xác định $\lambda$; sau đó dùng $v=\lambda f$.
+
+Nếu đề cho thời gian sóng tới một điểm, tốc độ truyền được tính từ quãng đường lan truyền của pha chứ không phải quãng đường một phần tử nước chuyển động.
+
+### Dạng 2 — Cường độ sóng
+
+**Dấu hiệu nhận biết.** Đề hỏi năng lượng hoặc công suất sóng truyền qua một diện tích vuông góc với phương truyền, so sánh cường độ tại các vị trí, hoặc liên hệ cường độ với khoảng cách tới nguồn.
+
+**Kiến thức cần dùng.** Cường độ sóng là công suất truyền qua một đơn vị diện tích vuông góc với phương truyền. Với mô hình nguồn điểm phát đều theo mọi hướng trong môi trường đồng nhất, công suất phân bố trên mặt cầu nên cường độ giảm theo bình phương khoảng cách.
+
+**Phương pháp.**
+
+1. Xác định mô hình truyền sóng và diện tích mà năng lượng phân bố trên đó.
+2. Viết công suất hoặc năng lượng truyền trong khoảng thời gian đang xét.
+3. Tính cường độ bằng công suất trên diện tích; nếu chỉ cần so sánh hai điểm thì lập tỉ số để tránh biến đổi dài.
+4. Kiểm tra đơn vị phải là W/m² và kiểm tra xu hướng: xa nguồn hơn thì cường độ không thể tăng trong mô hình không hấp thụ.
+
+**Bẫy thường gặp.** Không đồng nhất cường độ sóng với biên độ dao động. Quan hệ theo bình phương khoảng cách chỉ dùng khi giả thiết hình học của nguồn cho phép; không áp dụng máy móc cho sóng trên dây hoặc mọi cấu hình mặt nước.
 
 <!-- LESSON_PRACTICE_LINKS -->
 ## Luyện tập sau bài

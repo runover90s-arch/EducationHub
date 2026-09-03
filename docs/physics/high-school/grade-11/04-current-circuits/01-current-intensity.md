@@ -186,6 +186,23 @@ $$
 4. Tốc độ trôi của electron không phải tốc độ lan truyền tín hiệu.
 5. Đồ thị I–t là công cụ tìm q khi I thay đổi.
 
+<!-- V9_SOURCE_TYPES -->
+
+## Các dạng bài được hệ thống hóa từ ngân hàng PDF
+
+Các dạng dưới đây chỉ sử dụng những nhóm bài đã được gọi tên rõ trong các tài liệu bài tập. Phần trình bày được tổ chức lại để người học nhận diện đề, chọn công cụ và tự kiểm tra kết quả; không tạo thêm tên dạng mới.
+
+### Dạng 1 — Xác định cường độ dòng điện
+
+Dùng $I=\Delta q/\Delta t$ cho dòng điện không đổi và $N=|\Delta q|/e$ khi cần số hạt tải điện. Đổi phút, giờ về giây và mA, µA về A trước khi tính.
+
+Nếu có cả ion dương và ion âm chuyển động, xét đóng góp dòng điện theo chiều quy ước; các hạt trái dấu chuyển động ngược chiều có thể tạo dòng điện cùng chiều.
+
+### Dạng 2 — Liên hệ giữa cường độ dòng điện và tốc độ của các hạt mang điện
+
+Với dây dẫn tiết diện đều, dùng $I=Snve$ (hoặc $I=nqSv$ theo độ lớn điện tích hạt). Cần tính đúng diện tích tiết diện, đặc biệt với dây tròn $S=\pi d^2/4$.
+
+Trong cùng dây có dòng không đổi, nếu tiết diện giảm thì tốc độ trôi tăng để bảo toàn lưu lượng điện tích. Tốc độ trôi rất nhỏ nên phải chú ý các đơn vị µm/s hoặc mm/s.
 
 <!-- LESSON_PRACTICE_LINKS -->
 ## Luyện tập sau bài

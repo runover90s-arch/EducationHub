@@ -179,6 +179,21 @@ $$
 
 Nêu điều kiện xảy ra dấu bằng ở hai phía.
 
+<!-- V9_CHAPTER_BANK -->
+## Kho luyện tập theo từng bài trong chương
+
+Phần dưới đây **không sao chép lặp lại câu hỏi**. Nó gom các ngân hàng theo từng bài để người học có thể luyện hàng trăm câu trong chương mà vẫn biết mỗi câu thuộc kiến thức nào.
+
+- **Bài 1 — Đại cương về dao động điều hòa** — 120 câu/bài: [Bài tập](practice/01-harmonic-oscillation-foundations/exercises.md) · [Đáp án](practice/01-harmonic-oscillation-foundations/solutions.md)
+- **Bài 2 — Li độ, vận tốc và gia tốc** — 62 câu/bài: [Bài tập](practice/02-displacement-velocity-acceleration/exercises.md) · [Đáp án](practice/02-displacement-velocity-acceleration/solutions.md)
+- **Bài 3 — Đường tròn lượng giác, thời gian và quãng đường** — 41 câu/bài: [Bài tập](practice/03-phase-circle-time-distance/exercises.md) · [Đáp án](practice/03-phase-circle-time-distance/solutions.md)
+- **Bài 4 — Con lắc lò xo** — 14 câu/bài: [Bài tập](practice/04-spring-oscillator/exercises.md) · [Đáp án](practice/04-spring-oscillator/solutions.md)
+- **Bài 5 — Con lắc đơn** — 12 câu/bài: [Bài tập](practice/05-simple-pendulum/exercises.md) · [Đáp án](practice/05-simple-pendulum/solutions.md)
+- **Bài 6 — Năng lượng trong dao động** — 171 câu/bài: [Bài tập](practice/06-oscillation-energy/exercises.md) · [Đáp án](practice/06-oscillation-energy/solutions.md)
+- **Bài 7 — Tổng hợp dao động, tắt dần, cưỡng bức và cộng hưởng** — 85 câu/bài: [Bài tập](practice/07-combined-damped-forced-resonance/exercises.md) · [Đáp án](practice/07-combined-damped-forced-resonance/solutions.md)
+
+<!-- /V9_CHAPTER_BANK -->
+
 ---
 
 [← Bài 7](07-combined-damped-forced-resonance.md) | [↑ Chương](index.md) | [Lời giải →](solutions.md)

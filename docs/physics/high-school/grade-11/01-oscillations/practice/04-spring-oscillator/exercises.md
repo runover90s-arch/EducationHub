@@ -94,3 +94,100 @@ Con lắc lò xo treo thẳng đứng có $m=0,10$ kg, $k=40$ N/m, $g=10$ m/s² 
 ---
 
 [Đáp án và lời giải →](solutions.md)
+
+## Ngân hàng bài tập PDF mở rộng
+
+> Nội dung câu hỏi và dữ kiện trong phần này được giữ nguyên; hệ thống chỉ chuẩn hóa xuống dòng và mã kí tự để hiển thị trên web. Câu trùng được loại bỏ. Với câu có công thức/kí hiệu bị sai khi trích xuất chữ từ PDF, đề bài được giữ dưới dạng ảnh để không làm thay đổi dữ kiện.
+
+### Nhận biết — Đúng/Sai
+
+#### Bài PDF 1
+
+<!-- source-id: BT-Chuong-I-p29-q3-75 -->
+
+Câu 3. Dựa vào đồ thị dao động của con lắc lò xo như hình , hãy xác định đúng/sai cho các phát
+biểu sau:
+
+Phát biểu
+Đúng
+Sai
+a
+Biên độ là khoảng cách lớn nhất từ vị trí cân bằng đến điểm cực
+đại trên đồ thị.
+
+S
+b
+Chu kì của dao động điều hòa là khoảng thời gian để vật thực hiện
+được một dao động toàn phần, và được tính bằng 1/T.
+
+S
+c
+Tần số là số lần vật đạt giá trị biên độ trong một giây, được xác
+định bằng nghịch đảo của chu kì.
+Đ
+
+d
+Độ lệch pha là sự khác biệt giữa pha ban đầu và pha tại một thời
+điểm bất kỳ trên đồ thị, được biểu diễn bằng độ hoặc radian.
+Đ
+
+![Hình/bảng/đồ thị đi kèm bài PDF 1](../../../assets/exercise-figures/i-p029-q03-17552.webp){ loading=lazy }
+
+### Thông hiểu — Trắc nghiệm 4 lựa chọn
+
+#### Bài PDF 2
+
+<!-- source-id: BT-Chuong-I-p8-q11-11 -->
+
+Câu 11. Treo một vật nặng, nhỏ vào đầu tự do của một lò xo nhẹ, ta có con lắc lò xo như hình . Kéo
+vật lệch khỏi vị trí cân bằng theo phương thẳng đứng, rồi thả ra cho chuyển động. Chuyển động của
+vật nặng được gọi là
+
+A. rơi tự do.
+
+ B. chuyển động tròn.
+
+C. dao động cơ.
+
+ D. ném ngang.
+
+![Hình/bảng/đồ thị đi kèm bài PDF 2](../../../assets/exercise-figures/i-p008-q11-91923.webp){ loading=lazy }
+
+#### Bài PDF 3
+
+<!-- source-id: BT-Chuong-I-p10-q17-17 -->
+
+Câu 17. Một vật khối lượng M treo ở trạng thái cân bằng trên một lò xo. M được làm dao động xung
+quanh vị trí cân bằng bằng cách kéo nó xuống 10 cm rồi thả nhẹ. Thời gian ngắn nhất để M quay về
+trạng thái ban đầu là 0,5 s. Bỏ qua ma sát trong quá trình M dao động. Hàng nào từ I đến IV trong
+bảng dưới đây đúng với dao động này?
+
+A. Hàng IV.
+B. Hàng II.
+C. Hàng III.
+
+D. Hàng IV.
+
+![Hình/bảng/đồ thị đi kèm bài PDF 3](../../../assets/exercise-figures/i-p010-q17-75201.webp){ loading=lazy }
+
+#### Bài PDF 4
+
+<!-- source-id: BT-Chuong-I-p39-q28-109 -->
+
+Câu 28. Trong quá trình dao động chiều dài của một con lắc lò xo. Con lắc thực hiện 15 dao động
+toàn phần hết 30 s. Tần số góc dao động của con lắc là
+Hình 1.1
+
+    A. π rad/s.
+
+B. 2π rad/s.
+     C.0 5π
+,
+rad.
+
+D. 0 25π
+,
+rad.
+
+![Hình/bảng/đồ thị đi kèm bài PDF 4](../../../assets/exercise-figures/i-p039-q28-14132.webp){ loading=lazy }
+

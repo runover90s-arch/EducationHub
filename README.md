@@ -15,6 +15,7 @@ Bản hiện tại có ngân hàng luyện tập Vật lí 11 tách theo từng 
 ```bash
 pip install -r requirements.txt
 python tools/check_practice_bank.py
+python tools/check_pdf_import.py
 python tools/check_site.py
 mkdocs serve
 ```
@@ -23,7 +24,8 @@ mkdocs serve
 
 ```bash
 python tools/check_practice_bank.py
+python tools/check_pdf_import.py
 python tools/check_site.py
 ```
 
-`check_practice_bank.py` kiểm tra cặp đề–lời giải, số câu, phương án trắc nghiệm, liên kết luyện tập và chống mất ngân hàng bài tập. `check_site.py` rà Markdown, LaTeX, liên kết, điều hướng, tài nguyên; khi MkDocs đã được cài, nó còn dựng website ở chế độ nghiêm ngặt và kiểm tra HTML đã kết xuất.
+`check_practice_bank.py` kiểm tra cấu trúc ngân hàng bài tập đã biên soạn. `check_pdf_import.py` kiểm tra toàn vẹn ngân hàng nhập từ PDF: cặp đề–lời giải, source-id, câu trùng, ảnh công thức/hình vẽ và ngưỡng số lượng. `check_site.py` rà Markdown, LaTeX, liên kết, điều hướng, tài nguyên; khi MkDocs đã được cài, nó còn dựng website ở chế độ nghiêm ngặt và kiểm tra HTML đã kết xuất.

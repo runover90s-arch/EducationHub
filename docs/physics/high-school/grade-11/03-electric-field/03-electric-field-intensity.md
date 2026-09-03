@@ -183,6 +183,17 @@ Không kéo mô hình đến $r=0$ đối với vật có kích thước hữu h
 4. Đường sức không cắt nhau.
 5. Điện trường đều có E không đổi theo vị trí.
 
+<!-- V9_SOURCE_TYPES -->
+
+## Các dạng bài được hệ thống hóa từ ngân hàng PDF
+
+Các dạng dưới đây chỉ sử dụng những nhóm bài đã được gọi tên rõ trong các tài liệu bài tập. Phần trình bày được tổ chức lại để người học nhận diện đề, chọn công cụ và tự kiểm tra kết quả; không tạo thêm tên dạng mới.
+
+### Dạng 1 — Tính cường độ điện trường tại một điểm
+
+Với điện tích điểm, dùng $E=k|Q|/(\varepsilon r^2)$. Vectơ điện trường hướng ra xa điện tích dương và hướng về điện tích âm. Nếu đề cho lực tác dụng lên điện tích thử, có thể dùng $\vec E=\vec F/q$ nhưng phải xử lí dấu của $q$ khi suy chiều.
+
+Luôn phân biệt điện tích gây ra điện trường với điện tích thử đặt tại điểm đang xét.
 
 <!-- LESSON_PRACTICE_LINKS -->
 ## Luyện tập sau bài

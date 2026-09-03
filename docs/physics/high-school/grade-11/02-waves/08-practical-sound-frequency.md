@@ -203,6 +203,23 @@ Một học sinh lấy khoảng thời gian giữa hai lần tín hiệu hình s
 4. Tín hiệu sạch quan trọng hơn cố đọc thật nhiều chữ số.
 5. Tần số là số chu kì trong một giây.
 
+<!-- V9_SOURCE_TYPES -->
+
+## Các dạng bài được hệ thống hóa từ ngân hàng PDF
+
+Các dạng dưới đây chỉ sử dụng những nhóm bài đã được gọi tên rõ trong các tài liệu bài tập. Phần trình bày được tổ chức lại để người học nhận diện đề, chọn công cụ và tự kiểm tra kết quả; không tạo thêm tên dạng mới.
+
+### Dạng 1 — Xử lí số liệu đo và tính sai số của phép đo
+
+Tổ chức số liệu thành các lần đo riêng, tính giá trị trung bình rồi mới đánh giá độ phân tán hoặc sai số theo quy ước của bài thực hành. Không làm tròn quá sớm; giữ thêm một vài chữ số trong các bước trung gian và chỉ làm tròn ở kết quả cuối.
+
+Nếu tần số được suy từ chu kì đo trên màn hình, nên đo nhiều chu kì cùng lúc rồi chia cho số chu kì để giảm sai số đọc.
+
+### Dạng 2 — Đọc kết quả từ màn hình dao động kí
+
+Xác định hệ số thời gian trên mỗi ô và hệ số điện áp trên mỗi ô trước khi đọc. Đếm số ô ứng với một hoặc nhiều chu kì, suy ra $T$, sau đó tính $f=1/T$.
+
+Nếu đường tín hiệu không bắt đầu đúng tại vạch lưới, hãy dùng hai điểm cùng pha rõ ràng như hai đỉnh liên tiếp thay vì ước lượng từ điểm cắt trục.
 
 <!-- LESSON_PRACTICE_LINKS -->
 ## Luyện tập sau bài

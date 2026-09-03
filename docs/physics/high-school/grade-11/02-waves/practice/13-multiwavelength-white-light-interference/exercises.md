@@ -76,3 +76,71 @@ Trong thí nghiệm Young, dùng đồng thời $\lambda_1=480$ nm và $\lambda_
 ---
 
 [Đáp án và lời giải →](solutions.md)
+
+## Ngân hàng bài tập PDF mở rộng
+
+> Nội dung câu hỏi và dữ kiện trong phần này được giữ nguyên; hệ thống chỉ chuẩn hóa xuống dòng và mã kí tự để hiển thị trên web. Câu trùng được loại bỏ. Với câu có công thức/kí hiệu bị sai khi trích xuất chữ từ PDF, đề bài được giữ dưới dạng ảnh để không làm thay đổi dữ kiện.
+
+### Nhận biết — Trắc nghiệm 4 lựa chọn
+
+#### Bài PDF 1
+
+<!-- source-id: BT-Chuong-II-p199-q14-453 -->
+
+Câu 14. Trong giao thoa ánh sáng với khe Y-âng, nếu chiếu đồng thời hai bức xạ đơn sắc có bước
+sóng λ1 = 0,4 µm và λ 2 = 0,6 µm vào hai khe. Hỏi vân sáng bậc ba của λ 1 sẽ trùng với vân sáng bậc
+mấy của bức xạ λ 2
+A. bậc 3.
+
+B. bậc 5.
+
+C. bậc 2.
+
+D. bậc 4.
+
+#### Bài PDF 2
+
+<!-- source-id: BT-Chuong-II-p201-q5-459 -->
+
+Câu 5. Trong thí nghiệm giao thoa ánh sáng với hai khe Y-âng, khoảng cách giữa hai khe là 2 mm,
+khoảng cách từ mặt phẳng chứa hai khe đến màn quan sát là 1,2 m. Chiếu sáng hai khe bằng ánh sáng
+hỗn hợp 500 nm và 660 nm thì thu được hệ vân giao thoa trên màn. Biết vân chính giữa (trung tâm)
+ứng với hai bức xạ trên trùng nhau. Khoảng cách từ vân chính giữa đến vân gần nhất cùng màu với
+vân chính giữa là
+
+A. 9,9 mm.
+B. 19,8 mm.
+
+C. 29,7 mm.
+D. 4,9 mm.
+
+#### Bài PDF 3
+
+<!-- source-id: BT-Chuong-II-p201-q6-460 -->
+
+Câu 6. Hai khe Y-âng  cách nhau 1 mm được chiếu bằng ánh sáng trắng (
+μ
+−
+μ
+0,4 m 0,76 m), khoảng
+cách từ hai khe đến màn là 1 m. Tại điểm A trên màn  cách vân trung tâm 2 mm có các bức xạ cho
+vân tối có bước sóng
+A.
+μ
+μ
+0,6 m;0,76 m.
+
+B.
+μ
+μ
+0,57 m;0,6 m.
+C.
+μ
+μ
+0,4 m;0,44 m.
+
+D.
+μ
+μ
+0,44 m;0,57 m.
+

@@ -185,6 +185,27 @@ $\mathcal E_b=4E$, $r_b=4r/3$.
 4. N=mn.
 5. Tối ưu không bỏ qua giới hạn thiết bị.
 
+<!-- V9_SOURCE_TYPES -->
+
+## Các dạng bài được hệ thống hóa từ ngân hàng PDF
+
+Các dạng dưới đây chỉ sử dụng những nhóm bài đã được gọi tên rõ trong các tài liệu bài tập. Phần trình bày được tổ chức lại để người học nhận diện đề, chọn công cụ và tự kiểm tra kết quả; không tạo thêm tên dạng mới.
+
+### Dạng 1 — Nguồn điện ghép nối tiếp
+
+Với các nguồn mắc nối tiếp cùng chiều, suất điện động bộ bằng tổng các suất điện động và điện trở trong bộ bằng tổng điện trở trong. Nếu các nguồn giống nhau, $\mathcal E_b=n\mathcal E$, $r_b=nr$. Sau đó coi cả bộ như một nguồn duy nhất.
+
+### Dạng 2 — Nguồn điện ghép song song
+
+Chỉ áp dụng công thức đơn giản khi các nguồn giống nhau và mắc đúng cực tương ứng: $\mathcal E_b=\mathcal E$, $r_b=r/n$. Với nguồn không giống nhau, cần phương pháp mạch tổng quát thay vì dùng công thức này máy móc.
+
+### Dạng 3 — Nguồn điện ghép xung đối
+
+Chọn chiều vòng mạch trước, gán dấu suất điện động theo chiều đi qua nguồn. Suất điện động tương đương là tổng đại số, còn điện trở trong luôn cộng dương. Sau khi tính dòng, nếu kết quả âm thì dòng thực tế ngược chiều đã giả thiết.
+
+### Dạng 4 — Nguồn điện ghép hỗn hợp đối xứng
+
+Xác định số nguồn trong mỗi nhánh nối tiếp và số nhánh song song. Tính suất điện động và điện trở trong của một nhánh trước, rồi ghép các nhánh giống nhau song song. Kiểm tra tổng số nguồn bằng tích hai con số này.
 
 <!-- LESSON_PRACTICE_LINKS -->
 ## Luyện tập sau bài

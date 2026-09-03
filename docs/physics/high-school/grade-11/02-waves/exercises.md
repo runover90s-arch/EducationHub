@@ -184,6 +184,27 @@ Giải thích vì sao vân trung tâm của thí nghiệm Young với ánh sáng
 ### Câu 51 — Quang phổ
 Phân biệt ngắn gọn quang phổ liên tục, quang phổ vạch phát xạ và quang phổ vạch hấp thụ theo hình dạng quan sát, không cần nêu cơ chế lượng tử sâu.
 
+<!-- V9_CHAPTER_BANK -->
+## Kho luyện tập theo từng bài trong chương
+
+Phần dưới đây **không sao chép lặp lại câu hỏi**. Nó gom các ngân hàng theo từng bài để người học có thể luyện hàng trăm câu trong chương mà vẫn biết mỗi câu thuộc kiến thức nào.
+
+- **Bài 1 — Đại cương sóng cơ và sự truyền sóng** — 101 câu/bài: [Bài tập](practice/01-mechanical-wave-basics/exercises.md) · [Đáp án](practice/01-mechanical-wave-basics/solutions.md)
+- **Bài 2 — Phương trình sóng, độ lệch pha và đồ thị** — 66 câu/bài: [Bài tập](practice/02-wave-equation-phase-graphs/exercises.md) · [Đáp án](practice/02-wave-equation-phase-graphs/solutions.md)
+- **Bài 3 — Giao thoa sóng cơ** — 92 câu/bài: [Bài tập](practice/03-mechanical-interference/exercises.md) · [Đáp án](practice/03-mechanical-interference/solutions.md)
+- **Bài 4 — Sóng dừng** — 96 câu/bài: [Bài tập](practice/04-standing-waves/exercises.md) · [Đáp án](practice/04-standing-waves/solutions.md)
+- **Bài 5 — Sóng âm** — 59 câu/bài: [Bài tập](practice/05-sound-waves/exercises.md) · [Đáp án](practice/05-sound-waves/solutions.md)
+- **Bài 6 — Sóng điện từ và thang sóng điện từ** — 36 câu/bài: [Bài tập](practice/06-electromagnetic-waves/exercises.md) · [Đáp án](practice/06-electromagnetic-waves/solutions.md)
+- **Bài 7 — Giao thoa ánh sáng** — 17 câu/bài: [Bài tập](practice/07-light-interference/exercises.md) · [Đáp án](practice/07-light-interference/solutions.md)
+- **Bài 8 — Thực hành đo tần số của sóng âm** — 44 câu/bài: [Bài tập](practice/08-practical-sound-frequency/exercises.md) · [Đáp án](practice/08-practical-sound-frequency/solutions.md)
+- **Bài 9 — Thực hành đo tốc độ truyền âm** — 37 câu/bài: [Bài tập](practice/09-practical-sound-speed/exercises.md) · [Đáp án](practice/09-practical-sound-speed/solutions.md)
+- **Bài 10 — Hiệu ứng Doppler** — 8 câu/bài: [Bài tập](practice/10-doppler-effect/exercises.md) · [Đáp án](practice/10-doppler-effect/solutions.md)
+- **Bài 11 — Sóng ánh sáng, nhiễu xạ và tán sắc** — 8 câu/bài: [Bài tập](practice/11-light-wave-diffraction-dispersion/exercises.md) · [Đáp án](practice/11-light-wave-diffraction-dispersion/solutions.md)
+- **Bài 12 — Quang phổ và thang sóng điện từ** — 37 câu/bài: [Bài tập](practice/12-spectra-electromagnetic-spectrum/exercises.md) · [Đáp án](practice/12-spectra-electromagnetic-spectrum/solutions.md)
+- **Bài 13 — Giao thoa nhiều bức xạ và ánh sáng trắng** — 11 câu/bài: [Bài tập](practice/13-multiwavelength-white-light-interference/exercises.md) · [Đáp án](practice/13-multiwavelength-white-light-interference/solutions.md)
+
+<!-- /V9_CHAPTER_BANK -->
+
 ---
 
 [← Bài 13](13-multiwavelength-white-light-interference.md) | [↑ Chương](index.md) | [Lời giải →](solutions.md)

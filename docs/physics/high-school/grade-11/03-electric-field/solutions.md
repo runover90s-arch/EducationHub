@@ -335,6 +335,23 @@ $$
 
 Vì $g_{eff}>g$, chu kì **giảm**.
 
+<!-- V9_CHAPTER_BANK -->
+## Đáp án theo từng bài trong chương
+
+Mỗi ngân hàng giữ lời giải riêng để tránh một trang lời giải quá dài và giúp đối chiếu đúng bài đang luyện.
+
+- **Bài 1 — Thuyết electron và bảo toàn điện tích**: [Mở đáp án và lời giải](practice/01-electron-theory-charge-conservation/solutions.md)
+- **Bài 2 — Định luật Coulomb**: [Mở đáp án và lời giải](practice/02-coulomb-law/solutions.md)
+- **Bài 3 — Điện trường và cường độ điện trường**: [Mở đáp án và lời giải](practice/03-electric-field-intensity/solutions.md)
+- **Bài 4 — Tổng hợp điện trường và cân bằng điện tích**: [Mở đáp án và lời giải](practice/04-field-superposition-equilibrium/solutions.md)
+- **Bài 5 — Công của lực điện, điện thế và hiệu điện thế**: [Mở đáp án và lời giải](practice/05-work-potential-voltage/solutions.md)
+- **Bài 6 — Tụ điện, điện dung và năng lượng**: [Mở đáp án và lời giải](practice/06-capacitors/solutions.md)
+- **Bài 7 — Chuyển động của điện tích trong điện trường đều**: [Mở đáp án và lời giải](practice/07-charged-particle-motion/solutions.md)
+- **Bài 8 — Ghép tụ và các bài toán tụ điện nâng cao**: [Mở đáp án và lời giải](practice/08-advanced-capacitors/solutions.md)
+- **Bài 9 — Cân bằng điện tích và con lắc trong điện trường**: [Mở đáp án và lời giải](practice/09-electrostatic-equilibrium-charged-pendulum/solutions.md)
+
+<!-- /V9_CHAPTER_BANK -->
+
 ---
 
 [← Bài tập](exercises.md) | [↑ Chương](index.md) | [Kiểm tra cuối chương →](quiz.md)

@@ -230,6 +230,17 @@ $t=360000/(0,8\cdot1000)=450$ s.
 4. Bài nhiệt cần hiệu suất nếu có tổn hao.
 5. P tải cực đại khi R=r trong mô hình nguồn đơn giản.
 
+<!-- V9_SOURCE_TYPES -->
+
+## Các dạng bài được hệ thống hóa từ ngân hàng PDF
+
+Các dạng dưới đây chỉ sử dụng những nhóm bài đã được gọi tên rõ trong các tài liệu bài tập. Phần trình bày được tổ chức lại để người học nhận diện đề, chọn công cụ và tự kiểm tra kết quả; không tạo thêm tên dạng mới.
+
+### Dạng 1 — Năng lượng, công suất điện
+
+Chọn đúng công thức theo đại lượng đã biết: $A=UIt$, $P=UI$; với điện trở thuần có thể dùng $P=I^2R=U^2/R$. Nhiệt lượng Joule bằng $Q=I^2Rt$ nếu điện năng chuyển hoàn toàn thành nhiệt.
+
+Ở bài thiết bị định mức, từ $U_{đm}$ và $P_{đm}$ suy $R=U_{đm}^2/P_{đm}$ nếu coi điện trở thiết bị không đổi; sau đó mới xét điều kiện mạch thực tế.
 
 <!-- LESSON_PRACTICE_LINKS -->
 ## Luyện tập sau bài

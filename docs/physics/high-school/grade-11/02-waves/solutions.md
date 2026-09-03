@@ -348,6 +348,27 @@ $$
 
 Mục tiêu ở đây là nhận diện hình dạng phổ; cơ chế mức năng lượng nguyên tử thuộc phần học sâu hơn.
 
+<!-- V9_CHAPTER_BANK -->
+## Đáp án theo từng bài trong chương
+
+Mỗi ngân hàng giữ lời giải riêng để tránh một trang lời giải quá dài và giúp đối chiếu đúng bài đang luyện.
+
+- **Bài 1 — Đại cương sóng cơ và sự truyền sóng**: [Mở đáp án và lời giải](practice/01-mechanical-wave-basics/solutions.md)
+- **Bài 2 — Phương trình sóng, độ lệch pha và đồ thị**: [Mở đáp án và lời giải](practice/02-wave-equation-phase-graphs/solutions.md)
+- **Bài 3 — Giao thoa sóng cơ**: [Mở đáp án và lời giải](practice/03-mechanical-interference/solutions.md)
+- **Bài 4 — Sóng dừng**: [Mở đáp án và lời giải](practice/04-standing-waves/solutions.md)
+- **Bài 5 — Sóng âm**: [Mở đáp án và lời giải](practice/05-sound-waves/solutions.md)
+- **Bài 6 — Sóng điện từ và thang sóng điện từ**: [Mở đáp án và lời giải](practice/06-electromagnetic-waves/solutions.md)
+- **Bài 7 — Giao thoa ánh sáng**: [Mở đáp án và lời giải](practice/07-light-interference/solutions.md)
+- **Bài 8 — Thực hành đo tần số của sóng âm**: [Mở đáp án và lời giải](practice/08-practical-sound-frequency/solutions.md)
+- **Bài 9 — Thực hành đo tốc độ truyền âm**: [Mở đáp án và lời giải](practice/09-practical-sound-speed/solutions.md)
+- **Bài 10 — Hiệu ứng Doppler**: [Mở đáp án và lời giải](practice/10-doppler-effect/solutions.md)
+- **Bài 11 — Sóng ánh sáng, nhiễu xạ và tán sắc**: [Mở đáp án và lời giải](practice/11-light-wave-diffraction-dispersion/solutions.md)
+- **Bài 12 — Quang phổ và thang sóng điện từ**: [Mở đáp án và lời giải](practice/12-spectra-electromagnetic-spectrum/solutions.md)
+- **Bài 13 — Giao thoa nhiều bức xạ và ánh sáng trắng**: [Mở đáp án và lời giải](practice/13-multiwavelength-white-light-interference/solutions.md)
+
+<!-- /V9_CHAPTER_BANK -->
+
 ---
 
 [← Bài tập](exercises.md) | [↑ Chương](index.md) | [Kiểm tra cuối chương →](quiz.md)

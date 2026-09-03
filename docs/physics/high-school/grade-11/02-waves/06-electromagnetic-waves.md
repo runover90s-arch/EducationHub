@@ -170,6 +170,17 @@ $$
 4. Đỏ có bước sóng dài hơn tím trong vùng nhìn thấy.
 5. Tia X và gamma đều là bức xạ ion hóa năng lượng cao, cần kiểm soát an toàn.
 
+<!-- V9_SOURCE_TYPES -->
+
+## Các dạng bài được hệ thống hóa từ ngân hàng PDF
+
+Các dạng dưới đây chỉ sử dụng những nhóm bài đã được gọi tên rõ trong các tài liệu bài tập. Phần trình bày được tổ chức lại để người học nhận diện đề, chọn công cụ và tự kiểm tra kết quả; không tạo thêm tên dạng mới.
+
+### Dạng 5 — Xác định loại bức xạ dựa vào tần số hoặc bước sóng
+
+Dùng $c=\lambda f$ trong chân không để đổi giữa tần số và bước sóng, sau đó so với các miền của thang sóng điện từ đã học.
+
+Hãy kiểm tra đơn vị rất kĩ vì bước sóng thường cho theo nm, µm, mm hoặc m. Khi truyền sang môi trường khác, tần số do nguồn quyết định không đổi còn tốc độ và bước sóng có thể đổi.
 
 <!-- LESSON_PRACTICE_LINKS -->
 ## Luyện tập sau bài

@@ -246,6 +246,44 @@ Hai điểm cách nhau $12$ cm, tốc độ truyền $0,6$ m/s. Thời gian truy
 4. Một bước sóng tương ứng một chu kì về pha.
 5. Đừng dùng tốc độ dao động của phần tử thay cho tốc độ truyền sóng.
 
+<!-- V9_SOURCE_TYPES -->
+
+## Các dạng bài được hệ thống hóa từ ngân hàng PDF
+
+Các dạng dưới đây chỉ sử dụng những nhóm bài đã được gọi tên rõ trong các tài liệu bài tập. Phần trình bày được tổ chức lại để người học nhận diện đề, chọn công cụ và tự kiểm tra kết quả; không tạo thêm tên dạng mới.
+
+### Dạng 2 — Quan sát đồ thị sóng để xác định chu kì, tần số, biên độ và tốc độ truyền sóng
+
+Trước hết xác định đồ thị là ảnh chụp theo không gian $u-x$ hay diễn biến theo thời gian $u-t$. Trên $u-x$, khoảng cách giữa hai điểm gần nhất cùng pha là bước sóng; trên $u-t$, khoảng thời gian giữa hai trạng thái lặp lại là chu kì.
+
+Sau khi có $\lambda$ và $T$ hoặc $f$, suy ra tốc độ truyền $v=\lambda/T=\lambda f$. Khi xác định chiều truyền từ ảnh chụp sóng, cần kết hợp chiều vận tốc tức thời của một phần tử với độ dốc cục bộ của đường sóng.
+
+### Dạng 2 — Độ lệch pha giữa hai phần tử
+
+Hai điểm trên cùng phương truyền sóng cách nhau $\Delta x$ có độ lệch pha theo độ lớn $|\Delta\varphi|=2\pi\Delta x/\lambda$. Từ đó nhận ra cùng pha, ngược pha, vuông pha hoặc một độ lệch pha cụ thể.
+
+Điểm dễ sai là bỏ qua tính tuần hoàn của pha. Khi tìm khoảng cách, nghiệm phải có thêm bội nguyên của bước sóng nếu đề hỏi tất cả vị trí; khi hỏi khoảng cách ngắn nhất thì chọn nghiệm dương nhỏ nhất.
+
+### Dạng 3 — Bài toán khoảng cách giữa các phần tử
+
+Dạng này đảo ngược quan hệ pha–khoảng cách. Hãy viết điều kiện pha trước, sau đó chuyển sang $\Delta x$. Ví dụ cùng pha cho $\Delta x=k\lambda$, ngược pha cho $\Delta x=(k+1/2)\lambda$.
+
+Nếu hai điểm nằm trong một đoạn hữu hạn, sau khi lập công thức phải dùng điều kiện hình học của đoạn để giới hạn số nguyên $k$; không đếm bằng trực giác.
+
+### Dạng 4 — Bài tập liên quan đến phương truyền sóng
+
+**Dấu hiệu nhận biết.** Đề cho ảnh dạng sóng ở một thời điểm, trạng thái chuyển động của một phần tử, hoặc hỏi sóng đang truyền theo chiều nào.
+
+**Kiến thức cần dùng.** Với sóng chạy, trạng thái theo không gian và theo thời gian liên hệ qua phương trình sóng. Một điểm ở phía trước theo chiều truyền nhận cùng trạng thái pha muộn hơn điểm phía sau.
+
+**Phương pháp.**
+
+1. Chọn một điểm trên hình có độ dốc không bằng 0 và xác định chiều vận tốc tức thời của phần tử nếu đề cho.
+2. Dùng quy tắc dịch chuyển dạng sóng sau một khoảng thời gian rất nhỏ: hình dạng phải tịnh tiến theo chiều truyền.
+3. Đối chiếu dấu độ dốc theo không gian với dấu vận tốc dao động để kết luận chiều truyền.
+4. Nếu đề cho phương trình, kiểm tra dấu trước phần phụ thuộc tọa độ: dạng $\omega t-kx$ và $\omega t+kx$ tương ứng hai chiều truyền ngược nhau theo quy ước trục.
+
+**Bẫy thường gặp.** Tốc độ truyền sóng không phải tốc độ dao động của phần tử môi trường. Phần tử chỉ dao động quanh vị trí cân bằng, không chạy theo ngọn sóng.
 
 <!-- LESSON_PRACTICE_LINKS -->
 ## Luyện tập sau bài

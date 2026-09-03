@@ -275,6 +275,17 @@ Giao thoa nhiều bức xạ thực chất là chồng nhiều hệ vân có kho
 4. Đếm vân an toàn nhất bằng bất đẳng thức nguyên.
 5. Vân trung tâm của ánh sáng trắng là vị trí các bước sóng cùng cực đại.
 
+<!-- V9_SOURCE_TYPES -->
+
+## Các dạng bài được hệ thống hóa từ ngân hàng PDF
+
+Các dạng dưới đây chỉ sử dụng những nhóm bài đã được gọi tên rõ trong các tài liệu bài tập. Phần trình bày được tổ chức lại để người học nhận diện đề, chọn công cụ và tự kiểm tra kết quả; không tạo thêm tên dạng mới.
+
+### Dạng 12 — Giao thoa với ánh sáng trắng
+
+Ánh sáng trắng gồm nhiều bước sóng nên mỗi màu tạo một hệ vân có khoảng vân khác nhau. Vân trung tâm của mọi màu trùng nhau và có màu trắng; ra xa trung tâm các hệ vân tách dần.
+
+Khi tìm màu xuất hiện tại một vị trí, dùng $x=k\lambda D/a$ để suy các bước sóng khả dĩ trong miền khả kiến và điều kiện $k$ nguyên. Khi tìm vùng chồng lấn hay bậc vân, phải xét giới hạn bước sóng đỏ–tím thay vì chọn một bước sóng đại diện.
 
 <!-- LESSON_PRACTICE_LINKS -->
 ## Luyện tập sau bài

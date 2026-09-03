@@ -251,6 +251,46 @@ Hạt q dương bay ngang vào trường E hướng lên. Quỹ đạo cong lên
 4. Đổi đơn vị electron/proton cẩn thận.
 5. Kiểm tra xem trọng lực có được bỏ qua không.
 
+<!-- V9_SOURCE_TYPES -->
+
+## Các dạng bài được hệ thống hóa từ ngân hàng PDF
+
+Các dạng dưới đây chỉ sử dụng những nhóm bài đã được gọi tên rõ trong các tài liệu bài tập. Phần trình bày được tổ chức lại để người học nhận diện đề, chọn công cụ và tự kiểm tra kết quả; không tạo thêm tên dạng mới.
+
+### Dạng 1 — Điện tích chuyển động cùng phương với điện trường
+
+Trong điện trường đều, lực điện không đổi nên gia tốc $a=qE/m$ không đổi. Chọn trục cùng hướng điện trường và giữ dấu của $q$ để xác định dấu gia tốc. Sau đó dùng các công thức chuyển động thẳng biến đổi đều.
+
+Với electron, lực và gia tốc ngược hướng điện trường. Nếu bỏ qua trọng lực, cần nói rõ vì sao hoặc theo giả thiết đề.
+
+### Dạng 3 — Điện tích chuyển động vuông góc với điện trường
+
+Tách chuyển động thành hai phương độc lập: theo phương ban đầu là chuyển động thẳng đều, theo phương điện trường là chuyển động biến đổi đều với gia tốc $a=qE/m$. Ghép hai phương để tìm phương trình quỹ đạo, thời gian bay, độ lệch và vận tốc khi ra khỏi vùng điện trường.
+
+Bài toán tương tự ném ngang nhưng gia tốc do lực điện quyết định cả độ lớn lẫn chiều.
+
+### Dạng 3 — Tìm vận tốc của điện tích trong điện trường đều từ điện thế
+
+Dùng định lí động năng hoặc bảo toàn năng lượng điện–động: $\Delta W_đ=A_{điện}=q(V_A-V_B)$. Công thức này đặc biệt hiệu quả khi đề cho hiệu điện thế nhưng không cho khoảng cách hay thời gian.
+
+Giữ dấu của $q$ để biết động năng tăng hay giảm; nếu biểu thức cho $v^2&lt;0$ thì trạng thái giả định không thể đạt được.
+
+### Dạng 2 — Cân bằng của hạt mang điện trong điện trường đều
+
+**Dấu hiệu nhận biết.** Hạt tích điện đứng yên hoặc chuyển động thẳng đều trong điện trường; đề có thêm trọng lực, lực căng, lực đàn hồi hoặc một lực ngoài khác.
+
+**Kiến thức cần dùng.** Trạng thái cân bằng thỏa tổng vectơ lực bằng không. Lực điện trong điện trường đều là $\vec F=q\vec E$; chiều của lực cùng $\vec E$ với điện tích dương và ngược $\vec E$ với điện tích âm.
+
+**Phương pháp.**
+
+1. Vẽ tất cả lực tác dụng lên hạt và chọn hệ trục thuận lợi.
+2. Xác định đúng chiều lực điện từ dấu của điện tích.
+3. Viết $\sum \vec F=\vec 0$, sau đó chiếu lên các trục nếu các lực không cùng phương.
+4. Giải đại lượng cần tìm và kiểm tra điều kiện vật lí, chẳng hạn lực căng không âm hoặc góc nằm trong miền hình học cho phép.
+
+**Tại sao cách này đúng?** Cân bằng nghĩa là gia tốc bằng không; theo định luật II Newton, điều đó tương đương hợp lực bằng không.
+
+**Bẫy thường gặp.** Không được mặc định lực điện cùng chiều điện trường khi hạt mang điện âm. Khi đề yêu cầu bỏ qua trọng lực phải dùng đúng giả thiết đó, không tự thêm $mg$ vào phương trình.
 
 <!-- LESSON_PRACTICE_LINKS -->
 ## Luyện tập sau bài

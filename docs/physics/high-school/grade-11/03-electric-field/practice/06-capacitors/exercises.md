@@ -94,3 +94,87 @@ Tụ $C=10\,\mu$F nối với nguồn $U=100$ V. Sau khi tích điện, ngắt k
 ---
 
 [Đáp án và lời giải →](solutions.md)
+
+## Ngân hàng bài tập PDF mở rộng
+
+> Nội dung câu hỏi và dữ kiện trong phần này được giữ nguyên; hệ thống chỉ chuẩn hóa xuống dòng và mã kí tự để hiển thị trên web. Câu trùng được loại bỏ. Với câu có công thức/kí hiệu bị sai khi trích xuất chữ từ PDF, đề bài được giữ dưới dạng ảnh để không làm thay đổi dữ kiện.
+
+### Nhận biết — Trả lời ngắn
+
+#### Bài PDF 1
+
+<!-- source-id: BT-Chuong-III-p164-q1-421 -->
+
+Câu 1. Trên vỏ một tụ điện có ghi
+ Nối hai bản tụ điện với một hiệu điện thế 120 V. Tụ điện
+tích được điện tích bao nhiêu mC?
+
+#### Bài PDF 2
+
+<!-- source-id: BT-Chuong-III-p164-q2-422 -->
+
+Câu 2. Một tụ điện có điện dung 24 nF được tích điện đến hiệu điện thế 450 V thì có bao nhiêu êlectron di
+chuyển đến bản tích điện âm của tụ điện ( đơn vị x
+13
+10 (Êlectron) )
+
+#### Bài PDF 3
+
+<!-- source-id: BT-Chuong-III-p164-q3-423 -->
+
+Câu 3. Một tụ điện có điện dung 2000 µF được tích điện đến hiệu điện thế 10 V. Năng lượng của tụ điện
+bằng bao nhiêu J?
+20µF 200V.
+−
+
+#### Bài PDF 4
+
+<!-- source-id: BT-Chuong-III-p165-q4-424 -->
+
+Câu 4. Hai đầu tụ có điện dung là 20 μF thì hiệu điện thế là 5 V thì năng lượng tích được là bao nhiêu mJ?
+
+#### Bài PDF 5
+
+<!-- source-id: BT-Chuong-III-p165-q5-425 -->
+
+Câu 5. Một tụ điện được tích điện bằng một hiệu điện thế là 10 V thì năng lượng của tụ là 10 mJ. Nếu
+muốn năng lượng của tụ là 22,5 mJ thì phải đặt vào hai đầu tụ một hiệu điện thế bao nhiêu vôn?
+
+#### Bài PDF 6
+
+<!-- source-id: BT-Chuong-III-p165-q6-426 -->
+
+Câu 6. Cho một tụ điện có điện dung 3 pF được tích điện đến giá trị 9.10-6 C. Năng lượng tích trữ trong tụ
+điện bằng bao nhiêu J?
+
+#### Bài PDF 7
+
+<!-- source-id: BT-Chuong-III-p165-q7-427 -->
+
+Câu 7. Trong một đèn Flash chụp ảnh đơn giản, người ta sử dụng một tụ điện để có thể phát ra một chùm
+sáng với cường độ đủ lớn trong thời gian ngắn. Giả sử tụ điện được sử dụng có điện dung 0,20 F được sạc
+bằng pin 9,0 V, sau đó tụ phóng điện trong 0,001 s. Công suất phóng điện của tụ bằng bao nhiêu W?
+
+#### Bài PDF 8
+
+<!-- source-id: BT-Chuong-III-p168-q1-456 -->
+
+Câu 1. Cho một tụ điện có điện dung 2 pF được tích điện đến giá trị 9.10-6 C. Năng lượng tích trữ trong tụ
+điện bằng bao nhiêu J?
+
+#### Bài PDF 9
+
+<!-- source-id: BT-Chuong-III-p168-q3-458 -->
+
+Câu 3. Một đèn flash của máy ảnh sử dụng tụ điện có điện dung C1 = 4500 µF và được sạc bằng pin 12 V.
+Sau đó, tụ điện được ngắt khỏi pin và phóng điện qua đèn để hiệu điện thế giữa hai bản tụ là 6 V. Năng
+lượng tụ điện đã chuyển qua đèn bằng bao nhiêu J?
+
+#### Bài PDF 10
+
+<!-- source-id: BT-Chuong-III-p168-q4-459 -->
+
+Câu 4. Một tụ điện phẳng có điện dung 4 µF, khoảng cách giữa hai bản tụ là 1 mm. Năng lượng điện
+trường dự trữ trong tụ điện có giá trị lớn nhất là 0,045 J. Cường độ điện trường lớn nhất mà điện môi giữa
+hai bản tụ còn chịu được là bao nhiêu 103 V/m?
+

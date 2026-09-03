@@ -222,6 +222,23 @@ Hai điện tích $+Q$ và $-Q$, điểm M cách hai nguồn bằng nhau. Điệ
 4. E hướng về phía V giảm.
 5. Dấu q quyết định liên hệ giữa V và thế năng qV.
 
+<!-- V9_SOURCE_TYPES -->
+
+## Các dạng bài được hệ thống hóa từ ngân hàng PDF
+
+Các dạng dưới đây chỉ sử dụng những nhóm bài đã được gọi tên rõ trong các tài liệu bài tập. Phần trình bày được tổ chức lại để người học nhận diện đề, chọn công cụ và tự kiểm tra kết quả; không tạo thêm tên dạng mới.
+
+### Dạng 1 — Xác định cường độ điện trường và điện thế tại một điểm
+
+Đọc rõ hệ quy chiếu điện thế và loại điện trường. Với điện tích điểm khi chọn mốc ở vô cùng, $V=kQ/(\varepsilon r)$; trong điện trường đều, hiệu điện thế liên hệ với cường độ qua độ dịch chuyển theo phương đường sức.
+
+Điện thế là đại lượng đại số nên dấu của điện tích nguồn quan trọng; không lấy trị tuyệt đối như khi tính độ lớn cường độ điện trường.
+
+### Dạng 2 — Tìm hiệu điện thế giữa hai điểm
+
+Dùng $U_{AB}=V_A-V_B=A_{AB}/q$. Trong điện trường đều, $U_{AB}=E d_{AB}$ với $d_{AB}$ là độ dịch chuyển đại số theo phương điện trường.
+
+Nếu đường đi gấp khúc, công của lực điện chỉ phụ thuộc hai đầu nên không cần cộng độ dài đường đi; hãy dùng hình chiếu lên phương đường sức.
 
 <!-- LESSON_PRACTICE_LINKS -->
 ## Luyện tập sau bài

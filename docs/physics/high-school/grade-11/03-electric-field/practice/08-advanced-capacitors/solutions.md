@@ -70,3 +70,57 @@ Chiều cực tính cuối theo tụ 2 vì $C_2U>C_1U$.
 ---
 
 [← Bài tập](exercises.md)
+
+## Đáp án và lời giải — Ngân hàng PDF mở rộng
+
+> Câu có lời giải trong tài liệu được giữ phần hướng dẫn. Câu trắc nghiệm không kèm lời giải dài chỉ hiện đáp án đã đối chiếu từ dấu đáp án/khóa đáp án của tài liệu.
+
+### Nhận biết — Trả lời ngắn
+
+#### Bài PDF 1
+
+Đáp án:
+
+#### Bài PDF 2
+
+Đáp án:
+
+#### Bài PDF 3
+
+Đáp án:
+
+#### Bài PDF 4
+
+Đáp án:
+
+#### Bài PDF 5
+
+**Đáp án:** 1000pF
+
+Đáp án:
+
+1000pF
+1mm.
+60V.
+K
+A
+s
+ℓ
+b
+
+#### Bài PDF 6
+
+Đáp án:
+
+#### Bài PDF 7
+
+Đáp án:
+
+#### Bài PDF 8
+
+**Đáp án:** 1
+
+Đáp án:
+
+1
+

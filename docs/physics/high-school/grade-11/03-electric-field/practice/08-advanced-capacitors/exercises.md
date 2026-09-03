@@ -94,3 +94,120 @@ Hai tụ $C_1=4\,\mu$F và $C_2=6\,\mu$F được tích riêng đến cùng hi�
 ---
 
 [Đáp án và lời giải →](solutions.md)
+
+## Ngân hàng bài tập PDF mở rộng
+
+> Nội dung câu hỏi và dữ kiện trong phần này được giữ nguyên; hệ thống chỉ chuẩn hóa xuống dòng và mã kí tự để hiển thị trên web. Câu trùng được loại bỏ. Với câu có công thức/kí hiệu bị sai khi trích xuất chữ từ PDF, đề bài được giữ dưới dạng ảnh để không làm thay đổi dữ kiện.
+
+### Nhận biết — Trả lời ngắn
+
+#### Bài PDF 1
+
+<!-- source-id: BT-Chuong-III-p165-q9-429 -->
+
+Câu 9. Xét các tụ điện giống nhau có điện dung C
+20 F
+=
+μ. Ghép các
+tụ điện thành bộ như hình và nối hai điểm M, N với các nguồn điện có
+hiệu điện thế U = 12 V. Điện tích của bộ tụ bằng bao nhiêu mC?
+
+![Hình/bảng/đồ thị đi kèm bài PDF 1](../../../assets/exercise-figures/iii-p165-q09-76756.webp){ loading=lazy }
+
+#### Bài PDF 2
+
+<!-- source-id: BT-Chuong-III-p165-q10-430 -->
+
+Câu 10. Cho các tụ điện
+1
+2
+3
+4
+C
+C
+C
+C
+5 F
+=
+=
+=
+= μđược mắc thành mạch
+như hình vẽ. Xác định điện dung tương đương của bộ tụ theo C
+μ
+?
+
+![Hình/bảng/đồ thị đi kèm bài PDF 2](../../../assets/exercise-figures/iii-p165-q10-83937.webp){ loading=lazy }
+
+#### Bài PDF 3
+
+<!-- source-id: BT-Chuong-III-p165-q11-431 -->
+
+Câu 11. Ba tụ C1 = 2.10-9 F, C2 = 4.10-9 F, C3 = 6.10-9 F mắc nối tiếp. Hiệu
+điện thế giới hạn của mỗi tụ là 500 V. Hiệu điện thế giới hạn của bộ tụ là bao nhiêu vôn?
+
+#### Bài PDF 4
+
+<!-- source-id: BT-Chuong-III-p165-q12-432 -->
+
+Câu 12. Hai tụ điện có điện dung và hiệu điện thế giới hạn lần lượt là
+1
+1gh
+C
+5 F; U
+500V
+= μ
+=
+
+2
+2gh
+C
+10
+F; U
+1000V
+=
+μ
+=
+. Hiệu điện thế giới hạn của bộ tụ khi ghép nối tiếp bằng bao nhiêu V?
+
+#### Bài PDF 5
+
+<!-- source-id: BT-Chuong-III-p165-q13-433 -->
+
+Câu 13. Electron thoát ra từ K, được tăng tốc bởi một điện trường đều
+giữa A và K rồi đi vào một tụ phẳng theo phương song song với hai bản
+như hình vẽ. Biết s = 6 cm, d = 1,8 cm; ℓ = 15 cm, b = 2,1 cm; U của tụ 50
+V. Bỏ qua tác dụng của trọng lực. Vận tốc electron khi bắt đầu đi vào tụ
+bằng bao nhiêu 106m/s?
+
+![Hình/bảng/đồ thị đi kèm bài PDF 5](../../../assets/exercise-figures/iii-p165-q13-73664.webp){ loading=lazy }
+
+#### Bài PDF 6
+
+<!-- source-id: BT-Chuong-III-p168-q2-457 -->
+
+Câu 2. Hai tụ điện có điên dung C1 = 2μF, C2 = 3μF lần lượt được tích điện đến hiệu điện thế U1 = 200 V,
+U2 = 400 V. Sau đó nối hai cặp bản tích điện cùng dấu của hai tụ điện với nhau. Hiệu điện thế của bộ tụ có
+giá trị bao nhiêu vôn?
+
+#### Bài PDF 7
+
+<!-- source-id: BT-Chuong-III-p168-q5-460 -->
+
+Câu 5. Trên vỏ tụ điện (1) ghi 4700 F
+35V
+μ−
+và tụ điện (2) ghi 3300 F
+25V
+μ−
+. Hiệu điện thế tối đa của
+bộ tụ điện khi ghép nối tiếp hai tụ này là bao nhiêu vôn?
+
+#### Bài PDF 8
+
+<!-- source-id: BT-Chuong-III-p168-q6-461 -->
+
+Câu 6. Cho bộ tụ điện như hình dưới, C2 = 2C1, UAB = 16 V.
+Hiệu điện thế giữa hai điểm M, B là bao nhiêu vôn?
+
+![Hình/bảng/đồ thị đi kèm bài PDF 8](../../../assets/exercise-figures/iii-p168-q06-54969.webp){ loading=lazy }
+

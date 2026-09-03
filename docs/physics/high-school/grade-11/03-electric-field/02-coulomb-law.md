@@ -192,6 +192,23 @@ Nếu dùng $\mu$C và cm mà không đổi, sai thường rất lớn.
 4. Lực Coulomb tỉ lệ nghịch bình phương khoảng cách.
 5. Vẽ vectơ trước khi bấm máy.
 
+<!-- V9_SOURCE_TYPES -->
+
+## Các dạng bài được hệ thống hóa từ ngân hàng PDF
+
+Các dạng dưới đây chỉ sử dụng những nhóm bài đã được gọi tên rõ trong các tài liệu bài tập. Phần trình bày được tổ chức lại để người học nhận diện đề, chọn công cụ và tự kiểm tra kết quả; không tạo thêm tên dạng mới.
+
+### Dạng 1 — Xác định lực tương tác giữa hai điện tích điểm
+
+Kiểm tra trước điều kiện coi các vật là điện tích điểm và xác định môi trường. Độ lớn lực Coulomb được tính từ $F=k|q_1q_2|/(\varepsilon r^2)$. Sau đó mới xác định chiều lực: cùng dấu đẩy, trái dấu hút.
+
+Đổi điện tích về coulomb và khoảng cách về mét trước khi bình phương. Nếu đề hỏi tỉ số lực khi thay đổi khoảng cách hoặc điện tích, nên lập tỉ số để tránh tính số dài.
+
+### Dạng 2 — Xác định lực điện tổng hợp tác dụng lên điện tích điểm
+
+Tính từng vectơ lực do các điện tích còn lại gây ra, xác định đúng phương chiều rồi tổng hợp vectơ. Với hai lực cùng phương có thể cộng/trừ đại số; với hai lực hợp góc dùng định lí cos hoặc phân tích thành phần.
+
+Không được cộng trực tiếp độ lớn nếu các lực không cùng hướng.
 
 <!-- LESSON_PRACTICE_LINKS -->
 ## Luyện tập sau bài

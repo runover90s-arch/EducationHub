@@ -212,6 +212,35 @@ Sóng dừng là cách trực quan để hiểu **mode riêng** và **tần số
 4. Hai bó kề nhau ngược pha.
 5. Điều kiện biên quyết định họ tần số cho phép.
 
+<!-- V9_SOURCE_TYPES -->
+
+## Các dạng bài được hệ thống hóa từ ngân hàng PDF
+
+Các dạng dưới đây chỉ sử dụng những nhóm bài đã được gọi tên rõ trong các tài liệu bài tập. Phần trình bày được tổ chức lại để người học nhận diện đề, chọn công cụ và tự kiểm tra kết quả; không tạo thêm tên dạng mới.
+
+### Dạng 1 — Xác định chiều dài, bước sóng, tốc độ, tần số, số nút, số bụng khi có sóng dừng
+
+Trước hết xác định điều kiện ở hai đầu dây: cố định hay tự do. Hai nút liên tiếp hoặc hai bụng liên tiếp cách nhau $\lambda/2$; một nút và bụng kề nhau cách $\lambda/4$.
+
+Sau khi liên hệ chiều dài dây với số đoạn nửa bước sóng, tìm $\lambda$, rồi dùng $v=\lambda f$. Khi đếm nút/bụng, phải tính đúng hai đầu theo điều kiện biên.
+
+### Dạng 2 — Xác định biên độ của sóng dừng, vị trí các phần tử
+
+Biên độ dao động trong sóng dừng phụ thuộc vị trí. Từ phương trình tổng hợp, biên độ là hệ số đứng trước phần dao động theo thời gian; nó bằng 0 tại nút và cực đại tại bụng.
+
+Khi tìm vị trí có một biên độ cho trước, giải phương trình lượng giác theo tọa độ rồi lọc nghiệm trong đoạn dây thực tế.
+
+### Dạng 14 — Sóng dừng trong các dụng cụ
+
+Xác định mô hình biên của dụng cụ trước: cột khí hở–hở, kín–kín hay kín–hở; dây có hai đầu cố định hay một đầu tự do. Mỗi loại có dãy tần số cộng hưởng khác nhau.
+
+Với ống kín một đầu, chiều dài cộng hưởng thường chứa số lẻ phần tư bước sóng; với hai đầu cùng loại, chiều dài chứa số nguyên nửa bước sóng.
+
+### Dạng 15 — Phương trình – biên độ của sóng dừng
+
+Viết hai sóng truyền ngược chiều có cùng $\omega$, $k$ rồi dùng công thức lượng giác để đưa tổng về tích của một hàm theo vị trí và một hàm theo thời gian. Hệ số theo vị trí chính là biên độ dao động tại điểm xét.
+
+Từ nhân tử không gian có thể suy trực tiếp vị trí nút, bụng và khoảng cách giữa chúng.
 
 <!-- LESSON_PRACTICE_LINKS -->
 ## Luyện tập sau bài

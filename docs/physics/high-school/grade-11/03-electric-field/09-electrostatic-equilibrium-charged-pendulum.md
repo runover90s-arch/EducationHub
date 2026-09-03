@@ -237,6 +237,17 @@ Bài cân bằng điện tích là bài **vectơ và điều kiện hình học*
 4. Vật treo trong điện trường ngang: $\tan\alpha=|q|E/(mg)$.
 5. Luôn kiểm tra hướng trước khi lấy độ lớn.
 
+<!-- V9_SOURCE_TYPES -->
+
+## Các dạng bài được hệ thống hóa từ ngân hàng PDF
+
+Các dạng dưới đây chỉ sử dụng những nhóm bài đã được gọi tên rõ trong các tài liệu bài tập. Phần trình bày được tổ chức lại để người học nhận diện đề, chọn công cụ và tự kiểm tra kết quả; không tạo thêm tên dạng mới.
+
+### Dạng 3 — Điều kiện cân bằng của điện tích điểm
+
+Điều kiện nền tảng là tổng vectơ lực điện và các lực cơ học tác dụng lên vật bằng 0. Với ba điện tích thẳng hàng, vị trí cân bằng phải làm hai lực điện ngược chiều và bằng độ lớn; điều này quyết định miền đặt điểm trước khi lập phương trình.
+
+Với vật treo hoặc hạt lơ lửng, vẽ đầy đủ trọng lực, lực căng, lực đẩy Ác-si-mét nếu có và lực điện. Chỉ sau khi xác định chiều lực điện mới suy dấu của điện tích.
 
 <!-- LESSON_PRACTICE_LINKS -->
 ## Luyện tập sau bài

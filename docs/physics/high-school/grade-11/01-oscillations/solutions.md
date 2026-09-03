@@ -336,6 +336,21 @@ $$
 - $A=A_1+A_2$ khi hai dao động cùng pha: $\Delta\varphi=2k\pi$.
 - $A=|A_1-A_2|$ khi hai dao động ngược pha: $\Delta\varphi=(2k+1)\pi$.
 
+<!-- V9_CHAPTER_BANK -->
+## Đáp án theo từng bài trong chương
+
+Mỗi ngân hàng giữ lời giải riêng để tránh một trang lời giải quá dài và giúp đối chiếu đúng bài đang luyện.
+
+- **Bài 1 — Đại cương về dao động điều hòa**: [Mở đáp án và lời giải](practice/01-harmonic-oscillation-foundations/solutions.md)
+- **Bài 2 — Li độ, vận tốc và gia tốc**: [Mở đáp án và lời giải](practice/02-displacement-velocity-acceleration/solutions.md)
+- **Bài 3 — Đường tròn lượng giác, thời gian và quãng đường**: [Mở đáp án và lời giải](practice/03-phase-circle-time-distance/solutions.md)
+- **Bài 4 — Con lắc lò xo**: [Mở đáp án và lời giải](practice/04-spring-oscillator/solutions.md)
+- **Bài 5 — Con lắc đơn**: [Mở đáp án và lời giải](practice/05-simple-pendulum/solutions.md)
+- **Bài 6 — Năng lượng trong dao động**: [Mở đáp án và lời giải](practice/06-oscillation-energy/solutions.md)
+- **Bài 7 — Tổng hợp dao động, tắt dần, cưỡng bức và cộng hưởng**: [Mở đáp án và lời giải](practice/07-combined-damped-forced-resonance/solutions.md)
+
+<!-- /V9_CHAPTER_BANK -->
+
 ---
 
 [← Bài tập](exercises.md) | [↑ Chương](index.md) | [Kiểm tra cuối chương →](quiz.md)

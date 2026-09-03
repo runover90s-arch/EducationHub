@@ -203,6 +203,23 @@ Nếu U=12 V, tổng I=6 A; $I_1=2$ A, $I_2=4$ A.
 4. Nối tiếp làm R tương đương tăng.
 5. Luôn đánh dấu nút trước khi rút gọn mạch phức tạp.
 
+<!-- V9_SOURCE_TYPES -->
+
+## Các dạng bài được hệ thống hóa từ ngân hàng PDF
+
+Các dạng dưới đây chỉ sử dụng những nhóm bài đã được gọi tên rõ trong các tài liệu bài tập. Phần trình bày được tổ chức lại để người học nhận diện đề, chọn công cụ và tự kiểm tra kết quả; không tạo thêm tên dạng mới.
+
+### Dạng 1 — Áp dụng định luật Ohm, xác định điện trở suất
+
+Dùng $U=IR$ và $R=\rho l/S$. Khi thay đổi hình học dây, xét đồng thời chiều dài và tiết diện; nếu dây bị kéo mà thể tích không đổi thì $lS$ không đổi. Với phụ thuộc nhiệt độ, dùng đúng mô hình tuyến tính và mốc nhiệt độ được cho.
+
+Kiểm tra đơn vị điện trở suất và tiết diện trước khi thay số.
+
+### Dạng 2 — Đoạn mạch gồm các điện trở ghép nối tiếp, song song
+
+Nhận dạng các nút điện thế trước, không dựa vào hình vẽ “trông giống” nối tiếp/song song. Nối tiếp: cùng dòng điện và $R_{tđ}=\sum R$; song song: cùng hiệu điện thế và $1/R_{tđ}=\sum1/R$.
+
+Sau khi rút gọn điện trở tương đương, dùng định luật Ohm để tìm dòng tổng rồi quay ngược từng nhánh. Có thể kiểm tra bằng định luật nút: tổng dòng vào bằng tổng dòng ra.
 
 <!-- LESSON_PRACTICE_LINKS -->
 ## Luyện tập sau bài

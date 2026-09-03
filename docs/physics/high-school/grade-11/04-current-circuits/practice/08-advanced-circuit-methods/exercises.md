@@ -94,3 +94,127 @@ Mạch hai vòng có một nguồn 12 V. Vòng trái gồm nguồn và R1=2 Ω; 
 ---
 
 [Đáp án và lời giải →](solutions.md)
+
+## Ngân hàng bài tập PDF mở rộng
+
+> Nội dung câu hỏi và dữ kiện trong phần này được giữ nguyên; hệ thống chỉ chuẩn hóa xuống dòng và mã kí tự để hiển thị trên web. Câu trùng được loại bỏ. Với câu có công thức/kí hiệu bị sai khi trích xuất chữ từ PDF, đề bài được giữ dưới dạng ảnh để không làm thay đổi dữ kiện.
+
+### Nhận biết — Trả lời ngắn
+
+#### Bài PDF 1
+
+<!-- source-id: BT-Chuong-IV-p113-q6-348 -->
+
+Câu 6. Cho sơ đồ mạch điện như hình vẽ
+1
+15V, r
+1 ,R
+2
+=
+= Ω
+= Ω
+E
+.Biết công
+suất tiêu thụ trên R lớn nhất. R có giá trị bao nhiêu Ω? (Kết quả làm tròn sau
+dấu phẩy hai chữ số thập phân)
+
+![Hình/bảng/đồ thị đi kèm bài PDF 1](../../../assets/exercise-figures/iv-p113-q06-69525.webp){ loading=lazy }
+
+### Nhận biết — Trắc nghiệm 4 lựa chọn
+
+#### Bài PDF 2
+
+<!-- source-id: BT-Chuong-IV-p32-q5-110 -->
+
+Câu 5. Tại sao cần sử dụng cầu chì trong mạch điện gia đình?
+A. Để làm mạch hoạt động hiệu quả hơn.
+B. Để bảo vệ các thiết bị khi dòng điện vượt mức cho phép.
+C. Để tăng công suất cho mạch điện.
+D. Để giảm điện trở trong mạch.
+
+#### Bài PDF 3
+
+<!-- source-id: BT-Chuong-IV-p38-q8-138 -->
+
+Câu 8. Để bóng đèn 120 V – 60 W sáng bình thường ở mạng điện có hiệu điện thế 220 V người ta mắc
+nối tiếp nó với điện trở R có giá trị là
+A. 240 Ω.
+
+B. 200 Ω.
+
+C. 120 Ω.
+D. 180 Ω.
+
+#### Bài PDF 4
+
+<!-- source-id: BT-Chuong-IV-p101-q40-302 -->
+
+Câu 40. Cho mạch điện như hình. Nguồn điện có hiệu điện thế U không
+đổi, điện trở R0 = 5 Ωkhông đổi. Xác định R để công suất tiêu thụ trên R là
+cực đại.
+A. R = 5 Ω.
+
+B. R = 10 Ω.
+
+C. R = 2,5 Ω.
+D. R = 3,5 Ω.
+
+![Hình/bảng/đồ thị đi kèm bài PDF 4](../../../assets/exercise-figures/iv-p101-q40-92541.webp){ loading=lazy }
+
+#### Bài PDF 5
+
+<!-- source-id: BT-Chuong-IV-p102-q47-309 -->
+
+Câu 47. Cho mạch điện như hình vẽ, bỏ qua điện trở của dây nối, biết R1=0,1Ω, r=1,1Ω.
+Phải chọn R bằng bao nhiêu để công suất tiêu thụ trên R là cực đại?
+A. 1Ω.
+
+B. 1,2Ω.
+
+C. 1,4Ω.
+
+D. 1,6Ω.
+
+![Hình/bảng/đồ thị đi kèm bài PDF 5](../../../assets/exercise-figures/iv-p102-q47-62555.webp){ loading=lazy }
+
+#### Bài PDF 6
+
+<!-- source-id: BT-Chuong-IV-p103-q48-310 -->
+
+Câu 48. Cho mạch điện như hình vẽ, bỏ qua điện trở của dây nối, biết R1=0,1Ω, r=1,1Ω.
+Phải chọn x bằng bao nhiêu để công suất tiêu thụ ở mạch ngoài là lớn nhất?
+A. 1Ω.
+
+B. 1,2Ω.
+C. 1,4Ω.
+
+D. 1,6Ω.
+
+![Hình/bảng/đồ thị đi kèm bài PDF 6](../../../assets/exercise-figures/iv-p103-q48-88309.webp){ loading=lazy }
+
+#### Bài PDF 7
+
+<!-- source-id: BT-Chuong-IV-p109-q18-338 -->
+
+Câu 18. Cho mạch điện như hình vẽ, bỏ qua điện trở của dây nối, cho E= 15V; r=1Ω; R1=2Ω. Xác
+định R để công suất tiêu thụ trên R đạt cực đại và tính công suất cực đại đó
+A. R = 1Ω, Pmax = 36W.
+
+B. R = 0,5Ω, Pmax = 21,3W.
+C. R=1,5Ω, Pmax = 31,95W.
+D. R =2/3Ω, Pmax = 37,5W.
+
+![Hình/bảng/đồ thị đi kèm bài PDF 7](../../../assets/exercise-figures/iv-p109-q18-77698.webp){ loading=lazy }
+
+### Thông hiểu — Trắc nghiệm 4 lựa chọn
+
+#### Bài PDF 8
+
+<!-- source-id: BT-Chuong-IV-p95-q16-278 -->
+
+Câu 16. Công suất định mức của các dụng cụ điện là công suất
+A. lớn nhất mà dụng cụ đó có thể đạt được.
+B. tối thiểu mà dụng cụ đó có thể đạt được.
+C. mà dụng cụ đó đạt được khi hoạt động bình thường.
+D. mà dụng cụ đó có thể đạt được bất cứ lúc nào.
+
