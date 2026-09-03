@@ -199,6 +199,13 @@ Từ thông trong từ trường đều là $\Phi=BS\cos\theta$, với $\theta$ 
 4. Có từ trường chưa đủ; phải có từ thông biến thiên.
 5. Cuộn N vòng: hiệu ứng cảm ứng tỉ lệ N.
 
+
+<!-- LESSON_PRACTICE_LINKS -->
+## Luyện tập sau bài
+
+- [Bài tập theo bài](practice/01-magnetic-flux-induction/exercises.md)
+- [Đáp án và lời giải](practice/01-magnetic-flux-induction/solutions.md)
+
 ---
 
 [← Chương](index.md) | [Bài 2 →](02-lenz-faraday-law.md)

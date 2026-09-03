@@ -186,3 +186,19 @@
     padding: 0.45rem 0.58rem;
   }
 }
+
+/* Education Hub identity: compact logo beside the site name. */
+.md-header__button.md-logo img,
+.md-header__button.md-logo svg {
+  width: 1.65rem;
+  height: 1.65rem;
+  border-radius: 0.35rem;
+}
+
+@media screen and (max-width: 44.9844em) {
+  .md-header__button.md-logo img,
+  .md-header__button.md-logo svg {
+    width: 1.45rem;
+    height: 1.45rem;
+  }
+}

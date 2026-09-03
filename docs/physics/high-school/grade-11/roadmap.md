@@ -30,11 +30,11 @@ Học theo thứ tự:
 6. [Năng lượng](01-oscillations/06-oscillation-energy.md)
 7. [Tổng hợp, tắt dần, cưỡng bức, cộng hưởng](01-oscillations/07-combined-damped-forced-resonance.md)
 
-Sau đó làm [bài tập chương](01-oscillations/exercises.md), tự kiểm tra bằng [quiz](01-oscillations/quiz.md), rồi đối chiếu [lời giải](01-oscillations/solutions.md).
+Sau đó làm [bài tập chương](01-oscillations/exercises.md), tự kiểm tra bằng [bài kiểm tra cuối chương](01-oscillations/quiz.md), rồi đối chiếu [lời giải](01-oscillations/solutions.md).
 
 ## Giai đoạn 2 — Sóng
 
-Prerequisite quan trọng nhất là **pha** và **độ lệch pha**.
+Kiến thức tiên quyết quan trọng nhất là **pha** và **độ lệch pha**.
 
 Thứ tự:
 
@@ -71,7 +71,7 @@ Thứ tự:
 
 **dòng điện → điện trở/Ohm → nguồn → năng lượng/công suất → Ohm toàn mạch → ghép nguồn → đọc mạch → phương pháp nâng cao → thực hành đo suất điện động và điện trở trong.**
 
-Phần [Kirchhoff, xếp chồng, nguồn tương đương và RC](04-current-circuits/08-advanced-circuit-methods.md) chỉ học sau khi đã chắc topology mạch và định luật Ohm.
+Phần [Kirchhoff, xếp chồng, nguồn tương đương và RC](04-current-circuits/08-advanced-circuit-methods.md) chỉ học sau khi đã chắc cấu trúc liên kết mạch và định luật Ohm.
 
 ## Giai đoạn 5 — Dòng điện trong các môi trường (mở rộng)
 
@@ -113,13 +113,13 @@ Thứ tự:
 
 Với mỗi chương:
 
-1. làm Level 1 không nhìn công thức;
+1. làm Mức 1 không nhìn công thức;
 2. chữa ngay lỗi khái niệm;
-3. làm Level 2–3;
+3. làm Mức 2–3;
 4. đánh dấu lỗi lặp;
 5. học lại đúng bài liên quan;
-6. làm Level 4;
-7. chỉ vào Level 5 khi phần chuẩn ổn định.
+6. làm Mức 4;
+7. chỉ vào Mức 5 khi phần chuẩn ổn định.
 
 ### Quy tắc tự kiểm tra
 

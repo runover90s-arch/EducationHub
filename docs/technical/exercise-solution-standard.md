@@ -42,23 +42,23 @@ Có thể dùng:
 
 ## 4. Mức độ
 
-### Level 1 — Nhận biết
+### Mức 1 — Nhận biết
 
 Một khái niệm hoặc một công thức trực tiếp.
 
-### Level 2 — Thông hiểu
+### Mức 2 — Thông hiểu
 
 Cần hiểu quan hệ giữa các đại lượng, không chỉ đọc số.
 
-### Level 3 — Vận dụng
+### Mức 3 — Vận dụng
 
 Cần từ hai bước suy luận trở lên hoặc phải chọn công thức phù hợp.
 
-### Level 4 — Vận dụng cao
+### Mức 4 — Vận dụng cao
 
 Kết hợp nhiều ý, có điều kiện ẩn hoặc cần chọn chiến lược.
 
-### Level 5 — Thử thách
+### Mức 5 — Thử thách
 
 Dành cho mở rộng; không được dùng để đánh giá phần nền nếu kiến thức vượt chương trình lõi.
 
@@ -133,3 +133,21 @@ Khi bài có đồ thị:
 - các mốc đọc;
 - vì sao khoảng thời gian chọn được là $T$, $T/2$, $T/4$...;
 - tránh suy luận từ hình vẽ không đúng tỉ lệ nếu đề không cho phép.
+
+## 10. Cấu trúc ngân hàng theo từng bài
+
+Mỗi bài học Vật lí 11 phải có hai trang riêng:
+
+- **Bài tập:** trắc nghiệm, đúng/sai, trả lời ngắn, vận dụng;
+- **Đáp án và lời giải:** đánh số khớp 1–1 với trang bài tập.
+
+Mỗi bài lý thuyết phải đặt liên kết **Luyện tập sau bài** dẫn đến đúng hai trang này. Cuối chương vẫn giữ **Bài tập tổng hợp chương** để kiểm tra khả năng phối hợp kiến thức giữa nhiều bài.
+
+Trước khi phát hành chạy:
+
+```bash
+python tools/check_practice_bank.py
+python tools/check_site.py --lint-only
+```
+
+Bộ kiểm tra cấu trúc không thay thế việc kiểm chứng học thuật: người biên soạn vẫn phải tính lại đáp án và xem xét điều kiện vật lí của từng câu.

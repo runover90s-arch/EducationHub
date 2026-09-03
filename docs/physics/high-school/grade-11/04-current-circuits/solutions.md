@@ -469,4 +469,4 @@ $$
 
 ---
 
-[← Bài tập](exercises.md) | [↑ Chương](index.md) | [Quiz →](quiz.md)
+[← Bài tập](exercises.md) | [↑ Chương](index.md) | [Kiểm tra cuối chương →](quiz.md)

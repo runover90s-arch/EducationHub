@@ -226,6 +226,13 @@ Tỉ số bước sóng bằng tỉ số tốc độ.
 4. Hai điểm cách nhau $\lambda$ trên cùng phương truyền dao động cùng pha.
 5. Đồ thị $u-x$ là ảnh không gian tại một thời điểm, khác đồ thị $u-t$ của một phần tử.
 
+
+<!-- LESSON_PRACTICE_LINKS -->
+## Luyện tập sau bài
+
+- [Bài tập theo bài](practice/01-mechanical-wave-basics/exercises.md)
+- [Đáp án và lời giải](practice/01-mechanical-wave-basics/solutions.md)
+
 ---
 
 [↑ Chương](index.md) | [Bài 2 →](02-wave-equation-phase-graphs.md)

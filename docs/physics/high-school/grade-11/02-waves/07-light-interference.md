@@ -211,6 +211,13 @@ Các công thức chuẩn $\delta\approx ax/D$ và $i=\lambda D/a$ dùng trong m
 4. Đỏ có khoảng vân lớn hơn tím trong cùng bố trí.
 5. Giao thoa ánh sáng thể hiện tính chất sóng của ánh sáng.
 
+
+<!-- LESSON_PRACTICE_LINKS -->
+## Luyện tập sau bài
+
+- [Bài tập theo bài](practice/07-light-interference/exercises.md)
+- [Đáp án và lời giải](practice/07-light-interference/solutions.md)
+
 ---
 
 [← Bài 6](06-electromagnetic-waves.md) | [↑ Chương](index.md) | [Bài 8 →](08-practical-sound-frequency.md)

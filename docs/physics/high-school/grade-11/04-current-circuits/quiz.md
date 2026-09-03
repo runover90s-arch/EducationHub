@@ -1,5 +1,5 @@
 ---
-title: "Quiz Chương 4 — Dòng điện và mạch điện"
+title: "Kiểm tra Chương 4 — Dòng điện và mạch điện"
 description: "Bài kiểm tra nhanh từ cường độ dòng điện đến nguồn, công suất và mạch nâng cao."
 order: 12
 difficulty: "mixed"
@@ -10,7 +10,7 @@ tags:
   - quiz
 ---
 
-# Quiz Chương 4 — Dòng điện và mạch điện
+# Kiểm tra Chương 4 — Dòng điện và mạch điện
 
 ## Trắc nghiệm
 

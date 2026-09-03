@@ -203,6 +203,13 @@ Một học sinh lấy khoảng thời gian giữa hai lần tín hiệu hình s
 4. Tín hiệu sạch quan trọng hơn cố đọc thật nhiều chữ số.
 5. Tần số là số chu kì trong một giây.
 
+
+<!-- LESSON_PRACTICE_LINKS -->
+## Luyện tập sau bài
+
+- [Bài tập theo bài](practice/08-practical-sound-frequency/exercises.md)
+- [Đáp án và lời giải](practice/08-practical-sound-frequency/solutions.md)
+
 ---
 
 [← Bài 7](07-light-interference.md) | [↑ Chương](index.md) | [Bài 9 →](09-practical-sound-speed.md)

@@ -188,6 +188,13 @@ Khúc xạ tuân theo $n_1\sin i=n_2\sin r$, với $n=c/v$. Tia đi vào môi tr
 4. n tăng → tia gần pháp tuyến hơn.
 5. f không đổi khi khúc xạ qua mặt đứng yên.
 
+
+<!-- LESSON_PRACTICE_LINKS -->
+## Luyện tập sau bài
+
+- [Bài tập theo bài](practice/01-refraction-refractive-index/exercises.md)
+- [Đáp án và lời giải](practice/01-refraction-refractive-index/solutions.md)
+
 ---
 
 [← Chương](index.md) | [Bài 2 →](02-parallel-slab-apparent-depth.md)

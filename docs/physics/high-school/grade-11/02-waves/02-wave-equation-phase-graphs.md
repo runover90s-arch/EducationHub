@@ -246,6 +246,13 @@ Hai điểm cách nhau $12$ cm, tốc độ truyền $0,6$ m/s. Thời gian truy
 4. Một bước sóng tương ứng một chu kì về pha.
 5. Đừng dùng tốc độ dao động của phần tử thay cho tốc độ truyền sóng.
 
+
+<!-- LESSON_PRACTICE_LINKS -->
+## Luyện tập sau bài
+
+- [Bài tập theo bài](practice/02-wave-equation-phase-graphs/exercises.md)
+- [Đáp án và lời giải](practice/02-wave-equation-phase-graphs/solutions.md)
+
 ---
 
 [← Bài 1](01-mechanical-wave-basics.md) | [↑ Chương](index.md) | [Bài 3 →](03-mechanical-interference.md)

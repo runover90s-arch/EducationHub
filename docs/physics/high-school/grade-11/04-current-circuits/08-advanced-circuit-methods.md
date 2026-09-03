@@ -19,7 +19,7 @@ tags:
 
 ## Mức độ
 
-**Level 4–5 — Advanced / Enrichment.** Không cần học phần này trước khi nắm chắc mạch điện trở và định luật Ohm toàn mạch.
+**Mức 4–5 — Nâng cao / Mở rộng.** Không cần học phần này trước khi nắm chắc mạch điện trở và định luật Ohm toàn mạch.
 
 > Đây là cách phân loại phục vụ mục đích sư phạm, không phải phân loại học thuật chính thức.
 
@@ -196,7 +196,7 @@ Khi khóa K thay trạng thái:
 Tìm trạng thái xác lập cũ và điện tích các tụ.
 
 ### Sau chuyển, trạng thái xác lập mới
-Tìm topology mới; nhánh tụ lại không có dòng DC khi đã ổn định.
+Tìm cấu trúc liên kết mạch mới; nhánh tụ lại không có dòng DC khi đã ổn định.
 
 ### Nút/vùng cô lập
 Nếu một nhóm bản tụ và dây dẫn bị cô lập khỏi nguồn/đất, tổng điện tích của vùng đó được bảo toàn:
@@ -278,7 +278,7 @@ Tụ C nối giữa hai nút A,B của một mạch điện trở. Sau khi ổn 
 - Xếp chồng áp dụng cho đại lượng tuyến tính I,U.
 - Nguồn tương đương giúp rút mạng hai cực.
 - Tụ ở xác lập DC: dòng qua tụ bằng 0.
-- Chuyển mạch RC: topology + bảo toàn điện tích vùng + năng lượng.
+- Chuyển mạch RC: cấu trúc liên kết mạch + bảo toàn điện tích vùng + năng lượng.
 
 ## 5 điều cần nhớ
 
@@ -287,6 +287,13 @@ Tụ C nối giữa hai nút A,B của một mạch điện trở. Sau khi ổn 
 3. Không cộng công suất bằng xếp chồng.
 4. RC xác lập: tụ là nhánh hở.
 5. Năng lượng tụ riêng không bảo toàn khi có nguồn/điện trở trao đổi năng lượng.
+
+
+<!-- LESSON_PRACTICE_LINKS -->
+## Luyện tập sau bài
+
+- [Bài tập theo bài](practice/08-advanced-circuit-methods/exercises.md)
+- [Đáp án và lời giải](practice/08-advanced-circuit-methods/solutions.md)
 
 ---
 

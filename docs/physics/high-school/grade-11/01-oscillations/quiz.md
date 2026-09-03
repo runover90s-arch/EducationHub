@@ -1,5 +1,5 @@
 ---
-title: "Quiz Chương 1 — Dao động cơ học"
+title: "Kiểm tra Chương 1 — Dao động cơ học"
 description: "Bài kiểm tra ngắn bao phủ nhận biết, hiểu, vận dụng và phát hiện sai lầm."
 order: 10
 difficulty: "mixed"
@@ -10,7 +10,7 @@ tags:
   - quiz
 ---
 
-# Quiz Chương 1 — Dao động cơ học
+# Kiểm tra Chương 1 — Dao động cơ học
 
 ## Phần A — Chọn đáp án
 

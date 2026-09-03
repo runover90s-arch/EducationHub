@@ -201,6 +201,13 @@ Một điểm $\vec E=0$ có thể không phải cân bằng bền. Phân tích 
 4. Có trọng lực thì tổng tất cả lực bằng 0, không chỉ lực điện.
 5. E=0 không đồng nghĩa điện thế V=0.
 
+
+<!-- LESSON_PRACTICE_LINKS -->
+## Luyện tập sau bài
+
+- [Bài tập theo bài](practice/04-field-superposition-equilibrium/exercises.md)
+- [Đáp án và lời giải](practice/04-field-superposition-equilibrium/solutions.md)
+
 ---
 
 [← Bài 3](03-electric-field-intensity.md) | [↑ Chương](index.md) | [Bài 5 →](05-work-potential-voltage.md)

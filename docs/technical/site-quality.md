@@ -10,7 +10,7 @@ Education Hub có quality gate tại:
 python tools/check_site.py
 ```
 
-## Những lỗi được kiểm tra ở source
+## Những lỗi được kiểm tra ở mã nguồn
 
 Trình kiểm tra phát hiện:
 
@@ -25,7 +25,7 @@ Trình kiểm tra phát hiện:
 - file được khai báo trong `nav`, CSS hoặc JavaScript nhưng không tồn tại;
 - `mkdocs.yml` không hợp lệ.
 
-## Kiểm tra sau khi render
+## Kiểm tra sau khi kết xuất
 
 Khi không dùng `--lint-only`, script còn chạy:
 
@@ -33,7 +33,7 @@ Khi không dùng `--lint-only`, script còn chạy:
 mkdocs build --strict
 ```
 
-Sau đó nó quét **HTML đã build**. Những chuỗi như `$$`, `\\omega`, `\\frac`, `\\cos` còn xuất hiện dưới dạng văn bản nhìn thấy được bên ngoài vùng `arithmatex` sẽ làm kiểm tra thất bại.
+Sau đó nó quét **HTML đã dựng**. Những chuỗi như `$$`, `\\omega`, `\\frac`, `\\cos` còn xuất hiện dưới dạng văn bản nhìn thấy được bên ngoài vùng `arithmatex` sẽ làm kiểm tra thất bại.
 
 Điểm này quan trọng vì một file Markdown có thể nhìn đúng về mặt cú pháp nhưng vẫn bị parser hiểu sai trong list hoặc admonition. Kiểm tra HTML giúp bắt đúng loại lỗi từng xuất hiện trên giao diện điện thoại.
 
@@ -61,4 +61,4 @@ Không dùng display math chỉ để hiển thị một biến như `$x$`, `$T$
 python tools/check_site.py --lint-only
 ```
 
-Chế độ này không cần MkDocs nhưng cũng không thể phát hiện lỗi chỉ xuất hiện sau khi Markdown được render thành HTML.
+Chế độ này không cần MkDocs nhưng cũng không thể phát hiện lỗi chỉ xuất hiện sau khi Markdown được kết xuất thành HTML.

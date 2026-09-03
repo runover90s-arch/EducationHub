@@ -146,6 +146,13 @@ Bán dẫn đặc biệt vì mật độ và loại hạt tải có thể điề
 4. Phân cực thuận làm dòng tăng mạnh.
 5. Quy luật nhiệt độ của bán dẫn khác kim loại.
 
+
+<!-- LESSON_PRACTICE_LINKS -->
+## Luyện tập sau bài
+
+- [Bài tập theo bài](practice/04-semiconductors/exercises.md)
+- [Đáp án và lời giải](practice/04-semiconductors/solutions.md)
+
 ---
 
 [← Bài 3](03-current-in-gases.md) | [↑ Chương](index.md) | [Bài 5 →](05-vacuum-photoelectric-cell.md)

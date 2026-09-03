@@ -14,7 +14,7 @@ tags:
 
 > Đây là cách phân loại phục vụ mục đích sư phạm, không phải phân loại học thuật chính thức.
 
-## Level 1 — Dòng điện và điện trở
+## Mức 1 — Dòng điện và điện trở
 
 ### Câu 1
 Dòng điện 0,5 A chạy qua tiết diện dây trong 2 phút. Tính điện lượng.
@@ -34,7 +34,7 @@ Hai điện trở trên mắc song song. Tính R tương đương.
 ### Câu 6
 R1=3 Ω, R2=6 Ω song song dưới U=12 V. Tính dòng mỗi nhánh và dòng chính.
 
-## Level 2 — Nguồn và toàn mạch
+## Mức 2 — Nguồn và toàn mạch
 
 ### Câu 7
 Nguồn E=9 V, r=1 Ω nối R=8 Ω. Tính I và U hai cực.
@@ -51,7 +51,7 @@ Nguồn E=6 V, r=1 Ω nối tải R. Hiệu suất 80%. Tìm R.
 ### Câu 11
 Nguồn E=10 V, r=2 Ω. Tìm R để công suất tải cực đại và tính công suất cực đại.
 
-## Level 2 — Điện năng và thiết bị
+## Mức 2 — Điện năng và thiết bị
 
 ### Câu 12
 Điện trở 10 Ω có I=2 A trong 5 phút. Tính công suất và nhiệt lượng.
@@ -65,7 +65,7 @@ Bếp 1200 W dùng 30 phút. Tính điện năng theo kWh và J.
 ### Câu 15
 Bóng đèn được mô hình là điện trở có định mức 220 V–100 W. Tính điện trở định mức.
 
-## Level 3 — Ghép nguồn
+## Mức 3 — Ghép nguồn
 
 ### Câu 16
 4 pin giống nhau E=1,5 V, r=0,2 Ω nối tiếp. Tính E bộ và r bộ.
@@ -79,7 +79,7 @@ Bóng đèn được mô hình là điện trở có định mức 220 V–100 W
 ### Câu 19
 Có N=16 nguồn giống nhau, r=1 Ω, tải R=4 Ω. Dùng điều kiện tối ưu liên tục để dự đoán số nguồn nối tiếp mỗi nhánh n trong bộ hỗn hợp đối xứng.
 
-## Level 3 — Đọc mạch
+## Mức 3 — Đọc mạch
 
 ### Câu 20
 R1=6 Ω nối tiếp với bộ R2=6 Ω song song R3=3 Ω. Nguồn lí tưởng 12 V. Tính dòng mạch chính và dòng qua mỗi nhánh song song.
@@ -93,7 +93,7 @@ Một điện trở R bị mắc song song với dây dẫn lí tưởng. Tính 
 ### Câu 23
 Cầu điện trở có R1/R2=R3/R4. Nêu dòng qua nhánh cầu giữa hai nút cân bằng.
 
-## Level 4 — Kirchhoff và xếp chồng
+## Mức 4 — Kirchhoff và xếp chồng
 
 ### Câu 24
 Tại một nút, I1=2 A và I2=1,5 A đi vào; I3 đi ra. Tính I3.
@@ -110,7 +110,7 @@ Mạch tuyến tính có hai nguồn. Khi chỉ nguồn 1 hoạt động, dòng 
 ### Câu 28
 Hai nguồn E1=6 V,r1=2 Ω và E2=3 V,r2=1 Ω mắc song song cùng cực giữa hai nút, không tải. Tính điện áp hở mạch theo công thức nguồn tương đương tổng quát.
 
-## Level 4 — RC xác lập và chuyển mạch
+## Mức 4 — RC xác lập và chuyển mạch
 
 ### Câu 29
 Tụ C nối tiếp một điện trở R và nguồn DC. Sau khi mạch ổn định lâu, dòng qua nhánh tụ bằng bao nhiêu?
@@ -127,7 +127,7 @@ Một tụ C=4 µF trong mạch xác lập có hiệu điện thế 5 V. Tính �
 ### Câu 33
 Mạch RC sau chuyển khóa tạo một vùng dẫn cô lập gồm hai bản tụ có tổng điện tích ban đầu +6 µC. Có thể kết luận tổng điện tích vùng đó sau khi ổn định bằng bao nhiêu?
 
-## Level 5 — Tổng hợp
+## Mức 5 — Tổng hợp
 
 ### Câu 34
 Nguồn E=12 V,r=1 Ω cấp mạch ngoài gồm R1=5 Ω nối tiếp (R2=6 Ω // R3=3 Ω). Tính I nguồn, U cực nguồn, dòng từng nhánh và công suất tải toàn mạch.
@@ -158,7 +158,7 @@ b) năng lượng tụ;
 c) công của nguồn;  
 d) nhiệt lượng tỏa trên điện trở trong quá trình nạp theo cân bằng năng lượng.
 
-## Level 3 — Bổ sung thực hành nguồn điện
+## Mức 3 — Bổ sung thực hành nguồn điện
 
 ### Câu 39
 Đo một pin được hai cặp số liệu: $I_1=0,10$ A, $U_1=1,44$ V và $I_2=0,30$ A, $U_2=1,32$ V. Tính suất điện động và điện trở trong.
@@ -182,7 +182,7 @@ Hãy nhận ra quy luật tuyến tính, tính $r$ và $\mathcal E$, rồi kiể
 Vì sao trong thí nghiệm xác định $r$ không nên nối tắt hai cực pin để đo trực tiếp dòng ngắn mạch? Trả lời cả về an toàn và độ tin cậy của mô hình.
 
 
-## Level 3–5 — Bổ sung đoạn mạch chứa nguồn, máy thu và tụ
+## Mức 3–5 — Bổ sung đoạn mạch chứa nguồn, máy thu và tụ
 
 ### Câu 44
 Một nguồn có $\mathcal E=12$ V, r=1 Ω đang phát dòng 2 A. Tính điện áp hai cực.

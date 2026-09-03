@@ -203,6 +203,13 @@ Nếu U=12 V, tổng I=6 A; $I_1=2$ A, $I_2=4$ A.
 4. Nối tiếp làm R tương đương tăng.
 5. Luôn đánh dấu nút trước khi rút gọn mạch phức tạp.
 
+
+<!-- LESSON_PRACTICE_LINKS -->
+## Luyện tập sau bài
+
+- [Bài tập theo bài](practice/02-resistance-ohm-law/exercises.md)
+- [Đáp án và lời giải](practice/02-resistance-ohm-law/solutions.md)
+
 ---
 
 [← Bài 1](01-current-intensity.md) | [↑ Chương](index.md) | [Bài 3 →](03-emf-internal-resistance.md)

@@ -1,6 +1,6 @@
 ---
-title: "Quiz Chương 5 — Dòng điện trong các môi trường"
-description: "Quiz kiểm tra cơ chế hạt tải điện và các công thức trọng tâm."
+title: "Kiểm tra Chương 5 — Dòng điện trong các môi trường"
+description: "Bài kiểm tra cơ chế hạt tải điện và các công thức trọng tâm."
 order: 8
 difficulty: "foundation-applied"
 tags:
@@ -9,7 +9,7 @@ tags:
   - quiz
 ---
 
-# Quiz Chương 5 — Dòng điện trong các môi trường
+# Kiểm tra Chương 5 — Dòng điện trong các môi trường
 
 ## Câu 1
 

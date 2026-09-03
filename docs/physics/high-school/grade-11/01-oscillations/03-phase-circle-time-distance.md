@@ -366,6 +366,13 @@ Cốt lõi của bài toán quãng đường là:
 4. Quãng đường khác độ dời.
 5. Tách chu kì trọn vẹn trước giúp bài quãng đường ngắn và ít sai.
 
+
+<!-- LESSON_PRACTICE_LINKS -->
+## Luyện tập sau bài
+
+- [Bài tập theo bài](practice/03-phase-circle-time-distance/exercises.md)
+- [Đáp án và lời giải](practice/03-phase-circle-time-distance/solutions.md)
+
 ---
 
 [← Bài 2](02-displacement-velocity-acceleration.md) | [↑ Chương](index.md) | [Bài 4 →](04-spring-oscillator.md)

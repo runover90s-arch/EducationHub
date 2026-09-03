@@ -216,7 +216,7 @@ $$
 k=k_1k_2.
 $$
 
-Dạng này thuộc Level 4–5 vì yêu cầu kiểm soát dấu tốt.
+Dạng này thuộc Mức 4–5 vì yêu cầu kiểm soát dấu tốt.
 
 ## 10. Ví dụ Bessel
 
@@ -266,6 +266,13 @@ Bài thấu kính khó chủ yếu là bài quan hệ hình học và dấu. V�
 3. Có ảnh rõ khi L≥4f.
 4. Bessel: $f=(L^2-a^2)/(4L)$.
 5. Ghép kính sát: độ tụ cộng.
+
+
+<!-- LESSON_PRACTICE_LINKS -->
+## Luyện tập sau bài
+
+- [Bài tập theo bài](practice/06-lens-problem-methods/exercises.md)
+- [Đáp án và lời giải](practice/06-lens-problem-methods/solutions.md)
 
 ---
 

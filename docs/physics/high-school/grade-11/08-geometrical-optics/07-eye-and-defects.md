@@ -182,6 +182,13 @@ Mắt điều tiết để đưa ảnh lên võng mạc. Cận thị có cực v
 4. Cận sửa xa bằng kính phân kì.
 5. 25 cm là quy ước bài học, không phải giá trị cá nhân bắt buộc.
 
+
+<!-- LESSON_PRACTICE_LINKS -->
+## Luyện tập sau bài
+
+- [Bài tập theo bài](practice/07-eye-and-defects/exercises.md)
+- [Đáp án và lời giải](practice/07-eye-and-defects/solutions.md)
+
 ---
 
 [← Bài 6](06-lens-problem-methods.md) | [↑ Chương](index.md) | [Bài 8 →](08-optical-instruments.md)

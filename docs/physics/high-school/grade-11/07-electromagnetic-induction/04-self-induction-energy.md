@@ -196,6 +196,13 @@ Tự cảm là cảm ứng điện từ do biến thiên dòng trong chính mạ
 4. $W=LI^2/2$.
 5. Dòng qua cuộn cảm lí tưởng không nhảy tức thời.
 
+
+<!-- LESSON_PRACTICE_LINKS -->
+## Luyện tập sau bài
+
+- [Bài tập theo bài](practice/04-self-induction-energy/exercises.md)
+- [Đáp án và lời giải](practice/04-self-induction-energy/solutions.md)
+
 ---
 
 [← Bài 3](03-motional-emf.md) | [↑ Chương](index.md) | [Bài tập →](exercises.md)

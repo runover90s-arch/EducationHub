@@ -237,6 +237,13 @@ Lực Lorentz từ có độ lớn $F=|q|vB\sin\alpha$ và vuông góc với v�
 4. $r=mv_\perp/(|q|B)$.
 5. $T=2\pi m/(|q|B)$ trong mô hình cổ điển.
 
+
+<!-- LESSON_PRACTICE_LINKS -->
+## Luyện tập sau bài
+
+- [Bài tập theo bài](practice/05-lorentz-force-charged-particle/exercises.md)
+- [Đáp án và lời giải](practice/05-lorentz-force-charged-particle/solutions.md)
+
 ---
 
 [← Bài 4](04-parallel-currents-current-loop.md) | [↑ Chương](index.md) | [Bài tập →](exercises.md)

@@ -2,175 +2,372 @@ site_name: Education Hub
 site_description: Hệ thống giáo trình học tập đa ngành, có cấu trúc và lộ trình rõ ràng
 site_url: https://runover90s-arch.github.io/EducationHub/
 use_directory_urls: true
-
 theme:
   name: material
   language: vi
   palette:
-    - media: "(prefers-color-scheme)"
-      toggle:
-        icon: material/brightness-auto
-        name: Chuyển sang giao diện sáng
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: indigo
-      accent: indigo
-      toggle:
-        icon: material/brightness-7
-        name: Chuyển sang giao diện tối
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: indigo
-      accent: indigo
-      toggle:
-        icon: material/brightness-4
-        name: Theo giao diện hệ thống
+  - media: (prefers-color-scheme)
+    toggle:
+      icon: material/brightness-auto
+      name: Chuyển sang giao diện sáng
+  - media: '(prefers-color-scheme: light)'
+    scheme: default
+    primary: indigo
+    accent: indigo
+    toggle:
+      icon: material/brightness-7
+      name: Chuyển sang giao diện tối
+  - media: '(prefers-color-scheme: dark)'
+    scheme: slate
+    primary: indigo
+    accent: indigo
+    toggle:
+      icon: material/brightness-4
+      name: Theo giao diện hệ thống
   features:
-    - navigation.tabs
-    - navigation.sections
-    - navigation.expand
-    - navigation.top
-    - search.suggest
-    - search.highlight
-    - content.code.copy
-
+  - navigation.tabs
+  - navigation.sections
+  - navigation.expand
+  - navigation.top
+  - search.suggest
+  - search.highlight
+  - content.code.copy
+  logo: assets/images/education-hub-logo.svg
+  favicon: assets/images/education-hub-logo.svg
 markdown_extensions:
-  - admonition
-  - attr_list
-  - md_in_html
-  - tables
-  - footnotes
-  - pymdownx.details
-  - pymdownx.superfences
-  - pymdownx.highlight
-  - pymdownx.inlinehilite
-  - pymdownx.arithmatex:
-      generic: true
-
+- admonition
+- attr_list
+- md_in_html
+- tables
+- footnotes
+- pymdownx.details
+- pymdownx.superfences
+- pymdownx.highlight
+- pymdownx.inlinehilite
+- pymdownx.arithmatex:
+    generic: true
 extra_javascript:
-  - javascripts/mathjax.js
-  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
-
+- javascripts/mathjax.js
+- https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
 extra_css:
-  - stylesheets/extra.css
-
+- stylesheets/extra.css
 nav:
-  - Trang chủ: index.md
-  - Thư viện giáo trình: catalog.md
-  - Lĩnh vực:
-      - Vật lí:
-          - Tổng quan: physics/index.md
-          - Trung học phổ thông:
-              - Tổng quan: physics/high-school/index.md
-              - Vật lí 11:
-                  - Tổng quan: physics/high-school/grade-11/index.md
-                  - Lộ trình học: physics/high-school/grade-11/roadmap.md
-                  - Bản đồ kiến thức: physics/high-school/grade-11/knowledge-map.md
-                  - Thuật ngữ: physics/high-school/grade-11/glossary.md
-                  - Chương 1 — Dao động cơ học:
-                      - Tổng quan: physics/high-school/grade-11/01-oscillations/index.md
-                      - Bài 1 — Đại cương dao động điều hòa: physics/high-school/grade-11/01-oscillations/01-harmonic-oscillation-foundations.md
-                      - Bài 2 — Li độ, vận tốc và gia tốc: physics/high-school/grade-11/01-oscillations/02-displacement-velocity-acceleration.md
-                      - Bài 3 — Pha, đường tròn, thời gian: physics/high-school/grade-11/01-oscillations/03-phase-circle-time-distance.md
-                      - Bài 4 — Con lắc lò xo: physics/high-school/grade-11/01-oscillations/04-spring-oscillator.md
-                      - Bài 5 — Con lắc đơn: physics/high-school/grade-11/01-oscillations/05-simple-pendulum.md
-                      - Bài 6 — Năng lượng dao động: physics/high-school/grade-11/01-oscillations/06-oscillation-energy.md
-                      - Bài 7 — Tổng hợp và các loại dao động: physics/high-school/grade-11/01-oscillations/07-combined-damped-forced-resonance.md
-                      - Bài tập: physics/high-school/grade-11/01-oscillations/exercises.md
-                      - Lời giải: physics/high-school/grade-11/01-oscillations/solutions.md
-                      - Quiz: physics/high-school/grade-11/01-oscillations/quiz.md
-                  - Chương 2 — Sóng:
-                      - Tổng quan: physics/high-school/grade-11/02-waves/index.md
-                      - Bài 1 — Đại cương sóng cơ: physics/high-school/grade-11/02-waves/01-mechanical-wave-basics.md
-                      - Bài 2 — Phương trình sóng và đồ thị: physics/high-school/grade-11/02-waves/02-wave-equation-phase-graphs.md
-                      - Bài 3 — Giao thoa sóng cơ: physics/high-school/grade-11/02-waves/03-mechanical-interference.md
-                      - Bài 4 — Sóng dừng: physics/high-school/grade-11/02-waves/04-standing-waves.md
-                      - Bài 5 — Sóng âm: physics/high-school/grade-11/02-waves/05-sound-waves.md
-                      - Bài 6 — Sóng điện từ: physics/high-school/grade-11/02-waves/06-electromagnetic-waves.md
-                      - Bài 7 — Giao thoa ánh sáng: physics/high-school/grade-11/02-waves/07-light-interference.md
-                      - Bài 8 — Thực hành đo tần số âm: physics/high-school/grade-11/02-waves/08-practical-sound-frequency.md
-                      - Bài 9 — Thực hành đo tốc độ âm: physics/high-school/grade-11/02-waves/09-practical-sound-speed.md
-                      - Bài 10 — Hiệu ứng Doppler: physics/high-school/grade-11/02-waves/10-doppler-effect.md
-                      - Bài 11 — Nhiễu xạ và tán sắc: physics/high-school/grade-11/02-waves/11-light-wave-diffraction-dispersion.md
-                      - Bài 12 — Quang phổ và thang sóng điện từ: physics/high-school/grade-11/02-waves/12-spectra-electromagnetic-spectrum.md
-                      - Bài 13 — Giao thoa nhiều bức xạ: physics/high-school/grade-11/02-waves/13-multiwavelength-white-light-interference.md
-                      - Bài tập: physics/high-school/grade-11/02-waves/exercises.md
-                      - Lời giải: physics/high-school/grade-11/02-waves/solutions.md
-                      - Quiz: physics/high-school/grade-11/02-waves/quiz.md
-                  - Chương 3 — Điện trường:
-                      - Tổng quan: physics/high-school/grade-11/03-electric-field/index.md
-                      - Bài 1 — Thuyết electron và bảo toàn điện tích: physics/high-school/grade-11/03-electric-field/01-electron-theory-charge-conservation.md
-                      - Bài 2 — Định luật Coulomb: physics/high-school/grade-11/03-electric-field/02-coulomb-law.md
-                      - Bài 3 — Điện trường và cường độ điện trường: physics/high-school/grade-11/03-electric-field/03-electric-field-intensity.md
-                      - Bài 4 — Tổng hợp và cân bằng điện trường: physics/high-school/grade-11/03-electric-field/04-field-superposition-equilibrium.md
-                      - Bài 5 — Công, điện thế, hiệu điện thế: physics/high-school/grade-11/03-electric-field/05-work-potential-voltage.md
-                      - Bài 6 — Tụ điện và năng lượng: physics/high-school/grade-11/03-electric-field/06-capacitors.md
-                      - Bài 7 — Chuyển động điện tích: physics/high-school/grade-11/03-electric-field/07-charged-particle-motion.md
-                      - Bài 8 — Tụ điện nâng cao: physics/high-school/grade-11/03-electric-field/08-advanced-capacitors.md
-                      - Bài 9 — Cân bằng điện tích và con lắc điện: physics/high-school/grade-11/03-electric-field/09-electrostatic-equilibrium-charged-pendulum.md
-                      - Bài tập: physics/high-school/grade-11/03-electric-field/exercises.md
-                      - Lời giải: physics/high-school/grade-11/03-electric-field/solutions.md
-                      - Quiz: physics/high-school/grade-11/03-electric-field/quiz.md
-                  - Chương 4 — Dòng điện và mạch điện:
-                      - Tổng quan: physics/high-school/grade-11/04-current-circuits/index.md
-                      - Bài 1 — Dòng điện và cường độ dòng điện: physics/high-school/grade-11/04-current-circuits/01-current-intensity.md
-                      - Bài 2 — Điện trở và định luật Ohm: physics/high-school/grade-11/04-current-circuits/02-resistance-ohm-law.md
-                      - Bài 3 — Nguồn điện và suất điện động: physics/high-school/grade-11/04-current-circuits/03-emf-internal-resistance.md
-                      - Bài 4 — Năng lượng và công suất điện: physics/high-school/grade-11/04-current-circuits/04-energy-power-joule.md
-                      - Bài 5 — Định luật Ohm toàn mạch: physics/high-school/grade-11/04-current-circuits/05-full-circuit-ohm-law.md
-                      - Bài 6 — Ghép nguồn: physics/high-school/grade-11/04-current-circuits/06-source-combinations.md
-                      - Bài 7 — Đọc và biến đổi mạch: physics/high-school/grade-11/04-current-circuits/07-circuit-reading-meters.md
-                      - Bài 8 — Phương pháp mạch nâng cao: physics/high-school/grade-11/04-current-circuits/08-advanced-circuit-methods.md
-                      - Bài 9 — Thực hành đo nguồn điện: physics/high-school/grade-11/04-current-circuits/09-practical-emf-internal-resistance.md
-                      - Bài 10 — Nguồn, máy thu và nhánh tụ: physics/high-school/grade-11/04-current-circuits/10-source-receiver-capacitor-branches.md
-                      - Bài tập: physics/high-school/grade-11/04-current-circuits/exercises.md
-                      - Lời giải: physics/high-school/grade-11/04-current-circuits/solutions.md
-                      - Quiz: physics/high-school/grade-11/04-current-circuits/quiz.md
-                  - Chương 5 — Dòng điện trong các môi trường:
-                      - Tổng quan: physics/high-school/grade-11/05-current-media/index.md
-                      - Bài 1 — Dòng điện trong kim loại: physics/high-school/grade-11/05-current-media/01-current-in-metals.md
-                      - Bài 2 — Dòng điện trong chất điện phân: physics/high-school/grade-11/05-current-media/02-electrolytes-faraday.md
-                      - Bài 3 — Dòng điện trong chất khí: physics/high-school/grade-11/05-current-media/03-current-in-gases.md
-                      - Bài 4 — Dòng điện trong chất bán dẫn: physics/high-school/grade-11/05-current-media/04-semiconductors.md
-                      - Bài 5 — Dòng điện trong chân không: physics/high-school/grade-11/05-current-media/05-vacuum-photoelectric-cell.md
-                      - Bài tập: physics/high-school/grade-11/05-current-media/exercises.md
-                      - Lời giải: physics/high-school/grade-11/05-current-media/solutions.md
-                      - Quiz: physics/high-school/grade-11/05-current-media/quiz.md
-                  - Chương 6 — Từ trường và cảm ứng từ:
-                      - Tổng quan: physics/high-school/grade-11/06-magnetism/index.md
-                      - Bài 1 — Từ trường và đường sức: physics/high-school/grade-11/06-magnetism/01-magnetic-field-field-lines.md
-                      - Bài 2 — Lực từ lên dòng điện: physics/high-school/grade-11/06-magnetism/02-magnetic-force-current-wire.md
-                      - Bài 3 — Từ trường của dòng điện: physics/high-school/grade-11/06-magnetism/03-fields-of-currents-superposition.md
-                      - Bài 4 — Dòng song song và khung dây: physics/high-school/grade-11/06-magnetism/04-parallel-currents-current-loop.md
-                      - Bài 5 — Lực Lorentz: physics/high-school/grade-11/06-magnetism/05-lorentz-force-charged-particle.md
-                      - Bài tập: physics/high-school/grade-11/06-magnetism/exercises.md
-                      - Lời giải: physics/high-school/grade-11/06-magnetism/solutions.md
-                      - Quiz: physics/high-school/grade-11/06-magnetism/quiz.md
-                  - Chương 7 — Cảm ứng điện từ:
-                      - Tổng quan: physics/high-school/grade-11/07-electromagnetic-induction/index.md
-                      - Bài 1 — Từ thông và cảm ứng: physics/high-school/grade-11/07-electromagnetic-induction/01-magnetic-flux-induction.md
-                      - Bài 2 — Faraday và Lenz: physics/high-school/grade-11/07-electromagnetic-induction/02-lenz-faraday-law.md
-                      - Bài 3 — Suất điện động do chuyển động: physics/high-school/grade-11/07-electromagnetic-induction/03-motional-emf.md
-                      - Bài 4 — Tự cảm và năng lượng từ: physics/high-school/grade-11/07-electromagnetic-induction/04-self-induction-energy.md
-                      - Bài tập: physics/high-school/grade-11/07-electromagnetic-induction/exercises.md
-                      - Lời giải: physics/high-school/grade-11/07-electromagnetic-induction/solutions.md
-                      - Quiz: physics/high-school/grade-11/07-electromagnetic-induction/quiz.md
-                  - Chương 8 — Khúc xạ ánh sáng và quang hình:
-                      - Tổng quan: physics/high-school/grade-11/08-geometrical-optics/index.md
-                      - Bài 1 — Khúc xạ và chiết suất: physics/high-school/grade-11/08-geometrical-optics/01-refraction-refractive-index.md
-                      - Bài 2 — Bản mặt song song: physics/high-school/grade-11/08-geometrical-optics/02-parallel-slab-apparent-depth.md
-                      - Bài 3 — Phản xạ toàn phần: physics/high-school/grade-11/08-geometrical-optics/03-total-internal-reflection.md
-                      - Bài 4 — Lăng kính và tán sắc: physics/high-school/grade-11/08-geometrical-optics/04-prism-dispersion.md
-                      - Bài 5 — Thấu kính mỏng và dựng ảnh: physics/high-school/grade-11/08-geometrical-optics/05-thin-lenses-image-construction.md
-                      - Bài 6 — Phương pháp bài toán thấu kính: physics/high-school/grade-11/08-geometrical-optics/06-lens-problem-methods.md
-                      - Bài 7 — Mắt và các tật của mắt: physics/high-school/grade-11/08-geometrical-optics/07-eye-and-defects.md
-                      - Bài 8 — Dụng cụ quang: physics/high-school/grade-11/08-geometrical-optics/08-optical-instruments.md
-                      - Bài tập: physics/high-school/grade-11/08-geometrical-optics/exercises.md
-                      - Lời giải: physics/high-school/grade-11/08-geometrical-optics/solutions.md
-                      - Quiz: physics/high-school/grade-11/08-geometrical-optics/quiz.md
-  - Kỹ thuật biên soạn:
-      - Tổng quan: technical/index.md
-      - Quy chuẩn nội dung: technical/editorial-guide.md
-      - Chuẩn bài tập và lời giải: technical/exercise-solution-standard.md
-      - Kiểm soát độ bao phủ: technical/content-coverage.md
-      - Kiểm tra website và LaTeX: technical/site-quality.md
+- Trang chủ: index.md
+- Thư viện giáo trình: catalog.md
+- Lĩnh vực:
+  - Vật lí:
+    - Tổng quan: physics/index.md
+    - Trung học phổ thông:
+      - Tổng quan: physics/high-school/index.md
+      - Vật lí 11:
+        - Tổng quan: physics/high-school/grade-11/index.md
+        - Lộ trình học: physics/high-school/grade-11/roadmap.md
+        - Bản đồ kiến thức: physics/high-school/grade-11/knowledge-map.md
+        - Thuật ngữ: physics/high-school/grade-11/glossary.md
+        - Ngân hàng bài tập: physics/high-school/grade-11/practice.md
+        - Chương 1 — Dao động cơ học:
+          - Tổng quan: physics/high-school/grade-11/01-oscillations/index.md
+          - Bài 1 — Đại cương dao động điều hòa: physics/high-school/grade-11/01-oscillations/01-harmonic-oscillation-foundations.md
+          - Bài 2 — Li độ, vận tốc và gia tốc: physics/high-school/grade-11/01-oscillations/02-displacement-velocity-acceleration.md
+          - Bài 3 — Pha, đường tròn, thời gian: physics/high-school/grade-11/01-oscillations/03-phase-circle-time-distance.md
+          - Bài 4 — Con lắc lò xo: physics/high-school/grade-11/01-oscillations/04-spring-oscillator.md
+          - Bài 5 — Con lắc đơn: physics/high-school/grade-11/01-oscillations/05-simple-pendulum.md
+          - Bài 6 — Năng lượng dao động: physics/high-school/grade-11/01-oscillations/06-oscillation-energy.md
+          - Bài 7 — Tổng hợp và các loại dao động: physics/high-school/grade-11/01-oscillations/07-combined-damped-forced-resonance.md
+          - Luyện tập theo từng bài:
+            - Tổng quan: physics/high-school/grade-11/01-oscillations/practice/index.md
+            - Bài 1 — Đại cương về dao động điều hòa:
+              - Bài tập: physics/high-school/grade-11/01-oscillations/practice/01-harmonic-oscillation-foundations/exercises.md
+              - Đáp án và lời giải: physics/high-school/grade-11/01-oscillations/practice/01-harmonic-oscillation-foundations/solutions.md
+            - Bài 2 — Li độ, vận tốc và gia tốc:
+              - Bài tập: physics/high-school/grade-11/01-oscillations/practice/02-displacement-velocity-acceleration/exercises.md
+              - Đáp án và lời giải: physics/high-school/grade-11/01-oscillations/practice/02-displacement-velocity-acceleration/solutions.md
+            - Bài 3 — Đường tròn lượng giác, thời gian và quãng đường:
+              - Bài tập: physics/high-school/grade-11/01-oscillations/practice/03-phase-circle-time-distance/exercises.md
+              - Đáp án và lời giải: physics/high-school/grade-11/01-oscillations/practice/03-phase-circle-time-distance/solutions.md
+            - Bài 4 — Con lắc lò xo:
+              - Bài tập: physics/high-school/grade-11/01-oscillations/practice/04-spring-oscillator/exercises.md
+              - Đáp án và lời giải: physics/high-school/grade-11/01-oscillations/practice/04-spring-oscillator/solutions.md
+            - Bài 5 — Con lắc đơn:
+              - Bài tập: physics/high-school/grade-11/01-oscillations/practice/05-simple-pendulum/exercises.md
+              - Đáp án và lời giải: physics/high-school/grade-11/01-oscillations/practice/05-simple-pendulum/solutions.md
+            - Bài 6 — Năng lượng trong dao động:
+              - Bài tập: physics/high-school/grade-11/01-oscillations/practice/06-oscillation-energy/exercises.md
+              - Đáp án và lời giải: physics/high-school/grade-11/01-oscillations/practice/06-oscillation-energy/solutions.md
+            - Bài 7 — Tổng hợp dao động, tắt dần, cưỡng bức và cộng hưởng:
+              - Bài tập: physics/high-school/grade-11/01-oscillations/practice/07-combined-damped-forced-resonance/exercises.md
+              - Đáp án và lời giải: physics/high-school/grade-11/01-oscillations/practice/07-combined-damped-forced-resonance/solutions.md
+          - Bài tập tổng hợp chương: physics/high-school/grade-11/01-oscillations/exercises.md
+          - Đáp án tổng hợp chương: physics/high-school/grade-11/01-oscillations/solutions.md
+          - Kiểm tra cuối chương: physics/high-school/grade-11/01-oscillations/quiz.md
+        - Chương 2 — Sóng:
+          - Tổng quan: physics/high-school/grade-11/02-waves/index.md
+          - Bài 1 — Đại cương sóng cơ: physics/high-school/grade-11/02-waves/01-mechanical-wave-basics.md
+          - Bài 2 — Phương trình sóng và đồ thị: physics/high-school/grade-11/02-waves/02-wave-equation-phase-graphs.md
+          - Bài 3 — Giao thoa sóng cơ: physics/high-school/grade-11/02-waves/03-mechanical-interference.md
+          - Bài 4 — Sóng dừng: physics/high-school/grade-11/02-waves/04-standing-waves.md
+          - Bài 5 — Sóng âm: physics/high-school/grade-11/02-waves/05-sound-waves.md
+          - Bài 6 — Sóng điện từ: physics/high-school/grade-11/02-waves/06-electromagnetic-waves.md
+          - Bài 7 — Giao thoa ánh sáng: physics/high-school/grade-11/02-waves/07-light-interference.md
+          - Bài 8 — Thực hành đo tần số âm: physics/high-school/grade-11/02-waves/08-practical-sound-frequency.md
+          - Bài 9 — Thực hành đo tốc độ âm: physics/high-school/grade-11/02-waves/09-practical-sound-speed.md
+          - Bài 10 — Hiệu ứng Doppler: physics/high-school/grade-11/02-waves/10-doppler-effect.md
+          - Bài 11 — Nhiễu xạ và tán sắc: physics/high-school/grade-11/02-waves/11-light-wave-diffraction-dispersion.md
+          - Bài 12 — Quang phổ và thang sóng điện từ: physics/high-school/grade-11/02-waves/12-spectra-electromagnetic-spectrum.md
+          - Bài 13 — Giao thoa nhiều bức xạ: physics/high-school/grade-11/02-waves/13-multiwavelength-white-light-interference.md
+          - Luyện tập theo từng bài:
+            - Tổng quan: physics/high-school/grade-11/02-waves/practice/index.md
+            - Bài 1 — Đại cương sóng cơ và sự truyền sóng:
+              - Bài tập: physics/high-school/grade-11/02-waves/practice/01-mechanical-wave-basics/exercises.md
+              - Đáp án và lời giải: physics/high-school/grade-11/02-waves/practice/01-mechanical-wave-basics/solutions.md
+            - Bài 2 — Phương trình sóng, độ lệch pha và đồ thị:
+              - Bài tập: physics/high-school/grade-11/02-waves/practice/02-wave-equation-phase-graphs/exercises.md
+              - Đáp án và lời giải: physics/high-school/grade-11/02-waves/practice/02-wave-equation-phase-graphs/solutions.md
+            - Bài 3 — Giao thoa sóng cơ:
+              - Bài tập: physics/high-school/grade-11/02-waves/practice/03-mechanical-interference/exercises.md
+              - Đáp án và lời giải: physics/high-school/grade-11/02-waves/practice/03-mechanical-interference/solutions.md
+            - Bài 4 — Sóng dừng:
+              - Bài tập: physics/high-school/grade-11/02-waves/practice/04-standing-waves/exercises.md
+              - Đáp án và lời giải: physics/high-school/grade-11/02-waves/practice/04-standing-waves/solutions.md
+            - Bài 5 — Sóng âm:
+              - Bài tập: physics/high-school/grade-11/02-waves/practice/05-sound-waves/exercises.md
+              - Đáp án và lời giải: physics/high-school/grade-11/02-waves/practice/05-sound-waves/solutions.md
+            - Bài 6 — Sóng điện từ và thang sóng điện từ:
+              - Bài tập: physics/high-school/grade-11/02-waves/practice/06-electromagnetic-waves/exercises.md
+              - Đáp án và lời giải: physics/high-school/grade-11/02-waves/practice/06-electromagnetic-waves/solutions.md
+            - Bài 7 — Giao thoa ánh sáng:
+              - Bài tập: physics/high-school/grade-11/02-waves/practice/07-light-interference/exercises.md
+              - Đáp án và lời giải: physics/high-school/grade-11/02-waves/practice/07-light-interference/solutions.md
+            - Bài 8 — Thực hành đo tần số của sóng âm:
+              - Bài tập: physics/high-school/grade-11/02-waves/practice/08-practical-sound-frequency/exercises.md
+              - Đáp án và lời giải: physics/high-school/grade-11/02-waves/practice/08-practical-sound-frequency/solutions.md
+            - Bài 9 — Thực hành đo tốc độ truyền âm:
+              - Bài tập: physics/high-school/grade-11/02-waves/practice/09-practical-sound-speed/exercises.md
+              - Đáp án và lời giải: physics/high-school/grade-11/02-waves/practice/09-practical-sound-speed/solutions.md
+            - Bài 10 — Hiệu ứng Doppler:
+              - Bài tập: physics/high-school/grade-11/02-waves/practice/10-doppler-effect/exercises.md
+              - Đáp án và lời giải: physics/high-school/grade-11/02-waves/practice/10-doppler-effect/solutions.md
+            - Bài 11 — Sóng ánh sáng, nhiễu xạ và tán sắc:
+              - Bài tập: physics/high-school/grade-11/02-waves/practice/11-light-wave-diffraction-dispersion/exercises.md
+              - Đáp án và lời giải: physics/high-school/grade-11/02-waves/practice/11-light-wave-diffraction-dispersion/solutions.md
+            - Bài 12 — Quang phổ và thang sóng điện từ:
+              - Bài tập: physics/high-school/grade-11/02-waves/practice/12-spectra-electromagnetic-spectrum/exercises.md
+              - Đáp án và lời giải: physics/high-school/grade-11/02-waves/practice/12-spectra-electromagnetic-spectrum/solutions.md
+            - Bài 13 — Giao thoa nhiều bức xạ và ánh sáng trắng:
+              - Bài tập: physics/high-school/grade-11/02-waves/practice/13-multiwavelength-white-light-interference/exercises.md
+              - Đáp án và lời giải: physics/high-school/grade-11/02-waves/practice/13-multiwavelength-white-light-interference/solutions.md
+          - Bài tập tổng hợp chương: physics/high-school/grade-11/02-waves/exercises.md
+          - Đáp án tổng hợp chương: physics/high-school/grade-11/02-waves/solutions.md
+          - Kiểm tra cuối chương: physics/high-school/grade-11/02-waves/quiz.md
+        - Chương 3 — Điện trường:
+          - Tổng quan: physics/high-school/grade-11/03-electric-field/index.md
+          - Bài 1 — Thuyết electron và bảo toàn điện tích: physics/high-school/grade-11/03-electric-field/01-electron-theory-charge-conservation.md
+          - Bài 2 — Định luật Coulomb: physics/high-school/grade-11/03-electric-field/02-coulomb-law.md
+          - Bài 3 — Điện trường và cường độ điện trường: physics/high-school/grade-11/03-electric-field/03-electric-field-intensity.md
+          - Bài 4 — Tổng hợp và cân bằng điện trường: physics/high-school/grade-11/03-electric-field/04-field-superposition-equilibrium.md
+          - Bài 5 — Công, điện thế, hiệu điện thế: physics/high-school/grade-11/03-electric-field/05-work-potential-voltage.md
+          - Bài 6 — Tụ điện và năng lượng: physics/high-school/grade-11/03-electric-field/06-capacitors.md
+          - Bài 7 — Chuyển động điện tích: physics/high-school/grade-11/03-electric-field/07-charged-particle-motion.md
+          - Bài 8 — Tụ điện nâng cao: physics/high-school/grade-11/03-electric-field/08-advanced-capacitors.md
+          - Bài 9 — Cân bằng điện tích và con lắc điện: physics/high-school/grade-11/03-electric-field/09-electrostatic-equilibrium-charged-pendulum.md
+          - Luyện tập theo từng bài:
+            - Tổng quan: physics/high-school/grade-11/03-electric-field/practice/index.md
+            - Bài 1 — Thuyết electron và bảo toàn điện tích:
+              - Bài tập: physics/high-school/grade-11/03-electric-field/practice/01-electron-theory-charge-conservation/exercises.md
+              - Đáp án và lời giải: physics/high-school/grade-11/03-electric-field/practice/01-electron-theory-charge-conservation/solutions.md
+            - Bài 2 — Định luật Coulomb:
+              - Bài tập: physics/high-school/grade-11/03-electric-field/practice/02-coulomb-law/exercises.md
+              - Đáp án và lời giải: physics/high-school/grade-11/03-electric-field/practice/02-coulomb-law/solutions.md
+            - Bài 3 — Điện trường và cường độ điện trường:
+              - Bài tập: physics/high-school/grade-11/03-electric-field/practice/03-electric-field-intensity/exercises.md
+              - Đáp án và lời giải: physics/high-school/grade-11/03-electric-field/practice/03-electric-field-intensity/solutions.md
+            - Bài 4 — Tổng hợp điện trường và cân bằng điện tích:
+              - Bài tập: physics/high-school/grade-11/03-electric-field/practice/04-field-superposition-equilibrium/exercises.md
+              - Đáp án và lời giải: physics/high-school/grade-11/03-electric-field/practice/04-field-superposition-equilibrium/solutions.md
+            - Bài 5 — Công của lực điện, điện thế và hiệu điện thế:
+              - Bài tập: physics/high-school/grade-11/03-electric-field/practice/05-work-potential-voltage/exercises.md
+              - Đáp án và lời giải: physics/high-school/grade-11/03-electric-field/practice/05-work-potential-voltage/solutions.md
+            - Bài 6 — Tụ điện, điện dung và năng lượng:
+              - Bài tập: physics/high-school/grade-11/03-electric-field/practice/06-capacitors/exercises.md
+              - Đáp án và lời giải: physics/high-school/grade-11/03-electric-field/practice/06-capacitors/solutions.md
+            - Bài 7 — Chuyển động của điện tích trong điện trường đều:
+              - Bài tập: physics/high-school/grade-11/03-electric-field/practice/07-charged-particle-motion/exercises.md
+              - Đáp án và lời giải: physics/high-school/grade-11/03-electric-field/practice/07-charged-particle-motion/solutions.md
+            - Bài 8 — Ghép tụ và các bài toán tụ điện nâng cao:
+              - Bài tập: physics/high-school/grade-11/03-electric-field/practice/08-advanced-capacitors/exercises.md
+              - Đáp án và lời giải: physics/high-school/grade-11/03-electric-field/practice/08-advanced-capacitors/solutions.md
+            - Bài 9 — Cân bằng điện tích và con lắc trong điện trường:
+              - Bài tập: physics/high-school/grade-11/03-electric-field/practice/09-electrostatic-equilibrium-charged-pendulum/exercises.md
+              - Đáp án và lời giải: physics/high-school/grade-11/03-electric-field/practice/09-electrostatic-equilibrium-charged-pendulum/solutions.md
+          - Bài tập tổng hợp chương: physics/high-school/grade-11/03-electric-field/exercises.md
+          - Đáp án tổng hợp chương: physics/high-school/grade-11/03-electric-field/solutions.md
+          - Kiểm tra cuối chương: physics/high-school/grade-11/03-electric-field/quiz.md
+        - Chương 4 — Dòng điện và mạch điện:
+          - Tổng quan: physics/high-school/grade-11/04-current-circuits/index.md
+          - Bài 1 — Dòng điện và cường độ dòng điện: physics/high-school/grade-11/04-current-circuits/01-current-intensity.md
+          - Bài 2 — Điện trở và định luật Ohm: physics/high-school/grade-11/04-current-circuits/02-resistance-ohm-law.md
+          - Bài 3 — Nguồn điện và suất điện động: physics/high-school/grade-11/04-current-circuits/03-emf-internal-resistance.md
+          - Bài 4 — Năng lượng và công suất điện: physics/high-school/grade-11/04-current-circuits/04-energy-power-joule.md
+          - Bài 5 — Định luật Ohm toàn mạch: physics/high-school/grade-11/04-current-circuits/05-full-circuit-ohm-law.md
+          - Bài 6 — Ghép nguồn: physics/high-school/grade-11/04-current-circuits/06-source-combinations.md
+          - Bài 7 — Đọc và biến đổi mạch: physics/high-school/grade-11/04-current-circuits/07-circuit-reading-meters.md
+          - Bài 8 — Phương pháp mạch nâng cao: physics/high-school/grade-11/04-current-circuits/08-advanced-circuit-methods.md
+          - Bài 9 — Thực hành đo nguồn điện: physics/high-school/grade-11/04-current-circuits/09-practical-emf-internal-resistance.md
+          - Bài 10 — Nguồn, máy thu và nhánh tụ: physics/high-school/grade-11/04-current-circuits/10-source-receiver-capacitor-branches.md
+          - Luyện tập theo từng bài:
+            - Tổng quan: physics/high-school/grade-11/04-current-circuits/practice/index.md
+            - Bài 1 — Dòng điện và cường độ dòng điện:
+              - Bài tập: physics/high-school/grade-11/04-current-circuits/practice/01-current-intensity/exercises.md
+              - Đáp án và lời giải: physics/high-school/grade-11/04-current-circuits/practice/01-current-intensity/solutions.md
+            - Bài 2 — Điện trở và định luật Ohm cho đoạn mạch:
+              - Bài tập: physics/high-school/grade-11/04-current-circuits/practice/02-resistance-ohm-law/exercises.md
+              - Đáp án và lời giải: physics/high-school/grade-11/04-current-circuits/practice/02-resistance-ohm-law/solutions.md
+            - Bài 3 — Nguồn điện, suất điện động và điện trở trong:
+              - Bài tập: physics/high-school/grade-11/04-current-circuits/practice/03-emf-internal-resistance/exercises.md
+              - Đáp án và lời giải: physics/high-school/grade-11/04-current-circuits/practice/03-emf-internal-resistance/solutions.md
+            - Bài 4 — Năng lượng điện, công suất và định luật Joule–Lenz:
+              - Bài tập: physics/high-school/grade-11/04-current-circuits/practice/04-energy-power-joule/exercises.md
+              - Đáp án và lời giải: physics/high-school/grade-11/04-current-circuits/practice/04-energy-power-joule/solutions.md
+            - Bài 5 — Định luật Ohm cho toàn mạch:
+              - Bài tập: physics/high-school/grade-11/04-current-circuits/practice/05-full-circuit-ohm-law/exercises.md
+              - Đáp án và lời giải: physics/high-school/grade-11/04-current-circuits/practice/05-full-circuit-ohm-law/solutions.md
+            - Bài 6 — Ghép nguồn thành bộ:
+              - Bài tập: physics/high-school/grade-11/04-current-circuits/practice/06-source-combinations/exercises.md
+              - Đáp án và lời giải: physics/high-school/grade-11/04-current-circuits/practice/06-source-combinations/solutions.md
+            - Bài 7 — Đọc và biến đổi mạch; ampe kế, vôn kế lí tưởng:
+              - Bài tập: physics/high-school/grade-11/04-current-circuits/practice/07-circuit-reading-meters/exercises.md
+              - Đáp án và lời giải: physics/high-school/grade-11/04-current-circuits/practice/07-circuit-reading-meters/solutions.md
+            - Bài 8 — Kirchhoff, xếp chồng, nguồn tương đương và mạch RC:
+              - Bài tập: physics/high-school/grade-11/04-current-circuits/practice/08-advanced-circuit-methods/exercises.md
+              - Đáp án và lời giải: physics/high-school/grade-11/04-current-circuits/practice/08-advanced-circuit-methods/solutions.md
+            - Bài 9 — Thực hành đo suất điện động và điện trở trong của pin:
+              - Bài tập: physics/high-school/grade-11/04-current-circuits/practice/09-practical-emf-internal-resistance/exercises.md
+              - Đáp án và lời giải: physics/high-school/grade-11/04-current-circuits/practice/09-practical-emf-internal-resistance/solutions.md
+            - Bài 10 — Đoạn mạch chứa nguồn, máy thu và tụ điện:
+              - Bài tập: physics/high-school/grade-11/04-current-circuits/practice/10-source-receiver-capacitor-branches/exercises.md
+              - Đáp án và lời giải: physics/high-school/grade-11/04-current-circuits/practice/10-source-receiver-capacitor-branches/solutions.md
+          - Bài tập tổng hợp chương: physics/high-school/grade-11/04-current-circuits/exercises.md
+          - Đáp án tổng hợp chương: physics/high-school/grade-11/04-current-circuits/solutions.md
+          - Kiểm tra cuối chương: physics/high-school/grade-11/04-current-circuits/quiz.md
+        - Chương 5 — Dòng điện trong các môi trường:
+          - Tổng quan: physics/high-school/grade-11/05-current-media/index.md
+          - Bài 1 — Dòng điện trong kim loại: physics/high-school/grade-11/05-current-media/01-current-in-metals.md
+          - Bài 2 — Dòng điện trong chất điện phân: physics/high-school/grade-11/05-current-media/02-electrolytes-faraday.md
+          - Bài 3 — Dòng điện trong chất khí: physics/high-school/grade-11/05-current-media/03-current-in-gases.md
+          - Bài 4 — Dòng điện trong chất bán dẫn: physics/high-school/grade-11/05-current-media/04-semiconductors.md
+          - Bài 5 — Dòng điện trong chân không: physics/high-school/grade-11/05-current-media/05-vacuum-photoelectric-cell.md
+          - Luyện tập theo từng bài:
+            - Tổng quan: physics/high-school/grade-11/05-current-media/practice/index.md
+            - Bài 1 — Dòng điện trong kim loại:
+              - Bài tập: physics/high-school/grade-11/05-current-media/practice/01-current-in-metals/exercises.md
+              - Đáp án và lời giải: physics/high-school/grade-11/05-current-media/practice/01-current-in-metals/solutions.md
+            - Bài 2 — Dòng điện trong chất điện phân và định luật Faraday:
+              - Bài tập: physics/high-school/grade-11/05-current-media/practice/02-electrolytes-faraday/exercises.md
+              - Đáp án và lời giải: physics/high-school/grade-11/05-current-media/practice/02-electrolytes-faraday/solutions.md
+            - Bài 3 — Dòng điện trong chất khí:
+              - Bài tập: physics/high-school/grade-11/05-current-media/practice/03-current-in-gases/exercises.md
+              - Đáp án và lời giải: physics/high-school/grade-11/05-current-media/practice/03-current-in-gases/solutions.md
+            - Bài 4 — Dòng điện trong chất bán dẫn:
+              - Bài tập: physics/high-school/grade-11/05-current-media/practice/04-semiconductors/exercises.md
+              - Đáp án và lời giải: physics/high-school/grade-11/05-current-media/practice/04-semiconductors/solutions.md
+            - Bài 5 — Dòng điện trong chân không, tia catot và tế bào quang điện:
+              - Bài tập: physics/high-school/grade-11/05-current-media/practice/05-vacuum-photoelectric-cell/exercises.md
+              - Đáp án và lời giải: physics/high-school/grade-11/05-current-media/practice/05-vacuum-photoelectric-cell/solutions.md
+          - Bài tập tổng hợp chương: physics/high-school/grade-11/05-current-media/exercises.md
+          - Đáp án tổng hợp chương: physics/high-school/grade-11/05-current-media/solutions.md
+          - Kiểm tra cuối chương: physics/high-school/grade-11/05-current-media/quiz.md
+        - Chương 6 — Từ trường và cảm ứng từ:
+          - Tổng quan: physics/high-school/grade-11/06-magnetism/index.md
+          - Bài 1 — Từ trường và đường sức: physics/high-school/grade-11/06-magnetism/01-magnetic-field-field-lines.md
+          - Bài 2 — Lực từ lên dòng điện: physics/high-school/grade-11/06-magnetism/02-magnetic-force-current-wire.md
+          - Bài 3 — Từ trường của dòng điện: physics/high-school/grade-11/06-magnetism/03-fields-of-currents-superposition.md
+          - Bài 4 — Dòng song song và khung dây: physics/high-school/grade-11/06-magnetism/04-parallel-currents-current-loop.md
+          - Bài 5 — Lực Lorentz: physics/high-school/grade-11/06-magnetism/05-lorentz-force-charged-particle.md
+          - Luyện tập theo từng bài:
+            - Tổng quan: physics/high-school/grade-11/06-magnetism/practice/index.md
+            - Bài 1 — Từ trường, đường sức từ và cảm ứng từ:
+              - Bài tập: physics/high-school/grade-11/06-magnetism/practice/01-magnetic-field-field-lines/exercises.md
+              - Đáp án và lời giải: physics/high-school/grade-11/06-magnetism/practice/01-magnetic-field-field-lines/solutions.md
+            - Bài 2 — Lực từ tác dụng lên dòng điện:
+              - Bài tập: physics/high-school/grade-11/06-magnetism/practice/02-magnetic-force-current-wire/exercises.md
+              - Đáp án và lời giải: physics/high-school/grade-11/06-magnetism/practice/02-magnetic-force-current-wire/solutions.md
+            - Bài 3 — Từ trường của dòng điện và nguyên lí chồng chất:
+              - Bài tập: physics/high-school/grade-11/06-magnetism/practice/03-fields-of-currents-superposition/exercises.md
+              - Đáp án và lời giải: physics/high-school/grade-11/06-magnetism/practice/03-fields-of-currents-superposition/solutions.md
+            - Bài 4 — Hai dòng điện song song, khung dây và mômen từ:
+              - Bài tập: physics/high-school/grade-11/06-magnetism/practice/04-parallel-currents-current-loop/exercises.md
+              - Đáp án và lời giải: physics/high-school/grade-11/06-magnetism/practice/04-parallel-currents-current-loop/solutions.md
+            - Bài 5 — Lực Lorentz và chuyển động của hạt mang điện:
+              - Bài tập: physics/high-school/grade-11/06-magnetism/practice/05-lorentz-force-charged-particle/exercises.md
+              - Đáp án và lời giải: physics/high-school/grade-11/06-magnetism/practice/05-lorentz-force-charged-particle/solutions.md
+          - Bài tập tổng hợp chương: physics/high-school/grade-11/06-magnetism/exercises.md
+          - Đáp án tổng hợp chương: physics/high-school/grade-11/06-magnetism/solutions.md
+          - Kiểm tra cuối chương: physics/high-school/grade-11/06-magnetism/quiz.md
+        - Chương 7 — Cảm ứng điện từ:
+          - Tổng quan: physics/high-school/grade-11/07-electromagnetic-induction/index.md
+          - Bài 1 — Từ thông và cảm ứng: physics/high-school/grade-11/07-electromagnetic-induction/01-magnetic-flux-induction.md
+          - Bài 2 — Faraday và Lenz: physics/high-school/grade-11/07-electromagnetic-induction/02-lenz-faraday-law.md
+          - Bài 3 — Suất điện động do chuyển động: physics/high-school/grade-11/07-electromagnetic-induction/03-motional-emf.md
+          - Bài 4 — Tự cảm và năng lượng từ: physics/high-school/grade-11/07-electromagnetic-induction/04-self-induction-energy.md
+          - Luyện tập theo từng bài:
+            - Tổng quan: physics/high-school/grade-11/07-electromagnetic-induction/practice/index.md
+            - Bài 1 — Từ thông và hiện tượng cảm ứng điện từ:
+              - Bài tập: physics/high-school/grade-11/07-electromagnetic-induction/practice/01-magnetic-flux-induction/exercises.md
+              - Đáp án và lời giải: physics/high-school/grade-11/07-electromagnetic-induction/practice/01-magnetic-flux-induction/solutions.md
+            - Bài 2 — Định luật Faraday và định luật Lenz:
+              - Bài tập: physics/high-school/grade-11/07-electromagnetic-induction/practice/02-lenz-faraday-law/exercises.md
+              - Đáp án và lời giải: physics/high-school/grade-11/07-electromagnetic-induction/practice/02-lenz-faraday-law/solutions.md
+            - Bài 3 — Suất điện động cảm ứng do chuyển động:
+              - Bài tập: physics/high-school/grade-11/07-electromagnetic-induction/practice/03-motional-emf/exercises.md
+              - Đáp án và lời giải: physics/high-school/grade-11/07-electromagnetic-induction/practice/03-motional-emf/solutions.md
+            - Bài 4 — Tự cảm và năng lượng từ trường:
+              - Bài tập: physics/high-school/grade-11/07-electromagnetic-induction/practice/04-self-induction-energy/exercises.md
+              - Đáp án và lời giải: physics/high-school/grade-11/07-electromagnetic-induction/practice/04-self-induction-energy/solutions.md
+          - Bài tập tổng hợp chương: physics/high-school/grade-11/07-electromagnetic-induction/exercises.md
+          - Đáp án tổng hợp chương: physics/high-school/grade-11/07-electromagnetic-induction/solutions.md
+          - Kiểm tra cuối chương: physics/high-school/grade-11/07-electromagnetic-induction/quiz.md
+        - Chương 8 — Khúc xạ ánh sáng và quang hình:
+          - Tổng quan: physics/high-school/grade-11/08-geometrical-optics/index.md
+          - Bài 1 — Khúc xạ và chiết suất: physics/high-school/grade-11/08-geometrical-optics/01-refraction-refractive-index.md
+          - Bài 2 — Bản mặt song song: physics/high-school/grade-11/08-geometrical-optics/02-parallel-slab-apparent-depth.md
+          - Bài 3 — Phản xạ toàn phần: physics/high-school/grade-11/08-geometrical-optics/03-total-internal-reflection.md
+          - Bài 4 — Lăng kính và tán sắc: physics/high-school/grade-11/08-geometrical-optics/04-prism-dispersion.md
+          - Bài 5 — Thấu kính mỏng và dựng ảnh: physics/high-school/grade-11/08-geometrical-optics/05-thin-lenses-image-construction.md
+          - Bài 6 — Phương pháp bài toán thấu kính: physics/high-school/grade-11/08-geometrical-optics/06-lens-problem-methods.md
+          - Bài 7 — Mắt và các tật của mắt: physics/high-school/grade-11/08-geometrical-optics/07-eye-and-defects.md
+          - Bài 8 — Dụng cụ quang: physics/high-school/grade-11/08-geometrical-optics/08-optical-instruments.md
+          - Luyện tập theo từng bài:
+            - Tổng quan: physics/high-school/grade-11/08-geometrical-optics/practice/index.md
+            - Bài 1 — Khúc xạ ánh sáng và chiết suất:
+              - Bài tập: physics/high-school/grade-11/08-geometrical-optics/practice/01-refraction-refractive-index/exercises.md
+              - Đáp án và lời giải: physics/high-school/grade-11/08-geometrical-optics/practice/01-refraction-refractive-index/solutions.md
+            - Bài 2 — Bản mặt song song và độ sâu biểu kiến:
+              - Bài tập: physics/high-school/grade-11/08-geometrical-optics/practice/02-parallel-slab-apparent-depth/exercises.md
+              - Đáp án và lời giải: physics/high-school/grade-11/08-geometrical-optics/practice/02-parallel-slab-apparent-depth/solutions.md
+            - Bài 3 — Phản xạ toàn phần:
+              - Bài tập: physics/high-school/grade-11/08-geometrical-optics/practice/03-total-internal-reflection/exercises.md
+              - Đáp án và lời giải: physics/high-school/grade-11/08-geometrical-optics/practice/03-total-internal-reflection/solutions.md
+            - Bài 4 — Lăng kính và tán sắc:
+              - Bài tập: physics/high-school/grade-11/08-geometrical-optics/practice/04-prism-dispersion/exercises.md
+              - Đáp án và lời giải: physics/high-school/grade-11/08-geometrical-optics/practice/04-prism-dispersion/solutions.md
+            - Bài 5 — Thấu kính mỏng và dựng ảnh:
+              - Bài tập: physics/high-school/grade-11/08-geometrical-optics/practice/05-thin-lenses-image-construction/exercises.md
+              - Đáp án và lời giải: physics/high-school/grade-11/08-geometrical-optics/practice/05-thin-lenses-image-construction/solutions.md
+            - Bài 6 — Phương pháp bài toán thấu kính:
+              - Bài tập: physics/high-school/grade-11/08-geometrical-optics/practice/06-lens-problem-methods/exercises.md
+              - Đáp án và lời giải: physics/high-school/grade-11/08-geometrical-optics/practice/06-lens-problem-methods/solutions.md
+            - Bài 7 — Mắt và các tật của mắt:
+              - Bài tập: physics/high-school/grade-11/08-geometrical-optics/practice/07-eye-and-defects/exercises.md
+              - Đáp án và lời giải: physics/high-school/grade-11/08-geometrical-optics/practice/07-eye-and-defects/solutions.md
+            - Bài 8 — Kính lúp, kính hiển vi và kính thiên văn:
+              - Bài tập: physics/high-school/grade-11/08-geometrical-optics/practice/08-optical-instruments/exercises.md
+              - Đáp án và lời giải: physics/high-school/grade-11/08-geometrical-optics/practice/08-optical-instruments/solutions.md
+          - Bài tập tổng hợp chương: physics/high-school/grade-11/08-geometrical-optics/exercises.md
+          - Đáp án tổng hợp chương: physics/high-school/grade-11/08-geometrical-optics/solutions.md
+          - Kiểm tra cuối chương: physics/high-school/grade-11/08-geometrical-optics/quiz.md
+- Kỹ thuật biên soạn:
+  - Tổng quan: technical/index.md
+  - Quy chuẩn nội dung: technical/editorial-guide.md
+  - Chuẩn bài tập và lời giải: technical/exercise-solution-standard.md
+  - Kiểm soát độ bao phủ: technical/content-coverage.md
+  - Kiểm tra website và LaTeX: technical/site-quality.md

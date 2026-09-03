@@ -157,6 +157,13 @@ Phản xạ toàn phần xảy ra khi ánh sáng đi từ môi trường chiết
 4. i=ic → tia khúc xạ sát mặt.
 5. Sợi quang dựa trên phản xạ toàn phần.
 
+
+<!-- LESSON_PRACTICE_LINKS -->
+## Luyện tập sau bài
+
+- [Bài tập theo bài](practice/03-total-internal-reflection/exercises.md)
+- [Đáp án và lời giải](practice/03-total-internal-reflection/solutions.md)
+
 ---
 
 [← Bài 2](02-parallel-slab-apparent-depth.md) | [↑ Chương](index.md) | [Bài 4 →](04-prism-dispersion.md)

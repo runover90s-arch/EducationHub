@@ -251,6 +251,13 @@ Hạt q dương bay ngang vào trường E hướng lên. Quỹ đạo cong lên
 4. Đổi đơn vị electron/proton cẩn thận.
 5. Kiểm tra xem trọng lực có được bỏ qua không.
 
+
+<!-- LESSON_PRACTICE_LINKS -->
+## Luyện tập sau bài
+
+- [Bài tập theo bài](practice/07-charged-particle-motion/exercises.md)
+- [Đáp án và lời giải](practice/07-charged-particle-motion/solutions.md)
+
 ---
 
 [← Bài 6](06-capacitors.md) | [↑ Chương](index.md) | [Bài 8 →](08-advanced-capacitors.md)

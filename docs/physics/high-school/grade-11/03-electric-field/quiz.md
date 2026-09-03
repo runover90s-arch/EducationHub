@@ -1,5 +1,5 @@
 ---
-title: "Quiz Chương 3 — Điện trường"
+title: "Kiểm tra Chương 3 — Điện trường"
 description: "Bài kiểm tra nhanh về điện tích, Coulomb, điện trường, điện thế và tụ điện."
 order: 11
 difficulty: "mixed"
@@ -10,7 +10,7 @@ tags:
   - quiz
 ---
 
-# Quiz Chương 3 — Điện trường
+# Kiểm tra Chương 3 — Điện trường
 
 ## Trắc nghiệm
 

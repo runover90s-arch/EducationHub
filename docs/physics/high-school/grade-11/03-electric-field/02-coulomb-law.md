@@ -192,6 +192,13 @@ Nếu dùng $\mu$C và cm mà không đổi, sai thường rất lớn.
 4. Lực Coulomb tỉ lệ nghịch bình phương khoảng cách.
 5. Vẽ vectơ trước khi bấm máy.
 
+
+<!-- LESSON_PRACTICE_LINKS -->
+## Luyện tập sau bài
+
+- [Bài tập theo bài](practice/02-coulomb-law/exercises.md)
+- [Đáp án và lời giải](practice/02-coulomb-law/solutions.md)
+
 ---
 
 [← Bài 1](01-electron-theory-charge-conservation.md) | [↑ Chương](index.md) | [Bài 3 →](03-electric-field-intensity.md)

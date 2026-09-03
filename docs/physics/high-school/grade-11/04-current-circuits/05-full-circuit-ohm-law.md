@@ -187,6 +187,13 @@ Nếu U giảm tuyến tính 0,5 V khi I tăng 1 A, độ dốc -0,5 V/A → r=0
 4. U cực giảm khi dòng tải tăng.
 5. Công suất tải cực đại khác hiệu suất cực đại.
 
+
+<!-- LESSON_PRACTICE_LINKS -->
+## Luyện tập sau bài
+
+- [Bài tập theo bài](practice/05-full-circuit-ohm-law/exercises.md)
+- [Đáp án và lời giải](practice/05-full-circuit-ohm-law/solutions.md)
+
 ---
 
 [← Bài 4](04-energy-power-joule.md) | [↑ Chương](index.md) | [Bài 6 →](06-source-combinations.md)

@@ -199,6 +199,13 @@ Hai dòng song song cùng chiều hút, ngược chiều đẩy với $F/l=\mu_0
 4. $\theta$ đo từ pháp tuyến mặt khung đến B.
 5. Động cơ biến điện năng thành cơ năng thông qua mômen từ.
 
+
+<!-- LESSON_PRACTICE_LINKS -->
+## Luyện tập sau bài
+
+- [Bài tập theo bài](practice/04-parallel-currents-current-loop/exercises.md)
+- [Đáp án và lời giải](practice/04-parallel-currents-current-loop/solutions.md)
+
 ---
 
 [← Bài 3](03-fields-of-currents-superposition.md) | [↑ Chương](index.md) | [Bài 5 →](05-lorentz-force-charged-particle.md)

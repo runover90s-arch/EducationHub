@@ -126,6 +126,13 @@ Chất khí dẫn điện khi có đủ hạt mang điện. Ion hóa tạo elect
 4. Phóng điện khí thường phi tuyến.
 5. Điện áp cao là nguy hiểm thực tế, không chỉ là dữ kiện bài tập.
 
+
+<!-- LESSON_PRACTICE_LINKS -->
+## Luyện tập sau bài
+
+- [Bài tập theo bài](practice/03-current-in-gases/exercises.md)
+- [Đáp án và lời giải](practice/03-current-in-gases/solutions.md)
+
 ---
 
 [← Bài 2](02-electrolytes-faraday.md) | [↑ Chương](index.md) | [Bài 4 →](04-semiconductors.md)

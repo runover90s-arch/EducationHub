@@ -222,6 +222,13 @@ Hai điện tích $+Q$ và $-Q$, điểm M cách hai nguồn bằng nhau. Điệ
 4. E hướng về phía V giảm.
 5. Dấu q quyết định liên hệ giữa V và thế năng qV.
 
+
+<!-- LESSON_PRACTICE_LINKS -->
+## Luyện tập sau bài
+
+- [Bài tập theo bài](practice/05-work-potential-voltage/exercises.md)
+- [Đáp án và lời giải](practice/05-work-potential-voltage/solutions.md)
+
 ---
 
 [← Bài 4](04-field-superposition-equilibrium.md) | [↑ Chương](index.md) | [Bài 6 →](06-capacitors.md)

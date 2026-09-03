@@ -597,7 +597,7 @@ $$
 
 # Bài tập
 
-## Level 1 — Nhận biết
+## Mức 1 — Nhận biết
 
 ### Câu 1
 
@@ -658,7 +658,7 @@ D. $10$ s.
 
 ---
 
-## Level 2 — Thông hiểu
+## Mức 2 — Thông hiểu
 
 ### Câu 6
 
@@ -704,7 +704,7 @@ Tính:
 
 ---
 
-## Level 2 — Đúng/Sai
+## Mức 2 — Đúng/Sai
 
 ### Câu 10
 
@@ -736,7 +736,7 @@ Hãy xác định đúng hoặc sai.
 
 ---
 
-## Level 3 — Vận dụng
+## Mức 3 — Vận dụng
 
 ### Câu 12
 
@@ -975,6 +975,13 @@ Trong $3$ s, số dao động toàn phần là $N=f\Delta t=1\cdot3=3$.
 3. Li độ có thể âm; quãng đường không âm.
 4. Cùng vị trí chưa chắc cùng trạng thái.
 5. Muốn đọc chu kì từ đồ thị, phải chọn hai trạng thái lặp lại như cũ.
+
+
+<!-- LESSON_PRACTICE_LINKS -->
+## Luyện tập sau bài
+
+- [Bài tập theo bài](practice/01-harmonic-oscillation-foundations/exercises.md)
+- [Đáp án và lời giải](practice/01-harmonic-oscillation-foundations/solutions.md)
 
 ---
 

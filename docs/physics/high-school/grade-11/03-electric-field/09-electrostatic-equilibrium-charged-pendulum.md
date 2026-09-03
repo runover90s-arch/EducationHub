@@ -237,6 +237,13 @@ Bài cân bằng điện tích là bài **vectơ và điều kiện hình học*
 4. Vật treo trong điện trường ngang: $\tan\alpha=|q|E/(mg)$.
 5. Luôn kiểm tra hướng trước khi lấy độ lớn.
 
+
+<!-- LESSON_PRACTICE_LINKS -->
+## Luyện tập sau bài
+
+- [Bài tập theo bài](practice/09-electrostatic-equilibrium-charged-pendulum/exercises.md)
+- [Đáp án và lời giải](practice/09-electrostatic-equilibrium-charged-pendulum/solutions.md)
+
 ---
 
 [← Bài 8](08-advanced-capacitors.md) | [↑ Chương](index.md) | [Bài tập →](exercises.md)

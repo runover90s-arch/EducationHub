@@ -214,6 +214,13 @@ Faraday cho độ lớn/tốc độ biến thiên từ thông; Lenz cho chiều.
 4. B không đổi và hình học không đổi → E cảm ứng bằng 0.
 5. Chiều cảm ứng phù hợp bảo toàn năng lượng.
 
+
+<!-- LESSON_PRACTICE_LINKS -->
+## Luyện tập sau bài
+
+- [Bài tập theo bài](practice/02-lenz-faraday-law/exercises.md)
+- [Đáp án và lời giải](practice/02-lenz-faraday-law/solutions.md)
+
 ---
 
 [← Bài 1](01-magnetic-flux-induction.md) | [↑ Chương](index.md) | [Bài 3 →](03-motional-emf.md)

@@ -89,11 +89,11 @@ Người học lần đầu nên đi tuần tự. Người ôn tập có thể d
 
 ## Phân tầng
 
-- **Level 1 — Foundation:** định nghĩa, đại lượng, công thức nền.
-- **Level 2 — Standard:** bài chuẩn và liên hệ trực tiếp.
-- **Level 3 — Applied:** bài nhiều bước, đồ thị, phối hợp kiến thức.
-- **Level 4 — Advanced:** bài tổng hợp, biến đổi cấu hình, phương pháp mạch nâng cao.
-- **Level 5 — Enrichment:** mở rộng giúp nối sang tư duy đại học; không trộn vào phần nền.
+- **Mức 1 — Nền tảng:** định nghĩa, đại lượng, công thức nền.
+- **Mức 2 — Chuẩn:** bài chuẩn và liên hệ trực tiếp.
+- **Mức 3 — Vận dụng:** bài nhiều bước, đồ thị, phối hợp kiến thức.
+- **Mức 4 — Nâng cao:** bài tổng hợp, biến đổi cấu hình, phương pháp mạch nâng cao.
+- **Mức 5 — Mở rộng:** mở rộng giúp nối sang tư duy đại học; không trộn vào phần nền.
 
 > Đây là cách phân loại phục vụ mục đích sư phạm, không phải phân loại học thuật chính thức.
 
@@ -102,3 +102,4 @@ Người học lần đầu nên đi tuần tự. Người ôn tập có thể d
 - [Lộ trình học](roadmap.md)
 - [Bản đồ kiến thức](knowledge-map.md)
 - [Thuật ngữ](glossary.md)
+- [Ngân hàng bài tập](practice.md)

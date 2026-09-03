@@ -35,8 +35,10 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Check Markdown, LaTeX, layout and rendered HTML
-        run: python tools/check_site.py
+      - name: Check exercises, Markdown, LaTeX, layout and rendered HTML
+        run: |
+          python tools/check_practice_bank.py
+          python tools/check_site.py
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5

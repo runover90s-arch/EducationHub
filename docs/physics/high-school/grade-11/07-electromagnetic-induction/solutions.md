@@ -6,7 +6,7 @@ order: 91
 
 # Lời giải Chương 7 — Cảm ứng điện từ
 
-## Level 1
+## Mức 1
 
 ### Câu 1
 $\theta=0$:
@@ -36,7 +36,7 @@ $$
 |\mathcal E|=100\frac{0,5\times10^{-3}}{0,020}=2,5\,\text V.
 $$
 
-## Level 2
+## Mức 2
 
 ### Câu 7
 Góc B với mặt là 30°, nên góc với pháp tuyến là 60°.
@@ -83,7 +83,7 @@ $$
 \mathcal E=Blv=0,50\cdot0,30\cdot4=0,60\,\text V.
 $$
 
-## Level 3
+## Mức 3
 
 ### Câu 13
 Dòng:
@@ -167,7 +167,7 @@ $$
 
 Vì I đang giảm, suất tự cảm có xu hướng **duy trì dòng theo chiều cũ**.
 
-## Level 4
+## Mức 4
 
 ### Câu 21
 Ở vận tốc ổn định, lực kéo bằng lực từ:
@@ -262,4 +262,4 @@ có thể lớn, tạo điện áp cao giữa hai tiếp điểm công tắc. N�
 
 ---
 
-[← Bài tập](exercises.md) | [Quiz →](quiz.md)
+[← Bài tập](exercises.md) | [Kiểm tra cuối chương →](quiz.md)

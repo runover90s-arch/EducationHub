@@ -77,13 +77,13 @@ Mỗi công thức quan trọng phải có:
 
 ## 6. Mức kiến thức
 
-- Level 1 — Foundation
-- Level 2 — Standard
-- Level 3 — Applied
-- Level 4 — Advanced
-- Level 5 — Enrichment
+- Mức 1 — Nền tảng
+- Mức 2 — Chuẩn
+- Mức 3 — Vận dụng
+- Mức 4 — Nâng cao
+- Mức 5 — Mở rộng
 
-Nội dung Level 4–5 phải tách khỏi luồng nền tảng.
+Nội dung Mức 4–5 phải tách khỏi luồng nền tảng.
 
 ## 7. Cách viết
 

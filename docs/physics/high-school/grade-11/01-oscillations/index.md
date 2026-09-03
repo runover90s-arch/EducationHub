@@ -21,11 +21,12 @@ Chương này xây dựng từ mô tả chuyển động qua lại quanh vị tr
 5. [Bài 5 — Con lắc đơn](05-simple-pendulum.md)
 6. [Bài 6 — Năng lượng trong dao động](06-oscillation-energy.md)
 7. [Bài 7 — Tổng hợp dao động, tắt dần, cưỡng bức và cộng hưởng](07-combined-damped-forced-resonance.md)
-8. [Bài tập chương](exercises.md)
-9. [Lời giải chi tiết](solutions.md)
-10. [Quiz cuối chương](quiz.md)
+8. [Bài tập theo từng bài](practice/index.md)
+9. [Bài tập chương](exercises.md)
+10. [Lời giải chi tiết](solutions.md)
+11. [Kiểm tra cuối chương](quiz.md)
 
-## Prerequisite chính
+## Kiến thức tiên quyết chính
 
 - hàm sin, cos và radian;
 - đạo hàm cơ bản của hàm lượng giác;

@@ -16,7 +16,7 @@ tags:
 
 Các câu được sắp theo kĩ năng thay vì chỉ thay số. Dữ kiện được viết ngắn, trực tiếp, theo phong cách bài tập phổ thông.
 
-## Level 1 — Nhận biết và đọc đại lượng
+## Mức 1 — Nhận biết và đọc đại lượng
 
 ### Câu 1
 Một vật dao động điều hòa theo phương trình $x=5\cos(4\pi t-\pi/3)$ cm. Xác định:
@@ -58,7 +58,7 @@ B. Cơ năng thường giảm do lực cản.
 C. Tần số ngoại lực luôn bằng tần số riêng.  
 D. Không có lực cản.
 
-## Level 2 — Li độ, vận tốc, gia tốc và pha
+## Mức 2 — Li độ, vận tốc, gia tốc và pha
 
 ### Câu 9
 Vật dao động điều hòa có $A=6$ cm và $\omega=10$ rad/s. Tại $x=3$ cm, tính độ lớn vận tốc.
@@ -85,7 +85,7 @@ Vật dao động với $A=5$ cm, $T=0,8$ s. Tính quãng đường vật đi tr
 ### Câu 16
 Vật dao động điều hòa có $A=8$ cm. Trong khoảng thời gian đúng bằng $T/2$, quãng đường vật đi được có phụ thuộc thời điểm bắt đầu không? Tính giá trị đó.
 
-## Level 3 — Con lắc và năng lượng
+## Mức 3 — Con lắc và năng lượng
 
 ### Câu 17
 Một con lắc lò xo treo thẳng đứng. Tại vị trí cân bằng, lò xo dãn $4$ cm. Lấy $g=10$ m/s². Tính $\omega$ và $T$.
@@ -123,7 +123,7 @@ Con lắc đơn dài $0,80$ m, dao động với biên độ góc nhỏ $\alpha_
 ### Câu 27
 Một con lắc đơn có biên độ góc $\alpha_0$. Viết lực căng dây tại vị trí có góc lệch $\alpha$ theo $m,g,\alpha,\alpha_0$ mà không dùng gần đúng góc nhỏ trong biểu thức năng lượng.
 
-## Level 4 — Vận dụng tổng hợp
+## Mức 4 — Vận dụng tổng hợp
 
 ### Câu 28
 Một vật dao động điều hòa với $A=10$ cm, $T=2$ s. Tại $t=0$, vật đi qua vị trí $x=5$ cm theo chiều âm. Viết phương trình dao động dưới dạng cos.
@@ -162,7 +162,7 @@ b) lực đàn hồi lớn nhất;
 c) lực đàn hồi nhỏ nhất;  
 d) vật có đi qua trạng thái lò xo không biến dạng không?
 
-## Level 5 — Thử thách
+## Mức 5 — Thử thách
 
 ### Câu 36
 Một vật dao động điều hòa có biên độ $A$. Tại hai thời điểm cách nhau $T/3$, vật có cùng li độ. Chứng minh rằng nếu hai thời điểm không trùng nhau theo modulo $T$, các vận tốc tại hai thời điểm đó có độ lớn bằng nhau và trái dấu. Từ đó tìm các giá trị li độ có thể có nếu khoảng cách pha đúng bằng $2\pi/3$.

@@ -185,6 +185,13 @@ $\mathcal E_b=4E$, $r_b=4r/3$.
 4. N=mn.
 5. Tối ưu không bỏ qua giới hạn thiết bị.
 
+
+<!-- LESSON_PRACTICE_LINKS -->
+## Luyện tập sau bài
+
+- [Bài tập theo bài](practice/06-source-combinations/exercises.md)
+- [Đáp án và lời giải](practice/06-source-combinations/solutions.md)
+
 ---
 
 [← Bài 5](05-full-circuit-ohm-law.md) | [↑ Chương](index.md) | [Bài 7 →](07-circuit-reading-meters.md)

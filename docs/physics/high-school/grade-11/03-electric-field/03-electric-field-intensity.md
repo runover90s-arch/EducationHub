@@ -183,6 +183,13 @@ Không kéo mô hình đến $r=0$ đối với vật có kích thước hữu h
 4. Đường sức không cắt nhau.
 5. Điện trường đều có E không đổi theo vị trí.
 
+
+<!-- LESSON_PRACTICE_LINKS -->
+## Luyện tập sau bài
+
+- [Bài tập theo bài](practice/03-electric-field-intensity/exercises.md)
+- [Đáp án và lời giải](practice/03-electric-field-intensity/solutions.md)
+
 ---
 
 [← Bài 2](02-coulomb-law.md) | [↑ Chương](index.md) | [Bài 4 →](04-field-superposition-equilibrium.md)

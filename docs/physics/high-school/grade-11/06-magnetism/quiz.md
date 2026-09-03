@@ -1,10 +1,10 @@
 ---
-title: "Quiz Chương 6 — Từ trường và cảm ứng từ"
+title: "Kiểm tra Chương 6 — Từ trường và cảm ứng từ"
 description: "10 câu kiểm tra nhanh kiến thức từ trường."
 order: 92
 ---
 
-# Quiz Chương 6 — Từ trường và cảm ứng từ
+# Kiểm tra Chương 6 — Từ trường và cảm ứng từ
 
 ## Câu 1
 Dòng điện thẳng dài tăng gấp đôi, khoảng cách tới điểm xét giữ nguyên. B tại điểm đó:

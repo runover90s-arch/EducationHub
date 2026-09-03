@@ -9,7 +9,7 @@ difficulty: "foundation-advanced"
 
 > Bài tập được biên soạn theo các họ bài quen thuộc của Vật lí 11: câu chữ ngắn, dữ kiện đủ, độ khó tăng theo ý tưởng chứ không bằng cách làm đề dài lê thê.
 
-## Level 1 — Nhận biết
+## Mức 1 — Nhận biết
 
 ### Câu 1
 Chiết suất tuyệt đối của môi trường là $n=c/v$. Nếu n=1,5 thì tốc độ ánh sáng trong môi trường bằng bao nhiêu? Lấy $c=3,0\times10^8$ m/s.
@@ -45,7 +45,7 @@ Thấu kính phân kì có f=-25 cm. Độ tụ bằng bao nhiêu?
 ### Câu 8
 Vật thật trước thấu kính phân kì cho ảnh có tính chất cơ bản nào?
 
-## Level 2 — Thông hiểu
+## Mức 2 — Thông hiểu
 
 ### Câu 9
 Tấm kính dày 5 cm, n=1,5, tia từ không khí tới i=45°. Tính góc r và độ dời ngang của tia ló.
@@ -71,7 +71,7 @@ Thấu kính hội tụ f=12 cm, vật cách 8 cm. Tìm ảnh và nêu tính ch�
 ### Câu 16
 Thấu kính phân kì f=-20 cm, vật cách 30 cm. Tính d' và k.
 
-## Level 3 — Vận dụng
+## Mức 3 — Vận dụng
 
 ### Câu 17
 Vật và màn cách nhau 100 cm. Một thấu kính hội tụ tạo ảnh rõ lớn gấp 4 lần vật. Tìm f.
@@ -100,7 +100,7 @@ Kính hiển vi có $f_1=0,5$ cm, $f_2=2,5$ cm, $\delta=15$ cm. Tính bội giá
 ### Câu 25
 Kính thiên văn Kepler có vật kính f1=120 cm, thị kính f2=4 cm. Tính bội giác và chiều dài khi ngắm vô cực.
 
-## Level 4 — Vận dụng cao
+## Mức 4 — Vận dụng cao
 
 ### Câu 26
 Một khối thủy tinh n=1,6 có mặt trên nằm ngang. Một tia trong khối tới mặt trên. Tính góc tới nhỏ nhất để phản xạ toàn phần. Nếu tia tạo với mặt phân cách góc 50°, có phản xạ toàn phần không?

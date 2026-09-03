@@ -1,10 +1,10 @@
 ---
-title: "Quiz Chương 7 — Cảm ứng điện từ"
+title: "Kiểm tra Chương 7 — Cảm ứng điện từ"
 description: "10 câu kiểm tra nhanh từ thông, Faraday, Lenz và tự cảm."
 order: 92
 ---
 
-# Quiz Chương 7 — Cảm ứng điện từ
+# Kiểm tra Chương 7 — Cảm ứng điện từ
 
 ## Câu 1
 Trong $\Phi=BS\cos\theta$, $\theta$ là góc giữa:

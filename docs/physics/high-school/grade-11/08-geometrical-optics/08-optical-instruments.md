@@ -177,7 +177,7 @@ $$
 \theta_{min}\approx1,22\frac{\lambda}{D_{khẩu\ độ}}.
 $$
 
-Đây là nội dung Level 5; không bắt buộc cho bài bội giác cơ bản.
+Đây là nội dung Mức 5; không bắt buộc cho bài bội giác cơ bản.
 
 ## 11. Sai lầm thường gặp
 
@@ -224,6 +224,13 @@ Kính lúp, kính hiển vi và kính thiên văn chủ yếu tăng góc trông.
 3. Kính hiển vi: vật kính tạo ảnh thật trung gian, thị kính phóng đại góc.
 4. Kính thiên văn: $|G|=f_1/f_2$.
 5. Độ phân giải không tăng vô hạn chỉ bằng tăng bội giác.
+
+
+<!-- LESSON_PRACTICE_LINKS -->
+## Luyện tập sau bài
+
+- [Bài tập theo bài](practice/08-optical-instruments/exercises.md)
+- [Đáp án và lời giải](practice/08-optical-instruments/solutions.md)
 
 ---
 

@@ -151,6 +151,13 @@ Kim loại dẫn điện nhờ electron dẫn. Điện trở xuất hiện do t�
 4. Cặp nhiệt điện biến chênh nhiệt độ thành suất điện động.
 5. Siêu dẫn là trạng thái đặc biệt, không chỉ là "R giảm dần vì lạnh".
 
+
+<!-- LESSON_PRACTICE_LINKS -->
+## Luyện tập sau bài
+
+- [Bài tập theo bài](practice/01-current-in-metals/exercises.md)
+- [Đáp án và lời giải](practice/01-current-in-metals/solutions.md)
+
 ---
 
 [↑ Chương](index.md) | [Bài 2 →](02-electrolytes-faraday.md)

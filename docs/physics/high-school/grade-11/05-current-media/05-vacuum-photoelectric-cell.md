@@ -161,6 +161,13 @@ Dòng điện trong chân không thường cần electron được phát từ ca
 4. $I=ne$ nếu n là số electron mỗi giây.
 5. Tế bào quang điện nối quang học với điện học.
 
+
+<!-- LESSON_PRACTICE_LINKS -->
+## Luyện tập sau bài
+
+- [Bài tập theo bài](practice/05-vacuum-photoelectric-cell/exercises.md)
+- [Đáp án và lời giải](practice/05-vacuum-photoelectric-cell/solutions.md)
+
 ---
 
 [← Bài 4](04-semiconductors.md) | [↑ Chương](index.md) | [Bài tập →](exercises.md)

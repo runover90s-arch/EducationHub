@@ -289,12 +289,20 @@ def check_mkdocs_config() -> list[Issue]:
             for value in node.values():
                 yield from walk_nav(value)
 
+    nav_targets: set[str] = set()
     for target in walk_nav(data.get("nav", [])):
         if not isinstance(target, str) or not target.endswith(".md"):
             continue
+        nav_targets.add(target)
         resolved = DOCS / target
         if not resolved.is_file():
             issues.append(Issue(config_path, 1, "NAV001", f"Nav trỏ tới file không tồn tại: {target}"))
+
+    # Every Markdown page should be reachable from navigation. This prevents
+    # generated exercise/solution pages from becoming hidden orphan files.
+    all_markdown = {str(path.relative_to(DOCS)) for path in DOCS.rglob("*.md")}
+    for target in sorted(all_markdown - nav_targets):
+        issues.append(Issue(config_path, 1, "NAV002", f"File Markdown chưa có trong navigation: {target}"))
 
     for key in ("extra_css", "extra_javascript"):
         for target in data.get(key, []) or []:

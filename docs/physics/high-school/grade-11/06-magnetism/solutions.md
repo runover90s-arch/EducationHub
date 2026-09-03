@@ -6,7 +6,7 @@ order: 91
 
 # Lời giải Chương 6 — Từ trường và cảm ứng từ
 
-## Level 1
+## Mức 1
 
 ### Câu 1
 **Đáp án B.** Đơn vị SI của cảm ứng từ là tesla (T).
@@ -61,7 +61,7 @@ $$
 ### Câu 8
 **Đáp án A.** Hai dòng song song cùng chiều hút nhau.
 
-## Level 2
+## Mức 2
 
 ### Câu 9
 
@@ -116,7 +116,7 @@ v tăng 2 lần thì r tăng 2 lần.
 ### Câu 16
 Vì $r\propto m/|q|$ và proton, electron có cùng $|q|$, proton có bán kính lớn hơn khoảng 1836 lần.
 
-## Level 3
+## Mức 3
 
 ### Câu 17
 Gọi x là khoảng cách từ dây 5 A đến điểm triệt tiêu:
@@ -239,7 +239,7 @@ h=v_\parallel T
 \approx0,326\,\text m.
 $$
 
-## Level 4
+## Mức 4
 
 ### Câu 25
 Tại tâm tam giác đều, ba dòng như nhau tạo ba vectơ B có cùng độ lớn. Do đối xứng quay 120°, tổng ba vectơ bằng 0.
@@ -320,4 +320,4 @@ có cùng độ lớn ở hai vùng. Do đó quỹ đạo ghép từ các cung t
 
 ---
 
-[← Bài tập](exercises.md) | [Quiz →](quiz.md)
+[← Bài tập](exercises.md) | [Kiểm tra cuối chương →](quiz.md)

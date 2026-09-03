@@ -5,7 +5,7 @@ description: "Không gian giáo trình học tập đa ngành, được tổ ch�
 
 # Education Hub
 
-**Education Hub** là không gian học tập đa ngành. Mỗi giáo trình được đặt đúng vị trí trong hệ thống kiến thức, có lộ trình, prerequisite, bài giảng, bài tập, lời giải và phần nâng cao khi phù hợp.
+**Education Hub** là không gian học tập đa ngành. Mỗi giáo trình được đặt đúng vị trí trong hệ thống kiến thức, có lộ trình, kiến thức tiên quyết, bài giảng, bài tập, lời giải và phần nâng cao khi phù hợp.
 
 Cấu trúc học tập chung:
 
@@ -19,9 +19,9 @@ Cấu trúc học tập chung:
 
     ---
 
-    Nhánh Vật lí hiện có **Vật lí 11** ở bậc trung học phổ thông, gồm 4 chương từ dao động–sóng đến điện trường và mạch điện.
+    Nhánh Vật lí hiện có **Vật lí 11** ở bậc trung học phổ thông, gồm 8 chương từ dao động–sóng, điện trường–mạch điện đến các chuyên đề mở rộng về dòng điện trong môi trường, từ trường, cảm ứng điện từ và quang hình.
 
-    [Đi tới Vật lí](physics/index.md)
+    [Đi tới Vật lí](physics/index.md) · [Mở ngân hàng bài tập](physics/high-school/grade-11/practice.md)
 
 -   **Thư viện giáo trình**
 
@@ -39,7 +39,7 @@ Mỗi bài được tổ chức theo hướng:
 
 **hiểu hiện tượng → nắm mô hình → hiểu công thức và điều kiện → luyện bài → chữa sai → mở rộng.**
 
-Bạn có thể học tuần tự theo roadmap của môn hoặc dùng mục lục và tìm kiếm để đi thẳng đến kiến thức cần tra cứu.
+Bạn có thể học tuần tự theo lộ trình của môn hoặc dùng mục lục và tìm kiếm để đi thẳng đến kiến thức cần tra cứu.
 
 ## Dành cho người biên soạn
 

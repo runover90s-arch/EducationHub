@@ -1,5 +1,5 @@
 ---
-title: "Quiz Chương 2 — Sóng"
+title: "Kiểm tra Chương 2 — Sóng"
 description: "Bài kiểm tra ngắn về sóng cơ, giao thoa, sóng dừng, âm và sóng điện từ."
 order: 12
 difficulty: "mixed"
@@ -10,7 +10,7 @@ tags:
   - quiz
 ---
 
-# Quiz Chương 2 — Sóng
+# Kiểm tra Chương 2 — Sóng
 
 ## Phần A — Trắc nghiệm
 

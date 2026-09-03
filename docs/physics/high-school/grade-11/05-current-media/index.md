@@ -25,9 +25,10 @@ tags:
 3. [Dòng điện trong chất khí](03-current-in-gases.md)
 4. [Dòng điện trong chất bán dẫn](04-semiconductors.md)
 5. [Dòng điện trong chân không và tế bào quang điện](05-vacuum-photoelectric-cell.md)
+0. [Bài tập theo từng bài](practice/index.md)
 6. [Bài tập chương](exercises.md)
 7. [Lời giải](solutions.md)
-8. [Quiz](quiz.md)
+8. [Kiểm tra cuối chương](quiz.md)
 
 ## Bản đồ ý tưởng
 

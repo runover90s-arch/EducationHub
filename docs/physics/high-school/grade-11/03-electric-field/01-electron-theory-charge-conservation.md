@@ -199,6 +199,13 @@ Tổng vẫn $8\,\mu$C.
 4. Trong bài trình tự tiếp xúc phải làm lần lượt.
 5. Luôn kiểm tra bảo toàn điện tích sau cùng.
 
+
+<!-- LESSON_PRACTICE_LINKS -->
+## Luyện tập sau bài
+
+- [Bài tập theo bài](practice/01-electron-theory-charge-conservation/exercises.md)
+- [Đáp án và lời giải](practice/01-electron-theory-charge-conservation/solutions.md)
+
 ---
 
 [↑ Chương](index.md) | [Bài 2 →](02-coulomb-law.md)

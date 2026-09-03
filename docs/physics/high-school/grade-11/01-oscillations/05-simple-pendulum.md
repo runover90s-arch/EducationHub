@@ -415,6 +415,13 @@ $$
 4. Gia tốc toàn phần tại vị trí cân bằng không nhất thiết bằng $0$.
 5. Với bài lực căng, kết hợp phương trình hướng tâm và bảo toàn cơ năng.
 
+
+<!-- LESSON_PRACTICE_LINKS -->
+## Luyện tập sau bài
+
+- [Bài tập theo bài](practice/05-simple-pendulum/exercises.md)
+- [Đáp án và lời giải](practice/05-simple-pendulum/solutions.md)
+
 ---
 
 [← Bài 4](04-spring-oscillator.md) | [↑ Chương](index.md) | [Bài 6 →](06-oscillation-energy.md)

@@ -6,7 +6,7 @@ order: 91
 
 # Lời giải Chương 8 — Khúc xạ ánh sáng và quang hình
 
-## Level 1
+## Mức 1
 
 ### Câu 1
 
@@ -55,7 +55,7 @@ $$
 ### Câu 8
 Ảnh **ảo, cùng chiều, nhỏ hơn vật** với vật thật trong mô hình thấu kính phân kì.
 
-## Level 2
+## Mức 2
 
 ### Câu 9
 Snell:
@@ -145,7 +145,7 @@ $$
 
 $d'=-12$ cm, $k=0,4$. Ảnh ảo, cùng chiều, nhỏ hơn.
 
-## Level 3
+## Mức 3
 
 ### Câu 17
 Ảnh thật lớn gấp 4 → $d'=4d$.
@@ -244,7 +244,7 @@ L=f_1+f_2=124\,\text{cm}.
 \end{gathered}
 $$
 
-## Level 4
+## Mức 4
 
 ### Câu 26
 
@@ -394,4 +394,4 @@ $$
 
 ---
 
-[← Bài tập](exercises.md) | [Quiz →](quiz.md)
+[← Bài tập](exercises.md) | [Kiểm tra cuối chương →](quiz.md)

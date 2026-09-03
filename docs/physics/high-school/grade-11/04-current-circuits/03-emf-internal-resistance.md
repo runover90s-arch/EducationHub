@@ -189,6 +189,13 @@ Nguồn 9 V, dòng 0,5 A. Công suất nguồn 4,5 W.
 4. Mạch hở giúp đo gần đúng suất điện động.
 5. Dấu công thức phải gắn với chiều dòng và quy ước hiệu điện thế.
 
+
+<!-- LESSON_PRACTICE_LINKS -->
+## Luyện tập sau bài
+
+- [Bài tập theo bài](practice/03-emf-internal-resistance/exercises.md)
+- [Đáp án và lời giải](practice/03-emf-internal-resistance/solutions.md)
+
 ---
 
 [← Bài 2](02-resistance-ohm-law.md) | [↑ Chương](index.md) | [Bài 4 →](04-energy-power-joule.md)

@@ -243,6 +243,13 @@ Một người đứng cách vách đá 68 m và nghe tiếng vọng sau $0,40$ 
 4. Khi đổi môi trường, nguồn không đổi thì tần số không đổi.
 5. Kết quả đo phải được kiểm tra về bậc độ lớn và điều kiện thí nghiệm.
 
+
+<!-- LESSON_PRACTICE_LINKS -->
+## Luyện tập sau bài
+
+- [Bài tập theo bài](practice/09-practical-sound-speed/exercises.md)
+- [Đáp án và lời giải](practice/09-practical-sound-speed/solutions.md)
+
 ---
 
 [← Bài 8](08-practical-sound-frequency.md) | [↑ Chương](index.md) | [Bài 10 →](10-doppler-effect.md)

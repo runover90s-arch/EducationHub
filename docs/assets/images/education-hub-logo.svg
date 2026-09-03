@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+  <title id="title">Education Hub</title>
+  <desc id="desc">Biểu tượng quyển sách mở và ngôi sao tri thức.</desc>
+  <defs>
+    <linearGradient id="g" x1="8" y1="8" x2="56" y2="56" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4f46e5"/>
+      <stop offset="1" stop-color="#2563eb"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="60" height="60" rx="15" fill="url(#g)"/>
+  <path d="M13 19.5c7.2-2.1 13.6-.8 19 4.1v25.2c-5.8-4.3-12.2-5.2-19-3V19.5Z" fill="#fff"/>
+  <path d="M51 19.5c-7.2-2.1-13.6-.8-19 4.1v25.2c5.8-4.3 12.2-5.2 19-3V19.5Z" fill="#e0e7ff"/>
+  <path d="M32 23.6v25.2" stroke="#1e3a8a" stroke-width="1.7" stroke-linecap="round"/>
+  <path d="M18 26.5c4.3-.8 7.9-.1 10.8 2M18 32c4.3-.8 7.9-.1 10.8 2M46 26.5c-4.3-.8-7.9-.1-10.8 2M46 32c-4.3-.8-7.9-.1-10.8 2" stroke="#93c5fd" stroke-width="1.6" stroke-linecap="round" fill="none"/>
+  <path d="M48.5 10.5l1.6 3.6 3.9 1.6-3.9 1.6-1.6 3.7-1.6-3.7-3.9-1.6 3.9-1.6 1.6-3.6Z" fill="#fbbf24"/>
+  <circle cx="14" cy="13" r="2.2" fill="#f59e0b"/>
+</svg>

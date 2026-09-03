@@ -243,6 +243,13 @@ Các giá trị này phụ thuộc tần số và từng người. Khi làm bài
 4. Cường độ giảm theo $1/r^2$ chỉ trong mô hình phù hợp.
 5. Sóng dừng giải thích nhiều tần số riêng của nhạc cụ.
 
+
+<!-- LESSON_PRACTICE_LINKS -->
+## Luyện tập sau bài
+
+- [Bài tập theo bài](practice/05-sound-waves/exercises.md)
+- [Đáp án và lời giải](practice/05-sound-waves/solutions.md)
+
 ---
 
 [← Bài 4](04-standing-waves.md) | [↑ Chương](index.md) | [Bài 6 →](06-electromagnetic-waves.md)

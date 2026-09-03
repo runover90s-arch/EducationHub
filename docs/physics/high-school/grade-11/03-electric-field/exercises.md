@@ -14,7 +14,7 @@ tags:
 
 > Đây là cách phân loại phục vụ mục đích sư phạm, không phải phân loại học thuật chính thức.
 
-## Level 1 — Điện tích và Coulomb
+## Mức 1 — Điện tích và Coulomb
 
 ### Câu 1
 Một vật có điện tích $-4,806\times10^{-19}$ C. Vật thừa hay thiếu bao nhiêu electron?
@@ -31,7 +31,7 @@ Giữ điện tích không đổi, khoảng cách tăng 3 lần. Lực Coulomb t
 ### Câu 5
 Hai điện tích trong điện môi $\varepsilon_r=4$ có lực F. Đưa hệ sang chân không, giữ q và r. Lực mới bằng bao nhiêu?
 
-## Level 2 — Điện trường
+## Mức 2 — Điện trường
 
 ### Câu 6
 Điện tích $Q=+3\,\mu$C. Tính E tại điểm cách Q 30 cm trong chân không và nêu hướng.
@@ -51,7 +51,7 @@ Tại M có hai vectơ điện trường vuông góc, độ lớn $3\times10^4$ 
 ### Câu 11
 Một hạt q dương, m=2 g đứng cân bằng trong điện trường đều thẳng đứng. Lấy g=10 m/s², q=2 µC. Tìm độ lớn và hướng E.
 
-## Level 3 — Công, điện thế
+## Mức 3 — Công, điện thế
 
 ### Câu 12
 Điện tích $q=3\,\mu$C dịch chuyển 5 cm theo chiều E trong trường đều $E=2000$ V/m. Tính công lực điện.
@@ -68,7 +68,7 @@ Hai điện tích $+Q$ và $-Q$. Điểm M cách hai điện tích bằng nhau. 
 ### Câu 16
 Điện trường đều $E=500$ V/m. Hai điểm A,B cách nhau 20 cm theo phương E, B nằm theo chiều E từ A. Tính $V_A-V_B$.
 
-## Level 3 — Tụ điện
+## Mức 3 — Tụ điện
 
 ### Câu 17
 Tụ $C=4\,\mu$F đặt dưới U=25 V. Tính Q và W.
@@ -88,7 +88,7 @@ Hai tụ $C_1=3\,\mu$F, $C_2=6\,\mu$F ghép nối tiếp vào 12 V. Tính $C_{eq
 ### Câu 22
 Hai tụ trên ghép song song vào 12 V. Tính $C_{eq}$ và tổng điện tích.
 
-## Level 4 — Chuyển động điện tích
+## Mức 4 — Chuyển động điện tích
 
 ### Câu 23
 Proton ban đầu đứng yên trong E đều $10^4$ V/m. Viết biểu thức gia tốc theo $e,m_p$ và nêu hướng.
@@ -102,7 +102,7 @@ Hạt q dương bay ngang với $v_0$ vào điện trường đều E hướng l
 ### Câu 26
 Một hạt có $q/m=2\times10^7$ C/kg, bay ngang với $v_0=2\times10^5$ m/s qua vùng E=$10^4$ V/m dài $\ell=0,10$ m. Tính thời gian trong trường và độ lệch theo phương E.
 
-## Level 4–5 — Tụ nâng cao
+## Mức 4–5 — Tụ nâng cao
 
 ### Câu 27
 Tụ $C_1=2\,\mu$F nạp ở 12 V; tụ $C_2=4\,\mu$F chưa tích điện. Ngắt $C_1$ khỏi nguồn rồi nối song song cùng cực với $C_2$. Tính điện áp cuối.
@@ -132,7 +132,7 @@ Bỏ một trong ba điện tích ở Câu 33. Tính E tại tâm do hai điện
 Một tụ cô lập có điện dung C, điện tích Q. Nếu điện dung tăng 4 lần do thay cấu tạo, công cơ học/trao đổi năng lượng làm năng lượng điện trường giảm bao nhiêu phần trăm so với ban đầu?
 
 
-## Level 3–4 — Bổ sung cân bằng điện tích và con lắc điện
+## Mức 3–4 — Bổ sung cân bằng điện tích và con lắc điện
 
 ### Câu 36
 Hai điện tích $+Q$ và $+4Q$ cách nhau 30 cm. Tìm điểm trên đoạn nối hai điện tích nơi điện trường tổng bằng 0.

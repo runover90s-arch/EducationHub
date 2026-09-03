@@ -262,6 +262,13 @@ Vì sao không nên xác định $r$ bằng cách nối tắt pin rồi lấy $r
 4. Tung độ gốc chính là $\mathcal E$.
 5. Không nối tắt pin để tạo dòng cực lớn trong bài thực hành thông thường.
 
+
+<!-- LESSON_PRACTICE_LINKS -->
+## Luyện tập sau bài
+
+- [Bài tập theo bài](practice/09-practical-emf-internal-resistance/exercises.md)
+- [Đáp án và lời giải](practice/09-practical-emf-internal-resistance/solutions.md)
+
 ---
 
 [← Bài 8](08-advanced-circuit-methods.md) | [↑ Chương](index.md) | [Bài 10 →](10-source-receiver-capacitor-branches.md)

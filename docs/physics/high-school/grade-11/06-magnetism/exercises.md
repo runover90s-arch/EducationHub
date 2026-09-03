@@ -9,7 +9,7 @@ difficulty: "foundation-advanced"
 
 > Đây là cách phân loại phục vụ mục đích sư phạm. Các câu được biên soạn lại theo những kiểu bài phổ biến của chuyên đề Vật lí 11, giữ dữ kiện gọn và trực tiếp.
 
-## Level 1 — Nhận biết và công thức nền
+## Mức 1 — Nhận biết và công thức nền
 
 ### Câu 1
 Đơn vị SI của cảm ứng từ B là:
@@ -50,7 +50,7 @@ B. đẩy nhau.
 C. không tương tác.  
 D. chỉ tương tác nếu I bằng nhau.
 
-## Level 2 — Thông hiểu
+## Mức 2 — Thông hiểu
 
 ### Câu 9
 Một đoạn dây vuông góc B chịu lực 0,24 N khi I=3 A và l=0,40 m. Tính B.
@@ -76,7 +76,7 @@ Một electron chuyển động vuông góc B. Nếu tốc độ tăng gấp đ�
 ### Câu 16
 Một proton và một electron cùng độ lớn vận tốc, cùng vuông góc với B. Bán kính quỹ đạo nào lớn hơn? Không cần tính số cụ thể.
 
-## Level 3 — Vận dụng
+## Mức 3 — Vận dụng
 
 ### Câu 17
 Hai dây thẳng dài song song cách 20 cm, mang dòng 5 A và 15 A cùng chiều. Tìm điểm B=0 giữa hai dây.
@@ -102,7 +102,7 @@ Electron được tăng tốc từ nghỉ qua hiệu điện thế 800 V rồi �
 ### Câu 24
 Một hạt dương đi vào từ trường đều với $v=5,0\times10^5$ m/s, hợp B góc 60°. Biết $m=6,64\times10^{-27}$ kg, $q=3,20\times10^{-19}$ C, B=0,10 T. Tính bán kính đường xoắn và bước xoắn.
 
-## Level 4 — Vận dụng cao
+## Mức 4 — Vận dụng cao
 
 ### Câu 25
 Ba dây thẳng dài vuông góc mặt phẳng hình đặt tại ba đỉnh A, B, C của tam giác đều cạnh a=20 cm. Các dòng đều 5 A và cùng hướng ra khỏi mặt phẳng. Tính độ lớn B tại tâm tam giác.

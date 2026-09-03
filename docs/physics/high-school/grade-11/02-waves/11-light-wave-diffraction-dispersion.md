@@ -217,6 +217,13 @@ Vì $i$ phụ thuộc $\lambda$, các màu không có hệ vân giống nhau ho�
 4. Tán sắc khác giao thoa.
 5. Lăng kính là công cụ rất trực quan để thấy sự phụ thuộc chiết suất vào bước sóng.
 
+
+<!-- LESSON_PRACTICE_LINKS -->
+## Luyện tập sau bài
+
+- [Bài tập theo bài](practice/11-light-wave-diffraction-dispersion/exercises.md)
+- [Đáp án và lời giải](practice/11-light-wave-diffraction-dispersion/solutions.md)
+
 ---
 
 [← Bài 10](10-doppler-effect.md) | [↑ Chương](index.md) | [Bài 12 →](12-spectra-electromagnetic-spectrum.md)

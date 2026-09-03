@@ -211,6 +211,13 @@ Ba công thức nền của chương là $B=\mu_0I/(2\pi r)$ cho dây thẳng d�
 4. Chiều dùng quy tắc tay phải.
 5. B tổng là tổng vectơ, không phải tổng số học trong mọi tình huống.
 
+
+<!-- LESSON_PRACTICE_LINKS -->
+## Luyện tập sau bài
+
+- [Bài tập theo bài](practice/03-fields-of-currents-superposition/exercises.md)
+- [Đáp án và lời giải](practice/03-fields-of-currents-superposition/solutions.md)
+
 ---
 
 [← Bài 2](02-magnetic-force-current-wire.md) | [↑ Chương](index.md) | [Bài 4 →](04-parallel-currents-current-loop.md)

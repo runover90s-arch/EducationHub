@@ -14,7 +14,7 @@ tags:
 
 > Đây là cách phân loại phục vụ mục đích sư phạm, không phải phân loại học thuật chính thức.
 
-## Level 1 — Nền tảng
+## Mức 1 — Nền tảng
 
 ### Câu 1
 Sóng cơ có tần số $20$ Hz truyền trong môi trường với tốc độ $4$ m/s. Tính bước sóng.
@@ -37,7 +37,7 @@ Sóng điện từ có tần số $100$ MHz truyền trong chân không. Tính b
 ### Câu 7
 Trong thí nghiệm Young, nếu giữ $D,a$ không đổi và tăng bước sóng 20%, khoảng vân thay đổi thế nào?
 
-## Level 2 — Phương trình và pha
+## Mức 2 — Phương trình và pha
 
 ### Câu 8
 Nguồn O dao động $u_O=4\cos(10\pi t+\pi/3)$ mm. Sóng truyền theo $+x$, tốc độ $2$ m/s. Viết phương trình tại M cách O $20$ cm.
@@ -54,7 +54,7 @@ Cho $u=5\cos(100\pi t+20\pi x)$ mm. Xác định chiều truyền và tốc đ�
 ### Câu 12
 Hai điểm cùng phương truyền dao động ngược pha. Khoảng cách nhỏ nhất giữa chúng là $8$ cm. Tính bước sóng.
 
-## Level 3 — Giao thoa và sóng dừng
+## Mức 3 — Giao thoa và sóng dừng
 
 ### Câu 13
 Hai nguồn cùng pha có $\lambda=2$ cm. Tại M, $d_2-d_1=5$ cm. M là cực đại hay cực tiểu?
@@ -80,7 +80,7 @@ Một đầu cố định, một đầu tự do. Ở mode cơ bản, $L=25$ cm. 
 ### Câu 20
 Hai nút liên tiếp cách nhau $10$ cm. Tính khoảng cách từ một nút đến bụng gần nhất.
 
-## Level 3 — Âm và điện từ
+## Mức 3 — Âm và điện từ
 
 ### Câu 21
 Nguồn điểm đẳng hướng có công suất không đổi. Cường độ tại 2 m là $I$. Cường độ tại 6 m bằng bao nhiêu theo $I$?
@@ -97,7 +97,7 @@ Sắp xếp theo tần số tăng dần: tia X, hồng ngoại, sóng vô tuyế
 ### Câu 25
 Ánh sáng trong chân không có $\lambda=500$ nm. Tính tần số.
 
-## Level 4 — Giao thoa ánh sáng
+## Mức 4 — Giao thoa ánh sáng
 
 ### Câu 26
 Thí nghiệm Young có $a=1$ mm, $D=1,5$ m, $\lambda=600$ nm. Tính khoảng vân.
@@ -114,7 +114,7 @@ Trong một đoạn từ $x=-4,2$ mm đến $x=4,2$ mm, $i=1,2$ mm. Đếm số 
 ### Câu 30
 Hai bức xạ có $\lambda_1=450$ nm, $\lambda_2=600$ nm. Tìm cặp bậc sáng dương nhỏ nhất $(k_1,k_2)$ để hai vân sáng trùng nhau ngoài trung tâm.
 
-## Level 5 — Tổng hợp
+## Mức 5 — Tổng hợp
 
 ### Câu 31
 Một sóng truyền theo $+x$ có $u=4\cos(8\pi t-2\pi x)$ cm. Tại thời điểm $t=0$, xét điểm $M$ có $x=1/4$ m. Tính li độ và xác định dấu vận tốc dao động.
@@ -131,7 +131,7 @@ Một nguồn âm điểm đẳng hướng. Tại A cách nguồn $r$, mức cư
 ### Câu 35
 Trong Young, hai ánh sáng $\lambda_1=500$ nm và $\lambda_2=600$ nm. Khoảng vân của $\lambda_1$ là $1$ mm. Tìm khoảng cách nhỏ nhất từ trung tâm tới vị trí vân sáng của hai bức xạ trùng nhau.
 
-## Level 3 — Bổ sung thực hành âm học
+## Mức 3 — Bổ sung thực hành âm học
 
 ### Câu 36
 Trên dạng sóng ghi bởi micro, 12 chu kì chiếm 6,0 ms. Tính tần số âm.
@@ -152,7 +152,7 @@ Nguồn âm 680 Hz tạo hai cộng hưởng liên tiếp cách nhau 25 cm trong
 Âm có tần số 600 Hz đi từ môi trường A sang môi trường B. Tốc độ truyền tăng từ 300 m/s lên 450 m/s. Tần số và bước sóng trong B bằng bao nhiêu?
 
 
-## Level 3–5 — Bổ sung Doppler, nhiễu xạ, tán sắc và nhiều bức xạ
+## Mức 3–5 — Bổ sung Doppler, nhiễu xạ, tán sắc và nhiều bức xạ
 
 ### Câu 42 — Doppler, máy thu chuyển động
 Nguồn âm đứng yên phát $f=500$ Hz trong không khí có tốc độ âm $v=340$ m/s. Máy thu chuyển động thẳng về phía nguồn với tốc độ 20 m/s. Tính tần số thu được.

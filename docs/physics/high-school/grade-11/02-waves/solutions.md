@@ -350,4 +350,4 @@ Mục tiêu ở đây là nhận diện hình dạng phổ; cơ chế mức năn
 
 ---
 
-[← Bài tập](exercises.md) | [↑ Chương](index.md) | [Quiz →](quiz.md)
+[← Bài tập](exercises.md) | [↑ Chương](index.md) | [Kiểm tra cuối chương →](quiz.md)

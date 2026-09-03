@@ -369,6 +369,13 @@ $$
 4. Động năng và thế năng biến thiên với tần số $2f$.
 5. Có lực cản thì cơ năng cơ học giảm, không còn bảo toàn.
 
+
+<!-- LESSON_PRACTICE_LINKS -->
+## Luyện tập sau bài
+
+- [Bài tập theo bài](practice/06-oscillation-energy/exercises.md)
+- [Đáp án và lời giải](practice/06-oscillation-energy/solutions.md)
+
 ---
 
 [← Bài 5](05-simple-pendulum.md) | [↑ Chương](index.md) | [Bài 7 →](07-combined-damped-forced-resonance.md)

@@ -216,6 +216,13 @@ Thanh dẫn chuyển động cắt đường sức trong cấu hình chuẩn có
 4. Kéo đều: lực ngoài cân bằng lực từ.
 5. Bỏ tổn hao khác: $Fv=I^2R$.
 
+
+<!-- LESSON_PRACTICE_LINKS -->
+## Luyện tập sau bài
+
+- [Bài tập theo bài](practice/03-motional-emf/exercises.md)
+- [Đáp án và lời giải](practice/03-motional-emf/solutions.md)
+
 ---
 
 [← Bài 2](02-lenz-faraday-law.md) | [↑ Chương](index.md) | [Bài 4 →](04-self-induction-energy.md)

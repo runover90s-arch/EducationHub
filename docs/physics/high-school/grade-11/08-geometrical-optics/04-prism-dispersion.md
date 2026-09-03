@@ -187,6 +187,13 @@ Lăng kính cho hai lần khúc xạ với $r_1+r_2=A$, $D=i_1+i_2-A$. Ở lệc
 4. Thủy tinh thường: $n_{tím}>n_{đỏ}$.
 5. Tím lệch nhiều hơn đỏ trong tán sắc bình thường.
 
+
+<!-- LESSON_PRACTICE_LINKS -->
+## Luyện tập sau bài
+
+- [Bài tập theo bài](practice/04-prism-dispersion/exercises.md)
+- [Đáp án và lời giải](practice/04-prism-dispersion/solutions.md)
+
 ---
 
 [← Bài 3](03-total-internal-reflection.md) | [↑ Chương](index.md) | [Bài 5 →](05-thin-lenses-image-construction.md)

@@ -176,6 +176,13 @@ Quang phổ biến ánh sáng thành dữ liệu theo bước sóng. Thang sóng
 4. Ánh sáng liên tục qua khí lạnh có thể cho vạch hấp thụ.
 5. Trong chân không: $c=\lambda f$.
 
+
+<!-- LESSON_PRACTICE_LINKS -->
+## Luyện tập sau bài
+
+- [Bài tập theo bài](practice/12-spectra-electromagnetic-spectrum/exercises.md)
+- [Đáp án và lời giải](practice/12-spectra-electromagnetic-spectrum/solutions.md)
+
 ---
 
 [← Bài 11](11-light-wave-diffraction-dispersion.md) | [↑ Chương](index.md) | [Bài 13 →](13-multiwavelength-white-light-interference.md)

@@ -12,7 +12,7 @@ tags:
 
 # Lời giải Chương 1 — Dao động cơ học
 
-## Level 1
+## Mức 1
 
 ### Câu 1
 So sánh với $x=A\cos(\omega t+\varphi)$:
@@ -44,7 +44,7 @@ $T=2\pi\sqrt{\ell/g}=2\pi\sqrt{1/9,8}\approx2,01$ s.
 ### Câu 8
 **B.** Cơ năng giảm vì lực cản thực hiện công âm và chuyển một phần cơ năng thành nội năng.
 
-## Level 2
+## Mức 2
 
 ### Câu 9
 Dùng $v^2=\omega^2(A^2-x^2)$:
@@ -88,7 +88,7 @@ $2,4$ s bằng $3T$. Trong mỗi chu kì vật đi quãng đường $4A=20$ cm. 
 ### Câu 16
 Trong mọi nửa chu kì, vật đi từ một trạng thái đến trạng thái đối pha và tổng quãng đường luôn bằng $2A$. Vậy $S=16$ cm, không phụ thuộc thời điểm bắt đầu.
 
-## Level 3
+## Mức 3
 
 ### Câu 17
 $\Delta\ell_0=0,04$ m. Với con lắc treo thẳng đứng:
@@ -178,7 +178,7 @@ T=mg\cos\alpha+2mg(\cos\alpha-\cos\alpha_0)
 =mg(3\cos\alpha-2\cos\alpha_0).
 $$
 
-## Level 4
+## Mức 4
 
 ### Câu 28
 $\omega=2\pi/T=\pi$ rad/s. Tại $t=0$, $x_0=A\cos\varphi=5$ cm nên $\cos\varphi=1/2$.
@@ -279,7 +279,7 @@ c) Vì $A>\Delta\ell_0$, lò xo đi qua trạng thái không biến dạng nên 
 
 d) Có. Trạng thái không biến dạng xảy ra khi $x=-\Delta\ell_0=-4$ cm, nằm trong miền $[-6;6]$ cm.
 
-## Level 5
+## Mức 5
 
 ### Câu 36
 Với cùng li độ:
@@ -338,4 +338,4 @@ $$
 
 ---
 
-[← Bài tập](exercises.md) | [↑ Chương](index.md) | [Quiz →](quiz.md)
+[← Bài tập](exercises.md) | [↑ Chương](index.md) | [Kiểm tra cuối chương →](quiz.md)

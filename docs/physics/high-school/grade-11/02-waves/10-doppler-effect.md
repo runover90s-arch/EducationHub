@@ -233,6 +233,13 @@ Hiệu ứng Doppler không phải là nguồn "tự đổi tần số". Nó xu�
 4. Rời xa nhau thì $f'$ giảm.
 5. Luôn xét vận tốc đối với môi trường truyền sóng.
 
+
+<!-- LESSON_PRACTICE_LINKS -->
+## Luyện tập sau bài
+
+- [Bài tập theo bài](practice/10-doppler-effect/exercises.md)
+- [Đáp án và lời giải](practice/10-doppler-effect/solutions.md)
+
 ---
 
 [← Bài 9](09-practical-sound-speed.md) | [↑ Chương](index.md) | [Bài 11 →](11-light-wave-diffraction-dispersion.md)

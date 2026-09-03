@@ -17,7 +17,7 @@ tags:
 
 ## Mức độ
 
-**Level 4 — Advanced.** Phần này nên học sau khi đã chắc $Q=CU$ và năng lượng của một tụ.
+**Mức 4 — Nâng cao.** Phần này nên học sau khi đã chắc $Q=CU$ và năng lượng của một tụ.
 
 ## Mục tiêu
 
@@ -238,6 +238,13 @@ Sau khi tìm U từng tụ, phải so sánh $|U_i|$ với điện áp định m�
 3. Bảo toàn điện tích theo nút là công cụ cốt lõi.
 4. Năng lượng của riêng các tụ không nhất thiết bảo toàn khi nối lại.
 5. Luôn kiểm tra điện áp định mức.
+
+
+<!-- LESSON_PRACTICE_LINKS -->
+## Luyện tập sau bài
+
+- [Bài tập theo bài](practice/08-advanced-capacitors/exercises.md)
+- [Đáp án và lời giải](practice/08-advanced-capacitors/solutions.md)
 
 ---
 

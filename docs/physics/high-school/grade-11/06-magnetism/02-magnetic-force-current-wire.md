@@ -175,6 +175,13 @@ Lực từ lên đoạn dây thẳng trong từ trường đều có độ lớn
 4. I vuông góc B → F cực đại.
 5. Tính độ lớn và xác định chiều là hai bước khác nhau.
 
+
+<!-- LESSON_PRACTICE_LINKS -->
+## Luyện tập sau bài
+
+- [Bài tập theo bài](practice/02-magnetic-force-current-wire/exercises.md)
+- [Đáp án và lời giải](practice/02-magnetic-force-current-wire/solutions.md)
+
 ---
 
 [← Bài 1](01-magnetic-field-field-lines.md) | [↑ Chương](index.md) | [Bài 3 →](03-fields-of-currents-superposition.md)

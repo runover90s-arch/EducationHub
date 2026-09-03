@@ -268,6 +268,13 @@ Thay vì học một bảng dấu dài:
 4. Phân biệt máy thu với điện trở thuần.
 5. Tụ ở xác lập là nhánh hở đối với dòng DC.
 
+
+<!-- LESSON_PRACTICE_LINKS -->
+## Luyện tập sau bài
+
+- [Bài tập theo bài](practice/10-source-receiver-capacitor-branches/exercises.md)
+- [Đáp án và lời giải](practice/10-source-receiver-capacitor-branches/solutions.md)
+
 ---
 
 [← Bài 9](09-practical-emf-internal-resistance.md) | [↑ Chương](index.md) | [Bài tập →](exercises.md)

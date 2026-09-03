@@ -454,6 +454,13 @@ Lực đàn hồi phải tính từ độ biến dạng thực của lò xo, cò
 4. Ghép/cắt lò xo phải quy về độ cứng tương đương.
 5. Khi hệ thay đổi đột ngột, phải tìm lại vị trí cân bằng và tần số góc.
 
+
+<!-- LESSON_PRACTICE_LINKS -->
+## Luyện tập sau bài
+
+- [Bài tập theo bài](practice/04-spring-oscillator/exercises.md)
+- [Đáp án và lời giải](practice/04-spring-oscillator/solutions.md)
+
 ---
 
 [← Bài 3](03-phase-circle-time-distance.md) | [↑ Chương](index.md) | [Bài 5 →](05-simple-pendulum.md)

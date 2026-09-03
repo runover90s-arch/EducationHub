@@ -187,6 +187,13 @@ Tia qua bản hai mặt song song ló ra song song tia tới nhưng bị dời n
 4. Gần pháp tuyến: $h'=h n_2/n_1$.
 5. Góc lớn → dùng Snell + hình học đầy đủ.
 
+
+<!-- LESSON_PRACTICE_LINKS -->
+## Luyện tập sau bài
+
+- [Bài tập theo bài](practice/02-parallel-slab-apparent-depth/exercises.md)
+- [Đáp án và lời giải](practice/02-parallel-slab-apparent-depth/solutions.md)
+
 ---
 
 [← Bài 1](01-refraction-refractive-index.md) | [↑ Chương](index.md) | [Bài 3 →](03-total-internal-reflection.md)

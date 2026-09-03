@@ -230,6 +230,13 @@ $t=360000/(0,8\cdot1000)=450$ s.
 4. Bài nhiệt cần hiệu suất nếu có tổn hao.
 5. P tải cực đại khi R=r trong mô hình nguồn đơn giản.
 
+
+<!-- LESSON_PRACTICE_LINKS -->
+## Luyện tập sau bài
+
+- [Bài tập theo bài](practice/04-energy-power-joule/exercises.md)
+- [Đáp án và lời giải](practice/04-energy-power-joule/solutions.md)
+
 ---
 
 [← Bài 3](03-emf-internal-resistance.md) | [↑ Chương](index.md) | [Bài 5 →](05-full-circuit-ohm-law.md)

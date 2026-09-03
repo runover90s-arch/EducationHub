@@ -26,9 +26,10 @@ Quang hình nghiên cứu ánh sáng bằng mô hình tia sáng. Mô hình này 
 6. [Bài 6 — Phương pháp bài toán thấu kính](06-lens-problem-methods.md)
 7. [Bài 7 — Mắt và các tật của mắt](07-eye-and-defects.md)
 8. [Bài 8 — Kính lúp, kính hiển vi và kính thiên văn](08-optical-instruments.md)
+0. [Bài tập theo từng bài](practice/index.md)
 9. [Bài tập chương](exercises.md)
 10. [Lời giải chi tiết](solutions.md)
-11. [Quiz cuối chương](quiz.md)
+11. [Kiểm tra cuối chương](quiz.md)
 
 ## Bản đồ ý tưởng
 

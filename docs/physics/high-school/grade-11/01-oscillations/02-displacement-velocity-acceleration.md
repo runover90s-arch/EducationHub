@@ -435,6 +435,13 @@ $$
 4. Độ lớn gia tốc lớn nhất tại biên; bằng $0$ tại vị trí cân bằng.
 5. Hệ thức $x-v-a$ giúp giải nhiều bài mà không cần tìm thời gian.
 
+
+<!-- LESSON_PRACTICE_LINKS -->
+## Luyện tập sau bài
+
+- [Bài tập theo bài](practice/02-displacement-velocity-acceleration/exercises.md)
+- [Đáp án và lời giải](practice/02-displacement-velocity-acceleration/solutions.md)
+
 ---
 
 [← Bài 1](01-harmonic-oscillation-foundations.md) | [↑ Chương](index.md) | [Bài 3 →](03-phase-circle-time-distance.md)

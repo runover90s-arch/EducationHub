@@ -1,0 +1,96 @@
+---
+title: "Bài tập — Bài 6 — Tụ điện, điện dung và năng lượng"
+description: "Bài tập luyện tập theo đúng nội dung bài học, phân hóa từ nền tảng đến vận dụng cao."
+tags:
+  - physics
+  - grade-11
+  - exercises
+---
+
+# Bài tập — Bài 6 — Tụ điện, điện dung và năng lượng
+
+> Hệ bài tập được biên soạn theo các dạng xuất hiện trong bộ tài liệu Vật lí 11 của dự án. Câu hỏi được giữ ngắn, trực tiếp; độ khó tăng dần và không cố tình thêm dữ kiện gây nhiễu.
+
+[← Trở lại bài học](../../06-capacitors.md)
+
+## Phần A — Trắc nghiệm 4 lựa chọn
+
+### Câu 1 — Mức 1 — Nhận biết
+
+Điện dung của tụ điện được xác định bởi
+
+A. $C=Q/U$.  
+B. $C=U/Q$.  
+C. $C=QU$.  
+D. $C=Q^2/U$.
+
+### Câu 2 — Mức 1 — Nhận biết
+
+Tụ $5\,\mu$F được đặt dưới hiệu điện thế $12$ V. Điện tích của tụ là
+
+A. $0,42\,\mu$C.  
+B. $17\,\mu$C.  
+C. $60\,\mu$C.  
+D. $240\,\mu$C.
+
+### Câu 3 — Mức 1 — Nhận biết
+
+Năng lượng của tụ có thể viết
+
+A. $W=CU^2$.  
+B. $W=\frac12CU^2$.  
+C. $W=Q/U$.  
+D. $W=2QU$.
+
+### Câu 4 — Mức 1 — Nhận biết
+
+Điện dung tụ phẳng tăng khi
+
+A. tăng khoảng cách hai bản.  
+B. giảm diện tích đối diện.  
+C. tăng hằng số điện môi giữa hai bản.  
+D. giảm hằng số điện môi.
+
+## Phần B — Đúng/Sai
+
+### Câu 5 — Mức 2 — Thông hiểu
+
+Xét một tụ điện lí tưởng:
+
+a) Đơn vị điện dung là fara.  
+b) Với cấu tạo không đổi, C không phụ thuộc Q và U trong miền tuyến tính.  
+c) Khi nối với nguồn áp không đổi, tăng C làm Q tăng.  
+d) Năng lượng của tụ luôn bằng $QU$.
+
+### Câu 6 — Mức 2 — Thông hiểu
+
+Tụ phẳng có diện tích bản S và khoảng cách d:
+
+a) $C\propto S$.  
+b) $C\propto1/d$.  
+c) Đưa điện môi có $\varepsilon_r>1$ lấp đầy khe làm C tăng.  
+d) Giữ Q không đổi mà C tăng thì U tăng.
+
+## Phần C — Trả lời ngắn
+
+### Câu 7 — Mức 3 — Vận dụng
+
+Tụ $20\,\mu$F tích điện đến $30$ V. Tính điện tích và năng lượng.
+
+### Câu 8 — Mức 3 — Vận dụng
+
+Một tụ có điện tích $Q=80\,\mu$C khi hiệu điện thế $U=20$ V. Tính điện dung.
+
+### Câu 9 — Mức 3 — Vận dụng
+
+Tụ phẳng trong chân không có diện tích mỗi bản $200$ cm², khoảng cách $1$ mm. Lấy $\varepsilon_0=8,85\cdot10^{-12}$ F/m. Tính C.
+
+## Phần D — Vận dụng và vận dụng cao
+
+### Câu 10 — Mức 4 — Vận dụng cao
+
+Tụ $C=10\,\mu$F nối với nguồn $U=100$ V. Sau khi tích điện, ngắt khỏi nguồn rồi tăng khoảng cách hai bản lên gấp đôi, bỏ qua mép. Tính Q, U mới và năng lượng mới.
+
+---
+
+[Đáp án và lời giải →](solutions.md)

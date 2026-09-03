@@ -159,7 +159,7 @@ Nếu R1/R2=R3/R4, dòng nhánh giữa bằng 0; có thể bỏ nhánh đó khi 
     Ampe kế thực tế không được mắc trực tiếp song song nguồn; vôn kế không được mắc nối tiếp để đo dòng.
 
 !!! warning "Đọc mạch"
-    Đừng bắt đầu bấm công thức trước khi xác định các nút. Sai topology thì mọi phép tính sau đều vô nghĩa.
+    Đừng bắt đầu bấm công thức trước khi xác định các nút. Sai cấu trúc liên kết mạch thì mọi phép tính sau đều vô nghĩa.
 
 ## Tóm tắt
 
@@ -177,6 +177,13 @@ Nếu R1/R2=R3/R4, dòng nhánh giữa bằng 0; có thể bỏ nhánh đó khi 
 3. R song song dây lí tưởng bị nối tắt.
 4. Đồng hồ hữu hạn phải tính như điện trở.
 5. Cầu cân bằng có thể triệt dòng nhánh giữa.
+
+
+<!-- LESSON_PRACTICE_LINKS -->
+## Luyện tập sau bài
+
+- [Bài tập theo bài](practice/07-circuit-reading-meters/exercises.md)
+- [Đáp án và lời giải](practice/07-circuit-reading-meters/solutions.md)
 
 ---
 

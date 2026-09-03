@@ -212,6 +212,13 @@ Sóng dừng là cách trực quan để hiểu **mode riêng** và **tần số
 4. Hai bó kề nhau ngược pha.
 5. Điều kiện biên quyết định họ tần số cho phép.
 
+
+<!-- LESSON_PRACTICE_LINKS -->
+## Luyện tập sau bài
+
+- [Bài tập theo bài](practice/04-standing-waves/exercises.md)
+- [Đáp án và lời giải](practice/04-standing-waves/solutions.md)
+
 ---
 
 [← Bài 3](03-mechanical-interference.md) | [↑ Chương](index.md) | [Bài 5 →](05-sound-waves.md)

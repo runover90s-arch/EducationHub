@@ -1,10 +1,10 @@
 ---
-title: "Quiz Chương 8 — Khúc xạ ánh sáng và quang hình"
+title: "Kiểm tra Chương 8 — Khúc xạ ánh sáng và quang hình"
 description: "10 câu kiểm tra nhanh quang hình Vật lí 11."
 order: 92
 ---
 
-# Quiz Chương 8 — Khúc xạ ánh sáng và quang hình
+# Kiểm tra Chương 8 — Khúc xạ ánh sáng và quang hình
 
 ## Câu 1
 Định luật Snell là:

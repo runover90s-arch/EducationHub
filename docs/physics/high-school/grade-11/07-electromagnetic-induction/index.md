@@ -22,9 +22,10 @@ Chương 6 trả lời câu hỏi: dòng điện tạo từ trường như thế
 2. [Bài 2 — Định luật Faraday và định luật Lenz](02-lenz-faraday-law.md)
 3. [Bài 3 — Suất điện động cảm ứng do chuyển động](03-motional-emf.md)
 4. [Bài 4 — Tự cảm và năng lượng từ trường](04-self-induction-energy.md)
+0. [Bài tập theo từng bài](practice/index.md)
 5. [Bài tập chương](exercises.md)
 6. [Lời giải chi tiết](solutions.md)
-7. [Quiz cuối chương](quiz.md)
+7. [Kiểm tra cuối chương](quiz.md)
 
 ## Mạch tư duy
 
@@ -41,7 +42,7 @@ E --> I[Tự cảm]
 I --> J[Năng lượng từ trường]
 ```
 
-## Prerequisite
+## Kiến thức tiên quyết
 
 - cảm ứng từ và đường sức từ;
 - vectơ pháp tuyến mặt phẳng;

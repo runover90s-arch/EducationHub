@@ -27,15 +27,16 @@ Sóng là bước chuyển từ dao động của **một hệ** sang sự lan t
 11. [Bài 11 — Nhiễu xạ, sóng ánh sáng và tán sắc](11-light-wave-diffraction-dispersion.md)
 12. [Bài 12 — Quang phổ và thang sóng điện từ mở rộng](12-spectra-electromagnetic-spectrum.md)
 13. [Bài 13 — Giao thoa nhiều bức xạ và ánh sáng trắng](13-multiwavelength-white-light-interference.md)
-14. [Bài tập chương](exercises.md)
-15. [Lời giải chi tiết](solutions.md)
-16. [Quiz cuối chương](quiz.md)
+14. [Bài tập theo từng bài](practice/index.md)
+15. [Bài tập chương](exercises.md)
+16. [Lời giải chi tiết](solutions.md)
+17. [Kiểm tra cuối chương](quiz.md)
 
 ## Phần mở rộng trong chương
 
 Các Bài 10–13 được đặt **sau phần lõi và thực hành**. Chúng mở rộng đúng mạch sóng: Doppler → tính sóng của ánh sáng/nhiễu xạ → tán sắc và quang phổ → giao thoa nhiều bước sóng. Người học có thể bỏ qua ở lượt học lõi đầu tiên rồi quay lại khi cần luyện chuyên đề sâu hơn.
 
-## Prerequisite chính
+## Kiến thức tiên quyết chính
 
 - dao động điều hòa, pha và độ lệch pha;
 - chu kì, tần số, tần số góc;

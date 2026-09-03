@@ -209,6 +209,13 @@ $\varepsilon_r=4$. C tăng 4 lần, U không đổi → Q và W đều tăng 4 l
 4. Điện môi làm tăng C.
 5. Luôn kiểm tra điện áp định mức trong ứng dụng thực tế.
 
+
+<!-- LESSON_PRACTICE_LINKS -->
+## Luyện tập sau bài
+
+- [Bài tập theo bài](practice/06-capacitors/exercises.md)
+- [Đáp án và lời giải](practice/06-capacitors/solutions.md)
+
 ---
 
 [← Bài 5](05-work-potential-voltage.md) | [↑ Chương](index.md) | [Bài 7 →](07-charged-particle-motion.md)

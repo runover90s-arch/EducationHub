@@ -170,6 +170,13 @@ $$
 4. Đỏ có bước sóng dài hơn tím trong vùng nhìn thấy.
 5. Tia X và gamma đều là bức xạ ion hóa năng lượng cao, cần kiểm soát an toàn.
 
+
+<!-- LESSON_PRACTICE_LINKS -->
+## Luyện tập sau bài
+
+- [Bài tập theo bài](practice/06-electromagnetic-waves/exercises.md)
+- [Đáp án và lời giải](practice/06-electromagnetic-waves/solutions.md)
+
 ---
 
 [← Bài 5](05-sound-waves.md) | [↑ Chương](index.md) | [Bài 7 →](07-light-interference.md)

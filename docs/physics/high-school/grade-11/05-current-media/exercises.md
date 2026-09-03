@@ -13,7 +13,7 @@ tags:
 
 > Đây là cách phân loại phục vụ mục đích sư phạm, không phải phân loại học thuật chính thức.
 
-## Level 1 — Nhận biết và nền tảng
+## Mức 1 — Nhận biết và nền tảng
 
 **Câu 1.** Hạt tải điện chủ yếu trong kim loại là gì? Chiều chuyển động có hướng của chúng so với chiều dòng điện quy ước như thế nào?
 
@@ -31,7 +31,7 @@ tags:
 
 **Câu 8.** Dòng 2 A qua bình điện phân trong 10 phút. Tính điện lượng qua bình.
 
-## Level 2 — Thông hiểu
+## Mức 2 — Thông hiểu
 
 **Câu 9.** Dòng 0,80 A qua dung dịch Cu$^{2+}$ trong 30 phút. Lấy $A_{Cu}=64$ g/mol, $F=96500$ C/mol. Tính khối lượng đồng bám ở catot.
 
@@ -45,7 +45,7 @@ tags:
 
 **Câu 14.** Dòng quang điện bão hòa là $8,0\,\mu$A. Tính số electron đến anot trong 1 s.
 
-## Level 3 — Vận dụng
+## Mức 3 — Vận dụng
 
 **Câu 15.** Bóng đèn có điện trở 24 Ω ở 20°C. Khi sáng, điện trở 240 Ω. Lấy $\alpha=4,5\times10^{-3}\,\text{K}^{-1}$. Ước lượng nhiệt độ dây tóc theo mô hình tuyến tính.
 
@@ -57,7 +57,7 @@ tags:
 
 **Câu 19.** Một dòng quang điện bão hòa 16 µA. Chùm sáng đơn sắc 400 nm có công suất 20 µW. Lấy $h=6,626\times10^{-34}$ J·s, $c=3,00\times10^8$ m/s. Tính hiệu suất đếm electron/photon theo mô hình đơn giản.
 
-## Level 4 — Vận dụng cao
+## Mức 4 — Vận dụng cao
 
 **Câu 20.** Một bình điện phân có điện trở 6 Ω mắc nối tiếp điện trở 4 Ω với nguồn $\mathcal E=12$ V, $r=2\,\Omega$. Dung dịch Ag$^+$. Tính khối lượng Ag bám sau 32 phút 10 giây.
 

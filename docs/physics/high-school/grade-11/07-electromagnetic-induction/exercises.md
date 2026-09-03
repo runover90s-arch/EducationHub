@@ -7,7 +7,7 @@ difficulty: "foundation-advanced"
 
 # Bài tập Chương 7 — Cảm ứng điện từ
 
-## Level 1 — Nền tảng
+## Mức 1 — Nền tảng
 
 ### Câu 1
 Một mặt phẳng diện tích 0,020 m² đặt trong từ trường đều 0,50 T. Pháp tuyến mặt song song B. Tính từ thông.
@@ -32,7 +32,7 @@ Từ thông qua một vòng giảm từ 8 mWb xuống 2 mWb trong 0,10 s. Tính 
 ### Câu 6
 Cuộn 100 vòng có từ thông mỗi vòng thay đổi 0,5 mWb trong 0,020 s. Tính độ lớn suất điện động cảm ứng.
 
-## Level 2 — Thông hiểu
+## Mức 2 — Thông hiểu
 
 ### Câu 7
 Một vòng diện tích 200 cm² trong B=0,20 T. B tạo với mặt phẳng vòng góc 30°. Tính độ lớn từ thông.
@@ -52,7 +52,7 @@ Một nam châm cực Bắc tiến lại gần một vòng dây. Nhìn từ phí
 ### Câu 12
 Một thanh dài 0,30 m chuyển động 4 m/s vuông góc với B=0,50 T trong cấu hình chuẩn. Tính suất điện động hai đầu thanh.
 
-## Level 3 — Vận dụng
+## Mức 3 — Vận dụng
 
 ### Câu 13
 Thanh ở Câu 12 đóng mạch có R=1,5 Ω. Tính I, lực từ cản và công suất cơ cần để giữ thanh chuyển động đều.
@@ -78,7 +78,7 @@ Cuộn L=50 mH có dòng 4 A. Tính năng lượng từ trường.
 ### Câu 20
 Cuộn L=0,10 H có dòng giảm từ 5 A xuống 1 A trong 0,020 s. Tính độ lớn suất tự cảm và nêu xu hướng chiều của nó.
 
-## Level 4 — Vận dụng cao
+## Mức 4 — Vận dụng cao
 
 ### Câu 21
 Khung chữ nhật có một cạnh trượt dài l=0,25 m trong B=0,80 T, R toàn mạch 0,50 Ω. Thanh được kéo bằng lực không đổi 0,40 N và đạt chuyển động đều. Bỏ ma sát. Tính tốc độ ổn định.

@@ -322,6 +322,13 @@ Dao động cưỡng bức ổn định có tần số bằng tần số ngoại
 4. Dao động cưỡng bức ổn định theo tần số ngoại lực.
 5. Cộng hưởng là trường hợp biên độ cưỡng bức đạt cực đại quanh tần số riêng.
 
+
+<!-- LESSON_PRACTICE_LINKS -->
+## Luyện tập sau bài
+
+- [Bài tập theo bài](practice/07-combined-damped-forced-resonance/exercises.md)
+- [Đáp án và lời giải](practice/07-combined-damped-forced-resonance/solutions.md)
+
 ---
 
 [← Bài 6](06-oscillation-energy.md) | [↑ Chương](index.md) | [Bài tập chương →](exercises.md)

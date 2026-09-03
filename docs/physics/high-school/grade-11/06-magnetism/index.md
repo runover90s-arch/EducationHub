@@ -36,9 +36,10 @@ Sau chương này, người học cần:
 3. [Bài 3 — Từ trường của dòng điện và nguyên lí chồng chất](03-fields-of-currents-superposition.md)
 4. [Bài 4 — Hai dòng điện song song, khung dây và mômen từ](04-parallel-currents-current-loop.md)
 5. [Bài 5 — Lực Lorentz và chuyển động của hạt mang điện](05-lorentz-force-charged-particle.md)
+0. [Bài tập theo từng bài](practice/index.md)
 6. [Bài tập chương](exercises.md)
 7. [Lời giải chi tiết](solutions.md)
-8. [Quiz cuối chương](quiz.md)
+8. [Kiểm tra cuối chương](quiz.md)
 
 ## Bản đồ ý tưởng
 
@@ -59,7 +60,7 @@ C --> K[Lực Lorentz]
 K --> L[Quỹ đạo hạt mang điện]
 ```
 
-## Prerequisite
+## Kiến thức tiên quyết
 
 - vectơ, góc và tích lượng giác cơ bản;
 - dòng điện và chiều dòng điện quy ước;

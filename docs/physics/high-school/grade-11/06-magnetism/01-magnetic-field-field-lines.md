@@ -182,6 +182,13 @@ Từ trường được mô tả bằng vectơ $\vec B$. Đường sức từ ch
 4. Dòng thẳng: dùng bàn tay phải để tìm chiều $\vec B$.
 5. Khi có nhiều nguồn, phải tổng hợp $\vec B$ theo vectơ.
 
+
+<!-- LESSON_PRACTICE_LINKS -->
+## Luyện tập sau bài
+
+- [Bài tập theo bài](practice/01-magnetic-field-field-lines/exercises.md)
+- [Đáp án và lời giải](practice/01-magnetic-field-field-lines/solutions.md)
+
 ---
 
 [← Chương](index.md) | [Bài 2 →](02-magnetic-force-current-wire.md)

@@ -175,6 +175,13 @@ Dòng điện trong chất điện phân do các ion chuyển động có hướ
 4. $k=(A/n)/F$.
 5. Bài mạch phải tìm đúng dòng qua bình trước khi tính m.
 
+
+<!-- LESSON_PRACTICE_LINKS -->
+## Luyện tập sau bài
+
+- [Bài tập theo bài](practice/02-electrolytes-faraday/exercises.md)
+- [Đáp án và lời giải](practice/02-electrolytes-faraday/solutions.md)
+
 ---
 
 [← Bài 1](01-current-in-metals.md) | [↑ Chương](index.md) | [Bài 3 →](03-current-in-gases.md)

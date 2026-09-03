@@ -207,6 +207,13 @@ Thấu kính mỏng được mô tả bằng f, d, d' với $1/f=1/d+1/d'$. Dự
 4. Ảnh thật có thể hứng màn; ảnh ảo không.
 5. Dự đoán bằng hình trước khi tính.
 
+
+<!-- LESSON_PRACTICE_LINKS -->
+## Luyện tập sau bài
+
+- [Bài tập theo bài](practice/05-thin-lenses-image-construction/exercises.md)
+- [Đáp án và lời giải](practice/05-thin-lenses-image-construction/solutions.md)
+
 ---
 
 [← Bài 4](04-prism-dispersion.md) | [↑ Chương](index.md) | [Bài 6 →](06-lens-problem-methods.md)

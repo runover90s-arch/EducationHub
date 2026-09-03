@@ -211,6 +211,13 @@ Hai nguồn cùng pha cách nhau $a=10$ cm, $\lambda=2$ cm. Trên đoạn nối 
 4. Cực tiểu bằng 0 chỉ khi hai biên độ tới bằng nhau và ngược pha.
 5. Khi đếm, phải kiểm tra biên và đầu mút.
 
+
+<!-- LESSON_PRACTICE_LINKS -->
+## Luyện tập sau bài
+
+- [Bài tập theo bài](practice/03-mechanical-interference/exercises.md)
+- [Đáp án và lời giải](practice/03-mechanical-interference/solutions.md)
+
 ---
 
 [← Bài 2](02-wave-equation-phase-graphs.md) | [↑ Chương](index.md) | [Bài 4 →](04-standing-waves.md)

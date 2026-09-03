@@ -275,6 +275,13 @@ Giao thoa nhiều bức xạ thực chất là chồng nhiều hệ vân có kho
 4. Đếm vân an toàn nhất bằng bất đẳng thức nguyên.
 5. Vân trung tâm của ánh sáng trắng là vị trí các bước sóng cùng cực đại.
 
+
+<!-- LESSON_PRACTICE_LINKS -->
+## Luyện tập sau bài
+
+- [Bài tập theo bài](practice/13-multiwavelength-white-light-interference/exercises.md)
+- [Đáp án và lời giải](practice/13-multiwavelength-white-light-interference/solutions.md)
+
 ---
 
 [← Bài 12](12-spectra-electromagnetic-spectrum.md) | [↑ Chương](index.md) | [Bài tập →](exercises.md)

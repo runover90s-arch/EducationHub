@@ -186,6 +186,13 @@ $$
 4. Tốc độ trôi của electron không phải tốc độ lan truyền tín hiệu.
 5. Đồ thị I–t là công cụ tìm q khi I thay đổi.
 
+
+<!-- LESSON_PRACTICE_LINKS -->
+## Luyện tập sau bài
+
+- [Bài tập theo bài](practice/01-current-intensity/exercises.md)
+- [Đáp án và lời giải](practice/01-current-intensity/solutions.md)
+
 ---
 
 [↑ Chương](index.md) | [Bài 2 →](02-resistance-ohm-law.md)
