@@ -10,6 +10,8 @@ Vật lí 11 là giáo trình hoàn chỉnh đầu tiên của hệ thống; cá
 
 Bản hiện tại có ngân hàng luyện tập Vật lí 11 tách theo từng bài: mỗi bài có **Bài tập** và **Đáp án/Lời giải** riêng, đồng thời vẫn giữ bài tập tổng hợp cuối chương.
 
+> Hướng dẫn duy trì nội dung và quy tắc làm việc với AI: [`tools/AI-INSTRUCTIONS.md`](tools/AI-INSTRUCTIONS.md).
+
 ## Chạy tại Codespaces hoặc máy cá nhân
 
 ```bash
