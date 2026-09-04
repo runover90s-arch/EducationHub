@@ -15,64 +15,91 @@ tags:
 
 ## Phần A — Trắc nghiệm 4 lựa chọn
 
-### Câu 1 — Mức 1 — Nhận biết
+### Bài 1 — Mức 1 — Nhận biết
 
 Phản xạ toàn phần có thể xảy ra khi ánh sáng truyền
 
-A. từ môi trường chiết suất nhỏ sang lớn.  
-B. từ môi trường chiết suất lớn sang nhỏ và góc tới đủ lớn.  
-C. trong chân không duy nhất.  
+A. từ môi trường chiết suất nhỏ sang lớn.
+B. từ môi trường chiết suất lớn sang nhỏ và góc tới đủ lớn.
+C. trong chân không duy nhất.
 D. ở mọi góc tới.
 
-### Câu 2 — Mức 1 — Nhận biết
+??? success "Đáp án và lời giải"
+    Chọn **B**.
+
+### Bài 2 — Mức 1 — Nhận biết
 
 Góc giới hạn ic thỏa
 
-A. $\sin i_c=n_2/n_1$ khi $n_1>n_2$.  
-B. $\sin i_c=n_1/n_2$.  
-C. $\cos i_c=n_2/n_1$ luôn.  
+A. $\sin i_c=n_2/n_1$ khi $n_1>n_2$.
+B. $\sin i_c=n_1/n_2$.
+C. $\cos i_c=n_2/n_1$ luôn.
 D. $i_c=90^\circ$ mọi môi trường.
 
-### Câu 3 — Mức 1 — Nhận biết
+??? success "Đáp án và lời giải"
+    Chọn **A**.
+
+### Bài 3 — Mức 1 — Nhận biết
 
 Thủy tinh n=1,5 ra không khí. Góc giới hạn gần bằng
 
-A. $30^\circ$.  
-B. $41,8^\circ$.  
-C. $60^\circ$.  
+A. $30^\circ$.
+B. $41,8^\circ$.
+C. $60^\circ$.
 D. $90^\circ$.
+
+??? success "Đáp án và lời giải"
+    Chọn **B** vì $\sin i_c=1/1,5=2/3$, $i_c\approx41,8^\circ$.
 
 ## Phần B — Đúng/Sai
 
-### Câu 4 — Mức 2 — Thông hiểu
+### Bài 4 — Mức 2 — Thông hiểu
 
 Phản xạ toàn phần:
 
-a) Không có tia khúc xạ truyền năng lượng sang môi trường hai theo mô hình tia đơn giản.  
-b) Cần $n_1>n_2$.  
-c) Cần $i>i_c$.  
+a) Không có tia khúc xạ truyền năng lượng sang môi trường hai theo mô hình tia đơn giản.
+b) Cần $n_1>n_2$.
+c) Cần $i>i_c$.
 d) Sợi quang khai thác phản xạ toàn phần.
+
+??? success "Đáp án và lời giải"
+    a) **Đúng** trong mô hình phổ thông.
+    b) **Đúng**.
+    c) **Đúng**.
+    d) **Đúng**.
 
 ## Phần C — Trả lời ngắn
 
-### Câu 5 — Mức 3 — Vận dụng
+### Bài 5 — Mức 3 — Vận dụng
 
 Nước n=4/3 tiếp giáp không khí. Tính góc giới hạn.
 
-### Câu 6 — Mức 3 — Vận dụng
+??? success "Đáp án và lời giải"
+    $\sin i_c=1/(4/3)=3/4=0,75$. $i_c\approx48,6^\circ$.
+
+### Bài 6 — Mức 3 — Vận dụng
 
 Ánh sáng trong thủy tinh n=1,6 tới mặt phân cách không khí với góc 50°. Có phản xạ toàn phần không?
 
-### Câu 7 — Mức 3 — Vận dụng
+??? success "Đáp án và lời giải"
+    $\sin i_c=1/1,6=0,625$, nên $i_c\approx38,7^\circ$. Vì $50^\circ>38,7^\circ$, có phản xạ toàn phần.
+
+### Bài 7 — Mức 3 — Vận dụng
 
 Môi trường có góc giới hạn với không khí là $30^\circ$. Tính chiết suất.
 
+??? success "Đáp án và lời giải"
+    $\sin30^\circ=1/n$, nên $n=2$.
+
 ## Phần D — Vận dụng và vận dụng cao
 
-### Câu 8 — Mức 4 — Vận dụng cao
+### Bài 8 — Mức 4 — Vận dụng cao
 
 Một tia sáng truyền trong lõi sợi quang n1=1,50 đến biên lõi–vỏ n2=1,40. Tính góc giới hạn tại biên. Nếu góc tới trong lõi là 75°, kết luận.
 
----
+??? success "Đáp án và lời giải"
+    $\sin i_c=n_2/n_1=1,40/1,50=0,9333$.
 
-[Đáp án và lời giải →](solutions.md)
+    $i_c\approx68,96^\circ$.
+
+    Vì $75^\circ>i_c$, tia bị phản xạ toàn phần tại biên lõi–vỏ.

@@ -13,50 +13,40 @@ tags:
 
 [← Bài tập](exercises.md)
 
-## Câu 1
-
+## Bài 1
 Chọn **B** sau khi quá trình nạp đã kết thúc.
 
-## Câu 2
-
+## Bài 2
 Chọn **B** trong quy ước máy thu: điện áp ngoài phải thắng suất phản điện và sụt áp trong.
 
-## Câu 3
-
+## Bài 3
 Chọn **A**; tổn hao Joule trong máy thu là $I^2r$.
 
-## Câu 4
-
+## Bài 4
 Chọn **B**.
 
-## Câu 5
-
+## Bài 5
 a) **Đúng**.  
 b) **Đúng**.  
 c) **Sai**: tụ có thể tích điện.  
 d) **Đúng**.
 
-## Câu 6
-
+## Bài 6
 a) **Đúng**.  
 b) **Đúng**.  
 c) **Đúng**.  
 d) **Sai**: hiệu suất phần có ích là $\eta=\mathcal E'I/(UI)=\mathcal E'/U<1$.
 
-## Câu 7
-
+## Bài 7
 $U=\mathcal E'+Ir=8+2\cdot1=10$ V.
 
-## Câu 8
-
+## Bài 8
 $P_{vào}=UI=10\cdot2=20$ W. $P_{ích}=\mathcal E'I=8\cdot2=16$ W. $P_{hao}=I^2r=4$ W. Kiểm tra $20=16+4$.
 
-## Câu 9
-
+## Bài 9
 Song song nên U tụ bằng 12 V. $Q=CU=20\cdot10^{-6}\cdot12=240\,\mu$C.
 
-## Câu 10
-
+## Bài 10
 Viết phương trình vòng theo chiều dòng. Suất điện động nguồn phát đẩy dòng, suất phản điện máy thu chống lại:
 
 $I=\frac{\mathcal E-\mathcal E'}{R+r+r'}=\frac{18-10}{5+1+2}=1$ A.
@@ -68,7 +58,3 @@ $U_{thu}=\mathcal E'+Ir'=10+1\cdot2=12$ V.
 Công suất vào máy thu $P_{vào}=12$ W; công suất có ích $P_{ích}=\mathcal E'I=10$ W.
 
 Hiệu suất máy thu $\eta=P_{ích}/P_{vào}=10/12\approx83,3\%$.
-
----
-
-[← Bài tập](exercises.md)

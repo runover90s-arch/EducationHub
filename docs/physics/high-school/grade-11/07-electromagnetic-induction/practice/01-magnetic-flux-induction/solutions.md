@@ -13,39 +13,31 @@ tags:
 
 [← Bài tập](exercises.md)
 
-## Câu 1
-
+## Bài 1
 Chọn **A**, với α là góc giữa $\vec B$ và pháp tuyến mặt S.
 
-## Câu 2
-
+## Bài 2
 Chọn **B**.
 
-## Câu 3
-
+## Bài 3
 Chọn **B** vì $\vec B$ vuông góc pháp tuyến, $\alpha=90^\circ$.
 
-## Câu 4
-
+## Bài 4
 a) **Đúng**.  
 b) **Đúng**.  
 c) **Sai** nói chung; quay làm góc thay đổi.  
 d) **Đúng**.
 
-## Câu 5
-
+## Bài 5
 $S=50\cdot10^{-4}=5\cdot10^{-3}$ m². $\Phi=BS=0,2\cdot5\cdot10^{-3}=10^{-3}$ Wb.
 
-## Câu 6
-
+## Bài 6
 $S=0,01$ m². $\Phi=0,5\cdot0,01\cos60^\circ=2,5\cdot10^{-3}$ Wb.
 
-## Câu 7
-
+## Bài 7
 Ban đầu $\Phi_1=BS$, cuối $\Phi_2=0$. Độ biến thiên về độ lớn là $|\Delta\Phi|=BS$.
 
-## Câu 8
-
+## Bài 8
 Diện tích mỗi vòng $S=20\cdot10^{-4}=2\cdot10^{-3}$ m².
 
 $\Delta\Phi=S\Delta B=2\cdot10^{-3}\cdot0,3=6\cdot10^{-4}$ Wb mỗi vòng.
@@ -53,7 +45,3 @@ $\Delta\Phi=S\Delta B=2\cdot10^{-3}\cdot0,3=6\cdot10^{-4}$ Wb mỗi vòng.
 Liên kết từ thông thay đổi:
 
 $N\Delta\Phi=200\cdot6\cdot10^{-4}=0,12$ Wb-vòng.
-
----
-
-[← Bài tập](exercises.md)

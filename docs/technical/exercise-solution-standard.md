@@ -147,7 +147,36 @@ Trước khi phát hành chạy:
 
 ```bash
 python tools/check_practice_bank.py
+python tools/check_pdf_import.py
+python tools/check_solution_quality.py
 python tools/check_site.py --lint-only
 ```
 
 Bộ kiểm tra cấu trúc không thay thế việc kiểm chứng học thuật: người biên soạn vẫn phải tính lại đáp án và xem xét điều kiện vật lí của từng câu.
+## 11. Văn phong lời giải Vật lí 11 theo corpus PDF
+
+Khi bài được nhập hoặc đối chiếu từ corpus PDF Vật lí 11, phần lời giải ưu tiên nhịp trình bày quen thuộc của tài liệu nguồn nhưng phải được chuẩn hóa để học trên web:
+
+- mở bằng **Đáp án** hoặc **Kết luận** khi cần;
+- dùng nhãn **Hướng dẫn giải**;
+- diễn đạt theo mạch: **Ta có → Suy ra → Thay số → Vậy**;
+- câu nhận biết chỉ cần nêu đúng căn cứ, không kéo dài giả tạo;
+- câu thông hiểu/vận dụng phải chỉ rõ quan hệ hoặc công thức quyết định;
+- câu khó phải chia bước, nói vì sao chọn mô hình/phương pháp, kiểm tra điều kiện và chốt kết quả;
+- câu Đúng/Sai phải giải thích từng ý, đặc biệt chỉ ra vì sao một phát biểu sai;
+- không giữ nguyên các dòng OCR vỡ công thức nếu có thể viết lại bằng Markdown/LaTeX sạch.
+
+Không sao chép máy móc lỗi trình bày của PDF. Mục tiêu là giữ **văn phong và cách lập luận** của nguồn, đồng thời làm cho lời giải mạch lạc, tự đủ thông tin và dễ theo dõi hơn.
+
+## 12. Khi đáp án hoặc lời giải nguồn có mâu thuẫn
+
+Không được sửa âm thầm. Quy trình bắt buộc:
+
+1. đọc lại câu hỏi và hình gốc;
+2. tính/biện luận độc lập từ dữ kiện;
+3. đối chiếu phần đáp án và phần hướng dẫn trong PDF;
+4. nếu nguồn tự mâu thuẫn nhưng kết quả đúng xác định được chắc chắn, hiệu chỉnh tối thiểu và thêm admonition `Đối chiếu nguồn`;
+5. nếu thiếu dữ kiện để quyết định duy nhất, giữ nguyên vấn đề và ghi rõ điều kiện còn thiếu thay vì đoán.
+
+Checker `tools/check_solution_quality.py` kiểm tra cả hai lớp ngân hàng — bài biên soạn trước và bài nhập từ PDF — về tính toàn vẹn, sự đồng nhất giữa lời giải inline/`solutions.md`, mức độ giải thích theo độ khó và cấu trúc Đúng/Sai. Checker này **không thay thế** bước kiểm chứng vật lí độc lập ở trên.
+

@@ -13,39 +13,31 @@ tags:
 
 [← Bài tập](exercises.md)
 
-## Câu 1
-
+## Bài 1
 Chọn **A** cho biến thiên đều/trung bình.
 
-## Câu 2
-
+## Bài 2
 Chọn **B**.
 
-## Câu 3
-
+## Bài 3
 Chọn **B**.
 
-## Câu 4
-
+## Bài 4
 a) **Đúng**.  
 b) **Đúng**.  
 c) **Đúng**.  
 d) **Sai**: $dI/dt=0$ nên $\mathcal E_L=0$.
 
-## Câu 5
-
+## Bài 5
 $|\mathcal E_L|=L\Delta I/\Delta t=0,5\cdot2/0,1=10$ V.
 
-## Câu 6
-
+## Bài 6
 $W=\frac12LI^2=0,5\cdot0,2\cdot9=0,9$ J.
 
-## Câu 7
-
+## Bài 7
 $L=|\mathcal E|\Delta t/|\Delta I|=6\cdot0,25/3=0,5$ H.
 
-## Câu 8
-
+## Bài 8
 Suất điện động trung bình:
 
 $|\mathcal E_L|=L|\Delta I|/\Delta t=0,40\cdot2/0,05=16$ V.
@@ -55,7 +47,3 @@ Năng lượng ban đầu:
 $W_0=\frac12LI^2=0,5\cdot0,40\cdot4=0,80$ J.
 
 Nếu cuối cùng dòng bằng 0 và bỏ qua các kênh khác, toàn bộ $0,80$ J được chuyển thành nhiệt trên điện trở.
-
----
-
-[← Bài tập](exercises.md)

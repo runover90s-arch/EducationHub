@@ -13,39 +13,31 @@ tags:
 
 [← Bài tập](exercises.md)
 
-## Câu 1
-
+## Bài 1
 Chọn **B** trong gần đúng góc nhỏ/nhìn gần vuông góc.
 
-## Câu 2
-
+## Bài 2
 Chọn **A**. $h'=1,2/(4/3)=0,9$ m.
 
-## Câu 3
-
+## Bài 3
 Chọn **A**.
 
-## Câu 4
-
+## Bài 4
 a) **Đúng**.  
 b) **Đúng**.  
 c) **Đúng**.  
 d) **Sai**.
 
-## Câu 5
-
+## Bài 5
 $h'=h/n=80/(4/3)=60$ cm.
 
-## Câu 6
-
+## Bài 6
 Độ dày biểu kiến $h'=6/1,5=4$ cm. Độ nâng $\Delta h=6-4=2$ cm.
 
-## Câu 7
-
+## Bài 7
 $\sin r=\sin45^\circ/1,5\approx0,4714$, nên $r\approx28,1^\circ$.
 
-## Câu 8
-
+## Bài 8
 Trước hết $r\approx28,1^\circ$.
 
 $s=4\,\frac{\sin(45^\circ-28,1^\circ)}{\cos28,1^\circ}$ cm.
@@ -53,7 +45,3 @@ $s=4\,\frac{\sin(45^\circ-28,1^\circ)}{\cos28,1^\circ}$ cm.
 $\sin16,9^\circ\approx0,291$, $\cos28,1^\circ\approx0,882$.
 
 $s\approx4\cdot0,291/0,882\approx1,32$ cm.
-
----
-
-[← Bài tập](exercises.md)

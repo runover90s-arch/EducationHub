@@ -36,6 +36,8 @@ def split_imported(s:str,marker:str):
 
 for ex in sorted(GRADE.glob('0[1-4]-*/practice/*/exercises.md')):
     et=ex.read_text(encoding='utf-8')
+    if re.search(r'^#### Bài PDF \d+', et, re.M):
+        errors.append(f'Còn nhãn Bài PDF legacy: {ex.relative_to(ROOT)}')
     sol=ex.with_name('solutions.md')
     old_marker='## Ngân hàng bài tập PDF mở rộng'
     new_marker='## Ngân hàng bài tập mở rộng'
@@ -66,9 +68,12 @@ for ex in sorted(GRADE.glob('0[1-4]-*/practice/*/exercises.md')):
     em=list(re.finditer(r'^#### Bài(?: PDF)? (\d+)\s*\n\n<!-- source-id: ([^>]+) -->\n\n',es,re.M))
     en=[int(m.group(1)) for m in em]
     if en:
-        expected=list(range(en[0],en[0]+len(en)))
+        curated_part=et.split(marker,1)[0]
+        curated_nums=[int(x) for x in re.findall(r'^### Bài (\d+)\b',curated_part,re.M)]
+        expected_start=max(curated_nums,default=0)+1
+        expected=list(range(expected_start,expected_start+len(en)))
         if en != expected:
-            errors.append(f'Số bài nhập không liên tục: {ex.relative_to(ROOT)}')
+            errors.append(f'Số bài nhập không nối tiếp phần biên soạn trước: {ex.relative_to(ROOT)} -> mong {expected_start}..{expected[-1]}, thực tế {en[0]}..{en[-1]}')
     else:
         errors.append(f'Không tìm thấy bài nhập: {ex.relative_to(ROOT)}')
         continue
@@ -120,6 +125,10 @@ for ex in sorted(GRADE.glob('0[1-4]-*/practice/*/exercises.md')):
 
         # In inline-answer pages only the part before the details block is the question.
         question_block=block.split('??? success "Đáp án và lời giải"',1)[0] if inline_answers else block
+        if re.search(r'(?m)^(?:Đáp án|Hướng dẫn(?: giải)?|Lời giải)\s*:?[ \t]*$', question_block):
+            errors.append(f'Đáp án/hướng dẫn bị lẫn vào phần đề: {ex.relative_to(ROOT)} Bài {seq}')
+        if 'source-faithful/' in question_block:
+            errors.append(f'Còn ảnh chụp legacy source-faithful: {ex.relative_to(ROOT)} Bài {seq}')
         nb=norm_text(question_block)
         if len(nb)>150 and 'công thức/kí hiệu của câu này được giữ nguyên bằng ảnh' not in nb:
             key=hashlib.sha1(nb.encode()).hexdigest()

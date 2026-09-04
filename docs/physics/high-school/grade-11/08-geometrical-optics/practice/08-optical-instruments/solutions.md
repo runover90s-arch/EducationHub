@@ -13,39 +13,31 @@ tags:
 
 [← Bài tập](exercises.md)
 
-## Câu 1
-
+## Bài 1
 Chọn **A**.
 
-## Câu 2
-
+## Bài 2
 Chọn **A**.
 
-## Câu 3
-
+## Bài 3
 Chọn **A** theo mô hình Kepler.
 
-## Câu 4
-
+## Bài 4
 a) **Đúng**.  
 b) **Đúng**.  
 c) **Đúng**.  
 d) **Sai**.
 
-## Câu 5
-
+## Bài 5
 $G=D/f=25/5=5$.
 
-## Câu 6
-
+## Bài 6
 $|G|=f_1/f_2=100/5=20$.
 
-## Câu 7
-
+## Bài 7
 f=1/20 m=0,05 m=5 cm. $G=25/5=5$.
 
-## Câu 8
-
+## Bài 8
 a) Độ lớn bội giác:
 
 $|G|=f_1/f_2=80/4=20$.
@@ -55,7 +47,3 @@ $|G|=f_1/f_2=80/4=20$.
 b) Khi ngắm chừng vô cực, tiêu diện ảnh của vật kính trùng tiêu diện vật của thị kính, nên khoảng cách hai kính:
 
 $L=f_1+f_2=80+4=84$ cm.
-
----
-
-[← Bài tập](exercises.md)

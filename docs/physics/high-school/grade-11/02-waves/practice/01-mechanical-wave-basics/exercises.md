@@ -15,79 +15,106 @@ tags:
 
 ## Phần A — Trắc nghiệm 4 lựa chọn
 
-### Câu 1 — Mức 1 — Nhận biết
+### Bài 1 — Mức 1 — Nhận biết
 
 Một sóng cơ có tần số $20$ Hz truyền với tốc độ $4$ m/s. Bước sóng là
 
-A. $0,10$ m.  
-B. $0,20$ m.  
-C. $5$ m.  
+A. $0,10$ m.
+B. $0,20$ m.
+C. $5$ m.
 D. $80$ m.
 
-### Câu 2 — Mức 1 — Nhận biết
+??? success "Đáp án và lời giải"
+    Chọn **B**. $\lambda=v/f=4/20=0,20$ m.
+
+### Bài 2 — Mức 1 — Nhận biết
 
 Phát biểu đúng về sóng cơ là
 
-A. Sóng cơ truyền được trong chân không.  
-B. Khi sóng truyền, các phần tử môi trường chuyển dời theo sóng từ nguồn đến rất xa.  
-C. Sóng cơ truyền dao động và năng lượng qua môi trường.  
+A. Sóng cơ truyền được trong chân không.
+B. Khi sóng truyền, các phần tử môi trường chuyển dời theo sóng từ nguồn đến rất xa.
+C. Sóng cơ truyền dao động và năng lượng qua môi trường.
 D. Tốc độ truyền sóng chỉ phụ thuộc tần số nguồn.
 
-### Câu 3 — Mức 1 — Nhận biết
+??? success "Đáp án và lời giải"
+    Chọn **C**. Sóng cơ cần môi trường vật chất và truyền trạng thái dao động/năng lượng, không mang các phần tử môi trường đi theo.
+
+### Bài 3 — Mức 1 — Nhận biết
 
 Một sóng có $\lambda=40$ cm. Hai điểm gần nhau nhất trên cùng phương truyền sóng dao động cùng pha cách nhau
 
-A. $10$ cm.  
-B. $20$ cm.  
-C. $40$ cm.  
+A. $10$ cm.
+B. $20$ cm.
+C. $40$ cm.
 D. $80$ cm.
+
+??? success "Đáp án và lời giải"
+    Chọn **C**. Hai điểm gần nhất cùng pha trên phương truyền sóng cách nhau một bước sóng.
 
 ## Phần B — Đúng/Sai
 
-### Câu 4 — Mức 2 — Thông hiểu
+### Bài 4 — Mức 2 — Thông hiểu
 
 Xét một sóng cơ hình sin:
 
-a) Chu kì dao động của phần tử môi trường bằng chu kì nguồn.  
-b) Bước sóng là quãng đường sóng truyền trong một chu kì.  
-c) Sóng ngang luôn truyền được trong chất khí.  
+a) Chu kì dao động của phần tử môi trường bằng chu kì nguồn.
+b) Bước sóng là quãng đường sóng truyền trong một chu kì.
+c) Sóng ngang luôn truyền được trong chất khí.
 d) Khi truyền sang môi trường khác, tần số do nguồn quyết định thường không đổi.
+
+??? success "Đáp án và lời giải"
+    a) **Đúng**.
+    b) **Đúng**.
+    c) **Sai** đối với sóng cơ trong khối môi trường thông thường; chất khí không truyền sóng cơ ngang thể tích.
+    d) **Đúng**: tần số liên tục qua mặt phân cách, còn tốc độ và bước sóng có thể đổi.
 
 ## Phần C — Trả lời ngắn
 
-### Câu 5 — Mức 3 — Vận dụng
+### Bài 5 — Mức 3 — Vận dụng
 
 Một nguồn dao động với tần số $25$ Hz tạo sóng truyền với tốc độ $5$ m/s. Tính bước sóng và thời gian sóng truyền đi $3$ m.
 
-### Câu 6 — Mức 3 — Vận dụng
+??? success "Đáp án và lời giải"
+    $\lambda=v/f=5/25=0,20$ m. Thời gian truyền $t=s/v=3/5=0,60$ s.
+
+### Bài 6 — Mức 3 — Vận dụng
 
 Một sóng có bước sóng $60$ cm. Tính khoảng cách ngắn nhất giữa hai điểm trên phương truyền sóng dao động ngược pha.
 
-### Câu 7 — Mức 3 — Vận dụng
+??? success "Đáp án và lời giải"
+    Ngược pha khi $\Delta d=(k+1/2)\lambda$. Khoảng cách nhỏ nhất ứng với $k=0$: $\lambda/2=30$ cm.
+
+### Bài 7 — Mức 3 — Vận dụng
 
 Một sóng truyền qua điểm A rồi đến B cách A $1,5$ m sau $0,30$ s. Tần số nguồn là $4$ Hz. Tính tốc độ và bước sóng.
 
+??? success "Đáp án và lời giải"
+    $v=1,5/0,30=5$ m/s. $\lambda=v/f=5/4=1,25$ m.
+
 ## Phần D — Vận dụng và vận dụng cao
 
-### Câu 8 — Mức 4 — Vận dụng cao
+### Bài 8 — Mức 4 — Vận dụng cao
 
 Một sóng hình sin truyền trên dây với tốc độ $2,4$ m/s. Hai điểm M, N trên cùng phương truyền cách nhau $45$ cm dao động lệch pha $3\pi/2$ rad theo độ lớn nhỏ nhất tương ứng với khoảng cách đó. Tính bước sóng và tần số.
 
----
+??? success "Đáp án và lời giải"
+    Độ lệch pha theo không gian: $|\Delta\varphi|=2\pi d/\lambda$. Với $d=0,45$ m và độ lệch pha đang xét là $3\pi/2$:
 
-[Đáp án và lời giải →](solutions.md)
+    $2\pi\cdot0,45/\lambda=3\pi/2$.
 
-## Ngân hàng bài tập PDF mở rộng
+    Suy ra $\lambda=0,60$ m. Tần số $f=v/\lambda=2,4/0,60=4$ Hz.
 
-> Nội dung câu hỏi và dữ kiện trong phần này được giữ nguyên; hệ thống chỉ chuẩn hóa xuống dòng và mã kí tự để hiển thị trên web. Câu trùng được loại bỏ. Với câu có công thức/kí hiệu bị sai khi trích xuất chữ từ PDF, đề bài được giữ dưới dạng ảnh để không làm thay đổi dữ kiện.
+## Ngân hàng bài tập mở rộng
+
+> Các bài dưới đây được đánh số nối tiếp phần bài tập phía trên. Đề bài được trình bày bằng Markdown; chỉ đồ thị, hình vẽ hoặc sơ đồ thực sự cần thiết mới được giữ dưới dạng hình. Đáp án và lời giải được đặt trong nút mở rộng ngay dưới từng bài.
 
 ### Nhận biết — Trả lời ngắn
 
-#### Bài PDF 1
+#### Bài 9
 
 <!-- source-id: BT-Chuong-II-p24-q1-45 -->
 
-Câu 1. Một nguồn sóng dao động điều hòa thực hiện 15 dao động trong thời gian 20 giây. Tốc độ
+Một nguồn sóng dao động điều hòa thực hiện 15 dao động trong thời gian 20 giây. Tốc độ
 truyền sóng
 5(
 / )
@@ -97,11 +124,20 @@ m s
 . Bước sóng của sóng này có giá trị bao nhiêu? (Làm tròn đến chữ số thập
 phân thứ 2 sau dấu phẩy)
 
-#### Bài PDF 2
+??? success "Đáp án và lời giải"
+    **Đáp án:** $6{,}67$
+    **Hướng dẫn giải:**
+
+    Dùng quan hệ $v=\lambda f=\lambda/T$; khi đọc đồ thị phải xác định đúng chu kì theo thời gian và bước sóng theo không gian.
+
+    Bước sóng được tính theo công thức:
+
+    Vậy kết quả cần tìm là **$6{,}67$**.
+#### Bài 10
 
 <!-- source-id: BT-Chuong-II-p37-q4-76 -->
 
-Câu 4. Một sóng cơ truyền dọc theo trục Ox có phương trình là u
+Một sóng cơ truyền dọc theo trục Ox có phương trình là u
 5cos(6 t
 x)
 =
@@ -110,168 +146,325 @@ x)
 bằng s, x đo bằng m. Khoảng cách giữa 3 gợn sóng liên tiếp trên phương truyền sóng cách nhau một
 khoảng bao nhiêu (tính theo đơn vị mét) ?
 
-#### Bài PDF 3
+??? success "Đáp án và lời giải"
+    **Đáp án:** $12$
+    **Hướng dẫn giải:**
+
+    Dùng quan hệ $v=\lambda f=\lambda/T$; khi đọc đồ thị phải xác định đúng chu kì theo thời gian và bước sóng theo không gian.
+
+    Vậy kết quả cần tìm là **$12$**.
+#### Bài 11
 
 <!-- source-id: BT-Chuong-II-p37-q5-77 -->
 
-Câu 5. Hai điểm M, N lần lượt cùng nằm trên một phương truyền sóng và cách nhau một phần ba
+Hai điểm M, N lần lượt cùng nằm trên một phương truyền sóng và cách nhau một phần ba
 bước sóng. Biên độ sóng không đổi trong quá trình truyền sóng. Tại một thời điểm, khi li độ dao
 động của một phần tử M là 3 cm thì li của của phần tử tại N là – 3 cm. Tính biên độ sóng? (tính theo
 đơn vị cm và là tròn đến số thập phân thứ hai)
 
-#### Bài PDF 4
+??? success "Đáp án và lời giải"
+    **Đáp án:** $3{,}46$
+    **Hướng dẫn giải:**
+
+    Dùng quan hệ $v=\lambda f=\lambda/T$; khi đọc đồ thị phải xác định đúng chu kì theo thời gian và bước sóng theo không gian.
+
+    Độ lệch pha giữa M và N:
+    Dùng đường tròn lượng giác ( hình 3.7 ) biểu diễn độ lệch pha suy ra:
+
+    Vậy kết quả cần tìm là **$3{,}46$**.
+#### Bài 12
 
 <!-- source-id: BT-Chuong-II-p56-q1-125 -->
 
-Câu 1. Một nguồn phát sóng trên mặt nước tạo dao động với tần số 100 Hz gây ra các sóng tròn lan rộng trên
+Một nguồn phát sóng trên mặt nước tạo dao động với tần số 100 Hz gây ra các sóng tròn lan rộng trên
 mặt nước. Biết khoảng cách giữa 7 gợn lồi liên tiếp là 3 cm. Tốc độ truyền sóng trên mặt nước là bao nhiêu
 (tính theo đơn vị m/s)?
 
-#### Bài PDF 5
+??? success "Đáp án và lời giải"
+    **Đáp án:** $50$
+    **Hướng dẫn giải:**
+
+    Dùng quan hệ $v=\lambda f=\lambda/T$; khi đọc đồ thị phải xác định đúng chu kì theo thời gian và bước sóng theo không gian.
+
+    Khoảng cách giữa 7 gợn lồi liên tiếp bằng 6 bước sóng nên
+    Tốc độ truyền sóng
+
+    Vậy kết quả cần tìm là **$50$**.
+#### Bài 13
 
 <!-- source-id: BT-Chuong-II-p56-q5-129 -->
 
-Câu 5. Tại điểm O trong lòng đất đang xảy ra dư chấn của một trận động đất. Ở điểm A trên mặt đất có một
+Tại điểm O trong lòng đất đang xảy ra dư chấn của một trận động đất. Ở điểm A trên mặt đất có một
 trạm quan sát địa chấn. Tại thời điểm nào đó, một rung chuyển ở O tạo ra hai sóng cơ (một sóng dọc, một sóng
 ngang) truyền thẳng đến A và tới A ở hai thời điểm cách nhau 15 s. Biết tốc độ truyền sóng dọc và tốc độ
 
 truyền sóng ngang lần lượt là 8000 m/s và 5000 m/s. Khoảng cách từ O đến A là bao nhiêu (tính theo đơn vị
 km)?
 
-#### Bài PDF 6
+??? success "Đáp án và lời giải"
+    **Đáp án:** $200$
+    **Hướng dẫn giải:**
+
+    Dùng quan hệ $v=\lambda f=\lambda/T$; khi đọc đồ thị phải xác định đúng chu kì theo thời gian và bước sóng theo không gian.
+
+    Gọi s là khoảng cách từ tâm chấn động đất đến trạm quan trắc.
+    Khoảng thời gian chênh lệch trạm quan trắc nhận được hai tín hiệu
+
+    Vậy kết quả cần tìm là **$200$**.
+#### Bài 14
 
 <!-- source-id: BT-Chuong-II-p57-q6-130 -->
 
-Câu 6. Một sóng ngang cơ học truyền trên một sợi dây đàn hồi với biên độ bằng 4 cm không đổi. Biết tần số
+Một sóng ngang cơ học truyền trên một sợi dây đàn hồi với biên độ bằng 4 cm không đổi. Biết tần số
 và tốc độ truyền sóng lần lượt là 4 Hz và 60 cm/s. Nếu khoảng cách gần nhất giữa hai điểm trên dây là 35 cm
 thì khoảng cách xa nhất giữa chúng là bao nhiêu (tính theo đơn vị cm, làm tròn đến một chữ số thập phân sau
 dấu phẩy)?
 
-#### Bài PDF 7
+??? success "Đáp án và lời giải"
+    **Đáp án:** $35{,}7$
+    **Hướng dẫn giải:**
+
+    Dùng quan hệ $v=\lambda f=\lambda/T$; khi đọc đồ thị phải xác định đúng chu kì theo thời gian và bước sóng theo không gian.
+
+    → hai điểm dao động lệch pha một góc 2
+
+    Vậy kết quả cần tìm là **$35{,}7$**.
+#### Bài 15
 
 <!-- source-id: BT-Chuong-II-p63-q5-157 -->
 
-Câu 5. Sóng ngang truyền trên mặt chất lỏng với biên độ không đổi và tần số 10 Hz. Trên cùng phương truyền
+Sóng ngang truyền trên mặt chất lỏng với biên độ không đổi và tần số 10 Hz. Trên cùng phương truyền
 sóng, ta thấy có hai điểm M và N mà khoảng cách của chúng luôn không đổi là 12 cm. Biết tốc độ có giá trị
 trong khoảng 50 cm/s đến 70 cm/s. Giá trị của tốc độ sóng là bao nhiêu (tính theo đơn vị m/s)?
 
-#### Bài PDF 8
+??? success "Đáp án và lời giải"
+    **Đáp án:** $0{,}6$
+    **Hướng dẫn giải:**
+
+    Dùng quan hệ $v=\lambda f=\lambda/T$; khi đọc đồ thị phải xác định đúng chu kì theo thời gian và bước sóng theo không gian.
+
+    Vậy kết quả cần tìm là **$0{,}6$**.
+#### Bài 16
 
 <!-- source-id: BT-Chuong-II-p63-q6-158 -->
 
-Câu 6. Một sóng dọc truyền trong môi trường với bước sóng 15 cm, biên độ không đổi 5 3 cm. Gọi P và Q là
+Một sóng dọc truyền trong môi trường với bước sóng 15 cm, biên độ không đổi 5 3 cm. Gọi P và Q là
 hai điểm cùng nằm trên một phương truyền sóng. Khi chưa có sóng truyền đến hai điểm P và Q nằm cách
 nguồn các khoảng lần lượt là 20 cm và 30 cm. Khoảng cách xa nhất giữa hai phần tử môi trường tại P và Q khi
 có sóng truyền qua là bao nhiêu (tính theo đơn vị m)?
 
-#### Bài PDF 9
+??? success "Đáp án và lời giải"
+    **Đáp án:** $0{,}25$
+    **Hướng dẫn giải:**
+
+    Dùng quan hệ $v=\lambda f=\lambda/T$; khi đọc đồ thị phải xác định đúng chu kì theo thời gian và bước sóng theo không gian.
+
+    Phương trình dao động của phần tử P và Q lần lượt là
+    Chủ đề 9 - THỰC HÀNH: ĐO TẦN SỐ CỦA SÓNG ÂM
+    I. TÓM TẮT LÝ THUYẾT – PHƯƠNG PHÁP GIẢI CÁC DẠNG BÀI TẬP
+    1. Giới thiệu và hướng dẫn sử dụng dao động kí điện tử
+    Máy dao động kí điện tử có dao diện như hình 1.1 dưới đây
+    Bước 1: Để khởi động máy dao động kí, ta bấm nút Power. Kết quả ta được dao diện như hình 1.2.
+
+    Vậy kết quả cần tìm là **$0{,}25$**.
+#### Bài 17
 
 <!-- source-id: BT-Chuong-II-p208-q1-471 -->
 
-Câu 1. Tính bước sóng của sóng? (tính theo mm)
+Tính bước sóng của sóng? (tính theo mm)
 
-#### Bài PDF 10
+??? success "Đáp án và lời giải"
+    **Đáp án:** 8
+    **Hướng dẫn giải:**
+
+    Dùng quan hệ $v=\lambda f=\lambda/T$; khi đọc đồ thị phải xác định đúng chu kì theo thời gian và bước sóng theo không gian.
+
+    Vậy kết quả cần tìm là **8**.
+#### Bài 18
 
 <!-- source-id: BT-Chuong-II-p208-q2-472 -->
 
-Câu 2. Tốc độ sóng trên mặt nước là bao nhiêu? (tính theo m/s)
+Tốc độ sóng trên mặt nước là bao nhiêu? (tính theo m/s)
 
-#### Bài PDF 11
+??? success "Đáp án và lời giải"
+    **Đáp án:** $0{,}8$
+    **Hướng dẫn giải:**
+
+    Dùng quan hệ $v=\lambda f=\lambda/T$; khi đọc đồ thị phải xác định đúng chu kì theo thời gian và bước sóng theo không gian.
+
+    Vậy kết quả cần tìm là **$0{,}8$**.
+#### Bài 19
 
 <!-- source-id: BT-Chuong-II-p208-q3-475 -->
 
-Câu 3. Bước sóng là bao nhiêu? (tính theo cm)
+Bước sóng là bao nhiêu? (tính theo cm)
 
-#### Bài PDF 12
+??? success "Đáp án và lời giải"
+    **Đáp án:** 4
+    **Hướng dẫn giải:**
+
+    Dùng quan hệ $v=\lambda f=\lambda/T$; khi đọc đồ thị phải xác định đúng chu kì theo thời gian và bước sóng theo không gian.
+
+    Vậy kết quả cần tìm là **4**.
+#### Bài 20
 
 <!-- source-id: BT-Chuong-II-p208-q4-476 -->
 
-Câu 4. Tính khoảng cách AB? (tính theo mét)
+Tính khoảng cách AB? (tính theo mét)
 
-#### Bài PDF 13
+??? success "Đáp án và lời giải"
+    **Đáp án:** $0{,}08$
+    **Hướng dẫn giải:**
+
+    Dùng quan hệ $v=\lambda f=\lambda/T$; khi đọc đồ thị phải xác định đúng chu kì theo thời gian và bước sóng theo không gian.
+
+    Vậy kết quả cần tìm là **$0{,}08$**.
+#### Bài 21
 
 <!-- source-id: BT-Chuong-II-p209-q6-480 -->
 
-Câu 6. Bước sóng của ánh sáng đơn sắc là bao nhiêu ? (tính theo μm )
+Bước sóng của ánh sáng đơn sắc là bao nhiêu ? (tính theo μm )
 
-#### Bài PDF 14
+??? success "Đáp án và lời giải"
+    **Đáp án:** $0{,}75$
+    **Hướng dẫn giải:**
+
+    Dùng quan hệ $v=\lambda f=\lambda/T$; khi đọc đồ thị phải xác định đúng chu kì theo thời gian và bước sóng theo không gian.
+
+    Vậy kết quả cần tìm là **$0{,}75$**.
+#### Bài 22
 
 <!-- source-id: BT-Chuong-II-p218-q1-505 -->
 
-Câu 1. Bước sóng là bao nhiêu? (tính theo m)
+Bước sóng là bao nhiêu? (tính theo m)
 
-#### Bài PDF 15
+??? success "Đáp án và lời giải"
+    **Đáp án:** $0{,}5$
+    **Hướng dẫn giải:**
+
+    Dùng quan hệ $v=\lambda f=\lambda/T$; khi đọc đồ thị phải xác định đúng chu kì theo thời gian và bước sóng theo không gian.
+
+    Vậy kết quả cần tìm là **$0{,}5$**.
+#### Bài 23
 
 <!-- source-id: BT-Chuong-II-p218-q2-506 -->
 
-Câu 2. Tốc độ sóng trên dây bằng bao nhiêu? (tính theo mét/giây)
+Tốc độ sóng trên dây bằng bao nhiêu? (tính theo mét/giây)
 
-#### Bài PDF 16
+??? success "Đáp án và lời giải"
+    **Đáp án:** $50$
+    **Hướng dẫn giải:**
+
+    Dùng quan hệ $v=\lambda f=\lambda/T$; khi đọc đồ thị phải xác định đúng chu kì theo thời gian và bước sóng theo không gian.
+
+    Vậy kết quả cần tìm là **$50$**.
+#### Bài 24
 
 <!-- source-id: BT-Chuong-II-p218-q3-509 -->
 
-Câu 3. Xác định bước sóng λ? (tính theo mét)
+Xác định bước sóng λ? (tính theo mét)
 
-#### Bài PDF 17
+??? success "Đáp án và lời giải"
+    **Đáp án:** $0{,}2$
+    **Hướng dẫn giải:**
+
+    Dùng quan hệ $v=\lambda f=\lambda/T$; khi đọc đồ thị phải xác định đúng chu kì theo thời gian và bước sóng theo không gian.
+
+    Vậy kết quả cần tìm là **$0{,}2$**.
+#### Bài 25
 
 <!-- source-id: BT-Chuong-II-p218-q4-510 -->
 
-Câu 4. Tốc độ truyền sóng trên mặt nước bằng bao nhiêu? (tính theo mét/giây)
+Tốc độ truyền sóng trên mặt nước bằng bao nhiêu? (tính theo mét/giây)
 
-#### Bài PDF 18
+??? success "Đáp án và lời giải"
+    **Đáp án:** $0{,}4$
+    **Hướng dẫn giải:**
+
+    Dùng quan hệ $v=\lambda f=\lambda/T$; khi đọc đồ thị phải xác định đúng chu kì theo thời gian và bước sóng theo không gian.
+
+    Vậy kết quả cần tìm là **$0{,}4$**.
+#### Bài 26
 
 <!-- source-id: BT-Chuong-II-p219-q6-514 -->
 
-Câu 6. Số điểm có biên độ dao động đứng yên là bao nhiêu?
+Số điểm có biên độ dao động đứng yên là bao nhiêu?
 
+??? success "Đáp án và lời giải"
+    **Đáp án:** 6
+    **Hướng dẫn giải:**
+
+    Dùng quan hệ $v=\lambda f=\lambda/T$; khi đọc đồ thị phải xác định đúng chu kì theo thời gian và bước sóng theo không gian.
+
+    Vậy kết quả cần tìm là **6**.
 ### Nhận biết — Trắc nghiệm 4 lựa chọn
 
-#### Bài PDF 19
+#### Bài 27
 
 <!-- source-id: BT-Chuong-II-p9-q2-2 -->
 
-Câu 2. Một nguồn sóng cơ học thực hiện dao động điều hoà, trong thời gian 60 s nguồn sóng thực
+Một nguồn sóng cơ học thực hiện dao động điều hoà, trong thời gian 60 s nguồn sóng thực
 hiện được 30 dao động toàn phần. Sóng cơ do nguồn này tạo ra có chu kỳ
 
 A. 60 s.
+
 B. 0,5 s.
+
 C. 2 s.
+
 D. 30 s.
 
-#### Bài PDF 20
+??? success "Đáp án và lời giải"
+    **Đáp án:** C
+    **Hướng dẫn giải:**
+
+    Dùng quan hệ $v=\lambda f=\lambda/T$; khi đọc đồ thị phải xác định đúng chu kì theo thời gian và bước sóng theo không gian.
+
+
+    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. 2 s.**
+#### Bài 28
 
 <!-- source-id: BT-Chuong-II-p9-q4-4 -->
 
-Câu 4. Gọi v là tốc độ truyền sóng, T  là chu kỳ sóng, f  là tần số sóng và λlà bước sóng. Công
+Gọi v là tốc độ truyền sóng, T là chu kỳ sóng, f là tần số sóng và λlà bước sóng. Công
 thức nào sau đây sai?
 
-A.
-v
+A. v
 f
 λ=
 .
+
 B. f
 v
 λ
 =
 .
+
 C. T
 v
 λ
 =
 .
-D.
-1
+
+D. 1
 f
 T
 =
 .
 
-#### Bài PDF 21
+??? success "Đáp án và lời giải"
+    **Đáp án:** B
+    **Hướng dẫn giải:**
+
+    Dùng quan hệ $v=\lambda f=\lambda/T$; khi đọc đồ thị phải xác định đúng chu kì theo thời gian và bước sóng theo không gian.
+
+
+    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **B. f v λ = .**
+#### Bài 29
 
 <!-- source-id: BT-Chuong-II-p9-q5-5 -->
 
-Câu 5. Trong cùng một môi trường truyền sóng cơ học, tốc độ truyền sóng
+Trong cùng một môi trường truyền sóng cơ học, tốc độ truyền sóng
 
 A. càng lớn nếu tần số của sóng càng lớn.
 
@@ -281,11 +474,19 @@ C. càng lớn nếu tần số góc của sóng càng nhỏ.
 
 D. có giá trị như nhau với mọi tần số.
 
-#### Bài PDF 22
+??? success "Đáp án và lời giải"
+    **Đáp án:** D
+    **Hướng dẫn giải:**
+
+    Dùng quan hệ $v=\lambda f=\lambda/T$; khi đọc đồ thị phải xác định đúng chu kì theo thời gian và bước sóng theo không gian.
+
+
+    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **D. có giá trị như nhau với mọi tần số.**
+#### Bài 30
 
 <!-- source-id: BT-Chuong-II-p9-q6-6 -->
 
-Câu 6. Tốc độ truyền sóng phụ thuộc vào
+Tốc độ truyền sóng phụ thuộc vào
 
 A. chu kỳ sóng.
 
@@ -295,23 +496,41 @@ C. tần số sóng.
 
 D. biên độ sóng.
 
-#### Bài PDF 23
+??? success "Đáp án và lời giải"
+    **Đáp án:** B
+    **Hướng dẫn giải:**
+
+    Dùng quan hệ $v=\lambda f=\lambda/T$; khi đọc đồ thị phải xác định đúng chu kì theo thời gian và bước sóng theo không gian.
+
+
+    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **B. môi trường truyền sóng.**
+#### Bài 31
 
 <!-- source-id: BT-Chuong-II-p9-q7-7 -->
 
-Câu 7. Trong cùng một môi trường truyền sóng, bước sóng sẽ giảm nếu:
+Trong cùng một môi trường truyền sóng, bước sóng sẽ giảm nếu:
 
 A. tăng chu kỳ sóng.
+
 B. tăng biên độ sóng.
 
 C. tăng tần số sóng.
+
 D. tăng li độ sóng.
 
-#### Bài PDF 24
+??? success "Đáp án và lời giải"
+    **Đáp án:** C
+    **Hướng dẫn giải:**
+
+    Dùng quan hệ $v=\lambda f=\lambda/T$; khi đọc đồ thị phải xác định đúng chu kì theo thời gian và bước sóng theo không gian.
+
+
+    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. tăng tần số sóng.**
+#### Bài 32
 
 <!-- source-id: BT-Chuong-II-p10-q9-9 -->
 
-Câu 9. Sóng cơ học không truyền được trong môi trường
+Sóng cơ học không truyền được trong môi trường
 
 A. không khí.
 
@@ -321,83 +540,145 @@ C. dầu hoả.
 
 D. chân không.
 
-#### Bài PDF 25
+??? success "Đáp án và lời giải"
+    **Đáp án:** D
+    **Hướng dẫn giải:**
+
+    Dùng quan hệ $v=\lambda f=\lambda/T$; khi đọc đồ thị phải xác định đúng chu kì theo thời gian và bước sóng theo không gian.
+
+
+    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **D. chân không.**
+#### Bài 33
 
 <!-- source-id: BT-Chuong-II-p10-q10-10 -->
 
-Câu 10. Một nguồn sóng có tần số 20 Hz, tạo ra sóng trên mặt nước. Biết sóng truyền đi với tốc độ
+Một nguồn sóng có tần số 20 Hz, tạo ra sóng trên mặt nước. Biết sóng truyền đi với tốc độ
 0,4 (m/s). Bước sóng được tạo ra trên mặt nước có giá trị
 
-A.
-2
+A. 2
 λ=
 cm .
-B.
-8
+
+B. 8
 λ=
 m.
-C.
-50
+
+C. 50
 λ=
 m.
-D.
-8
+
+D. 8
 λ=
 cm.
 
-#### Bài PDF 26
+??? success "Đáp án và lời giải"
+    **Đáp án:** A
+    **Hướng dẫn giải:**
+
+    Dùng quan hệ $v=\lambda f=\lambda/T$; khi đọc đồ thị phải xác định đúng chu kì theo thời gian và bước sóng theo không gian.
+
+    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. 2 λ= cm .**
+#### Bài 34
 
 <!-- source-id: BT-Chuong-II-p10-q11-11 -->
 
-Câu 11. Sóng cơ học không truyền được trong môi trường
+Sóng cơ học không truyền được trong môi trường
+
 A. không khí.
-B.  chân không.
+
+B. chân không.
+
 C. chất lỏng.
+
 D. chất rắn.
 
-#### Bài PDF 27
+??? success "Đáp án và lời giải"
+    **Đáp án:** B
+    **Hướng dẫn giải:**
+
+    Dùng quan hệ $v=\lambda f=\lambda/T$; khi đọc đồ thị phải xác định đúng chu kì theo thời gian và bước sóng theo không gian.
+
+
+    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **B. chân không.**
+#### Bài 35
 
 <!-- source-id: BT-Chuong-II-p10-q12-12 -->
 
-Câu 12. Một sóng cơ học lan truyền trên một sợi dây đàn hồi có hình dạng như hình 2.1 Bước sóng
+Một sóng cơ học lan truyền trên một sợi dây đàn hồi có hình dạng như hình 2.1 Bước sóng
 của sóng cơ học này có giá trị
 
 A. 2,5 m.
+
 B. 10 m.
+
 C. 5 m.
+
 D. 15 m.
 
-![Hình/bảng/đồ thị đi kèm bài PDF 27](../../../assets/exercise-figures/ii-p010-q12-16397.webp){ loading=lazy }
+![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/ii_p10_q12_12_fig1.webp){ loading=lazy }
 
-#### Bài PDF 28
+??? success "Đáp án và lời giải"
+    **Đáp án:** A
+    **Hướng dẫn giải:**
+    Bước sóng là khoảng cách giữa hai điễm liên tiếp dao động cùng pha trên phương truyền sóng.
+    u (cm)
+    x (m)
+    u (cm)
+    Hình 2.1
+
+    Từ hình 2.2 ta có thể suy ra bước sóng
+
+#### Bài 36
 
 <!-- source-id: BT-Chuong-II-p11-q13-13 -->
 
-Câu 13. Một sóng truyền trên mặt chất lỏng với tần số 10 Hz. Biết khoảng cách giữa 5 gợn sóng liên
+Một sóng truyền trên mặt chất lỏng với tần số 10 Hz. Biết khoảng cách giữa 5 gợn sóng liên
 tiếp là 16 m. Tốc độ truyền sóng trên mặt nước là
 
 A. 0,4 m/s
+
 B. 8 m/s
+
 C. 1,6 m/s
+
 D. 4 m/s.
 
-#### Bài PDF 29
+??? success "Đáp án và lời giải"
+    **Đáp án:** D
+    **Hướng dẫn giải:**
+    Áp dụng công thức:
+
+    Lại có:
+
+#### Bài 37
 
 <!-- source-id: BT-Chuong-II-p11-q14-14 -->
 
-Câu 14. Một sóng có tần số 50 Hz trên trong một môi trường với vận tốc 340 m/s. Bước sóng của
+Một sóng có tần số 50 Hz trên trong một môi trường với vận tốc 340 m/s. Bước sóng của
 nó là
 
 A. 1,7 m.
-B.  3,4 m.
-C.  6,8 m.
+
+B. 3,4 m.
+
+C. 6,8 m.
+
 D. 13,6 m.
 
-#### Bài PDF 30
+??? success "Đáp án và lời giải"
+    **Đáp án:** C
+    **Hướng dẫn giải:**
+    Tần số
+
+    Tốc độ truyền sóng:
+
+    Áp dụng công thức:
+
+#### Bài 38
 
 <!-- source-id: BT-Chuong-II-p11-q15-15 -->
 
-Câu 15. Cường độ sóng được xác định bằng
+Cường độ sóng được xác định bằng
 
 A. Công suất của sóng truyền qua một đơn vị diện tích vuông góc với phương truyền sóng.
 
@@ -407,59 +688,109 @@ C. Năng lượng sóng truyền qua diện tích S vuông góc với phương t
 
 đơn vị thời gian.
 
-   D. Năng lượng sóng truyền qua diện tích S vuông góc với phương truyền sóng trong
-    khoảng thời gian t.
+D. Năng lượng sóng truyền qua diện tích S vuông góc với phương truyền sóng trong
+ khoảng thời gian t.
 
-#### Bài PDF 31
+??? success "Đáp án và lời giải"
+    **Đáp án:** A
+    **Hướng dẫn giải:**
+
+    Dùng quan hệ $v=\lambda f=\lambda/T$; khi đọc đồ thị phải xác định đúng chu kì theo thời gian và bước sóng theo không gian.
+
+
+    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. Công suất của sóng truyền qua một đơn vị diện tích vuông góc với phương truyền sóng.**
+#### Bài 39
 
 <!-- source-id: BT-Chuong-II-p12-q18-18 -->
 
-Câu 18. Hình 2.4 bên mô tả quá trình sóng lan truyền trên bề mặt nước. Bước sóng là khoảng cách
+Hình 2.4 bên mô tả quá trình sóng lan truyền trên bề mặt nước. Bước sóng là khoảng cách
 giữa hai điểm
 
 Hình 2.3
 
 A. AB.
+
 B. BC.
+
 C. CD.
+
 D. AC.
 
-![Hình/bảng/đồ thị đi kèm bài PDF 31](../../../assets/exercise-figures/ii-p012-q18-55088.webp){ loading=lazy }
+![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/ii_p12_q18_18_fig1.webp){ loading=lazy }
 
-#### Bài PDF 32
+??? success "Đáp án và lời giải"
+    **Hướng dẫn giải:**
+    Các vị trí B và C là hai ngọn sóng liên tiếp trên cùng một phương truyền sóng. Do đó bước sóng
+    của sóng nước bằng với đoạn BC.
+
+#### Bài 40
 
 <!-- source-id: BT-Chuong-II-p15-q30-30 -->
 
-Câu 30. Một nguồn sóng dao động điều hòa. Khoảng thời gian giữa 9 lần liên tiếp ngọn sóng tại nhô
+Một nguồn sóng dao động điều hòa. Khoảng thời gian giữa 9 lần liên tiếp ngọn sóng tại nhô
 lên cao là 3,2 giây. Biết sóng truyền từ nguồn sóng cách bờ 5 m đến khi vào tới bờ mất 4 giây. Bước
 sóng của sóng này có giá trị
+
 A. 0,25 m.
 
 B. 0,5 m.
 
 C. 0,125 m.
+
 D. 2,5 m.
 
-#### Bài PDF 33
+??? success "Đáp án và lời giải"
+    **Đáp án:** B
+    **Hướng dẫn giải:**
+
+    Dùng quan hệ $v=\lambda f=\lambda/T$; khi đọc đồ thị phải xác định đúng chu kì theo thời gian và bước sóng theo không gian.
+
+    Ta có: Ngọn sóng nhô lên cao 9 lần tương ứng với 8 chu kỳ sóng.
+    Tốc độ truyền sóng:
+    Bước sóng của sóng là:
+
+    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **B. 0,5 m.**
+#### Bài 41
 
 <!-- source-id: BT-Chuong-II-p16-q32-32 -->
 
-![Đề bài PDF — Bài 33](../../../assets/exercise-figures/source-faithful/ii-p016-q32-de.webp){ loading=lazy }
+Một nguồn sóng dao động điều hòa theo phương trình
 
-#### Bài PDF 34
+$$
+u=2\cos\left(\frac{2\pi}{5}t+\frac{\pi}{3}\right)\ \text{cm}.
+$$
+
+Biết tốc độ truyền sóng trong môi trường là $2$ m/s. Bước sóng do nguồn này tạo ra là
+
+A. $5$ m.
+
+B. $10$ m.
+
+C. $2{,}5$ m.
+
+D. $4$ m.
+
+??? success "Đáp án và lời giải"
+    **Đáp án: B.**
+    **Hướng dẫn giải:**
+
+    $\omega=\dfrac{2\pi}{5}$ rad/s nên $T=\dfrac{2\pi}{\omega}=5$ s. Do đó
+
+    $$\lambda=vT=2\cdot5=10\ \text{m}.$$
+#### Bài 42
 
 <!-- source-id: BT-Chuong-II-p27-q1-51 -->
 
-Câu 1. Một sóng cơ truyền từ không khí vào môi trường nước sau đó đi vào thủy tinh. Tốc độ của
+Một sóng cơ truyền từ không khí vào môi trường nước sau đó đi vào thủy tinh. Tốc độ của
 sóng cơ truyền trong các môi trường nước
 nc
 v , không khí
 kk
 v và thủy tinh
-ttv  được sắp xếp theo thứ
+ttv được sắp xếp theo thứ
 tự tăng dần là
-A.
-,
+
+A. ,
 ,
 nc
 kk
@@ -467,16 +798,16 @@ tt
 v
 v
 v
-B.
-,
+
+B. ,
 ,
 nc
 tt
 kk
 v
 v v
-C.
-nc
+
+C. nc
 kk
 tt
 v
@@ -485,8 +816,7 @@ v
 =
 =
 
-D.
-,
+D. ,
 ,
 kk
 nc
@@ -495,38 +825,52 @@ v
 v
 v
 
-#### Bài PDF 35
+??? success "Đáp án và lời giải"
+    **Đáp án:** D
+    **Hướng dẫn giải:**
+
+    Dùng quan hệ $v=\lambda f=\lambda/T$; khi đọc đồ thị phải xác định đúng chu kì theo thời gian và bước sóng theo không gian.
+
+
+    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **D. , , kk nc tt v v v**
+#### Bài 43
 
 <!-- source-id: BT-Chuong-II-p27-q2-52 -->
 
-Câu 2. Đơn vị nào sau đây không là đơn cường độ sóng ?
-A.
-2 .
+Đơn vị nào sau đây không là đơn cường độ sóng ?
+
+A. 2 .
 J
 m
 
-B.
-2 .
+B. 2 .
 W
 m
 
-C.
-2 .
+C. 2 .
 .
 J
 s m
 
-D.
-.
+D. .
 .
 N
 s m
 
-#### Bài PDF 36
+??? success "Đáp án và lời giải"
+    **Đáp án:** A
+    **Hướng dẫn giải:**
+
+    Dùng quan hệ $v=\lambda f=\lambda/T$; khi đọc đồ thị phải xác định đúng chu kì theo thời gian và bước sóng theo không gian.
+
+
+    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. 2 . J m**
+#### Bài 44
 
 <!-- source-id: BT-Chuong-II-p27-q4-54 -->
 
-Câu 4. Trong quá trình truyền sóng đại lượng  không được truyền đi là
+Trong quá trình truyền sóng đại lượng không được truyền đi là
+
 A. năng lượng.
 
 B. xung lượng.
@@ -535,11 +879,19 @@ C. biến dạng đàn hồi.
 
 D. các phần tử vật chất.
 
-#### Bài PDF 37
+??? success "Đáp án và lời giải"
+    **Đáp án:** D
+    **Hướng dẫn giải:**
+
+    Dùng quan hệ $v=\lambda f=\lambda/T$; khi đọc đồ thị phải xác định đúng chu kì theo thời gian và bước sóng theo không gian.
+
+
+    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **D. các phần tử vật chất.**
+#### Bài 45
 
 <!-- source-id: BT-Chuong-II-p27-q5-55 -->
 
-Câu 5. Một nguồn sóng dao động điều hòa theo phương trình
+Một nguồn sóng dao động điều hòa theo phương trình
 (
 )
 2.cos 5
@@ -549,145 +901,276 @@ t
 =
 . Sóng do nguồn này
 tạo ra có tần số
+
 A. 5 Hz.
+
 B. 2,5 Hz.
+
 C. 10 Hz.
+
 D. 15,7Hz.
 
-#### Bài PDF 38
+??? success "Đáp án và lời giải"
+    **Đáp án:** B
+    **Hướng dẫn giải:**
+
+    Dùng quan hệ $v=\lambda f=\lambda/T$; khi đọc đồ thị phải xác định đúng chu kì theo thời gian và bước sóng theo không gian.
+
+    Tần số sóng
+
+    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **B. 2,5 Hz.**
+#### Bài 46
 
 <!-- source-id: BT-Chuong-II-p28-q8-58 -->
 
-Câu 8. Công thức nào sau đây tính bước sóng là sai?
-A.
-.v f
+Công thức nào sau đây tính bước sóng là sai?
+
+A. .v f
 λ=
 .
-B.
-.v T
+
+B. .v T
 λ=
 .
-C.
-v
+
+C. v
 f
 λ=
 .
-D.
-.2
+
+D. .2
 v π
 λ
 ω
 =
 .
 
-#### Bài PDF 39
+??? success "Đáp án và lời giải"
+    **Đáp án:** A
+    **Hướng dẫn giải:**
+
+    Dùng quan hệ $v=\lambda f=\lambda/T$; khi đọc đồ thị phải xác định đúng chu kì theo thời gian và bước sóng theo không gian.
+
+
+    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. .v f λ= .**
+#### Bài 47
 
 <!-- source-id: BT-Chuong-II-p29-q12-62 -->
 
-![Đề bài PDF — Bài 39](../../../assets/exercise-figures/source-faithful/ii-p029-q12-de.webp){ loading=lazy }
+Một sóng hình sin truyền theo chiều dương của trục $Ox$, với phương trình dao động của nguồn tại $O$ là
 
-#### Bài PDF 40
+$$u_O=2\cos(20\pi t)\ \text{cm}.$$
+
+Tại điểm $M$ theo hướng $Ox$, cách $O$ một phần ba bước sóng, phần tử môi trường dao động với phương trình nào?
+
+A. $u_M=2\cos\left(20\pi t+\dfrac{2\pi}{3}\right)$ cm.
+
+B. $u_M=2\cos\left(10\pi t+\dfrac{2\pi}{3}\right)$ cm.
+
+C. $u_M=2\cos\left(10\pi t-\dfrac{2\pi}{3}\right)$ cm.
+
+D. $u_M=2\cos\left(20\pi t-\dfrac{2\pi}{3}\right)$ cm.
+
+??? success "Đáp án và lời giải"
+    **Đáp án: D.**
+    **Hướng dẫn giải:**
+
+    Sóng truyền theo chiều dương nên điểm $M$ trễ pha so với nguồn một lượng
+
+    $\displaystyle \Delta\varphi=\frac{2\pi x}{\lambda}=\frac{2\pi}{3}.$
+
+    Do đó
+
+    $$u_M=2\cos\left(20\pi t-\frac{2\pi}{3}\right)\ \text{cm}.$$
+#### Bài 48
 
 <!-- source-id: BT-Chuong-II-p30-q13-63 -->
 
-Câu 13. Một người ngồi bên bờ biển thấy trong khoảng thời gian 9 giây có 19 ngọn sóng truyền qua
+Một người ngồi bên bờ biển thấy trong khoảng thời gian 9 giây có 19 ngọn sóng truyền qua
 trước mặt. Biết khoảng cách giữa hai ngọn sóng liên tiếp là 3m. Trong thời gian 5 s sóng truyền được
 quãng đường là
- A. 20 m.
+
+A. 20 m.
+
 B. 30 m.
+
 C. 15 m.
+
 D. 25 m.
 
-#### Bài PDF 41
+??? success "Đáp án và lời giải"
+    **Đáp án:** B
+    **Hướng dẫn giải:**
+
+    Dùng quan hệ $v=\lambda f=\lambda/T$; khi đọc đồ thị phải xác định đúng chu kì theo thời gian và bước sóng theo không gian.
+
+    Chu kỳ sóng:
+    Tốc độ truyền sóng:
+    Quãng đường sóng truyền:
+
+    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **B. 30 m.**
+#### Bài 49
 
 <!-- source-id: BT-Chuong-II-p30-q14-64 -->
 
-Câu 14. Hai điểm A và C trong hình 3.1 cách nhau một bước sóng do
+Hai điểm A và C trong hình 3.1 cách nhau một bước sóng do
+
 A. phần tử tại A và C cùng trạng thái.
 
 B. phần tử tại A và C cùng vị trí.
+
 C. phần tử tại A và C cùng vị tốc độ.
 
 D. phần tử tại A và C cùng vị gia tốc.
 
-![Hình/bảng/đồ thị đi kèm bài PDF 41](../../../assets/exercise-figures/ii-p030-q14-87161.webp){ loading=lazy }
+![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/ii_p30_q14_64_fig1.webp){ loading=lazy }
 
-#### Bài PDF 42
+??? success "Đáp án và lời giải"
+    **Đáp án:** A
+    **Hướng dẫn giải:**
+
+    Dùng quan hệ $v=\lambda f=\lambda/T$; khi đọc đồ thị phải xác định đúng chu kì theo thời gian và bước sóng theo không gian.
+
+
+    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. phần tử tại A và C cùng trạng thái.**
+#### Bài 50
 
 <!-- source-id: BT-Chuong-II-p44-q1-79 -->
 
-Câu 1. Để phân loại sóng dọc và sóng ngang người ta dựa vào
+Để phân loại sóng dọc và sóng ngang người ta dựa vào
 
 A. tốc độ truyền sóng và bước sóng.
+
 B. phương truyền sóng và tần số sóng.
 
 C. phương dao động và phương truyền sóng.
+
 D. phương dao động và tốc độ truyền sóng.
 
-#### Bài PDF 43
+??? success "Đáp án và lời giải"
+    **Đáp án:** C
+    **Hướng dẫn giải:**
+
+    Dùng quan hệ $v=\lambda f=\lambda/T$; khi đọc đồ thị phải xác định đúng chu kì theo thời gian và bước sóng theo không gian.
+
+
+    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. phương dao động và phương truyền sóng.**
+#### Bài 51
 
 <!-- source-id: BT-Chuong-II-p44-q2-80 -->
 
-Câu 2. Sóng dọc là sóng có phương dao động
+Sóng dọc là sóng có phương dao động
 
 A. trùng với phương truyền sóng.
+
 B. nằm ngang.
 
 C. vuông góc với phương truyền sóng.
+
 D. thẳng đứng.
 
-#### Bài PDF 44
+??? success "Đáp án và lời giải"
+    **Đáp án:** A
+    **Hướng dẫn giải:**
+
+    Dùng quan hệ $v=\lambda f=\lambda/T$; khi đọc đồ thị phải xác định đúng chu kì theo thời gian và bước sóng theo không gian.
+
+
+    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. trùng với phương truyền sóng.**
+#### Bài 52
 
 <!-- source-id: BT-Chuong-II-p44-q3-81 -->
 
-Câu 3. Sóng ngang là sóng có phương dao động của các phần tử môi trường và phương truyền sóng hợp với
+Sóng ngang là sóng có phương dao động của các phần tử môi trường và phương truyền sóng hợp với
 nhau một góc
 
 A. 30o
+
 B. 60o.
+
 C. 90o.
+
 D. 0o.
 
-#### Bài PDF 45
+??? success "Đáp án và lời giải"
+    **Đáp án:** C
+    **Hướng dẫn giải:**
+
+    Dùng quan hệ $v=\lambda f=\lambda/T$; khi đọc đồ thị phải xác định đúng chu kì theo thời gian và bước sóng theo không gian.
+
+
+    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. 90o.**
+#### Bài 53
 
 <!-- source-id: BT-Chuong-II-p44-q4-82 -->
 
-Câu 4. Trong sự truyền sóng cơ, biên độ dao động của các phần tử môi trường có sóng truyền qua được gọi là
+Trong sự truyền sóng cơ, biên độ dao động của các phần tử môi trường có sóng truyền qua được gọi là
 
 A. chu kì của sóng.
+
 B. biên độ của sóng.
+
 C. tốc độ truyền sóng.
+
 D. năng lượng sóng.
 
-#### Bài PDF 46
+??? success "Đáp án và lời giải"
+    **Đáp án:** B
+    **Hướng dẫn giải:**
+
+    Dùng quan hệ $v=\lambda f=\lambda/T$; khi đọc đồ thị phải xác định đúng chu kì theo thời gian và bước sóng theo không gian.
+
+
+    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **B. biên độ của sóng.**
+#### Bài 54
 
 <!-- source-id: BT-Chuong-II-p44-q6-84 -->
 
-Câu 6. Sóng ngang (sóng cơ học) truyền được trong các môi trường
+Sóng ngang (sóng cơ học) truyền được trong các môi trường
 
 A. chất rắn và trong lòng chất lỏng.
+
 B. chất khí và trong lòng chất rắn.
 
 C. chất rắn và bề mặt chất lỏng.
+
 D. chất khí và bề mặt chất rắn.
 
-#### Bài PDF 47
+??? success "Đáp án và lời giải"
+    **Đáp án:** C
+    **Hướng dẫn giải:**
+
+    Dùng quan hệ $v=\lambda f=\lambda/T$; khi đọc đồ thị phải xác định đúng chu kì theo thời gian và bước sóng theo không gian.
+
+
+    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. chất rắn và bề mặt chất lỏng.**
+#### Bài 55
 
 <!-- source-id: BT-Chuong-II-p44-q7-85 -->
 
-Câu 7. Đối với sóng cơ học, sóng dọc truyền được trong các môi trường
+Đối với sóng cơ học, sóng dọc truyền được trong các môi trường
 
 A. rắn, lỏng, chân không.
+
 B. rắn, lỏng, khí.
 
 C. rắn, khí, chân không.
+
 D. lỏng, khí, chân không.
 
-#### Bài PDF 48
+??? success "Đáp án và lời giải"
+    **Đáp án:** B
+    **Hướng dẫn giải:**
+
+    Dùng quan hệ $v=\lambda f=\lambda/T$; khi đọc đồ thị phải xác định đúng chu kì theo thời gian và bước sóng theo không gian.
+
+
+    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **B. rắn, lỏng, khí.**
+#### Bài 56
 
 <!-- source-id: BT-Chuong-II-p45-q9-87 -->
 
-Câu 9. Chọn phát biểu sai.
+Chọn phát biểu sai.
 
 A. Sóng dọc là sóng mà phương dao động của các phần tử vật chất nơi sóng truyền qua trùng với
 phương truyền sóng.
@@ -699,50 +1182,89 @@ với phương truyền sóng.
 
 D. Khi sóng truyền đi, các phần tử vật chất nơi sóng truyền qua cùng truyền đi theo sóng.
 
-#### Bài PDF 49
+??? success "Đáp án và lời giải"
+    **Đáp án:** D
+    **Hướng dẫn giải:**
+
+    Dùng quan hệ $v=\lambda f=\lambda/T$; khi đọc đồ thị phải xác định đúng chu kì theo thời gian và bước sóng theo không gian.
+
+
+    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **D. Khi sóng truyền đi, các phần tử vật chất nơi sóng truyền qua cùng truyền đi theo sóng.**
+#### Bài 57
 
 <!-- source-id: BT-Chuong-II-p48-q25-103 -->
 
-Câu 25. Một sóng ngang tần số 50 Hz truyền theo phương nằm ngang với tốc độ truyền sóng là 4 m/s. Bước
+Một sóng ngang tần số 50 Hz truyền theo phương nằm ngang với tốc độ truyền sóng là 4 m/s. Bước
 sóng của sóng trên là
 
 A. 4 cm.
+
 B. 12,5 cm.
-C.  8 cm.
+
+C. 8 cm.
 
 D. 200 cm.
 
-#### Bài PDF 50
+??? success "Đáp án và lời giải"
+    **Đáp án:** C
+    **Hướng dẫn giải:**
+
+    Dùng quan hệ $v=\lambda f=\lambda/T$; khi đọc đồ thị phải xác định đúng chu kì theo thời gian và bước sóng theo không gian.
+
+    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. 8 cm.**
+#### Bài 58
 
 <!-- source-id: BT-Chuong-II-p50-q36-114 -->
 
-Câu 36. Một người quan sát mặt biển thấy có 5 ngọn sóng đi qua trước mặt mình trong khoảng 10 s và đo
+Một người quan sát mặt biển thấy có 5 ngọn sóng đi qua trước mặt mình trong khoảng 10 s và đo
 được khoảng cách giữa 2 ngọn sóng liên tiếp là 5 m. Xem sóng biển là sóng ngang. Tốc độ truyền sóng là
 
 A. 2 m/s.
+
 B. 4 m/s.
+
 C. 6 m/s.
 
 D. 8 m/s.
 
-#### Bài PDF 51
+??? success "Đáp án và lời giải"
+    **Hướng dẫn giải:**
+
+    Dùng quan hệ $v=\lambda f=\lambda/T$; khi đọc đồ thị phải xác định đúng chu kì theo thời gian và bước sóng theo không gian.
+
+    Thời gian 5 ngọn sóng đí qua chính bằng 4 lần chu kì nên 4
+    Khoảng cách giữa 2 ngọn sóng liên tiếp chính bằng bước sóng nên
+    Tốc độ truyền sóng
+#### Bài 59
 
 <!-- source-id: BT-Chuong-II-p51-q37-115 -->
 
-Câu 37. Tại một điểm trên mặt nước có một nguồn dao động với tần số 120 Hz, tạo ra sóng ổn định. Tốc độ
+Tại một điểm trên mặt nước có một nguồn dao động với tần số 120 Hz, tạo ra sóng ổn định. Tốc độ
 truyền sóng là 15 m/s. Xét 5 gợn sóng liên tiếp trên một phương truyền sóng, ở một phía so với nguồn, gợn thứ
 nhất cách gợn thứ năm một khoảng
 
 A. 0,1 m.
+
 B. 0,3 m.
+
 C. 0,5 m.
+
 D. 0,7 m.
 
-#### Bài PDF 52
+??? success "Đáp án và lời giải"
+    **Đáp án:** C
+    **Hướng dẫn giải:**
+
+    Dùng quan hệ $v=\lambda f=\lambda/T$; khi đọc đồ thị phải xác định đúng chu kì theo thời gian và bước sóng theo không gian.
+
+    Khoảng cách gợn thứ nhất và gợn thứ năm là 4
+
+    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. 0,5 m.**
+#### Bài 60
 
 <!-- source-id: BT-Chuong-II-p51-q39-117 -->
 
-Câu 39. P và Q là hai điểm trên mặt nước cách nhau một khoảng 20 cm. Tại một điểm O trên đường
+P và Q là hai điểm trên mặt nước cách nhau một khoảng 20 cm. Tại một điểm O trên đường
 thẳng PQ và nằm ngoài đoạn PQ, người ta đặt nguồn dao động điều hòa theo phương vuông góc với mặt nước
 với phương trình
 cos
@@ -755,62 +1277,116 @@ cm, tạo ra sóng trên mặt nước với bước sóng 15 cm. Khoảng cách
 hai phần tử môi trường tại P và Q khi có bước sóng truyền qua là
 
 A. 15 m.
+
 B. 20 m.
+
 C. 5 m.
 
 D. 35 m.
 
-#### Bài PDF 53
+??? success "Đáp án và lời giải"
+    **Đáp án:** B
+    **Hướng dẫn giải:**
+
+    Dùng quan hệ $v=\lambda f=\lambda/T$; khi đọc đồ thị phải xác định đúng chu kì theo thời gian và bước sóng theo không gian.
+
+    Khoảng cách gần nhất giữa hai phần tử môi trường tại P và Q khi có bước sóng truyền qua
+
+    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **B. 20 m.**
+#### Bài 61
 
 <!-- source-id: BT-Chuong-II-p58-q1-131 -->
 
-Câu 1. Sóng ngang là sóng có phương dao động
+Sóng ngang là sóng có phương dao động
 
 A. trùng với phương truyền sóng.
+
 B. nằm ngang.
 
 C. vuông góc với phương truyền sóng.
+
 D. thẳng đứng.
 
-#### Bài PDF 54
+??? success "Đáp án và lời giải"
+    **Đáp án:** C
+    **Hướng dẫn giải:**
+
+    Dùng quan hệ $v=\lambda f=\lambda/T$; khi đọc đồ thị phải xác định đúng chu kì theo thời gian và bước sóng theo không gian.
+
+
+    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. vuông góc với phương truyền sóng.**
+#### Bài 62
 
 <!-- source-id: BT-Chuong-II-p58-q2-132 -->
 
-Câu 2. Sóng dọc là sóng có phương dao động của các phần tử môi trường và phương truyền sóng hợp với nhau
+Sóng dọc là sóng có phương dao động của các phần tử môi trường và phương truyền sóng hợp với nhau
 một góc
 
 A. 30o.
+
 B. 60o.
+
 C. 90o.
+
 D. 0o.
 
-#### Bài PDF 55
+??? success "Đáp án và lời giải"
+    **Đáp án:** D
+    **Hướng dẫn giải:**
+
+    Dùng quan hệ $v=\lambda f=\lambda/T$; khi đọc đồ thị phải xác định đúng chu kì theo thời gian và bước sóng theo không gian.
+
+
+    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **D. 0o.**
+#### Bài 63
 
 <!-- source-id: BT-Chuong-II-p58-q3-133 -->
 
-Câu 3. Đối với sóng cơ học, sóng dọc không truyền được trong
+Đối với sóng cơ học, sóng dọc không truyền được trong
 
 A. chân không.
+
 B. kim loại.
+
 C. không khí.
+
 D. nước.
 
-#### Bài PDF 56
+??? success "Đáp án và lời giải"
+    **Đáp án:** A
+    **Hướng dẫn giải:**
+
+    Dùng quan hệ $v=\lambda f=\lambda/T$; khi đọc đồ thị phải xác định đúng chu kì theo thời gian và bước sóng theo không gian.
+
+
+    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. chân không.**
+#### Bài 64
 
 <!-- source-id: BT-Chuong-II-p58-q5-135 -->
 
-Câu 5. Trong sự truyền sóng cơ, chu kì dao động của một phần từ môi trường có sóng truyền qua gọi là
+Trong sự truyền sóng cơ, chu kì dao động của một phần từ môi trường có sóng truyền qua gọi là
 
 A. chu kì của sóng.
+
 B. biên độ của sóng.
+
 C. tốc độ truyền sóng.
+
 D. năng lượng sóng.
 
-#### Bài PDF 57
+??? success "Đáp án và lời giải"
+    **Đáp án:** A
+    **Hướng dẫn giải:**
+
+    Dùng quan hệ $v=\lambda f=\lambda/T$; khi đọc đồ thị phải xác định đúng chu kì theo thời gian và bước sóng theo không gian.
+
+
+    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. chu kì của sóng.**
+#### Bài 65
 
 <!-- source-id: BT-Chuong-II-p58-q8-138 -->
 
-Câu 8. Nhận định nào sau đây không đúng khi nói về sóng?
+Nhận định nào sau đây không đúng khi nói về sóng?
 
 A. Sóng cơ là dao động cơ lan truyền trong một môi trường đàn hồi.
 
@@ -822,133 +1398,212 @@ C. Sóng ánh sáng có bản chất là sóng điện từ.
 
 D. Đối với sóng cơ, cả sóng dọc và sóng ngang đều không truyền được trong chân không.
 
-#### Bài PDF 58
+??? success "Đáp án và lời giải"
+    **Đáp án:** B
+    **Hướng dẫn giải:**
+
+    Dùng quan hệ $v=\lambda f=\lambda/T$; khi đọc đồ thị phải xác định đúng chu kì theo thời gian và bước sóng theo không gian.
+
+
+    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **B. Cường độ sóng là tốc độ lan truyền biến dạng được truyền qua một đơn vị diện tích vuông góc với phương truyền sóng trong một đơn vị thời gian.**
+#### Bài 66
 
 <!-- source-id: BT-Chuong-II-p58-q9-139 -->
 
-Câu 9. Sóng thần là hiện tượng các đợt sóng rất lớn được hình thành và di chuyển rất nhanh trên một quy mô
+Sóng thần là hiện tượng các đợt sóng rất lớn được hình thành và di chuyển rất nhanh trên một quy mô
 lớn. Cơn sóng thần xảy ra ở bờ biển Sumatra (Indonesia) năm 2004 được biết là một trong những thiên tai gây
 ra nhiều thiệt hại nhất trong lịch sử thế giới hiện đại. Những hình ảnh từ vệ tinh nhân tạo cho thấy khoảng cách
 giữa hai đỉnh sóng liên tiếp của cơn sóng thần này vào khoảng 800 km và chu kì là khoảng 1 giờ. Tốc độ của
 cơn sóng thần này là
 
 A. 800 km/h.
+
 B. 200 km/h.
+
 C. 800 m/s.
+
 D. 200 m/s.
+??? success "Đáp án và lời giải"
+    **Đáp án:** A
+    **Hướng dẫn giải:**
 
-![Hình/bảng/đồ thị đi kèm bài PDF 58](../../../assets/exercise-figures/ii-p058-q09-82215.webp){ loading=lazy }
+    Dùng quan hệ $v=\lambda f=\lambda/T$; khi đọc đồ thị phải xác định đúng chu kì theo thời gian và bước sóng theo không gian.
 
-#### Bài PDF 59
+    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. 800 km/h.**
+#### Bài 67
 
 <!-- source-id: BT-Chuong-II-p59-q10-140 -->
 
-Câu 10. Đơn vị của cường độ sóng là
+Đơn vị của cường độ sóng là
 
 A. J/s.
+
 B. W/m2.
+
 C. Wm2.
+
 D. Js.
 
-#### Bài PDF 60
+??? success "Đáp án và lời giải"
+    **Đáp án:** B
+    **Hướng dẫn giải:**
+
+    Dùng quan hệ $v=\lambda f=\lambda/T$; khi đọc đồ thị phải xác định đúng chu kì theo thời gian và bước sóng theo không gian.
+
+
+    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **B. W/m2.**
+#### Bài 68
 
 <!-- source-id: BT-Chuong-II-p59-q13-143 -->
 
-Câu 13. Khi sóng truyền từ một nguồn điểm trong không gian đồng nhất và đẳng hướng và không hấp thụ
+Khi sóng truyền từ một nguồn điểm trong không gian đồng nhất và đẳng hướng và không hấp thụ
 năng lượng sóng, năng lượng dao động của một phần tử môi trường trên phương truyền sóng sẽ
+
 A. giảm tỷ lệ với khoảng cách tới nguồn.
 
 B. giảm tỉ lệ với bình phương quãng đường truyền sóng.
+
 C. tăng tỷ lệ với khoảng cách tới nguồn.
 
 D. tăng tỉ lệ với bình phương quãng đường truyền
 
-#### Bài PDF 61
+??? success "Đáp án và lời giải"
+    **Đáp án:** B
+    **Hướng dẫn giải:**
+
+    Dùng quan hệ $v=\lambda f=\lambda/T$; khi đọc đồ thị phải xác định đúng chu kì theo thời gian và bước sóng theo không gian.
+
+
+    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **B. giảm tỉ lệ với bình phương quãng đường truyền sóng.**
+#### Bài 69
 
 <!-- source-id: BT-Chuong-II-p60-q18-148 -->
 
-Câu 18. Một sóng ngang cơ học truyền trên một sợi dây đàn hồi với biên độ bằng 5 cm không đổi. Biết tần số
+Một sóng ngang cơ học truyền trên một sợi dây đàn hồi với biên độ bằng 5 cm không đổi. Biết tần số
 và tốc độ truyền sóng lần lượt là 5 Hz và 100 cm/s. Nếu khoảng cách gần nhất giữa hai điểm trên dây là 30 cm
 thì khoảng cách xa nhất giữa chúng xấp xỉ bằng
 
 A. 31,2 cm.
+
 B. 30,8 cm.
+
 C. 31,6 cm.
 
 D. 30,4 cm.
 
-#### Bài PDF 62
+??? success "Đáp án và lời giải"
+    **Đáp án:** C
+    **Hướng dẫn giải:**
+
+    Dùng quan hệ $v=\lambda f=\lambda/T$; khi đọc đồ thị phải xác định đúng chu kì theo thời gian và bước sóng theo không gian.
+
+    Khoảng cách gần nhất giữa hai điểm
+    → hai điểm ngược pha.
+    Khoảng cách xa nhất giữa hai điểm
+
+    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. 31,6 cm.**
+#### Bài 70
 
 <!-- source-id: BT-Chuong-II-p194-q1-425 -->
 
-Câu 1. Một sóng cơ có tần số f, truyền trên dây đàn hồi với tốc độ truyền sóng v và bước sóng λ. Hệ
+Một sóng cơ có tần số f, truyền trên dây đàn hồi với tốc độ truyền sóng v và bước sóng λ. Hệ
 thức đúng là
+
 A. v
 f
 λ
 =
 .
-B.
-f
+
+B. f
 v
 λ
 =
 .
+
 C. v
 f
 λ
 =
 .
-D.
-2
+
+D. 2
 v
 f
 πλ
 =
 .
 
-#### Bài PDF 63
+??? success "Đáp án và lời giải"
+    **Đáp án:** A
+    **Hướng dẫn giải:**
+
+    Dùng quan hệ $v=\lambda f=\lambda/T$; khi đọc đồ thị phải xác định đúng chu kì theo thời gian và bước sóng theo không gian.
+
+    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. v f λ = .**
+#### Bài 71
 
 <!-- source-id: BT-Chuong-II-p194-q3-427 -->
 
-Câu 3. Phát biểu nào sau đây về đại lượng đặc trưng của sóng cơ không đúng?
+Phát biểu nào sau đây về đại lượng đặc trưng của sóng cơ không đúng?
+
 A. Chu kì của sóng chính bằng chu kì dao động của các phần tử dao động.
+
 B. Tần số của sóng chính bằng tần số dao động của các phần tử dao động.
+
 C. Tốc độ của sóng chính bằng tốc độ dao động của các phần tử dao động.
+
 D. Bước sóng là quãng đường sóng truyền đi được trong một chu kì.
 
-#### Bài PDF 64
+??? success "Đáp án và lời giải"
+    **Đáp án:** C
+    **Hướng dẫn giải:**
+    Tốc độ lan truyền sóng cơ là tốc độ lan truyền pha dao động được tính bằng v = λ/T = λf. Còn tốc độ
+    dao động của các phần tử dao động được tính bằng v = u’(t).
+
+#### Bài 72
 
 <!-- source-id: BT-Chuong-II-p194-q4-428 -->
 
-Câu 4. Với một sóng nhất định, tốc độ truyền sóng phụ thuộc vào
+Với một sóng nhất định, tốc độ truyền sóng phụ thuộc vào
+
 A. năng lượng sóng.
 
 B. tần số dao động.
+
 C. môi trường truyền sóng.
 
 D. bước sóng.
 
-#### Bài PDF 65
+??? success "Đáp án và lời giải"
+    **Đáp án:** C
+    **Hướng dẫn giải:**
+    Tốc độ truyền sóng phụ thuộc vào bản chất của môi trường truyền sóng.
+
+#### Bài 73
 
 <!-- source-id: BT-Chuong-II-p194-q5-429 -->
 
-Câu 5. Một sóng cơ học lan truyền trong một môi trường tốc độ v. Bước sóng của sóng này trong
+Một sóng cơ học lan truyền trong một môi trường tốc độ v. Bước sóng của sóng này trong
 môi trường đó là λ. Chu kì dao động của sóng có biểu thức là
 
 A. T = v/λ.
 
 B. T = v.λ.
 
-C.  T = λ/v.
+C. T = λ/v.
 
 D. T = 2πv/λ.
 
-#### Bài PDF 66
+??? success "Đáp án và lời giải"
+    **Hướng dẫn giải:**
+
+    Dùng quan hệ $v=\lambda f=\lambda/T$; khi đọc đồ thị phải xác định đúng chu kì theo thời gian và bước sóng theo không gian.
+#### Bài 74
 
 <!-- source-id: BT-Chuong-II-p195-q8-432 -->
 
-Câu 8. Một sóng có tần số 120 Hz truyền trong một môi trường với tốc độ 60 m/s. Bước sóng của nó
+Một sóng có tần số 120 Hz truyền trong một môi trường với tốc độ 60 m/s. Bước sóng của nó
 là
 
 A. 1,0 m.
@@ -959,23 +1614,43 @@ C. 0,5 m.
 
 D. 0,25 m.
 
-#### Bài PDF 67
+??? success "Đáp án và lời giải"
+    **Đáp án:** C
+    **Hướng dẫn giải:**
+
+    Dùng quan hệ $v=\lambda f=\lambda/T$; khi đọc đồ thị phải xác định đúng chu kì theo thời gian và bước sóng theo không gian.
+
+    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. 0,5 m.**
+#### Bài 75
 
 <!-- source-id: BT-Chuong-II-p195-q9-433 -->
 
-Câu 9. Sóng cơ lan truyền trong môi trường đàn hồi với tốc độ v không đổi, khi tăng tần số sóng lên
+Sóng cơ lan truyền trong môi trường đàn hồi với tốc độ v không đổi, khi tăng tần số sóng lên
 2 lần thì bước sóng
 
 A. tăng 2 lần.
+
 B. tăng 1,5 lần.
+
 C. không đổi.
+
 D. giảm 2 lần.
 
-#### Bài PDF 68
+??? success "Đáp án và lời giải"
+    **Đáp án:** D
+    **Hướng dẫn giải:**
+    v
+    f
+    λ=
+
+    V không đổi, bước sóng tỉ lệ nghịch với tần số → tần số tăng 2 lần thì bước sóng giảm 2 lần.
+
+#### Bài 76
 
 <!-- source-id: BT-Chuong-II-p196-q11-435 -->
 
-Câu 11. Khi nói về sóng ngắn, phát biểu nào sau đây sai?
+Khi nói về sóng ngắn, phát biểu nào sau đây sai?
+
 A. Sóng ngắn phản xạ tốt trên tầng điện li.
 
 B. Sóng ngắn không truyền được trong chân không.
@@ -984,11 +1659,17 @@ C. Sóng ngắn phản xạ tốt trên mặt đất.
 
 D. Sóng ngắn có mang năng lượng.
 
-#### Bài PDF 69
+??? success "Đáp án và lời giải"
+    **Đáp án:** B
+    **Hướng dẫn giải:**
+    Sóng ngắn là sóng điện từ có bước sóng nhỏ vẫn truyền được trong chân không.
+
+#### Bài 77
 
 <!-- source-id: BT-Chuong-II-p196-q12-436 -->
 
-Câu 12. Ánh sáng đơn sắc có bước sóng 0,75μm ứng với màu
+Ánh sáng đơn sắc có bước sóng 0,75μm ứng với màu
+
 A. Lục.
 
 B. Đỏ.
@@ -997,23 +1678,35 @@ C. Tím.
 
 D. Chàm.
 
-#### Bài PDF 70
+??? success "Đáp án và lời giải"
+    **Đáp án:** B
+    **Hướng dẫn giải:**
+    Ánh sáng đơn sắc có bước sóng 0,75μm ứng với màu đỏ.
+
+#### Bài 78
 
 <!-- source-id: BT-Chuong-II-p210-q1-483 -->
 
-Câu 1. Với một sóng nhất định, tốc độ truyền sóng phụ thuộc vào
+Với một sóng nhất định, tốc độ truyền sóng phụ thuộc vào
+
 A. năng lượng sóng.
 
 B. tần số dao động.
+
 C. môi trường truyền sóng.
 
 D. bước sóng.
 
-#### Bài PDF 71
+??? success "Đáp án và lời giải"
+    **Đáp án:** C
+    **Hướng dẫn giải:**
+    Với một sóng nhất định, tốc độ truyền sóng phụ thuộc vào bản chất của môi trường.
+
+#### Bài 79
 
 <!-- source-id: BT-Chuong-II-p211-q3-485 -->
 
-Câu 3. Một sóng có tần số 120 Hz truyền trong một môi trường với tốc độ 60 m/s. Bước sóng của nó
+Một sóng có tần số 120 Hz truyền trong một môi trường với tốc độ 60 m/s. Bước sóng của nó
 là
 
 A. 1,0 m.
@@ -1024,81 +1717,121 @@ C. 0,5 m.
 
 D. 0,25 m.
 
-#### Bài PDF 72
+??? success "Đáp án và lời giải"
+    **Đáp án:** C
+    **Hướng dẫn giải:**
+
+    Dùng quan hệ $v=\lambda f=\lambda/T$; khi đọc đồ thị phải xác định đúng chu kì theo thời gian và bước sóng theo không gian.
+
+    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. 0,5 m.**
+#### Bài 80
 
 <!-- source-id: BT-Chuong-II-p211-q6-488 -->
 
-Câu 6. Một sóng lan truyền với tốc độ v = 200 m/s có bước sóng λ = 4 m. Chu kì dao động của sóng
+Một sóng lan truyền với tốc độ v = 200 m/s có bước sóng λ = 4 m. Chu kì dao động của sóng
 là
-A. T  = 0,02 s.
+
+A. T = 0,02 s.
+
 B. T = 50 s.
+
 C. T = 1,25 s.
+
 D. T = 0,2 s.
 
-#### Bài PDF 73
+??? success "Đáp án và lời giải"
+    **Đáp án:** A
+    **Hướng dẫn giải:**
+
+    Dùng quan hệ $v=\lambda f=\lambda/T$; khi đọc đồ thị phải xác định đúng chu kì theo thời gian và bước sóng theo không gian.
+
+    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. T = 0,02 s.**
+#### Bài 81
 
 <!-- source-id: BT-Chuong-II-p211-q7-489 -->
 
-Câu 7. Một điểm A trên mặt nước dao động với tần số 100 Hz. Trên mặt nước người ta đo được
+Một điểm A trên mặt nước dao động với tần số 100 Hz. Trên mặt nước người ta đo được
 khoảng cách giữa 7 gợn lồi liên tiếp là 3 cm. Khi đó tốc độ truyền sóng trên mặt nước là
-A.
-50
+
+A. 50
 v =
 cm/s.
-B.
-50
+
+B. 50
 v =
 m/s.
-C.
-5
-v =  cm/s.
-D.
-0,5
+
+C. 5
+v = cm/s.
+
+D. 0,5
 v =
 cm/s.
 
+??? success "Đáp án và lời giải"
+    **Đáp án:** A
+    **Hướng dẫn giải:**
+
+    Dùng quan hệ $v=\lambda f=\lambda/T$; khi đọc đồ thị phải xác định đúng chu kì theo thời gian và bước sóng theo không gian.
+
+    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. 50 v = cm/s.**
 ### Nhận biết — Đúng/Sai
 
-#### Bài PDF 74
+#### Bài 82
 
 <!-- source-id: BT-Chuong-II-p22-q1-41 -->
 
-Câu 1. Một sóng cơ học truyền đi trong nước với tốc độ 2 m/s, tần số dao động của nguồn sóng là 5
+Một sóng cơ học truyền đi trong nước với tốc độ 2 m/s, tần số dao động của nguồn sóng là 5
 Hz.
 
-Phát biểu
-Đúng
-Sai
-a
-Khi sóng truyền từ nước ra ngoài không khí, tần
-số sóng trong không khí là 5 Hz.
-Đ
+a) Khi sóng truyền từ nước ra ngoài không khí, tần số sóng trong không khí là 5 Hz.
+b) Bước sóng của sóng này trong nước là 10 m
+c) Khoảng cách giữa 3 ngọn sóng liên tiếp trên phương truyền sóng là 0,8 m.
+d) Bước sóng của sóng này khi truyền sang môi trường không khí giảm đi.
 
-b
-Bước sóng của sóng này trong nước là 10 m
+??? success "Đáp án và lời giải"
+    **Hướng dẫn giải:**
+    a. Tần số sóng cơ không đổi khi truyền từ môi trường này sang môi trường khác.
+    b. Bước sóng
+    .
+    c. Ba ngọn sóng liên tiếp cách nhau
+     = 0,8 (m).
+    d. Khi sóng truyền từ nước ra không khí thì vận tốc sóng giảm. Bước sóng tỉ lệ với tốc độ. Do đó
+    bước sóng giảm khi truyền từ nước ra không khí.
 
-S
-c
-Khoảng cách giữa 3 ngọn sóng liên tiếp trên
-phương truyền sóng là 0,8 m.
-Đ
-
-d
-Bước sóng của sóng này khi truyền sang môi
-trường không khí giảm đi.
-Đ
-
-#### Bài PDF 75
+#### Bài 83
 
 <!-- source-id: BT-Chuong-II-p32-q2-70 -->
 
-![Đề bài PDF — Bài 75](../../../assets/exercise-figures/source-faithful/ii-p032-q02-de.webp){ loading=lazy }
+Sóng tại nguồn $O$ tạo ra năm ngọn sóng truyền qua trước mặt trong thời gian $4$ s. Tại thời điểm ban đầu, nguồn $O$ có li độ $2\sqrt3$ cm, đang đi lên và biên độ sóng là $4$ cm. Biết tốc độ truyền sóng là $5$ m/s. Xét các phát biểu:
 
-#### Bài PDF 76
+a) Chọn chiều dương hướng lên, nguồn sóng dao động theo phương trình $u_O=4\cos\left(2\pi t-\dfrac{\pi}{3}\right)$ cm.
+b) Bước sóng của sóng cơ học là $10$ m.
+c) Tốc độ dao động cực đại của các phần tử có sóng truyền qua là $8\pi$ cm/s.
+d) Tại điểm $M$ cách nguồn $O$ một khoảng $\dfrac{\lambda}{4}$, phương trình sóng là $u_M=4\cos\left(2\pi t-\dfrac{\pi}{2}\right)$ cm.
+
+??? success "Đáp án và lời giải"
+    **Đáp án đã hiệu chỉnh:** a) Đúng; b) Sai; c) Đúng; d) Sai.
+
+    **Hướng dẫn giải:**
+
+    Năm ngọn sóng liên tiếp tạo ra $4$ khoảng chu kì, nên $T=4/(5-1)=1$ s và $\omega=2\pi$ rad/s.
+
+    a) **Đúng.** Tại $t=0$, $u_0=2\sqrt3$ cm, $A=4$ cm nên $\cos\varphi=\sqrt3/2$. Nguồn đang đi lên nên $v_0>0$, tức $-\omega A\sin\varphi>0$; chọn $\varphi=-\pi/3$. Do đó $u_O=4\cos(2\pi t-\pi/3)$ cm.
+
+    b) **Sai.** $\lambda=vT=5\cdot1=5$ m, không phải $10$ m.
+
+    c) **Đúng.** $v_{\max}=\omega A=2\pi\cdot4=8\pi$ cm/s.
+
+    d) **Sai.** Tại $M$ cách nguồn $\lambda/4$, sóng trễ pha $2\pi(\lambda/4)/\lambda=\pi/2$. Vì vậy $u_M=4\cos(2\pi t-\pi/3-\pi/2)=4\cos(2\pi t-5\pi/6)$ cm, không phải pha $-\pi/2$.
+
+    !!! warning "Đối chiếu nguồn"
+        Bảng đáp án PDF đánh dấu d) đúng nhưng công thức truyền sóng và chính pha ban đầu ở ý a) cho pha tại $M$ là $-5\pi/6$. Vì vậy d) được hiệu chỉnh thành sai.
+#### Bài 84
 
 <!-- source-id: BT-Chuong-II-p34-q4-72 -->
 
-Câu 4. Khi một con bọ cánh cam bò trên bãi cát trong phạm vi vài chục xen-ti-mét cách con bọ cạp
+Khi một con bọ cánh cam bò trên bãi cát trong phạm vi vài chục xen-ti-mét cách con bọ cạp
 cát thì con bọ cạp cát quay ngay về phía con bọ cánh cam và xông vào chỗ trú ẩn của nó để giết và
 ăn thịt nó. Để làm được như vậy, khi con mồi cánh cam làm xáo động cát, nó sẽ gửi đồng thời hai
 sóng truyền ra môi trường xung quanh, một sóng dọc và một sóng ngang. Sóng dọc truyền đi với tốc
@@ -1115,98 +1848,67 @@ t
 Δgiữa hai lần cảm nhận sự rung động của sóng dọc và sóng ngang. Nhờ đó con bọ
 cạp dễ dạng nhận được vị trí và bắt được con mồi.
 
-Phát biểu
-Đúng
-Sai
-a
-Trong quá trình truyền sóng, thời gian truyền sóng dọc
-nhiều hơn thời gian truyền sóng ngang.
+a) Trong quá trình truyền sóng, thời gian truyền sóng dọc nhiều hơn thời gian truyền sóng ngang.
+b) Con bọ cạp dùng sóng dọc để xác định được hướng
+c) ủa con mồi.
+c) Nếu d là khoảng cách từ con bọ cạp đến con mồi thì thời gian con bọ cạp cảm nhận được tín hiệu đầu tiên là 50
+d) .
+d) Nếu thời gian chênh lệch giữa hai tín hiệu sóng dọc và sóng ngang là ( ) 4 ms thì khoảng cách từ con bọ cạp đến con mồi là 30 cm,
 
-S
-b
-Con bọ cạp dùng sóng dọc để xác định được hướng
-của con mồi.
-Đ
+![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/ii_p34_q4_72_fig1.webp){ loading=lazy }
 
-c
-Nếu d là khoảng cách từ con bọ cạp đến con mồi thì
-thời gian con bọ cạp cảm nhận được tín hiệu đầu tiên
-là 50
-d .
+??? success "Đáp án và lời giải"
+    **Hướng dẫn giải:**
 
-S
-d
-Nếu thời gian chênh lệch giữa hai tín hiệu sóng dọc và sóng
-ngang là (
-)
-4 ms thì khoảng cách từ con bọ cạp đến con mồi
-là 30 cm,
-Đ
+    Dùng quan hệ $v=\lambda f=\lambda/T$; khi đọc đồ thị phải xác định đúng chu kì theo thời gian và bước sóng theo không gian.
 
-![Hình/bảng/đồ thị đi kèm bài PDF 76](../../../assets/exercise-figures/ii-p034-q04-72232.webp){ loading=lazy }
-
-#### Bài PDF 77
+    a) Thời gian truyền sóng
+    . Do sóng dọc có tốc độ lớn hơn nên thời gian truyền nhỏ hơn.
+    b) Sóng dọc truyền đến trước, con bọ cạp cảm nhận rung động đến chân nào thì đó là hướng của
+    c) Sóng dọc truyền nhanh hơn và đến trước với tốc độ
+    . Do đó thời điểm đầu tiên
+    con bọ cạp nhận được tín hiệu từ con mồi là 150
+    d) Khoảng thời gian chênh lệch giữa hai tín hiệu
+    Vị trí con mồi cách một khoảng d = 0,3 m = 30 cm
+#### Bài 85
 
 <!-- source-id: BT-Chuong-II-p53-q2-120 -->
 
-Câu 2. Thang sóng điện từ phân loại sóng điện từ theo tần số của chúng, mỗi miền tần số có tên gọi, tính chất
-và công dụng khác nhau. Tần số các miền bức xạ điện từ được thể hiện ở bảng dưới. Biết tốc độ ánh sáng là
-8
-3.10  m/s
-c =
 
-Miền bức xạ
-Tần số (Hz)
-Công dụng (Ví dụ)
-Sóng vô tuyến
-104 đến 3.1012
-Liên lạc, truyền thông vô tuyến
-Hồng ngoại
-3.1011 đến 4.1014
-Sưởi ấm, sấy khô
-Ánh sáng nhìn thấy
-4.1014 (đỏ) đến 8.1014 (tím)
-Chiếu sáng
-Tử ngoại
-8.1014 đến 3.1017
-Khử trùng, diệt khuẩn
-Tia X
-3.1016 đến 3.1019
-Chẩn đoán hình ảnh trong y học, an ninh hải quan
-Tia gamma
-Trên 3.1019
-Hủy diệt tế bào ung thư
+Thang sóng điện từ phân loại sóng điện từ theo tần số của chúng, mỗi miền tần số có tên gọi, tính chất và công dụng khác nhau. Tần số các miền bức xạ điện từ được thể hiện ở bảng dưới. Biết tốc độ ánh sáng là $c=3\times10^8$ m/s.
 
-Phát biểu
-Đúng
-Sai
-a
-Bức xạ có tần số 100 000 Hz là ánh sáng nhìn thấy.
+| Miền bức xạ | Tần số (Hz) | Công dụng (ví dụ) |
+| --- | --- | --- |
+| Sóng vô tuyến | $10^4$ đến $3\times10^{12}$ | Liên lạc, truyền thông vô tuyến |
+| Hồng ngoại | $3\times10^{11}$ đến $4\times10^{14}$ | Sưởi ấm, sấy khô |
+| Ánh sáng nhìn thấy | $4\times10^{14}$ (đỏ) đến $8\times10^{14}$ (tím) | Chiếu sáng |
+| Tử ngoại | $8\times10^{14}$ đến $3\times10^{17}$ | Khử trùng, diệt khuẩn |
+| Tia X | $3\times10^{16}$ đến $3\times10^{19}$ | Chẩn đoán hình ảnh trong y học, an ninh hải quan |
+| Tia gamma | Trên $3\times10^{19}$ | Hủy diệt tế bào ung thư |
 
-S
-b
-Sóng vô tuyến là sóng ngang.
-Đ
+a) Bức xạ có tần số 100 000 Hz là ánh sáng nhìn thấy.
+b) Sóng vô tuyến là sóng ngang.
+c) Chỉ có tia X truyền được trong chân không.
+d) Bước sóng ánh sáng nhìn thấy nằm trong khoảng từ $3,75\times10^{-4}$ mm đến $7,5\times10^{-4}$ mm.
 
-c
-Chỉ có tia X truyền được trong chân không.
+??? success "Đáp án và lời giải"
+    **Hướng dẫn giải:**
 
-S
-d
-Bước sóng ánh sáng nhìn thấy nằm trong khoảng từ 3,75.10-4 mm đến 7,5.10-4 mm.
-Đ
+    Dùng quan hệ $v=\lambda f=\lambda/T$; khi đọc đồ thị phải xác định đúng chu kì theo thời gian và bước sóng theo không gian.
 
-![Hình/bảng/đồ thị đi kèm bài PDF 77](../../../assets/exercise-figures/ii-p053-q02-36812.webp){ loading=lazy }
-
-#### Bài PDF 78
+    a) Bức xạ có tần số 100 000 Hz là sóng vô tuyến.
+    c) Tất cả miền bức xạ điện từ có thể truyền qua chân không.
+    d) Bước sóng ánh sáng đỏ
+    Bước sóng ánh sáng tím
+#### Bài 86
 
 <!-- source-id: BT-Chuong-II-p61-q3-151 -->
 
-Câu 3. Biết cường độ ánh sáng Mặt Trời đo được lại Trái Đất là
+Biết cường độ ánh sáng Mặt Trời đo được lại Trái Đất là
 3
 2
 1
-1,37.10  W/m
+1,37.10 W/m
 I =
  và khoảng cách từ Mặt
 Trời đến Trái Đất và Sao Hoả lần lượt là
@@ -1216,264 +1918,270 @@ Trời đến Trái Đất và Sao Hoả lần lượt là
 1
 1
 1
-1,5.10  m,
-2,279.10  m
+1,5.10 m,
+2,279.10 m
 R
 R
 =
 =
 .
 
-Phát biểu
-Đúng
-Sai
-a
-Ánh sáng không thể truyền trong chân không.
+a) Ánh sáng không thể truyền trong chân không.
+b) Cường độ ánh sáng Mặt Trời là công suất bức xạ của chùm ánh sáng do một nguồn sáng phát ra truyền qua một đơn vị diện tích.
+c) Công suất bức xạ sóng ánh sáng Mặt Trời khoảng 0,39.1026 W.
+d) Cường độ ánh sáng đo được tại Sao Hoả gấp 1,5 lần cường độ ánh sáng đo được tại Trái Đất.
 
-S
-b
-Cường độ ánh sáng Mặt Trời là công suất bức xạ của chùm ánh sáng do một
-nguồn sáng phát ra truyền qua một đơn vị diện tích.
-Đ
+??? success "Đáp án và lời giải"
+    **Hướng dẫn giải:**
 
-c
-Công suất bức xạ sóng ánh sáng Mặt Trời khoảng 0,39.1026 W.
+    Dùng quan hệ $v=\lambda f=\lambda/T$; khi đọc đồ thị phải xác định đúng chu kì theo thời gian và bước sóng theo không gian.
 
-S
-d
-Cường độ ánh sáng đo được tại Sao Hoả gấp 1,5 lần cường độ ánh sáng đo được
-tại Trái Đất.
-
-S
-
-#### Bài PDF 79
+    a) Ánh sáng là sóng điện từ nên có thể truyền trong chân không.
+    b) Cường độ ánh sáng Mặt Trời là công suất bức xạ của chùm ánh sáng do một nguồn sáng phát ra truyền qua
+    một đơn vị diện tích, được tính theo công thức I
+    c) Công suất bức xạ sóng ánh sáng Mặt Trời
+    d) Cường độ ánh sáng đo được tại Sao Hoả so với đo được tại Trái Đất
+#### Bài 87
 
 <!-- source-id: BT-Chuong-II-p61-q4-152 -->
 
-Câu 4. Hình 1 biểu diễn vị trí của các điểm xác định cách đều nhau 1 cm trên một lò xo đang ở trạng thái cân
+Hình 1 biểu diễn vị trí của các điểm xác định cách đều nhau 1 cm trên một lò xo đang ở trạng thái cân
 bằng. Hình 2 thể hiện vị trí của các điểm đó tại một thời điểm nhất định khi cho sóng truyền qua lò xo này.
 Biết chu kì sóng là 0,5 s.
 
-Phát biểu
-Đúng
-Sai
-a
-Sóng truyền qua lò xo là sóng ngang.
+a) Sóng truyền qua lò xo là sóng ngang.
+b) Sóng truyền qua lò xo là quá trình lan truyền các phần tử lò xo theo thời gian
+c) Bước sóng của sóng truyền qua lò xo có giá trị là 4 cm.
+d) Tốc độ sóng truyền trên lò xo là 4 cm/s.
 
-S
-b
-Sóng truyền qua lò xo là quá trình lan truyền các phần tử lò xo theo thời gian
+![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/ii_p61_q4_152_fig1.webp){ loading=lazy }
 
-S
-c
-Bước sóng của sóng truyền qua lò xo có giá trị là 4 cm.
+??? success "Đáp án và lời giải"
+    **Đáp án:** a) Sai; b) Sai; c) Sai; d) Sai.
 
-S
-d
-Tốc độ sóng truyền trên lò xo là 4 cm/s.
+    **Hướng dẫn giải:**
 
-S
+    a) **Sai.** Sóng truyền trên lò xo trong hình là sóng dọc: phần tử môi trường dao động theo phương trùng với phương truyền sóng.
 
-![Hình/bảng/đồ thị đi kèm bài PDF 79](../../../assets/exercise-figures/ii-p061-q04-64401.webp){ loading=lazy }
+    b) **Sai.** Sóng truyền năng lượng và trạng thái dao động; các phần tử của lò xo chỉ dao động quanh vị trí cân bằng, không bị mang đi theo sóng.
 
-#### Bài PDF 80
+    c) **Sai.** Từ hình, khoảng cách giữa hai phần tử gần nhau nhất dao động cùng pha cho $\lambda=8\ \text{cm}$.
+
+    d) **Sai.** Với $T=0{,}5\ \text{s}$, tốc độ truyền sóng là $v=\lambda/T=8/0{,}5=16\ \text{cm/s}$, không phải giá trị nêu trong phát biểu.
+
+    !!! warning "Đối chiếu nguồn"
+        Phần hướng dẫn của PDF ghi đúng $\lambda=8\ \text{cm}$ nhưng ở dòng tính tốc độ lại thay nhầm tử số thành $4\ \text{cm}$. Phần giải trên dùng nhất quán $v=\lambda/T$ với chính bước sóng đã xác định từ hình.
+#### Bài 88
 
 <!-- source-id: BT-Chuong-II-p204-q1-465 -->
 
-Câu 1. Trên mặt hồ yên lặng, một người làm cho con thuyền dao động tạo ra sóng trên mặt nước.
+Trên mặt hồ yên lặng, một người làm cho con thuyền dao động tạo ra sóng trên mặt nước.
 Thuyền thực hiện được 24 dao động trong 40 s, mỗi dao động tạo ra một ngọn sóng cao 12 cm so với
 mặt hồ yên lặng và ngọn sóng tới bờ cách thuyền 10 m sau 5 s.
 
-Phát biểu
-Đúng
-Sai
-a Chu kì dao động của thuyền là 0,6 s.
+a) Chu kì dao động của thuyền là 0,6 s.
+b) Tốc độ lan truyền của sóng là 6 m/s.
+c) Bước sóng của sóng là 10(cm) 3 .
+d) Biên độ sóng là 12 cm.
 
-S
-b Tốc độ lan truyền của sóng là 6 m/s.
+??? success "Đáp án và lời giải"
+    **Hướng dẫn giải:**
 
-S
-c Bước sóng của sóng là 10(cm)
-3
-.
+    Dùng quan hệ $v=\lambda f=\lambda/T$; khi đọc đồ thị phải xác định đúng chu kì theo thời gian và bước sóng theo không gian.
 
-S
-d Biên độ sóng là 12 cm.
-Đ
-
-#### Bài PDF 81
+    a) Chu kì dao động của thuyền là 5(s)
+    b) Tốc độ lan truyền của sóng là
+    c) Bước sóng của sóng là 10(m)
+    d) Biên độ sóng bằng độ cao của sóng so với mặt hồ yên lặng: A= 12 cm
+#### Bài 89
 
 <!-- source-id: BT-Chuong-II-p205-q3-467 -->
 
-Câu 3. Một sóng hình sin được mô tả như hình 14.2
+Một sóng hình sin được mô tả như hình 14.2
 
-Phát biểu
-Đúng
-Sai
-a Bước sóng của sóng là 50 cm.
-Đ
+a) Bước sóng của sóng là 50 cm.
+b) Nếu chu kì sóng là 1 s thì tần số truyền sóng bằng 1 Hz.
+c) Nếu chu kì sóng là 1 s thì tốc độ truyền sóng bằng 50 m/s
+d) Nếu tần số tăng lên 5 Hz và tốc độ truyền sóng không đổi thì bước sóng là 25 cm.
 
-b Nếu chu kì sóng là 1 s thì tần số truyền sóng bằng 1
-Hz.
-Đ
+![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/ii_p205_q3_467_fig1.webp){ loading=lazy }
 
-c Nếu chu kì sóng là 1 s thì tốc độ truyền sóng bằng
-50 m/s
+??? success "Đáp án và lời giải"
+    **Hướng dẫn giải:**
 
-S
-d Nếu tần số tăng lên 5 Hz và tốc độ truyền sóng
-không đổi thì bước sóng là 25 cm.
+    Dùng quan hệ $v=\lambda f=\lambda/T$; khi đọc đồ thị phải xác định đúng chu kì theo thời gian và bước sóng theo không gian.
 
-S
-
-![Hình/bảng/đồ thị đi kèm bài PDF 81](../../../assets/exercise-figures/ii-p205-q03-80709.webp){ loading=lazy }
-
-#### Bài PDF 82
+    a) Bước sóng của sóng là 50 cm.
+    Từ đồ thị ta xác định được bước sóng là λ=50 cm.
+    b) Nếu chu kì sóng là 1 s thì tần số truyền sóng bằng 1 Hz.
+    c) Nếu chu kì sóng là 1 s thì tốc độ truyền sóng bằng 50 m/s
+    d) Nếu tần số tăng lên 5 Hz và tốc độ truyền sóng không đổi thì bước sóng là 10 cm
+#### Bài 90
 
 <!-- source-id: BT-Chuong-II-p206-q4-468 -->
 
-Câu 4. Đầu O của một sợi dây đàn hồi nằm ngang dao động điều hòa theo phương thẳng đứng với
+Đầu O của một sợi dây đàn hồi nằm ngang dao động điều hòa theo phương thẳng đứng với
 biên độ 3,6 cm và tần số f = 1 Hz, sau 6 s sóng truyền được 6 m. Coi đầu O bắt đầu dao động từ
 VTCB và theo chiều dương.
 
-Phát biểu
-Đúng
-Sai
-a Vận tốc truyền sóng là 1 m/s.
-Đ
+a) Vận tốc truyền sóng là 1 m/s.
+b) Bước sóng của sóng là 1 m.
+c) Phương trình
+d) ao động
+c) ủa đầu O là 0 3,6cos(2 )(cm) 2 u t π π = +
+d) Li độ của điểm M trên dây cách O đoạn 2,5 m tại thời điểm 2 s là 3,6 cm
 
-b Bước sóng của sóng là  1 m.
-Đ
+??? success "Đáp án và lời giải"
+    **Hướng dẫn giải:**
 
-c
-Phương
-trình
-dao
-động
-của
-đầu
-O
-là
-0
-3,6cos(2
-)(cm)
-2
-u
-t
-π
-π
-=
-+
+    Dùng quan hệ $v=\lambda f=\lambda/T$; khi đọc đồ thị phải xác định đúng chu kì theo thời gian và bước sóng theo không gian.
 
-S
-d Li độ của điểm M trên dây cách O đoạn 2,5 m tại
-thời điểm 2 s là 3,6 cm
-
-S
-
-#### Bài PDF 83
+    a) Vận tốc truyền sóng là 1(m/s)
+    b) Bước sóng của sóng là 1 m.
+    c) Phương trình dao động của đầu O là
+    d) Li độ của điểm M trên dây cách O đoạn 2,5 m tại thời điểm 2 s là
+#### Bài 91
 
 <!-- source-id: BT-Chuong-II-p206-q5-469 -->
 
-Câu 5. Trên mặt hồ yên lặng, một người dập dình một con thuyền tạo ra sóng trên mặt nước. Người
+Trên mặt hồ yên lặng, một người dập dình một con thuyền tạo ra sóng trên mặt nước. Người
 này nhận thấy rằng thuyền thực hiện được 12 dao động trong 20 s, mỗi dao động tạo ra một ngọn
 sóng cao 15 cm so với mặt hồ yên lặng. Người này còn nhận thấy rằng ngọn sóng đã tới bờ cách
 thuyền 12 m sau 6 s. Với sóng trên mặt nước
 
-Phát biểu
-Đúng
-Sai
-a Chu kỳ của sóng là 1,7 s.
-Đ
+a) Chu kỳ của sóng là 1,7 s.
+b) Tốc độ lan truyền của sóng là 2 m/s.
+c) Bước sóng là 4 m.
+d) Biên độ sóng là 15 m.
 
-b Tốc độ lan truyền của sóng là 2 m/s.
-Đ
+??? success "Đáp án và lời giải"
+    **Hướng dẫn giải:**
 
-c Bước sóng là 4 m.
+    Dùng quan hệ $v=\lambda f=\lambda/T$; khi đọc đồ thị phải xác định đúng chu kì theo thời gian và bước sóng theo không gian.
 
-S
-
-d Biên độ sóng là 15 m.
-
-S
-
-#### Bài PDF 84
+    a) Chu kỳ của sóng là 1,7 s.
+    b) Tốc độ lan truyền của sóng là 2 m/s.
+    c) Bước sóng là 3,3 m.
+    d) Biên độ sóng bằng chiều cao ngọn sóng: 15 m.
+#### Bài 92
 
 <!-- source-id: BT-Chuong-II-p216-q4-504 -->
 
-Câu 4. Một chiếc lá trên mặt nước nhô lên 9 lần trong khoảng thời gian 2 s. Biết khoảng cách giữa
+Một chiếc lá trên mặt nước nhô lên 9 lần trong khoảng thời gian 2 s. Biết khoảng cách giữa
 hai đỉnh sóng liên tiếp nhau là 24 cm.
 
-Phát biểu
-Đúng
-Sai
-a Chu kì của sóng là 4,5 s.
+a) Chu kì của sóng là 4,5 s.
+b) Bước sóng là 24 cm.
+c) Tần số của sóng là 4,5 Hz
+d) Tốc độ truyền sóng nước là 108 cm/s.
 
-S
-b Bước sóng là 24 cm.
-Đ
+??? success "Đáp án và lời giải"
+    **Hướng dẫn giải:**
 
-c Tần số của sóng là 4,5 Hz
-Đ
+    Dùng quan hệ $v=\lambda f=\lambda/T$; khi đọc đồ thị phải xác định đúng chu kì theo thời gian và bước sóng theo không gian.
 
-d Tốc độ truyền sóng nước là 108 cm/s.
-Đ
-
+    a) Chu kì của sóng là 4,5 s.
+    b) Bước sóng là 24 cm.
+    Khoảng cách giữa 2 đỉnh sóng liên tiếp là
+    c) Tần số của sóng là 4,5 Hz
+    d) Tốc độ truyền sóng nước là 108 cm/s.
 ### Thông hiểu — Trắc nghiệm 4 lựa chọn
 
-#### Bài PDF 85
+#### Bài 93
 
 <!-- source-id: BT-Chuong-II-p13-q20-20 -->
 
-Câu 20. Khoảng cách từ một ngọn sóng và một lõm sóng liên tiếp trên cùng một phương truyền
+Khoảng cách từ một ngọn sóng và một lõm sóng liên tiếp trên cùng một phương truyền
 sóng cách nhau
 
-A.
-.
-B.
-.
-C. .
-D.
-.
+A. .
 
-#### Bài PDF 86
+B. .
+
+C. .
+
+D. .
+
+??? success "Đáp án và lời giải"
+    **Đáp án:** A
+    **Hướng dẫn giải:**
+
+    Dùng quan hệ $v=\lambda f=\lambda/T$; khi đọc đồ thị phải xác định đúng chu kì theo thời gian và bước sóng theo không gian.
+
+
+    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. .**
+#### Bài 94
 
 <!-- source-id: BT-Chuong-II-p13-q21-21 -->
 
-Câu 21. Khi biên độ dao động của một nguồn sóng tăng. Đại lượng  tăng là
+Khi biên độ dao động của một nguồn sóng tăng. Đại lượng tăng là
 
 A. tần số sóng.
-B. tốc độ truyền sóng. C. bước sóng.
+
+B. tốc độ truyền sóng.
+
+C. bước sóng.
+
 D. năng lượng.
 
-#### Bài PDF 87
+??? success "Đáp án và lời giải"
+    **Đáp án:** D
+    **Hướng dẫn giải:**
+    Năng lượng sóng tỉ lệ với bình phương biên độ dao động. Do đó khi tăng biên độ sóng thì năng
+    lượng sẽ tăng.
+
+#### Bài 95
 
 <!-- source-id: BT-Chuong-II-p14-q24-24 -->
 
-Câu 24. Hình 2.5 mô tả quá trình truyền sóng trên mặt nước. Trong quá trình truyên sóng trên mặt
+Hình 2.5 mô tả quá trình truyền sóng trên mặt nước. Trong quá trình truyên sóng trên mặt
 nước, đại lượng giảm dần là
 
 A. bước sóng.
-B. tốc độ truyền sóng. C. tần số sóng.
+
+B. tốc độ truyền sóng.
+
+C. tần số sóng.
+
 D. biên độ sóng.
 
-![Hình/bảng/đồ thị đi kèm bài PDF 87](../../../assets/exercise-figures/ii-p014-q24-50318.webp){ loading=lazy }
+![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/ii_p14_q24_24_fig1.webp){ loading=lazy }
 
-#### Bài PDF 88
+??? success "Đáp án và lời giải"
+    **Đáp án:** D
+    **Hướng dẫn giải:**
+
+    Dùng quan hệ $v=\lambda f=\lambda/T$; khi đọc đồ thị phải xác định đúng chu kì theo thời gian và bước sóng theo không gian.
+
+
+    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **D. biên độ sóng.**
+#### Bài 96
 
 <!-- source-id: BT-Chuong-II-p14-q25-25 -->
 
-Câu 25. Sóng cơ học lan truyền từ không khí vào nước. Đại lượng tăng là
+Sóng cơ học lan truyền từ không khí vào nước. Đại lượng tăng là
+
 A. biên độ sóng.
+
 B. tần số sóng
+
 C. bước sóng.
+
 D. chu kỳ sóng.
 
-#### Bài PDF 89
+??? success "Đáp án và lời giải"
+    **Đáp án:** C
+    **Hướng dẫn giải:**
+
+    Dùng quan hệ $v=\lambda f=\lambda/T$; khi đọc đồ thị phải xác định đúng chu kì theo thời gian và bước sóng theo không gian.
+
+
+    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. bước sóng.**
+#### Bài 97
 
 <!-- source-id: BT-Chuong-II-p46-q19-97 -->
 
-Câu 19. Một sóng ngang truyền trên mặt nước có tần số 10 Hz. Tại một thời điểm nào đó một phần mặt nước
+Một sóng ngang truyền trên mặt nước có tần số 10 Hz. Tại một thời điểm nào đó một phần mặt nước
 có hình dạng như hình vẽ. Trong đó điểm C ở vị trí cân bằng đang đi lên qua. Biết khoảng cách từ các vị trí cân
 bằng của A đến vị trí cân bằng của C là 60 cm. Chiều truyền sóng và tốc độ truyền sóng lần lượt là
 
@@ -1485,13 +2193,20 @@ C. từ E đến A, 6 m/s.
 
 D. từ A đến E, 6 m/s.
 
-![Hình/bảng/đồ thị đi kèm bài PDF 89](../../../assets/exercise-figures/ii-p046-q19-15282.webp){ loading=lazy }
+![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/ii_p46_q19_97_fig1.webp){ loading=lazy }
 
-#### Bài PDF 90
+??? success "Đáp án và lời giải"
+    **Hướng dẫn giải:**
+
+    Dùng quan hệ $v=\lambda f=\lambda/T$; khi đọc đồ thị phải xác định đúng chu kì theo thời gian và bước sóng theo không gian.
+
+    Khoảng cách từ các vị trí cân bằng của A đến vị trí cân bằng của C là
+    Tốc độ truyền sóng
+#### Bài 98
 
 <!-- source-id: BT-Chuong-II-p197-q1-440 -->
 
-Câu 1. Một sóng cơ truyền dọc theo trục Ox có phương trình
+Một sóng cơ truyền dọc theo trục Ox có phương trình
 (
 )
 2cos 20
@@ -1503,18 +2218,29 @@ t
 x
 π
 π
-  (cm), với t tính
+ (cm), với t tính
 bằng s. Tần số của sóng này bằng
+
 A. 15 Hz.
+
 B. 10 Hz.
+
 C. 5 Hz.
+
 D. 20 Hz.
 
-#### Bài PDF 91
+??? success "Đáp án và lời giải"
+    **Đáp án:** B
+    **Hướng dẫn giải:**
+
+    Dùng quan hệ $v=\lambda f=\lambda/T$; khi đọc đồ thị phải xác định đúng chu kì theo thời gian và bước sóng theo không gian.
+
+    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **B. 10 Hz.**
+#### Bài 99
 
 <!-- source-id: BT-Chuong-II-p197-q2-441 -->
 
-Câu 2. Một sóng cơ truyền dọc theo trục Ox với phương trình
+Một sóng cơ truyền dọc theo trục Ox với phương trình
 (
 )
 2cos 40
@@ -1528,30 +2254,75 @@ x
 −
  (mm). Biên độ
 của sóng này là
+
 A. 2 mm.
+
 B. 4 mm.
+
 C. π mm.
+
 D. 40π mm.
+
+??? success "Đáp án và lời giải"
+    **Đáp án:** A
+    **Hướng dẫn giải:**
+    Biên độ của sóng là 2 mm.
 
 ### Vận dụng — Trắc nghiệm 4 lựa chọn
 
-#### Bài PDF 92
+#### Bài 100
 
 <!-- source-id: BT-Chuong-II-p17-q34-34 -->
 
-![Đề bài PDF — Bài 92](../../../assets/exercise-figures/source-faithful/ii-p017-q34-de.webp){ loading=lazy }
+Một sóng truyền trên mặt nước có phương trình
 
-#### Bài PDF 93
+$$
+u=2\cos\left(5\pi t-\frac{\pi}{3}x\right)\ \text{cm},
+$$
+
+trong đó $t$ tính bằng giây, $x$ tính bằng mét. Sóng tạo ra trên bề mặt nước những vòng tròn sóng. Khoảng cách từ vòng tròn sóng thứ ba đến vòng tròn sóng thứ bảy trên cùng một phương truyền sóng là
+
+A. $24$ m.
+
+B. $12$ m.
+
+C. $30$ m.
+
+D. $8$ m.
+
+??? success "Đáp án và lời giải"
+    **Đáp án: A.**
+    **Hướng dẫn giải:**
+
+    Số sóng $k=\dfrac{\pi}{3}$ rad/m nên
+
+    $$\lambda=\frac{2\pi}{k}=6\ \text{m}.$$
+
+    Từ vòng tròn thứ ba đến vòng tròn thứ bảy có $7-3=4$ khoảng bước sóng:
+
+    $$\Delta x=4\lambda=24\ \text{m}.$$
+#### Bài 101
 
 <!-- source-id: BT-Chuong-II-p200-q1-455 -->
 
-Câu 1. Khi một sóng biển truyền đi, người ta quan sát thấy khoảng cách giữa 2 đỉnh sóng liên tiếp
+Khi một sóng biển truyền đi, người ta quan sát thấy khoảng cách giữa 2 đỉnh sóng liên tiếp
 bằng 8,5 m. Biết một điểm trên mặt sóng thực hiện một dao động toàn phần sau thời gian bằng 3,0 s.
 Tốc độ truyền của sóng biển có giá trị gần bằng
+
 A. 2,8 m/s.
 
 B. 1,41 m/s.
+
 C. 25,5 m/s.
 
 D. 0,35 m/s.
 
+??? success "Đáp án và lời giải"
+    **Đáp án:** A
+    **Hướng dẫn giải:**
+
+    Dùng quan hệ $v=\lambda f=\lambda/T$; khi đọc đồ thị phải xác định đúng chu kì theo thời gian và bước sóng theo không gian.
+
+    Khoảng cách giữa 2 đỉnh sóng liên tiếp:
+
+    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. 2,8 m/s.**

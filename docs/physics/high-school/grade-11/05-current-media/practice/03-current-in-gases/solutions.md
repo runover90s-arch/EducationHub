@@ -13,43 +13,31 @@ tags:
 
 [← Bài tập](exercises.md)
 
-## Câu 1
-
+## Bài 1
 Chọn **A**.
 
-## Câu 2
-
+## Bài 2
 Chọn **B**.
 
-## Câu 3
-
+## Bài 3
 Chọn **B**.
 
-## Câu 4
-
+## Bài 4
 a) **Đúng**.  
 b) **Đúng**.  
 c) **Đúng**.  
 d) **Sai**.
 
-## Câu 5
-
+## Bài 5
 $q=It=2\cdot10^{-3}\cdot10=0,020$ C.
 
-## Câu 6
-
+## Bài 6
 Có thể nêu: **ion hóa do tác nhân ngoài** (tia tử ngoại, bức xạ, nhiệt) và **ion hóa do va chạm** khi hạt mang điện được gia tốc đủ mạnh va vào phân tử khí.
 
-## Câu 7
-
+## Bài 7
 Tia lửa thường là phóng điện ngắn trong điện trường rất mạnh, có thể không duy trì liên tục. Hồ quang là phóng điện tự duy trì với dòng lớn hơn, nhiệt độ và độ phát sáng cao giữa các điện cực.
 
-## Câu 8
-
+## Bài 8
 $E\approx U/d=15\cdot10^3/(5\cdot10^{-3})=3\cdot10^6$ V/m.
 
 Đây chỉ là ước tính vì điện trường thực tế có thể không đều, ngưỡng đánh thủng phụ thuộc áp suất, nhiệt độ, hình dạng điện cực, độ ẩm và thành phần khí.
-
----
-
-[← Bài tập](exercises.md)

@@ -15,7 +15,7 @@ Phần này tách riêng **luyện tập** khỏi phần **lý thuyết** để 
 !!! tip "Cách dùng"
     Làm hết phần của bài đang học trước khi mở đáp án. Với câu vận dụng cao, nên tự ghi hướng giải hoặc hình vẽ trước rồi mới đối chiếu lời giải.
 
-Hiện có **2.204 câu/bài trong ngân hàng theo từng bài**: 540 câu đã biên soạn ở các phiên bản trước và **1.664 câu/bài bổ sung từ các PDF**, chưa tính hệ bài tập tổng hợp cuối chương và các bài kiểm tra.
+Hiện có **2.188 câu/bài trong ngân hàng theo từng bài**: 540 câu đã biên soạn ở các phiên bản trước và **1.648 câu/bài bổ sung từ các PDF**, chưa tính hệ bài tập tổng hợp cuối chương và các bài kiểm tra.
 
 ## Chương 1 — Dao động cơ học
 
@@ -76,7 +76,7 @@ Hiện có **2.204 câu/bài trong ngân hàng theo từng bài**: 540 câu đã
 <!-- V9_STATS -->
 ## Quy mô ngân hàng PDF mở rộng
 
-Bốn bộ bài tập chương mới được quét theo từng bài, mức độ và dạng câu hỏi. Sau khi loại câu trùng, loại các câu không có đủ bằng chứng đáp án/lời giải và không sao chép lặp lại phần ôn tập chương, hệ thống bổ sung **1.664 câu/bài** vào đúng bài học tương ứng.
+Bốn bộ bài tập chương mới được quét theo từng bài, mức độ và dạng câu hỏi. Sau khi loại câu trùng, loại các câu không có đủ bằng chứng đáp án/lời giải và không sao chép lặp lại phần ôn tập chương, hệ thống bổ sung **1.648 câu/bài** vào đúng bài học tương ứng.
 
 - **Chương 1 — Dao động cơ học:** 435 câu/bài bổ sung.
 - **Chương 2 — Sóng:** 508 câu/bài bổ sung.

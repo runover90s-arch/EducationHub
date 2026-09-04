@@ -15,64 +15,95 @@ tags:
 
 ## Phần A — Trắc nghiệm 4 lựa chọn
 
-### Câu 1 — Mức 1 — Nhận biết
+### Bài 1 — Mức 1 — Nhận biết
 
 Kính lúp là
 
-A. thấu kính hội tụ có tiêu cự ngắn dùng quan sát vật nhỏ.  
-B. thấu kính phân kì tiêu cự dài.  
-C. gương phẳng.  
+A. thấu kính hội tụ có tiêu cự ngắn dùng quan sát vật nhỏ.
+B. thấu kính phân kì tiêu cự dài.
+C. gương phẳng.
 D. lăng kính.
 
-### Câu 2 — Mức 1 — Nhận biết
+??? success "Đáp án và lời giải"
+    Chọn **A**.
+
+### Bài 2 — Mức 1 — Nhận biết
 
 Bội giác kính lúp khi ngắm chừng ở vô cực thường lấy gần đúng
 
-A. $G=D/f$ với D khoảng cực cận quy ước.  
-B. $G=f/D$.  
-C. $G=fD$.  
+A. $G=D/f$ với D khoảng cực cận quy ước.
+B. $G=f/D$.
+C. $G=fD$.
 D. $G=0$.
 
-### Câu 3 — Mức 1 — Nhận biết
+??? success "Đáp án và lời giải"
+    Chọn **A**.
+
+### Bài 3 — Mức 1 — Nhận biết
 
 Kính thiên văn khúc xạ cơ bản gồm
 
-A. vật kính hội tụ tiêu cự dài và thị kính hội tụ tiêu cự ngắn.  
-B. hai thấu kính phân kì.  
-C. một gương phẳng.  
+A. vật kính hội tụ tiêu cự dài và thị kính hội tụ tiêu cự ngắn.
+B. hai thấu kính phân kì.
+C. một gương phẳng.
 D. một lăng kính duy nhất.
+
+??? success "Đáp án và lời giải"
+    Chọn **A** theo mô hình Kepler.
 
 ## Phần B — Đúng/Sai
 
-### Câu 4 — Mức 2 — Thông hiểu
+### Bài 4 — Mức 2 — Thông hiểu
 
 Dụng cụ quang:
 
-a) Kính lúp tạo ảnh ảo lớn hơn vật khi vật đặt trong tiêu cự.  
-b) Kính hiển vi dùng vật kính tạo ảnh trung gian phóng đại rồi thị kính quan sát.  
-c) Kính thiên văn dùng để tăng góc trông của vật rất xa.  
+a) Kính lúp tạo ảnh ảo lớn hơn vật khi vật đặt trong tiêu cự.
+b) Kính hiển vi dùng vật kính tạo ảnh trung gian phóng đại rồi thị kính quan sát.
+c) Kính thiên văn dùng để tăng góc trông của vật rất xa.
 d) Bội giác không liên quan tiêu cự của các bộ phận quang học.
+
+??? success "Đáp án và lời giải"
+    a) **Đúng**.
+    b) **Đúng**.
+    c) **Đúng**.
+    d) **Sai**.
 
 ## Phần C — Trả lời ngắn
 
-### Câu 5 — Mức 3 — Vận dụng
+### Bài 5 — Mức 3 — Vận dụng
 
 Kính lúp f=5 cm, lấy D=25 cm, ngắm chừng vô cực. Tính bội giác.
 
-### Câu 6 — Mức 3 — Vận dụng
+??? success "Đáp án và lời giải"
+    $G=D/f=25/5=5$.
+
+### Bài 6 — Mức 3 — Vận dụng
 
 Kính thiên văn có vật kính f1=1 m, thị kính f2=5 cm, ngắm chừng vô cực. Tính độ lớn bội giác góc.
 
-### Câu 7 — Mức 3 — Vận dụng
+??? success "Đáp án và lời giải"
+    $|G|=f_1/f_2=100/5=20$.
+
+### Bài 7 — Mức 3 — Vận dụng
 
 Kính lúp có độ tụ +20 D. Tính tiêu cự và bội giác vô cực với D=25 cm.
 
+??? success "Đáp án và lời giải"
+    f=1/20 m=0,05 m=5 cm. $G=25/5=5$.
+
 ## Phần D — Vận dụng và vận dụng cao
 
-### Câu 8 — Mức 4 — Vận dụng cao
+### Bài 8 — Mức 4 — Vận dụng cao
 
 Một kính thiên văn Kepler ngắm chừng vô cực có vật kính f1=80 cm và thị kính f2=4 cm. a) Tính bội giác góc. b) Tính khoảng cách hai kính trong trạng thái ngắm chừng vô cực.
 
----
+??? success "Đáp án và lời giải"
+    a) Độ lớn bội giác:
 
-[Đáp án và lời giải →](solutions.md)
+    $|G|=f_1/f_2=80/4=20$.
+
+    Ảnh bị đảo chiều trong kính Kepler nên nếu xét dấu có thể ghi $G=-20$.
+
+    b) Khi ngắm chừng vô cực, tiêu diện ảnh của vật kính trùng tiêu diện vật của thị kính, nên khoảng cách hai kính:
+
+    $L=f_1+f_2=80+4=84$ cm.

@@ -13,45 +13,33 @@ tags:
 
 [← Bài tập](exercises.md)
 
-## Câu 1
-
+## Bài 1
 Chọn **A**.
 
-## Câu 2
-
+## Bài 2
 Chọn **A**.
 
-## Câu 3
-
+## Bài 3
 Chọn **A**.
 
-## Câu 4
-
+## Bài 4
 a) **Đúng**.  
 b) **Đúng**.  
 c) **Đúng**.  
 d) **Đúng**.
 
-## Câu 5
-
+## Bài 5
 $1/d'=1/f-1/d=1/10-1/30=1/15$, nên $d'=15$ cm. $k=-15/30=-0,5$: ảnh thật, ngược chiều, cao bằng nửa vật.
 
-## Câu 6
-
+## Bài 6
 $1/d'=1/20-1/10=-1/20$, nên $d'=-20$ cm: ảnh ảo nằm cùng phía vật, cách kính 20 cm.
 
-## Câu 7
-
+## Bài 7
 $1/d'=1/f-1/d=-1/15-1/30=-1/10$, nên $d'=-10$ cm.
 
-## Câu 8
-
+## Bài 8
 $1/d'=1/12-1/18=(3-2)/36=1/36$, nên $d'=36$ cm, ảnh thật.
 
 Độ phóng đại $k=-d'/d=-36/18=-2$.
 
 Chiều cao ảnh $h'=kh=-2\cdot2=-4$ cm. Dấu âm cho biết ảnh ngược chiều; độ lớn ảnh 4 cm, gấp đôi vật.
-
----
-
-[← Bài tập](exercises.md)

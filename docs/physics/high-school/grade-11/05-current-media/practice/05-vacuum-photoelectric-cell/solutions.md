@@ -13,45 +13,33 @@ tags:
 
 [← Bài tập](exercises.md)
 
-## Câu 1
-
+## Bài 1
 Chọn **A**.
 
-## Câu 2
-
+## Bài 2
 Chọn **A**.
 
-## Câu 3
-
+## Bài 3
 Chọn **A**.
 
-## Câu 4
-
+## Bài 4
 a) **Đúng**.  
 b) **Đúng**.  
 c) **Đúng**.  
 d) **Sai**.
 
-## Câu 5
-
+## Bài 5
 Electron thu được động năng $2000$ eV = $2$ keV.
 
-## Câu 6
-
+## Bài 6
 $2$ keV = $2000$ eV, nên $K=2000\cdot1,6\cdot10^{-19}=3,2\cdot10^{-16}$ J.
 
-## Câu 7
-
+## Bài 7
 $q=It=20\cdot10^{-6}\cdot1=20\,\mu$C.
 
-## Câu 8
-
+## Bài 8
 $\frac12m_ev^2=eU$.
 
 $v=\sqrt{2eU/m_e}=\sqrt{2\cdot1,6\cdot10^{-19}\cdot5000/(9,1\cdot10^{-31})}\approx4,19\cdot10^7$ m/s.
 
 Giá trị khoảng $0,14c$, nên cơ học cổ điển vẫn cho ước tính tương đối hợp lí nhưng khi điện áp tăng rất cao cần xét hiệu ứng tương đối tính.
-
----
-
-[← Bài tập](exercises.md)

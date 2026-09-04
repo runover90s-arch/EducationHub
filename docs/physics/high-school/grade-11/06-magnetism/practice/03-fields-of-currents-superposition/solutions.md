@@ -13,39 +13,31 @@ tags:
 
 [← Bài tập](exercises.md)
 
-## Câu 1
-
+## Bài 1
 Chọn **A**.
 
-## Câu 2
-
+## Bài 2
 Chọn **A**.
 
-## Câu 3
-
+## Bài 3
 Chọn **A** trong mô hình ống dây dài.
 
-## Câu 4
-
+## Bài 4
 a) **Đúng**.  
 b) **Đúng**.  
 c) **Đúng**.  
 d) **Sai**: phải cộng vectơ.
 
-## Câu 5
-
+## Bài 5
 $B=\mu_0I/(2\pi r)=4\pi\cdot10^{-7}\cdot10/(2\pi\cdot0,05)=4\cdot10^{-5}$ T.
 
-## Câu 6
-
+## Bài 6
 $B=\mu_0I/(2R)=4\pi\cdot10^{-7}\cdot5/(0,20)=\pi\cdot10^{-5}$ T $\approx3,14\cdot10^{-5}$ T.
 
-## Câu 7
-
+## Bài 7
 $n=N/l=2000$ vòng/m. $B=\mu_0nI=4\pi\cdot10^{-7}\cdot2000\cdot0,8\approx2,01\cdot10^{-3}$ T.
 
-## Câu 8
-
+## Bài 8
 Giữa hai dây có dòng cùng chiều, từ trường do hai dây tại các điểm giữa ngược hướng. Gọi x là khoảng cách đến dây 1:
 
 $\mu_0I_1/(2\pi x)=\mu_0I_2/[2\pi(0,20-x)]$.
@@ -55,7 +47,3 @@ $I_1/x=I_2/(0,20-x)$.
 $4(0,20-x)=9x$ nên $0,80=13x$, $x\approx0,0615$ m.
 
 Vậy điểm nằm giữa hai dây, cách dây 4 A khoảng $6,15$ cm, gần dây có dòng nhỏ hơn.
-
----
-
-[← Bài tập](exercises.md)

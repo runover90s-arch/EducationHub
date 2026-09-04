@@ -13,50 +13,40 @@ tags:
 
 [← Bài tập](exercises.md)
 
-## Câu 1
-
+## Bài 1
 Chọn **A**.
 
-## Câu 2
-
+## Bài 2
 Chọn **C**. $Q=CU=5\cdot12=60\,\mu$C.
 
-## Câu 3
-
+## Bài 3
 Chọn **B**.
 
-## Câu 4
-
+## Bài 4
 Chọn **C** vì $C=\varepsilon_0\varepsilon_r S/d$.
 
-## Câu 5
-
+## Bài 5
 a) **Đúng**.  
 b) **Đúng**.  
 c) **Đúng** vì $Q=CU$.  
 d) **Sai**: $W=QU/2$.
 
-## Câu 6
-
+## Bài 6
 a) **Đúng**.  
 b) **Đúng**.  
 c) **Đúng**.  
 d) **Sai**: $U=Q/C$ nên U giảm.
 
-## Câu 7
-
+## Bài 7
 $Q=CU=20\cdot10^{-6}\cdot30=600\,\mu$C. $W=\frac12CU^2=0,5\cdot20\cdot10^{-6}\cdot900=9\cdot10^{-3}$ J.
 
-## Câu 8
-
+## Bài 8
 $C=Q/U=(80\,\mu\text{C})/(20\,\text{V})=4\,\mu\text{F}$.
 
-## Câu 9
-
+## Bài 9
 Đổi $S=200$ cm² $=0,02$ m², $d=10^{-3}$ m. $C=\varepsilon_0S/d=8,85\cdot10^{-12}\cdot0,02/10^{-3}=1,77\cdot10^{-10}$ F $=177$ pF.
 
-## Câu 10
-
+## Bài 10
 Trước khi ngắt: $Q=CU=10\,\mu$F$\cdot100$ V $=1,0$ mC.
 
 Sau khi ngắt, tụ cô lập nên **Q bảo toàn**. Tăng khoảng cách gấp đôi làm $C'=C/2=5\,\mu$F.
@@ -69,49 +59,8 @@ Năng lượng mới $W'=Q^2/(2C')=0,1$ J. Ban đầu $W=\frac12CU^2=0,05$ J. N�
 
 [← Bài tập](exercises.md)
 
-## Đáp án và lời giải — Ngân hàng PDF mở rộng
+## Bài 11–20
 
-> Câu có lời giải trong tài liệu được giữ phần hướng dẫn. Câu trắc nghiệm không kèm lời giải dài chỉ hiện đáp án đã đối chiếu từ dấu đáp án/khóa đáp án của tài liệu.
+Đáp án và lời giải của **Bài 11–20** đã được đặt trực tiếp dưới từng bài trong trang bài tập bằng nút **“Đáp án và lời giải”** để tránh tách đề, hình minh họa và lời giải sang nhiều vị trí khác nhau.
 
-### Nhận biết — Trả lời ngắn
-
-#### Bài PDF 1
-
-Đáp án:
-
-#### Bài PDF 2
-
-Đáp án:
-
-#### Bài PDF 3
-
-Đáp án:
-
-#### Bài PDF 4
-
-Đáp án:
-
-#### Bài PDF 5
-
-Đáp án:
-
-#### Bài PDF 6
-
-Đáp án:
-
-#### Bài PDF 7
-
-Đáp án:
-
-#### Bài PDF 8
-
-Đáp án:
-
-#### Bài PDF 9
-
-Đáp án:
-
-#### Bài PDF 10
-
-Đáp án:
-
+[← Mở trang bài tập](exercises.md)

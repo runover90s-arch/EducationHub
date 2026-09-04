@@ -13,45 +13,33 @@ tags:
 
 [← Bài tập](exercises.md)
 
-## Câu 1
-
+## Bài 1
 Chọn **C**.
 
-## Câu 2
-
+## Bài 2
 Chọn **B**.
 
-## Câu 3
-
+## Bài 3
 Chọn **B**.
 
-## Câu 4
-
+## Bài 4
 a) **Đúng**.  
 b) **Đúng**.  
 c) **Đúng**.  
 d) **Sai**: lỗ trống là mô hình trạng thái thiếu electron liên kết, không phải proton tự do.
 
-## Câu 5
-
+## Bài 5
 Loại n: **electron là hạt tải đa số**, lỗ trống là hạt tải thiểu số.
 
-## Câu 6
-
+## Bài 6
 Loại p: **lỗ trống là hạt tải đa số**, electron là hạt tải thiểu số.
 
-## Câu 7
-
+## Bài 7
 Minh họa **tính chỉnh lưu** của tiếp giáp p–n: dẫn thuận mạnh hơn nhiều so với dẫn ngược trong điều kiện làm việc bình thường.
 
-## Câu 8
-
+## Bài 8
 Điện áp trên điện trở $U_R\approx5-0,7=4,3$ V.
 
 $I\approx U_R/R=4,3/1000=4,3$ mA.
 
 Mô hình 0,7 V là gần đúng phổ thông; giá trị thật phụ thuộc dòng và nhiệt độ.
-
----
-
-[← Bài tập](exercises.md)
