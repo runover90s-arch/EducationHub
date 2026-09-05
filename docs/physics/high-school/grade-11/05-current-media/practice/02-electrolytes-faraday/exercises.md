@@ -20,8 +20,11 @@ tags:
 Hạt tải điện trong chất điện phân là
 
 A. chỉ electron tự do.
+
 B. ion dương và ion âm.
+
 C. neutron.
+
 D. photon.
 
 ??? success "Đáp án và lời giải"
@@ -32,8 +35,11 @@ D. photon.
 Khối lượng chất giải phóng ở điện cực theo định luật Faraday tỉ lệ với
 
 A. điện lượng qua bình.
+
 B. bình phương điện lượng.
+
 C. nghịch đảo điện lượng.
+
 D. chỉ điện áp, không phụ thuộc dòng.
 
 ??? success "Đáp án và lời giải"
@@ -44,8 +50,11 @@ D. chỉ điện áp, không phụ thuộc dòng.
 Nếu dòng điện qua bình điện phân tăng gấp đôi, thời gian không đổi, khối lượng bám điện cực trong cùng điều kiện sẽ
 
 A. giảm 2 lần.
+
 B. không đổi.
+
 C. tăng 2 lần.
+
 D. tăng 4 lần.
 
 ??? success "Đáp án và lời giải"
@@ -58,8 +67,11 @@ D. tăng 4 lần.
 Điện phân:
 
 a) Dòng điện gắn với sự chuyển dời có hướng của ion.
+
 b) Phản ứng hóa học có thể xảy ra ở điện cực.
+
 c) Định luật Faraday liên hệ khối lượng giải phóng với điện lượng.
+
 d) Không có sự vận chuyển vật chất trong dung dịch.
 
 ??? success "Đáp án và lời giải"

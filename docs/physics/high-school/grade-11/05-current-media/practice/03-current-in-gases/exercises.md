@@ -20,8 +20,11 @@ tags:
 Trong điều kiện thường, chất khí dẫn điện kém vì
 
 A. hầu hết phân tử trung hòa, rất ít hạt tải tự do.
+
 B. có quá nhiều electron tự do.
+
 C. điện trở bằng 0.
+
 D. ion không tồn tại trong mọi trường hợp.
 
 ??? success "Đáp án và lời giải"
@@ -32,8 +35,11 @@ D. ion không tồn tại trong mọi trường hợp.
 Quá trình tạo ion và electron tự do trong chất khí gọi là
 
 A. ngưng tụ.
+
 B. ion hóa.
+
 C. kết tinh.
+
 D. phân cực cơ học.
 
 ??? success "Đáp án và lời giải"
@@ -44,8 +50,11 @@ D. phân cực cơ học.
 Hồ quang điện đặc trưng bởi
 
 A. dòng rất nhỏ và không phát sáng.
+
 B. dòng tương đối lớn, phát sáng mạnh giữa hai điện cực.
+
 C. chỉ xảy ra trong chân không tuyệt đối.
+
 D. không có ion hóa.
 
 ??? success "Đáp án và lời giải"
@@ -58,8 +67,11 @@ D. không có ion hóa.
 Dòng điện trong chất khí:
 
 a) Cần có hạt tải điện tự do.
+
 b) Tia tử ngoại, nhiệt độ cao hoặc va chạm có thể gây ion hóa.
+
 c) Phóng điện tia lửa thường liên quan điện trường mạnh.
+
 d) Chất khí đã ion hóa hoàn toàn không chịu tác dụng điện trường.
 
 ??? success "Đáp án và lời giải"

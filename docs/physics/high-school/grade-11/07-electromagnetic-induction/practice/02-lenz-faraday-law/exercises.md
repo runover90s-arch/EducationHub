@@ -20,8 +20,11 @@ tags:
 Định luật Faraday cho độ lớn suất điện động cảm ứng trung bình của cuộn N vòng là
 
 A. $|\mathcal E|=N|\Delta\Phi|/\Delta t$.
+
 B. $|\mathcal E|=N\Delta t/|\Delta\Phi|$.
+
 C. $|\mathcal E|=N\Phi$.
+
 D. $|\mathcal E|=I/R$.
 
 ??? success "Đáp án và lời giải"
@@ -32,8 +35,11 @@ D. $|\mathcal E|=I/R$.
 Định luật Lenz xác định
 
 A. độ lớn điện trở.
+
 B. chiều dòng cảm ứng sao cho từ trường cảm ứng chống lại nguyên nhân biến thiên từ thông.
+
 C. khối lượng electron.
+
 D. màu ánh sáng.
 
 ??? success "Đáp án và lời giải"
@@ -44,8 +50,11 @@ D. màu ánh sáng.
 Từ thông qua một vòng tăng đều $0,02$ Wb trong $0,10$ s. Suất điện động cảm ứng trung bình có độ lớn
 
 A. $0,02$ V.
+
 B. $0,2$ V.
+
 C. $2$ V.
+
 D. $20$ V.
 
 ??? success "Đáp án và lời giải"
@@ -58,8 +67,11 @@ D. $20$ V.
 Cảm ứng điện từ:
 
 a) Dòng cảm ứng chỉ xuất hiện khi mạch kín có suất điện động cảm ứng.
+
 b) Dấu trừ trong định luật Faraday biểu diễn quy tắc Lenz.
+
 c) Nếu từ thông không đổi thì suất điện động cảm ứng bằng 0.
+
 d) Dòng cảm ứng luôn làm tăng biến thiên từ thông ban đầu.
 
 ??? success "Đáp án và lời giải"

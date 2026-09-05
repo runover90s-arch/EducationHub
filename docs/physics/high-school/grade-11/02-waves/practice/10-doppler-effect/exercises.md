@@ -20,8 +20,11 @@ tags:
 Nguồn âm chuyển động lại gần người nghe đứng yên. Tần số người nghe nhận được so với tần số nguồn
 
 A. nhỏ hơn.
+
 B. bằng nhau.
+
 C. lớn hơn.
+
 D. bằng 0.
 
 ??? success "Đáp án và lời giải"
@@ -32,8 +35,11 @@ D. bằng 0.
 Người nghe chuyển động lại gần nguồn đứng yên trong không khí. Công thức phù hợp là
 
 A. $f'=f\frac{v-v_o}{v}$.
+
 B. $f'=f\frac{v+v_o}{v}$.
+
 C. $f'=f\frac{v}{v+v_o}$.
+
 D. $f'=f\frac{v}{v-v_o}$.
 
 ??? success "Đáp án và lời giải"
@@ -44,8 +50,11 @@ D. $f'=f\frac{v}{v-v_o}$.
 Nguồn đứng yên phát $500$ Hz. Người nghe đứng yên. Không có chuyển động tương đối thì tần số nhận được là
 
 A. $0$ Hz.
+
 B. $250$ Hz.
+
 C. $500$ Hz.
+
 D. phụ thuộc khoảng cách.
 
 ??? success "Đáp án và lời giải"
@@ -58,8 +67,11 @@ D. phụ thuộc khoảng cách.
 Hiệu ứng Doppler trong môi trường đứng yên:
 
 a) Nguồn tiến lại gần làm bước sóng phía trước nguồn ngắn lại.
+
 b) Nguồn lùi ra xa làm tần số nghe được giảm.
+
 c) Chỉ cần thay đổi biên độ nguồn cũng gây Doppler.
+
 d) Hiện tượng liên quan chuyển động tương đối theo phương truyền sóng.
 
 ??? success "Đáp án và lời giải"

@@ -222,11 +222,9 @@ Hai điện tích $+Q$ và $-Q$, điểm M cách hai nguồn bằng nhau. Điệ
 4. E hướng về phía V giảm.
 5. Dấu q quyết định liên hệ giữa V và thế năng qV.
 
-<!-- V9_SOURCE_TYPES -->
+## Các dạng bài trọng tâm
 
-## Các dạng bài được hệ thống hóa từ ngân hàng PDF
-
-Các dạng dưới đây chỉ sử dụng những nhóm bài đã được gọi tên rõ trong các tài liệu bài tập. Phần trình bày được tổ chức lại để người học nhận diện đề, chọn công cụ và tự kiểm tra kết quả; không tạo thêm tên dạng mới.
+Các nhóm bài dưới đây được tổ chức theo dấu hiệu nhận biết và công cụ giải để người học chọn phương pháp phù hợp và tự kiểm tra kết quả.
 
 ### Dạng 1 — Xác định cường độ điện trường và điện thế tại một điểm
 

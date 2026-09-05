@@ -9,8 +9,6 @@ tags:
 
 # Bài tập — Bài 1 — Đại cương về dao động điều hòa
 
-> Hệ bài tập bám sát nội dung và mức độ của bộ tài liệu Vật lí 11 đang dùng trong dự án. Dữ kiện và độ khó của bài được giữ nguyên khi nhập từ nguồn; phần trình bày được chuẩn hóa để người học đọc đề, xem hình và mở lời giải theo một luồng thống nhất.
-
 [← Trở lại bài học](../../01-harmonic-oscillation-foundations.md)
 
 ## Phần A — Trắc nghiệm 4 lựa chọn
@@ -20,8 +18,11 @@ tags:
 Một vật dao động điều hòa theo phương trình $x=6\cos(4\pi t-\pi/3)$ cm. Biên độ và tần số của dao động là
 
 A. $6$ cm và $2$ Hz.
+
 B. $4$ cm và $6$ Hz.
+
 C. $6$ cm và $4$ Hz.
+
 D. $3$ cm và $2$ Hz.
 
 ??? success "Đáp án và lời giải"
@@ -32,8 +33,11 @@ D. $3$ cm và $2$ Hz.
 Một dao động có chu kì $T=0,25$ s. Tần số góc bằng
 
 A. $2\pi$ rad/s.
+
 B. $4\pi$ rad/s.
+
 C. $8\pi$ rad/s.
+
 D. $16\pi$ rad/s.
 
 ??? success "Đáp án và lời giải"
@@ -44,8 +48,11 @@ D. $16\pi$ rad/s.
 Một vật dao động điều hòa có biên độ $A=5$ cm. Chiều dài quỹ đạo là
 
 A. $2,5$ cm.
+
 B. $5$ cm.
+
 C. $10$ cm.
+
 D. $20$ cm.
 
 ??? success "Đáp án và lời giải"
@@ -56,8 +63,11 @@ D. $20$ cm.
 Phát biểu nào đúng?
 
 A. Mọi dao động tuần hoàn đều là dao động điều hòa.
+
 B. Dao động điều hòa là dao động có li độ biến thiên theo hàm sin hoặc cos của thời gian.
+
 C. Biên độ dao động điều hòa có thể âm.
+
 D. Tần số góc có đơn vị héc.
 
 ??? success "Đáp án và lời giải"
@@ -70,8 +80,11 @@ D. Tần số góc có đơn vị héc.
 Xét dao động $x=8\cos(5t+\pi/6)$ cm. Đánh dấu Đúng/Sai:
 
 a) Biên độ bằng $8$ cm.
+
 b) Chu kì bằng $2\pi/5$ s.
+
 c) Tần số bằng $5$ Hz.
+
 d) Pha ban đầu bằng $\pi/6$ rad.
 
 ??? success "Đáp án và lời giải"
@@ -85,8 +98,11 @@ d) Pha ban đầu bằng $\pi/6$ rad.
 Một vật dao động điều hòa có phương trình $x=A\cos(\omega t+\varphi)$ với $A>0$, $\omega>0$. Xét các phát biểu:
 
 a) $x$ luôn nằm trong đoạn $[-A,A]$.
+
 b) Sau mỗi khoảng thời gian $T$, trạng thái dao động lặp lại.
+
 c) Hệ số của $t$ trong pha chính là tần số $f$.
+
 d) Nếu đổi $A$ thành $-A$ mà giữ nguyên pha thì vẫn đang viết ở dạng chuẩn.
 
 ??? success "Đáp án và lời giải"
@@ -144,8 +160,6 @@ Một vật dao động điều hòa. Tại $t=0$ vật ở vị trí $x=A/2$ v�
     Kiểm tra: tại $t=0$, $x=3$ cm và $v<0$, đúng với đề.
 
 ## Ngân hàng bài tập mở rộng
-
-> Các bài dưới đây được đánh số nối tiếp phần bài tập phía trên. Đề bài được trình bày bằng Markdown; chỉ đồ thị, hình vẽ hoặc sơ đồ thực sự cần thiết mới được giữ dưới dạng hình. Đáp án và lời giải được đặt trong nút mở rộng ngay dưới từng bài.
 
 ### Nhận biết — Trả lời ngắn
 
@@ -424,6 +438,8 @@ Tại thời điểm $t=\dfrac14$ s, chất điểm có li độ bằng bao nhi�
 
 Một vật dao động điều hòa trên trục $Ox$. Đồ thị li độ – thời gian của vật được cho như hình dưới. Phương trình dao động của vật là
 
+![Đồ thị hoặc hình minh họa của Bài 26](../../../assets/exercise-figures/clean-bai-1/bt-026-p027-q16.webp){ loading=lazy }
+
 A. $x=5\cos\left(2\pi t-\dfrac{\pi}{2}\right)$ cm.
 
 B. $x=5\cos\left(2\pi t+\dfrac{\pi}{2}\right)$ cm.
@@ -432,7 +448,6 @@ C. $x=5\cos\left(\pi t+\dfrac{\pi}{2}\right)$ cm.
 
 D. $x=5\cos(\pi t)$ cm.
 
-![Đồ thị hoặc hình minh họa của Bài 26](../../../assets/exercise-figures/clean-bai-1/bt-026-p027-q16.webp){ loading=lazy }
 
 ??? success "Đáp án và lời giải"
     **Đáp án: D.**
@@ -451,6 +466,8 @@ D. $x=5\cos(\pi t)$ cm.
 
 Một vật dao động điều hòa có đồ thị li độ – thời gian như hình dưới. Tần số góc của vật là
 
+![Đồ thị hoặc hình minh họa của Bài 27](../../../assets/exercise-figures/clean-bai-1/bt-027-p027-q17.webp){ loading=lazy }
+
 A. $\pi$ rad/s.
 
 B. $2\pi$ rad/s.
@@ -459,7 +476,6 @@ C. $\dfrac{\pi}{2}$ rad/s.
 
 D. $4\pi$ rad/s.
 
-![Đồ thị hoặc hình minh họa của Bài 27](../../../assets/exercise-figures/clean-bai-1/bt-027-p027-q17.webp){ loading=lazy }
 
 ??? success "Đáp án và lời giải"
     **Đáp án: B.**
@@ -789,6 +805,8 @@ $$x_1=8\cos(5\pi t)\ \text{cm}.$$
 
 Phương trình dao động của vật còn lại là
 
+![Đồ thị hoặc hình minh họa của Bài 43](../../../assets/exercise-figures/clean-bai-1/bt-043-p041-q40.webp){ loading=lazy }
+
 A. $x_2=6\cos\left(5\pi t-\dfrac{\pi}{2}\right)$ cm.
 
 B. $x_2=6\cos(5\pi t)$ cm.
@@ -797,7 +815,6 @@ C. $x_2=6\cos(4\pi t)$ cm.
 
 D. $x_2=6\cos\left(4\pi t-\dfrac{\pi}{2}\right)$ cm.
 
-![Đồ thị hoặc hình minh họa của Bài 43](../../../assets/exercise-figures/clean-bai-1/bt-043-p041-q40.webp){ loading=lazy }
 
 ??? success "Đáp án và lời giải"
     **Đáp án: A.**
@@ -850,6 +867,8 @@ D. 12 m.
 
 Dựa vào đồ thị li độ – thời gian dưới đây. Biên độ của dao động là
 
+![Đồ thị hoặc hình minh họa của Bài 46](../../../assets/exercise-figures/clean-bai-1/bt-046-p047-q05.webp){ loading=lazy }
+
 A. $-5$ cm.
 
 B. $5$ cm.
@@ -858,7 +877,6 @@ C. $10$ cm.
 
 D. $-10$ cm.
 
-![Đồ thị hoặc hình minh họa của Bài 46](../../../assets/exercise-figures/clean-bai-1/bt-046-p047-q05.webp){ loading=lazy }
 
 ??? success "Đáp án và lời giải"
     **Đáp án: B.**
@@ -871,6 +889,8 @@ D. $-10$ cm.
 
 Dựa vào đồ thị li độ – thời gian dưới đây. Pha ban đầu của dao động là
 
+![Đồ thị hoặc hình minh họa của Bài 47](../../../assets/exercise-figures/clean-bai-1/bt-047-p047-q06.webp){ loading=lazy }
+
 A. $0{,}5\pi$ rad.
 
 B. $-0{,}5\pi$ rad.
@@ -879,7 +899,6 @@ C. $0{,}25\pi$ rad.
 
 D. $\pi$ rad.
 
-![Đồ thị hoặc hình minh họa của Bài 47](../../../assets/exercise-figures/clean-bai-1/bt-047-p047-q06.webp){ loading=lazy }
 
 ??? success "Đáp án và lời giải"
     **Đáp án: B.**
@@ -892,6 +911,8 @@ D. $\pi$ rad.
 
 Dựa vào đồ thị li độ – thời gian dưới đây. Tần số của dao động là
 
+![Đồ thị hoặc hình minh họa của Bài 48](../../../assets/exercise-figures/clean-bai-1/bt-048-p047-q07.webp){ loading=lazy }
+
 A. $0{,}2$ Hz.
 
 B. $0{,}1$ Hz.
@@ -900,7 +921,6 @@ C. $5$ Hz.
 
 D. $10$ Hz.
 
-![Đồ thị hoặc hình minh họa của Bài 48](../../../assets/exercise-figures/clean-bai-1/bt-048-p047-q07.webp){ loading=lazy }
 
 ??? success "Đáp án và lời giải"
     **Đáp án: B.**
@@ -1041,6 +1061,8 @@ D. 0,5π (rad).
 
 Một vật dao động điều hòa trên trục $Ox$. Đồ thị dưới đây biểu diễn sự phụ thuộc của li độ $x$ vào thời gian $t$. Phương trình dao động của vật là
 
+![Đồ thị hoặc hình minh họa của Bài 55](../../../assets/exercise-figures/clean-bai-1/bt-055-p048-q15.webp){ loading=lazy }
+
 A. $x=4\cos\left(5\pi t-\dfrac{\pi}{2}\right)$ cm.
 
 B. $x=8\cos\left(10\pi t+\dfrac{\pi}{2}\right)$ cm.
@@ -1049,7 +1071,6 @@ C. $x=4\cos\left(5\pi t+\dfrac{\pi}{2}\right)$ cm.
 
 D. $x=8\cos\left(10\pi t-\dfrac{\pi}{2}\right)$ cm.
 
-![Đồ thị hoặc hình minh họa của Bài 55](../../../assets/exercise-figures/clean-bai-1/bt-055-p048-q15.webp){ loading=lazy }
 
 ??? success "Đáp án và lời giải"
     **Đáp án: C.**
@@ -1064,6 +1085,8 @@ D. $x=8\cos\left(10\pi t-\dfrac{\pi}{2}\right)$ cm.
 
 Dựa vào đồ thị li độ – thời gian dưới đây. Biên độ của dao động là
 
+![Đồ thị hoặc hình minh họa của Bài 56](../../../assets/exercise-figures/clean-bai-1/bt-056-p048-q16.webp){ loading=lazy }
+
 A. $-5$ cm.
 
 B. $5$ cm.
@@ -1072,7 +1095,6 @@ C. $10$ cm.
 
 D. $-10$ cm.
 
-![Đồ thị hoặc hình minh họa của Bài 56](../../../assets/exercise-figures/clean-bai-1/bt-056-p048-q16.webp){ loading=lazy }
 
 ??? success "Đáp án và lời giải"
     **Đáp án: C.**
@@ -1085,6 +1107,8 @@ D. $-10$ cm.
 
 Dựa vào đồ thị li độ – thời gian dưới đây. Pha ban đầu của dao động là
 
+![Đồ thị hoặc hình minh họa của Bài 57](../../../assets/exercise-figures/clean-bai-1/bt-057-p048-q17.webp){ loading=lazy }
+
 A. $0{,}5\pi$ rad.
 
 B. $-0{,}5\pi$ rad.
@@ -1093,7 +1117,6 @@ C. $0{,}25\pi$ rad.
 
 D. $\pi$ rad.
 
-![Đồ thị hoặc hình minh họa của Bài 57](../../../assets/exercise-figures/clean-bai-1/bt-057-p048-q17.webp){ loading=lazy }
 
 ??? success "Đáp án và lời giải"
     **Đáp án: B.**
@@ -1106,6 +1129,8 @@ D. $\pi$ rad.
 
 Dựa vào đồ thị li độ – thời gian dưới đây. Tần số của dao động là
 
+![Đồ thị hoặc hình minh họa của Bài 58](../../../assets/exercise-figures/clean-bai-1/bt-058-p048-q18.webp){ loading=lazy }
+
 A. $0{,}2$ Hz.
 
 B. $0{,}5$ Hz.
@@ -1114,7 +1139,6 @@ C. $1$ Hz.
 
 D. $2$ Hz.
 
-![Đồ thị hoặc hình minh họa của Bài 58](../../../assets/exercise-figures/clean-bai-1/bt-058-p048-q18.webp){ loading=lazy }
 
 ??? success "Đáp án và lời giải"
     **Đáp án: B.**
@@ -1131,12 +1155,16 @@ D. $2$ Hz.
 
 Một vật dao động điều hòa có đồ thị li độ phụ thuộc thời gian như hình dưới. Xét các phát biểu:
 
+![Đồ thị hoặc hình minh họa của Bài 59](../../../assets/exercise-figures/clean-bai-1/bt-059-p028-q01.webp){ loading=lazy }
+
 a) Biên độ dao động của vật là $5$ cm.
+
 b) Tần số dao động của vật là $1$ Hz.
+
 c) Tần số góc của dao động là $\pi$ rad/s.
+
 d) Độ dịch chuyển của vật ở thời điểm $1{,}2$ s là $2$ cm.
 
-![Đồ thị hoặc hình minh họa của Bài 59](../../../assets/exercise-figures/clean-bai-1/bt-059-p028-q01.webp){ loading=lazy }
 
 ??? success "Đáp án và lời giải"
     **Kết luận:** a) Sai; b) Đúng; c) Sai; d) Đúng.
@@ -1149,12 +1177,16 @@ d) Độ dịch chuyển của vật ở thời điểm $1{,}2$ s là $2$ cm.
 
 Cho hai dao động điều hòa có đồ thị như hình dưới. Xét các phát biểu:
 
+![Đồ thị hoặc hình minh họa của Bài 60](../../../assets/exercise-figures/clean-bai-1/bt-060-p042-q01.webp){ loading=lazy }
+
 a) Hai dao động có cùng chu kì.
+
 b) Tần số của hai dao động là $0{,}5$ Hz.
+
 c) Hai dao động cùng pha.
+
 d) Biên độ của hai dao động là $2$ cm và $6$ cm.
 
-![Đồ thị hoặc hình minh họa của Bài 60](../../../assets/exercise-figures/clean-bai-1/bt-060-p042-q01.webp){ loading=lazy }
 
 ??? success "Đáp án và lời giải"
     **Kết luận:** a) Đúng; b) Sai; c) Đúng; d) Đúng.
@@ -1167,12 +1199,16 @@ d) Biên độ của hai dao động là $2$ cm và $6$ cm.
 
 Một vật dao động điều hòa có đồ thị li độ phụ thuộc thời gian như hình dưới. Xét các phát biểu:
 
+![Đồ thị li độ theo thời gian](../../../assets/exercise-figures/clean-v14/i_p042_q02_123_fig1.webp){ loading=lazy }
+
 a) Biên độ dao động của vật bằng $2$ cm.
+
 b) Chu kì dao động của vật bằng $0{,}6$ s.
+
 c) Pha ban đầu của dao động là $-0{,}5\pi$ rad.
+
 d) Tại thời điểm $t=0{,}6$ s, vật ở vị trí cân bằng.
 
-![Đồ thị li độ theo thời gian](../../../assets/exercise-figures/clean-v14/i_p042_q02_123_fig1.webp){ loading=lazy }
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** a) Đúng; b) Sai; c) Sai; d) Đúng.
@@ -1191,12 +1227,16 @@ d) Tại thời điểm $t=0{,}6$ s, vật ở vị trí cân bằng.
 
 Cho đồ thị li độ theo thời gian của một vật dao động điều hòa như hình dưới. Xét các phát biểu:
 
+![Đồ thị hoặc hình minh họa của Bài 62](../../../assets/exercise-figures/clean-bai-1/bt-062-p043-q03.webp){ loading=lazy }
+
 a) Biên độ dao động của vật bằng $0{,}2$ cm.
+
 b) Chu kì dao động của vật bằng $0{,}4$ s.
+
 c) Pha ban đầu của dao động là $0{,}5\pi$ rad.
+
 d) Tại thời điểm $t=0{,}5$ s, vật ở vị trí biên.
 
-![Đồ thị hoặc hình minh họa của Bài 62](../../../assets/exercise-figures/clean-bai-1/bt-062-p043-q03.webp){ loading=lazy }
 
 ??? success "Đáp án và lời giải"
     **Kết luận:** a) Đúng; b) Đúng; c) Sai; d) Đúng.
@@ -1209,12 +1249,16 @@ d) Tại thời điểm $t=0{,}5$ s, vật ở vị trí biên.
 
 Cho hai dao động điều hòa cùng tần số có đồ thị như hình dưới. Xét các phát biểu:
 
+![Đồ thị hoặc hình minh họa của Bài 63](../../../assets/exercise-figures/clean-bai-1/bt-063-p044-q04.webp){ loading=lazy }
+
 a) Hai dao động có cùng chu kì.
+
 b) Chu kì của hai dao động là $4$ s.
+
 c) Hai dao động cùng pha.
+
 d) Biên độ của hai dao động là $3$ cm và $2$ cm.
 
-![Đồ thị hoặc hình minh họa của Bài 63](../../../assets/exercise-figures/clean-bai-1/bt-063-p044-q04.webp){ loading=lazy }
 
 ??? success "Đáp án và lời giải"
     **Kết luận:** a) Đúng; b) Đúng; c) Sai; d) Đúng.
@@ -1227,12 +1271,16 @@ d) Biên độ của hai dao động là $3$ cm và $2$ cm.
 
 Cho đồ thị li độ theo thời gian của một vật dao động điều hòa như hình dưới. Xét các phát biểu:
 
+![Đồ thị hoặc hình minh họa của Bài 64](../../../assets/exercise-figures/clean-bai-1/bt-064-p049-q01.webp){ loading=lazy }
+
 a) Biên độ dao động của vật bằng $10$ cm.
+
 b) Chu kì dao động của vật bằng $1$ s.
+
 c) Pha ban đầu của dao động là $0{,}5\pi$ rad.
+
 d) Tại thời điểm $t=1{,}5$ s, vật ở vị trí biên.
 
-![Đồ thị hoặc hình minh họa của Bài 64](../../../assets/exercise-figures/clean-bai-1/bt-064-p049-q01.webp){ loading=lazy }
 
 ??? success "Đáp án và lời giải"
     **Kết luận:** a) Đúng; b) Sai; c) Sai; d) Đúng.
@@ -1250,8 +1298,11 @@ $$x=5\cos(10\pi t)\ \text{cm}.$$
 Xét các phát biểu:
 
 a) Pha ban đầu của dao động là $10\pi$ rad.
+
 b) Tần số của dao động là $5$ Hz.
+
 c) Pha dao động tại thời điểm $t=0{,}075$ s là $\dfrac{3\pi}{4}$ rad.
+
 d) Tại thời điểm $t=0{,}075$ s, li độ của vật là $-2{,}5\sqrt2$ cm.
 
 ??? success "Đáp án và lời giải"
@@ -1349,6 +1400,8 @@ D. Pittông chuyển động lên xuống trong xilanh.
 
 Hình vẽ là đồ thị dao động điều hòa x(t) của một vật. Biểu thị bằng chữ "B" trong hình là chỉ đại lượng đặc trưng nào của dao động điều hòa?
 
+![Đồ thị hoặc hình minh họa của Bài 70](../../../assets/exercise-figures/clean-bai-1/bt-070-p009-q12.webp){ loading=lazy }
+
 A. Tần số.
 
 B. Chu kỳ.
@@ -1357,7 +1410,6 @@ C. Tần số góc.
 
 D. Biên độ.
 
-![Đồ thị hoặc hình minh họa của Bài 70](../../../assets/exercise-figures/clean-bai-1/bt-070-p009-q12.webp){ loading=lazy }
 
 ??? success "Đáp án và lời giải"
     **Đáp án: D.**
@@ -1370,6 +1422,8 @@ D. Biên độ.
 
 Đồ thị li độ theo thời gian của một chất điểm dao động điều hòa được cho như hình dưới. Pha ban đầu của dao động là
 
+![Đồ thị hoặc hình minh họa của Bài 71](../../../assets/exercise-figures/clean-bai-1/bt-071-p009-q15.webp){ loading=lazy }
+
 A. $-\dfrac{2\pi}{3}$ rad.
 
 B. $\dfrac{2\pi}{3}$ rad.
@@ -1378,7 +1432,6 @@ C. $\dfrac{\pi}{6}$ rad.
 
 D. $-\dfrac{\pi}{6}$ rad.
 
-![Đồ thị hoặc hình minh họa của Bài 71](../../../assets/exercise-figures/clean-bai-1/bt-071-p009-q15.webp){ loading=lazy }
 
 ??? success "Đáp án và lời giải"
     **Đáp án: A.**
@@ -1424,6 +1477,8 @@ D. $\dfrac{2\pi}{3}$ cm.
 
 Cho một chất điểm dao động điều hòa quanh vị trí cân bằng $O$. Đồ thị li độ – thời gian được cho như hình dưới. Biên độ dao động là
 
+![Đồ thị hoặc hình minh họa của Bài 73](../../../assets/exercise-figures/clean-bai-1/bt-073-p010-q18.webp){ loading=lazy }
+
 A. $5$ cm.
 
 B. $-5$ cm.
@@ -1432,7 +1487,6 @@ C. $4$ cm.
 
 D. $-4$ cm.
 
-![Đồ thị hoặc hình minh họa của Bài 73](../../../assets/exercise-figures/clean-bai-1/bt-073-p010-q18.webp){ loading=lazy }
 
 ??? success "Đáp án và lời giải"
     **Đáp án: A.**
@@ -1445,6 +1499,8 @@ D. $-4$ cm.
 
 Đồ thị dưới biểu diễn sự phụ thuộc của li độ $x$ vào thời gian $t$ của một vật dao động điều hòa. Đoạn $PR$ trên trục thời gian biểu thị
 
+![Đồ thị hoặc hình minh họa của Bài 74](../../../assets/exercise-figures/clean-bai-1/bt-074-p010-q19.webp){ loading=lazy }
+
 A. một nửa chu kì.
 
 B. hai lần tần số.
@@ -1453,7 +1509,6 @@ C. một nửa tần số.
 
 D. hai lần chu kì.
 
-![Đồ thị hoặc hình minh họa của Bài 74](../../../assets/exercise-figures/clean-bai-1/bt-074-p010-q19.webp){ loading=lazy }
 
 ??? success "Đáp án và lời giải"
     **Đáp án: A.**
@@ -1468,6 +1523,8 @@ D. hai lần chu kì.
 
 Một vật dao động điều hòa trên trục $Ox$. Đồ thị li độ – thời gian được cho như hình dưới. Pha ban đầu của dao động là
 
+![Đồ thị hoặc hình minh họa của Bài 75](../../../assets/exercise-figures/clean-bai-1/bt-075-p010-q20.webp){ loading=lazy }
+
 A. $0{,}5\pi$ rad.
 
 B. $-0{,}5\pi$ rad.
@@ -1476,7 +1533,6 @@ C. $0{,}25\pi$ rad.
 
 D. $\pi$ rad.
 
-![Đồ thị hoặc hình minh họa của Bài 75](../../../assets/exercise-figures/clean-bai-1/bt-075-p010-q20.webp){ loading=lazy }
 
 ??? success "Đáp án và lời giải"
     **Đáp án: A.**
@@ -1620,6 +1676,8 @@ D. $5\pi$ Hz.
 
 Một vật dao động điều hòa trên trục $Ox$. Đồ thị li độ – thời gian được cho như hình dưới. Tần số góc của dao động bằng
 
+![Đồ thị hoặc hình minh họa của Bài 81](../../../assets/exercise-figures/clean-bai-1/bt-082-p012-q27.webp){ loading=lazy }
+
 A. $5\pi$ rad/s.
 
 B. $5$ rad/s.
@@ -1628,7 +1686,6 @@ C. $10$ rad/s.
 
 D. $10\pi$ rad/s.
 
-![Đồ thị hoặc hình minh họa của Bài 81](../../../assets/exercise-figures/clean-bai-1/bt-082-p012-q27.webp){ loading=lazy }
 
 ??? success "Đáp án và lời giải"
     **Đáp án: A.**
@@ -1643,6 +1700,8 @@ D. $10\pi$ rad/s.
 
 Hình dưới là đồ thị li độ – thời gian $(x-t)$ của một vật dao động điều hòa. Thời điểm vật đi qua vị trí cân bằng lần đầu tiên là
 
+![Đồ thị hoặc hình minh họa của Bài 82](../../../assets/exercise-figures/clean-bai-1/bt-083-p012-q28.webp){ loading=lazy }
+
 A. $0{,}4$ s.
 
 B. $0{,}2$ s.
@@ -1651,7 +1710,6 @@ C. $0{,}1$ s.
 
 D. $0{,}8$ s.
 
-![Đồ thị hoặc hình minh họa của Bài 82](../../../assets/exercise-figures/clean-bai-1/bt-083-p012-q28.webp){ loading=lazy }
 
 ??? success "Đáp án và lời giải"
     **Đáp án: A.**
@@ -1666,6 +1724,8 @@ D. $0{,}8$ s.
 
 Một vật dao động điều hòa trên trục $Ox$. Hình dưới là đồ thị biểu diễn sự phụ thuộc của li độ $x$ vào thời gian $t$. Tần số và biên độ của dao động lần lượt là
 
+![Đồ thị hoặc hình minh họa của Bài 83](../../../assets/exercise-figures/clean-bai-1/bt-084-p012-q29.webp){ loading=lazy }
+
 A. $2$ Hz và $10$ cm.
 
 B. $2$ Hz và $20$ cm.
@@ -1674,7 +1734,6 @@ C. $1$ Hz và $10$ cm.
 
 D. $1$ Hz và $20$ cm.
 
-![Đồ thị hoặc hình minh họa của Bài 83](../../../assets/exercise-figures/clean-bai-1/bt-084-p012-q29.webp){ loading=lazy }
 
 ??? success "Đáp án và lời giải"
     **Đáp án: C.**
@@ -1693,6 +1752,8 @@ D. $1$ Hz và $20$ cm.
 
 Một dao động điều hòa có đồ thị như hình dưới. Kết luận nào sau đây **sai**?
 
+![Đồ thị hoặc hình minh họa của Bài 84](../../../assets/exercise-figures/clean-bai-1/bt-085-p012-q30.webp){ loading=lazy }
+
 A. $A=4$ cm.
 
 B. $T=0{,}5$ s.
@@ -1701,7 +1762,6 @@ C. $f=1$ Hz.
 
 D. $\omega=2\pi$ rad/s.
 
-![Đồ thị hoặc hình minh họa của Bài 84](../../../assets/exercise-figures/clean-bai-1/bt-085-p012-q30.webp){ loading=lazy }
 
 ??? success "Đáp án và lời giải"
     **Đáp án: B.**
@@ -1718,6 +1778,8 @@ D. $\omega=2\pi$ rad/s.
 
 Hình dưới là đồ thị li độ – thời gian của hai dao động. Nhận định nào sau đây đúng?
 
+![Đồ thị hoặc hình minh họa của Bài 85](../../../assets/exercise-figures/clean-bai-1/bt-086-p013-q31.webp){ loading=lazy }
+
 A. Hai dao động cùng biên độ và cùng tần số.
 
 B. Hai dao động khác biên độ và khác tần số.
@@ -1726,7 +1788,6 @@ C. Hai dao động khác biên độ và cùng tần số.
 
 D. Hai dao động cùng biên độ và khác tần số.
 
-![Đồ thị hoặc hình minh họa của Bài 85](../../../assets/exercise-figures/clean-bai-1/bt-086-p013-q31.webp){ loading=lazy }
 
 ??? success "Đáp án và lời giải"
     **Đáp án: C.**
@@ -1808,6 +1869,8 @@ D. $0{,}1$ rad/s.
 
 Dựa vào đồ thị li độ – thời gian dưới đây, pha ban đầu của dao động là
 
+![Đồ thị hoặc hình minh họa của Bài 89](../../../assets/exercise-figures/clean-bai-1/bt-090-p039-shared.webp){ loading=lazy }
+
 A. $0{,}5\pi$ rad.
 
 B. $-0{,}5\pi$ rad.
@@ -1816,7 +1879,6 @@ C. $0{,}25\pi$ rad.
 
 D. $\pi$ rad.
 
-![Đồ thị hoặc hình minh họa của Bài 89](../../../assets/exercise-figures/clean-bai-1/bt-090-p039-shared.webp){ loading=lazy }
 
 ??? success "Đáp án và lời giải"
     **Đáp án: A.**
@@ -1831,6 +1893,8 @@ D. $\pi$ rad.
 
 Dựa vào đồ thị li độ – thời gian dưới đây, chu kì dao động là
 
+![Đồ thị hoặc hình minh họa của Bài 90](../../../assets/exercise-figures/clean-bai-1/bt-090-p039-shared.webp){ loading=lazy }
+
 A. $0{,}2$ s.
 
 B. $0{,}4$ s.
@@ -1839,7 +1903,6 @@ C. $5$ s.
 
 D. $2{,}5$ s.
 
-![Đồ thị hoặc hình minh họa của Bài 90](../../../assets/exercise-figures/clean-bai-1/bt-090-p039-shared.webp){ loading=lazy }
 
 ??? success "Đáp án và lời giải"
     **Đáp án: B.**
@@ -2137,6 +2200,8 @@ Kể từ thời điểm $t=\dfrac{41}{12}$ s, xác định **thời điểm g�
 
 Hình dưới là đồ thị biểu diễn độ dời $x$ theo thời gian $t$ của một vật dao động điều hòa. Phương trình dao động của vật là
 
+![Đồ thị hoặc hình minh họa của Bài 103](../../../assets/exercise-figures/clean-bai-1/bt-104-p015-q36.webp){ loading=lazy }
+
 A. $x=4\cos\left(10\pi t+\dfrac{2\pi}{3}\right)$ cm.
 
 B. $x=4\cos\left(20\pi t+\dfrac{2\pi}{3}\right)$ cm.
@@ -2145,7 +2210,6 @@ C. $x=4\cos\left(10\pi t+\dfrac{5\pi}{6}\right)$ cm.
 
 D. $x=4\cos\left(20\pi t-\dfrac{\pi}{3}\right)$ cm.
 
-![Đồ thị hoặc hình minh họa của Bài 103](../../../assets/exercise-figures/clean-bai-1/bt-104-p015-q36.webp){ loading=lazy }
 
 ??? success "Đáp án và lời giải"
     **Đáp án: A.**
@@ -2193,6 +2257,8 @@ D. $5$ cm.
 
 Một vật dao động điều hòa trên trục $Ox$. Hình dưới là đồ thị biểu diễn sự phụ thuộc của li độ $x$ vào thời gian $t$. Phương trình dao động của vật là
 
+![Đồ thị hoặc hình minh họa của Bài 105](../../../assets/exercise-figures/clean-bai-1/bt-106-p016-q39.webp){ loading=lazy }
+
 A. $x=6\cos\left(\dfrac{\pi}{3}t-\dfrac{2\pi}{3}\right)$ cm.
 
 B. $x=6\cos\left(\dfrac{2\pi}{3}t+\dfrac{2\pi}{3}\right)$ cm.
@@ -2201,7 +2267,6 @@ C. $x=6\cos\left(\dfrac{\pi}{3}t+\dfrac{2\pi}{3}\right)$ cm.
 
 D. $x=6\cos\left(\dfrac{2\pi}{3}t-\dfrac{2\pi}{3}\right)$ cm.
 
-![Đồ thị hoặc hình minh họa của Bài 105](../../../assets/exercise-figures/clean-bai-1/bt-106-p016-q39.webp){ loading=lazy }
 
 ??? success "Đáp án và lời giải"
     **Đáp án: B.**
@@ -2220,6 +2285,8 @@ D. $x=6\cos\left(\dfrac{2\pi}{3}t-\dfrac{2\pi}{3}\right)$ cm.
 
 Một vật dao động điều hòa trên trục $Ox$. Đồ thị li độ – thời gian được cho như hình dưới. Pha ban đầu của dao động là
 
+![Đồ thị hoặc hình minh họa của Bài 106](../../../assets/exercise-figures/clean-bai-1/bt-107-p016-q40.webp){ loading=lazy }
+
 A. $\dfrac{\pi}{6}$ rad.
 
 B. $-\dfrac{\pi}{6}$ rad.
@@ -2228,7 +2295,6 @@ C. $\dfrac{\pi}{3}$ rad.
 
 D. $-\dfrac{\pi}{3}$ rad.
 
-![Đồ thị hoặc hình minh họa của Bài 106](../../../assets/exercise-figures/clean-bai-1/bt-107-p016-q40.webp){ loading=lazy }
 
 ??? success "Đáp án và lời giải"
     **Đáp án: B.**
@@ -2445,6 +2511,8 @@ D. $T=4$ s và $f=0{,}5$ Hz.
 
 Một vật dao động điều hòa có đồ thị biểu diễn như hình dưới. Phương trình dao động của vật là
 
+![Đồ thị hoặc hình minh họa của Bài 115](../../../assets/exercise-figures/clean-bai-1/bt-116-p041-q37.webp){ loading=lazy }
+
 A. $x=10\cos(0{,}5\pi t)$ cm.
 
 B. $x=10\cos\left(4t+\dfrac{\pi}{2}\right)$ cm.
@@ -2453,7 +2521,6 @@ C. $x=4\cos(10t)$ cm.
 
 D. $x=10\cos(8\pi t)$ cm.
 
-![Đồ thị hoặc hình minh họa của Bài 115](../../../assets/exercise-figures/clean-bai-1/bt-116-p041-q37.webp){ loading=lazy }
 
 ??? success "Đáp án và lời giải"
     **Đáp án: A.**
@@ -2472,6 +2539,8 @@ D. $x=10\cos(8\pi t)$ cm.
 
 Dựa vào đồ thị hai dao động dưới đây. Chu kì dao động là
 
+![Đồ thị hoặc hình minh họa của Bài 116](../../../assets/exercise-figures/clean-bai-1/bt-117-p041-q38.webp){ loading=lazy }
+
 A. $0{,}5$ s.
 
 B. $0{,}02$ s.
@@ -2480,7 +2549,6 @@ C. $0{,}4$ s.
 
 D. $0{,}05$ s.
 
-![Đồ thị hoặc hình minh họa của Bài 116](../../../assets/exercise-figures/clean-bai-1/bt-117-p041-q38.webp){ loading=lazy }
 
 ??? success "Đáp án và lời giải"
     **Đáp án: C.**
@@ -2497,12 +2565,16 @@ D. $0{,}05$ s.
 
 Vật dao động điều hòa có đồ thị li độ phụ thuộc thời gian như hình dưới. Xét các phát biểu:
 
+![Đồ thị hoặc hình minh họa của Bài 117](../../../assets/exercise-figures/clean-bai-1/bt-118-p018-q03.webp){ loading=lazy }
+
 a) Tại thời điểm $t=0{,}1$ s, li độ của vật là $-2$ cm.
+
 b) Quãng đường vật đi được sau $0{,}6$ s là $10$ cm.
+
 c) Tại thời điểm $t=0{,}5$ s, li độ của vật là $-2$ cm.
+
 d) Tại thời điểm $t=0$, vật ở biên dương.
 
-![Đồ thị hoặc hình minh họa của Bài 117](../../../assets/exercise-figures/clean-bai-1/bt-118-p018-q03.webp){ loading=lazy }
 
 ??? success "Đáp án và lời giải"
     **Kết luận:** a) Đúng; b) Sai; c) Đúng; d) Sai.
@@ -2515,12 +2587,16 @@ d) Tại thời điểm $t=0$, vật ở biên dương.
 
 Đồ thị li độ – thời gian của một vật dao động điều hòa như hình dưới. Xét các phát biểu:
 
+![Đồ thị hoặc hình minh họa của Bài 118](../../../assets/exercise-figures/clean-bai-1/bt-119-p020-q05.webp){ loading=lazy }
+
 a) Biên độ dao động của vật là $4$ cm.
+
 b) Chu kì dao động của vật là $0{,}75$ s.
+
 c) Tại thời điểm $t=0$, vật có li độ $2$ cm và đi theo chiều dương.
+
 d) Tại thời điểm $t=0{,}75$ s, vật đi qua vị trí cân bằng theo chiều dương.
 
-![Đồ thị hoặc hình minh họa của Bài 118](../../../assets/exercise-figures/clean-bai-1/bt-119-p020-q05.webp){ loading=lazy }
 
 ??? success "Đáp án và lời giải"
     **Kết luận:** a) Sai; b) Sai; c) Sai; d) Sai.
@@ -2536,12 +2612,16 @@ d) Tại thời điểm $t=0{,}75$ s, vật đi qua vị trí cân bằng theo c
 
 Dao động của một vật là tổng hợp của hai dao động điều hòa cùng phương có li độ lần lượt là $x_1$ và $x_2$. Đồ thị dưới đây biểu diễn sự phụ thuộc của $x_1$ và $x_2$ theo thời gian $t$. Xét các phát biểu:
 
+![Đồ thị hoặc hình minh họa của Bài 119](../../../assets/exercise-figures/clean-bai-1/bt-120-p021-q06.webp){ loading=lazy }
+
 a) Tại thời điểm $0{,}4$ s, hai dao động thành phần có cùng li độ.
+
 b) Chu kì dao động là $1{,}2$ s.
+
 c) Tại thời điểm $t=0$, pha dao động của $x_2$ là $\dfrac{\pi}{4}$ rad.
+
 d) Dao động $x_1$ nhanh pha hơn dao động $x_2$ một góc $\dfrac{2\pi}{3}$ rad.
 
-![Đồ thị hoặc hình minh họa của Bài 119](../../../assets/exercise-figures/clean-bai-1/bt-120-p021-q06.webp){ loading=lazy }
 
 ??? success "Đáp án và lời giải"
     **Kết luận:** a) Đúng; b) Đúng; c) Sai; d) Sai.

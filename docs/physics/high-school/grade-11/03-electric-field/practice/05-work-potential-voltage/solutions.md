@@ -61,8 +61,8 @@ Dấu âm phù hợp: điện tích âm đi theo chiều điện trường thì 
 
 [← Bài tập](exercises.md)
 
-## Bài 11–101
+## Bài 11–98
 
-Đáp án và lời giải của **Bài 11–101** đã được đặt trực tiếp dưới từng bài trong trang bài tập bằng nút **“Đáp án và lời giải”** để tránh tách đề, hình minh họa và lời giải sang nhiều vị trí khác nhau.
+Đáp án và lời giải của **Bài 11–98** đã được đặt trực tiếp dưới từng bài trong trang bài tập bằng nút **“Đáp án và lời giải”** để tránh tách đề, hình minh họa và lời giải sang nhiều vị trí khác nhau.
 
 [← Mở trang bài tập](exercises.md)

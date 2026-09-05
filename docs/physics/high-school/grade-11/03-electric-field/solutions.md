@@ -335,7 +335,6 @@ $$
 
 Vì $g_{eff}>g$, chu kì **giảm**.
 
-<!-- V9_CHAPTER_BANK -->
 ## Đáp án theo từng bài trong chương
 
 Mỗi ngân hàng giữ lời giải riêng để tránh một trang lời giải quá dài và giúp đối chiếu đúng bài đang luyện.
@@ -350,7 +349,6 @@ Mỗi ngân hàng giữ lời giải riêng để tránh một trang lời giả
 - **Bài 8 — Ghép tụ và các bài toán tụ điện nâng cao**: [Mở đáp án và lời giải](practice/08-advanced-capacitors/solutions.md)
 - **Bài 9 — Cân bằng điện tích và con lắc trong điện trường**: [Mở đáp án và lời giải](practice/09-electrostatic-equilibrium-charged-pendulum/solutions.md)
 
-<!-- /V9_CHAPTER_BANK -->
 
 ---
 

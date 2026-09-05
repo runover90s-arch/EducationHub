@@ -20,8 +20,11 @@ tags:
 Trong dao động điều hòa, gia tốc và li độ liên hệ bởi
 
 A. $a=\omega x$.
+
 B. $a=-\omega x$.
+
 C. $a=-\omega^2x$.
+
 D. $a=\omega^2v$.
 
 ??? success "Đáp án và lời giải"
@@ -32,8 +35,11 @@ D. $a=\omega^2v$.
 Vật dao động điều hòa có $A=4$ cm, $\omega=5$ rad/s. Tốc độ cực đại bằng
 
 A. $5$ cm/s.
+
 B. $9$ cm/s.
+
 C. $20$ cm/s.
+
 D. $80$ cm/s.
 
 ??? success "Đáp án và lời giải"
@@ -44,8 +50,11 @@ D. $80$ cm/s.
 Tại vị trí biên của dao động điều hòa, đại lượng nào bằng không?
 
 A. Li độ.
+
 B. Vận tốc.
+
 C. Gia tốc.
+
 D. Cả vận tốc và gia tốc.
 
 ??? success "Đáp án và lời giải"
@@ -56,8 +65,11 @@ D. Cả vận tốc và gia tốc.
 Vận tốc trong dao động điều hòa sớm pha hay trễ pha so với li độ?
 
 A. Sớm pha $\pi/2$.
+
 B. Trễ pha $\pi/2$.
+
 C. Cùng pha.
+
 D. Ngược pha.
 
 ??? success "Đáp án và lời giải"
@@ -70,8 +82,11 @@ D. Ngược pha.
 Một vật dao động điều hòa có $x=5\cos(4t)$ cm. Xét các phát biểu:
 
 a) $v_{\max}=20$ cm/s.
+
 b) $a_{\max}=80$ cm/s².
+
 c) Tại $x=3$ cm, độ lớn vận tốc là $16$ cm/s.
+
 d) Khi $x>0$ thì gia tốc cũng dương.
 
 ??? success "Đáp án và lời giải"
@@ -85,8 +100,11 @@ d) Khi $x>0$ thì gia tốc cũng dương.
 Xét một vật dao động điều hòa:
 
 a) Khi đi từ biên về vị trí cân bằng, tốc độ tăng.
+
 b) Khi đi từ vị trí cân bằng ra biên, độ lớn gia tốc giảm.
+
 c) Ở vị trí cân bằng, gia tốc bằng không.
+
 d) Ở cùng một li độ, độ lớn vận tốc luôn như nhau.
 
 ??? success "Đáp án và lời giải"
@@ -138,8 +156,6 @@ Một vật dao động điều hòa. Tại $x_1=3$ cm, tốc độ là $v_1=20$
     Vậy $A=\sqrt{37}$ cm. Kết quả thỏa $A>|x_1|,|x_2|$.
 
 ## Ngân hàng bài tập mở rộng
-
-> Các bài dưới đây được đánh số nối tiếp phần bài tập phía trên. Đề bài được trình bày bằng Markdown; chỉ đồ thị, hình vẽ hoặc sơ đồ thực sự cần thiết mới được giữ dưới dạng hình. Đáp án và lời giải được đặt trong nút mở rộng ngay dưới từng bài.
 
 ### Nhận biết — Trả lời ngắn
 
@@ -216,20 +232,15 @@ nó bằng bao nhiêu cm/s ?
 
 <!-- source-id: BT-Chuong-I-p27-q15-69 -->
 
-Một vật dao động điều hòa với chu kì T. Chọn gốc thời gian là lúc vật qua vị trí cân bằng,
-vận tốc của vật bằng 0 lần đầu tiên ở thời điểm
+Một vật dao động điều hòa với chu kì $T$. Chọn gốc thời gian là lúc vật qua vị trí cân bằng, vận tốc của vật bằng 0 lần đầu tiên ở thời điểm
 
-A. 𝑇
-2
+A. $\dfrac{T}{2}$.
 
-B. 𝑇
-3
+B. $\dfrac{T}{3}$.
 
-C. 2𝑇
-3
+C. $\dfrac{2T}{3}$.
 
-D. 𝑇
-4
+D. $\dfrac{T}{4}$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
@@ -238,71 +249,55 @@ D. 𝑇
     Dùng $v=-\omega A\sin(\omega t+\varphi)$, $a=-\omega^2x$ và $v^2=\omega^2(A^2-x^2)$ để liên hệ trực tiếp giữa li độ, vận tốc và gia tốc.
 
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **D. 𝑇 4**
+    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **D. $\dfrac{T}{4}$**
 #### Bài 16
 
 <!-- source-id: BT-Chuong-I-p68-q1-160 -->
 
-Trong dao động điều hoà thì li độ, vận tốc và gia tốc là những đại lượng biến đổi theo hàm sin hoặc
-cosin theo thời gian và
+Trong dao động điều hoà thì li độ, vận tốc và gia tốc là những đại lượng biến đổi theo hàm sin hoặc cosin theo thời gian và
 
 A. cùng biên độ.
 
 B. cùng pha ban đầu.
 
-C. cùng chu kỳ.
+C. cùng chu kì.
 
 D. cùng pha dao động.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
+
     **Hướng dẫn giải:**
-    Li độ, vận tốc và gia tốc là những đại lượng biến đổi theo hàm sin hoặc cosin theo thời gian và cùng tần số
-    góc ω cùng chu kỳ.
+    Li độ, vận tốc và gia tốc đều biến thiên điều hoà với cùng tần số góc $\omega$, nên chúng có cùng chu kì $T=2\pi/\omega$.
 
 #### Bài 17
 
 <!-- source-id: BT-Chuong-I-p68-q2-161 -->
 
 Phương trình li độ của một vật dao động điều hoà có dạng
-(
-).
-x
- Acos
-t
-ω
-=
-+ ϕ
-Phương trình gia tốc
-của vật là
 
-A. (
-)
-2
-a = Aω cos ωt + φ .
+$$
+x=A\cos(\omega t+\varphi).
+$$
 
-B. (
-)
-2
-a = Aω sin ωt + φ .
+Phương trình gia tốc của vật là
 
-C. (
-)
-2
-a = -Aω cos ωt + φ .
+A. $a=A\omega^2\cos(\omega t+\varphi)$.
 
-D. (
-)
-2
-a = -Aω sin ωt + φ .
+B. $a=A\omega^2\sin(\omega t+\varphi)$.
+
+C. $a=-A\omega^2\cos(\omega t+\varphi)$.
+
+D. $a=-A\omega^2\sin(\omega t+\varphi)$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
+
     **Hướng dẫn giải:**
+    Từ $x=A\cos(\omega t+\varphi)$,
 
-    Dùng $v=-\omega A\sin(\omega t+\varphi)$, $a=-\omega^2x$ và $v^2=\omega^2(A^2-x^2)$ để liên hệ trực tiếp giữa li độ, vận tốc và gia tốc.
+    $a=x''=-\omega^2x=-A\omega^2\cos(\omega t+\varphi).$
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. ( ) 2 a = -Aω cos ωt + φ .**
 #### Bài 18
 
 <!-- source-id: BT-Chuong-I-p68-q5-164 -->
@@ -499,11 +494,7 @@ D. $v=-\omega A\sin(\omega t+\varphi)$.
 
 <!-- source-id: BT-Chuong-I-p71-q35-194 -->
 
-Một chất điểm dao động điều hoà. Biết li độ và vận tốc của chất điểm tại thời điểm t1, lần lượt là x1
-= 3 cm và v1 = 60 3
-−
-cm/s, tại thời điểm t2, lần lượt là x2 = 3 2 cm và v2 = 60 2 cm/s. Biên độ và tần số
-góc của dao động lần lượt bằng
+Một chất điểm dao động điều hòa. Biết li độ và vận tốc của chất điểm tại thời điểm $t_1$ lần lượt là $x_1=3$ cm và $v_1=-60\sqrt{3}$ cm/s; tại thời điểm $t_2$ lần lượt là $x_2=3\sqrt{2}$ cm và $v_2=60\sqrt{2}$ cm/s. Biên độ và tần số góc của dao động lần lượt bằng
 
 A. 6 cm, 2 rad/s.
 
@@ -514,53 +505,57 @@ C. 12 cm, 20 rad/s.
 D. 12 cm, 10 rad/s.
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** B
+    **Kết luận:** Không có phương án nào đúng hoàn toàn. Theo dữ kiện đề, $A=6$ cm và $\omega=20\,\mathrm{rad/s}$.
+
     **Hướng dẫn giải:**
 
-    Dùng $v=-\omega A\sin(\omega t+\varphi)$, $a=-\omega^2x$ và $v^2=\omega^2(A^2-x^2)$ để liên hệ trực tiếp giữa li độ, vận tốc và gia tốc.
+    Với dao động điều hòa, $v^2=\omega^2(A^2-x^2)$.
 
+    Lấy hiệu hai trạng thái:
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **B. 6 cm, 12 rad/s.**
+    $v_1^2-v_2^2=\omega^2(x_2^2-x_1^2)$.
+
+    Do đó $10800-7200=\omega^2(18-9)$, suy ra $\omega^2=400$ và $\omega=20\,\mathrm{rad/s}$.
+
+    Tiếp theo, $A^2=x_1^2+v_1^2/\omega^2=9+10800/400=36$, nên $A=6$ cm.
+
+!!! warning "Đối chiếu nguồn"
+    PDF tô **C. 12 cm, 20 rad/s**. Tính trực tiếp từ cả hai cặp $(x,v)$ cho kết quả duy nhất $(A,\omega)=(6\,\mathrm{cm},20\,\mathrm{rad/s})$, nên đáp án nguồn không phù hợp với dữ kiện đã in.
+
 #### Bài 27
 
 <!-- source-id: BT-Chuong-I-p72-q40-199 -->
 
-Li độ và tốc độ của một vật động điều hòa liên hệ với nhau theo biểu thức
-3
-2
-5
-2
-10 x
-10
-v
-=
-−
- Trong đó
-x và v lần lượt tính theo đon vị cm và cm/s. Lấy
-2
-10
-π=
-. Khi gia tốc của vật là 50 m/s2 thì tốc độ của vật là
+Li độ và tốc độ của một vật dao động điều hòa liên hệ với nhau theo biểu thức
 
-A. 50π cm/s.
+$$
+10^3x^2=10^5-v^2,
+$$
 
-B. 50
-3
-π
- cm/s.
+trong đó $x$ và $v$ lần lượt tính bằng cm và cm/s. Lấy $\pi^2=10$. Khi gia tốc của vật là $50$ m/s² thì tốc độ của vật là
 
-C. 0 cm/s.
+A. $50\pi$ cm/s.
 
-D. 100π cm/s.
+B. $50\pi\sqrt3$ cm/s.
+
+C. $0$ cm/s.
+
+D. $100\pi$ cm/s.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** B
+
     **Hướng dẫn giải:**
+    So sánh $v^2=\omega^2(A^2-x^2)$ với $v^2=10^5-10^3x^2$ suy ra $\omega^2=10^3$ s$^{-2}$. Với $|a|=50$ m/s² $=5000$ cm/s²:
 
-    Dùng $v=-\omega A\sin(\omega t+\varphi)$, $a=-\omega^2x$ và $v^2=\omega^2(A^2-x^2)$ để liên hệ trực tiếp giữa li độ, vận tốc và gia tốc.
+    $|x|=\frac{|a|}{\omega^2}=5\ \text{cm}.$
 
+    Khi đó $v^2=10^5-10^3\cdot25=75000$, nên
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **B. 50 3 π cm/s.**
+    $|v|=50\sqrt{30}=50\pi\sqrt3\ \text{cm/s}$
+
+    do $\pi^2=10$.
+
 #### Bài 28
 
 <!-- source-id: BT-Chuong-I-p76-q2-211 -->
@@ -631,12 +626,11 @@ D. 31,4 cm/s.
 
 <!-- source-id: BT-Chuong-I-p76-q6-215 -->
 
-Một vật dao động điều hòa. Khoảng thời gian giữa hai lần liên tiếp vật có vận tốc bằng không là 1s,
-đồng thời tốc độ trung bình trong khoảng thời gian này là 20 cm/s. Khi qua vị trí cân bằng, tốc độ của vật là
+Một vật dao động điều hòa. Khoảng thời gian giữa hai lần liên tiếp vật có vận tốc bằng không là 1 s, đồng thời tốc độ trung bình trong khoảng thời gian này là 20 cm/s. Khi qua vị trí cân bằng, tốc độ của vật là
 
-A. 5π cm/s
+A. $5\pi$ cm/s.
 
-B. 10π cm/s.
+B. $10\pi$ cm/s.
 
 C. 20 cm/s.
 
@@ -644,166 +638,116 @@ D. 10 cm/s.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** B
+
     **Hướng dẫn giải:**
-    𝑇
-    2 =1s→T=2s.
+    Hai lần liên tiếp vận tốc bằng 0 cách nhau nửa chu kì, nên
 
-    Mà 𝑣𝑡ℎ=
-    𝑆
-    𝛥𝑡→S= 20cm= 2A→A= 10cm
+    $\dfrac{T}{2}=1\ \mathrm{s}\Rightarrow T=2\ \mathrm{s}$.
 
-    Tốc độ của vật khi qua vị trí cân bằng là vmax= ωA=10π(cm/s).
+    Trong khoảng này vật đi từ biên này sang biên kia, do đó $S=2A$. Vì $v_{\mathrm{tb}}=20$ cm/s trong 1 s nên $S=20$ cm, suy ra $A=10$ cm.
+
+    $v_{\max}=\omega A=\dfrac{2\pi}{T}A=10\pi\ \mathrm{cm/s}$.
+
+    Vậy chọn **B**.
 
 #### Bài 32
 
 <!-- source-id: BT-Chuong-I-p76-q7-216 -->
 
-Một vật dao động điều hòa với phương trình vận tốc v = 10πcos(2πt+0,5π) (cm/s). Phát biểu nào sau
-đây đúng?
+Một vật dao động điều hòa với phương trình vận tốc $v=10\pi\cos(2\pi t+0{,}5\pi)$ cm/s. Phát biểu nào sau đây đúng?
 
 A. Quỹ đạo dao động dài 20 cm.
 
 B. Tốc độ cực đại là 10 cm/s.
 
-C. Gia tốc cực đại là 20π2 cm/s2.
+C. Gia tốc cực đại là $20\pi^2$ cm/s$^2$.
 
 D. Tần số của dao động là 2 Hz.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
+
     **Hướng dẫn giải:**
-    vmax= 10πcm/s, ω= 2πrad/s.
+    Từ $v=10\pi\cos(2\pi t+0{,}5\pi)$ cm/s, có $v_{\max}=10\pi$ cm/s và $\omega=2\pi$ rad/s.
 
-    • A=
-    𝑣𝑚𝑎𝑥
-    𝜔
-    = 5 𝑐𝑚→ quỹ đạo dao động là 10cm→ A sai.
+    $A=\dfrac{v_{\max}}{\omega}=5$ cm, nên quỹ đạo dài $2A=10$ cm: A sai.
 
-    • f=
-    𝜔
-    2𝜋=1Hz→ D sai.
-    • vmax= 10π→B sai.
-    • amax= ω2A= 4π2.5= 20π2 (cm/s2 )→ C đúng.
+    $f=\dfrac{\omega}{2\pi}=1$ Hz: D sai. Tốc độ cực đại là $10\pi$ cm/s: B sai.
+
+    $a_{\max}=\omega^2A=(2\pi)^2\cdot5=20\pi^2$ cm/s$^2$: C đúng.
 
 #### Bài 33
 
 <!-- source-id: BT-Chuong-I-p76-q8-217 -->
 
-Một vật dao động điều hòa với vận tốc cực đại vmax = 6π cm/s và gia tốc cực đại amax = 18π2 cm/s2. Tại
-t = 0, vật qua vị trí cân bằng theo chiều âm. Phương trình dao động của vật là
+Một vật dao động điều hòa với vận tốc cực đại $v_{\max}=6\pi$ cm/s và gia tốc cực đại $a_{\max}=18\pi^2$ cm/s$^2$. Tại $t=0$, vật qua vị trí cân bằng theo chiều âm. Phương trình dao động của vật là
 
-A. x = 3cos (2πt +
-π
-2) (cm).
+A. $x=3\cos\left(2\pi t+\dfrac{\pi}{2}\right)$ cm.
 
-B. x = 2cos (3πt +
-π
-2) (cm).
+B. $x=2\cos\left(3\pi t+\dfrac{\pi}{2}\right)$ cm.
 
-C. x = 3cos (2πt −
-π
-2) (cm).
+C. $x=3\cos\left(2\pi t-\dfrac{\pi}{2}\right)$ cm.
 
-D. x = 2cos (3πt −
-π
-2) (cm).
+D. $x=2\cos\left(3\pi t-\dfrac{\pi}{2}\right)$ cm.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** B
+
     **Hướng dẫn giải:**
-    • ω=3π; A= 2cm.
+    $\omega=\dfrac{a_{\max}}{v_{\max}}=\dfrac{18\pi^2}{6\pi}=3\pi$ rad/s và $A=\dfrac{v_{\max}}{\omega}=2$ cm.
 
-    𝜋
-    2.
+    Tại $t=0$, vật ở vị trí cân bằng và chuyển động theo chiều âm, nên có thể chọn $\varphi=\dfrac{\pi}{2}$.
 
-    Vậy x=2cos(3𝜋𝑡+
-    𝜋
-    2) (𝑐𝑚).
+    Vì vậy $x=2\cos\left(3\pi t+\dfrac{\pi}{2}\right)$ cm. Chọn **B**.
 
 #### Bài 34
 
 <!-- source-id: BT-Chuong-I-p77-q10-219 -->
 
-Một vật dao động điều hòa trên trục Ox. Đồ thị biểu diễn sự phụ thuộc vào thời gian của vận tốc của
-vật có dạng như hình vẽ bên. Phương trình dao động của li độ là
-
-A. x =
-48
-65π cos (
-65π
-6 t +
-π
-4) (cm).
-
-B. x =
-48
-65π cos (
-65π
-6 t −
-3π
-4 ) (cm).
-
-C. x =
-48
-65π cos (
-65π
-6 t +
-3π
-4 ) (cm).
-
-D. x =
-48
-65π cos (
-65π
-6 t −
-π
-4) (cm).
+Một vật dao động điều hòa trên trục $Ox$. Đồ thị biểu diễn sự phụ thuộc vào thời gian của vận tốc của vật có dạng như hình vẽ bên. Phương trình dao động của li độ là
 
 ![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/i_p77_q10_219_fig1.webp){ loading=lazy }
+
+A. $x=\dfrac{48}{65\pi}\cos\left(\dfrac{65\pi}{6}t+\dfrac{\pi}{4}\right)$ cm.
+
+B. $x=\dfrac{48}{65\pi}\cos\left(\dfrac{65\pi}{6}t-\dfrac{3\pi}{4}\right)$ cm.
+
+C. $x=\dfrac{48}{65\pi}\cos\left(\dfrac{65\pi}{6}t+\dfrac{3\pi}{4}\right)$ cm.
+
+D. $x=\dfrac{48}{65\pi}\cos\left(\dfrac{65\pi}{6}t-\dfrac{\pi}{4}\right)$ cm.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
     **Hướng dẫn giải:**
 
-    Dùng $v=-\omega A\sin(\omega t+\varphi)$, $a=-\omega^2x$ và $v^2=\omega^2(A^2-x^2)$ để liên hệ trực tiếp giữa li độ, vận tốc và gia tốc.
+    Viết vận tốc dưới dạng $v=v_{\max}\cos(\omega t+\varphi_v)$. Từ đồ thị, $v_{\max}=8$ cm/s.
 
-    Phương trình vận tốc cần tìm có dạng: v= vmax cos (ωt + φv)
-    và đang tăng →𝜑𝑣= −
-    Do đó: v=8cos (
+    Tại $t=0$, $v=-\dfrac{v_{\max}\sqrt{2}}{2}$ và vận tốc đang tăng, nên $\varphi_v=-\dfrac{3\pi}{4}$.
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. x = 48 65π cos ( 65π 6 t + 3π 4 ) (cm).**
+    Theo các khoảng thời gian thể hiện trên đồ thị,
+    $0,1=\dfrac{T}{8}+\dfrac{T}{4}+\dfrac{T}{6}$, do đó $T=\dfrac{12}{65}$ s và $\omega=\dfrac{65\pi}{6}$ rad/s.
+
+    Suy ra
+    $v=8\cos\left(\dfrac{65\pi}{6}t-\dfrac{3\pi}{4}\right)$ cm/s.
+    Vì $v_{\max}=\omega A$, ta có $A=\dfrac{48}{65\pi}$ cm; pha của li độ chậm pha hơn vận tốc $\dfrac{\pi}{2}$, nên có thể chọn $\varphi_x=\dfrac{3\pi}{4}$.
+
+    Vậy $x=\dfrac{48}{65\pi}\cos\left(\dfrac{65\pi}{6}t+\dfrac{3\pi}{4}\right)$ cm, chọn **C**.
+
 #### Bài 35
 
 <!-- source-id: BT-Chuong-I-p77-q11-220 -->
 
-Hình bên là đồ thị biểu diễn sự phụ thuộc của gia tốc a theo thời gian t của một vật dao động điều
-hòa. Phương trình vận tốc của vật dao động là
-
-A. v = 30πcos(
-5π
-6 t +
-π
-3) (cm/s).
-
-B. v = 30πcos(
-5π
-6 t −
-2π
-3 ) (cm/s).
-
-C. v = 15πcos(
-5π
-3 t +
-π
-3) (cm/s).
-
-D. v = 15πcos(
-5π
-3 t −
-2π
-3 ) (cm/s).
+Hình bên là đồ thị biểu diễn sự phụ thuộc của gia tốc $a$ theo thời gian $t$ của một vật dao động điều hòa. Phương trình vận tốc của vật dao động là
 
 ![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/i_p77_q11_220_fig1.webp){ loading=lazy }
+
+A. $v=30\pi\cos\left(\dfrac{5\pi}{6}t+\dfrac{\pi}{3}\right)$ cm/s.
+
+B. $v=30\pi\cos\left(\dfrac{5\pi}{6}t-\dfrac{2\pi}{3}\right)$ cm/s.
+
+C. $v=15\pi\cos\left(\dfrac{5\pi}{3}t+\dfrac{\pi}{3}\right)$ cm/s.
+
+D. $v=15\pi\cos\left(\dfrac{5\pi}{3}t-\dfrac{2\pi}{3}\right)$ cm/s.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
@@ -813,7 +757,7 @@ D. v = 15πcos(
 
     • Tại t= 0,8: a= 0⊕ →Φ_a=−
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. v = 30πcos( 5π 6 t + π 3) (cm/s).**
+    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. $v=30\pi\cos\left(\dfrac{5\pi}{6}t+\dfrac{\pi}{3}\right)$ cm/s**
 #### Bài 36
 
 <!-- source-id: BT-Chuong-I-p77-q12-221 -->
@@ -842,130 +786,105 @@ D. 1 Hz.
 
 <!-- source-id: BT-Chuong-I-p78-q13-222 -->
 
-Một vật dao động điều hoà với biên độ
+Một vật dao động điều hoà với biên độ $A$. Khi vật đi qua vị trí có li độ $-A/2$ thì có tốc độ $8\pi\sqrt3$ cm/s. Tốc độ trung bình của vật trong một nửa chu kì là
 
-A. Khi vật đi qua vị trí có li độ −
-A
-2 thì có tốc độ là 8π√3
-cm/s. Tốc độ trung bình của vật trong một nửa chu kì là
+A. $24$ cm/s.
 
-A. 24 cm/s.
+B. $12$ cm/s.
 
-B. 12 cm/s.
+C. $16$ cm/s.
 
-C. 16 cm/s.
-
-D. 32 cm/s.
+D. $32$ cm/s.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
-    **Hướng dẫn giải:**
-    • x=−
-    𝐴
-    2 →|𝑣| =
-    𝑉𝑚𝑎𝑥√3
-    2
-    = 8𝜋√3 →𝑣𝑚𝑎𝑥= 16𝜋 (cm/s)
 
-    • 𝑣𝑡𝑏(𝑇
-    2) =
-    2 𝐴
-    0,5 𝑇=
-    2𝑣𝑚𝑎𝑥
-    𝜋
-    =
-    2.16𝜋
-    𝜋
-    =32 cm/s.
+    **Hướng dẫn giải:**
+    Tại $x=-A/2$,
+
+    $|v|=v_{\max}\sqrt{1-\frac{x^2}{A^2}} =\frac{\sqrt3}{2}v_{\max}=8\pi\sqrt3,$
+
+    nên $v_{\max}=16\pi$ cm/s. Trong nửa chu kì, vật đi quãng đường $2A$, vì vậy
+
+    $v_{\mathrm{tb}}=\frac{2A}{T/2}=\frac{4A}{T} =\frac{2v_{\max}}{\pi}=32\ \text{cm/s}.$
 
 #### Bài 38
 
 <!-- source-id: BT-Chuong-I-p78-q14-223 -->
 
-Một vật động điều hòa với chu kì T và biên độ 4 cm. Tại thời điểm t, vật có tốc độ 10 cm/s. Tại thời
-điểm t +
-T
-4, gia tốc của vật có độ lớn 50 cm/s2. Tại thời điểm t, li độ của vật có độ lớn là
+Một vật dao động điều hòa với chu kì $T$ và biên độ 4 cm. Tại thời điểm $t$, vật có tốc độ 10 cm/s. Tại thời điểm $t+\dfrac{T}{4}$, gia tốc của vật có độ lớn 50 cm/s$^2$. Tại thời điểm $t$, li độ của vật có độ lớn là
 
 A. 2 cm.
 
 B. 3 cm.
 
-C. 2√2 cm.
+C. $2\sqrt{2}$ cm.
 
-D. 2√3 cm.
+D. $2\sqrt{3}$ cm.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
+
     **Hướng dẫn giải:**
-    Δt=
-    𝑇
-    4→|a2 |= ω|v1 |→ ω=5(rad/s)
-    𝑥12+𝑣12
-    𝜔2= 𝐴2
-    → |𝑥1| = 2√3 𝑐𝑚.
+    Với $\Delta t=T/4$, trạng thái lệch pha $\pi/2$, nên độ lớn gia tốc ở thời điểm sau thỏa $|a_2|=\omega|v_1|$.
+
+    $50=\omega\cdot10\Rightarrow \omega=5$ rad/s.
+
+    Dùng $x_1^2+\dfrac{v_1^2}{\omega^2}=A^2$:
+
+    $|x_1|=\sqrt{4^2-\dfrac{10^2}{5^2}}=2\sqrt3$ cm.
+
+    Vậy chọn **D**.
 
 #### Bài 39
 
 <!-- source-id: BT-Chuong-I-p78-q15-224 -->
 
-Một vật dao động điều hòa trên trục Ox với tần số là 2 Hz. Trong một chu kì, khoảng thời gian mà
-vận tốc của vật không vượt quá một nửa giá trị cực đại của nó là
+Một vật dao động điều hòa trên trục $Ox$ với tần số $2$ Hz. Trong một chu kì, khoảng thời gian mà vận tốc của vật không vượt quá một nửa giá trị cực đại của nó là
 
-A. 1
-4 s.
+A. $\dfrac14$ s.
 
-B. 1
-3 s.
+B. $\dfrac13$ s.
 
-C. 1
-6 s.
+C. $\dfrac16$ s.
 
-D. 1
-5 s.
+D. $\dfrac15$ s.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** B
-    **Hướng dẫn giải:**
-    Diễn biến dao động một
-    chu kì mà 𝑣≤
-    𝑣𝑚𝑎𝑥
-    2 như sau:
 
-    Khoảng thời gian cần tìm là:
-    2 𝑇
-    3 =
-    1
-    3 s.
+    **Hướng dẫn giải:**
+    Theo cách hiểu vận tốc có dấu của đề, điều kiện là $v\le v_{\max}/2$. Trong một chu kì, điều kiện này chiếm $2T/3$. Vì $f=2$ Hz nên $T=1/f=0{,}5$ s, do đó
+
+    $\Delta t=\frac{2T}{3}=\frac13\ \text{s}.$
 
 #### Bài 40
 
 <!-- source-id: BT-Chuong-I-p78-q18-227 -->
 
-Một chất điểm dao động điều hòa trên trục Ox. Khi chất điểm đi qua vị trí cân bằng thì tốc độ của nó
-là 20 cm/s. Khi chất điểm có tốc độ là 10 cm/s thì gia tốc của nó có độ lớn là 40√3 cm/s2. Biên độ dao động
-của chất điểm là
+Một chất điểm dao động điều hòa trên trục $Ox$. Khi chất điểm đi qua vị trí cân bằng thì tốc độ của nó là $20$ cm/s. Khi chất điểm có tốc độ $10$ cm/s thì gia tốc của nó có độ lớn $40\sqrt3$ cm/s². Biên độ dao động của chất điểm là
 
-A. 5 cm.
+A. $5$ cm.
 
-B. 4 cm.
+B. $4$ cm.
 
-C. 10 cm.
+C. $10$ cm.
 
-D. 8 cm.
+D. $8$ cm.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
+
     **Hướng dẫn giải:**
-    𝑣𝑚𝑎𝑥
-    2
-     thì |𝑎| =
-    𝑎𝑚𝑎𝑥√3
-    2
-    = 40√3 →𝑎𝑚𝑎𝑥= 80(cm/s2).
-      ω2A= 80(cm/s2)
-     𝜔𝐴=20
-    → ω= 4→ A= 5(cm)
+    Ta có $v_{\max}=20$ cm/s. Khi $|v|=v_{\max}/2$,
+
+    $|a|=a_{\max}\frac{\sqrt3}{2}=40\sqrt3,$
+
+    nên $a_{\max}=80$ cm/s². Mặt khác,
+
+    $a_{\max}=\omega^2A=80,\qquad v_{\max}=\omega A=20.$
+
+    Suy ra $\omega=4$ rad/s và $A=5$ cm.
 
 ### Nhận biết — Đúng/Sai
 
@@ -973,114 +892,130 @@ D. 8 cm.
 
 <!-- source-id: BT-Chuong-I-p73-q1-200 -->
 
-Một vật có khối lượng 100 g dao động theo phương trình x = 4cos(3πt + 0,5π) (cm).
+Một vật có khối lượng 100 g dao động theo phương trình $x=4\cos(3\pi t+0{,}5\pi)$ cm.
 
-a) Chiều dài quỹ đạo dao động của vật là 8cm
-b) Độ lớn vận tốc cực đại của vật là 12π m/s
-c) Lấy π2 = 10. Độ lớn gia tốc cực đại của vật là 360( cm/s2)
-d) Lấy π2 = 10. Độ lớn lực kéo về cực đại tác dụng lên vật là 0,36 N
+a) Chiều dài quỹ đạo dao động của vật là 8 cm.
+
+b) Độ lớn vận tốc cực đại của vật là $12\pi$ m/s.
+
+c) Lấy $\pi^2=10$. Độ lớn gia tốc cực đại của vật là 360 cm/s$^2$.
+
+d) Lấy $\pi^2=10$. Độ lớn lực kéo về cực đại tác dụng lên vật là 0,36 N.
 
 ??? success "Đáp án và lời giải"
+    **Đáp án:** a) Đúng; b) Sai; c) Đúng; d) Đúng.
+
     **Hướng dẫn giải:**
-    Ta có: A = 4 (cm); ω = 3π (rad/s).
+    Từ $x=4\cos(3\pi t+\pi/2)$ cm, có $A=4$ cm và $\omega=3\pi$ rad/s.
 
-    a) Quỹ đạo dao động của vật ℓ = 2A = 8 (cm).
+    a) **Đúng.** Chiều dài quỹ đạo là $2A=8$ cm.
 
-    b) Độ lớn vận tốc cực đại của vật |𝑣|𝑚𝑎𝑥= 𝜔𝐴= 3𝜋. 4 = 12𝜋(𝑐𝑚/𝑠).
+    b) **Sai.** $v_{\max}=\omega A=12\pi$ **cm/s**, không phải $12\pi$ m/s.
 
-    c) Độ lớn gia tốc cực đại của vật |𝑎|𝑚𝑎𝑥= 𝜔2𝐴= (3𝜋)2. 4 = 36𝜋2 = 360( 𝑐𝑚/𝑠2)
+    c) **Đúng.** Với $\pi^2=10$, $a_{\max}=\omega^2A=36\pi^2=360$ cm/s$^2$.
 
-    d) Đổi: m = 100 g = 0,1 kg; A = 4 cm = 0,04m.
-    Độ lớn lực kéo về cực đại là |𝐹|𝑚𝑎𝑥 = mω2A = 0,1.(3π)2.0,04 = 0,36 (N).
+    d) **Đúng.** Đổi $m=0{,}1$ kg, $A=0{,}04$ m; khi đó $F_{\max}=m\omega^2A=0{,}1(3\pi)^2(0{,}04)=0{,}36$ N.
 
 #### Bài 42
 
 <!-- source-id: BT-Chuong-I-p73-q2-201 -->
 
-Một vật dao động điều hòa với biên độ 4 cm và tốc độ cực đại là 8π cm/s.
+Một vật dao động điều hòa với biên độ 4 cm và tốc độ cực đại là $8\pi$ cm/s.
 
 a) Vật dao động điều hòa theo quỹ đạo hình sin.
-b) Tần số góc của vật là 2π rad/s
-c) Chu kì dao động của vật là 1 Hz
-d) Gia tốc cực đại của vật là 16π2 (cm/s2)
+
+b) Tần số góc của vật là $2\pi$ rad/s.
+
+c) Chu kì dao động của vật là 1 Hz.
+
+d) Gia tốc cực đại của vật là $16\pi^2$ cm/s$^2$.
 ??? success "Đáp án và lời giải"
+    **Đáp án:** a) Sai; b) Đúng; c) Sai; d) Đúng.
+
     **Hướng dẫn giải:**
+    Ta có $A=4$ cm và $v_{\max}=8\pi$ cm/s, nên
+    $\omega=v_{\max}/A=2\pi$ rad/s và $T=2\pi/\omega=1$ s.
 
-    Dùng $v=-\omega A\sin(\omega t+\varphi)$, $a=-\omega^2x$ và $v^2=\omega^2(A^2-x^2)$ để liên hệ trực tiếp giữa li độ, vận tốc và gia tốc.
+    a) **Sai.** Quỹ đạo của vật là đoạn thẳng dài $2A$, còn đồ thị $x(t)$ mới có dạng hình sin.
 
-    a) Quỹ đạo dao động điều hòa là đoạn thẳng
-    b) ω =
-    c) →𝑇=
-    d) amax = ω2A = 4π24 = 16π2 (cm/s2)
+    b) **Đúng.** $\omega=2\pi$ rad/s.
+
+    c) **Sai.** Chu kì là $T=1$ **s**; Hz là đơn vị của tần số, không phải chu kì.
+
+    d) **Đúng.** $a_{\max}=\omega^2A=(2\pi)^2\cdot4=16\pi^2$ cm/s$^2$.
 #### Bài 43
 
 <!-- source-id: BT-Chuong-I-p73-q3-202 -->
 
-Một vật có khối lượng 200 g dao động điều hòa với phương trình của vận tốc là v = 20cos(5t+0,5π)
-(cm/s).
+Một vật có khối lượng 200 g dao động điều hòa với phương trình vận tốc $v=20\cos(5t+0{,}5\pi)$ cm/s.
 
 a) Tốc độ cực đại của vật là 5 cm/s
+
 b) Biên độ dao động của vật là 20 cm
-c) Gia tốc cực đại của vật là 100 cm/s2
+
+c) Gia tốc cực đại của vật là 100 cm/s$^2$.
+
 d) Lực kéo về cực đại tác dụng lên vật dao động là 0,2 N
 
 ??? success "Đáp án và lời giải"
+    **Đáp án:** a) Sai; b) Sai; c) Đúng; d) Đúng.
+
     **Hướng dẫn giải:**
-    a) Bài cho: v = 20cos(5t + 0,5π) (cm/s) → vmax = 20 (cm/s), ω = 5(rad/s).
+    Từ $v=20\cos(5t+\pi/2)$ cm/s, suy ra $v_{\max}=20$ cm/s và $\omega=5$ rad/s.
 
-    b) 𝐴=
-    𝑣𝑚𝑎𝑥
-    𝜔
-    =
-    20
-    5 = 4 𝑐𝑚.
+    a) **Sai.** Tốc độ cực đại là $20$ cm/s, không phải $5$ cm/s.
 
-    c) amax = ω2A = 52.4 = 100 (cm/s2)
+    b) **Sai.** $A=v_{\max}/\omega=20/5=4$ cm, không phải $20$ cm.
 
-    d) m = 200 g = 0,2 kg, A = 4 cm = 0,04 m → Fmax = mω2A = 0,2.52,0,04 = 0,2 N.
+    c) **Đúng.** $a_{\max}=\omega v_{\max}=5\cdot20=100$ cm/s$^2$.
+
+    d) **Đúng.** Đổi $m=0{,}2$ kg, $A=0{,}04$ m; $F_{\max}=m\omega^2A=0{,}2\cdot25\cdot0{,}04=0{,}2$ N.
 
 #### Bài 44
 
 <!-- source-id: BT-Chuong-I-p73-q4-203 -->
 
-Một vật dao động điều hòa dọc theo trục Ox. Khi qua vị trí cân bằng, tốc độ của vật là 8π cm/s. Khi ở
-biên, gia tốc của vật có độ lớn là 16π2 cm/s2. Tại t = 0, vật qua vị trí có li độ x = 2 cm theo chiều dương.
+Một vật dao động điều hòa dọc theo trục $Ox$. Khi qua vị trí cân bằng, tốc độ của vật là $8\pi$ cm/s. Khi ở biên, gia tốc của vật có độ lớn là $16\pi^2$ cm/s$^2$. Tại $t=0$, vật qua vị trí có li độ $x=2$ cm theo chiều dương.
 
-a) Tần số góc của vật là 1 2π rad/s
+a) Tần số góc của vật là $\dfrac{1}{2\pi}$ rad/s.
+
 b) Vật dao động điều hòa với biên độ là 4 cm
-c) Pha ban đầu của vật dao động điều hòa là π 3 rad
-d) Phương trình dao động của vật là: x = 4cos(2πt + π 3) (cm).
+
+c) Pha ban đầu của vật dao động điều hòa là $\dfrac{\pi}{3}$ rad.
+
+d) Phương trình dao động của vật là $x=4\cos\left(2\pi t+\dfrac{\pi}{3}\right)$ cm.
 
 ??? success "Đáp án và lời giải"
+    **Đáp án:** a) Sai; b) Đúng; c) Sai; d) Sai.
+
     **Hướng dẫn giải:**
-    a) vmax = ωA = 8π và amax = ω2A = 16π2 → ω = 2π (rad/s
+    Vì $v_{\max}=\omega A=8\pi$ cm/s và $a_{\max}=\omega^2A=16\pi^2$ cm/s$^2$, nên
+    $\omega=a_{\max}/v_{\max}=2\pi$ rad/s và $A=v_{\max}/\omega=4$ cm.
 
-    b) vmax = ωA = 8π và amax = ω2A = 16π2 → ω = 2π (rad/s) và A = 4 (cm)
+    a) **Sai.** $\omega=2\pi$ rad/s, không phải $1/(2\pi)$ rad/s.
 
-    c) Tại 𝑡= 0: 𝑥=
-    𝐴
-    2 ⊕→𝜑= −
-    𝜋
-    3.
-    d) Phương trình cần tìm là: x = 4cos(2𝜋𝑡−
-    𝜋
-    3) (cm).
+    b) **Đúng.** $A=4$ cm.
+
+    c) **Sai.** Tại $t=0$, $x=A/2$ và vật chuyển động theo chiều dương. Với $x=A\cos(\omega t+\varphi)$, ta có $\cos\varphi=1/2$ và $v_0=-\omega A\sin\varphi>0$, nên $\sin\varphi<0$; do đó có thể chọn $\varphi=-\pi/3$, không phải $+\pi/3$.
+
+    d) **Sai.** Phương trình phù hợp là $x=4\cos(2\pi t-\pi/3)$ cm.
 
 #### Bài 45
 
 <!-- source-id: BT-Chuong-I-p74-q1-204 -->
 
-Một vật dao động điều hòa với phương trình gia tốc là a = 80cos(4t+π) (cm/s2). Tính tốc độ cực đại vật
-dao động theo cm/s.
+Một vật dao động điều hòa với phương trình gia tốc $a=80\cos(4t+\pi)$ cm/s$^2$. Tính tốc độ cực đại của vật theo đơn vị cm/s.
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** $20$
+    **Đáp án:** $20$ cm/s
     **Hướng dẫn giải:**
 
-    Dùng $v=-\omega A\sin(\omega t+\varphi)$, $a=-\omega^2x$ và $v^2=\omega^2(A^2-x^2)$ để liên hệ trực tiếp giữa li độ, vận tốc và gia tốc.
+    Từ phương trình gia tốc, $a_{\max}=80$ cm/s$^2$ và $\omega=4$ rad/s. Với dao động điều hòa,
+    $a_{\max}=\omega^2A$, nên
+    $A=\dfrac{80}{4^2}=5$ cm.
 
-    ▪ 𝑎= 80𝑐𝑜𝑠 (4𝑡+ 𝜋)(𝑐𝑚/𝑠2) →𝑎𝑚𝑎𝑥= 80( 𝑐𝑚/𝑠2); 𝜔= 4(𝑟𝑎𝑑/𝑠)
-    42 = 5( 𝑐𝑚) và vmax = ωA = 4.5 = 20 (cm/s)
+    Do đó $v_{\max}=\omega A=4\cdot5=20$ cm/s.
+
 #### Bài 46
 
 <!-- source-id: BT-Chuong-I-p74-q2-205 -->
@@ -1104,10 +1039,18 @@ Một vật dao động điều hòa với tốc độ cực đại là 50 cm/s,
 dao động của vật là theo đơn vị m.
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** $25$
-    **Hướng dẫn giải:**
+    **Đáp án đã hiệu chỉnh:** $0{,}25$ m.
 
-    Dùng $v=-\omega A\sin(\omega t+\varphi)$, $a=-\omega^2x$ và $v^2=\omega^2(A^2-x^2)$ để liên hệ trực tiếp giữa li độ, vận tốc và gia tốc.
+    **Hướng dẫn giải:**
+    Với dao động điều hòa, $v_{\max}=\omega A$ và $a_{\max}=\omega^2A$, nên
+    $\omega=a_{\max}/v_{\max}=100/50=2$ rad/s.
+
+    Suy ra $A=v_{\max}/\omega=50/2=25$ cm $=0{,}25$ m.
+
+    Vậy biên độ cần tìm là $\boxed{0{,}25\ \text{m}}$.
+
+!!! warning "Đối chiếu nguồn"
+    PDF nguồn ghi đáp án $25$ và phần hướng dẫn kết luận $A=25$ m, nhưng phép tính $50/2=25$ đang dùng đơn vị cm. Đổi đúng đơn vị cho kết quả $25$ cm $=0{,}25$ m; repository đã hiệu chỉnh đáp án theo đơn vị mà đề yêu cầu.
 #### Bài 48
 
 <!-- source-id: BT-Chuong-I-p74-q4-207 -->
@@ -1124,47 +1067,47 @@ của vật trong một chu kì dao động theo đơn vị cm/s
 
 <!-- source-id: BT-Chuong-I-p74-q5-208 -->
 
-Một chất điểm dao động điều hòa với chu kì T. Tốc độ trung bình lớn nhất của chất điểm trong thời
-gian
-T
-6 là 30 cm/s. Tính tốc độ cực đại của vật theo số nguyên lần π cm/s.
+Một chất điểm dao động điều hòa với chu kì $T$. Tốc độ trung bình lớn nhất của chất điểm trong thời gian $\dfrac{T}{6}$ là 30 cm/s. Tính tốc độ cực đại của vật theo số nguyên lần $\pi$ cm/s.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** $10$
+
     **Hướng dẫn giải:**
+    Trong khoảng thời gian $T/6$, quãng đường lớn nhất là $2A\sin(\pi/6)=A$. Do đó
 
-    Dùng $v=-\omega A\sin(\omega t+\varphi)$, $a=-\omega^2x$ và $v^2=\omega^2(A^2-x^2)$ để liên hệ trực tiếp giữa li độ, vận tốc và gia tốc.
+    $v_{\mathrm{tb,max}}=\dfrac{A}{T/6}=\dfrac{6A}{T}=\dfrac{3\omega A}{\pi}=30\ \mathrm{cm/s}$.
 
-    𝜋 = 30 cm/s → vmax = ωA = 10π cm/s.
+    Suy ra $v_{\max}=\omega A=10\pi$ cm/s, nên số nguyên cần tìm là **10**.
+
 #### Bài 50
 
 <!-- source-id: BT-Chuong-I-p80-q1-228 -->
 
-Hình vẽ là đồ thị biểu diễn sự phụ thuộc của vận tốc v vào thời gian t của một chất điểm dao động điều
-hòa. Phát biểu nào sau đây là đúng, sai?
-
-a) Từ t1 đến t2, vectơ gia tốc đổi chiều một lần.
-b) Từ t2 đến t3, vectơ vận tốc đổi chiều một lần.
-c) Từ t3 đến t4, vectơ vận tốc đổi chiều một lần.
-d) Từ t3 đến t4, vectơ gia tốc đổi chiều một lần.
+Hình vẽ là đồ thị biểu diễn sự phụ thuộc của vận tốc $v$ vào thời gian $t$ của một chất điểm dao động điều hòa. Phát biểu nào sau đây là đúng, sai?
 
 ![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/i_p80_q1_228_fig1.webp){ loading=lazy }
 
+a) Từ $t_1$ đến $t_2$, vectơ gia tốc đổi chiều một lần.
+
+b) Từ $t_2$ đến $t_3$, vectơ vận tốc đổi chiều một lần.
+
+c) Từ $t_3$ đến $t_4$, vectơ vận tốc đổi chiều một lần.
+
+d) Từ $t_3$ đến $t_4$, vectơ gia tốc đổi chiều một lần.
+
 ??? success "Đáp án và lời giải"
+    **Đáp án:** a) Sai; b) Sai; c) Đúng; d) Sai.
+
     **Hướng dẫn giải:**
-    • Vectơ vận tốc đổi chiều tại hai biên ↔v=0.
+    Vectơ vận tốc đổi chiều tại hai vị trí biên, tức khi $v=0$. Vectơ gia tốc đổi chiều khi vật qua vị trí cân bằng, tức khi $|v|=v_{\max}$.
 
-    • Vectơ gia tốc đổi chiều tại vị trí cân bằng ↔v= ±vmax
+    a) **Sai.** Từ $t_1$ đến $t_2$, gia tốc không đổi chiều.
 
-     Dựa vào đồ thị ta có:
+    b) **Sai.** Từ $t_2$ đến $t_3$, vận tốc không đổi chiều.
 
-    a. Từ t1 đến t2, vectơ gia tốc không đổi chiều
+    c) **Đúng.** Từ $t_3$ đến $t_4$, vận tốc đổi chiều một lần.
 
-    b. Từ t2 đến t3, vectơ vận tốc không đối chiều
-
-    c. Từ t3 đến t4, vectơ vận tốc đổi chiều một lần
-
-    d. Từ t3 đến t4, vectơ gia tốc không đổi chiều
+    d) **Sai.** Từ $t_3$ đến $t_4$, gia tốc không đổi chiều.
 
 #### Bài 51
 
@@ -1173,12 +1116,16 @@ d) Từ t3 đến t4, vectơ gia tốc đổi chiều một lần.
 Một vật dao động điều hòa trên trục Ox. Hình dưới là đồ thị biểu diễn sự phụ thuộc của vận tốc v của
 vật dao động vào thời gian t. Trong các kết luận sau, câu nào đúng, câu nào sai.
 
-a) Vận tốc cực đại của vật dao động là 4 cm/s
-b) Chu kì dao động của vật là 7 s
-c) Phương trình li độ của vật dao động là: 𝑥= 4𝑐𝑜𝑠 ( 𝜋 6 𝑡− 2𝜋 3 ) cm
-d) Phương trình gia tốc của vật dao động là : 𝑎= 2𝜋 3 𝑐𝑜𝑠 ( 𝜋 6 𝑡− 𝜋 6) (cm/s2)
-
 ![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/i_p80_q2_229_fig1.webp){ loading=lazy }
+
+a) Vận tốc cực đại của vật dao động là 4 cm/s
+
+b) Chu kì dao động của vật là 7 s
+
+c) Phương trình li độ của vật dao động là $x=4\cos\left(\dfrac{\pi}{6}t-\dfrac{2\pi}{3}\right)$ cm
+
+d) Phương trình gia tốc của vật dao động là $a=\dfrac{2\pi}{3}\cos\left(\dfrac{\pi}{6}t-\dfrac{\pi}{6}\right)$ cm/s$^2$
+
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** a) Đúng; b) Sai; c) Sai; d) Đúng.
@@ -1198,63 +1145,63 @@ d) Phương trình gia tốc của vật dao động là : 𝑎= 2𝜋 3 𝑐�
 
 <!-- source-id: BT-Chuong-I-p81-q3-230 -->
 
-Pit-tông bên trong động cơ ô tô dao động lên và
-xuống khi động cơ ô tô hoạt động (Hình 2.1). Các dao
-động này được coi là dao động điều hòa với phương
-trình li độ của pit-tông là: 𝑥= 12,5 𝑐𝑜𝑠( 60𝜋𝑡). Trong
-đó, x tính bằng cm, t tính bằng dây. Trong các kết luận
-sau, câu nào đúng, câu nào sai.
+Pit-tông bên trong động cơ ô tô dao động lên và xuống khi động cơ ô tô hoạt động (Hình 2.1). Các dao động này được coi là dao động điều hòa với phương trình li độ
+$x=12{,}5\cos(60\pi t)$ (cm), trong đó $t$ tính bằng giây. Trong các kết luận sau, câu nào đúng, câu nào sai?
 
-Hình 2.1. Dao động của các pit-tong bên trong
-động cơ ô tô.
-
-a) Tần số của dao động là 30 Hz
-b) Vận tốc cực đại của pit-tong là 750 cm/s
-c) Gia tốc cực đại của pit-tong là 45000 cm/s2.
-d) Vị trí của pit-tong tại thời điểm t = 1,25s là ở biên dương.
+Hình 2.1. Dao động của các pit-tông bên trong động cơ ô tô.
 
 ![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/i_p81_q3_230_fig1.webp){ loading=lazy }
 
+a) Tần số của dao động là 30 Hz.
+
+b) Vận tốc cực đại của pit-tông là 750 cm/s.
+
+c) Gia tốc cực đại của pit-tông là 45000 cm/s².
+
+d) Vị trí của pit-tông tại thời điểm $t=1{,}25$ s là ở biên dương.
+
 ??? success "Đáp án và lời giải"
+    **Đáp án:** a) Đúng; b) Sai; c) Sai; d) Sai.
+
     **Hướng dẫn giải:**
 
-    Dùng $v=-\omega A\sin(\omega t+\varphi)$, $a=-\omega^2x$ và $v^2=\omega^2(A^2-x^2)$ để liên hệ trực tiếp giữa li độ, vận tốc và gia tốc.
+    Từ phương trình, $A=12{,}5$ cm và $\omega=60\pi$ rad/s.
 
-    a. Từ phương trình ta có:
-    + Biên độ A = 12,5cm và tần số góc ω = 60π rad/s
-    b. Vận tốc cực đại: vmax = ωA= 60π.12,5 = 750π (cm/s)
-    c. Gia tốc cực đại: amax = ω2.A = (60π)2.12,5 = 45000π2 (cm/s2)
-    d. Tại t = 1,25s ⇒ x = 12,5cos(60π.1,25) = - 12,5cm (vị trí biên âm)
+    a) **Đúng.** $f=\dfrac{\omega}{2\pi}=30$ Hz.
+
+    b) **Sai.** $v_{\max}=\omega A=60\pi\cdot12{,}5=750\pi$ cm/s, không phải $750$ cm/s.
+
+    c) **Sai.** $a_{\max}=\omega^2A=(60\pi)^2\cdot12{,}5=45000\pi^2$ cm/s², không phải $45000$ cm/s².
+
+    d) **Sai.** Tại $t=1{,}25$ s, pha bằng $60\pi\cdot1{,}25=75\pi$, nên $x=12{,}5\cos75\pi=-12{,}5$ cm: vật ở biên âm.
+
 #### Bài 53
 
 <!-- source-id: BT-Chuong-I-p81-q4-231 -->
 
-Dựa vào các đồ thị ở hình 1.2. Trong các kết luận sau, câu nào đúng, câu nào sai.
-
-a.
-
-b.
-
-c.
-Hình 1.2. Đồ thị li độ, vận tốc, gia tốc theo thời gian của một vật dao động điều hòa
-
-a) Tần số của dao động là 2,5 Hz
-b) Biên độ của dao động 2 cm
-c) Vận tốc cực đại của dao động 30 cm/s
-d) Gia tốc cực đại của dao dộng 5 cm/s2
+Dựa vào các đồ thị ở hình 1.2. Trong các kết luận sau, câu nào đúng, câu nào sai?
 
 ![Ba đồ thị li độ, vận tốc và gia tốc theo thời gian](../../../assets/exercise-figures/clean-v14/i_p81_q4_231.webp){ loading=lazy }
 
+a) Tần số của dao động là $2{,}5$ Hz.
+
+b) Biên độ của dao động là $2$ cm.
+
+c) Vận tốc cực đại của dao động là $30$ cm/s.
+
+d) Gia tốc cực đại của dao động là $5$ cm/s².
+
 ??? success "Đáp án và lời giải"
+    **Đáp án:** a) Đúng; b) Đúng; c) Đúng; d) Sai.
+
     **Hướng dẫn giải:**
-    Từ các đồ thị, ta có:
-    1
-    𝑇=
-    1
-    0,4 = 2,5(𝐻𝑧)
-    b. Biên độ A = 0,02m
-    c. Vận tốc cực đại của vật vmax = 30 cm/s
-    d. Gia tốc cực đại của vật: amax = 5 m/s2.
+    a) **Đúng.** Từ đồ thị đọc được $T=0{,}4$ s, nên $f=1/T=2{,}5$ Hz.
+
+    b) **Đúng.** Đồ thị li độ cho $A=2$ cm $=0{,}02$ m.
+
+    c) **Đúng.** Đồ thị vận tốc cho $v_{\max}=30$ cm/s.
+
+    d) **Sai.** Đồ thị gia tốc cho $a_{\max}\approx5$ m/s², tức khoảng $500$ cm/s², không phải $5$ cm/s². Kết quả cũng phù hợp với $a_{\max}=\omega^2A=(5\pi)^2\cdot0{,}02\approx4{,}93$ m/s².
 
 ### Thông hiểu — Trắc nghiệm 4 lựa chọn
 
@@ -1262,34 +1209,26 @@ d) Gia tốc cực đại của dao dộng 5 cm/s2
 
 <!-- source-id: BT-Chuong-I-p69-q20-179 -->
 
-Một chất điểm dao động có phương trình
-(
-)
-x
-6cos
-t
-=
-π
- x tính bằng cm, t tính bằng giây] Phát biểu
-nào sau đây là đúng?
+Một chất điểm dao động có phương trình $x=6\cos(\pi t)$, trong đó $x$ tính bằng cm và $t$ tính bằng giây. Phát biểu nào sau đây là đúng?
 
-A. Chu kì dao động là 0,5 s.
+A. Chu kì dao động là $0{,}5$ s.
 
-B. Tốc độ cực đại của chất điểm là 18,8 cm/s.
+B. Tốc độ cực đại của chất điểm là $18{,}8$ cm/s.
 
-C. Gia tốc của chất điểm có độ lớn cực đại là 113 cm/s2.
+C. Gia tốc của chất điểm có độ lớn cực đại là $113$ cm/s².
 
-D. Tần số của dao động là 2 Hz.
+D. Tần số của dao động là $2$ Hz.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** B
+
     **Hướng dẫn giải:**
+    Ta có $\omega=\pi$ rad/s, nên $T=2$ s và $f=0{,}5$ Hz. Với $A=6$ cm:
 
-    Dùng $v=-\omega A\sin(\omega t+\varphi)$, $a=-\omega^2x$ và $v^2=\omega^2(A^2-x^2)$ để liên hệ trực tiếp giữa li độ, vận tốc và gia tốc.
+    $v_{\max}=\omega A=6\pi\approx18{,}8\ \text{cm/s},$
 
-    Tốc độ cực đại, gia tốc cực đại của vât là
+    còn $a_{\max}=\omega^2A=6\pi^2\approx59{,}2$ cm/s². Vì vậy B đúng.
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **B. Tốc độ cực đại của chất điểm là 18,8 cm/s.**
 #### Bài 55
 
 <!-- source-id: BT-Chuong-I-p70-q22-181 -->
@@ -1321,151 +1260,76 @@ B. đường hình sin.
 C. đường elip.
 
 D. đường thẳng qua gốc tọa độ.
+
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
+
     **Hướng dẫn giải:**
-    Mối liên hệ giữa li độ và gia tốc
-    2
-    a
-    x
-    = −ω
-     đồ thị là đoạn thẳng qua gốc tọa độ.
+    Trong dao động điều hoà,
+
+    $a=-\omega^2x.$
+
+    Vì $|x|\le A$, đồ thị $a$ theo $x$ là **một đoạn thẳng** qua gốc tọa độ, có hệ số góc $-\omega^2$.
 
 #### Bài 57
 
 <!-- source-id: BT-Chuong-I-p70-q24-183 -->
 
-Một vật dao động điều hòa có phương trình
-(
-)
-x
-Acos
-t
-=
-ω+ ϕ. Với a và v là gia tốc và vận tốc của
-vật. Hệ thức đúng là
+Một vật dao động điều hòa có phương trình $x=A\cos(\omega t+\varphi)$. Với $a$ và $v$ là gia tốc và vận tốc của vật, hệ thức đúng là
 
-A. 2
-2
-2
-2
-2
-v
-a
-A .
-+
-=
-ω
-ω
+A. $\dfrac{v^2}{\omega^2}+\dfrac{a^2}{\omega^2}=A^2$.
 
-B. 2
-2
-2
-2
-4
-a
-A .
-v
-ω+
-=
-ω
+B. $\dfrac{\omega^2}{v^2}+\dfrac{a^2}{\omega^4}=A^2$.
 
-C. 2
-2
-2
-2
-4
-v
-a
-A .
-+
-=
-ω
-ω
+C. $\dfrac{v^2}{\omega^2}+\dfrac{a^2}{\omega^4}=A^2$.
 
-D. 2
-2
-2
-4
-2
-v
-a
-A .
-+
-=
-ω
-ω
+D. $\dfrac{v^2}{\omega^4}+\dfrac{a^2}{\omega^2}=A^2$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
+
     **Hướng dẫn giải:**
+    Ta có $v^2=\omega^2(A^2-x^2)$ và $a=-\omega^2x$. Do đó
 
-    Dùng $v=-\omega A\sin(\omega t+\varphi)$, $a=-\omega^2x$ và $v^2=\omega^2(A^2-x^2)$ để liên hệ trực tiếp giữa li độ, vận tốc và gia tốc.
+    $\frac{v^2}{\omega^2}+\frac{a^2}{\omega^4}=A^2-x^2+x^2=A^2.$
 
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. 2 2 2 2 4 v a A . + = ω ω**
 #### Bài 58
 
 <!-- source-id: BT-Chuong-I-p70-q25-184 -->
 
-Cho một chất điểm dao động điều hòa với biên độ A, tốc độ cực đại là V. Khi li độ
-A
-x
-2
-= ±
- thì vận
-tốc v được tính bằng biểu thức
+Cho một chất điểm dao động điều hòa với biên độ $A$, tốc độ cực đại là $V$. Khi li độ $x=\pm A/2$ thì vận tốc $v$ được tính bằng biểu thức
 
-A. 3
-v
-V.
-2
-= ±
+A. $v=\pm\dfrac{\sqrt3}{2}V$.
 
-B. 1
-v
-V.
-2
-= ±
+B. $v=\pm\dfrac12V$.
 
-C. 3
-v
-V.
-2
-=
+C. $v=\dfrac{\sqrt3}{2}V$.
 
-D. 1
-v
-V.
-2
-=
+D. $v=\dfrac12V$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
+
     **Hướng dẫn giải:**
+    Từ $v^2=\omega^2(A^2-x^2)$ và $V=\omega A$, với $|x|=A/2$ ta được
 
-    Dùng $v=-\omega A\sin(\omega t+\varphi)$, $a=-\omega^2x$ và $v^2=\omega^2(A^2-x^2)$ để liên hệ trực tiếp giữa li độ, vận tốc và gia tốc.
+    $|v|=V\sqrt{1-\frac14}=\frac{\sqrt3}{2}V.$
 
-    Dựa vào trục vận tốc ta có
+    Vận tốc có thể mang hai dấu tùy chiều chuyển động, nên chọn A.
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. 3 v V. 2 = ±**
 #### Bài 59
 
 <!-- source-id: BT-Chuong-I-p70-q26-185 -->
 
-Tại thời điểm khi vật thực hiện dao động điều hòa có vận tốc bằng một nửa vận tốc cực đại thì vật
-cách vị trí cân bằng một đoạn là
+Tại thời điểm khi vật thực hiện dao động điều hòa có vận tốc bằng một nửa vận tốc cực đại thì vật cách vị trí cân bằng một đoạn là
 
-A. A .
-2
+A. $\dfrac{A}{2}$.
 
-B. A 3 .
-2
+B. $\dfrac{A\sqrt{3}}{2}$.
 
-C. A .
-3
+C. $\dfrac{A}{\sqrt{3}}$.
 
-D. A 2.
+D. $A\sqrt{2}$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** B
@@ -1473,7 +1337,7 @@ D. A 2.
 
     Dùng $v=-\omega A\sin(\omega t+\varphi)$, $a=-\omega^2x$ và $v^2=\omega^2(A^2-x^2)$ để liên hệ trực tiếp giữa li độ, vận tốc và gia tốc.
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **B. A 3 . 2**
+    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **B. $\dfrac{A\sqrt{3}}{2}$**
 #### Bài 60
 
 <!-- source-id: BT-Chuong-I-p70-q28-187 -->
@@ -1490,13 +1354,16 @@ C. x &lt; 0 và v &lt; 0.
 D. x &gt; 0 và v &lt; 0.
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** D
+    **Đáp án:** B.
+
     **Hướng dẫn giải:**
 
-    Dùng $v=-\omega A\sin(\omega t+\varphi)$, $a=-\omega^2x$ và $v^2=\omega^2(A^2-x^2)$ để liên hệ trực tiếp giữa li độ, vận tốc và gia tốc.
+    Chuyển động theo chiều dương nên $v>0$. Vật nhanh dần khi vận tốc và gia tốc cùng dấu, do đó $a>0$.
 
+    Với dao động điều hòa, $a=-\omega^2x$. Vì $a>0$ nên $x<0$.
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **D. x &gt; 0 và v &lt; 0.**
+    Vậy $x<0$, $v>0$, chọn **B**.
+
 #### Bài 61
 
 <!-- source-id: BT-Chuong-I-p70-q29-188 -->
@@ -1512,13 +1379,19 @@ C. Khi vận tốc và li độ cùng dấu vật chuyển động nhanh dần.
 D. Vận tốc cùng chiều với gia tốc khi vật chuyển động về vị trí cân bằng.
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** B
+    **Đáp án:** C.
+
     **Hướng dẫn giải:**
 
-    Dùng $v=-\omega A\sin(\omega t+\varphi)$, $a=-\omega^2x$ và $v^2=\omega^2(A^2-x^2)$ để liên hệ trực tiếp giữa li độ, vận tốc và gia tốc.
+    Trong dao động điều hòa, $a=-\omega^2x$, nên gia tốc luôn hướng về vị trí cân bằng.
 
+    - A đúng: $v=-\omega A\sin(\omega t+\varphi)$ biến thiên điều hòa theo thời gian.
+    - B đúng: từ biên âm về vị trí cân bằng, vật chuyển động theo chiều dương nên $v>0$.
+    - C sai: khi $v$ và $x$ cùng dấu, vật đang đi ra xa vị trí cân bằng; khi đó $a$ trái dấu với $v$, nên vật chậm dần.
+    - D đúng: khi vật chuyển động về vị trí cân bằng, $a$ cùng chiều với $v$ nên tốc độ tăng.
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **B. Vận tốc có giá trị dương nếu vật chuyển động từ biên âm về vị trí cân bằng.**
+    Vậy chọn **C**.
+
 ### Vận dụng — Trắc nghiệm 4 lựa chọn
 
 #### Bài 62

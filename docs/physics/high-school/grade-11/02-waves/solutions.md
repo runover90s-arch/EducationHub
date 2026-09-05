@@ -348,7 +348,6 @@ $$
 
 Mục tiêu ở đây là nhận diện hình dạng phổ; cơ chế mức năng lượng nguyên tử thuộc phần học sâu hơn.
 
-<!-- V9_CHAPTER_BANK -->
 ## Đáp án theo từng bài trong chương
 
 Mỗi ngân hàng giữ lời giải riêng để tránh một trang lời giải quá dài và giúp đối chiếu đúng bài đang luyện.
@@ -367,7 +366,6 @@ Mỗi ngân hàng giữ lời giải riêng để tránh một trang lời giả
 - **Bài 12 — Quang phổ và thang sóng điện từ**: [Mở đáp án và lời giải](practice/12-spectra-electromagnetic-spectrum/solutions.md)
 - **Bài 13 — Giao thoa nhiều bức xạ và ánh sáng trắng**: [Mở đáp án và lời giải](practice/13-multiwavelength-white-light-interference/solutions.md)
 
-<!-- /V9_CHAPTER_BANK -->
 
 ---
 

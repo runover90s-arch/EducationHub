@@ -20,8 +20,11 @@ tags:
 Nhiễu xạ ánh sáng rõ hơn khi kích thước khe
 
 A. rất lớn so với bước sóng.
+
 B. cùng cỡ với bước sóng.
+
 C. không liên quan bước sóng.
+
 D. bằng vô hạn.
 
 ??? success "Đáp án và lời giải"
@@ -32,8 +35,11 @@ D. bằng vô hạn.
 Trong lăng kính thủy tinh thông thường, ánh sáng tím so với ánh sáng đỏ thường
 
 A. lệch ít hơn.
+
 B. lệch nhiều hơn.
+
 C. không lệch.
+
 D. có cùng chiết suất.
 
 ??? success "Đáp án và lời giải"
@@ -44,8 +50,11 @@ D. có cùng chiết suất.
 Tán sắc ánh sáng chứng tỏ chiết suất môi trường
 
 A. không phụ thuộc bước sóng.
+
 B. phụ thuộc bước sóng.
+
 C. luôn bằng 1.
+
 D. chỉ phụ thuộc cường độ.
 
 ??? success "Đáp án và lời giải"
@@ -58,8 +67,11 @@ D. chỉ phụ thuộc cường độ.
 Xét nhiễu xạ và tán sắc:
 
 a) Nhiễu xạ là biểu hiện tính chất sóng.
+
 b) Ánh sáng trắng qua lăng kính có thể tách thành nhiều màu.
+
 c) Trong thủy tinh thông thường, đỏ thường có chiết suất lớn hơn tím.
+
 d) Khe càng hẹp so với bước sóng thì hiệu ứng nhiễu xạ càng đáng kể.
 
 ??? success "Đáp án và lời giải"

@@ -20,8 +20,11 @@ tags:
 Điện trở dây đồng chất dài l, tiết diện S, điện trở suất ρ là
 
 A. $R=\rho S/l$.
+
 B. $R=\rho l/S$.
+
 C. $R=l/(\rho S)$.
+
 D. $R=\rho lS$.
 
 ??? success "Đáp án và lời giải"
@@ -32,8 +35,11 @@ D. $R=\rho lS$.
 Hai điện trở $4\,\Omega$ và $6\,\Omega$ mắc nối tiếp. Điện trở tương đương
 
 A. $2,4\,\Omega$.
+
 B. $5\,\Omega$.
+
 C. $10\,\Omega$.
+
 D. $24\,\Omega$.
 
 ??? success "Đáp án và lời giải"
@@ -44,8 +50,11 @@ D. $24\,\Omega$.
 Hai điện trở $6\,\Omega$ và $3\,\Omega$ mắc song song. Điện trở tương đương
 
 A. $2\,\Omega$.
+
 B. $3\,\Omega$.
+
 C. $4,5\,\Omega$.
+
 D. $9\,\Omega$.
 
 ??? success "Đáp án và lời giải"
@@ -56,8 +65,11 @@ D. $9\,\Omega$.
 Một điện trở thuần $R=10\,\Omega$ đặt dưới hiệu điện thế $20$ V. Dòng điện là
 
 A. $0,5$ A.
+
 B. $2$ A.
+
 C. $10$ A.
+
 D. $200$ A.
 
 ??? success "Đáp án và lời giải"
@@ -70,8 +82,11 @@ D. $200$ A.
 Điện trở kim loại trong mô hình phổ thông:
 
 a) $R=\rho l/S$.
+
 b) Tăng chiều dài dây làm R tăng.
+
 c) Tăng tiết diện dây làm R tăng.
+
 d) Với nhiều kim loại trong khoảng nhiệt độ vừa phải, R tăng gần tuyến tính theo nhiệt độ.
 
 ??? success "Đáp án và lời giải"
@@ -85,8 +100,11 @@ d) Với nhiều kim loại trong khoảng nhiệt độ vừa phải, R tăng g
 Định luật Ohm cho đoạn mạch chỉ có điện trở:
 
 a) $I=U/R$.
+
 b) Với R không đổi, đồ thị I–U là đường thẳng qua gốc.
+
 c) Điện trở tương đương song song lớn hơn từng điện trở thành phần.
+
 d) Mạch nối tiếp có cùng dòng điện qua các phần tử.
 
 ??? success "Đáp án và lời giải"
@@ -133,172 +151,202 @@ Một dây đồng chất có điện trở R. Kéo đều dây sao cho chiều 
 
 ## Ngân hàng bài tập mở rộng
 
-> Các bài dưới đây được đánh số nối tiếp phần bài tập phía trên. Đề bài được trình bày bằng Markdown; chỉ đồ thị, hình vẽ hoặc sơ đồ thực sự cần thiết mới được giữ dưới dạng hình. Đáp án và lời giải được đặt trong nút mở rộng ngay dưới từng bài.
-
 ### Nhận biết — Trả lời ngắn
 
 #### Bài 11
 
 <!-- source-id: BT-Chuong-IV-p43-q1-147 -->
 
-Tìm điện trở tương đương của mạch. (tính theo Ω)
+Cho mạch điện như hình vẽ: $U=12\,\mathrm V$, $R_1=6\,\Omega$, $R_2=3\,\Omega$, $R_3=6\,\Omega$.
+
+![Sơ đồ mạch điện dùng cho Bài 11–12](../../../assets/exercise-figures/clean-v14/iv_p43_q1_147_fig1.webp){ loading=lazy }
+
+Tìm điện trở tương đương của mạch (tính theo $\Omega$).
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** $3{,}6$
+
     **Hướng dẫn giải:**
+    $R_{12}=R_1+R_2=9\,\Omega$.
 
-    Dùng $R=\rho l/S$ và $I=U/R$; với sự phụ thuộc nhiệt độ của kim loại dùng $R=R_0[1+\alpha(t-t_0)]$.
+    Nhánh $R_{12}$ song song với $R_3$, nên $R=\dfrac{R_{12}R_3}{R_{12}+R_3}=\dfrac{9\cdot6}{9+6}=3{,}6\,\Omega$.
 
-    Vậy kết quả cần tìm là **$3{,}6$**.
 #### Bài 12
 
 <!-- source-id: BT-Chuong-IV-p43-q2-148 -->
 
-Tính hiệu điện thế giữa hai đầu điện trở R1.(tính theo V)
+Cho mạch điện như hình vẽ: $U=12\,\mathrm V$, $R_1=6\,\Omega$, $R_2=3\,\Omega$, $R_3=6\,\Omega$.
+
+![Sơ đồ mạch điện dùng cho Bài 11–12](../../../assets/exercise-figures/clean-v14/iv_p43_q1_147_fig1.webp){ loading=lazy }
+
+Tính hiệu điện thế giữa hai đầu điện trở $R_1$ (tính theo V).
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** 8
+    **Đáp án:** $8$
+
     **Hướng dẫn giải:**
+    $R_{12}=R_1+R_2=9\,\Omega$ và $U_{12}=U=12\,\mathrm V$, nên $I_{12}=12/9=4/3\,\mathrm A$.
 
-    Dùng $R=\rho l/S$ và $I=U/R$; với sự phụ thuộc nhiệt độ của kim loại dùng $R=R_0[1+\alpha(t-t_0)]$.
+    Do đó $U_1=I_{12}R_1=(4/3)\cdot6=8\,\mathrm V$.
 
-    Vậy kết quả cần tìm là **8**.
 #### Bài 13
 
 <!-- source-id: BT-Chuong-IV-p43-q3-151 -->
 
-Dây có tiết diện là bao nhiêu? Làm tròn đến phần trăm (tính theo 10-7 m2)
-R1
-R3
-R2
-U
+Người ta dùng dây nicrom có điện trở suất $\rho=1{,}1\times10^{-6}\,\Omega\,\mathrm m$ để làm dây nung cho một bếp điện. Điện trở của dây nung ở nhiệt độ bình thường là $R=4{,}5\,\Omega$ và chiều dài tổng cộng là $l=0{,}8\,\mathrm m$.
+
+Dây có tiết diện là bao nhiêu? Làm tròn đến hàng phần trăm (tính theo $10^{-7}\,\mathrm{m^2}$).
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** $1{,}96$
+
     **Hướng dẫn giải:**
+    $S=\dfrac{\rho l}{R}=\dfrac{1{,}1\times10^{-6}\cdot0{,}8}{4{,}5}\approx1{,}96\times10^{-7}\,\mathrm{m^2}$.
 
-    Dùng $R=\rho l/S$ và $I=U/R$; với sự phụ thuộc nhiệt độ của kim loại dùng $R=R_0[1+\alpha(t-t_0)]$.
+    Theo đơn vị yêu cầu, kết quả là $1{,}96$.
 
-    Vậy kết quả cần tìm là **$1{,}96$**.
 #### Bài 14
 
 <!-- source-id: BT-Chuong-IV-p44-q4-152 -->
 
-Tính đường kính tiết diện của dây nung. Làm tròn đến hàng đơn vị (tính theo 10-4 m)
+Người ta dùng dây nicrom có điện trở suất $\rho=1{,}1\times10^{-6}\,\Omega\,\mathrm m$ để làm dây nung cho một bếp điện. Điện trở của dây nung ở nhiệt độ bình thường là $R=4{,}5\,\Omega$ và chiều dài tổng cộng là $l=0{,}8\,\mathrm m$.
+
+Tính đường kính tiết diện của dây nung. Làm tròn đến hàng đơn vị (tính theo $10^{-4}\,\mathrm m$).
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** 5
+    **Đáp án:** $5$
+
     **Hướng dẫn giải:**
+    Từ $S=\rho l/R\approx1{,}96\times10^{-7}\,\mathrm{m^2}$ và $S=\pi d^2/4$, suy ra $d\approx5\times10^{-4}\,\mathrm m$.
 
-    Dùng $R=\rho l/S$ và $I=U/R$; với sự phụ thuộc nhiệt độ của kim loại dùng $R=R_0[1+\alpha(t-t_0)]$.
+    Theo đơn vị yêu cầu, kết quả là $5$.
 
-    Vậy kết quả cần tìm là **5**.
 #### Bài 15
 
 <!-- source-id: BT-Chuong-IV-p44-q5-155 -->
 
-Tính chiều dài của cuộn dây. Làm tròn đến hàng phần mười (tính theo m)
+Một cuộn dây dẫn bằng đồng có khối lượng $m=0{,}5\,\mathrm{kg}$, tiết diện dây $S=1\,\mathrm{mm^2}$. Biết điện trở suất của đồng là $\rho=1{,}7\times10^{-8}\,\Omega\,\mathrm m$ và khối lượng riêng của đồng là $D=8900\,\mathrm{kg/m^3}$.
+
+Tính chiều dài của cuộn dây. Làm tròn đến hàng phần mười (tính theo m).
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** $56{,}2$
+
     **Hướng dẫn giải:**
+    $m=DSl$, nên $l=\dfrac{m}{DS}=\dfrac{0{,}5}{8900\cdot10^{-6}}\approx56{,}2\,\mathrm m$.
 
-    Dùng $R=\rho l/S$ và $I=U/R$; với sự phụ thuộc nhiệt độ của kim loại dùng $R=R_0[1+\alpha(t-t_0)]$.
-
-    Vậy kết quả cần tìm là **$56{,}2$**.
 #### Bài 16
 
 <!-- source-id: BT-Chuong-IV-p44-q6-156 -->
 
-Tìm điện trở của cuộn dây ? Làm tròn đến hàng phần trăm (tính theo Ω)
+Một cuộn dây dẫn bằng đồng có khối lượng $m=0{,}5\,\mathrm{kg}$, tiết diện dây $S=1\,\mathrm{mm^2}$. Biết điện trở suất của đồng là $\rho=1{,}7\times10^{-8}\,\Omega\,\mathrm m$ và khối lượng riêng của đồng là $D=8900\,\mathrm{kg/m^3}$.
+
+Tìm điện trở của cuộn dây. Làm tròn đến hàng phần trăm (tính theo $\Omega$).
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** $0{,}96$
+
     **Hướng dẫn giải:**
+    Từ $m=DSl$ suy ra $l\approx56{,}2\,\mathrm m$.
 
-    Dùng $R=\rho l/S$ và $I=U/R$; với sự phụ thuộc nhiệt độ của kim loại dùng $R=R_0[1+\alpha(t-t_0)]$.
+    $R=\dfrac{\rho l}{S}=\dfrac{1{,}7\times10^{-8}\cdot56{,}2}{10^{-6}}\approx0{,}96\,\Omega$.
 
-    Vậy kết quả cần tìm là **$0{,}96$**.
 #### Bài 17
 
 <!-- source-id: BT-Chuong-IV-p53-q1-181 -->
 
-Tính cường độ dòng điện chạy qua điện trở R3? (tính theo A)
+Cho mạch điện như hình vẽ: $U=6\,\mathrm V$, $R_1=1\,\Omega$, $R_2=R_3=2\,\Omega$.
+
+![Sơ đồ mạch điện dùng cho Bài 17–18](../../../assets/exercise-figures/clean-v14/iv_p52_q1_181_fig1.webp){ loading=lazy }
+
+Tính cường độ dòng điện chạy qua điện trở $R_3$ (tính theo A).
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** 3
+    **Đáp án:** $3$
+
     **Hướng dẫn giải:**
+    Vì $R_3$ mắc trực tiếp vào hai đầu nguồn nên $U_3=U=6\,\mathrm V$.
 
-    Dùng $R=\rho l/S$ và $I=U/R$; với sự phụ thuộc nhiệt độ của kim loại dùng $R=R_0[1+\alpha(t-t_0)]$.
+    $I_3=U_3/R_3=6/2=3\,\mathrm A$.
 
-    Vậy kết quả cần tìm là **3**.
 #### Bài 18
 
 <!-- source-id: BT-Chuong-IV-p53-q2-182 -->
 
-Hiệu điện thế giữa hai đầu R1? (tính theo V)
+Cho mạch điện như hình vẽ: $U=6\,\mathrm V$, $R_1=1\,\Omega$, $R_2=R_3=2\,\Omega$.
+
+![Sơ đồ mạch điện dùng cho Bài 17–18](../../../assets/exercise-figures/clean-v14/iv_p52_q1_181_fig1.webp){ loading=lazy }
+
+Hiệu điện thế giữa hai đầu $R_1$ bằng bao nhiêu (tính theo V)?
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** 2
+    **Đáp án:** $2$
+
     **Hướng dẫn giải:**
+    $R_{12}=R_1+R_2=3\,\Omega$ và $U_{12}=U=6\,\mathrm V$, nên $I_{12}=6/3=2\,\mathrm A$.
 
-    Dùng $R=\rho l/S$ và $I=U/R$; với sự phụ thuộc nhiệt độ của kim loại dùng $R=R_0[1+\alpha(t-t_0)]$.
+    $U_1=I_{12}R_1=2\cdot1=2\,\mathrm V$.
 
-    Vậy kết quả cần tìm là **2**.
 #### Bài 19
 
 <!-- source-id: BT-Chuong-IV-p53-q3-185 -->
 
-Tính điện trở của đoạn mạch? (tính theo Ω )
+Khi đặt vào hai đầu dây dẫn một hiệu điện thế $U=18\,\mathrm V$ thì cường độ dòng điện chạy qua nó là $I=0{,}6\,\mathrm A$.
+
+Tính điện trở của đoạn mạch (tính theo $\Omega$).
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** $30$
+
     **Hướng dẫn giải:**
+    $R=U/I=18/0{,}6=30\,\Omega$.
 
-    Dùng $R=\rho l/S$ và $I=U/R$; với sự phụ thuộc nhiệt độ của kim loại dùng $R=R_0[1+\alpha(t-t_0)]$.
-
-    Vậy kết quả cần tìm là **$30$**.
 #### Bài 20
 
 <!-- source-id: BT-Chuong-IV-p53-q4-186 -->
 
-Nếu hiệu điện thế đặt vào hai đầu dây dẫn đó tăng lên đến 48V thì cường độ dòng điện chạy qua nó
-là bao nhiêu ? ( Tính theo đon vị A)
+Khi đặt vào hai đầu dây dẫn một hiệu điện thế $U_1=18\,\mathrm V$ thì cường độ dòng điện chạy qua nó là $I_1=0{,}6\,\mathrm A$.
+
+Nếu hiệu điện thế đặt vào hai đầu dây dẫn tăng lên đến $U_2=48\,\mathrm V$ thì cường độ dòng điện chạy qua nó là bao nhiêu (tính theo A)?
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** $1{,}6$
+
     **Hướng dẫn giải:**
+    Điện trở của dây dẫn $R=U_1/I_1=18/0{,}6=30\,\Omega$.
 
-    Dùng $R=\rho l/S$ và $I=U/R$; với sự phụ thuộc nhiệt độ của kim loại dùng $R=R_0[1+\alpha(t-t_0)]$.
+    Do đó $I_2=U_2/R=48/30=1{,}6\,\mathrm A$.
 
-    Vậy kết quả cần tìm là **$1{,}6$**.
 #### Bài 21
 
 <!-- source-id: BT-Chuong-IV-p53-q5-189 -->
 
-Tính điện trở tương đương R12 (tính theo Ω )
+Cho hai điện trở $R_1=15\,\Omega$, $R_2=10\,\Omega$ mắc nối tiếp với nhau.
+
+Tính điện trở tương đương $R_{12}$ (tính theo $\Omega$).
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** $25$
+
     **Hướng dẫn giải:**
+    $R_{12}=R_1+R_2=15+10=25\,\Omega$.
 
-    Dùng $R=\rho l/S$ và $I=U/R$; với sự phụ thuộc nhiệt độ của kim loại dùng $R=R_0[1+\alpha(t-t_0)]$.
-
-    Vậy kết quả cần tìm là **$25$**.
 #### Bài 22
 
 <!-- source-id: BT-Chuong-IV-p54-q6-190 -->
 
-Mắc thêm R = 15 Ω vào nối tiếp hai điện trở trên. Tính điện trở tương đương của toàn mạch. (tính
-theo Ω )
+Cho hai điện trở $R_1=15\,\Omega$, $R_2=10\,\Omega$ mắc nối tiếp với nhau. Mắc thêm điện trở $R=15\,\Omega$ nối tiếp với hai điện trở trên.
+
+Tính điện trở tương đương của toàn mạch (tính theo $\Omega$).
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** $40$
+
     **Hướng dẫn giải:**
+    $R_{12}=R_1+R_2=25\,\Omega$.
 
-    Dùng $R=\rho l/S$ và $I=U/R$; với sự phụ thuộc nhiệt độ của kim loại dùng $R=R_0[1+\alpha(t-t_0)]$.
+    Điện trở toàn mạch $R_{\rm td}=R_{12}+R=25+15=40\,\Omega$.
 
-    Vậy kết quả cần tìm là **$40$**.
 ### Nhận biết — Trắc nghiệm 4 lựa chọn
 
 #### Bài 23
@@ -367,19 +415,21 @@ D. âm khi nhiệt độ tăng thì điện trở giảm về bằng 0.
 
 <!-- source-id: BT-Chuong-IV-p26-q4-84 -->
 
-Chọn biến đổi đúng trong các biến đổi sau
-Α. 1 Ω = 0,001 kΩ = 0,0001 ΜΩ.
+Chọn biến đổi đúng trong các biến đổi sau.
 
-Β. 10 Ω = 0,1 kΩ = 0,00001 ΜΩ.
+A. $1\,\Omega=0{,}001\,\mathrm{k}\Omega=0{,}0001\,\mathrm{M}\Omega$.
 
-C. 1 kΩ = 1 000 Ω = 0,01 ΜΩ.
+B. $10\,\Omega=0{,}1\,\mathrm{k}\Omega=0{,}00001\,\mathrm{M}\Omega$.
 
-D. 1 MΩ = 1 000 kΩ = 1 000 000 Ω.
+C. $1\,\mathrm{k}\Omega=1000\,\Omega=0{,}01\,\mathrm{M}\Omega$.
+
+D. $1\,\mathrm{M}\Omega=1000\,\mathrm{k}\Omega=1\,000\,000\,\Omega$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
+
     **Hướng dẫn giải:**
-    1 MΩ = 1 000 kΩ = 1 000 000 Ω.
+    $1\,\mathrm{M}\Omega=1000\,\mathrm{k}\Omega=1\,000\,000\,\Omega$.
 
 #### Bài 27
 
@@ -447,39 +497,21 @@ D. Vì chúng không bị oxy hóa.
 
 Biểu thức đúng của định luật Ohm là
 
-A. .
-I
-RU
-=
-.
+A. $I=RU$.
 
-B. U
-I
-R
-=
-.
+B. $I=\dfrac{U}{R}$.
 
-C. I
-U
-R
-=
-.
+C. $U=\dfrac{I}{R}$.
 
-D. .
-U
-I R
-=
-.
+D. $U=IR$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** B
+
     **Hướng dẫn giải:**
-     Biểu thức đúng của định luật Ohm là
-    U
-    I
-    R
-    =
-    .
+    Định luật Ohm cho đoạn mạch chỉ chứa điện trở viết dưới dạng
+
+    $I=\frac{U}{R}.$
 
 #### Bài 31
 
@@ -688,50 +720,41 @@ D. chỉ giảm khi nhiệt độ thay đổi.
 
 <!-- source-id: BT-Chuong-IV-p30-q19-99 -->
 
-Trong đoạn mạch kín, nếu ta mắc hai điện trở R1 và R2 nối tiếp nhau thì điện trở tương đương
-trong đoạn mạch là
+Trong đoạn mạch kín, nếu ta mắc hai điện trở $R_1$ và $R_2$ nối tiếp nhau thì điện trở tương đương trong đoạn mạch là
 
-A. Rtd = R1 + R2.
+A. $R_{\rm td}=R_1+R_2$.
 
-B. Rtd =
-R1.R2
-R1+R2.
+B. $R_{\rm td}=\dfrac{R_1R_2}{R_1+R_2}$.
 
-C. Rtd = R1. R2.
+C. $R_{\rm td}=R_1R_2$.
 
-D. Rtd =
-R1
-R2.
+D. $R_{\rm td}=\dfrac{R_1}{R_2}$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
+
     **Hướng dẫn giải:**
-    Khi hai điện trở mắc nối tiếp: 𝑅𝑡𝑑= 𝑅1 + 𝑅2.
+    Hai điện trở mắc nối tiếp có $R_{\rm td}=R_1+R_2$.
 
 #### Bài 42
 
 <!-- source-id: BT-Chuong-IV-p30-q20-100 -->
 
-Trong đoạn mạch kín, nếu ta mắc hai điện trở R1 và R2 song song nhau thì điện trở tương đương
-trong đoạn mạch là
+Trong đoạn mạch kín, nếu ta mắc hai điện trở $R_1$ và $R_2$ song song nhau thì điện trở tương đương trong đoạn mạch là
 
-A. Rtd = R1 + R2.
+A. $R_{\rm td}=R_1+R_2$.
 
-B. Rtd =
-R1.R2
-R1+R2.
+B. $R_{\rm td}=\dfrac{R_1R_2}{R_1+R_2}$.
 
-C. Rtd = R1 −R2.
+C. $R_{\rm td}=R_1-R_2$.
 
-D. Rtd =
-R1+R2
-R1.R2 .
+D. $R_{\rm td}=\dfrac{R_1+R_2}{R_1R_2}$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** B
+
     **Hướng dẫn giải:**
-    𝑅1.𝑅2
-    𝑅1+𝑅2.
+    Với hai điện trở mắc song song, $R_{\rm td}=\dfrac{R_1R_2}{R_1+R_2}$.
 
 #### Bài 43
 
@@ -749,9 +772,9 @@ D. tăng rồi giảm.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** B
+
     **Hướng dẫn giải:**
-    Điện trở kim loại phụ thuộc vào nhiệt độ theo hàm bậc nhất 𝑅= 𝑅0[1 + 𝛼(𝑡−𝑡0)]. Khi nhiệt độ của
-    dây dẫn kim loại tăng thì điện trở của nó tăng.
+    Điện trở kim loại phụ thuộc nhiệt độ theo $R=R_0[1+\alpha(t-t_0)]$. Với kim loại trong khoảng nhiệt độ xét, $\alpha>0$, nên nhiệt độ tăng thì điện trở tăng.
 
 #### Bài 44
 
@@ -769,108 +792,103 @@ D. Dây dẫn càng dài thì điện trở càng lớn.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
+
     **Hướng dẫn giải:**
-    Điện trở kim loại phụ thuộc vào nhiệt độ theo hàm bậc nhất 𝑅= 𝑅0[1 + 𝛼(𝑡−𝑡0)].
+    Điện trở kim loại phụ thuộc nhiệt độ theo $R=R_0[1+\alpha(t-t_0)]$, nên phát biểu C sai.
 
 #### Bài 45
 
 <!-- source-id: BT-Chuong-IV-p30-q23-103 -->
 
 Những yếu tố nào sau đây ảnh hưởng đến điện trở của dây dẫn kim loại?
-(1). Hiệu điện thế đặt vào hai đầu dây dẫn.
 
-(2). Đường kính của sợi dây.
-(3). Chất liệu của dây dẫn.
-(4). Chiều dài của dây dẫn.
+(1) Hiệu điện thế đặt vào hai đầu dây dẫn.
 
-A. (1); (3); (4).
+(2) Đường kính của sợi dây.
 
-B. (1); (2); (4).
+(3) Chất liệu của dây dẫn.
 
-C. (2); (3); (4).
+(4) Chiều dài của dây dẫn.
 
-D. (1): (2): (3).
+A. (1), (3), (4).
+
+B. (1), (2), (4).
+
+C. (2), (3), (4).
+
+D. (1), (2), (3).
 
 ??? success "Đáp án và lời giải"
+    **Đáp án:** C
+
     **Hướng dẫn giải:**
-    Điện trở của dây dẫn: 𝑅= 𝜌
-    𝑙
-    𝑆 . Điện trở của kim loại phụ thuộc vào các yếu tố: chất liệu của dây dẫn
-    (ảnh hưởng đến điện trở suất); Đường kính của dây (ảnh hưởng đến tiết diện) và chiều dài dây.
+    $R=\rho l/S$. Vì vậy điện trở phụ thuộc chất liệu (qua $\rho$), chiều dài và tiết diện/đường kính dây; không phụ thuộc trực tiếp vào hiệu điện thế đặt vào hai đầu dây trong mô hình vật dẫn ohmic đang xét.
 
 #### Bài 46
 
 <!-- source-id: BT-Chuong-IV-p31-q2-107 -->
 
-Một sợi dây bạc có điện trở ở 500C là 37Ω. Khi nhiệt độ của t0C thì có điện trở là 43Ω. Biết hệ
-số nhiệt điện trở
-3
-1
-4,3.10
-.
-K
-α
-−
-−
-=
-Nhiệt độ t0C có giá trị
+Một sợi dây bạc có điện trở $37\,\Omega$ ở $50\,^{\circ}\mathrm C$. Khi nhiệt độ là $t\,^{\circ}\mathrm C$ thì điện trở của dây là $43\,\Omega$. Biết hệ số nhiệt điện trở $\alpha=4{,}3\times10^{-3}\,\mathrm{K^{-1}}$. Nhiệt độ $t$ có giá trị
 
-A. 250C.
+A. $25\,^{\circ}\mathrm C$.
 
-B. 750C.
+B. $75\,^{\circ}\mathrm C$.
 
-C. 900C.
+C. $90\,^{\circ}\mathrm C$.
 
-D. 1000C.
+D. $100\,^{\circ}\mathrm C$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
+
     **Hướng dẫn giải:**
+    $43=37[1+4{,}3\times10^{-3}(t-50)]$, suy ra $t\approx90\,^{\circ}\mathrm C$.
 
-    Dùng $R=\rho l/S$ và $I=U/R$; với sự phụ thuộc nhiệt độ của kim loại dùng $R=R_0[1+\alpha(t-t_0)]$.
+    Vậy chọn **C**.
 
-    R = R0[1 + α(t −t0)] ⟺43 = 37[1 + 4,3.10−3(t −50)] ⟹t = 90℃.
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. 900C.**
 #### Bài 47
 
 <!-- source-id: BT-Chuong-IV-p31-q3-108 -->
 
-Ở nhiệt độ 200C điện trở suất của bạch kim là 10,6.10-8 Ω.m. Biết hệ số nhiệt điện trở của bạch
-kim là 3,9.10-3 K-1. Ở nhiệt độ 10000C thì điện trở suất của bạch kim là bao nhiêu?
+Ở $20\,^{\circ}\mathrm C$, điện trở suất của bạch kim là $10{,}6\times10^{-8}\,\Omega\,\mathrm m$. Biết hệ số nhiệt điện trở của bạch kim là $3{,}9\times10^{-3}\,\mathrm{K^{-1}}$. Ở $1000\,^{\circ}\mathrm C$ thì điện trở suất của bạch kim là bao nhiêu?
 
-A. 48,2. 10−8Ω. m.
+A. $48{,}2\times10^{-8}\,\Omega\,\mathrm m$.
 
-B. 62,0. 10−8Ω. m.
+B. $62{,}0\times10^{-8}\,\Omega\,\mathrm m$.
 
-C. 58,5. 10−8Ω. m.
+C. $58{,}5\times10^{-8}\,\Omega\,\mathrm m$.
 
-D. 51,1. 10−8Ω. m.
+D. $51{,}1\times10^{-8}\,\Omega\,\mathrm m$.
 
 ??? success "Đáp án và lời giải"
+    **Đáp án:** D
+
     **Hướng dẫn giải:**
+    $\rho=\rho_0[1+\alpha(t-t_0)]$.
 
-    Dùng $R=\rho l/S$ và $I=U/R$; với sự phụ thuộc nhiệt độ của kim loại dùng $R=R_0[1+\alpha(t-t_0)]$.
+    Thay số: $\rho=10{,}6\times10^{-8}[1+3{,}9\times10^{-3}(1000-20)]\approx51{,}1\times10^{-8}\,\Omega\,\mathrm m$.
 
-    ρ = ρ0[1 + α(t −t0)] = 10,6.10−8 × [1 + 3,9. 10−3(1000 −20)] = 51,1. 10−8Ω. m.
+    Vậy chọn **D**.
+
 #### Bài 48
 
 <!-- source-id: BT-Chuong-IV-p31-q24-104 -->
 
-Điện trở R của kim loại phụ thuộc nhiệt độ t theo công thức nào dưới đây?
+Điện trở $R$ của kim loại phụ thuộc nhiệt độ $t$ theo công thức nào dưới đây?
 
-A. R = R0[1 + α(t + t0)].
+A. $R=R_0[1+\alpha(t+t_0)]$.
 
-B. R = R0[1 + α(t −t0)].
+B. $R=R_0[1+\alpha(t-t_0)]$.
 
-C. R = R0[1 −α(t −t0)].
+C. $R=R_0[1-\alpha(t-t_0)]$.
 
-D. R = R0[1 −α(t + t0)].
+D. $R=R_0[1-\alpha(t+t_0)]$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** B
+
     **Hướng dẫn giải:**
-    Điện trở kim loại phụ thuộc vào nhiệt độ theo hàm bậc nhất 𝑅= 𝑅0[1 + 𝛼(𝑡−𝑡0)].
+    Điện trở kim loại phụ thuộc nhiệt độ theo $R=R_0[1+\alpha(t-t_0)]$. Vậy chọn **B**.
 
 #### Bài 49
 
@@ -888,80 +906,76 @@ D. Nhiệt độ và bản chất của vật dẫn kim loại.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
+
     **Hướng dẫn giải:**
-    Điện trở suất của kim loại được xác định bằng công thức: 𝜌= 𝜌0[1 + 𝛼(𝑡−𝑡0)].
+    Điện trở suất phụ thuộc vào bản chất vật liệu và nhiệt độ; trong khoảng nhiệt độ xét có thể viết $\rho=\rho_0[1+\alpha(t-t_0)]$. Vậy chọn **D**.
 
 #### Bài 50
 
 <!-- source-id: BT-Chuong-IV-p32-q6-111 -->
 
-Đặt một hiệu điện thế 12 V vào giữa hai đầu một điện trở 4 Ω thì lượng điện tích chạy qua điện
-trở trong mỗi dây là
+Đặt một hiệu điện thế $12\,\mathrm V$ vào hai đầu một điện trở $4\,\Omega$ thì lượng điện tích chạy qua điện trở trong mỗi giây là
 
-A. 3
+A. $3\,\mathrm C$.
 
-C. B. 4
+B. $4\,\mathrm C$.
 
-C. C. 12
+C. $12\,\mathrm C$.
 
-C. D. 48 C.
+D. $48\,\mathrm C$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
+
     **Hướng dẫn giải:**
+    $I=U/R=12/4=3\,\mathrm A$.
 
-    Dùng $R=\rho l/S$ và $I=U/R$; với sự phụ thuộc nhiệt độ của kim loại dùng $R=R_0[1+\alpha(t-t_0)]$.
+    Trong $\Delta t=1\,\mathrm s$, $\Delta q=I\Delta t=3\,\mathrm C$. Vậy chọn **A**.
 
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. 3**
 #### Bài 51
 
 <!-- source-id: BT-Chuong-IV-p32-q7-112 -->
 
-Đặt một hiệu điện thế U = 12 V vào hai đầu một điện trở. Cường độ dòng điện là 2
+Đặt hiệu điện thế $U_1=12\,\mathrm V$ vào hai đầu một điện trở thì cường độ dòng điện là $I_1=2\,\mathrm A$. Nếu tăng hiệu điện thế lên $1{,}5$ lần thì cường độ dòng điện là
 
-A. Nếu tăng
-hiệu điện thế lên 1,5 lần thì cường độ dòng điện là
+A. $3\,\mathrm A$.
 
-A. 3
+B. $1\,\mathrm A$.
 
-A. B. 1
+C. $0{,}5\,\mathrm A$.
 
-A. C. 0,5
-
-A. D. 0,25 A.
+D. $0{,}25\,\mathrm A$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
+
     **Hướng dẫn giải:**
+    Với điện trở không đổi, $I\propto U$. Do $U_2=1{,}5U_1$ nên $I_2=1{,}5I_1=3\,\mathrm A$.
 
-    Dùng $R=\rho l/S$ và $I=U/R$; với sự phụ thuộc nhiệt độ của kim loại dùng $R=R_0[1+\alpha(t-t_0)]$.
+    Vậy chọn **A**.
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. Nếu tăng hiệu điện thế lên 1,5 lần thì cường độ dòng điện là**
 #### Bài 52
 
 <!-- source-id: BT-Chuong-IV-p32-q8-113 -->
 
-Khi đặt vào hai đầu dây dẫn một hiệu điện thế 12 V thì cường độ dòng điện chạy qua dây dẫn là
-0,5
+Khi đặt vào hai đầu dây dẫn hiệu điện thế $U_1=12\,\mathrm V$ thì cường độ dòng điện chạy qua dây dẫn là $I_1=0{,}5\,\mathrm A$. Nếu tăng hiệu điện thế thêm $18\,\mathrm V$ thì cường độ dòng điện qua dây dẫn là
 
-A. Nếu tăng hiệu điện thế thêm 18 V thì cường độ dòng điện qua dây dẫn là
+A. $1{,}25\,\mathrm A$.
 
-A. 1,25
+B. $0{,}75\,\mathrm A$.
 
-A. B. 0,75
+C. $0{,}50\,\mathrm A$.
 
-A. C. 0,50
-
-A. D. 0,25 A.
+D. $0{,}25\,\mathrm A$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
+
     **Hướng dẫn giải:**
+    $U_2=12+18=30\,\mathrm V$. Với điện trở không đổi, $I_2/I_1=U_2/U_1$, nên $I_2=0{,}5\cdot30/12=1{,}25\,\mathrm A$.
 
-    Dùng $R=\rho l/S$ và $I=U/R$; với sự phụ thuộc nhiệt độ của kim loại dùng $R=R_0[1+\alpha(t-t_0)]$.
+    Vậy chọn **A**.
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. Nếu tăng hiệu điện thế thêm 18 V thì cường độ dòng điện qua dây dẫn là**
 #### Bài 53
 
 <!-- source-id: BT-Chuong-IV-p33-q9-114 -->
@@ -985,24 +999,23 @@ D. Hiệu điện thế qua quạt giảm.
 
 <!-- source-id: BT-Chuong-IV-p33-q10-115 -->
 
-Xác định giá trị của điện trở dựa vào các thông tin dưới đây
+Xác định giá trị của điện trở dựa vào các thông tin dưới đây.
 
-A. 10 ± 5%.
+A. $10\,\Omega\pm5\%$.
 
-B. 100 ± 5%.
+B. $100\,\Omega\pm5\%$.
 
-C. 10 ± 1%.
+C. $10\,\Omega\pm1\%$.
 
-D. 100 ± 1%.
+D. $100\,\Omega\pm1\%$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** B
+
     **Hướng dẫn giải:**
-    Vạch 1: Màu nâu – 1
-    Vạch 2: Màu đen – 0
-    Vạch 3: Màu nâu – hệ số 10 Ω
-    Vạch 4: Màu vàng nhũ (hoàng kim) – Dung sai 5%
-    ⟹𝑅= 100 ± 5%.
+    Vạch 1 màu nâu ứng với $1$, vạch 2 màu đen ứng với $0$, vạch 3 màu nâu là hệ số nhân $10$, vạch 4 màu vàng nhũ cho dung sai $5\%$.
+
+    Do đó $R=100\,\Omega\pm5\%$. Vậy chọn **B**.
 
 #### Bài 55
 
@@ -1047,52 +1060,41 @@ D. tăng 1,2 lần.
 
 <!-- source-id: BT-Chuong-IV-p34-q13-118 -->
 
-Một dây dẫn khi mắc vào hiệu điện thế 6 V thì cường độ dòng điện qua dây dẫn là 1,5
+Một dây dẫn khi mắc vào hiệu điện thế $6\,\mathrm V$ thì cường độ dòng điện qua dây dẫn là $1{,}5\,\mathrm A$. Điện trở $R$ có giá trị
 
-A. Điện
-trở R có giá trị
+A. $9\,\Omega$.
 
-A. 9 .
-R = Ω
+B. $7{,}5\,\Omega$.
 
-B. 7,5 .
-R =
-Ω
+C. $4\,\Omega$.
 
-C. 4 .
-R = Ω
-
-D. 0,25 .
-R =
-Ω
+D. $0{,}25\,\Omega$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
+
     **Hướng dẫn giải:**
+    $R=U/I=6/1{,}5=4\,\Omega$. Vậy chọn **C**.
 
-    Dùng $R=\rho l/S$ và $I=U/R$; với sự phụ thuộc nhiệt độ của kim loại dùng $R=R_0[1+\alpha(t-t_0)]$.
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. 4 . R = Ω**
 #### Bài 58
 
 <!-- source-id: BT-Chuong-IV-p34-q14-119 -->
 
-Một bóng đèn có điện trở 9Ω, cường độ dòng điện qua bóng đèn là 0,5A. Hiệu điện thế hai đầu
-bóng đèn là
+Một bóng đèn có điện trở $9\,\Omega$, cường độ dòng điện qua bóng đèn là $0{,}5\,\mathrm A$. Hiệu điện thế hai đầu bóng đèn là
 
-A. 4,5 V.
+A. $4{,}5\,\mathrm V$.
 
-B. 9,0 V.
+B. $9{,}0\,\mathrm V$.
 
-C. 12,5 V.
+C. $12{,}5\,\mathrm V$.
 
-D. 15,0 V.
+D. $15{,}0\,\mathrm V$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
+
     **Hướng dẫn giải:**
-    𝑈
-    𝑅⇒𝑈= 𝐼𝑅= 0,5 × 9 = 4,5 𝑉.
+    $U=IR=0{,}5\cdot9=4{,}5\,\mathrm V$. Vậy chọn **A**.
 
 #### Bài 59
 
@@ -1110,103 +1112,50 @@ D. phụ thuộc vào điện trở của vật dẫn đó.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
+
     **Hướng dẫn giải:**
-    Do mắc nối tiếp nên
-    1
-    2
-    I
-    I
-    =
+    Trong mạch nối tiếp, $I=I_1=I_2=\cdots=I_n$. Vậy chọn **C**.
 
 #### Bài 60
 
 <!-- source-id: BT-Chuong-IV-p34-q16-121 -->
 
-Hai điện trở R1 và R2 mắc nối tiếp. Hệ thức nào sau đây là đúng.
+Hai điện trở $R_1$ và $R_2$ mắc nối tiếp. Hệ thức nào sau đây là đúng?
 
-A. 1
-2
-2
-1
-2
-.
-U
-U
-U
-R
-R
-+
-=
+A. $\dfrac{U_1+U_2}{R_1}=\dfrac{U_2}{R_2}$.
 
-B. 2
-1
-1
-2
-.
-U
-U
-R
-R
-=
+B. $\dfrac{U_2}{R_1}=\dfrac{U_1}{R_2}$.
 
-C. 1
-2
-1
-2
-.
-U
-U
-R
-R
-=
+C. $\dfrac{U_1}{R_1}=\dfrac{U_2}{R_2}$.
 
-D. 1
-2
-1
-2
-1
-.
-U
-U
-U
-R
-R
-+
-=
+D. $\dfrac{U_1+U_2}{R_2}=\dfrac{U_1}{R_1}$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
+
     **Hướng dẫn giải:**
+    Mạch nối tiếp có cùng dòng điện qua hai điện trở: $I=U_1/R_1=U_2/R_2$. Vậy chọn **C**.
 
-    Dùng $R=\rho l/S$ và $I=U/R$; với sự phụ thuộc nhiệt độ của kim loại dùng $R=R_0[1+\alpha(t-t_0)]$.
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. 1 2 1 2 . U U R R =**
 #### Bài 61
 
 <!-- source-id: BT-Chuong-IV-p34-q17-122 -->
 
-Khi đặt cùng một hiệu điện thế vào hai đầu dây dẫn cùng chất liệu có điện trở R1 và R2 = 3R1 thì
-tỉ số dòng điện qua dây
-𝐼1
-𝐼2 bằng
+Khi đặt cùng một hiệu điện thế vào hai đầu hai dây dẫn cùng chất liệu có điện trở $R_1$ và $R_2=3R_1$ thì tỉ số dòng điện $I_1/I_2$ bằng
 
-A. 1 3
-⁄ .
+A. $1/3$.
 
-B. 3.
+B. $3$.
 
-C. 6.
+C. $6$.
 
-D. 1 6
-⁄ .
+D. $1/6$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** B
+
     **Hướng dẫn giải:**
+    Với cùng hiệu điện thế, $I=U/R$, nên $I_1/I_2=R_2/R_1=3$. Vậy chọn **B**.
 
-    Dùng $R=\rho l/S$ và $I=U/R$; với sự phụ thuộc nhiệt độ của kim loại dùng $R=R_0[1+\alpha(t-t_0)]$.
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **B. 3.**
 #### Bài 62
 
 <!-- source-id: BT-Chuong-IV-p35-q18-123 -->
@@ -1276,33 +1225,22 @@ D. 24,0 Ω.
 
 <!-- source-id: BT-Chuong-IV-p35-q21-126 -->
 
-Hai điện trở
-1
-3
-R = Ω;
-2
-6
-R = Ω mắc song song với nhau, điện trở tương đương của đoạn mạch là
+Hai điện trở $R_1=3\,\Omega$, $R_2=6\,\Omega$ mắc song song với nhau. Điện trở tương đương của đoạn mạch là
 
-A. 2 .
-Ω
+A. $2\,\Omega$.
 
-B. 3 .
-Ω
+B. $3\,\Omega$.
 
-C. 6 .
-Ω
+C. $6\,\Omega$.
 
-D. 9 .
-Ω
+D. $9\,\Omega$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
+
     **Hướng dẫn giải:**
+    $R_{\rm td}=\dfrac{R_1R_2}{R_1+R_2}=\dfrac{3\cdot6}{3+6}=2\,\Omega$. Vậy chọn **A**.
 
-    Dùng $R=\rho l/S$ và $I=U/R$; với sự phụ thuộc nhiệt độ của kim loại dùng $R=R_0[1+\alpha(t-t_0)]$.
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. 2 . Ω**
 #### Bài 66
 
 <!-- source-id: BT-Chuong-IV-p35-q22-127 -->
@@ -1329,26 +1267,22 @@ D. 25 V.
 
 <!-- source-id: BT-Chuong-IV-p35-q23-128 -->
 
-Khi mắc R1 và R2 song song với nhau vào một hiệu điện thế U. Cường độ dòng điện chạy qua
-các mạch rẽ I1 = 0,5 A, I2 = 0,7
+Khi mắc $R_1$ và $R_2$ song song với nhau vào một hiệu điện thế $U$, cường độ dòng điện chạy qua các mạch rẽ là $I_1=0{,}5\,\mathrm A$, $I_2=0{,}7\,\mathrm A$. Cường độ dòng điện qua mạch chính là
 
-A. Cường độ dòng điện qua mạch chính là
+A. $0{,}2\,\mathrm A$.
 
-A. 0,2
+B. $0{,}7\,\mathrm A$.
 
-A. B. 0,7
+C. $0{,}5\,\mathrm A$.
 
-A. C. 0,5
-
-A. D. 1,2 A.
+D. $1{,}2\,\mathrm A$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
+
     **Hướng dẫn giải:**
+    $I=I_1+I_2=0{,}5+0{,}7=1{,}2\,\mathrm A$. Vậy chọn **D**.
 
-    Dùng $R=\rho l/S$ và $I=U/R$; với sự phụ thuộc nhiệt độ của kim loại dùng $R=R_0[1+\alpha(t-t_0)]$.
-
-    Vậy kết quả cần tìm là **D**.
 #### Bài 68
 
 <!-- source-id: BT-Chuong-IV-p36-q24-129 -->
@@ -1377,223 +1311,202 @@ D. 15 V.
 
 <!-- source-id: BT-Chuong-IV-p36-q25-130 -->
 
-Từ đồ thị biểu diễn sự phụ thuộc của cường độ dòng điện vào hiệu điện thế đối với hai điện trở
-R1, R2 trong Hình 23.1. Điện trở 𝑅1, 𝑅2 có giá trị là
+Từ đồ thị biểu diễn sự phụ thuộc của cường độ dòng điện vào hiệu điện thế đối với hai điện trở $R_1$, $R_2$ trong Hình 23.1, điện trở $R_1$, $R_2$ có giá trị là
 
-A. R1 = 5Ω; R2 = 20Ω.
+![Đồ thị I-U của hai điện trở](../../../assets/exercise-figures/clean-v14/iv_p36_q25_130_fig1.webp){ loading=lazy }
 
-B. R1 = 10Ω; R2 = 5Ω.
+A. $R_1=5\,\Omega$; $R_2=20\,\Omega$.
 
-C. R1 = 5Ω; R2 = 10Ω.
+B. $R_1=10\,\Omega$; $R_2=5\,\Omega$.
 
-D. R1 = 20Ω; R2 = 5Ω.
+C. $R_1=5\,\Omega$; $R_2=10\,\Omega$.
 
-![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/iv_p36_q25_130_fig1.webp){ loading=lazy }
+D. $R_1=20\,\Omega$; $R_2=5\,\Omega$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
-    **Hướng dẫn giải:**
 
-    Chọn hai điểm như trên đồ thị:
-    𝑅1 = 𝑈1
-    𝐼1
-    = 6
-    0,3 = 20 𝛺.
-    𝑅2 = 𝑈2
-    𝐼2
-    = 4
-    0,8 = 5 𝛺.
+    **Hướng dẫn giải:**
+    Từ các điểm đọc trên đồ thị: $R_1=U_1/I_1=6/0{,}3=20\,\Omega$ và $R_2=U_2/I_2=4/0{,}8=5\,\Omega$.
+
+    Vậy chọn **D**.
 
 #### Bài 70
 
 <!-- source-id: BT-Chuong-IV-p37-q3-133 -->
 
-Điện trở của một đoạn dây đồng dài 4 m có tiết diện tròn, đường kính d = 1 mm là ( biết điện trở
-suất của đồng là 1,7.10-8 Ω.m)
+Điện trở của một đoạn dây đồng dài $l=4\,\mathrm m$, tiết diện tròn có đường kính $d=1\,\mathrm{mm}$, biết điện trở suất của đồng là $\rho=1{,}7\times10^{-8}\,\Omega\,\mathrm m$, là
 
-A. 0,09 Ω.
+A. $0{,}09\,\Omega$.
 
-B. 1 Ω.
+B. $1\,\Omega$.
 
-C. 0,086 Ω.
+C. $0{,}086\,\Omega$.
 
-D. 0,08 Ω.
+D. $0{,}08\,\Omega$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
+
     **Hướng dẫn giải:**
+    $S=\pi d^2/4\approx7{,}85\times10^{-7}\,\mathrm{m^2}$.
 
-    Dùng $R=\rho l/S$ và $I=U/R$; với sự phụ thuộc nhiệt độ của kim loại dùng $R=R_0[1+\alpha(t-t_0)]$.
+    $R=\rho l/S\approx0{,}0866\,\Omega\approx0{,}09\,\Omega$. Vậy chọn **A**.
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. 0,09 Ω.**
 #### Bài 71
 
 <!-- source-id: BT-Chuong-IV-p37-q4-134 -->
 
-Đặt vào hai đầu một điện trở R một hiệu điện thế U = 12 V, khi đó cường độ dòng điện chạy qua
-điện trở là 1,2
+Đặt vào hai đầu một điện trở $R$ hiệu điện thế $U=12\,\mathrm V$, khi đó cường độ dòng điện là $1{,}2\,\mathrm A$. Nếu giữ nguyên hiệu điện thế nhưng muốn cường độ dòng điện qua điện trở là $0{,}8\,\mathrm A$ thì phải tăng điện trở thêm một lượng là
 
-A. Nếu giữ nguyên hiệu điện thế nhưng muốn cường độ dòng điện qua điện trở là 0,8 A thì
-ta phải tăng điện trở thêm một lượng là
+A. $15\,\Omega$.
 
-A. 15 Ω.
+B. $25\,\Omega$.
 
-B. 25 Ω.
+C. $5\,\Omega$.
 
-C. 5 Ω.
-
-D. 10 Ω.
+D. $10\,\Omega$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
+
     **Hướng dẫn giải:**
+    Ban đầu $R_1=12/1{,}2=10\,\Omega$. Muốn $I_2=0{,}8\,\mathrm A$ thì $R_2=12/0{,}8=15\,\Omega$.
 
-    Dùng $R=\rho l/S$ và $I=U/R$; với sự phụ thuộc nhiệt độ của kim loại dùng $R=R_0[1+\alpha(t-t_0)]$.
+    Cần tăng $R_2-R_1=5\,\Omega$. Vậy chọn **C**.
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. 5 Ω.**
 #### Bài 72
 
 <!-- source-id: BT-Chuong-IV-p37-q5-135 -->
 
-Hai bóng đèn khi sáng bình thường có điện trở là R1 = 7,5 Ω và R2 = 4,5 Ω. Dòng điện chạy qua hai
-đèn đều có cường độ định mức là I = 0,8
+Hai bóng đèn khi sáng bình thường có điện trở $R_1=7{,}5\,\Omega$ và $R_2=4{,}5\,\Omega$. Dòng điện qua hai đèn đều có cường độ định mức $I=0{,}8\,\mathrm A$. Hai đèn được mắc nối tiếp với nhau và với điện trở $R_3$ vào hiệu điện thế $U=12\,\mathrm V$. Để hai đèn sáng bình thường thì $R_3$ bằng
 
-A. Hai đèn này được mắc nối tiếp với nhau và với một điện trở
-R3 để mắc vào hiệu điện thế U = 12V. Để hai đèn sáng bình thường thì điện trở R3
+A. $1\,\Omega$.
 
-A. 1 Ω.
+B. $2\,\Omega$.
 
-B. 2 Ω.
+C. $3\,\Omega$.
 
-C. 3 Ω.
-
-D. 4 Ω.
+D. $4\,\Omega$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
+
     **Hướng dẫn giải:**
+    Tổng điện trở cần có: $R_{\rm td}=U/I=12/0{,}8=15\,\Omega$.
 
-    Dùng $R=\rho l/S$ và $I=U/R$; với sự phụ thuộc nhiệt độ của kim loại dùng $R=R_0[1+\alpha(t-t_0)]$.
+    $R_3=15-(7{,}5+4{,}5)=3\,\Omega$. Vậy chọn **C**.
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. 3 Ω.**
 #### Bài 73
 
 <!-- source-id: BT-Chuong-IV-p38-q6-136 -->
 
-Một biến trở con chạy có điện trở lớn nhất là 40 Ω. Dây điện trở của biến trở là một dây hợp kim
-nicrom có tiết diện 0,5 mm2 và được quấn đều xung quanh một lõi sứ tròn có đường kính 2 cm. Biết điện
-trở suất của nicrom là 1,1.10-6 Ω.m. Số vòng dây của biến trở này là
+Một biến trở con chạy có điện trở lớn nhất $40\,\Omega$. Dây điện trở là hợp kim nicrom có tiết diện $0{,}5\,\mathrm{mm^2}$ và được quấn đều quanh lõi sứ tròn đường kính $2\,\mathrm{cm}$. Biết điện trở suất của nicrom là $1{,}1\times10^{-6}\,\Omega\,\mathrm m$. Số vòng dây của biến trở là
 
-A. 290 vòng.
+A. $290$ vòng.
 
-B. 380 vòng.
+B. $380$ vòng.
 
-C. 150 vòng.
+C. $150$ vòng.
 
-D. 200 vòng.
+D. $200$ vòng.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
+
     **Hướng dẫn giải:**
+    Chiều dài dây $l=RS/\rho=40\cdot0{,}5\times10^{-6}/(1{,}1\times10^{-6})\approx18{,}18\,\mathrm m$.
 
-    Dùng $R=\rho l/S$ và $I=U/R$; với sự phụ thuộc nhiệt độ của kim loại dùng $R=R_0[1+\alpha(t-t_0)]$.
+    Mỗi vòng dài $\pi d=\pi\cdot0{,}02\,\mathrm m$, nên số vòng $N\approx18{,}18/(0{,}02\pi)\approx289\approx290$. Vậy chọn **A**.
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. 290 vòng.**
 #### Bài 74
 
 <!-- source-id: BT-Chuong-IV-p38-q7-137 -->
 
-Một dây nhôm dạng hình trụ tròn được quấn thành cuộn có khối lượng 0,81 kg. Tiết diện thẳng của
-dây là 0,1 mm2. Biết rằng nhôm có khối lượng riêng và điện trở suất lần lượt là 2,7 g/cm3 và 2,8.10-8 Ω.m.
-Điện trở của dây đó là
+Một dây nhôm dạng hình trụ tròn được quấn thành cuộn có khối lượng $0{,}81\,\mathrm{kg}$. Tiết diện thẳng của dây là $0{,}1\,\mathrm{mm^2}$. Biết khối lượng riêng của nhôm là $2{,}7\,\mathrm{g/cm^3}$ và điện trở suất là $2{,}8\times10^{-8}\,\Omega\,\mathrm m$. Điện trở của dây là
 
-A. 84 Ω.
+A. $84\,\Omega$.
 
-B. 480 Ω.
+B. $480\,\Omega$.
 
-C. 840 Ω.
+C. $840\,\Omega$.
 
-D. 48 Ω.
+D. $48\,\Omega$.
+
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
+
     **Hướng dẫn giải:**
+    $D=2700\,\mathrm{kg/m^3}$, nên thể tích dây $V=m/D=3\times10^{-4}\,\mathrm{m^3}$.
 
-    Dùng $R=\rho l/S$ và $I=U/R$; với sự phụ thuộc nhiệt độ của kim loại dùng $R=R_0[1+\alpha(t-t_0)]$.
+    Với $S=10^{-7}\,\mathrm{m^2}$, chiều dài $l=V/S=3000\,\mathrm m$.
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. 840 Ω.**
+    $R=\rho l/S=2{,}8\times10^{-8}\cdot3000/10^{-7}=840\,\Omega$. Vậy chọn **C**.
+
 #### Bài 75
 
 <!-- source-id: BT-Chuong-IV-p38-q9-139 -->
 
-Khi đặt hiệu điện thế 4,5 V vào hai đầu một dây dẫn thì dòng điện chạy qua dây này có cường độ
-0,3
+Khi đặt hiệu điện thế $4{,}5\,\mathrm V$ vào hai đầu một dây dẫn thì dòng điện chạy qua dây có cường độ $0{,}3\,\mathrm A$. Nếu tăng hiệu điện thế thêm $3\,\mathrm V$ thì dòng điện chạy qua dây dẫn có cường độ là
 
-A. Nếu tăng cho hiệu điện thế này thêm 3 V nữa thì dòng điện chạy qua dây dẫn có cường độ là
+A. $0{,}2\,\mathrm A$.
 
-A. 0,2
+B. $0{,}5\,\mathrm A$.
 
-A. B. 0,5
+C. $0{,}32\,\mathrm A$.
 
-A. C. 0,32
-
-A. D. 0,6 A.
+D. $0{,}6\,\mathrm A$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** B
+
     **Hướng dẫn giải:**
+    $R=4{,}5/0{,}3=15\,\Omega$. Điện áp mới $U'=7{,}5\,\mathrm V$, nên $I'=7{,}5/15=0{,}5\,\mathrm A$.
 
-    Dùng $R=\rho l/S$ và $I=U/R$; với sự phụ thuộc nhiệt độ của kim loại dùng $R=R_0[1+\alpha(t-t_0)]$.
+    Vậy chọn **B**.
 
-    Vậy kết quả cần tìm là **B**.
 #### Bài 76
 
 <!-- source-id: BT-Chuong-IV-p39-q10-140 -->
 
-Điện trở tương đương của đoạn mạch gồm hai điện trở mắc nối tiếp bằng 100 Ω. Biết rằng một
-trong hai điện trở có giá trị lớn gấp 3 lần điện trở kia. Giá trị của hai điện trở là
+Điện trở tương đương của đoạn mạch gồm hai điện trở mắc nối tiếp bằng $100\,\Omega$. Biết một điện trở có giá trị lớn gấp $3$ lần điện trở kia. Giá trị của hai điện trở là
 
-A. 20 Ω, 60 Ω.
+A. $20\,\Omega$, $60\,\Omega$.
 
-B. 20 Ω, 90 Ω.
+B. $20\,\Omega$, $90\,\Omega$.
 
-C. 40 Ω, 60 Ω.
+C. $40\,\Omega$, $60\,\Omega$.
 
-D. 25 Ω, 75 Ω.
+D. $25\,\Omega$, $75\,\Omega$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
+
     **Hướng dẫn giải:**
+    Gọi điện trở nhỏ là $R$, điện trở lớn là $3R$. Khi nối tiếp: $R+3R=100\,\Omega$, nên $R=25\,\Omega$ và $3R=75\,\Omega$.
 
-    Dùng $R=\rho l/S$ và $I=U/R$; với sự phụ thuộc nhiệt độ của kim loại dùng $R=R_0[1+\alpha(t-t_0)]$.
+    Vậy chọn **D**.
 
-    PHẦN II. Câu trắc nghiệm đúng sai
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **D. 25 Ω, 75 Ω.**
 #### Bài 77
 
 <!-- source-id: BT-Chuong-IV-p46-q4-162 -->
 
-Khi tiết diện của khối kim loại đồng chất, tiết diện đều tăng 2 lần thì điện trở của khối kim loại
+Khi tiết diện của khối kim loại đồng chất, tiết diện đều tăng $2$ lần thì điện trở của khối kim loại
 
-A. tăng 2 lần.
+A. tăng $2$ lần.
 
-B. tăng 4 lần.
+B. tăng $4$ lần.
 
-C. giảm 2 lần.
+C. giảm $2$ lần.
 
-D. giảm 4 lần.
+D. giảm $4$ lần.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
+
     **Hướng dẫn giải:**
+    Với $R=\rho l/S$, khi $\rho$ và $l$ không đổi mà $S$ tăng $2$ lần thì $R$ giảm $2$ lần. Vậy chọn **C**.
 
-    Dùng $R=\rho l/S$ và $I=U/R$; với sự phụ thuộc nhiệt độ của kim loại dùng $R=R_0[1+\alpha(t-t_0)]$.
-
-    Công thức liên hệ giữa điện trở và điện trở suất của khối kim loại:
-    . Khi tiết diện S của khối kim
-    loại đồng chất, tiết diện đều tăng 2 lần thì điện trở của khối kim loại giảm 2 lần.
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. giảm 2 lần.**
 #### Bài 78
 
 <!-- source-id: BT-Chuong-IV-p46-q5-163 -->
@@ -1639,69 +1552,22 @@ D. q = 5 mC.
 
 <!-- source-id: BT-Chuong-IV-p46-q7-165 -->
 
-Điện trở suất ρ của kim loại phụ thuộc nhiệt độ t theo công thức
+Điện trở suất $\rho$ của kim loại phụ thuộc nhiệt độ $t$ theo công thức
 
-A. 0
-0
-[1
-(
-)].
-t
-t
-ρ
-ρ
-α
-=
-−
-−
+A. $\rho=\rho_0[1-\alpha(t-t_0)]$.
 
-B. 0
-0
-(
-).
-t
-t
-ρ
-ρ
-α
-=
-−
-−
+B. $\rho=\rho_0-\alpha(t-t_0)$.
 
-C. 0
-0
-[1
-(
-)].
-t
-t
-ρ
-ρ
-α
-=
-+
-−
+C. $\rho=\rho_0[1+\alpha(t-t_0)]$.
 
-D. 0
-0
-(
-).
-t
-t
-ρ
-ρ
-α
-=
-+
-−
+D. $\rho=\rho_0+\alpha(t-t_0)$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
+
     **Hướng dẫn giải:**
+    Trong khoảng nhiệt độ xét, điện trở suất kim loại được mô tả bởi $\rho=\rho_0[1+\alpha(t-t_0)]$. Vậy chọn **C**.
 
-    Dùng $R=\rho l/S$ và $I=U/R$; với sự phụ thuộc nhiệt độ của kim loại dùng $R=R_0[1+\alpha(t-t_0)]$.
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. 0 0 [1 ( )]. t t ρ ρ α = + −**
 #### Bài 81
 
 <!-- source-id: BT-Chuong-IV-p47-q8-166 -->
@@ -1771,24 +1637,24 @@ D. 64 Ω.
 
 <!-- source-id: BT-Chuong-IV-p47-q11-169 -->
 
-Điện trở suất của đồng là 1,7.10-8 Ω.m, của nhôm là 2,8.10-8 Ω.m. Nếu thay một dây tải điện bằng
-đồng, tiết diện 2 cm2 bằng dây nhôm, thì dây nhôm phải có tiết diện là
+Điện trở suất của đồng là $1{,}7\times10^{-8}\,\Omega\,\mathrm m$, của nhôm là $2{,}8\times10^{-8}\,\Omega\,\mathrm m$. Nếu thay một dây tải điện bằng đồng tiết diện $2\,\mathrm{cm^2}$ bằng dây nhôm có cùng chiều dài và cùng điện trở thì dây nhôm phải có tiết diện là
 
-A. 3,3 cm2.
+A. $3{,}3\,\mathrm{cm^2}$.
 
-B. 1,65 cm2.
+B. $1{,}65\,\mathrm{cm^2}$.
 
-C. 1,2 cm2.
+C. $1{,}2\,\mathrm{cm^2}$.
 
-D. 0,6 cm2.
+D. $0{,}6\,\mathrm{cm^2}$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
+
     **Hướng dẫn giải:**
+    Cùng $R$ và $l$ nên $S\propto\rho$. Do đó $S_{Al}=2\cdot(2{,}8/1{,}7)\approx3{,}3\,\mathrm{cm^2}$.
 
-    Dùng $R=\rho l/S$ và $I=U/R$; với sự phụ thuộc nhiệt độ của kim loại dùng $R=R_0[1+\alpha(t-t_0)]$.
+    Vậy chọn **A**.
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. 3,3 cm2.**
 #### Bài 85
 
 <!-- source-id: BT-Chuong-IV-p47-q12-170 -->
@@ -1815,245 +1681,228 @@ D. tiết diện, chiều dài dây và vật liệu làm dây.
 
 Đâu là công thức tính điện trở của một đoạn dây dẫn?
 
-A. l
-R
-S
-ρ
-=
-.
+A. $R=\rho\dfrac{l}{S}$.
 
-B. S
-R
-l
-ρ
-=
-.
+B. $R=\rho\dfrac{S}{l}$.
 
-C. R
-S l
-ρ
-=
-.
+C. $R=S\dfrac{\rho}{l}$.
 
-D. S
-R
-l ρ
-=
-.
+D. $R=l\dfrac{S}{\rho}$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
+
     **Hướng dẫn giải:**
+    Điện trở của dây dẫn đồng chất, tiết diện đều: $R=\rho l/S$. Vậy chọn **A**.
 
-    Dùng $R=\rho l/S$ và $I=U/R$; với sự phụ thuộc nhiệt độ của kim loại dùng $R=R_0[1+\alpha(t-t_0)]$.
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. l R S ρ = .**
 #### Bài 87
 
 <!-- source-id: BT-Chuong-IV-p48-q14-172 -->
 
-Một dây dẫn thẳng bằng nikelin dài 20 m, tiết diện 0,05 mm2. Điện trở suất của nikelin là
-0,4.10-6 Ω.m. Điện trở của dây dẫn này là
+Một dây dẫn thẳng bằng nikelin dài $20\,\mathrm m$, tiết diện $0{,}05\,\mathrm{mm^2}$. Điện trở suất của nikelin là $0{,}4\times10^{-6}\,\Omega\,\mathrm m$. Điện trở của dây dẫn là
 
-A. 0,16 Ω
+A. $0{,}16\,\Omega$.
 
-B. 1,6 Ω
+B. $1{,}6\,\Omega$.
 
-C. 16 Ω
+C. $16\,\Omega$.
 
-D. 160 Ω.
+D. $160\,\Omega$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
+
     **Hướng dẫn giải:**
+    $S=0{,}05\times10^{-6}\,\mathrm{m^2}$.
 
-    Dùng $R=\rho l/S$ và $I=U/R$; với sự phụ thuộc nhiệt độ của kim loại dùng $R=R_0[1+\alpha(t-t_0)]$.
+    $R=\rho l/S=0{,}4\times10^{-6}\cdot20/(0{,}05\times10^{-6})=160\,\Omega$. Vậy chọn **D**.
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **D. 160 Ω.**
 #### Bài 88
 
 <!-- source-id: BT-Chuong-IV-p48-q15-173 -->
 
-Hai đoạn dây dẫn bằng đồng có cùng tiết diện. Dây thứ nhất có chiều dài l1; dây dẫn thứ 2 có
-chiều dài l2 = 3l1. Điều nào sau đây là đúng khi nói về điện trở R1 và R2.
+Hai đoạn dây dẫn bằng đồng có cùng tiết diện. Dây thứ nhất có chiều dài $l_1$; dây thứ hai có chiều dài $l_2=3l_1$. Điều nào sau đây là đúng khi nói về điện trở $R_1$ và $R_2$?
 
-A. R1 = R2
+A. $R_1=R_2$.
 
-B. R1 = 3R2
+B. $R_1=3R_2$.
 
-C. R2 = 3R1
+C. $R_2=3R_1$.
 
-D. 2
-1
-1
-.
-3
-R
-R
-=
+D. $R_2=\dfrac13R_1$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
+
     **Hướng dẫn giải:**
+    Cùng vật liệu và tiết diện nên $R\propto l$. Vì $l_2=3l_1$ nên $R_2=3R_1$. Vậy chọn **C**.
 
-    Dùng $R=\rho l/S$ và $I=U/R$; với sự phụ thuộc nhiệt độ của kim loại dùng $R=R_0[1+\alpha(t-t_0)]$.
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. R2 = 3R1**
 #### Bài 89
 
 <!-- source-id: BT-Chuong-IV-p48-q16-174 -->
 
-Biết điện trở suất của nhôm là 2,8.10-8 Ω.m; điện trở suất của đồng là 1,7.10-8 Ω.m; của vonfram
-là 5,5.10-8 Ω.m. Chọn kết luận đúng
+Biết điện trở suất của nhôm là $2{,}8\times10^{-8}\,\Omega\,\mathrm m$; của đồng là $1{,}7\times10^{-8}\,\Omega\,\mathrm m$; của vonfram là $5{,}5\times10^{-8}\,\Omega\,\mathrm m$. Chọn kết luận đúng.
 
-A. Vonfram dẫn điện tốt hơn nhôm, nhôm dẫn điện tốt hơn đồng
+A. Vonfram dẫn điện tốt hơn nhôm, nhôm dẫn điện tốt hơn đồng.
 
-B. Vonfarm dẫn điện tốt hơn đồng, đồng dẫn điện tốt hơn nhôm.
+B. Vonfram dẫn điện tốt hơn đồng, đồng dẫn điện tốt hơn nhôm.
 
-C. Đồng dẫn điện tốt hơn Vonfram, Vonfram dẫn điện tốt hơn nhôm.
+C. Đồng dẫn điện tốt hơn vonfram, vonfram dẫn điện tốt hơn nhôm.
 
-D. Đồng dẫn điện tốt hơn nhôm, nhôm dẫn điện tốt hơn Vonfram.
+D. Đồng dẫn điện tốt hơn nhôm, nhôm dẫn điện tốt hơn vonfram.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
+
     **Hướng dẫn giải:**
-    Đồng dẫn điện tốt hơn nhôm và nhôm dẫn điện tốt hơn Vonfram. Vì điện trở suất của đồng nhỏ hơn điện
-    trở suất của nhôm và điện trở suất của nhôm nhỏ hơn điện trở suất của vonfram.
+    Điện trở suất càng nhỏ thì vật liệu dẫn điện càng tốt. Vì $\rho_{Cu}<\rho_{Al}<\rho_W$, nên đồng dẫn điện tốt hơn nhôm và nhôm dẫn điện tốt hơn vonfram.
+
+    Vậy chọn **D**.
 
 #### Bài 90
 
 <!-- source-id: BT-Chuong-IV-p48-q17-175 -->
 
-Điện trở suất của nikelin là 0,4.10-6 Ω.m. Điện trở của dây dẫn nikelin dài 1 m và có tiết diện 0,5
-mm2 là
+Điện trở suất của nikelin là $0{,}4\times10^{-6}\,\Omega\,\mathrm m$. Điện trở của dây dẫn nikelin dài $1\,\mathrm m$ và có tiết diện $0{,}5\,\mathrm{mm^2}$ là
 
-A. 0,4.10-6 Ω.
+A. $0{,}4\times10^{-6}\,\Omega$.
 
-B. 0,8.10-6 Ω.
+B. $0{,}8\times10^{-6}\,\Omega$.
 
-C. 0,4 Ω.
+C. $0{,}4\,\Omega$.
 
-D. 0,8 Ω.
+D. $0{,}8\,\Omega$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
+
     **Hướng dẫn giải:**
+    $S=0{,}5\times10^{-6}\,\mathrm{m^2}$.
 
-    Dùng $R=\rho l/S$ và $I=U/R$; với sự phụ thuộc nhiệt độ của kim loại dùng $R=R_0[1+\alpha(t-t_0)]$.
+    $R=\rho l/S=0{,}4\times10^{-6}/(0{,}5\times10^{-6})=0{,}8\,\Omega$. Vậy chọn **D**.
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **D. 0,8 Ω.**
 #### Bài 91
 
 <!-- source-id: BT-Chuong-IV-p49-q18-176 -->
 
-Một dây dẫn bằng đồng dài 25 m có điện trở 42,5 Ω. Tiết điện của dây dẫn này là
+Một dây dẫn bằng đồng dài $25\,\mathrm m$ có điện trở $42{,}5\,\Omega$. Tiết diện của dây dẫn này là
 
-A. 1,7 mm2.
+A. $1{,}7\,\mathrm{mm^2}$.
 
-B. 0,58 mm2.
+B. $0{,}58\,\mathrm{mm^2}$.
 
-C. 0,1 mm2.
+C. $0{,}1\,\mathrm{mm^2}$.
 
-D. 0,01 mm2.
+D. $0{,}01\,\mathrm{mm^2}$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
+
     **Hướng dẫn giải:**
+    Với điện trở suất của đồng $\rho=1{,}7\times10^{-8}\,\Omega\,\mathrm m$, từ $R=\rho l/S$ suy ra
+    $S=\rho l/R=1{,}0\times10^{-8}\,\mathrm{m^2}=0{,}01\,\mathrm{mm^2}$.
 
-    Dùng $R=\rho l/S$ và $I=U/R$; với sự phụ thuộc nhiệt độ của kim loại dùng $R=R_0[1+\alpha(t-t_0)]$.
+    Vậy chọn **D**.
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **D. 0,01 mm2.**
 ### Nhận biết — Đúng/Sai
 
 #### Bài 92
 
 <!-- source-id: BT-Chuong-IV-p39-q1-141 -->
 
-Một đoạn dây dẫn bằng đồng có điện trở suất 1,69.10-8 Ω.m, dài 2,0 m và đường kính tiết diện là
-1,0 mm. Cho dòng điện 1,5 A chạy qua đoạn dây.
+Một đoạn dây dẫn bằng đồng có điện trở suất $1{,}69\times10^{-8}\,\Omega\,\mathrm m$, dài $2{,}0\,\mathrm m$ và đường kính tiết diện $1{,}0\,\mathrm{mm}$. Cho dòng điện $1{,}5\,\mathrm A$ chạy qua đoạn dây.
 
-a) Tiết diện của đoạn dây dẫn bằng 9.10-7 m2.
-b) Điện trở của đoạn dây là 0,043 Ω
-c) Hiệu điện thế giữa hai đầu đoạn dây là 0,065 V.
-d) Nếu cho cường độ dòng điện qua đoạn mạch 3A thì hiệu điện thế giữa hai đầu đoạn dây là 13 V
+a) Tiết diện của đoạn dây dẫn bằng $9\times10^{-7}\,\mathrm{m^2}$.
+
+b) Điện trở của đoạn dây là $0{,}043\,\Omega$.
+
+c) Hiệu điện thế giữa hai đầu đoạn dây là $0{,}065\,\mathrm V$.
+
+d) Nếu cho cường độ dòng điện qua đoạn mạch là $3\,\mathrm A$ thì hiệu điện thế giữa hai đầu đoạn dây là $13\,\mathrm V$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** a) Sai; b) Đúng; c) Đúng; d) Sai.
 
     **Hướng dẫn giải:**
+    Đường kính $d=1{,}0\,\mathrm{mm}$ nên $S=\pi d^2/4\approx7{,}85\times10^{-7}\,\mathrm{m^2}$.
 
-    Đường kính $d=1{,}0$ mm nên tiết diện $S=\pi d^2/4\approx7{,}85\times10^{-7}\ \text{m}^2$.
+    a) **Sai.** Giá trị trên không phải $9\times10^{-7}\,\mathrm{m^2}$.
 
-    a) **Sai.** Giá trị trên không phải $9\times10^{-7}\ \text{m}^2$.
+    b) **Đúng.** $R=\rho l/S\approx0{,}043\,\Omega$.
 
-    b) **Đúng.** $R=\rho l/S\approx1{,}69\times10^{-8}\cdot2/(7{,}85\times10^{-7})\approx0{,}043\ \Omega$.
+    c) **Đúng.** $U=IR\approx1{,}5\cdot0{,}043\approx0{,}065\,\mathrm V$.
 
-    c) **Đúng.** Với $I=1{,}5$ A, $U=IR\approx1{,}5\cdot0{,}043\approx0{,}065$ V.
+    d) **Sai.** Với $I=3\,\mathrm A$, $U\approx3\cdot0{,}043=0{,}129\,\mathrm V\approx0{,}13\,\mathrm V$, không phải $13\,\mathrm V$.
 
-    d) **Sai.** Với $I=3$ A, $U\approx3\cdot0{,}043=0{,}129$ V $\approx0{,}13$ V, không phải $13$ V.
 #### Bài 93
 
 <!-- source-id: BT-Chuong-IV-p39-q2-142 -->
 
-Cho mạch điện như hình vẽ:
-Trong đó R1 = 8 Ω, R3 = 10 Ω , R2 = R4 = R5 = 20 Ω, I3 = 2
+Cho mạch điện như hình vẽ, trong đó $R_1=8\,\Omega$, $R_3=10\,\Omega$, $R_2=R_4=R_5=20\,\Omega$, $I_3=2\,\mathrm A$.
 
-A. a) Hiệu điện thế giữa hai đầu điện trợ R3 là 10 V.
-b) Cường độ dòng điện qua R2 là 2
+![Sơ đồ mạch điện của Bài 93](../../../assets/exercise-figures/clean-v14/iv_p39_q2_142_fig1.webp){ loading=lazy }
 
-A. c) Điện trở tương đương toàn mạch là Ω 6,4 .
-d) Hiệu điện thế giữa hai đầu R2 là 60 V.
+a) Hiệu điện thế giữa hai đầu điện trở $R_3$ là $10\,\mathrm V$.
 
-![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/iv_p39_q2_142_fig1.webp){ loading=lazy }
+b) Cường độ dòng điện qua $R_2$ là $2\,\mathrm A$.
+
+c) Điện trở tương đương toàn mạch là $6{,}4\,\Omega$.
+
+d) Hiệu điện thế giữa hai đầu $R_2$ là $60\,\mathrm V$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** a) Sai; b) Sai; c) Đúng; d) Đúng.
 
     **Hướng dẫn giải:**
+    a) **Sai.** $U_3=I_3R_3=2\cdot10=20\,\mathrm V$.
 
-    a) **Sai.** $I_3=2$ A và $R_3=10\ \Omega$, nên $U_3=I_3R_3=20$ V.
+    b) **Sai.** Từ sơ đồ, nhánh chứa $R_3,R_5$ có $R_{35}=30\,\Omega$ và hiệu điện thế nhánh $U_{35}=60\,\mathrm V$; suy ra $I_2=U_{35}/R_2=3\,\mathrm A$, không phải $2\,\mathrm A$.
 
-    b) **Sai.** Từ sơ đồ, nhánh chứa $R_3,R_5$ cho $R_{35}=30\ \Omega$ và hiệu điện thế nhánh $U_{35}=60$ V; suy ra dòng qua nhánh $R_2$ là $I_2=U_{35}/R_2=3$ A, không phải giá trị phát biểu.
+    c) **Đúng.** Rút gọn mạch theo sơ đồ cho $R_{\rm td}=6{,}4\,\Omega$.
 
-    c) **Đúng.** Rút gọn mạch theo sơ đồ cho điện trở tương đương toàn mạch $R_{\rm td}=6{,}4\ \Omega$.
+    d) **Đúng.** $R_2$ mắc song song với nhánh tương ứng nên $U_2=60\,\mathrm V$.
 
-    d) **Đúng.** $R_2$ mắc song song với nhánh tương ứng nên $U_2=60$ V.
 #### Bài 94
 
 <!-- source-id: BT-Chuong-IV-p40-q3-143 -->
 
-Cho đoạn mạch gồm điện trở R1=100 Ω, mắc nối tiếp với điện trở R2=200 Ω, hiệu điện thế giữa hai
-đầu đoạn mạch là 12 V.
+Cho đoạn mạch gồm điện trở $R_1=100\,\Omega$ mắc nối tiếp với điện trở $R_2=200\,\Omega$, hiệu điện thế giữa hai đầu đoạn mạch là $12\,\mathrm V$.
 
-a) Điện trở tương đương của đoạn mạch là 300 Ω.
-b) Cường độ dòng điện qua đoạn mạch là 0,04
+a) Điện trở tương đương của đoạn mạch là $300\,\Omega$.
 
-A. c) Hiện điện thế giữa hai đầu R1 là 8 V.
-d) Hiện điện thế giữa hai đầu R2 là 4 V.
+b) Cường độ dòng điện qua đoạn mạch là $0{,}04\,\mathrm A$.
+
+c) Hiệu điện thế giữa hai đầu $R_1$ là $8\,\mathrm V$.
+
+d) Hiệu điện thế giữa hai đầu $R_2$ là $4\,\mathrm V$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** a) Đúng; b) Đúng; c) Sai; d) Sai.
 
     **Hướng dẫn giải:**
+    a) **Đúng.** $R_{\rm td}=R_1+R_2=300\,\Omega$.
 
-    Hai điện trở $R_1=100\ \Omega$, $R_2=200\ \Omega$ mắc nối tiếp vào $U=12$ V.
+    b) **Đúng.** $I=U/R_{\rm td}=12/300=0{,}04\,\mathrm A$.
 
-    a) **Đúng.** $R_{\rm td}=R_1+R_2=300\ \Omega$.
+    c) **Sai.** $U_1=IR_1=0{,}04\cdot100=4\,\mathrm V$.
 
-    b) **Đúng.** $I=U/R_{\rm td}=12/300=0{,}04$ A.
+    d) **Sai.** $U_2=IR_2=0{,}04\cdot200=8\,\mathrm V$.
 
-    c) **Sai.** $U_1=IR_1=0{,}04\cdot100=4$ V.
-
-    d) **Sai.** $U_2=IR_2=0{,}04\cdot200=8$ V.
 #### Bài 95
 
 <!-- source-id: BT-Chuong-IV-p41-q4-144 -->
 
-Cho mạch điện như hình vẽ. Đèn Đ có ghi 6 V- 3
-W, hiệu điện thế giữa hai đầu mạch không đổi U
-= 9 V, R 1 = 2 Ω.
+Cho mạch điện như hình vẽ. Đèn Đ có ghi $6\,\mathrm V-3\,\mathrm W$, hiệu điện thế giữa hai đầu mạch không đổi $U=9\,\mathrm V$, $R_1=2\,\Omega$.
 
 ![Sơ đồ mạch đèn và hai điện trở](../../../assets/exercise-figures/clean-v14/iv_p41_q4_144.webp){ loading=lazy }
+
+a) Điện trở của đèn là $12\,\Omega$.
+
+b) Cường độ dòng điện định mức của đèn là $2\,\mathrm A$.
+
+c) Để đèn sáng bình thường thì điện trở $R_2=6\,\Omega$.
+
+d) Cường độ dòng điện qua $R_2$ là $1\,\mathrm A$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** a) Đúng; b) Sai; c) Đúng; d) Đúng.
@@ -2071,147 +1920,136 @@ W, hiệu điện thế giữa hai đầu mạch không đổi U
 
 <!-- source-id: BT-Chuong-IV-p42-q5-145 -->
 
-Cho mạch điện gồm 3 điện trở ghép nối tiếp R1 = 5 Ω, R2 = 10 Ω, R3 = 3 Ω mắc vào mạch điện có
-hiệu điện thế U = 18 V.
+Cho mạch điện gồm ba điện trở ghép nối tiếp $R_1=5\,\Omega$, $R_2=10\,\Omega$, $R_3=3\,\Omega$ mắc vào hiệu điện thế $U=18\,\mathrm V$.
 
-a) Điện trở tương đương của đoạn mạch là 18 Ω.
-b) Cường độ dòng điện qua mạch chính là 0,5
+a) Điện trở tương đương của đoạn mạch là $18\,\Omega$.
 
-A. c) Hiệu điện thế giữa hai đầu điện trở R1 là 5 V.
-d) Hiệu điện thế giữa hai đầu điện trở R2 là 10 V.
+b) Cường độ dòng điện qua mạch chính là $0{,}5\,\mathrm A$.
+
+c) Hiệu điện thế giữa hai đầu điện trở $R_1$ là $5\,\mathrm V$.
+
+d) Hiệu điện thế giữa hai đầu điện trở $R_2$ là $10\,\mathrm V$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** a) Đúng; b) Sai; c) Đúng; d) Đúng.
 
     **Hướng dẫn giải:**
+    a) **Đúng.** $R_{\rm td}=5+10+3=18\,\Omega$.
 
-    Ba điện trở $5\ \Omega$, $10\ \Omega$, $3\ \Omega$ mắc nối tiếp vào $18$ V.
+    b) **Sai.** $I=18/18=1\,\mathrm A$.
 
-    a) **Đúng.** $R_{\rm td}=5+10+3=18\ \Omega$.
+    c) **Đúng.** $U_1=IR_1=5\,\mathrm V$.
 
-    b) **Sai.** Dòng mạch chính $I=18/18=1$ A.
+    d) **Đúng.** $U_2=IR_2=10\,\mathrm V$.
 
-    c) **Đúng.** $U_1=IR_1=1\cdot5=5$ V.
-
-    d) **Đúng.** $U_2=IR_2=1\cdot10=10$ V.
 #### Bài 97
 
 <!-- source-id: BT-Chuong-IV-p42-q6-146 -->
 
-Hai bóng đèn Đ1 và Đ2 có kí hiệu 2,5V – 1W và
-6V – 3W, R1 = 8,75 Ω được mắc như hình vẽ.
-Biết các bóng đèn sáng bình thường.
-
-a) Điện trở của bóng đèn Đ1 là 6,25 Ω.
-b) Điện trở của bóng đèn Đ2 là 12 Ω.
-c) Điện trở tương đương của đoạn mạch là 20 Ω.
-d) Cường độ dòng điện chạy qua mạch MN là 1
-A.
+Hai bóng đèn Đ1 và Đ2 có kí hiệu $2{,}5\,\mathrm V-1\,\mathrm W$ và $6\,\mathrm V-3\,\mathrm W$, $R_1=8{,}75\,\Omega$ được mắc như hình vẽ. Biết các bóng đèn sáng bình thường.
 
 ![Sơ đồ mạch hai bóng đèn](../../../assets/exercise-figures/clean-v14/iv_p42_q6_146.webp){ loading=lazy }
+
+a) Điện trở của bóng đèn Đ1 là $6{,}25\,\Omega$.
+
+b) Điện trở của bóng đèn Đ2 là $12\,\Omega$.
+
+c) Điện trở tương đương của đoạn mạch là $20\,\Omega$.
+
+d) Cường độ dòng điện chạy qua mạch MN là $1\,\mathrm A$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** a) Đúng; b) Đúng; c) Sai; d) Sai.
 
     **Hướng dẫn giải:**
+    a) **Đúng.** $R_{\mathrm{Đ1}}=U_1^2/P_1=2{,}5^2/1=6{,}25\,\Omega$.
 
-    a) **Đúng.** Với đèn 1: $R_{\text{Đ1}}=U_1^2/P_1=2{,}5^2/1=6{,}25\ \Omega$.
+    b) **Đúng.** $R_{\mathrm{Đ2}}=6^2/3=12\,\Omega$.
 
-    b) **Đúng.** Với đèn 2: $R_{\text{Đ2}}=6^2/3=12\ \Omega$.
+    Khi hai đèn sáng bình thường, $I_{\mathrm{Đ1}}=1/2{,}5=0{,}4\,\mathrm A$ và $I_{\mathrm{Đ2}}=3/6=0{,}5\,\mathrm A$. Điện trở $R_1=8{,}75\,\Omega$ nối tiếp đèn 1 nên sụt áp trên $R_1$ là $0{,}4\cdot8{,}75=3{,}5\,\mathrm V$; cộng với $2{,}5\,\mathrm V$ trên đèn 1 được $6\,\mathrm V$, bằng điện áp nhánh đèn 2.
 
-    Khi hai đèn sáng bình thường, $I_{\text{Đ1}}=1/2{,}5=0{,}4$ A và $I_{\text{Đ2}}=3/6=0{,}5$ A. Điện trở $R_1=8{,}75\ \Omega$ nối tiếp đèn 1 nên sụt áp trên $R_1$ là $0{,}4\cdot8{,}75=3{,}5$ V; cộng với $2{,}5$ V trên đèn 1 được $6$ V, đúng bằng điện áp nhánh đèn 2.
+    c) **Sai.** Dòng toàn mạch $I=0{,}4+0{,}5=0{,}9\,\mathrm A$, nên $R_{\rm td}=6/0{,}9\approx6{,}67\,\Omega$.
 
-    c) **Sai.** Dòng toàn mạch $I=0{,}4+0{,}5=0{,}9$ A nên $R_{\rm td}=6/0{,}9\approx6{,}67\ \Omega$, không phải $20\ \Omega$.
+    d) **Sai.** Dòng qua đoạn chính MN là $0{,}9\,\mathrm A$, không phải $1\,\mathrm A$.
 
-    d) **Sai.** Dòng qua đoạn chính $MN$ là $0{,}9$ A, không phải $1$ A.
 #### Bài 98
 
 <!-- source-id: BT-Chuong-IV-p49-q1-177 -->
 
-Cho mạch điện như hình vẽ: U = 12 V, R1 = 6 Ω,
-R2 = 4 Ω, R3 = 12 Ω.
-
-a) Điện trở tương đương của đoạn mạch là 0,5 Ω
-b) Cường độ dòng điện qua đoạn mạch là 6 A
-c) Hiệu điện thế giữa hai đầu điện trở R1 là 36 V
-d) Cường độ dòng điện qua điện trở R3 là 1 A
+Cho mạch điện như hình vẽ: $U=12\,\mathrm V$, $R_1=6\,\Omega$, $R_2=4\,\Omega$, $R_3=12\,\Omega$.
 
 ![Sơ đồ ba điện trở mắc song song](../../../assets/exercise-figures/clean-v14/iv_p49_q1_177.webp){ loading=lazy }
+
+a) Điện trở tương đương của đoạn mạch là $0{,}5\,\Omega$.
+
+b) Cường độ dòng điện qua đoạn mạch là $6\,\mathrm A$.
+
+c) Hiệu điện thế giữa hai đầu điện trở $R_1$ là $36\,\mathrm V$.
+
+d) Cường độ dòng điện qua điện trở $R_3$ là $1\,\mathrm A$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** a) Sai; b) Đúng; c) Sai; d) Đúng.
 
     **Hướng dẫn giải:**
+    a) **Sai.** $1/R_{\rm td}=1/6+1/4+1/12=1/2$, nên $R_{\rm td}=2\,\Omega$.
 
-    Ba điện trở $6\ \Omega$, $4\ \Omega$, $12\ \Omega$ mắc song song vào $12$ V.
+    b) **Đúng.** $I=U/R_{\rm td}=12/2=6\,\mathrm A$.
 
-    a) **Sai.** $1/R_{\rm td}=1/6+1/4+1/12=1/2$, nên $R_{\rm td}=2\ \Omega$.
+    c) **Sai.** Mạch song song nên $U_1=12\,\mathrm V$.
 
-    b) **Đúng.** $I=U/R_{\rm td}=12/2=6$ A.
+    d) **Đúng.** $I_3=U/R_3=12/12=1\,\mathrm A$.
 
-    c) **Sai.** Mạch song song nên hiệu điện thế trên mỗi nhánh bằng nguồn: $U_1=12$ V.
-
-    d) **Đúng.** $I_3=U/R_3=12/12=1$ A.
 #### Bài 99
 
 <!-- source-id: BT-Chuong-IV-p50-q2-178 -->
 
-Một dây dẫn đồng dài 120 m được dùng để quấn thành một cuộn dây. Khi đặt hiệu điện thế 30 V
-vào hai đầu cuộn dây này thì cường độ dòng điện qua cuộn dây là 125 mA. Điện trở suất của đồng là
-1,7.10-8 Ω
-( .m)
+Một dây dẫn đồng dài $120\,\mathrm m$ được dùng để quấn thành một cuộn dây. Khi đặt hiệu điện thế $30\,\mathrm V$ vào hai đầu cuộn dây thì cường độ dòng điện qua cuộn dây là $125\,\mathrm{mA}$. Điện trở suất của đồng là $1{,}7\times10^{-8}\,\Omega\,\mathrm m$.
 
-a) Cường độ dòng điện qua cuộn dây là 0,125 A
-b) Điện trở của dây dẫn là Ω 24( )
-c) Tiết diện của dây là 8,5.10-9 (m2)
-d) Mỗi đoạn dây dài 1 m của cuộn dây có điện trở bằng Ω 20( )
+a) Cường độ dòng điện qua cuộn dây là $0{,}125\,\mathrm A$.
+
+b) Điện trở của dây dẫn là $24\,\Omega$.
+
+c) Tiết diện của dây là $8{,}5\times10^{-9}\,\mathrm{m^2}$.
+
+d) Mỗi đoạn dây dài $1\,\mathrm m$ của cuộn dây có điện trở bằng $20\,\Omega$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** a) Đúng; b) Sai; c) Đúng; d) Sai.
 
     **Hướng dẫn giải:**
+    a) **Đúng.** $125\,\mathrm{mA}=0{,}125\,\mathrm A$.
 
-    a) **Đúng.** $125$ mA $=0{,}125$ A.
+    b) **Sai.** $R=U/I=30/0{,}125=240\,\Omega$.
 
-    b) **Sai.** $R=U/I=30/0{,}125=240\ \Omega$.
+    c) **Đúng.** $S=\rho l/R=1{,}7\times10^{-8}\cdot120/240=8{,}5\times10^{-9}\,\mathrm{m^2}$.
 
-    c) **Đúng.** Từ $R=\rho l/S$, suy ra $S=\rho l/R\approx8{,}5\times10^{-9}\ \text{m}^2$ theo dữ kiện của bài.
+    d) **Sai.** Điện trở trên mỗi mét dây là $R/l=240/120=2\,\Omega/\mathrm m$, không phải $20\,\Omega$ cho mỗi mét.
 
-    d) **Sai.** Điện trở trên mỗi mét dây là $R/l=240/120=2\ \Omega/\text{m}$, không phải $20\ \Omega/\text{m}$.
 ### Thông hiểu — Trắc nghiệm 4 lựa chọn
 
 #### Bài 100
 
 <!-- source-id: BT-Chuong-IV-p31-q1-106 -->
 
-Một sợi dây đồng có điện trở R1 ở 500C, hệ số nhiệt điện trở
-3
-1
-4,3.10
-.
-K
-α
-−
-−
-=
- Điện trở của sợi
-dây đó ở 1000 C là 90 Ω. Điện trở của sợi dây đồng ở 500 C là
+Một sợi dây đồng có điện trở $R_1$ ở $50\,^{\circ}\mathrm C$, hệ số nhiệt điện trở $\alpha=4{,}3\times10^{-3}\,\mathrm{K^{-1}}$. Điện trở của sợi dây ở $100\,^{\circ}\mathrm C$ là $90\,\Omega$. Điện trở của sợi dây đồng ở $50\,^{\circ}\mathrm C$ là
 
-A. 45 Ω.
+A. $45\,\Omega$.
 
-B. 74,1 Ω.
+B. $74{,}1\,\Omega$.
 
-C. 135 Ω.
+C. $135\,\Omega$.
 
-D. 180 Ω.
+D. $180\,\Omega$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** B
+
     **Hướng dẫn giải:**
+    $R_{100}=R_{50}[1+\alpha(100-50)]$.
 
-    Dùng $R=\rho l/S$ và $I=U/R$; với sự phụ thuộc nhiệt độ của kim loại dùng $R=R_0[1+\alpha(t-t_0)]$.
+    Suy ra $R_{50}=90/[1+4{,}3\times10^{-3}\cdot50]\approx74{,}1\,\Omega$. Vậy chọn **B**.
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **B. 74,1 Ω.**
 ### Vận dụng cao — Trắc nghiệm 4 lựa chọn
 
 #### Bài 101

@@ -20,8 +20,11 @@ tags:
 Bức xạ có bước sóng ngắn nhất trong các bức xạ sau là
 
 A. hồng ngoại.
+
 B. ánh sáng đỏ.
+
 C. tia tử ngoại.
+
 D. sóng vô tuyến.
 
 ??? success "Đáp án và lời giải"
@@ -32,8 +35,11 @@ D. sóng vô tuyến.
 Tia X có tần số so với ánh sáng nhìn thấy thường
 
 A. nhỏ hơn nhiều.
+
 B. lớn hơn.
+
 C. bằng nhau.
+
 D. bằng 0.
 
 ??? success "Đáp án và lời giải"
@@ -44,8 +50,11 @@ D. bằng 0.
 Quang phổ liên tục thường do
 
 A. chất rắn, lỏng hoặc khí áp suất lớn được nung nóng phát ra.
+
 B. khí loãng phát ra từng vạch riêng.
+
 C. mọi nguồn đều giống nhau.
+
 D. chỉ laser phát ra.
 
 ??? success "Đáp án và lời giải"
@@ -58,8 +67,11 @@ D. chỉ laser phát ra.
 Xét thang sóng điện từ:
 
 a) Khi tần số tăng thì bước sóng trong chân không giảm.
+
 b) Hồng ngoại có bước sóng dài hơn ánh sáng đỏ.
+
 c) Tử ngoại có bước sóng dài hơn hồng ngoại.
+
 d) Tia gamma có tần số rất cao.
 
 ??? success "Đáp án và lời giải"
@@ -104,25 +116,24 @@ Hai bức xạ A và B có tần số lần lượt $5\cdot10^{14}$ Hz và $10^{
 
 ## Ngân hàng bài tập mở rộng
 
-> Các bài dưới đây được đánh số nối tiếp phần bài tập phía trên. Đề bài được trình bày bằng Markdown; chỉ đồ thị, hình vẽ hoặc sơ đồ thực sự cần thiết mới được giữ dưới dạng hình. Đáp án và lời giải được đặt trong nút mở rộng ngay dưới từng bài.
-
 ### Nhận biết — Trả lời ngắn
 
 #### Bài 9
 
 <!-- source-id: BT-Chuong-II-p114-q4-258 -->
 
-Một trạm không gian đo được cường độ của bức xạ điện từ phát ra từ một ngôi sao bằng 6.103
-W/m2. Cho biết công suất bức xạ trung bình của ngôi sao này bằng 30.1025 W. Giả sử ngôi sao này phát
-bức xạ đẳng hướng. Khoảng cách từ ngôi sao này đến trạm không gian có giá trị là bao nhiêu 109 m?
+Một trạm không gian đo được cường độ của bức xạ điện từ phát ra từ một ngôi sao bằng $6\times10^3\,\mathrm{W/m^2}$. Cho biết công suất bức xạ trung bình của ngôi sao này bằng $30\times10^{25}\,\mathrm{W}$. Giả sử ngôi sao này phát bức xạ đẳng hướng. Khoảng cách từ ngôi sao này đến trạm không gian có giá trị là bao nhiêu $10^9\,\mathrm{m}$?
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** $63{,}1$
     **Hướng dẫn giải:**
 
-    Dùng $c=\lambda f$ để đổi giữa bước sóng và tần số, sau đó đối chiếu với miền tương ứng trên thang sóng điện từ.
+    Với nguồn bức xạ đẳng hướng, $I=P/(4\pi r^2)$, nên
 
-    Vậy kết quả cần tìm là **$63{,}1$**.
+    $r=\sqrt{\dfrac{P}{4\pi I}}=\sqrt{\dfrac{30\times10^{25}}{4\pi\cdot6\times10^3}}\approx63{,}1\times10^9\,\mathrm{m}$.
+
+    Vậy hệ số cần điền là **$63{,}1$**.
+
 ### Nhận biết — Trắc nghiệm 4 lựa chọn
 
 #### Bài 10
@@ -140,8 +151,11 @@ C. không nhìn thấy được có bước sóng lớn hơn bước sóng của
 D. không nhìn thấy được có bước sóng nhỏ hơn bước sóng của ánh sáng tím.
 
 ??? success "Đáp án và lời giải"
+    **Đáp án: C.**
+
     **Hướng dẫn giải:**
-    Tia hồng ngoại là bức xạ không nhìn thấy được có bước sóng lớn hơn bước sóng của ánh sáng đỏ.
+
+    Tia hồng ngoại là bức xạ điện từ không nhìn thấy được và có bước sóng dài hơn vùng ánh sáng đỏ của quang phổ nhìn thấy.
 
 #### Bài 11
 
@@ -227,7 +241,7 @@ D. Tia tử ngoại.
 
 <!-- source-id: BT-Chuong-II-p100-q11-208 -->
 
-Bức xạ có bước sóng 3 µm thuộc vùng bức xạ
+Bức xạ có bước sóng $3\,\mu\mathrm{m}$ thuộc vùng bức xạ
 
 A. hồng ngoại.
 
@@ -238,31 +252,25 @@ C. Rơn-ghen.
 D. tử ngoại
 
 ??? success "Đáp án và lời giải"
+    **Đáp án: A.**
+
     **Hướng dẫn giải:**
-    Bước sóng 3 µm là vùng hồng ngoại.
+
+    $3\,\mu\text{m}=3000\,\text{nm}$, lớn hơn nhiều so với bước sóng ánh sáng đỏ ở mép vùng nhìn thấy, nên bức xạ này thuộc vùng hồng ngoại.
 
 #### Bài 16
 
 <!-- source-id: BT-Chuong-II-p100-q12-209 -->
 
-Cho ( )1 Chiếc bàn là nung nóng, ( )
-2 ngọn nến, ( )
-3 con đom đóm, ( )
-4 Mặt trời. Những nguồn
-nào phát ra tia Rơn-ghen (tia X) là
+Cho (1) chiếc bàn là nung nóng, (2) ngọn nến, (3) con đom đóm, (4) Mặt trời. Những nguồn nào phát ra tia Rơn-ghen (tia X) là
 
-A. ( )
-1 .
+A. (1).
 
-B. ( )
-4 .
+B. (4).
 
-C. ( )1 và ( )
-2 .
+C. (1) và (2).
 
-D. ( )
-2 và ( )
-3 .
+D. (2) và (3).
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** B
@@ -293,10 +301,7 @@ D. sóng vô tuyến - ánh sáng nhìn thấy - tia hồng ngoại - tia tử n
 
 <!-- source-id: BT-Chuong-II-p108-q2-234 -->
 
-Sóng điện từ truyền trong không gian có tần số 3.1014 Hz. Coi tốc độ truyền sóng bằng
-8
-3.10 m/s.
-Sóng điện từ này thuộc loại
+Sóng điện từ truyền trong không gian có tần số $3\times10^{14}\,\mathrm{Hz}$. Coi tốc độ truyền sóng bằng $3\times10^8\,\mathrm{m/s}$. Sóng điện từ này thuộc loại
 
 A. sóng vô tuyến.
 
@@ -307,13 +312,15 @@ C. tia hồng ngoại.
 D. tia gamma.
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** A
+    **Đáp án:** C. Tia hồng ngoại.
+
     **Hướng dẫn giải:**
+    $\lambda=c/f=3\times10^8/(3\times10^{14})=10^{-6}\,\mathrm{m}=1\,\mu\mathrm{m}$.
+    Bước sóng này thuộc miền hồng ngoại, nên chọn C.
 
-    Dùng $c=\lambda f$ để đổi giữa bước sóng và tần số, sau đó đối chiếu với miền tương ứng trên thang sóng điện từ.
+    !!! warning "Đối chiếu nguồn"
+        Bản nhập trước ghi A (sóng vô tuyến), không phù hợp với phép đổi $\lambda=1\,\mu\mathrm{m}$.
 
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. sóng vô tuyến.**
 #### Bài 19
 
 <!-- source-id: BT-Chuong-II-p108-q4-236 -->
@@ -474,54 +481,8 @@ phản ứng hóa học không có ích trong cơ thể con người.
     Dùng $c=\lambda f$ để đổi giữa bước sóng và tần số, sau đó đối chiếu với miền tương ứng trên thang sóng điện từ.
 
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. Bức xạ phát ra từ hồ quang điện lúc hàn điện chứa rất nhiều tia tử ngoại có thể làm hỏng giác mạc của mắt và gây ung thư da.**
+    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. Bức xạ phát ra từ hồ quang điện lúc hàn điện chứa rất nhiều tia tử ngoại có thể làm hỏng giác mạc**
 #### Bài 27
-
-<!-- source-id: BT-Chuong-II-p109-q15-247 -->
-
-Một bức xạ truyền trong không khí với chu kì 8,25.10-18 s. Bức xạ này thuộc vùng bức xạ
-
-A. hồng ngoại.
-
-B. ánh sáng nhìn thấy.
-
-C. Rơn-ghen.
-
-D. tử ngoại
-
-??? success "Đáp án và lời giải"
-    **Đáp án:** C
-    **Hướng dẫn giải:**
-
-    Dùng $c=\lambda f$ để đổi giữa bước sóng và tần số, sau đó đối chiếu với miền tương ứng trên thang sóng điện từ.
-
-    thuộc vùng bức xạ tia X.
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. Rơn-ghen.**
-#### Bài 28
-
-<!-- source-id: BT-Chuong-II-p110-q16-248 -->
-
-Một đèn phát ra bức xạ có tần số f = 1014Hz. Bức xạ này thuộc vùng bức xạ
-
-A. hồng ngoại.
-
-B. ánh sáng nhìn thấy.
-
-C. Rơn-ghen.
-
-D. tử ngoại
-
-??? success "Đáp án và lời giải"
-    **Đáp án:** A
-    **Hướng dẫn giải:**
-
-    Dùng $c=\lambda f$ để đổi giữa bước sóng và tần số, sau đó đối chiếu với miền tương ứng trên thang sóng điện từ.
-
-    thuộc vùng bức xạ hồng ngoại.
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. hồng ngoại.**
-#### Bài 29
 
 <!-- source-id: BT-Chuong-II-p110-q17-249 -->
 
@@ -541,35 +502,41 @@ D. sóng vô tuyến - ánh sáng nhìn thấy - tia hồng ngoại - tia tử n
     Thứ tự sắp xếp tăng dần của tần số trong thang sóng điện từ là sóng vô tuyến - tia hồng ngoại - ánh sáng
     nhìn thấy - tia tử ngoại - tia X.
 
-#### Bài 30
+#### Bài 28
 
 <!-- source-id: BT-Chuong-II-p110-q18-250 -->
 
 Tia UVB là bức xạ thuộc vùng tử ngoại có hại cho người vì có thể gây ung thư da. Trong chân
-không, tia UVB có bước sóng nằm trong khoảng từ 0,28 μm đến 0,32 μm. Lấy c = 3.108 m/s. Tia UVB
+không, tia UVB có bước sóng nằm trong khoảng từ $0{,}28\,\mu\mathrm{m}$ đến $0{,}32\,\mu\mathrm{m}$. Lấy c = $3\times10^{8}$ m/s. Tia UVB
 có tần số nằm trong khoảng
 
-A. từ 1,05.1014 Hz đến 9,33.1014 Hz.
+A. từ $1{,}05\times10^{14}$ Hz đến $9{,}33\times10^{14}$ Hz.
 
-B. từ 9,33.1014 Hz đến 1,06.1015 Hz.
+B. từ $9{,}33\times10^{14}$ Hz đến $1{,}06\times10^{15}$ Hz.
 
-C. từ 9,38.1014 Hz đến 1,07.1015 Hz.
+C. từ $9{,}38\times10^{14}$ Hz đến $1{,}07\times10^{15}$ Hz.
 
-D. từ 1,07.1014 Hz đến 1,05.1015 Hz.
+D. từ $1{,}07\times10^{14}$ Hz đến $1{,}05\times10^{15}$ Hz.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
     **Hướng dẫn giải:**
 
-    Dùng $c=\lambda f$ để đổi giữa bước sóng và tần số, sau đó đối chiếu với miền tương ứng trên thang sóng điện từ.
+    Với $f=c/\lambda$, tần số nhỏ nhất ứng với bước sóng lớn nhất:
 
-    Tần số của bức xạ 0,32 μm:
-    Tần số của bức xạ 0,38 μm:
+    $f_{\min}=\dfrac{3\times10^8}{0{,}32\times10^{-6}}\approx9{,}38\times10^{14}\,\mathrm{Hz}$.
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. từ 9,38.1014 Hz đến 1,07.1015 Hz.**
+    Tần số lớn nhất ứng với bước sóng nhỏ nhất:
+
+    $f_{\max}=\dfrac{3\times10^8}{0{,}28\times10^{-6}}\approx1{,}07\times10^{15}\,\mathrm{Hz}$.
+
+    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. từ $9{,}38\times10^{14}$ Hz đến $1{,}07\times10^{15}$ Hz.**
+
+    **Đối chiếu nguồn:** dòng hướng dẫn trong PDF in $0{,}38\,\mu\mathrm{m}$ và $10^{14}$ ở phép tính thứ hai; dữ kiện đề là $0{,}28\,\mu\mathrm{m}$ và đáp án nguồn tô C, nên công thức trên khôi phục theo chính dữ kiện của đề.
+
 ### Nhận biết — Đúng/Sai
 
-#### Bài 31
+#### Bài 29
 
 <!-- source-id: BT-Chuong-II-p104-q1-223 -->
 
@@ -582,59 +549,50 @@ Thang sóng điện từ được biểu diễn theo thứ tự sau:
 Xét các phát biểu:
 
 a) A là tia hồng ngoại còn B là tia tử ngoại.
+
 b) Dãy sóng trên được sắp xếp theo thứ tự bước sóng tăng dần.
+
 c) Sóng điện từ của dãy trên là sóng ngang và truyền được trong chân không.
+
 d) Tần số của bức xạ A nhỏ hơn tần số của bức xạ B.
 
 ??? success "Đáp án và lời giải"
-    **Hướng dẫn giải:**
-    a) Theo thang sóng điện từ ta có: Tia gamma – Tia X – Tia tử ngoại (A) – Ánh sáng nhìn thấy – Tia hồng
-    ngoại (B)– Sóng vô tuyến.
-    b) Bước sóng tăng theo thứ tự: Tia gamma – Tia X – Tia tử ngoại (A) – Ánh sáng nhìn thấy – Tia hồng
-    ngoại (B)– Sóng vô tuyến.
-    c) Sóng điện từ là sóng ngang và truyền được trong chân không.
-    d) Tần số
+    **Đáp án:** a) Sai; b) Đúng; c) Đúng; d) Sai.
 
-#### Bài 32
+    **Hướng dẫn giải:**
+    Theo chiều bước sóng tăng dần: gamma - X - tử ngoại - nhìn thấy - hồng ngoại - vô tuyến. Do đó A là tử ngoại, B là hồng ngoại: a) Sai, b) Đúng.
+    Sóng điện từ là sóng ngang và truyền được trong chân không: c) Đúng.
+    Tử ngoại có tần số lớn hơn hồng ngoại, nên $f_A<f_B$ là sai: d) Sai.
+
+#### Bài 30
 
 <!-- source-id: BT-Chuong-II-p111-q2-252 -->
 
-Thang của sóng điện từ được được chia vùng như sau :
+Thang của sóng điện từ được được chia vùng như sau:
 
-Phát biểu
-Đúng Sai
-a
-1 là tia hồng ngoại, 2 là tia tử ngoại và 3 là tia
-gamma.
-Đ
+a) 1 là tia hồng ngoại, 2 là tia tử ngoại và 3 là tia gamma.
 
-b
-Dãy sóng trên theo chiều từ trên xuống được sắp xếp
-theo thứ tự bước sóng tăng dần.
+b) Dãy sóng trên theo chiều từ trên xuống được sắp xếp theo thứ tự bước sóng tăng dần.
 
-S
-c
-Sóng điện từ của dãy trên có thể là sóng ngang hoặc
-sóng dọc và truyền được trong chân không.
-Đ
+c) Sóng điện từ của dãy trên có thể là sóng ngang hoặc sóng dọc và truyền được trong chân không.
 
-d
-Tần số sóng của bức xạ 3 nhỏ hơn tần số của bức xạ
-1.
-
-S
+d) Tần số sóng của bức xạ 3 nhỏ hơn tần số của bức xạ 1.
 
 ??? success "Đáp án và lời giải"
+    **Đáp án:** a) Đúng; b) Sai; c) Sai; d) Sai.
+
     **Hướng dẫn giải:**
-    a) Theo thang sóng điện từ thì vùng 1 là tia hồng ngoại, 2 là tia tử ngoại và 3 là tia gamma.
-    b) Theo thang sóng điện từ bước sóng tăng dần theo thứ tự: Tia gamma – Tia X – Tia tử ngoại – Ánh
-    sáng nhìn thấy – Tia hồng ngoại – Sóng vô tuyến.
-    c) Sóng điện từ là sóng ngang và truyền được trong chân không.
-    d) Theo thang sóng điện từ thì tần số sóng của bức xạ tia gama lớn hơn tần số của bức xạ tia hồng ngoại.
+    a) Theo sơ đồ nguồn, vùng 1 là hồng ngoại, 2 là tử ngoại và 3 là gamma.
+    b) Chiều sắp xếp trên hình không phải chiều bước sóng tăng dần như phát biểu.
+    c) Sóng điện từ trong chân không là sóng ngang; không có thành phần sóng dọc trong mô hình điện từ phổ thông.
+    d) Tia gamma có tần số lớn hơn nhiều so với tia hồng ngoại, nên phát biểu “nhỏ hơn” sai.
+
+    !!! warning "Đối chiếu nguồn"
+        Bảng đáp án PDF đánh c) Đúng dù chính kiến thức trong phần lý thuyết xác định sóng điện từ là sóng ngang. Kết luận c) được sửa về Sai.
 
 ### Thông hiểu — Trắc nghiệm 4 lựa chọn
 
-#### Bài 33
+#### Bài 31
 
 <!-- source-id: BT-Chuong-II-p100-q14-211 -->
 
@@ -655,31 +613,33 @@ D. tia đơn sắc màu tím trong ánh sáng Mặt Trời.
     Tầng ôzon hấp thụ hết các tia có bước sóng dưới 300 nm và là tấm “áo giáp” bảo vệ cho người và sinh
     vật trên mặt đất khỏi bị tác dụng hủy diệt của tia tử ngoại trong ánh sáng Mặt Trời.
 
-#### Bài 34
+#### Bài 32
 
 <!-- source-id: BT-Chuong-II-p100-q17-214 -->
 
 Bước sóng của bức xạ da cam trong chân không là 600 nm thì tần số của bức xạ đó là
 
-A. 5.1012 Hz.
+A. $5\times10^{12}$ Hz.
 
-B. 5.1013 Hz.
+B. $5\times10^{13}$ Hz.
 
-C. 5.1014 Hz.
+C. $5\times10^{14}$ Hz.
 
-D. 5.1015 Hz.
+D. $5\times10^{15}$ Hz.
 
 ??? success "Đáp án và lời giải"
+    **Đáp án:** C. $5\times10^{14}\,\mathrm{Hz}$.
+
     **Hướng dẫn giải:**
+    $\lambda=600\,\mathrm{nm}=600\times10^{-9}\,\mathrm{m}$.
+    $f=c/\lambda=3\times10^8/(600\times10^{-9})=5\times10^{14}\,\mathrm{Hz}$.
 
-    Dùng $c=\lambda f$ để đổi giữa bước sóng và tần số, sau đó đối chiếu với miền tương ứng trên thang sóng điện từ.
-
-    Tần số của bức xạ:
-#### Bài 35
+#### Bài 33
 
 <!-- source-id: BT-Chuong-II-p100-q18-215 -->
 
-Một đèn phát ra bức xạ có tần số f = 1014Hz. Bức xạ này thuộc vùng bức xạ
+
+Một đèn phát ra bức xạ có tần số $f=10^{14}\,\mathrm{Hz}$. Bức xạ này thuộc vùng bức xạ
 
 A. hồng ngoại.
 
@@ -687,19 +647,19 @@ B. ánh sáng nhìn thấy.
 
 C. Rơn-ghen.
 
-D. tử ngoại
+D. tử ngoại.
 
 ??? success "Đáp án và lời giải"
+    **Đáp án:** A
     **Hướng dẫn giải:**
-
-    Dùng $c=\lambda f$ để đổi giữa bước sóng và tần số, sau đó đối chiếu với miền tương ứng trên thang sóng điện từ.
-
-    thuộc vùng bức xạ hồng ngoại.
-#### Bài 36
+    $\lambda=\dfrac{c}{f}=\dfrac{3\times10^8}{10^{14}}=3\times10^{-6}\,\mathrm{m}$.
+    Bước sóng này thuộc vùng hồng ngoại, nên chọn A.
+#### Bài 34
 
 <!-- source-id: BT-Chuong-II-p101-q19-216 -->
 
-Một bức xạ truyền trong không khí với chu kì 8,25.10-18 s. Bức xạ này thuộc vùng bức xạ
+
+Một bức xạ truyền trong không khí với chu kì $8{,}25\times10^{-18}$ s. Bức xạ này thuộc vùng bức xạ
 
 A. hồng ngoại.
 
@@ -712,35 +672,34 @@ D. tử ngoại
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
     **Hướng dẫn giải:**
-
-    Dùng $c=\lambda f$ để đổi giữa bước sóng và tần số, sau đó đối chiếu với miền tương ứng trên thang sóng điện từ.
-
-    thuộc vùng bức xạ tia X.
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. Rơn-ghen.**
-#### Bài 37
+    $\lambda=cT=3\times10^8\cdot8{,}25\times10^{-18}=2{,}475\times10^{-9}\,\mathrm{m}$.
+    Bước sóng này thuộc vùng tia X (Rơn-ghen), nên chọn C.
+#### Bài 35
 
 <!-- source-id: BT-Chuong-II-p101-q20-217 -->
 
 Tia UVA là bức xạ thuộc vùng tử ngoại có hại cho người vì có thể gây ung thư da. Trong chân
-không, tia UVA có bước sóng nằm trong khoảng từ 0,32 μm đến 0,38 μm. Lấy c = 3.108 m/s. Tia UVA
+không, tia UVA có bước sóng nằm trong khoảng từ $0{,}32\,\mu\mathrm{m}$ đến $0{,}38\,\mu\mathrm{m}$. Lấy c = $3\times10^{8}$ m/s. Tia UVA
 có tần số nằm trong khoảng
 
-A. từ 1,05.1014 Hz đến 9,33.1014 Hz.
+A. từ $1{,}05\times10^{14}$ Hz đến $9{,}33\times10^{14}$ Hz.
 
-B. từ 7,89.1014 Hz đến 9,38.1014 Hz.
+B. từ $7{,}89\times10^{14}$ Hz đến $9{,}38\times10^{14}$ Hz.
 
-C. từ 9,38.1014 Hz đến 1,07.1015 Hz.
+C. từ $9{,}38\times10^{14}$ Hz đến $1{,}07\times10^{15}$ Hz.
 
-D. từ 1,07.1014 Hz đến 1,05.1015 Hz.
+D. từ $1{,}07\times10^{14}$ Hz đến $1{,}05\times10^{15}$ Hz.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** B
     **Hướng dẫn giải:**
 
-    Dùng $c=\lambda f$ để đổi giữa bước sóng và tần số, sau đó đối chiếu với miền tương ứng trên thang sóng điện từ.
+    Với $f=c/\lambda$, tần số lớn nhất ứng với bước sóng nhỏ nhất:
 
-    Tần số của bức xạ 0,32 μm:
-    Tần số của bức xạ 0,38 μm:
+    $f_{\max}=\dfrac{3\times10^8}{0{,}32\times10^{-6}}\approx9{,}38\times10^{14}\,\mathrm{Hz}$.
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **B. từ 7,89.1014 Hz đến 9,38.1014 Hz.**
+    Tần số nhỏ nhất ứng với bước sóng lớn nhất:
+
+    $f_{\min}=\dfrac{3\times10^8}{0{,}38\times10^{-6}}\approx7{,}89\times10^{14}\,\mathrm{Hz}$.
+
+    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **B. từ $7{,}89\times10^{14}$ Hz đến $9{,}38\times10^{14}$ Hz.**

@@ -20,8 +20,11 @@ tags:
 Chu kì con lắc đơn dao động góc nhỏ là
 
 A. $2\pi\sqrt{g/\ell}$.
+
 B. $2\pi\sqrt{\ell/g}$.
+
 C. $\sqrt{\ell/g}$.
+
 D. $2\pi\ell/g$.
 
 ??? success "Đáp án và lời giải"
@@ -32,8 +35,11 @@ D. $2\pi\ell/g$.
 Giữ nguyên nơi thí nghiệm, tăng chiều dài con lắc đơn lên 4 lần. Chu kì
 
 A. giảm 4 lần.
+
 B. giảm 2 lần.
+
 C. tăng 2 lần.
+
 D. tăng 4 lần.
 
 ??? success "Đáp án và lời giải"
@@ -44,8 +50,11 @@ D. tăng 4 lần.
 Con lắc đơn dài $1$ m tại nơi $g=\pi^2$ m/s² có chu kì
 
 A. $1$ s.
+
 B. $2$ s.
+
 C. $\pi$ s.
+
 D. $2\pi$ s.
 
 ??? success "Đáp án và lời giải"
@@ -56,8 +65,11 @@ D. $2\pi$ s.
 Trong gần đúng góc nhỏ, tần số góc của con lắc đơn là
 
 A. $\sqrt{\ell/g}$.
+
 B. $g/\ell$.
+
 C. $\sqrt{g/\ell}$.
+
 D. $2\pi\sqrt{g/\ell}$.
 
 ??? success "Đáp án và lời giải"
@@ -70,8 +82,11 @@ D. $2\pi\sqrt{g/\ell}$.
 Xét con lắc đơn dao động góc nhỏ:
 
 a) Chu kì không phụ thuộc khối lượng vật nặng.
+
 b) Chu kì tăng khi tăng chiều dài dây.
+
 c) Chu kì giảm khi gia tốc trọng trường tăng.
+
 d) Công thức $T=2\pi\sqrt{\ell/g}$ đúng chính xác cho mọi biên độ góc.
 
 ??? success "Đáp án và lời giải"
@@ -85,8 +100,11 @@ d) Công thức $T=2\pi\sqrt{\ell/g}$ đúng chính xác cho mọi biên độ g
 Con lắc đơn không ma sát, chọn thế năng bằng 0 ở vị trí cân bằng:
 
 a) Cơ năng bảo toàn.
+
 b) Ở biên, động năng bằng 0.
+
 c) Ở vị trí cân bằng, thế năng cực đại.
+
 d) Tốc độ cực đại ở vị trí cân bằng.
 
 ??? success "Đáp án và lời giải"
@@ -140,8 +158,6 @@ Một con lắc đơn dài $1$ m được kéo lệch đến góc $60^\circ$ r�
     Do đó $T=mg+mv^2/\ell=0,2\cdot10+0,2\cdot10=4$ N.
 
 ## Ngân hàng bài tập mở rộng
-
-> Các bài dưới đây được đánh số nối tiếp phần bài tập phía trên. Đề bài được trình bày bằng Markdown; chỉ đồ thị, hình vẽ hoặc sơ đồ thực sự cần thiết mới được giữ dưới dạng hình. Đáp án và lời giải được đặt trong nút mở rộng ngay dưới từng bài.
 
 ### Nhận biết — Trả lời ngắn
 

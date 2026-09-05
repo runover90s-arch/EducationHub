@@ -20,8 +20,11 @@ tags:
 Trong thí nghiệm Young dùng đồng thời hai bức xạ, tại vị trí hai vân sáng trùng nhau phải có
 
 A. $k_1\lambda_1=k_2\lambda_2$.
+
 B. $k_1/\lambda_1=k_2/\lambda_2$ luôn sai.
+
 C. $\lambda_1+\lambda_2=0$.
+
 D. $k_1=k_2$ trong mọi trường hợp.
 
 ??? success "Đáp án và lời giải"
@@ -32,8 +35,11 @@ D. $k_1=k_2$ trong mọi trường hợp.
 Với ánh sáng trắng trong thí nghiệm Young, vân trung tâm thường
 
 A. tối.
+
 B. trắng vì các cực đại trung tâm trùng nhau.
+
 C. chỉ đỏ.
+
 D. chỉ tím.
 
 ??? success "Đáp án và lời giải"
@@ -44,8 +50,11 @@ D. chỉ tím.
 Hai bức xạ $\lambda_1=600$ nm, $\lambda_2=450$ nm. Cặp bậc vân sáng nhỏ nhất khác 0 cho cùng vị trí là
 
 A. $k_1=1,k_2=1$.
+
 B. $k_1=2,k_2=3$.
+
 C. $k_1=3,k_2=4$.
+
 D. $k_1=4,k_2=3$.
 
 ??? success "Đáp án và lời giải"
@@ -58,8 +67,11 @@ D. $k_1=4,k_2=3$.
 Giao thoa nhiều bức xạ:
 
 a) Mỗi bước sóng có khoảng vân riêng.
+
 b) Bước sóng lớn hơn cho khoảng vân lớn hơn nếu $D,a$ giống nhau.
+
 c) Vân trung tâm của các bức xạ đơn sắc cùng hệ khe trùng nhau.
+
 d) Hai vân sáng bất kì của hai màu luôn trùng nhau.
 
 ??? success "Đáp án và lời giải"
@@ -106,8 +118,6 @@ Trong thí nghiệm Young, dùng đồng thời $\lambda_1=480$ nm và $\lambda_
 
 ## Ngân hàng bài tập mở rộng
 
-> Các bài dưới đây được đánh số nối tiếp phần bài tập phía trên. Đề bài được trình bày bằng Markdown; chỉ đồ thị, hình vẽ hoặc sơ đồ thực sự cần thiết mới được giữ dưới dạng hình. Đáp án và lời giải được đặt trong nút mở rộng ngay dưới từng bài.
-
 ### Nhận biết — Trắc nghiệm 4 lựa chọn
 
 #### Bài 9
@@ -115,8 +125,8 @@ Trong thí nghiệm Young, dùng đồng thời $\lambda_1=480$ nm và $\lambda_
 <!-- source-id: BT-Chuong-II-p199-q14-453 -->
 
 Trong giao thoa ánh sáng với khe Y-âng, nếu chiếu đồng thời hai bức xạ đơn sắc có bước
-sóng λ1 = 0,4 µm và λ 2 = 0,6 µm vào hai khe. Hỏi vân sáng bậc ba của λ 1 sẽ trùng với vân sáng bậc
-mấy của bức xạ λ 2
+sóng $\lambda_{1}$ = $0{,}4\,\mu\mathrm{m}$ và $\lambda_{2}$ = $0{,}6\,\mu\mathrm{m}$ vào hai khe. Hỏi vân sáng bậc ba của $\lambda_{1}$ sẽ trùng với vân sáng bậc
+mấy của bức xạ $\lambda_{2}$
 
 A. bậc 3.
 
@@ -154,41 +164,27 @@ D. 4,9 mm.
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
     **Hướng dẫn giải:**
-
-    Tính khoảng vân riêng $i=\lambda D/a$ cho từng bức xạ; các vân trùng nhau khi các vị trí $k_1i_1=k_2i_2$ bằng nhau.
-
-    Khoảng vân ứng với bước sóng λ1 là
-    Vị trí vân sáng của hệ trùng nhau tương đương với
-    Vậy khoảng cách chính giữa đến vân gần nhất cùng màu với vân chính giữa là:
+    Với $\lambda_1=500\,\mathrm{nm}$:
+    $i_1=\dfrac{\lambda_1D}{a}=0{,}3\,\mathrm{mm}$.
+    Hai hệ vân trùng nhau khi $k_1i_1=k_2i_2$, hay
+    $\dfrac{k_1}{k_2}=\dfrac{\lambda_2}{\lambda_1}=\dfrac{660}{500}=\dfrac{33}{25}$.
+    Cặp số nguyên dương nhỏ nhất là $k_1=33$, $k_2=25$; do đó
+    $x=33i_1=33\cdot0{,}3=9{,}9\,\mathrm{mm}$.
 
     Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. 9,9 mm.**
 #### Bài 11
 
 <!-- source-id: BT-Chuong-II-p201-q6-460 -->
 
-Hai khe Y-âng cách nhau 1 mm được chiếu bằng ánh sáng trắng (
-μ
-−
-μ
-0,4 m 0,76 m), khoảng
-cách từ hai khe đến màn là 1 m. Tại điểm A trên màn cách vân trung tâm 2 mm có các bức xạ cho
-vân tối có bước sóng
+Hai khe Y-âng cách nhau 1 mm được chiếu bằng ánh sáng trắng $(0{,}4\,\mu\mathrm{m}-0{,}76\,\mu\mathrm{m})$, khoảng cách từ hai khe đến màn là 1 m. Tại điểm A trên màn cách vân trung tâm 2 mm có các bức xạ cho vân tối có bước sóng
 
-A. μ
-μ
-0,6 m;0,76 m.
+A. $0{,}6\,\mu\mathrm{m};\ 0{,}76\,\mu\mathrm{m}$.
 
-B. μ
-μ
-0,57 m;0,6 m.
+B. $0{,}57\,\mu\mathrm{m};\ 0{,}6\,\mu\mathrm{m}$.
 
-C. μ
-μ
-0,4 m;0,44 m.
+C. $0{,}4\,\mu\mathrm{m};\ 0{,}44\,\mu\mathrm{m}$.
 
-D. μ
-μ
-0,44 m;0,57 m.
+D. $0{,}44\,\mu\mathrm{m};\ 0{,}57\,\mu\mathrm{m}$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
@@ -198,4 +194,4 @@ D. μ
 
     Tại 1 điểm là vân tối khi hiệu đường truyền của ánh sáng từ 2 nguồn tới điểm đó thỏa mãn:
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **D. μ μ 0,44 m;0,57 m.**
+    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **D. $0{,}44\,\mu\mathrm{m};\ 0{,}57\,\mu\mathrm{m}$.**

@@ -20,8 +20,11 @@ tags:
 Độ lớn lực Lorentz lên hạt điện tích q chuyển động vận tốc v trong từ trường B là
 
 A. $F=|q|vB\sin\alpha$.
+
 B. $F=|q|vB\cos\alpha$ luôn.
+
 C. $F=|q|B/v$.
+
 D. $F=mv^2$.
 
 ??? success "Đáp án và lời giải"
@@ -32,8 +35,11 @@ D. $F=mv^2$.
 Hạt chuyển động song song $\vec B$ thì lực Lorentz
 
 A. cực đại.
+
 B. bằng 0.
+
 C. bằng qvB.
+
 D. đổi khối lượng.
 
 ??? success "Đáp án và lời giải"
@@ -44,8 +50,11 @@ D. đổi khối lượng.
 Hạt tích điện chuyển động vuông góc B chỉ chịu lực từ sẽ
 
 A. tăng tốc độ liên tục.
+
 B. chuyển động tròn đều.
+
 C. đứng yên.
+
 D. chuyển động thẳng nhanh dần đều.
 
 ??? success "Đáp án và lời giải"
@@ -58,8 +67,11 @@ D. chuyển động thẳng nhanh dần đều.
 Lực Lorentz:
 
 a) Luôn vuông góc vận tốc tức thời.
+
 b) Không sinh công cơ học lên hạt nếu chỉ có từ trường.
+
 c) Có thể đổi hướng vận tốc nhưng không đổi độ lớn tốc độ.
+
 d) Hạt trung hòa vẫn chịu lực $qvB$ với q=0 khác 0.
 
 ??? success "Đáp án và lời giải"

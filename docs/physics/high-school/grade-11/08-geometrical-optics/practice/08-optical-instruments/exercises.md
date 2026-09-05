@@ -20,8 +20,11 @@ tags:
 Kính lúp là
 
 A. thấu kính hội tụ có tiêu cự ngắn dùng quan sát vật nhỏ.
+
 B. thấu kính phân kì tiêu cự dài.
+
 C. gương phẳng.
+
 D. lăng kính.
 
 ??? success "Đáp án và lời giải"
@@ -32,8 +35,11 @@ D. lăng kính.
 Bội giác kính lúp khi ngắm chừng ở vô cực thường lấy gần đúng
 
 A. $G=D/f$ với D khoảng cực cận quy ước.
+
 B. $G=f/D$.
+
 C. $G=fD$.
+
 D. $G=0$.
 
 ??? success "Đáp án và lời giải"
@@ -44,8 +50,11 @@ D. $G=0$.
 Kính thiên văn khúc xạ cơ bản gồm
 
 A. vật kính hội tụ tiêu cự dài và thị kính hội tụ tiêu cự ngắn.
+
 B. hai thấu kính phân kì.
+
 C. một gương phẳng.
+
 D. một lăng kính duy nhất.
 
 ??? success "Đáp án và lời giải"
@@ -58,8 +67,11 @@ D. một lăng kính duy nhất.
 Dụng cụ quang:
 
 a) Kính lúp tạo ảnh ảo lớn hơn vật khi vật đặt trong tiêu cự.
+
 b) Kính hiển vi dùng vật kính tạo ảnh trung gian phóng đại rồi thị kính quan sát.
+
 c) Kính thiên văn dùng để tăng góc trông của vật rất xa.
+
 d) Bội giác không liên quan tiêu cự của các bộ phận quang học.
 
 ??? success "Đáp án và lời giải"

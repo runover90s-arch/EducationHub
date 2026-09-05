@@ -20,8 +20,11 @@ tags:
 Từ thông qua một diện tích phẳng S trong từ trường đều B được tính bởi
 
 A. $\Phi=BS\cos\alpha$.
+
 B. $\Phi=BS\sin\alpha$ trong mọi quy ước.
+
 C. $\Phi=B/S$.
+
 D. $\Phi=BS^2$.
 
 ??? success "Đáp án và lời giải"
@@ -32,8 +35,11 @@ D. $\Phi=BS^2$.
 Đơn vị SI của từ thông là
 
 A. tesla.
+
 B. weber.
+
 C. henry.
+
 D. ampe.
 
 ??? success "Đáp án và lời giải"
@@ -44,8 +50,11 @@ D. ampe.
 Nếu $\vec B$ song song mặt phẳng vòng dây thì từ thông qua vòng
 
 A. cực đại.
+
 B. bằng 0.
+
 C. bằng BS.
+
 D. vô hạn.
 
 ??? success "Đáp án và lời giải"
@@ -58,8 +67,11 @@ D. vô hạn.
 Về từ thông:
 
 a) Là đại lượng vô hướng có dấu phụ thuộc cách chọn pháp tuyến.
+
 b) Có thể thay đổi do B, S hoặc góc định hướng thay đổi.
+
 c) Không đổi nếu vòng quay trong từ trường đều.
+
 d) Hiện tượng cảm ứng điện từ gắn với sự biến thiên từ thông qua mạch.
 
 ??? success "Đáp án và lời giải"

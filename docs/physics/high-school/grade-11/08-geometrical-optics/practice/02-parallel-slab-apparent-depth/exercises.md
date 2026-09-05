@@ -20,8 +20,11 @@ tags:
 Nhìn gần vuông góc từ không khí xuống vật dưới nước n=4/3, độ sâu biểu kiến h' liên hệ độ sâu thật h bởi
 
 A. $h'=nh$.
+
 B. $h'=h/n$.
+
 C. $h'=h+n$.
+
 D. $h'=h$.
 
 ??? success "Đáp án và lời giải"
@@ -32,8 +35,11 @@ D. $h'=h$.
 Vật ở độ sâu thật 1,2 m trong nước n=4/3. Độ sâu biểu kiến gần bằng
 
 A. 0,9 m.
+
 B. 1,2 m.
+
 C. 1,6 m.
+
 D. 2,1 m.
 
 ??? success "Đáp án và lời giải"
@@ -44,8 +50,11 @@ D. 2,1 m.
 Qua bản mặt song song, tia ló so với tia tới thường
 
 A. song song nhưng lệch ngang nếu hai môi trường ngoài giống nhau.
+
 B. vuông góc.
+
 C. luôn trùng hẳn.
+
 D. đổi tần số.
 
 ??? success "Đáp án và lời giải"
@@ -58,8 +67,11 @@ D. đổi tần số.
 Bản mặt song song:
 
 a) Hai mặt giới hạn song song.
+
 b) Nếu môi trường trước và sau giống nhau, tia ló song song tia tới.
+
 c) Có thể xảy ra độ lệch ngang.
+
 d) Tần số ánh sáng sau khi ra khỏi bản khác tần số ban đầu.
 
 ??? success "Đáp án và lời giải"

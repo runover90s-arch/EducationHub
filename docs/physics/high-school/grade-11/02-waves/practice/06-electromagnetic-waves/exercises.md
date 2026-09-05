@@ -20,8 +20,11 @@ tags:
 Sóng điện từ truyền được
 
 A. chỉ trong chất rắn.
+
 B. chỉ trong không khí.
+
 C. trong chân không.
+
 D. chỉ trong chất dẫn điện.
 
 ??? success "Đáp án và lời giải"
@@ -32,8 +35,11 @@ D. chỉ trong chất dẫn điện.
 Trong chân không, sóng điện từ có tần số $100$ MHz. Bước sóng gần bằng
 
 A. $0,3$ m.
+
 B. $3$ m.
+
 C. $30$ m.
+
 D. $300$ m.
 
 ??? success "Đáp án và lời giải"
@@ -44,8 +50,11 @@ D. $300$ m.
 Trong sóng điện từ, vectơ điện trường và vectơ cảm ứng từ
 
 A. song song nhau.
+
 B. vuông góc nhau và vuông góc phương truyền sóng.
+
 C. luôn ngược pha.
+
 D. không biến thiên theo thời gian.
 
 ??? success "Đáp án và lời giải"
@@ -58,8 +67,11 @@ D. không biến thiên theo thời gian.
 Xét sóng điện từ trong chân không:
 
 a) Tốc độ bằng $c\approx3\cdot10^8$ m/s.
+
 b) Tần số càng lớn thì bước sóng càng nhỏ.
+
 c) Sóng điện từ là sóng dọc.
+
 d) Ánh sáng nhìn thấy là một phần của phổ điện từ.
 
 ??? success "Đáp án và lời giải"
@@ -104,41 +116,41 @@ Một bức xạ có tần số $6,0\cdot10^{14}$ Hz đi từ chân không vào 
 
 ## Ngân hàng bài tập mở rộng
 
-> Các bài dưới đây được đánh số nối tiếp phần bài tập phía trên. Đề bài được trình bày bằng Markdown; chỉ đồ thị, hình vẽ hoặc sơ đồ thực sự cần thiết mới được giữ dưới dạng hình. Đáp án và lời giải được đặt trong nút mở rộng ngay dưới từng bài.
-
 ### Nhận biết — Trả lời ngắn
 
 #### Bài 9
 
 <!-- source-id: BT-Chuong-II-p106-q1-227 -->
 
-Một sóng điện từ có tần số 150 MHz truyền với tốc độ
-8
-3.10 m/s có bước sóng là bao nhiêu mét?
+Một sóng điện từ có tần số 150 MHz truyền với tốc độ $3\times10^8$ m/s có bước sóng là bao nhiêu mét?
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** 2
+
     **Hướng dẫn giải:**
+    Đổi $150$ MHz $=1{,}5\times10^8$ Hz. Bước sóng là
 
-    Sóng điện từ trong chân không thỏa $c=\lambda f$; $\vec E$, $\vec B$ và phương truyền sóng đôi một vuông góc.
+    $\lambda=\dfrac{v}{f}=\dfrac{3\times10^8}{1{,}5\times10^8}=2$ m.
 
-    Vậy kết quả cần tìm là **2**.
+    Vậy kết quả cần tìm là **2 m**.
+
 #### Bài 10
 
 <!-- source-id: BT-Chuong-II-p106-q2-228 -->
 
-Biết tốc độ ánh sáng trong chân không là c = 3.108 m/s. Khi truyền trong nước có chiết suất bằng
-4/3 thì bước sóng của ánh sáng có tần số 5,6.1014 Hz bằng bao nhiêu μm?
+Biết tốc độ ánh sáng trong chân không là c = $3\times10^{8}$ m/s. Khi truyền trong nước có chiết suất bằng
+4/3 thì bước sóng của ánh sáng có tần số $5{,}6\times10^{14}$ Hz bằng bao nhiêu $\mu\mathrm{m}$?
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** $0{,}4$
     **Hướng dẫn giải:**
 
-    Sóng điện từ trong chân không thỏa $c=\lambda f$; $\vec E$, $\vec B$ và phương truyền sóng đôi một vuông góc.
-
     Bước sóng của ánh sáng khi truyền trong nước:
 
+    $\lambda=\dfrac{c}{fn}=\dfrac{3\times10^8}{5{,}6\times10^{14}\cdot4/3}\approx0{,}4\,\mu\mathrm{m}$.
+
     Vậy kết quả cần tìm là **$0{,}4$**.
+
 #### Bài 11
 
 <!-- source-id: BT-Chuong-II-p106-q3-229 -->
@@ -161,36 +173,39 @@ sóng 4G, 5G có tần số trải từ 1800 MHz đến 3900 MHz. Tính bước 
 <!-- source-id: BT-Chuong-II-p106-q4-230 -->
 
 Một máy phát sóng vô tuyến AM đẳng hướng trong không gian. Ở khoảng cách 30 km từ máy
-phát này, ta nhận được sóng có cường độ bằng 4,42.10-6 W/m2. Công suất của máy phát này là bao nhiêu
+phát này, ta nhận được sóng có cường độ bằng $4{,}42\times10^{-6}$ $\mathrm{W/m^2}$. Công suất của máy phát này là bao nhiêu
 kW?
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** $50$
     **Hướng dẫn giải:**
 
-    Sóng điện từ trong chân không thỏa $c=\lambda f$; $\vec E$, $\vec B$ và phương truyền sóng đôi một vuông góc.
+    Với nguồn phát đẳng hướng, $I=P/(4\pi r^2)$, nên
+
+    $P=4\pi r^2I=4\pi(30\times10^3)^2\cdot4{,}42\times10^{-6}\approx5{,}0\times10^4\,\mathrm{W}=50\,\mathrm{kW}$.
 
     Vậy kết quả cần tìm là **$50$**.
+
 #### Bài 13
 
 <!-- source-id: BT-Chuong-II-p106-q5-231 -->
 
-Dùng sóng vô tuyến ngắn người ta đo được khoảng cách từ Trái Đất đến Mặt Trăng là 3,75.108
-m, bằng cách phát một tín hiệu từ Trái Đất tới Mặt Trăng và thu tín hiệu trở lại, đo khoảng thời gian từ
-khi phát đến khi nhận tín hiệu. Biết tốc độ của sóng vô tuyến này là
-8
-3.10 m/s. Khoảng thời gian từ khi
-phát tới khi nhận được tín hiệu trở lại là bao nhiêu giây?
+Dùng sóng vô tuyến ngắn, người ta đo được khoảng cách từ Trái Đất đến Mặt Trăng là $3{,}75\times10^8$ m bằng cách phát một tín hiệu từ Trái Đất tới Mặt Trăng và thu tín hiệu trở lại, đo khoảng thời gian từ khi phát đến khi nhận tín hiệu. Biết tốc độ của sóng vô tuyến này là $3\times10^8$ m/s. Khoảng thời gian từ khi phát tới khi nhận được tín hiệu trở lại là bao nhiêu giây?
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** $2{,}5$
+
     **Hướng dẫn giải:**
+    Tín hiệu đi từ Trái Đất đến Mặt Trăng rồi quay lại nên quãng đường là
 
-    Sóng điện từ trong chân không thỏa $c=\lambda f$; $\vec E$, $\vec B$ và phương truyền sóng đôi một vuông góc.
+    $s=2\cdot3{,}75\times10^8=7{,}5\times10^8$ m.
 
-    Khoảng cách từ Trái Đất đến Mặt Trăng là:
+    Thời gian truyền là
 
-    Vậy kết quả cần tìm là **$2{,}5$**.
+    $t=\dfrac{s}{v}=\dfrac{7{,}5\times10^8}{3\times10^8}=2{,}5$ s.
+
+    Vậy kết quả cần tìm là **$2{,}5$ s**.
+
 #### Bài 14
 
 <!-- source-id: BT-Chuong-II-p107-q6-232 -->
@@ -198,7 +213,7 @@ phát tới khi nhận được tín hiệu trở lại là bao nhiêu giây?
 Một vệ tinh địa tĩnh nhận sóng truyền hình từ đài phát rồi phát lại tức thời tín hiệu đó về Trái Đất.
 Khoảng thời gian lớn nhất mà sóng truyền hình đi từ đài phát đến Trái Đất là 0,25 s. Coi Trái Đất là một
 hình cầu có bán kính 6400 km, đài phát hình trên mặt đất, nằm trên đường thẳng nối vệ tinh và tâm Trái
-Đất. Biết tốc độ truyền sóng c = 3.108 m/s. Độ cao của vệ tinh là bao nhiêu nghìn km?
+Đất. Biết tốc độ truyền sóng c = $3\times10^{8}$ m/s. Độ cao của vệ tinh là bao nhiêu nghìn km?
 ??? success "Đáp án và lời giải"
     **Đáp án:** $34{,}6$
     **Hướng dẫn giải:**
@@ -228,28 +243,23 @@ Sóng điện từ có tần số 20 MHz truyền trong chân không với bư�
 
 <!-- source-id: BT-Chuong-II-p114-q2-256 -->
 
-Khi ánh sáng đỏ (có bước sóng 0,75 μm trong chân không. truyền vào môi trường trong suốt, tốc
-độ của nó giảm xuống còn 2,5.108 m/s. Tần số của ánh sáng đỏ trong chân không có giá trị là bao nhiêu
-1014 Hz?
+Khi ánh sáng đỏ (có bước sóng $0{,}75\,\mu\mathrm{m}$ trong chân không) truyền vào môi trường trong suốt, tốc độ của nó giảm xuống còn $2{,}5\times10^8\,\mathrm{m/s}$. Tần số của ánh sáng đỏ trong chân không có giá trị là bao nhiêu $10^{14}\,\mathrm{Hz}$?
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** 4
     **Hướng dẫn giải:**
 
-    Sóng điện từ trong chân không thỏa $c=\lambda f$; $\vec E$, $\vec B$ và phương truyền sóng đôi một vuông góc.
-
     Tần số của ánh sáng đỏ trong chân không:
 
-    Vậy kết quả cần tìm là **4**.
+    $f=\dfrac{c}{\lambda}=\dfrac{3\times10^8}{0{,}75\times10^{-6}}=4\times10^{14}\,\mathrm{Hz}$.
+
+    Vậy hệ số cần điền là **4**.
+
 #### Bài 17
 
 <!-- source-id: BT-Chuong-II-p114-q3-257 -->
 
-Một vệ tinh nhân tạo chuyển động ở độ cao 350 km so với mặt đất phát sóng vô tuyến với công
-suất bằng 50 kW về phía mặt đất. Bỏ qua sự hấp thụ sóng của khí quyển. Cường độ sóng nhận được bởi
-một máy thu vô tuyến ở mặt đất ngay phía dưới vệ tinh là bao nhiêu
-2
-nW/m ?
+Một vệ tinh nhân tạo chuyển động ở độ cao 350 km so với mặt đất phát sóng vô tuyến với công suất bằng 50 kW về phía mặt đất. Bỏ qua sự hấp thụ sóng của khí quyển. Cường độ sóng nhận được bởi một máy thu vô tuyến ở mặt đất ngay phía dưới vệ tinh là bao nhiêu $\mathrm{nW/m^2}$?
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** $32{,}5$
@@ -265,9 +275,9 @@ nW/m ?
 <!-- source-id: BT-Chuong-II-p114-q5-259 -->
 
 Một ăng ten ra đa phát ra sóng điện từ đến một máy bay đang bay về phía ra đa. Thời gian từ lúc
-ăng ten phát đến lúc sóng phản xạ trở lại là 120 µs, ăng ten quay với tốc độ 0,6 vòng/s. Ở vị trí của đầu
+ăng ten phát đến lúc sóng phản xạ trở lại là $120\,\mu\mathrm{s}$, ăng ten quay với tốc độ 0,6 vòng/s. Ở vị trí của đầu
 vòng quay tiếp theo ứng với hướng của máy bay, ăng ten lại phát sóng điện từ, thời gian từ lúc phát đến
-lúc nhận lần này là 116µs. Biết tốc độ truyền sóng điện từ trong không khí bằng 3.108 (m/s). Tính vận
+lúc nhận lần này là $116\,\mu\mathrm{s}$. Biết tốc độ truyền sóng điện từ trong không khí bằng $3\times10^{8}$ (m/s). Tính vận
 tốc trung bình của máy bay ra km/h?
 
 ??? success "Đáp án và lời giải"
@@ -286,7 +296,7 @@ tốc trung bình của máy bay ra km/h?
 Trạm rada Sơn Trà (Đà Nẵng. ở độ cao 900 m so với mực nước biến, có tọa độ 16°8’vĩ Bắc và
 108°15’kinh Đông (ngay cạnh bờ biển). Coi mặt biển là một mặt cầu bán kính 6400 km. Nếu chỉ xét
 sóng phát từ rada truyền thẳng trong không khí đến tàu thuyền và bỏ qua chiều cao con thuyền thì vùng
-phủ sóng của trạm trên mặt biến là một phần mặt cầu − gọi là vùng phủ sóng. Tính độ dài vĩ tuyến Bắc
+phủ sóng của trạm trên mặt biến là một phần mặt cầu - gọi là vùng phủ sóng. Tính độ dài vĩ tuyến Bắc
 16°8’ tính từ chân rada đến hết vùng phủ sóng ra km?
 
 ??? success "Đáp án và lời giải"
@@ -295,15 +305,9 @@ phủ sóng của trạm trên mặt biến là một phần mặt cầu − g�
 
     Sóng điện từ trong chân không thỏa $c=\lambda f$; $\vec E$, $\vec B$ và phương truyền sóng đôi một vuông góc.
 
-    Gọi N là vị trí Rada, r là bán kính mặt phẳng vĩ tuyến (hình tròn). R là bán kính Trái Đất. HA là tiếp
-    tuyến 16°8’ của đường tròn vĩ tuyến tại A.
-    CHƯƠNG II - SÓNG
-    Chủ đề 11 : GIAO THOA SÓNG
-    • Yêu cầu cần đạt (Trích từ CTGDPT Vật lí 2018):
-    - Thực hiện (hoặc mô tả) được thí nghiệm chứng minh sự giao thoa hai sóng kết hợp bằng dụng cụ thực hành
+    Gọi N là vị trí radar, $r$ là bán kính đường tròn vĩ tuyến và $R$ là bán kính Trái Đất. Dùng hình học của tiếp tuyến từ radar tới mặt cầu Trái Đất để xác định giới hạn vùng phủ sóng, rồi quy đổi sang độ dài cung vĩ tuyến.
 
     Vậy kết quả cần tìm là **$103$**.
-### Nhận biết — Trắc nghiệm 4 lựa chọn
 
 #### Bài 20
 
@@ -333,7 +337,7 @@ D. luôn không bị phản xạ, khúc xạ khi gặp mặt phân cách giữa 
 
 Ánh sáng không có đặc điểm nào sau đây?
 
-A. Luôn truyền với vận tốc 3.108m/s.
+A. Luôn truyền với vận tốc $3\times10^8\,\mathrm{m/s}$.
 
 B. Có thể truyền trong môi trường vật chất.
 
@@ -342,8 +346,10 @@ C. Có thể truyền trong chân không.
 D. Có mang năng lượng.
 
 ??? success "Đáp án và lời giải"
+    **Đáp án:** A.
+
     **Hướng dẫn giải:**
-    Ánh sáng chỉ truyền trong chân không với vận tốc v = 3.108 m/s.
+    Ánh sáng chỉ có tốc độ đúng bằng $3\times10^8\,\mathrm{m/s}$ trong chân không. Trong môi trường vật chất, tốc độ nhỏ hơn $c$. Các đặc điểm B, C, D đều đúng.
 
 #### Bài 22
 
@@ -360,20 +366,20 @@ C. Sóng điện từ là sóng ngang.
 D. Sóng điện từ không truyền được trong chân không.
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** A
+    **Đáp án:** D.
+
     **Hướng dẫn giải:**
+    Sóng điện từ mang năng lượng, là sóng ngang, có giao thoa và nhiễu xạ, đồng thời truyền được trong chân không. Vì vậy phát biểu sai là D.
 
-    Sóng điện từ trong chân không thỏa $c=\lambda f$; $\vec E$, $\vec B$ và phương truyền sóng đôi một vuông góc.
-
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. Sóng điện từ mang năng lượng.**
 #### Bài 23
 
 <!-- source-id: BT-Chuong-II-p102-q23-220 -->
 
 Một angten vệ tinh có công suất phát sóng là 1570 W hướng về một vùng của Trái Đất. Tín hiệu
-nhận được từ vệ tinh ở vùng đó trên mặt đất có cường độ là 5.10-10W/m2. Bán kính đáy của hình nón tiếp
+nhận được từ vệ tinh ở vùng đó trên mặt đất có cường độ là $5\times10^{-10}\,\mathrm{W/m^2}$. Bán kính đáy của hình nón tiếp
 xúc với mặt đất được vệ tinh phủ sóng là
+
+![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/ii_p102_q23_220_fig1.webp){ loading=lazy }
 
 A. 1000 km.
 
@@ -383,12 +389,15 @@ C. 10000 km.
 
 D. 5000 km.
 
-![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/ii_p102_q23_220_fig1.webp){ loading=lazy }
-
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
     **Hướng dẫn giải:**
-    Ta có: P = I.S = I.πR2  R = 1000 km
+
+    $P=IS=I\pi R^2$, suy ra
+
+    $R=\sqrt{\dfrac{P}{I\pi}}=1000\,\mathrm{km}$.
+
+    Đối chiếu các lựa chọn, chọn **A**.
 
 #### Bài 24
 
@@ -400,8 +409,10 @@ tổng mức đầu tư là khoảng hơn 300 triệu USD. Việt Nam đã tiế
 lãnh thổ để có được vị trí 132 độ Đông trên quỹ đạo địa tĩnh. Biết rằng khi vệ tinh phát tín hiệu vô tuyến
 đến một điểm xa nhất trên mặt đất thì từ lúc phát tín hiệu đến mặt đất cho đến lúc vệ tinh thu lại được tín
 hiệu phản hồi mất khoảng thời gian là 0,28 s. Trái đất được xem như một hình cầu có bán kính khoảng
-6400 km (ghi kết quả gần đúng chính xác đến hàng đơn vị), giả sử vận tốc sóng vô tuyến là 3.108 m/s.
+6400 km (ghi kết quả gần đúng chính xác đến hàng đơn vị), giả sử vận tốc sóng vô tuyến là $3\times10^{8}$ m/s.
 Khoảng cách từ vệ tinh Vinasat-1 đến mặt đất là
+
+![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/ii_p102_q24_221_fig1.webp){ loading=lazy }
 
 A. 36065 km
 
@@ -411,30 +422,30 @@ C. 36185 km
 
 D. 36165 km
 
-![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/ii_p102_q24_221_fig1.webp){ loading=lazy }
-
 ??? success "Đáp án và lời giải"
     **Đáp án:** B
     **Hướng dẫn giải:**
 
-    Sóng điện từ trong chân không thỏa $c=\lambda f$; $\vec E$, $\vec B$ và phương truyền sóng đôi một vuông góc.
+    Thời gian tín hiệu truyền một chiều từ vệ tinh A đến điểm xa nhất M là $0{,}28/2=0{,}14\,\mathrm{s}$.
 
-    Do thời gian từ lúc truyền tín hiệu đến lúc nhận lại tín hiệu là 0,28s, nên thời gian tín hiệu truyền từ A
-    đến M là: 0,28 : 2 = 0,14 (s) Độ dài đoạn AM cũng là quãng đường tín hiệu truyền đi được trong 0,14s
-    Vị trí xa nhất trên trái đất có thể có thể nhận tín hiệu từ vệ tinh là vô số điểm M ( với AM là tiếp tuyến
-    kẻ từ A đến đường tròn tâm O) Vì AM là tiếp tuyến (O) ⇒ OM ⊥ AM tại M, Xét vuông AMO, áp dụng
-    định lý pitago ta có:
-    Khoảng cách từ vệ tỉnh Vinasat-1 đến mặt đất là độ dài đoạn AH:
+    $AM=ct=3\times10^8\cdot0{,}14=4{,}2\times10^7\,\mathrm{m}=42000\,\mathrm{km}$.
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **B. 36085 km**
+    Vì AM tiếp tuyến với Trái Đất tại M, $OM\perp AM$. Do đó
+
+    $OA=\sqrt{OM^2+AM^2}=\sqrt{6400^2+42000^2}\approx42485\,\mathrm{km}$.
+
+    $AH=AO-OH=42485-6400=36085\,\mathrm{km}$.
+
+    Đối chiếu các lựa chọn, chọn **B**.
+
 #### Bài 25
 
 <!-- source-id: BT-Chuong-II-p103-q25-222 -->
 
 Giả sử một vệ tinh dùng trong truyền thông đang đứng yên so với mặt đất ở một độ cao xác định
 trong mặt phẳng Xích đạo Trái Đất; đường thẳng nối vệ tinh với tâm trái đất đi qua kinh tuyến 30°Đ. Coi
-Trái Đất như một quả cầu, bán kính là 6370 km; khối lượng là 6.1024 kg và chu kì quay quanh trục của nó
-là 24 h; hằng số hấp dẫn G = 6,67.10 − 11 N.m2/kg2. Sóng cực ngắn f &gt; 30 MHz phát từ vệ tinh truyền
+Trái Đất như một quả cầu, bán kính là 6370 km; khối lượng là $6\times10^{24}$ kg và chu kì quay quanh trục của nó
+là 24 h; hằng số hấp dẫn G = $6{,}67\times10^{-11}$ $\mathrm{N\,m^2/kg^2}$. Sóng cực ngắn f &gt; 30 MHz phát từ vệ tinh truyền
 thắng đến các điểm nằm trên Xích Đạo Trái Đất trong khoảng kinh độ nào dưới đây ?
 
 A. Từ kinh độ 85°20’ Đ đến kinh độ 85°20’T.
@@ -449,15 +460,18 @@ D. Từ kinh độ 83°20'T đến kinh độ 83°20'Đ.
     **Đáp án:** B
     **Hướng dẫn giải:**
 
-    Sóng điện từ trong chân không thỏa $c=\lambda f$; $\vec E$, $\vec B$ và phương truyền sóng đôi một vuông góc.
+    Với vệ tinh địa tĩnh, lực hấp dẫn đóng vai trò lực hướng tâm:
 
-    Với vệ tinh địa tĩnh (đứng yên so với Trái Đất), lực hấp dẫn là lực hướng tâm nên:
-    Vùng phủ sóng nằm trong miền giữa hai tiếp tuyến kể từ vệ tinh với Trái Đất.
-    Từ đó tính được
-    Từ kinh độ
-    đến kinh độ
+    $m\left(\dfrac{2\pi}{T}\right)^2r=\dfrac{GmM}{r^2}$,
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **B. Từ kinh độ 111°20' Đ đến kinh đô 51°20’T.**
+    nên $r=\sqrt[3]{GM\left(\dfrac{T}{2\pi}\right)^2}\approx4{,}2298\times10^7\,\mathrm{m}$.
+
+    Vùng phủ sóng nằm giữa hai tiếp tuyến từ vệ tinh đến Trái Đất. Với $R=6370\,\mathrm{km}$,
+
+    $\cos\varphi=R/r$, suy ra $\varphi\approx81^\circ20'$. Theo kinh tuyến vệ tinh $30^\circ$Đ, giới hạn xấp xỉ từ $51^\circ20'$T đến $111^\circ20'$Đ.
+
+    Đối chiếu các lựa chọn, chọn **B**.
+
 #### Bài 26
 
 <!-- source-id: BT-Chuong-II-p108-q3-235 -->
@@ -473,18 +487,16 @@ C. 50 m trở lên.
 
 D. dưới 10 m.
 ??? success "Đáp án và lời giải"
-    **Đáp án:** B
+    **Đáp án:** D. Dưới $10\,\mathrm{m}$.
+
     **Hướng dẫn giải:**
+    Truyền hình vô tuyến dùng các dải sóng cực ngắn/VHF-UHF có bước sóng cỡ mét đến dưới chục mét; trong các lựa chọn, D phù hợp với đáp án nguồn.
 
-    Sóng điện từ trong chân không thỏa $c=\lambda f$; $\vec E$, $\vec B$ và phương truyền sóng đôi một vuông góc.
-
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **B. vài trăm mét.**
 #### Bài 27
 
 <!-- source-id: BT-Chuong-II-p196-q13-437 -->
 
-Loại sóng điện từ ứng với tần số 1018 Hz là
+Loại sóng điện từ ứng với tần số $10^{18}\,\mathrm{Hz}$ là
 
 A. tia X.
 
@@ -505,42 +517,34 @@ D. ánh sáng nhìn thấy.
 
 <!-- source-id: BT-Chuong-II-p104-q2-224 -->
 
-Một ánh sáng đơn sắc có tần số 6.1014 Hz. Biết tốc độ ánh sáng trong chân không là c = 3.108 m/s.
+Một ánh sáng đơn sắc có tần số $6\times10^{14}\,\mathrm{Hz}$. Biết tốc độ ánh sáng trong chân không là $c=3\times10^8\,\mathrm{m/s}$.
 
-Phát biểu
-Đúng Sai
-a
-Bước sóng của ánh sáng trong chân không là 0,5 m
-μ
+a) Bước sóng của ánh sáng trong chân không là $0{,}5\,\mu\mathrm{m}$.
 
-Đ
+b) Tốc độ ánh sáng khi truyền trong môi trường có chiết suất 1,52 là $225\times10^6\,\mathrm{m/s}$.
 
-b
-Tốc độ ánh sáng khi truyền trong môi trường có chiết
-suất 1,52 là 225.106 m/s.
+c) Bước sóng của ánh sáng khi truyền trong nước có chiết suất $4/3$ là $0{,}3\,\mu\mathrm{m}$.
 
-S
-c
-Bước sóng của ánh sáng khi truyền trong nước có
-chiết suất 4/3 là 0,3 m
-μ
-.
-
-S
-d
-Ánh sáng khi truyền trong nước là ánh sáng khả kiến.
-
-S
+d) Ánh sáng khi truyền trong nước là ánh sáng khả kiến.
 
 ??? success "Đáp án và lời giải"
+    **Đáp án:** a) Đúng; b) Sai; c) Sai; d) Đúng.
+
     **Hướng dẫn giải:**
+    a) Trong chân không,
+    $\lambda_0=c/f=3\times10^8/(6\times10^{14})=5\times10^{-7}\,\mathrm{m}=0{,}5\,\mu\mathrm{m}$.
 
-    Sóng điện từ trong chân không thỏa $c=\lambda f$; $\vec E$, $\vec B$ và phương truyền sóng đôi một vuông góc.
+    b) Trong môi trường $n=1{,}52$:
+    $v=c/n\approx1{,}97\times10^8\,\mathrm{m/s}$, không phải $2{,}25\times10^8\,\mathrm{m/s}$.
 
-    a) Bước sóng của ánh sáng trong chân không là:
-    b) Tốc độ ánh sáng khi truyền trong môi trường có chiết suất n là
-    c) Bước sóng của ánh sáng khi truyền trong trong nước là:
-    d) Ánh sáng khi truyền trong khi truyền trong trong nước là tia tử ngoại .
+    c) Trong nước $n=4/3$:
+    $\lambda=\lambda_0/n=0{,}5/(4/3)=0{,}375\,\mu\mathrm{m}$, không phải $0{,}3\,\mu\mathrm{m}$.
+
+    d) Khi qua mặt phân cách, tần số ánh sáng không đổi. $f=6\times10^{14}\,\mathrm{Hz}$ vẫn thuộc miền ánh sáng nhìn thấy, nên phát biểu đúng.
+
+    !!! warning "Đối chiếu nguồn"
+        Hướng dẫn PDF cho rằng khi bước sóng giảm trong nước thì ánh sáng trở thành tử ngoại. Phân loại bức xạ phải dựa vào tần số (không đổi khi truyền qua môi trường), nên kết luận đó sai.
+
 #### Bài 29
 
 <!-- source-id: BT-Chuong-II-p105-q3-225 -->
@@ -548,8 +552,11 @@ S
 Một radar phát vi sóng có công suất $10$ W. Biết cường độ vi sóng tối đa không gây nguy hiểm cho cơ thể người khi bị phơi nhiễm là $1500$ mW/m$^2$. Xét các phát biểu:
 
 a) Cường độ vi sóng tối thiểu sẽ gây nguy hiểm cho cơ thể người là $1{,}5$ W/m$^2$.
+
 b) Cường độ vi sóng tỉ lệ nghịch với khoảng cách $r$ đến radar.
+
 c) Khi cường độ vi sóng vượt quá $1{,}5$ W/m$^2$ sẽ gây nguy hiểm cho cơ thể người.
+
 d) Khoảng cách tối thiểu từ người đến radar để bảo đảm an toàn xấp xỉ $0{,}728$ m.
 
 ??? success "Đáp án và lời giải"
@@ -560,7 +567,7 @@ d) Khoảng cách tối thiểu từ người đến radar để bảo đảm an
 
     Nếu coi nguồn phát đều theo mọi hướng,
 
-    $$I=\frac{P}{4\pi r^2},$$
+    $I=\frac{P}{4\pi r^2},$
 
     nên $I\propto1/r^2$, không phải $1/r$; b sai.
 
@@ -571,178 +578,118 @@ d) Khoảng cách tối thiểu từ người đến radar để bảo đảm an
 
 <!-- source-id: BT-Chuong-II-p105-q4-226 -->
 
-Một anten radar phát ra những sóng điện từ đến vật đang chuyển động ra xa phía radar. Thời gian
-từ lúc anten phát sóng đến lúc nhận sóng phản xạ từ vật trở lại là 80 𝜇s. Sau 5 phút, đo lần thứ hai, thời
-gian từ lúc phát đến lúc nhận lần này là 84 𝜇s. Coi tốc độ của sóng điện từ trong không khí bằng 3.108
-m/s.
+Một anten radar phát ra những sóng điện từ đến vật đang chuyển động ra xa phía radar. Thời gian từ lúc anten phát sóng đến lúc nhận sóng phản xạ từ vật trở lại là $80\,\mu\mathrm{s}$. Sau 5 phút, đo lần thứ hai, thời gian từ lúc phát đến lúc nhận lần này là $84\,\mu\mathrm{s}$. Coi tốc độ của sóng điện từ trong không khí bằng $3\times10^8\,\mathrm{m/s}$.
 
-Phát biểu
-Đúng Sai
-a
-Khoảng cách từ radar đến vật ở lần phát thứ nhất là
-12000 m.
-Đ
+a) Khoảng cách từ radar đến vật ở lần phát thứ nhất là 12000 m.
 
-b
-Khoảng cách từ radar đến vật ở lần phát thứ 2 là
-14000 m.
+b) Khoảng cách từ radar đến vật ở lần phát thứ 2 là 14000 m.
 
-S
-c
-Quãng đường vật đã đi giữa 2 lần đo là 2000 m.
+c) Quãng đường vật đã đi giữa 2 lần đo là 2000 m.
 
-S
-d
-Tốc độ trung bình của vật chuyển động là 2 m/s.
-Đ
+d) Tốc độ trung bình của vật chuyển động là 2 m/s.
 
 ??? success "Đáp án và lời giải"
+    **Đáp án:** a) Đúng; b) Sai; c) Sai; d) Đúng.
+
     **Hướng dẫn giải:**
+    $d=ct/2$ vì thời gian radar đo gồm cả lượt đi và về.
+    Lần 1: $d_1=3\times10^8\cdot80\times10^{-6}/2=12000\,\mathrm{m}$.
+    Lần 2: $d_2=3\times10^8\cdot84\times10^{-6}/2=12600\,\mathrm{m}$.
+    Vậy vật đi thêm $600\,\mathrm{m}$ trong $5\,\mathrm{phút}=300\,\mathrm{s}$ và $v_{tb}=600/300=2\,\mathrm{m/s}$.
 
-    Sóng điện từ trong chân không thỏa $c=\lambda f$; $\vec E$, $\vec B$ và phương truyền sóng đôi một vuông góc.
-
-    a) Lần 1:
-    c.t
-    b) Lần 2:
-    c) Quãng đường vật đã đi giữa 2 lần đo: s = d2 – d1 = 600 m.
-    d) Tốc độ trung bình của vật: vtb = s/Δt = 600/300 = 2 m/s.
 #### Bài 31
 
 <!-- source-id: BT-Chuong-II-p111-q3-253 -->
 
-Tại Việt Nam sẽ chính thức tắt sóng 2G hoàn toàn trên toàn quốc vào tháng 9/2024, có tần số trải
-từ 900 MHz đến 1800 MHz.
+Tại Việt Nam sẽ chính thức tắt sóng 2G hoàn toàn trên toàn quốc vào tháng 9/2024, có tần số trải từ 900 MHz đến 1800 MHz.
 
-Phát biểu
-Đúng Sai
-a
-Bước sóng lớn nhất của sóng điện từ mà điện thoại
-di động bắt được là 0,3 m.
+a) Bước sóng lớn nhất của sóng điện từ mà điện thoại di động bắt được là 0,3 m.
 
-S
-b
-Bước sóng nhỏ nhất của sóng điện từ mà điện thoại
-di động bắt được là 0,12 m.
+b) Bước sóng nhỏ nhất của sóng điện từ mà điện thoại di động bắt được là 0,12 m.
 
-S
-c
-Sóng điện từ 2G mà điện thoại di động bắt chúng ta
-không thể nhìn thấy được bằng mắt thường.
-Đ
+c) Sóng điện từ 2G mà điện thoại di động bắt chúng ta không thể nhìn thấy được bằng mắt thường.
 
-d
-Sóng điện từ mà điện thoại di động bắt được là sóng
-vô tuyến.
-Đ
+d) Sóng điện từ mà điện thoại di động bắt được là sóng vô tuyến.
 
 ??? success "Đáp án và lời giải"
+    **Đáp án:** a) Sai; b) Sai; c) Đúng; d) Đúng.
+
     **Hướng dẫn giải:**
+    Với $c\approx3\times10^8\,\mathrm{m/s}$:
+    tại $900\,\mathrm{MHz}$, $\lambda_{\max}=c/f_{\min}\approx0{,}333\,\mathrm{m}$, nên a) Sai nếu lấy đúng dữ kiện đã cho.
+    Tại $1800\,\mathrm{MHz}$, $\lambda_{\min}=c/f_{\max}\approx0{,}167\,\mathrm{m}$, không phải $0{,}12\,\mathrm{m}$.
+    Các tần số 2G thuộc dải sóng vô tuyến và ngoài vùng nhìn thấy, nên c), d) Đúng.
 
-    Sóng điện từ trong chân không thỏa $c=\lambda f$; $\vec E$, $\vec B$ và phương truyền sóng đôi một vuông góc.
+    !!! warning "Đối chiếu nguồn"
+        Dòng hướng dẫn PDF từng thay nhầm $2600\,\mathrm{MHz}$ trong khi đề giới hạn đến $1800\,\mathrm{MHz}$. Phép tính được thực hiện theo đúng dữ kiện đề.
 
-    a) Bước sóng ứng với tần số 900 MHz là
-    b) Bước sóng ứng với tần số 2600 MHzlà
-    c) Mắt chúng ta không thể nhìn thấy các sóng này vì bước sóng của chúng không nằm trong dải ánh
-    sáng nhìn thấy.
-    d) Theo thang sóng điện từ, sóng điện từ 2G mà điện thoại di động bắt được là sóng vô tuyến.
 #### Bài 32
 
 <!-- source-id: BT-Chuong-II-p113-q4-254 -->
 
-Một vệ tinh thông tín (vệ tinh địa tĩnh) chuyển động trên quỹ đạo tròn ngay phía trên xích đạo
-của Trái Đất, quay cùng hướng và cùng chu kì tự quay của Trái Đất ở độ cao 36600 km so với đài phát
-hình trên mặt đất Đài phát nằm trên đường thẳng nối vệ tinh và tâm Trái Đất. Coi Trái Đất là một hình
-cầu có bán kính R = 6400 km. Vệ tinh nhận sóng truyền hình từ đài phát rồi phát lại tức thời tín hiệu đó
-về Trái Đất. Biết sóng có bước sóng
-0,5 m,
-λ=
- tốc độ truyền sóng
-8
-c
-
-3.10 m/s.
-=
-
-Phát biểu
-Đúng Sai
-a
-Thông tin được đài phát phát đi, vệ tinh thu nhận tín
-hiệu đó và phát trở lại trái đất. Các điểm trên mặt đất
-sẽ nhận được thông tin đó thông qua đầu thu tín hiệu.
-Đ
-
-b
-Khoảng thời gian lớn nhất mà sóng truyền hình đi từ
-đài phát đến một điểm trên mặt Trái Đất tương ứng
-với thời gian sóng truyền từ điểm D đến A sau đó từ
-A về
-
-B. Đ
-
-c
-Độ dài đoạn AB là 41521,1 km.
-
-S
-d
-Khoảng thời gian lớn nhất mà sóng truyền hình đi từ
-đài phát đến một điểm trên mặt Trái Đất là 0,64 s.
-
-S
+Một vệ tinh thông tín (vệ tinh địa tĩnh) chuyển động trên quỹ đạo tròn ngay phía trên xích đạo của Trái Đất, quay cùng hướng và cùng chu kì tự quay của Trái Đất ở độ cao 36600 km so với đài phát hình trên mặt đất. Đài phát nằm trên đường thẳng nối vệ tinh và tâm Trái Đất. Coi Trái Đất là một hình cầu có bán kính $R=6400\,\mathrm{km}$. Vệ tinh nhận sóng truyền hình từ đài phát rồi phát lại tức thời tín hiệu đó về Trái Đất. Biết sóng có bước sóng $\lambda=0{,}5\,\mathrm{m}$, tốc độ truyền sóng $c=3\times10^8\,\mathrm{m/s}$.
 
 ![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/ii_p113_q4_254_fig1.webp){ loading=lazy }
 
+a) Thông tin được đài phát phát đi, vệ tinh thu nhận tín hiệu đó và phát trở lại trái đất. Các điểm trên mặt đất sẽ nhận được thông tin đó thông qua đầu thu tín hiệu.
+
+b) Khoảng thời gian lớn nhất mà sóng truyền hình đi từ đài phát đến một điểm trên mặt Trái Đất tương ứng với thời gian sóng truyền từ điểm D đến A sau đó từ A về B.
+
+c) Độ dài đoạn AB là 41521,1 km.
+
+d) Khoảng thời gian lớn nhất mà sóng truyền hình đi từ đài phát đến một điểm trên mặt Trái Đất là 0,64 s.
+
 ??? success "Đáp án và lời giải"
+    **Đáp án:** a) Đúng; b) Đúng; c) Sai; d) Sai.
+
     **Hướng dẫn giải:**
+    a), b) Đúng theo mô hình truyền tín hiệu và đường đi xa nhất trên hình.
 
-    Sóng điện từ trong chân không thỏa $c=\lambda f$; $\vec E$, $\vec B$ và phương truyền sóng đôi một vuông góc.
+    c) $AO=h+R=43000\,\mathrm{km}$ và
+    $AB=\sqrt{AO^2-BO^2}=\sqrt{43000^2-6400^2}\approx42521{,}1\,\mathrm{km}$, không phải $41521{,}1\,\mathrm{km}$.
 
-    a) Đúng.
-    b) Đúng.
-    c) Độ dài đoạn AB là
-    d) Khoảng thời gian lớn nhất mà sóng truyền hình đi từ đài phát đến một điểm trên mặt Trái Đất:
+    d) $t=\dfrac{AD+AB}{c}=\dfrac{(36600+42521{,}1)\times10^3}{3\times10^8}\approx0{,}264\,\mathrm{s}$, không phải $0{,}64\,\mathrm{s}$.
+
 ### Thông hiểu — Trắc nghiệm 4 lựa chọn
 
 #### Bài 33
 
 <!-- source-id: BT-Chuong-II-p100-q16-213 -->
 
-Một sóng vô tuyến có tần số 108 Hz được truyền trong không trung với tốc độ 3.108 m/s. Bước
-sóng của sóng đó là
+Một sóng vô tuyến có tần số $10^8\,\mathrm{Hz}$ được truyền trong không trung với tốc độ $3\times10^8\,\mathrm{m/s}$. Bước sóng của sóng đó là
 
-A. 1,5 m
+A. 1,5 m.
 
-B. 3 m
+B. 3 m.
 
-C. 0,33 m
+C. 0,33 m.
 
-D. 0,16 m
+D. 0,16 m.
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** A
+    **Đáp án:** B. $3\,\mathrm{m}$.
+
     **Hướng dẫn giải:**
+    $\lambda=c/f=3\times10^8/10^8=3\,\mathrm{m}$.
 
-    Sóng điện từ trong chân không thỏa $c=\lambda f$; $\vec E$, $\vec B$ và phương truyền sóng đôi một vuông góc.
-
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. 1,5 m**
 #### Bài 34
 
 <!-- source-id: BT-Chuong-II-p198-q8-447 -->
 
 Sóng điện từ có bước sóng nào dưới đây thuộc về tia hồng ngoại?
 
-A. 7.10-2 m.
+A. $7\times10^{-2}$ m.
 
-B. 7.10-6 m.
+B. $7\times10^{-6}$ m.
 
-C. 7.10-7 m.
+C. $7\times10^{-7}$ m.
 
-D. 7.10-12 m.
+D. $7\times10^{-12}$ m.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** B
     **Hướng dẫn giải:**
-    Sóng điện từ có bước sóng 7.10-6m thuộc về tia hồng ngoại.
+    Sóng điện từ có bước sóng $7\times10^{-6}\,\mathrm{m}$ thuộc về tia hồng ngoại.
 
 ### Vận dụng — Trắc nghiệm 4 lựa chọn
 
@@ -751,7 +698,7 @@ D. 7.10-12 m.
 <!-- source-id: BT-Chuong-II-p101-q21-218 -->
 
 Khoảng cách từ một anten đến một vệ tinh địa tĩnh là 36000 km. Lấy tốc độ lan truyền sóng điện
-từ là 3.108 m/s. Thời gian truyền một tín hiệu sóng vô tuyến từ vệ tinh đến anten bằng
+từ là $3\times10^{8}$ m/s. Thời gian truyền một tín hiệu sóng vô tuyến từ vệ tinh đến anten bằng
 
 A. 1,08 s.
 
@@ -764,37 +711,29 @@ D. 10,8 ms.
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
     **Hướng dẫn giải:**
-
-    Sóng điện từ trong chân không thỏa $c=\lambda f$; $\vec E$, $\vec B$ và phương truyền sóng đôi một vuông góc.
-
-    Theo bài ra ta có 36000 km = 36000000 m
-    Khi đó thời gian để truyền tín hiệu sóng vô tuyến từ vệ tinh đến anten là:
+    $36000\,\mathrm{km}=3{,}6\times10^7\,\mathrm{m}$.
+    Thời gian truyền tín hiệu:
+    $t=\dfrac{s}{c}=\dfrac{3{,}6\times10^7}{3\times10^8}=0{,}12\,\mathrm{s}$.
 
     Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. 0,12 s.**
 #### Bài 36
 
 <!-- source-id: BT-Chuong-II-p101-q22-219 -->
 
-Sóng vô tuyến ngắn có thể được sử dụng để đo khoảng cách từ Trái Đất đến Mặt Trăng, bằng
-cách phát một tín hiệu từ Trái Đất tới Mặt Trăng và thu tín hiệu trở lại, đo khoảng thời gian từ khi phát
-đến khi nhận tín hiệu. Biết tốc độ của sóng vô tuyến là 3.108 m/s và có tần số là 107 Hz. Bước sóng của
-sóng vô tuyến đã sử dụng là
+Sóng vô tuyến ngắn có thể được sử dụng để đo khoảng cách từ Trái Đất đến Mặt Trăng, bằng cách phát một tín hiệu từ Trái Đất tới Mặt Trăng và thu tín hiệu trở lại, đo khoảng thời gian từ khi phát đến khi nhận tín hiệu. Biết tốc độ của sóng vô tuyến là $3\times10^8\,\mathrm{m/s}$ và có tần số là $10^7\,\mathrm{Hz}$. Bước sóng của sóng vô tuyến đã sử dụng là
 
-A. 10 m
+A. 10 m.
 
-B. 20 m
+B. 20 m.
 
-C. 30 m
+C. 30 m.
 
-D. 40 m
+D. 40 m.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
     **Hướng dẫn giải:**
+    Bước sóng của sóng vô tuyến:
+    $\lambda=\dfrac{c}{f}=\dfrac{3\times10^8}{10^7}=30\,\mathrm{m}$.
 
-    Sóng điện từ trong chân không thỏa $c=\lambda f$; $\vec E$, $\vec B$ và phương truyền sóng đôi một vuông góc.
-
-    Bước sóng của sóng vô tuyến đã sử dụng:
-    Khoảng cách từ Trái Đất đến Mặt Trăng là
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. 30 m**
+    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. 30 m.**

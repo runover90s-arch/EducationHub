@@ -239,11 +239,9 @@ Sau khi tìm U từng tụ, phải so sánh $|U_i|$ với điện áp định m�
 4. Năng lượng của riêng các tụ không nhất thiết bảo toàn khi nối lại.
 5. Luôn kiểm tra điện áp định mức.
 
-<!-- V9_SOURCE_TYPES -->
+## Các dạng bài trọng tâm
 
-## Các dạng bài được hệ thống hóa từ ngân hàng PDF
-
-Các dạng dưới đây chỉ sử dụng những nhóm bài đã được gọi tên rõ trong các tài liệu bài tập. Phần trình bày được tổ chức lại để người học nhận diện đề, chọn công cụ và tự kiểm tra kết quả; không tạo thêm tên dạng mới.
+Các nhóm bài dưới đây được tổ chức theo dấu hiệu nhận biết và công cụ giải để người học chọn phương pháp phù hợp và tự kiểm tra kết quả.
 
 ### Dạng 2 — Ghép các tụ điện
 

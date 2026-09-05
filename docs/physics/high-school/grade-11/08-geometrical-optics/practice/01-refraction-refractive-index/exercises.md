@@ -20,8 +20,11 @@ tags:
 Định luật khúc xạ Snell viết
 
 A. $n_1\sin i=n_2\sin r$.
+
 B. $n_1\cos i=n_2\cos r$ luôn.
+
 C. $n_1i=n_2r$ với góc độ.
+
 D. $n_1/n_2=i/r$ mọi trường hợp.
 
 ??? success "Đáp án và lời giải"
@@ -32,8 +35,11 @@ D. $n_1/n_2=i/r$ mọi trường hợp.
 Ánh sáng đi từ không khí vào thủy tinh n=1,5. Tốc độ trong thủy tinh là
 
 A. $1,5c$.
+
 B. $c$.
+
 C. $2,0\cdot10^8$ m/s.
+
 D. $4,5\cdot10^8$ m/s.
 
 ??? success "Đáp án và lời giải"
@@ -44,8 +50,11 @@ D. $4,5\cdot10^8$ m/s.
 Tia đi từ môi trường chiết suất nhỏ sang lớn thường khúc xạ
 
 A. xa pháp tuyến hơn.
+
 B. gần pháp tuyến hơn.
+
 C. không đổi hướng trong mọi góc.
+
 D. phản xạ toàn phần luôn.
 
 ??? success "Đáp án và lời giải"
@@ -58,8 +67,11 @@ D. phản xạ toàn phần luôn.
 Khúc xạ ánh sáng:
 
 a) Tần số không đổi khi qua mặt phân cách đứng yên.
+
 b) Tốc độ và bước sóng có thể thay đổi.
+
 c) Tia tới, tia khúc xạ và pháp tuyến cùng nằm trong một mặt phẳng.
+
 d) Chiết suất tuyệt đối n có thể viết $c/v$.
 
 ??? success "Đáp án và lời giải"

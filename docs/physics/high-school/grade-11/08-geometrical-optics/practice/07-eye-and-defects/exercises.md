@@ -20,8 +20,11 @@ tags:
 Mắt cận thị khi không điều tiết có điểm cực viễn
 
 A. ở vô cực.
+
 B. hữu hạn trước mắt.
+
 C. sau võng mạc vô hạn.
+
 D. bằng điểm cực cận của mắt thường.
 
 ??? success "Đáp án và lời giải"
@@ -32,8 +35,11 @@ D. bằng điểm cực cận của mắt thường.
 Kính sửa cận thị thường là
 
 A. thấu kính hội tụ.
+
 B. thấu kính phân kì.
+
 C. gương phẳng.
+
 D. lăng kính.
 
 ??? success "Đáp án và lời giải"
@@ -44,8 +50,11 @@ D. lăng kính.
 Kính sửa viễn thị/lão thị khi nhìn gần thường dùng
 
 A. thấu kính hội tụ.
+
 B. thấu kính phân kì.
+
 C. kính không độ.
+
 D. gương cầu lồi.
 
 ??? success "Đáp án và lời giải"
@@ -58,8 +67,11 @@ D. gương cầu lồi.
 Mắt và tật khúc xạ:
 
 a) Mắt điều tiết bằng thay đổi độ tụ của hệ quang học mắt.
+
 b) Cận thị khó nhìn rõ vật xa khi không đeo kính.
+
 c) Kính phân kì có thể đưa ảnh của vật ở vô cực về cực viễn của mắt cận.
+
 d) Viễn thị luôn sửa bằng kính phân kì.
 
 ??? success "Đáp án và lời giải"

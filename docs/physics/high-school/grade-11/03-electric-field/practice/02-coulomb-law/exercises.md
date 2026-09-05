@@ -20,8 +20,11 @@ tags:
 Hai điện tích điểm $q_1=2\,\mu$C, $q_2=3\,\mu$C cách nhau $0,30$ m trong chân không. Lấy $k=9\cdot10^9$. Lực Coulomb có độ lớn
 
 A. $0,2$ N.
+
 B. $0,4$ N.
+
 C. $0,6$ N.
+
 D. $1,8$ N.
 
 ??? success "Đáp án và lời giải"
@@ -32,8 +35,11 @@ D. $1,8$ N.
 Nếu khoảng cách giữa hai điện tích điểm tăng 3 lần, các điện tích không đổi, lực Coulomb
 
 A. tăng 3 lần.
+
 B. giảm 3 lần.
+
 C. giảm 9 lần.
+
 D. tăng 9 lần.
 
 ??? success "Đáp án và lời giải"
@@ -44,8 +50,11 @@ D. tăng 9 lần.
 Hai điện tích cùng dấu đặt gần nhau sẽ
 
 A. hút nhau.
+
 B. đẩy nhau.
+
 C. không tương tác.
+
 D. chỉ tương tác nếu cùng độ lớn.
 
 ??? success "Đáp án và lời giải"
@@ -56,8 +65,11 @@ D. chỉ tương tác nếu cùng độ lớn.
 Trong điện môi có hằng số điện môi tương đối $\varepsilon_r=4$, lực giữa hai điện tích so với chân không giảm
 
 A. 2 lần.
+
 B. 4 lần.
+
 C. 8 lần.
+
 D. 16 lần.
 
 ??? success "Đáp án và lời giải"
@@ -70,8 +82,11 @@ D. 16 lần.
 Về lực Coulomb giữa hai điện tích điểm:
 
 a) Hai lực tác dụng lên hai điện tích có cùng độ lớn và ngược hướng.
+
 b) Lực nằm trên đường thẳng nối hai điện tích.
+
 c) Độ lớn tỉ lệ với tích độ lớn hai điện tích.
+
 d) Đổi đồng thời dấu cả hai điện tích làm độ lớn lực thay đổi.
 
 ??? success "Đáp án và lời giải"
@@ -85,8 +100,11 @@ d) Đổi đồng thời dấu cả hai điện tích làm độ lớn lực tha
 Hai điện tích điểm cách nhau $r$:
 
 a) Nếu một điện tích tăng 2 lần thì lực tăng 2 lần.
+
 b) Nếu cả hai điện tích tăng 2 lần thì lực tăng 4 lần.
+
 c) Nếu $r$ giảm một nửa thì lực tăng 2 lần.
+
 d) Nếu $r$ giảm một nửa thì lực tăng 4 lần.
 
 ??? success "Đáp án và lời giải"
@@ -137,8 +155,6 @@ Ba điện tích đặt thẳng hàng: $q_A=+2\,\mu$C tại A, $q_B=+1\,\mu$C t�
 
 ## Ngân hàng bài tập mở rộng
 
-> Các bài dưới đây được đánh số nối tiếp phần bài tập phía trên. Đề bài được trình bày bằng Markdown; chỉ đồ thị, hình vẽ hoặc sơ đồ thực sự cần thiết mới được giữ dưới dạng hình. Đáp án và lời giải được đặt trong nút mở rộng ngay dưới từng bài.
-
 ### Nhận biết — Trả lời ngắn
 
 #### Bài 11
@@ -159,8 +175,8 @@ lần thì lực điện tương tác giữa chúng tăng hay giảm bao nhiêu 
 
 <!-- source-id: BT-Chuong-III-p17-q4-51 -->
 
-Cho hai điện tích điểm, mỗi điện tích có độ lớn 1 nC được đặt cách nhau 4,0 cm trong chân không.
-Lực điện tương tác giữa hai điện tích này có độ lớn là bao nhiêu (tính theo đơn vị μN và làm tròn đến chữ
+Cho hai điện tích điểm, mỗi điện tích có độ lớn $1\,\mathrm{nC}$ được đặt cách nhau 4,0 cm trong chân không.
+Lực điện tương tác giữa hai điện tích này có độ lớn là bao nhiêu (tính theo đơn vị $\mu\mathrm N$ và làm tròn đến chữ
 số thập phân thứ nhất sau dấu phẩy)?
 
 ??? success "Đáp án và lời giải"
@@ -174,24 +190,7 @@ số thập phân thứ nhất sau dấu phẩy)?
 
 <!-- source-id: BT-Chuong-III-p17-q5-52 -->
 
-Hai điện tích điểm
-1
-2
-μC,
-μC
-15
-6
-q
-q
-=
-= −
- đặt cách nhau 0,2 m trong không khí. Phải đặt một điện
-tích
-3q ở vị trí cách
-1q bao nhiêu mét để lực điện do
-1q ,
-2q tác dụng lên điện tích này bằng 0 (làm tròn đến
-chữ số thập phân thứ hai sau dấu phẩy)?
+Hai điện tích điểm $q_1=15\,\mu\mathrm C$ và $q_2=-6\,\mu\mathrm C$ đặt cách nhau $0{,}2\,\mathrm m$ trong không khí. Phải đặt một điện tích $q_3$ ở vị trí cách $q_1$ bao nhiêu mét để lực điện do $q_1$, $q_2$ tác dụng lên điện tích này bằng 0? Làm tròn đến chữ số thập phân thứ hai sau dấu phẩy.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** $0{,}54$
@@ -199,59 +198,31 @@ chữ số thập phân thứ hai sau dấu phẩy)?
 
     Dùng $F=k|q_1q_2|/(\varepsilon r^2)$; xác định dấu điện tích trước để biết lực hút hay đẩy.
 
-    Gọi A, B, C lần lượt là vị trí đặt
-    Điều kiện lực điện tác dụng lên điện tích
-    3q bằng 0 là lực tổng hợp phải cân bằng.
-    nên điểm C nằm trên đường thẳng AB và
-    2q trái dấu nên điểm C nằm ngoài khoảng AB
+    Gọi A, B, C lần lượt là vị trí đặt $q_1$, $q_2$, $q_3$.
+    Điều kiện lực điện tác dụng lên điện tích $q_3$ bằng 0 là lực tổng hợp phải cân bằng.
+    nên điểm C nằm trên đường thẳng AB và $q_1$, $q_2$ trái dấu nên điểm C nằm ngoài khoảng AB
 
     Vậy kết quả cần tìm là **$0{,}54$**.
 #### Bài 14
 
 <!-- source-id: BT-Chuong-III-p17-q6-53 -->
 
-Một phân tử ADN bao gồm hai nhánh xoắn kép được liên kết với nhau có chiều dài
-6
-0,459.10 m
-−
-.
-Phần đuôi của phân tử có thể bị ion hoá mang điện tích âm
-19
-1
-1,6.10
- C
-q
-−
-= −
-, đầu còn lại mang điện tích
-dương
-19
-2 1,6.10
- C
-q
-−
-=
-. Phân tử xoắn ốc này hoạt động như một lò xo và bị nén 1% sau khi bị tích điện.
-Biết phân tử ADN trong nhân tế bào và môi trường xung quanh là nước; hằng số điện môi của nước là 81.
-Tính “độ cứng k” của phân tử (theo đơn vị nN/m và làm tròn đến chữ số thập phân thứ hai sau dấu phẩy).
+Một phân tử ADN gồm hai nhánh xoắn kép liên kết với nhau có chiều dài $0{,}459\cdot10^{-6}\,\mathrm m$. Phần đuôi của phân tử có thể bị ion hóa mang điện tích âm $q_1=-1{,}6\cdot10^{-19}\,\mathrm C$, đầu còn lại mang điện tích dương $q_2=1{,}6\cdot10^{-19}\,\mathrm C$. Phân tử xoắn ốc này hoạt động như một lò xo và bị nén $1\%$ sau khi bị tích điện. Biết phân tử ADN trong nhân tế bào và môi trường xung quanh là nước, hằng số điện môi của nước là $81$. Tính “độ cứng $k$” của phân tử (theo đơn vị nN/m và làm tròn đến hai chữ số thập phân).
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** $2{,}94$
+    **Đáp án:** $2{,}94\,\mathrm{nN/m}$.
+
     **Hướng dẫn giải:**
+    Lực tương tác tĩnh điện của phân tử ADN:
+    $F=9\cdot10^9\dfrac{(1{,}6\cdot10^{-19})^2}{81(0{,}459\cdot10^{-6})^2}=1{,}35\cdot10^{-17}\,\mathrm N$.
+    Độ nén là $\Delta l=1\%\,l$, nên
+    $k=\dfrac{F}{\Delta l}=\dfrac{1{,}35\cdot10^{-17}}{0{,}01\cdot0{,}459\cdot10^{-6}}\approx2{,}94\cdot10^{-9}\,\mathrm{N/m}=2{,}94\,\mathrm{nN/m}$.
 
-    Dùng $F=k|q_1q_2|/(\varepsilon r^2)$; xác định dấu điện tích trước để biết lực hút hay đẩy.
-
-    Lực tương tác tĩnh điện của phân tử DNA
-    Độ cứng của phân tử là
-
-    Vậy kết quả cần tìm là **$2{,}94$**.
 #### Bài 15
 
 <!-- source-id: BT-Chuong-III-p24-q2-77 -->
 
-Hai vật tích điện giống hệt nhau tác dụng lên nhau một lực 2,0.10–2 N khi được đặt cách nhau 34
-cm trong không khí. Độ lớn điện tích của mỗi vật là bao nhiêu (tính theo đơn vị μC và làm tròn đến chữ số
-thập phân thứ nhất) ?
+Hai vật tích điện giống hệt nhau tác dụng lên nhau một lực $2{,}0\cdot10^{-2}\,\mathrm N$ khi được đặt cách nhau $34\,\mathrm{cm}$ trong không khí. Độ lớn điện tích của mỗi vật là bao nhiêu $\mu\mathrm C$? Làm tròn đến chữ số thập phân thứ nhất.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** $0{,}5$
@@ -264,13 +235,7 @@ thập phân thứ nhất) ?
 
 <!-- source-id: BT-Chuong-III-p24-q3-78 -->
 
-Hai quả cầu kim loại nhỏ, giống hệt nhau, mang điện tích 2Q và
-Q
-−
- được đặt cách nhau một
-khoảng r, lực điện tác dụng lên nhau có độ lớn là F. Nối chúng lại với nhau bằng một dây dẫn điện, sau đó
-bỏ dây dẫn đi. Sau khi bỏ dây nối, hai quả cầu tác dụng lên nhau một lực điện F. Tỉ số F
-F là bao nhiêu?
+Hai quả cầu kim loại nhỏ, giống hệt nhau, mang điện tích $2Q$ và $-Q$ được đặt cách nhau một khoảng $r$, lực điện tác dụng lên nhau có độ lớn là $F$. Nối chúng bằng một dây dẫn điện rồi bỏ dây dẫn đi. Sau khi bỏ dây nối, hai quả cầu tác dụng lên nhau một lực điện $F'$. Tỉ số $\dfrac{F}{F'}$ bằng bao nhiêu?
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** 8
@@ -286,71 +251,20 @@ F là bao nhiêu?
 
 <!-- source-id: BT-Chuong-III-p24-q4-79 -->
 
-Hai điện tích điểm
-8
-1
-8.10 C
-q
-−
-=
- và
-8
-2
-3.10 C
-q
-−
-= −
- đặt trong không khí tại hai điểm A và B cách
-nhau 3 cm. Đặt điện tích điểm
-8
-0
-10 C
-q
-−
-=
- tại điểm M là trung điểm của AB. Lực tĩnh điện tổng hợp do
-1q và
-2q tác dụng lên
-0q là bao nhiêu (tính theo đơn vị N và làm tròn đến chữ số thập phân thứ hai sau dấu
-phẩy)?
+Hai điện tích điểm $q_1=8\cdot10^{-8}\,\mathrm C$ và $q_2=-3\cdot10^{-8}\,\mathrm C$ đặt trong không khí tại A và B cách nhau $3\,\mathrm{cm}$. Đặt điện tích $q_0=10^{-8}\,\mathrm C$ tại M là trung điểm của AB. Lực tĩnh điện tổng hợp do $q_1$ và $q_2$ tác dụng lên $q_0$ là bao nhiêu (theo đơn vị N và làm tròn đến hai chữ số thập phân)?
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** $0{,}04$
+    **Đáp án:** $0{,}04\,\mathrm N$.
+
     **Hướng dẫn giải:**
+    Vì $M$ là trung điểm nên $r=1{,}5\,\mathrm{cm}=0{,}015\,\mathrm m$. Hai lực tác dụng lên $q_0$ cùng hướng từ A về B, do đó
+    $F=\dfrac{k|q_0|(|q_1|+|q_2|)}{r^2}=\dfrac{9\cdot10^9\cdot10^{-8}\cdot11\cdot10^{-8}}{0{,}015^2}=0{,}044\,\mathrm N\approx0{,}04\,\mathrm N$.
 
-    Dùng $F=k|q_1q_2|/(\varepsilon r^2)$; xác định dấu điện tích trước để biết lực hút hay đẩy.
-
-    Vậy kết quả cần tìm là **$0{,}04$**.
 #### Bài 18
 
 <!-- source-id: BT-Chuong-III-p24-q5-80 -->
 
-Hai điện tích
-8
-8
-1
-2
-4.10 C,
-4.10 C
-q
-q
-−
-−
-=
-= −
- đặt tại hai điểm A và B cách nhau 4 cm trong rượu có
-hằng số điện môi
-27
-ε=
-. Lực tác dụng lên điện tích
-9
-0
-2.10 C
-q
-−
-=
- đặt tại điểm M cách A 4 cm, cách B 8
-cm là bao nhiêu (tính theo đơn vị μN )?
+Hai điện tích $q_1=4\cdot10^{-8}\,\mathrm C$, $q_2=-4\cdot10^{-8}\,\mathrm C$ đặt tại A và B cách nhau $4\,\mathrm{cm}$ trong rượu có hằng số điện môi $\varepsilon=27$. Lực tác dụng lên điện tích $q_0=2\cdot10^{-9}\,\mathrm C$ đặt tại M, với $MA=4\,\mathrm{cm}$ và $MB=8\,\mathrm{cm}$, bằng bao nhiêu $\mu\mathrm N$?
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** $12{,}5$
@@ -363,36 +277,15 @@ cm là bao nhiêu (tính theo đơn vị μN )?
 
 <!-- source-id: BT-Chuong-III-p25-q6-81 -->
 
-Hai điện tích điểm
-1
-2
-,
-q
-q được giữ cố định tại hai điểm A, B cách nhau một khoảng a trong một
-điện môi. Điện tích
-3q đặt tại điểm C trên đoạn AB cách A một khoảng
-3
-a
-. Để điện tích
-3q đứng yên thì
-độ lớn điện tích
-2q phải bằng bao nhiêu lần giá trị
-1q ?
+Hai điện tích điểm $q_1,q_2$ được giữ cố định tại A, B cách nhau một khoảng $a$ trong một điện môi. Điện tích $q_3$ đặt tại C trên đoạn AB, cách A một khoảng $a/3$. Để điện tích $q_3$ đứng yên thì độ lớn điện tích $q_2$ phải bằng bao nhiêu lần độ lớn $q_1$?
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** 4
+    **Đáp án:** $4$.
+
     **Hướng dẫn giải:**
+    Để $q_3$ đứng yên, hai lực do $q_1$ và $q_2$ tác dụng phải cân bằng:
+    $\dfrac{k|q_1q_3|}{(a/3)^2}=\dfrac{k|q_2q_3|}{(2a/3)^2}\Rightarrow|q_2|=4|q_1|$.
 
-    Dùng $F=k|q_1q_2|/(\varepsilon r^2)$; xác định dấu điện tích trước để biết lực hút hay đẩy.
-
-    Để điện tích
-    3q đứng yên thì
-    BÀI 16 – KHÁI NIỆM ĐIỆN TRƯỜNG
-    I . TÓM TẮT LÝ THUYẾT – PHƯƠNG PHÁP GIẢI
-    1. KHÁI NIỆM ĐIỆN TRƯỜNG
-    - Điện trường được tạo ra bởi điện tích, là dạng vật chất tồn tại xung quanh điện tích và truyền tương tác giữa
-
-    Vậy kết quả cần tìm là **4**.
 ### Nhận biết — Trắc nghiệm 4 lựa chọn
 
 #### Bài 20
@@ -473,6 +366,8 @@ D. Chiều phụ thuộc vào độ lớn của các hạt mang điện tích.
 Bao nhiêu hình sau đây biểu diễn không chính xác lực tương tác tĩnh điện giữa các điện tích (có
 cùng độ lớn điện tích và đứng yên)?
 
+![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/iii_p5_q7_7_fig1.webp){ loading=lazy }
+
 A. 1.
 
 B. 2.
@@ -481,90 +376,33 @@ C. 3.
 
 D. 4.
 
-![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/iii_p5_q7_7_fig1.webp){ loading=lazy }
-
 ??? success "Đáp án và lời giải"
+    **Đáp án:** B
+
     **Hướng dẫn giải:**
-    Hình 1 và hình 4 không chính xác. Tương tác giữa hai điện tích trái dấu là hút nhau.
+    Hình 1 và hình 4 biểu diễn sai chiều lực tương tác. Hai điện tích trái dấu hút nhau, cùng dấu đẩy nhau; vì vậy có **2** hình không chính xác.
 
 #### Bài 24
 
 <!-- source-id: BT-Chuong-III-p6-q8-8 -->
 
-Xét ba điện tích
-0
-1
-2
-, ,
-q
-q
-q đặt tại ba điểm khác nhau trong không gian. Biết lực do
-1q và
-2q tác dụng
-lên
-0q lần lượt là
-10
-F
-υυυ
- và
-20
-F
-υυυ
-. Biểu thức nào sau đây xác định đúng lực tĩnh điện tổng hợp tác dụng lên điện
-tích
-0?
-q
+Xét ba điện tích $q_0,q_1,q_2$ đặt tại ba điểm khác nhau trong không gian. Biết lực do $q_1$ và $q_2$ tác dụng lên $q_0$ lần lượt là $\vec F_{10}$ và $\vec F_{20}$. Biểu thức nào sau đây xác định đúng lực tĩnh điện tổng hợp tác dụng lên điện tích $q_0$?
 
-A. 0
-10
-20
-F
-F
-F
-=
-+
-.
+A. $F_0=F_{10}+F_{20}$.
 
-B. 0
-10
-20
-F
-F
-F
-=
-+
-υυυυυυυυυυ
-.
+B. $\vec F_0=\vec F_{10}+\vec F_{20}$.
 
-C. 0
-10
-20
-F
-F
-F
-=
-−
-.
+C. $F_0=F_{10}-F_{20}$.
 
-D. 0
-10
-20
-F
-F
-F
-=
-−
-υυυυυυυυυυ
-.
+D. $\vec F_0=\vec F_{10}-\vec F_{20}$.
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** B
+    **Đáp án:** B.
+
     **Hướng dẫn giải:**
+    Lực điện tuân theo nguyên lí chồng chất, nên lực tổng hợp tác dụng lên $q_0$ là tổng vectơ:
+    $\vec F_0=\vec F_{10}+\vec F_{20}$.
 
-    Dùng $F=k|q_1q_2|/(\varepsilon r^2)$; xác định dấu điện tích trước để biết lực hút hay đẩy.
-
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **B. 0 10 20 F F F = + υυυυυυυυυυ .**
 #### Bài 25
 
 <!-- source-id: BT-Chuong-III-p6-q9-9 -->
@@ -636,19 +474,15 @@ D. mang rất ít điện tích.
 
 <!-- source-id: BT-Chuong-III-p7-q14-14 -->
 
-Lực tương tác giữa hai điện tích đứng yên trong điện môi đồng chất, có hằng số điện môi ε thì
+Lực tương tác giữa hai điện tích đứng yên trong điện môi đồng chất, có hằng số điện môi $\varepsilon$ thì
 
-A. tăng ε lần so với trong chân không.
+A. tăng $\varepsilon$ lần so với trong chân không.
 
-B. giảm ε lần so với trong chân không.
+B. giảm $\varepsilon$ lần so với trong chân không.
 
-C. giảm
-2
-ε lần so với trong chân không.
+C. giảm $\varepsilon^2$ lần so với trong chân không.
 
-D. tăng
-2
-ε lần so với trong chân không.
+D. tăng $\varepsilon^2$ lần so với trong chân không.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** B
@@ -657,7 +491,7 @@ D. tăng
     Dùng $F=k|q_1q_2|/(\varepsilon r^2)$; xác định dấu điện tích trước để biết lực hút hay đẩy.
 
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **B. giảm ε lần so với trong chân không.**
+    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **B. giảm $\varepsilon$ lần so với trong chân không.**
 #### Bài 29
 
 <!-- source-id: BT-Chuong-III-p18-q1-54 -->
@@ -683,65 +517,22 @@ D. $q_1q_2<0$.
 
 <!-- source-id: BT-Chuong-III-p18-q7-60 -->
 
-Công thức nào dưới đây xác định độ lớn lực tương tác tĩnh điện giữa hai điện tích điểm
-1
-2
-,
-q
-q đặt
-cách nhau một khoảng r trong chân không, với
-9
-2
-2
-9.10 Nm /C
-k =
- là hằng số Coulomb?
+Công thức nào dưới đây xác định độ lớn lực tương tác tĩnh điện giữa hai điện tích điểm $q_1,q_2$ đặt cách nhau một khoảng $r$ trong chân không, với $k=9\cdot10^9\,\mathrm{N\,m^2/C^2}$ là hằng số Coulomb?
 
-A. 2
-1
-2
-r
-F
-k q q
-=
-.
+A. $F=\dfrac{r^2}{k|q_1q_2|}$.
 
-B. 1
-2
-2 q q
-F
-r
-k
-=
-.
+B. $F=\dfrac{r^2|q_1q_2|}{k}$.
 
-C. 1
-2
-2
-q q
-F
-k
-r
-=
-.
+C. $F=k\dfrac{|q_1q_2|}{r^2}$.
 
-D. 1
-2
-2
-q q
-F
-kr
-=
-.
+D. $F=\dfrac{|q_1q_2|}{kr^2}$.
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** C
+    **Đáp án:** C.
+
     **Hướng dẫn giải:**
+    Trong chân không, độ lớn lực Coulomb là $F=k\dfrac{|q_1q_2|}{r^2}$.
 
-    Dùng $F=k|q_1q_2|/(\varepsilon r^2)$; xác định dấu điện tích trước để biết lực hút hay đẩy.
-
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. 1 2 2 q q F k r = .**
 #### Bài 31
 
 <!-- source-id: BT-Chuong-III-p18-q8-61 -->
@@ -882,61 +673,37 @@ D. 9,84 cm.
 
 <!-- source-id: BT-Chuong-III-p20-q17-70 -->
 
-Hai điện tích
-1
-2
-,
-4
-q
-q q
-q
-=
-=
- đặt cách nhau một khoảng d trong không khí. Gọi M là vị trí tại đó,
-lực tổng hợp tác dụng lên điện tích
-0q bằng 0. Điểm M cách
-1q một khoảng
+Hai điện tích $q_1=q$, $q_2=4q$ đặt cách nhau một khoảng $d$ trong không khí. Gọi M là vị trí tại đó lực tổng hợp tác dụng lên điện tích $q_0$ bằng $0$. Điểm M cách $q_1$ một khoảng
 
-A. 2
-d
-.
+A. $d/2$.
 
-B. 3
-d
-.
+B. $d/3$.
 
-C. 4
-d
-.
+C. $d/4$.
 
-D. 2d.
+D. $2d$.
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** B
+    **Đáp án:** B.
+
     **Hướng dẫn giải:**
+    Tại M, $\vec F_{10}=-\vec F_{20}$ nên $F_{10}=F_{20}$. Do đó
+    $\dfrac{1}{r_{10}^2}=\dfrac{4}{r_{20}^2}\Rightarrow r_{20}=2r_{10}$.
+    Với $r_{10}+r_{20}=d$, suy ra $r_{10}=d/3$.
 
-    Dùng $F=k|q_1q_2|/(\varepsilon r^2)$; xác định dấu điện tích trước để biết lực hút hay đẩy.
-
-    Tại M lực tổng hợp lên điện tích
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **B. 3 d .**
 #### Bài 38
 
 <!-- source-id: BT-Chuong-III-p20-q18-71 -->
 
-Tại ba đỉnh A, B, C của một tam giác đều cạnh dài 0,15 m có ba điện tích lần lượt là
-μC,8 μC, 8 μC.
-2
-−
-Vector lực tác dụng lên điện tích đặt tại đỉnh A có độ lớn và hướng lần lượt là
+Tại ba đỉnh A, B, C của một tam giác đều cạnh $0{,}15\,\mathrm m$ có ba điện tích lần lượt là $2\,\mu\mathrm C$, $8\,\mu\mathrm C$ và $-8\,\mu\mathrm C$. Vector lực tác dụng lên điện tích đặt tại đỉnh A có độ lớn và hướng lần lượt là
 
-A. 5,9 N và song song với BC.
+A. $5{,}9\,\mathrm N$ và song song với BC.
 
-B. 5,9 N và vuông góc với BC.
+B. $5{,}9\,\mathrm N$ và vuông góc với BC.
 
-C. 6,4 N và song song với BC.
+C. $6{,}4\,\mathrm N$ và song song với BC.
 
-D. 6,4 N và song song với AB.
+D. $6{,}4\,\mathrm N$ và song song với AB.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
@@ -1018,59 +785,22 @@ D. giảm đi 4 lần.
 
 <!-- source-id: BT-Chuong-III-p9-q28-28 -->
 
-Vật A mang điện với điện tích 2 µC, vật B mang điện với điện tích 6 µC. Lực điện do vật A tác
-dụng lên vật B là
-AB
-F
-υυυυ
-, lực điện do vật B tác dụng lên vật A là
-BA
-F
-υυυυ
-. Biểu thức đúng là
+Vật A mang điện tích $2\,\mu\mathrm C$, vật B mang điện tích $6\,\mu\mathrm C$. Lực điện do vật A tác dụng lên vật B là $\vec F_{AB}$, lực điện do vật B tác dụng lên vật A là $\vec F_{BA}$. Biểu thức đúng là
 
-A. AB
-BA
-3
-F
-F
-= −
-υυυυυυυυ
-.
+A. $\vec F_{AB}=-3\vec F_{BA}$.
 
-B. AB
-BA
-F
-F
-= −
-υυυυυυυυ
-.
+B. $\vec F_{AB}=-\vec F_{BA}$.
 
-C. AB
-BA
-3F
-F
-= −
-υυυυυυυυ
-.
+C. $3\vec F_{AB}=-\vec F_{BA}$.
 
-D. AB
-BA
-3
-F
-F
-=
-υυυυυυυυ
-.
+D. $\vec F_{AB}=3\vec F_{BA}$.
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** B
+    **Đáp án:** B.
+
     **Hướng dẫn giải:**
+    Hai lực tương tác giữa A và B là một cặp lực trực đối: cùng độ lớn, cùng phương và ngược chiều. Vì vậy $\vec F_{AB}=-\vec F_{BA}$.
 
-    Dùng $F=k|q_1q_2|/(\varepsilon r^2)$; xác định dấu điện tích trước để biết lực hút hay đẩy.
-
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **B. AB BA F F = − υυυυυυυυ .**
 #### Bài 43
 
 <!-- source-id: BT-Chuong-III-p9-q29-29 -->
@@ -1099,6 +829,8 @@ D. $F_1-F_2-F_3$.
 Đồ thị nào sau đây có thể biểu diễn sự phụ thuộc của lực tương tác giữa hai điện tích điểm vào
 khoảng cách giữa chúng?
 
+![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/iii_p9_q30_30_fig1.webp){ loading=lazy }
+
 A. Hình 1.
 
 B. Hình 2.
@@ -1107,44 +839,33 @@ C. Hình 3.
 
 D. Hình 4
 
-![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/iii_p9_q30_30_fig1.webp){ loading=lazy }
-
 ??? success "Đáp án và lời giải"
-    **Hướng dẫn giải:**
-    Lực tương tác tỉ lệ nghịch với bình phương khoảng cách nên mối quan hệ của chúng có dạng đường
-    hyperbol.
+    **Đáp án:** D
 
-### Vận dụng — Trắc nghiệm 4 lựa chọn
+    **Hướng dẫn giải:**
+    Theo định luật Coulomb, với hai điện tích cố định về độ lớn, $F\propto1/r^2$. Vì vậy $F$ giảm nhanh khi $r$ tăng và tiến về 0 khi $r\to\infty$; đồ thị phù hợp là **Hình 4**.
 
 #### Bài 45
 
 <!-- source-id: BT-Chuong-III-p11-q32-32 -->
 
-Hai điện tích điểm trái dấu có cùng độ lớn
-4
-10
-4 C
-−
-đặt cách nhau 1 m trong parafin có điện môi
-bằng 2 thì chúng
+Hai điện tích điểm trái dấu có cùng độ lớn $10^{-4}/4\,\mathrm C$, đặt cách nhau $1\,\mathrm m$ trong parafin có hằng số điện môi bằng $2$ thì chúng
 
-A. hút nhau một lực 1,5125 N.
+A. hút nhau một lực $1{,}5125\,\mathrm N$.
 
-B. hút nhau một lực 2,8125 N.
+B. hút nhau một lực $2{,}8125\,\mathrm N$.
 
-C. đẩy nhau một lực 10,265 N.
+C. đẩy nhau một lực $10{,}265\,\mathrm N$.
 
-D. đẩy nhau một lực 1,8152 N.
+D. đẩy nhau một lực $1{,}8152\,\mathrm N$.
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** B
+    **Đáp án:** B.
+
     **Hướng dẫn giải:**
+    Hai điện tích trái dấu nên hút nhau. Theo nguồn,
+    $F=k\dfrac{q^2}{\varepsilon r^2}=9\cdot10^9\dfrac{(10^{-4}/4)^2}{2\cdot1^2}=2{,}8125\,\mathrm N$.
 
-    Dùng $F=k|q_1q_2|/(\varepsilon r^2)$; xác định dấu điện tích trước để biết lực hút hay đẩy.
-
-    Hai điện tích điểm trái dấu nên lực tương tác giữa chúng là lực hút.
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **B. hút nhau một lực 2,8125 N.**
 #### Bài 46
 
 <!-- source-id: BT-Chuong-III-p11-q33-33 -->
@@ -1174,8 +895,8 @@ D. đẩy nhau 1 lực bằng 44,1 N.
 
 <!-- source-id: BT-Chuong-III-p11-q34-34 -->
 
-Hai điện tích điểm cùng độ lớn 10-9 C đặt trong chân không. Để lực tĩnh điện giữa chúng có độ lớn
-2,5.10-6 N thì khoảng cách giữa chúng bằng
+Hai điện tích điểm cùng độ lớn $10^{-9}$ C đặt trong chân không. Để lực tĩnh điện giữa chúng có độ lớn
+$2{,}5\cdot10^{-6}$ N thì khoảng cách giữa chúng bằng
 
 A. 0,06 cm.
 
@@ -1218,56 +939,29 @@ D. 2 N.
 
 <!-- source-id: BT-Chuong-III-p12-q36-36 -->
 
-Hai điện tích điểm
-8
-1
-4.10 C
-q
-−
-=
-,
-8
-2
-4.10 C
-q
-−
-= −
- đặt tại hai điểm A và B cách nhau 4 cm trong
-không khí. Lực tác dụng lên điện tích
-7
-0
-C
-2.10
-q
-−
-=
- đặt tại trung điểm O của AB là
+Hai điện tích điểm $q_1=4\cdot10^{-8}\,\mathrm C$, $q_2=-4\cdot10^{-8}\,\mathrm C$ đặt tại A và B cách nhau $4\,\mathrm{cm}$ trong không khí. Lực tác dụng lên điện tích $q_0=2\cdot10^{-7}\,\mathrm C$ đặt tại trung điểm O của AB là
 
-A. 3,6 N.
+A. $3{,}6\,\mathrm N$.
 
-B. 0,36 N.
+B. $0{,}36\,\mathrm N$.
 
-C. 36 N.
+C. $36\,\mathrm N$.
 
-D. 7,2 N.
+D. $7{,}2\,\mathrm N$.
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** B
+    **Đáp án:** B.
+
     **Hướng dẫn giải:**
+    Tại O, hai lực điện cùng hướng. Theo lời giải nguồn,
+    $F_0=k\dfrac{|q_0(q_1-q_2)|}{(AB/2)^2}=9\cdot10^9\dfrac{2\cdot10^{-7}\cdot8\cdot10^{-8}}{(0{,}04/2)^2}=0{,}36\,\mathrm N$.
 
-    Dùng $F=k|q_1q_2|/(\varepsilon r^2)$; xác định dấu điện tích trước để biết lực hút hay đẩy.
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **B. 0,36 N.**
 #### Bài 50
 
 <!-- source-id: BT-Chuong-III-p12-q37-37 -->
 
-Hai điện tích điểm
-1q và
-2q đặt cách nhau 30 cm trong không khí, lực tác dụng giữa chúng là
-0F .
-Nếu đặt chúng trong dầu thì lực tương tác bị giảm đi 2,25 lần. Để lực tương tác vẫn bằng
-0F thì cần dịch
+Hai điện tích điểm $q_1$ và $q_2$ đặt cách nhau 30 cm trong không khí, lực tác dụng giữa chúng là $F_0$.
+Nếu đặt chúng trong dầu thì lực tương tác bị giảm đi 2,25 lần. Để lực tương tác vẫn bằng $F_0$ thì cần dịch
 chúng lại một khoảng
 
 A. 10 cm.
@@ -1282,53 +976,32 @@ D. 20 cm.
     **Đáp án:** A
     **Hướng dẫn giải:**
 
-    Dùng $F=k|q_1q_2|/(\varepsilon r^2)$; xác định dấu điện tích trước để biết lực hút hay đẩy.
+    Nếu đặt chúng trong dầu thì lực tương tác bị giảm đi $2{,}25$ lần nên $\varepsilon=2{,}25$.
 
-    Nếu đặt chúng trong dầu thì lực tương tác bị giảm đi 2,25 lần nên
-    Để lực tương tác vẫn bằng
+    Để lực tương tác vẫn bằng $F_0$:
+
+    $F_0=k\dfrac{|q_1q_2|}{r^2}=k\dfrac{|q_1q_2|}{\varepsilon(r-x)^2}$.
+
+    Suy ra $\dfrac{1}{30^2}=\dfrac{1}{2{,}25(30-x)^2}\Rightarrow x=10\,\mathrm{cm}$.
 
     Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. 10 cm.**
 #### Bài 51
 
 <!-- source-id: BT-Chuong-III-p13-q40-40 -->
 
-Có hai điện tích
-6
-6
-1
-2
-2.10 C,
-2.10 C
-q
-q
-−
-−
-=
-= −
- đặt tại hai điểm A, B trong chân không và cách
-nhau một khoảng 6 cm. Một điện tích
-6
-3
-2.10 C
-q
-−
-=
-, đặt trên đường trung trực của AB, cách AB một
-khoảng 4 cm. Độ lớn của lực điện do hai điện tích và tác dụng lên điện tích
-3q là
+Có hai điện tích $q_1=2\cdot10^{-6}\,\mathrm C$, $q_2=-2\cdot10^{-6}\,\mathrm C$ đặt tại A, B trong chân không, cách nhau $6\,\mathrm{cm}$. Điện tích $q_3=2\cdot10^{-6}\,\mathrm C$ đặt trên đường trung trực của AB, cách AB $4\,\mathrm{cm}$. Độ lớn lực điện do $q_1$ và $q_2$ tác dụng lên $q_3$ là
 
-A. 14,40 N.
+A. $14{,}40\,\mathrm N$.
 
-B. 28,80 N.
+B. $28{,}80\,\mathrm N$.
 
-C. 20,36 N.
+C. $20{,}36\,\mathrm N$.
 
-D. 17,28 N.
+D. $17{,}28\,\mathrm N$.
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** D
+    **Đáp án:** D.
+
     **Hướng dẫn giải:**
-
-    Dùng $F=k|q_1q_2|/(\varepsilon r^2)$; xác định dấu điện tích trước để biết lực hút hay đẩy.
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **D. 17,28 N.**
+    Khoảng cách từ $q_3$ đến A và B là $0{,}05\,\mathrm m$, nên $F_1=F_2=14{,}40\,\mathrm N$. Theo hình nguồn, các thành phần vuông góc với AB triệt tiêu và
+    $F=2F_1\cos\alpha=2\cdot14{,}40\cdot\dfrac{0{,}06}{2\cdot0{,}05}=17{,}28\,\mathrm N$.

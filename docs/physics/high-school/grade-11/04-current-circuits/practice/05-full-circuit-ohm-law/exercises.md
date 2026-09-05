@@ -20,8 +20,11 @@ tags:
 Mạch kín gồm nguồn $\mathcal E=12$ V, $r=1\,\Omega$ và điện trở ngoài $R=5\,\Omega$. Dòng điện là
 
 A. $1$ A.
+
 B. $2$ A.
+
 C. $2,4$ A.
+
 D. $12$ A.
 
 ??? success "Đáp án và lời giải"
@@ -32,8 +35,11 @@ D. $12$ A.
 Hiệu suất của nguồn trong mạch đơn R nối tiếp r có thể viết
 
 A. $H=R/(R+r)$.
+
 B. $H=r/(R+r)$.
+
 C. $H=(R+r)/R$.
+
 D. $H=Rr$.
 
 ??? success "Đáp án và lời giải"
@@ -44,8 +50,11 @@ D. $H=Rr$.
 Dòng ngắn mạch của nguồn là
 
 A. $I_{sc}=\mathcal E/R$.
+
 B. $I_{sc}=\mathcal E/r$.
+
 C. $I_{sc}=r/\mathcal E$.
+
 D. 0.
 
 ??? success "Đáp án và lời giải"
@@ -56,8 +65,11 @@ D. 0.
 Trong mạch đơn, công suất mạch ngoài đạt cực đại khi
 
 A. $R=0$.
+
 B. $R=r$.
+
 C. $R=2r$.
+
 D. $R\to\infty$.
 
 ??? success "Đáp án và lời giải"
@@ -70,8 +82,11 @@ D. $R\to\infty$.
 Định luật Ohm toàn mạch:
 
 a) $I=\mathcal E/(R+r)$.
+
 b) $U_R=IR=\mathcal E-Ir$.
+
 c) Tăng R luôn làm I tăng.
+
 d) Khi R rất lớn, I tiến về 0 và U hai cực tiến gần $\mathcal E$.
 
 ??? success "Đáp án và lời giải"
@@ -85,8 +100,11 @@ d) Khi R rất lớn, I tiến về 0 và U hai cực tiến gần $\mathcal E$.
 Công suất mạch ngoài $P_R=\mathcal E^2R/(R+r)^2$:
 
 a) Bằng 0 khi R=0.
+
 b) Tiến về 0 khi R rất lớn.
+
 c) Có cực đại tại R=r.
+
 d) Tại cực đại, hiệu suất nguồn là 100%.
 
 ??? success "Đáp án và lời giải"
@@ -139,162 +157,104 @@ Nguồn có $\mathcal E=10$ V, $r=1\,\Omega$. Mạch ngoài là biến trở R. 
 
 ## Ngân hàng bài tập mở rộng
 
-> Các bài dưới đây được đánh số nối tiếp phần bài tập phía trên. Đề bài được trình bày bằng Markdown; chỉ đồ thị, hình vẽ hoặc sơ đồ thực sự cần thiết mới được giữ dưới dạng hình. Đáp án và lời giải được đặt trong nút mở rộng ngay dưới từng bài.
-
 ### Nhận biết — Trả lời ngắn
 
 #### Bài 11
 
 <!-- source-id: BT-Chuong-IV-p74-q2-230 -->
 
-Một mạch điện gồm một pin 11 V, điện trở mạch ngoài 3 Ω, cường độ dòng điện trong toàn mạch là 2
-
-A. Xác định giá trị điện trở trong của nguồn.
+Một mạch điện gồm một pin $11\,\mathrm V$, điện trở mạch ngoài $3\,\Omega$, cường độ dòng điện toàn mạch $2\,\mathrm A$. Xác định điện trở trong của nguồn.
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** $2{,}5$
+    **Đáp án:** $2{,}5\,\Omega$
 
     **Hướng dẫn giải:**
-    Suất điện động của nguồn: 𝜉= 𝐼(𝑅+ 𝑟). Điện trở trong của nguồn trong trường hợp này là
-    r = ξ
-    I −R = 11
-    2 −3 = 2,5 Ω.
+
+    $\xi=I(R+r)$ nên
+
+    $r=\dfrac{\xi}{I}-R=\dfrac{11}{2}-3=2{,}5\,\Omega$.
 
 #### Bài 12
 
 <!-- source-id: BT-Chuong-IV-p74-q4-232 -->
 
-Cho mạch điện như hình bên. Trong đó ξ = 26 V; r = 4 Ω; R1 = 5 Ω; R2 = 6 Ω .
-Tính cường độ dòng điện chạy trong mạch.
+Cho mạch điện như hình. Trong đó $\xi=26\,\mathrm V$, $r=4\,\Omega$, $R_1=5\,\Omega$, $R_2=6\,\Omega$. Tính cường độ dòng điện chạy trong mạch.
 
 ![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/iv_p74_q4_232_fig1.webp){ loading=lazy }
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** 2
+    **Đáp án:** $2\,\mathrm A$
 
     **Hướng dẫn giải:**
-    - Do 2 nguồn được ghép song song nên ta thu được:
 
-    + Suất điện động của bộ nguồn: 𝜉𝑏= 𝜉= 26 𝑉;
-    𝑟
-    2 = 2 𝛺 ;
-    - Do R1 nt R2 nên điện trở tương đương của mạch ngoài:
-    𝑅𝑡đ = 𝑅1 + 𝑅2 = 5 + 6 = 11 𝛺;
-    - Cường độ dòng điện chạy trong mạch:
-    𝐼=
-    𝜉𝑏
-    𝑅𝑡đ + 𝑟𝑏
-    =
-    26
-    11 + 2 = 2 𝐴.
+    Hai nguồn giống nhau mắc song song nên $\xi_b=26\,\mathrm V$, $r_b=r/2=2\,\Omega$.
+
+    $R_N=R_1+R_2=11\,\Omega$.
+
+    $I=\dfrac{\xi_b}{R_N+r_b}=\dfrac{26}{11+2}=2\,\mathrm A$.
 
 #### Bài 13
 
 <!-- source-id: BT-Chuong-IV-p76-q6-234 -->
 
-Cho mạch điện như hình vẽ. Trong đó ξ = 12 V, r = 0,5 Ω, R1 = R2
-= 2 Ω, R3 = R5 = 4 Ω, R4 = 6 Ω. Điện trở của ampe kế và của các dây nối
-không đáng kể. Số chỉ của ampe kế có giá trị bằng bao nhiêu?
+Cho mạch điện như hình. $\xi=12\,\mathrm V$, $r=0{,}5\,\Omega$, $R_1=R_2=2\,\Omega$, $R_3=R_5=4\,\Omega$, $R_4=6\,\Omega$. Điện trở ampe kế và dây nối không đáng kể. Số chỉ ampe kế bằng bao nhiêu?
 
 ![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/iv_p76_q6_234_fig1.webp){ loading=lazy }
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** $0{,}5$
+    **Đáp án:** $0{,}5\,\mathrm A$
 
     **Hướng dẫn giải:**
-    Ta nối tắt Ampere kế và vẽ lại sơ đồ mạch điện:
 
-    Do R1 nt (R2// R4) nt (R3 // R5) nên điện trở tương đương của đoạn mạch:
-    𝑅𝑡đ = 𝑅1 + 𝑅24 + 𝑅35 = 2 + 2 × 6
-    2 + 6 + 4 × 4
-    4 + 4 = 5,5 𝛺 ;
-    Cường độ dòng điện chạy qua mạch:
-    𝐼=
-    𝜉
-    𝑅𝑡đ + 𝑟=
-    12
-    5,5 + 0,5 = 2 𝐴= 𝐼1 = 𝐼24 = 𝐼35;
-    Hiệu điện thế giữa hai đầu 𝑅24và 𝑅35:
-    𝑈24 = 𝐼24𝑅24 = 2 × 2 × 6
-    2 + 6 = 3 𝑉 = 𝑈2 = 𝑈4;
-    𝑈35 = 𝐼35𝑅35 = 2 × 4 × 4
-    4 + 4 = 4 𝑉 = 𝑈3 = 𝑈5;
-    Áp dụng định luật Ohm, ta thu được cường độ dòng điện chạy qua R2 và R3:
-    𝐼2 = 𝑈2
-    𝑅2
-    = 3
-    2 = 1,5 𝐴;
-    𝐼3 = 𝑈3
-    𝑅3
-    = 4
-    4 = 1,0 𝐴;
+    $R_N=R_1+(R_2\parallel R_4)+(R_3\parallel R_5)=2+1{,}5+2=5{,}5\,\Omega$.
 
-    Xét tại điểm C, ta thu được:
-    𝐼2 = 𝐼3 + 𝐼𝐴
-    ⟹𝐼𝐴= 𝐼2 −𝐼3 = 1,5 −1,0 = 0,5 𝐴.
+    $I=12/(5{,}5+0{,}5)=2\,\mathrm A$.
 
-    Vậy số chỉ Ampere kế là 0,5 A.
+    $U_{24}=I(R_2\parallel R_4)=3\,\mathrm V$ nên $I_2=3/2=1{,}5\,\mathrm A$.
+
+    $U_{35}=I(R_3\parallel R_5)=4\,\mathrm V$ nên $I_3=4/4=1\,\mathrm A$.
+
+    Theo định luật nút tại điểm nối, $I_A=I_2-I_3=0{,}5\,\mathrm A$.
 
 #### Bài 14
 
 <!-- source-id: BT-Chuong-IV-p86-q3-259 -->
 
-Cho mạch điện như hình, bỏ qua điện trở của dây nối, biết ξ 1 = 4 V;
-r1 = 0,5 Ω; ξ 2 = 6 V; r2 = 0,5 Ω; cường độ dòng điện qua mỗi nguồn bằng 2
-
-A. Điện trở mạch ngoài có giá trị bằng
+Cho mạch điện như hình, bỏ qua điện trở dây nối. Biết $\xi_1=4\,\mathrm V$, $r_1=0{,}5\,\Omega$, $\xi_2=6\,\mathrm V$, $r_2=0{,}5\,\Omega$; cường độ dòng điện qua mỗi nguồn bằng $2\,\mathrm A$. Điện trở mạch ngoài có giá trị bằng
 
 ![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/iv_p86_q3_259_fig1.webp){ loading=lazy }
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** $2{,}5$
+    **Đáp án sau kiểm tra:** $R=4\,\Omega$.
 
     **Hướng dẫn giải:**
-    Do ξ 1 và ξ 2 mắc nối tiếp nên ta thu được:
-    {𝜉𝑏= 𝜉1 + 𝜉2 = 3 + 6 = 9 𝑉
-    𝑟𝑏= 𝑟1 + 𝑟2 = 1 + 1 = 2 𝛺;
-     Ta có:
-    𝐼=
-    𝜉𝑏
-    𝑅+ 𝑟𝑏
-    ⟹𝑅= 𝜉𝑏
-    𝐼−𝑟𝑏= 9
-    2 −2 = 2,5 𝛺.
+    Theo sơ đồ, hai nguồn mắc nối tiếp cùng chiều nên $\xi_b=\xi_1+\xi_2=10$ V và $r_b=r_1+r_2=1\,\Omega$.
+
+    Với $I=2$ A, định luật Ôm toàn mạch cho
+
+    $R=\dfrac{\xi_b}{I}-r_b=\dfrac{10}{2}-1=4\,\Omega$.
+
+!!! warning "Đối chiếu nguồn"
+    PDF ghi đáp án $2{,}5\,\Omega$, nhưng phần lời giải tự đổi dữ kiện thành $\xi_1=3$ V và $r_1=r_2=1\,\Omega$. Không có cơ sở thay các số đã in trong đề; dùng đúng $\xi_1=4$ V, $r_1=r_2=0{,}5\,\Omega$ cho kết quả duy nhất $4\,\Omega$.
 
 #### Bài 15
 
 <!-- source-id: BT-Chuong-IV-p86-q4-260 -->
 
-Cho mạch điện như hình vẽ, bỏ qua điện trở của dây nối.
-Biết ξ = 4 V; r = 2 Ω. Biết R1 = 1 Ω; R2 = R3 = 2 Ω; R4 = 4 Ω. Tìm
-số chỉ Ampere kế.
+Cho mạch điện như hình, bỏ qua điện trở dây nối. Biết $\xi=4\,\mathrm V$, $r=2\,\Omega$, $R_1=1\,\Omega$, $R_2=R_3=2\,\Omega$, $R_4=4\,\Omega$. Tìm số chỉ ampe kế.
 
 ![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/iv_p86_q4_260_fig1.webp){ loading=lazy }
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** $0{,}4$
+    **Đáp án:** $0{,}4\,\mathrm A$
 
     **Hướng dẫn giải:**
-    Điện trở tương đương của đoạn mạch:
-    𝑅𝑡đ = 𝑅1 +
-    𝑅23𝑅4
-    𝑅23 + 𝑅4
-    = 1 + (2 + 2) × 4
-    (2 + 2) + 4 = 3 𝛺;
-    Cường độ dòng điện chạy trong mạch:
-    𝐼=
-    𝜉
-    𝑅𝑡đ + 𝑟=
-    4
-    3 + 2 = 0,8 𝐴= 𝐼1 = 𝐼234;
-    Hiệu điện thế đặt vào hai đầu điện trở 𝑅234:
-    𝑈234 = 𝐼234𝑅234 = 0,8 × (2 + 2) × 4
-    (2 + 2) + 4 = 1,6 𝑉= 𝑈4;
-    Cường độ dòng điện chạy qua R4 chính bằng số chỉ Ampere kế:
-    𝐼4 = 𝑈4
-    𝑅4
-    = 1,6
-    4 = 0,4 𝐴.
+
+    $R_N=R_1+[(R_2+R_3)\parallel R_4]=1+(4\parallel4)=3\,\Omega$.
+
+    $I=4/(3+2)=0{,}8\,\mathrm A$.
+
+    Điện áp trên nhóm song song là $U=0{,}8\cdot2=1{,}6\,\mathrm V$, nên dòng qua $R_4$ và số chỉ ampe kế là $I_A=1{,}6/4=0{,}4\,\mathrm A$.
 
 ### Nhận biết — Trắc nghiệm 4 lựa chọn
 
@@ -324,127 +284,103 @@ D. lực dịch chuyển nguồn điện từ vị trí này đến vị trí kh
 
 <!-- source-id: BT-Chuong-IV-p65-q25-216 -->
 
-Cho mạch điện như hình vẽ, bỏ qua các điện trở dây nối và ampe kế, ξ = 3V, r = 1Ω,
-Ampere kế chỉ 0,5A. Giá trị của điện trở R là
-
-A. 1 Ω.
-
-B. 2 Ω.
-
-C. 5 Ω.
-
-D. 3 Ω.
+Cho mạch điện như hình, bỏ qua điện trở dây nối và ampe kế, $\xi=3\,\mathrm V$, $r=1\,\Omega$, ampe kế chỉ $0{,}5\,\mathrm A$. Giá trị của $R$ là
 
 ![Mạch kín gồm nguồn, điện trở và ampe kế](../../../assets/exercise-figures/clean-v14/iv_p65_q25_216.webp){ loading=lazy }
 
+A. $1\,\Omega$.
+
+B. $2\,\Omega$.
+
+C. $5\,\Omega$.
+
+D. $3\,\Omega$.
+
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
+
     **Hướng dẫn giải:**
-    Số chỉ Ampere kế trong trường hợp này chính bằng cường độ dòng điện chạy qua nguồn. Suất điện động của
-    nguồn: 𝜉= 𝐼. (𝑅+ 𝑟). Từ đây ta thu được giá trị của điện trở R là
-    R = ξ
-    I −r = 3
-    0,5 −1 = 5 Ω.
+
+    $I=\xi/(R+r)$ nên $R=\xi/I-r=3/0{,}5-1=5\,\Omega$.
 
 #### Bài 18
 
 <!-- source-id: BT-Chuong-IV-p79-q9-243 -->
 
-Một nguồn điện gồm 6 Ắc – quy giống nhau mắc như hình vẽ. Mỗi acquy có suất điện động ξ = 2V,
-r = 1Ω. Suất điện động và điện trở trong của bộ nguồn này là
-
-A. 6 V; 1,5 Ω.
-
-B. 6 V; 3 Ω.
-
-C. 12 V; 3 Ω.
-
-D. 12 V; 6 Ω.
+Một nguồn điện gồm 6 ắc-quy giống nhau mắc như hình. Mỗi ắc-quy có $\xi=2\,\mathrm V$, $r=1\,\Omega$. Suất điện động và điện trở trong của bộ nguồn là
 
 ![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/iv_p79_q9_243_fig1.webp){ loading=lazy }
 
+A. $6\,\mathrm V$; $1{,}5\,\Omega$.
+
+B. $6\,\mathrm V$; $3\,\Omega$.
+
+C. $12\,\mathrm V$; $3\,\Omega$.
+
+D. $12\,\mathrm V$; $6\,\Omega$.
+
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
+
     **Hướng dẫn giải:**
-    Xét một bộ nguồn gồm 2 Ắc – quy mắc song song:
-    + Suất điện động của bộ nguồn: 𝜉2 = 𝜉= 2 𝑉;
-    𝑟
-    2 =
-    1
-    2 𝛺;
-    Xét bộ nguồn gồm 6 Ắc – quy:
-    + Suất điện động của bộ nguồn: 𝜉𝑏= 3𝜉2 = 6 𝑉;
-    + Điện trở trong của bộ nguồn: 𝑟𝑏= 3𝑟2 = 1,5 𝛺.
+
+    Mỗi nhóm gồm 2 ắc-quy song song nên $\xi_2=2\,\mathrm V$, $r_2=r/2=0{,}5\,\Omega$.
+
+    Ba nhóm đó mắc nối tiếp, vì vậy $\xi_b=3\xi_2=6\,\mathrm V$, $r_b=3r_2=1{,}5\,\Omega$.
 
 #### Bài 19
 
 <!-- source-id: BT-Chuong-IV-p80-q15-249 -->
 
-Cho mạch điện như hình vẽ. R1 = R2 = RV = 9 Ω, ξ = 28 V, r = 0,5 Ω. Bỏ qua
-điện trở dây nối, số chỉ vôn kế là
-
-A. 15 V.
-
-B. 2 V.
-
-C. 9 V.
-
-D. 18 V.
+Cho mạch điện như hình. $R_1=R_2=R_V=9\,\Omega$, $\xi=28\,\mathrm V$, $r=0{,}5\,\Omega$. Bỏ qua điện trở dây nối. Số chỉ vôn kế là
 
 ![Mạch R1 nối tiếp nhánh R2 song song vôn kế](../../../assets/exercise-figures/clean-v14/iv_p80_q15_249.webp){ loading=lazy }
 
+A. $15\,\mathrm V$.
+
+B. $2\,\mathrm V$.
+
+C. $9\,\mathrm V$.
+
+D. $18\,\mathrm V$.
+
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
+
     **Hướng dẫn giải:**
-    Điện trở tương đương của mạch:
-    𝑅𝑡đ = 𝑅1 +
-    𝑅2𝑅𝑉
-    𝑅2 + 𝑅𝑉
-    = 9 + 9 × 9
-    9 + 9 = 13,5 𝛺;
-    Cường độ dòng điện chạy trong mạch:
-    𝐼=
-    𝜉
-    𝑅𝑡đ + 𝑟=
-    28
-    13,5 + 0,5 = 2 𝐴= 𝐼1 = 𝐼2𝑉;
-    Hiệu điện thế đặt vào hai đầu điện trở R2V chính bằng số chỉ Volt kế:
-    𝑈2𝑉= 𝐼2𝑉𝑅2𝑉= 2 × 9 × 9
-    9 + 9 = 9 𝑉.
+
+    $R_N=R_1+(R_2\parallel R_V)=9+4{,}5=13{,}5\,\Omega$.
+
+    $I=28/(13{,}5+0{,}5)=2\,\mathrm A$.
+
+    Số chỉ vôn kế bằng điện áp trên nhánh $R_2\parallel R_V$: $U=2\cdot4{,}5=9\,\mathrm V$.
 
 #### Bài 20
 
 <!-- source-id: BT-Chuong-IV-p81-q18-252 -->
 
-Cho mạch điện như hình bên. Biết ξ = 10 V; r = 1 Ω; R1 = 5  Ω; R2 = R3  = 10 Ω.
-Bỏ qua điện trở của dây nối. Hiệu điện thế giữa hai đầu R1 là
-
-A. 10 V.
-
-B. 4 V.
-
-C. 6 V.
-
-D. 8 V.
+Cho mạch điện như hình. Biết $\xi=10\,\mathrm V$, $r=1\,\Omega$, $R_1=5\,\Omega$, $R_2=R_3=10\,\Omega$. Bỏ qua điện trở dây nối. Hiệu điện thế giữa hai đầu $R_1$ là
 
 ![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/iv_p81_q18_252_fig1.webp){ loading=lazy }
 
+A. $10\,\mathrm V$.
+
+B. $4\,\mathrm V$.
+
+C. $6\,\mathrm V$.
+
+D. $8\,\mathrm V$.
+
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
+
     **Hướng dẫn giải:**
-    Điện trở tương đương của đoạn mạch:
-    𝑅𝑡đ =
-    𝑅1𝑅23
-    𝑅1 + 𝑅23
-    = 5 × (10 + 10)
-    5 + (10 + 10) = 4 𝛺;
-    Cường độ dòng điện chạy trong mạch:
-    𝐼=
-    𝜉
-    𝑅𝑡đ + 𝑟= 10
-    4 + 1 = 2 𝐴
-    Hiệu điện thế đặt vào hai cực của nguồn điện chính bằng hiệu điện thế đặt vào hai cực của R1:
-    𝑈= 𝑈1 = 𝜉−𝐼𝑟= 8 𝑉.
+
+    Theo sơ đồ, $R_1$ song song với $(R_2+R_3)$, nên $R_N=5\parallel20=4\,\Omega$.
+
+    $I=10/(4+1)=2\,\mathrm A$.
+
+    Điện áp mạch ngoài và trên $R_1$ là $U=\xi-Ir=10-2\cdot1=8\,\mathrm V$.
 
 ### Nhận biết — Đúng/Sai
 
@@ -452,88 +388,97 @@ D. 8 V.
 
 <!-- source-id: BT-Chuong-IV-p71-q4-226 -->
 
-Cho mạch điện như hình vẽ, bỏ qua điện trở của dây nối và Ampre kế, ξ = 6V, r = 1Ω, R1 = 3Ω, R2 = 6Ω,
-R3 = 2Ω.
-
-a) Điện trở tương đương của mạch ngoài là 4 Ω.
-b) Số chỉ Ampere kế trong trường hợp này là 1,5
-
-A. c) Hiệu điện thế của R3 là 3 V.
-d) Cường độ dòng điện chạy qua R2 là 0,4
-A.
+Cho mạch điện như hình, bỏ qua điện trở dây nối và ampe kế, $\xi=6\,\mathrm V$, $r=1\,\Omega$, $R_1=3\,\Omega$, $R_2=6\,\Omega$, $R_3=2\,\Omega$.
 
 ![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/iv_p71_q4_226_fig1.webp){ loading=lazy }
+
+a) Điện trở tương đương của mạch ngoài là $4\,\Omega$.
+
+b) Số chỉ ampe kế là $1{,}5\,\mathrm A$.
+
+c) Hiệu điện thế của $R_3$ là $3\,\mathrm V$.
+
+d) Cường độ dòng điện qua $R_2$ là $0{,}4\,\mathrm A$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** a) Đúng; b) Sai; c) Sai; d) Đúng.
 
     **Hướng dẫn giải:**
 
-    Từ sơ đồ, $(R_1\parallel R_2)$ nối tiếp $R_3$.
+    $R_{12}=R_1\parallel R_2=2\,\Omega$, $R_N=R_{12}+R_3=4\,\Omega$.
 
-    a) **Đúng.** $R_{12}=3\parallel6=2\ \Omega$, nên $R_{\text{ngoài}}=R_{12}+R_3=2+2=4\ \Omega$.
+    $I=6/(4+1)=1{,}2\,\mathrm A$.
 
-    b) **Sai.** Dòng mạch chính, cũng là số chỉ ampe kế, $I=\xi/(R_{\text{ngoài}}+r)=6/(4+1)=1{,}2$ A, không phải $1{,}5$ A.
+    a) **Đúng.** $R_N=4\,\Omega$.
 
-    c) **Sai.** $U_3=IR_3=1{,}2\cdot2=2{,}4$ V, không phải $3$ V.
+    b) **Sai.** Ampe kế chỉ $1{,}2\,\mathrm A$.
 
-    d) **Đúng.** Điện áp trên nhóm song song $U_{12}=IR_{12}=1{,}2\cdot2=2{,}4$ V; do đó $I_2=U_{12}/R_2=2{,}4/6=0{,}4$ A.
+    c) **Sai.** $U_3=IR_3=2{,}4\,\mathrm V$.
+
+    d) **Đúng.** $U_{12}=2{,}4\,\mathrm V$ nên $I_2=2{,}4/6=0{,}4\,\mathrm A$.
+
 #### Bài 22
 
 <!-- source-id: BT-Chuong-IV-p72-q6-228 -->
 
-Cho mạch điện như hình vẽ. Trong đó ξ = 48 V, r = 2 Ω, R1= 2 Ω, R2 = 8 Ω, R3 = 6 Ω, R4 = 16 Ω. Điện
-trở của các dây nối không đáng kể.
-
-a) Điện trở tương đương trong trường hợp này là 8 Ω.
-b) Cường độ dòng điện chạy trong mạch là 6
-
-A. c) Hiệu điện thế giữa hai điểm M và N là 3 V.
-d) Nếu chập hai điểm M và N thì sơ đồ mạch điện vẫn không đổi.
+Cho mạch điện như hình. $\xi=48\,\mathrm V$, $r=2\,\Omega$, $R_1=2\,\Omega$, $R_2=8\,\Omega$, $R_3=6\,\Omega$, $R_4=16\,\Omega$. Điện trở dây nối không đáng kể.
 
 ![Sơ đồ mạch cầu gồm R1 R2 R3 R4](../../../assets/exercise-figures/clean-v14/iv_p72_q6_228.webp){ loading=lazy }
+
+a) Điện trở tương đương mạch ngoài là $8\,\Omega$.
+
+b) Cường độ dòng điện chạy trong mạch là $6\,\mathrm A$.
+
+c) Hiệu điện thế giữa hai điểm $M$ và $N$ là $3\,\mathrm V$.
+
+d) Nếu chập hai điểm $M$ và $N$ thì sơ đồ mạch điện vẫn không đổi.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** a) Sai; b) Đúng; c) Đúng; d) Sai.
 
     **Hướng dẫn giải:**
 
-    Khi chưa chập $M,N$, hai nhánh $(R_1+R_3)$ và $(R_2+R_4)$ mắc song song.
+    $R_{13}=R_1+R_3=8\,\Omega$, $R_{24}=R_2+R_4=24\,\Omega$, nên $R_N=8\parallel24=6\,\Omega$.
 
-    a) **Sai.** $R_{13}=2+6=8\ \Omega$, $R_{24}=8+16=24\ \Omega$, nên $R_{\text{ngoài}}=8\parallel24=6\ \Omega$, không phải $8\ \Omega$.
+    a) **Sai.** $R_N=6\,\Omega$.
 
-    b) **Đúng.** $I=\xi/(R_{\text{ngoài}}+r)=48/(6+2)=6$ A.
+    b) **Đúng.** $I=48/(6+2)=6\,\mathrm A$.
 
-    c) **Đúng.** $U_{AB}=IR_{\text{ngoài}}=36$ V. Dòng hai nhánh là $I_{13}=36/8=4{,}5$ A và $I_{24}=36/24=1{,}5$ A. Do đó $U_{AM}=I_{13}R_1=9$ V, $U_{AN}=I_{24}R_2=12$ V, nên $U_{MN}=U_{MA}+U_{AN}=-9+12=3$ V.
+    c) **Đúng.** $U_{AB}=36\,\mathrm V$, nên $I_{13}=4{,}5\,\mathrm A$, $I_{24}=1{,}5\,\mathrm A$; $U_{AM}=9\,\mathrm V$, $U_{AN}=12\,\mathrm V$, suy ra $U_{MN}=3\,\mathrm V$.
 
-    d) **Sai.** Chập $M$ và $N$ làm hai điểm này cùng điện thế và thay đổi cách ghép các điện trở; sơ đồ tương đương không còn như ban đầu.
+    d) **Sai.** Chập $M,N$ làm thay đổi cách ghép các điện trở.
+
 #### Bài 23
 
 <!-- source-id: BT-Chuong-IV-p83-q3-255 -->
 
-Cho mạch điện như hình. Bỏ qua điện trở của dây nối và Ampere kế,
-ξ = 12 V, r = 0,5 Ω, R1 = 13 Ω, R2 = 35 Ω, R3 = 15 Ω.
-
-a) Sơ đồ mạch chính là R1 nt (R2//R3).
-b) Cường độ dòng điện chạy qua mạch là 0,5
-
-A. c) Hiệu điện thế chạy qua R1 là 5,25 V.
-d) Số chỉ Ampere kế là 0,74 A
+Cho mạch điện như hình, bỏ qua điện trở dây nối và ampe kế, $\xi=12\,\mathrm V$, $r=0{,}5\,\Omega$, $R_1=13\,\Omega$, $R_2=35\,\Omega$, $R_3=15\,\Omega$.
 
 ![Sơ đồ mạch R1 R2 R3 và ampe kế](../../../assets/exercise-figures/clean-v14/iv_p83_q3_255.webp){ loading=lazy }
+
+a) Sơ đồ mạch chính là $R_1$ nối tiếp $(R_2\parallel R_3)$.
+
+b) Cường độ dòng điện chạy qua mạch là $0{,}5\,\mathrm A$.
+
+c) Hiệu điện thế chạy qua $R_1$ là $5{,}25\,\mathrm V$.
+
+d) Số chỉ ampe kế là $0{,}74\,\mathrm A$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** a) Đúng; b) Đúng; c) Sai; d) Sai.
 
     **Hướng dẫn giải:**
 
-    a) **Đúng.** Ampe kế lí tưởng được coi như dây nối, nên mạch ngoài tương đương $R_1$ nối tiếp $(R_2\parallel R_3)$.
+    $R_{23}=35\parallel15=10{,}5\,\Omega$, $R_N=13+10{,}5=23{,}5\,\Omega$.
 
-    b) **Đúng.** $R_{23}=35\parallel15=10{,}5\ \Omega$, nên $R_{\text{ngoài}}=13+10{,}5=23{,}5\ \Omega$. Dòng mạch chính $I=12/(23{,}5+0{,}5)=0{,}5$ A.
+    a) **Đúng.** Theo sơ đồ tương đương, $R_1$ nối tiếp $(R_2\parallel R_3)$.
 
-    c) **Sai.** $U_1=IR_1=0{,}5\cdot13=6{,}5$ V. Giá trị $5{,}25$ V là điện áp trên nhóm $R_2\parallel R_3$.
+    b) **Đúng.** $I=12/(23{,}5+0{,}5)=0{,}5\,\mathrm A$.
 
-    d) **Sai.** $I_3=U_{23}/R_3=5{,}25/15=0{,}35$ A, nên số chỉ ampe kế là $0{,}35$ A, không phải $0{,}74$ A.
+    c) **Sai.** $U_1=IR_1=6{,}5\,\mathrm V$; $5{,}25\,\mathrm V$ là điện áp trên nhóm song song.
+
+    d) **Sai.** $I_3=5{,}25/15=0{,}35\,\mathrm A$.
+
 ### Thông hiểu — Trắc nghiệm 4 lựa chọn
 
 #### Bài 24
@@ -563,229 +508,162 @@ D. điện trường.
 
 <!-- source-id: BT-Chuong-IV-p64-q18-210 -->
 
-Với mạch kín gồm nguồn có suất điện động ξ, điện trở trong r nối mạch ngoài có điện trở R, thì hiệu
-điện thế giữa 2 cực nguồn điện không thể tính bằng
+Với mạch kín gồm nguồn có suất điện động $\xi$, điện trở trong $r$, nối với mạch ngoài có điện trở $R$, hiệu điện thế giữa hai cực nguồn **không thể** tính bằng
 
-A. U = I. R.
+A. $U=IR$.
 
-B. U =
-ξ R
-(R+r).
+B. $U=\dfrac{\xi R}{R+r}$.
 
-C. U = ξ −Ir.
+C. $U=\xi-Ir$.
 
-D. U =
-ξ R
-(R−r).
+D. $U=\dfrac{\xi R}{R-r}$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
+
     **Hướng dẫn giải:**
 
-    Rút gọn mạch ngoài trước, rồi dùng $I=\mathcal E/(R+r)$ và $U=IR=\mathcal E-Ir$.
+    $I=\xi/(R+r)$ nên $U=IR=\xi R/(R+r)=\xi-Ir$. Biểu thức ở D không đúng.
 
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **D. U = ξ R (R−r).**
 ### Vận dụng — Trắc nghiệm 4 lựa chọn
 
 #### Bài 26
 
 <!-- source-id: BT-Chuong-IV-p65-q26-217 -->
 
-Một nguồn điện có điện trở trong 1 Ω được mắc với điện trở R = 6 Ω thành mạch kín. Khi đó hiệu điện
-thế giữa hai cực của nguồn điện là 12 V. Suất điện động của nguồn điện là
+Một nguồn điện có điện trở trong $1\,\Omega$ được mắc với điện trở $R=6\,\Omega$ thành mạch kín. Hiệu điện thế giữa hai cực nguồn là $12\,\mathrm V$. Suất điện động của nguồn là
 
-A. ξ = 12V.
+A. $\xi=12\,\mathrm V$.
 
-B. ξ = 13V.
+B. $\xi=13\,\mathrm V$.
 
-C. ξ = 14V.
+C. $\xi=14\,\mathrm V$.
 
-D. ξ = 15V.
+D. $\xi=15\,\mathrm V$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
-    **Hướng dẫn giải:**
-    𝑈
-    𝑅. Ta thu được cường độ dòng điện chạy qua nguồn là
-    𝐼= 𝑈
-    𝑅= 12
-    6 = 2 𝐴 ;
-    A
-    R
-    ξ, r
 
-    Suất điện động của nguồn điện: 𝜉= 𝐼. (𝑅+ 𝑟) = 2 × (6 + 1) = 14 𝑉.
+    **Hướng dẫn giải:**
+
+    $I=U/R=12/6=2\,\mathrm A$.
+
+    $\xi=I(R+r)=2(6+1)=14\,\mathrm V$.
 
 #### Bài 27
 
 <!-- source-id: BT-Chuong-IV-p66-q27-218 -->
 
-Một mạch có các nguồn giống nhau (ξ = 3V; r = 0,3 Ω) được mắc như hình. Suất
-điện động và điện trở trong của bộ nguồn là
-
-A. ξ𝑏= 3 V; ξ𝑏= 0,4 Ω.
-
-B. ξ𝑏= 12 V; ξ𝑏= 0,1 Ω.
-
-C. ξ𝑏= 12 V; ξ𝑏= 0,4 Ω.
-
-D. ξ𝑏= 3 V; ξ𝑏= 0,1 Ω.
+Một mạch có các nguồn giống nhau $(\xi=3\,\mathrm V;\ r=0{,}3\,\Omega)$ mắc như hình. Suất điện động và điện trở trong của bộ nguồn là
 
 ![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/iv_p66_q27_218_fig1.webp){ loading=lazy }
 
+A. $\xi_b=3\,\mathrm V$; $r_b=0{,}4\,\Omega$.
+
+B. $\xi_b=12\,\mathrm V$; $r_b=0{,}1\,\Omega$.
+
+C. $\xi_b=12\,\mathrm V$; $r_b=0{,}4\,\Omega$.
+
+D. $\xi_b=3\,\mathrm V$; $r_b=0{,}1\,\Omega$.
+
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
+
     **Hướng dẫn giải:**
-    Với n nguồn điện giống nhau được ghép thành n = 3 dãy, mỗi dãy có m = 4 nguồn điện mắc nối tiếp nên:
-    Suất điện động của bộ nguồn:
-    𝜉𝑏= 𝑚𝜉= 4 × 3 = 12 𝑉 ;
-    Điện trở trong của bộ nguồn:
-    𝑟𝑏= 𝑚𝑟
-    𝑛= 4 × 0,3
-    3
-    = 0,4 𝛺.
+
+    Bộ nguồn có 3 dãy song song, mỗi dãy 4 nguồn nối tiếp.
+
+    $\xi_b=4\xi=12\,\mathrm V$,
+
+    $r_b=4r/3=0{,}4\,\Omega$.
 
 #### Bài 28
 
 <!-- source-id: BT-Chuong-IV-p66-q28-219 -->
 
-Cho mạch điện như hình vẽ. R1 = R2 = RV = 10 Ω, ξ = 2 V, r = 1 Ω. Bỏ qua điện
-trở dây nối, số chỉ Volt kế là
-
-A. 0,55 V.
-
-B. 1,00 V.
-
-C. 0, 80 V.
-
-D. 0,63 V.
+Cho mạch điện như hình. $R_1=R_2=R_V=10\,\Omega$, $\xi=2\,\mathrm V$, $r=1\,\Omega$. Bỏ qua điện trở dây nối. Số chỉ vôn kế là
 
 ![Sơ đồ mạch R1 R2 và vôn kế](../../../assets/exercise-figures/clean-v14/iv_p66_q28_219.webp){ loading=lazy }
 
+A. $0{,}55\,\mathrm V$.
+
+B. $1{,}00\,\mathrm V$.
+
+C. $0{,}80\,\mathrm V$.
+
+D. $0{,}63\,\mathrm V$.
+
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
+
     **Hướng dẫn giải:**
-    𝑅2𝑅𝑉
-    𝑅2+𝑅𝑉= 10 +
-    10×10
-    10+10 = 15 𝛺 ;
-    𝜉
-    𝑅𝑡đ+𝑟=
-    2
-    15+1 = 0,125 𝐴;
-    Do R1 nt (R2 // RV) nên I1 = I2V = I = 0,125 A. Hiệu điện thế giữa hai đầu U2V:
-    𝑈2𝑉= 𝐼2𝑉× 𝑅2𝑉= 0,125 × 10 × 10
-    10 + 10 = 0,625 𝑉 ;
-    Do R2 và Volt kế mắc song song, nên U2V = U2 = UV = 0,625 V. Như vậy số chỉ của Volt kế là 0,625 V.
+
+    $R_N=R_1+(R_2\parallel R_V)=10+5=15\,\Omega$.
+
+    $I=2/(15+1)=0{,}125\,\mathrm A$.
+
+    Điện áp trên nhánh song song là $U=I(R_2\parallel R_V)=0{,}125\cdot5=0{,}625\,\mathrm V\approx0{,}63\,\mathrm V$.
 
 #### Bài 29
 
 <!-- source-id: BT-Chuong-IV-p66-q29-220 -->
 
-Cho sơ đồ mạch điện như hình bên. Trong đó ξ = 1,2 V, r = 0,5 Ω, R1 = R3 =
-2Ω, R2 = R4 = 4 Ω. Hiệu điện thế giữa hai điểm A, B là
-
-A. 1,0 V.
-
-B. 0,2 V.
-
-C. 0,8 V.
-
-D. 0, 6 V.
+Cho sơ đồ mạch điện như hình. $\xi=1{,}2\,\mathrm V$, $r=0{,}5\,\Omega$, $R_1=R_3=2\,\Omega$, $R_2=R_4=4\,\Omega$. Hiệu điện thế giữa hai điểm $A,B$ là
 
 ![Sơ đồ mạch giữa M A N B](../../../assets/exercise-figures/clean-v14/iv_p66_q29_220.webp){ loading=lazy }
 
+A. $1{,}0\,\mathrm V$.
+
+B. $0{,}2\,\mathrm V$.
+
+C. $0{,}8\,\mathrm V$.
+
+D. $0{,}6\,\mathrm V$.
+
 ??? success "Đáp án và lời giải"
-    **Đáp án:** **A. $1{,}0$ V**.
+    **Đáp án:** **A. $1{,}0\,\mathrm V$**.
 
     **Hướng dẫn giải:**
 
-    **Bước 1 — Rút gọn mạch ngoài.** Từ sơ đồ:
+    $R_{12}=R_1+R_2=6\,\Omega$, $R_{123}=R_{12}\parallel R_3=1{,}5\,\Omega$, nên $R_N=R_{123}+R_4=5{,}5\,\Omega$.
 
-    $(R_1\text{ nối tiếp }R_2)\parallel R_3 \quad\text{rồi nối tiếp }R_4.$
+    $I=1{,}2/(5{,}5+0{,}5)=0{,}20\,\mathrm A$.
 
-    Ta có
+    $U_{NB}=IR_4=0{,}80\,\mathrm V$; điện áp trên nhóm $R_{12}\parallel R_3$ là $0{,}30\,\mathrm V$, nên $I_{12}=0{,}30/6=0{,}05\,\mathrm A$ và $U_{AN}=I_{12}R_2=0{,}20\,\mathrm V$.
 
-    $R_{12}=R_1+R_2=2+4=6\ \Omega,$
-
-    $R_{123}=\frac{R_{12}R_3}{R_{12}+R_3} =\frac{6\cdot2}{6+2}=1{,}5\ \Omega,$
-
-    nên
-
-    $R_{\text{ngoài}}=R_{123}+R_4=1{,}5+4=5{,}5\ \Omega.$
-
-    **Bước 2 — Tính dòng mạch chính.**
-
-    $I=\frac{\xi}{R_{\text{ngoài}}+r} =\frac{1{,}2}{5{,}5+0{,}5} =0{,}20\ \text{A}.$
-
-    Vì $R_{123}$ **nối tiếp** $R_4$, nên
-
-    $I_{123}=I_4=I=0{,}20\ \text{A}.$
-
-    Do đó
-
-    $U_{NB}=U_4=I_4R_4=0{,}20\cdot4=0{,}80\ \text{V},$
-
-    $U_{123}=I_{123}R_{123}=0{,}20\cdot1{,}5=0{,}30\ \text{V}.$
-
-    **Bước 3 — Tìm $U_{AN}$.** Vì $R_{12}\parallel R_3$ nên $U_{12}=U_3=U_{123}=0{,}30$ V. Suy ra
-
-    $I_{12}=\frac{U_{12}}{R_{12}}=\frac{0{,}30}{6}=0{,}05\ \text{A}.$
-
-    $R_1$ nối tiếp $R_2$ nên $I_2=I_{12}=0{,}05$ A, do đó
-
-    $U_{AN}=U_2=I_2R_2=0{,}05\cdot4=0{,}20\ \text{V}.$
-
-    Cuối cùng
-
-    $U_{AB}=U_{AN}+U_{NB}=0{,}20+0{,}80=1{,}00\ \text{V}.$
-
-    Vậy chọn **A**.
+    Do đó $U_{AB}=U_{AN}+U_{NB}=1{,}00\,\mathrm V$.
 
     !!! note "Đối chiếu nguồn"
-        Lời giải PDF có hai lỗi gõ ở bước giữa: ghi $R_{123}\parallel R_4$ dù sơ đồ và phép tính cho thấy chúng nối tiếp, đồng thời xuất hiện $I=0{,}15$ A rồi các bước sau lại dùng đúng $0{,}20$ A. Phần giải trên giữ nguyên phương pháp nguồn nhưng chuẩn hóa lại hai chỗ này để mạch lập luận nhất quán.
+        Lời giải PDF có hai lỗi gõ ở bước giữa: ghi $R_{123}\parallel R_4$ dù sơ đồ và phép tính cho thấy chúng nối tiếp, đồng thời xuất hiện $I=0{,}15\,\mathrm A$ rồi các bước sau lại dùng đúng $0{,}20\,\mathrm A$. Phần giải trên giữ đúng sơ đồ và dữ kiện đề.
 
 #### Bài 30
 
 <!-- source-id: BT-Chuong-IV-p68-q31-222 -->
 
-Cho mạch điện như hình. Bỏ qua điện trở của dây nối và Ampere kế, ξ = 15
-V, r = 1 Ω, R1 = 12 Ω, R2 = 36 Ω, R3 = 15 Ω. Số chỉ Ampere kế là
-
-A. 0,45
-
-A. B. 0,65
-
-A. C. 0,75
-
-A. D. 1,00
-A.
+Cho mạch điện như hình, bỏ qua điện trở dây nối và ampe kế, $\xi=15\,\mathrm V$, $r=1\,\Omega$, $R_1=12\,\Omega$, $R_2=36\,\Omega$, $R_3=15\,\Omega$. Số chỉ ampe kế là
 
 ![Sơ đồ mạch R1 R2 R3 và ampe kế](../../../assets/exercise-figures/clean-v14/iv_p68_q31_222.webp){ loading=lazy }
 
+A. $0{,}45\,\mathrm A$.
+
+B. $0{,}65\,\mathrm A$.
+
+C. $0{,}75\,\mathrm A$.
+
+D. $1{,}00\,\mathrm A$.
+
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
+
     **Hướng dẫn giải:**
-    Ta vẽ lại sơ đồ mạch điện:
-    Do (R1//R2) nt R3, điện trở tương đương của mạch ngoài:
-    𝑅𝑡đ =
-    𝑅1𝑅2
-    𝑅1 + 𝑅2
-    + 𝑅3 = 12 × 36
-    12 + 36 + 15 = 24 𝛺;
-    Cường độ dòng điện chạy trong mạch chính:
-    𝐼=
-    𝜉
-    𝑅𝑡đ + 𝑟=
-    15
-    24 + 1 = 0,6 𝐴;
-    Mà I = I12 = I3 = 0,6 A, Hiệu điện thế của R12:
-    𝑈12 = 𝐼12𝑅12 = 0,6 × 12 × 36
-    12 + 36 = 5,4 𝑉;
-    Mà U12 = U1 = U2 = 5,4 V. Cường độ dòng điện chạy qua R1 chính bằng số chỉ Ampere kế:
-    𝐼1 = 𝑈1
-    𝑅1
-    = 5,4
-    12 = 0,45 𝐴;
-    Vậy số chỉ Ampere kế là 0,45 A.
+
+    $(R_1\parallel R_2)$ nối tiếp $R_3$, nên
+
+    $R_N=12\parallel36+15=9+15=24\,\Omega$.
+
+    $I=15/(24+1)=0{,}6\,\mathrm A$.
+
+    Điện áp trên $R_1\parallel R_2$ là $U=0{,}6\cdot9=5{,}4\,\mathrm V$.
+
+    Số chỉ ampe kế bằng dòng qua $R_1$: $I_A=5{,}4/12=0{,}45\,\mathrm A$.
+

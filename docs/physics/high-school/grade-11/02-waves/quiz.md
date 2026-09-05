@@ -25,7 +25,13 @@ D. biên độ sóng.
 ### Câu 2
 Sóng $u=A\cos(\omega t-kx)$ truyền theo:
 
-A. $+x$; B. $-x$; C. không truyền; D. không xác định.
+A. $+x$.
+
+B. $-x$.
+
+C. không truyền.
+
+D. không xác định.
 
 ### Câu 3
 Hai nguồn cùng pha. Cực tiểu giao thoa khi:
@@ -38,12 +44,24 @@ D. $\Delta d=0$ với mọi $k$.
 ### Câu 4
 Hai nút liên tiếp của sóng dừng cách nhau:
 
-A. $\lambda/4$; B. $\lambda/2$; C. $\lambda$; D. $2\lambda$.
+A. $\lambda/4$.
+
+B. $\lambda/2$.
+
+C. $\lambda$.
+
+D. $2\lambda$.
 
 ### Câu 5
 Đại lượng gắn chủ yếu với độ cao của âm là:
 
-A. tần số; B. cường độ; C. công suất nguồn; D. khoảng cách.
+A. tần số.
+
+B. cường độ.
+
+C. công suất nguồn.
+
+D. khoảng cách.
 
 ### Câu 6
 Sóng điện từ:

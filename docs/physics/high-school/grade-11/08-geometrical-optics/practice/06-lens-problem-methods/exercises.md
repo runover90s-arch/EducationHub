@@ -20,8 +20,11 @@ tags:
 Nếu vật và ảnh thật qua thấu kính hội tụ cách nhau một khoảng L=d+d', phương pháp dịch chuyển thấu kính có hai vị trí cho ảnh rõ khi
 
 A. L>4f.
+
 B. L<2f.
+
 C. L=f.
+
 D. L=0.
 
 ??? success "Đáp án và lời giải"
@@ -32,8 +35,11 @@ D. L=0.
 Trong hai vị trí liên hợp của vật và ảnh với L cố định, các khoảng d và d'
 
 A. hoán đổi cho nhau.
+
 B. luôn bằng nhau.
+
 C. đều âm.
+
 D. không liên quan.
 
 ??? success "Đáp án và lời giải"
@@ -44,8 +50,11 @@ D. không liên quan.
 Vật thật qua thấu kính hội tụ cho ảnh thật lớn gấp 2. Nếu k=-2 thì
 
 A. d'=2d.
+
 B. d'=d/2.
+
 C. d'=-2d.
+
 D. d'=0.
 
 ??? success "Đáp án và lời giải"
@@ -58,8 +67,11 @@ D. d'=0.
 Giải bài thấu kính:
 
 a) Cần nhất quán quy ước dấu.
+
 b) Có thể kiểm tra kết quả bằng tính chất ảnh mong đợi.
+
 c) Với vật thật và ảnh thật qua hội tụ, d và d' đều dương theo quy ước thông dụng.
+
 d) Mọi nghiệm đại số đều phải chấp nhận dù mâu thuẫn mô hình hình học.
 
 ??? success "Đáp án và lời giải"

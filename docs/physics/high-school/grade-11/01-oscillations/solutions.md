@@ -336,7 +336,6 @@ $$
 - $A=A_1+A_2$ khi hai dao động cùng pha: $\Delta\varphi=2k\pi$.
 - $A=|A_1-A_2|$ khi hai dao động ngược pha: $\Delta\varphi=(2k+1)\pi$.
 
-<!-- V9_CHAPTER_BANK -->
 ## Đáp án theo từng bài trong chương
 
 Mỗi ngân hàng giữ lời giải riêng để tránh một trang lời giải quá dài và giúp đối chiếu đúng bài đang luyện.
@@ -349,7 +348,6 @@ Mỗi ngân hàng giữ lời giải riêng để tránh một trang lời giả
 - **Bài 6 — Năng lượng trong dao động**: [Mở đáp án và lời giải](practice/06-oscillation-energy/solutions.md)
 - **Bài 7 — Tổng hợp dao động, tắt dần, cưỡng bức và cộng hưởng**: [Mở đáp án và lời giải](practice/07-combined-damped-forced-resonance/solutions.md)
 
-<!-- /V9_CHAPTER_BANK -->
 
 ---
 

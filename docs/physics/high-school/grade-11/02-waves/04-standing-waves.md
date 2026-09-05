@@ -212,11 +212,9 @@ Sóng dừng là cách trực quan để hiểu **mode riêng** và **tần số
 4. Hai bó kề nhau ngược pha.
 5. Điều kiện biên quyết định họ tần số cho phép.
 
-<!-- V9_SOURCE_TYPES -->
+## Các dạng bài trọng tâm
 
-## Các dạng bài được hệ thống hóa từ ngân hàng PDF
-
-Các dạng dưới đây chỉ sử dụng những nhóm bài đã được gọi tên rõ trong các tài liệu bài tập. Phần trình bày được tổ chức lại để người học nhận diện đề, chọn công cụ và tự kiểm tra kết quả; không tạo thêm tên dạng mới.
+Các nhóm bài dưới đây được tổ chức theo dấu hiệu nhận biết và công cụ giải để người học chọn phương pháp phù hợp và tự kiểm tra kết quả.
 
 ### Dạng 1 — Xác định chiều dài, bước sóng, tốc độ, tần số, số nút, số bụng khi có sóng dừng
 

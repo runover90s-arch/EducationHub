@@ -25,7 +25,13 @@ D. nhận photon bắt buộc.
 ### Câu 2
 Lực Coulomb giữa hai điện tích điểm tỉ lệ:
 
-A. r; B. $r^2$; C. $1/r$; D. $1/r^2$.
+A. r.
+
+B. $r^2$.
+
+C. $1/r$.
+
+D. $1/r^2$.
 
 ### Câu 3
 Vectơ E do điện tích điểm âm tạo ra:
@@ -38,7 +44,13 @@ D. không có hướng.
 ### Câu 4
 Điện tích âm đặt trong E chịu lực:
 
-A. cùng E; B. ngược E; C. vuông góc E; D. luôn bằng 0.
+A. cùng E.
+
+B. ngược E.
+
+C. vuông góc E.
+
+D. luôn bằng 0.
 
 ### Câu 5
 Trong điện trường tĩnh, công lực điện giữa hai điểm:
@@ -51,7 +63,13 @@ D. luôn dương.
 ### Câu 6
 Tụ lí tưởng có C không đổi, tăng U gấp đôi thì Q:
 
-A. giảm nửa; B. không đổi; C. tăng đôi; D. tăng bốn.
+A. giảm nửa.
+
+B. không đổi.
+
+C. tăng đôi.
+
+D. tăng bốn.
 
 ## Đúng/Sai
 

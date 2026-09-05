@@ -179,7 +179,6 @@ $$
 
 Nêu điều kiện xảy ra dấu bằng ở hai phía.
 
-<!-- V9_CHAPTER_BANK -->
 ## Kho luyện tập theo từng bài trong chương
 
 Phần dưới đây **không sao chép lặp lại câu hỏi**. Nó gom các ngân hàng theo từng bài để người học có thể luyện hàng trăm câu trong chương mà vẫn biết mỗi câu thuộc kiến thức nào.
@@ -192,7 +191,6 @@ Phần dưới đây **không sao chép lặp lại câu hỏi**. Nó gom các n
 - **Bài 6 — Năng lượng trong dao động** — 171 câu/bài: [Bài tập](practice/06-oscillation-energy/exercises.md) · [Đáp án](practice/06-oscillation-energy/solutions.md)
 - **Bài 7 — Tổng hợp dao động, tắt dần, cưỡng bức và cộng hưởng** — 85 câu/bài: [Bài tập](practice/07-combined-damped-forced-resonance/exercises.md) · [Đáp án](practice/07-combined-damped-forced-resonance/solutions.md)
 
-<!-- /V9_CHAPTER_BANK -->
 
 ---
 

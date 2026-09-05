@@ -246,13 +246,11 @@ Hai điểm cách nhau $12$ cm, tốc độ truyền $0,6$ m/s. Thời gian truy
 4. Một bước sóng tương ứng một chu kì về pha.
 5. Đừng dùng tốc độ dao động của phần tử thay cho tốc độ truyền sóng.
 
-<!-- V9_SOURCE_TYPES -->
+## Các dạng bài trọng tâm
 
-## Các dạng bài được hệ thống hóa từ ngân hàng PDF
+Các nhóm bài dưới đây được tổ chức theo dấu hiệu nhận biết và công cụ giải để người học chọn phương pháp phù hợp và tự kiểm tra kết quả.
 
-Các dạng dưới đây chỉ sử dụng những nhóm bài đã được gọi tên rõ trong các tài liệu bài tập. Phần trình bày được tổ chức lại để người học nhận diện đề, chọn công cụ và tự kiểm tra kết quả; không tạo thêm tên dạng mới.
-
-### Dạng 2 — Quan sát đồ thị sóng để xác định chu kì, tần số, biên độ và tốc độ truyền sóng
+### Dạng 1 — Quan sát đồ thị sóng để xác định chu kì, tần số, biên độ và tốc độ truyền sóng
 
 Trước hết xác định đồ thị là ảnh chụp theo không gian $u-x$ hay diễn biến theo thời gian $u-t$. Trên $u-x$, khoảng cách giữa hai điểm gần nhất cùng pha là bước sóng; trên $u-t$, khoảng thời gian giữa hai trạng thái lặp lại là chu kì.
 

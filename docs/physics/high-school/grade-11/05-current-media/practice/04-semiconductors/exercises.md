@@ -20,8 +20,11 @@ tags:
 Bán dẫn tinh khiết có hạt tải điện là
 
 A. chỉ electron.
+
 B. chỉ lỗ trống.
+
 C. electron và lỗ trống.
+
 D. proton tự do.
 
 ??? success "Đáp án và lời giải"
@@ -32,8 +35,11 @@ D. proton tự do.
 Bán dẫn loại n có hạt tải đa số là
 
 A. lỗ trống.
+
 B. electron.
+
 C. proton.
+
 D. ion âm chuyển động tự do.
 
 ??? success "Đáp án và lời giải"
@@ -44,8 +50,11 @@ D. ion âm chuyển động tự do.
 Điốt bán dẫn có tính chất cơ bản
 
 A. dẫn tốt như nhau theo hai chiều.
+
 B. chỉnh lưu: dẫn thuận tốt hơn dẫn ngược.
+
 C. không bao giờ dẫn điện.
+
 D. chỉ hoạt động trong chân không.
 
 ??? success "Đáp án và lời giải"
@@ -58,8 +67,11 @@ D. chỉ hoạt động trong chân không.
 Bán dẫn:
 
 a) Độ dẫn điện nằm giữa chất dẫn tốt và chất cách điện điển hình.
+
 b) Nhiệt độ có thể ảnh hưởng mạnh mật độ hạt tải.
+
 c) Pha tạp có thể tạo bán dẫn loại n hoặc p.
+
 d) Lỗ trống là một proton tự do nằm trong mạng tinh thể.
 
 ??? success "Đáp án và lời giải"

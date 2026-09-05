@@ -20,8 +20,11 @@ tags:
 Con lắc lò xo có $m=0,20$ kg, $k=80$ N/m. Tần số góc bằng
 
 A. $10$ rad/s.
+
 B. $20$ rad/s.
+
 C. $40$ rad/s.
+
 D. $400$ rad/s.
 
 ??? success "Đáp án và lời giải"
@@ -32,8 +35,11 @@ D. $400$ rad/s.
 Con lắc lò xo treo thẳng đứng có độ dãn cân bằng $\Delta\ell_0=4$ cm tại nơi $g=10$ m/s². Tần số góc bằng
 
 A. $5\sqrt{10}$ rad/s.
+
 B. $10$ rad/s.
+
 C. $15$ rad/s.
+
 D. $20$ rad/s.
 
 ??? success "Đáp án và lời giải"
@@ -44,8 +50,11 @@ D. $20$ rad/s.
 Một lò xo có độ cứng $k=60$ N/m. Cắt lò xo thành ba phần bằng nhau. Độ cứng của mỗi phần bằng
 
 A. $20$ N/m.
+
 B. $60$ N/m.
+
 C. $120$ N/m.
+
 D. $180$ N/m.
 
 ??? success "Đáp án và lời giải"
@@ -56,8 +65,11 @@ D. $180$ N/m.
 Hai lò xo có $k_1=60$ N/m và $k_2=30$ N/m ghép nối tiếp. Độ cứng tương đương là
 
 A. $20$ N/m.
+
 B. $30$ N/m.
+
 C. $45$ N/m.
+
 D. $90$ N/m.
 
 ??? success "Đáp án và lời giải"
@@ -70,8 +82,11 @@ D. $90$ N/m.
 Con lắc lò xo treo thẳng đứng dao động quanh vị trí cân bằng. Xét các phát biểu:
 
 a) Ở vị trí cân bằng, lực đàn hồi luôn bằng trọng lực.
+
 b) Độ dãn cân bằng thỏa $k\Delta\ell_0=mg$.
+
 c) Nếu $A>\Delta\ell_0$, trong một phần chu kì lò xo bị nén.
+
 d) Chu kì phụ thuộc biên độ nếu lò xo lí tưởng và dao động nhỏ quanh cân bằng.
 
 ??? success "Đáp án và lời giải"
@@ -85,8 +100,11 @@ d) Chu kì phụ thuộc biên độ nếu lò xo lí tưởng và dao động n
 Con lắc lò xo nằm ngang lí tưởng:
 
 a) Lực kéo về là $F=-kx$.
+
 b) Tốc độ cực đại ở hai biên.
+
 c) Gia tốc cực đại về độ lớn ở hai biên.
+
 d) Tăng khối lượng vật thì chu kì tăng.
 
 ??? success "Đáp án và lời giải"
@@ -138,34 +156,39 @@ Con lắc lò xo treo thẳng đứng có $m=0,10$ kg, $k=40$ N/m, $g=10$ m/s² 
 
 ## Ngân hàng bài tập mở rộng
 
-> Các bài dưới đây được đánh số nối tiếp phần bài tập phía trên. Đề bài được trình bày bằng Markdown; chỉ đồ thị, hình vẽ hoặc sơ đồ thực sự cần thiết mới được giữ dưới dạng hình. Đáp án và lời giải được đặt trong nút mở rộng ngay dưới từng bài.
-
 ### Nhận biết — Đúng/Sai
 
 #### Bài 11
 
 <!-- source-id: BT-Chuong-I-p29-q3-75 -->
 
-Dựa vào đồ thị dao động của con lắc lò xo như hình , hãy xác định đúng/sai cho các phát
-biểu sau:
-
-a) Biên độ là khoảng cách lớn nhất từ vị trí cân bằng đến điểm cực đại trên đồ thị.
-b) Chu kì của dao động điều hòa là khoảng thời gian để vật thực hiện được một dao động toàn phần, và được tính bằng 1/T.
-c) Tần số là số lần vật đạt giá trị biên độ trong một giây, được xác định bằng nghịch đảo của chu kì.
-d) Độ lệch pha là sự khác biệt giữa pha ban đầu và pha tại một thời điểm bất kỳ trên đồ thị, được biểu diễn bằng độ hoặc radian.
+Dựa vào đồ thị dao động của con lắc lò xo như hình, hãy xác định đúng/sai cho các phát biểu sau:
 
 ![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/i_p29_q3_75_fig1.webp){ loading=lazy }
 
+a) Biên độ là khoảng cách từ vị trí cân bằng đến một vị trí biên; trên đồ thị li độ - thời gian, đó là độ lớn li độ cực đại.
+
+b) Chu kì của dao động điều hòa là khoảng thời gian để vật thực hiện được một dao động toàn phần, và được tính bằng $1/T$.
+
+c) Tần số là số lần vật đạt giá trị biên độ trong một giây, được xác định bằng nghịch đảo của chu kì.
+
+d) Độ lệch pha là sự khác biệt giữa pha ban đầu và pha tại một thời điểm bất kỳ trên đồ thị, được biểu diễn bằng độ hoặc radian.
+
 ??? success "Đáp án và lời giải"
+    **Đáp án sau kiểm tra:** a) Đúng; b) Sai; c) Đúng; d) Đúng.
+
     **Hướng dẫn giải:**
-    a. Biên độ là khoảng cách lớn nhất từ vị trí cân bằng đến điểm có độ dịch chuyển cực đại trên đồ thị.
-    =&gt; Sai.
-    b. Chu kì của dao động điều hòa là khoảng thời gian ngắn nhất để vật thực hiện được một dao động
-    toàn phần, và được tính bằng 1/f. =&gt; Sai.
-    c. Tần số là số lần vật đạt giá trị biên độ trong một giây, được xác định bằng nghịch đảo của chu kì.
-    =&gt; Đúng.
-    d. Độ lệch pha là sự khác biệt giữa pha ban đầu và pha tại một thời điểm bất kỳ trên đồ thị, được
-    biểu diễn bằng độ hoặc radian. =&gt; Đúng.
+
+    a) **Đúng.** Với dao động điều hòa, biên độ $A=|x|_{\max}$ là khoảng cách lớn nhất từ vị trí cân bằng đến vị trí biên.
+
+    b) **Sai.** Chu kì là thời gian ngắn nhất để vật thực hiện một dao động toàn phần và $T=1/f$, không phải $1/T$.
+
+    c) **Đúng** nếu “đạt giá trị biên độ” được hiểu là đạt li độ cực đại dương $x=A$: trạng thái này lặp lại một lần trong mỗi chu kì, nên số lần trong một giây bằng $f=1/T$.
+
+    d) **Đúng.** Độ lệch pha là hiệu giữa hai pha và có đơn vị radian (hoặc có thể biểu diễn tương đương bằng độ).
+
+!!! warning "Đối chiếu nguồn"
+    PDF đánh dấu a) **Sai** do phân biệt cụm “điểm cực đại trên đồ thị” với “điểm có độ dịch chuyển cực đại”. Tuy nhiên trên chính đồ thị li độ - thời gian, khoảng cách từ vị trí cân bằng đến cực đại dương bằng $A$. Bản learner-facing làm rõ cách diễn đạt và dùng kết luận vật lí đúng.
 
 ### Thông hiểu — Trắc nghiệm 4 lựa chọn
 
@@ -184,14 +207,16 @@ B. chuyển động tròn.
 C. dao động cơ.
 
 D. ném ngang.
+
 ??? success "Đáp án và lời giải"
-    **Đáp án:** A
+    **Đáp án:** C.
+
     **Hướng dẫn giải:**
 
-    Với con lắc lò xo, dùng $\omega=\sqrt{k/m}$, $T=2\pi\sqrt{m/k}$ và $F=-kx$; đổi mọi đại lượng về cùng hệ đơn vị trước khi thay số.
+    Sau khi kéo vật lệch khỏi vị trí cân bằng rồi thả, vật chuyển động qua lại quanh vị trí cân bằng dưới tác dụng của lực kéo về. Đó là **dao động cơ**, không phải rơi tự do, chuyển động tròn hay ném ngang.
 
+    Vậy chọn **C**.
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. rơi tự do.**
 #### Bài 13
 
 <!-- source-id: BT-Chuong-I-p10-q17-17 -->
@@ -226,21 +251,23 @@ D. Hàng IV.
 
 <!-- source-id: BT-Chuong-I-p39-q28-109 -->
 
-Trong quá trình dao động chiều dài của một con lắc lò xo. Con lắc thực hiện 15 dao động
-toàn phần hết 30 s. Tần số góc dao động của con lắc là
-Hình 1.1
+Trong quá trình dao động chiều dài của một con lắc lò xo. Con lắc thực hiện 15 dao động toàn phần hết 30 s. Tần số góc dao động của con lắc là
 
-A. π rad/s.
+A. $\pi$ rad/s.
 
-B. 2π rad/s.
- C.0 5π
-,
-rad.
+B. $2\pi$ rad/s.
 
-D. 0 25π
-,
-rad.
+C. $0{,}5\pi$ rad/s.
+
+D. $0{,}25\pi$ rad/s.
+
 ??? success "Đáp án và lời giải"
+    **Đáp án:** A.
+
     **Hướng dẫn giải:**
 
-    Với con lắc lò xo, dùng $\omega=\sqrt{k/m}$, $T=2\pi\sqrt{m/k}$ và $F=-kx$; đổi mọi đại lượng về cùng hệ đơn vị trước khi thay số.
+    Tần số dao động là $f=\dfrac{15}{30}=0{,}5$ Hz.
+
+    Vì $\omega=2\pi f$, suy ra $\omega=2\pi\cdot0{,}5=\pi$ rad/s.
+
+    Vậy chọn **A**.

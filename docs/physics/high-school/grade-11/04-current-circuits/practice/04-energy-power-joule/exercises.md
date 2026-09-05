@@ -20,8 +20,11 @@ tags:
 Công suất tiêu thụ của điện trở R có thể viết
 
 A. $P=UI$.
+
 B. $P=U/I$.
+
 C. $P=It/U$.
+
 D. $P=R/U^2$.
 
 ??? success "Đáp án và lời giải"
@@ -32,8 +35,11 @@ D. $P=R/U^2$.
 Điện trở $10\,\Omega$ có dòng $2$ A chạy qua. Công suất tỏa nhiệt là
 
 A. $5$ W.
+
 B. $20$ W.
+
 C. $40$ W.
+
 D. $200$ W.
 
 ??? success "Đáp án và lời giải"
@@ -44,8 +50,11 @@ D. $200$ W.
 Một thiết bị ghi 220 V – 1100 W. Dòng định mức gần bằng
 
 A. $0,2$ A.
+
 B. $5$ A.
+
 C. $10$ A.
+
 D. $242$ A.
 
 ??? success "Đáp án và lời giải"
@@ -56,8 +65,11 @@ D. $242$ A.
 Định luật Joule–Lenz cho nhiệt lượng tỏa ra trên điện trở trong dòng không đổi là
 
 A. $Q=I^2Rt$.
+
 B. $Q=IR/t$.
+
 C. $Q=U/I$.
+
 D. $Q=R/(I^2t)$.
 
 ??? success "Đáp án và lời giải"
@@ -70,8 +82,11 @@ D. $Q=R/(I^2t)$.
 Điện năng và công suất:
 
 a) $1$ kWh là đơn vị năng lượng.
+
 b) $1$ kWh = $3,6\cdot10^6$ J.
+
 c) Với điện trở thuần, $P=U^2/R$.
+
 d) Tăng R trong khi giữ I không đổi làm công suất giảm.
 
 ??? success "Đáp án và lời giải"
@@ -85,8 +100,11 @@ d) Tăng R trong khi giữ I không đổi làm công suất giảm.
 Một nguồn có suất điện động E, phát dòng I:
 
 a) Công suất của nguồn là $\mathcal E I$.
+
 b) Công suất hao phí trong nguồn là $I^2r$.
+
 c) Công suất mạch ngoài bằng $UI$.
+
 d) Hiệu suất nguồn luôn 100% nếu r khác 0.
 
 ??? success "Đáp án và lời giải"
@@ -136,8 +154,6 @@ Một bếp điện truyền $1,5\cdot10^6$ J nhiệt hữu ích cho nước khi
     $t=A/P=630000/1000=630$ s $=10,5$ phút.
 
 ## Ngân hàng bài tập mở rộng
-
-> Các bài dưới đây được đánh số nối tiếp phần bài tập phía trên. Đề bài được trình bày bằng Markdown; chỉ đồ thị, hình vẽ hoặc sơ đồ thực sự cần thiết mới được giữ dưới dạng hình. Đáp án và lời giải được đặt trong nút mở rộng ngay dưới từng bài.
 
 ### Nhận biết — Trả lời ngắn
 
@@ -356,12 +372,7 @@ D. 1090 J.
 
 <!-- source-id: BT-Chuong-IV-p96-q25-287 -->
 
-Mắc hai cực của một nguồn điện không đổi có suất điện động 6,0 V và điện trở trong 0,5Ω
-vào hai đầu một điện trở R
-3,5
-=
-Ω để tạo thành mạch kín. Bỏ qua điện trở các dây nối. Nhiệt lượng
-toả ra trên điện trở R trong 1 phút là
+Mắc hai cực của một nguồn điện không đổi có suất điện động 6,0 V và điện trở trong $0,5\ \Omega$ vào hai đầu một điện trở $R=3,5\ \Omega$ để tạo thành mạch kín. Bỏ qua điện trở các dây nối. Nhiệt lượng tỏa ra trên điện trở $R$ trong 1 phút là
 
 A. 724,5 J.
 
@@ -375,12 +386,14 @@ D. 452,7 J.
     **Đáp án:** B
     **Hướng dẫn giải:**
 
-    Dùng $A=UIt=Pt$, $P=UI=I^2R=U^2/R$ và định luật Joule $Q=I^2Rt$.
+    Cường độ dòng điện qua điện trở $R$ là
+    $I=\dfrac{\mathcal{E}}{R+r}=\dfrac{6}{3,5+0,5}=1,5$ A.
 
-    Cường độ dòng điện chạy qua điện trở R là
-    Nhiệt lượng toả ra trên điện trở R trong 1 phút là
+    Trong $t=60$ s, nhiệt lượng tỏa ra trên $R$ là
+    $Q=I^2Rt=1,5^2\cdot3,5\cdot60=472,5$ J.
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **B. 472,5 J.**
+    Vì vậy chọn **B**.
+
 #### Bài 24
 
 <!-- source-id: BT-Chuong-IV-p96-q26-288 -->
@@ -409,58 +422,50 @@ D. 12 W.
 
 <!-- source-id: BT-Chuong-IV-p97-q27-289 -->
 
-Tính công suất điện hao phí dưới dạng nhiệt trên một dây cáp dài 15 km dẫn dòng điện có
-cường độ 100
+Tính công suất điện hao phí dưới dạng nhiệt trên một dây cáp dài $15\,\mathrm{km}$ dẫn dòng điện có cường độ $100\,\mathrm A$. Biết điện trở trên một đơn vị chiều dài của dây cáp là $0{,}20\,\Omega/\mathrm{km}$.
 
-A. Biết điện trở trên một đơn vị chiều dài của dây cáp này là 0,20
-/ km
-Ω
-.
+A. $20000\,\mathrm W$.
 
-A. 20 000 W.
+B. $45000\,\mathrm W$.
 
-B. 45 000 W.
+C. $15000\,\mathrm W$.
 
-C. 15 000 W.
-
-D. 30 000 W.
+D. $30000\,\mathrm W$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
+
     **Hướng dẫn giải:**
 
-    Dùng $A=UIt=Pt$, $P=UI=I^2R=U^2/R$ và định luật Joule $Q=I^2Rt$.
+    Điện trở dây cáp $R=0{,}20\cdot15=3\,\Omega$.
 
-    Công suất điện hao phí:
+    $P=I^2R=100^2\cdot3=30000\,\mathrm W$.
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **D. 30 000 W.**
+    Vậy chọn **D**.
+
 #### Bài 26
 
 <!-- source-id: BT-Chuong-IV-p97-q28-290 -->
 
-Một bóng đèn pin đang sáng với hiệu điện thế giữa hai đầu bóng đèn là 2,2 V và cường độ
-dòng điện qua đèn là 0,25
+Một bóng đèn pin đang sáng với hiệu điện thế hai đầu $2{,}2\,\mathrm V$ và cường độ dòng điện qua đèn $0{,}25\,\mathrm A$. Năng lượng tiêu thụ trên bóng đèn khi mỗi culông điện tích truyền qua là
 
-A. Năng lượng tiêu thụ trên bóng đèn khi mỗi culông điện tích truyền qua
-là
+A. $2\,\mathrm J$.
 
-A. 2 J.
+B. $3{,}2\,\mathrm J$.
 
-B. 3,2 J.
+C. $3\,\mathrm J$.
 
-C. 3 J.
-
-D. 2,2 J.
+D. $2{,}2\,\mathrm J$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
+
     **Hướng dẫn giải:**
 
-    Dùng $A=UIt=Pt$, $P=UI=I^2R=U^2/R$ và định luật Joule $Q=I^2Rt$.
+    Với $q=1\,\mathrm C$, năng lượng tiêu thụ $A=qU=1\cdot2{,}2=2{,}2\,\mathrm J$.
 
-    Năng lượng tiêu thụ trên bóng đèn khi mỗi culông điện tích truyền qua là
+    Vậy chọn **D**.
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **D. 2,2 J.**
 #### Bài 27
 
 <!-- source-id: BT-Chuong-IV-p97-q29-291 -->
@@ -540,283 +545,203 @@ D. 3,2.105 J.
 
 <!-- source-id: BT-Chuong-IV-p97-q32-294 -->
 
-Một đoạn mạch gồm một bóng đèn có ghi 9V - 4,5W được mắc
-nối tiếp với một biến trở và được đặt vào hiệu điện thế không đổi 12V như
-hình. Điện trở của dây nối và ampe kế rất nhỏ. Bóng đèn sáng bình thường,
-Năng lượng điện tiêu thụ của toàn mạch trong thời gian 30 phút là
-
-A. 10,8 kJ.
-
-B. 18,0 kJ.
-
-C. 8,0 kJ.
-
-D. 12,8
-kJ.
+Một đoạn mạch gồm bóng đèn ghi $9\,\mathrm V-4{,}5\,\mathrm W$ mắc nối tiếp với một biến trở và đặt vào hiệu điện thế không đổi $12\,\mathrm V$ như hình. Điện trở dây nối và ampe kế rất nhỏ. Bóng đèn sáng bình thường. Năng lượng điện tiêu thụ của toàn mạch trong $30$ phút là
 
 ![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/iv_p97_q32_294_fig1.webp){ loading=lazy }
 
+A. $10{,}8\,\mathrm{kJ}$.
+
+B. $18{,}0\,\mathrm{kJ}$.
+
+C. $8{,}0\,\mathrm{kJ}$.
+
+D. $12{,}8\,\mathrm{kJ}$.
+
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
+
     **Hướng dẫn giải:**
 
-    Dùng $A=UIt=Pt$, $P=UI=I^2R=U^2/R$ và định luật Joule $Q=I^2Rt$.
+    Đèn sáng bình thường nên dòng mạch chính bằng dòng định mức:
 
-    Vì bóng đèn sáng bình thường, nên số chỉ của ampe kế chính là cường độ dòng điện định mức của
-    Điện trở của đoạn mạch:
-    Năng lượng điện tiêu thụ của toàn mạch:
+    $I=P_d/U_d=4{,}5/9=0{,}5\,\mathrm A$.
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. 10,8 kJ.**
+    Công suất toàn mạch $P=UI=12\cdot0{,}5=6\,\mathrm W$.
+
+    Trong $t=30\cdot60=1800\,\mathrm s$:
+
+    $A=Pt=6\cdot1800=10800\,\mathrm J=10{,}8\,\mathrm{kJ}$.
+
+    Vậy chọn **A**.
+
 #### Bài 31
 
 <!-- source-id: BT-Chuong-IV-p98-q33-295 -->
 
-Nguồn điện có điện trở trong r
-2
-= Ω, cung cấp một công suất P cho mạch ngoài là điện
-trở
-1
-R
-0,5 .
-=
-Ω Mắc thêm vào mạch ngoài điện trở
-2
-R thì công suất tiêu thụ mạch ngoài không đổi.
-Ta cần mắc
-2
-R nối tiếp hay song song với
-1
-R và có giá trị bao nhiêu?
+Nguồn điện có điện trở trong $r=2\,\Omega$, cung cấp cùng một công suất $P$ cho mạch ngoài khi mạch ngoài chỉ có $R_1=0{,}5\,\Omega$ và khi mắc thêm $R_2$. Cần mắc $R_2$ nối tiếp hay song song với $R_1$ và $R_2$ bằng bao nhiêu?
 
-A. Mắc nối tiếp và R2 = 7,5 Ω.
+A. Mắc nối tiếp và $R_2=7{,}5\,\Omega$.
 
-B. Mắc nối tiếp và R2 = 5,5 Ω.
+B. Mắc nối tiếp và $R_2=5{,}5\,\Omega$.
 
-C. Mắc song song và R2 = 7,5 Ω.
+C. Mắc song song và $R_2=7{,}5\,\Omega$.
 
-D. Mắc song song và R2 = 5,5 Ω.
+D. Mắc song song và $R_2=5{,}5\,\Omega$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
+
     **Hướng dẫn giải:**
 
-    Dùng $A=UIt=Pt$, $P=UI=I^2R=U^2/R$ và định luật Joule $Q=I^2Rt$.
+    Với điện trở mạch ngoài $R_N$, $P=\dfrac{\mathcal E^2R_N}{(R_N+r)^2}$.
 
-    Khi mạch ngoài chỉ có điện trở R1 thì công suất tiêu thụ mạch ngoài:
-    Nếu mắc thêm điện trở R2 thì điện trở mạch ngoài là R12.
-    Theo đầu bài, ta có:
-    Giải phương trình ta thu được:
-    nên R2 phải mắc nối tiếp với R1 và
+    Đặt $R_N=R_1=0{,}5\,\Omega$ và $R_N=R_{12}$ cho cùng công suất, giải được $R_{12}=8\,\Omega$ (nghiệm $0{,}5\,\Omega$ là trạng thái ban đầu).
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. Mắc nối tiếp và R2 = 7,5 Ω.**
+    Vì $R_{12}>R_1$, $R_2$ phải mắc nối tiếp và $R_2=8-0{,}5=7{,}5\,\Omega$.
+
 #### Bài 32
 
 <!-- source-id: BT-Chuong-IV-p98-q34-296 -->
 
-Có hai điện trở mắc giữa hai điểm có hiệu điện thế là 12 V. Khi R1 nối tiếp R2 thì công suất
-của mạch là 4 W. Khi R1 mắc song song R2 thì công suất của mạch là 18 W. Nếu R2 &gt; R1, thì R1 và
-R2 có giá trị là
+Có hai điện trở mắc giữa hai điểm có hiệu điện thế $12\,\mathrm V$. Khi $R_1$ nối tiếp $R_2$ thì công suất mạch là $4\,\mathrm W$. Khi $R_1$ song song $R_2$ thì công suất mạch là $18\,\mathrm W$. Nếu $R_2>R_1$, thì
 
-A. R1 = 12Ω và R2 = 24 Ω .
+A. $R_1=12\,\Omega$, $R_2=24\,\Omega$.
 
-A. R1 = 24Ω và R2 = 48 Ω .
+B. $R_1=24\,\Omega$, $R_2=48\,\Omega$.
 
-C. R1 = 10Ω và R2 = 24 Ω .
+C. $R_1=10\,\Omega$, $R_2=24\,\Omega$.
 
-D. R1 = 6Ω và R2 = 24 Ω
-.
+D. $R_1=6\,\Omega$, $R_2=24\,\Omega$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
+
     **Hướng dẫn giải:**
 
-    Dùng $A=UIt=Pt$, $P=UI=I^2R=U^2/R$ và định luật Joule $Q=I^2Rt$.
+    $P_{nt}=U^2/(R_1+R_2)=4$ và $P_{ss}=U^2(R_1+R_2)/(R_1R_2)=18$.
 
-    Do R2 > R1 nên ta chọn
+    Suy ra $2(R_1+R_2)^2=9R_1R_2$, hay $(2R_1-R_2)(2R_2-R_1)=0$.
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. R1 = 12Ω và R2 = 24 Ω .**
+    Vì $R_2>R_1$, $R_2=2R_1$. Kết hợp $4=12^2/(R_1+R_2)$ cho $R_1=12\,\Omega$, $R_2=24\,\Omega$.
+
 #### Bài 33
 
 <!-- source-id: BT-Chuong-IV-p99-q35-297 -->
 
-Một ắc quy nếu nó phát dòng điện có cường độ
-1I
-15A
-=
-thì công suất điện ở mạch ngoài
-1P
-136W
-=
-, còn nếu nó phát dòng điện có cường độ
-2I
-6A
-=
-thì công suất điện ở mạch ngoài
-2P
-64,8W
-=
-. Suất điện động và điện trở trong của ắc quy là
+Một ắc-quy phát dòng $I_1=15\,\mathrm A$ thì công suất mạch ngoài $P_1=136\,\mathrm W$; khi phát dòng $I_2=6\,\mathrm A$ thì công suất mạch ngoài $P_2=64{,}8\,\mathrm W$. Suất điện động và điện trở trong của ắc-quy là
 
-A. 12 ,
-0,9 .
-E
-V r
-=
-=
-Ω .
+A. $\mathcal E=12\,\mathrm V$, $r=0{,}9\,\Omega$.
 
-B. 10 ,
-1,1 .
-E
-V r
-=
-=
-Ω.
+B. $\mathcal E=10\,\mathrm V$, $r=1{,}1\,\Omega$.
 
-A. 12 ,
-1,1 .
-E
-V r
-=
-=
-Ω.
+C. $\mathcal E=12\,\mathrm V$, $r=1{,}1\,\Omega$.
 
-B. 10 ,
-0,9 .
-E
-V r
-=
-=
-Ω.
+D. $\mathcal E=10\,\mathrm V$, $r=0{,}9\,\Omega$.
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** A
+    **Kết luận:** Không có phương án nào đúng hoàn toàn.
+
     **Hướng dẫn giải:**
+    Với nguồn phát điện, công suất mạch ngoài là $P=(\mathcal E-Ir)I$.
 
-    Dùng $A=UIt=Pt$, $P=UI=I^2R=U^2/R$ và định luật Joule $Q=I^2Rt$.
+    Từ hai trạng thái:
 
-    Công suất tiêu thụ trên mạch ngoài:
-    Trong hai trường hợp ta có:
+    $136=(\mathcal E-15r)15$,
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. 12 , 0,9 . E V r = = Ω .**
+    $64{,}8=(\mathcal E-6r)6$.
+
+    Giải hệ được $r=26/135\,\Omega\approx0{,}193\,\Omega$ và $\mathcal E=538/45\,\mathrm V\approx11{,}96\,\mathrm V$.
+
+    Giá trị $\mathcal E$ gần 12 V nhưng $r$ không gần $0{,}9\,\Omega$ hay $1{,}1\,\Omega$, nên không phương án nào đúng.
+
+!!! warning "Đối chiếu nguồn"
+    Chính lời giải PDF cũng thu được $r=26/135\,\Omega$ nhưng sau đó ghi sai $r\approx0{,}9\,\Omega$ và tô A. Bản learner-facing giữ nghiệm chính xác của hệ phương trình và không ép chọn phương án sai.
+
 #### Bài 34
 
 <!-- source-id: BT-Chuong-IV-p99-q36-298 -->
 
-Mắc hai đầu một biến trở R vào hai cực của một nguồn điện không
-đổi. Điều chỉnh giá trị biến trở R. Bỏ qua điện trở của các dây nối. Đồ thị biểu
-diễn sự phụ thuộc của hiệu suất nguồn điện vào R như hình bên. Để hiệu suất
-nguồn điện bằng 70% thì giá trị R của biến trở là
-
-A. 2,8 .
-Ω.
-
-B. 3,8 .
-Ω.
-
-C. 2,5 .
-Ω.
-
-D. 3,5 .
-Ω.
+Mắc biến trở $R$ vào hai cực của một nguồn điện không đổi. Đồ thị biểu diễn sự phụ thuộc của hiệu suất nguồn điện vào $R$ như hình. Để hiệu suất nguồn điện bằng $70\%$ thì $R$ bằng
 
 ![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/iv_p99_q36_298_fig1.webp){ loading=lazy }
 
+A. $2{,}8\,\Omega$.
+
+B. $3{,}8\,\Omega$.
+
+C. $2{,}5\,\Omega$.
+
+D. $3{,}5\,\Omega$.
+
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
+
     **Hướng dẫn giải:**
 
-    Dùng $A=UIt=Pt$, $P=UI=I^2R=U^2/R$ và định luật Joule $Q=I^2Rt$.
+    $H=U/\mathcal E=R/(R+r)$.
 
-    Sử dụng các điểm trên đường đồ thị (
-    Thay H = 0,7 ta tính được
+    Từ các điểm trên đồ thị $(0{,}8;0{,}4)$ hoặc $(1{,}2;0{,}5)$ suy ra $r=1{,}2\,\Omega$.
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. 2,8 . Ω.**
+    Với $H=0{,}7$: $0{,}7=R/(R+1{,}2)$, nên $R=2{,}8\,\Omega$.
+
 #### Bài 35
 
 <!-- source-id: BT-Chuong-IV-p99-q37-299 -->
 
-Một biến trở được mắc vào hai cực của một nguồn điện không đổi
-có điện trở trong 2,0Ω. Khi thay đổi giá trị biến trở, ta thu được đồ thị biểu
-diễn sự phụ thuộc của công suất toả nhiệt trên biến trở vào cường độ dòng
-điện chạy trong mạch như hình. Bỏ qua điện trở của các dây nối. Giá trị biến
-trở tương ứng với điểm M trên đồ thị bằng bao nhiêu?
-A.1,5 .
-Ω.
-
-B. 0,5 .
-Ω.
-
-C. 2,5 .
-Ω.
-
-D. 3,5 .
-Ω.
+Một biến trở mắc vào hai cực của nguồn có điện trở trong $r=2{,}0\,\Omega$. Đồ thị biểu diễn công suất tỏa nhiệt trên biến trở theo cường độ dòng điện như hình. Giá trị biến trở ứng với điểm $M$ là
 
 ![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/iv_p99_q37_299_fig1.webp){ loading=lazy }
 
+A. $1{,}5\,\Omega$.
+
+B. $0{,}5\,\Omega$.
+
+C. $2{,}5\,\Omega$.
+
+D. $3{,}5\,\Omega$.
+
 ??? success "Đáp án và lời giải"
     **Đáp án:** B
+
     **Hướng dẫn giải:**
 
-    Dùng $A=UIt=Pt$, $P=UI=I^2R=U^2/R$ và định luật Joule $Q=I^2Rt$.
+    $P=UI=(\mathcal E-rI)I=-rI^2+\mathcal EI$.
 
-    Ta có biểu thức P theo I:
-    Đường biểu diễn P theo I là một parabol như hình.
-    Khi chỉnh R = r thì công suất tiêu thụ trên R đạt cực đại. Suy ra, dòng điện ứng với trường hợp này:
-    Mặt khác, dòng điện ứng với điểm M:
-    Từ đồ thị, ta thấy:
+    Khi $R=r$, công suất trên $R$ cực đại nên $I_{P\max}=\mathcal E/(2r)$. Tại điểm $M$, $I_M=\mathcal E/(R_M+r)$.
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **B. 0,5 . Ω.**
+    Từ đồ thị, $I_M/I_{P\max}=4/2{,}5$. Do đó
+
+    $\dfrac{2r}{R_M+r}=\dfrac{4}{2{,}5}$.
+
+    Với $r=2\,\Omega$, suy ra $R_M=0{,}5\,\Omega$.
+
 #### Bài 36
 
 <!-- source-id: BT-Chuong-IV-p100-q38-300 -->
 
-Hai nguồn điện giống hệt nhau được mắc thành bộ rồi nối hai cực của bộ nguồn với hai đầu
-của một điện trở thì kết quả là cường độ dòng điện qua điện trở trong trường hợp hai nguồn mắc nối
-tiếp và hai nguồn mắc song song đều bằng nhau. Hiệu suất của bộ nguồn trong hai trường hợp mắc
-nối tiếp và song song lần lượt là
+Hai nguồn điện giống hệt nhau được mắc thành bộ rồi nối với cùng một điện trở ngoài. Cường độ dòng điện qua điện trở khi hai nguồn mắc nối tiếp và khi hai nguồn mắc song song bằng nhau. Hiệu suất của bộ nguồn trong hai trường hợp mắc nối tiếp và song song lần lượt là
 
-A. 1
-2
-3
-3
-va
-.
+A. $\dfrac13$ và $\dfrac23$.
 
-B. 1
-1
-4
-2
-va
-.
+B. $\dfrac14$ và $\dfrac12$.
 
-C. 2
-1
-3
-3
-va
-.
+C. $\dfrac23$ và $\dfrac13$.
 
-D. 1
-1
-2
-4
-va
-.
+D. $\dfrac12$ và $\dfrac14$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
+
     **Hướng dẫn giải:**
 
-    Dùng $A=UIt=Pt$, $P=UI=I^2R=U^2/R$ và định luật Joule $Q=I^2Rt$.
+    Mắc nối tiếp: $I_1=2\mathcal E/(R+2r)$.
 
-    Trường hợp hai nguồn mắc nối tiếp:
-    Trường hợp hai nguồn mắc song song:
-    Từ (1) và (2) cho
-    Thay vào tính được hiệu suất tương ứng trong hai trường hợp:
+    Mắc song song: $I_2=\mathcal E/(R+r/2)$.
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. 1 2 3 3 va .**
+    Điều kiện $I_1=I_2$ cho $R=r$.
+
+    Vì $H=R/(R+r_b)$, suy ra $H_1=r/(r+2r)=1/3$ và $H_2=r/(r+r/2)=2/3$.
+
 #### Bài 37
 
 <!-- source-id: BT-Chuong-IV-p100-q39-301 -->
@@ -846,127 +771,114 @@ D. 21,2 kWh.
 
 <!-- source-id: BT-Chuong-IV-p101-q41-303 -->
 
-Cho mạch điện như hình bên. Biết E =12 V; r = 1 Ω; R1 = 3 Ω;
-R2 = R3 = 4 Ω. Bỏ qua điện trở của dây nối. Công suất tiêu thụ điện của R1 là
-
-A. 4,5 W.
-
-B. 12,0 W.
-
-C. 9,0 W.
-
-D. 6,0 W.
+Cho mạch điện như hình. Biết $\mathcal E=12\,\mathrm V$, $r=1\,\Omega$, $R_1=3\,\Omega$, $R_2=R_3=4\,\Omega$. Bỏ qua điện trở dây nối. Công suất tiêu thụ điện của $R_1$ là
 
 ![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/iv_p101_q41_303_fig1.webp){ loading=lazy }
 
+A. $4{,}5\,\mathrm W$.
+
+B. $12{,}0\,\mathrm W$.
+
+C. $9{,}0\,\mathrm W$.
+
+D. $6{,}0\,\mathrm W$.
+
 ??? success "Đáp án và lời giải"
     **Đáp án:** B
+
     **Hướng dẫn giải:**
 
-    Dùng $A=UIt=Pt$, $P=UI=I^2R=U^2/R$ và định luật Joule $Q=I^2Rt$.
+    $R_N=R_1+(R_2\parallel R_3)=3+2=5\,\Omega$.
 
-    , P1 = R1 I12 = 3.22 = 12W
+    $I=\mathcal E/(R_N+r)=12/(5+1)=2\,\mathrm A$.
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **B. 12,0 W.**
+    $P_1=R_1I^2=3\cdot2^2=12\,\mathrm W$.
+
 #### Bài 39
 
 <!-- source-id: BT-Chuong-IV-p101-q42-304 -->
 
-Cho mạch điện như hình vẽ.
-12,5 ;
-0,4
-E
-V r
-=
-=
-Ω; Đèn Đ1 có chỉ số
-12V – 6W, đèn Đ2 có chỉ số 6V – 4,5W. Khi
-8
-b
-R = Ω thì đèn Đ1 và Đ2 sáng
-bình thường. Tính công suất của nguồn điện.
-
-A. 16,525 W.
-
-B. 12,625 W.
-
-C. 15,625 W.
-
-D. 15,525 W.
+Cho mạch điện như hình vẽ. $\mathcal E=12{,}5\,\mathrm V$, $r=0{,}4\,\Omega$; đèn $Đ_1$ ghi $12\,\mathrm V-6\,\mathrm W$, đèn $Đ_2$ ghi $6\,\mathrm V-4{,}5\,\mathrm W$. Khi $R_b=8\,\Omega$ thì hai đèn sáng bình thường. Công suất của nguồn điện là
 
 ![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/iv_p101_q42_304_fig1.webp){ loading=lazy }
 
+A. $16{,}525\,\mathrm W$.
+
+B. $12{,}625\,\mathrm W$.
+
+C. $15{,}625\,\mathrm W$.
+
+D. $15{,}525\,\mathrm W$.
+
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
+
     **Hướng dẫn giải:**
 
-    Dùng $A=UIt=Pt$, $P=UI=I^2R=U^2/R$ và định luật Joule $Q=I^2Rt$.
+    Dòng định mức của hai đèn: $I_1=6/12=0{,}5\,\mathrm A$, $I_2=4{,}5/6=0{,}75\,\mathrm A$.
 
-    Đèn sáng bình thường nên I1 = Idm1, I2b = Idm2, I = I1 + I2b = 0,5+0,75 = 1,25
-    Png = EI = 12,5.1,25 = 15,625W
+    Hai đèn sáng bình thường nên dòng nguồn $I=I_1+I_2=1{,}25\,\mathrm A$.
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. 15,625 W.**
+    $P_{ng}=\mathcal EI=12{,}5\cdot1{,}25=15{,}625\,\mathrm W$.
+
 #### Bài 40
 
 <!-- source-id: BT-Chuong-IV-p101-q43-305 -->
 
+Cho mạch điện gồm nhánh $R_1$ nối tiếp $R_2$ mắc song song với nhánh $R_3$; ampe kế mắc nối tiếp $R_3$. Biết $r=1{,}5\,\Omega$, $R_1=R_3=10\,\Omega$, $R_2=5\,\Omega$. Bỏ qua điện trở ampe kế và dây nối. Số chỉ ampe kế là $1{,}2\,\mathrm A$. Công suất của nguồn điện là
 
-Cho mạch điện gồm nhánh $R_1$ nối tiếp $R_2$ mắc song song với nhánh $R_3$; ampe kế mắc nối tiếp với $R_3$. Biết $r=1,5\ \Omega$, $R_1=R_3=10\ \Omega$, $R_2=5\ \Omega$. Bỏ qua điện trở của ampe kế và dây nối. Số chỉ của ampe kế là 1,2 A. Công suất của nguồn điện là
+A. $24\,\mathrm W$.
 
-A. 24 W.
+B. $30\,\mathrm W$.
 
-B. 30 W.
+C. $18\,\mathrm W$.
 
-C. 18 W.
-
-D. 37,5 W.
+D. $37{,}5\,\mathrm W$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** B
+
     **Hướng dẫn giải:**
 
-    Dùng $A=UIt=Pt$, $P=UI=I^2R=U^2/R$ và định luật Joule $Q=I^2Rt$.
+    $I_3=1{,}2\,\mathrm A$, $R_{12}=R_1+R_2=15\,\Omega$.
 
-    I3 = 1,2A, R12 = 10+5 = 15Ω,
-    U12 = U3 = I3R3 = 1,2.10 = 12V,
-    , I = I3 + I12 = 1,2 + 0,8 = 2A
-    = Ω, P = EI = I2(RN + r) = 22(6 + 1,5) = 30W
+    $U_{12}=U_3=I_3R_3=12\,\mathrm V$, nên $I_{12}=12/15=0{,}8\,\mathrm A$.
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **B. 30 W.**
+    Dòng nguồn $I=I_3+I_{12}=2\,\mathrm A$ và $R_N=15\parallel10=6\,\Omega$.
+
+    $P_{ng}=I^2(R_N+r)=2^2(6+1{,}5)=30\,\mathrm W$.
+
 #### Bài 41
 
 <!-- source-id: BT-Chuong-IV-p102-q44-306 -->
 
-Cho mạch điện như hình vẽ, nguồn điện có E1=12V, E2=6V và điện trở trong
-không đáng kể.
-1
-2
-4 ,
-8
-R
-R
-= Ω
-= Ω. Tính năng lượng mà mỗi nguồn cung cấp trong 5 phút.
-
-A. W1 = 5400 J, W2 = 2700 J.
-
-B. W1 = 2700 J, W2 = 5400 J.
-
-C. W1 = 8100 J, W2 = 2700 J.
-
-D. W1 = 5400 J, W2 = 8100 J.
+Cho mạch điện như hình vẽ, hai nguồn có $\mathcal E_1=12\,\mathrm V$, $\mathcal E_2=6\,\mathrm V$ và điện trở trong không đáng kể; $R_1=4\,\Omega$, $R_2=8\,\Omega$. Năng lượng mỗi nguồn cung cấp trong $5$ phút là
 
 ![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/iv_p102_q44_306_fig1.webp){ loading=lazy }
 
+A. $W_1=5400\,\mathrm J$, $W_2=2700\,\mathrm J$.
+
+B. $W_1=2700\,\mathrm J$, $W_2=5400\,\mathrm J$.
+
+C. $W_1=8100\,\mathrm J$, $W_2=2700\,\mathrm J$.
+
+D. $W_1=5400\,\mathrm J$, $W_2=8100\,\mathrm J$.
+
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
+
     **Hướng dẫn giải:**
 
-    Dùng $A=UIt=Pt$, $P=UI=I^2R=U^2/R$ và định luật Joule $Q=I^2Rt$.
+    Hai nguồn và hai điện trở mắc nối tiếp nên
 
-    Hai nguồn mắc nối tiếp với 2 điện trở mắc nối tiếp
+    $I=(\mathcal E_1+\mathcal E_2)/(R_1+R_2)=18/12=1{,}5\,\mathrm A$.
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. W1 = 5400 J, W2 = 2700 J.**
+    Với $t=5\cdot60=300\,\mathrm s$:
+
+    $W_1=\mathcal E_1It=12\cdot1{,}5\cdot300=5400\,\mathrm J$,
+
+    $W_2=\mathcal E_2It=6\cdot1{,}5\cdot300=2700\,\mathrm J$.
+
 #### Bài 42
 
 <!-- source-id: BT-Chuong-IV-p102-q45-307 -->
@@ -1237,22 +1149,24 @@ D. Công suất có đơn vị là oát (W).
 
 <!-- source-id: BT-Chuong-IV-p108-q12-332 -->
 
-Trên một bóng đèn có ghi 12 V – 1,25
+Trên một bóng đèn có ghi $12\,\mathrm V-1{,}25\,\mathrm A$. Kết luận nào dưới đây là sai?
 
-A. Kết luận nào dưới đây là sai?
+A. Bóng đèn này luôn có công suất $15\,\mathrm W$ khi hoạt động.
 
-A. Bóng đèn này luôn có công suất là 15 W khi hoạt động.
+B. Bóng đèn này chỉ có công suất $15\,\mathrm W$ khi mắc vào hiệu điện thế $12\,\mathrm V$ và hoạt động ở dòng định mức.
 
-B. Bóng đèn này chỉ có công suất 15 W khi mắc nó vào hiệu điện thế 12 V.
+C. Bóng đèn này tiêu thụ điện năng $15\,\mathrm J$ trong $1\,\mathrm s$ khi hoạt động bình thường.
 
-C. Bóng đèn này tiêu thụ điện năng 15 J trong 1 giây khi hoạt động bình thường.
-
-D. Bóng đèn này có điện trở 9,6 Ohm khi hoạt động bình thường.
+D. Bóng đèn này có điện trở $9{,}6\,\Omega$ khi hoạt động bình thường.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
+
     **Hướng dẫn giải:**
-    Bóng đèn này chỉ có công suất 15 W khi mắc nó vào hiệu điện thế 12 V
+
+    Ở chế độ định mức, $P=UI=12\cdot1{,}25=15\,\mathrm W$ và $R=U/I=9{,}6\,\Omega$.
+
+    Công suất $15\,\mathrm W$ không phải là giá trị bất biến ở mọi chế độ hoạt động, nên A sai.
 
 #### Bài 55
 
@@ -1324,29 +1238,25 @@ D. Q = RIt.
 
 <!-- source-id: BT-Chuong-IV-p109-q16-336 -->
 
-Một nguồn điện có suất điện động 11,5 V và điện trở trong 0,8 Ω được nối với mạch ngoài
-gồm các điện trở tạo thành một mạch kín. Nguồn phát dòng điện có cường độ 1
+Một nguồn điện có suất điện động $11{,}5\,\mathrm V$, điện trở trong $0{,}8\,\Omega$, phát dòng $1\,\mathrm A$. Công suất điện mà nguồn cung cấp cho mạch ngoài là
 
-A. Công suất điện
-mà nguồn cung cấp cho mạch ngoài là
+A. $10{,}7\,\mathrm W$.
 
-A. 10,7 W.
+B. $17{,}0\,\mathrm W$.
 
-B. 17,0 W.
+C. $9{,}7\,\mathrm W$.
 
-C. 9,7 W.
-
-D. 12 W.
+D. $12\,\mathrm W$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
+
     **Hướng dẫn giải:**
 
-    Dùng $A=UIt=Pt$, $P=UI=I^2R=U^2/R$ và định luật Joule $Q=I^2Rt$.
+    Điện áp mạch ngoài $U=\mathcal E-Ir=11{,}5-1\cdot0{,}8=10{,}7\,\mathrm V$.
 
-    Công suất điện mà nguồn cung cấp cho mạch ngoài:
+    $P_N=UI=10{,}7\cdot1=10{,}7\,\mathrm W$.
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. Công suất điện mà nguồn cung cấp cho mạch ngoài là**
 #### Bài 59
 
 <!-- source-id: BT-Chuong-IV-p109-q17-337 -->
@@ -1378,8 +1288,11 @@ D. 2,729 Ω.
 Khi nói về công suất điện.
 
 a) Công suất điện là đại lượng đo bằng Jun (J).
+
 b) Công suất điện cho biết tốc độ thực hiện công của dòng điện.
+
 c) Nếu hiệu điện thế không đổi thì công suất điện tỉ lệ nghịch với điện trở của mạch.
+
 d) Công suất điện không phụ thuộc vào hiệu điện thế đặt vào mạch.
 
 ??? success "Đáp án và lời giải"
@@ -1394,107 +1307,112 @@ d) Công suất điện không phụ thuộc vào hiệu điện thế đặt v�
 
 <!-- source-id: BT-Chuong-IV-p103-q2-312 -->
 
-Một nguồn 9,00 V cung cấp dòng điện 1,34 A cho bóng đèn trong 2 phút.
+Một nguồn $9{,}00\,\mathrm V$ cung cấp dòng điện $1{,}34\,\mathrm A$ cho bóng đèn trong $2$ phút.
 
-a) Điện tích đi qua đèn là 160,8
+a) Điện tích đi qua đèn là $160{,}8\,\mathrm C$.
 
-C. b) Số electron chuyển qua đèn là 1,01.1021 electron.
-c) Năng lượng mà nguồn cung cấp cho đèn 1,45.103 J.
-d) Công suất của nguồn là 12,06 kW.
+b) Số electron chuyển qua đèn là $1{,}01\times10^{21}$ electron.
+
+c) Năng lượng mà nguồn cung cấp cho đèn là $1{,}45\times10^3\,\mathrm J$.
+
+d) Công suất của nguồn là $12{,}06\,\mathrm{kW}$.
 
 ??? success "Đáp án và lời giải"
+    **Đáp án:** a) Đúng; b) Đúng; c) Đúng; d) Sai.
+
     **Hướng dẫn giải:**
 
-    Dùng $A=UIt=Pt$, $P=UI=I^2R=U^2/R$ và định luật Joule $Q=I^2Rt$.
+    a) **Đúng.** $q=It=1{,}34\cdot120=160{,}8\,\mathrm C$.
 
-    a) Điện tích đi qua đèn:
-    b) Số electron chuyển qua đèn:
-    c) Năng lượng mà nguồn cung cấp cho đèn:
-    d) Công suất của nguồn:
+    b) **Đúng.** $n=q/e=160{,}8/(1{,}6\times10^{-19})\approx1{,}01\times10^{21}$ electron.
+
+    c) **Đúng.** $A=\mathcal EIt=9\cdot1{,}34\cdot120\approx1{,}45\times10^3\,\mathrm J$.
+
+    d) **Sai.** $P=\mathcal EI=9\cdot1{,}34=12{,}06\,\mathrm W$, không phải kW.
+
 #### Bài 62
 
 <!-- source-id: BT-Chuong-IV-p104-q3-313 -->
 
-Một bộ pin có suất điện động 12,0 V và điện trở trong r = 0,05 Ω. Người ta mắc vào hai cực
-của nó một điện trở R = 3,00 Ω.
+Một bộ pin có suất điện động $12{,}0\,\mathrm V$ và điện trở trong $r=0{,}05\,\Omega$. Mắc vào hai cực bộ pin điện trở $R=3{,}00\,\Omega$.
 
-a) Cường độ dòng điện trong mạch là 4
+a) Cường độ dòng điện trong mạch là $4\,\mathrm A$.
 
-A. b) Hiệu điện thế giữa hai cực của bộ pin là 11,8 V.
-c) Công suất điện cung cấp cho điện trở R là 46,3 W.
-d) Công suất điện cung cấp cho điện trở trong là 0,772 W.
+b) Hiệu điện thế giữa hai cực của bộ pin là $11{,}8\,\mathrm V$.
+
+c) Công suất điện cung cấp cho điện trở $R$ là $46{,}3\,\mathrm W$.
+
+d) Công suất điện cung cấp cho điện trở trong là $0{,}772\,\mathrm W$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** a) Sai; b) Đúng; c) Đúng; d) Đúng.
 
     **Hướng dẫn giải:**
 
-    Với nguồn $\xi=12$ V, điện trở ngoài $R=3\ \Omega$ và điện trở trong $r=0{,}05\ \Omega$:
+    a) **Sai.** $I=12/(3+0{,}05)\approx3{,}93\,\mathrm A$.
 
-    a) **Sai.** $I=\xi/(R+r)=12/3{,}05\approx3{,}93$ A.
+    b) **Đúng.** $U=IR\approx11{,}8\,\mathrm V$.
 
-    b) **Đúng.** Hiệu điện thế mạch ngoài $U=IR\approx3{,}93\cdot3\approx11{,}8$ V.
+    c) **Đúng.** $P_R=I^2R\approx46{,}3\,\mathrm W$.
 
-    c) **Đúng.** Công suất trên điện trở ngoài $P_R=I^2R\approx46{,}3$ W.
+    d) **Đúng.** $P_r=I^2r\approx0{,}772\,\mathrm W$.
 
-    d) **Đúng.** Công suất hao phí trong nguồn $P_r=I^2r\approx0{,}772$ W.
 #### Bài 63
 
 <!-- source-id: BT-Chuong-IV-p104-q4-314 -->
 
-Cho mạch điện có sơ đồ như hình vẽ: E = 24 V, r = 0,5 Ω;
-R1 = 12 Ω, R3 = 28 Ω. Bỏ qua điện trở của ampe kế và dây nối. Số chỉ của
-ampe kế là 1,75
-
-A. a) Cường độ dòng điện chạy qua điện trở R1 là 1,75
-
-A. b) Hiệu điện thế mạch ngoài là 20 V.
-c) Cường độ dòng điện chạy qua điện trở R3 là 0,75
-
-A. d) Công suất tỏa nhiệt trên điện trở R2 là 73,5 W.
+Cho mạch điện như hình vẽ: $\mathcal E=24\,\mathrm V$, $r=0{,}5\,\Omega$, $R_1=12\,\Omega$, $R_3=28\,\Omega$. Bỏ qua điện trở ampe kế và dây nối. Số chỉ ampe kế là $1{,}75\,\mathrm A$.
 
 ![Sơ đồ mạch nguồn và ba nhánh điện trở](../../../assets/exercise-figures/clean-v14/iv_p104_q4_314.webp){ loading=lazy }
+
+a) Cường độ dòng điện chạy qua $R_1$ là $1{,}75\,\mathrm A$.
+
+b) Hiệu điện thế mạch ngoài là $20\,\mathrm V$.
+
+c) Cường độ dòng điện chạy qua $R_3$ là $0{,}75\,\mathrm A$.
+
+d) Công suất tỏa nhiệt trên $R_2$ là $73{,}5\,\mathrm W$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** a) Đúng; b) Sai; c) Đúng; d) Đúng.
 
     **Hướng dẫn giải:**
 
-    a) **Đúng.** Ampe kế nối tiếp nhánh $R_1$ nên số chỉ chính là $I_1=1{,}75$ A theo dữ kiện/sơ đồ.
+    a) **Đúng.** Ampe kế nối tiếp $R_1$, nên $I_1=1{,}75\,\mathrm A$.
 
-    b) **Sai.** Điện áp hai đầu nhóm song song là $U=I_1R_1=1{,}75\cdot12=21$ V, không phải $20$ V.
+    b) **Sai.** $U=I_1R_1=1{,}75\cdot12=21\,\mathrm V$.
 
-    c) **Đúng.** $I_3=U/R_3=21/28=0{,}75$ A.
+    c) **Đúng.** $I_3=U/R_3=21/28=0{,}75\,\mathrm A$.
 
-    d) **Đúng.** Dòng mạch chính $I=(24-21)/0{,}5=6$ A. Do đó $I_2=I-I_1-I_3=6-1{,}75-0{,}75=3{,}5$ A và $P_2=UI_2=21\cdot3{,}5=73{,}5$ W.
+    d) **Đúng.** $I=(24-21)/0{,}5=6\,\mathrm A$, nên $I_2=6-1{,}75-0{,}75=3{,}5\,\mathrm A$ và $P_2=UI_2=73{,}5\,\mathrm W$.
+
 #### Bài 64
 
 <!-- source-id: BT-Chuong-IV-p109-q1-339 -->
 
-Một bếp điện khi hoạt động bình thường có điện trở 80 Ω và cường độ dòng điện qua
-bếp khi đó là 2,5A. Mỗi ngày sử dụng bếp này trong 3 giờ.
+Một bếp điện khi hoạt động bình thường có điện trở $80\,\Omega$ và cường độ dòng điện qua bếp $2{,}5\,\mathrm A$. Mỗi ngày sử dụng bếp trong $3$ giờ.
 
-E, r
-R1
-R
+a) Nhiệt lượng bếp tỏa ra trong $1$ phút là $30\,\mathrm{kJ}$.
 
-a) Nhiệt lượng mà bếp tỏa ra trong thời gian 1 phút là 30 kJ.
-b) Dùng bếp điện trên để đun sôi 1,5 lít nước có nhiệt độ ban đầu là 250C thì thời gian đun sôi nước là 20 phút. Coi rằng nhiệt lượng cần thiết để đun sôi nước là có ích. Biết nhiệt dung riêng
-c) ủa nước là 4200 J/kg.K, khối lượng riêng của nước là D = 1000 kg/m3. Hiệu suất của bếp là 80%.
-c) Điện năng bếp điện tiêu thụ trong 30 ngày là 45 kWh.
-d) Tiền điện phải trả cho việc sử dụng bếp điện đó trong 30 ngày là 90 000 đồng nếu giá 1 kWh là 2000 đồng.
+b) Dùng bếp để đun sôi $1{,}5$ lít nước có nhiệt độ ban đầu $25^\circ\mathrm C$ thì thời gian đun sôi là $20$ phút. Coi nhiệt lượng cần thiết để đun sôi nước là có ích; $c=4200\,\mathrm{J/(kg\cdot K)}$, $D=1000\,\mathrm{kg/m^3}$. Hiệu suất của bếp là $80\%$.
+
+c) Điện năng bếp tiêu thụ trong $30$ ngày là $45\,\mathrm{kWh}$.
+
+d) Tiền điện phải trả trong $30$ ngày là $90000$ đồng nếu giá $1\,\mathrm{kWh}$ là $2000$ đồng.
 
 ??? success "Đáp án và lời giải"
+    **Đáp án:** a) Đúng; b) Sai; c) Đúng; d) Đúng.
+
     **Hướng dẫn giải:**
 
-    Dùng $A=UIt=Pt$, $P=UI=I^2R=U^2/R$ và định luật Joule $Q=I^2Rt$.
+    a) **Đúng.** $Q=I^2Rt=2{,}5^2\cdot80\cdot60=30000\,\mathrm J=30\,\mathrm{kJ}$.
 
-    a) Nhiệt lượng mà bếp tỏa ra trong thời gian 1 phút:
-    b) Nhiệt lượng mà nước thu vào là:
-    Nhiệt lượng mà bếp tỏa ra trong thời gian 20 phút:
-    Hiệu suất của bếp là:
-    c) Điện năng bếp điện tiêu thụ trong 30 ngày là:
-    d) Tiền điện phải trả là:
+    b) **Sai.** Nước thu $Q_{thu}=mc\Delta T=1{,}5\cdot4200\cdot(100-25)=472500\,\mathrm J$. Trong 20 phút bếp tỏa $Q_{toa}=30000\cdot20=600000\,\mathrm J$, nên $H=472500/600000=78{,}75\%$, không phải $80\%$.
+
+    c) **Đúng.** $A=I^2Rt=2{,}5^2\cdot80\cdot3\cdot30=45000\,\mathrm{Wh}=45\,\mathrm{kWh}$.
+
+    d) **Đúng.** $45\cdot2000=90000$ đồng.
+
 #### Bài 65
 
 <!-- source-id: BT-Chuong-IV-p110-q2-340 -->
@@ -1503,8 +1421,11 @@ Hai dây điện trở của một bếp điện được mắc song song giữa
 thế 220V. Cường độ dòng điện qua mỗi dây có giá trị lần lượt là 1,5A và 3,5A.
 
 a) Điện trở của dây thứ nhất là 146,7 Ω.
+
 b) Điện trở của dây thứ hai là 63 Ω.
+
 c) Điện trở tương đương của đoạn mạch là 40 Ω.
+
 d) Để có công suất của bếp là 1600W, người ta phải cắt bỏ bớt một đoạn của dây thứ nhất rồi lại mắc song song với dây thứ hai vào hiệu điện thế nói trên. Điện trở của sợi dây bị cắt bỏ đó là 88,4 Ω.
 
 ??? success "Đáp án và lời giải"
@@ -1524,77 +1445,73 @@ d) Để có công suất của bếp là 1600W, người ta phải cắt bỏ b
 
 <!-- source-id: BT-Chuong-IV-p111-q3-341 -->
 
-Khi nói về năng lượng và công suất điện.
+Khi nói về năng lượng và công suất điện:
 
-a) Năng lượng điện tiêu thụ của một đoạn mạch được đo bằng công
-c) ủa lực điện thực hiện khi dịch chuyển các điện tích.
+a) Năng lượng điện tiêu thụ của một đoạn mạch được đo bằng công của lực điện thực hiện khi dịch chuyển các điện tích.
+
 b) Công suất tiêu thụ năng lượng điện của một đoạn mạch là năng lượng điện mà đoạn mạch tiêu thụ trong một đơn vị thời gian.
+
 c) Năng lượng điện có thể chuyển hóa thành các dạng năng lượng khác.
+
 d) Công suất điện có đơn vị là Jun (J).
 
 ??? success "Đáp án và lời giải"
+    **Đáp án:** a) Đúng; b) Đúng; c) Đúng; d) Sai.
+
     **Hướng dẫn giải:**
-    a) Năng lượng điện tiêu thụ của một đoạn mạch được đo bằng công của lực điện thực hiện khi dịch
-    chuyển các điện tích.
-    b) Công suất tiêu thụ năng lượng điện của một đoạn mạch là năng lượng điện mà đoạn mạch tiêu thụ
-    trong một đơn vị thời gian.
-    c) Năng lượng điện có thể chuyển hóa thành các dạng năng lượng khác.
-    d) Công suất điện có đơn vị là Oát (W).
+
+    a) **Đúng.** Điện năng tiêu thụ được đo bằng công của lực điện.
+
+    b) **Đúng.** $P=A/t$.
+
+    c) **Đúng.** Điện năng có thể chuyển hóa thành nhiệt năng, cơ năng, quang năng,...
+
+    d) **Sai.** Đơn vị công suất là oát (W), không phải jun (J).
 
 #### Bài 67
 
 <!-- source-id: BT-Chuong-IV-p111-q4-342 -->
 
-Cho mạch điện như hình vẽ: R1 = 1Ω, R2 = 5Ω; R3 = 12Ω; E= 3V, r = 1Ω. Bỏ qua điện trở
-của dây nối.
-
-a) Mạch ngoài gồm điện trở R3 mắc song song với R1 nối tiếp R2.
-b) Tổng điện trở mạch ngoài là 4Ω.
-c) Cường độ dòng điện chạy trong mạch là 0,8 A
-d) Công suất mạch ngoài là 1,55 W.
+Cho mạch điện như hình vẽ: $R_1=1\,\Omega$, $R_2=5\,\Omega$, $R_3=12\,\Omega$, $\mathcal E=3\,\mathrm V$, $r=1\,\Omega$. Bỏ qua điện trở dây nối.
 
 ![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/iv_p111_q4_342_fig1.webp){ loading=lazy }
+
+a) Mạch ngoài gồm $R_3$ mắc song song với $R_1$ nối tiếp $R_2$.
+
+b) Tổng điện trở mạch ngoài là $4\,\Omega$.
+
+c) Cường độ dòng điện chạy trong mạch là $0{,}8\,\mathrm A$.
+
+d) Công suất mạch ngoài là $1{,}55\,\mathrm W$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** a) Đúng; b) Đúng; c) Sai; d) Sai.
 
     **Hướng dẫn giải:**
 
-    a) **Đúng.** Rút gọn đúng theo các nút của sơ đồ cho $R_{12}=6\ \Omega$.
+    a) **Đúng.** $R_1$ nối tiếp $R_2$ rồi song song $R_3$.
 
-    b) **Đúng.** $R_{12}$ song song với $R_3=12\ \Omega$, nên $R_N=6\parallel12=4\ \Omega$.
+    b) **Đúng.** $R_{12}=6\,\Omega$, nên $R_N=6\parallel12=4\,\Omega$.
 
-    c) **Sai.** Với $\xi=3$ V và $r=1\ \Omega$, dòng mạch chính $I=\xi/(R_N+r)=3/5=0{,}6$ A, không phải $0{,}8$ A.
+    c) **Sai.** $I=3/(4+1)=0{,}6\,\mathrm A$.
 
-    d) **Sai.** Công suất mạch ngoài $P_N=I^2R_N=0{,}6^2\cdot4=1{,}44$ W, không phải $1{,}55$ W.
+    d) **Sai.** $P_N=I^2R_N=0{,}6^2\cdot4=1{,}44\,\mathrm W$.
+
 ### Thông hiểu — Trắc nghiệm 4 lựa chọn
 
 #### Bài 68
 
 <!-- source-id: BT-Chuong-IV-p94-q1-263 -->
 
-Công thức nào trong các công thức sau đây cho phép xác định năng lượng điện tiêu thụ của
-đoạn mạch (trong trường hợp dòng điện không đổi)?
+Công thức nào trong các công thức sau đây cho phép xác định năng lượng điện tiêu thụ của đoạn mạch (trong trường hợp dòng điện không đổi)?
 
-A. 2
-A
-UI t.
-=
+A. $A=UI^2t$.
 
-B. 2
-A
-U It.
-=
+B. $A=U^2It$.
 
-C. A
-UIt.
-=
+C. $A=UIt$.
 
-D. UI
-A
-.
-t
-=
+D. $A=\dfrac{UI}{t}$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
@@ -1603,7 +1520,7 @@ t
     Dùng $A=UIt=Pt$, $P=UI=I^2R=U^2/R$ và định luật Joule $Q=I^2Rt$.
 
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. A UIt. =**
+    Đối chiếu các lựa chọn, công thức đúng là **C. $A=UIt$**.
 #### Bài 69
 
 <!-- source-id: BT-Chuong-IV-p94-q2-264 -->
@@ -1614,8 +1531,7 @@ A. kW.
 
 B. kV.
 
-C. k .
-Ω
+C. k$\Omega$.
 
 D. kWh.
 
@@ -1914,24 +1830,23 @@ D. I1 &gt; I2 và R1 &lt; R2.
 
 <!-- source-id: BT-Chuong-IV-p95-q18-280 -->
 
-Theo định luật Jun – Len – xơ, nhiệt lượng toả ra trên dây dẫn tỉ lệ
+Theo định luật Jun–Len-xơ, nhiệt lượng tỏa ra trên dây dẫn tỉ lệ
 
 A. với cường độ dòng điện qua dây dẫn.
 
-C. nghịch với bình phương cường độ dòng điện qua dây dẫn.
-
 B. với bình phương điện trở của dây dẫn.
+
+C. nghịch với bình phương cường độ dòng điện qua dây dẫn.
 
 D. với bình phương cường độ dòng điện qua dây dẫn.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
+
     **Hướng dẫn giải:**
 
-    Dùng $A=UIt=Pt$, $P=UI=I^2R=U^2/R$ và định luật Joule $Q=I^2Rt$.
+    Theo $Q=I^2Rt$, khi $R$ và $t$ cố định, nhiệt lượng tỏa ra tỉ lệ với $I^2$. Vậy chọn **D**.
 
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **D. với bình phương cường độ dòng điện qua dây dẫn.**
 ### Vận dụng — Trắc nghiệm 4 lựa chọn
 
 #### Bài 84

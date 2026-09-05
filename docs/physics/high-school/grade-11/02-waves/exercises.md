@@ -184,7 +184,6 @@ Giải thích vì sao vân trung tâm của thí nghiệm Young với ánh sáng
 ### Câu 51 — Quang phổ
 Phân biệt ngắn gọn quang phổ liên tục, quang phổ vạch phát xạ và quang phổ vạch hấp thụ theo hình dạng quan sát, không cần nêu cơ chế lượng tử sâu.
 
-<!-- V9_CHAPTER_BANK -->
 ## Kho luyện tập theo từng bài trong chương
 
 Phần dưới đây **không sao chép lặp lại câu hỏi**. Nó gom các ngân hàng theo từng bài để người học có thể luyện hàng trăm câu trong chương mà vẫn biết mỗi câu thuộc kiến thức nào.
@@ -203,7 +202,6 @@ Phần dưới đây **không sao chép lặp lại câu hỏi**. Nó gom các n
 - **Bài 12 — Quang phổ và thang sóng điện từ** — 37 câu/bài: [Bài tập](practice/12-spectra-electromagnetic-spectrum/exercises.md) · [Đáp án](practice/12-spectra-electromagnetic-spectrum/solutions.md)
 - **Bài 13 — Giao thoa nhiều bức xạ và ánh sáng trắng** — 11 câu/bài: [Bài tập](practice/13-multiwavelength-white-light-interference/exercises.md) · [Đáp án](practice/13-multiwavelength-white-light-interference/solutions.md)
 
-<!-- /V9_CHAPTER_BANK -->
 
 ---
 

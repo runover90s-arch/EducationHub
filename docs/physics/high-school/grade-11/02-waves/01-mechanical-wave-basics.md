@@ -226,11 +226,9 @@ Tỉ số bước sóng bằng tỉ số tốc độ.
 4. Hai điểm cách nhau $\lambda$ trên cùng phương truyền dao động cùng pha.
 5. Đồ thị $u-x$ là ảnh không gian tại một thời điểm, khác đồ thị $u-t$ của một phần tử.
 
-<!-- V9_SOURCE_TYPES -->
+## Các dạng bài trọng tâm
 
-## Các dạng bài được hệ thống hóa từ ngân hàng PDF
-
-Các dạng dưới đây chỉ sử dụng những nhóm bài đã được gọi tên rõ trong các tài liệu bài tập. Phần trình bày được tổ chức lại để người học nhận diện đề, chọn công cụ và tự kiểm tra kết quả; không tạo thêm tên dạng mới.
+Các nhóm bài dưới đây được tổ chức theo dấu hiệu nhận biết và công cụ giải để người học chọn phương pháp phù hợp và tự kiểm tra kết quả.
 
 ### Dạng 1 — Vận dụng công thức liên hệ các đại lượng sóng
 
@@ -240,13 +238,13 @@ Khi đề cho “N ngọn sóng đi qua”, phải đọc kĩ xem thời gian đ
 
 Luôn phân biệt tốc độ truyền sóng với tốc độ dao động của phần tử môi trường.
 
-### Dạng 1 — Bài toán sóng truyền trên mặt nước
+### Dạng 2 — Bài toán sóng truyền trên mặt nước
 
 Đọc dữ kiện quan sát mặt nước theo ba lớp: dao động của nguồn, tốc độ lan truyền và hình học các đỉnh/lõm sóng. Từ số dao động xác định $f$ hoặc $T$; từ khoảng cách giữa các gợn liên tiếp xác định $\lambda$; sau đó dùng $v=\lambda f$.
 
 Nếu đề cho thời gian sóng tới một điểm, tốc độ truyền được tính từ quãng đường lan truyền của pha chứ không phải quãng đường một phần tử nước chuyển động.
 
-### Dạng 2 — Cường độ sóng
+### Dạng 3 — Cường độ sóng
 
 **Dấu hiệu nhận biết.** Đề hỏi năng lượng hoặc công suất sóng truyền qua một diện tích vuông góc với phương truyền, so sánh cường độ tại các vị trí, hoặc liên hệ cường độ với khoảng cách tới nguồn.
 

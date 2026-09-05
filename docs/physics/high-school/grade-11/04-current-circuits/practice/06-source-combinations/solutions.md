@@ -68,8 +68,8 @@ Trong các phương án nguyên cho trước, **n=6, m=2** cho dòng lớn nhấ
 
 [← Bài tập](exercises.md)
 
-## Bài 11–22
+## Bài 11–21
 
-Đáp án và lời giải của **Bài 11–22** đã được đặt trực tiếp dưới từng bài trong trang bài tập bằng nút **“Đáp án và lời giải”** để tránh tách đề, hình minh họa và lời giải sang nhiều vị trí khác nhau.
+Đáp án và lời giải của **Bài 11–21** đã được đặt trực tiếp dưới từng bài trong trang bài tập bằng nút **“Đáp án và lời giải”** để tránh tách đề, hình minh họa và lời giải sang nhiều vị trí khác nhau.
 
 [← Mở trang bài tập](exercises.md)

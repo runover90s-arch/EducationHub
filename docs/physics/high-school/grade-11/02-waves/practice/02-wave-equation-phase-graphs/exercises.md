@@ -20,8 +20,11 @@ tags:
 Sóng truyền theo chiều dương Ox, nguồn tại O có $u_O=A\cos\omega t$. Phương trình tại điểm cách O một đoạn $x$ là
 
 A. $u=A\cos(\omega t+2\pi x/\lambda)$.
+
 B. $u=A\cos(\omega t-2\pi x/\lambda)$.
+
 C. $u=A\cos(2\pi x/\lambda)$.
+
 D. $u=A\cos(\omega x-2\pi t/\lambda)$.
 
 ??? success "Đáp án và lời giải"
@@ -32,8 +35,11 @@ D. $u=A\cos(\omega x-2\pi t/\lambda)$.
 Hai điểm cách nhau $\lambda/4$ trên cùng phương truyền sóng có độ lệch pha theo độ lớn là
 
 A. $\pi/4$.
+
 B. $\pi/2$.
+
 C. $\pi$.
+
 D. $2\pi$.
 
 ??? success "Đáp án và lời giải"
@@ -44,8 +50,11 @@ D. $2\pi$.
 Một sóng có phương trình $u=3\cos(8\pi t-2\pi x)$ cm, với $x$ tính bằng mét. Tốc độ truyền sóng là
 
 A. $2$ m/s.
+
 B. $4$ m/s.
+
 C. $8$ m/s.
+
 D. $16$ m/s.
 
 ??? success "Đáp án và lời giải"
@@ -58,8 +67,11 @@ D. $16$ m/s.
 Với sóng $u=A\cos(\omega t-kx+\varphi_0)$:
 
 a) $k=2\pi/\lambda$.
+
 b) Điểm ở xa hơn theo chiều truyền có pha nhỏ hơn tại cùng thời điểm.
+
 c) Khoảng thời gian trễ giữa hai điểm cách nhau $d$ là $d/v$.
+
 d) Hai điểm cách nhau $2\lambda$ ngược pha.
 
 ??? success "Đáp án và lời giải"
@@ -110,13 +122,12 @@ Một sóng truyền theo chiều dương Ox có phương trình tại M là $u_
 
 ## Ngân hàng bài tập mở rộng
 
-> Các bài dưới đây được đánh số nối tiếp phần bài tập phía trên. Đề bài được trình bày bằng Markdown; chỉ đồ thị, hình vẽ hoặc sơ đồ thực sự cần thiết mới được giữ dưới dạng hình. Đáp án và lời giải được đặt trong nút mở rộng ngay dưới từng bài.
-
 ### Nhận biết — Trả lời ngắn
 
 #### Bài 9
 
 <!-- source-id: BT-Chuong-II-p24-q2-46 -->
+
 
 Tốc độ truyền âm trong không khí là 340 m/s, khoảng cách giữa hai điểm gần nhau nhất trên một
 phương truyền sóng dao động ngược pha cách nhau 0,8 (m). Tần số của sóng âm là bao nhiêu Hz ?
@@ -124,11 +135,10 @@ phương truyền sóng dao động ngược pha cách nhau 0,8 (m). Tần số 
 ??? success "Đáp án và lời giải"
     **Đáp án:** $213$
     **Hướng dẫn giải:**
-
-    Trên cùng phương truyền sóng, $\Delta\varphi=2\pi d/\lambda$; phương trình tại điểm cách nguồn $x$ chậm pha một lượng $2\pi x/\lambda$ theo chiều truyền sóng.
-
-    Hai vị trí dao động ngược pha cách nhau
-    Tần số sóng
+    Hai vị trí gần nhau nhất dao động ngược pha cách nhau $\lambda/2$:
+    $0{,}8=\lambda/2\Rightarrow\lambda=1{,}6\,\mathrm{m}$.
+    Tần số sóng:
+    $f=\dfrac{v}{\lambda}=\dfrac{340}{1{,}6}\approx213\,\mathrm{Hz}$.
 
     Vậy kết quả cần tìm là **$213$**.
 #### Bài 10
@@ -149,11 +159,11 @@ với $t$ tính bằng giây và $x$ tính bằng mét. Tốc độ truyền só
 
     So sánh với $u=A\cos(\omega t-kx)$, ta có
 
-    $$\omega=5\pi\ \text{rad/s},\qquad k=\frac{\pi}{3}\ \text{rad/m}.$$
+    $\omega=5\pi\ \text{rad/s},\qquad k=\frac{\pi}{3}\ \text{rad/m}.$
 
     Vì $v=\omega/k$,
 
-    $$v=\frac{5\pi}{\pi/3}=15\ \text{m/s}.$$
+    $v=\frac{5\pi}{\pi/3}=15\ \text{m/s}.$
 #### Bài 11
 
 <!-- source-id: BT-Chuong-II-p25-q5-49 -->
@@ -185,7 +195,7 @@ Sóng truyền dọc theo trục Ox có đồ thị như hình 2.11. Vị trí g
     Trên cùng phương truyền sóng, $\Delta\varphi=2\pi d/\lambda$; phương trình tại điểm cách nguồn $x$ chậm pha một lượng $2\pi x/\lambda$ theo chiều truyền sóng.
 
     Hai vị trí trên hình vẽ cách nhau 2
-    λ= 25 cm. Do đó Vị trí gần nhất dao động ngược pha với
+    $\lambda$= 25 cm. Do đó Vị trí gần nhất dao động ngược pha với
     nguồn cách nguồn một khoảng 25 cm.
     phương truyền sóng
 
@@ -194,20 +204,19 @@ Sóng truyền dọc theo trục Ox có đồ thị như hình 2.11. Vị trí g
 
 <!-- source-id: BT-Chuong-II-p36-q1-73 -->
 
-Một nguồn âm có tần số 725 Hz đặt trong nước. Biết tốc độ truyền âm trong không khí là 1450 m/s.
-Khoảng cách giữa hai điểm gần nhau nhất trên cùng một phương truyền sóng dao động lệch pha 4
-π(rad)
-là bao nhiêu (tính theo đơn vị mét) ?
+Một nguồn âm có tần số 725 Hz đặt trong nước. Biết tốc độ truyền âm trong nước là 1450 m/s. Khoảng cách giữa hai điểm gần nhau nhất trên cùng một phương truyền sóng dao động lệch pha $\dfrac{\pi}{4}$ rad là bao nhiêu (tính theo đơn vị mét)?
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** $0{,}25$
+    **Đáp án:** $0{,}25\,\mathrm{m}$.
+
     **Hướng dẫn giải:**
+    $\lambda=v/f=1450/725=2\,\mathrm{m}$.
+    Hai điểm gần nhau nhất lệch pha $\pi/4$ thỏa
+    $\dfrac{2\pi d}{\lambda}=\dfrac{\pi}{4}$, nên $d=\lambda/8=0{,}25\,\mathrm{m}$.
 
-    Trên cùng phương truyền sóng, $\Delta\varphi=2\pi d/\lambda$; phương trình tại điểm cách nguồn $x$ chậm pha một lượng $2\pi x/\lambda$ theo chiều truyền sóng.
+    !!! warning "Đối chiếu nguồn"
+        PDF ghi nguồn âm đặt trong nước nhưng lại viết “tốc độ truyền âm trong không khí là 1450 m/s”. Giá trị $1450\,\mathrm{m/s}$ là giá trị mà chính bài dùng cho nước; tên môi trường được sửa tối thiểu để đề nhất quán.
 
-    Hai vị trí gần nhau nhất lệch pha 4
-
-    Vậy kết quả cần tìm là **$0{,}25$**.
 #### Bài 14
 
 <!-- source-id: BT-Chuong-II-p36-q2-74 -->
@@ -217,14 +226,17 @@ truyền sóng là 36 (m/s), tần số sóng là 6 Hz. Độ lệch pha giữa 
 phương truyền sóng là bao nhiêu (tính theo đơn vị rad và làm tròn đến số thập phân thứ hai) ?
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** $4{,}19$
+    **Đáp án:** $0{,}04\,\mathrm{rad}$.
+
     **Hướng dẫn giải:**
+    $\lambda=v/f=36/6=6\,\mathrm{m}$ và $d=4\,\mathrm{cm}=0{,}04\,\mathrm{m}$.
+    Do đó
+    $\Delta\varphi=\dfrac{2\pi d}{\lambda}=\dfrac{2\pi\cdot0{,}04}{6}\approx0{,}04189\,\mathrm{rad}$.
+    Chỉ làm tròn ở bước cuối: $\Delta\varphi\approx0{,}04\,\mathrm{rad}$.
 
-    Trên cùng phương truyền sóng, $\Delta\varphi=2\pi d/\lambda$; phương trình tại điểm cách nguồn $x$ chậm pha một lượng $2\pi x/\lambda$ theo chiều truyền sóng.
+    !!! warning "Đối chiếu nguồn"
+        PDF nguồn cho $4{,}19\,\mathrm{rad}$, tương ứng với việc bỏ qua đổi $4\,\mathrm{cm}=0{,}04\,\mathrm{m}$.
 
-    Độ lệch pha:
-
-    Vậy kết quả cần tìm là **$4{,}19$**.
 #### Bài 15
 
 <!-- source-id: BT-Chuong-II-p37-q3-75 -->
@@ -236,42 +248,31 @@ phương truyền sóng cách nhau 15 cm dao động cùng pha. Biết vận t�
 ??? success "Đáp án và lời giải"
     **Đáp án:** 5
     **Hướng dẫn giải:**
-
-    Trên cùng phương truyền sóng, $\Delta\varphi=2\pi d/\lambda$; phương trình tại điểm cách nguồn $x$ chậm pha một lượng $2\pi x/\lambda$ theo chiều truyền sóng.
-
-    Hai điểm dao động cùng pha khi:
-    Thay số x = 15 cm; v1 = 5 (m/s) và f = 100 Hz ta tính được k1 = 3
-    Thay số x = 15 cm; v2 = 6,7 (m/s) và f = 100 Hz ta tính được k2 = 2,24
-    Vì k là số nguyên và 2,24
+    Hai điểm cùng pha khi
+    $\Delta\varphi=\dfrac{2\pi x}{\lambda}=2k\pi$, nên $k=\dfrac{xf}{v}$.
+    Với $x=0{,}15\,\mathrm{m}$, $f=100\,\mathrm{Hz}$ và $5\le v\le6{,}7\,\mathrm{m/s}$, ta có $2{,}24\le k\le3$.
+    Vì $k$ nguyên nên $k=3$, do đó
+    $v=\dfrac{xf}{k}=\dfrac{0{,}15\cdot100}{3}=5\,\mathrm{m/s}$.
 
     Vậy kết quả cần tìm là **5**.
 #### Bài 16
 
 <!-- source-id: BT-Chuong-II-p38-q6-78 -->
 
-Một sóng cơ truyền dọc theo trục Ox với phương trình u = 5cos(8πt – πx) (u và x tính bằng
-cm, t tính bằng s). Tại thời điểm
-( )
-1
-12 s và ở vị trí cách nguồn một khoảng ( )
-1
-3 m thì li độ sóng có
-giá trị là bao nhiêu (tính theo đơn vị cm) ?
+Một sóng cơ truyền dọc theo trục Ox với phương trình $u=5\cos(8\pi t-\pi x)$ ($u$ và $x$ tính bằng cm, $t$ tính bằng s). Tại thời điểm $t=\dfrac{1}{12}$ s và ở vị trí cách nguồn một khoảng $x=\dfrac{1}{3}$ m thì li độ sóng có giá trị là bao nhiêu (tính theo đơn vị cm)?
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** $2{,}5$
+    **Đáp án:** $-2{,}5\,\mathrm{cm}$.
+
     **Hướng dẫn giải:**
+    Phương trình dùng $x$ theo cm nên phải đổi $x=\dfrac13\,\mathrm{m}=\dfrac{100}{3}\,\mathrm{cm}$.
+    Khi $t=1/12\,\mathrm{s}$,
+    $8\pi t-\pi x=\dfrac{2\pi}{3}-\dfrac{100\pi}{3}=-\dfrac{98\pi}{3}$.
+    Vì $\cos(-98\pi/3)=-1/2$, suy ra $u=-2{,}5\,\mathrm{cm}$.
 
-    Trên cùng phương truyền sóng, $\Delta\varphi=2\pi d/\lambda$; phương trình tại điểm cách nguồn $x$ chậm pha một lượng $2\pi x/\lambda$ theo chiều truyền sóng.
+    !!! warning "Đối chiếu nguồn"
+        PDF nguồn thay trực tiếp $x=1/3$ vào công thức dù công thức quy định $x$ tính bằng cm, nên mất bước đổi đơn vị và cho dấu sai.
 
-    Li độ sóng
-    Chủ đề 9: SÓNG NGANG. SÓNG DỌC. SỰ TRUYỀN NĂNG LƯỢNG CỦA
-    • Yêu cầu cần đạt (Trích từ CTGDPT Vật lí 2018):
-    – So sánh được sóng dọc và sóng ngang.
-    – Nêu được ví dụ chứng tỏ sóng truyền năng lượng.
-    – Sử dụng mô hình sóng giải thích được một số tính chất đơn giản của âm thanh và ánh sáng.
-
-    Vậy kết quả cần tìm là **$2{,}5$**.
 #### Bài 17
 
 <!-- source-id: BT-Chuong-II-p62-q3-155 -->
@@ -284,13 +285,16 @@ nhiêu (tính theo đơn vị m/s)?
     **Đáp án:** $2{,}5$
     **Hướng dẫn giải:**
 
-    Trên cùng phương truyền sóng, $\Delta\varphi=2\pi d/\lambda$; phương trình tại điểm cách nguồn $x$ chậm pha một lượng $2\pi x/\lambda$ theo chiều truyền sóng.
+    Chiếc phao nhô lên cao 10 lần trong 9 chu kỳ nên $9T=36\,\mathrm{s}\Rightarrow T=4\,\mathrm{s}$.
 
-    Chiếc phao nhô lên cao 10 lần trong 9 chu kỳ nên 9
-    Khoảng cách giữa 2 đỉnh lân cận chính bằng bước sóng nên
-    Tốc độ truyền sóng
+    Khoảng cách giữa hai đỉnh lân cận chính bằng bước sóng nên $\lambda=10\,\mathrm{m}$.
+
+    Tốc độ truyền sóng:
+
+    $v=\dfrac{\lambda}{T}=\dfrac{10}{4}=2{,}5\,\mathrm{m/s}$.
 
     Vậy kết quả cần tìm là **$2{,}5$**.
+
 ### Nhận biết — Trắc nghiệm 4 lựa chọn
 
 #### Bài 18
@@ -331,20 +335,22 @@ C. $\dfrac{\lambda}{4}$.
 D. $\dfrac{\lambda}{8}$.
 
 ??? success "Đáp án và lời giải"
-    **Hướng dẫn giải:**
-    Hai điểm M và N trên phương truyền sóng cách nhau
-    , có độ lệch pha tương ứng là
-    (ngược pha) được minh hoạ qua hình 2.3.
+    **Đáp án: B.**
 
-    .
+    **Hướng dẫn giải:**
+
+    Với hai điểm trên cùng phương truyền sóng,
+
+    $\displaystyle \Delta\varphi=\frac{2\pi x}{\lambda}.$
+
+    Hai điểm ngược pha khi $\Delta\varphi=(2k+1)\pi$. Hai điểm **liên tiếp** ngược pha ứng với khoảng cách dương nhỏ nhất, nên $x=\lambda/2$.
 
 #### Bài 20
 
 <!-- source-id: BT-Chuong-II-p12-q17-17 -->
 
 Hai điểm A, B liên tiếp trên cùng một phương truyền sóng cách nhau 20 cm dao động lệch
-pha nhau
- (rad). Bước sóng của sóng này là
+pha nhau $\pi/3$ (rad). Bước sóng của sóng này là
 
 A. 40 cm.
 
@@ -357,11 +363,9 @@ D. 180 cm.
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
     **Hướng dẫn giải:**
-    Hai điểm điểm liên tiếp trên cùng một phương truyền sóng dao động lệch pha nhau
-
-     (rad) cách
-    nhau một khoảng:
-
+    Hai điểm liên tiếp lệch pha $\pi/3$ cách nhau một đoạn
+    $x=\dfrac{\lambda}{6}$.
+    Với $x=20\,\mathrm{cm}$, suy ra $\lambda=6x=120\,\mathrm{cm}$.
 #### Bài 21
 
 <!-- source-id: BT-Chuong-II-p15-q28-28 -->
@@ -382,36 +386,24 @@ D. $x=\left(k+\dfrac12\right)\dfrac{\lambda}{2}$, với $k\in\mathbb Z$.
 
     Hai điểm ngược pha khi
 
-    $$\Delta\varphi=(2k+1)\pi.$$
+    $\Delta\varphi=(2k+1)\pi.$
 
     Mà $\Delta\varphi=\dfrac{2\pi x}{\lambda}$, nên
 
-    $$x=\frac{(2k+1)\lambda}{2}=\left(k+\frac12\right)\lambda.$$
+    $x=\frac{(2k+1)\lambda}{2}=\left(k+\frac12\right)\lambda.$
 #### Bài 22
 
 <!-- source-id: BT-Chuong-II-p15-q31-31 -->
 
-Một nguồn sóng dao động điều hòa. Tại thời điểm t, pha dao động của nguồn là 5
-6
-π. Tại
-một điểm M cách nguồn sóng một khoảng 3
-λpha dao động tại M có giá trị là
+Một nguồn sóng dao động điều hòa. Tại thời điểm $t$, pha dao động của nguồn là $\dfrac{5\pi}{6}$. Tại một điểm M cách nguồn sóng một khoảng $\dfrac{\lambda}{3}$, pha dao động tại M có giá trị là
 
-A. .
-2
-πrad
+A. $\dfrac{\pi}{2}$ rad.
 
-B. .
-4
-πrad
+B. $\dfrac{\pi}{4}$ rad.
 
-C. .
-3
-πrad
+C. $\dfrac{\pi}{3}$ rad.
 
-D. .
-6
-πrad
+D. $\dfrac{\pi}{6}$ rad.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
@@ -422,7 +414,7 @@ D. .
     Độ lệch pha giữa sóng tại M và nguồn O là:
     Vì sóng truyền từ nguồn O đến M nên tại M sóng trễ pha so với nguồn O. Pha dao động tại điểm M
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **D. . 6 πrad**
+    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **D. $\dfrac{\pi}{6}$ rad.**
 #### Bài 23
 
 <!-- source-id: BT-Chuong-II-p16-q33-33 -->
@@ -449,7 +441,7 @@ D. $u_M=4\cos\left(2\pi t+\dfrac{11\pi}{6}\right)$ cm.
 
     Từ $\omega=2\pi$ rad/s suy ra $T=1$ s và
 
-    $$\lambda=vT=6\ \text{m}.$$
+    $\lambda=vT=6\ \text{m}.$
 
     Với $OM=4$ m, độ trễ pha là
 
@@ -482,11 +474,9 @@ D. 32 m/s.
 
     Trên cùng phương truyền sóng, $\Delta\varphi=2\pi d/\lambda$; phương trình tại điểm cách nguồn $x$ chậm pha một lượng $2\pi x/\lambda$ theo chiều truyền sóng.
 
-    , hai điểm dđ cùng pha khi Δϕ = k 2π, với k =1, 2, 3, 4, …
-    Với v = 28 m/s ⇒ k = 5,36
-    Với v = 34 m/s ⇒ k = 4,4
-    k là số nguyên và 4,4  k  5,36 ⇒ k = 5
-    Thế k = 5 vào (*) ta tính được v = 150/5 = 30 m/s
+    Hai điểm cùng pha khi $\Delta\varphi=2\pi d/\lambda=2k\pi$, nên $k=df/v$.
+    Với $v=28\,\mathrm{m/s}$ thì $k\approx5{,}36$; với $v=34\,\mathrm{m/s}$ thì $k\approx4{,}41$.
+    Vì $k$ nguyên nên $k=5$, suy ra $v=df/k=0{,}15\cdot1000/5=30\,\mathrm{m/s}$.
 
     Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **B. 30 m/s.**
 #### Bài 25
@@ -517,7 +507,8 @@ D. d.
 
 <!-- source-id: BT-Chuong-II-p28-q6-56 -->
 
-Một sóng cơ truyền dọc theo trục Ox với phương trình u = 5cos(8πt – 0,04πx) (u và x tính
+
+Một sóng cơ truyền dọc theo trục Ox với phương trình $u=5\cos(8\pi t-0{,}04\pi x)$ (u và x tính
 bằng cm, t tính bằng s). Tốc độ truyền sóng của sóng này là
 
 A. 200 m/s.
@@ -531,12 +522,9 @@ D. 2 m/s.
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
     **Hướng dẫn giải:**
-
-    Trên cùng phương truyền sóng, $\Delta\varphi=2\pi d/\lambda$; phương trình tại điểm cách nguồn $x$ chậm pha một lượng $2\pi x/\lambda$ theo chiều truyền sóng.
-
-    Tốc độ truyền sóng
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **D. 2 m/s.**
+    Với phương trình $u=5\cos(8\pi t-0{,}04\pi x)$ (u, x tính bằng cm), ta có $\omega=8\pi$ và $k=0{,}04\pi\,\mathrm{rad/cm}$.
+    Tốc độ truyền sóng:
+    $v=\dfrac{\omega}{k}=\dfrac{8\pi}{0{,}04\pi}=200\,\mathrm{cm/s}=2\,\mathrm{m/s}$.
 #### Bài 27
 
 <!-- source-id: BT-Chuong-II-p28-q7-57 -->
@@ -564,33 +552,15 @@ D. gần nhau nhất dao động ngược pha là một bước sóng.
 
 <!-- source-id: BT-Chuong-II-p28-q10-60 -->
 
-Một nguồn O sóng dao động điều hòa, khi pha dao động tại nguồn sóng là
-(
-)
-5
-6
-rad
-π
-thì tại
-điểm M cách nguồn một khoảng 3
-λsóng có pha dao động là
+Một nguồn O sóng dao động điều hòa, khi pha dao động tại nguồn sóng là $\dfrac{5\pi}{6}$ rad thì tại điểm M cách nguồn một khoảng $\dfrac{\lambda}{3}$, sóng có pha dao động là
 
-A. .
-3 rad
-π
+A. $\dfrac{\pi}{3}$ rad.
 
-B. 2
-.
-3 rad
-π
+B. $\dfrac{2\pi}{3}$ rad.
 
-C. .
-6 rad
-π
+C. $\dfrac{\pi}{6}$ rad.
 
-D. .
-2 rad
-π
+D. $\dfrac{\pi}{2}$ rad.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
@@ -601,7 +571,7 @@ D. .
     Độ lệch pha giữa M và nguồn O có độ lệch pha là
     Điểm M dao động trễ pha so với nguồn. Khi đó pha dao động tại M là :
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. . 6 rad π**
+    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. $\dfrac{\pi}{6}$ rad.**
 #### Bài 29
 
 <!-- source-id: BT-Chuong-II-p29-q11-61 -->
@@ -622,11 +592,11 @@ D. $x=\left(k+\dfrac12\right)\dfrac{\lambda}{2}$, với $k\in\mathbb Z$.
 
     Hai điểm vuông pha khi
 
-    $$\Delta\varphi=\frac{(2k+1)\pi}{2}.$$
+    $\Delta\varphi=\frac{(2k+1)\pi}{2}.$
 
     Từ $\Delta\varphi=\dfrac{2\pi x}{\lambda}$ suy ra
 
-    $$x=\frac{(2k+1)\lambda}{4}=\left(k+\frac12\right)\frac{\lambda}{2}.$$
+    $x=\frac{(2k+1)\lambda}{4}=\left(k+\frac12\right)\frac{\lambda}{2}.$
 #### Bài 30
 
 <!-- source-id: BT-Chuong-II-p30-q15-65 -->
@@ -648,25 +618,15 @@ D. 100 Hz.
 
     Trên cùng phương truyền sóng, $\Delta\varphi=2\pi d/\lambda$; phương trình tại điểm cách nguồn $x$ chậm pha một lượng $2\pi x/\lambda$ theo chiều truyền sóng.
 
-    Hai điểm dao động vuông pha Δϕ = (2k + 1) 2
-    Là hai điểm gần nhau nhất, ta chọn k = 0.
-    Tần số sóng: λ=v/f ⇒ f = v/ λ = 1500/12 = 125 Hz
+    Hai điểm dao động vuông pha khi $\Delta\varphi=(2k+1)\pi/2$. Với hai điểm gần nhau nhất, chọn $k=0$, nên $d=\lambda/4=3\,\mathrm{m}$ và $\lambda=12\,\mathrm{m}$.
+    Tần số $f=v/\lambda=1500/12=125\,\mathrm{Hz}$.
 
     Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. 125 Hz.**
 #### Bài 31
 
 <!-- source-id: BT-Chuong-II-p31-q17-67 -->
 
-Một sợi dây đàn hồi rất dài, đầu A dao động với tần số 16
-20
-Hz
-f
-Hz
-
-
-. Biết tốc độ truyền
-sóng trên dây là 2 (m/s). Người ta nhận thấy hai điểm A, B trên dây cách nhau 40 cm luôn dao động
-ngược pha. Tần số của sóng này là
+Một sợi dây đàn hồi rất dài, đầu A dao động với tần số $16\,\mathrm{Hz}\le f\le20\,\mathrm{Hz}$. Biết tốc độ truyền sóng trên dây là 2 m/s. Người ta nhận thấy hai điểm A, B trên dây cách nhau 40 cm luôn dao động ngược pha. Tần số của sóng này là
 
 A. 16 Hz.
 
@@ -693,21 +653,17 @@ D. 20 Hz.
 
 <!-- source-id: BT-Chuong-II-p31-q18-68 -->
 
-Trên một sợi dây dài đang có sóng ngang hình sin truyền qua theo chiều dương của trục
-Ox. Tại thời điểm t0, một đoạn của sợi dây có hình dạng như hình 3.2. Hai phần tử dây tại M và Q
-dao động lệch pha nhau là
-
-A. 3
-π
-
-B. π.
-
-C. 2π.
-
-D. 4
-π.
+Trên một sợi dây dài đang có sóng ngang hình sin truyền qua theo chiều dương của trục Ox. Tại thời điểm $t_0$, một đoạn của sợi dây có hình dạng như hình 3.2. Hai phần tử dây tại M và Q dao động lệch pha nhau là
 
 ![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/ii_p31_q18_68_fig1.webp){ loading=lazy }
+
+A. $\dfrac{\pi}{3}$.
+
+B. $\pi$.
+
+C. $2\pi$.
+
+D. $\dfrac{\pi}{4}$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** B
@@ -719,7 +675,7 @@ D. 4
     Khoảng cách M và Q là x = MQ = 3 ô
     Độ lệch pha giữa M và Q là
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **B. π.**
+    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **B. $\pi$.**
 #### Bài 33
 
 <!-- source-id: BT-Chuong-II-p45-q10-88 -->
@@ -743,10 +699,11 @@ D. Bước sóng là khoảng cách giữa hai điểm gần nhau nhất trên c
     Trên cùng phương truyền sóng, $\Delta\varphi=2\pi d/\lambda$; phương trình tại điểm cách nguồn $x$ chậm pha một lượng $2\pi x/\lambda$ theo chiều truyền sóng.
 
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **D. Bước sóng là khoảng cách giữa hai điểm gần nhau nhất trên cùng một phương truyền sóng mà dao động tại hai điểm đó cùng pha.**
+    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **D. Bước sóng là khoảng cách giữa hai điểm gần nhau nhất trên cùng một phương truyền sóng mà dao**
 #### Bài 34
 
 <!-- source-id: BT-Chuong-II-p50-q35-113 -->
+
 
 Một sóng ngang truyền trên sợi dây rất dài với tốc độ truyền sóng là 4 m/s và tần số sóng có giá trị
 trong khoảng từ 33 Hz đến 43 Hz. Biết hai phần tử tại hai điểm trên dây cách nhau 25 cm luôn dao động ngược
@@ -763,21 +720,16 @@ D. 42 Hz.
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
     **Hướng dẫn giải:**
-
-    Trên cùng phương truyền sóng, $\Delta\varphi=2\pi d/\lambda$; phương trình tại điểm cách nguồn $x$ chậm pha một lượng $2\pi x/\lambda$ theo chiều truyền sóng.
-
-    Hai điểm trên dây cách nhau 25 cm luôn dao động ngược pha nhau
-    Tần số sóng
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. 40 Hz.**
+    Hai điểm cách nhau $d=25\,\mathrm{cm}$ luôn ngược pha nên
+    $\dfrac{2\pi d}{\lambda}=(2k+1)\pi$.
+    Do đó $\lambda=\dfrac{50}{2k+1}\,\mathrm{cm}=\dfrac{0{,}5}{2k+1}\,\mathrm{m}$ và
+    $f=\dfrac{v}{\lambda}=8(2k+1)$.
+    Với $33\le f\le43$ suy ra $2k+1=5$, nên $f=40\,\mathrm{Hz}$.
 #### Bài 35
 
 <!-- source-id: BT-Chuong-II-p51-q40-118 -->
 
-Một sóng ngang cơ học truyền trên một sợi dây đàn hồi với biên độ không đổi bằng 7 cm. Trong quá
-trình dao động, khoảng cách gần nhất và xa nhất giữa hai điểm M, N trên dây lần lượt bằng 21 cm và
-490
-cm. Như vậy hai điểm M, N dao động
+Một sóng ngang cơ học truyền trên một sợi dây đàn hồi với biên độ không đổi bằng 7 cm. Trong quá trình dao động, khoảng cách gần nhất và xa nhất giữa hai điểm M, N trên dây lần lượt bằng 21 cm và $\sqrt{490}$ cm. Như vậy hai điểm M, N dao động
 
 A. cùng pha với nhau.
 
@@ -785,10 +737,7 @@ B. ngược pha với nhau.
 
 C. vuông pha với nhau.
 
-D. lệch pha nhau
-3
-π
-.
+D. lệch pha nhau $\pi/3$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
@@ -799,7 +748,7 @@ D. lệch pha nhau
     - Khoảng cách nhỏ nhất
     - Khoảng cách lớn nhất
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **D. lệch pha nhau 3 π .**
+    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **D. lệch pha nhau $\pi/3$.**
 #### Bài 36
 
 <!-- source-id: BT-Chuong-II-p58-q4-134 -->
@@ -930,10 +879,9 @@ D. 2,5 Hz.
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
     **Hướng dẫn giải:**
-
-    Trên cùng phương truyền sóng, $\Delta\varphi=2\pi d/\lambda$; phương trình tại điểm cách nguồn $x$ chậm pha một lượng $2\pi x/\lambda$ theo chiều truyền sóng.
-
-    Hai điểm gần nhau nhất luôn dao động ngược pha:
+    Hai điểm gần nhau nhất dao động ngược pha cách nhau $\lambda/2$.
+    Do $\lambda/2=40\,\mathrm{cm}$ nên $\lambda=80\,\mathrm{cm}=0{,}8\,\mathrm{m}$.
+    $f=\dfrac{v}{\lambda}=\dfrac{2}{0{,}8}=2{,}5\,\mathrm{Hz}$.
 
     Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **D. 2,5 Hz.**
 #### Bài 42
@@ -962,25 +910,26 @@ D. 3,0 cm/s.
 
 <!-- source-id: BT-Chuong-II-p211-q8-490 -->
 
-Một sóng cơ lan truyền trong một môi trường. Hai điểm trên cùng một phương truyền sóng,
-cách nhau một khoảng bằng bước sóng có dao động
+Một sóng cơ lan truyền trong một môi trường. Hai điểm trên cùng một phương truyền sóng, cách nhau một khoảng bằng bước sóng có dao động
 
 A. ngược pha.
 
 B. cùng pha.
 
-C. lệch pha
-𝜋
-2 .
+C. lệch pha $\pi/2$.
 
-D. lệch pha
-𝜋
-4.
+D. lệch pha $\pi/4$.
 
 ??? success "Đáp án và lời giải"
+    **Đáp án: B.**
+
     **Hướng dẫn giải:**
-    Hai điểm trên cùng một phương truyền sóng, cách nhau một khoảng bằng bước sóng có dao động
-    cùng pha.
+
+    Hai điểm trên cùng phương truyền sóng cách nhau $\lambda$ có độ lệch pha
+
+    $\displaystyle \Delta\varphi=\frac{2\pi\lambda}{\lambda}=2\pi,$
+
+    nên chúng dao động cùng pha.
 
 #### Bài 44
 
@@ -1055,7 +1004,7 @@ D. 0,5 m.
 
 <!-- source-id: BT-Chuong-II-p212-q12-494 -->
 
-Một sóng ngang truyền trên sợi dây rất dài với phương trình sóng u=u0cos(20πt – πx/10).
+Một sóng ngang truyền trên sợi dây rất dài với phương trình sóng $u=u_0\cos(20\pi t-\pi x/10)$.
 Trong đó x tính bằng cm, t tính bằng giây. Tốc độ truyền sóng bằng
 
 A. 2 m/s.
@@ -1084,8 +1033,11 @@ Thời gian hai ngọn sóng liên tiếp truyền qua trước mặt là 2 s. B
 cân bằng của mặt nước là 8 cm.
 
 a) Chu kỳ sóng là 1 s
+
 b) Bước sóng của sóng này là 40 cm
+
 c) Tốc độ truyền sóng là 20 m/s
+
 d) Tốc độ dao động cực đại của nguồn sóng là 8 cm/s
 
 ??? success "Đáp án và lời giải"
@@ -1104,46 +1056,55 @@ d) Tốc độ dao động cực đại của nguồn sóng là 8 cm/s
 
 <!-- source-id: BT-Chuong-II-p23-q3-43 -->
 
-Ảnh chụp màn hình một dao động ký điện tử như hình 2.9 Biết tốc độ truyền sóng là 3.108
+Ảnh chụp màn hình một dao động ký điện tử như hình 2.9 Biết tốc độ truyền sóng là $3\times10^{8}$
 (m/s).
-
-a) Hai thời điểm điểm A và B sóng cùng pha
-b) Chu kỳ dao động của sóng là
-c) Bước sóng của sóng này là 2 km
-d) Nguồn sóng thực hiện 200.000 dao động toàn phần trong thời gian 1 s
 
 ![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/ii_p23_q3_43_fig1.webp){ loading=lazy }
 
+a) Hai thời điểm điểm A và B sóng cùng pha
+
+b) Chu kỳ dao động của sóng là $5\,\mu\mathrm{s}$.
+
+c) Bước sóng của sóng này là 2 km
+
+d) Nguồn sóng thực hiện 200.000 dao động toàn phần trong thời gian 1 s
+
 ??? success "Đáp án và lời giải"
+    **Đáp án:** a) Sai; b) Đúng; c) Sai; d) Đúng.
+
     **Hướng dẫn giải:**
+    a) Hai thời điểm A và B trên hình cách nhau nửa chu kì nên dao động ngược pha.
 
-    Trên cùng phương truyền sóng, $\Delta\varphi=2\pi d/\lambda$; phương trình tại điểm cách nguồn $x$ chậm pha một lượng $2\pi x/\lambda$ theo chiều truyền sóng.
+    b) Đọc trục thời gian được $T=5\,\mu\mathrm{s}$.
 
-    a) Hai điểm A và B dao động ngược pha.
-    b) Chu kỳ là khoảng thời gian từ A đến B.
-    c) Bước sóng
-    d) Áp dụng công thức:
+    c) $\lambda=vT=3\times10^8\cdot5\times10^{-6}=1{,}5\times10^3\,\mathrm{m}=1{,}5\,\mathrm{km}$, không phải $2\,\mathrm{km}$.
+
+    d) $f=1/T=2\times10^5\,\mathrm{Hz}$, nên trong $1\,\mathrm{s}$ nguồn thực hiện $200000$ dao động.
+
 #### Bài 50
 
 <!-- source-id: BT-Chuong-II-p32-q1-69 -->
 
-Sóng cơ truyền dọc theo trục Ox có phương trình u = 4cos(20πt – πx) (cm), với t tính bằng
+Sóng cơ truyền dọc theo trục Ox có phương trình $u=4\cos(20\pi t-\pi x)$ (cm), với t tính bằng
 giây, x tính bằng mét. .
 
 a) Tần số sóng là 20 Hz
+
 b) Tốc độ truyền sóng 20 (m/s)
+
 c) Bước sóng là 2 (m)
+
 d) Khoảng cách giữa một gợn sóng là một vị trí cân bằng liên tiếp là 1 (m)
 
 ??? success "Đáp án và lời giải"
+    **Đáp án:** a) Sai; b) Đúng; c) Đúng; d) Sai.
+
     **Hướng dẫn giải:**
+    Từ $u=4\cos(20\pi t-\pi x)$ suy ra $\omega=20\pi\,\mathrm{rad/s}$ và $k=\pi\,\mathrm{rad/m}$.
+    Vì vậy $f=\omega/(2\pi)=10\,\mathrm{Hz}$, $\lambda=2\pi/k=2\,\mathrm{m}$ và $v=\lambda f=20\,\mathrm{m/s}$.
+    Khoảng cách gần nhất giữa một đỉnh sóng và vị trí cân bằng là $\lambda/4=0{,}5\,\mathrm{m}$.
+    Do đó a) Sai; b) Đúng; c) Đúng; d) Sai.
 
-    Trên cùng phương truyền sóng, $\Delta\varphi=2\pi d/\lambda$; phương trình tại điểm cách nguồn $x$ chậm pha một lượng $2\pi x/\lambda$ theo chiều truyền sóng.
-
-    a) Tần số của sóng là
-    b) Tốc độ truyền sóng
-    c) Bước sóng
-    d) Khoảng cách giữa một ngọn sóng và một vị trí cân bằng liên tiếp cách nhau
 #### Bài 51
 
 <!-- source-id: BT-Chuong-II-p33-q3-71 -->
@@ -1151,107 +1112,106 @@ d) Khoảng cách giữa một gợn sóng là một vị trí cân bằng liên
 Một sóng cơ học truyền dọc theo trục Ox có hình dạng như hình 3.4. Biết tốc độ truyền
 sóng là 3 (m/s)
 
-a) Biên độ sóng là 8 cm
-b) Bước sóng của sóng cơ học này là 6 m
-c) Tần số của sóng là 0,5 Hz
-d) Sóng tại M và N lệch pha 4 π(rad)
-
 ![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/ii_p33_q3_71_fig1.webp){ loading=lazy }
 
+a) Biên độ sóng là 8 cm
+
+b) Bước sóng của sóng cơ học này là 6 m
+
+c) Tần số của sóng là 0,5 Hz
+
+d) Sóng tại M và N lệch pha $\pi/4$ (rad)
+
 ??? success "Đáp án và lời giải"
+    **Đáp án:** a) Sai; b) Đúng; c) Đúng; d) Sai.
+
     **Hướng dẫn giải:**
+    a) Từ đồ thị, biên độ $A=4\,\mathrm{cm}$.
 
-    Trên cùng phương truyền sóng, $\Delta\varphi=2\pi d/\lambda$; phương trình tại điểm cách nguồn $x$ chậm pha một lượng $2\pi x/\lambda$ theo chiều truyền sóng.
+    b) Hai điểm cùng pha gần nhất trên trục không gian cách nhau $\lambda=6\,\mathrm{m}$.
 
-    a) Từ đồ thị ta thấy biên độ sóng là 4 (cm)
-    b) Bước sóng λ= 6 ô = 6 (cm)
-    c) Tần số sóng
-    d) Hai điểm M và N cách nhau khoảng x = 4 ô = 4 cm
-    Độ lệch pha giữa M và N là:
+    c) $f=v/\lambda=3/6=0{,}5\,\mathrm{Hz}$.
+
+    d) $MN=4\,\mathrm{m}$ nên
+    $\Delta\varphi=\dfrac{2\pi MN}{\lambda}=\dfrac{4\pi}{3}$, không phải $\pi/4$.
+
 #### Bài 52
 
 <!-- source-id: BT-Chuong-II-p204-q2-466 -->
 
-Một sóng truyền trên một dây rất dài có phương trình: u=10cos(2πt+0,01πx). Trong đó u và x
-được tính bằng cm và t được tính bằng s.
+Một sóng truyền trên một dây rất dài có phương trình $u=10\cos(2\pi t+0{,}01\pi x)$. Trong đó $u$ và $x$ được tính bằng cm và $t$ được tính bằng s.
 
 a) Chu kì của sóng là 1 s.
+
 b) Biên độ của sóng là 10 m.
+
 c) Bước sóng của sóng là 2 m.
-d) Tại điểm có x = 50 cm vào thời điểm t = 4 s, giá trị
-c) ủa li độ u là 10 cm.
+
+d) Tại điểm có $x=50$ cm vào thời điểm $t=4$ s, giá trị của li độ $u$ là 10 cm.
 
 ??? success "Đáp án và lời giải"
+    **Đáp án:** a) Đúng; b) Sai; c) Đúng; d) Sai.
+
     **Hướng dẫn giải:**
+    a) $\omega=2\pi$ nên $T=2\pi/\omega=1\,\mathrm{s}$.
 
-    Trên cùng phương truyền sóng, $\Delta\varphi=2\pi d/\lambda$; phương trình tại điểm cách nguồn $x$ chậm pha một lượng $2\pi x/\lambda$ theo chiều truyền sóng.
+    b) Biên độ là $10\,\mathrm{cm}$, không phải $10\,\mathrm{m}$.
 
-    a) Chu kì của sóng là 1 s.
-    b) Biên độ của sóng là 10 cm.
-    c) Bước sóng của sóng là 2 m.
-    d) Tại điểm có x = 50 cm vào thời điểm t = 4 s, giá trị của li độ u là
+    c) $k=0{,}01\pi\,\mathrm{rad/cm}$, nên $\lambda=2\pi/k=200\,\mathrm{cm}=2\,\mathrm{m}$.
+
+    d) Với $x=50\,\mathrm{cm}$, $t=4\,\mathrm{s}$:
+    $u=10\cos(8\pi+0{,}5\pi)=0$, không phải $10\,\mathrm{cm}$.
+
 #### Bài 53
 
 <!-- source-id: BT-Chuong-II-p207-q6-470 -->
 
-Một sóng ngang truyền trên một dây rất dài có phương trình sóng là u
-6cos(4 t
-0,02
-)
-=
-π−
-πx
-trong đó u, x tính bằng cm, t tính bằng s.
+Một sóng ngang truyền trên một dây rất dài có phương trình sóng là $u=6\cos(4\pi t-0{,}02\pi x)$, trong đó $u$, $x$ tính bằng cm, $t$ tính bằng s.
 
 a) Biên độ sóng là 6 cm.
+
 b) Bước sóng là 100 cm.
+
 c) Tốc độ lan truyền của sóng là 200 cm/s.
-d) Tại điểm có tọa độ x = 25 cm lúc t = 4 s, giá trị của li độ u là 6 cm.
+
+d) Tại điểm có tọa độ $x=25$ cm lúc $t=4$ s, giá trị của li độ $u$ là 6 cm.
 
 ??? success "Đáp án và lời giải"
+    **Đáp án:** a) Đúng; b) Đúng; c) Đúng; d) Sai.
+
     **Hướng dẫn giải:**
+    Từ phương trình, $A=6\,\mathrm{cm}$, $\omega=4\pi\,\mathrm{rad/s}$ và $k=0{,}02\pi\,\mathrm{rad/cm}$.
+    Do đó $\lambda=2\pi/k=100\,\mathrm{cm}$ và $f=\omega/(2\pi)=2\,\mathrm{Hz}$, nên $v=\lambda f=200\,\mathrm{cm/s}$.
+    Tại $x=25\,\mathrm{cm}$, $t=4\,\mathrm{s}$:
+    $u=6\cos(16\pi-0{,}5\pi)=0$, nên d) Sai.
 
-    Trên cùng phương truyền sóng, $\Delta\varphi=2\pi d/\lambda$; phương trình tại điểm cách nguồn $x$ chậm pha một lượng $2\pi x/\lambda$ theo chiều truyền sóng.
-
-    a) Biên độ sóng là 6 cm. ( dựa vào phương trình sóng ta có )
-    b) Bước sóng là
-    c) Tốc độ lan truyền của sóng là 200 cm/s
-    d) Tại điểm có tọa độ x = 25 cm lúc t = 4 s, giá trị của li độ u là 0 cm.
 #### Bài 54
 
 <!-- source-id: BT-Chuong-II-p214-q1-501 -->
 
-Một sóng ngang truyền từ M đến O rồi đến N trên cùng một phương truyền sóng với vận tốc
-18 m/s. Biết MN = 3 m và MO = ON, phương trình sóng tại O là
-0
-5cos(4
-)(
-)
-6
-u
-t
-cm
-π
-π
-=
-−
+Một sóng ngang truyền từ M đến O rồi đến N trên cùng một phương truyền sóng với vận tốc 18 m/s. Biết MN = 3 m và MO = ON, phương trình sóng tại O là $u_O=5\cos\left(4\pi t-\dfrac{\pi}{6}\right)$ (cm).
 
 a) Tần số của sóng là 2 Hz.
+
 b) Biên độ của sóng là 5 cm.
+
 c) Bước sóng là 10 m.
-d) Phương trình sóng tại M là 5cos(4 )( ) 6 M u t
-c) m π π = +
+
+d) Phương trình sóng tại M là $u_M=5\cos\left(4\pi t+\dfrac{\pi}{6}\right)$ (cm).
 
 ??? success "Đáp án và lời giải"
+    **Đáp án:** a) Đúng; b) Đúng; c) Sai; d) Đúng.
+
     **Hướng dẫn giải:**
+    Từ $u_O=5\cos(4\pi t-\pi/6)$ suy ra $A=5\,\mathrm{cm}$ và $f=2\,\mathrm{Hz}$.
+    Do đó $\lambda=v/f=18/2=9\,\mathrm{m}$, nên c) Sai.
 
-    Trên cùng phương truyền sóng, $\Delta\varphi=2\pi d/\lambda$; phương trình tại điểm cách nguồn $x$ chậm pha một lượng $2\pi x/\lambda$ theo chiều truyền sóng.
+    Vì $MO=MN/2=1{,}5\,\mathrm{m}$, độ lệch pha truyền từ M đến O là
+    $kMO=\dfrac{2\pi}{9}\cdot1{,}5=\pi/3$.
+    M nằm trước O theo chiều truyền nên M sớm pha hơn O $\pi/3$:
+    $\varphi_M=-\pi/6+\pi/3=\pi/6$.
+    Vậy $u_M=5\cos(4\pi t+\pi/6)\,\mathrm{cm}$, nên d) Đúng.
 
-    a) Tần số của sóng là 2 Hz.
-    b) Biên độ của sóng là 5 cm.
-    Dựa vào phương trình sóng
-    c) Bước sóng là 9 m.
-    d. Vì M ở phía trước O theo chiều truyền sóng nên
 ### Thông hiểu — Trắc nghiệm 4 lựa chọn
 
 #### Bài 55
@@ -1281,40 +1241,15 @@ D. lệch pha
 
 <!-- source-id: BT-Chuong-II-p14-q26-26 -->
 
-Hai phần tử nằm trên cùng một phương truyền sóng cách nhau một khoảng x. Độ lệch pha
-giữa hai này được xác định theo công thức
+Hai phần tử nằm trên cùng một phương truyền sóng cách nhau một khoảng $x$. Độ lệch pha giữa hai điểm này được xác định theo công thức
 
-A. 2 x
-π
-ϕ
-λ
-Δ
-=
-.
+A. $\Delta\varphi=\dfrac{2\pi x}{\lambda}$.
 
-B. 2 .
-x
-πλ
-ϕ
-Δ
-=
-.
+B. $\Delta\varphi=\dfrac{2\pi\lambda}{x}$.
 
-C. 2 .T
-π
-ϕ
-λ
-Δ
-=
-.
+C. $\Delta\varphi=\dfrac{2\pi T}{\lambda}$.
 
-D. 2 x
-T
-π
-ϕ
-Δ
-=
-.
+D. $\Delta\varphi=\dfrac{2\pi x}{T}$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
@@ -1323,16 +1258,12 @@ T
     Trên cùng phương truyền sóng, $\Delta\varphi=2\pi d/\lambda$; phương trình tại điểm cách nguồn $x$ chậm pha một lượng $2\pi x/\lambda$ theo chiều truyền sóng.
 
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. 2 x π ϕ λ Δ = .**
+    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. $\Delta\varphi=\dfrac{2\pi x}{\lambda}$.**
 #### Bài 57
 
 <!-- source-id: BT-Chuong-II-p46-q18-96 -->
 
-Một sóng ngang truyền dọc theo sợi dây với tần số 10 Hz, hai điểm trên dây cách nhau 50 cm dao
-động với độ lệch pha 5
-3
-π
-. Tốc độ truyền sóng trên dây bằng
+Một sóng ngang truyền dọc theo sợi dây với tần số 10 Hz, hai điểm trên dây cách nhau 50 cm dao động với độ lệch pha $5\pi/3$. Tốc độ truyền sóng trên dây bằng
 
 A. 6 m/s.
 
@@ -1356,6 +1287,8 @@ D. 5 m/s.
 Vào một thời điểm Hình 8.1 là đồ thị li độ - quãng đường truyền sóng của một sóng hình sin.
 Biên độ và bước sóng của sóng này là
 
+![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/ii_p197_q3_442_fig1.webp){ loading=lazy }
+
 A. 5cm; 50 cm.
 
 B. 6 cm; 50 cm.
@@ -1363,8 +1296,6 @@ B. 6 cm; 50 cm.
 C. 5 cm; 30 cm.
 
 D. 6 cm; 30 cm.
-
-![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/ii_p197_q3_442_fig1.webp){ loading=lazy }
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
@@ -1399,8 +1330,7 @@ D. 0,8 cm.
 
 <!-- source-id: BT-Chuong-II-p197-q5-444 -->
 
-Xét một sóng truyền dọc theo trục Ox với phương trình u = 6cos (100πt - 4πx) (cm) (x được
-tính bằng cm, t được tính bằng s). Tại một thời điểm, hai điểm gần nhất dao động cùng pha và hai
+Xét một sóng truyền dọc theo trục Ox với phương trình $u=6\cos(100\pi t-4\pi x)\,\mathrm{cm}$ (x được tính bằng cm, t được tính bằng s). Tại một thời điểm, hai điểm gần nhất dao động cùng pha và hai
 điểm gần nhất dao động ngược pha cách nhau các khoảng lần lượt bằng
 
 A. 1,00 cm và 0,50 cm.
@@ -1414,11 +1344,9 @@ D. 100 cm và 4 cm.
 ??? success "Đáp án và lời giải"
     **Đáp án:** B
     **Hướng dẫn giải:**
-
-    Trên cùng phương truyền sóng, $\Delta\varphi=2\pi d/\lambda$; phương trình tại điểm cách nguồn $x$ chậm pha một lượng $2\pi x/\lambda$ theo chiều truyền sóng.
-
-    Hai điểm gần nhau nhất dao động cùng pha:
-    Hai điểm gần nhau nhất dao động ngược pha:
+    Từ $u=6\cos(100\pi t-4\pi x)$, số sóng $k=4\pi\,\mathrm{rad/cm}$, nên
+    $\lambda=\dfrac{2\pi}{k}=0{,}5\,\mathrm{cm}$.
+    Hai điểm gần nhau nhất cùng pha cách nhau $\lambda=0{,}50\,\mathrm{cm}$; hai điểm gần nhau nhất ngược pha cách nhau $\lambda/2=0{,}25\,\mathrm{cm}$.
 
     Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **B. 0,50 cm và 0,25 cm.**
 #### Bài 61
@@ -1447,7 +1375,7 @@ D. 50Hz.
 
 <!-- source-id: BT-Chuong-II-p198-q7-446 -->
 
-Một sóng truyền theo trục Ox với phương trình u = acos(4πt – 0,02πx) (u và x tính bằng cm, t
+Một sóng truyền theo trục Ox với phương trình $u=a\cos(4\pi t-0{,}02\pi x)$ (u và x tính bằng cm, t
 tính bằng giây). Tốc độ truyền của sóng này là
 
 A. 100 cm/s.
@@ -1493,11 +1421,11 @@ D. $u_O=2\cos\left(\dfrac{\pi}{2}t+\dfrac{2\pi}{3}\right)$ cm.
 
     $\omega=\pi/2$ rad/s nên $T=4$ s và
 
-    $$\lambda=vT=3\cdot4=12\ \text{m}.$$
+    $\lambda=vT=3\cdot4=12\ \text{m}.$
 
     Độ lệch pha giữa $O$ và $M$:
 
-    $$\Delta\varphi=\frac{2\pi\cdot2}{12}=\frac{\pi}{3}.$$
+    $\Delta\varphi=\frac{2\pi\cdot2}{12}=\frac{\pi}{3}.$
 
     Nguồn $O$ sớm pha hơn $M$, nên
 
@@ -1509,8 +1437,8 @@ D. $u_O=2\cos\left(\dfrac{\pi}{2}t+\dfrac{2\pi}{3}\right)$ cm.
 <!-- source-id: BT-Chuong-II-p18-q36-36 -->
 
 Một nguồn phát sóng dao động điều hòa tạo ra sóng tròn đồng tâm O trên mặt nước với
-bước sóng λ. Hai điểm M, N thuộc mặt nước, nằm trên hai phương truyền sóng mà các phần tử nước
-đang dao động. Biết OM = 8 λ, ON = 12 λ và OM vuông góc với ON. Trên đoạn MN, số điểm mà
+bước sóng $\lambda$. Hai điểm M, N thuộc mặt nước, nằm trên hai phương truyền sóng mà các phần tử nước
+đang dao động. Biết OM = 8 $\lambda$, ON = 12 $\lambda$ và OM vuông góc với ON. Trên đoạn MN, số điểm mà
 các phần tử nước dao động ngược pha với dao động tại nguồn O là
 
 A. 5.
@@ -1524,15 +1452,12 @@ D. 6.
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
     **Hướng dẫn giải:**
-
-    Trên cùng phương truyền sóng, $\Delta\varphi=2\pi d/\lambda$; phương trình tại điểm cách nguồn $x$ chậm pha một lượng $2\pi x/\lambda$ theo chiều truyền sóng.
-
-    Các điểm M, N nằm trên các trục tọa độ như hình 2.6
-    Chân đường cao OH hạ từ O lên MN được xác định theo công thức:
-    Thay OM = 8 λ, ON = 12 λ ta tính được OH = 6,66λ
-    Các vị trí dao động ngược pha với nguồn cách nguồn sóng
-    Những điểm P thuộc MH cách nguồn O một khoảng x dao
-    động ngược pha với nguồn thỏa điều kiện:
+    Chân đường cao H từ O xuống MN thỏa
+    $\dfrac1{OH^2}=\dfrac1{OM^2}+\dfrac1{ON^2}$, suy ra $OH\approx6{,}66\lambda$.
+    Điểm ngược pha với O có khoảng cách $x=(k+\tfrac12)\lambda$.
+    Trên MH: $6{,}66\lambda\le x\le8\lambda$, chỉ có $k=7$.
+    Trên NH: $6{,}66\lambda\le x\le12\lambda$, có $k=7,8,9,10,11$.
+    Tổng cộng trên MN có $1+5=6$ điểm dao động ngược pha với O.
 
     Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **D. 6.**
 #### Bài 65

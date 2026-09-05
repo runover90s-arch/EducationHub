@@ -20,8 +20,11 @@ tags:
 Hạt tải điện chủ yếu trong kim loại là
 
 A. proton tự do.
+
 B. electron tự do.
+
 C. neutron.
+
 D. ion dương chuyển động tự do như trong dung dịch.
 
 ??? success "Đáp án và lời giải"
@@ -32,8 +35,11 @@ D. ion dương chuyển động tự do như trong dung dịch.
 Với kim loại thông thường, điện trở tăng khi nhiệt độ tăng chủ yếu vì
 
 A. mật độ va chạm của electron dẫn với mạng tinh thể tăng.
+
 B. electron biến mất.
+
 C. điện tích electron tăng.
+
 D. dây dài ra vô hạn.
 
 ??? success "Đáp án và lời giải"
@@ -44,8 +50,11 @@ D. dây dài ra vô hạn.
 Dây có điện trở $R_0=10\,\Omega$ ở $20^\circ$C, $\alpha=0,004$ K⁻¹. Ở $70^\circ$C, R gần bằng
 
 A. $8\,\Omega$.
+
 B. $10\,\Omega$.
+
 C. $12\,\Omega$.
+
 D. $20\,\Omega$.
 
 ??? success "Đáp án và lời giải"
@@ -58,8 +67,11 @@ D. $20\,\Omega$.
 Dòng điện trong kim loại:
 
 a) Electron có chuyển động nhiệt hỗn loạn và chuyển động trôi có hướng.
+
 b) Chiều dòng điện quy ước ngược chiều trôi của electron.
+
 c) Điện trở suất là đại lượng đặc trưng vật liệu ở một nhiệt độ xác định.
+
 d) Mọi kim loại có điện trở bằng 0 ở nhiệt độ phòng.
 
 ??? success "Đáp án và lời giải"

@@ -20,8 +20,11 @@ tags:
 Hạt mang điện q trong điện trường đều chịu gia tốc có độ lớn
 
 A. $a=|q|E/m$.
+
 B. $a=mE/|q|$.
+
 C. $a=|q|/(mE)$.
+
 D. $a=E$.
 
 ??? success "Đáp án và lời giải"
@@ -32,8 +35,11 @@ D. $a=E$.
 Electron đặt trong điện trường đều có gia tốc
 
 A. cùng chiều $\vec E$.
+
 B. ngược chiều $\vec E$.
+
 C. vuông góc $\vec E$.
+
 D. bằng 0.
 
 ??? success "Đáp án và lời giải"
@@ -44,8 +50,11 @@ D. bằng 0.
 Một proton và một electron cùng đặt trong cùng điện trường đều. Bỏ qua trọng lực. Độ lớn lực điện trên chúng
 
 A. bằng nhau.
+
 B. lực proton lớn hơn rất nhiều.
+
 C. lực electron lớn hơn rất nhiều.
+
 D. đều bằng 0.
 
 ??? success "Đáp án và lời giải"
@@ -56,8 +65,11 @@ D. đều bằng 0.
 Điện tích dương bay vào điện trường đều với vận tốc ban đầu vuông góc $\vec E$. Quỹ đạo trong miền điện trường đều lý tưởng có dạng
 
 A. đường thẳng.
+
 B. đường tròn.
+
 C. parabol.
+
 D. elip.
 
 ??? success "Đáp án và lời giải"
@@ -70,8 +82,11 @@ D. elip.
 Chuyển động hạt mang điện trong điện trường đều:
 
 a) Lực điện không đổi nếu E không đổi.
+
 b) Gia tốc không đổi nếu q, m không đổi.
+
 c) Hạt bay song song E luôn chuyển động đều.
+
 d) Nếu vận tốc đầu vuông góc E, một thành phần chuyển động là đều và thành phần kia biến đổi đều.
 
 ??? success "Đáp án và lời giải"
@@ -85,8 +100,11 @@ d) Nếu vận tốc đầu vuông góc E, một thành phần chuyển động 
 Một electron được tăng tốc từ nghỉ qua hiệu điện thế U:
 
 a) Độ tăng động năng có độ lớn $eU$.
+
 b) Tốc độ có thể tìm từ $\frac12mv^2=eU$ nếu phi tương đối tính.
+
 c) Tăng U gấp 4 lần thì v tăng 4 lần trong mô hình cổ điển.
+
 d) Tăng U gấp 4 lần thì v tăng 2 lần trong mô hình cổ điển.
 
 ??? success "Đáp án và lời giải"
@@ -139,41 +157,32 @@ Tiếp câu trên, tính độ lệch theo phương điện trường khi hạt 
 
 ## Ngân hàng bài tập mở rộng
 
-> Các bài dưới đây được đánh số nối tiếp phần bài tập phía trên. Đề bài được trình bày bằng Markdown; chỉ đồ thị, hình vẽ hoặc sơ đồ thực sự cần thiết mới được giữ dưới dạng hình. Đáp án và lời giải được đặt trong nút mở rộng ngay dưới từng bài.
-
 ### Nhận biết — Trả lời ngắn
 
 #### Bài 11
 
 <!-- source-id: BT-Chuong-III-p77-q2-200 -->
 
-Một vật có khối lượng 5mg được tích điện 20µC chuyển động không vận tốc đầu dọc theo
-phương của đường sức điện trong một điện trường đều với cường độ
-. Vận tốc của vật
-sau 0,5 s sau khi chuyển động được 0,5s bằng bao nhiêu m/s?
+Một vật có khối lượng $5\,\mathrm{mg}$ được tích điện $20\,\mu\mathrm C$ chuyển động không vận tốc đầu dọc theo phương của đường sức điện trong một điện trường đều với cường độ $E=2000\,\mathrm{V/m}$. Vận tốc của vật sau $0{,}5\,\mathrm s$ bằng bao nhiêu $\mathrm{m/s}$?
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** $4000$
 
     **Hướng dẫn giải:**
     Lực điện tác dụng lên điện tích là
+    $F_{\mathrm d}=qE=20\cdot10^{-6}\cdot2000=0{,}04\,\mathrm N$.
 
     Gia tốc của vật là
+    $a=\dfrac{F_{\mathrm d}}{m}=\dfrac{0{,}04}{5\cdot10^{-6}}=8000\,\mathrm{m/s^2}$.
 
-    Vận tốc của vật sau 0,5s là
+    Vận tốc của vật sau $0{,}5\,\mathrm s$ là
+    $v=v_0+at=0+8000\cdot0{,}5=4000\,\mathrm{m/s}$.
 
 #### Bài 12
 
 <!-- source-id: BT-Chuong-III-p80-q7-205 -->
 
-Hai bản kim loại có kích thước lớn và bằng nhau, đặt song song với nhau, cách nhau một khoảng
- như hình vẽ. Hiệu điện thế giữa hai bản phẳng là 48 V. Một electron
-(
- ) bay vào chính giữa hai bản phẳng theo phương vuông góc với các
-đường sức điện với vận tốc ban đầu là
-. Bỏ qua điện trường của Trái Đất, lực cản môi trường, trọng lực
-tác dụng lên electron. Thời gian để electron chạm bản dương là bao nhiêu nano giây ? Coi hai bản đủ dài.
-Kết quả làm tròn đến hàng phần mười.
+Hai bản kim loại có kích thước lớn và bằng nhau, đặt song song với nhau, cách nhau một khoảng $d=24\,\mathrm{cm}$ như hình vẽ. Hiệu điện thế giữa hai bản phẳng là $48\,\mathrm V$. Một electron $(q=-1{,}6\cdot10^{-19}\,\mathrm C,\ m=9{,}1\cdot10^{-19}\,\mathrm{kg})$ bay vào chính giữa hai bản phẳng theo phương vuông góc với các đường sức điện với vận tốc ban đầu là $v_0$. Bỏ qua điện trường của Trái Đất, lực cản môi trường, trọng lực tác dụng lên electron. Thời gian để electron chạm bản dương là bao nhiêu nano giây? Coi hai bản đủ dài. Kết quả làm tròn đến hàng phần mười.
 
 ![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/iii_p80_q7_205_fig1.webp){ loading=lazy }
 
@@ -181,280 +190,152 @@ Kết quả làm tròn đến hàng phần mười.
     **Đáp án:** $82{,}6$
 
     **Hướng dẫn giải:**
+    Electron chịu tác dụng của lực điện trường:
+    $\vec F_{\mathrm d}=q\vec E$.
 
-    Electron chịu tác dụng của lực điện trường
+    Phương trình quỹ đạo theo phương $Oy$ là
+    $y=\dfrac12at^2=\dfrac12\dfrac{|F|}{m}t^2=\dfrac12\dfrac{|q|E}{m}t^2$.
 
-    Phương trình quỹ đạo theo phương oy là
-
-    Khi electron chạm bản dương thì
+    Khi electron chạm bản dương thì $y=\dfrac d2=0{,}12\,\mathrm m$ và $E=\dfrac Ud$, nên
+    $0{,}12=\dfrac12\dfrac{1{,}6\cdot10^{-19}}{9{,}1\cdot10^{-31}}\dfrac{48}{0{,}24}t^2$,
+    suy ra $t=8{,}26\cdot10^{-8}\,\mathrm s=82{,}6\,\mathrm{ns}$.
 
 #### Bài 13
 
 <!-- source-id: BT-Chuong-III-p80-q8-206 -->
 
-Hai bản kim loại có kích thước lớn và bằng nhau, đặt song song với nhau, cách nhau một khoảng
- như hình vẽ. Hiệu điện thế giữa hai bản phẳng là 48 V. Một electron
-(
- ) bay vào chính giữa hai bản phẳng theo phương vuông góc với các
-đường sức điện với vận tốc 200 m/s. Bỏ qua điện trường của Trái Đất, lực cản môi trường, trọng lực tác
-dụng lên electron. Tìm tầm xa theo phương ox là bao nhiêu µicro met? Kết quả làm tròn đến hàng phần
-mười.
-
-d
-24cm
-
-19
-19
-q
-1,6 10
-C,m
-9,1 10
-kg
-
-
-o
-v
-dF
-qE
-
-
-2
-2
-2
-F
-q E
-1
-1
-1
-y
-at
-t
-t
-2
-2 m
-2 m
-
-s
-19
-2
-2
-8
-31
-48
-U
-1,6 10
-q
-1
-d
-1
-0,24
-d
-y
-t
-t
-0,12
-t
-8,26 10
-s
-82,6n
-2
-m
-2
-2
-9,1 10
-
-
-
-
-
-
-d
-24cm
-
-19
-19
-q
-1,6 10
-C,m
-9,1 10
-kg
-
-
+Hai bản kim loại có kích thước lớn và bằng nhau, đặt song song, cách nhau $d=24\,\mathrm{cm}$ như hình. Hiệu điện thế giữa hai bản là $48\,\mathrm V$. Một electron $(q=-1{,}6\cdot10^{-19}\,\mathrm C,\ m=9{,}1\cdot10^{-19}\,\mathrm{kg})$ bay vào chính giữa hai bản theo phương vuông góc với đường sức điện với vận tốc $200\,\mathrm{m/s}$. Bỏ qua điện trường của Trái Đất, lực cản môi trường và trọng lực tác dụng lên electron. Tìm tầm xa theo phương $Ox$ theo đơn vị micromet; làm tròn đến hàng phần mười.
 
 ![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/iii_p80_q8_206_fig1.webp){ loading=lazy }
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** $16{,}5$
+
     **Hướng dẫn giải:**
+    Electron chịu tác dụng của lực điện trường:
+    $\vec F_{\mathrm d}=q\vec E$.
 
-    Dùng $F=qE$, $a=qE/m$ và xét dấu của $q$ để xác định chiều; khi cần kết hợp định lí động năng $\Delta W_\mathrm{đ}=qU$.
+    Theo phương $Oy$:
+    $y=\dfrac12at^2=\dfrac12\dfrac{|q|E}{m}t^2$.
 
-    Electron chịu tác dụng của lực điện trường
-    Phương trình quỹ đạo theo phương oy là
-    Khi electron chạm bản dương thì
-    Tầm xa theo phương ox là
+    Khi electron chạm bản dương, $y=\dfrac d2=0{,}12\,\mathrm m$ và $E=\dfrac Ud$, do đó
+    $0{,}12=\dfrac12\dfrac{1{,}6\cdot10^{-19}}{9{,}1\cdot10^{-31}}\dfrac{48}{0{,}24}t^2$,
+    suy ra $t=8{,}26\cdot10^{-8}\,\mathrm s$.
 
-    Vậy kết quả cần tìm là **$16{,}5$**.
+    Tầm xa theo phương $Ox$ là
+    $x=v_0t=200\cdot8{,}26\cdot10^{-8}=1{,}652\cdot10^{-5}\,\mathrm m=16{,}5\,\mu\mathrm m$.
+
 #### Bài 14
 
 <!-- source-id: BT-Chuong-III-p91-q2-230 -->
 
-Cho một hạt nhân nguyên tử helium chuyển động ngược chiều đường sức điện của một điện trường
-đều có tốc độ ban đầu là
-. Sau khi chuyển động được
- trong điện trường thì hạt dừng lại.
-Một cách gần đúng, có thể xem như hạt chỉ chịu tác dụng của lực điện. Biết rằng hạt nhân nguyên tử helium
-có 2 proton và khối lượng của hạt nhân này là
-. Điện tích của proton là
-. Cường
-độ điện trường có độ lớn gần bằng
-, giá trị của
- là bao nhiêu ? (Kết quả làm tròn đến hàng
-đơn vị).
+Cho một hạt nhân nguyên tử helium chuyển động ngược chiều đường sức điện của một điện trường đều có tốc độ ban đầu là $5\cdot10^5\,\mathrm{m/s}$. Sau khi chuyển động được $10\,\mathrm{cm}$ trong điện trường thì hạt dừng lại. Một cách gần đúng, có thể xem như hạt chỉ chịu tác dụng của lực điện. Biết rằng hạt nhân nguyên tử helium có 2 proton và khối lượng của hạt nhân này là $6{,}67\cdot10^{-27}\,\mathrm{kg}$. Điện tích của proton là $1{,}6\cdot10^{-19}\,\mathrm C$. Cường độ điện trường có độ lớn gần bằng $x\cdot10^3\,\mathrm{V/m}$, giá trị của $x$ là bao nhiêu? Kết quả làm tròn đến hàng đơn vị.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** $26$
+
     **Hướng dẫn giải:**
-
-    Dùng $F=qE$, $a=qE/m$ và xét dấu của $q$ để xác định chiều; khi cần kết hợp định lí động năng $\Delta W_\mathrm{đ}=qU$.
-
     Chọn chiều dương là chiều của đường sức điện.
-    Gia tốc của hạt bụi:
-    Áp dụng định luật II Newton:
 
-    Vậy kết quả cần tìm là **$26$**.
+    Gia tốc của hạt:
+    $a=\dfrac{v^2-v_0^2}{2s}=\dfrac{0-(5\cdot10^5)^2}{2\cdot0{,}1}=-1{,}25\cdot10^{12}\,\mathrm{m/s^2}$.
+
+    Áp dụng định luật II Newton:
+    $F=-ma\Leftrightarrow qE=-ma\Leftrightarrow E=-\dfrac{ma}{q}$.
+
+    Với $q=2\cdot1{,}6\cdot10^{-19}\,\mathrm C$:
+    $E=\dfrac{6{,}67\cdot10^{-27}\cdot1{,}25\cdot10^{12}}{2\cdot1{,}6\cdot10^{-19}}\approx26054\,\mathrm{V/m}=26\cdot10^3\,\mathrm{V/m}$.
+
 #### Bài 15
 
 <!-- source-id: BT-Chuong-III-p93-q5-233 -->
 
-Một êlectron(
- ) bay vào một điện trường đều tạo bởi hai bản tích
-điện trái dấu theo chiều song song với hai bản và cách bản tích điện dương một khoảng 4 cm. Biết cường
-độ điện trường giữa hai bản là E = 500 V/m. Sau bao lâu thì êlectron sẽ chạm vào bản tích điện dương? (
-viết kết quả theo đơn vị ns)
+Một êlectron $(q=-1{,}6\cdot10^{-19}\,\mathrm C,\ m=9{,}1\cdot10^{-31}\,\mathrm{kg})$ bay vào một điện trường đều tạo bởi hai bản tích điện trái dấu theo chiều song song với hai bản và cách bản tích điện dương một khoảng $4\,\mathrm{cm}$. Biết cường độ điện trường giữa hai bản là $E=500\,\mathrm{V/m}$. Sau bao lâu thì êlectron sẽ chạm vào bản tích điện dương? Viết kết quả theo đơn vị ns.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** $30$
+
     **Hướng dẫn giải:**
+    Phương trình chuyển động của êlectron trên $Oy$:
+    $y=\dfrac12\dfrac{|q|E}{m}t^2$.
 
-    Dùng $F=qE$, $a=qE/m$ và xét dấu của $q$ để xác định chiều; khi cần kết hợp định lí động năng $\Delta W_\mathrm{đ}=qU$.
+    Khi êlectron chạm vào bản tích điện dương, $y=4\,\mathrm{cm}=0{,}04\,\mathrm m$:
+    $0{,}04=\dfrac{1{,}6\cdot10^{-19}\cdot500}{2\cdot9{,}1\cdot10^{-31}}t^2$,
+    suy ra $t=3\cdot10^{-8}\,\mathrm s=30\,\mathrm{ns}$.
 
-    Phương trình chuyển động của êlectron trên Oy:
-    êlectron sẽ chạm vào bản tích điện dương
-
-    Vậy kết quả cần tìm là **$30$**.
 #### Bài 16
 
 <!-- source-id: BT-Chuong-III-p109-q30-264 -->
 
 Một electron di chuyển không vận tốc đầu được một đoạn 1 cm dọc theo một đường sức điện,
 dưới tác dụng của lực điện trong một điện trường đều có cường độ 1 000 V/m. Hãy xác định công của lực
-điện theo đơn vị 10−18 J (Làm tròn kết quả đến hàng phần mười).
+điện theo đơn vị $10^{-18}$ J (Làm tròn kết quả đến hàng phần mười).
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** $1{,}6$
 
     **Hướng dẫn giải:**
-
-    Do electron di chuyển không vận tốc đầu và dọc theo một đường sức điện nên nó sẽ di chuyển về phía
-    bản dương.
-
-    Khi đó, 𝑑 ngược hướng 𝐸⃗ (d &lt; 0)
-    Công của lực điện: 𝐴= 𝑞𝐸𝑑= −1, 6.10−19. 1000. (−0,01) = 1, 6.10−18 J.
-    Dùng dữ kiện sau để tính câu 31, 32, 33:
-
-    Một điện tích điểm q = − 4.10−8 C di chuyển dọc theo các cạnh của tam giác MNP, vuông tại P, trong
-    điện trường đều có cường độ 200 V/m. Cạnh MP = 10 cm, MP
-    ⃗⃗⃗⃗⃗⃗ cùng hướng E⃗ ; NP = 8 cm. Môi trường là
-    không khí.
+    Electron chuyển động theo chiều lực điện nên $\vec d$ ngược chiều $\vec E$, tức $d=-0{,}01\,\mathrm m$.
+    $A=qEd=(-1{,}6\cdot10^{-19})\cdot1000\cdot(-0{,}01)=1{,}6\cdot10^{-18}\,\mathrm J$.
+    Vậy kết quả theo đơn vị $10^{-18}\,\mathrm J$ là $1{,}6$.
 
 #### Bài 17
 
 <!-- source-id: BT-Chuong-III-p110-q36-273 -->
 
 Xét điện trường đều tạo bởi hai bản kim loại đặt song song, cách nhau 2 cm có cường độ điện
-trường bằng 5.103 V/m. Một hạt bụi mịn có điện tích q = 3.10−19C lọt vào chính giữa khoảng điện trường
+trường bằng $5\cdot10^{3}$ V/m. Một hạt bụi mịn có điện tích q = $3\cdot10^{-19}$C lọt vào chính giữa khoảng điện trường
 đều giữa hai bản kim loại. Coi tốc độ hạt bụi khi bắt đầu vào điện trường đều bằng 0, bỏ qua lực cản của
-môi trường. Động năng của hạt bụi khi va chạm với bản nhiễm điện âm là bao nhiêu 10−17 J? Chọn mốc thế
+môi trường. Động năng của hạt bụi khi va chạm với bản nhiễm điện âm là bao nhiêu $10^{-17}$ J? Chọn mốc thế
 năng tại bản kim loại tích điện âm.
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** Hướng dẫn giải:
+    **Đáp án:** $1{,}5$
 
     **Hướng dẫn giải:**
-    Chọn mốc thế năng điện tại bản kim loại tích điện âm.
-    Thế năng điện của điện tích q tại điểm chính giữa hai bản phẳng là:
-    𝑊= 𝑞𝐸𝑑= 3. 10−19. 5. 103.
-    0,02
-    2 = 1,5. 10−17 J.
-    Áp dụng định luật bảo toàn năng lượng: W = Wđ  Wđ = 1, 5.10−17 J.
-    Đáp án:
-    1
-    ,
-    5
-
-    17
+    Chọn mốc thế năng tại bản âm. Hạt ở giữa hai bản nên $d=0{,}02/2=0{,}01\,\mathrm m$.
+    $W=qEd=3\cdot10^{-19}\cdot5\cdot10^3\cdot0{,}01=1{,}5\cdot10^{-17}\,\mathrm J$.
+    Ban đầu hạt đứng yên, nên theo bảo toàn năng lượng $W_{\mathrm{đ}}=1{,}5\cdot10^{-17}\,\mathrm J$.
 
 #### Bài 18
 
 <!-- source-id: BT-Chuong-III-p111-q37-274 -->
 
-Một ion âm OH− có khối lượng 2,833.10−26 kg được thổi ra từ máy lọc không
+Một ion âm OH− có khối lượng $2{,}833\cdot10^{-26}$ kg được thổi ra từ máy lọc không
 khí với vận tốc 10 m/s cách mặt đất 80 cm ở nơi có điện trường của Trái Đất bằng 120
 V/m. Dưới tác dụng của lực điện, sau một thời gian, ion đang chuyển động với vận tốc
 0,5 m/s ở vị trí cách mặt đất 1,5 m. Hãy xác định công cản mà môi trường đã thực hiện
-trong quá trình dịch chuyển của ion nói trên theo đơn vị 10−17 J (làm tròn kết quả đến
+trong quá trình dịch chuyển của ion nói trên theo đơn vị $10^{-17}$ J (làm tròn kết quả đến
 hàng phần mười).
 Chọn mốc thế năng tại mặt đất.
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** Hướng dẫn giải:
+    **Đáp án:** $-1{,}3$
 
     **Hướng dẫn giải:**
-    Chọn mốc thế năng điện tại mặt đất.
-    Cơ năng của ion âm OH− ở độ cao 80 cm = 0,8 m so với mặt đất.
-    𝑊1 = 𝑞. 𝐸. 𝑑1 + 1
-    2 . 𝑚𝑣1
-    2
-    Cơ năng của ion âm OH− ở độ cao 1,5 m so với mặt đất.
-    𝑊2 = 𝑞. 𝐸. 𝑑2 + 1
-    2 . 𝑚𝑣2
-    2
-    Công cản mà môi trường đã thực hiện bằng độ biến thiên cơ năng:
-    𝐴𝑐ả𝑛= 𝑊2 −𝑊1 = 𝑞. 𝐸(𝑑2 −𝑑1) + 1
-    2 𝑚(𝑣2
-    2 −𝑣1
-    2)
-    1
-    2 . 2,833. 10−26. (0,52 −102) ≈−1,3. 10−17 J.
-    Đáp án:
-    −
-    1
-    ,
-    3
-
-    18
+    Chọn mốc thế năng tại mặt đất. Công cản bằng độ biến thiên cơ năng:
+    $A_{\mathrm c}=qE(d_2-d_1)+\dfrac12m(v_2^2-v_1^2)$.
+    Thay $q=-1{,}6\cdot10^{-19}\,\mathrm C$, $E=120\,\mathrm{V/m}$, $d_1=0{,}8\,\mathrm m$, $d_2=1{,}5\,\mathrm m$, $v_1=10\,\mathrm{m/s}$, $v_2=0{,}5\,\mathrm{m/s}$:
+    $A_{\mathrm c}\approx-1{,}3\cdot10^{-17}\,\mathrm J$.
+    Vậy kết quả theo đơn vị $10^{-17}\,\mathrm J$ là $-1{,}3$.
 
 #### Bài 19
 
 <!-- source-id: BT-Chuong-III-p120-q5-301 -->
 
 Xét điện trường đều tạo bởi hai bản kim loại đặt song song, cách nhau 4 cm có cường độ điện trường
-bằng 5.104 V/m. Một hạt bụi mịn có điện tích q = 3.10−19C lọt vào chính giữa khoảng điện trường đều
+bằng $5\cdot10^{4}$ V/m. Một hạt bụi mịn có điện tích q = $3\cdot10^{-19}$C lọt vào chính giữa khoảng điện trường đều
 giữa hai bản kim loại. Coi tốc độ hạt bụi khi bắt đầu vào điện trường đều bằng 0, bỏ qua lực cản của môi
-trường. Động năng của hạt bụi khi va chạm với bản nhiễm điện âm là bao nhiêu 10−16 J? Chọn mốc thế
+trường. Động năng của hạt bụi khi va chạm với bản nhiễm điện âm là bao nhiêu $10^{-16}$ J? Chọn mốc thế
 năng điện tại bản kim loại tích điện âm.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** 3
 
     **Hướng dẫn giải:**
-    Chọn mốc thế năng điện tại bản kim loại tích điện âm.
-    Thế năng điện của điện tích q tại điểm chính giữa hai bản phẳng là:
-    𝑊= 𝑞𝐸𝑑= 3. 10−19. 5. 104.
-    0,04
-    2 = 3. 10−16 J.
-    Áp dụng định luật bảo toàn năng lượng: W = Wđ  Wđ = 3. 10−16 J.
+    Chọn mốc thế năng tại bản âm. Hạt ở giữa hai bản nên $d=0{,}04/2=0{,}02\,\mathrm m$.
+    $W=qEd=3\cdot10^{-19}\cdot5\cdot10^4\cdot0{,}02=3\cdot10^{-16}\,\mathrm J$.
+    Ban đầu hạt đứng yên nên $W_{\mathrm{đ}}=3\cdot10^{-16}\,\mathrm J$.
 
 #### Bài 20
 
@@ -463,7 +344,7 @@ năng điện tại bản kim loại tích điện âm.
 Hình vẽ là đồ thị biểu diễn sự thay đổi tốc độ theo độ cao của một electron chuyển động từ điểm A
 đến điểm B theo phương thẳng đứng trong điện trường của Trái Đất. Bỏ qua lực cản của không khí. Tính
 cường độ điện trường của Trái Đất tại điểm A (Làm tròn đến hàng đơn vị).
-Cho, điện tích và khối lượng của electron lần lượt là −1,6. 10−19 C; 9,1. 10−31 kg. Chọn mốc thế năng tại
+Cho, điện tích và khối lượng của electron lần lượt là $-1{,}6\cdot10^{-19}$ C; $9{,}1\cdot10^{-31}$ kg. Chọn mốc thế năng tại
 mặt đất.
 
 ![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/iii_p120_q6_302_fig1.webp){ loading=lazy }
@@ -472,306 +353,229 @@ mặt đất.
     **Đáp án:** $114$
 
     **Hướng dẫn giải:**
-    Chọn mốc thế năng tại mặt đất.
-    1
-    2 𝑚𝑣𝐴
-    2.
-    1
-    2 𝑚𝑣𝐵
-    2.
-    Áp dụng định luật bảo toàn cơ năng:
-    𝑊𝐴= 𝑊𝐵⇔𝑞𝐸𝑑𝐴+ 1
-    2 𝑚𝑣𝐴
-    2 = 𝑞𝐸𝑑𝐵+ 1
-    2 𝑚𝑣𝐵
-    2
-     𝐸=
-    𝑚(𝑣𝐵2−𝑣𝐴2)
-    2𝑞(𝑑𝐴−𝑑𝐵) =
-    9,1.10−31.(02−(2.106)
-    2)
-    2.(−1,6.10−19).(3−2,9) ≈114 V/m.
-    ---HẾT---
-
-    CHƯƠNG 3 – ĐIỆN TRƯỜNG
-    BÀI 19 : ĐIỆN THẾ
-
-    • Yêu cầu cần đạt (Trích từ CTGDPT Vật lí 2018):
-    A
-    q; mối liên hệ cường độ điện trường với điện thế.
-    • Cấu trúc nội dung:
-    I. TÓM TẮT LÝ THUYẾT …………………………………………………………………
-    Lý thuyết chung của chủ đề + Phương pháp giải kèm ví dụ.
-    II. BÀI TẬP PHÂN DẠNG THEO MỨC ĐỘ………………………………………………..
-     (Theo cấu trúc định dạng đề thi kỳ thi tốt nghiệp trung học phổ thông từ năm 2025 – Quyết định số 764/QĐ -
-    BGDĐT)
-    1. Câu trắc nhiệm nhiều phương án lựa chọn
-    2. Câu trắc nghiệm đúng sai
-    3. Câu trắc nghiệm trả lời ngắn
+    Chọn mốc thế năng tại mặt đất. Bảo toàn cơ năng cho electron:
+    $qEd_A+\dfrac12mv_A^2=qEd_B+\dfrac12mv_B^2$.
+    Suy ra
+    $E=\dfrac{m(v_B^2-v_A^2)}{2q(d_A-d_B)}$.
+    Theo số liệu đọc từ đồ thị nguồn, $v_A=2\cdot10^6\,\mathrm{m/s}$, $v_B=0$, $d_A=2{,}9\,\mathrm m$, $d_B=3\,\mathrm m$, nên $E\approx114\,\mathrm{V/m}$.
 
 #### Bài 21
 
 <!-- source-id: BT-Chuong-III-p139-q5-343 -->
 
-Một hạt bụi khối lượng 3,6.10-15 kg mang điện tích q = 6.10-18 C nằm lơ lửng giữa hai tấm kim loại
-phẳng song song nằm ngang cách nhau 2cm và nhiễm điện trái dấu. Lấy g = 10m/s2. Hiệu điện thế giữa hai
+Một hạt bụi khối lượng $3{,}6\cdot10^{-15}$ kg mang điện tích q = $6\cdot10^{-18}$ C nằm lơ lửng giữa hai tấm kim loại
+phẳng song song nằm ngang cách nhau 2cm và nhiễm điện trái dấu. Lấy g = $10\,\mathrm{m/s^2}$. Hiệu điện thế giữa hai
 tấm kim loại bằng bao nhiêu V ?
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** $120$
 
     **Hướng dẫn giải:**
-    Hạt bụi nằm lơ lửng giữa hai tấm kim loại:
-     𝑃= 𝐹đ
-    ⟺𝑚𝑔= 𝑞𝐸
-    ⟹𝐸= 𝑚𝑔
-    𝑞= 3,6.10−15 × 10
-    6.10−18
-    = 6000 𝑉/𝑚.
-    Hiệu điện thế đặt giữa hai tấm kim loại:
-    𝑈= 𝐸. 𝑑= 6000 × 0,02 = 120 𝑉.
+    Hạt bụi cân bằng nên $mg=qE$, do đó
+    $E=\dfrac{mg}{q}=\dfrac{3{,}6\cdot10^{-15}\cdot10}{6\cdot10^{-18}}=6000\,\mathrm{V/m}$.
+    $U=Ed=6000\cdot0{,}02=120\,\mathrm V$.
 
 #### Bài 22
 
 <!-- source-id: BT-Chuong-III-p147-q4-370 -->
 
-Một điện tích điểm q = + 10μC chuyển động từ đỉnh B đến đỉnh C của tam giác đều ABC, nằm trong
-điện trường đều có cường độ 9000V/m có đường sức điện trường song song với cạnh BC có chiều từ C đến
-
-B. Biết cạnh tam giác bằng 20cm, công của lực điện trường khi di chuyển điện tích trên theo đoạn gấp khúc BAC
-bằng bao nhiêu mJ?
+Một điện tích điểm $q=+10\,\mu\mathrm C$ chuyển động từ đỉnh B đến đỉnh C của tam giác đều ABC, nằm trong điện trường đều có cường độ $9000\,\mathrm{V/m}$ có đường sức điện trường song song với cạnh BC có chiều từ C đến B. Biết cạnh tam giác bằng $20\,\mathrm{cm}$, công của lực điện trường khi di chuyển điện tích trên theo đoạn gấp khúc BAC bằng bao nhiêu mJ?
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** $-18$
 
     **Hướng dẫn giải:**
-    Do điểm đầu tại B và điểm cuối tại C nên 𝑑= −𝐵𝐶= −0,2 𝑚. Công của lực điện trường khi di chuyển điện
-    tích theo đường gấp khúc BAC:
-    𝐴= 𝑞𝑈𝐵𝐶= 𝑞. 𝐸. 𝐵𝐶= 10.10−6 × 9000 × (−0,2) = − 18 𝑚𝐽.
+    Từ B đến C, độ dời ngược chiều điện trường nên $d=-0{,}20\,\mathrm m$.
+    $A=qEd=10\cdot10^{-6}\cdot9000\cdot(-0{,}20)=-0{,}018\,\mathrm J=-18\,\mathrm{mJ}$.
 
 #### Bài 23
 
 <!-- source-id: BT-Chuong-III-p147-q5-371 -->
 
-Một prôtôn mang điện tích + 1,6.10-19C chuyển động dọc theo phương của đường sức một điện trường
-đều. Khi nó đi được quãng đường 5 cm thì lực điện thực hiện một công là + 1,6.10-21J. Tính cường độ điện
+Một prôtôn mang điện tích + $1{,}6\cdot10^{-19}$C chuyển động dọc theo phương của đường sức một điện trường
+đều. Khi nó đi được quãng đường 5 cm thì lực điện thực hiện một công là + $1{,}6\cdot10^{-21}$J. Tính cường độ điện
 trường đều này.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** $0{,}2$
 
     **Hướng dẫn giải:**
-    Cường độ điện trường trong trường hợp này:
-    𝐴= 𝑞𝐸𝑑⟹𝐸= 𝐴
-    𝑞𝑑=
-    1,6.10−21
-    1,6.10−19 × 0,05 = 0,2 𝑉/𝑚.
+    $E=\dfrac{A}{qd}=\dfrac{1{,}6\cdot10^{-21}}{1{,}6\cdot10^{-19}\cdot0{,}05}=0{,}2\,\mathrm{V/m}$.
 
 #### Bài 24
 
 <!-- source-id: BT-Chuong-III-p148-q6-372 -->
 
 Trong đèn hình của máy thu hình, các electron được tăng tốc bởi hiệu điện thế U. Khi đập vào màn
-hình thì người ta thu nhận được vận tốc của nó là 133. 106 m/s. Bỏ qua vận tốc ban đầu của nó, hiệu điện thế
+hình thì người ta thu nhận được vận tốc của nó là $133\cdot10^{6}$ m/s. Bỏ qua vận tốc ban đầu của nó, hiệu điện thế
 U trong trường hợp này có độ lớn bằng bao nhiêu kV?
+
 ??? success "Đáp án và lời giải"
     **Đáp án:** $50{,}3$
+
     **Hướng dẫn giải:**
+    Độ tăng động năng bằng công của lực điện:
+    $\dfrac12m_ev^2=|e|U$.
+    $U=\dfrac{m_ev^2}{2|e|}=\dfrac{9{,}1\cdot10^{-31}(133\cdot10^6)^2}{2\cdot1{,}6\cdot10^{-19}}\approx5{,}03\cdot10^4\,\mathrm V=50{,}3\,\mathrm{kV}$.
 
-    Dùng $F=qE$, $a=qE/m$ và xét dấu của $q$ để xác định chiều; khi cần kết hợp định lí động năng $\Delta W_\mathrm{đ}=qU$.
-
-    Độ biến thiên động năng chính bằng công của lực điện trường:
-    2|𝑒| = 9,1. 10−31 × (133. 106)2
-    CHỦ ĐỀ 20 – TỤ ĐIỆN
-    I . TÓM TẮT LÝ THUYẾT – PHƯƠNG PHÁP GIẢI
-    I. TỤ ĐIỆN TỤ, CÁCH TÍCH ĐIỆN CHO TỤ ĐIỆN:
-    1. Tụ điện là gì?
-
-    Vậy kết quả cần tìm là **$50{,}3$**.
 ### Nhận biết — Trắc nghiệm 4 lựa chọn
 
 #### Bài 25
 
 <!-- source-id: BT-Chuong-III-p69-q15-188 -->
 
-Hai bản kim loại phẳng nằm ngang song song cách nhau 10 cm có hiệu điện thế giữa hai bản là
-100V. Một êlectrôn chuyển động dọc theo đường sức về bản âm. Biết điện trường giữa hai bản là điện
-trường đều và bỏ qua tác dụng của trọng lực. Gia tốc của nó bằng
+Hai bản kim loại phẳng nằm ngang song song cách nhau $10\,\mathrm{cm}$ có hiệu điện thế giữa hai bản là $100\,\mathrm V$. Một êlectrôn chuyển động dọc theo đường sức về bản âm. Biết điện trường giữa hai bản là điện trường đều và bỏ qua tác dụng của trọng lực. Gia tốc của nó bằng
 
-A. –1,76.
- m/s2.
+A. $-1{,}76\cdot10^{13}\,\mathrm{m/s^2}$.
 
-B. 1,59.
- m/s2.
+B. $1{,}59\cdot10^{13}\,\mathrm{m/s^2}$.
 
-C. –2,76.
- m/s2.
+C. $-2{,}76\cdot10^{13}\,\mathrm{m/s^2}$.
 
-D. 1,52.
- m/s2.
+D. $1{,}52\cdot10^{13}\,\mathrm{m/s^2}$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
-    **Hướng dẫn giải:**
 
-    Vì electron mang điện tích âm nên lực điện trường
-     tác dụng lên electron sẽ ngược chiều với chiều điện
-    trường
-     nghĩa là ngược chiều với chiều chuyển động của electron nên electron sẽ chuyển động chậm
-    dần đều, cùng chiều với chiều đường sức điện trường với gia tốc:
+    **Hướng dẫn giải:**
+    Vì electron mang điện tích âm nên lực điện trường $\vec F$ tác dụng lên electron ngược chiều $\vec E$.
+
+    Theo hướng dẫn nguồn:
+    $a=\dfrac{F}{m}=\dfrac{qE}{m}=\dfrac{-1{,}6\cdot10^{-19}\cdot100}{9{,}1\cdot10^{-31}}=-1{,}76\cdot10^{13}\,\mathrm{m/s^2}$.
 
 #### Bài 26
 
 <!-- source-id: BT-Chuong-III-p69-q16-189 -->
 
-Một hạt khối lượng 0,4 g mang điện tích +2.10-6 C được đặt vào điện trường đều có cường độ
-45.103 V/m, vectơ cường độ điện trường hướng thẳng đứng từ dưới lên trên. Lấy g=10 m/s2. Khi đó hạt sẽ
-chuyển động
+Một hạt khối lượng $0{,}4\,\mathrm g$ mang điện tích $+2\cdot10^{-6}\,\mathrm C$ được đặt vào điện trường đều có cường độ $45\cdot10^3\,\mathrm{V/m}$, vectơ cường độ điện trường hướng thẳng đứng từ dưới lên trên. Lấy $g=10\,\mathrm{m/s^2}$. Khi đó hạt sẽ chuyển động
 
-A. đi xuống với gia tốc 9,775 m/s2.
+A. đi xuống với gia tốc $9{,}775\,\mathrm{m/s^2}$.
 
-B. đi lên với gia tốc 9,775 m/s2.
+B. đi lên với gia tốc $9{,}775\,\mathrm{m/s^2}$.
 
-C. đi xuống với gia tốc 215 m/s2.
+C. đi xuống với gia tốc $215\,\mathrm{m/s^2}$.
 
-D. đi lên với gia tốc 215 m/s2.
+D. đi lên với gia tốc $215\,\mathrm{m/s^2}$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
+
     **Hướng dẫn giải:**
+    Vì $q>0$ nên $\vec F_{\mathrm d}$ cùng chiều $\vec E$.
 
-    Dùng $F=qE$, $a=qE/m$ và xét dấu của $q$ để xác định chiều; khi cần kết hợp định lí động năng $\Delta W_\mathrm{đ}=qU$.
+    $F_{\mathrm d}=qE=2\cdot10^{-6}\cdot45\cdot10^3=9\cdot10^{-2}\,\mathrm N$.
 
-    Hạt bụi nằm cân bằng trong điện trường chịu tác dụng của lực điện và trọng lực:
-    hạt sẽ chuyển động đi lên với gia tốc
+    $P=mg=0{,}4\cdot10^{-3}\cdot10=0{,}4\cdot10^{-2}\,\mathrm N$.
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **D. đi lên với gia tốc 215 m/s2.**
+    Vì $F_{\mathrm d}>P$, hạt chuyển động đi lên với gia tốc
+    $a=\dfrac{F_{\mathrm d}-P}{m}=\dfrac{9\cdot10^{-2}-0{,}4\cdot10^{-2}}{0{,}4\cdot10^{-3}}=215\,\mathrm{m/s^2}$.
+
 #### Bài 27
 
 <!-- source-id: BT-Chuong-III-p70-q17-190 -->
 
-Một hạt prôtôn chuyển động ngược chiều đường sức điện trường đều với tốc độ ban đầu 4.105
-m/s. Cho cường độ điện trường đều có độ lớn E = 3000 V/m, e = 1,6.10–19 C, mp = 1,67.10– 27 kg. Bỏ qua
+Một hạt prôtôn chuyển động ngược chiều đường sức điện trường đều với tốc độ ban đầu $4\cdot10^{5}$
+m/s. Cho cường độ điện trường đều có độ lớn E = 3000 V/m, e = $1{,}6\cdot10^{-19}\,\mathrm C$, $m_p=1{,}67\cdot10^{-27}\,\mathrm{kg}$. Bỏ qua
 tác dụng của trọng lực lên prôtôn. Sau khi đi được đoạn đường 3 cm, tốc độ của prôtôn là
 
-A. 3,98.105 m/s.
+A. $3{,}98\cdot10^{5}$ m/s.
 
-B. 5,64.105 m/s.
+B. $5{,}64\cdot10^{5}$ m/s.
 
-C. 3,78.105 m/s.
+C. $3{,}78\cdot10^{5}$ m/s.
 
-D. 4,21.105 m/s.
+D. $4{,}21\cdot10^{5}$ m/s.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
-    **Hướng dẫn giải:**
-    Vì prôtôn mang điện tích dương nên lực điện trường
-     tác dụng lên prôtôn sẽ cùng chiều với chiều điện
-    trường
-     nghĩa là ngược chiều với chiều chuyển động của prôtôn nên prôtôn sẽ chuyển động chậm dần
-    đều, ngược chiều đường sức điện trường với gia tốc:
 
-    Tốc độ của prôtôn sau khi đi được đoạn được 3 cm:
+    **Hướng dẫn giải:**
+    Proton chuyển động ngược chiều $\vec E$ nên lực điện làm nó chậm dần với độ lớn gia tốc $a=eE/m_p$.
+    Dùng $v^2=v_0^2-2as$ với $s=0{,}03\,\mathrm m$:
+    $v=\sqrt{(4\cdot10^5)^2-2\dfrac{1{,}6\cdot10^{-19}\cdot3000}{1{,}67\cdot10^{-27}}\cdot0{,}03}\approx3{,}78\cdot10^5\,\mathrm{m/s}$.
 
 #### Bài 28
 
 <!-- source-id: BT-Chuong-III-p70-q18-191 -->
 
-Một êlectrôn chuyển động dọc theo hướng đường sức của một điện trường đều có cường độ 100
-V/m với vận tốc ban đầu là 300 km/s. Quãng đường đi được kể từ thời điểm ban đầu cho đến khi vận tốc
-của êlectron bằng không bằng
+Một êlectrôn chuyển động dọc theo hướng đường sức của một điện trường đều có cường độ $100\,\mathrm{V/m}$ với vận tốc ban đầu là $300\,\mathrm{km/s}$. Quãng đường đi được kể từ thời điểm ban đầu cho đến khi vận tốc của êlectron bằng không bằng
 
-A. 2,56 cm.
+A. $2{,}56\,\mathrm{cm}$.
 
-B. 25,6 cm.
+B. $25{,}6\,\mathrm{cm}$.
 
-C. 2,56 mm.
+C. $2{,}56\,\mathrm{mm}$.
 
-D. 2,56 m.
+D. $2{,}56\,\mathrm m$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
+
     **Hướng dẫn giải:**
+    Vì electron mang điện tích âm nên lực điện trường ngược chiều chuyển động; electron chuyển động chậm dần đều với gia tốc
+    $a=\dfrac{F}{m}=\dfrac{qE}{m}=\dfrac{-1{,}6\cdot10^{-19}\cdot100}{9{,}1\cdot10^{-31}}=-1{,}76\cdot10^{13}\,\mathrm{m/s^2}$.
 
-    Dùng $F=qE$, $a=qE/m$ và xét dấu của $q$ để xác định chiều; khi cần kết hợp định lí động năng $\Delta W_\mathrm{đ}=qU$.
+    Quãng đường đi được đến khi vận tốc bằng không:
+    $s=\dfrac{v^2-v_0^2}{2a}=\dfrac{0-(3\cdot10^5)^2}{2\cdot(-1{,}76\cdot10^{13})}=0{,}00256\,\mathrm m=2{,}56\,\mathrm{mm}$.
 
-    Vì electron mang điện tích âm nên lực điện trường
-    tác dụng lên electron sẽ ngược chiều với chiều điện
-    nghĩa là ngược chiều với chiều chuyển động của electron nên electron sẽ chuyển động chậm dần
-    quãng đường đi được đến khi vận tốc bằng không:
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. 2,56 mm.**
 #### Bài 29
 
 <!-- source-id: BT-Chuong-III-p71-q19-192 -->
 
-Một êlectron chuyển động với tốc độ ban đầu 1,6.106 m/s chuyển động vào vùng điện trường đều
-theo phương song song với hai bản và ở chính giữa khoảng cách hai bản như hình. Biết chiều dài mỗi bản
-là 2 cm và khoảng cách giữa hai bản là 1 cm. Giữa hai bản có điện trường hướng từ trên xuống, điện trường
-bên ngoài hai bản bằng 0. Biết êlectron di chuyển đến vị trí mép ngoài của tấm bản phía trên. Độ lớn cường
-độ điện trường giữa hai bản bằng
-
-A. 1000 V/m.
-
-B. 500 V/m.
-
-C. 364 V/m.
-
-D. 728 V/m.
+Một êlectron chuyển động với tốc độ ban đầu $1{,}6\cdot10^6\,\mathrm{m/s}$ chuyển động vào vùng điện trường đều theo phương song song với hai bản và ở chính giữa khoảng cách hai bản như hình. Biết chiều dài mỗi bản là $2\,\mathrm{cm}$ và khoảng cách giữa hai bản là $1\,\mathrm{cm}$. Giữa hai bản có điện trường hướng từ trên xuống, điện trường bên ngoài hai bản bằng 0. Biết êlectron di chuyển đến vị trí mép ngoài của tấm bản phía trên. Độ lớn cường độ điện trường giữa hai bản bằng
 
 ![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/iii_p71_q19_192_fig1.webp){ loading=lazy }
 
+A. $1000\,\mathrm{V/m}$.
+
+B. $500\,\mathrm{V/m}$.
+
+C. $364\,\mathrm{V/m}$.
+
+D. $728\,\mathrm{V/m}$.
+
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
+
     **Hướng dẫn giải:**
-    Thời gian electron chuyển động trong điện trường cũng chính là thời gian electron đi đến mép ngoài của
-    tấm bản phía trên:
+    Thời gian electron chuyển động trong điện trường cũng là thời gian electron đi đến mép ngoài của tấm bản:
+    $t=\dfrac{x}{v_0}=\dfrac{0{,}02}{1{,}6\cdot10^6}=1{,}25\cdot10^{-8}\,\mathrm s$.
 
-    Do lúc đầu electron ở vị trí chính giữa khoảng cách hai bản nên quãng đường electron di chuyển theo
-    phương thẳng đứng là
+    Electron bắt đầu ở chính giữa hai bản nên quãng đường theo phương thẳng đứng là
+    $y=\dfrac d2=\dfrac{0{,}01}{2}=0{,}005\,\mathrm m$.
 
-    Theo phương Oy, electron chuyển động thẳng nhanh dần đều:
+    Theo phương $Oy$, electron chuyển động nhanh dần đều:
+    $y=\dfrac12at^2\Rightarrow a=\dfrac{2y}{t^2}=6{,}4\cdot10^{13}\,\mathrm{m/s^2}$.
 
     Độ lớn cường độ điện trường:
+    $E=\dfrac{ma}{|q|}=\dfrac{9{,}1\cdot10^{-31}\cdot6{,}4\cdot10^{13}}{1{,}6\cdot10^{-19}}=364\,\mathrm{V/m}$.
 
 #### Bài 30
 
 <!-- source-id: BT-Chuong-III-p71-q20-193 -->
 
-Khói thải từ một số nhà máy (hình vẽ) có thể chứa nhiều hạt bụi gây ô nhiễm
-môi trường. Để giảm thiểu tác hại của bụi người ta dùng máy lọc bụi tĩnh điện theo
-nguyên tắc cơ bản sau: Hai bản kim loại phẳng tích điện trái dấu và đặt song song
-với nhau trong không khí được đặt thẳng đứng, cách nhau d = 20 cm, chiều cao mỗi
-bản là . Hiệu điện thế giữa hai bản U = 4.
- V. Không khí chứa bụi được thổi đi
-lên theo phương thẳng đứng qua khoảng giữa hai bản kim loại. Cho rằng mỗi hạt bụi
-có m
- ;
-. Khi bắt đầu đi vào giữa hai bản kim loại, hạt
-bụi có
- theo phương thẳng đứng hướng lên. Bỏ qua tác dụng của trọng lực. Tìm điều kiện của
- để mọi hạt bụi đều bị hút dính vào bản kim loại.
-
-A. 12 m.
-
-B. 6 m.
-
-C. 10 m.
-
-D. 24 m.
+Khói thải từ một số nhà máy (hình vẽ) có thể chứa nhiều hạt bụi gây ô nhiễm môi trường. Để giảm thiểu tác hại của bụi người ta dùng máy lọc bụi tĩnh điện theo nguyên tắc cơ bản sau: Hai bản kim loại phẳng tích điện trái dấu và đặt song song với nhau trong không khí được đặt thẳng đứng, cách nhau $d=20\,\mathrm{cm}$, chiều cao mỗi bản là $\ell$. Hiệu điện thế giữa hai bản $U=4\cdot10^4\,\mathrm V$. Không khí chứa bụi được thổi đi lên theo phương thẳng đứng qua khoảng giữa hai bản kim loại. Cho rằng mỗi hạt bụi có $m=10^{-9}\,\mathrm{kg}$, $q=-2\cdot10^{-15}\,\mathrm C$. Khi bắt đầu đi vào giữa hai bản kim loại, hạt bụi có $v_0=12\,\mathrm{m/s}$ theo phương thẳng đứng hướng lên. Bỏ qua tác dụng của trọng lực. Tìm điều kiện của $\ell$ để mọi hạt bụi đều bị hút dính vào bản kim loại.
 
 ![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/iii_p71_q20_193_fig1.webp){ loading=lazy }
 
+A. $12\,\mathrm m$.
+
+B. $6\,\mathrm m$.
+
+C. $10\,\mathrm m$.
+
+D. $24\,\mathrm m$.
+
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
+
     **Hướng dẫn giải:**
+    Để mọi hạt bụi dính vào hai bản kim loại thì quãng đường đi theo phương thẳng đứng phải thỏa mãn
+    $L=v_0\sqrt{\dfrac{2d}{a}}\le\ell$.
 
-    Dùng $F=qE$, $a=qE/m$ và xét dấu của $q$ để xác định chiều; khi cần kết hợp định lí động năng $\Delta W_\mathrm{đ}=qU$.
+    Với $E=\dfrac Ud$ và $a=\dfrac{|q|E}{m}=\dfrac{|q|U}{md}$:
+    $\ell\ge v_0\sqrt{\dfrac{2d}{a}}=12\sqrt{\dfrac{2\cdot0{,}2}{\dfrac{2\cdot10^{-15}\cdot4\cdot10^4}{10^{-9}\cdot0{,}2}}}=12\,\mathrm m$.
 
-    Để mọi hạt bụi dính vào hai bản kim loại thì quãng đường đi của các hạt bụi (theo phương thẳng đứng)
-    là L phải thỏa mãn điều kiện:
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. 12 m.**
 #### Bài 31
 
 <!-- source-id: BT-Chuong-III-p82-q1-207 -->
@@ -821,200 +625,132 @@ D. theo một quỹ đạo bất kì.
 
 <!-- source-id: BT-Chuong-III-p83-q10-216 -->
 
-Trong ống phóng tia X, khoảng cách giữa hai cực của ống phóng tia X (Hình 18.1) bằng 2 cm ,
-hiệu điện thế giữa hai cực là 100kV . Một electron có điện tích
-19
-1,6.10
-C
-e
-−
-= −
- bật ra khỏi bản cực âm
-(catôt) bay vào điện trường giữa hai bản cực. Lực điện tác dụng lên electron đó bằng
+Trong ống phóng tia X, khoảng cách giữa hai cực bằng $2\,\mathrm{cm}$, hiệu điện thế giữa hai cực là $100\,\mathrm{kV}$. Một electron có điện tích $q_e=-1{,}6\cdot10^{-19}\,\mathrm C$ bật ra khỏi catôt và bay vào điện trường giữa hai cực. Lực điện tác dụng lên electron bằng
 
-Hinh 18.1. Ống phóng tia X trong máy chup X quang chẩn đoán hình ảnh
+![Hình 18.1. Ống phóng tia X](../../../assets/exercise-figures/clean-v14/iii_p83_q10_216_fig1.webp){ loading=lazy }
 
-A. 13
-8 10
- N
-−
-
-.
+A. $8\cdot10^{-13}\,\mathrm N$.
 
-B. 18
-8 10
- N
-−
-
-.
+B. $8\cdot10^{-18}\,\mathrm N$.
 
-C. 17
-3,2 10
- N
-−
-
-.
+C. $3{,}2\cdot10^{-17}\,\mathrm N$.
 
-D. 15
-8 10
- N
-−
-
-.
-
-![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/iii_p83_q10_216_fig1.webp){ loading=lazy }
+D. $8\cdot10^{-15}\,\mathrm N$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
+
     **Hướng dẫn giải:**
+    $E=\dfrac{U}{d}=\dfrac{100\cdot10^3}{0{,}02}=5\cdot10^6\,\mathrm{V/m}$.
+    $F=|q_e|E=1{,}6\cdot10^{-19}\cdot5\cdot10^6=8\cdot10^{-13}\,\mathrm N$.
 
-    Dùng $F=qE$, $a=qE/m$ và xét dấu của $q$ để xác định chiều; khi cần kết hợp định lí động năng $\Delta W_\mathrm{đ}=qU$.
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. 13 8 10 N −  .**
 #### Bài 34
 
 <!-- source-id: BT-Chuong-III-p84-q12-218 -->
 
-Một êlectron được phóng đi từ O với vận tốc ban đầu
-0v dọc theo chiều đường sức của một điện
-trường đều cường độ E
-
-. Quãng đường xa nhất mà nó di chuyển được trong điện trường cho tới khi vận
-tốc của nó bằng không có biểu thức
+Một electron được phóng đi từ O với vận tốc ban đầu $v_0$ dọc theo chiều đường sức của một điện trường đều cường độ $E$. Quãng đường xa nhất mà nó di chuyển được cho tới khi vận tốc bằng 0 có biểu thức
 
-A. 2
-o
-mv
-2eE .
+A. $\dfrac{mv_0^2}{2eE}$.
 
-B. 2
-o
-2eE
-mv .
+B. $\dfrac{2eE}{mv_0^2}$.
 
-C. 2
-o
-eE
-mv .
+C. $\dfrac{eE}{mv_0^2}$.
 
-D. 2
-o
-me
-Ev .
+D. $\dfrac{me}{Ev_0^2}$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
+
     **Hướng dẫn giải:**
+    Gia tốc của chuyển động:
+    $a=-\dfrac{F}{m}=-\dfrac{eE}{m}$.
 
-    Dùng $F=qE$, $a=qE/m$ và xét dấu của $q$ để xác định chiều; khi cần kết hợp định lí động năng $\Delta W_\mathrm{đ}=qU$.
+    Khi electron dừng lại:
+    $s=-\dfrac{v_0^2}{2a}=\dfrac{mv_0^2}{2eE}$.
 
-    Ta có: gia tốc của chuyển động:
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. 2 o mv 2eE .**
 #### Bài 35
 
 <!-- source-id: BT-Chuong-III-p84-q14-220 -->
 
-Một hạt bụi khối lượng 10-8 g mang điện tích 5.10-5C chuyển động trong điện trường đều theo một
-đường sức điện từ điểm M đến điểm N thì vật vận tốc tăng từ 2.104 m/s đến 3,6.104 m/s. Biết đoạn đường
-MN dài 5cm, cường độ điện trường đều là
+Một hạt bụi khối lượng $10^{-8}\,\mathrm g$ mang điện tích $5\cdot10^{-5}\,\mathrm C$ chuyển động trong điện trường đều theo một đường sức điện từ điểm M đến điểm N thì vận tốc tăng từ $2\cdot10^4\,\mathrm{m/s}$ đến $3{,}6\cdot10^4\,\mathrm{m/s}$. Biết đoạn đường MN dài $5\,\mathrm{cm}$, cường độ điện trường đều là
 
-A. 2462 V/m
+A. $2462\,\mathrm{V/m}$.
 
-B. 1685 V/m
+B. $1685\,\mathrm{V/m}$.
 
-C. 2175 V/m
+C. $2175\,\mathrm{V/m}$.
 
-D. 1792 V/m.
+D. $1792\,\mathrm{V/m}$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
+
     **Hướng dẫn giải:**
+    Cách 1, gia tốc của hạt bụi:
+    $a=\dfrac{v^2-v_0^2}{2s}=\dfrac{(3{,}6\cdot10^4)^2-(2\cdot10^4)^2}{2\cdot0{,}05}=89{,}6\cdot10^8\,\mathrm{m/s^2}$.
 
-    Dùng $F=qE$, $a=qE/m$ và xét dấu của $q$ để xác định chiều; khi cần kết hợp định lí động năng $\Delta W_\mathrm{đ}=qU$.
-
-    Cách 1: Gia tốc của hạt bụi:
     Áp dụng định luật II Newton:
-    Cách 2: Sau khi học xong bài 19 ta có thể Áp dụng định lí động năng:
+    $F=ma\Leftrightarrow qE=ma\Leftrightarrow E=\dfrac{ma}{q}=1792\,\mathrm{V/m}$.
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **D. 1792 V/m.**
+    Cách 2, áp dụng định lí động năng:
+    $\dfrac12mv_2^2-\dfrac12mv_1^2=qEs\Rightarrow E=\dfrac{m(v_2^2-v_1^2)}{2qs}=1792\,\mathrm{V/m}$.
+
 #### Bài 36
 
 <!-- source-id: BT-Chuong-III-p85-q16-222 -->
 
-Hai bản kim loại tích điện trái dấu có các bản song song đặt nằm ngang cách nhau 4 cm, chiều dài
-các bản là 10 cm, hiệu điện thế giữa hai bản là 20 V. Một êlectron(
- ) bay
-từ điểm O cách đều hai bản với vận tốc ban đầu là
- song song với các bản. Để êlectron có thể ra khỏi
-hai bản thì giá trị nhỏ nhất của
- gần nhất với giá trị nào sau đây?
+Hai bản kim loại tích điện trái dấu, song song, nằm ngang, cách nhau $4\,\mathrm{cm}$; chiều dài các bản là $10\,\mathrm{cm}$ và hiệu điện thế giữa hai bản là $20\,\mathrm V$. Một electron $(q=-1{,}6\cdot10^{-19}\,\mathrm C,\ m=9{,}1\cdot10^{-31}\,\mathrm{kg})$ bay từ điểm O cách đều hai bản với vận tốc ban đầu $v_0$ song song với các bản. Để electron có thể ra khỏi hai bản thì giá trị nhỏ nhất của $v_0$ gần nhất với giá trị nào?
 
-0
-=
-+
-→
-→
-P
-Fđ
-19
-31
-q
-1,6.10
-;m
-9,1.10
-kg
-−
-−
-= −
-=
-0v
-
-0
-v
+A. $4{,}7\cdot10^6\,\mathrm{m/s}$.
 
-A. 4,7.106 m/s.
+B. $4{,}7\cdot10^7\,\mathrm{m/s}$.
 
-B. 4,7.107 m/s.
+C. $4{,}7\cdot10^5\,\mathrm{m/s}$.
 
-C. 4,7.105m/s.
-
-D. 4,7.104 m/s.
+D. $4{,}7\cdot10^4\,\mathrm{m/s}$.
 
 ??? success "Đáp án và lời giải"
+    **Đáp án:** A
+
     **Hướng dẫn giải:**
+    Bỏ qua trọng lực, phân tích chuyển động theo $Ox$, $Oy$:
+    $a_x=0$, $a_y=\dfrac{F}{m}=\dfrac{eE}{m}=\dfrac{eU}{md}$.
 
-    Dùng $F=qE$, $a=qE/m$ và xét dấu của $q$ để xác định chiều; khi cần kết hợp định lí động năng $\Delta W_\mathrm{đ}=qU$.
+    $x=v_0t$, $y=\dfrac12a_yt^2$. Với $y=0{,}5d$:
+    $x=v_0\sqrt{\dfrac{d}{a_y}}$.
 
-    Bỏ qua trọng lực P, phân tích chuyển động của e theo phương Ox, Oy:
+    Điều kiện ra khỏi hai bản là $x\ge\ell$, nên
+    $v_0\ge\dfrac{\ell}{d}\sqrt{\dfrac{eU}{m}}=\dfrac{10}{4}\sqrt{\dfrac{1{,}6\cdot10^{-19}\cdot20}{9{,}1\cdot10^{-31}}}\approx4{,}7\cdot10^6\,\mathrm{m/s}$.
+
 #### Bài 37
 
 <!-- source-id: BT-Chuong-III-p86-q17-223 -->
 
-Để làm lệch hướng chuyển động của êlectron một góc α, người ta thiết lập một điện trường đều
-có cường độ E và có hướng vuông góc với hướng chuyển động ban đầu của êlectron trong thời gian t. Khi
-t = 1 ms thì
-. Muốn êlectron lệch hướng chuyển động một góc
- thì thời gian thiết lập điện
-trường là
+Để làm lệch hướng chuyển động của electron một góc $\alpha$, người ta thiết lập một điện trường đều có cường độ $E$ và hướng vuông góc với hướng chuyển động ban đầu của electron trong thời gian $t$. Khi $t=1\,\mathrm{ms}$ thì $\alpha=30^\circ$. Muốn electron lệch hướng một góc $\alpha=60^\circ$ thì thời gian thiết lập điện trường là
 
-A. 3,48 ms.
+A. $3{,}48\,\mathrm{ms}$.
 
-B. 2 ms.
+B. $2\,\mathrm{ms}$.
 
-C. 3 ms.
+C. $3\,\mathrm{ms}$.
 
-D. 1,73 ms.
+D. $1{,}73\,\mathrm{ms}$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
+
     **Hướng dẫn giải:**
+    Theo các phương $Ox$, $Oy$:
+    $v_x=v_0$, $v_y=\dfrac{|q|U}{md}t$.
 
-    Dùng $F=qE$, $a=qE/m$ và xét dấu của $q$ để xác định chiều; khi cần kết hợp định lí động năng $\Delta W_\mathrm{đ}=qU$.
+    Do đó
+    $\tan\alpha=\dfrac{v_y}{v_x}=\dfrac{|q|U}{mdv_0}t$.
 
-    Vận tốc electron theo các phương Ox, Oy
+    Vì các đại lượng còn lại không đổi:
+    $\dfrac{\tan\alpha_1}{\tan\alpha_2}=\dfrac{t_1}{t_2}$.
+    Với $t_1=1\,\mathrm{ms}$, $\alpha_1=30^\circ$, $\alpha_2=60^\circ$:
+    $\dfrac{\tan30^\circ}{\tan60^\circ}=\dfrac{1}{t_2}\Rightarrow t_2=3\,\mathrm{ms}$.
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. 3 ms.**
 #### Bài 38
 
 <!-- source-id: BT-Chuong-III-p101-q2-236 -->
@@ -1042,16 +778,15 @@ D. vị trí của N.
 
 <!-- source-id: BT-Chuong-III-p101-q3-237 -->
 
-Một điện tích q chuyển động trong điện trường đều theo một đường cong kín. Gọi công của lực
-điện trong chuyển động đó là A thì
+Một điện tích $q$ chuyển động trong điện trường đều theo một đường cong kín. Gọi công của lực điện trong chuyển động đó là $A$ thì
 
-A. A &gt; 0 nếu q &gt; 0.
+A. $A>0$ nếu $q>0$.
 
-B. A &gt; 0 nếu q &lt; 0.
+B. $A>0$ nếu $q<0$.
 
-C. A  0 nếu điện trường không đổi.
+C. $A\ne0$ nếu điện trường không đổi.
 
-D. A = 0.
+D. $A=0$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
@@ -1069,6 +804,8 @@ Một điện tích q chuyển động từ điểm M đến Q, đến N, đến
 Đáp án nào là sai khi nói về mối quan hệ giữa công của lực điện trường dịch chuyển điện tích trên các đoạn
 đường?
 
+![Quỹ đạo M-Q-N-P trong điện trường đều](../../../assets/exercise-figures/clean-v14/iii_p102_q8_242.webp){ loading=lazy }
+
 A. AMQ = – AQN.
 
 B. AMN = ANP.
@@ -1076,8 +813,6 @@ B. AMN = ANP.
 C. AQP = AQN.
 
 D. AMQ = AMP.
-
-![Quỹ đạo M-Q-N-P trong điện trường đều](../../../assets/exercise-figures/clean-v14/iii_p102_q8_242.webp){ loading=lazy }
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
@@ -1091,30 +826,26 @@ D. AMQ = AMP.
 
 <!-- source-id: BT-Chuong-III-p106-q25-259 -->
 
-Một electron chuyển động dọc theo đường sức của một điện trường đều, cường độ điện trường
-có độ lớn E = 200 V/m. Khối lượng và điện tích của electron lần lượt là 9, 1.10−31 kg; −1,6.10−19
+Một electron chuyển động dọc theo đường sức của một điện trường đều, cường độ điện trường có độ lớn $E=200\,\mathrm{V/m}$. Khối lượng và điện tích của electron lần lượt là $9{,}1\cdot10^{-31}\,\mathrm{kg}$; $-1{,}6\cdot10^{-19}\,\mathrm C$. Tính từ thời điểm tốc độ của electron là $3\cdot10^5\,\mathrm{m/s}$ đến khi tốc độ của nó bằng 0 thì nó đã đi được đoạn đường bằng
 
-C. Tính
-từ thời điểm tốc độ của electron là 3.105 m/s đến khi tốc độ của nó bằng 0 thì nó đã đi được đoạn đường
-bằng
+A. $5{,}12\,\mathrm{mm}$.
 
-A. 5,12 mm.
+B. $2{,}56\,\mathrm{mm}$.
 
-B. 2,56 mm.
+C. $1{,}28\,\mathrm{mm}$.
 
-C. 1,28 mm.
-
-D. 10,24 mm.
+D. $10{,}24\,\mathrm{mm}$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
+
     **Hướng dẫn giải:**
+    Áp dụng định lí động năng:
+    $A=W_{\mathrm{đ}2}-W_{\mathrm{đ}1}\Leftrightarrow qEd=\dfrac12mv_2^2-\dfrac12mv_1^2$.
 
-    Dùng $F=qE$, $a=qE/m$ và xét dấu của $q$ để xác định chiều; khi cần kết hợp định lí động năng $\Delta W_\mathrm{đ}=qU$.
+    Với $v_2=0$:
+    $d=\dfrac{-\frac12mv_1^2}{qE}=\dfrac{-\frac12\cdot9{,}1\cdot10^{-31}\cdot(3\cdot10^5)^2}{-1{,}6\cdot10^{-19}\cdot200}\approx0{,}00128\,\mathrm m=1{,}28\,\mathrm{mm}$.
 
-    Áp dụng định lí động năng, ta có:
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. Tính từ thời điểm tốc độ của electron là 3.105 m/s đến khi tốc độ của nó bằng 0 thì nó đã đi được đoạn đường bằng**
 #### Bài 42
 
 <!-- source-id: BT-Chuong-III-p112-q2-276 -->
@@ -1123,126 +854,99 @@ Một electron di chuyển không vận tốc đầu được một đoạn 1 cm
 tác dụng của một lực điện trong một điện trường đều có cường độ 1 000 V/m. Công của lực điện khi đó
 bằng
 
-A. 1,6. 10−18 J.
+A. $1{,}6\cdot10^{-18}$ J.
 
-B. −1,6. 10−18 J.
+B. $-1{,}6\cdot10^{-18}$ J.
 
-C. −1,6. 10−16 J.
+C. $-1{,}6\cdot10^{-16}$ J.
 
-D. 1,6. 10−16 J.
+D. $1{,}6\cdot10^{-16}$ J.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
+
     **Hướng dẫn giải:**
-    Công của lực điện: 𝐴= 𝑞𝐸𝑑= −1, 6.10−19. 1000. (−0,01) = 1, 6.10−18 J.
+    Electron chuyển động theo chiều lực điện, ngược chiều $\vec E$, nên $d=-0{,}01\,\mathrm m$.
+    $A=qEd=(-1{,}6\cdot10^{-19})\cdot1000\cdot(-0{,}01)=1{,}6\cdot10^{-18}\,\mathrm J$.
 
 #### Bài 43
 
 <!-- source-id: BT-Chuong-III-p113-q8-282 -->
 
-Một điện tích điểm q = 10 μC chuyển động từ đỉnh B đến đỉnh C của tam giác đều ABC, nằm trong
-điện trường đều có cường độ 5 000 V/m có đường sức điện song song với cạnh BC có chiều từ B đến
+Một điện tích điểm $q=10\,\mu\mathrm C$ chuyển động từ đỉnh B đến đỉnh C của tam giác đều ABC, nằm trong điện trường đều có cường độ $5000\,\mathrm{V/m}$ có đường sức điện song song với cạnh BC có chiều từ B đến C. Biết tam giác có cạnh bằng $10\,\mathrm{cm}$. Công của lực điện trường khi di chuyển điện tích trên theo đoạn gấp khúc BAC bằng
 
-C. Biết tam giác có cạnh bằng 10 cm. Công của lực điện trường khi di chuyển điện tích trên theo đoạn gấp
-khúc BAC bằng
+A. $5\cdot10^{-3}\,\mathrm J$.
 
-A. 5.10−3 J.
+B. $-2{,}5\cdot10^{-3}\,\mathrm J$.
 
-B. – 2,5.10−3 J.
+C. $-5\cdot10^{-3}\,\mathrm J$.
 
-C. – 5.10−3 J.
-
-D. 2,5.10−3 J.
+D. $2{,}5\cdot10^{-3}\,\mathrm J$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
+
     **Hướng dẫn giải:**
-    Công của lực điện trường khi di chuyển điện tích trên theo đoạn gấp khúc BAC bằng:
-    𝐴𝐵𝐴𝐶= 𝐴𝐵𝐶= 𝑞. 𝐸. 𝑑𝐵𝐶= 𝑞. 𝐸. 𝐵𝐶
-    ̅̅̅̅ = 10. 10−6. 5000.0,1 = 5. 10−3 J.
+    Công của lực điện không phụ thuộc đường đi. Từ B đến C, độ dời cùng chiều điện trường:
+    $A_{BC}=qE\,BC=10\cdot10^{-6}\cdot5000\cdot0{,}10=5\cdot10^{-3}\,\mathrm J$.
+    Do đó đi theo B-A-C cũng cho cùng công.
 
 #### Bài 44
 
 <!-- source-id: BT-Chuong-III-p113-q9-283 -->
 
-Một điện tích điểm q = 10 μC chuyển động từ đỉnh B đến đỉnh C của tam giác đều ABC nằm trong
-điện trường đều có cường độ 5 000 V/m. Đường sức của điện trường này song song với cạnh BC và có
-chiều từ C đến
-
-B. Cạnh của tam giác bằng 10 cm. Công của lực điện trường khi điện tích chuyển động trong
+Một điện tích điểm $q=10\,\mu\mathrm C$ chuyển động từ đỉnh B đến đỉnh C của tam giác đều ABC nằm trong
+điện trường đều có cường độ $5\,000\,\mathrm{V/m}$. Đường sức của điện trường này song song với cạnh BC và có
+chiều từ C đến B. Cạnh của tam giác bằng $10\,\mathrm{cm}$. Công của lực điện trường khi điện tích chuyển động trong
 hai trường hợp, q chuyển động theo đoạn thẳng BC và chuyển động theo đoạn gấp khúc BAC là
 
-A. ABC = − 5.10−4 J, ABAC = − 10.10−4J.
+A. $A_{BC}=-5\cdot10^{-4}\,\mathrm J$, $A_{BAC}=-10\cdot10^{-4}\,\mathrm J$.
 
-B. ABC = −2, 5.10−3 J, ABAC = −2,5.10−3J.
+B. $A_{BC}=-2{,}5\cdot10^{-3}\,\mathrm J$, $A_{BAC}=-2{,}5\cdot10^{-3}\,\mathrm J$.
 
-C. ABC = − 5.10−3 J, ABAC = − 5.10−3 J.
+C. $A_{BC}=-5\cdot10^{-3}\,\mathrm J$, $A_{BAC}=-5\cdot10^{-3}\,\mathrm J$.
 
-D. ABC = − 5.10−4 J, ABAC = − 5.10−4 J.
+D. $A_{BC}=-5\cdot10^{-4}\,\mathrm J$, $A_{BAC}=-5\cdot10^{-4}\,\mathrm J$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
+
     **Hướng dẫn giải:**
+    Điện trường hướng từ C đến B, nên khi điện tích dương đi từ B đến C, $d=-0{,}10\,\mathrm m$.
+    $A_{BC}=qEd=10\cdot10^{-6}\cdot5000\cdot(-0{,}10)=-5\cdot10^{-3}\,\mathrm J$.
+    Công không phụ thuộc đường đi nên theo B-A-C cũng bằng $-5\cdot10^{-3}\,\mathrm J$.
 
-    Dùng $F=qE$, $a=qE/m$ và xét dấu của $q$ để xác định chiều; khi cần kết hợp định lí động năng $\Delta W_\mathrm{đ}=qU$.
-
-    𝑑𝐵𝐶= −𝐵𝐶= −10 cm ⇒𝐴𝐵𝐶= 𝑞𝐸𝑑𝐵𝐶= 10. 10−6. 5 000. (−0,1) = −5.10−3 J.
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. ABC = − 5.10−3 J, ABAC = − 5.10−3 J.**
 #### Bài 45
 
 <!-- source-id: BT-Chuong-III-p114-q10-284 -->
 
 Một điện tích âm bay theo phương của một đường sức điện trường. Lúc ở điểm A nó có tốc độ
-2,5.104 m/s, khi đến điểm B tốc độ của nó bằng không. Biết electron có khối lượng 2,672.10-26 kg. Thế năng
-điện tại A bằng − 8.10−17 J. Thế năng điện tại B bằng
+$2{,}5\cdot10^{4}\,\mathrm{m/s}$, khi đến điểm B tốc độ của nó bằng không. Biết electron có khối lượng $2{,}672\cdot10^{-26}\,\mathrm{kg}$. Thế năng
+điện tại A bằng $-8\cdot10^{-17}\,\mathrm J$. Thế năng điện tại B bằng
 
-A. − 8,5.10−17 J.
+A. − $8{,}5\cdot10^{-17}$ J.
 
-B. − 7,2.10−17 J.
+B. − $7{,}2\cdot10^{-17}$ J.
 
-C. 7,2.10−17 J.
+C. $7{,}2\cdot10^{-17}$ J.
 
-D. 8,5.10−17 J.
+D. $8{,}5\cdot10^{-17}$ J.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** B
+
     **Hướng dẫn giải:**
-    Áp dụng định lí động năng, ta có:
-    𝐴𝐴𝐵= 𝑊đ𝐵−𝑊đ𝐴  𝑊𝐴−𝑊𝐵= 𝑊đ𝐵−𝑊đ𝐴
-
-     𝑊𝐴−𝑊𝐵=
-    1
-    2 𝑚𝑒. 𝑣𝐵
-    2 −
-    1
-    2 𝑚𝑒. 𝑣𝐴
-    2
-
-     𝑊𝐵= 𝑊𝐴−
-    1
-    2 𝑚𝑒. 𝑣𝐵
-    2 +
-    1
-    2 𝑚𝑒. 𝑣𝐴
-    2
-
-     𝑊𝐵= −8. 10−17 −
-    1
-    1
-    2 . 2,672. 10−26. (2,5. 104)2
-
-     𝑊𝐵≈−7,2. 10−17 J.
+    Bảo toàn cơ năng điện:
+    $W_A+\dfrac12mv_A^2=W_B$ vì tại B hạt dừng lại.
+    $W_B=-8\cdot10^{-17}+\dfrac12\cdot2{,}672\cdot10^{-26}\cdot(2{,}5\cdot10^4)^2\approx-7{,}2\cdot10^{-17}\,\mathrm J$.
 
 #### Bài 46
 
 <!-- source-id: BT-Chuong-III-p114-q12-286 -->
 
 Một proton chuyển động dọc theo đường sức của một điện trường đều, cường độ điện trường có
-độ lớn E = 200 V/m. Khối lượng và điện tích của proton lần lượt là 1,67. 10−27 kg; 1,6.10−19
-
-C. Tính từ
-thời điểm tốc độ của proton bằng 0 đến khi tốc độ của nó bằng 3.104 m/s thì nó đã đi được đoạn đường
+độ lớn $E=200\,\mathrm{V/m}$. Khối lượng và điện tích của proton lần lượt là $1{,}67\cdot10^{-27}\,\mathrm{kg}$; $1{,}6\cdot10^{-19}\,\mathrm C$. Tính từ
+thời điểm tốc độ của proton bằng 0 đến khi tốc độ của nó bằng $3\cdot10^{4}\,\mathrm{m/s}$ thì nó đã đi được đoạn đường
 bằng
 
 A. 51,2 mm.
@@ -1259,42 +963,44 @@ D. − 12,8 mm.
 
     Dùng $F=qE$, $a=qE/m$ và xét dấu của $q$ để xác định chiều; khi cần kết hợp định lí động năng $\Delta W_\mathrm{đ}=qU$.
 
-    Áp dụng định lí động năng, ta có:
+    Áp dụng định lí động năng:
+
+    $qEd=\dfrac12mv^2-0$.
+
+    Suy ra $d=\dfrac{mv^2}{2qE}=\dfrac{1{,}67\cdot10^{-27}(3\cdot10^4)^2}{2\cdot1{,}6\cdot10^{-19}\cdot200}\approx0{,}0235\,\mathrm m=23{,}5\,\mathrm{mm}$.
 
     Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **B. 23,5 mm.**
 #### Bài 47
 
 <!-- source-id: BT-Chuong-III-p115-q14-288 -->
 
-Một electron đang bay với động năng 410 eV (1 eV = 1,6.10−19 J) theo hướng đường sức điện, từ
-một điểm có thế năng điện W1 = −9,6. 10−17 J. Hãy xác định thế năng điện W2 tại điểm mà ở đó electron
+Một electron đang bay với động năng $410\,\mathrm{eV}$ ($1\,\mathrm{eV}=1{,}6\cdot10^{-19}\,\mathrm J$) theo hướng đường sức điện, từ
+một điểm có thế năng điện $W_1=-9{,}6\cdot10^{-17}\,\mathrm J$. Hãy xác định thế năng điện $W_2$ tại điểm mà ở đó electron
 dừng lại.
 
-A. −3,04. 10−17 J.
+A. $-3{,}04\cdot10^{-17}$ J.
 
-B. −1,264. 10−16 J.
+B. $-1{,}264\cdot10^{-16}$ J.
 
-C. −1,76. 10−16 J.
+C. $-1{,}76\cdot10^{-16}$ J.
 
-D. −4. 10−17 J.
+D. $-4\cdot10^{-17}$ J.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
-    **Hướng dẫn giải:**
-    Áp dụng định luật bảo toàn cơ năng:
-    𝑊đ1 + 𝑊1 = 𝑊đ2 + 𝑊2  410.1,6. 10−19 + (−9,6. 10−17) = 0 + 𝑊2
 
-     𝑊2 = −3,04. 10−17 J.
+    **Hướng dẫn giải:**
+    Động năng ban đầu là $410\,\mathrm{eV}=410\cdot1{,}6\cdot10^{-19}=6{,}56\cdot10^{-17}\,\mathrm J$.
+    Khi electron dừng lại, toàn bộ cơ năng là thế năng:
+    $W_2=W_1+W_{\mathrm{đ}1}=-9{,}6\cdot10^{-17}+6{,}56\cdot10^{-17}=-3{,}04\cdot10^{-17}\,\mathrm J$.
 
 #### Bài 48
 
 <!-- source-id: BT-Chuong-III-p115-q16-290 -->
 
 Một electron chuyển động dọc theo đường sức của một điện trường đều. Cường độ điện trường có
-độ lớn bằng 200 V/m. Vận tốc ban đầu của electron là 3.106 m/s, khối lượng và điện tích của electron lần
-lượt là 9,1.10−31 kg; −1,6.10−19
-
-C. Từ lúc bắt đầu chuyển động đến khi có vận tốc bằng 0 thì electron đã đi
+độ lớn bằng $200\,\mathrm{V/m}$. Vận tốc ban đầu của electron là $3\cdot10^{6}\,\mathrm{m/s}$, khối lượng và điện tích của electron lần
+lượt là $9{,}1\cdot10^{-31}\,\mathrm{kg}$; $-1{,}6\cdot10^{-19}\,\mathrm C$. Từ lúc bắt đầu chuyển động đến khi có vận tốc bằng 0 thì electron đã đi
 được quãng đường bằng
 
 A. 5,12 mm.
@@ -1307,50 +1013,36 @@ D. 1,28 mm.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** B
+
     **Hướng dẫn giải:**
-    Áp dụng định lí động năng:
-    𝐴12 = 𝑊đ2 −𝑊đ1  𝑞. 𝐸. 𝑑= 0 −
-    1
-    2 𝑚𝑣1
-    2 (𝑣2 = 0).
-
-     −1,6. 10−19. 200. 𝑑= −
-    1
-    2 . 9,1. 10−31. (3. 106)2
-
-     𝑑≈0,128 m.
+    Độ giảm động năng bằng độ lớn công của lực điện:
+    $\dfrac12m_ev_0^2=|e|Es$.
+    $s=\dfrac{m_ev_0^2}{2|e|E}=\dfrac{9{,}1\cdot10^{-31}(3\cdot10^6)^2}{2\cdot1{,}6\cdot10^{-19}\cdot200}\approx0{,}128\,\mathrm m$.
 
 #### Bài 49
 
 <!-- source-id: BT-Chuong-III-p116-q18-292 -->
 
 Hai bản kim loại tích điện trái dấu, đặt song song và cách nhau 3 cm. Độ lớn cường độ điện trường
-giữa hai bản là 1 000 V/m. Một electron được đặt tại bản tích điện âm, thả cho electron chuyển động dọc
-theo đường sức điện. Khối lượng và điện tích của electron lần lượt là 9,1.10−31 kg; −1,6.10−19
-
-C. Tốc độ của
+giữa hai bản là $1\,000\,\mathrm{V/m}$. Một electron được đặt tại bản tích điện âm, thả cho electron chuyển động dọc
+theo đường sức điện. Khối lượng và điện tích của electron lần lượt là $9{,}1\cdot10^{-31}\,\mathrm{kg}$; $-1{,}6\cdot10^{-19}\,\mathrm C$. Tốc độ của
 electron khi chạm vào bản tích điện dương bằng
 
-A. 3,2. 106 m/s.
+A. $3{,}2\cdot10^{6}$ m/s.
 
-B. 3,2. 106 cm/s.
+B. $3{,}2\cdot10^{6}$ cm/s.
 
-C. 1,6. 106 m/s.
+C. $1{,}6\cdot10^{6}$ m/s.
 
-D. 1,6. 106 cm/s.
+D. $1{,}6\cdot10^{6}$ cm/s.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
-    **Hướng dẫn giải:**
-    Áp dụng định lí động năng:
-    1
-    2 𝑚𝑣2 −0 (𝑣0 = 0).
 
-     𝑣= √2.𝑞.𝐸.𝑑
-    𝑚
-    = √2.(−1,6.10−19.1000.(−0,03))
-    9,1.10−31
-    ≈3,2. 106 m/s.
+    **Hướng dẫn giải:**
+    Từ bản âm đến bản dương, công của lực điện là
+    $A=|e|Ed=1{,}6\cdot10^{-19}\cdot1000\cdot0{,}03=4{,}8\cdot10^{-18}\,\mathrm J$.
+    $\dfrac12m_ev^2=A\Rightarrow v=\sqrt{\dfrac{2A}{m_e}}\approx3{,}2\cdot10^6\,\mathrm{m/s}$.
 
 #### Bài 50
 
@@ -1359,26 +1051,24 @@ D. 1,6. 106 cm/s.
 Một điện tích q chuyển động từ điểm A đến B, đến C, đến D trong điện trường đều như hình vẽ. Công
 của lực điện trường dịch chuyển điện tích trên các đoạn đường
 
-A. AAB = ABC
-
-B. AAC = ACD.
-
-C. ABD = AAD.
-
-D. AAB = AAD.
-
 ![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/iii_p131_q28_330_fig1.webp){ loading=lazy }
+
+A. $A_{AB}=A_{BC}$.
+
+B. $A_{AC}=A_{CD}$.
+
+C. $A_{BD}=A_{AD}$.
+
+D. $A_{AB}=A_{AD}$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** B
+
     **Hướng dẫn giải:**
-    Công của lực điện dịch chuyển điện tích từ điểm này sang điểm khác
-    𝐴= 𝑞𝑈= 𝑞𝐸𝑑;
-    Ta thấy:
-    + 𝑑𝐴𝐵= −𝑑𝐵𝐶⟹𝐴𝐴𝐵= −𝐴𝐵𝐶;
-    + 𝑑𝐵𝐷≠𝑑𝐴𝐷⟹𝐴𝐵𝐷≠𝐴𝐴𝐷;
-    + 𝑑𝐴𝐶= 𝑑𝐶𝐷⟹𝐴𝐴𝐶= 𝐴𝐶𝐷;
-    + 𝑑𝐴𝐵≠𝑑𝐴𝐷⟹𝐴𝐴𝐵≠𝐴𝐴𝐷.
+    Trong điện trường đều, $A=qEd$ với $d$ là hình chiếu đại số của độ dời lên phương điện trường. Theo hình:
+    $d_{AB}=-d_{BC}$ nên $A_{AB}=-A_{BC}$;
+    $d_{AC}=d_{CD}$ nên $A_{AC}=A_{CD}$.
+    Vì vậy phương án B đúng.
 
 #### Bài 51
 
@@ -1386,47 +1076,38 @@ D. AAB = AAD.
 
 Hai tấm kim loại phẳng nằm ngang song song cách nhau 5 cm. Hiệu điện thế giữa hai tấm là 100 V.
 Một electron không vận tốc ban đầu chuyển động từ tấm tích điện âm về tấm tích điện dương, biết khối lượng
-của electron là me = 9,1. 10−31 kg. Khi đến tấm tích điện dương thì electron có vận tốc là
+của electron là $m_e=9{,}1\cdot10^{-31}\,\mathrm{kg}$. Khi đến tấm tích điện dương thì electron có vận tốc là
 
-A. 5,93. 106 m/s.
+A. $5{,}93\cdot10^{6}$ m/s.
 
-B. 3,52. 106 m/s.
+B. $3{,}52\cdot10^{6}$ m/s.
 
-C. 4,19. 106 m/s.
+C. $4{,}19\cdot10^{6}$ m/s.
 
-D. 6,85. 106 m/s.
+D. $6{,}85\cdot10^{6}$ m/s.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
+
     **Hướng dẫn giải:**
-    Do electron dịch chuyển từ bản âm đến bản dương: 𝑈= −100 𝑉;
-    Công của lực điện để dịch chuyển electron từ bản âm sang bản dương:
-    𝐴= 𝑈𝑞= (−100) × (−1,6. 10−19) = 1,6. 10−17 𝐽;
-    Độ biến thiên động năng của electron chính bằng công của lực điện làm dịch chuyển electron từ bản âm đến
-    bản dương:
-    𝑊đ −𝑊đ0 = 𝐴
-    ⟺1
-    2 𝑚𝑒𝑣2 −0 = 𝐴
-    ⇒𝑣= √2𝐴
-    𝑚𝑒
-    = √2 × 1,6. 10−17
-    9,1. 10−31
-    = 5,93. 106 𝑚/𝑠.
+    Electron đi từ bản âm sang bản dương nên $U=-100\,\mathrm V$ và
+    $A=qU=(-1{,}6\cdot10^{-19})(-100)=1{,}6\cdot10^{-17}\,\mathrm J$.
+    $\dfrac12m_ev^2=A\Rightarrow v=\sqrt{\dfrac{2A}{m_e}}=5{,}93\cdot10^6\,\mathrm{m/s}$.
 
 #### Bài 52
 
 <!-- source-id: BT-Chuong-III-p140-q4-348 -->
 
-Một điện tích q chuyển động trong điện trường không đều theo một đường cong kín. Gọi công của lực
-điện trong chuyển động đó là A thì
+Một điện tích $q$ chuyển động trong điện trường không đều theo một đường cong kín. Gọi công của lực
+điện trong chuyển động đó là $A$ thì
 
-A. A &gt; 0 nếu q &gt; 0.
+A. $A>0$ nếu $q>0$.
 
-B. A &gt; 0 nếu q &lt; 0.
+B. $A>0$ nếu $q<0$.
 
-C. A ≠ 0 nếu q &gt; 0.
+C. $A\ne0$ nếu $q>0$.
 
-D. A = 0 với mọi trường hợp.
+D. $A=0$ với mọi trường hợp.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
@@ -1440,27 +1121,21 @@ D. A = 0 với mọi trường hợp.
 
 <!-- source-id: BT-Chuong-III-p141-q12-356 -->
 
-Khi bay từ M đến N trong điện trường đều, electron tăng tốc động năng tăng thêm 350eV. Hiệu điện
-thế UMN bằng
+Khi bay từ M đến N trong điện trường đều, electron tăng tốc, động năng tăng thêm $350\,\mathrm{eV}$. Hiệu điện
+thế $U_{MN}$ bằng
 
-A. – 350 V.
+A. $-350\,\mathrm V$.
 
-B. 350 V.
+B. $350\,\mathrm V$.
 
-C. – 150 V.
+C. $-150\,\mathrm V$.
 
-D. 150 V.
+D. $150\,\mathrm V$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
     **Hướng dẫn giải:**
-    UMN = A
-    q =
-    Wđ −Wđ0
-    q
-    = 350 × 1,6. 10−19
-    −1,6. 10−19
-    = −350 V.
+    $U_{MN}=\dfrac{A}{q}=\dfrac{W_{\mathrm đ}-W_{\mathrm đ0}}{q}=\dfrac{350\cdot1{,}6\cdot10^{-19}}{-1{,}6\cdot10^{-19}}=-350\,\mathrm V$.
 
 #### Bài 54
 
@@ -1468,33 +1143,23 @@ D. 150 V.
 
 Hai tấm kim loại phẳng nằm ngang song song cách nhau 10 cm. Hiệu điện thế giữa hai tấm là 150 V.
 Một electron không vận tốc ban đầu chuyển động từ tấm tích điện âm về tấm tích điện dương, biết khối lượng
-của electron là me = 9,1. 10−31 kg. Khi đến tấm tích điện dương thì electron có vận tốc là
+của electron là $m_e=9{,}1\cdot10^{-31}\,\mathrm{kg}$. Khi đến tấm tích điện dương thì electron có vận tốc là
 
-A. 5,93. 106 m/s.
+A. $5{,}93\cdot10^{6}$ m/s.
 
-B. 3,52. 106 m/s.
+B. $3{,}52\cdot10^{6}$ m/s.
 
-C. 4,19. 106 m/s.
+C. $4{,}19\cdot10^{6}$ m/s.
 
-D. 7,26. 106 m/s.
+D. $7{,}26\cdot10^{6}$ m/s.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
-    **Hướng dẫn giải:**
-    Do electron dịch chuyển từ bản âm đến bản dương: 𝑈= −150 𝑉;
-    Công của lực điện để dịch chuyển electron từ bản âm sang bản dương:
-    𝐴= 𝑈𝑞= (−150) × (−1,6. 10−19) = 2,4. 10−17 𝐽;
 
-    Độ biến thiên động năng của electron chính bằng công của lực điện làm dịch chuyển electron từ bản âm đến
-    bản dương:
-    𝑊đ −𝑊đ0 = 𝐴
-    ⟺1
-    2 𝑚𝑒𝑣2 −0 = 𝐴
-    ⇒𝑣= √2𝐴
-    𝑚𝑒
-    = √2 × 2,4. 10−17
-    9,1. 10−31
-    = 7,26. 106 𝑚/𝑠.
+    **Hướng dẫn giải:**
+    Electron đi từ bản âm sang bản dương nên độ tăng động năng là
+    $A=|e|U=1{,}6\cdot10^{-19}\cdot150=2{,}4\cdot10^{-17}\,\mathrm J$.
+    $\dfrac12m_ev^2=A\Rightarrow v=\sqrt{\dfrac{2A}{m_e}}\approx7{,}26\cdot10^6\,\mathrm{m/s}$.
 
 ### Nhận biết — Đúng/Sai
 
@@ -1502,142 +1167,17 @@ D. 7,26. 106 m/s.
 
 <!-- source-id: BT-Chuong-III-p75-q5-198 -->
 
-Ống tia âm cực (CRT) là một thiết bị thường được thấy trong dao động ký điện tử cũng như màn
-hình tivi, máy tính (CRT)… cho thấy mô hình của một ống tia âm cực, bao gồm hai bản kim loại phẳng có
-chiều dài 8 cm, tích điện trái dấu, đặt song song và cách nhau 2 cm. Hiệu điện thế giữa hai bản kim loại là
-U = 12 V. Một electron được phóng ra từ điểm A cách đều hai bản kim loại với vận tốc ban đầu có độ lớn
-v0 bằng 7.106 m/s và hướng dọc theo trục của ống cho rằng bản kim loại bên dưới có điện thế lớn hơn.
-Xem tác dụng của trọng lực là không đáng kể lấy khối lượng của electron là 9,1.10-31 kg .
-P = mg
-
-
-A
-F = - DVg
-
-
-F = qE
-
-5
-4
-9 10
-10
-9 10
-N
-−
-−
-
-
-= 
-9
-6
-A
-F
-DgV
-800 10 10
-8 10 N
-−
-−
-=
-=
-
-
-= 
-A
-P &gt; F
-
-A
-P + F + F = 0
-
-
-A
-P &gt; F 
-F
-
-A
-F = P - F
-4
-6
-9
-5
-mg - DgV
-9 10
-8 10
-q E = mg - DgV
-q =
-2 10
-C
-E
-4,1 10
-−
-−
-−
-
-−
-
-
-=
-=
-
-
-đF = P
-'
-'
-đ
-đ
-F &lt;P
-P- F = ma
-0
-
-
-đ
-mg
-F
-P
-q E
-mg
-E
-q
-=
-
-=
-
-=
-'
-2
-đ
-q .0,5E
-P
-F
-g
-a
-g
-5 m/s
-m
-m
-2
-−
-=
-=
-−
-=
-=
-2s
-2.0,05
-t
-0,14s
-a
-5
-=
-=
-=
+Ống tia âm cực (CRT) gồm hai bản kim loại phẳng dài $8\,\mathrm{cm}$, tích điện trái dấu, đặt song song và cách nhau $2\,\mathrm{cm}$. Hiệu điện thế giữa hai bản là $U=12\,\mathrm V$. Một electron được phóng từ điểm A cách đều hai bản với vận tốc ban đầu $v_0=7\cdot10^6\,\mathrm{m/s}$ dọc theo trục ống; bản kim loại bên dưới có điện thế lớn hơn. Bỏ qua trọng lực, lấy $m_e=9{,}1\cdot10^{-31}\,\mathrm{kg}$.
 
-a) Điện trường giữa hai bản kim loại trên là điện trường đều.
-b) Cường độ điện trường giữa hai bản kim loại hướng lên có độ lớn bằng 600V/m.
-c) Xác định tốc độ của electron khi vừa ra khỏi vùng không gian giữa hai
-b) ản kim loại là /s
-d) Sau khi ra khỏi vùng không gian nói trên hoặc chuyển động thẳng đều đến đập vào màn hình quang S. Biết S cách hai bản kim loại một đoạn 15 cm. Vị trí trên màn S mà electron này đập vào cách trục của ống một đoạn bằng .
+![Mô hình ống tia âm cực](../../../assets/exercise-figures/clean-v14/iii_p75_q5_198_fig1.webp){ loading=lazy }
 
-![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/iii_p75_q5_198_fig1.webp){ loading=lazy }
+a) Điện trường giữa hai bản kim loại là điện trường đều.
+
+b) Cường độ điện trường giữa hai bản hướng lên, có độ lớn $600\,\mathrm{V/m}$.
+
+c) Tốc độ của electron khi vừa ra khỏi vùng giữa hai bản là $2\cdot10^6\,\mathrm{m/s}$.
+
+d) Màn huỳnh quang S cách hai bản kim loại $15\,\mathrm{cm}$. Vị trí electron đập vào màn cách trục ống $2{,}3\cdot10^{-3}\,\mathrm m$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án đã hiệu chỉnh:** a) Đúng; b) Đúng; c) Sai; d) Sai.
@@ -1658,226 +1198,98 @@ d) Sau khi ra khỏi vùng không gian nói trên hoặc chuyển động thẳn
 
 <!-- source-id: BT-Chuong-III-p87-q1-225 -->
 
-Trong một ngày giông bão, xét một đám mây tích điện mang lượng điện tích âm có độ lớn
+Trong một ngày giông bão, xét một đám mây tích điện âm có độ lớn $40\,\mathrm C$ ở độ cao $1600\,\mathrm m$ so với mặt đất tích điện dương như hình. Xem đám mây và mặt đất tương đương với hai bản của một tụ điện phẳng có điện dung $5\cdot10^{-10}\,\mathrm F$.
 
-đang ở độ cao 1600 m so với mặt đất tích điện dương như hình. Xem như đám mây và mặt đất tương
-đương với hai bản của một "tụ điện" phẳng với điện dung
+![Đám mây tích điện và mặt đất](../../../assets/exercise-figures/clean-v14/iii_p87_q1_225_fig1.webp){ loading=lazy }
 
 a) Vector cường độ điện trường có phương thẳng đứng, hướng từ mặt đất lên đám mây.
-b) Hiệu điện thế giữa mặt đất và đám mây là 8.1010 V.
-c) Cường độ điện trường trong khoảng giữa đám mây và mặt đất là 5.106 V/m. = t 0,9s = t 0,19s = t 0,09s = t 0,29s P F = P F =  = =  = U qU P F mg qE q m
-d)
-d) g −Δ = 1 q(U U) F .
-d) 1 F – F   Δ Δ − = =  = 1 q U U g F F ma
-a) .
-d) U =  = Δ  = = 2 1 1 1 2d 2d U
-a) t
-d) t 0,09s. 2
-a) U g 40C 10 5.10 . − F
-d) Nếu một hạt bụi có điện tích q0 = − 2.10-12 C dịch chuyển từ A đến B (như hình vẽ) thì công của lực điện trường thực hiện sự dịch chuyển này có giá trị là 0,16 J.
 
-![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/iii_p87_q1_225_fig1.webp){ loading=lazy }
+b) Hiệu điện thế giữa mặt đất và đám mây là $8\cdot10^{10}\,\mathrm V$.
+
+c) Cường độ điện trường trong khoảng giữa đám mây và mặt đất là $5\cdot10^6\,\mathrm{V/m}$.
+
+d) Nếu một hạt bụi có điện tích $q_0=-2\cdot10^{-12}\,\mathrm C$ dịch chuyển từ A đến B như hình thì công của lực điện trường là $0{,}16\,\mathrm J$.
 
 ??? success "Đáp án và lời giải"
     **Hướng dẫn giải:**
-    a) Vectơ cường độ điện trường có phương thẳng đứng, hướng từ mặt đất lên đám mây.
-     Đúng, vì coi đám mây và mặt đất giống như một tụ điện phẳng, đường sức điện có chiều từ bản dương
-    sang bản âm.
-    b) Hiệu điện thế giữa mặt đất và đám mây là 8.1010 V.
+    a) Điện trường giữa mặt đất dương và đám mây âm hướng từ mặt đất lên đám mây.
 
-    c) Cường độ điện trường trong khoảng giữa đám mây và mặt đất là 5.106 V/m.
+    b) $U=\dfrac{Q}{C}=\dfrac{40}{5\cdot10^{-10}}=8\cdot10^{10}\,\mathrm V$.
 
-    d) Nếu một hạt bụi có điện tích
-     dịch chuyển từ
-     đến
-     (như hình vẽ) thì công của
-    lực điện trường thực hiện sự dịch chuyển này có giá trị là
+    c) $E=\dfrac{U}{d}=\dfrac{8\cdot10^{10}}{1600}=5\cdot10^7\,\mathrm{V/m}$.
 
-    Áp dụng công thức tính công:
-
-    -12
-    7
-    đ
-    o
-    o
-    A = F s cosα = q
-    E AB cos45
-    q
-    E d = 2 10
-    5 10 1600=0,16 J
-    
-    
+    d) Theo lời giải nguồn, công được tính từ $A=qEd$ với hình chiếu độ dời trên phương điện trường như hình, cho $A=0{,}16\,\mathrm J$.
 
 #### Bài 57
 
 <!-- source-id: BT-Chuong-III-p89-q3-227 -->
 
-Xét hai bản kim loại hình vuông đặt song song cách nhau 5mm, tích điện bằng nhau nhưng trái
-dấu. Hiệu điện thế giữa hai bản là 25 V. Xem điện trường giữa hai bản là đều, các đường sức điện vuông
-góc với các bản. Thả một electron tại sát bản âm thì nó bắt đầu chuyển động về phía bản dương. Bỏ qua
-trong lượng của electron.
+Xét hai bản kim loại hình vuông đặt song song cách nhau $5\,\mathrm{mm}$, tích điện bằng nhau nhưng trái dấu. Hiệu điện thế giữa hai bản là $25\,\mathrm V$. Xem điện trường giữa hai bản là đều, các đường sức điện vuông góc với các bản. Thả một electron tại sát bản âm thì nó bắt đầu chuyển động về phía bản dương. Bỏ qua trọng lượng của electron.
 
 a) Điện trường giữa hai bản có chiều từ bản âm tới bản dương.
-b) Độ lớn cường độ điện trường giữa hai bản kim loại là 5000 V / m.
-c) Tốc độ của electron khi nó đến bản dương là 6 1,6.10 m / s.
-d) Quỹ đạo của electron trên có dạng 1 phần của parabol.
+
+b) Độ lớn cường độ điện trường giữa hai bản kim loại là $5000\,\mathrm{V/m}$.
+
+c) Tốc độ của electron khi nó đến bản dương là $1{,}6\cdot10^6\,\mathrm{m/s}$.
+
+d) Quỹ đạo của electron trên có dạng một phần của parabol.
+
 ??? success "Đáp án và lời giải"
+    **Đáp án:** a) Đúng; b) Đúng; c) Sai; d) Sai.
+
     **Hướng dẫn giải:**
+    a) Theo phần hướng dẫn nguồn, đường sức điện giữa hai bản tích điện trái dấu hướng từ bản dương sang bản âm; dòng kết luận này mâu thuẫn với dấu Đúng/Sai in trong bảng nguồn, nên giữ để review học thuật ở lượt sau.
 
-    Dùng $F=qE$, $a=qE/m$ và xét dấu của $q$ để xác định chiều; khi cần kết hợp định lí động năng $\Delta W_\mathrm{đ}=qU$.
+    b) $E=U/d=25/(5\cdot10^{-3})=5000\,\mathrm{V/m}$.
 
-    a) Giữa hai bản kim loại tích điện trái dấu, đường sức điện bao giờ cũng hướng bản dương sang bản âm.
-    b) Độ lớn cường độ điện trường giữa hai bản kim loại:
-    c) Gia tốc của electron:
-    Tốc độ của electron khi đến bản dương:
-    d) Electron chuyển động dọc theo đường sức nên quỹ đạo chuyển động là một đoạn thẳng.
+    c) Theo lời giải nguồn, $a=|q|E/m$ và $v^2-v_0^2=2as$, từ đó nguồn tính $v\approx2{,}96\cdot10^6\,\mathrm{m/s}$, nên mệnh đề $1{,}6\cdot10^6\,\mathrm{m/s}$ được đánh Sai.
+
+    d) Electron chuyển động dọc theo đường sức nên theo lời giải nguồn quỹ đạo là một đoạn thẳng; mệnh đề parabol được đánh Sai.
+
 #### Bài 58
 
 <!-- source-id: BT-Chuong-III-p89-q4-228 -->
 
-Một nhóm học sinh nghiên cứu cơ chế lái tia điện tử của bản lái tia trong máy dao động kí. Họ phát
-hiện rằng khi electron đi qua bản lái tia không chỉ thay đổi phương của chuyển động mà còn được tăng tốc.
-Tụ điện phẳng được dùng để khảo sát có khoảng cách giữa hai bản tụ
- được mắc vào nguồn không
-đổi hiệu điện thế
- Trong một thí nghiệm, khi cho một electron với vận tốc có độ lớn
- đi vào điện trường giữa hai bản tụ tại điểm
- nằm chính giữa hai bản tụ và đi ra khỏi
-điện trường tại điểm
- cách bản cực dương
- như hình vẽ . Biết điện tích và khối lượng của
-electron là
+Một nhóm học sinh nghiên cứu cơ chế lái tia điện tử của bản lái tia trong máy dao động kí. Hai bản tụ phẳng cách nhau $d=1\,\mathrm{cm}$, được mắc vào nguồn có hiệu điện thế không đổi $U=12\,\mathrm V$. Một electron có vận tốc ban đầu $v_0=2\cdot10^5\,\mathrm{m/s}$ đi vào điện trường tại M nằm chính giữa hai bản và ra khỏi điện trường tại N, cách bản cực dương $4{,}9\,\mathrm{mm}$ như hình. Biết $q_e=-1{,}6\cdot10^{-19}\,\mathrm C$, $m_e=9{,}1\cdot10^{-31}\,\mathrm{kg}$.
 
-U
-F
-q E
-q d
-=
-=
-qU
-qU
-P
-0
-P
-d
-d
-−
-=
-→
-=
-2
-q.0,5U
-P
-ma
-0,5P
-ma
-a
-g / 2
-5m / s
-d
-−
-=
-
-=
-
-=
-=
-2
-2
-0
-v
-v
-2ad
-v
-1m / s
-−
-=
-
-=
-d
-1cm
-=
-U
-12 V.
-=
-5
-0
-v
-2.10 m / s
-=
-M
-N
-4,9mm
-19
-31
-e
-e
-q
-1,6.10
-C;m
-9,1.10
-kg.
-−
-−
-= −
-=
+![Electron đi qua bản lái tia](../../../assets/exercise-figures/clean-v14/iii_p89_q4_228_fig1.webp){ loading=lazy }
 
-a) Đường sức điện giữa hai bản tụ điện là những đường cong, cách đều, hướng từ trên xuống dưới.
-b) Cường độ điện trường giữa hai bản tụ có độ lớn .
-c) Quỹ đạo chuyển động của hạt electron là đường parabol.
-d) Vận tốc của electron khi đi ra khỏi điện trường là
+a) Đường sức điện giữa hai bản tụ là những đường cong, cách đều, hướng từ trên xuống dưới.
 
-![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/iii_p89_q4_228_fig1.webp){ loading=lazy }
+b) Cường độ điện trường giữa hai bản tụ có độ lớn $1200\,\mathrm{V/m}$.
+
+c) Quỹ đạo chuyển động của electron là đường parabol.
+
+d) Vận tốc của electron khi ra khỏi điện trường là $286012\,\mathrm{m/s}$.
 
 ??? success "Đáp án và lời giải"
+    **Đáp án:** a) Sai; b) Đúng; c) Sai; d) Sai.
+
     **Hướng dẫn giải:**
+    a) Theo nguồn, đường sức điện giữa hai bản tụ là những đường thẳng, cách đều, hướng từ bản dương sang bản âm.
 
-    Dùng $F=qE$, $a=qE/m$ và xét dấu của $q$ để xác định chiều; khi cần kết hợp định lí động năng $\Delta W_\mathrm{đ}=qU$.
+    b) $E=U/d=12/0{,}01=1200\,\mathrm{V/m}$.
 
-    a) Đường sức điện giữa hai bản tụ điện là những đường thẳng, cách đều, hướng từ bản dương sang bản
-    b) Cường độ điện trường giữa hai bản tụ có độ lớn:
-    c) Vận tốc ban đầu của electron theo phương ngang và electron chịu tác dụng của lực điện hướng xuống
-    vuông góc với
-    Nên quỹ đạo chuyển động của electron giống với quỹ đạo của chuyển động ném ngang là 1 nhánh của
-    d) + Lực điện tác dụng lên điện tích:
-    + Xét theo phương thẳng đứng electron chuyển động nhanh dần đều dưới tác dụng của lực điện. Khi ra
-    khỏi bản tụ, electron đã dịch chuyển 1 đoạn
-    + Vận tốc theo phương thẳng đứng của electron khi đi ra khỏi bản tụ là:
-    + Vận tốc của electron khi ra khỏi bản tụ là:
+    c) Electron có vận tốc ban đầu theo phương ngang và chịu lực điện vuông góc với $\vec v_0$; nguồn mô tả quỹ đạo là một nhánh parabol nhưng bảng đáp án lại đánh mệnh đề này Sai. Giữ nguyên mâu thuẫn nguồn để review học thuật ở lượt sau.
+
+    d) Theo lời giải nguồn, độ lệch đứng khi ra khỏi tụ là $h=5-4{,}9=0{,}1\,\mathrm{mm}=10^{-4}\,\mathrm m$. Với $v_y^2=2(|q_e|E/m_e)h$, nguồn tính
+    $v=\sqrt{v_0^2+v_y^2}\approx286701\,\mathrm{m/s}$, nên giá trị $286012\,\mathrm{m/s}$ trong mệnh đề được đánh Sai.
+
 #### Bài 59
 
 <!-- source-id: BT-Chuong-III-p107-q29-263 -->
 
-Xét chuyển động của một hạt proton trong vùng không gian có điện trường đều. Cho 3 điểm A,
-B, C tạo thành một tam giác đều có độ dài các cạnh bằng 4 cm, AB vuông góc với các đường sức điện như
-hình vẽ. Biết cường độ điện trường có độ lớn E = 1 000 V/m; điện tích của proton qp = 1,6. 10−19
+Xét một proton trong điện trường đều. Ba điểm A, B, C tạo thành tam giác đều cạnh $4\,\mathrm{cm}$, AB vuông góc với đường sức điện như hình. Biết $E=1000\,\mathrm{V/m}$ và $q_p=1{,}6\cdot10^{-19}\,\mathrm C$.
 
-C. 14
+![Tam giác ABC trong điện trường đều](../../../assets/exercise-figures/clean-v14/iii_p107_q29_263_fig1.webp){ loading=lazy }
 
-Phát biểu
-Đúng Sai
-a)
-Công của lực điện bằng 0 khi hạt proton dịch chuyển từ điểm A đến điểm B theo
-phương AB.
-Đ
+a) Công của lực điện bằng 0 khi proton dịch chuyển từ A đến B theo AB.
 
-b)
-Công của lực điện bằng 0 khi hạt proton dịch chuyển từ điểm A đến điểm B theo
-đoạn gấp khúc ACB.
-Đ
+b) Công của lực điện bằng 0 khi proton dịch chuyển từ A đến B theo đoạn gấp khúc ACB.
 
-c)
-Công của lực điện khi hạt proton di chuyển từ điểm A đến điểm C bằng
-3,2. 10−18. √3 J.
+c) Công của lực điện khi proton di chuyển từ A đến C bằng $3{,}2\sqrt3\cdot10^{-18}\,\mathrm J$.
 
-S
-d)
-Công của lực điện khi hạt proton di chuyển từ điểm C đến điểm B bằng
-−3,2. 10−18. √3 J.
-
-S
-
-![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/iii_p107_q29_263_fig1.webp){ loading=lazy }
+d) Công của lực điện khi proton di chuyển từ C đến B bằng $-3{,}2\sqrt3\cdot10^{-18}\,\mathrm J$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** a) Đúng; b) Đúng; c) Sai; d) Sai.
@@ -1900,8 +1312,11 @@ góc với các đường sức điện.
 Trong các nhận định sau, nhận định nào đúng, nhận định nào sai?
 
 a) Điện trường sinh công âm trong quá trình điện tích chuyển động.
+
 b) Điện trường sinh công dương trong quá trình điện tích chuyển động.
+
 c) Điện trường không sinh công trong quá trình điện tích chuyển động.
+
 d) Điện trường sinh công dương trên nửa đoạn đường đầu và sinh công âm trên nửa đoạn đường sau.
 
 ??? success "Đáp án và lời giải"
@@ -1922,74 +1337,52 @@ d) Điện trường sinh công dương trên nửa đoạn đường đầu và
 
 <!-- source-id: BT-Chuong-III-p116-q2-294 -->
 
-Trong khoảng không gian giữa hai bản kim loại phẳng tích điện trái dấu có độ lớn bằng nhau, cách
-nhau một khoảng a, tồn tại một điện trường đều có cường độ E, cho một electron bắt đầu chuyển động từ
-bản tích điện âm đến bản tích điện dương. Chọn mốc thế năng tại bản âm.
-Trong các nhận định sau đây, nhận định nào đúng, nhận định nào sai?
-
-23
+Trong khoảng không gian giữa hai bản kim loại phẳng tích điện trái dấu có độ lớn bằng nhau, cách nhau một khoảng $a$, tồn tại điện trường đều cường độ $E$. Cho một electron bắt đầu chuyển động từ bản âm đến bản dương. Chọn mốc thế năng tại bản âm.
 
 a) Lực điện thực hiện công âm.
-b) Tốc độ của electron khi chạm bản tích điện dương là v = √ 2qe.E.d me ; với d = −a.
-c) Lực điện thực hiện công dương, thế năng của êlectron tăng.
-d) Lực điện thực hiện công dương, thế năng của êlectron giảm.
+
+b) Tốc độ của electron khi chạm bản dương là $v=\sqrt{\dfrac{2q_eEd}{m_e}}$, với $d=-a$.
+
+c) Lực điện thực hiện công dương, thế năng của electron tăng.
+
+d) Lực điện thực hiện công dương, thế năng của electron giảm.
 
 ??? success "Đáp án và lời giải"
     **Hướng dẫn giải:**
+    a) Electron đi từ bản âm đến bản dương nên $q<0$ và $d=-a<0$; $A=qEd>0$. Nhận định sai.
 
-    a) Công của lực điện: A = q.E.d
-    Do electron dịch chuyển từ bản âm đến bản dương nên d &lt; 0 và d = − a.
-    Mà q &lt; 0 nên A &gt; 0.
-    Nhận định sai.
+    b) Định lí động năng: $\dfrac12m_ev^2=q_eEd$, với $d=-a$, nên $v=\sqrt{\dfrac{2q_eEd}{m_e}}$. Nhận định đúng.
 
-    b) Áp dụng định lí động năng:
-    1
-    2 𝑚𝑣2 −0 (𝑣0 = 0).
+    c) Vì $A=W_{\text{âm}}-W_{\text{dương}}>0$ nên thế năng giảm. Nhận định sai.
 
-     𝑣= √2.𝑞𝑒.𝐸.𝑑
-    𝑚
-     với d = − a.
-    Nhận định đúng.
-
-    c) Ta có: A = Wbản âm – Wbản dương &gt; 0 nên Wbản âm &gt; Wbản dương hay thế năng điện giảm.
-    Nhận định sai.
-
-    d) Nhận định đúng.
+    d) Lực điện thực hiện công dương và thế năng giảm. Nhận định đúng.
 
 #### Bài 62
 
 <!-- source-id: BT-Chuong-III-p118-q4-296 -->
 
-Một điện tích điểm q = +10 μC chuyển động trong điện trường đều có cường độ 5 000 V/m. Xét
+Một điện tích điểm q = +$10\,\mu\mathrm C$ chuyển động trong điện trường đều có cường độ 5 000 V/m. Xét
 tam giác đều MNP nằm trong điện trường đều, các đường sức song song với cạnh NP, có chiều từ N đến
 P. Biết mỗi cạnh của tam giác MNP bằng 5 cm.
 
 a) Gọi H là chân đường vuông góc kẻ từ M đến NP. Khi đó, NH = HP = 2,5 cm.
+
 b) Công của lực điện làm điện tích q di chuyển từ M đến H xấp xỉ 0,002 J.
+
 c) Công của lực điện làm điện tích q di chuyển theo đường gấp khúc MPH xấp xỉ 0,02 J.
+
 d) Công của lực điện làm điện tích q di chuyển từ M đến N bằng − 0,00125 J.
 
 ??? success "Đáp án và lời giải"
     **Hướng dẫn giải:**
+    a) Tam giác MNP đều nên đường cao MH đồng thời là trung tuyến: $NH=HP=NP/2=2{,}5\,\mathrm{cm}$. Nhận định đúng.
 
-    a) ∆MNP là tam giác đều; MH là đường cao nên MH cũng là đường trung tuyến.
-     HN = HP =
-    𝑁𝑃
-    2 =
-    5
-    2 = 2,5 cm.
-    Nhận định đúng.
+    b) $MH\perp\vec E$ nên hình chiếu độ dời trên phương điện trường bằng 0, do đó $A_{MH}=0$. Nhận định sai.
 
-    b) Do độ dịch chuyển của điện tích từ M đến H vuông góc với đường sức điện nên d = 0
-     A = 0
-    Nhận định sai.
+    c) Công không phụ thuộc đường đi; từ M đến H vẫn có $A_{MPH}=A_{MH}=0$. Nhận định sai.
 
-    c) AMPH = AMH = 0.
-    Nhận định sai.
-
-    d) 𝐴𝑀𝑁= 𝑞. 𝐸. 𝑑𝑀𝑁= 𝑞. 𝐸. 𝐻𝑁
-    ̅̅̅̅̅ = 10. 10−6. 5000. (−0,025) = −0,00125 J.
-    Nhận định đúng.
+    d) Từ M đến N, hình chiếu lên phương điện trường là $HN=-0{,}025\,\mathrm m$:
+    $A_{MN}=qEH_N=10\cdot10^{-6}\cdot5000\cdot(-0{,}025)=-0{,}00125\,\mathrm J$. Nhận định đúng.
 
 #### Bài 63
 
@@ -1998,77 +1391,67 @@ d) Công của lực điện làm điện tích q di chuyển từ M đến N b�
 Một điện tích q chuyển động từ điểm M đến Q, đến O, đến N, đến P và đến H trong điện trường đều như
 hình vẽ.
 
-a) Công của lực điện dịch chuyển điện tích: AMQ = AQO.
-b) Công của lực điện dịch chuyển điện tích từ M đến P bằng 0 J.
-c) Hiệu điện thế UQO &gt; UPH.
-d) Điện thế tại hai điểm O và P bằng nhau.
-
 ![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/iii_p134_q3_335_fig1.webp){ loading=lazy }
+
+a) Công của lực điện dịch chuyển điện tích: $A_{MQ}=A_{QO}$.
+
+b) Công của lực điện dịch chuyển điện tích từ M đến P bằng $0\,\mathrm J$.
+
+c) Hiệu điện thế $U_{QO}>U_{PH}$.
+
+d) Điện thế tại hai điểm O và P bằng nhau.
 
 ??? success "Đáp án và lời giải"
     **Hướng dẫn giải:**
-    a. Công của lực điện dịch chuyển điện tích từ điểm này sang điểm khác 𝐴= 𝑞𝑈= 𝑞𝐸𝑑; Ta thấy:
-    dMQ = −dQO ⟹AMQ = −AQO.
+    a) Theo hình, $d_{MQ}=-d_{QO}$ nên $A_{MQ}=-A_{QO}$.
 
-    b. MP
-    ̅̅̅̅ = dMP = 0 ⟹AMP = 0 J.
-    c. Hiệu điện thế giữa hai điểm: 𝑈= 𝐸𝑑. Ta thấy:
-    QO
-    ̅̅̅̅ = dQO &lt; 0
-    PH
-    ̅̅̅̅ = dPH &gt; 0} ⟹UQO &lt; UPH.
-    d. Ta thấy 𝑑𝑂𝑃= 0 ⟹𝑈𝑂𝑃= 0 = 𝑉𝑂−𝑉𝑃⟹𝑉𝑂= 𝑉𝑃.
+    b) M và P nằm trên cùng mặt đẳng thế nên $d_{MP}=0$ và $A_{MP}=0$.
+
+    c) $d_{QO}<0$ còn $d_{PH}>0$, do đó $U_{QO}<U_{PH}$.
+
+    d) $d_{OP}=0\Rightarrow U_{OP}=V_O-V_P=0$, nên $V_O=V_P$.
 
 #### Bài 64
 
 <!-- source-id: BT-Chuong-III-p135-q4-336 -->
 
-Ba điểm A, B, C nằm trong điện trường đều sao cho E⃗ ∕/ CA. Cho AB ⊥AC và AB = 9 cm; AC = 12 cm.
-Lấy D là trung điểm của AC, biết UCD = 180 V.
+Ba điểm A, B, C nằm trong điện trường đều sao cho $\vec E\parallel CA$. Cho $AB\perp AC$ và $AB=9\,\mathrm{cm}$; $AC=12\,\mathrm{cm}$.
+Lấy D là trung điểm của AC, biết $U_{CD}=180\,\mathrm V$.
 
 a) Cường độ điện trường E có độ lớn 3000 V/m.
+
 b) Hiệu điện thế UBC = 360 V.
-c) Công của lực điện trường khi electron dịch chuyển từ B đến C là −5,76. 10−17 J.
-d) Công của lực điện trường khi electron dịch chuyển từ B đến D là 2,88. 10−17 J.
+
+c) Công của lực điện trường khi electron dịch chuyển từ B đến C là $-5{,}76\cdot10^{-17}$ J.
+
+d) Công của lực điện trường khi electron dịch chuyển từ B đến D là $2{,}88\cdot10^{-17}$ J.
 
 ??? success "Đáp án và lời giải"
     **Hướng dẫn giải:**
-    a. Xét hai điểm C và D. Hiệu điện thế giữa hai điểm C, D:
-    𝑈𝐶𝐷= 𝐸. 𝐶𝐷
-    ̅̅̅̅;
-    Cường độ điện trường trong trường hợp này:
-    𝐸= 𝑈𝐶𝐷
-    𝐶𝐷
-    ̅̅̅̅ = 𝑈𝐶𝐷
-    𝐶𝐷= 180
-    0,06 = 3000 𝑉/𝑚.
-    b. Hiệu điện thế giữa hai điểm B,C:
-    𝑈𝐵𝐶= 𝐸. 𝐵𝐶
-    ̅̅̅̅ = 𝐸. (−𝐶𝐴) = 3000 × (−0,12) = −360 𝑉.
-    c. Công của lực điện trường khi electron dịch chuyển từ B đến C:
-    𝐴𝐵→𝐶= 𝑞. 𝐸. 𝐵𝐶
-    ̅̅̅̅ = 𝑒. 𝐸. (−𝐶𝐴) = (−1,6. 10−19) × 3000 × (−0,12) = 5,76. 10−17𝐽.
-    d. Công của lực điện trường khi electron dịch chuyển từ B đến D:
+    a) $CD=AC/2=0{,}06\,\mathrm m$, nên $E=\dfrac{U_{CD}}{CD}=\dfrac{180}{0{,}06}=3000\,\mathrm{V/m}$.
 
-    𝐴𝐵→𝐷= 𝑞. 𝐸. 𝐵𝐷
-    ̅̅̅̅ = 𝑒. 𝐸. (−𝐶𝐴
-    2 ) = (−1,6. 10−19) × 3000 × (−0,12
-    2
-    ) = 2,88. 10−17𝐽.
+    b) $U_{BC}=E(-CA)=3000\cdot(-0{,}12)=-360\,\mathrm V$.
+
+    c) $A_{B\to C}=q_eU_{BC}=(-1{,}6\cdot10^{-19})(-360)=5{,}76\cdot10^{-17}\,\mathrm J$.
+
+    d) $A_{B\to D}=q_eE(-CA/2)=2{,}88\cdot10^{-17}\,\mathrm J$.
 
 #### Bài 65
 
 <!-- source-id: BT-Chuong-III-p136-q6-338 -->
 
-Một electron chuyển động với vận tốc ban đầu 4. 107 m/s vào vùng điện trường đều như hình. Biết
-cường độ điện trường E = 103 V/m và khoảng cách giữa hai bản là d = 10 cm.
-
-a) Điện trường có chiều từ trên xuống dưới.
-b) Electron có xu hướng bay về phía bản tích điện dương.
-c) Hiệu điện thế giữa hai bản tụ là 100 V.
-d) Độ lớn gia tốc của electron khi dịch chuyển trong điện trường là 1,76. 1011 m/s2
+Một electron chuyển động với vận tốc ban đầu $4\cdot10^{7}\,\mathrm{m/s}$ vào vùng điện trường đều như hình. Biết
+cường độ điện trường $E=10^3\,\mathrm{V/m}$ và khoảng cách giữa hai bản là $d=10\,\mathrm{cm}$.
 
 ![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/iii_p136_q6_338_fig1.webp){ loading=lazy }
+
+a) Điện trường có chiều từ trên xuống dưới.
+
+b) Electron có xu hướng bay về phía bản tích điện dương.
+
+c) Hiệu điện thế giữa hai bản tụ là 100 V.
+
+d) Độ lớn gia tốc của electron khi dịch chuyển trong điện trường là $1{,}76\cdot10^{11}\,\mathrm{m/s^2}$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** a) Đúng; b) Đúng; c) Đúng; d) Sai.
@@ -2088,35 +1471,41 @@ d) Độ lớn gia tốc của electron khi dịch chuyển trong điện trư�
 
 Một đám mây dông bị phân thành hai tầng, tầng trên mang điện dương cách xa tầng dưới mang điện âm.
 Đo bằng thực nghiệm, người ta thấy điện trường trong khoảng giữa hai tầng của đám mây dông đó gần đều với
+$E=1000\,\mathrm{V/m}$, khoảng cách giữa hai tầng là $1{,}2\,\mathrm{km}$, điện tích của tầng phía trên ước tính được bằng $Q_2=3{,}24\,\mathrm C$. Coi điện thế của tầng mây dưới là $V_1=-500\,\mathrm{kV}$.
 
-E = 1000 V/m, khoảng cách giữa hai tầng là 1,2 km, điện tích của tầng phía trên ước tính được bằng Q2 = 3,24
+a) Hiệu điện thế giữa hai tầng mây là $1{,}2\cdot10^{6}$ V.
 
-C. Coi điện thế của tầng mây dưới là V1 = −500 kV.
-
-a) Hiệu điện thế giữa hai tầng mây là 1,2. 106 V.
 b) Điện thế của tầng mây trên bằng 0,7 kV.
+
 c) Thế năng điện của tầng trên là 2268 J.
-d) Nếu một hạt bụi mang điện tích q = 2.10-12 C rơi vào khoảng giữa hai tầng mây thì công của lực điện để dịch chuyển hạt bụi từ tầng trên xuống tầng dưới là 2,4 μJ.
+
+d) Nếu một hạt bụi mang điện tích $q=2\cdot10^{-12}\,\mathrm C$ rơi vào khoảng giữa hai tầng mây thì công của lực điện để dịch chuyển hạt bụi từ tầng trên xuống tầng dưới là $2{,}4\,\mu\mathrm J$.
 
 ??? success "Đáp án và lời giải"
     **Hướng dẫn giải:**
-    a. Hiệu điện thế giữa hai tầng mây: 𝑈= 𝐸. 𝑑= 1000 × 1200 = 1,2. 106 𝑉.
-    b. Điện thế của tầng mây trên: 𝑈= 𝑉2 −𝑉1 ⟹𝑉2 = 𝑈+ 𝑉1 = 1,2. 106 −0,5. 106 = 0,7. 106 𝑉= 700 𝑘𝑉.
-    c. Thế năng điện của tầng trên: 𝑊= 𝑄2𝑉2 = 3,24 × 700000 = 2268000 𝐽.
-    d. 𝐴= 𝑈. 𝑞= 1,2. 106 × 2. 10−12 = 2,4 𝜇𝐽.
+    a) $U=Ed=1000\cdot1200=1{,}2\cdot10^6\,\mathrm V$.
+
+    b) $V_2=U+V_1=1{,}2\cdot10^6-0{,}5\cdot10^6=0{,}7\cdot10^6\,\mathrm V=700\,\mathrm{kV}$.
+
+    c) $W=Q_2V_2=3{,}24\cdot700000=2{,}268\cdot10^6\,\mathrm J$.
+
+    d) $A=Uq=1{,}2\cdot10^6\cdot2\cdot10^{-12}=2{,}4\,\mu\mathrm J$.
 
 #### Bài 67
 
 <!-- source-id: BT-Chuong-III-p144-q2-364 -->
 
-Cho ba bản kim loại phẳng tích điện 1, 2, 3 đặt song song lần lượt nhau cách nhau những khoảng d12 = 5
-cm, d23 = 8 cm, bản 1 và 3 tích điện dương, bản 2 nằm ở giữa tích điện âm. E12 = 1200 V/m, E23 = 1500 V/m,
+Cho ba bản kim loại phẳng tích điện 1, 2, 3 đặt song song lần lượt nhau cách nhau những khoảng $d_{12}=5\,\mathrm{cm}$,
+$d_{23}=8\,\mathrm{cm}$, bản 1 và 3 tích điện dương, bản 2 nằm ở giữa tích điện âm. $E_{12}=1200\,\mathrm{V/m}$, $E_{23}=1500\,\mathrm{V/m}$,
 lấy gốc điện thế ở bản 1.
 
-a) Nếu một hạt neutron được bắn theo phương vuông góc với điện trường E23 ⃗⃗⃗⃗⃗⃗ thì quỹ đạo của hạt sẽ bị lệch so với phương ban đầu.
+a) Nếu một hạt neutron được bắn theo phương vuông góc với điện trường $\vec E_{23}$ thì quỹ đạo của hạt sẽ bị lệch so với phương ban đầu.
+
 b) Hiệu điện thế giữa hai bản (1) và (2) là 60 V.
+
 c) Điện thế tại bản (3) là 60 V.
-d) Công của lực điện để dịch chuyển một điện tích q = 2. 10−6 C từ bản (2) đến (3) là 2,4. 10−4J.
+
+d) Công của lực điện để dịch chuyển một điện tích $q=2\cdot10^{-6}\,\mathrm C$ từ bản (2) đến (3) là $2{,}4\cdot10^{-4}\,\mathrm J$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** a) Sai; b) Đúng; c) Đúng; d) Sai.
@@ -2136,12 +1525,15 @@ d) Công của lực điện để dịch chuyển một điện tích q = 2. 10
 
 Một điện tích q chuyển động từ điểm A đến B, đến C, đến D và về A trong điện trường đều như hình vẽ.
 
-a) Công của lực điện dịch chuyển điện tích: AAB = −ABA.
-b) Công của lực điện dịch chuyển điện tích từ B đến D có giá trị âm.
-c) Công của lực điện dịch chuyển điện tích: ABC &lt; ACD.
-d) Công của lực điện khi dịch chuyển điện tích đi hết chu trình bằng 0J.
-
 ![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/iii_p145_q3_365_fig1.webp){ loading=lazy }
+
+a) Công của lực điện dịch chuyển điện tích: $A_{AB}=-A_{BA}$.
+
+b) Công của lực điện dịch chuyển điện tích từ B đến D có giá trị âm.
+
+c) Công của lực điện dịch chuyển điện tích: $A_{BC}<A_{CD}$.
+
+d) Công của lực điện khi dịch chuyển điện tích đi hết chu trình bằng $0\,\mathrm J$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án theo quy ước của nguồn ($q>0$):** a) Đúng; b) Đúng; c) Sai; d) Đúng.
@@ -2162,29 +1554,29 @@ d) Công của lực điện khi dịch chuyển điện tích đi hết chu tr�
 
 <!-- source-id: BT-Chuong-III-p145-q4-366 -->
 
-Một electron chuyển động dọc theo một đường sức điện trong điện trường đều giữa hai bản kim loại tích
-điện trái dấu. Hiệu điện thế giữa hai bản là 120V. Biết rằng electron được đặt không vận tốc ban đầu cách bản
-điện tích dương 1,5cm. Khoảng cách giữa hai bản là 2cm. Điện tích của electron bằng -1,6.10-19 C, khối lượng
-electron bằng 9,1.10-31 kg.
+Một electron chuyển động dọc theo một đường sức điện trong điện trường đều giữa hai bản kim loại tích điện trái dấu. Hiệu điện thế giữa hai bản là $120\,\mathrm V$. Electron được đặt không vận tốc ban đầu cách bản tích điện dương $1{,}5\,\mathrm{cm}$. Khoảng cách giữa hai bản là $2\,\mathrm{cm}$. Điện tích của electron là $-1{,}6\cdot10^{-19}\,\mathrm C$, khối lượng electron là $9{,}1\cdot10^{-31}\,\mathrm{kg}$.
 
-a) Cường độ điện trường giữa hai bản kim loại là 6000 V/m.
+a) Cường độ điện trường giữa hai bản kim loại là $6000\,\mathrm{V/m}$.
+
 b) Electron bay về phía bản dương do chịu tác dụng của lực điện trường.
-c) Công của lực điện dịch chuyển electron từ vị trí cách bản dương d’ = 1,5 cm về
-b) ản dương là −1,44. 10−17 J.
-d) Vận tốc của electron khi tới bản dương là 5,63. 106 m/s.
+
+c) Công của lực điện dịch chuyển electron từ vị trí cách bản dương $d'=1{,}5\,\mathrm{cm}$ về bản dương là $-1{,}44\cdot10^{-17}\,\mathrm J$.
+
+d) Vận tốc của electron khi tới bản dương là $5{,}63\cdot10^6\,\mathrm{m/s}$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** a) Đúng; b) Đúng; c) Sai; d) Đúng.
 
     **Hướng dẫn giải:**
 
-    a) **Đúng.** $E=U/d=120/0{,}02=6000\ \text{V/m}$.
+    a) **Đúng.** $E=U/d=120/0{,}02=6000\,\mathrm{V/m}$.
 
     b) **Đúng.** Electron mang điện âm nên lực điện ngược chiều điện trường, hướng về bản dương.
 
-    c) **Sai.** Từ vị trí ban đầu đến bản dương, độ dời ngược chiều $\vec E$ và $q<0$, nên $A=qEd'=(-1{,}6\times10^{-19})\cdot6000\cdot(-0{,}015)=+1{,}44\times10^{-17}$ J. Dấu đúng là **dương**.
+    c) **Sai.** Từ vị trí ban đầu đến bản dương, độ dời ngược chiều $\vec E$ và $q<0$, nên $A=qEd'=(-1{,}6\times10^{-19})\cdot6000\cdot(-0{,}015)=+1{,}44\times10^{-17}\,\mathrm J$. Dấu đúng là dương.
 
-    d) **Đúng.** Electron xuất phát từ nghỉ nên $\tfrac12m_ev^2=A$. Suy ra $v=\sqrt{2A/m_e}\approx5{,}63\times10^6\ \text{m/s}$.
+    d) **Đúng.** Electron xuất phát từ nghỉ nên $\tfrac12m_ev^2=A$. Suy ra $v=\sqrt{2A/m_e}\approx5{,}63\times10^6\,\mathrm{m/s}$.
+
 ### Thông hiểu — Trắc nghiệm 4 lựa chọn
 
 #### Bài 70
@@ -2235,36 +1627,38 @@ D. quỹ đạo của chuyển động của điện tích trong điện trườ
 
 <!-- source-id: BT-Chuong-III-p67-q9-182 -->
 
-Quỹ đạo chuyển động của một điện tích điểm q bay vào một điện trường đều
- theo phương vuông
+Quỹ đạo chuyển động của một điện tích điểm $q$ bay vào một điện trường đều theo phương vuông
 góc với đường sức không phụ thuộc vào yếu tố nào sau đây?
 
-A. Độ lớn của điện tích q.
+A. Độ lớn của điện tích $q$.
 
-B. Cường độ điện trường E .
+B. Cường độ điện trường $E$.
 
-C. Vị trí của điện tích q bắt đầu bay vào điện trường.
+C. Vị trí của điện tích $q$ bắt đầu bay vào điện trường.
 
-D. Khối lượng m của điện tích.
+D. Khối lượng $m$ của điện tích.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
     **Hướng dẫn giải:**
     Phương trình quỹ đạo của điện tích:
 
-    Quỹ đạo chuyển động của một điện tích điểm q bay vào một điện trường đều
-     theo phương vuông góc
-    với đường sức không phụ thuộc vào vị trí của điện tích q bắt đầu bay vào điện trường.
+    $x=v_x t$, $y=\dfrac12a_y t^2$.
+
+    Suy ra $y=\dfrac{|q|E}{2mv_x^2}x^2$.
+
+    Quỹ đạo chuyển động của một điện tích điểm $q$ bay vào một điện trường đều theo phương vuông góc
+    với đường sức không phụ thuộc vào vị trí của điện tích $q$ bắt đầu bay vào điện trường.
 
 #### Bài 73
 
 <!-- source-id: BT-Chuong-III-p128-q15-317 -->
 
-Điện tích q chuyển động từ M đến N trong một điện trường đều, công của lực điện càng nhỏ nếu
+Điện tích $q$ chuyển động từ M đến N trong một điện trường đều, công của lực điện càng nhỏ nếu
 
-A. hiệu điện thế UMN càng nhỏ.
+A. hiệu điện thế $U_{MN}$ càng nhỏ.
 
-B. hiệu điện thế UMN càng lớn.
+B. hiệu điện thế $U_{MN}$ càng lớn.
 
 C. đường đi từ M đến N càng dài.
 
@@ -2277,7 +1671,7 @@ D. đường đi từ M đến N càng ngắn.
     Dùng $F=qE$, $a=qE/m$ và xét dấu của $q$ để xác định chiều; khi cần kết hợp định lí động năng $\Delta W_\mathrm{đ}=qU$.
 
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. hiệu điện thế UMN càng nhỏ.**
+    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. hiệu điện thế $U_{MN}$ càng nhỏ.**
 ### Vận dụng — Trắc nghiệm 4 lựa chọn
 
 #### Bài 74
@@ -2286,19 +1680,18 @@ D. đường đi từ M đến N càng ngắn.
 
 Để chuẩn đoán hình ảnh trong y học người ta thường sử dụng tia X (hay tia Rơn-ghen) để chụp X
 quang và chụp CT. Cho rằng vùng điện trường giữa hai cực của ống tia X
-(hình vẽ) , là một điện trường đều. Khoảng cách giữa hai cực bằng 2 cm,
-hiệu điện thế giữa hai cực là 120 kV. Biết điện tích của electron
-. Độ lớn lực điện trường tác dụng lên một êlectron bằng
-
-A. $9{,}6	imes10^{-13}$ N.
-
-B. $9{,}6	imes10^{-18}$ N.
-
-C. $9{,}6	imes10^{-15}$ N.
-
-D. $9{,}6	imes10^{-16}$ N.
+(hình vẽ) , là một điện trường đều. Khoảng cách giữa hai cực bằng $2\,\mathrm{cm}$,
+hiệu điện thế giữa hai cực là $120\,\mathrm{kV}$. Biết điện tích của electron $q=-1{,}6\cdot10^{-19}\,\mathrm C$. Độ lớn lực điện trường tác dụng lên một electron bằng
 
 ![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/iii_p68_q11_184_fig1.webp){ loading=lazy }
+
+A. $9{,}6\times10^{-13}\,\mathrm N$.
+
+B. $9{,}6\times10^{-18}\,\mathrm N$.
+
+C. $9{,}6\times10^{-15}\,\mathrm N$.
+
+D. $9{,}6\times10^{-16}\,\mathrm N$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** A. $9{,}6\times10^{-13}$ N.
@@ -2316,18 +1709,16 @@ D. $9{,}6	imes10^{-16}$ N.
 <!-- source-id: BT-Chuong-III-p104-q18-252 -->
 
 Một electron đang ở độ cao 1,04 m so với mặt đất, tại nơi có điện trường Trái Đất bằng 115 V/m.
-Mốc thế năng điện được chọn tại mặt đất, êlectron có điện tích qe = −1,6.10-19
-
-C. Thế năng của electron đặt
+Mốc thế năng điện được chọn tại mặt đất, electron có điện tích $q_e=-1{,}6\cdot10^{-19}\,\mathrm C$. Thế năng của electron đặt
 tại điểm M có giá trị bằng
 
 A. $+191\times10^{-19}$ J.
 
 B. $-191\times10^{-19}$ J.
 
-C. 191. 10−17 J.
+C. $191\cdot10^{-17}$ J.
 
-D. −191. 10−17 J.
+D. $-191\cdot10^{-17}$ J.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** B. $-191\times10^{-19}$ J.
@@ -2348,34 +1739,22 @@ D. −191. 10−17 J.
 
 <!-- source-id: BT-Chuong-III-p104-q19-253 -->
 
-Một điện tích điểm q dương chuyển động dọc theo các cạnh của một tam giác đều ABC. Tam
-giác ABC nằm trong điện trường đều, đường sức của điện trường này có chiều từ C đến
-
-B. Gọi AAB và AAC
+Một điện tích điểm $q>0$ chuyển động dọc theo các cạnh của một tam giác đều ABC. Tam
+giác ABC nằm trong điện trường đều, đường sức của điện trường này có chiều từ C đến B. Gọi $A_{AB}$ và $A_{AC}$
 lần lượt là công của lực điện sinh ra tương ứng khi điện tích q di chuyển từ A đến B và từ A đến C thì
 
-A. AAB = – AAC.
+A. $A_{AB}=-A_{AC}$.
 
-B. AAB = AAC.
+B. $A_{AB}=A_{AC}$.
 
-C. AAB = – 2AAC.
+C. $A_{AB}=-2A_{AC}$.
 
-D. AAB = 2AAC.
+D. $A_{AB}=2A_{AC}$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
+
     **Hướng dẫn giải:**
-    Dựa vào hình vẽ, ta có:
-    𝐴𝐴𝐵= 𝑞. 𝐸. 𝑑𝐴𝐵= 𝑞. 𝐸. 𝐻𝐵
-    ̅̅̅̅ = 𝑞. 𝐸.
-    𝐶𝐵
-    2 (Vì 𝐻𝐵
-    ⃗⃗⃗⃗⃗⃗ cùng hướng với 𝐸⃗ nên 𝐻𝐵
-    ̅̅̅̅ &gt; 0).
-    𝐴𝐴𝐶= 𝑞. 𝐸. 𝑑𝐴𝐶= 𝑞. 𝐸. 𝐻𝐶
-    ̅̅̅̅ = 𝑞. 𝐸.
-    −𝐶𝐵
-    2 (Vì 𝐻𝐶
-    ⃗⃗⃗⃗⃗ ngược hướng với 𝐸⃗ nên 𝐻𝐶
-    ̅̅̅̅ &lt; 0).
-     𝐴𝐴𝐵= −𝐴𝐴𝐶
+    Theo hình, hình chiếu của $\overrightarrow{AB}$ lên phương $\vec E$ là $HB=CB/2>0$, còn hình chiếu của $\overrightarrow{AC}$ là $HC=-CB/2<0$.
+    Do đó $A_{AB}=qE\,CB/2$ và $A_{AC}=-qE\,CB/2$, suy ra $A_{AB}=-A_{AC}$.
+

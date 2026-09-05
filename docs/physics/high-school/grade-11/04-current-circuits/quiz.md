@@ -25,7 +25,13 @@ D. không liên quan.
 ### Câu 2
 Hai điện trở song song có:
 
-A. cùng I; B. cùng U; C. cùng R; D. cùng P.
+A. cùng I;
+
+B. cùng U;
+
+C. cùng R;
+
+D. cùng P.
 
 ### Câu 3
 Nguồn phát điện có:
@@ -38,12 +44,24 @@ D. $I=0$ bắt buộc.
 ### Câu 4
 Tải R nhận công suất cực đại từ nguồn E,r khi:
 
-A. R=0; B. R=r; C. R→∞; D. R=E/r.
+A. R=0;
+
+B. R=r;
+
+C. R→∞;
+
+D. R=E/r.
 
 ### Câu 5
 Vôn kế lí tưởng có điện trở:
 
-A. 0; B. r; C. vô hạn; D. bằng tải.
+A. 0;
+
+B. r;
+
+C. vô hạn;
+
+D. bằng tải.
 
 ### Câu 6
 Ở trạng thái xác lập DC, tụ lí tưởng:

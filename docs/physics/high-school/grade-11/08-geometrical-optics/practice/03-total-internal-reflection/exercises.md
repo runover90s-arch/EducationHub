@@ -20,8 +20,11 @@ tags:
 Phản xạ toàn phần có thể xảy ra khi ánh sáng truyền
 
 A. từ môi trường chiết suất nhỏ sang lớn.
+
 B. từ môi trường chiết suất lớn sang nhỏ và góc tới đủ lớn.
+
 C. trong chân không duy nhất.
+
 D. ở mọi góc tới.
 
 ??? success "Đáp án và lời giải"
@@ -32,8 +35,11 @@ D. ở mọi góc tới.
 Góc giới hạn ic thỏa
 
 A. $\sin i_c=n_2/n_1$ khi $n_1>n_2$.
+
 B. $\sin i_c=n_1/n_2$.
+
 C. $\cos i_c=n_2/n_1$ luôn.
+
 D. $i_c=90^\circ$ mọi môi trường.
 
 ??? success "Đáp án và lời giải"
@@ -44,8 +50,11 @@ D. $i_c=90^\circ$ mọi môi trường.
 Thủy tinh n=1,5 ra không khí. Góc giới hạn gần bằng
 
 A. $30^\circ$.
+
 B. $41,8^\circ$.
+
 C. $60^\circ$.
+
 D. $90^\circ$.
 
 ??? success "Đáp án và lời giải"
@@ -58,8 +67,11 @@ D. $90^\circ$.
 Phản xạ toàn phần:
 
 a) Không có tia khúc xạ truyền năng lượng sang môi trường hai theo mô hình tia đơn giản.
+
 b) Cần $n_1>n_2$.
+
 c) Cần $i>i_c$.
+
 d) Sợi quang khai thác phản xạ toàn phần.
 
 ??? success "Đáp án và lời giải"

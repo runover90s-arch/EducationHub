@@ -20,8 +20,11 @@ tags:
 Ba nguồn giống nhau, mỗi nguồn có suất điện động E và điện trở trong r, ghép nối tiếp cùng chiều. Bộ nguồn có
 
 A. $\mathcal E_b=E$, $r_b=3r$.
+
 B. $\mathcal E_b=3E$, $r_b=3r$.
+
 C. $\mathcal E_b=3E$, $r_b=r/3$.
+
 D. $\mathcal E_b=E/3$, $r_b=r/3$.
 
 ??? success "Đáp án và lời giải"
@@ -32,8 +35,11 @@ D. $\mathcal E_b=E/3$, $r_b=r/3$.
 Ba nguồn giống nhau ghép song song đúng cực. Bộ nguồn có
 
 A. $\mathcal E_b=E$, $r_b=r/3$.
+
 B. $\mathcal E_b=3E$, $r_b=r/3$.
+
 C. $\mathcal E_b=E/3$, $r_b=3r$.
+
 D. $\mathcal E_b=3E$, $r_b=3r$.
 
 ??? success "Đáp án và lời giải"
@@ -44,8 +50,11 @@ D. $\mathcal E_b=3E$, $r_b=3r$.
 Ghép nối tiếp nguồn giống nhau phù hợp khi cần
 
 A. tăng suất điện động bộ.
+
 B. giữ suất điện động bằng một nguồn và giảm điện trở trong.
+
 C. làm suất điện động bằng 0 trong mọi trường hợp.
+
 D. chỉ để trang trí mạch.
 
 ??? success "Đáp án và lời giải"
@@ -56,8 +65,11 @@ D. chỉ để trang trí mạch.
 Ghép song song các nguồn giống nhau đúng cực thường nhằm
 
 A. tăng suất điện động lên n lần.
+
 B. giảm điện trở trong tương đương.
+
 C. đảo cực mọi nguồn.
+
 D. làm r tăng n lần.
 
 ??? success "Đáp án và lời giải"
@@ -70,8 +82,11 @@ D. làm r tăng n lần.
 Với n nguồn giống nhau:
 
 a) Nối tiếp: $\mathcal E_b=n\mathcal E$, $r_b=nr$.
+
 b) Song song: $\mathcal E_b=\mathcal E$, $r_b=r/n$.
+
 c) Ghép song song tùy ý các nguồn có suất điện động rất khác nhau luôn an toàn.
+
 d) Khi thiết kế bộ hỗn hợp đối xứng cần xét cả suất điện động và điện trở trong.
 
 ??? success "Đáp án và lời giải"
@@ -85,8 +100,11 @@ d) Khi thiết kế bộ hỗn hợp đối xứng cần xét cả suất điệ
 Bộ gồm m nhánh song song, mỗi nhánh có n nguồn giống nhau mắc nối tiếp:
 
 a) Tổng số nguồn N=mn.
+
 b) Suất điện động mỗi nhánh là $n\mathcal E$.
+
 c) Điện trở trong bộ là $nr/m$.
+
 d) Suất điện động bộ là $m\mathcal E$.
 
 ??? success "Đáp án và lời giải"
@@ -144,67 +162,45 @@ Có 12 nguồn giống nhau, mỗi nguồn $\mathcal E=1,5$ V, $r=0,5\,\Omega$. 
 
 ## Ngân hàng bài tập mở rộng
 
-> Các bài dưới đây được đánh số nối tiếp phần bài tập phía trên. Đề bài được trình bày bằng Markdown; chỉ đồ thị, hình vẽ hoặc sơ đồ thực sự cần thiết mới được giữ dưới dạng hình. Đáp án và lời giải được đặt trong nút mở rộng ngay dưới từng bài.
-
 ### Nhận biết — Trả lời ngắn
 
 #### Bài 11
 
 <!-- source-id: BT-Chuong-IV-p74-q3-231 -->
 
-Nếu ghép 3 pin giống nhau nối tiếp thu được bộ nguồn 7,5 V và 3 Ω thì khi mắc 3 pin đó song song thu
-được bộ nguồn có suất điện động là bao nhiêu?
+Nếu ghép 3 pin giống nhau nối tiếp thu được bộ nguồn $7{,}5\,\mathrm V$ và $3\,\Omega$ thì khi mắc 3 pin đó song song, bộ nguồn có suất điện động bằng bao nhiêu?
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** $7{,}5$
+    **Đáp án:** $2{,}5\,\mathrm V$.
 
     **Hướng dẫn giải:**
-    Do 3 pin giống nhau được ghép song song. Nên giá trị suất điện động của bộ nguồn chính bằng giá trị của từng
-    pin. Tức là 𝜉𝑏= 𝜉= 7,5 𝑉.
+    Khi ba pin giống nhau nối tiếp, $\xi_b=3\xi=7{,}5\,\mathrm V$, nên $\xi=2{,}5\,\mathrm V$.
 
+    Khi ghép ba pin giống nhau song song, suất điện động của bộ bằng suất điện động của mỗi pin:
+    $\xi'_b=\xi=2{,}5\,\mathrm V$.
+
+    !!! warning "Đối chiếu nguồn"
+        PDF ghi đáp án $7{,}5\,\mathrm V$ và đồng thời nêu quy tắc “ghép song song thì suất điện động của bộ bằng suất điện động của từng pin”. Hai phần này mâu thuẫn với dữ kiện ban đầu $3\xi=7{,}5\,\mathrm V$. Kết quả độc lập đúng là **$2{,}5\,\mathrm V$**.
 #### Bài 12
 
 <!-- source-id: BT-Chuong-IV-p87-q6-262 -->
 
-Trong việc thiết kế mạch điện, để có được các suất điện động thích hợp. Xét bốn pin giống nhau mắc
-nối tiếp thành một bộ nguồn, rồi mắc hai đầu một biến trở vào hai đầu bộ nguồn thành một mạch kín. Đồ thị
-biểu diễn sự phụ thuộc của điện áp hai đầu bộ nguồn U và cường độ dòng điện I trong mạch như hình. Tìm điện
-trở trong của mỗi pin.
+Trong việc thiết kế mạch điện, để có được các suất điện động thích hợp, xét bốn pin giống nhau mắc nối tiếp thành một bộ nguồn rồi mắc một biến trở vào hai đầu bộ nguồn thành mạch kín. Đồ thị biểu diễn sự phụ thuộc của điện áp hai đầu bộ nguồn $U$ vào cường độ dòng điện $I$ như hình. Tìm điện trở trong của mỗi pin.
 
 ![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/iv_p87_q6_262_fig1.webp){ loading=lazy }
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** 1
+    **Đáp án:** $1\,\Omega$.
 
     **Hướng dẫn giải:**
-    Do các bộ nguồn được ghép nối tiếp nên ta thu được:
-    𝜉𝑏= 𝐼(𝑅+ 𝑟𝑏) = 𝑈+ 𝐼𝑟𝑏
-    ⟹𝑈= 𝜉𝑏−𝐼𝑟𝑏 ;
-    Từ đồ thị ta thấy được hai điểm (I, U) có tọa độ: (0;10) và (2,5;0). Ta thu được hệ phương trình:
-    {10 = 𝜉𝑏−0𝑟𝑏
-    0 = 𝜉𝑏−2,5𝑟𝑏;
-    Giải hệ phương trình, ta thu được: {𝜉𝑏= 10 𝑉
-    𝑟𝑏= 4 𝛺.
-    𝑟𝑏
-    4 = 1 𝛺.
+    Với bộ bốn pin nối tiếp:
+    $U=\xi_b-Ir_b$.
 
-    Chủ đề 24: NĂNG LƯỢNG VÀ CÔNG SUẤT ĐIỆN
+    Từ đồ thị, đường thẳng đi qua $(I,U)=(0,10)$ và $(2{,}5,0)$, nên $\xi_b=10\,\mathrm V$ và
+    $r_b=\dfrac{10-0}{2{,}5-0}=4\,\Omega$.
 
-    • Yêu cầu cần đạt (Trích từ CTGDPT Vật lí 2018):
-    – Nêu được năng lượng điện tiêu thụ của đoạn mạch được đo bằng công của lực điện thực hiện khi
-    dịch chuyển các điện tích; công suất tiêu thụ năng lượng điện của một đoạn mạch là năng lượng
-    điện mà đoạn mạch tiêu thụ trong một đơn vị thời gian.
-    – Tính được năng lượng điện và công suất tiêu thụ năng lượng điện của đoạn mạch.
-    • Cấu trúc nội dung:
-    I. TÓM TẮT LÝ THUYẾT …………………………………………………………………
-    Lý thuyết chung của chủ đề + Phương pháp giải kèm ví dụ.
-    II. BÀI TẬP PHÂN DẠNG THEO MỨC ĐỘ………………………………………………..
-     (Theo cấu trúc định dạng đề thi kỳ thi tốt nghiệp trung học phổ thông từ năm 2025 – Quyết định số
-    764/QĐ - BGDĐT)
-    1. Câu trắc nhiệm nhiều phương án lựa chọn
-    2. Câu trắc nghiệm đúng sai:
-    3. Câu trắc nghiệm trả lời ngắn :
-
+    Bốn pin giống nhau mắc nối tiếp nên $r_b=4r$. Do đó
+    $r=\dfrac{r_b}{4}=1\,\Omega$.
 ### Nhận biết — Trắc nghiệm 4 lựa chọn
 
 #### Bài 13
@@ -258,7 +254,7 @@ D. bằng 2,5I.
 
 <!-- source-id: BT-Chuong-IV-p79-q11-245 -->
 
-Muốn ghép 3 pin giống nhau mỗi pin có suất điện động 3 V thành bộ nguồn 9 V thì
+Muốn ghép 3 pin giống nhau, mỗi pin có suất điện động $3\,\mathrm V$, thành bộ nguồn $9\,\mathrm V$ thì
 
 A. phải ghép 2 pin song song và nối tiếp với pin còn lại.
 
@@ -270,9 +266,9 @@ D. không ghép được.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
-    **Hướng dẫn giải:**
-    Với các nguồn giống nhau khi mắc nối tiếp thì suất điện động của bộ nguồn: 𝜉𝑏= 𝑛𝜉= 3 × 3 = 9 𝑉.
 
+    **Hướng dẫn giải:**
+    Với ba nguồn giống nhau mắc nối tiếp, $\xi_b=3\xi=3\cdot3=9\,\mathrm V$. Vì vậy chọn **C**.
 #### Bài 16
 
 <!-- source-id: BT-Chuong-IV-p80-q14-248 -->
@@ -327,51 +323,52 @@ D. ξ = 12,5 V, r = 1,2 Ω.
 
 <!-- source-id: BT-Chuong-IV-p81-q17-251 -->
 
-Ghép song song một bộ 2024 pin giống nhau loại (ξ = 9V; r = 1Ω) thì thu được một bộ nguồn có suất
-điện động là
+Ghép song song một bộ 2024 pin giống nhau loại $(\xi=9\,\mathrm V;\ r=1\,\Omega)$ thì thu được một bộ nguồn có suất điện động là
 
-A. 18216 V.
+A. $18216\,\mathrm V$.
 
-B. 9 V.
+B. $9\,\mathrm V$.
 
-C. 2024 V.
+C. $2024\,\mathrm V$.
 
-D. 18 V.
+D. $18\,\mathrm V$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** B
-    **Hướng dẫn giải:**
-    Khi ghép song song các nguồn giống nhau, 𝜉𝑏= 𝜉= 9 𝑉.
 
+    **Hướng dẫn giải:**
+    Khi ghép song song các nguồn giống nhau, suất điện động của bộ bằng suất điện động của mỗi nguồn: $\xi_b=\xi=9\,\mathrm V$. Chọn **B**.
 ### Nhận biết — Đúng/Sai
 
 #### Bài 19
 
 <!-- source-id: BT-Chuong-IV-p72-q5-227 -->
 
-Cho mạch điện như hình vẽ. Biết ξ1 = 48 V, ξ2 = 36 V, r1 = 0,4 Ω , r2 = 0,2 Ω; R1 = 4 Ω ; R2 = 6 Ω . Bỏ
-qua điện trở của dây dẫn.
-
-a) Nguồn ξ1 mắc nối tiếp với nguồn ξ2.
-b) Suất điện động của bộ nguồn là 12 V.
-c) Hiệu điện thế đặt vào hai đầu nguồn điện luôn bằng suất điện động của bộ nguồn khi có dòng điện chạy qua nguồn.
-d) Cường độ dòng điện chạy trong mạch có giá trị là 4
-A.
+Cho mạch điện như hình vẽ. Biết $\xi_1=48\,\mathrm V$, $\xi_2=36\,\mathrm V$, $r_1=0{,}4\,\Omega$, $r_2=0{,}2\,\Omega$, $R_1=4\,\Omega$, $R_2=6\,\Omega$. Bỏ qua điện trở của dây dẫn.
 
 ![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/iv_p72_q5_227_fig1.webp){ loading=lazy }
+
+a) Nguồn $\xi_1$ mắc nối tiếp với nguồn $\xi_2$.
+
+b) Suất điện động của bộ nguồn là $12\,\mathrm V$.
+
+c) Hiệu điện thế đặt vào hai đầu nguồn điện luôn bằng suất điện động của bộ nguồn khi có dòng điện chạy qua nguồn.
+
+d) Cường độ dòng điện chạy trong mạch có giá trị là $4\,\mathrm A$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** a) Sai; b) Đúng; c) Sai; d) Đúng.
 
     **Hướng dẫn giải:**
 
-    a) **Sai.** Quan sát cực tính cho thấy hai bộ nguồn mắc đối nhau, không cùng chiều.
+    a) **Sai.** Quan sát cực tính cho thấy hai nguồn mắc xung đối.
 
-    b) **Đúng.** Suất điện động tương đương là hiệu hai bộ: $\xi_b=48-36=12$ V.
+    b) **Đúng.** Suất điện động tương đương là $\xi_b=\xi_1-\xi_2=48-36=12\,\mathrm V$.
 
-    c) **Sai.** Khi mạch có dòng điện, hiệu điện thế mạch ngoài nói chung không bằng suất điện động vì còn sụt áp trên điện trở trong: $U=\xi-Ir$.
+    c) **Sai.** Khi mạch có dòng điện, hiệu điện thế hai đầu nguồn nói chung không bằng suất điện động vì còn sụt áp trên điện trở trong.
 
-    d) **Đúng.** Điện trở ngoài $R=4\parallel6=2{,}4\ \Omega$; tổng điện trở trong của hai bộ là $0{,}4+0{,}2=0{,}6\ \Omega$. Vì vậy $I=12/(2{,}4+0{,}6)=4$ A.
+    d) **Đúng.** Điện trở mạch ngoài là $R=R_1\parallel R_2=2{,}4\,\Omega$. Do đó
+    $I=\frac{\xi_b}{R+r_1+r_2} =\frac{12}{2{,}4+0{,}4+0{,}2} =4\,\mathrm A.$
 #### Bài 20
 
 <!-- source-id: BT-Chuong-IV-p82-q2-254 -->
@@ -380,8 +377,11 @@ Người ta mắc một bộ 5 pin giống nhau song song thì thu được mộ
 điện trở trong 0,4Ω. Mạch ngoài gồm 1 bóng đèn có điện trở R = 2 Ω.
 
 a) Mỗi pin có suất điện động là 12 V.
+
 b) Điện trở trong của mỗi pin là 0,4Ω.
+
 c) Hiệu điện thế đặt vào hai đầu bóng đèn là 10V.
+
 d) Nếu ta mắc 5 pin nối tiếp nhau, cường độ dòng điện trong mạch khi này là 5A.
 
 ??? success "Đáp án và lời giải"
@@ -404,41 +404,30 @@ d) Nếu ta mắc 5 pin nối tiếp nhau, cường độ dòng điện trong m�
 
 <!-- source-id: BT-Chuong-IV-p67-q30-221 -->
 
-Mạch điện gồm 4 nguồn nối tiếp , mỗi nguồn có ξ0 = 3 V ; r0 = 1 Ω . Mạch ngoài
-R1 và R2 = 10 Ω . Khi K mở, Ampere kế chỉ 0,6
+Mạch điện gồm 4 nguồn nối tiếp, mỗi nguồn có $\xi_0=3\,\mathrm V$, $r_0=1\,\Omega$. Mạch ngoài gồm $R_1$ và $R_2=10\,\Omega$. Khi $K$ mở, ampe kế chỉ $0{,}6\,\mathrm A$. Khi $K$ đóng, số chỉ ampe kế bằng
 
-A. Khi K đóng, số chỉ Ampere kế bằng
+![Sơ đồ mạch điện của bài](../../../assets/exercise-figures/clean-v14/iv_p67_q30_221_fig1.webp){ loading=lazy }
 
-A. 1,5
+A. $1{,}5\,\mathrm A$.
 
-A. B. 0,5
+B. $0{,}5\,\mathrm A$.
 
-A. C. 0,6
+C. $0{,}6\,\mathrm A$.
 
-A. D. 1,2 A.
+D. $1{,}2\,\mathrm A$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
+
     **Hướng dẫn giải:**
-    Do 4 nguồn ghép nối tiếp nên ta thu được:
-    𝜉𝑏= 𝑛𝜉0 = 4 × 3 = 12𝑉 ;
-    𝑟𝑏= 𝑛𝑟0 = 4 × 1 = 4𝛺 ;
-    Khi K mở, R1 nt R2 nên điện trở tương đương của mạch khi này Rtd = R1 + R2. Số chỉ Ampere kế khi này chính
-    bằng cường độ dòng điện chạy trong mạch chính, ta có suất điện động của bộ nguồn:
-    𝜉𝑏= 𝐼(𝑅𝑡đ + 𝑟𝑏) = 𝐼(𝑅1 + 𝑅2 + 𝑟𝑏)
-    ⟹𝑅1 = 𝜉𝑏
-    𝐼−(𝑅2 + 𝑟𝑏) = 12
-    0,6 −(10 + 4) = 6 𝛺 ;
-    Khi K đóng, Sơ đồ mạch điện được vẽ lại như hình:
-    Số chỉ Ampere kế khi này:
-    𝐼=
-    𝜉𝑏
-    𝑅1 + 𝑟𝑏
-    =
-    12
-    6 + 4 = 1,2 𝐴.
-    A
-    K
-    R1 R2
-    A
-    R1
+
+    Bốn nguồn ghép nối tiếp nên
+    $\xi_b=4\xi_0=12\,\mathrm V,\qquad r_b=4r_0=4\,\Omega.$
+
+    Khi $K$ mở, $R_1$ nối tiếp $R_2$. Từ số chỉ $I=0{,}6\,\mathrm A$:
+    $\xi_b=I(R_1+R_2+r_b) \Rightarrow R_1=\frac{12}{0{,}6}-(10+4)=6\,\Omega.$
+
+    Khi $K$ đóng, $R_2$ bị nối tắt nên
+    $I=\frac{\xi_b}{R_1+r_b}=\frac{12}{6+4}=1{,}2\,\mathrm A.$
+
+    Chọn **D**.

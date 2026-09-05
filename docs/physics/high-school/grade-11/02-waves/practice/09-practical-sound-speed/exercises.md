@@ -20,8 +20,11 @@ tags:
 Đo được bước sóng âm $0,68$ m và tần số $500$ Hz. Tốc độ âm là
 
 A. $250$ m/s.
+
 B. $340$ m/s.
+
 C. $500$ m/s.
+
 D. $680$ m/s.
 
 ??? success "Đáp án và lời giải"
@@ -32,8 +35,11 @@ D. $680$ m/s.
 Trong phương pháp cộng hưởng cột khí một đầu kín, chênh lệch giữa hai chiều dài cộng hưởng liên tiếp bằng
 
 A. $\lambda/4$.
+
 B. $\lambda/2$.
+
 C. $\lambda$.
+
 D. $2\lambda$.
 
 ??? success "Đáp án và lời giải"
@@ -44,8 +50,11 @@ D. $2\lambda$.
 Đo tốc độ âm bằng tiếng vọng: khoảng cách đến vách là $51$ m, thời gian từ phát đến nghe vọng là $0,30$ s. Tốc độ âm là
 
 A. $170$ m/s.
+
 B. $255$ m/s.
+
 C. $340$ m/s.
+
 D. $680$ m/s.
 
 ??? success "Đáp án và lời giải"
@@ -58,8 +67,11 @@ D. $680$ m/s.
 Trong thí nghiệm đo tốc độ âm:
 
 a) Có thể dùng $v=f\lambda$.
+
 b) Nếu dùng tiếng vọng phải tính quãng đường hai chiều.
+
 c) Tần số âm thoa tự thay đổi khi dịch ống cộng hưởng.
+
 d) Nhiệt độ không khí có thể ảnh hưởng kết quả.
 
 ??? success "Đáp án và lời giải"
@@ -108,8 +120,6 @@ Trong thí nghiệm cột khí, ba chiều dài cộng hưởng liên tiếp đo
 
 ## Ngân hàng bài tập mở rộng
 
-> Các bài dưới đây được đánh số nối tiếp phần bài tập phía trên. Đề bài được trình bày bằng Markdown; chỉ đồ thị, hình vẽ hoặc sơ đồ thực sự cần thiết mới được giữ dưới dạng hình. Đáp án và lời giải được đặt trong nút mở rộng ngay dưới từng bài.
-
 ### Nhận biết — Trả lời ngắn
 
 #### Bài 9
@@ -121,14 +131,19 @@ lần lượt là 35 mm, 33 mm, 31 mm. Giá trị trung bình của chiều cao 
 số chữ số có nghĩa của phép đo) là bao nhiêu?
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** $3{,}30$
+    **Đáp án:** $3{,}3\,\text{cm}$.
+
     **Hướng dẫn giải:**
 
-    Dùng $v=\lambda f$ hoặc $v=s/t$; với thí nghiệm phản xạ phải kiểm tra xem quãng đường $s$ là một chiều hay cả lượt đi và về.
+    Giá trị trung bình theo đơn vị milimét là
 
-    Giá trị trung bình của chiều cao cột không khí 35
+    $\displaystyle \overline{h}=\frac{35+33+31}{3}=33\,\text{mm}.$
 
-    Vậy kết quả cần tìm là **$3{,}30$**.
+    Đổi đơn vị: $33\,\text{mm}=3{,}3\,\text{cm}$. Các số đo ban đầu được ghi đến milimét và có hai chữ số có nghĩa, nên kết quả không nên viết $3{,}30\,\text{cm}$ vì cách viết đó hàm ý thêm một chữ số có nghĩa không được dữ liệu đo hỗ trợ.
+
+    !!! warning "Đối chiếu nguồn"
+        Tài liệu nguồn ghi $3{,}30\,\text{cm}$. Giá trị trung bình số học là $33\,\text{mm}$; khi biểu diễn theo cm với số chữ số có nghĩa phù hợp các phép đo $35$, $33$, $31\,\text{mm}$, kết quả được sửa thành $3{,}3\,\text{cm}$.
+
 #### Bài 10
 
 <!-- source-id: BT-Chuong-II-p233-q2-545 -->
@@ -138,33 +153,22 @@ Trong thí nghiệm đo tốc độ truyền âm trong không khí, biết sai s
 phân thứ hai sau dấu phẩy)?
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** $0{,}03$
+    **Đáp án:** $0{,}01$.
+
     **Hướng dẫn giải:**
+    Theo quy tắc sai số tỉ đối cực đại đang dùng trong bài với $v=\lambda f$:
+    $\delta_v\approx\delta_\lambda+\delta_f$.
+    Suy ra $\delta_f\approx0{,}017-0{,}010=0{,}007$.
+    Làm tròn đến hai chữ số thập phân ở bước cuối được $0{,}01$.
 
-    Dùng $v=\lambda f$ hoặc $v=s/t$; với thí nghiệm phản xạ phải kiểm tra xem quãng đường $s$ là một chiều hay cả lượt đi và về.
+    !!! warning "Đối chiếu nguồn"
+        PDF cộng hai sai số đã biết để suy ngược sai số còn thiếu và cho $0{,}03$. Khi giải $\delta_f$ từ $\delta_v=\delta_\lambda+\delta_f$ phải thực hiện phép trừ.
 
-    Vậy kết quả cần tìm là **$0{,}03$**.
 #### Bài 11
 
 <!-- source-id: BT-Chuong-II-p233-q3-546 -->
 
-Thực hiện thí nghiệm đo tốc độ truyền âm trong không khí với tần số
-(
-)
-750
-1 Hz
-f =
-±
-, thu được chiều
-dài bước sóng là
-(
-)
-45,7
-1,4 cm
-λ=
-±
-. Sai số tỉ đối của phép đo tốc độ truyền âm là bao nhiêu (làm tròn đến chữ
-số thập phân thứ hai sau dấu phẩy)?
+Thực hiện thí nghiệm đo tốc độ truyền âm trong không khí với tần số $f=(750\pm1)\,\mathrm{Hz}$, thu được chiều dài bước sóng là $\lambda=(45{,}7\pm1{,}4)\,\mathrm{cm}$. Sai số tỉ đối của phép đo tốc độ truyền âm là bao nhiêu (làm tròn đến chữ số thập phân thứ hai sau dấu phẩy)?
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** $0{,}03$
@@ -177,23 +181,7 @@ số thập phân thứ hai sau dấu phẩy)?
 
 <!-- source-id: BT-Chuong-II-p234-q4-547 -->
 
-Thực hiện thí nghiệm đo tốc độ truyền âm trong không khí với tần số
-(
-)
-520
-1 Hz
-f =
-±
-, thu được chiều
-dài bước sóng là
-(
-)
-65,1
-0,7 cm
-λ=
-±
-. Giá trị trung bình của tốc độ truyền âm là bao nhiêu (tính theo đơn vị m/s
-và làm tròn đến phần nguyên)?
+Thực hiện thí nghiệm đo tốc độ truyền âm trong không khí với tần số $f=(520\pm1)\,\mathrm{Hz}$, thu được chiều dài bước sóng là $\lambda=(65{,}1\pm0{,}7)\,\mathrm{cm}$. Giá trị trung bình của tốc độ truyền âm là bao nhiêu (tính theo đơn vị m/s và làm tròn đến phần nguyên)?
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** $339$
@@ -208,67 +196,15 @@ và làm tròn đến phần nguyên)?
 
 <!-- source-id: BT-Chuong-II-p225-q10-526 -->
 
-Trong bài thực hành đo tốc độ truyền âm trong không khí, các giá trị trung bình của bước sóng, tần số,
-tốc độ truyền sóng lần lượt là , ,
-f
-v
-λ
- tương ứng sai số phép đo của các đại lượng là
-,
-,
-f
-v
-ΔλΔ
-Δ. Công thức
-tính sai số tỉ đối của phép đo là
+Trong bài thực hành đo tốc độ truyền âm trong không khí, các giá trị trung bình của bước sóng, tần số, tốc độ truyền sóng lần lượt là $\lambda,f,v$, tương ứng sai số phép đo của các đại lượng là $\Delta\lambda,\Delta f,\Delta v$. Công thức tính sai số tỉ đối của phép đo là
 
-A. v
-f
-v
-f
-Δ
-Δλ
-Δ
-λ
-=
-+
-.
+A. $\dfrac{\Delta v}{v}=\dfrac{\Delta\lambda}{\lambda}+\dfrac{\Delta f}{f}$.
 
-B. v
-f
-v
-f
-Δ
-Δλ
-Δ
-λ
-=
-−
-.
+B. $\dfrac{\Delta v}{v}=\dfrac{\Delta\lambda}{\lambda}-\dfrac{\Delta f}{f}$.
 
-C. .
-v
-f
-v
-f
-Δ
-ΔλΔ
-λ
-=
-.
+C. $\dfrac{\Delta v}{v}=\dfrac{\Delta\lambda}{\lambda}\cdot\dfrac{\Delta f}{f}$.
 
-D. 2
-v
-f
-v
-f
-Δ
-Δλ
-Δ
-λ
-=
-−
-.
+D. $\dfrac{\Delta v}{v}=\dfrac{\Delta\lambda}{\lambda}-2\dfrac{\Delta f}{f}$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
@@ -277,7 +213,7 @@ f
     Dùng $v=\lambda f$ hoặc $v=s/t$; với thí nghiệm phản xạ phải kiểm tra xem quãng đường $s$ là một chiều hay cả lượt đi và về.
 
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. v f v f Δ Δλ Δ λ = + .**
+    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. $\dfrac{\Delta v}{v}=\dfrac{\Delta\lambda}{\lambda}+\dfrac{\Delta f}{f}$.**
 #### Bài 14
 
 <!-- source-id: BT-Chuong-II-p225-q11-527 -->
@@ -338,24 +274,25 @@ dài cột khí 2l tương ứng. Ghi số liệu vào bảng.
 nhất và xác định chiều dài cột khí 1l tương ứng. Ghi số liệu vào bảng.
 (IV) Đặt loa điện động gần sát đầu hở của ống trụ. Dùng hai dây dẫn cấp điện cho loa từ máy phát tần số.
 
-A. (I) – (II) – (III) – (IV).
-
-B. (I) – (III) – (II) – (IV).
-
-C. (IV) – (I) – (II) – (III).
-
-D. (IV) – (III) – (II) – (I).
-
 ![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/ii_p226_q13_529_fig1.webp){ loading=lazy }
 
+A. (I) - (II) - (III) - (IV).
+
+B. (I) - (III) - (II) - (IV).
+
+C. (IV) - (I) - (II) - (III).
+
+D. (IV) - (III) - (II) - (I).
+
 ??? success "Đáp án và lời giải"
-    **Đáp án:** B
+    **Đáp án:** Không có phương án đúng; thứ tự hợp lí là (IV) - (I) - (III) - (II).
+
     **Hướng dẫn giải:**
+    Trước hết phải đặt và nối loa với máy phát (IV), sau đó điều chỉnh máy phát (I). Khi hệ đã hoạt động mới kéo pít-tông để tìm vị trí cộng hưởng thứ nhất (III), rồi tiếp tục kéo để tìm vị trí cộng hưởng thứ hai (II).
 
-    Dùng $v=\lambda f$ hoặc $v=s/t$; với thí nghiệm phản xạ phải kiểm tra xem quãng đường $s$ là một chiều hay cả lượt đi và về.
+    !!! warning "Đối chiếu nguồn"
+        PDF chọn B: (I) - (III) - (II) - (IV), tức thực hiện các phép đo trước khi lắp/nối loa. Không phương án in sẵn nào đúng với trình tự thao tác vật lí; phương án C cũng đảo (II) trước (III).
 
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **B. (I) – (III) – (II) – (IV).**
 #### Bài 17
 
 <!-- source-id: BT-Chuong-II-p226-q14-530 -->
@@ -409,60 +346,15 @@ D. gắn nam châm.
 
 <!-- source-id: BT-Chuong-II-p226-q16-532 -->
 
-Với l
-Δ và
-dc
-l
-Δ
- lần lượt là sai số tuyệt đối trung bình và sai số dụng cụ, sai số tuyệt đối l
-Δ trong phép
-đo chiều cao cột không khí được xác định bằng công thức
+Với $\overline{\Delta l}$ và $\Delta l_{dc}$ lần lượt là sai số tuyệt đối trung bình và sai số dụng cụ, sai số tuyệt đối $\Delta l$ trong phép đo chiều cao cột không khí được xác định bằng công thức
 
-A. dc
-2
-l
-l
-l
-Δ
-Δ
-Δ
-=
-+
-.
+A. $\Delta l=\overline{\Delta l}+2\Delta l_{dc}$.
 
-B. dc
-2
-l
-l
-l
-Δ
-Δ
-Δ
-=
-−
-.
+B. $\Delta l=\overline{\Delta l}-2\Delta l_{dc}$.
 
-C. dc
-l
-l
-l
-Δ
-Δ
-Δ
-=
-+
-.
+C. $\Delta l=\overline{\Delta l}+\Delta l_{dc}$.
 
-D. dc
-l
-l
-l
-Δ
-Δ
-Δ
-=
-−
-.
+D. $\Delta l=\overline{\Delta l}-\Delta l_{dc}$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
@@ -471,7 +363,7 @@ l
     Dùng $v=\lambda f$ hoặc $v=s/t$; với thí nghiệm phản xạ phải kiểm tra xem quãng đường $s$ là một chiều hay cả lượt đi và về.
 
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. dc l l l Δ Δ Δ = + .**
+    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. $\Delta l=\overline{\Delta l}+\Delta l_{dc}$.**
 #### Bài 20
 
 <!-- source-id: BT-Chuong-II-p227-q18-534 -->
@@ -510,34 +402,21 @@ C. 0,18%.
 D. 1,5%.
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** A
+    **Đáp án:** B. $0{,}85\%$ (gần nhất).
+
     **Hướng dẫn giải:**
+    Với mô hình sai số tỉ đối cực đại $\delta_v\approx\delta_\lambda+\delta_f$:
+    $\delta_\lambda\approx1{,}04\%-0{,}17\%=0{,}87\%$.
+    Giá trị gần nhất là $0{,}85\%$, chọn B.
 
-    Dùng $v=\lambda f$ hoặc $v=s/t$; với thí nghiệm phản xạ phải kiểm tra xem quãng đường $s$ là một chiều hay cả lượt đi và về.
+    !!! warning "Đối chiếu nguồn"
+        PDF cộng $1{,}04\%+0{,}17\%$ để suy ra sai số của $\lambda$. Khi đại lượng cần tìm là $\delta_\lambda$, phải chuyển vế và trừ $\delta_f$.
 
-    Hướng dẫn giải:
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. 1,2%.**
 #### Bài 22
 
 <!-- source-id: BT-Chuong-II-p227-q21-537 -->
 
-Thực hiện thí nghiệm đo tốc độ truyền âm trong không khí với tần số
-(
-)
-700
-1 Hz
-f =
-±
-, thu được chiều
-dài bước sóng là
-(
-)
-49,2
-0,9 cm
-λ=
-±
-. Sai số tỉ đối của tốc độ truyền âm xấp xỉ
+Thực hiện thí nghiệm đo tốc độ truyền âm trong không khí với tần số $f=(700\pm1)\,\mathrm{Hz}$, thu được chiều dài bước sóng là $\lambda=(49{,}2\pm0{,}5)\,\mathrm{cm}$. Sai số tỉ đối của tốc độ truyền âm xấp xỉ
 
 A. 0,012.
 
@@ -548,182 +427,138 @@ C. 1,2.
 D. 12.
 
 ??? success "Đáp án và lời giải"
+    **Đáp án:** A. $0{,}012$.
+
     **Hướng dẫn giải:**
+    Với $v=\lambda f$:
+    $\delta_v\approx\dfrac{\Delta\lambda}{\lambda}+\dfrac{\Delta f}{f}=\dfrac{0{,}5}{49{,}2}+\dfrac1{700}\approx0{,}01159\approx0{,}012$.
 
-    Dùng $v=\lambda f$ hoặc $v=s/t$; với thí nghiệm phản xạ phải kiểm tra xem quãng đường $s$ là một chiều hay cả lượt đi và về.
+    !!! warning "Đối chiếu nguồn"
+        Dòng đề PDF in $\pm0{,}9\,\mathrm{cm}$, nhưng chính hướng dẫn và phương án đáp án của nguồn dùng $\pm0{,}5\,\mathrm{cm}$. Dữ kiện được hiệu chỉnh tối thiểu thành $\pm0{,}5\,\mathrm{cm}$ để bài nhất quán.
 
-    Hướng dẫn giải:
 #### Bài 23
 
 <!-- source-id: BT-Chuong-II-p227-q21-538 -->
 
-Thực hiện thí nghiệm đo tốc độ truyền âm trong không khí với tần số
-(
-)
-600
-1 Hz
-f =
-±
-, thu được chiều
-dài bước sóng là
-(
-)
-57,2
-0,5 cm
-λ=
-±
-. Tốc độ truyền âm là
+Thực hiện thí nghiệm đo tốc độ truyền âm trong không khí với tần số $f=(600\pm1)\,\mathrm{Hz}$, thu được chiều dài bước sóng là $\lambda=(57{,}2\pm0{,}5)\,\mathrm{cm}$. Tốc độ truyền âm là
 
-A. (
-)
-343,2
-0,5 m/s
-v =
-±
-.
+A. $v=(343{,}2\pm0{,}5)\,\mathrm{m/s}$.
 
-B. (
-)
-340,3
-0,5 m/s
-v =
-±
-.
+B. $v=(340{,}3\pm0{,}5)\,\mathrm{m/s}$.
 
-C. (
-)
-340,3
-3,6 m/s
-v =
-±
-.
+C. $v=(340{,}3\pm3{,}6)\,\mathrm{m/s}$.
 
-D. (
-)
-343,2
-3,6 m/s
-v =
-±
-.
+D. $v=(343{,}2\pm3{,}6)\,\mathrm{m/s}$.
 
 ??? success "Đáp án và lời giải"
+    **Đáp án:** D. $v=(343{,}2\pm3{,}6)\,\mathrm{m/s}$.
+
     **Hướng dẫn giải:**
+    $\overline v=\overline\lambda\,\overline f=0{,}572\cdot600=343{,}2\,\mathrm{m/s}$.
+    Sai số tỉ đối cực đại:
+    $\delta_v\approx\dfrac{0{,}5}{57{,}2}+\dfrac1{600}$.
+    Suy ra $\Delta v\approx3{,}57\,\mathrm{m/s}\approx3{,}6\,\mathrm{m/s}$.
+    Vậy chọn D.
 
-    Dùng $v=\lambda f$ hoặc $v=s/t$; với thí nghiệm phản xạ phải kiểm tra xem quãng đường $s$ là một chiều hay cả lượt đi và về.
-
-    Hướng dẫn giải:
 ### Nhận biết — Đúng/Sai
 
 #### Bài 24
 
 <!-- source-id: BT-Chuong-II-p229-q1-539 -->
 
-Để đo tốc độ truyền âm trong không khí, dụng cụ thí nghiệm được bố trí như hình. Xác định nhận định
-sau đây đúng hay sai?
-
-a) Trong thí nghiệm này, tốc độ truyền âm trong không khí có thể được đo thông qua hiện tượng sóng dừng.
-b) Trong thí nghiệm này, loa được xem là một đầu cố định khi xảy ra hiện tượng sóng
-d) ừng.
-c) Tốc độ truyền âm trong không khí được xác định thông qua biểu thức . v l f Δ = , với l Δlà khoảng cách giữa hai bụng sóng liên tiếp và f là tần số âm.
-d) Trong khi thực hiện thí nghiệm, âm thanh ở môi trường xung quanh không ảnh hưởng đến độ chính xác của kết quả thí nghiệm.
+Để đo tốc độ truyền âm trong không khí, dụng cụ thí nghiệm được bố trí như hình. Xác định nhận định sau đây đúng hay sai?
 
 ![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/ii_p229_q1_539_fig1.webp){ loading=lazy }
 
+a) Trong thí nghiệm này, tốc độ truyền âm trong không khí có thể được đo thông qua hiện tượng sóng dừng.
+
+b) Trong thí nghiệm này, loa được xem là một đầu cố định khi xảy ra hiện tượng sóng dừng.
+
+c) Tốc độ truyền âm trong không khí được xác định thông qua biểu thức $v=\Delta l\,f$, với $\Delta l$ là khoảng cách giữa hai bụng sóng liên tiếp và $f$ là tần số âm.
+
+d) Trong khi thực hiện thí nghiệm, âm thanh ở môi trường xung quanh không ảnh hưởng đến độ chính xác của kết quả thí nghiệm.
+
 ??? success "Đáp án và lời giải"
+    **Đáp án:** a) Đúng; b) Sai; c) Sai; d) Sai.
+
     **Hướng dẫn giải:**
-    a) Trong thí nghiệm này, tốc độ truyền âm trong không khí có thể được đo thông qua hiện tượng sóng dừng.
-    b) Loa chỉ có vai trò là nguồn âm, không phải một đầu cố định khi xảy ra sóng dừng.
-    c) Tốc độ truyền âm trong không khí được xác định thông qua biểu thức
-    2
-    .
-    v
-    l f
-    Δ
-    =
-    , với l
-    Δ là khoảng cách giữa
-    hai bụng sóng liên tiếp và f là tần số âm.
-    d) Âm thanh ở môi trường xung quanh gây ảnh hưởng đến độ chính xác kết quả thí nghiệm.
+    a) Phép đo dựa trên các vị trí cộng hưởng/sóng dừng của cột khí.
+    b) Loa là nguồn kích thích, không phải đầu cố định của cột khí.
+    c) Hai vị trí cộng hưởng liên tiếp chênh nhau $\Delta l=\lambda/2$, nên $v=\lambda f=2\Delta l\,f$, không phải $\Delta l\,f$.
+    d) Tạp âm môi trường làm khó xác định chính xác vị trí âm to nhất nên có thể làm tăng sai số.
 
 #### Bài 25
 
 <!-- source-id: BT-Chuong-II-p229-q2-540 -->
 
-Để đo tốc độ truyền âm trong không khí, dụng cụ thí nghiệm được bố trí như hình. Xác định nhận định
-sau đây đúng hay sai?
-
-a) Sóng âm truyền trong không khí là sóng ngang.
-b) Tốc độ truyền âm trong không khí được tính theo công thức . v f λ =
-c) Không thể đo trực tiếp bước sóng để xác định tốc độ truyền âm.
-d) Sai số tỉ đối của tốc độ truyền âm chính bằng sai số tỉ đối của bước sóng.
+Để đo tốc độ truyền âm trong không khí, dụng cụ thí nghiệm được bố trí như hình. Xác định nhận định sau đây đúng hay sai?
 
 ![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/ii_p229_q2_540_fig1.webp){ loading=lazy }
 
+a) Sóng âm truyền trong không khí là sóng ngang.
+
+b) Tốc độ truyền âm trong không khí được tính theo công thức $v=\lambda f$.
+
+c) Không thể đo trực tiếp bước sóng để xác định tốc độ truyền âm.
+
+d) Sai số tỉ đối của tốc độ truyền âm chính bằng sai số tỉ đối của bước sóng.
+
 ??? success "Đáp án và lời giải"
+    **Đáp án:** a) Sai; b) Đúng; c) Đúng; d) Sai.
+
     **Hướng dẫn giải:**
+    a) Sóng âm trong không khí là sóng dọc.
+    b) Quan hệ truyền sóng là $v=\lambda f$.
+    c) Trong bố trí này, $\lambda$ được suy ra từ hai chiều dài cộng hưởng liên tiếp: $\lambda=2(l_2-l_1)$, chứ không đo trực tiếp một bước sóng.
+    d) Với $v=\lambda f$, sai số tỉ đối của $v$ còn phụ thuộc sai số của $f$: $\delta_v\approx\delta_\lambda+\delta_f$.
 
-    Dùng $v=\lambda f$ hoặc $v=s/t$; với thí nghiệm phản xạ phải kiểm tra xem quãng đường $s$ là một chiều hay cả lượt đi và về.
-
-    a) Sóng âm truyền trong không khí là sóng dọc.
-    b) Tốc độ truyền âm trong không khí được tính theo công thức
-    c) Bước sóng không được đo trực tiếp. Thực hiện đo trực tiếp chiều cao cột khí tại hai vị trí liên tiếp mà pít-tông
-    khi âm nghe được to nhất, từ đo suy ra bước sóng theo công thức
-    d) Sai số tỉ đối của tốc độ truyền âm phụ thuộc vào sai số tỉ đối của bước sóng và tần số theo công thức
 #### Bài 26
 
 <!-- source-id: BT-Chuong-II-p230-q3-541 -->
 
-Để đo tốc độ truyền âm trong không khí, dụng cụ thí nghiệm được bố trí như hình. Âm nghe được to nhất
-hai lần liên tiếp khi chiều dài cột khí có giá trị là 1l và 2l . Xác định nhận định sau đây đúng hay sai?
-
-a) Khi thực hiện phép đo, cần điều chỉnh biên độ âm sao cho âm phát ra từ loa càng to thì càng dễ thực hiện thí nghiệm.
-b) Bước sóng được xác định bằng biểu thức ( ) 1 2 2 l l λ= − .
-c) Sai số tuyệt đối của bước sóng được tính bằng công thức ( ) 1 2 2 l l Δλ Δ Δ = − .
-d) Có thể thực hiện thí nghiệm với nhiều giá trị tần số khác nhau để tăng độ chính xác của kết quả thí nghiệm.
+Để đo tốc độ truyền âm trong không khí, dụng cụ thí nghiệm được bố trí như hình. Âm nghe được to nhất hai lần liên tiếp khi chiều dài cột khí có giá trị là $l_1$ và $l_2$. Xác định nhận định sau đây đúng hay sai?
 
 ![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/ii_p230_q3_541_fig1.webp){ loading=lazy }
 
+a) Khi thực hiện phép đo, cần điều chỉnh biên độ âm sao cho âm phát ra từ loa càng to thì càng dễ thực hiện thí nghiệm.
+
+b) Bước sóng được xác định bằng biểu thức $\lambda=2(l_2-l_1)$.
+
+c) Sai số tuyệt đối của bước sóng được tính bằng công thức $\Delta\lambda=2(\Delta l_2-\Delta l_1)$.
+
+d) Có thể thực hiện thí nghiệm với nhiều giá trị tần số khác nhau để tăng độ chính xác của kết quả thí nghiệm.
+
 ??? success "Đáp án và lời giải"
+    **Đáp án:** a) Sai; b) Đúng; c) Sai; d) Đúng.
+
     **Hướng dẫn giải:**
+    a) Chỉ cần điều chỉnh âm vừa đủ nghe rõ; âm quá to không làm phép đo chính xác hơn.
+    b) Hai cộng hưởng liên tiếp cách nhau $\lambda/2$, nên $\lambda=2(l_2-l_1)$.
+    c) Với phép lấy hiệu, sai số tuyệt đối cực đại cộng: $\Delta\lambda=2(\Delta l_2+\Delta l_1)$, không phải hiệu hai sai số.
+    d) Đo ở nhiều tần số và đối chiếu/lấy kết quả phù hợp giúp giảm ảnh hưởng sai số ngẫu nhiên.
 
-    Dùng $v=\lambda f$ hoặc $v=s/t$; với thí nghiệm phản xạ phải kiểm tra xem quãng đường $s$ là một chiều hay cả lượt đi và về.
-
-    a) Khi thực hiện phép đo, cần biên độ âm sao cho âm phát ra từ loa vừa đủ nghe.
-    b) Bước sóng được xác định bằng biểu thức
-    c) Sai số tuyệt đối của bước sóng được tính bằng công thức
-    d) Có thể thực hiện thí nghiệm với nhiều giá trị tần số khác nhau để tăng độ chính xác của kết quả thí nghiệm.
 #### Bài 27
 
 <!-- source-id: BT-Chuong-II-p231-q4-542 -->
 
-Thực hiện thí nghiệm đo tốc độ truyền âm trong không khí với dụng cụ thí nghiệm được bố trí như hình
-và thu được được bảng số liệu bên dưới. Biết thước chia độ đến milimét. Lấy sai số dụng cụ trong phép đo chiều
-cao cột khí bằng một nửa độ chia nhỏ nhất trên thước.
-Tần số:
-820
-1 Hz
-f =
-±
+Thực hiện thí nghiệm đo tốc độ truyền âm trong không khí với dụng cụ thí nghiệm được bố trí như hình và thu được bảng số liệu bên dưới. Biết thước chia độ đến milimét. Lấy sai số dụng cụ trong phép đo chiều cao cột khí bằng một nửa độ chia nhỏ nhất trên thước.
 
-Chiều cao cột không khí
-Lần 1
-Lần 2
-Lần 3
-1l (cm)
-7,4
-7,1
-6,9
-2l (cm)
-28,1
-28,0
-28,2
+Tần số: $f=(820\pm1)\,\mathrm{Hz}$.
 
-a) Giá trị trung bình của 1l là 7,13 cm.
-b) Sai số tuyệt đối của 2l là 11, 7 mm
-c) Sai số tỉ đối của phép đo bước sóng là 0,64%.
-d) Kết quả thí nghiệm đo tốc độ truyền âm trong không khí là ( ) 343,9 6,1 m/s ± .
+| Chiều cao cột không khí | Lần 1 | Lần 2 | Lần 3 |
+|---|---:|---:|---:|
+| $l_1$ (cm) | 7,4 | 7,1 | 6,9 |
+| $l_2$ (cm) | 28,1 | 28,0 | 28,2 |
 
 ![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/ii_p231_q4_542_fig1.webp){ loading=lazy }
+
+a) Giá trị trung bình của $l_1$ là 7,13 cm.
+
+b) Sai số tuyệt đối của $l_2$ là 11,7 mm.
+
+c) Sai số tỉ đối của phép đo bước sóng là 0,64%.
+
+d) Kết quả thí nghiệm đo tốc độ truyền âm trong không khí là $(343{,}9\pm6{,}1)\,\mathrm{m/s}$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** a) Đúng; b) Sai; c) Sai; d) Đúng.
@@ -743,34 +578,24 @@ d) Kết quả thí nghiệm đo tốc độ truyền âm trong không khí là 
 
 <!-- source-id: BT-Chuong-II-p232-q5-543 -->
 
-Thực hiện thí nghiệm đo tốc độ truyền âm trong không khí với dụng cụ thí nghiệm được bố trí như hình
-và thu được được bảng số liệu bên dưới. Biết thước chia độ đến milimét. Lấy sai số dụng cụ trong phép đo chiều
-cao cột khí bằng một nửa độ chia nhỏ nhất trên thước.
-Tần số:
-900
-1 Hz
-f =
-±
+Thực hiện thí nghiệm đo tốc độ truyền âm trong không khí với dụng cụ thí nghiệm được bố trí như hình và thu được bảng số liệu bên dưới. Biết thước chia độ đến milimét. Lấy sai số dụng cụ trong phép đo chiều cao cột khí bằng một nửa độ chia nhỏ nhất trên thước.
 
-Chiều cao cột không khí
-Lần 1
-Lần 2
-Lần 3
-1l (cm)
-6,8
-6,6
-6,5
-2l (cm)
-25,9
-26,1
-26,0
+Tần số: $f=(900\pm1)\,\mathrm{Hz}$.
 
-a) Khi thực hiện thí nghiệm, cần đặt mắt thẳng và vuông góc với mặt thước đọc giá trị độ cao pít-tông.
-b) Vị trí của pít-tông mà tại đó âm phát ra to nhất là nút sóng.
-c) Sai số tuyệt đối của 1l và 2l hơn kém nhau 0,02 mm.
-d) Sai số tỉ đối của phép đo tốc độ truyền âm nhỏ hơn 1,0 %.
+| Chiều cao cột không khí | Lần 1 | Lần 2 | Lần 3 |
+|---|---:|---:|---:|
+| $l_1$ (cm) | 6,8 | 6,6 | 6,5 |
+| $l_2$ (cm) | 25,9 | 26,1 | 26,0 |
 
 ![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/ii_p232_q5_543_fig1.webp){ loading=lazy }
+
+a) Khi thực hiện thí nghiệm, cần đặt mắt thẳng và vuông góc với mặt thước đọc giá trị độ cao pít-tông.
+
+b) Vị trí của pít-tông mà tại đó âm phát ra to nhất là nút sóng.
+
+c) Sai số tuyệt đối của $l_1$ và $l_2$ hơn kém nhau 0,02 mm.
+
+d) Sai số tỉ đối của phép đo tốc độ truyền âm nhỏ hơn 1,0 %.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** a) Đúng; b) Sai; c) Đúng; d) Sai.
@@ -790,37 +615,33 @@ d) Sai số tỉ đối của phép đo tốc độ truyền âm nhỏ hơn 1,0 
 
 <!-- source-id: BT-Chuong-II-p224-q1-517 -->
 
-Ghép cột A và cột B tương ứng để thể hiện các dụng cụ thí nghiệm trong bài thực hành đo tốc độ truyền
-âm trong không khí như hình.
-Cột A
-
-Cột B
-
-(1)
-
-(a) Hệ thống giá đỡ.
-(2)
-
-(b) Loa.
-(3)
-
-(c) Máy phát tần số.
-(4)
-
-(d) Pít-tông có vạch chuẩn xác định vị trí.
-(5)
-
-(e) Ống trụ trong suốt có gắn thước thẳng.
-
-A. (1) – (a), (2) – (b), (3) – (c), (4) – (d), (5) – (e).
-
-B. (1) – (a), (2) – (d), (3) – (c), (4) – (b), (5) – (e).
-
-C. (1) – (e), (2) – (d), (3) – (c), (4) – (b), (5) – (a).
-
-D. (1) – (e), (2) – (a), (3) – (c), (4) – (d), (5) – (b).
+Ghép cột A và cột B tương ứng để thể hiện các dụng cụ thí nghiệm trong bài thực hành đo tốc độ truyền âm trong không khí như hình.
 
 ![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/ii_p224_q1_517_fig1.webp){ loading=lazy }
+
+**Cột A**
+
+1. (1)
+2. (2)
+3. (3)
+4. (4)
+5. (5)
+
+**Cột B**
+
+a. Hệ thống giá đỡ.
+b. Loa.
+c. Máy phát tần số.
+d. Pít-tông có vạch chuẩn xác định vị trí.
+e. Ống trụ trong suốt có gắn thước thẳng.
+
+A. (1)-a, (2)-b, (3)-c, (4)-d, (5)-e.
+
+B. (1)-a, (2)-d, (3)-c, (4)-b, (5)-e.
+
+C. (1)-e, (2)-d, (3)-c, (4)-b, (5)-a.
+
+D. (1)-e, (2)-a, (3)-c, (4)-d, (5)-b.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
@@ -829,13 +650,15 @@ D. (1) – (e), (2) – (a), (3) – (c), (4) – (d), (5) – (b).
     Dùng $v=\lambda f$ hoặc $v=s/t$; với thí nghiệm phản xạ phải kiểm tra xem quãng đường $s$ là một chiều hay cả lượt đi và về.
 
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. (1) – (e), (2) – (d), (3) – (c), (4) – (b), (5) – (a).**
+    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. (1)-e, (2)-d, (3)-c, (4)-b, (5)-a.**
 #### Bài 30
 
 <!-- source-id: BT-Chuong-II-p224-q2-518 -->
 
 Với dụng cụ thí nghiệm được bố trí như hình, tốc độ truyền âm trong không khí có thể được đo thông
 qua hiện tượng nào sau đây?
+
+![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/ii_p224_q2_518_fig1.webp){ loading=lazy }
 
 A. Sóng dừng.
 
@@ -844,8 +667,6 @@ B. Dao động cưỡng bức.
 C. Dao động tắt dần.
 
 D. Nhiễu xạ.
-
-![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/ii_p224_q2_518_fig1.webp){ loading=lazy }
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
@@ -859,59 +680,15 @@ D. Nhiễu xạ.
 
 <!-- source-id: BT-Chuong-II-p225-q4-520 -->
 
-Để xác định tốc độ truyền âm trong không khí v thông qua hiện tượng sóng dừng, chiều dài cột không
-khí trong hai lần nghe âm lớn nhất liên tiếp là 1
-2
-,
-l
-l . Công thức nào sau đây là đúng?
+Để xác định tốc độ truyền âm trong không khí $v$ thông qua hiện tượng sóng dừng, chiều dài cột không khí trong hai lần nghe âm lớn nhất liên tiếp là $l_1,l_2$. Công thức nào sau đây là đúng?
 
-A. (
-)
-2
-1
-v
-l
-f
-l
-=
-+
-.
+A. $v=(l_2+l_1)f$.
 
-B. (
-)
-2
-1
-v
-l
-f
-l
-=
-−
-.
+B. $v=(l_2-l_1)f$.
 
-C. (
-)
-2
-1
-2 l
-f
-v
-l
-=
-+
+C. $v=2(l_2+l_1)f$.
 
-D. (
-)
-2
-1
-2 l
-f
-v
-l
-=
-−
-.
+D. $v=2(l_2-l_1)f$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
@@ -920,7 +697,7 @@ l
     Dùng $v=\lambda f$ hoặc $v=s/t$; với thí nghiệm phản xạ phải kiểm tra xem quãng đường $s$ là một chiều hay cả lượt đi và về.
 
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **D. ( ) 2 1 2 l f v l = − .**
+    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **D. $v=2(l_2-l_1)f$.**
 #### Bài 32
 
 <!-- source-id: BT-Chuong-II-p225-q5-521 -->
@@ -973,6 +750,8 @@ D. elip.
 Dụng cụ nào sau đây được sử dụng trong bộ thí nghiệm bài thực hành đo tốc độ truyền âm trong không
 khí?
 
+![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/ii_p225_q8_524_fig1.webp){ loading=lazy }
+
 A. Hình 1, 2, 3.
 
 B. Hình 2, 3, 4.
@@ -980,8 +759,6 @@ B. Hình 2, 3, 4.
 C. Hình 1, 2, 4.
 
 D. Hình 1, 3, 4.
-
-![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/ii_p225_q8_524_fig1.webp){ loading=lazy }
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
@@ -1020,37 +797,15 @@ D. 1,5 mm.
 
 <!-- source-id: BT-Chuong-II-p227-q19-535 -->
 
-Trong thí nghiệm đo tốc độ truyền âm trong không khí, dùng một ống trụ có gắn thước chia độ đến
-milimét đo chiều cao cột khí l là 420 mm. Biết sai số dụng cụ là một độ chia nhỏ nhất của thước. Cách ghi nào
-sau đây đúng với số chữ số có nghĩa của phép đo?
+Trong thí nghiệm đo tốc độ truyền âm trong không khí, dùng một ống trụ có gắn thước chia độ đến milimét đo chiều cao cột khí $l$ là 420 mm. Biết sai số dụng cụ là một độ chia nhỏ nhất của thước. Cách ghi nào sau đây đúng với số chữ số có nghĩa của phép đo?
 
-A. (
-)
-0,42
-0,001 m.
-l =
-±
+A. $l=(0{,}42\pm0{,}001)\,\mathrm{m}$.
 
-B. (
-)
-42,0
-0,1 cm.
-l =
-±
+B. $l=(42{,}0\pm0{,}1)\,\mathrm{cm}$.
 
-C. (
-)
-420,0
-1,0 mm.
-l =
-±
+C. $l=(420{,}0\pm1{,}0)\,\mathrm{mm}$.
 
-D. (
-)
-4,2
-0,01 dm.
-l =
-±
+D. $l=(4{,}2\pm0{,}01)\,\mathrm{dm}$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** B
@@ -1059,4 +814,4 @@ l =
     Dùng $v=\lambda f$ hoặc $v=s/t$; với thí nghiệm phản xạ phải kiểm tra xem quãng đường $s$ là một chiều hay cả lượt đi và về.
 
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **B. ( ) 42,0 0,1 cm. l = ±**
+    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **B. $l=(42{,}0\pm0{,}1)\,\mathrm{cm}$.**

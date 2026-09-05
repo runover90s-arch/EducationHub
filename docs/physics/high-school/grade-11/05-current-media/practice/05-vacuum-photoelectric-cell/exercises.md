@@ -20,8 +20,11 @@ tags:
 Trong ống chân không, dòng điện có thể được tạo bởi
 
 A. electron phát ra từ catot rồi chuyển động về anot.
+
 B. proton bay khỏi anot trong mọi trường hợp.
+
 C. ion dung dịch.
+
 D. sóng cơ.
 
 ??? success "Đáp án và lời giải"
@@ -32,8 +35,11 @@ D. sóng cơ.
 Phát xạ nhiệt electron xảy ra khi
 
 A. kim loại catot được nung nóng đủ.
+
 B. làm lạnh catot về 0 K.
+
 C. không có electron.
+
 D. chỉ khi có nước.
 
 ??? success "Đáp án và lời giải"
@@ -44,8 +50,11 @@ D. chỉ khi có nước.
 Tia catot trong ống chân không là dòng
 
 A. electron năng lượng cao.
+
 B. neutron.
+
 C. photon nhìn thấy duy nhất.
+
 D. ion dương trong dung dịch.
 
 ??? success "Đáp án và lời giải"
@@ -58,8 +67,11 @@ D. ion dương trong dung dịch.
 Dòng điện trong chân không và tế bào quang điện:
 
 a) Chân không không có hạt tải sẵn đáng kể nên cần cơ chế phát electron từ điện cực.
+
 b) Electron có thể bị điện trường gia tốc trong chân không.
+
 c) Tế bào quang điện có thể biến tín hiệu ánh sáng thành tín hiệu điện.
+
 d) Tia catot là sóng âm.
 
 ??? success "Đáp án và lời giải"

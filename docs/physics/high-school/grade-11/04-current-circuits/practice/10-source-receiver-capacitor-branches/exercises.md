@@ -20,8 +20,11 @@ tags:
 Trong trạng thái xác lập DC, một tụ điện lí tưởng mắc nối tiếp trong một nhánh làm dòng nhánh
 
 A. khác 0 không đổi.
+
 B. bằng 0.
+
 C. vô hạn.
+
 D. bằng điện dung.
 
 ??? success "Đáp án và lời giải"
@@ -32,8 +35,11 @@ D. bằng điện dung.
 Máy thu điện có suất phản điện $\mathcal E'$ và điện trở trong r, nhận dòng I vào cực dương. Hiệu điện thế hai đầu thường thỏa
 
 A. $U=\mathcal E'-Ir$.
+
 B. $U=\mathcal E'+Ir$.
+
 C. $U=Ir-\mathcal E'$ luôn.
+
 D. $U=0$.
 
 ??? success "Đáp án và lời giải"
@@ -44,8 +50,11 @@ D. $U=0$.
 Công suất có ích điện–cơ của máy thu lí tưởng mô hình bằng suất phản điện là
 
 A. $P_{ích}=\mathcal E'I$.
+
 B. $P_{ích}=I^2r$.
+
 C. $P_{ích}=U/I$.
+
 D. $P_{ích}=0$.
 
 ??? success "Đáp án và lời giải"
@@ -56,8 +65,11 @@ D. $P_{ích}=0$.
 Một nguồn đang được nạp điện có dòng đi vào cực dương. Khi đó nó hoạt động về mặt mạch như
 
 A. nguồn phát.
+
 B. máy thu.
+
 C. điện trở thuần không có suất điện động.
+
 D. tụ hở mạch.
 
 ??? success "Đáp án và lời giải"
@@ -70,8 +82,11 @@ D. tụ hở mạch.
 Đoạn mạch có nguồn/máy thu/tụ:
 
 a) Cần chọn chiều dòng và quy ước dấu nhất quán.
+
 b) Máy thu nhận điện năng và có thể biến một phần thành cơ năng/hóa năng.
+
 c) Ở xác lập DC, tụ lí tưởng không mang điện tích.
+
 d) Sau khi nạp, tụ có thể có hiệu điện thế dù dòng qua nhánh bằng 0.
 
 ??? success "Đáp án và lời giải"
@@ -85,8 +100,11 @@ d) Sau khi nạp, tụ có thể có hiệu điện thế dù dòng qua nhánh b
 Máy thu có $U=\mathcal E'+Ir$:
 
 a) Công suất điện nhận là UI.
+
 b) Công suất có ích mô hình là $\mathcal E'I$.
+
 c) Tổn hao trong là $I^2r$.
+
 d) Hiệu suất bằng $U/\mathcal E'$.
 
 ??? success "Đáp án và lời giải"

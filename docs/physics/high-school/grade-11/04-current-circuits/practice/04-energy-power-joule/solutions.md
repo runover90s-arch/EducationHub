@@ -61,8 +61,8 @@ $t=A/P=630000/1000=630$ s $=10,5$ phút.
 
 [← Bài tập](exercises.md)
 
-## Bài 11–88
+## Bài 11–87
 
-Đáp án và lời giải của **Bài 11–88** đã được đặt trực tiếp dưới từng bài trong trang bài tập bằng nút **“Đáp án và lời giải”** để tránh tách đề, hình minh họa và lời giải sang nhiều vị trí khác nhau.
+Đáp án và lời giải của **Bài 11–87** đã được đặt trực tiếp dưới từng bài trong trang bài tập bằng nút **“Đáp án và lời giải”** để tránh tách đề, hình minh họa và lời giải sang nhiều vị trí khác nhau.
 
 [← Mở trang bài tập](exercises.md)

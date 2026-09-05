@@ -20,8 +20,11 @@ tags:
 Thấu kính hội tụ có tiêu cự theo quy ước dấu thường dùng là
 
 A. f>0.
+
 B. f<0.
+
 C. f=0.
+
 D. không có tiêu điểm.
 
 ??? success "Đáp án và lời giải"
@@ -32,8 +35,11 @@ D. không có tiêu điểm.
 Công thức thấu kính mỏng với vật thật và quy ước đại số chuẩn là
 
 A. $1/f=1/d+1/d'$.
+
 B. $f=d+d'$.
+
 C. $1/f=d+d'$.
+
 D. $f=dd'$.
 
 ??? success "Đáp án và lời giải"
@@ -44,8 +50,11 @@ D. $f=dd'$.
 Vật thật đặt ngoài 2f trước thấu kính hội tụ cho ảnh
 
 A. thật, ngược chiều, nhỏ hơn vật, nằm giữa f và 2f.
+
 B. ảo, cùng chiều, lớn hơn.
+
 C. thật, cùng chiều.
+
 D. không có ảnh.
 
 ??? success "Đáp án và lời giải"
@@ -58,8 +67,11 @@ D. không có ảnh.
 Thấu kính mỏng:
 
 a) Tia qua quang tâm trong gần đúng mỏng truyền thẳng.
+
 b) Tia tới song song trục chính qua thấu kính hội tụ ló qua tiêu điểm ảnh.
+
 c) Thấu kính phân kì với vật thật thường cho ảnh ảo, cùng chiều, nhỏ hơn.
+
 d) Ảnh thật có thể hứng trên màn.
 
 ??? success "Đáp án và lời giải"

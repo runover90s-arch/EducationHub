@@ -20,8 +20,11 @@ tags:
 Hai dòng điện thẳng dài song song cùng chiều
 
 A. hút nhau.
+
 B. đẩy nhau.
+
 C. không tương tác.
+
 D. chỉ tương tác khi dòng bằng nhau.
 
 ??? success "Đáp án và lời giải"
@@ -32,8 +35,11 @@ D. chỉ tương tác khi dòng bằng nhau.
 Hai dòng song song ngược chiều
 
 A. hút nhau.
+
 B. đẩy nhau.
+
 C. lực bằng 0.
+
 D. chỉ có lực lên một dây.
 
 ??? success "Đáp án và lời giải"
@@ -44,8 +50,11 @@ D. chỉ có lực lên một dây.
 Mômen từ tác dụng lên khung dây N vòng diện tích S, dòng I trong B có độ lớn cực đại
 
 A. $NIBS$.
+
 B. $NIB/S$.
+
 C. $BI/(NS)$.
+
 D. 0.
 
 ??? success "Đáp án và lời giải"
@@ -58,8 +67,11 @@ D. 0.
 Hai dây song song:
 
 a) Lực trên mỗi đơn vị chiều dài tỉ lệ $I_1I_2/d$.
+
 b) Hai dây cùng chiều hút nhau.
+
 c) Hai dây ngược chiều đẩy nhau.
+
 d) Lực một dây tác dụng lên dây kia có độ lớn khác hẳn lực ngược lại trong cùng đoạn xét.
 
 ??? success "Đáp án và lời giải"

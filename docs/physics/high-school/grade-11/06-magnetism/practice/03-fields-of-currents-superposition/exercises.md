@@ -20,8 +20,11 @@ tags:
 Cảm ứng từ cách dây thẳng dài mang dòng I một khoảng r trong chân không là
 
 A. $B=\mu_0I/(2\pi r)$.
+
 B. $B=\mu_0Ir$.
+
 C. $B=\mu_0I/(4\pi r^2)$.
+
 D. $B=Ir/\mu_0$.
 
 ??? success "Đáp án và lời giải"
@@ -32,8 +35,11 @@ D. $B=Ir/\mu_0$.
 Tại tâm vòng dây tròn bán kính R mang dòng I một vòng, cảm ứng từ là
 
 A. $\mu_0I/(2R)$.
+
 B. $\mu_0I/(2\pi R)$.
+
 C. $\mu_0IR$.
+
 D. 0.
 
 ??? success "Đáp án và lời giải"
@@ -44,8 +50,11 @@ D. 0.
 Ống dây dài có mật độ vòng n và dòng I, từ trường bên trong gần đều có
 
 A. $B=\mu_0nI$.
+
 B. $B=\mu_0I/(2\pi r)$.
+
 C. $B=n/I$.
+
 D. $B=\mu_0n/I$.
 
 ??? success "Đáp án và lời giải"
@@ -58,8 +67,11 @@ D. $B=\mu_0n/I$.
 Từ trường do dòng điện:
 
 a) Quanh dây thẳng dài, đường sức là các đường tròn đồng tâm quanh dây.
+
 b) Chiều xác định bằng quy tắc nắm tay phải.
+
 c) Độ lớn B của dây thẳng tỉ lệ nghịch khoảng cách r.
+
 d) Hai từ trường chồng chất cộng theo độ lớn mà không cần xét hướng.
 
 ??? success "Đáp án và lời giải"

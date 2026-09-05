@@ -1,13 +1,13 @@
 {
   "raw_detected": 2094,
-  "deduplicated_verified_imported": 1647,
+  "deduplicated_verified_imported": 1639,
   "by_lesson": {
     "01-oscillations/01-harmonic-oscillation-foundations": 109,
     "01-oscillations/02-displacement-velocity-acceleration": 52,
     "01-oscillations/03-phase-circle-time-distance": 30,
     "01-oscillations/04-spring-oscillator": 4,
     "01-oscillations/05-simple-pendulum": 2,
-    "01-oscillations/06-oscillation-energy": 157,
+    "01-oscillations/06-oscillation-energy": 153,
     "01-oscillations/07-combined-damped-forced-resonance": 75,
     "02-waves/01-mechanical-wave-basics": 93,
     "02-waves/02-wave-equation-phase-graphs": 57,
@@ -18,20 +18,20 @@
     "02-waves/07-light-interference": 9,
     "02-waves/08-practical-sound-frequency": 36,
     "02-waves/09-practical-sound-speed": 28,
-    "02-waves/12-spectra-electromagnetic-spectrum": 29,
+    "02-waves/12-spectra-electromagnetic-spectrum": 27,
     "02-waves/13-multiwavelength-white-light-interference": 3,
     "03-electric-field/01-electron-theory-charge-conservation": 25,
     "03-electric-field/02-coulomb-law": 41,
     "03-electric-field/03-electric-field-intensity": 81,
     "03-electric-field/04-field-superposition-equilibrium": 15,
-    "03-electric-field/05-work-potential-voltage": 91,
+    "03-electric-field/05-work-potential-voltage": 88,
     "03-electric-field/06-capacitors": 10,
     "03-electric-field/07-charged-particle-motion": 66,
     "03-electric-field/08-advanced-capacitors": 8,
     "03-electric-field/09-electrostatic-equilibrium-charged-pendulum": 27,
     "04-current-circuits/01-current-intensity": 77,
     "04-current-circuits/02-resistance-ohm-law": 92,
-    "04-current-circuits/03-emf-internal-resistance": 38,
+    "04-current-circuits/03-emf-internal-resistance": 39,
     "04-current-circuits/04-energy-power-joule": 77,
     "04-current-circuits/05-full-circuit-ohm-law": 20,
     "04-current-circuits/06-source-combinations": 11,
@@ -41,9 +41,85 @@
   },
   "visual_crops": 344,
   "unverified_excluded": 207,
-  "chapter_review_duplicates_not_copied": 114,
+  "chapter_review_duplicates_not_copied": 120,
   "source_faithful_image_questions": 0,
   "source_faithful_solution_images": 0,
   "visual_crops_referenced": 272,
-  "v14_tight_source_crops_referenced": 272
+  "v14_tight_source_crops_referenced": 272,
+  "merged_solution_fragments_not_counted_as_questions": [
+    {
+      "fragment": "BT-Chuong-III-p109-q31-268",
+      "merged_into": "BT-Chuong-III-p109-q31-265"
+    },
+    {
+      "fragment": "BT-Chuong-III-p110-q32-269",
+      "merged_into": "BT-Chuong-III-p109-q32-266"
+    },
+    {
+      "fragment": "BT-Chuong-III-p110-q33-270",
+      "merged_into": "BT-Chuong-III-p109-q33-267"
+    }
+  ],
+  "source_records_traced": 1643,
+  "source_aliases_preserved": [
+    {
+      "canonical_source_id": "BT-Chuong-I-p90-q6-242",
+      "alias_source_id": "BT-Chuong-I-p163-q13-405",
+      "reason": "duplicate occurrence in source PDF"
+    },
+    {
+      "canonical_source_id": "BT-Chuong-I-p93-q24-260",
+      "alias_source_id": "BT-Chuong-I-p165-q26-418",
+      "reason": "duplicate occurrence in source PDF"
+    },
+    {
+      "canonical_source_id": "BT-Chuong-I-p108-q5-291",
+      "alias_source_id": "BT-Chuong-I-p181-q7-460",
+      "reason": "duplicate occurrence in source PDF"
+    },
+    {
+      "canonical_source_id": "BT-Chuong-I-p166-q31-423",
+      "alias_source_id": "BT-Chuong-I-p183-q16-469",
+      "reason": "duplicate occurrence in source PDF",
+      "source_variation": "Repeated occurrence prints mass unit g; its own substitution and answer use the kg-scale value. Canonical p166 occurrence prints kg."
+    }
+  ],
+  "source_id_migrations": [
+    {
+      "type": "split_fused_source_block",
+      "legacy_source_id": "BT-Chuong-IV-p64-q21-213",
+      "split_source_ids": [
+        "BT-Chuong-IV-p64-q21-213",
+        "BT-Chuong-IV-p64-q22-213"
+      ],
+      "rule": "Preserve the legacy raw extraction serial 213 for both independently visible PDF questions; use the actual PDF question number q21/q22; do not renumber q23 or later IDs."
+    }
+  ],
+  "source_issue_resolutions_v22": {
+    "A_repo_error": [
+      "BT-Chuong-IV-p64-q21-213",
+      "BT-Chuong-I-p163-q13-405",
+      "BT-Chuong-I-p165-q26-418",
+      "BT-Chuong-I-p181-q7-460",
+      "BT-Chuong-I-p183-q16-469"
+    ],
+    "B_source_error_correction_certain": [
+      "BT-Chuong-I-p29-q3-75",
+      "BT-Chuong-I-p71-q35-194",
+      "BT-Chuong-I-p105-q4-284",
+      "BT-Chuong-I-p108-q9-295",
+      "BT-Chuong-I-p109-q13-299",
+      "BT-Chuong-II-p48-q28-106",
+      "BT-Chuong-III-p103-q13-247",
+      "BT-Chuong-III-p113-q6-280",
+      "BT-Chuong-III-p129-q21-323",
+      "BT-Chuong-IV-p8-q39-39",
+      "BT-Chuong-IV-p10-q4-44",
+      "BT-Chuong-IV-p86-q3-259",
+      "BT-Chuong-IV-p99-q35-297",
+      "BT-Chuong-I-p148-q3-385",
+      "BT-Chuong-III-p84-q13-219"
+    ],
+    "C_source_ambiguity_not_uniquely_resolvable": []
+  }
 }

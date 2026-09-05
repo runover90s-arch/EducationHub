@@ -189,11 +189,9 @@ Nguồn 9 V, dòng 0,5 A. Công suất nguồn 4,5 W.
 4. Mạch hở giúp đo gần đúng suất điện động.
 5. Dấu công thức phải gắn với chiều dòng và quy ước hiệu điện thế.
 
-<!-- V9_SOURCE_TYPES -->
+## Các dạng bài trọng tâm
 
-## Các dạng bài được hệ thống hóa từ ngân hàng PDF
-
-Các dạng dưới đây chỉ sử dụng những nhóm bài đã được gọi tên rõ trong các tài liệu bài tập. Phần trình bày được tổ chức lại để người học nhận diện đề, chọn công cụ và tự kiểm tra kết quả; không tạo thêm tên dạng mới.
+Các nhóm bài dưới đây được tổ chức theo dấu hiệu nhận biết và công cụ giải để người học chọn phương pháp phù hợp và tự kiểm tra kết quả.
 
 ### Dạng 1 — Tìm công của nguồn điện, thời gian sử dụng và dòng điện qua nguồn
 

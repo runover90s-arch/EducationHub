@@ -20,8 +20,11 @@ tags:
 Thanh dẫn dài l chuyển động với vận tốc v vuông góc cả thanh và B. Suất điện động cảm ứng giữa hai đầu thanh có độ lớn
 
 A. $Blv$.
+
 B. $Bv/l$.
+
 C. $Bl/v$.
+
 D. $B^2lv$.
 
 ??? success "Đáp án và lời giải"
@@ -32,8 +35,11 @@ D. $B^2lv$.
 Nếu thanh chuyển động song song $\vec B$ thì suất điện động cảm ứng do chuyển động lý tưởng
 
 A. cực đại.
+
 B. bằng 0.
+
 C. bằng Blv.
+
 D. không phụ thuộc v.
 
 ??? success "Đáp án và lời giải"
@@ -44,8 +50,11 @@ D. không phụ thuộc v.
 Thanh dài 0,5 m chuyển động 4 m/s vuông góc B=0,2 T. Suất điện động là
 
 A. 0,04 V.
+
 B. 0,4 V.
+
 C. 4 V.
+
 D. 40 V.
 
 ??? success "Đáp án và lời giải"
@@ -58,8 +67,11 @@ D. 40 V.
 Suất điện động do chuyển động:
 
 a) Có thể hiểu từ lực Lorentz tách điện tích trong thanh.
+
 b) Đổi chiều v có thể đảo cực tính hai đầu thanh.
+
 c) Đổi chiều B có thể đảo cực tính.
+
 d) Nếu v=0 vẫn luôn có Blv khác 0.
 
 ??? success "Đáp án và lời giải"

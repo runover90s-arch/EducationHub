@@ -20,8 +20,11 @@ tags:
 Hai nguồn kết hợp cùng pha. Điểm M có hiệu đường đi $d_2-d_1=3\lambda$. M là
 
 A. cực đại giao thoa.
+
 B. cực tiểu giao thoa.
+
 C. không dao động vì hai sóng triệt tiêu.
+
 D. chưa đủ dữ kiện.
 
 ??? success "Đáp án và lời giải"
@@ -32,8 +35,11 @@ D. chưa đủ dữ kiện.
 Hai nguồn cùng pha. Cực tiểu giao thoa thỏa
 
 A. $d_2-d_1=k\lambda$.
+
 B. $d_2-d_1=(k+1/2)\lambda$.
+
 C. $d_2+d_1=k\lambda$.
+
 D. $d_2d_1=\lambda^2$.
 
 ??? success "Đáp án và lời giải"
@@ -44,8 +50,11 @@ D. $d_2d_1=\lambda^2$.
 Hai nguồn cùng pha, cùng biên độ $a$. Tại điểm có hai sóng đến cùng pha, biên độ tổng hợp là
 
 A. $0$.
+
 B. $a$.
+
 C. $\sqrt2a$.
+
 D. $2a$.
 
 ??? success "Đáp án và lời giải"
@@ -58,8 +67,11 @@ D. $2a$.
 Trong giao thoa của hai nguồn kết hợp cùng pha:
 
 a) Các điểm cực đại có hiệu đường đi là bội nguyên của $\lambda$.
+
 b) Các điểm cực tiểu có hiệu đường đi là nửa nguyên lần $\lambda$.
+
 c) Trên trung trực đoạn nối hai nguồn luôn là cực tiểu.
+
 d) Nguồn kết hợp phải có hiệu pha không đổi theo thời gian.
 
 ??? success "Đáp án và lời giải"
@@ -106,8 +118,6 @@ Hai nguồn A, B cùng pha, cách nhau $20$ cm, phát sóng có $\lambda=4$ cm. 
 
 ## Ngân hàng bài tập mở rộng
 
-> Các bài dưới đây được đánh số nối tiếp phần bài tập phía trên. Đề bài được trình bày bằng Markdown; chỉ đồ thị, hình vẽ hoặc sơ đồ thực sự cần thiết mới được giữ dưới dạng hình. Đáp án và lời giải được đặt trong nút mở rộng ngay dưới từng bài.
-
 ### Nhận biết — Trả lời ngắn
 
 #### Bài 9
@@ -145,6 +155,7 @@ thành vân tối thứ 5 so với vân sáng trung tâm. Ban đầu khoảng c�
 
 <!-- source-id: BT-Chuong-II-p144-q3-337 -->
 
+
 Trên mặt nước phẳng lặng có hai nguồn điểm dao động A và B, với AB = 8,1 cm, f = 30 Hz.
 Khi đó trên mặt nước, tại vùng giữa A và B người quan sát thấy có 14 gợn lồi và những gợn này chia
 đoạn AB thành 15 đoạn mà hai đoạn ở hai đầu chỉ dài bằng một phần tư các đoạn còn lại. Tốc độ truyền
@@ -153,13 +164,13 @@ sóng bằng bao nhiêu cm/s?
 ??? success "Đáp án và lời giải"
     **Đáp án:** $36$
     **Hướng dẫn giải:**
-
-    Với hai nguồn cùng pha, cực đại thỏa $|d_2-d_1|=k\lambda$, cực tiểu thỏa $|d_2-d_1|=(k+\tfrac12)\lambda$; với giao thoa Young dùng $i=\lambda D/a$.
-
-    Khoảng cách giữa 14 gợn lồi là: d = 13.
-    Những gợn này chia đoạn AB thành 15 đoạn mà hai đoạn ở hai đầu chỉ dài bằng một phần tư các
-    đoạn còn lại: ⇒ AB = 6,5λ+(
-    Tốc độ truyền sóng trên mặt nước là: v = λ.f = 1,2.30 = 36 cm/s
+    Khoảng cách giữa 14 gợn lồi là
+    $d=13\dfrac{\lambda}{2}=6{,}5\lambda$.
+    Hai đoạn ở hai đầu dài bằng một phần tư các đoạn còn lại, nên
+    $AB=6{,}5\lambda+\left(\dfrac14+\dfrac14\right)\dfrac{\lambda}{2}=8{,}1\,\mathrm{cm}$.
+    Suy ra $\lambda=1{,}2\,\mathrm{cm}$.
+    Tốc độ truyền sóng:
+    $v=\lambda f=1{,}2\cdot30=36\,\mathrm{cm/s}$.
 
     Vậy kết quả cần tìm là **$36$**.
 #### Bài 12
@@ -175,18 +186,14 @@ M và đường trung trực của AB không có dãy cực đại nào khác. V
     **Đáp án:** $13$
 
     **Hướng dẫn giải:**
-    Hai nguồn dao động cùng pha nên những điểm thuộc đường trung trực của đoạn nối hai nguồn là
-    những điểm có biên độ cực đại.
-    Điểm M là điểm cách hai nguồn các khoảng lần lượt là 19cm và 21 cm, sóng có biên độ cực đại:
-    d2 - d1 = 21 – 19 = 2 = k λ
-    Do giữa điểm M và đường trung trực của hai nguồn không có dãy cực đại nào khác nên M thuộc dãy
-    cực đại bậc 1
-    2
-    1 = 2cm =&gt;f=
-    𝑣
-    𝜆=
-    26
-    2 = 13Hz
+
+    Hai nguồn cùng pha nên đường trung trực của AB là cực đại trung tâm. Tại M:
+
+    $d_2-d_1=21-19=2=k\lambda$.
+
+    Giữa M và đường trung trực không có dãy cực đại nào khác nên $k=1$, suy ra $\lambda=2\,\mathrm{cm}$. Do đó
+
+    $f=\dfrac{v}{\lambda}=\dfrac{26}{2}=13\,\mathrm{Hz}$.
 
 #### Bài 13
 
@@ -194,81 +201,41 @@ M và đường trung trực của AB không có dãy cực đại nào khác. V
 
 Trong thí nghiệm Young về giao thoa với ánh sáng đơn sắc, khoảng cách hai khe không đổi.
 Khi khoảng cách từ mặt phẳng chứa hai khe tới màn quan sát là D thì khoảng vân trên màn là 1 mm.
-Khi khoảng cách từ mặt phẳng chứa hai khe tới màn quan sát lần lượt là (D – ΔD) và (D + ΔD) thì
+Khi khoảng cách từ mặt phẳng chứa hai khe tới màn quan sát lần lượt là (D - $\Delta D$) và (D + $\Delta D$) thì
 khoảng vân trên màn tương ứng là i và 2i. Khi khoảng cách từ mặt phẳng chứa hai khe tới màn quan
-sát là (D + 3ΔD) thì khoảng vân trên màn là bao nhiêu milimet?
+sát là (D + 3$\Delta D$) thì khoảng vân trên màn là bao nhiêu milimet?
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** 2
 
     **Hướng dẫn giải:**
-    Lúc đầu : i1 =
-    𝜆𝐷
-    𝑎 = 1mm;
-    Sau khi thay đổi khoảng cách từ mặt phẳng chứa hai khe tới màn quan sát ta có:
-    i2=
-    𝜆(𝐷−Δ𝐷)
-    𝑎
-     =i ; i3=
-    𝜆(𝐷+Δ𝐷)
-    𝑎
-     = 2i =&gt;
-    𝑖3
-    𝑖2 =
-    𝐷+∆𝐷
-    𝐷−∆𝐷= 2 =&gt; ∆D = D/3
-    𝜆(𝐷+3Δ𝐷)
-    𝑎
-     =&gt; .
-    𝑖4
-    𝑖3 =
-    (𝐷+3Δ𝐷)
-    𝐷
-    = 2 =&gt; 𝑖4 = 2mm
+
+    Lúc đầu $i_1=\dfrac{\lambda D}{a}=1\,\mathrm{mm}$.
+
+    Sau khi thay đổi khoảng cách đến màn:
+
+    $i_2=\dfrac{\lambda(D-\Delta D)}{a}=i$, $i_3=\dfrac{\lambda(D+\Delta D)}{a}=2i$.
+
+    Vì $\dfrac{i_3}{i_2}=\dfrac{D+\Delta D}{D-\Delta D}=2$ nên $\Delta D=D/3$. Khi $D_4=D+3\Delta D$:
+
+    $\dfrac{i_4}{i_3}=\dfrac{D+3\Delta D}{D}=2$, suy ra $i_4=2\,\mathrm{mm}$.
 
 #### Bài 14
 
 <!-- source-id: BT-Chuong-II-p145-q6-340 -->
 
-Trong thí nghiệm Young về giao thoa ánh sáng, chiếu vào hai khe đồng thời hai ánh sáng đơn
-sắc có bước sóng lần lượt là
-1λ = 0,66 µm và
-2
-λ= 0,55µm. Trên màn quan sát, vân sáng bậc 5 của ánh
-sáng có bước sóng λ1 trùng với vân sáng bậc mấy của ánh sáng có bước sóng λ2?
+Trong thí nghiệm Young về giao thoa ánh sáng, chiếu vào hai khe đồng thời hai ánh sáng đơn sắc có bước sóng lần lượt là $\lambda_1=0{,}66\,\mu\mathrm{m}$ và $\lambda_2=0{,}55\,\mu\mathrm{m}$. Trên màn quan sát, vân sáng bậc 5 của ánh sáng có bước sóng $\lambda_1$ trùng với vân sáng bậc mấy của ánh sáng có bước sóng $\lambda_2$?
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** $36$
+    **Đáp án:** $6$.
 
     **Hướng dẫn giải:**
-    + Điều kiện trùng nhau của hai bức xạ:
-    𝑘1
-    𝑘2 =
-    𝜆2
-    𝜆1 =
-    0,55
-    0,66 =
-    5
-    6 =&gt; k1 = 5; k2 = 6
-    Vậy vân sáng bậc 5 của ánh sáng có bước sóng λ1 trùng với vân sáng bậc 6 của ánh sáng có bước
-    sóng λ2.
+    Hai vân sáng trùng nhau khi $k_1\lambda_1=k_2\lambda_2$.
+    Với $k_1=5$:
+    $k_2=\dfrac{5\cdot0{,}66}{0{,}55}=6$.
 
-    CHƯƠNG II – SÓNG
-    Chủ đề 12: SÓNG DỪNG
-    • Yêu cầu cần đạt (Trích từ CTGDPT Vật lí 2018):
-    – Thực hiện thí nghiệm tạo sóng dừng và giải thích được sự hình thành sóng dừng.
-    – Sử dụng hình ảnh (tạo ra bằng thí nghiệm, hoặc hình vẽ cho trước), xác định được nút và bụng của sóng
-    dừng.
-    – Sử dụng các cách biểu diễn đại số và đồ thị để phân tích, xác định được vị trí nút và bụng của sóng dừng.
-    • Cấu trúc nội dung:
-    I. TÓM TẮT LÝ THUYẾT …………………………………………………………………
-    Lý thuyết chung của chủ đề + Phương pháp giải kèm ví dụ.
-    II. BÀI TẬP PHÂN DẠNG THEO MỨC ĐỘ………………………………………………..
-     (Theo cấu trúc định dạng đề thi kỳ thi tốt nghiệp trung học phổ thông từ năm 2025 – Quyết định số 764/QĐ
-    - BGDĐT)
-    1. Câu trắc nhiệm nhiều phương án lựa chọn
-    2. Câu trắc nghiệm đúng sai:
-    3. Câu trắc nghiệm trả lời ngắn :
+    !!! warning "Đối chiếu nguồn"
+        Phần kết quả của PDF/ bản nhập ghi 36 nhưng chính phép tính của bài cho $k_2=6$.
 
 #### Bài 15
 
@@ -289,16 +256,13 @@ Số điểm có biên độ dao động cực đại là bao nhiêu?
 
 <!-- source-id: BT-Chuong-II-p125-q1-261 -->
 
-Trong thí nghiệm giao thoa sóng nước. Hai điểm trên cùng một phương truyền sóng, cách nhau
-một khoảng bằng bước sóng có dao động
+Trong thí nghiệm giao thoa sóng nước. Hai điểm trên cùng một phương truyền sóng, cách nhau một khoảng bằng bước sóng có dao động
 
-A. lệch pha 2
-π.
+A. lệch pha $\dfrac{\pi}{2}$.
 
 B. ngược pha.
 
-C. lệch pha 4
-π.
+C. lệch pha $\dfrac{\pi}{4}$.
 
 D. cùng pha.
 
@@ -314,17 +278,15 @@ D. cùng pha.
 
 <!-- source-id: BT-Chuong-II-p125-q2-262 -->
 
-Giao thoa ở mặt nước với hai nguồn sóng kết hợp đặt tại A và B dao động điều hòa cùng pha
-theo phương thẳng đứng. Sóng truyền ở mặt nước có bước sóng λ. Cực tiểu giao thoa nằm tại những
-điểm có hiệu đường đi của hai sóng từ hai nguồn tới đó bằng
+Giao thoa ở mặt nước với hai nguồn sóng kết hợp đặt tại A và B dao động điều hòa cùng pha theo phương thẳng đứng. Sóng truyền ở mặt nước có bước sóng $\lambda$. Cực tiểu giao thoa nằm tại những điểm có hiệu đường đi của hai sóng từ hai nguồn tới đó bằng
 
-A. 2kλ với k = 0, ± 1, ± 2, …
+A. $2k\lambda$ với $k=0,\pm1,\pm2,\ldots$
 
-B. (2k +1) λ với k = 0, ± 1, ± 2, …
+B. $(2k+1)\lambda$ với $k=0,\pm1,\pm2,\ldots$
 
-C. kλ với k = 0, ± 1, ± 2, …
+C. $k\lambda$ với $k=0,\pm1,\pm2,\ldots$
 
-D. (k + 0,5) λ với k = 0, ± 1, ± 2, …
+D. $(k+0{,}5)\lambda$ với $k=0,\pm1,\pm2,\ldots$
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
@@ -333,33 +295,20 @@ D. (k + 0,5) λ với k = 0, ± 1, ± 2, …
     Với hai nguồn cùng pha, cực đại thỏa $|d_2-d_1|=k\lambda$, cực tiểu thỏa $|d_2-d_1|=(k+\tfrac12)\lambda$; với giao thoa Young dùng $i=\lambda D/a$.
 
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **D. (k + 0,5) λ với k = 0, ± 1, ± 2, …**
+    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **D. $(k+0{,}5)\lambda$ với $k=0,\pm1,\pm2,\ldots$**
 #### Bài 18
 
 <!-- source-id: BT-Chuong-II-p125-q3-263 -->
 
-Trong thí nghiệm Young về giao thoa ánh sáng, khoảng cách giữa hai khe là a, khoảng cách từ
-mặt phẳng chứa hai khe đến màn quan sát là
+Trong thí nghiệm Young về giao thoa ánh sáng, khoảng cách giữa hai khe là $a$, khoảng cách từ mặt phẳng chứa hai khe đến màn quan sát là $D$. Khi nguồn sáng phát bức xạ đơn sắc có bước sóng $\lambda$ thì khoảng vân giao thoa trên màn là $i$. Hệ thức nào sau đây đúng?
 
-D. Khi nguồn sáng phát bức xạ đơn sắc có bước sóng λ
-thì khoảng vân giao thoa trên màn là i. Hệ thức nào sau đây đúng?
+A. $i=\dfrac{\lambda a}{D}$.
 
-A. a
-i
-D
-λ
-=
+B. $i=\dfrac{aD}{\lambda}$.
 
-B. aD
-i = λ
+C. $\lambda=\dfrac{i}{aD}$.
 
-C. i
-aD
-λ=
-
-D. ia
-D
-λ=
+D. $\lambda=\dfrac{ia}{D}$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
@@ -368,22 +317,20 @@ D
     Với hai nguồn cùng pha, cực đại thỏa $|d_2-d_1|=k\lambda$, cực tiểu thỏa $|d_2-d_1|=(k+\tfrac12)\lambda$; với giao thoa Young dùng $i=\lambda D/a$.
 
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **D. Khi nguồn sáng phát bức xạ đơn sắc có bước sóng λ thì khoảng vân giao thoa trên màn là i. Hệ thức nào sau đây đúng?**
+    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **D. $\lambda=\dfrac{ia}{D}$.**
 #### Bài 19
 
 <!-- source-id: BT-Chuong-II-p125-q4-264 -->
 
-Trong thí nghiệm Young về giao thoa ánh sáng, hai khe được chiếu bằng ánh sáng đơn sắc có
-bước sóng λ. Nếu tại điểm M trên màn quan sát có vân tối thứ ba (tính từ vân sáng trung tâm) thì hiệu
-đường đi của ánh sáng từ hai khe S1, S2 đến M có độ lớn bằng
+Trong thí nghiệm Young về giao thoa ánh sáng, hai khe được chiếu bằng ánh sáng đơn sắc có bước sóng $\lambda$. Nếu tại điểm M trên màn quan sát có vân tối thứ ba (tính từ vân sáng trung tâm) thì hiệu đường đi của ánh sáng từ hai khe S1, S2 đến M có độ lớn bằng
 
-A. 2λ.
+A. $2\lambda$.
 
-B. 1,5λ.
+B. $1{,}5\lambda$.
 
-C. 3λ.
+C. $3\lambda$.
 
-D. 2,5λ.
+D. $2{,}5\lambda$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
@@ -392,24 +339,20 @@ D. 2,5λ.
     Với hai nguồn cùng pha, cực đại thỏa $|d_2-d_1|=k\lambda$, cực tiểu thỏa $|d_2-d_1|=(k+\tfrac12)\lambda$; với giao thoa Young dùng $i=\lambda D/a$.
 
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **D. 2,5λ.**
+    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **D. $2{,}5\lambda$.**
 #### Bài 20
 
 <!-- source-id: BT-Chuong-II-p125-q5-265 -->
 
-Trong thí nghiệm Young về giao thoa ánh sáng, hai khe được chiếu bằng ánh sáng đơn sắc có
-bước sóng λ. Nếu tại điểm M trên màn quan sát có vân tối thì hiệu đường đi của ánh sáng từ hai khe
-đến điểm M có độ lớn nhỏ nhất bằng
+Trong thí nghiệm Young về giao thoa ánh sáng, hai khe được chiếu bằng ánh sáng đơn sắc có bước sóng $\lambda$. Nếu tại điểm M trên màn quan sát có vân tối thì hiệu đường đi của ánh sáng từ hai khe đến điểm M có độ lớn nhỏ nhất bằng
 
-A. 4
-λ.
+A. $\dfrac{\lambda}{4}$.
 
-B. λ.
+B. $\lambda$.
 
-C. 2
-λ.
+C. $\dfrac{\lambda}{2}$.
 
-D. 2λ.
+D. $2\lambda$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
@@ -418,7 +361,7 @@ D. 2λ.
     Với hai nguồn cùng pha, cực đại thỏa $|d_2-d_1|=k\lambda$, cực tiểu thỏa $|d_2-d_1|=(k+\tfrac12)\lambda$; với giao thoa Young dùng $i=\lambda D/a$.
 
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. 2 λ.**
+    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. $\dfrac{\lambda}{2}$.**
 #### Bài 21
 
 <!-- source-id: BT-Chuong-II-p125-q7-267 -->
@@ -491,10 +434,7 @@ D. bằng một phần tư bước sóng.
 
 <!-- source-id: BT-Chuong-II-p126-q14-274 -->
 
-Khi xảy ra hiện tượng giao thoa sóng nước với hai nguồn kết hợp cùng pha A,
-
-B. Những điểm
-trên mặt nước nằm trên đường trung trực của AB sẽ
+Khi xảy ra hiện tượng giao thoa sóng nước với hai nguồn kết hợp cùng pha A, B. Những điểm trên mặt nước nằm trên đường trung trực của AB sẽ
 
 A. dao động với biên độ lớn nhất.
 
@@ -516,15 +456,7 @@ D. dao động với biên độ có giá trị trung bình.
 
 <!-- source-id: BT-Chuong-II-p126-q15-275 -->
 
-Trong thí nghiệm Y‒âng về giao thoa với ánh sáng đơn sắc, nếu giữ nguyên bước sóng, giữ
-nguyên khoảng cách giữa hai khe
-1S ,
-2
-S đồng thời tăng khoảng cách từ mặt phẳng chứa
-1
-2
-SS đến màn
-lên 2 lần thì khoảng vân sẽ
+Trong thí nghiệm Y-âng về giao thoa với ánh sáng đơn sắc, nếu giữ nguyên bước sóng, giữ nguyên khoảng cách giữa hai khe $S_1,S_2$, đồng thời tăng khoảng cách từ mặt phẳng chứa $S_1S_2$ đến màn lên 2 lần thì khoảng vân sẽ
 
 A. giảm 2 lần.
 
@@ -546,27 +478,15 @@ D. giảm 4 lần.
 
 <!-- source-id: BT-Chuong-II-p126-q16-276 -->
 
-Dùng thí nghiệm Y − âng về giao thoa ánh sáng để đo bước sóng của một ánh sáng đơn sắc
-với khoảng cách giữa hai khe hẹp là a và khoảng cách giữa mặt phẳng chứa hai khe đến màn quan sát
-là
+Dùng thí nghiệm Y-âng về giao thoa ánh sáng để đo bước sóng của một ánh sáng đơn sắc với khoảng cách giữa hai khe hẹp là $a$ và khoảng cách giữa mặt phẳng chứa hai khe đến màn quan sát là $D$. Nếu bước sóng dùng trong thí nghiệm là $\lambda$, khoảng cách giữa ba vân sáng liên tiếp là
 
-D. Nếu bước sóng dùng trong thí nghiệm là λ, khoảng cách giữa ba vân sáng liên tiếp là
+A. $\dfrac{D\lambda}{a}$.
 
-A. D
-a
-λ.
+B. $\dfrac{2D\lambda}{a}$.
 
-B. 2D
-a
-λ.
+C. $\dfrac{D\lambda}{2a}$.
 
-C. D
-2a
-λ.
-
-D. D
-4a
-λ.
+D. $\dfrac{D\lambda}{4a}$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** B
@@ -575,7 +495,7 @@ D. D
     Với hai nguồn cùng pha, cực đại thỏa $|d_2-d_1|=k\lambda$, cực tiểu thỏa $|d_2-d_1|=(k+\tfrac12)\lambda$; với giao thoa Young dùng $i=\lambda D/a$.
 
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **B. 2D a λ.**
+    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **B. $\dfrac{2D\lambda}{a}$.**
 #### Bài 27
 
 <!-- source-id: BT-Chuong-II-p127-q17-277 -->
@@ -629,24 +549,21 @@ hai khe hẹp là 1,2 mm và khoảng cách từ mặt phẳng chứa hai khe h�
 sát được hệ vân giao thoa trên màn với khoảng cách giữa 9 vân sáng liên tiếp là 3,6 mm. Bước sóng
 của ánh sáng dùng trong thí nghiệm là
 
-A. 0,50.10-6 m.
+A. $0{,}50\times10^{-6}$ m.
 
-B. 0,55.10-6 m.
+B. $0{,}55\times10^{-6}$ m.
 
-C. 0,45.10-6 m.
+C. $0{,}45\times10^{-6}$ m.
 
-D. 0,60.10-6 m.
+D. $0{,}60\times10^{-6}$ m.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
     **Hướng dẫn giải:**
-    Khoảng cách 9 vân sáng liên tiếp có 8 khoảng vân: 8i = 3,6 =&gt; i = 0,45mm
-    Bước sóng 𝜆 =
-    𝑎𝑖
-    𝐷=
-    1,2.10−3.0,45.10−3
-    0,9
-    = 0,6. 10−6𝑚
+
+    Khoảng cách 9 vân sáng liên tiếp gồm 8 khoảng vân, nên $8i=3{,}6\,\mathrm{mm}$ và $i=0{,}45\,\mathrm{mm}$.
+
+    $\lambda=\dfrac{ai}{D}=\dfrac{1{,}2\times10^{-3}\cdot0{,}45\times10^{-3}}{0{,}9}=0{,}6\times10^{-6}\,\mathrm{m}$.
 
 #### Bài 30
 
@@ -654,7 +571,7 @@ D. 0,60.10-6 m.
 
 Trong thí nghiệm Young về giao thoa ánh sáng, khoảng cách giữa hai khe là 0,5 mm, khoảng
 cách từ mặt phẳng chứa hai khe đến màn là 2 m. Ánh sáng đơn sắc dùng trong thí nghiệm có bước sóng
-0,5 μm. Vùng giao thoa trên màn rộng 26 mm (vân trung tâm ở chính giữa). Số vân sáng là
+$0{,}5\,\mu\mathrm{m}$. Vùng giao thoa trên màn rộng 26 mm (vân trung tâm ở chính giữa). Số vân sáng là
 
 A. 15.
 
@@ -667,14 +584,15 @@ D. 11.
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
     **Hướng dẫn giải:**
-    Ta có: i = λD
-    𝐿
-    2𝑖= 6,5
-    Số vân sáng là: Ns = 2N + 1=2.6+1=13
+
+    Khoảng vân $i=\dfrac{\lambda D}{a}=2{,}0\,\mathrm{mm}$. Nửa bề rộng vùng giao thoa là $L/2=13\,\mathrm{mm}$, nên $\dfrac{L}{2i}=6{,}5$.
+
+    Số vân sáng là $N_s=2\lfloor6{,}5\rfloor+1=13$.
 
 #### Bài 31
 
 <!-- source-id: BT-Chuong-II-p128-q28-288 -->
+
 
 Trên đường nối hai nguồn dao động kết hợp trên mặt nước, giữa hai đỉnh của hai vân cực đại
 giao thoa có 3 vân cực đại giao thoa nữa và khoảng cách giữa hai đỉnh này là 5 cm. Biết tần số dao
@@ -691,13 +609,15 @@ D. 20 cm/s.
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
     **Hướng dẫn giải:**
-    Khoảng cách giữa hai vị trí này là
-
-    Tốc độ truyền âm
-
+    Trên đường nối hai nguồn cùng pha, hai cực đại liên tiếp cách nhau $\lambda/2$.
+    Giữa hai cực đại đã cho còn 3 cực đại khác nên có 4 khoảng liên tiếp:
+    $5=4\dfrac{\lambda}{2}=2\lambda\Rightarrow \lambda=2{,}5\,\mathrm{cm}$.
+    Tốc độ truyền sóng:
+    $v=\lambda f=2{,}5\cdot9=22{,}5\,\mathrm{cm/s}$.
 #### Bài 32
 
 <!-- source-id: BT-Chuong-II-p128-q29-289 -->
+
 
 Trong thí nghiệm về giao thoa sóng trên mặt nước, hai nguồn kết hợp A, B dao động cùng pha
 với tần số 16Hz. Tại một điểm M cách các nguồn A, B lần lượt những khoảng d1 = 30cm, d2 = 25,5cm,
@@ -713,22 +633,20 @@ C. 36m/s.
 D. 36cm/s.
 
 ??? success "Đáp án và lời giải"
+    **Đáp án:** B
     **Hướng dẫn giải:**
-    Hai nguồn dao động cùng pha nên những điểm thuộc đường trung trực của đoạn nối hai nguồn là
-    những điểm có biên độ cực đại.
-    Điểm M là điểm cách hai nguồn các khoảng lần lượt là 30 cm và 25,5 cm, sóng có biên độ cực đại:
-    d2 - d1 = 30 – 25,5 = 4,5 = k λ
-    Do giữa điểm M và đường trung trực của hai nguồn có 3 dãy gồm những điểm dao động với biên độ
-    cực tiểu nên M thuộc dãy cực đại bậc 3
-    4,5
-    3 = 1,5cm =&gt; v = λ.f = 1,5.16 = 24 cm/s.
-
+    Hai nguồn dao động cùng pha nên đường trung trực của đoạn nối hai nguồn là dãy cực đại trung tâm.
+    Tại M: $|d_1-d_2|=30-25{,}5=4{,}5\,\mathrm{cm}=k\lambda$.
+    Giữa M và đường trung trực có 3 dãy cực tiểu nên M thuộc dãy cực đại bậc $k=3$.
+    Suy ra $\lambda=\dfrac{4{,}5}{3}=1{,}5\,\mathrm{cm}$ và
+    $v=\lambda f=1{,}5\cdot16=24\,\mathrm{cm/s}$.
 #### Bài 33
 
 <!-- source-id: BT-Chuong-II-p129-q30-290 -->
 
+
 Trong một thí nghiệm về giao thoa sóng nước, hai nguồn sóng kết hợp được đặt tại A và B
-dao động theo phương trình uA = uB = acos25πt (a không đổi, t tính bằng s). Trên đoạn thẳng AB, hai
+dao động theo phương trình $u_A=u_B=a\cos(25\pi t)$ (a không đổi, t tính bằng s). Trên đoạn thẳng AB, hai
 điểm có phần tử nước dao động với biên độ cực đại cách nhau một khoảng ngắn nhất là 2 cm. Tốc độ
 truyền sóng là
 
@@ -743,10 +661,11 @@ D. 50 cm/s.
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
     **Hướng dẫn giải:**
-    Khoảng cách hai cực đại liên tiếp trên đường thẳng nối hai nguồn là
-
-    Tốc độ truyền sóng
-
+    Trên đường thẳng nối hai nguồn cùng pha, khoảng cách giữa hai cực đại liên tiếp là $\lambda/2$.
+    Do $\lambda/2=2\,\mathrm{cm}$ nên $\lambda=4\,\mathrm{cm}$.
+    Từ $u_A=u_B=a\cos(25\pi t)$ có $\omega=25\pi\,\mathrm{rad/s}$.
+    Tốc độ truyền sóng:
+    $v=\dfrac{\lambda\omega}{2\pi}=\dfrac{4\cdot25\pi}{2\pi}=50\,\mathrm{cm/s}$.
 #### Bài 34
 
 <!-- source-id: BT-Chuong-II-p129-q31-291 -->
@@ -764,9 +683,15 @@ C. 2 Hz
 D. 5Hz
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** D
+    **Đáp án:** Không có phương án đúng; $f=2{,}5\,\mathrm{Hz}$.
+
     **Hướng dẫn giải:**
-    Hai vị trí gần nhất dao động ngược pha cách nhau
+    Hai điểm gần nhau nhất trên cùng phương truyền sóng dao động ngược pha cách nhau $\lambda/2$.
+    Do đó $\lambda/2=0{,}40\,\mathrm{m}\Rightarrow\lambda=0{,}80\,\mathrm{m}$.
+    Suy ra $f=v/\lambda=2/0{,}80=2{,}5\,\mathrm{Hz}$.
+
+    !!! warning "Đối chiếu nguồn"
+        PDF chọn D ($5\,\mathrm{Hz}$), tương ứng nhầm khoảng cách ngược pha gần nhất thành một bước sóng. Không phương án nào trong đề bằng $2{,}5\,\mathrm{Hz}$.
 
 #### Bài 35
 
@@ -821,15 +746,15 @@ D. 2,5 m.
 Trên mặt nước phẳng lặng có hai nguồn điểm dao động S1 và S2. Biết S1S2 = 10 cm, tần số và
 biên độ dao động của S1, S2 là ƒ = 120 Hz, a = 0,5 cm. Khi đó trên mặt nước, tại vùng giữa S1 và S2
 người ta quan sát thấy có 5 gợn lồi và những gợn này chia đoạn S1S2 thành 6 đoạn mà hai đoạn ở hai
-đầu chỉ dài bằng một nữa các đoạn còn lại. Bước sóng λ có giá trị là
+đầu chỉ dài bằng một nữa các đoạn còn lại. Bước sóng $\lambda$ có giá trị là
 
-A. λ = 4 cm.
+A. $\lambda$ = 4 cm.
 
-B. λ = 8 cm.
+B. $\lambda$ = 8 cm.
 
-C. λ = 2 cm.
+C. $\lambda$ = 2 cm.
 
-D. λ = 6 cm.
+D. $\lambda$ = 6 cm.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
@@ -840,27 +765,27 @@ D. λ = 6 cm.
 
 <!-- source-id: BT-Chuong-II-p139-q12-324 -->
 
+
 Trong thí nghiệm giao thoa ánh sáng dùng hai khe Young, biết D = 1 m, a = 1 mm. Khoảng
 cách từ vân sáng thứ 4 đến vân sáng thứ 10 ở cùng bên với vân trung tâm là 3,6 mm. Tính bước sóng
 ánh sáng.
 
-A. 0,44 μm
+A. $0{,}44\,\mu\mathrm{m}$
 
-B. 0,52 μm
+B. $0{,}52\,\mu\mathrm{m}$
 
-C. 0,60 μm
+C. $0{,}60\,\mu\mathrm{m}$
 
-D. 0,58 μm.
+D. $0{,}58\,\mu\mathrm{m}$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
     **Hướng dẫn giải:**
-    Khoảng cách vân sáng 4 đến vân sáng 10 cùng bên là x = 10i - 4i = 6i
-
-    Khoảng vân là i = 0,6 mm
-
+    Khoảng cách từ vân sáng bậc 4 đến vân sáng bậc 10 cùng phía là
+    $\Delta x=(10-4)i=6i=3{,}6\,\mathrm{mm}$,
+    nên $i=0{,}6\,\mathrm{mm}$.
     Bước sóng
-
+    $\lambda=\dfrac{ia}{D}=\dfrac{0{,}6\times10^{-3}\cdot1\times10^{-3}}{1}=0{,}60\,\mu\mathrm{m}$.
 #### Bài 39
 
 <!-- source-id: BT-Chuong-II-p140-q13-325 -->
@@ -894,31 +819,28 @@ Trong thí nghiệm Young về giao thoa của ánh sáng đơn sắc, hai khe h
 phẳng chứa hai khe cách màn quan sát 1,5 m. Khoảng cách giữa 5 vân sáng liên tiếp là 3,6 mm. Bước
 sóng của ánh sáng dùng trong thí nghiệm này bằng bao nhiêu?
 
-A. 0,6𝜇m.
+A. $0{,}6\,\mu\mathrm{m}$.
 
-B. 0,4𝜇m.
+B. $0{,}4\,\mu\mathrm{m}$.
 
-C. 0,48𝜇m.
+C. $0{,}48\,\mu\mathrm{m}$.
 
-D. 0,76𝜇m.
+D. $0{,}76\,\mu\mathrm{m}$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
     **Hướng dẫn giải:**
-    Biên độ 5 vân sáng liên tiếp có 4 khoảng vân: 4i = 3,6 =&gt; i = 0,9mm
-    Bước sóng 𝜆 =
-    𝑎𝑖
-    𝐷=
-    10−3.0,9.10−3
-    1,5
-    = 0,6. 10−6m
+
+    Năm vân sáng liên tiếp tạo ra 4 khoảng vân, nên $4i=3{,}6\,\mathrm{mm}$ và $i=0{,}9\,\mathrm{mm}$.
+
+    $\lambda=\dfrac{ai}{D}=\dfrac{10^{-3}\cdot0{,}9\times10^{-3}}{1{,}5}=0{,}6\times10^{-6}\,\mathrm{m}=0{,}6\,\mu\mathrm{m}$.
 
 #### Bài 41
 
 <!-- source-id: BT-Chuong-II-p140-q15-327 -->
 
 Trong thí nghiệm giao thoa ánh sáng với khe Iâng, người ta chiếu sáng 2 khe bằng ánh sáng
-đơn sắc có bước sóng λ=0,5 µm, khoảng cách giữa 2 khe là 2 mm. Khoảng cách từ 2 khe tới màn là
+đơn sắc có bước sóng $\lambda$=$0{,}5\,\mu\mathrm{m}$, khoảng cách giữa 2 khe là 2 mm. Khoảng cách từ 2 khe tới màn là
 1m. khoảng cách giữa vân sáng bậc 3 và vân tối thứ 5 ở 2 bên so với vân trung tâm là:
 
 A. 0,375 mm
@@ -989,7 +911,7 @@ D. 2,5m.
 <!-- source-id: BT-Chuong-II-p140-q18-330 -->
 
 Trong thí nghiệm Young về giao thoa với ánh sáng, nguồn S phát ánh sáng đơn sắc có bước
-sóng 𝜆. Màn quan sát cách 2 khe một khoảng không đổi D, khoảng cách giữa 2 khe S1S2 = a có thể thay
+sóng $\lambda$. Màn quan sát cách 2 khe một khoảng không đổi D, khoảng cách giữa 2 khe S1S2 = a có thể thay
 đổi (nhưng S1, S2 luôn cách đều S). Xét điểm P trên màn quan sát, lúc đầu là vân sáng bậc 4, nếu lần
 lượt giảm hoặc tăng khoảng cách S1S2 một lượng ∆a thì tại đó là vân sáng bậc k và 3k. Nếu tăng khoảng
 cách S1S2 một lượng 2∆a thì tại đó là vân sáng hay vân tối, bậc hoặc thứ bao nhiêu?
@@ -1005,23 +927,12 @@ D. vân tối thứ 7.
 ??? success "Đáp án và lời giải"
     **Đáp án:** B
     **Hướng dẫn giải:**
-    Lúc đầu : xM = k.
-    𝜆𝐷
-    𝑎−∆𝑎 và xM= 3k.
-    𝜆𝐷
-    𝑎+∆𝑎
-    =&gt;
-    3(𝑎−∆𝑎)
-    𝑎+∆𝑎= 1 =&gt; ∆a = 0,5m
-    Lúc sau : xM = 4.
-    𝜆𝐷
-    𝑎 và xM = k’.
-    𝜆𝐷
-    𝑎+2∆𝑎=&gt;
-    𝑘′
-    4.2 = 1 =&gt; 𝑘 ‘ = 8
 
-    Khi đó tại M là vân sáng bậc 8.
+    Tại cùng điểm M, từ hai trạng thái sau khi giảm và tăng khoảng cách hai khe:
+
+    $\dfrac{3(a-\Delta a)}{a+\Delta a}=1$, suy ra $\Delta a=\dfrac{a}{2}$.
+
+    Ban đầu M là vân sáng bậc 4. Khi tăng khoảng cách hai khe thêm $2\Delta a$, ta có $a+2\Delta a=2a$, nên bậc vân tăng thành $k'=8$. Vậy tại M là vân sáng bậc 8.
 
 #### Bài 45
 
@@ -1030,19 +941,19 @@ D. vân tối thứ 7.
 Trong hiện tượng giao thoa sóng của hai nguồn kết hợp A, B cùng pha, điều kiện để tại điểm
 M cách các nguồn d1, d2 dao động với biên độ cực đại là
 
-A. d2 – d1 = kλ/2.
+A. $d_2-d_1=k\lambda/2$.
 
-B. d2 – d1 = (2k + 1)λ/2.
+B. $d_2-d_1=(2k+1)\lambda/2$.
 
-C. d2 – d1 = kλ.
+C. $d_2-d_1=k\lambda$.
 
-D. d2 – d1 = (2k + 1)λ/4.
+D. $d_2-d_1=(2k+1)\lambda/4$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
     **Hướng dẫn giải:**
     Trong hiện tượng giao thoa sóng của hai nguồn kết hợp A, B cùng pha, điều kiện để tại điểm M cách
-    các nguồn d1, d2 dao động với biên độ cực đại là d2 – d1 = kλ.
+    các nguồn d1, d2 dao động với biên độ cực đại là d2 - d1 = k$\lambda$.
 
 #### Bài 46
 
@@ -1081,13 +992,10 @@ D. 7.
 ??? success "Đáp án và lời giải"
     **Đáp án:** B
     **Hướng dẫn giải:**
-
-    Với hai nguồn cùng pha, cực đại thỏa $|d_2-d_1|=k\lambda$, cực tiểu thỏa $|d_2-d_1|=(k+\tfrac12)\lambda$; với giao thoa Young dùng $i=\lambda D/a$.
-
-    Với λ = v.T =25.0,2= 5 cm.
-    Xét điểm nằm trong khoảng S1S2, số cực đại trong khoảng S1S2 được xác định bởi:
-    Vì k lấy các giá trị nguyên nên k = ±1;0
-    Có 3 giá trị k thỏa mãn.
+    $\lambda=vT=25\cdot0{,}2=5\,\mathrm{cm}$.
+    Với hai nguồn cùng pha, cực đại trên đoạn nối hai nguồn thỏa
+    $-S_1S_2<k\lambda<S_1S_2$.
+    Do đó $-2<k<2$, nên $k=-1,0,1$: có $3$ cực đại.
 
     Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **B. 3.**
 #### Bài 48
@@ -1135,12 +1043,11 @@ D. 15.
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
     **Hướng dẫn giải:**
-
-    Với hai nguồn cùng pha, cực đại thỏa $|d_2-d_1|=k\lambda$, cực tiểu thỏa $|d_2-d_1|=(k+\tfrac12)\lambda$; với giao thoa Young dùng $i=\lambda D/a$.
-
-    Khoảng cách giữa hai ngọn sóng liên tiếp là
-    Do 2 nguồn cùng pha nên tại 1 điểm không dao động:
-    Vậy có 32 điểm không dao động
+    Khoảng cách giữa hai ngọn sóng liên tiếp là $\lambda=3\,\mathrm{cm}$.
+    Hai nguồn cùng pha nên điểm không dao động thỏa điều kiện cực tiểu
+    $-\dfrac{AB}{\lambda}<k+\dfrac12<\dfrac{AB}{\lambda}$.
+    Với $AB=47\,\mathrm{cm}$, ta được $-16{,}1<k<15{,}1$ theo cách làm tròn của nguồn, có $32$ giá trị nguyên của $k$.
+    Vậy có $32$ điểm không dao động.
 
     Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. 32.**
 #### Bài 50
@@ -1191,49 +1098,37 @@ D. cùng cường độ sáng.
 
 <!-- source-id: BT-Chuong-II-p213-q16-498 -->
 
-Để 2 sóng kết hợp cùng pha tăng cường lẫn nhau khi giao thoa thì hiệu đường đi của chúng
-bằng
+Để 2 sóng kết hợp cùng pha tăng cường lẫn nhau khi giao thoa thì hiệu đường đi của chúng bằng
 
-A. (k -
-1
-2)𝜆.
+A. $\left(k-\dfrac12\right)\lambda$.
 
 B. 0.
 
-C. (k +
-1
-4)𝜆.
+C. $\left(k+\dfrac14\right)\lambda$.
 
-D. k𝜆.
+D. $k\lambda$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
     **Hướng dẫn giải:**
-    Để 2 sóng kết hợp tăng cường lẫn nhau khi giao thoa thì hiệu đường đi của chúng bằng k𝜆.
 
-### Nhận biết — Đúng/Sai
+    Hai sóng kết hợp cùng pha tăng cường lẫn nhau khi hiệu đường đi thỏa $\Delta d=k\lambda$ với $k\in\mathbb Z$.
+
+    Đối chiếu các lựa chọn, chọn D.
 
 #### Bài 53
 
 <!-- source-id: BT-Chuong-II-p142-q1-331 -->
 
-Trong một thí nghiệm Young về giao thoa ánh sáng, khi nguồn sáng là ánh sáng đơn sắc có bước
-sóng λ, người ta đo khoảng cách giữa 9 vân sáng liên tiếp là 25,3 mm. Cho biết khoảng cách giữa hai
-khe là 0,2 mm và khoảng cách từ hai khe đến màn là 1m.
-Phát biểu
-Đúng Sai
-a. Khoảng cách giữa 9 vân sáng liên tiếp là 9 khoảng vân
+Trong một thí nghiệm Young về giao thoa ánh sáng, khi nguồn sáng là ánh sáng đơn sắc có bước sóng $\lambda$, người ta đo khoảng cách giữa 9 vân sáng liên tiếp là 25,3 mm. Cho biết khoảng cách giữa hai khe là 0,2 mm và khoảng cách từ hai khe đến màn là 1 m.
 
-S
-b. Khoảng vân i = 3,16mm.
-Đ
+a) Khoảng cách giữa 9 vân sáng liên tiếp là 9 khoảng vân.
 
-c. Bước sóng là 632 nm
-Đ
+b) Khoảng vân $i=3{,}16$ mm.
 
-d. Khoảng cách từ vân sáng bậc hai đến vân tối thứ tư ở cùng bên so với vân sáng
-trung tâm là: 4,74 mm
-Đ
+c) Bước sóng là 632 nm.
+
+d) Khoảng cách từ vân sáng bậc hai đến vân tối thứ tư ở cùng bên so với vân sáng trung tâm là 4,74 mm.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** a) Sai; b) Đúng; c) Đúng; d) Đúng.
@@ -1251,103 +1146,82 @@ trung tâm là: 4,74 mm
 
 <!-- source-id: BT-Chuong-II-p142-q2-332 -->
 
-Hai điểm M và N trên mặt chất lỏng cách 2 nguồn O1O2 những đoạn lần lượt là O1M = 3,25cm,
-O2M=9,25cm, O1N =33cm, O2N = 67cm, hai nguồn dao động cùng tần số 20Hz, cùng pha, vận tốc
-truyền sóng trên mặt chất lỏng là 80cm/s.
+Hai điểm M và N trên mặt chất lỏng cách hai nguồn $O_1,O_2$ những đoạn lần lượt là $O_1M=3{,}25$ cm, $O_2M=9{,}25$ cm, $O_1N=33$ cm, $O_2N=67$ cm; hai nguồn dao động cùng tần số 20 Hz, cùng pha, vận tốc truyền sóng trên mặt chất lỏng là 80 cm/s.
 
-Phát biểu
-Đúng Sai
-a. Bước sóng: 𝜆 =16m
+a) Bước sóng $\lambda=16$ m.
 
-S
-b. M đứng yên không dao động.
-Đ
+b) M đứng yên không dao động.
 
-c. N dao động với biên độ cực đại.
+c) N dao động với biên độ cực đại.
 
-S
-d. N thuộc cực tiểu thứ chín kể từ trung trực.
-Đ
+d) N thuộc cực tiểu thứ chín kể từ trung trực.
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** a) Đúng; b) Đúng; c) Sai; d) Đúng.
+    **Đáp án:** a) Sai; b) Đúng; c) Sai; d) Đúng.
 
     **Hướng dẫn giải:**
+    $\lambda=v/f=80/20=4\,\mathrm{cm}$, nên a) Sai.
 
-    Trước hết tính bước sóng: $\lambda=v/f=80/20=4\ \text{cm}$.
+    Với M: $\Delta d_M=9{,}25-3{,}25=6\,\mathrm{cm}=1{,}5\lambda$, nên M thuộc cực tiểu: b) Đúng.
 
-    a) **Đúng.** Hai nguồn có cùng tần số và độ lệch pha không đổi nên là hai nguồn kết hợp.
+    Với N: $\Delta d_N=67-33=34\,\mathrm{cm}=8{,}5\lambda$, nên N cũng thuộc cực tiểu: c) Sai.
+    Viết $\Delta d_N=(8+1/2)\lambda$; nếu cực tiểu thứ nhất ứng với $k=0$, N thuộc cực tiểu thứ chín: d) Đúng.
 
-    b) **Đúng.** Với điểm $M$, hiệu đường đi là $\Delta d_M=6\ \text{cm}=1{,}5\lambda=(1+1/2)\lambda$, nên $M$ là cực tiểu giao thoa.
+    !!! warning "Đối chiếu nguồn"
+        Bản đáp án trước ghi a) Đúng dù ngay phép tính cho $\lambda=4\,\mathrm{cm}$; kết luận a) đã được sửa về Sai.
 
-    c) **Sai.** Với điểm $N$, $\Delta d_N=34\ \text{cm}=8{,}5\lambda=(8+1/2)\lambda$, nên $N$ cũng là cực tiểu, không phải cực đại.
-
-    d) **Đúng.** Vì $\Delta d_N=(8+1/2)\lambda$, $N$ nằm trên dãy cực tiểu ứng với $k=8$, tức cực tiểu thứ chín nếu đếm từ $k=0$.
 #### Bài 55
 
 <!-- source-id: BT-Chuong-II-p143-q3-333 -->
 
-Thực hiện thí nghiệm Young về giao thoa với ánh sáng đơn sắc có bước song 0,6 μm, khoảng
-cách giữa hai khe là 0,5 mm, khoảng cách từ mặt phẳng chứa hai khe đến màn là 1m.
 
-Phát biểu
-Đúng Sai
-a. Trên màn quan sát hai vân sáng liên tiếp cách nhau 1mm.
+Thực hiện thí nghiệm Young về giao thoa với ánh sáng đơn sắc có bước sóng $0{,}6\,\mu\mathrm{m}$, khoảng cách giữa hai khe là 0,5 mm, khoảng cách từ mặt phẳng chứa hai khe đến màn là 1 m.
 
-S
-b. Trên màn quan sát, vân sáng bậc 3 cách vân sáng trung tâm là 3,6mm.
-Đ
+a) Trên màn quan sát hai vân sáng liên tiếp cách nhau 1 mm.
 
-c. Tại điểm M trên màn cách vân sáng trung tâm (chính giữa) một khoảng
-6,0 mm có vân sáng bậc (thứ) 6
+b) Trên màn quan sát, vân sáng bậc 3 cách vân sáng trung tâm là 3,6 mm.
 
-S
-d. Tại điểm N trên màn cách vân sáng trung tâm (chính giữa) một khoảng
-3,0 mm có vân tối thứ 2
-Đ
+c) Tại điểm M trên màn cách vân sáng trung tâm (chính giữa) một khoảng 6,0 mm có vân sáng bậc (thứ) 6.
+
+d) Tại điểm N trên màn cách vân sáng trung tâm (chính giữa) một khoảng 3,0 mm có vân tối thứ 2.
 
 ??? success "Đáp án và lời giải"
+    **Đáp án:** a) Sai; b) Đúng; c) Sai; d) Sai.
+
     **Hướng dẫn giải:**
-    a) Vì: khoảng cách giữa hai vân sáng liên tiếp là khoảng vân i = λD
-    a =1,2mm
-    b) Vì: x4 = 3.i = 3. 1,2 = 3,6mm
-    c) Vì: vân sáng bậc 6 cách vân trung tâm: x6 = 6.i = 6. 1,2 = 7,2mm.
-    d ) Vì: vân tối thứ 2 cách vân trung tâm: xt2 =2,5.i = 2,5. 1,2 = 3,0mm.
+    $i=\dfrac{\lambda D}{a}=\dfrac{0{,}6\times10^{-6}\cdot1}{0{,}5\times10^{-3}}=1{,}2\,\mathrm{mm}$.
+    Vì vậy a) Sai và $x_3=3i=3{,}6\,\mathrm{mm}$ nên b) Đúng.
+    Tại $x=6{,}0\,\mathrm{mm}=5i$ là vân sáng bậc 5, không phải bậc 6, nên c) Sai.
+    Vân tối thứ $n$ tính từ vân trung tâm có $x=(n-1/2)i$. Với $x=3{,}0\,\mathrm{mm}=2{,}5i$ suy ra $n=3$, tức vân tối thứ ba, nên d) Sai.
+
+    !!! warning "Đối chiếu nguồn"
+        Hướng dẫn PDF coi vị trí $2{,}5i$ là “vân tối thứ 2”. Theo quy ước phổ thông đếm vân tối đầu tiên tại $0{,}5i$, vị trí $2{,}5i$ là vân tối thứ ba.
 
 #### Bài 56
 
 <!-- source-id: BT-Chuong-II-p143-q4-334 -->
 
-Trên mặt nước nằm ngang, tại hai điểm S1, S2 cách nhau 9,6cm, người ta đặt hai nguồn sóng
-cơ kết hợp, dao động điều hòa theo phương thẳng đứng có tần số 15Hz và luôn dao động cùng pha.
-Biết tốc độ truyền sóng trên mặt nước là 45cm/s và coi biên độ sóng không đổi khi truyền đi.
 
-Phát biểu
-Đúng Sai
-a. Bước sóng 𝜆= 3𝑐𝑚 .
-Đ
+Trên mặt nước nằm ngang, tại hai điểm $S_1,S_2$ cách nhau 9,6 cm, người ta đặt hai nguồn sóng cơ kết hợp, dao động điều hòa theo phương thẳng đứng có tần số 15 Hz và luôn dao động cùng pha. Biết tốc độ truyền sóng trên mặt nước là 45 cm/s và coi biên độ sóng không đổi khi truyền đi.
 
-b. Số điểm dao động với biên độ cực đại trên đoạn S1S2 là 7 điểm .
-Đ
+a) Bước sóng $\lambda=3$ cm.
 
-c. Số điểm không dao động trên đoạn S1S2 là 7 điểm.
+b) Số điểm dao động với biên độ cực đại trên đoạn $S_1S_2$ là 7 điểm.
 
-S
-d. Điểm M cách S1S2 lần lượt những đoạn d1 = 12cm; d2 = 15cm dao động
-với biên độ cực đại.
-Đ
+c) Số điểm không dao động trên đoạn $S_1S_2$ là 7 điểm.
+
+d) Điểm M cách $S_1,S_2$ lần lượt những đoạn $d_1=12$ cm, $d_2=15$ cm dao động với biên độ cực đại.
 
 ??? success "Đáp án và lời giải"
     **Hướng dẫn giải:**
-
-    Với hai nguồn cùng pha, cực đại thỏa $|d_2-d_1|=k\lambda$, cực tiểu thỏa $|d_2-d_1|=(k+\tfrac12)\lambda$; với giao thoa Young dùng $i=\lambda D/a$.
-
-    a) **Đúng.** Vì: Bước sóng
-    b) **Đúng.** Vì: Do 2 nguồn cùng pha nên số điểm dao động cực đại trên AB là số giá trị k nguyên thỏa mãn
-    c) **Sai.** Vì: Do 2 nguồn cùng pha nên số điểm không dao động cực đại trên AB là số giá trị k nguyên thỏa
-    d) **Đúng.** Vì: d2 – d1=15 – 12=3cm;
-### Thông hiểu — Trắc nghiệm 4 lựa chọn
-
+    a) $\lambda=\dfrac{v}{f}=\dfrac{45}{15}=3\,\mathrm{cm}$.
+    b) Với hai nguồn cùng pha, cực đại trên đoạn $S_1S_2$ thỏa
+    $-\dfrac{S_1S_2}{\lambda}<k<\dfrac{S_1S_2}{\lambda}$.
+    Từ $-3{,}2<k<3{,}2$ có $k=0,\pm1,\pm2,\pm3$, tức 7 điểm cực đại.
+    c) Cực tiểu thỏa
+    $-\dfrac{S_1S_2}{\lambda}-\dfrac12<k<\dfrac{S_1S_2}{\lambda}-\dfrac12$.
+    Nguồn cho 6 giá trị nguyên của $k$, nên phát biểu “7 điểm” là sai.
+    d) $|d_2-d_1|=15-12=3\,\mathrm{cm}=\lambda$, nên M thuộc một dãy cực đại.
 #### Bài 57
 
 <!-- source-id: BT-Chuong-II-p127-q19-279 -->
@@ -1372,8 +1246,9 @@ D. 2,5 m.
 
 <!-- source-id: BT-Chuong-II-p127-q20-280 -->
 
+
 Trong thí nghiệm Young về giao thoa ánh sáng, hai khe được chiếu bằng ánh sáng đơn sắc có bước
-sống 0,6μm. Khoảng cách giữa hai khe sáng là 1mm, khoảng cách từ mặt phẳng chứa hai khe đến màn quan
+sống $0{,}6\,\mu\mathrm{m}$. Khoảng cách giữa hai khe sáng là 1mm, khoảng cách từ mặt phẳng chứa hai khe đến màn quan
 sát là 1,5m. Trên màn quan sát, hai vân tối liên tiếp cách nhau một đoạn là
 
 A. 0,45 mm.
@@ -1387,10 +1262,9 @@ D. 1,8 mm.
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
     **Hướng dẫn giải:**
-    Ta có: i = λD
-    a = 0,9 mm;
-    Hai vân tối liên tiếp cách nhau 1 khoảng vân i =&gt; Đáp án C
-
+    Khoảng vân Young:
+    $i=\dfrac{\lambda D}{a}=\dfrac{0{,}6\times10^{-6}\cdot1{,}5}{1\times10^{-3}}=0{,}9\,\mathrm{mm}$.
+    Hai vân tối liên tiếp cách nhau một khoảng vân $i$, nên chọn C.
 #### Bài 59
 
 <!-- source-id: BT-Chuong-II-p127-q21-281 -->
@@ -1416,29 +1290,15 @@ D. 6i.
 
 <!-- source-id: BT-Chuong-II-p127-q22-282 -->
 
-Trong thí nghiệp Young về giao thoa với ánh sáng đơn sắc, khoảng cách giữa hai khe là
-1mm, khoảng cách từ mặt phẳng chứa hai khe đến màn quan sát là 2m. Tại điểm M trên màn quan sát
-cách vân sáng trung tâm 3mm có vân sáng bậc 3. Bước sóng của ánh sáng dùng trong thí nghiệm là
+Trong thí nghiệm Young về giao thoa với ánh sáng đơn sắc, khoảng cách giữa hai khe là 1 mm, khoảng cách từ mặt phẳng chứa hai khe đến màn quan sát là 2 m. Tại điểm M trên màn quan sát cách vân sáng trung tâm 3 mm có vân sáng bậc 3. Bước sóng của ánh sáng dùng trong thí nghiệm là
 
-A. 0,5
-m
-μ
-.
+A. $0{,}5\,\mu\mathrm{m}$.
 
-B. 0,45
-m
-μ
-.
+B. $0{,}45\,\mu\mathrm{m}$.
 
-C. 0,6
-m
-μ
-.
+C. $0{,}6\,\mu\mathrm{m}$.
 
-D. 0,75
-m
-μ
-.
+D. $0{,}75\,\mu\mathrm{m}$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
@@ -1448,7 +1308,7 @@ m
 
     Vân sáng bậc 3 cách vân trung tâm 3mm, ta có: 3i = 3mm ⇒ i = 1mm
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. 0,5 m μ .**
+    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. $0{,}5\,\mu\mathrm{m}$.**
 #### Bài 61
 
 <!-- source-id: BT-Chuong-II-p127-q23-283 -->
@@ -1477,9 +1337,10 @@ D. 0,3 mm
 
 <!-- source-id: BT-Chuong-II-p128-q25-285 -->
 
+
 Trong thí nghiệm Young về giao thoa ánh sáng, hai khe hẹp cách nhau một khoảng a = 0,5
 mm, khoảng cách từ mặt phẳng chứa hai khe đến màn quan sát là D = 1,5 m. Hai khe được chiếu bằng
-bức xạ có bước sóng λ = 0,6 μm. Trên màn thu được hình ảnh giao thoa. Tại điểm M trên màn cách
+bức xạ có bước sóng $\lambda$ = $0{,}6\,\mu\mathrm{m}$. Trên màn thu được hình ảnh giao thoa. Tại điểm M trên màn cách
 vân sáng trung tâm (chính giữa) một khoảng 5,4 mm có vân sáng bậc (thứ)
 
 A. 3.
@@ -1489,15 +1350,15 @@ B. 6.
 C. 2.
 
 D. 4.
+
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
     **Hướng dẫn giải:**
     Khoảng vân
-
-    Tỉ số
-     (nguyên).
-    Vậy tại M là vị trí vân sáng thứ 3.
-
+    $i=\dfrac{\lambda D}{a}=\dfrac{0{,}6\times10^{-6}\cdot1{,}5}{0{,}5\times10^{-3}}=1{,}8\,\mathrm{mm}$.
+    Tại M:
+    $\dfrac{x_M}{i}=\dfrac{5{,}4}{1{,}8}=3$.
+    Vậy M là vị trí vân sáng bậc 3.
 #### Bài 63
 
 <!-- source-id: BT-Chuong-II-p198-q9-448 -->
@@ -1517,12 +1378,11 @@ D. v = 0,8 m/s.
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
     **Hướng dẫn giải:**
+    Trên đường nối hai nguồn, khoảng cách giữa hai cực tiểu liên tiếp bằng $\lambda/2$.
+    Do đó $\lambda/2=4\,\mathrm{mm}$, suy ra $\lambda=8\,\mathrm{mm}=8\times10^{-3}\,\mathrm{m}$.
+    $v=\lambda f=8\times10^{-3}\cdot100=0{,}8\,\mathrm{m/s}$.
 
-    Với hai nguồn cùng pha, cực đại thỏa $|d_2-d_1|=k\lambda$, cực tiểu thỏa $|d_2-d_1|=(k+\tfrac12)\lambda$; với giao thoa Young dùng $i=\lambda D/a$.
-
-    Khoảng cách giữa hai cực tiểu liên tiếp nằm trên đường nối hai tâm dao động:
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **D. v = 0,8 m/s.**
+    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **D. $v=0{,}8\,\mathrm{m/s}$.**
 #### Bài 64
 
 <!-- source-id: BT-Chuong-II-p199-q10-449 -->
@@ -1541,15 +1401,11 @@ D. 8.
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
     **Hướng dẫn giải:**
-
-    Với hai nguồn cùng pha, cực đại thỏa $|d_2-d_1|=k\lambda$, cực tiểu thỏa $|d_2-d_1|=(k+\tfrac12)\lambda$; với giao thoa Young dùng $i=\lambda D/a$.
-
-    Điều kiện để 1 điểm M nằm trong miền giao thoa cực đại là:
-    Với λ = v.T = v/f= 1,2/100 = 0,012m = 1,2 cm.
-    Xét điểm M nằm trong đoạn S1S2, số cực đại trong đoạn S1S2 được xác định bởi:
-    Vì k lấy các giá trị nguyên nên k = ±7; ±6; ±5;±4;±3;..;0
-    Có 15 giá trị k thỏa mãn.
-    Vậy có 15 cực đại trong đoạn S1S2.
+    Điều kiện cực đại là $d_2-d_1=k\lambda$.
+    $\lambda=\dfrac{v}{f}=\dfrac{1{,}2}{100}=0{,}012\,\mathrm{m}=1{,}2\,\mathrm{cm}$.
+    Trên khoảng giữa hai nguồn:
+    $-S_1S_2<k\lambda<S_1S_2\Rightarrow-8<k<8$.
+    Có $15$ giá trị nguyên $k=-7,-6,\ldots,0,\ldots,6,7$.
 
     Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. 15.**
 ### Vận dụng — Trả lời ngắn
@@ -1567,8 +1423,10 @@ milimet (làm tròn đến số thập phân thứ 2 sau dấu phẩy)
     **Đáp án:** $0{,}25$
 
     **Hướng dẫn giải:**
-    𝜆𝐷
-    2𝑎 =0,25m.
+
+    Khoảng cách giữa một vân sáng và một vân tối liên tiếp bằng nửa khoảng vân:
+
+    $\dfrac{i}{2}=\dfrac{\lambda D}{2a}=0{,}25\,\mathrm{mm}$.
 
 #### Bài 66
 
@@ -1583,7 +1441,7 @@ số 50Hz và đo được khoảng cách giữa hai cực tiểu liên tiếp n
 
     **Hướng dẫn giải:**
     Khoảng cách giữa hai cực tiểu liên tiếp nằm trên đường nối hai tâm dao động bằng nửa bước sóng
-     λ /2 = 2mm =&gt; λ = 4mm.
+    $\lambda/2=2\,\mathrm{mm}\Rightarrow\lambda=4\,\mathrm{mm}$.
 
 #### Bài 67
 
@@ -1598,16 +1456,18 @@ sóng có giá trị bằng bao nhiêu cm/s (làm tròn đến hàng đơn vị)
     **Đáp án:** $30$
 
     **Hướng dẫn giải:**
-    Khoảng cách giữa 11 gợn lồi là: d = 10.
-    2
-    λ=5λ
-    Những gợn này chia đoạn AB thành 12 đoạn mà hai đoạn ở hai đầu chỉ dài bằng một phần ba các
-    đoạn còn lại: =&gt; AB = 5λ+( 1 1
-    3 3
-    + )
-    2
-    λ=8cm=&gt; λ=1,5cm
-    Tốc độ truyền sóng trên mặt nước là: v = λ.f = 1,5.20 = 30 cm/s
+
+    Khoảng cách giữa 11 gợn lồi là $d=10\dfrac{\lambda}{2}=5\lambda$.
+
+    Hai đoạn ở hai đầu chỉ dài bằng một phần ba các đoạn còn lại, nên
+
+    $AB=5\lambda+\left(\dfrac13+\dfrac13\right)\dfrac{\lambda}{2}=8\,\mathrm{cm}$,
+
+    suy ra $\lambda=1{,}5\,\mathrm{cm}$.
+
+    Tốc độ truyền sóng: $v=\lambda f=1{,}5\cdot20=30\,\mathrm{cm/s}$.
+
+    Vậy kết quả cần tìm là **$30$**.
 
 #### Bài 68
 
@@ -1633,7 +1493,7 @@ số điểm mà tại đó phần tử nước dao động với biên độ c�
 
 Trong thí nghiệm Young về giao thoa ánh sáng, khoảng cách giữa hai khe là 0,5 mm, khoảng
 cách từ hai khe đến màn quan sát là 2m. Nguồn sáng dùng trong thí nghiệm gồm hai bức xạ có bước
-sóng λ1 = 450 nm và λ2 = 600 nm. Trên màn quan sát, gọi M, N là hai điểm ở cùng một phía so với vân
+sóng $\lambda_{1}$ = 450 nm và $\lambda_{2}$ = 600 nm. Trên màn quan sát, gọi M, N là hai điểm ở cùng một phía so với vân
 trung tâm và cách vân trung tâm lần lượt là 5,5 mm và 22 mm. Trên đoạn MN, số vị trí vân sáng trùng
 nhau của hai bức xạ là bao nhiêu?
 
@@ -1641,33 +1501,23 @@ nhau của hai bức xạ là bao nhiêu?
     **Đáp án:** 3
 
     **Hướng dẫn giải:**
-    + Điều kiện trùng nhau của hai bức xạ:
-    𝑘1
-    𝑘2 =
-    𝜆2
-    𝜆1 =
-    600
-    450 =
-    4
-    3 =&gt; k1 = 4
-    + Khoảng cách từ vân chính giữa đến vân gần nhất cùng màu với vân chính giữa là:
-    𝑖𝑡𝑟=
-    𝑘1𝜆1𝐷
-    𝑎
-    =
-    4.450.10−9.2
-    0,5.10−3
-    = 7,2. 10−3 = 7,2 mm
-    + Trên đoạn MN, số vị trí vân sáng trùng nhau của hai bức xạ thoả mãn:
-    5,5 ≤𝑘𝑖𝑡𝑟&lt; 22 ⇔0,76 &lt; 𝑘&lt; 3,06 ⇒𝑘= 1, 2, 3
-    Trên đoạn MN, có 3 vị trí vân sáng trùng nhau của hai bức xạ.
+
+    Điều kiện trùng vân sáng: $k_1\lambda_1=k_2\lambda_2$, nên
+
+    $\dfrac{k_1}{k_2}=\dfrac{\lambda_2}{\lambda_1}=\dfrac{600}{450}=\dfrac{4}{3}$.
+
+    Vị trí trùng gần vân trung tâm nhất có khoảng cách
+
+    $i_{tr}=\dfrac{k_1\lambda_1D}{a}=\dfrac{4\cdot450\times10^{-9}\cdot2}{0{,}5\times10^{-3}}=7{,}2\times10^{-3}\,\mathrm{m}=7{,}2\,\mathrm{mm}$.
+
+    Trên MN: $5{,}5\le k i_{tr}<22$, tức $0{,}76<k<3{,}06$, nên $k=1,2,3$. Có 3 vị trí trùng vân sáng.
 
 #### Bài 70
 
 <!-- source-id: BT-Chuong-II-p137-q6-312 -->
 
 Trong thí nghiệm Young về giao thoa ánh sáng, nguồn sáng phát ra ánh sáng đơn sắc có bước
-sóng λ. Khoảng cách giữa hai khe 1 mm. Nếu di chuyển màn ra xa mặt phẳng hai khe một đoạn 80 cm
+sóng $\lambda$. Khoảng cách giữa hai khe 1 mm. Nếu di chuyển màn ra xa mặt phẳng hai khe một đoạn 80 cm
 thì khoảng vân trên màn tăng thêm 0,4 mm. Bước sóng của bức xạ dùng trong thí nghiệm là nm (làm
 tròn đến hàng đơn vị)
 
@@ -1675,20 +1525,18 @@ tròn đến hàng đơn vị)
     **Đáp án:** $500$
     **Hướng dẫn giải:**
 
-    Với hai nguồn cùng pha, cực đại thỏa $|d_2-d_1|=k\lambda$, cực tiểu thỏa $|d_2-d_1|=(k+\tfrac12)\lambda$; với giao thoa Young dùng $i=\lambda D/a$.
+    Vì $i=\dfrac{\lambda D}{a}$, khi tăng khoảng cách đến màn thêm $\Delta D=0{,}80\,\mathrm{m}$ thì
 
-    Vì di chuyển màn ra xa mặt phẳng hai khe một đoạn 80cm thì khoảng vân tăng thêm 0,4mm
-    𝑎(𝐷′ −𝐷) = 0,4𝑚𝑚<⇒ 𝜆=0,5. 10−6𝑚= 500 nm
+    $\Delta i=\dfrac{\lambda\Delta D}{a}=0{,}4\,\mathrm{mm}$.
 
-    Vậy kết quả cần tìm là **$500$**.
-### Vận dụng — Trắc nghiệm 4 lựa chọn
+    Suy ra $\lambda=\dfrac{a\Delta i}{\Delta D}=0{,}5\times10^{-6}\,\mathrm{m}=500\,\mathrm{nm}$.
 
 #### Bài 71
 
 <!-- source-id: BT-Chuong-II-p129-q34-294 -->
 
 Trong thí nghiệm Y-âng về giao thoa ánh sáng, nguồn sáng phát ra ánh sáng đơn sắc có bước
-sóng λ. Khoảng cách giữa hai khe 1 mm. Nếu di chuyển màn ra xa mặt phẳng hai khe một đoạn 50 cm
+sóng $\lambda$. Khoảng cách giữa hai khe 1 mm. Nếu di chuyển màn ra xa mặt phẳng hai khe một đoạn 50 cm
 thì khoảng vân trên màn tăng thêm 0,3 mm. Bước sóng của bức xạ dùng trong thí nghiệm là
 
 A. 400 nm.
@@ -1700,49 +1548,41 @@ C. 540 nm.
 D. 500 nm.
 
 ??? success "Đáp án và lời giải"
+    **Đáp án:** B. $600\,\mathrm{nm}$.
+
     **Hướng dẫn giải:**
+    $\Delta i=\dfrac{\lambda\Delta D}{a}$, nên
+    $\lambda=\dfrac{a\Delta i}{\Delta D}=\dfrac{1\times10^{-3}\cdot0{,}3\times10^{-3}}{0{,}50}=6\times10^{-7}\,\mathrm{m}=600\,\mathrm{nm}$.
 
-    Với hai nguồn cùng pha, cực đại thỏa $|d_2-d_1|=k\lambda$, cực tiểu thỏa $|d_2-d_1|=(k+\tfrac12)\lambda$; với giao thoa Young dùng $i=\lambda D/a$.
-
-    Vì di chuyển màn ra xa mặt phẳng hai khe một đoạn 50cm thì khoảng vân tăng thêm 0,3mm
-    𝑎(𝐷′ −𝐷) = 0,3𝑚𝑚<⇒ 𝜆=0,6. 10−6𝑚= 600 nm
 #### Bài 72
 
 <!-- source-id: BT-Chuong-II-p130-q35-295 -->
 
-Trong thí nghiệm Y-âng về giao thoa ánh sáng, khoảng cách giữa hai khe là 0,5 mm, khoảng
-cách từ hai khe đến màn quan sát là 2 m. Nguồn sáng dùng trong thí nghiệm gồm hai bức xạ có bước
-sóng
-1
-450nm
-λ=
- và
-2
-600nm
-λ=
-. Trên màn quan sát, gọi M, N là hai điểm ở cùng một phía so với
-vân trung tâm và cách vân trung tâm lần lượt là 5,5 mm và 22 mm. Trên đoạn MN, số vị trí vân sáng
-trùng nhau của hai bức xạ là:
+
+Trong thí nghiệm Y-âng về giao thoa ánh sáng, khoảng cách giữa hai khe là 0,5 mm, khoảng cách từ hai khe đến màn quan sát là 2 m. Nguồn sáng dùng trong thí nghiệm gồm hai bức xạ có bước sóng $\lambda_1=450$ nm và $\lambda_2=600$ nm. Trên màn quan sát, gọi M, N là hai điểm ở cùng một phía so với vân trung tâm và cách vân trung tâm lần lượt là 5,5 mm và 22 mm. Trên đoạn MN, số vị trí vân sáng trùng nhau của hai bức xạ là
 
 A. 4.
 
 B. 2.
 
-C. 5
+C. 5.
 
-D. 3
+D. 3.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
     **Hướng dẫn giải:**
+    Khoảng vân của bức xạ $\lambda_1$ là
+    $i_1=\dfrac{D\lambda_1}{a}=1{,}8\,\mathrm{mm}$.
+    Vân sáng trùng nhau thỏa $k_1\lambda_1=k_2\lambda_2$, nên
+    $\dfrac{k_1}{k_2}=\dfrac{\lambda_2}{\lambda_1}=\dfrac43$.
+    Vì vậy khoảng cách giữa hai vị trí trùng liên tiếp là
+    $i_{\mathrm{trùng}}=4i_1=7{,}2\,\mathrm{mm}$ và $x=7{,}2n$ với $n\in\mathbb Z$.
+    Trên đoạn MN:
+    $5{,}5\le7{,}2n\le22\Rightarrow n\in\{1,2,3\}$.
+    Vậy có 3 vị trí vân sáng trùng nhau của hai bức xạ.
 
-    Với hai nguồn cùng pha, cực đại thỏa $|d_2-d_1|=k\lambda$, cực tiểu thỏa $|d_2-d_1|=(k+\tfrac12)\lambda$; với giao thoa Young dùng $i=\lambda D/a$.
-
-    ⇒ Tọa độ các vị trí trùng: x
-    M, N nằm cùng phía so với vân trung tâm nên
-    Vậy có 3 vị trí vân sáng trùng nhau của 2 bức xạ.
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **D. 3**
+    *Đối chiếu nguồn: PDF có một dòng trung gian in nhầm hệ số $3{,}36n$, nhưng ngay trước và ngay sau đều xác định $x=7{,}2n$; phần trình bày trên giữ phép tính nhất quán với chính công thức của nguồn.*
 #### Bài 73
 
 <!-- source-id: BT-Chuong-II-p130-q36-296 -->
@@ -1762,15 +1602,13 @@ D. 8
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
     **Hướng dẫn giải:**
+    Từ dữ kiện đề, $\lambda=\dfrac{v}{f}=\dfrac{16}{80}=0{,}2\,\mathrm{m}=20\,\mathrm{cm}$.
+    Với hai nguồn cùng pha, điểm không dao động thỏa
+    $-\dfrac{AB}{\lambda}-\dfrac12<k<\dfrac{AB}{\lambda}-\dfrac12$.
+    Thay $AB=90\,\mathrm{cm}$ được $-5<k<4$, có $8$ giá trị nguyên.
+    Vậy trên AB có $8$ điểm không dao động.
 
-    Với hai nguồn cùng pha, cực đại thỏa $|d_2-d_1|=k\lambda$, cực tiểu thỏa $|d_2-d_1|=(k+\tfrac12)\lambda$; với giao thoa Young dùng $i=\lambda D/a$.
-
-    Ta có: Bước sóng
-    Do 2 nguồn cùng pha nên số điểm không dao động trên AB là số giá trị k nguyên thỏa mãn
-    Có 8 giá trị của k thỏa mãn yêu cầu nên có 8 điểm trên AB không dao động.
-    Vậy số điểm không dao động trên đoạn AB là 8 điểm
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **D. 8**
+    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **D. 8.**
 #### Bài 74
 
 <!-- source-id: BT-Chuong-II-p130-q37-297 -->
@@ -1790,18 +1628,14 @@ D. 9.
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
     **Hướng dẫn giải:**
-    𝑣
-    𝑓=
-    60
-    40 = 1,5𝑐𝑚
-    Do 2 nguồn cùng pha nên số điểm dao động cực đại trên AB là số giá trị k nguyên thỏa mãn
 
-    −𝐴𝐵
-    𝜆
-    &lt; 𝑘&lt; 𝐴𝐵
-    𝜆⇔−4,7 &lt; 𝑘&lt; 4,7 ⇒𝑘= ±4, ±3, ±2, ±1,0
-    Có 9 giá trị của k thỏa mãn yêu cầu nên có 9 điểm trên AB dao động cực đại.
-     Vậy số điểm không dao động trên đoạn AB là 9 điểm
+    Bước sóng $\lambda=\dfrac{v}{f}=\dfrac{60}{40}=1{,}5\,\mathrm{cm}$.
+
+    Hai nguồn cùng pha nên điểm cực đại trên AB ứng với các số nguyên $k$ thỏa
+
+    $-\dfrac{AB}{\lambda}<k<\dfrac{AB}{\lambda}$, tức $-4{,}7<k<4{,}7$.
+
+    Có 9 giá trị $k=0,\pm1,\pm2,\pm3,\pm4$, nên có 9 điểm cực đại.
 
 #### Bài 75
 
@@ -1812,24 +1646,28 @@ khoảng cách giữa hai khe là 0,6 mm. Khoảng vân trên màn quan sát đo
 đầu, nếu tịnh tiến màn quan sát một đoạn 25 cm lại gần mặt phẳng chứa hai khe thì khoảng vân mới
 trên màn là 0,8 mm. Bước sóng của ánh sáng dùng trong thí nghiệm là
 
-A. 0,64 μm.
+A. $0{,}64\,\mu\mathrm{m}$.
 
-B. 0,50 μm.
+B. $0{,}50\,\mu\mathrm{m}$.
 
-C. 0,45 μm.
+C. $0{,}45\,\mu\mathrm{m}$.
 
-D. 0,48 μm.
+D. $0{,}48\,\mu\mathrm{m}$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
     **Hướng dẫn giải:**
 
-    Với hai nguồn cùng pha, cực đại thỏa $|d_2-d_1|=k\lambda$, cực tiểu thỏa $|d_2-d_1|=(k+\tfrac12)\lambda$; với giao thoa Young dùng $i=\lambda D/a$.
+    Vì $i\propto D$, ta có $D'=D-0{,}25$ m và
 
-    Vì di chuyển màn một đoạn 25cm thì khoảng vân mới là 0,8mm nhỏ hơn khoảng vân ban đầu nên
-    = 0,8 <⇒ 𝐷= 1,25𝑚; 𝜆=0,48. 10−6𝑚= 0,48 μm.
+    $\dfrac{i'}{i}=\dfrac{0{,}8}{1}=\dfrac{D-0{,}25}{D}$.
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **D. 0,48 μm.**
+    Suy ra $D=1{,}25\,\mathrm{m}$. Do đó
+
+    $\lambda=\dfrac{ai}{D}=0{,}48\times10^{-6}\,\mathrm{m}=0{,}48\,\mu\mathrm{m}$.
+
+    Đối chiếu các lựa chọn, chọn D.
+
 #### Bài 76
 
 <!-- source-id: BT-Chuong-II-p131-q39-299 -->
@@ -1858,10 +1696,10 @@ D. 0,5 mm.
 
 <!-- source-id: BT-Chuong-II-p131-q40-300 -->
 
-Trong thí nghiệm về giao thoa ánh sáng, người ta chiếu ánh sáng đơn sắc có bước sóng λ vào
+Trong thí nghiệm về giao thoa ánh sáng, người ta chiếu ánh sáng đơn sắc có bước sóng $\lambda$ vào
 hai khe. Khoảng cách giữa 2 khe là 0,5 mm. Khoảng cách giữa 11 vân sáng liên tiếp trên màn đo được
 là 1,2 cm. Nếu dịch chuyển màn ra xa 2 khe thêm 30 cm thì đo được khoảng cách giữa 11 vân sáng liên
-tiếp là 1,5 cm. Bước sóng λ bằng
+tiếp là 1,5 cm. Bước sóng $\lambda$ bằng
 
 A. 500 nm.
 
@@ -1875,29 +1713,29 @@ D. 750 nm.
     **Đáp án:** A
     **Hướng dẫn giải:**
 
-    Với hai nguồn cùng pha, cực đại thỏa $|d_2-d_1|=k\lambda$, cực tiểu thỏa $|d_2-d_1|=(k+\tfrac12)\lambda$; với giao thoa Young dùng $i=\lambda D/a$.
+    Khoảng cách 11 vân sáng liên tiếp gồm 10 khoảng vân. Ban đầu $i=1{,}2/10=0{,}12\,\mathrm{cm}$; sau khi dịch màn $i'=1{,}5/10=0{,}15\,\mathrm{cm}$.
 
-    Khoảng cách 11 vân sáng liên tiếp ban đầu có 10 khoảng vân: 10i = 1,2 ⇒ i = 0,12cm = 12mm
-    Sau khi dịch chuyển màn ra xa hai khe thêm 30cm thì khoảng cách trên là 1,5cm
-     10i’ = 1,5 ⇒ i = 0,15cm = 15mm
-    = 1,25 <⇒ 𝐷= 1,2𝑚; 𝜆=0,5. 10−6𝑚= 500nm.
+    Vì $i\propto D$ và $D'=D+0{,}30$ m:
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. 500 nm.**
+    $\dfrac{i'}{i}=\dfrac{15}{12}=\dfrac{D+0{,}30}{D}=1{,}25$.
+
+    Suy ra $D=1{,}2\,\mathrm{m}$ và $\lambda=0{,}5\times10^{-6}\,\mathrm{m}=500\,\mathrm{nm}$. Đối chiếu các lựa chọn, chọn A.
+
 #### Bài 78
 
 <!-- source-id: BT-Chuong-II-p138-q1-313 -->
 
 Giao thoa ở mặt nước với hai nguồn sóng kết hợp đặt tại A và B dao động điều hòa cùng pha
-theo phương thẳng đứng. Sóng truyền ở mặt nước có bước sóng λ. Cực đại giao thoa nằm tại những
+theo phương thẳng đứng. Sóng truyền ở mặt nước có bước sóng $\lambda$. Cực đại giao thoa nằm tại những
 điểm có hiệu đường đi của hai sóng từ hai nguồn tới đó bằng
 
-A. 2kλ với k = 0, ± 1, ± 2, …
+A. $2k\lambda$ với $k=0,\pm1,\pm2,\ldots$
 
-B. (2k +1) λ với k = 0, ± 1, ± 2, …
+B. (2k +1) $\lambda$ với k = 0, ± 1, ± 2, …
 
-C. kλ với k = 0, ± 1, ± 2, …
+C. $k\lambda$ với $k=0,\pm1,\pm2,\ldots$
 
-D. (k + 0,5) λ với k = 0, ± 1, ± 2, …
+D. (k + 0,5) $\lambda$ với k = 0, ± 1, ± 2, …
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
@@ -1906,7 +1744,7 @@ D. (k + 0,5) λ với k = 0, ± 1, ± 2, …
     Với hai nguồn cùng pha, cực đại thỏa $|d_2-d_1|=k\lambda$, cực tiểu thỏa $|d_2-d_1|=(k+\tfrac12)\lambda$; với giao thoa Young dùng $i=\lambda D/a$.
 
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. kλ với k = 0, ± 1, ± 2, …**
+    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. $k\lambda$ với $k=0,\pm1,\pm2,\ldots$**
 #### Bài 79
 
 <!-- source-id: BT-Chuong-II-p138-q2-314 -->
@@ -1934,18 +1772,15 @@ D. hai lần khoảng vân.
 
 <!-- source-id: BT-Chuong-II-p138-q3-315 -->
 
-Sóng truyền từ A đến M với bước sóng λ = 60 cm. M cách A một khoảng d = 30 cm. So với
-sóng tại A thì sóng tại M
+Sóng truyền từ A đến M với bước sóng $\lambda=60$ cm. M cách A một khoảng $d=30$ cm. So với sóng tại A thì sóng tại M
 
 A. cùng pha với nhau.
 
-B. sớm pha hơn một góc là 3 / 2
-π
- rad.
+B. sớm pha hơn một góc $3\pi/2$ rad.
 
 C. ngược pha với nhau.
 
-D. vuông pha với nhau
+D. vuông pha với nhau.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
@@ -1962,13 +1797,13 @@ D. vuông pha với nhau
 Trong thí nghiệm Young về giao thoa ánh sáng, khoảng cách giữa hai khe là a, khoảng cách từ
 mặt phẳng chứa hai khe đến màn quan sát là D, khoảng vân i. Bước sóng ánh sáng chiếu vào hai khe là
 
-A. λ = D/(ai).
+A. $\lambda$ = D/(ai).
 
-B. λ = aD/i.
+B. $\lambda$ = aD/i.
 
-C. λ = ai/D.
+C. $\lambda$ = ai/D.
 
-D. λ = iD/a.
+D. $\lambda$ = iD/a.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
@@ -1977,34 +1812,29 @@ D. λ = iD/a.
     Với hai nguồn cùng pha, cực đại thỏa $|d_2-d_1|=k\lambda$, cực tiểu thỏa $|d_2-d_1|=(k+\tfrac12)\lambda$; với giao thoa Young dùng $i=\lambda D/a$.
 
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. λ = ai/D.**
+    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. $\lambda$ = ai/D.**
 #### Bài 82
 
 <!-- source-id: BT-Chuong-II-p138-q5-317 -->
 
-Để sóng từ 2 nguồn kết hợp dao động cùng pha tăng cường lẫn nhau khi giao thoa thì hiệu được
-đi của chúng
+Để sóng từ 2 nguồn kết hợp dao động cùng pha tăng cường lẫn nhau khi giao thoa thì hiệu đường đi của chúng
 
-A. bằng (k -
-1
-2)𝜆.
+A. bằng $\left(k-\dfrac12\right)\lambda$.
 
 B. bằng 0.
 
-C. bằng (k +
-1
-4)𝜆.
+C. bằng $\left(k+\dfrac14\right)\lambda$.
 
-D. bằng k𝜆.
+D. bằng $k\lambda$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
     **Hướng dẫn giải:**
 
-    Với hai nguồn cùng pha, cực đại thỏa $|d_2-d_1|=k\lambda$, cực tiểu thỏa $|d_2-d_1|=(k+\tfrac12)\lambda$; với giao thoa Young dùng $i=\lambda D/a$.
+    Hai sóng kết hợp cùng pha tăng cường lẫn nhau khi hiệu đường đi bằng $k\lambda$ với $k\in\mathbb Z$.
 
+    Đối chiếu các lựa chọn, chọn D.
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **D. bằng k𝜆.**
 #### Bài 83
 
 <!-- source-id: BT-Chuong-II-p138-q6-318 -->
@@ -2087,6 +1917,7 @@ D. 48cm/s.
 
 <!-- source-id: BT-Chuong-II-p139-q10-322 -->
 
+
 Tại hai điểm M và N trong một môi trường truyền sóng có hai nguồn sóng kết hợp cùng
 phương và cùng pha dao động. Biết biên độ, vận tốc của sóng không đổi trong quá trình truyền, tần số
 của sóng bằng 40 Hz và có sự giao thoa sóng trong đoạn MN. Trong đoạn MN, hai điểm dao động có
@@ -2103,220 +1934,151 @@ D. v = 1,2 m/s.
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
     **Hướng dẫn giải:**
-
-    Với hai nguồn cùng pha, cực đại thỏa $|d_2-d_1|=k\lambda$, cực tiểu thỏa $|d_2-d_1|=(k+\tfrac12)\lambda$; với giao thoa Young dùng $i=\lambda D/a$.
-
-    Tốc độ truyền sóng
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **D. v = 1,2 m/s.**
-### Vận dụng — Đúng/Sai
-
+    Trên đoạn nối hai nguồn cùng pha, hai cực đại gần nhau nhất cách nhau $\lambda/2$.
+    Do $\lambda/2=1{,}5\,\mathrm{cm}$ nên $\lambda=3\,\mathrm{cm}$.
+    Tốc độ truyền sóng $v=\lambda f=3\cdot40=120\,\mathrm{cm/s}=1{,}2\,\mathrm{m/s}$.
 #### Bài 87
 
 <!-- source-id: BT-Chuong-II-p132-q1-301 -->
 
-Trong thí nghiệm giao thoa ánh sáng
+Trong thí nghiệm giao thoa ánh sáng:
 
-Phát biểu
-Đúng Sai
-a) Khoảng vân sẽ giảm đi khi tăng khoảng cách từ màn chứa 2 khe và màn quan
-sát.
+a) Khoảng vân sẽ giảm đi khi tăng khoảng cách từ màn chứa 2 khe đến màn quan sát.
 
-S
-b) Tại một vị trí trên màn quan sát ban đầu là vân sáng, nếu dịch chuyển màn lại
-gần thì bậc của vân sáng giảm.
+b) Tại một vị trí trên màn quan sát ban đầu là vân sáng, nếu dịch chuyển màn lại gần thì bậc của vân sáng giảm.
 
-S
 c) Khoảng vân giảm đi khi tăng khoảng cách hai khe.
-Đ
 
-d) Tại một vị trí trên màn quan sát ban đầu là vân sáng, nếu tăng khoảng cách giữa
-hai khe thì bậc của vân sáng tăng.
-Đ
+d) Tại một vị trí trên màn quan sát ban đầu là vân sáng, nếu tăng khoảng cách giữa hai khe thì bậc của vân sáng tăng.
 
 ??? success "Đáp án và lời giải"
     **Hướng dẫn giải:**
-    a) Vì: i = λD
-    a nên khi D tăng thì i cũng tăng.
-    b) Vì: k =
-    𝑎𝑥
-    𝜆𝐷 nên khi D giảm thì k tăng, bậc của vân sáng tăng.
-    c) Vì: i = λD
-    a nên khi a tăng thì i giảm.
-    d) Vì: k =
-    𝑎𝑥
-    𝜆𝐷 nên khi a tăng thì k tăng, bậc của vân sáng tăng.
+
+    a) Vì $i=\dfrac{\lambda D}{a}$ nên khi $D$ tăng thì $i$ tăng.
+
+    b) Với một vị trí $x$ cố định, $k=\dfrac{ax}{\lambda D}$ nên khi $D$ giảm thì $k$ tăng.
+
+    c) Vì $i=\dfrac{\lambda D}{a}$ nên khi $a$ tăng thì $i$ giảm.
+
+    d) Với $x$ cố định, $k=\dfrac{ax}{\lambda D}$ nên khi $a$ tăng thì $k$ tăng.
 
 #### Bài 88
 
 <!-- source-id: BT-Chuong-II-p132-q2-302 -->
 
-Thực hiện thí nghiệm Young về giao thoa với ánh sáng đơn sắc có bước song 0,4 μm, khoảng
-cách giữa hai khe là 0,5 mm, khoảng cách từ mặt phẳng chứa hai khe đến màn là 1m.
 
-Phát biểu
-Đúng Sai
-a) Trên màn quan sát hai vân sáng liên tiếp cách nhau 0,6mm.
+Thực hiện thí nghiệm Young về giao thoa với ánh sáng đơn sắc có bước sóng $0{,}4\,\mu\mathrm{m}$, khoảng cách giữa hai khe là 0,5 mm, khoảng cách từ mặt phẳng chứa hai khe đến màn là 1 m.
 
-S
-b) Trên màn quan sát, vân sáng bậc 4 cách vân sáng trung tâm là 3,2mm.
-Đ
+a) Trên màn quan sát hai vân sáng liên tiếp cách nhau 0,6 mm.
 
-c) Tại điểm M trên màn cách vân sáng trung tâm (chính giữa) một khoảng
-5,6 mm có vân sáng bậc (thứ) 9
+b) Trên màn quan sát, vân sáng bậc 4 cách vân sáng trung tâm là 3,2 mm.
 
-S
-d) Tại điểm N trên màn cách vân sáng trung tâm (chính giữa) một khoảng
-2,0 mm có vân tối thứ 2
+c) Tại điểm M trên màn cách vân sáng trung tâm (chính giữa) một khoảng 5,6 mm có vân sáng bậc (thứ) 9.
 
-S
+d) Tại điểm N trên màn cách vân sáng trung tâm (chính giữa) một khoảng 2,0 mm có vân tối thứ 2.
 
 ??? success "Đáp án và lời giải"
     **Hướng dẫn giải:**
-    a) Vì: khoảng cách giữa hai vân sáng liên tiếp là khoảng vân i = λD
-    a =0,8mm
-    b) Vì: x4 = 4.i = 4. 0,8 = 3,2mm
-    c) Vì vân sáng bậc 9 cách vân trung tâm: x9 = 9.i = 9. 0,8 = 7,2mm.
-    d) Vì vân tối thứ 2 cách vân trung tâm: x2 =1,5.i = 1,5. 0,8 = 1,2mm.
-
+    a) Khoảng vân $i=\dfrac{\lambda D}{a}=0{,}8\,\mathrm{mm}$, nên phát biểu 0,6 mm là sai.
+    b) Vân sáng bậc 4: $x_4=4i=3{,}2\,\mathrm{mm}$.
+    c) Vân sáng bậc 9: $x_9=9i=7{,}2\,\mathrm{mm}$, không phải 5,6 mm.
+    d) Vân tối thứ 2: $x_{t2}=1{,}5i=1{,}2\,\mathrm{mm}$, không phải 2,0 mm.
 #### Bài 89
 
 <!-- source-id: BT-Chuong-II-p133-q3-303 -->
 
-Trên mặt chất lỏng tại có hai nguồn kết hợp A, B dao động với chu kỳ 0,02 (s). Tốc độ truyền
-sóng trên mặt chất lỏng là v = 15 cm/s. Trạng thái dao động của M1 cách A, B lần lượt những khoảng
-d1 = 12 cm, d2 = 14,4 cm và của M2 cách A, B lần lượt những khoảng d1’= 16,5 cm, d2’= 19,05 cm
+Trên mặt chất lỏng có hai nguồn kết hợp A, B dao động với chu kỳ 0,02 s. Tốc độ truyền sóng trên mặt chất lỏng là $v=15$ cm/s. Trạng thái dao động của $M_1$ cách A, B lần lượt những khoảng $d_1=12$ cm, $d_2=14{,}4$ cm và của $M_2$ cách A, B lần lượt những khoảng $d'_1=16{,}5$ cm, $d'_2=19{,}05$ cm.
 
-Phát biểu
-Đúng Sai
-a. Bước sóng: 𝜆 =0,3cm
-Đ
+a) Bước sóng $\lambda=0{,}3$ cm.
 
-b. M1 dao động với biên độ cực đại.
-Đ
+b) $M_1$ dao động với biên độ cực đại.
 
-c. M2 đứng yên không dao động.
-Đ
+c) $M_2$ đứng yên không dao động.
 
-d. M2 thuộc cực đại thứ tám kể từ trung trực.
-
-S
+d) $M_2$ thuộc cực đại thứ tám kể từ trung trực.
 
 ??? success "Đáp án và lời giải"
     **Hướng dẫn giải:**
-    a) Vì: bước sóng: 𝜆 =v.T=15.0,02=0,3cm.
-    b) Vì: d2 – d1=14, 4 - 12=2,4cm. 2,4 8
-    0,3= =&gt; k = 8 (k là số nguyên)
 
-    Do đó M1 dao động với biên độ cực đại
-    c) Vì: d2 – d1=19,05 – 16,5=2,55cm; 2,55 8,5
-    0,3 =
-    =&gt; M2 đứng yên không dao động
-    d) Vì 2,55 8,5
-    0,3 =
-     ; k = 8 =&gt; M2 thuộccực tiểu thứ chín kể từ trung trực.
+    a) $\lambda=vT=15\cdot0{,}02=0{,}3\,\mathrm{cm}$.
+
+    b) $d_2-d_1=14{,}4-12=2{,}4\,\mathrm{cm}$ và $2{,}4/0{,}3=8$, nên M1 nằm trên cực đại.
+
+    c) Với M2, $d_2'-d_1'=19{,}05-16{,}5=2{,}55\,\mathrm{cm}$ và $2{,}55/0{,}3=8{,}5$, nên M2 nằm trên cực tiểu.
+
+    d) Giá trị $8{,}5$ tương ứng cực tiểu thứ chín kể từ trung trực.
 
 #### Bài 90
 
 <!-- source-id: BT-Chuong-II-p133-q4-304 -->
 
-Tại mặt thoáng của một chất lỏng có hai nguồn sóng S1 và S2 dao động theo phương thẳng đứng
-với cùng phương trình u = acos40πt (a không đổi, t tính bằng s). Tốc độ trên mặt chất lỏng bằng 80
-cm/s.
+Tại mặt thoáng của một chất lỏng có hai nguồn sóng $S_1$ và $S_2$ dao động theo phương thẳng đứng với cùng phương trình $u=a\cos40\pi t$ ($a$ không đổi, $t$ tính bằng s). Tốc độ truyền sóng trên mặt chất lỏng bằng 80 cm/s.
 
-Phát biểu
-Đúng Sai
-a. Sóng có chu kỳ là 0,05s.
-Đ
+a) Sóng có chu kỳ là 0,05 s.
 
-b. Quãng đường sóng truyền đi được trong 1 chu kỳ là 4cm.
-Đ
+b) Quãng đường sóng truyền đi được trong 1 chu kỳ là 4 cm.
 
-c. Điểm M cách S1 S2 lần lượt những khoảng d1 = 15cm, d2 = 11cm đứng
-yên không dao động.
+c) Điểm M cách $S_1,S_2$ lần lượt những khoảng $d_1=15$ cm, $d_2=11$ cm đứng yên không dao động.
 
-S
-d. Khoảng cách ngắn nhất giữa hai phần tử chất lỏng trên đoạn thẳng S1S2
-dao động với biên độ cực đại là 2cm.
-Đ
+d) Khoảng cách ngắn nhất giữa hai phần tử chất lỏng trên đoạn thẳng $S_1S_2$ dao động với biên độ cực đại là 2 cm.
 
 ??? success "Đáp án và lời giải"
     **Hướng dẫn giải:**
-    a) Vì: ꞷ= 40π =&gt; T = 2π/ꞷ = 0,05s
-    b) Vì: Quãng đường sóng truyền đi được trong 1 chu kỳ là 1 bước sóng: 𝜆 =v.T=80.0,05=4cm.
-    c) Vì: d2 – d1=15 - 11=4cm= 𝜆 =&gt; M dao động với biên độ cực đại.
-    d) Vì khoảng cách ngắn nhất giữa hai phần tử chất lỏng trên đoạn thẳng S1S2 dao động với biên độ
-    cực đại là 2
-    λ=2cm
+
+    a) $\omega=40\pi$, nên $T=\dfrac{2\pi}{\omega}=0{,}05\,\mathrm{s}$.
+
+    b) $\lambda=vT=80\cdot0{,}05=4\,\mathrm{cm}$.
+
+    c) $|d_2-d_1|=|11-15|=4\,\mathrm{cm}=\lambda$, nên M thuộc cực đại.
+
+    d) Khoảng cách ngắn nhất giữa hai cực đại liên tiếp trên đoạn nối hai nguồn là $\lambda/2=2\,\mathrm{cm}$.
 
 #### Bài 91
 
 <!-- source-id: BT-Chuong-II-p133-q5-305 -->
 
-Trong thí nghiệm Young về giao thoa với ánh sáng đơn sắc có bước sóng, khoảng cách giữa
-hai khe hẹp là a, khoảng cách từ mặt phẳng chứa hai khe hẹp đến màn quan sát là 2 m. Trên màn quan
-sát, tại điểm M cách vân sáng trung tâm 6 mm, có vân sáng bậc 5. Khi thay đổi khoảng cách giữa hai
+Trong thí nghiệm Young về giao thoa với ánh sáng đơn sắc có bước sóng, khoảng cách giữa hai khe hẹp là $a$, khoảng cách từ mặt phẳng chứa hai khe hẹp đến màn quan sát là 2 m. Trên màn quan sát, tại điểm M cách vân sáng trung tâm 6 mm, có vân sáng bậc 5. Khi thay đổi khoảng cách giữa hai khe hẹp một đoạn bằng 0,2 mm sao cho vị trí vân sáng trung tâm không thay đổi thì tại M có vân sáng bậc 6.
 
-khe hẹp một đoạn bằng 0,2 mm sao cho vị trí vân sáng trung tâm không thay đổi thì tại M có vân sáng
-bậc 6.
+a) Tại M chuyển thành vân sáng bậc 6 chứng tỏ khoảng cách giữa hai khe hẹp tăng.
 
-Phát biểu
-Đúng Sai
-a. Tại M chuyển thành vân sáng bậc 6 chứng tỏ khoảng cách giữa hai khe
-hẹp tăng.
-Đ
+b) Khoảng cách giữa hai khe là 1 mm.
 
-b. Khoảng cách giữa hai khe là 1mm.
-Đ
+c) Ánh sáng đơn sắc dùng trong thí nghiệm có bước sóng bằng $6\,\mu\mathrm{m}$.
 
-c. Ánh sáng đơn sắc dùng trong thí nghiệm có bước sóng bằng 6μm.
-
-S
-d. Khoảng vân ban đầu là 1mm.
-
-S
+d) Khoảng vân ban đầu là 1 mm.
 
 ??? success "Đáp án và lời giải"
     **Hướng dẫn giải:**
-    a) Vì bậc vân tăng lên nên a tăng
-    b) Vì bậc vân tăng lên nên a tăng thêm 0,2mm ta có:
 
-    c) Vì: 𝜆 = 0,6μm
+    a) Tại cùng vị trí M, bậc vân tăng từ 5 lên 6 nên khoảng cách hai khe tăng.
 
-    d) Vì: i = λD
-    a = 1,2mm =&gt; Khang vân ban đầu là 1,2m.
+    b) Từ $x_M=5\dfrac{\lambda D}{a}=6\dfrac{\lambda D}{a+0{,}2}$ suy ra $a=1\,\mathrm{mm}$.
+
+    c) $\lambda=\dfrac{a x_M}{5D}=0{,}6\times10^{-6}\,\mathrm{m}=0{,}6\,\mu\mathrm{m}$.
+
+    d) Khoảng vân ban đầu $i=\dfrac{\lambda D}{a}=1{,}2\,\mathrm{mm}$.
 
 #### Bài 92
 
 <!-- source-id: BT-Chuong-II-p134-q6-306 -->
 
-Hai nguồn phát sóng A, B trên mặt nước dao động điều hoà với tần số f = 15Hz, cùng pha.
-Tại điểm M trên mặt nước cách các nguồn đoạn d1 = 14,5cm và d2 = 17,5cm sóng có biên độ cực đại.
-Giữa M và trung trực của AB có hai dãy cực đại khác.
+Hai nguồn phát sóng A, B trên mặt nước dao động điều hòa với tần số $f=15$ Hz, cùng pha. Tại điểm M trên mặt nước cách các nguồn đoạn $d_1=14{,}5$ cm và $d_2=17{,}5$ cm, sóng có biên độ cực đại. Giữa M và trung trực của AB có hai dãy cực đại khác.
 
-Phát biểu
-Đúng Sai
-a. Những điểm thuộc đường trung trực của đoạn nối hai nguồn là những
-điểm đứng yên không dao động.
+a) Những điểm thuộc đường trung trực của đoạn nối hai nguồn là những điểm đứng yên không dao động.
 
-S
-b. M thuộc dãy cực đại bậc 2.
+b) M thuộc dãy cực đại bậc 2.
 
-S
-c. Bước sóng: 𝜆 = 1cm
-Đ
+c) Bước sóng $\lambda=1$ cm.
 
-d. Tốc độ truyền sóng trên mặt nước là 15cm/s.
-Đ
+d) Tốc độ truyền sóng trên mặt nước là 15 cm/s.
 
 ??? success "Đáp án và lời giải"
     **Hướng dẫn giải:**
-    a. Vì: Hai nguồn dao động cùng pha nên những điểm thuộc đường trung trực của đoạn nối hai
-    nguồn là những điểm có biên độ cực đại.
-    b. Vì: Giữa điểm M và đường trung trực của hai nguồn có 2 dãy gồm những điểm dao động với biên
-    độ cực đại nên M thuộc dãy cực đại bậc 3.
-    c. Vì: Điểm M là điểm cách hai nguồn các khoảng lần lượt là 14,5 cm và 17,5 cm, sóng có biên độ
-    cực đại: d2 - d1 = 17,5 – 14,5 = 3 = k λ.
-    3
-    3 = 1cm.
-    d. Vì: Tốc độ truyền sóng trên mặt nước là: v = λ.f = 1.15 = 15 cm/s
+
+    a) Hai nguồn cùng pha nên các điểm trên đường trung trực của AB dao động với biên độ cực đại.
+
+    b) Giữa M và đường trung trực có 2 dãy cực đại khác nên M thuộc dãy cực đại bậc 3.
+
+    c) $d_2-d_1=17{,}5-14{,}5=3=k\lambda$. Với $k=3$, suy ra $\lambda=1\,\mathrm{cm}$.
+
+    d) $v=\lambda f=1\cdot15=15\,\mathrm{cm/s}$.

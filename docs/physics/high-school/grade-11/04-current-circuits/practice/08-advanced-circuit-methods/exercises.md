@@ -20,8 +20,11 @@ tags:
 Định luật nút Kirchhoff dựa trên
 
 A. bảo toàn điện tích.
+
 B. bảo toàn khối lượng cơ học.
+
 C. định luật phản xạ ánh sáng.
+
 D. lực Lorentz.
 
 ??? success "Đáp án và lời giải"
@@ -32,8 +35,11 @@ D. lực Lorentz.
 Định luật vòng Kirchhoff phát biểu tổng đại số các độ tăng và sụt điện thế quanh một vòng kín bằng
 
 A. 1.
+
 B. 0.
+
 C. vô hạn.
+
 D. dòng điện.
 
 ??? success "Đáp án và lời giải"
@@ -44,8 +50,11 @@ D. dòng điện.
 Định lí Thévenin cho phép thay mạng tuyến tính nhìn từ hai cực bằng
 
 A. một nguồn áp Thévenin nối tiếp điện trở Thévenin.
+
 B. chỉ một điện trở bằng 0.
+
 C. chỉ một tụ điện.
+
 D. một nguồn dòng nối tiếp điện trở.
 
 ??? success "Đáp án và lời giải"
@@ -56,8 +65,11 @@ D. một nguồn dòng nối tiếp điện trở.
 Trong trạng thái xác lập DC lâu dài, tụ điện lí tưởng trong nhánh mạch được xem gần như
 
 A. dây dẫn ngắn mạch.
+
 B. nhánh hở đối với dòng một chiều.
+
 C. nguồn dòng.
+
 D. điện trở âm.
 
 ??? success "Đáp án và lời giải"
@@ -70,8 +82,11 @@ D. điện trở âm.
 Về phương pháp mạch nâng cao:
 
 a) Kirchhoff dùng được cho mạng nhiều vòng.
+
 b) Xếp chồng áp dụng cho mạng tuyến tính với nhiều nguồn độc lập.
+
 c) Khi “tắt” nguồn áp lí tưởng trong xếp chồng, thay nó bằng ngắn mạch.
+
 d) Khi “tắt” nguồn dòng lí tưởng, thay bằng ngắn mạch.
 
 ??? success "Đáp án và lời giải"
@@ -85,8 +100,11 @@ d) Khi “tắt” nguồn dòng lí tưởng, thay bằng ngắn mạch.
 Tụ điện trong mạch DC:
 
 a) Ngay sau thao tác đóng/ngắt, điện áp trên tụ không thể nhảy đột ngột trong mô hình lí tưởng nếu không có dòng xung vô hạn.
+
 b) Ở xác lập lâu dài, dòng qua tụ bằng 0.
+
 c) Năng lượng tụ là $\frac12CU^2$.
+
 d) Tụ luôn tương đương ngắn mạch ở mọi thời điểm.
 
 ??? success "Đáp án và lời giải"
@@ -143,43 +161,30 @@ Mạch hai vòng có một nguồn 12 V. Vòng trái gồm nguồn và R1=2 Ω; 
 
 ## Ngân hàng bài tập mở rộng
 
-> Các bài dưới đây được đánh số nối tiếp phần bài tập phía trên. Đề bài được trình bày bằng Markdown; chỉ đồ thị, hình vẽ hoặc sơ đồ thực sự cần thiết mới được giữ dưới dạng hình. Đáp án và lời giải được đặt trong nút mở rộng ngay dưới từng bài.
-
 ### Nhận biết — Trả lời ngắn
 
 #### Bài 11
 
 <!-- source-id: BT-Chuong-IV-p113-q6-348 -->
 
-Cho sơ đồ mạch điện như hình vẽ
-1
-15V, r
-1 ,R
-2
-=
-= Ω
-= Ω
-E
-.Biết công
-suất tiêu thụ trên R lớn nhất. R có giá trị bao nhiêu Ω? (Kết quả làm tròn sau
-dấu phẩy hai chữ số thập phân)
+Cho sơ đồ mạch điện như hình vẽ, biết $\mathcal E=15\,\mathrm V$, $r=1\,\Omega$, $R_1=2\,\Omega$. Biết công suất tiêu thụ trên $R$ lớn nhất. Giá trị của $R$ bằng bao nhiêu $\Omega$? (Kết quả làm tròn đến hai chữ số thập phân.)
 
 ![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/iv_p113_q6_348_fig1.webp){ loading=lazy }
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** $0{,}67$
+    **Đáp án:** $0{,}67\,\Omega$.
+
     **Hướng dẫn giải:**
+    Điện trở mạch ngoài là $R_N=R_1\parallel R=\dfrac{2R}{2+R}$, nên
+    $I=\dfrac{\mathcal E}{R_N+r}=\dfrac{15(2+R)}{3R+2}$.
 
-    Đặt chiều dòng điện giả định, viết phương trình nút và phương trình vòng với quy ước dấu nhất quán, rồi giải hệ.
+    Hiệu điện thế hai đầu $R$:
+    $U=IR_N=\dfrac{30R}{3R+2}$.
 
-    Cường độ dòng điện qua mạch chính:
-    Hiệu điện thế hai đầu R:
-    Cường độ dòng điện qua R:
-    Công suất tiêu thụ trên R:
-    Áp dụng bất đẳng thức Cauchy ta có:
-    , dấu bằng xảy ra khi
+    Vì vậy
+    $P_R=\dfrac{U^2}{R}=\dfrac{900R}{(3R+2)^2}=\dfrac{900}{9R+12+4/R}$.
 
-    Vậy kết quả cần tìm là **$0{,}67$**.
+    Theo AM-GM, $9R+4/R\ge12$, dấu bằng khi $9R=4/R$, tức $R=2/3\,\Omega\approx0{,}67\,\Omega$.
 ### Nhận biết — Trắc nghiệm 4 lựa chọn
 
 #### Bài 12
@@ -205,132 +210,138 @@ D. Để giảm điện trở trong mạch.
 
 <!-- source-id: BT-Chuong-IV-p38-q8-138 -->
 
-Để bóng đèn 120 V – 60 W sáng bình thường ở mạng điện có hiệu điện thế 220 V người ta mắc
-nối tiếp nó với điện trở R có giá trị là
+Để bóng đèn $120\,\mathrm V-60\,\mathrm W$ sáng bình thường ở mạng điện có hiệu điện thế $220\,\mathrm V$, người ta mắc nối tiếp nó với điện trở $R$ có giá trị là
 
-A. 240 Ω.
+A. $240\,\Omega$.
 
-B. 200 Ω.
+B. $200\,\Omega$.
 
-C. 120 Ω.
+C. $120\,\Omega$.
 
-D. 180 Ω.
+D. $180\,\Omega$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** B
+
     **Hướng dẫn giải:**
+    Khi đèn sáng bình thường, $I=P/U=60/120=0{,}5\,\mathrm A$.
 
-    Đặt chiều dòng điện giả định, viết phương trình nút và phương trình vòng với quy ước dấu nhất quán, rồi giải hệ.
+    Điện trở định mức của đèn là $R_\text{đ}=U^2/P=120^2/60=240\,\Omega$.
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **B. 200 Ω.**
+    Tổng điện trở nối tiếp cần có là $R_\text{tđ}=220/0{,}5=440\,\Omega$, nên
+    $R=440-240=200\,\Omega$.
+
+    Chọn **B**.
 #### Bài 14
 
 <!-- source-id: BT-Chuong-IV-p101-q40-302 -->
 
-Cho mạch điện như hình. Nguồn điện có hiệu điện thế U không
-đổi, điện trở R0 = 5 Ωkhông đổi. Xác định R để công suất tiêu thụ trên R là
-cực đại.
-
-A. R = 5 Ω.
-
-B. R = 10 Ω.
-
-C. R = 2,5 Ω.
-
-D. R = 3,5 Ω.
+Cho mạch điện như hình. Nguồn điện có hiệu điện thế $U$ không đổi, điện trở $R_0=5\,\Omega$ không đổi. Xác định $R$ để công suất tiêu thụ trên $R$ là cực đại.
 
 ![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/iv_p101_q40_302_fig1.webp){ loading=lazy }
 
+A. $R=5\,\Omega$.
+
+B. $R=10\,\Omega$.
+
+C. $R=2{,}5\,\Omega$.
+
+D. $R=3{,}5\,\Omega$.
+
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
+
     **Hướng dẫn giải:**
 
-    Đặt chiều dòng điện giả định, viết phương trình nút và phương trình vòng với quy ước dấu nhất quán, rồi giải hệ.
+    Cường độ dòng điện là
+    $I=\frac{U}{R_0+R}.$
+    Công suất trên $R$:
+    $P_R=I^2R=\frac{U^2R}{(R_0+R)^2} =\frac{U^2}{R+\dfrac{R_0^2}{R}+2R_0}.$
+    Theo AM-GM, $R+\dfrac{R_0^2}{R}\ge2R_0$, dấu bằng khi $R=R_0=5\,\Omega$. Vì vậy $P_R$ cực đại khi $R=5\,\Omega$.
 
-    Cường độ dòng điện của mạch:
-    Công suất tiêu thụ trên điện trở R là:
-    Nên công suất tiêu thụ trên R:
-    Công suất cực đại
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. R = 5 Ω.**
+    Chọn **A**.
 #### Bài 15
 
 <!-- source-id: BT-Chuong-IV-p102-q47-309 -->
 
-Cho mạch điện như hình vẽ, bỏ qua điện trở của dây nối, biết R1=0,1Ω, r=1,1Ω.
-Phải chọn R bằng bao nhiêu để công suất tiêu thụ trên R là cực đại?
-
-A. 1Ω.
-
-B. 1,2Ω.
-
-C. 1,4Ω.
-
-D. 1,6Ω.
+Cho mạch điện như hình vẽ, bỏ qua điện trở của dây nối, biết $R_1=0{,}1\,\Omega$, $r=1{,}1\,\Omega$. Phải chọn $R$ bằng bao nhiêu để công suất tiêu thụ trên $R$ là cực đại?
 
 ![Sơ đồ mạch tối ưu công suất trên R](../../../assets/exercise-figures/clean-v14/iv_p102_q47_309.webp){ loading=lazy }
 
+A. $1\,\Omega$.
+
+B. $1{,}2\,\Omega$.
+
+C. $1{,}4\,\Omega$.
+
+D. $1{,}6\,\Omega$.
+
 ??? success "Đáp án và lời giải"
     **Đáp án:** B
+
     **Hướng dẫn giải:**
 
-    Đặt chiều dòng điện giả định, viết phương trình nút và phương trình vòng với quy ước dấu nhất quán, rồi giải hệ.
+    Dòng điện trong mạch là $I=\dfrac{E}{R+R_1+r}$, nên
+    $P_R=I^2R =\frac{E^2R}{(R+R_1+r)^2} =\frac{E^2}{R+\dfrac{(R_1+r)^2}{R}+2(R_1+r)}.$
+    Công suất cực đại khi $R=R_1+r=0{,}1+1{,}1=1{,}2\,\Omega$.
 
-    Theo bất đẳng thức Cosi để
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **B. 1,2Ω.**
+    Chọn **B**.
 #### Bài 16
 
 <!-- source-id: BT-Chuong-IV-p103-q48-310 -->
 
-Cho mạch điện như hình vẽ, bỏ qua điện trở của dây nối, biết R1=0,1Ω, r=1,1Ω.
-Phải chọn x bằng bao nhiêu để công suất tiêu thụ ở mạch ngoài là lớn nhất?
-
-A. 1Ω.
-
-B. 1,2Ω.
-
-C. 1,4Ω.
-
-D. 1,6Ω.
+Cho mạch điện như hình vẽ, bỏ qua điện trở của dây nối, biết $R_1=0{,}1\,\Omega$, $r=1{,}1\,\Omega$. Phải chọn $x$ bằng bao nhiêu để công suất tiêu thụ ở mạch ngoài là lớn nhất?
 
 ![Sơ đồ mạch tối ưu công suất mạch ngoài](../../../assets/exercise-figures/clean-v14/iv_p103_q48_310.webp){ loading=lazy }
 
+A. $1\,\Omega$.
+
+B. $1{,}2\,\Omega$.
+
+C. $1{,}4\,\Omega$.
+
+D. $1{,}6\,\Omega$.
+
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
+
     **Hướng dẫn giải:**
 
-    Đặt chiều dòng điện giả định, viết phương trình nút và phương trình vòng với quy ước dấu nhất quán, rồi giải hệ.
+    Điện trở mạch ngoài là $R_N=R_1+x$. Công suất tiêu thụ ở mạch ngoài:
+    $P_N=\frac{E^2R_N}{(R_N+r)^2}.$
+    Công suất mạch ngoài cực đại khi $R_N=r$, do đó
+    $R_1+x=r \Rightarrow x=r-R_1=1{,}1-0{,}1=1\,\Omega.$
 
-    Theo bất đẳng thức Cosi để
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. 1Ω.**
+    Chọn **A**.
 #### Bài 17
 
 <!-- source-id: BT-Chuong-IV-p109-q18-338 -->
 
-Cho mạch điện như hình vẽ, bỏ qua điện trở của dây nối, cho E= 15V; r=1Ω; R1=2Ω. Xác
-định R để công suất tiêu thụ trên R đạt cực đại và tính công suất cực đại đó
-
-A. R = 1Ω, Pmax = 36W.
-
-B. R = 0,5Ω, Pmax = 21,3W.
-
-C. R=1,5Ω, Pmax = 31,95W.
-
-D. R =2/3Ω, Pmax = 37,5W.
+Cho mạch điện như hình vẽ, bỏ qua điện trở của dây nối, cho $E=15\,\mathrm V$, $r=1\,\Omega$, $R_1=2\,\Omega$. Xác định $R$ để công suất tiêu thụ trên $R$ đạt cực đại và tính công suất cực đại đó.
 
 ![Sơ đồ mạch tối ưu công suất trên R](../../../assets/exercise-figures/clean-v14/iv_p109_q18_338.webp){ loading=lazy }
 
+A. $R=1\,\Omega$, $P_{\max}=36\,\mathrm W$.
+
+B. $R=0{,}5\,\Omega$, $P_{\max}=21{,}3\,\mathrm W$.
+
+C. $R=1{,}5\,\Omega$, $P_{\max}=31{,}95\,\mathrm W$.
+
+D. $R=\dfrac{2}{3}\,\Omega$, $P_{\max}=37{,}5\,\mathrm W$.
+
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
+
     **Hướng dẫn giải:**
 
-    Đặt chiều dòng điện giả định, viết phương trình nút và phương trình vòng với quy ước dấu nhất quán, rồi giải hệ.
+    Điện trở mạch ngoài tương đương là $R_N=\dfrac{R_1R}{R_1+R}$. Với $E=15\,\mathrm V$, $r=1\,\Omega$, $R_1=2\,\Omega$, hiệu điện thế hai đầu $R$ là
+    $U=\frac{30R}{2+3R}.$
+    Do đó
+    $P_R=\frac{U^2}{R} =\frac{900R}{(2+3R)^2} =\frac{900}{\dfrac{4}{R}+12+9R}.$
+    Theo AM-GM, $\dfrac{4}{R}+9R\ge12$, dấu bằng khi $\dfrac{4}{R}=9R$, tức $R=\dfrac{2}{3}\,\Omega$. Khi đó
+    $P_{\max}=\frac{900}{24}=37{,}5\,\mathrm W.$
 
-    Theo bất đẳng thức Cosi để
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **D. R =2/3Ω, Pmax = 37,5W.**
+    Chọn **D**.
 ### Thông hiểu — Trắc nghiệm 4 lựa chọn
 
 #### Bài 18
@@ -349,9 +360,7 @@ D. mà dụng cụ đó có thể đạt được bất cứ lúc nào.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
+
     **Hướng dẫn giải:**
 
-    Đặt chiều dòng điện giả định, viết phương trình nút và phương trình vòng với quy ước dấu nhất quán, rồi giải hệ.
-
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. mà dụng cụ đó đạt được khi hoạt động bình thường.**
+    Công suất định mức là công suất của dụng cụ khi hoạt động bình thường ở các điều kiện định mức. Vì vậy chọn **C**.

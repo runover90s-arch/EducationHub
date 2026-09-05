@@ -20,8 +20,11 @@ tags:
 Suất điện động tự cảm có độ lớn
 
 A. $|\mathcal E_L|=L|\Delta I|/\Delta t$.
+
 B. $|\mathcal E_L|=I/L$.
+
 C. $|\mathcal E_L|=LI^2$.
+
 D. $|\mathcal E_L|=R/L$.
 
 ??? success "Đáp án và lời giải"
@@ -32,8 +35,11 @@ D. $|\mathcal E_L|=R/L$.
 Đơn vị của hệ số tự cảm L là
 
 A. tesla.
+
 B. henry.
+
 C. weber trên mét vuông.
+
 D. coulomb.
 
 ??? success "Đáp án và lời giải"
@@ -44,8 +50,11 @@ D. coulomb.
 Năng lượng từ trường trong cuộn cảm mang dòng I là
 
 A. $W=LI^2$.
+
 B. $W=\frac12LI^2$.
+
 C. $W=I^2/(2L)$.
+
 D. $W=L/I$.
 
 ??? success "Đáp án và lời giải"
@@ -58,8 +67,11 @@ D. $W=L/I$.
 Tự cảm:
 
 a) Xuất hiện khi dòng qua chính mạch biến thiên.
+
 b) Suất điện động tự cảm chống lại sự biến thiên dòng theo Lenz.
+
 c) Cuộn cảm tích trữ năng lượng từ trường.
+
 d) Khi I không đổi theo thời gian, suất điện động tự cảm lý tưởng khác 0.
 
 ??? success "Đáp án và lời giải"

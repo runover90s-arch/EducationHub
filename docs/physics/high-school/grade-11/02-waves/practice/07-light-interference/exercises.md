@@ -20,8 +20,11 @@ tags:
 Trong thí nghiệm Young, khoảng vân được tính bởi
 
 A. $i=aD/\lambda$.
+
 B. $i=\lambda D/a$.
+
 C. $i=\lambda a/D$.
+
 D. $i=D/(\lambda a)$.
 
 ??? success "Đáp án và lời giải"
@@ -32,8 +35,11 @@ D. $i=D/(\lambda a)$.
 Nếu tăng khoảng cách từ hai khe đến màn gấp đôi, các đại lượng khác không đổi, khoảng vân
 
 A. giảm 2 lần.
+
 B. không đổi.
+
 C. tăng 2 lần.
+
 D. tăng 4 lần.
 
 ??? success "Đáp án và lời giải"
@@ -44,8 +50,11 @@ D. tăng 4 lần.
 Vân sáng bậc $k$ có vị trí
 
 A. $x=ki$.
+
 B. $x=(k+1/2)i$.
+
 C. $x=i/k$.
+
 D. $x=2ki$.
 
 ??? success "Đáp án và lời giải"
@@ -58,8 +67,11 @@ D. $x=2ki$.
 Trong thí nghiệm Young với ánh sáng đơn sắc:
 
 a) Vân trung tâm là vân sáng.
+
 b) Hai vân sáng liên tiếp cách nhau một khoảng vân.
+
 c) Vân tối thứ nhất cách vân trung tâm $i$.
+
 d) Tăng bước sóng làm khoảng vân tăng.
 
 ??? success "Đáp án và lời giải"
@@ -105,8 +117,6 @@ Trong thí nghiệm Young, trên đoạn đối xứng quanh vân trung tâm dà
     Cách đếm số khoảng giữa các vân là điểm dễ sai: số khoảng luôn bằng số vân trừ 1 khi cả hai đầu là vân.
 
 ## Ngân hàng bài tập mở rộng
-
-> Các bài dưới đây được đánh số nối tiếp phần bài tập phía trên. Đề bài được trình bày bằng Markdown; chỉ đồ thị, hình vẽ hoặc sơ đồ thực sự cần thiết mới được giữ dưới dạng hình. Đáp án và lời giải được đặt trong nút mở rộng ngay dưới từng bài.
 
 ### Nhận biết — Trả lời ngắn
 
@@ -157,13 +167,13 @@ với $t$ tính bằng giây. Tốc độ truyền sóng trên mặt chất lỏ
 Trong thí nghiệm Y-âng về giao thoa ánh sáng, biết a = 5 mm, D = 2 m. Khoảng cách giữa 6
 vân sáng liên tiếp là 1,5 mm. Bước sóng của ánh sáng đơn sắc là
 
-A. 0,625μm.
+A. $0{,}625\,\mu\mathrm{m}$.
 
-B. 0,71 μm.
+B. $0{,}71\,\mu\mathrm{m}$.
 
-C. 0,75 μm.
+C. $0{,}75\,\mu\mathrm{m}$.
 
-D. 0,69 μm.
+D. $0{,}69\,\mu\mathrm{m}$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
@@ -171,13 +181,13 @@ D. 0,69 μm.
 
     Trong thí nghiệm Young, $i=\lambda D/a$; vân sáng có $x_k=ki$, còn vân tối có $x=(k+\tfrac12)i$.
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. 0,75 μm.**
+    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. $0{,}75\,\mu\mathrm{m}$.**
 #### Bài 12
 
 <!-- source-id: BT-Chuong-II-p200-q4-458 -->
 
 Trong thí nghiệm Y-âng về giao thoa ánh sáng, các khe S1,S2 được chiếu sáng bởi ánh sáng
-đơn sắc bước sóng 0,5 µm. Khoảng cách giữa hai khe a = 1 mm. Khoảng cách giữa mặt phẳng chứa
+đơn sắc bước sóng $0{,}5\,\mu\mathrm{m}$. Khoảng cách giữa hai khe a = 1 mm. Khoảng cách giữa mặt phẳng chứa
 
 hai khe và màn quan sát E là D = 3 m. Xét trong miền giao thoa có bề rộng là 12,75 mm thì số vân
 sáng quan sát được là
@@ -191,11 +201,16 @@ C. 12 vân.
 D. 10 vân.
 
 ??? success "Đáp án và lời giải"
+    **Đáp án: B.**
+
     **Hướng dẫn giải:**
 
-    Trong thí nghiệm Young, $i=\lambda D/a$; vân sáng có $x_k=ki$, còn vân tối có $x=(k+\tfrac12)i$.
+    Khoảng vân
 
-    Có 9 vân sáng
+    $\displaystyle i=\frac{\lambda D}{a}=\frac{0{,}5\times10^{-6}\cdot3}{10^{-3}}=1{,}5\,\text{mm}.$
+
+    Miền giao thoa rộng $12{,}75\,\text{mm}$ và đối xứng qua vân trung tâm, nên mỗi phía có bề rộng $6{,}375\,\text{mm}$. Các vân sáng thỏa $|k|i\le6{,}375\,\text{mm}$, tức $|k|\le4{,}25$, nên $k=-4,-3,\ldots,4$: có $9$ vân sáng.
+
 #### Bài 13
 
 <!-- source-id: BT-Chuong-II-p211-q4-486 -->
@@ -224,19 +239,19 @@ D. 4 khoảng vân.
 Trong một thí nghiệm về giao thoa ánh sáng, tại điểm M có vân tối khi hiệu số pha của hai
 sóng ánh sáng từ hai nguồn kết hợp đến M bằng
 
-A. số chẵn lần π/2.
+A. số chẵn lần $\pi$/2.
 
-B. số lẻ lần π/2.
+B. số lẻ lần $\pi$/2.
 
-C. số chẵn lần π.
+C. số chẵn lần $\pi$.
 
-D. số lẻ lần π.
+D. số lẻ lần $\pi$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
     **Hướng dẫn giải:**
     Trong một thí nghiệm về giao thoa ánh sáng, tại điểm M có vân tối khi hiệu số pha của hai sóng ánh
-    sáng từ hai nguồn kết hợp đến M bằng số lẻ lần π.
+    sáng từ hai nguồn kết hợp đến M bằng số lẻ lần $\pi$.
 
 #### Bài 15
 
@@ -246,13 +261,13 @@ Trong thí nghiệm Y-âng về giao thoa ánh sáng, giữa hai điểm P và Q
 mm chỉ có 5 vân sáng mà tại P là một trong 5 vân sáng đó, còn tại Q là vị trí của vân tối. Vị trí vân tối
 thứ 2 cách vân trung tâm một khoảng là
 
-A. 0,5.10-3 m.
+A. $0{,}5\times10^{-3}$ m.
 
-B. 5.10-3 m.
+B. $5\times10^{-3}$ m.
 
-C. 3.10-3 m.
+C. $3\times10^{-3}$ m.
 
-D. 0,3.10-3 m.
+D. $0{,}3\times10^{-3}$ m.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
@@ -263,7 +278,7 @@ D. 0,3.10-3 m.
     Giữa hai điểm P và Q trên màn cách nhau 9 mm chỉ có 5 vân sáng mà tại P là một trong 5 vân
     sáng đó, còn tại Q là vị trí của vân tối
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. 3.10-3 m.**
+    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. $3\times10^{-3}$ m.**
 ### Thông hiểu — Trắc nghiệm 4 lựa chọn
 
 #### Bài 16

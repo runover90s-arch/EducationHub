@@ -467,7 +467,6 @@ $$
 48=36+12.
 $$
 
-<!-- V9_CHAPTER_BANK -->
 ## Đáp án theo từng bài trong chương
 
 Mỗi ngân hàng giữ lời giải riêng để tránh một trang lời giải quá dài và giúp đối chiếu đúng bài đang luyện.
@@ -483,7 +482,6 @@ Mỗi ngân hàng giữ lời giải riêng để tránh một trang lời giả
 - **Bài 9 — Thực hành đo suất điện động và điện trở trong của pin**: [Mở đáp án và lời giải](practice/09-practical-emf-internal-resistance/solutions.md)
 - **Bài 10 — Đoạn mạch chứa nguồn, máy thu và tụ điện**: [Mở đáp án và lời giải](practice/10-source-receiver-capacitor-branches/solutions.md)
 
-<!-- /V9_CHAPTER_BANK -->
 
 ---
 

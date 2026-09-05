@@ -251,11 +251,9 @@ Hạt q dương bay ngang vào trường E hướng lên. Quỹ đạo cong lên
 4. Đổi đơn vị electron/proton cẩn thận.
 5. Kiểm tra xem trọng lực có được bỏ qua không.
 
-<!-- V9_SOURCE_TYPES -->
+## Các dạng bài trọng tâm
 
-## Các dạng bài được hệ thống hóa từ ngân hàng PDF
-
-Các dạng dưới đây chỉ sử dụng những nhóm bài đã được gọi tên rõ trong các tài liệu bài tập. Phần trình bày được tổ chức lại để người học nhận diện đề, chọn công cụ và tự kiểm tra kết quả; không tạo thêm tên dạng mới.
+Các nhóm bài dưới đây được tổ chức theo dấu hiệu nhận biết và công cụ giải để người học chọn phương pháp phù hợp và tự kiểm tra kết quả.
 
 ### Dạng 1 — Điện tích chuyển động cùng phương với điện trường
 
@@ -263,7 +261,7 @@ Trong điện trường đều, lực điện không đổi nên gia tốc $a=qE
 
 Với electron, lực và gia tốc ngược hướng điện trường. Nếu bỏ qua trọng lực, cần nói rõ vì sao hoặc theo giả thiết đề.
 
-### Dạng 3 — Điện tích chuyển động vuông góc với điện trường
+### Dạng 2 — Điện tích chuyển động vuông góc với điện trường
 
 Tách chuyển động thành hai phương độc lập: theo phương ban đầu là chuyển động thẳng đều, theo phương điện trường là chuyển động biến đổi đều với gia tốc $a=qE/m$. Ghép hai phương để tìm phương trình quỹ đạo, thời gian bay, độ lệch và vận tốc khi ra khỏi vùng điện trường.
 
@@ -275,7 +273,7 @@ Dùng định lí động năng hoặc bảo toàn năng lượng điện–đ�
 
 Giữ dấu của $q$ để biết động năng tăng hay giảm; nếu biểu thức cho $v^2&lt;0$ thì trạng thái giả định không thể đạt được.
 
-### Dạng 2 — Cân bằng của hạt mang điện trong điện trường đều
+### Dạng 4 — Cân bằng của hạt mang điện trong điện trường đều
 
 **Dấu hiệu nhận biết.** Hạt tích điện đứng yên hoặc chuyển động thẳng đều trong điện trường; đề có thêm trọng lực, lực căng, lực đàn hồi hoặc một lực ngoài khác.
 

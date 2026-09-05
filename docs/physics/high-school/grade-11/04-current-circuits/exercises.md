@@ -208,23 +208,21 @@ Hai nút A,B được nối bởi ba nhánh thuần trở/nguồn. Khi lập ph�
 ### Câu 51 — Máy thu
 Một máy thu có U=24 V, suất phản điện 18 V, điện trở trong 3 Ω. Tính I, công suất điện nhận, công suất hữu ích mô hình và công suất Joule nội. Kiểm tra cân bằng công suất.
 
-<!-- V9_CHAPTER_BANK -->
 ## Kho luyện tập theo từng bài trong chương
 
 Phần dưới đây **không sao chép lặp lại câu hỏi**. Nó gom các ngân hàng theo từng bài để người học có thể luyện hàng trăm câu trong chương mà vẫn biết mỗi câu thuộc kiến thức nào.
 
 - **Bài 1 — Dòng điện và cường độ dòng điện** — 87 câu/bài: [Bài tập](practice/01-current-intensity/exercises.md) · [Đáp án](practice/01-current-intensity/solutions.md)
-- **Bài 2 — Điện trở và định luật Ohm cho đoạn mạch** — 105 câu/bài: [Bài tập](practice/02-resistance-ohm-law/exercises.md) · [Đáp án](practice/02-resistance-ohm-law/solutions.md)
+- **Bài 2 — Điện trở và định luật Ohm cho đoạn mạch** — 102 câu/bài: [Bài tập](practice/02-resistance-ohm-law/exercises.md) · [Đáp án](practice/02-resistance-ohm-law/solutions.md)
 - **Bài 3 — Nguồn điện, suất điện động và điện trở trong** — 48 câu/bài: [Bài tập](practice/03-emf-internal-resistance/exercises.md) · [Đáp án](practice/03-emf-internal-resistance/solutions.md)
-- **Bài 4 — Năng lượng điện, công suất và định luật Joule–Lenz** — 88 câu/bài: [Bài tập](practice/04-energy-power-joule/exercises.md) · [Đáp án](practice/04-energy-power-joule/solutions.md)
+- **Bài 4 — Năng lượng điện, công suất và định luật Joule–Lenz** — 87 câu/bài: [Bài tập](practice/04-energy-power-joule/exercises.md) · [Đáp án](practice/04-energy-power-joule/solutions.md)
 - **Bài 5 — Định luật Ohm cho toàn mạch** — 30 câu/bài: [Bài tập](practice/05-full-circuit-ohm-law/exercises.md) · [Đáp án](practice/05-full-circuit-ohm-law/solutions.md)
-- **Bài 6 — Ghép nguồn thành bộ** — 22 câu/bài: [Bài tập](practice/06-source-combinations/exercises.md) · [Đáp án](practice/06-source-combinations/solutions.md)
+- **Bài 6 — Ghép nguồn thành bộ** — 21 câu/bài: [Bài tập](practice/06-source-combinations/exercises.md) · [Đáp án](practice/06-source-combinations/solutions.md)
 - **Bài 7 — Đọc và biến đổi mạch; ampe kế, vôn kế lí tưởng** — 13 câu/bài: [Bài tập](practice/07-circuit-reading-meters/exercises.md) · [Đáp án](practice/07-circuit-reading-meters/solutions.md)
 - **Bài 8 — Kirchhoff, xếp chồng, nguồn tương đương và mạch RC** — 18 câu/bài: [Bài tập](practice/08-advanced-circuit-methods/exercises.md) · [Đáp án](practice/08-advanced-circuit-methods/solutions.md)
 - **Bài 9 — Thực hành đo suất điện động và điện trở trong của pin** — 33 câu/bài: [Bài tập](practice/09-practical-emf-internal-resistance/exercises.md) · [Đáp án](practice/09-practical-emf-internal-resistance/solutions.md)
 - **Bài 10 — Đoạn mạch chứa nguồn, máy thu và tụ điện** — 10 câu/bài: [Bài tập](practice/10-source-receiver-capacitor-branches/exercises.md) · [Đáp án](practice/10-source-receiver-capacitor-branches/solutions.md)
 
-<!-- /V9_CHAPTER_BANK -->
 
 ---
 

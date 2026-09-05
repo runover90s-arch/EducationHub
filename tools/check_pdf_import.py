@@ -20,7 +20,7 @@ GRADE=ROOT/'docs/physics/high-school/grade-11'
 REPORT=ROOT/'tools/v9_import_report.json'
 MIN_IMPORTED=1600
 errors=[]; warnings=[]
-source_seen={}; body_seen={}; imported=0; image_q=0; solution_img=0
+source_seen={}; alias_seen={}; body_seen={}; imported=0; alias_count=0; image_q=0; solution_img=0
 by_chapter=Counter(); by_level=Counter(); by_format=Counter(); files=0
 
 def norm_text(s:str)->str:
@@ -111,8 +111,27 @@ for ex in sorted(GRADE.glob('0[1-4]-*/practice/*/exercises.md')):
             ch=mm.group(1); by_chapter[ch]+=1
         if sid in source_seen:
             errors.append(f'source-id lặp: {sid} ở {ex.relative_to(ROOT)} và {source_seen[sid]}')
+        elif sid in alias_seen:
+            errors.append(f'source-id canonical trùng với alias đã khai báo: {sid} (alias của {alias_seen[sid]})')
         else:
             source_seen[sid]=str(ex.relative_to(ROOT))
+
+        # Source aliases preserve backward traceability for confirmed duplicate
+        # occurrences that are intentionally not republished as separate exercises.
+        aliases=[a.strip() for a in re.findall(r'<!-- source-alias-id: ([^>]+) -->',block)]
+        for alias in aliases:
+            alias_count += 1
+            if not re.match(r'BT-Chuong-(I|II|III|IV)-p\d+-q\d+-\d+$',alias):
+                errors.append(f'source-alias-id sai định dạng: {alias}')
+                continue
+            if alias == sid:
+                errors.append(f'source-alias-id trùng canonical: {alias}')
+            elif alias in source_seen:
+                errors.append(f'source-alias-id đụng source-id canonical: {alias}')
+            elif alias in alias_seen:
+                errors.append(f'source-alias-id lặp: {alias} (canonical {sid} và {alias_seen[alias]})')
+            else:
+                alias_seen[alias]=sid
 
         # Determine active group heading before block.
         active=[h for h in headings if h[0] < m.start()]
@@ -192,6 +211,33 @@ if REPORT.exists():
         expected=int(rep.get('deduplicated_verified_imported',-1))
         if expected != imported:
             errors.append(f'Report ghi {expected} câu nhưng repository thực tế có {imported}.')
+
+        # Exact alias mapping is part of provenance integrity, not an exemption
+        # from duplicate detection. Alias IDs must disappear from learner-facing
+        # canonical blocks while remaining traceable to one canonical source ID.
+        rep_aliases=rep.get('source_aliases_preserved',[])
+        expected_aliases={(x.get('alias_source_id'),x.get('canonical_source_id')) for x in rep_aliases}
+        actual_aliases={(a,c) for a,c in alias_seen.items()}
+        if expected_aliases != actual_aliases:
+            errors.append(f'Alias source-id lệch report: report={sorted(expected_aliases)}, repo={sorted(actual_aliases)}')
+        traced=int(rep.get('source_records_traced', imported+alias_count))
+        if traced != imported + alias_count:
+            errors.append(f'Report ghi {traced} source record được truy vết nhưng canonical+alias thực tế là {imported+alias_count}.')
+
+        # Verified fused-block migrations must name source IDs that actually exist.
+        for mig in rep.get('source_id_migrations',[]):
+            if mig.get('type') != 'split_fused_source_block':
+                errors.append(f'Loại source-id migration không hỗ trợ: {mig.get("type")!r}')
+                continue
+            legacy=mig.get('legacy_source_id')
+            children=mig.get('split_source_ids',[])
+            if not legacy or legacy not in children:
+                errors.append(f'Migration split thiếu legacy trong split_source_ids: {mig}')
+            if len(children)<2 or len(set(children))!=len(children):
+                errors.append(f'Migration split phải có ít nhất 2 source-id khác nhau: {mig}')
+            for child in children:
+                if child not in source_seen:
+                    errors.append(f'Migration split tham chiếu source-id không tồn tại: {child}')
     except Exception as e:
         errors.append(f'Không đọc được {REPORT.relative_to(ROOT)}: {e}')
 else:
@@ -209,7 +255,7 @@ if CROSS.exists():
 else:
     errors.append('Thiếu tools/v9_answer_crosscheck.json')
 
-print(f'[pdf-bank] {files} bài học có ngân hàng PDF; {imported} câu/bài đã nhập.')
+print(f'[pdf-bank] {files} bài học có ngân hàng PDF; {imported} câu/bài canonical đã nhập; {alias_count} source alias được bảo toàn.')
 print('[pdf-bank] Theo chương:', ', '.join(f'{k}={v}' for k,v in sorted(by_chapter.items())))
 print('[pdf-bank] Theo mức độ:', ', '.join(f'{k}={v}' for k,v in by_level.items()))
 print(f'[pdf-bank] {image_q} hình/đồ thị bài tập được tham chiếu; {solution_img} lời giải legacy dùng ảnh.')

@@ -20,8 +20,11 @@ tags:
 Đơn vị SI của cảm ứng từ là
 
 A. tesla (T).
+
 B. weber (Wb).
+
 C. vôn (V).
+
 D. henry (H).
 
 ??? success "Đáp án và lời giải"
@@ -32,8 +35,11 @@ D. henry (H).
 Đường sức từ của nam châm thẳng ở bên ngoài nam châm có chiều
 
 A. từ cực Nam sang cực Bắc.
+
 B. từ cực Bắc sang cực Nam.
+
 C. không có chiều.
+
 D. luôn thẳng song song.
 
 ??? success "Đáp án và lời giải"
@@ -44,8 +50,11 @@ D. luôn thẳng song song.
 Hai đường sức từ trong cùng một từ trường
 
 A. có thể cắt nhau tại nhiều điểm.
+
 B. không cắt nhau.
+
 C. luôn là đường thẳng.
+
 D. luôn là đường tròn.
 
 ??? success "Đáp án và lời giải"
@@ -58,8 +67,11 @@ D. luôn là đường tròn.
 Về từ trường:
 
 a) Từ trường tác dụng lực lên nam châm, dòng điện hoặc điện tích chuyển động.
+
 b) Vectơ $\vec B$ đặc trưng từ trường về phương diện tác dụng lực.
+
 c) Đường sức từ là các đường kín.
+
 d) Ở nơi đường sức dày hơn, từ trường thường được biểu diễn là mạnh hơn.
 
 ??? success "Đáp án và lời giải"

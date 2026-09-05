@@ -29,6 +29,25 @@ def slug_title(md_path: Path) -> str:
     return m.group(1) if m else md_path.stem
 
 
+def normalize_choice_blocks(markdown: str) -> str:
+    """Render MCQ and true/false choices as stable Markdown blocks.
+
+    Blank lines are used instead of trailing-space hard breaks so formatters
+    cannot silently collapse A-D or a-d statements back into one paragraph.
+    """
+    marker = re.compile(r'^(?:[A-D]\.|[a-d]\))\s+')
+    out: list[str] = []
+    for raw_line in markdown.strip().splitlines():
+        line = raw_line
+        if marker.match(raw_line.rstrip()):
+            line = raw_line.rstrip()
+            if out and out[-1] != '':
+                out[-1] = out[-1].rstrip()
+                out.append('')
+        out.append(line)
+    return '\n'.join(out)
+
+
 def render_exercises(title: str, theory_rel: str, problems: list[Problem]) -> str:
     groups = [
         ('mcq', 'Phần A — Trắc nghiệm 4 lựa chọn'),
@@ -61,7 +80,7 @@ def render_exercises(title: str, theory_rel: str, problems: list[Problem]) -> st
         out += [f'## {heading}', '']
         for p in ps:
             n += 1
-            out += [f'### Câu {n} — {p.level}', '', p.question.strip(), '']
+            out += [f'### Câu {n} — {p.level}', '', normalize_choice_blocks(p.question), '']
     out += ['---', '', '[Đáp án và lời giải →](solutions.md)', '']
     return '\n'.join(out)
 

@@ -20,8 +20,11 @@ tags:
 Một vật trung hòa nhận thêm $5\cdot10^{12}$ electron. Điện tích của vật là
 
 A. $+8,0\cdot10^{-7}$ C.
+
 B. $-8,0\cdot10^{-7}$ C.
+
 C. $+3,2\cdot10^{-7}$ C.
+
 D. $-3,2\cdot10^{-7}$ C.
 
 ??? success "Đáp án và lời giải"
@@ -32,8 +35,11 @@ D. $-3,2\cdot10^{-7}$ C.
 Trong quá trình nhiễm điện thông thường của vật rắn, hạt thường dịch chuyển từ vật này sang vật khác là
 
 A. proton.
+
 B. neutron.
+
 C. electron.
+
 D. hạt nhân.
 
 ??? success "Đáp án và lời giải"
@@ -44,8 +50,11 @@ D. hạt nhân.
 Một hệ cô lập gồm hai vật có điện tích ban đầu $+3\,\mu$C và $-1\,\mu$C. Sau khi cho tương tác rồi tách ra, tổng điện tích của hệ bằng
 
 A. $-4\,\mu$C.
+
 B. $-2\,\mu$C.
+
 C. $+2\,\mu$C.
+
 D. $+4\,\mu$C.
 
 ??? success "Đáp án và lời giải"
@@ -56,8 +65,11 @@ D. $+4\,\mu$C.
 Vật dẫn điện khác vật cách điện chủ yếu ở chỗ
 
 A. vật dẫn luôn mang điện dương.
+
 B. vật dẫn có các hạt mang điện tự do có thể dịch chuyển dễ hơn.
+
 C. vật cách điện không chứa điện tích.
+
 D. vật dẫn không có electron.
 
 ??? success "Đáp án và lời giải"
@@ -70,8 +82,11 @@ D. vật dẫn không có electron.
 Xét các phát biểu về điện tích:
 
 a) Điện tích của electron là âm.
+
 b) Độ lớn điện tích electron bằng điện tích proton.
+
 c) Một vật nhiễm điện âm thường là vật thừa electron.
+
 d) Trong hệ cô lập, tổng đại số điện tích có thể tự tăng lên mà không có trao đổi với bên ngoài.
 
 ??? success "Đáp án và lời giải"
@@ -85,8 +100,11 @@ d) Trong hệ cô lập, tổng đại số điện tích có thể tự tăng l
 Về các cách nhiễm điện:
 
 a) Cọ xát có thể làm electron chuyển từ vật này sang vật kia.
+
 b) Tiếp xúc với vật nhiễm điện có thể làm điện tích phân bố lại.
+
 c) Hưởng ứng đòi hỏi bắt buộc hai vật chạm nhau.
+
 d) Sau hưởng ứng, điện tích trong vật dẫn có thể phân bố không đều.
 
 ??? success "Đáp án và lời giải"
@@ -135,50 +153,13 @@ Ba quả cầu kim loại giống nhau A, B, C có điện tích ban đầu lầ
 
 ## Ngân hàng bài tập mở rộng
 
-> Các bài dưới đây được đánh số nối tiếp phần bài tập phía trên. Đề bài được trình bày bằng Markdown; chỉ đồ thị, hình vẽ hoặc sơ đồ thực sự cần thiết mới được giữ dưới dạng hình. Đáp án và lời giải được đặt trong nút mở rộng ngay dưới từng bài.
-
 ### Nhận biết — Trả lời ngắn
 
 #### Bài 11
 
 <!-- source-id: BT-Chuong-III-p16-q1-48 -->
 
-Bốn quả cầu kim loại kích thước giống nhau mang điện tích
-C;
- 1,2
-1
-μ
-=
-q
-C;
-
-10
-.
-264
-7
-2
-−
-=
-q
-C
- 9,5
-3
-μ
-−
-=
-q
- và
-
-C. 10
-.5,3
-5
-4
-−
-−
-=
-q
- Cho 4 quả cầu đồng thời tiếp xúc nhau sau đó tách chúng ra. Điện tích
-mỗi quả cầu là bao nhiêu μC ?
+Bốn quả cầu kim loại có kích thước giống nhau mang các điện tích $q_1=2{,}1\,\mu\mathrm C$, $q_2=264\cdot10^{-7}\,\mathrm C$, $q_3=-5{,}9\,\mu\mathrm C$ và $q_4=-3{,}5\cdot10^{-5}\,\mathrm C$. Cho bốn quả cầu đồng thời tiếp xúc nhau rồi tách chúng ra. Điện tích của mỗi quả cầu bằng bao nhiêu $\mu\mathrm C$?
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** $-3{,}1$
@@ -191,55 +172,28 @@ mỗi quả cầu là bao nhiêu μC ?
 
 <!-- source-id: BT-Chuong-III-p16-q3-50 -->
 
-Biết khoảng cách từ electron trong nguyên tử hydrogen đến hạt nhân của nguyên tử này là 5.10-11
-m, điện tích của electron và proton có độ lớn bằng nhau 1,6.10−19
-
-C. Lấy
-12
-2
-2
-0
-8,85.10
- C /Nm
-ε
-−
-=
-. Lực
-điện tương tác giữa electron và proton của nguyên tử hydrogen là bao nhiêu (tính theo đơn vị nN và làm
-tròn đến chữ số thập phân thứ hai sau dấu phẩy)?
+Biết khoảng cách từ electron trong nguyên tử hydrogen đến hạt nhân là $5\cdot10^{-11}\,\mathrm m$, điện tích của electron và proton có độ lớn bằng nhau $1{,}6\cdot10^{-19}\,\mathrm C$. Lấy $\varepsilon_0=8{,}85\cdot10^{-12}\,\mathrm{C^2/(N\,m^2)}$. Lực điện tương tác giữa electron và proton là bao nhiêu (theo đơn vị nN và làm tròn đến hai chữ số thập phân)?
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** $0{,}92$
+    **Đáp án:** $0{,}92\,\mathrm{nN}$.
+
     **Hướng dẫn giải:**
+    Theo biểu thức trong nguồn,
+    $F=\dfrac{|q_eq_p|}{4\pi\varepsilon_0r^2}=\dfrac{(1{,}6\cdot10^{-19})^2}{4\pi\cdot8{,}85\cdot10^{-12}(5\cdot10^{-11})^2}\approx9{,}21\cdot10^{-10}\,\mathrm N\approx0{,}92\,\mathrm{nN}$.
 
-    Dùng bảo toàn điện tích và lượng tử hóa điện tích $q=ne$, với $e=1{,}6\times10^{-19}$ C.
-
-    Vậy kết quả cần tìm là **$0{,}92$**.
 #### Bài 13
 
 <!-- source-id: BT-Chuong-III-p23-q1-76 -->
 
-Biết điện tích của electron
-19
-1,6.10
- C
-eq
-−
-= −
-. Tính lực tương tác giữa hai electron ở cách nhau
-10
-1,0.10
- m
-−
-trong chân không (theo đơn vị nN và làm tròn đơn chữ số hàng đơn vị).
+Biết điện tích của electron $q_e=-1{,}6\cdot10^{-19}\,\mathrm C$. Tính lực tương tác giữa hai electron ở cách nhau $1{,}0\cdot10^{-10}\,\mathrm m$ trong chân không (theo đơn vị nN và làm tròn đến hàng đơn vị).
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** $23$
+    **Đáp án:** $23\,\mathrm{nN}$.
+
     **Hướng dẫn giải:**
+    Theo định luật Coulomb,
+    $F=k\dfrac{|q_eq_e|}{r^2}=9\cdot10^9\dfrac{(1{,}6\cdot10^{-19})^2}{(1{,}0\cdot10^{-10})^2}=2{,}304\cdot10^{-8}\,\mathrm N\approx23\,\mathrm{nN}$.
 
-    Dùng bảo toàn điện tích và lượng tử hóa điện tích $q=ne$, với $e=1{,}6\times10^{-19}$ C.
-
-    Vậy kết quả cần tìm là **$23$**.
 ### Nhận biết — Trắc nghiệm 4 lựa chọn
 
 #### Bài 14
@@ -290,11 +244,7 @@ D. làm một vật trung hoà về điện nhiễm điện tích dương thông
 
 <!-- source-id: BT-Chuong-III-p6-q11-11 -->
 
-Một nhóm học sinh làm thí nghiệm về sự nhiễm điện của ba vật A, B,
-
-C. Khi các vật A và B được
-đưa lại gần nhau, chúng hút nhau. Khi các vật B và C được đưa lại gần nhau, chúng đẩy nhau. Phát biểu
-nào sau đây là đúng?
+Một nhóm học sinh làm thí nghiệm về sự nhiễm điện của ba vật A, B, C. Khi các vật A và B được đưa lại gần nhau, chúng hút nhau. Khi các vật B và C được đưa lại gần nhau, chúng đẩy nhau. Phát biểu nào sau đây là đúng?
 
 A. Vật A và C mang điện cùng dấu.
 
@@ -366,11 +316,11 @@ D. hút đẩy.
 
 <!-- source-id: BT-Chuong-III-p18-q3-56 -->
 
-Trong những cách sau cách nào có thể làm nhiễm điện cho một vật ?
+Trong những cách sau cách nào có thể làm nhiễm điện cho một vật?
 
 A. Cọ chiếc vỏ bút lên tóc.
 
-B. Đặt một nhanh nhựa gần một vật đã nhiễm điện.
+B. Đặt một thanh nhựa gần một vật đã nhiễm điện.
 
 C. Đặt một vật gần nguồn điện.
 
@@ -410,9 +360,7 @@ D. các sợi len bị kéo dãn.
 
 <!-- source-id: BT-Chuong-III-p18-q5-58 -->
 
-Bốn vật kích thước nhỏ A, B, C, D nhiễm điện. Vật A hút vật B nhưng đẩy vật C, vật C hút vật
-
-D. Biết A nhiễm điện dương. B, C, D nhiễm điện lần lượt là
+Bốn vật kích thước nhỏ A, B, C, D nhiễm điện. Vật A hút vật B nhưng đẩy vật C, vật C hút vật D. Biết A nhiễm điện dương. B, C, D nhiễm điện lần lượt là
 
 A. âm, âm, dương.
 
@@ -434,12 +382,9 @@ D. dương, âm, dương.
 
 <!-- source-id: BT-Chuong-III-p18-q6-59 -->
 
-Trong các cách nhiễm điện sau đây, cách nào thì tổng đại số điện tích trên vật được nhiễm điện
-không thay đổi?
+Trong các cách nhiễm điện sau đây, cách nào thì tổng đại số điện tích trên vật được nhiễm điện không thay đổi?
 
-Cách I. cọ xát;
- Cách II. tiếp xúc;
-Cách III. hưởng ứng
+Cách I. cọ xát; Cách II. tiếp xúc; Cách III. hưởng ứng.
 
 A. I.
 
@@ -467,19 +412,10 @@ proton đặt lên electron và nó đóng vai trò là lực hướng tâm. Ph�
 của proton và electron), chiều hướng vào ...(4)....
 
 Hãy chọn từ thích hợp ở khung để điền vào chỗ trống để có một mô tả đúng.
-(a) lực tương tác tĩnh
-điện
-(b) lực
-đẩy
-(c) lực
-hút
-(d) bán
-kính
-(e) tâm quỹ
-đạo
-(f) xiên
-(g)
-electron
+
+(a) lực tương tác tĩnh điện; (b) lực đẩy; (c) lực hút; (d) bán kính; (e) tâm quỹ đạo; (f) xiên; (g) electron.
+
+![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/iii_p19_q10_63_fig1.webp){ loading=lazy }
 
 A. (1) – (b), (2) – (a), (3) – (f), (4) – (g).
 
@@ -488,8 +424,6 @@ B. (1) – (c), (2) – (c), (3) – (d), (4) – (g).
 C. (1) – (b), (2) – (a), (3) – (f), (4) – (e).
 
 D. (1) – (a), (2) – (c), (3) – (d), (4) – (e).
-
-![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/iii_p19_q10_63_fig1.webp){ loading=lazy }
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
@@ -520,126 +454,79 @@ D. không tương tác nhau.
 
     Dùng bảo toàn điện tích và lượng tử hóa điện tích $q=ne$, với $e=1{,}6\times10^{-19}$ C.
 
-    Trước khi tiếp xúc, hai quả cầu đẩy nhau nên
-    Sau khi tiếp xúc:
-    Hai quả cầu vẫn tích điện điện cùng dấu với ban đầu nên vẫn đẩy nhau.
+    Trước khi tiếp xúc, hai quả cầu đẩy nhau và có độ lớn điện tích bằng nhau nên $q_1=q_2$.
+
+    Sau khi tiếp xúc: $q'_1=q'_2=\dfrac{q_1+q_2}{2}=q_1$.
+
+    Hai quả cầu vẫn tích điện cùng dấu với ban đầu nên vẫn đẩy nhau.
 
     Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **B. đẩy nhau.**
 #### Bài 25
 
 <!-- source-id: BT-Chuong-III-p20-q16-69 -->
 
-Một nguyên tử hydrogen chỉ chứa duy nhất một hạt proton và một hạt electron. Biết rằng bán kính
-trung bình của nguyên tử của nguyên tố hydrogen bằng
-9
-5.10 cm
-−
-và điện tích electron là
-19
-1,6.10
-C
-eq
-−
-= −
-. Lực tĩnh điện giữa hạt nhân và điện tử trong nguyên tử đó
+Một nguyên tử hydrogen chỉ chứa một proton và một electron. Biết bán kính trung bình của nguyên tử hydrogen bằng $5\cdot10^{-9}\,\mathrm{cm}$ và điện tích electron là $q_e=-1{,}6\cdot10^{-19}\,\mathrm C$. Lực tĩnh điện giữa hạt nhân và electron trong nguyên tử đó là
 
-A. lực đẩy, có độ lớn
-8
-9,2.10 N
-−
-.
+A. lực đẩy, có độ lớn $9{,}2\cdot10^{-8}\,\mathrm N$.
 
-B. lực đẩy, có độ lớn
-8
-2,9.10 N
-−
-.
+B. lực đẩy, có độ lớn $2{,}9\cdot10^{-8}\,\mathrm N$.
 
-C. lực hút, có độ lớn
-8
-9,2.10 N
-−
-.
+C. lực hút, có độ lớn $9{,}2\cdot10^{-8}\,\mathrm N$.
 
-D. lực hút, có độ lớn
-8
-2,9.10 N
-−
-.
+D. lực hút, có độ lớn $2{,}9\cdot10^{-8}\,\mathrm N$.
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** C
+    **Đáp án:** C.
+
     **Hướng dẫn giải:**
+    Proton và electron trái dấu nên hút nhau. Theo định luật Coulomb với $r=5\cdot10^{-11}\,\mathrm m$,
+    $F=k\dfrac{e^2}{r^2}\approx9{,}2\cdot10^{-8}\,\mathrm N$.
 
-    Dùng bảo toàn điện tích và lượng tử hóa điện tích $q=ne$, với $e=1{,}6\times10^{-19}$ C.
-
-    Hạt nhân và điện tử tích điện trái dấu nên lực tương tác tĩnh điện giữa chúng là lực hút.
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. lực hút, có độ lớn 8 9,2.10 N − .**
 ### Nhận biết — Đúng/Sai
 
 #### Bài 26
 
 <!-- source-id: BT-Chuong-III-p14-q4-45 -->
 
-Hai quả cầu A, B có kích thước nhỏ được đặt cách nhau một khoảng 12 cm trong chân không. Biết
-quả cầu A có điện tích –3,2.10-7 C và quả cầu B có điện tích 2,4.10-7
-
-C. Cho hai quả cầu tiếp xúc với nhau,
-sau đó đặt cách nhau một khoảng như lúc đầu.
+Hai quả cầu A, B có kích thước nhỏ được đặt cách nhau một khoảng 12 cm trong chân không. Biết quả cầu A có điện tích $-3{,}2\cdot10^{-7}\,\mathrm C$ và quả cầu B có điện tích $2{,}4\cdot10^{-7}\,\mathrm C$. Cho hai quả cầu tiếp xúc với nhau, sau đó đặt cách nhau một khoảng như lúc đầu.
 
 a) Hằng số điện môi của chân không bằng 1.
-b) Sau khi tiếp xúc, hai quả cầu đều mang điện tích
 
-C. 10 .4,0 7 − −
-c) Lực tương tác giữa hai quả cầu trước khi tiếp xúc có độ lớn là 0,048 N.
+b) Sau khi tiếp xúc, hai quả cầu đều mang điện tích $-0{,}4\cdot10^{-7}\,\mathrm C$.
+
+c) Lực tương tác giữa hai quả cầu trước khi tiếp xúc có độ lớn là $0{,}048\,\mathrm N$.
+
 d) Sau khi tiếp xúc, lực tương tác của hai quả cầu giảm 8 lần.
 
 ??? success "Đáp án và lời giải"
+    **Kết luận:** a) Đúng; b) Đúng; c) Đúng; d) Sai.
+
     **Hướng dẫn giải:**
+    a) Chân không có hằng số điện môi bằng 1.
 
-    Dùng bảo toàn điện tích và lượng tử hóa điện tích $q=ne$, với $e=1{,}6\times10^{-19}$ C.
+    b) Sau tiếp xúc, do hai quả cầu giống nhau:
+    $q'=\dfrac{q_A+q_B}{2}=\dfrac{-3{,}2\cdot10^{-7}+2{,}4\cdot10^{-7}}{2}=-0{,}4\cdot10^{-7}\,\mathrm C$, nên b) đúng.
 
-    b. Điện tích của mỗi quả cầu sau khi tiếp xúc:
-    c. Lực tương tác giữa hai quả cầu trước khi tiếp xúc:
-    d. Lực tương tác giữa hai quả cầu sau khi tiếp xúc:
+    c) Trước tiếp xúc:
+    $F=k\dfrac{|q_Aq_B|}{r^2}=9\cdot10^9\dfrac{|-3{,}2\cdot10^{-7}\cdot2{,}4\cdot10^{-7}|}{0{,}12^2}=0{,}048\,\mathrm N$, nên c) đúng.
+
+    d) Sau tiếp xúc:
+    $\dfrac{F'}{F}=\dfrac{(q')^2}{|q_Aq_B|}=\dfrac{1}{48}$.
+    Lực giảm 48 lần, không phải 8 lần, nên d) sai.
+
 #### Bài 27
 
 <!-- source-id: BT-Chuong-III-p15-q5-46 -->
 
-Cấu trúc nguyên tử helium gồm hạt nhân (hai proton và hai neutron) với hai electron nằm ở lớp vỏ.
-Biết khoảng cách từ electron đến hạt nhân của nguyên tử helium là
-11
-2,94.10
- m
-−
-, điện tích của electron và
-proton lần lượt là
-19
-19
-1,6.10
- C;
-1,6.10
- C
-e
-p
-q
-q
-−
-−
-= −
-=
-, khối lượng của electron là
-31
-9,1.10
- kg
-−
-.
+Cấu trúc nguyên tử helium gồm hạt nhân (hai proton và hai neutron) với hai electron nằm ở lớp vỏ. Biết khoảng cách từ electron đến hạt nhân là $2{,}94\cdot10^{-11}\,\mathrm m$; điện tích của electron và proton lần lượt là $q_e=-1{,}6\cdot10^{-19}\,\mathrm C$, $q_p=1{,}6\cdot10^{-19}\,\mathrm C$; khối lượng electron là $m_e=9{,}1\cdot10^{-31}\,\mathrm{kg}$.
 
 a) Hạt nhân của nguyên tử helium trung hoà về điện.
+
 b) Lực hút giữa proton và electron giúp electron chuyển động xung quanh hạt nhân.
-c) Lực điện tương tác giữa hạt nhân nguyên tử helium với một electron nằm trong lớp vỏ có độ lớn khoảng 0,53 μN .
-d) Nếu coi electron chuyển động tròn đều quanh hạt nhân dưới tác dụng của lực điện thì tốc độ góc của electron là 4,14.106 rad/s.
+
+c) Lực điện tương tác giữa hạt nhân nguyên tử helium với một electron nằm trong lớp vỏ có độ lớn khoảng $0{,}53\,\mu\mathrm N$.
+
+d) Nếu coi electron chuyển động tròn đều quanh hạt nhân dưới tác dụng của lực điện thì tốc độ góc của electron là $4{,}14\cdot10^{6}\,\mathrm{rad/s}$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** a) Sai; b) Đúng; c) Đúng; d) Sai.
@@ -657,28 +544,32 @@ d) Nếu coi electron chuyển động tròn đều quanh hạt nhân dưới t�
 
 <!-- source-id: BT-Chuong-III-p22-q3-74 -->
 
-Xét hai quả cầu kim loại nhỏ giống nhau mang các điện tích
-1q và
-2q được đặt trong không khí
-cách nhau 2 cm, đẩy nhau bằng một lực có độ lớn 2,7.10-4 N. Cho hai quả cầu tiếp xúc với nhau rồi lại đưa
-về vị trí ban đầu thì lực đẩy giữa chúng có độ lớn 3,6.10-4 N.
+Xét hai quả cầu kim loại nhỏ giống nhau mang các điện tích $q_1$ và $q_2$ được đặt trong không khí cách nhau 2 cm, đẩy nhau bằng một lực có độ lớn $2{,}7\cdot10^{-4}\,\mathrm N$. Cho hai quả cầu tiếp xúc với nhau rồi lại đưa về vị trí ban đầu thì lực đẩy giữa chúng có độ lớn $3{,}6\cdot10^{-4}\,\mathrm N$.
 
-a) Trước khi tiếp xúc, hai điện tích 1q và 2q tích điện cùng dấu.
+a) Trước khi tiếp xúc, hai điện tích $q_1$ và $q_2$ tích điện cùng dấu.
+
 b) Tổng điện tích trước và sau khi cho hai quả cầu tiếp xúc là khác nhau.
+
 c) Sau khi tiếp xúc, nhúng hai quả cầu vào dầu có hằng số điện môi là 2 thì lực đẩy giữa chúng không đổi so với ban đầu.
-d) Điện tích 1q có thể nhận một trong bốn nhận giá trị 9 2.10 C − ± hoặc 9 6.10 C − ±
+
+d) Điện tích $q_1$ có thể nhận một trong bốn giá trị $\pm2\cdot10^{-9}\,\mathrm C$ hoặc $\pm6\cdot10^{-9}\,\mathrm C$.
 
 ??? success "Đáp án và lời giải"
+    **Kết luận:** a) Đúng; b) Sai; c) Sai; d) Đúng.
+
     **Hướng dẫn giải:**
+    a) Hai quả cầu đẩy nhau nên $q_1,q_2$ cùng dấu.
 
-    Dùng bảo toàn điện tích và lượng tử hóa điện tích $q=ne$, với $e=1{,}6\times10^{-19}$ C.
+    b) Hệ cô lập về điện nên tổng điện tích được bảo toàn khi hai quả cầu tiếp xúc; phát biểu b) sai.
 
-    b. Do nhiễm điện do tiếp xúc nên tổng điện tích trước và sau khi cho hai quả cầu tiếp xúc là không đổi.
-    c. Sau khi tiếp xúc, nhúng hai quả cầu vào dầu thì lực đẩy giảm đi 2 lần.
-    d. Trước khi tiếp xúc:
-    Hai quả cầu như nhau, hệ cô lập về điện nên sau khi tiếp xúc thì
-    , giải hệ phương trình suy ra
-### Thông hiểu — Trắc nghiệm 4 lựa chọn
+    c) Khi đưa vào dầu có hằng số điện môi $\varepsilon=2$, với khoảng cách và điện tích không đổi, lực Coulomb giảm 2 lần; phát biểu c) sai.
+
+    d) Trước tiếp xúc:
+    $F=k\dfrac{|q_1q_2|}{r^2}\Rightarrow q_1q_2=1{,}2\cdot10^{-17}\,\mathrm{C^2}$.
+    Sau tiếp xúc, $q'_1=q'_2=(q_1+q_2)/2$ và từ $F'=3{,}6\cdot10^{-4}\,\mathrm N$ suy ra $|q_1+q_2|=8\cdot10^{-9}\,\mathrm C$.
+    Giải hệ cho $|q_1|,|q_2|$ là $2\cdot10^{-9}\,\mathrm C$ và $6\cdot10^{-9}\,\mathrm C$, cùng dấu. Vì vậy $q_1$ có thể là một trong bốn giá trị $\pm2\cdot10^{-9}\,\mathrm C$, $\pm6\cdot10^{-9}\,\mathrm C$; d) đúng.
+
+### Nhận biết — Trắc nghiệm 4 lựa chọn
 
 #### Bài 29
 
@@ -779,11 +670,7 @@ D. điện giữa một thanh thủy tinh và một quả cầu lớn.
 
 <!-- source-id: BT-Chuong-III-p8-q25-25 -->
 
-Có hai quả cầu giống nhau mang điện tích
-1q và
-2
-q có độ lớn như nhau, khi đưa chúng lại gần
-nhau thì chúng hút nhau. Cho chúng tiếp xúc nhau rồi tách chúng ra một khoảng thì chúng
+Có hai quả cầu giống nhau mang điện tích $q_1$ và $q_2$ có độ lớn như nhau, khi đưa chúng lại gần nhau thì chúng hút nhau. Cho chúng tiếp xúc nhau rồi tách chúng ra một khoảng thì chúng
 
 A. hút nhau.
 
@@ -808,73 +695,40 @@ D. không tương tác nhau.
 
 <!-- source-id: BT-Chuong-III-p9-q26-26 -->
 
-Hai quả cầu kim loại giống nhau mang điện tích
-1q và
-2
-q với
-,
-2
-1
-q
-q =
- đưa chúng lại gần thì
-chúng đẩy nhau. Nếu cho chúng tiếp xúc nhau rồi sau đó tách ra thì mỗi quả cầu sẽ mang điện tích
+Hai quả cầu kim loại giống nhau mang điện tích $q_1$ và $q_2$ với $|q_1|=|q_2|$, đưa chúng lại gần thì chúng đẩy nhau. Nếu cho chúng tiếp xúc nhau rồi sau đó tách ra thì mỗi quả cầu sẽ mang điện tích
 
-A. 1
-2q .
+A. $2q_1$.
 
-B. 0.
+B. $0$.
 
-C. 1q .
+C. $q_1$.
 
-D. 1 2
-q
-.
+D. $q_1/2$.
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** C
+    **Đáp án:** C.
+
     **Hướng dẫn giải:**
-
-    Dùng bảo toàn điện tích và lượng tử hóa điện tích $q=ne$, với $e=1{,}6\times10^{-19}$ C.
-
-    Trước khi tiếp xúc, hai quả cầu hút nhau nên
-    Sau khi tiếp xúc:
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. 1q .**
-### Vận dụng — Trắc nghiệm 4 lựa chọn
+    Hai quả cầu đẩy nhau và $|q_1|=|q_2|$ nên $q_1=q_2$. Sau khi tiếp xúc,
+    $q'_1=q'_2=\dfrac{q_1+q_2}{2}=q_1$.
 
 #### Bài 35
 
 <!-- source-id: BT-Chuong-III-p12-q38-38 -->
 
-Hai quả cầu kim loại nhỏ giống hệt nhau, mang các điện tích
-1q và
-2
-1
-5
-q
-q
-=
- tác dụng lên nhau một
-lực bằng F. Nếu cho chúng tiếp xúc với nhau rồi đưa đến các vị trí cũ thì tỉ số giữa lực tương tác lúc sau
-với lực tương tác lúc chưa tiếp xúc là
+Hai quả cầu kim loại nhỏ giống hệt nhau, mang các điện tích $q_1$ và $q_2=5q_1$, tác dụng lên nhau một lực bằng $F$. Nếu cho chúng tiếp xúc với nhau rồi đưa đến các vị trí cũ thì tỉ số giữa lực tương tác lúc sau với lực tương tác lúc chưa tiếp xúc là
 
-A. 6
-5 .
+A. $6/5$.
 
-B. 9
-5 .
+B. $9/5$.
 
-C. 5
-9 .
+C. $5/9$.
 
-D. 5
-6 .
+D. $5/6$.
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** B
+    **Đáp án:** B.
+
     **Hướng dẫn giải:**
-
-    Dùng bảo toàn điện tích và lượng tử hóa điện tích $q=ne$, với $e=1{,}6\times10^{-19}$ C.
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **B. 9 5 .**
+    Sau tiếp xúc, mỗi quả cầu có điện tích $q'=(q_1+q_2)/2=3q_1$. Vì khoảng cách không đổi,
+    $\dfrac{F'}{F}=\dfrac{(3q_1)^2}{q_1(5q_1)}=\dfrac95$.

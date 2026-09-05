@@ -20,8 +20,11 @@ tags:
 Ampe kế lí tưởng có điện trở
 
 A. bằng 0.
+
 B. vô hạn.
+
 C. bằng 1 Ω.
+
 D. thay đổi tùy dòng.
 
 ??? success "Đáp án và lời giải"
@@ -32,8 +35,11 @@ D. thay đổi tùy dòng.
 Vôn kế lí tưởng có điện trở
 
 A. bằng 0.
+
 B. rất nhỏ.
+
 C. vô hạn.
+
 D. bằng điện trở mạch.
 
 ??? success "Đáp án và lời giải"
@@ -44,8 +50,11 @@ D. bằng điện trở mạch.
 Hai điểm nối trực tiếp bằng dây dẫn lí tưởng, không có phần tử giữa chúng, được xem là
 
 A. khác điện thế bất kì.
+
 B. cùng một nút điện thế.
+
 C. luôn có dòng bằng 0.
+
 D. luôn hở mạch.
 
 ??? success "Đáp án và lời giải"
@@ -56,8 +65,11 @@ D. luôn hở mạch.
 Vôn kế lí tưởng mắc nối tiếp trong mạch sẽ gần như
 
 A. ngắn mạch.
+
 B. làm hở nhánh đó.
+
 C. không ảnh hưởng.
+
 D. tăng dòng vô hạn.
 
 ??? success "Đáp án và lời giải"
@@ -70,8 +82,11 @@ D. tăng dòng vô hạn.
 Khi đọc mạch:
 
 a) Dây nối lí tưởng có thể dùng để nhận diện các điểm cùng điện thế.
+
 b) Ampe kế lí tưởng được thay bằng dây dẫn.
+
 c) Vôn kế lí tưởng được thay bằng nhánh hở khi tính dòng mạch chính.
+
 d) Hai điện trở có một đầu chung thì chắc chắn mắc song song.
 
 ??? success "Đáp án và lời giải"
@@ -85,8 +100,11 @@ d) Hai điện trở có một đầu chung thì chắc chắn mắc song song.
 Mạch có R1 và R2 nối tiếp:
 
 a) Dòng qua hai điện trở bằng nhau.
+
 b) Hiệu điện thế phân chia tỉ lệ điện trở.
+
 c) Vôn kế lí tưởng đo áp trên R1 nếu mắc song song hai đầu R1.
+
 d) Ampe kế lí tưởng phải mắc song song R1 để đo dòng qua R1.
 
 ??? success "Đáp án và lời giải"
@@ -137,61 +155,50 @@ Mạch cầu gồm bốn điện trở: R1=2 Ω, R2=4 Ω ở nhánh trên; R3=3 
 
 ## Ngân hàng bài tập mở rộng
 
-> Các bài dưới đây được đánh số nối tiếp phần bài tập phía trên. Đề bài được trình bày bằng Markdown; chỉ đồ thị, hình vẽ hoặc sơ đồ thực sự cần thiết mới được giữ dưới dạng hình. Đáp án và lời giải được đặt trong nút mở rộng ngay dưới từng bài.
-
 ### Nhận biết — Trắc nghiệm 4 lựa chọn
 
 #### Bài 11
 
 <!-- source-id: BT-Chuong-IV-p32-q4-109 -->
 
-Muốn đo hiệu điện thế giữa hai cực của một nguồn điện, nhưng không có vôn kế, một học sinh đã
-sử dụng một ampe kế và một điện trở có giá trị
-50
-R =
-Ω mắc nối tiếp nhau, sau đó mắc vào nguồn điện,
-biết ampe kế chỉ 1,2
+Muốn đo hiệu điện thế giữa hai cực của một nguồn điện, nhưng không có vôn kế, một học sinh đã sử dụng một ampe kế và một điện trở có giá trị $R=50\,\Omega$ mắc nối tiếp nhau, sau đó mắc vào nguồn điện. Biết ampe kế chỉ $1{,}2\,\mathrm A$. Hiệu điện thế giữa hai cực nguồn điện có giá trị bằng
 
-A. Hiệu điện thế giữa hai cực nguồn điện có giá trị bằng
+A. $120\,\mathrm V$.
 
-A. 120 V.
+B. $50\,\mathrm V$.
 
-B. 50 V.
+C. $12\,\mathrm V$.
 
-C. 12 V.
-
-D. 60 V.
+D. $60\,\mathrm V$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
+
     **Hướng dẫn giải:**
 
-    Với dụng cụ lí tưởng: ampe kế có điện trở không đáng kể, vôn kế có điện trở rất lớn; vẽ lại các nút cùng điện thế trước khi tính.
+    Với ampe kế lí tưởng, điện trở của ampe kế không đáng kể. Do đó
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **D. 60 V.**
+    $U=IR=1{,}2\cdot50=60\,\mathrm V$.
+
+    Chọn **D**.
+
 ### Nhận biết — Đúng/Sai
 
 #### Bài 12
 
 <!-- source-id: BT-Chuong-IV-p50-q3-179 -->
 
-Cho đoạn mạch như hình vẽ: U = 18 V, R1 = 2 Ω, R2 =
-3 Ω, R3 = 4 Ω, R4 = 6 Ω.
-
-R1
-R3
-U
-R2
-R4
-
-a) Điện trở tương đương của đoạn mạch là 3,6 Ω
-b) Hiệu điện thế giữa hai đầu R1 là 18 V
-c) Cường độ dòng điện qua điện trở R2 là 3
-
-A. d) Cường độ dòng điện qua điện trở R4 là 2
-A.
+Cho đoạn mạch như hình vẽ: $U=18\,\mathrm V$, $R_1=2\,\Omega$, $R_2=3\,\Omega$, $R_3=4\,\Omega$, $R_4=6\,\Omega$.
 
 ![Sơ đồ đoạn mạch bốn điện trở](../../../assets/exercise-figures/clean-v14/iv_p50_q3_179.webp){ loading=lazy }
+
+a) Điện trở tương đương của đoạn mạch là $3{,}6\,\Omega$.
+
+b) Hiệu điện thế giữa hai đầu $R_1$ là $18\,\mathrm V$.
+
+c) Cường độ dòng điện qua điện trở $R_2$ là $3\,\mathrm A$.
+
+d) Cường độ dòng điện qua điện trở $R_4$ là $2\,\mathrm A$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** a) Đúng; b) Sai; c) Sai; d) Đúng.
@@ -207,21 +214,22 @@ A.
     c) **Sai.** $I_2=U_{12}/R_2=6/3=2$ A.
 
     d) **Đúng.** $U_{34}=18-6=12$ V nên $I_4=12/6=2$ A.
+
 #### Bài 13
 
 <!-- source-id: BT-Chuong-IV-p51-q4-180 -->
 
-Cho mạch điện như hình vẽ. Biết: UAB = 6 V không đổi, R1 = 8 Ω, R2 = R3 = 4 Ω, R4 = 6 Ω. Bỏ
-qua điện trở của ampe kế, của khóa K và của dây dẫn.
-
-a) Điện trở tương đương của đoạn mạch khi k đóng là 2 Ω.
-b) Điện trở tương đương của đoạn mạch khi k mở là 8 Ω.
-c) Khi k mở, số chỉ của ampe kế là 0,75
-
-A. d) Khi k đóng, số chỉ của ampe kế là 0,375
-A.
+Cho mạch điện như hình vẽ. Biết $U_{AB}=6\,\mathrm V$ không đổi, $R_1=8\,\Omega$, $R_2=R_3=4\,\Omega$, $R_4=6\,\Omega$. Bỏ qua điện trở của ampe kế, của khóa $K$ và của dây dẫn.
 
 ![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/iv_p51_q4_180_fig1.webp){ loading=lazy }
+
+a) Điện trở tương đương của đoạn mạch khi $K$ đóng là $2\,\Omega$.
+
+b) Điện trở tương đương của đoạn mạch khi $K$ mở là $8\,\Omega$.
+
+c) Khi $K$ mở, số chỉ của ampe kế là $0{,}75\,\mathrm A$.
+
+d) Khi $K$ đóng, số chỉ của ampe kế là $0{,}375\,\mathrm A$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** a) Sai; b) Đúng; c) Đúng; d) Đúng.
@@ -230,10 +238,10 @@ A.
 
     Ampe kế lí tưởng có điện trở bằng $0$.
 
-    a) **Sai.** Khi $K$ đóng, $C$ nối với $B$. Khi đó $R_2\parallel R_3=4\parallel4=2\ \Omega$; nhánh qua $R_4$ có điện trở $6+2=8\ \Omega$, song song với $R_1=8\ \Omega$. Vì vậy $R_{\rm td}=8\parallel8=4\ \Omega$, không phải $2\ \Omega$.
+    a) **Sai.** Khi $K$ đóng, $R_2\parallel R_3=4\parallel4=2\ \Omega$; nhánh qua $R_4$ có điện trở $6+2=8\ \Omega$, song song với $R_1=8\ \Omega$. Vì vậy $R_{\rm td}=8\parallel8=4\ \Omega$, không phải $2\ \Omega$.
 
     b) **Đúng.** Khi $K$ mở, $R_1+R_2=12\ \Omega$ song song $R_4=6\ \Omega$, được $4\ \Omega$; nhóm này nối tiếp $R_3=4\ \Omega$, nên $R_{\rm td}=8\ \Omega$.
 
-    c) **Đúng.** Khi $K$ mở, ampe kế nằm nối tiếp với $R_3$ và dòng mạch chính $I=U/R_{\rm td}=6/8=0{,}75$ A.
+    c) **Đúng.** Khi $K$ mở, ampe kế nằm nối tiếp với $R_3$ và dòng mạch chính $I=U/R_{\rm td}=6/8=0{,}75\,\mathrm A$.
 
-    d) **Đúng.** Khi $K$ đóng, dòng trong nhánh $R_4+[R_2\parallel R_3]$ là $6/8=0{,}75$ A. Dòng chia đều qua $R_2=R_3=4\ \Omega$, nên ampe kế chỉ $I_3=0{,}375$ A.
+    d) **Đúng.** Khi $K$ đóng, nhánh $R_4+[R_2\parallel R_3]$ có điện trở $8\ \Omega$, nên dòng nhánh là $6/8=0{,}75\,\mathrm A$. Hiệu điện thế trên $R_2\parallel R_3$ là $0{,}75\cdot2=1{,}5\,\mathrm V$, do đó ampe kế chỉ $I_3=1{,}5/4=0{,}375\,\mathrm A$.

@@ -155,22 +155,20 @@ Hai điện tích cùng dấu $q_1$ và $q_2$ có điểm E=0 nằm giữa chún
 ### Câu 42 — Điện trường hiệu dụng
 Một con lắc đơn tích điện dương nằm trong điện trường đều thẳng đứng hướng xuống. Viết gia tốc hiệu dụng $g_{eff}$ theo g, q, E, m và nêu xu hướng chu kì nếu qE cùng chiều trọng lực.
 
-<!-- V9_CHAPTER_BANK -->
 ## Kho luyện tập theo từng bài trong chương
 
 Phần dưới đây **không sao chép lặp lại câu hỏi**. Nó gom các ngân hàng theo từng bài để người học có thể luyện hàng trăm câu trong chương mà vẫn biết mỗi câu thuộc kiến thức nào.
 
 - **Bài 1 — Thuyết electron và bảo toàn điện tích** — 35 câu/bài: [Bài tập](practice/01-electron-theory-charge-conservation/exercises.md) · [Đáp án](practice/01-electron-theory-charge-conservation/solutions.md)
 - **Bài 2 — Định luật Coulomb** — 51 câu/bài: [Bài tập](practice/02-coulomb-law/exercises.md) · [Đáp án](practice/02-coulomb-law/solutions.md)
-- **Bài 3 — Điện trường và cường độ điện trường** — 94 câu/bài: [Bài tập](practice/03-electric-field-intensity/exercises.md) · [Đáp án](practice/03-electric-field-intensity/solutions.md)
+- **Bài 3 — Điện trường và cường độ điện trường** — 91 câu/bài: [Bài tập](practice/03-electric-field-intensity/exercises.md) · [Đáp án](practice/03-electric-field-intensity/solutions.md)
 - **Bài 4 — Tổng hợp điện trường và cân bằng điện tích** — 25 câu/bài: [Bài tập](practice/04-field-superposition-equilibrium/exercises.md) · [Đáp án](practice/04-field-superposition-equilibrium/solutions.md)
-- **Bài 5 — Công của lực điện, điện thế và hiệu điện thế** — 101 câu/bài: [Bài tập](practice/05-work-potential-voltage/exercises.md) · [Đáp án](practice/05-work-potential-voltage/solutions.md)
+- **Bài 5 — Công của lực điện, điện thế và hiệu điện thế** — 98 câu/bài: [Bài tập](practice/05-work-potential-voltage/exercises.md) · [Đáp án](practice/05-work-potential-voltage/solutions.md)
 - **Bài 6 — Tụ điện, điện dung và năng lượng** — 20 câu/bài: [Bài tập](practice/06-capacitors/exercises.md) · [Đáp án](practice/06-capacitors/solutions.md)
 - **Bài 7 — Chuyển động của điện tích trong điện trường đều** — 76 câu/bài: [Bài tập](practice/07-charged-particle-motion/exercises.md) · [Đáp án](practice/07-charged-particle-motion/solutions.md)
 - **Bài 8 — Ghép tụ và các bài toán tụ điện nâng cao** — 18 câu/bài: [Bài tập](practice/08-advanced-capacitors/exercises.md) · [Đáp án](practice/08-advanced-capacitors/solutions.md)
 - **Bài 9 — Cân bằng điện tích và con lắc trong điện trường** — 37 câu/bài: [Bài tập](practice/09-electrostatic-equilibrium-charged-pendulum/exercises.md) · [Đáp án](practice/09-electrostatic-equilibrium-charged-pendulum/solutions.md)
 
-<!-- /V9_CHAPTER_BANK -->
 
 ---
 

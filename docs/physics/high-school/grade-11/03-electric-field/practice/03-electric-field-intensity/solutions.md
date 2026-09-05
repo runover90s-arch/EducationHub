@@ -59,8 +59,8 @@ $|Q|=E_1r_1^2/k=9\cdot10^4\cdot0,04/(9\cdot10^9)=4\cdot10^{-7}$ C $=0,4\,\mu$C.
 
 [← Bài tập](exercises.md)
 
-## Bài 11–94
+## Bài 11–91
 
-Đáp án và lời giải của **Bài 11–94** đã được đặt trực tiếp dưới từng bài trong trang bài tập bằng nút **“Đáp án và lời giải”** để tránh tách đề, hình minh họa và lời giải sang nhiều vị trí khác nhau.
+Đáp án và lời giải của **Bài 11–91** đã được đặt trực tiếp dưới từng bài trong trang bài tập bằng nút **“Đáp án và lời giải”** để tránh tách đề, hình minh họa và lời giải sang nhiều vị trí khác nhau.
 
 [← Mở trang bài tập](exercises.md)

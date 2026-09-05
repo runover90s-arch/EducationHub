@@ -20,8 +20,11 @@ tags:
 Lăng kính có tác dụng tán sắc ánh sáng trắng vì
 
 A. chiết suất phụ thuộc bước sóng.
+
 B. mọi màu có cùng chiết suất.
+
 C. ánh sáng trắng chỉ có một màu.
+
 D. tần số mọi màu bằng nhau.
 
 ??? success "Đáp án và lời giải"
@@ -32,8 +35,11 @@ D. tần số mọi màu bằng nhau.
 Trong thủy tinh thông thường, tia tím qua lăng kính thường lệch
 
 A. ít hơn tia đỏ.
+
 B. nhiều hơn tia đỏ.
+
 C. bằng tia đỏ trong mọi trường hợp.
+
 D. không khúc xạ.
 
 ??? success "Đáp án và lời giải"
@@ -44,8 +50,11 @@ D. không khúc xạ.
 Với lăng kính mỏng góc A nhỏ, góc lệch xấp xỉ có thể viết
 
 A. $\delta\approx(n-1)A$.
+
 B. $\delta\approx n/A$.
+
 C. $\delta\approx A/(n-1)$.
+
 D. $\delta=0$ mọi n.
 
 ??? success "Đáp án và lời giải"
@@ -58,8 +67,11 @@ D. $\delta=0$ mọi n.
 Lăng kính và tán sắc:
 
 a) Tia sáng bị khúc xạ ở cả hai mặt lăng kính.
+
 b) Ánh sáng đơn sắc không bị tách thành nhiều màu do tán sắc.
+
 c) Góc lệch phụ thuộc chiết suất.
+
 d) Đỏ thường lệch nhiều hơn tím trong thủy tinh thường.
 
 ??? success "Đáp án và lời giải"

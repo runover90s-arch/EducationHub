@@ -390,6 +390,7 @@ Nếu phát hiện đáp án hoặc lời giải trong PDF nguồn sai:
 - Khi bàn giao source mới, không xóa các quy tắc cũ trừ khi người dùng yêu cầu rõ ràng thay đổi chúng.
 - Nếu người dùng nói `tiếp tục`, tiếp tục đúng phần đang làm dở và trạng thái `Next`; không quay lại khởi tạo hoặc làm lại từ đầu.
 
+
 ### 13.5. Quy trình Codespaces là một khối lệnh duy nhất
 
 - Mỗi bản ZIP bàn giao phải kèm **một code block duy nhất** cho Codespaces.
@@ -398,6 +399,20 @@ Nếu phát hiện đáp án hoặc lời giải trong PDF nguồn sai:
 - Sau khi kiểm tra archive, phải `unzip -o` vào root repo rồi **xóa chính ZIP vừa giải nén**.
 - Sau đó chạy checker/build, `git add -A`, commit nếu có thay đổi và `git push origin main`.
 - Không dùng `git reset --hard`, `git push --force` hoặc `git push -f` làm hướng dẫn mặc định.
+
+### 13.6. Provenance khi khử trùng và tách source block PDF
+
+Áp dụng cho Vật lí 11 khi đã đối chiếu trực tiếp PDF và xác minh chắc chắn source bị lặp hoặc một raw extraction block chứa nhiều câu độc lập:
+
+- **Không xuất bản hai bài learner-facing giống nhau chỉ để giữ hai source-id.** Giữ một bài canonical và bảo toàn mỗi ID của lần lặp bằng comment ẩn `<!-- source-alias-id: ... -->` ngay trong block canonical.
+- `source-alias-id` phải dùng đúng schema source-id hiện hành, phải unique toàn Grade 11, không được trùng với canonical source-id khác và phải được khai báo trong `tools/v9_import_report.json`.
+- Không dùng alias để né duplicate checker: nội dung lặp phải thật sự bị gỡ khỏi learner-facing; `check_pdf_import.py` vẫn kiểm tra duplicate trên các block canonical và kiểm tra mapping alias riêng.
+- Nếu **một raw extraction unit đã được xác minh chứa hai câu PDF độc lập**, được phép tách thành hai block canonical mà **không renumber các ID phía sau**. Giữ ID legacy cho câu đầu; với câu con bị dính, dùng đúng `page` + `q` nhìn thấy trên PDF và giữ cùng raw serial của unit bị dính. Ví dụ đã xác minh: `BT-Chuong-IV-p64-q21-213` tách thành `...-q21-213` và `...-q22-213`.
+- Mọi split như trên phải được ghi deterministic trong `source_id_migrations` của import report và được checker xác nhận rằng toàn bộ child ID tồn tại.
+- Số `Bài N` hiển thị có thể renumber cục bộ để liên tục; **không đổi source-id của các bài phía sau**.
+- Khi một lần lặp có lỗi in riêng (ví dụ sai đơn vị) nhưng nội dung thực chất trùng canonical, giữ khác biệt đó trong metadata provenance/report thay vì xuất bản lại cả bài.
+
+Quy tắc này là migration/provenance rule, không phải cơ chế nới quality gate. Không giảm threshold, không bỏ duplicate detection và không cho phép alias trùng/cô lập.
 
 ---
 

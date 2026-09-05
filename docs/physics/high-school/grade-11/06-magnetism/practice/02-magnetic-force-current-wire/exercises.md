@@ -20,8 +20,11 @@ tags:
 Lực từ lên đoạn dây dài l có dòng I trong từ trường đều B có độ lớn
 
 A. $F=BIl\sin\alpha$.
+
 B. $F=BIl\cos\alpha$ trong mọi trường hợp.
+
 C. $F=BI/l$.
+
 D. $F=B/I$.
 
 ??? success "Đáp án và lời giải"
@@ -32,8 +35,11 @@ D. $F=B/I$.
 Dây dẫn song song với $\vec B$ thì lực từ
 
 A. cực đại.
+
 B. bằng 0.
+
 C. bằng BIl.
+
 D. không xác định.
 
 ??? success "Đáp án và lời giải"
@@ -44,8 +50,11 @@ D. không xác định.
 Dây vuông góc với $\vec B$ thì lực từ
 
 A. bằng 0.
+
 B. có độ lớn BIl.
+
 C. bằng BI/l.
+
 D. chỉ phụ thuộc l.
 
 ??? success "Đáp án và lời giải"
@@ -58,8 +67,11 @@ D. chỉ phụ thuộc l.
 Lực từ lên dây có dòng:
 
 a) Vuông góc cả chiều dòng và $\vec B$.
+
 b) Đổi chiều dòng làm lực đảo chiều.
+
 c) Đổi chiều $\vec B$ làm lực đảo chiều.
+
 d) Tăng I gấp đôi, các yếu tố khác giữ nguyên, lực không đổi.
 
 ??? success "Đáp án và lời giải"
