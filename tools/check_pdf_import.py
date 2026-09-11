@@ -6,6 +6,7 @@ Mục tiêu:
 - không lặp source-id;
 - không sao chép lặp lại cùng một câu vào nhiều bài học;
 - mọi ảnh cần để giữ nguyên công thức/hình vẽ phải tồn tại;
+- A/B/C/D và a/b/c/d phải tách paragraph, hình dữ kiện phải đứng trước lựa chọn/mệnh đề;
 - câu Vận dụng cao phải có lời giải đủ dài hoặc ảnh lời giải;
 - bảo vệ quy mô ngân hàng khỏi bị giảm ngoài ý muốn.
 
@@ -14,6 +15,8 @@ Checker này kiểm tra tính toàn vẹn xuất bản. Nó không thay thế vi
 from pathlib import Path
 import re, sys, json, unicodedata, hashlib
 from collections import Counter
+
+from practice_bank_common import figure_after_choices, image_refs, infer_marker_kind, marker_layout_errors
 
 ROOT=Path(__file__).resolve().parents[1]
 GRADE=ROOT/'docs/physics/high-school/grade-11'
@@ -148,17 +151,38 @@ for ex in sorted(GRADE.glob('0[1-4]-*/practice/*/exercises.md')):
             errors.append(f'Đáp án/hướng dẫn bị lẫn vào phần đề: {ex.relative_to(ROOT)} Bài {seq}')
         if 'source-faithful/' in question_block:
             errors.append(f'Còn ảnh chụp legacy source-faithful: {ex.relative_to(ROOT)} Bài {seq}')
+
+        # Deterministic option/statement layout for imported source blocks.
+        # Infer from visible markers rather than group headings: historical PDF
+        # groups can contain mixed formats, so headings are not authoritative.
+        kind = infer_marker_kind(question_block)
+        if kind:
+            for issue in marker_layout_errors(question_block, kind):
+                errors.append(f'Layout {kind} không hợp lệ: {ex.relative_to(ROOT)} Bài {seq}: {issue}')
+            if figure_after_choices(question_block, kind):
+                errors.append(
+                    f'Hình nằm sau phương án/mệnh đề: {ex.relative_to(ROOT)} Bài {seq}; '
+                    'thứ tự phải là đề dẫn -> hình -> lựa chọn/mệnh đề'
+                )
         nb=norm_text(question_block)
-        if len(nb)>150 and 'công thức/kí hiệu của câu này được giữ nguyên bằng ảnh' not in nb:
+        # Duplicate-detection eligibility must not change merely because presentation
+        # normalization moves SI units into LaTeX (e.g. `$5$ cm` -> `$5\,\mathrm{cm}$`).
+        semantic_len_text=re.sub(r'\\mathrm\{([^{}]*)\}', r'\1', nb)
+        semantic_len_text=semantic_len_text.replace(r'\,', ' ')
+        semantic_len_text=re.sub(r'\\(?:text|operatorname)\{([^{}]*)\}', r'\1', semantic_len_text)
+        if len(semantic_len_text)>150 and 'công thức/kí hiệu của câu này được giữ nguyên bằng ảnh' not in nb:
             key=hashlib.sha1(nb.encode()).hexdigest()
             if key in body_seen:
                 errors.append(f'Câu nhập trùng nguyên văn: {ex.relative_to(ROOT)} Bài {seq} và {body_seen[key]}')
             else:
                 body_seen[key]=f'{ex.relative_to(ROOT)} Bài {seq}'
 
-        # image references must resolve relative to file
-        for ref in re.findall(r'!\[[^]]*\]\(([^)]+\.webp)\)',question_block):
-            target=(ex.parent/ref).resolve()
+        # Image references must resolve relative to the Markdown file. Keep this
+        # source-bank check even though check_site.py also audits images globally.
+        for ref in image_refs(question_block):
+            if ref.startswith(('http://', 'https://', 'data:')):
+                continue
+            target=(ex.parent/ref.split('#',1)[0].split('?',1)[0]).resolve()
             if not target.exists():
                 errors.append(f'Ảnh bài tập không tồn tại: {ex.relative_to(ROOT)} -> {ref}')
             else:
@@ -173,8 +197,10 @@ for ex in sorted(GRADE.glob('0[1-4]-*/practice/*/exercises.md')):
                 sb=dm.group(1)
         else:
             sb=solblocks.get(seq,'')
-            for ref in re.findall(r'!\[[^]]*\]\(([^)]+\.webp)\)',sb):
-                target=(sol.parent/ref).resolve()
+            for ref in image_refs(sb):
+                if ref.startswith(('http://', 'https://', 'data:')):
+                    continue
+                target=(sol.parent/ref.split('#',1)[0].split('?',1)[0]).resolve()
                 if not target.exists():
                     errors.append(f'Ảnh lời giải không tồn tại: {sol.relative_to(ROOT)} -> {ref}')
                 else:

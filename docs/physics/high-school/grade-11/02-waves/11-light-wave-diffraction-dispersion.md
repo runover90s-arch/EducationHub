@@ -56,16 +56,16 @@ nếu $\lambda_0$ là bước sóng trong chân không.
 
 ## 2. Miền ánh sáng nhìn thấy
 
-Bước sóng nhìn thấy thường được lấy xấp xỉ từ khoảng 380 nm đến 750 nm. Ranh giới màu không phải các vạch tuyệt đối mà chuyển tiếp liên tục.
+Bước sóng nhìn thấy thường được lấy xấp xỉ từ khoảng $380\,\mathrm{nm}$ đến $750\,\mathrm{nm}$. Ranh giới màu không phải các vạch tuyệt đối mà chuyển tiếp liên tục.
 
 Một cách chia gần đúng:
 
-- tím: 380–450 nm;
-- lam: 450–495 nm;
-- lục: 495–570 nm;
-- vàng: 570–590 nm;
-- cam: 590–620 nm;
-- đỏ: 620–750 nm.
+- tím: 380–$450\,\mathrm{nm}$;
+- lam: 450–$495\,\mathrm{nm}$;
+- lục: 495–$570\,\mathrm{nm}$;
+- vàng: 570–$590\,\mathrm{nm}$;
+- cam: 590–$620\,\mathrm{nm}$;
+- đỏ: 620–$750\,\mathrm{nm}$.
 
 !!! note "Không đồng nhất màu với một bước sóng duy nhất"
     Trong nhiều bài tập đơn sắc, ta gán mỗi màu một bước sóng đại diện. Trong ánh sáng thực, cảm nhận màu còn phụ thuộc phổ ánh sáng và đáp ứng của mắt.

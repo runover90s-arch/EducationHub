@@ -60,7 +60,7 @@ Sự lan truyền điện từ trường biến thiên; truyền được trong 
 ## Điện trường
 
 ### Điện tích nguyên tố
-Độ lớn điện tích proton/electron: $e\approx1,602\times10^{-19}$ C.
+Độ lớn điện tích proton/electron: $e\approx1,602\times10^{-19}\,\mathrm C$.
 
 ### Điện trường
 Môi trường vật lí tồn tại quanh điện tích và truyền tương tác điện theo mô hình trường.

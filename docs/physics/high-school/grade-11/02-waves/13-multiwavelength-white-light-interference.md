@@ -71,7 +71,7 @@ $$
 
 ## 3. Tìm cặp bậc nhỏ nhất
 
-Ví dụ $\lambda_1=500$ nm, $\lambda_2=600$ nm.
+Ví dụ $\lambda_1=500\,\mathrm{nm}$, $\lambda_2=600\,\mathrm{nm}$.
 
 Điều kiện:
 
@@ -201,7 +201,7 @@ $$
 
 ## 10. Ví dụ — Hai màu trùng nhau
 
-$\lambda_1=450$ nm, $\lambda_2=600$ nm.
+$\lambda_1=450\,\mathrm{nm}$, $\lambda_2=600\,\mathrm{nm}$.
 
 Điều kiện:
 
@@ -217,7 +217,7 @@ $$
 
 Cặp nhỏ nhất $k_1=4$, $k_2=3$.
 
-Nếu $i_1=0,90$ mm thì khoảng sáng trùng:
+Nếu $i_1=0,90\,\mathrm{mm}$ thì khoảng sáng trùng:
 
 $$
 i_{\text{trùng}}=4i_1=3,60\text{ mm}.
@@ -225,7 +225,7 @@ $$
 
 ## 11. Ví dụ — Đếm vân bằng bất đẳng thức
 
-Khoảng vân $i=1,2$ mm. Xét đoạn $x\in[-5;7]$ mm.
+Khoảng vân $i=1,2\,\mathrm{mm}$. Xét đoạn $x\in[-5;7]\,\mathrm{mm}$.
 
 Vân sáng thỏa:
 

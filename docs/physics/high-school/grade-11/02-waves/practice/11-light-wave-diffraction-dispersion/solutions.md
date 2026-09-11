@@ -14,34 +14,67 @@ tags:
 [← Bài tập](exercises.md)
 
 ## Bài 1
-Chọn **B**.
+**Đáp án:** B. Cùng cỡ với bước sóng.
+
+**Hướng dẫn giải:**
+
+Nhiễu xạ trở nên rõ khi kích thước khe không lớn nhiều so với bước sóng; trường hợp cùng cỡ với $\lambda$ là lựa chọn phù hợp nhất.
 
 ## Bài 2
-Chọn **B** vì chiết suất đối với tím thường lớn hơn đối với đỏ.
+**Đáp án:** B. Lệch nhiều hơn.
+
+**Hướng dẫn giải:**
+
+Trong thủy tinh ở miền tán sắc thông thường, $n_{\text{tím}}>n_{\text{đỏ}}$. Với cùng góc tới, tia tím có góc khúc xạ nhỏ hơn và vì thế bị lệch về phía đáy lăng kính nhiều hơn tia đỏ.
 
 ## Bài 3
-Chọn **B**.
+**Đáp án:** B. Phụ thuộc bước sóng.
+
+**Hướng dẫn giải:**
+
+Nếu chiết suất giống nhau cho mọi bước sóng thì các thành phần màu sẽ khúc xạ giống nhau. Việc ánh sáng trắng bị tách màu cho thấy $n$ phụ thuộc bước sóng (hay tần số).
+
 
 ## Bài 4
-a) **Đúng**.  
-b) **Đúng**.  
-c) **Sai**: thông thường $n_{tím}>n_{đỏ}$.  
-d) **Đúng** trong giới hạn so sánh kích thước khe với bước sóng.
+**Đáp án:** a) Đúng; b) Đúng; c) Sai; d) Đúng.
+
+**Hướng dẫn giải:**
+
+a) **Đúng.** Nhiễu xạ là hiện tượng đặc trưng của quá trình truyền sóng qua khe hoặc quanh vật cản.
+
+b) **Đúng.** Do chiết suất phụ thuộc bước sóng, lăng kính có thể tách ánh sáng trắng thành các thành phần màu.
+
+c) **Sai.** Trong thủy tinh ở miền nhìn thấy thông thường, $n_{\text{tím}}>n_{\text{đỏ}}$, không phải ngược lại.
+
+d) **Đúng.** Khi bề rộng khe giảm tới cỡ bước sóng hoặc nhỏ hơn, phần sóng truyền qua loe ra rõ hơn.
+
 
 ## Bài 5
-Vì $f=c/\lambda$, bước sóng ngắn hơn có tần số lớn hơn. $f_{tím}/f_{đỏ}=\lambda_{đỏ}/\lambda_{tím}=650/430\approx1,51$.
+**Đáp án:** Tia tím có tần số lớn hơn khoảng $1{,}51$ lần.
+
+**Hướng dẫn giải:**
+
+Trong chân không $f=c/\lambda$, nên $\dfrac{f_{\text{tím}}}{f_{\text{đỏ}}}=\dfrac{\lambda_{\text{đỏ}}}{\lambda_{\text{tím}}}=\dfrac{650}{430}\approx1{,}51$.
 
 ## Bài 6
-Với sóng vô tuyến, khe rất nhỏ so với $\lambda$ nên nhiễu xạ cực mạnh. Với ánh sáng, khe rộng khoảng $833$ lần bước sóng nên nhiễu xạ hẹp hơn nhiều. Đây là so sánh định tính, không dùng công thức nhiễu xạ khe đơn chi tiết.
+**Đáp án:** Sóng vô tuyến nhiễu xạ mạnh hơn rất nhiều.
+
+**Hướng dẫn giải:**
+
+Khe rộng $a=0{,}5\,\mathrm{mm}=5\times10^{-4}\,\mathrm m$. Với sóng vô tuyến, $a/\lambda\approx1{,}7\times10^{-3}\ll1$, nên phần sóng truyền qua lan rộng mạnh. Với ánh sáng $\lambda=600\,\mathrm{nm}$, $a/\lambda\approx833$, nên góc nhiễu xạ đặc trưng nhỏ hơn rất nhiều.
 
 ## Bài 7
-$v_{đỏ}=c/1,50=2,00\cdot10^8$ m/s. $v_{tím}=c/1,54\approx1,95\cdot10^8$ m/s.
+**Đáp án:** $v_{\text{đỏ}}=2{,}00\times10^8\,\mathrm{m/s}$; $v_{\text{tím}}\approx1{,}95\times10^8\,\mathrm{m/s}$.
+
+**Hướng dẫn giải:**
+
+Dùng $v=c/n$. Với ánh sáng đỏ: $v_{\text{đỏ}}=3\times10^8/1{,}50=2{,}00\times10^8\,\mathrm{m/s}$. Với ánh sáng tím: $v_{\text{tím}}=3\times10^8/1{,}54\approx1{,}95\times10^8\,\mathrm{m/s}$.
+
 
 ## Bài 8
-Định luật Snell từ không khí ($n_1\approx1$) vào thủy tinh:
+**Đáp án:** Tia tím khúc xạ gần pháp tuyến hơn tia đỏ.
 
-$\sin r=\sin i/n$.
+**Hướng dẫn giải:**
 
-Với cùng $i$, $n$ càng lớn thì $\sin r$ càng nhỏ, do đó $r$ càng nhỏ trong miền $0^\circ$ đến $90^\circ$.
+Từ định luật Snell với không khí $n_1\approx1$: $\sin r=\sin i/n$. Cùng một góc tới $i$, chiết suất càng lớn thì $\sin r$ càng nhỏ; với $0^\circ<r<90^\circ$, điều đó nghĩa là $r$ nhỏ hơn. Vì $n_{\text{tím}}=1{,}54>1{,}50=n_{\text{đỏ}}$, suy ra $r_{\text{tím}}<r_{\text{đỏ}}$.
 
-Vì $n_{tím}=1,54>1,50=n_{đỏ}$, suy ra $r_{tím}<r_{đỏ}$. Vậy tia tím gần pháp tuyến hơn và bị lệch nhiều hơn.

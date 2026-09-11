@@ -26,25 +26,31 @@ Chọn **A**.
 Chọn **B**.
 
 ## Bài 5
-a) **Đúng**.  
-b) **Đúng**.  
-c) **Đúng**.  
-d) **Sai**: nguồn dòng lí tưởng bị thay bằng hở mạch.
+a) **Đúng.** Các định luật nút và vòng Kirchhoff được xây dựng để lập hệ phương trình dòng-áp cho mạch có nhiều nhánh và nhiều vòng kín.
+
+b) **Đúng.** Trong mạch tuyến tính, đáp ứng tổng bằng tổng các đáp ứng do từng nguồn độc lập gây ra khi xét riêng từng nguồn.
+
+c) **Đúng.** Nguồn áp lí tưởng bị đặt về $0\,\mathrm V$ tương đương hai cực cùng điện thế, tức một ngắn mạch.
+
+d) **Sai.** nguồn dòng lí tưởng bị thay bằng hở mạch.
 
 ## Bài 6
-a) **Đúng**.  
-b) **Đúng**.  
-c) **Đúng**.  
-d) **Sai**.
+a) **Đúng.** Vì $i=C\,du_C/dt$, một bước nhảy hữu hạn của $u_C$ trong thời gian bằng $0$ sẽ đòi hỏi dòng xung vô hạn.
+
+b) **Đúng.** Ở trạng thái một chiều xác lập, điện áp trên tụ không đổi nên $du_C/dt=0$ và $i=C\,du_C/dt=0$.
+
+c) **Đúng.** Năng lượng điện trường tích trong tụ tuyến tính được tính bởi $W=\tfrac12CU^2$.
+
+d) **Sai.** Tụ chỉ có thể được xem gần như ngắn mạch trong một số thời điểm/quá trình thích hợp; ở xác lập DC lâu dài nó tương đương hở mạch.
 
 ## Bài 7
-Bảo toàn điện tích tại nút: $I_1+I_2=I_3+I_4$. $I_4=2+1,5-0,8=2,7$ A.
+Bảo toàn điện tích tại nút: $I_1+I_2=I_3+I_4$. $I_4=2+1,5-0,8=2,7\,\mathrm A$.
 
 ## Bài 8
-$I=V_{th}/(R_{th}+R_L)=12/12=1$ A. $U_L=IR_L=9$ V.
+$I=V_{th}/(R_{th}+R_L)=12/12=1\,\mathrm A$. $U_L=IR_L=9\,\mathrm V$.
 
 ## Bài 9
-$Q=CU=100\cdot10^{-6}\cdot20=2\cdot10^{-3}$ C. $W=\frac12CU^2=0,5\cdot100\cdot10^{-6}\cdot400=0,020$ J.
+$Q=CU=100\cdot10^{-6}\cdot20=2\cdot10^{-3}\,\mathrm C$. $W=\frac12CU^2=0,5\cdot100\cdot10^{-6}\cdot400=0,020\,\mathrm J$.
 
 ## Bài 10
 Phương trình vòng trái:
@@ -59,9 +65,9 @@ Từ phương trình hai: $I_1=2,5I_2$. Thay vào phương trình một:
 
 $6(2,5I_2)-4I_2=12\Rightarrow11I_2=12$.
 
-$I_2=12/11\approx1,091$ A; $I_1=30/11\approx2,727$ A.
+$I_2=12/11\approx1,091\,\mathrm A$; $I_1=30/11\approx2,727\,\mathrm A$.
 
-Dòng qua R3 theo hướng vòng trái: $I_3=I_1-I_2=18/11\approx1,636$ A.
+Dòng qua R3 theo hướng vòng trái: $I_3=I_1-I_2=18/11\approx1,636\,\mathrm A$.
 
 ---
 

@@ -9,7 +9,6 @@ tags:
 
 # Bài tập — Bài 7 — Tổng hợp dao động, tắt dần, cưỡng bức và cộng hưởng
 
-> Hệ bài tập được biên soạn theo các dạng xuất hiện trong bộ tài liệu Vật lí 11 của dự án. Câu hỏi được giữ ngắn, trực tiếp; độ khó tăng dần và không cố tình thêm dữ kiện gây nhiễu.
 
 [← Trở lại bài học](../../07-combined-damped-forced-resonance.md)
 
@@ -17,33 +16,33 @@ tags:
 
 ### Bài 1 — Mức 1 — Nhận biết
 
-Hai dao động cùng phương, cùng tần số và cùng pha có biên độ $A_1=3$ cm, $A_2=5$ cm. Biên độ tổng hợp là
+Hai dao động cùng phương, cùng tần số và cùng pha có biên độ $A_1=3\,\mathrm{cm}$, $A_2=5\,\mathrm{cm}$. Biên độ tổng hợp là
 
-A. $2$ cm.
+A. $2\,\mathrm{cm}$.
 
-B. $4$ cm.
+B. $4\,\mathrm{cm}$.
 
-C. $8$ cm.
+C. $8\,\mathrm{cm}$.
 
-D. $15$ cm.
+D. $15\,\mathrm{cm}$.
 
 ??? success "Đáp án và lời giải"
-    Chọn **C**. Hai dao động cùng pha nên $A=A_1+A_2=8$ cm.
+    Chọn **C**. Hai dao động cùng pha nên $A=A_1+A_2=8\,\mathrm{cm}$.
 
 ### Bài 2 — Mức 1 — Nhận biết
 
-Hai dao động cùng phương, cùng tần số, ngược pha có $A_1=7$ cm, $A_2=4$ cm. Biên độ tổng hợp là
+Hai dao động cùng phương, cùng tần số, ngược pha có $A_1=7\,\mathrm{cm}$, $A_2=4\,\mathrm{cm}$. Biên độ tổng hợp là
 
-A. $3$ cm.
+A. $3\,\mathrm{cm}$.
 
-B. $11$ cm.
+B. $11\,\mathrm{cm}$.
 
-C. $\sqrt{33}$ cm.
+C. $\sqrt{33}\,\mathrm{cm}$.
 
-D. $28$ cm.
+D. $28\,\mathrm{cm}$.
 
 ??? success "Đáp án và lời giải"
-    Chọn **A**. Ngược pha nên $A=|A_1-A_2|=3$ cm.
+    Chọn **A**. Ngược pha nên $A=|A_1-A_2|=3\,\mathrm{cm}$.
 
 ### Bài 3 — Mức 1 — Nhận biết
 
@@ -90,10 +89,13 @@ c) Không có sự chuyển hóa cơ năng sang dạng năng lượng khác.
 d) Giảm chấn ô tô là một ứng dụng có lợi của dao động tắt dần.
 
 ??? success "Đáp án và lời giải"
-    a) **Đúng**.
-    b) **Đúng**.
-    c) **Sai**: một phần cơ năng chuyển thành nhiệt và các dạng khác.
-    d) **Đúng**.
+    a) **Đúng.** Dao động tắt dần chịu lực cản làm mất cơ năng nên biên độ giảm dần theo thời gian.
+
+    b) **Đúng.** Lực cản thực hiện công âm, chuyển một phần cơ năng thành nhiệt và các dạng năng lượng khác.
+
+    c) **Sai.** một phần cơ năng chuyển thành nhiệt và các dạng khác.
+
+    d) **Đúng.** Bộ giảm chấn làm năng lượng dao động của hệ treo tiêu hao nhanh, giúp xe sớm ổn định sau kích thích.
 
 ### Bài 6 — Mức 2 — Thông hiểu
 
@@ -108,33 +110,36 @@ c) Cộng hưởng luôn có lợi.
 d) Thiết kế cầu và máy móc cần xét khả năng cộng hưởng.
 
 ??? success "Đáp án và lời giải"
-    a) **Đúng**.
-    b) **Đúng**.
-    c) **Sai**: có thể có lợi hoặc có hại.
-    d) **Đúng**.
+    a) **Đúng.** Đáp ứng cưỡng bức phụ thuộc tỉ số giữa tần số kích thích và tần số riêng; biên độ tăng mạnh khi hai tần số gần nhau.
+
+    b) **Đúng.** Độ cản nhỏ làm năng lượng mất mỗi chu kì ít hơn, nên biên độ cực đại quanh cộng hưởng lớn và đỉnh cộng hưởng sắc hơn.
+
+    c) **Sai.** có thể có lợi hoặc có hại.
+
+    d) **Đúng.** Nếu tần số kích thích gần tần số riêng, biên độ có thể tăng lớn và gây rung mạnh hoặc hư hỏng kết cấu.
 
 ## Phần C — Trả lời ngắn
 
 ### Bài 7 — Mức 3 — Vận dụng
 
-Hai dao động $x_1=3\cos\omega t$ cm và $x_2=4\cos(\omega t+\pi/2)$ cm. Tính biên độ dao động tổng hợp.
+Hai dao động $x_1=3\cos\omega t\,\mathrm{cm}$ và $x_2=4\cos(\omega t+\pi/2)\,\mathrm{cm}$. Tính biên độ dao động tổng hợp.
 
 ??? success "Đáp án và lời giải"
-    Độ lệch pha $\Delta\varphi=\pi/2$. $A=\sqrt{A_1^2+A_2^2+2A_1A_2\cos\Delta\varphi}=\sqrt{9+16}=5$ cm.
+    Độ lệch pha $\Delta\varphi=\pi/2$. $A=\sqrt{A_1^2+A_2^2+2A_1A_2\cos\Delta\varphi}=\sqrt{9+16}=5\,\mathrm{cm}$.
 
 ### Bài 8 — Mức 3 — Vận dụng
 
-Hai dao động cùng phương có $A_1=A_2=5$ cm và lệch pha $120^\circ$. Tính biên độ tổng hợp.
+Hai dao động cùng phương có $A_1=A_2=5\,\mathrm{cm}$ và lệch pha $120^\circ$. Tính biên độ tổng hợp.
 
 ??? success "Đáp án và lời giải"
-    $A^2=25+25+50\cos120^\circ=50-25=25$. Vậy $A=5$ cm.
+    $A^2=25+25+50\cos120^\circ=50-25=25$. Vậy $A=5\,\mathrm{cm}$.
 
 ### Bài 9 — Mức 3 — Vận dụng
 
-Một hệ có tần số riêng $4$ Hz. Ngoại lực tuần hoàn có thể chọn các tần số $3,5$ Hz; $4,0$ Hz; $5,0$ Hz. Khi lực cản nhỏ, chọn tần số nào để biên độ ổn định lớn nhất?
+Một hệ có tần số riêng $4\,\mathrm{Hz}$. Ngoại lực tuần hoàn có thể chọn các tần số $3,5\,\mathrm{Hz}$; $4,0\,\mathrm{Hz}$; $5,0\,\mathrm{Hz}$. Khi lực cản nhỏ, chọn tần số nào để biên độ ổn định lớn nhất?
 
 ??? success "Đáp án và lời giải"
-    Chọn $4,0$ Hz vì bằng tần số riêng, gần điều kiện cộng hưởng.
+    Chọn $4,0\,\mathrm{Hz}$ vì bằng tần số riêng, gần điều kiện cộng hưởng.
 
 ## Phần D — Vận dụng và vận dụng cao
 
@@ -142,7 +147,7 @@ Một hệ có tần số riêng $4$ Hz. Ngoại lực tuần hoàn có thể ch
 
 Hai dao động cùng phương:
 
-$x_1=4\cos(10t+\pi/6)$ cm, $x_2=3\cos(10t-\pi/3)$ cm.
+$x_1=4\cos(10t+\pi/6)\,\mathrm{cm}$, $x_2=3\cos(10t-\pi/3)\,\mathrm{cm}$.
 
 Tìm biên độ và pha ban đầu của dao động tổng hợp.
 
@@ -155,13 +160,13 @@ Tìm biên độ và pha ban đầu của dao động tổng hợp.
 
     Biên độ:
 
-    $A=\sqrt{C^2+S^2}=\sqrt{4^2+3^2+2\cdot4\cdot3\cos(\pi/2)}=5$ cm.
+    $A=\sqrt{C^2+S^2}=\sqrt{4^2+3^2+2\cdot4\cdot3\cos(\pi/2)}=5\,\mathrm{cm}$.
 
     Pha $\varphi$ thỏa $\cos\varphi=C/5$, $\sin\varphi=S/5$. Giá trị gần đúng:
 
     $C\approx4,964$, $S\approx-0,598$ nên $\varphi\approx-0,120$ rad.
 
-    Vậy có thể viết $x\approx5\cos(10t-0,120)$ cm.
+    Vậy có thể viết $x\approx5\cos(10t-0,120)\,\mathrm{cm}$.
 
 ## Ngân hàng bài tập mở rộng
 
@@ -171,21 +176,16 @@ Tìm biên độ và pha ban đầu của dao động tổng hợp.
 
 <!-- source-id: BT-Chuong-I-p140-q1-359 -->
 
-Một người xách một xô nước đi trên đường, mỗi bước đi dài L = 50 cm thì nước trong xô
-bị sóng sánh mạnh nhất. Tốc độ đi của người đó là v = 2,5 km/h. Chu kì dao động riêng của nước
+Một người xách một xô nước đi trên đường, mỗi bước đi dài $L=50\,\mathrm{cm}$ thì nước trong xô
+bị sóng sánh mạnh nhất. Tốc độ đi của người đó là $v=2,5\,\mathrm{km/h}$. Chu kì dao động riêng của nước
 trong xô tính theo đơn vị giây là bao nhiêu ? (làm tròn đến chữ số thập phân thứ hai)
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** $0{,}72$
+    **Đáp án:** $0{,}72\,\mathrm s$
+
     **Hướng dẫn giải:**
 
-    Trước hết xác định đúng loại dao động: tắt dần có biên độ giảm do lực cản; dao động cưỡng bức có tần số bằng tần số ngoại lực; cộng hưởng xảy ra khi tần số cưỡng bức gần tần số riêng.
-
-    Tốc độ di chuyển của người
-    Nước trong xô sóng sánh mạnh nhất khi xảy ra cộng hưởng cơ học. Khi đó chu kì dao động riêng
-    bằng chu kì ngoại lực
-
-    Vậy kết quả cần tìm là **$0{,}72$**.
+    Đổi $v=2{,}5\,\mathrm{km/h}=0{,}6944\,\mathrm{m/s}$ và $L=0{,}50\,\mathrm m$. Mỗi bước tạo một kích thích nên $f_F=v/L\approx1{,}3889\,\mathrm{Hz}$. Nước sóng sánh mạnh nhất khi cộng hưởng, do đó $T_0=1/f_F=L/v\approx0{,}72\,\mathrm s$.
 #### Bài 12
 
 <!-- source-id: BT-Chuong-I-p140-q2-360 -->
@@ -194,54 +194,40 @@ Một con lắc lò xo đang dao động tắt dần, sau mỗi chu kỳ biên �
 trăm cơ năng còn lại sau khoảng thời gian đó xấp xỉ là bao nhiêu (đơn vị tính theo %) ?
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** $90{,}3$
+    **Đáp án:** $90{,}3\%$
+
     **Hướng dẫn giải:**
 
-    Trước hết xác định đúng loại dao động: tắt dần có biên độ giảm do lực cản; dao động cưỡng bức có tần số bằng tần số ngoại lực; cộng hưởng xảy ra khi tần số cưỡng bức gần tần số riêng.
-
-    Sau mỗi dao động, biên độ giảm 5%, còn lại 95%.
-    Cơ năng tỉ lệ thuận với bình phương biên độ, ta có tỉ lệ
-    Vậy cơ năng sau xấp xỉ bằng 90,3% cơ năng ban đầu
-
-    Vậy kết quả cần tìm là **$90{,}3$**.
+    Sau một chu kì, biên độ còn $A_1=0{,}95A_0$. Với cùng hệ, cơ năng tỉ lệ $A^2$, nên $W_1/W_0=0{,}95^2=0{,}9025$. Vậy còn khoảng $90{,}25\%\approx90{,}3\%$.
 #### Bài 13
 
 <!-- source-id: BT-Chuong-I-p140-q3-361 -->
 
-Con lắc lò xo gồm vật nhỏ khối lượng 0,4 kg gắn vào đầu một lò xo có độ cứng 20 N/m.
+Con lắc lò xo gồm vật nhỏ khối lượng $0,4\,\mathrm{kg}$ gắn vào đầu một lò xo có độ cứng $20\,\mathrm{N/m}$.
 Vật được gắn trên một giá đỡ cố định nằm dọc theo trục lò xo. Hệ dao động theo phương nằm
-ngang. Biết hệ số ma sát giữa vật và giá đỡ là 0,1. Kéo vật khỏi vị trí cân bằng một khoảng 20 cm
-theo chiều dương rồi thả cho vật dao động không vận tốc đầu. Lấy g = 10 m/s2. Tốc độ lớn nhất
+ngang. Biết hệ số ma sát giữa vật và giá đỡ là 0,1. Kéo vật khỏi vị trí cân bằng một khoảng $20\,\mathrm{cm}$
+theo chiều dương rồi thả cho vật dao động không vận tốc đầu. Lấy $g=10\,\mathrm{m/s^2}$. Tốc độ lớn nhất
 
 vật đạt được trong quá trình dao động là bao nhiêu ? (tính theo đơn vị m/s, làm tròn đến hai chữ
 số thập phân thứ hai)
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** $1{,}27$
+    **Đáp án:** $1{,}27\,\mathrm{m/s}$
+
     **Hướng dẫn giải:**
 
-    Trước hết xác định đúng loại dao động: tắt dần có biên độ giảm do lực cản; dao động cưỡng bức có tần số bằng tần số ngoại lực; cộng hưởng xảy ra khi tần số cưỡng bức gần tần số riêng.
-
-    Độ giảm biên độ sau ¼ chu kì là:
-    Tần số góc
-    Biên độ cực đại trong quá trình dao động:
-    Tốc độ cực đại trong quá trình dao động là:
-
-    Vậy kết quả cần tìm là **$1{,}27$**.
+    Với ma sát trượt, vị trí mà tốc độ cực đại lần đầu đạt được lệch khỏi cân bằng ban đầu một đoạn $x_0=\mu mg/k=0{,}02\,\mathrm m$. Đoạn “biên độ hữu hiệu” từ vị trí thả đến cân bằng tạm thời là $A_0-x_0=0{,}18\,\mathrm m$. Tần số góc $\omega=\sqrt{k/m}=\sqrt{50}\,\mathrm{rad/s}$, nên $v_\max=\omega(A_0-x_0)\approx1{,}27\,\mathrm{m/s}$.
 #### Bài 14
 
 <!-- source-id: BT-Chuong-I-p141-q4-362 -->
 
-Một con lắc lò xo có độ cứng $k=10$ N/m, một đầu cố định, đầu còn lại gắn vật $m=100$ g, dao động cưỡng bức do tác dụng của ngoại lực
-
-$$
-F=8\cos\left(\frac{2\pi}{5}t-\frac{\pi}{2}\right)\ \text{N}.
-$$
+Một con lắc lò xo có độ cứng $k=10\,\mathrm{N/m}$, một đầu cố định, đầu còn lại gắn vật $m=100\,\mathrm g$, dao động cưỡng bức do tác dụng của ngoại lực $F=8\cos\left(\frac{2\pi}{5}t-\frac{\pi}{2}\right)\,\mathrm N$.
 
 Chu kì dao động cưỡng bức của con lắc là bao nhiêu giây?
 
 ??? success "Đáp án và lời giải"
-    **Đáp án: $5$ s.**
+    **Đáp án:** $5\,\mathrm s$.
+
     **Hướng dẫn giải:**
 
     Ở trạng thái ổn định, dao động cưỡng bức có tần số bằng tần số của ngoại lực. Từ
@@ -255,26 +241,26 @@ Chu kì dao động cưỡng bức của con lắc là bao nhiêu giây?
 
 <!-- source-id: BT-Chuong-I-p141-q5-363 -->
 
-Con lắc lò xo có độ cứng $25\pi^2$ N/m, một đầu cố định, đầu còn lại gắn vật có khối lượng
+Con lắc lò xo có độ cứng $25\pi^2\,\mathrm{N/m}$, một đầu cố định, đầu còn lại gắn vật có khối lượng
 $m=250$ g dao động theo phương nằm ngang. Người ta tác dụng lên con lắc một ngoại lực tuần hoàn
-$F=4\cos(2\pi f t)$ N. Thay đổi tần số ngoại lực từ 6,15 Hz đến 8,75 Hz thì biên độ dao động đạt giá trị lớn nhất khi tần số là bao nhiêu Hz?
+$F=4\cos(2\pi f t)\,\mathrm N$. Thay đổi tần số ngoại lực từ $6,15\,\mathrm{Hz}$ đến $8,75\,\mathrm{Hz}$ thì biên độ dao động đạt giá trị lớn nhất khi tần số là bao nhiêu Hz?
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** $6{,}15$ Hz.
+    **Đáp án:** $6{,}15\,\mathrm{Hz}$.
 
     **Hướng dẫn giải:**
 
     Tần số riêng của hệ:
-    $f_0=\dfrac{1}{2\pi}\sqrt{\dfrac{k}{m}}=\dfrac{1}{2\pi}\sqrt{\dfrac{25\pi^2}{0{,}25}}=5$ Hz.
+    $f_0=\dfrac{1}{2\pi}\sqrt{\dfrac{k}{m}}=\dfrac{1}{2\pi}\sqrt{\dfrac{25\pi^2}{0{,}25}}=5\,\mathrm{Hz}$.
 
-    Toàn bộ khoảng khảo sát $6{,}15$–$8{,}75$ Hz nằm phía trên tần số cộng hưởng $f_0=5$ Hz. Khi tăng $f$ ra xa $f_0$ ở phía này, biên độ cưỡng bức giảm. Vì vậy trong khoảng đã cho, biên độ lớn nhất tại tần số nhỏ nhất:
-    $f=6{,}15$ Hz.
+    Toàn bộ khoảng khảo sát $6{,}15$–$8{,}75\,\mathrm{Hz}$ nằm phía trên tần số cộng hưởng $f_0=5\,\mathrm{Hz}$. Khi tăng $f$ ra xa $f_0$ ở phía này, biên độ cưỡng bức giảm. Vì vậy trong khoảng đã cho, biên độ lớn nhất tại tần số nhỏ nhất:
+    $f=6{,}15\,\mathrm{Hz}$.
 
 #### Bài 16
 
 <!-- source-id: BT-Chuong-I-p142-q6-364 -->
 
-Con lắc lò xo có độ cứng $25\pi^2$ N/m, một đầu cố định, đầu còn lại gắn vật $m$ dao động điều hòa theo phương ngang. Hệ số ma sát giữa vật và mặt phẳng nằm ngang là $\mu$. Đồ thị dao động của vật theo thời gian như Hình 2.15. Trong mỗi chu kì, biên độ dao động của con lắc giảm bao nhiêu milimét?
+Con lắc lò xo có độ cứng $25\pi^2\,\mathrm{N/m}$, một đầu cố định, đầu còn lại gắn vật $m$ dao động điều hòa theo phương ngang. Hệ số ma sát giữa vật và mặt phẳng nằm ngang là $\mu$. Đồ thị dao động của vật theo thời gian như Hình 2.15. Trong mỗi chu kì, biên độ dao động của con lắc giảm bao nhiêu milimét?
 
 ![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/i_p142_q6_364_fig1.webp){ loading=lazy }
 
@@ -282,32 +268,27 @@ Con lắc lò xo có độ cứng $25\pi^2$ N/m, một đầu cố định, đ�
     **Đáp án:** 4
 
     **Hướng dẫn giải:**
-    Từ đồ thị, sau nửa chu kì biên độ giảm từ 6 mm xuống 4 mm, tức giảm 2 mm.
 
-    Sau một chu kì, biên độ giảm $2\times2=4$ mm.
+    Từ đồ thị, sau nửa chu kì biên độ giảm từ $6\,\mathrm{mm}$ xuống $4\,\mathrm{mm}$, tức giảm $2\,\mathrm{mm}$.
 
-    Vậy kết quả cần tìm là **4 mm**.
+    Sau một chu kì, biên độ giảm $2\times2=4\,\mathrm{mm}$.
+
+    Vậy kết quả cần tìm là **$4\,\mathrm{mm}$**.
 
 #### Bài 17
 
 <!-- source-id: BT-Chuong-I-p150-q1-387 -->
 
-Một tàu hỏa chạy trên đường, mỗi thanh ray dài L = 12,5 m. Người ta treo vào trần toa xe
-một con lắc lò xo có độ cứng 25 N/m. Khi xe chạy với tốc độ 54 km/h thì con lắc dao động mạnh
+Một tàu hỏa chạy trên đường, mỗi thanh ray dài $L=12,5\,\mathrm m$. Người ta treo vào trần toa xe
+một con lắc lò xo có độ cứng $25\,\mathrm{N/m}$. Khi xe chạy với tốc độ $54\,\mathrm{km/h}$ thì con lắc dao động mạnh
 nhất. Khối lượng vật nặng tính theo đơn vị kg là bao nhiêu ? (làm tròn đến số thập phân thứ hai)
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** $0{,}44$
+    **Đáp án:** $0{,}44\,\mathrm{kg}$
+
     **Hướng dẫn giải:**
 
-    Trước hết xác định đúng loại dao động: tắt dần có biên độ giảm do lực cản; dao động cưỡng bức có tần số bằng tần số ngoại lực; cộng hưởng xảy ra khi tần số cưỡng bức gần tần số riêng.
-
-    Tốc độ tàu hỏa là
-    Chu kì ngoại lực
-    Khi lò xo dao động mạnh nhất, lúc này xảy ra cộng hưởng cơ học
-    Khối lượng vật nặng
-
-    Vậy kết quả cần tìm là **$0{,}44$**.
+    Tốc độ tàu $54\,\mathrm{km/h}=15\,\mathrm{m/s}$. Mỗi mối nối ray cách $L=12{,}5\,\mathrm m$ tạo chu kì kích thích $T_F=L/v=0{,}833\,\mathrm s$. Dao động mạnh nhất tại cộng hưởng nên $T_0=T_F$. Từ $T_0=2\pi\sqrt{m/k}$, $m=kT_0^2/(4\pi^2)\approx0{,}44\,\mathrm{kg}$.
 #### Bài 18
 
 <!-- source-id: BT-Chuong-I-p151-q2-388 -->
@@ -317,59 +298,44 @@ Một con lắc lò xo đang dao động tắt dần, sau mỗi chu kì dao đ�
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** 9
+
     **Hướng dẫn giải:**
 
-    Trước hết xác định đúng loại dao động: tắt dần có biên độ giảm do lực cản; dao động cưỡng bức có tần số bằng tần số ngoại lực; cộng hưởng xảy ra khi tần số cưỡng bức gần tần số riêng.
-
-    Hao phí 30% nên cơ năng còn lại chiếm 70% = 0,7.
-    Áp dụng công thức
-
-    Vậy kết quả cần tìm là **9**.
+    Sau $n$ chu kì, $A_n=0{,}98^nA_0$ nên $W_n/W_0=(A_n/A_0)^2=0{,}98^{2n}$. Yêu cầu cơ năng còn $70\%$ cho $0{,}98^{2n}=0{,}70$, suy ra $n\approx8{,}83$. Số dao động nguyên nhỏ nhất để mức giảm đạt ít nhất $30\%$ là $n=9$.
 #### Bài 19
 
 <!-- source-id: BT-Chuong-I-p151-q3-389 -->
 
-Một con lắc lò xo có độ cứng $k=25$ N/m, một đầu cố định, đầu còn lại gắn vật $m=100$ g, dao động cưỡng bức do tác dụng của ngoại lực
-
-$$
-F=2\cos(2\pi t),
-$$
-
-trong đó $F$ tính bằng N và $t$ tính bằng s. Tần số dao động cưỡng bức của con lắc là bao nhiêu Hz?
+Một con lắc lò xo có độ cứng $k=25\,\mathrm{N/m}$, một đầu cố định, đầu còn lại gắn vật $m=100\,\mathrm g$, dao động cưỡng bức do tác dụng của ngoại lực $F=2\cos(2\pi t)\,\mathrm N$, với $t$ tính bằng giây. Tần số dao động cưỡng bức của con lắc là bao nhiêu Hz?
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** $1$
+    **Đáp án:** $1\,\mathrm{Hz}$
 
     **Hướng dẫn giải:**
-    Dao động cưỡng bức ổn định có tần số bằng tần số ngoại lực. Từ $\omega=2\pi$ rad/s:
 
-    $f=\frac{\omega}{2\pi}=1\ \text{Hz}.$
-
+    Ngoại lực $F=2\cos(2\pi t)$ có tần số góc $2\pi\,\mathrm{rad/s}$, tức tần số $f=1\,\mathrm{Hz}$. Ở trạng thái cưỡng bức, hệ dao động theo tần số này.
 #### Bài 20
 
 <!-- source-id: BT-Chuong-I-p151-q4-390 -->
 
-Con lắc lò xo gồm vật nhỏ khối lượng 0,25 kg gắn vào đầu một lò xo có độ cứng 100
+Con lắc lò xo gồm vật nhỏ khối lượng $0,25\,\mathrm{kg}$ gắn vào đầu một lò xo có độ cứng 100
 N/m. Vật được gắn trên một giá đỡ cố định nằm dọc theo trục lò xo. Hệ dao động theo phương
 nằm ngang. Biết hệ số ma sát giữa vật và giá đỡ là 0,2. Kéo vật khỏi vị trí cân bằng một khoảng 8
-cm theo chiều dương rồi thả cho vật dao động không vận tốc đầu. Lấy g = 10 m/s2. Độ giảm biên
+cm theo chiều dương rồi thả cho vật dao động không vận tốc đầu. Lấy $g=10\,\mathrm{m/s^2}$. Độ giảm biên
 độ sau mỗi chu kì dao động là bao nhiêu (tính theo đơn vị m, làm tròn đến hai chữ số thập phân
 thứ hai) ?
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** $0{,}02$
+    **Đáp án:** $0{,}02\,\mathrm m$
+
     **Hướng dẫn giải:**
 
-    Trước hết xác định đúng loại dao động: tắt dần có biên độ giảm do lực cản; dao động cưỡng bức có tần số bằng tần số ngoại lực; cộng hưởng xảy ra khi tần số cưỡng bức gần tần số riêng.
-
-    Độ giảm biên độ sau mỗi chu kỳ dao động tính theo công thức
-
-    Vậy kết quả cần tìm là **$0{,}02$**.
+    Với ma sát trượt không đổi, độ giảm biên độ sau một chu kì là $\Delta A=4\mu mg/k$. Thay $\mu=0{,}2$, $m=0{,}25\,\mathrm{kg}$, $g=10\,\mathrm{m/s^2}$, $k=100\,\mathrm{N/m}$ được $\Delta A=0{,}02\,\mathrm m$.
 #### Bài 21
 
 <!-- source-id: BT-Chuong-I-p153-q5-391 -->
 
-Con lắc lò xo có độ cứng $25\pi^2$ N/m, một đầu cố định, đầu còn lại gắn vật $m$ dao động điều hòa theo phương ngang. Hệ số ma sát giữa vật và mặt phẳng nằm ngang là $\mu$. Đồ thị dao động của vật theo thời gian như Hình 3.5. Hệ số ma sát giữa vật và mặt phẳng nằm ngang là bao nhiêu? (Làm tròn đến chữ số thập phân thứ hai.)
+Con lắc lò xo có độ cứng $25\pi^2\,\mathrm{N/m}$, một đầu cố định, đầu còn lại gắn vật $m$ dao động điều hòa theo phương ngang. Hệ số ma sát giữa vật và mặt phẳng nằm ngang là $\mu$. Đồ thị dao động của vật theo thời gian như Hình 3.5. Hệ số ma sát giữa vật và mặt phẳng nằm ngang là bao nhiêu? (Làm tròn đến chữ số thập phân thứ hai.)
 
 ![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/i_p153_q5_391_fig1.webp){ loading=lazy }
 
@@ -377,11 +343,12 @@ Con lắc lò xo có độ cứng $25\pi^2$ N/m, một đầu cố định, đ�
     **Đáp án:** $0{,}31$
 
     **Hướng dẫn giải:**
-    Từ đồ thị, sau nửa chu kì biên độ giảm $\Delta A_{T/2}=2$ mm $=0{,}002$ m và chu kì $T=0{,}16$ s.
 
-    Với $k=25\pi^2$ N/m,
+    Từ đồ thị, sau nửa chu kì biên độ giảm $\Delta A_{T/2}=2\,\mathrm{mm}$ $=0{,}002\,\mathrm m$ và chu kì $T=0{,}16\,\mathrm s$.
 
-    $m=\dfrac{kT^2}{(2\pi)^2}=0{,}16$ kg.
+    Với $k=25\pi^2\,\mathrm{N/m}$,
+
+    $m=\dfrac{kT^2}{(2\pi)^2}=0{,}16\,\mathrm{kg}$.
 
     Đối với dao động tắt dần do ma sát khô, độ giảm biên độ sau nửa chu kì thỏa $\Delta A_{T/2}=\dfrac{2\mu mg}{k}$. Do đó
 
@@ -393,24 +360,16 @@ Con lắc lò xo có độ cứng $25\pi^2$ N/m, một đầu cố định, đ�
 
 <!-- source-id: BT-Chuong-I-p153-q6-392 -->
 
-Con lắc lò xo có độ cứng $25\pi^2$ N/m, một đầu cố định, đầu còn lại gắn vật có khối lượng $m=250$ g, dao động điều hòa theo phương nằm ngang. Người ta tác dụng lên con lắc một ngoại lực tuần hoàn
+Con lắc lò xo có độ cứng $25\pi^2\,\mathrm{N/m}$, một đầu cố định, đầu còn lại gắn vật có khối lượng $m=250$ g, dao động điều hòa theo phương nằm ngang. Người ta tác dụng lên con lắc một ngoại lực tuần hoàn $F=4\cos(2\pi f t)\,\mathrm N$.
 
-$$
-F=4\cos(2\pi ft)\ \text{N}.
-$$
-
-Thay đổi tần số ngoại lực từ $1{,}25$ Hz đến $4{,}25$ Hz thì biên độ dao động đạt giá trị lớn nhất khi tần số là bao nhiêu Hz?
+Thay đổi tần số ngoại lực từ $1{,}25\,\mathrm{Hz}$ đến $4{,}25\,\mathrm{Hz}$ thì biên độ dao động đạt giá trị lớn nhất khi tần số là bao nhiêu Hz?
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** $4{,}25$
+    **Đáp án:** $4{,}25\,\mathrm{Hz}$
 
     **Hướng dẫn giải:**
-    Tần số riêng là
 
-    $f_0=\frac{1}{2\pi}\sqrt{\frac{k}{m}} =\frac{1}{2\pi}\sqrt{\frac{25\pi^2}{0{,}25}} =5\ \text{Hz}.$
-
-    Trên khoảng $1{,}25\le f\le4{,}25$ Hz, $f$ càng tăng càng tiến gần $f_0$, nên biên độ lớn nhất tại $f=4{,}25$ Hz.
-
+    Tần số riêng của con lắc là $f_0=(2\pi)^{-1}\sqrt{k/m}=(2\pi)^{-1}\sqrt{25\pi^2/0{,}25}=5\,\mathrm{Hz}$. Khoảng khảo sát $1{,}25$–$4{,}25\,\mathrm{Hz}$ nằm dưới $f_0$; biên độ tăng khi tần số tiến gần cộng hưởng, nên lớn nhất tại $4{,}25\,\mathrm{Hz}$.
 ### Nhận biết — Trắc nghiệm 4 lựa chọn
 
 #### Bài 23
@@ -429,12 +388,10 @@ D. gia tốc.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
+
     **Hướng dẫn giải:**
 
-    Trước hết xác định đúng loại dao động: tắt dần có biên độ giảm do lực cản; dao động cưỡng bức có tần số bằng tần số ngoại lực; cộng hưởng xảy ra khi tần số cưỡng bức gần tần số riêng.
-
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. cơ năng.**
+    Trong dao động tắt dần, lực cản thực hiện công âm làm cơ năng của hệ giảm dần theo thời gian; chọn C.
 #### Bài 24
 
 <!-- source-id: BT-Chuong-I-p124-q2-316 -->
@@ -451,12 +408,10 @@ D. vận tốc.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** B
+
     **Hướng dẫn giải:**
 
-    Trước hết xác định đúng loại dao động: tắt dần có biên độ giảm do lực cản; dao động cưỡng bức có tần số bằng tần số ngoại lực; cộng hưởng xảy ra khi tần số cưỡng bức gần tần số riêng.
-
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **B. chu kỳ.**
+    Trong mô hình dao động tắt dần dưới hạn với lực cản nhỏ, biên độ giảm nhưng chu kì dao động được coi gần như không đổi. Chọn B.
 #### Bài 25
 
 <!-- source-id: BT-Chuong-I-p124-q3-317 -->
@@ -474,12 +429,10 @@ D. động năng của vật dao động điều hòa.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
+
     **Hướng dẫn giải:**
 
-    Trước hết xác định đúng loại dao động: tắt dần có biên độ giảm do lực cản; dao động cưỡng bức có tần số bằng tần số ngoại lực; cộng hưởng xảy ra khi tần số cưỡng bức gần tần số riêng.
-
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. số dao động vật thực hiện cho đến khi dừng hẳn.**
+    Lực cản lớn hơn làm năng lượng mất nhanh hơn, nên vật thực hiện ít dao động hơn trước khi dừng. Chọn A.
 #### Bài 26
 
 <!-- source-id: BT-Chuong-I-p124-q4-318 -->
@@ -496,12 +449,10 @@ D. hóa năng.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
+
     **Hướng dẫn giải:**
 
-    Trước hết xác định đúng loại dao động: tắt dần có biên độ giảm do lực cản; dao động cưỡng bức có tần số bằng tần số ngoại lực; cộng hưởng xảy ra khi tần số cưỡng bức gần tần số riêng.
-
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. nhiệt năng.**
+    Công của lực cản làm một phần cơ năng chuyển hóa chủ yếu thành nhiệt năng của vật và môi trường. Chọn A.
 #### Bài 27
 
 <!-- source-id: BT-Chuong-I-p124-q5-319 -->
@@ -518,12 +469,10 @@ D. Dao động tắt dần có cơ năng giảm dần theo thời gian.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
+
     **Hướng dẫn giải:**
 
-    Trước hết xác định đúng loại dao động: tắt dần có biên độ giảm do lực cản; dao động cưỡng bức có tần số bằng tần số ngoại lực; cộng hưởng xảy ra khi tần số cưỡng bức gần tần số riêng.
-
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **D. Dao động tắt dần có cơ năng giảm dần theo thời gian.**
+    Đặc trưng chắc chắn của dao động tắt dần là cơ năng giảm theo thời gian do lực cản. Chọn D.
 #### Bài 28
 
 <!-- source-id: BT-Chuong-I-p124-q6-320 -->
@@ -540,12 +489,10 @@ D. dao động cưỡng bức.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
+
     **Hướng dẫn giải:**
 
-    Trước hết xác định đúng loại dao động: tắt dần có biên độ giảm do lực cản; dao động cưỡng bức có tần số bằng tần số ngoại lực; cộng hưởng xảy ra khi tần số cưỡng bức gần tần số riêng.
-
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. dao động tắt dần.**
+    Nếu cả tốc độ cực đại và thế năng cực đại cùng giảm theo thời gian thì biên độ và cơ năng đang giảm; đó là dao động tắt dần. Chọn C.
 #### Bài 29
 
 <!-- source-id: BT-Chuong-I-p124-q7-321 -->
@@ -562,12 +509,10 @@ D. biến thiên điều hòa theo thời gian.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
+
     **Hướng dẫn giải:**
 
-    Trước hết xác định đúng loại dao động: tắt dần có biên độ giảm do lực cản; dao động cưỡng bức có tần số bằng tần số ngoại lực; cộng hưởng xảy ra khi tần số cưỡng bức gần tần số riêng.
-
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. giảm dần theo thời gian.**
+    Biên độ là đại lượng suy giảm theo thời gian trong dao động tắt dần; chọn C.
 #### Bài 30
 
 <!-- source-id: BT-Chuong-I-p124-q8-322 -->
@@ -584,7 +529,9 @@ D. Dao động cưỡng bức có tần số bằng tần số ngoại lực cư
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
+
     **Hướng dẫn giải:**
+
     Biên độ dao động cưỡng bức phụ thuộc vào độ chênh lệch giữa tần số ngoại lực cưỡng bức và
 
     tần số dao động riêng.
@@ -606,12 +553,10 @@ D. biên độ của dao động riêng.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
+
     **Hướng dẫn giải:**
 
-    Trước hết xác định đúng loại dao động: tắt dần có biên độ giảm do lực cản; dao động cưỡng bức có tần số bằng tần số ngoại lực; cộng hưởng xảy ra khi tần số cưỡng bức gần tần số riêng.
-
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. tần số của ngoại lực.**
+    Ở giai đoạn cưỡng bức ổn định, hệ dao động theo tần số của ngoại lực tuần hoàn. Chọn C.
 #### Bài 32
 
 <!-- source-id: BT-Chuong-I-p125-q12-326 -->
@@ -628,12 +573,10 @@ D. Biên độ của dao động cưỡng bức không phụ thuộc vào chu k�
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
+
     **Hướng dẫn giải:**
 
-    Trước hết xác định đúng loại dao động: tắt dần có biên độ giảm do lực cản; dao động cưỡng bức có tần số bằng tần số ngoại lực; cộng hưởng xảy ra khi tần số cưỡng bức gần tần số riêng.
-
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **D. Biên độ của dao động cưỡng bức không phụ thuộc vào chu kỳ của lực cưỡng bức.**
+    Biên độ cưỡng bức phụ thuộc tần số, tức cũng phụ thuộc chu kì, của ngoại lực. Vì vậy phát biểu D là không đúng.
 #### Bài 33
 
 <!-- source-id: BT-Chuong-I-p125-q13-327 -->
@@ -651,12 +594,10 @@ D. cả biên độ và tần số dao động riêng.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
+
     **Hướng dẫn giải:**
 
-    Trước hết xác định đúng loại dao động: tắt dần có biên độ giảm do lực cản; dao động cưỡng bức có tần số bằng tần số ngoại lực; cộng hưởng xảy ra khi tần số cưỡng bức gần tần số riêng.
-
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. tần số dao dộng riêng.**
+    Cộng hưởng xảy ra khi tần số ngoại lực trùng hoặc rất gần tần số riêng. Khi đó dao động cưỡng bức vẫn có tần số bằng tần số ngoại lực, tức bằng tần số riêng tại cộng hưởng; chọn C.
 #### Bài 34
 
 <!-- source-id: BT-Chuong-I-p125-q14-328 -->
@@ -673,12 +614,10 @@ D. dao động cưỡng bức.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
+
     **Hướng dẫn giải:**
 
-    Trước hết xác định đúng loại dao động: tắt dần có biên độ giảm do lực cản; dao động cưỡng bức có tần số bằng tần số ngoại lực; cộng hưởng xảy ra khi tần số cưỡng bức gần tần số riêng.
-
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **D. dao động cưỡng bức.**
+    Cộng hưởng là hiện tượng biên độ của dao động cưỡng bức đạt cực đại khi tần số ngoại lực phù hợp với tần số riêng. Vì vậy nó thuộc dao động cưỡng bức; chọn D.
 #### Bài 35
 
 <!-- source-id: BT-Chuong-I-p125-q15-329 -->
@@ -696,35 +635,31 @@ D. Dao động cưỡng bức.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** B
+
     **Hướng dẫn giải:**
 
-    Trước hết xác định đúng loại dao động: tắt dần có biên độ giảm do lực cản; dao động cưỡng bức có tần số bằng tần số ngoại lực; cộng hưởng xảy ra khi tần số cưỡng bức gần tần số riêng.
-
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **B. Dao động duy trì.**
+    Người mẹ bù đúng phần năng lượng mất sau mỗi chu kì nhưng không áp đặt một tần số mới lên xích đu; dao động tiếp tục với chu kì riêng. Đây là dao động duy trì, chọn B.
 #### Bài 36
 
 <!-- source-id: BT-Chuong-I-p125-q16-330 -->
 
 Một con lắc đồng hồ đang dao động tắt dần, mỗi chu kỳ năng lượng bị mất đi do ma sát
-là 0,01 J. Để duy trì dao động của con lắc đồng hồ, ta cần cung cấp cho con lắc một năng lượng
+là $0,01\,\mathrm J$. Để duy trì dao động của con lắc đồng hồ, ta cần cung cấp cho con lắc một năng lượng
 
-A. lớn hơn 0,01 J trong mỗi chu kỳ.
+A. lớn hơn $0,01\,\mathrm J$ trong mỗi chu kỳ.
 
-B. lớn hơn 0,01 J trong mỗi nửa chu kỳ.
+B. lớn hơn $0,01\,\mathrm J$ trong mỗi nửa chu kỳ.
 
-C. vừa bằng 0,01 J trong mỗi chu kỳ.
+C. vừa bằng $0,01\,\mathrm J$ trong mỗi chu kỳ.
 
-D. lớn hơn 0,01 J trong mỗi nửa chu kỳ.
+D. lớn hơn $0,01\,\mathrm J$ trong mỗi nửa chu kỳ.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
+
     **Hướng dẫn giải:**
 
-    Trước hết xác định đúng loại dao động: tắt dần có biên độ giảm do lực cản; dao động cưỡng bức có tần số bằng tần số ngoại lực; cộng hưởng xảy ra khi tần số cưỡng bức gần tần số riêng.
-
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. vừa bằng 0,01 J trong mỗi chu kỳ.**
+    Để biên độ được duy trì, năng lượng cung cấp trong mỗi chu kì phải đúng bằng năng lượng bị hao phí trong chu kì đó, tức $0{,}01\,\mathrm J$. Chọn C.
 #### Bài 37
 
 <!-- source-id: BT-Chuong-I-p125-q17-331 -->
@@ -741,7 +676,9 @@ D. Máy ra-di-o thu sóng điện từ.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
+
     **Hướng dẫn giải:**
+
     Trong dao động của những cây cầu, khi hiện tượng cộng hưởng xảy ra, các cây cầu sẽ dao động
     với biên độ cực đại gây ra gãy, sập cầu.
 
@@ -749,7 +686,7 @@ D. Máy ra-di-o thu sóng điện từ.
 
 <!-- source-id: BT-Chuong-I-p126-q18-332 -->
 
-Một con lắc đơn dao động tắt dần với chu kỳ T = 2 (s). Sau khoảng thời gian 20 (s) thì
+Một con lắc đơn dao động tắt dần với chu kì $T=2\,\mathrm s$. Sau khoảng thời gian $20\,\mathrm s$ thì
 con lắc đơn dừng hẳn. Dao động của con lắc là
 
 A. dao động cưỡng bức.
@@ -762,15 +699,10 @@ D. dao động tắt dần dưới hạn.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
+
     **Hướng dẫn giải:**
 
-    Trước hết xác định đúng loại dao động: tắt dần có biên độ giảm do lực cản; dao động cưỡng bức có tần số bằng tần số ngoại lực; cộng hưởng xảy ra khi tần số cưỡng bức gần tần số riêng.
-
-    Số dao động mà vật thực hiện được cho tới khi dừng hẳn là
-    Như vậy vật dao động tắt dần, sau khi thực hiện được nhiều dao động mới dừng hẳn. Do đó dao
-    động thuộc loại dao động tắt dần dưới hạn.
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **D. dao động tắt dần dưới hạn.**
+    Trong $20\,\mathrm s$ với $T=2\,\mathrm s$, con lắc còn thực hiện khoảng $10$ dao động trước khi dừng. Việc vẫn dao động qua lại nhiều lần là đặc trưng của tắt dần dưới hạn; chọn D.
 #### Bài 39
 
 <!-- source-id: BT-Chuong-I-p130-q28-342 -->
@@ -791,7 +723,9 @@ D. 1.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
+
     **Hướng dẫn giải:**
+
     Quan sát đồ thị hình 2.6 ta thấy từ lúc vật bắt đầu dao động đến khi dừng hẳn vật thực hiện 4 chu
     kì dao động.
     Hình 2.4
@@ -814,20 +748,16 @@ D. 4%.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
+
     **Hướng dẫn giải:**
 
-    Trước hết xác định đúng loại dao động: tắt dần có biên độ giảm do lực cản; dao động cưỡng bức có tần số bằng tần số ngoại lực; cộng hưởng xảy ra khi tần số cưỡng bức gần tần số riêng.
-
-    Vì cơ năng giảm 48%, do đó cơ năng lúc sau bằng 52% cơ năng ban đầu.
-    Vậy phần trăm biên độ giảm sau mỗi chu kì là a = 4 (%)
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **D. 4%.**
+    Sau 8 chu kì, cơ năng còn $52\%$: $(1-r)^{16}=0{,}52$, với $r$ là tỉ lệ giảm biên độ mỗi chu kì. Suy ra $1-r=0{,}52^{1/16}\approx0{,}960$, nên $r\approx4{,}0\%$; chọn D.
 #### Bài 41
 
 <!-- source-id: BT-Chuong-I-p131-q30-344 -->
 
 Cây cầu Tacoma Narrows được xây dựng ở Mỹ rất vững chắc. Tuy vậy đến ngày 7 tháng
-11 năm 1940, một vụ sập cầu đã xảy ra do gió lớn, phần nhịp chính (840 m) của cây cầu đã bị hư
+11 năm 1940, một vụ sập cầu đã xảy ra do gió lớn, phần nhịp chính ($840\,\mathrm m$) của cây cầu đã bị hư
 hỏng rất nặng, thậm chí bị đứt gãy hẳn ở nhiều chỗ. Điều này xảy ra do thiết kế của cây cầu, nó
 rất dễ bị rung lắc do ảnh hưởng của gió và từ đó dần dần khiến cầu bị sập. Gió làm sập cầu do
 
@@ -841,12 +771,10 @@ D. hiện tượng cộng hưởng.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
+
     **Hướng dẫn giải:**
 
-    Trước hết xác định đúng loại dao động: tắt dần có biên độ giảm do lực cản; dao động cưỡng bức có tần số bằng tần số ngoại lực; cộng hưởng xảy ra khi tần số cưỡng bức gần tần số riêng.
-
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **D. hiện tượng cộng hưởng.**
+    Theo mô hình cộng hưởng cơ học được dùng trong bài, tác động tuần hoàn của gió có thể truyền năng lượng mạnh vào một mode dao động của cầu khi tần số kích thích phù hợp, làm biên độ tăng lớn. Chọn D.
 #### Bài 42
 
 <!-- source-id: BT-Chuong-I-p131-q31-345 -->
@@ -865,17 +793,18 @@ D. tần số $f_0$.
     **Đáp án:** B
 
     **Hướng dẫn giải:**
+
     Ở trạng thái dao động cưỡng bức ổn định, hệ dao động với **tần số của ngoại lực cưỡng bức**, tức $f$. Biên độ ổn định phụ thuộc ngoại lực, độ lệch giữa $f$ và tần số riêng, cùng độ cản; không nhất thiết bằng $A$ hoặc $A_0$.
 
 #### Bài 43
 
 <!-- source-id: BT-Chuong-I-p131-q32-346 -->
 
-Một vật dao động điều hòa có phương trình $x=4\cos(2\pi t)$ cm. Bỏ qua lực cản của môi trường. Lần lượt tác dụng lên vật các ngoại lực cưỡng bức
+Một vật dao động điều hòa có phương trình $x=4\cos(2\pi t)\,\mathrm{cm}$. Bỏ qua lực cản của môi trường. Lần lượt tác dụng lên vật các ngoại lực cưỡng bức
 
-- $F_1=5\cos\left(2\pi t+\frac{\pi}{2}\right)$ N;
-- $F_2=5\cos\left(2\pi t+\frac{2\pi}{3}\right)$ N;
-- $F_3=5\cos\left(2\pi t-\frac{\pi}{4}\right)$ N.
+- $F_1=5\cos\left(2\pi t+\frac{\pi}{2}\right)\,\mathrm N$;
+- $F_2=5\cos\left(2\pi t+\frac{2\pi}{3}\right)\,\mathrm N$;
+- $F_3=5\cos\left(2\pi t-\frac{\pi}{4}\right)\,\mathrm N$.
 
 Biên độ dao động cưỡng bức ở giai đoạn ổn định trong ba trường hợp lần lượt là $A_1,A_2,A_3$. Nhận xét nào sau đây đúng?
 
@@ -888,20 +817,25 @@ C. $A_1=A_2=A_3$.
 D. $A_2=A_3>A_1$.
 
 ??? success "Đáp án và lời giải"
-    **Đáp án: C.**
+    **Đáp án:** Không có phương án đúng nếu giữ nguyên giả thiết “bỏ qua lực cản”. Phương án C là ý đồ của nguồn khi ngầm coi hệ có lực cản nhỏ.
+
     **Hướng dẫn giải:**
 
-    Ba ngoại lực có cùng biên độ và cùng tần số góc, chỉ khác pha ban đầu. Biên độ dao động cưỡng bức ở trạng thái ổn định không phụ thuộc pha ban đầu của ngoại lực, nên
+    Dao động tự do có $\omega_0=2\pi\,\mathrm{rad/s}$. Cả ba ngoại lực đều có tần số góc $\omega=2\pi\,\mathrm{rad/s}$, nên $\omega=\omega_0$. Với đúng giả thiết đề bài “bỏ qua lực cản”, hệ rơi vào cộng hưởng không tắt dần: thành phần cưỡng bức có biên độ tăng theo thời gian và **không tồn tại giai đoạn ổn định với biên độ hữu hạn**. Vì vậy các đại lượng $A_1,A_2,A_3$ theo nghĩa biên độ ổn định mà đề hỏi không được xác định; không phương án A–D nào đúng hoàn toàn.
 
-    $$A_1=A_2=A_3.$$
+    Nếu bổ sung lực cản nhỏ khác 0 để trạng thái ổn định tồn tại, biên độ cưỡng bức chỉ phụ thuộc biên độ/tần số ngoại lực và các tham số hệ, không phụ thuộc pha ban đầu của ngoại lực. Khi đó ba ngoại lực cho cùng biên độ ổn định và suy ra $A_1=A_2=A_3$, tức phương án C.
+
+    !!! warning "Đối chiếu nguồn"
+        PDF chọn C nhưng đồng thời cho $\omega=\omega_0$ và yêu cầu bỏ qua lực cản. Hai giả thiết này không tương thích với khái niệm “giai đoạn ổn định”. Vì vậy lời giải giữ C chỉ như ý đồ của nguồn khi ngầm có lực cản nhỏ, còn theo mô hình được ghi đúng trong đề thì không có phương án đúng.
+
 #### Bài 44
 
 <!-- source-id: BT-Chuong-I-p132-q33-347 -->
 
-Con lắc lò xo gồm vật nhỏ khối lượng 0,5 kg gắn vào đầu một lò xo có độ cứng 50 N/m.
+Con lắc lò xo gồm vật nhỏ khối lượng $0,5\,\mathrm{kg}$ gắn vào đầu một lò xo có độ cứng $50\,\mathrm{N/m}$.
 Vật được gắn trên một giá đỡ cố định nằm dọc theo trục lò xo. Hệ dao động theo phương nằm
-ngang. Biết hệ số ma sát giữa vật và giá đỡ là 0,1. Kéo vật khỏi vị trí cân bằng một khoảng 20 cm
-theo chiều dương rồi thả cho vật dao động không vận tốc đầu. Lấy g = 10 m/s2. Số dao động vật
+ngang. Biết hệ số ma sát giữa vật và giá đỡ là 0,1. Kéo vật khỏi vị trí cân bằng một khoảng $20\,\mathrm{cm}$
+theo chiều dương rồi thả cho vật dao động không vận tốc đầu. Lấy $g=10\,\mathrm{m/s^2}$. Số dao động vật
 thực hiện được từ lúc bắt đầu dao động đến khi dừng lại là
 
 A. 4 dao động.
@@ -914,23 +848,19 @@ D. 5 dao động.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
+
     **Hướng dẫn giải:**
 
-    Trước hết xác định đúng loại dao động: tắt dần có biên độ giảm do lực cản; dao động cưỡng bức có tần số bằng tần số ngoại lực; cộng hưởng xảy ra khi tần số cưỡng bức gần tần số riêng.
-
-    Độ giảm biên độ sau mỗi chu kì dao động là
-    Số dao động vật thực hiện cho tới khi dừng lại là
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **D. 5 dao động.**
+    Độ giảm biên độ sau mỗi chu kì do ma sát trượt là $\Delta A=4\mu mg/k=4\cdot0{,}1\cdot0{,}5\cdot10/50=0{,}04\,\mathrm m=4\,\mathrm{cm}$. Từ $A_0=20\,\mathrm{cm}$, số dao động đến khi dừng là $N=A_0/\Delta A=5$; chọn D.
 #### Bài 45
 
 <!-- source-id: BT-Chuong-I-p132-q34-348 -->
 
-Một vật dao động điều hòa có phương trình $x=2\cos(10t)$ cm. Bỏ qua lực cản của môi trường. Lần lượt tác dụng lên vật các ngoại lực cưỡng bức
+Một vật dao động điều hòa có phương trình $x=2\cos(10t)\,\mathrm{cm}$. Bỏ qua lực cản của môi trường. Lần lượt tác dụng lên vật các ngoại lực cưỡng bức
 
-- $F_1=10\cos\left(6t+\frac{\pi}{3}\right)$ N;
-- $F_2=10\cos\left(8t+\frac{2\pi}{3}\right)$ N;
-- $F_3=10\cos\left(18t-\frac{2\pi}{3}\right)$ N.
+- $F_1=10\cos\left(6t+\frac{\pi}{3}\right)\,\mathrm N$;
+- $F_2=10\cos\left(8t+\frac{2\pi}{3}\right)\,\mathrm N$;
+- $F_3=10\cos\left(18t-\frac{2\pi}{3}\right)\,\mathrm N$.
 
 Biên độ dao động cưỡng bức ở giai đoạn ổn định trong ba trường hợp lần lượt là $A_1,A_2,A_3$. Nhận xét nào sau đây đúng?
 
@@ -943,16 +873,15 @@ C. $A_1=A_2=A_3$.
 D. $A_3<A_1<A_2$.
 
 ??? success "Đáp án và lời giải"
-    **Đáp án: D.**
+    **Đáp án:** D.
+
     **Hướng dẫn giải:**
 
-    Tần số góc riêng là $\omega_0=10$ rad/s. Với cùng biên độ ngoại lực, trường hợp có tần số cưỡng bức gần $\omega_0$ hơn cho biên độ ổn định lớn hơn. Ta có
+    Tần số góc riêng là $\omega_0=10\,\mathrm{rad/s}$. Với cùng biên độ ngoại lực, trường hợp có tần số cưỡng bức gần $\omega_0$ hơn cho biên độ ổn định lớn hơn. Ta có
 
     $\displaystyle |18-10|>|6-10|>|8-10|,$
 
-    nên
-
-    $$A_3<A_1<A_2.$$
+    nên $A_3<A_1<A_2$.
 #### Bài 46
 
 <!-- source-id: BT-Chuong-I-p143-q1-365 -->
@@ -969,12 +898,10 @@ D. thế năng.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
+
     **Hướng dẫn giải:**
 
-    Trước hết xác định đúng loại dao động: tắt dần có biên độ giảm do lực cản; dao động cưỡng bức có tần số bằng tần số ngoại lực; cộng hưởng xảy ra khi tần số cưỡng bức gần tần số riêng.
-
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. biên độ.**
+    Dao động tắt dần có biên độ giảm theo thời gian; vì vậy trong các đại lượng đã cho, biên độ là lựa chọn phù hợp. Chọn C.
 #### Bài 47
 
 <!-- source-id: BT-Chuong-I-p143-q2-366 -->
@@ -991,12 +918,10 @@ D. gia tốc.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
+
     **Hướng dẫn giải:**
 
-    Trước hết xác định đúng loại dao động: tắt dần có biên độ giảm do lực cản; dao động cưỡng bức có tần số bằng tần số ngoại lực; cộng hưởng xảy ra khi tần số cưỡng bức gần tần số riêng.
-
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. tần số.**
+    Trong mô hình tắt dần dưới hạn tuyến tính, biên độ giảm còn tần số tắt dần là hằng số của hệ. Chọn A.
 #### Bài 48
 
 <!-- source-id: BT-Chuong-I-p143-q3-367 -->
@@ -1013,12 +938,10 @@ D. động năng của vật dao động điều hòa.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
+
     **Hướng dẫn giải:**
 
-    Trước hết xác định đúng loại dao động: tắt dần có biên độ giảm do lực cản; dao động cưỡng bức có tần số bằng tần số ngoại lực; cộng hưởng xảy ra khi tần số cưỡng bức gần tần số riêng.
-
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. số dao động vật thực hiện cho đến khi dừng hẳn.**
+    Lực cản nhỏ hơn làm năng lượng hao phí chậm hơn, nên vật thực hiện được nhiều dao động hơn trước khi dừng. Chọn C.
 #### Bài 49
 
 <!-- source-id: BT-Chuong-I-p143-q4-368 -->
@@ -1035,18 +958,16 @@ D. dao động tắt dần tới hạn.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
+
     **Hướng dẫn giải:**
 
-    Trước hết xác định đúng loại dao động: tắt dần có biên độ giảm do lực cản; dao động cưỡng bức có tần số bằng tần số ngoại lực; cộng hưởng xảy ra khi tần số cưỡng bức gần tần số riêng.
-
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **D. dao động tắt dần tới hạn.**
+    Hệ thống giảm xóc được thiết kế để đưa dao động về cân bằng nhanh, gần chế độ tắt dần tới hạn. Chọn D.
 #### Bài 50
 
 <!-- source-id: BT-Chuong-I-p143-q5-369 -->
 
-Một con lò xo dao động tắt dần với chu kỳ T = 1,5 (s). Ban đầu kéo con lắc lệch khỏi vị trí
-cân bằng một khoảng 4 cm rồi thả không vận tốc đầu. Sau khoảng thời gian 1,2 (s) thì con lắc đi
+Một con lắc lò xo dao động tắt dần với chu kì $T=1{,}5\,\mathrm s$. Ban đầu kéo con lắc lệch khỏi vị trí
+cân bằng một khoảng $4\,\mathrm{cm}$ rồi thả không vận tốc đầu. Sau khoảng thời gian $1{,}2\,\mathrm s$ thì con lắc đi
 từ biên về tới vị trí cân bằng rồi dừng hẳn. Dao động của con lắc là
 
 A. dao động cưỡng bức.
@@ -1058,13 +979,15 @@ C. dao động tắt dần tới hạn.
 D. dao động tắt dần dưới hạn.
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** C
+    **Đáp án:** C theo cách phân loại của nguồn.
+
     **Hướng dẫn giải:**
 
-    Trước hết xác định đúng loại dao động: tắt dần có biên độ giảm do lực cản; dao động cưỡng bức có tần số bằng tần số ngoại lực; cộng hưởng xảy ra khi tần số cưỡng bức gần tần số riêng.
+    Trong bốn lựa chọn, mô tả vật trở về gần vị trí cân bằng mà không tiếp tục dao động qua lại phù hợp với ý tưởng **tắt dần tới hạn**: đây là ranh giới giữa dưới hạn và vượt hạn, cho quá trình trở về cân bằng nhanh mà không có dao động tuần hoàn quanh vị trí cân bằng. Vì vậy theo cách phân loại mà PDF sử dụng, chọn C.
 
+    !!! warning "Đối chiếu nguồn"
+        Cụm “dừng hẳn sau $1{,}2\,\mathrm s$” không đúng theo nghĩa toán học của mô hình cản nhớt tuyến tính lí tưởng: nghiệm tới hạn tiến dần về cân bằng theo hàm mũ và không đạt đúng $x=0$, $v=0$ tại một thời điểm hữu hạn. Do đó C là lựa chọn phù hợp với ý đồ định tính của nguồn, không phải hệ quả chính xác của dữ kiện $1{,}2\,\mathrm s$.
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. dao động tắt dần tới hạn.**
 #### Bài 51
 
 <!-- source-id: BT-Chuong-I-p143-q6-370 -->
@@ -1081,12 +1004,10 @@ D. dao động cưỡng bức.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
+
     **Hướng dẫn giải:**
 
-    Trước hết xác định đúng loại dao động: tắt dần có biên độ giảm do lực cản; dao động cưỡng bức có tần số bằng tần số ngoại lực; cộng hưởng xảy ra khi tần số cưỡng bức gần tần số riêng.
-
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. dao động tắt dần.**
+    Dao động có cả biên độ và cơ năng giảm dần theo thời gian là dao động tắt dần. Chọn C.
 #### Bài 52
 
 <!-- source-id: BT-Chuong-I-p143-q7-371 -->
@@ -1103,12 +1024,10 @@ D. không đổi theo thời gian.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** B
+
     **Hướng dẫn giải:**
 
-    Trước hết xác định đúng loại dao động: tắt dần có biên độ giảm do lực cản; dao động cưỡng bức có tần số bằng tần số ngoại lực; cộng hưởng xảy ra khi tần số cưỡng bức gần tần số riêng.
-
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **B. giảm dần theo thời gian.**
+    Tổng động năng và thế năng chính là cơ năng. Trong dao động tắt dần, lực cản làm cơ năng giảm dần; chọn B.
 #### Bài 53
 
 <!-- source-id: BT-Chuong-I-p143-q8-372 -->
@@ -1125,12 +1044,10 @@ D. Dao động tắt dần là dao động chỉ chịu tác dụng của nội 
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
+
     **Hướng dẫn giải:**
 
-    Trước hết xác định đúng loại dao động: tắt dần có biên độ giảm do lực cản; dao động cưỡng bức có tần số bằng tần số ngoại lực; cộng hưởng xảy ra khi tần số cưỡng bức gần tần số riêng.
-
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. Dao động tắt dần có biên độ giảm dần theo thời gian.**
+    Biên độ giảm dần theo thời gian là dấu hiệu trực tiếp của dao động tắt dần. Các lựa chọn còn lại trái với việc lực cản tiêu hao cơ năng; chọn A.
 #### Bài 54
 
 <!-- source-id: BT-Chuong-I-p144-q9-373 -->
@@ -1147,12 +1064,10 @@ D. Biên độ của hệ dao động cưỡng bức phụ thuộc biên độ c
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** B
+
     **Hướng dẫn giải:**
 
-    Trước hết xác định đúng loại dao động: tắt dần có biên độ giảm do lực cản; dao động cưỡng bức có tần số bằng tần số ngoại lực; cộng hưởng xảy ra khi tần số cưỡng bức gần tần số riêng.
-
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **B. Tần số của hệ dao động cưỡng bức luôn bằng tần số dao động riêng của hệ.**
+    Ở trạng thái cưỡng bức ổn định, tần số dao động bằng tần số ngoại lực, không nhất thiết bằng tần số riêng. Vì vậy B là phát biểu sai.
 #### Bài 55
 
 <!-- source-id: BT-Chuong-I-p144-q10-374 -->
@@ -1173,6 +1088,7 @@ D. $|f_2-f_0|<|f_3-f_0|<|f_1-f_0|$.
     **Đáp án:** D
 
     **Hướng dẫn giải:**
+
     Với cùng hệ dao động và biên độ ngoại lực, tần số cưỡng bức càng gần tần số riêng $f_0$ thì biên độ ổn định càng lớn. Từ đồ thị có $A_2>A_3>A_1$, nên
 
     $|f_2-f_0|<|f_3-f_0|<|f_1-f_0|.$
@@ -1193,37 +1109,30 @@ D. cơ năng luôn giảm dần theo thời gian.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
+
     **Hướng dẫn giải:**
 
-    Trước hết xác định đúng loại dao động: tắt dần có biên độ giảm do lực cản; dao động cưỡng bức có tần số bằng tần số ngoại lực; cộng hưởng xảy ra khi tần số cưỡng bức gần tần số riêng.
-
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **D. cơ năng luôn giảm dần theo thời gian.**
+    Trong dao động tắt dần, động năng và thế năng có thể tăng giảm luân phiên, nhưng cơ năng giảm đơn điệu do lực cản sinh công âm. Chọn D.
 #### Bài 57
 
 <!-- source-id: BT-Chuong-I-p145-q13-377 -->
 
-Một vật dao động cưỡng bức do tác dụng của ngoại lực
+Một vật dao động cưỡng bức do tác dụng của ngoại lực $F=2\cos\left(20\pi t+\frac{\pi}{3}\right)\,\mathrm N$, với $t$ tính bằng giây. Vật dao động với
 
-$$
-F=2\cos\left(20\pi t+\frac{\pi}{3}\right),
-$$
+A. tần số góc $10\,\mathrm{rad/s}$.
 
-với $F$ tính bằng niutơn và $t$ tính bằng giây. Vật dao động với
+B. chu kì $2\,\mathrm s$.
 
-A. tần số góc $10$ rad/s.
+C. biên độ $0{,}5\,\mathrm m$.
 
-B. chu kì $2$ s.
-
-C. biên độ $0{,}5$ m.
-
-D. tần số $10$ Hz.
+D. tần số $10\,\mathrm{Hz}$.
 
 ??? success "Đáp án và lời giải"
-    **Đáp án: D.**
+    **Đáp án:** D.
+
     **Hướng dẫn giải:**
 
-    Dao động cưỡng bức ổn định có tần số bằng tần số của ngoại lực. Ở đây $\omega=20\pi$ rad/s nên
+    Dao động cưỡng bức ổn định có tần số bằng tần số của ngoại lực. Ở đây $\omega=20\pi\,\mathrm{rad/s}$ nên
 
     $\displaystyle f=\frac{\omega}{2\pi}=10\ \text{Hz}.$
 #### Bài 58
@@ -1242,12 +1151,10 @@ D. Độ lớn lực cản càng lớn thì dao động tắt dần càng nhanh.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
+
     **Hướng dẫn giải:**
 
-    Trước hết xác định đúng loại dao động: tắt dần có biên độ giảm do lực cản; dao động cưỡng bức có tần số bằng tần số ngoại lực; cộng hưởng xảy ra khi tần số cưỡng bức gần tần số riêng.
-
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. Tần số dao động càng lớn thì dao động tắt dần càng nhanh.**
+    Mức tắt dần phụ thuộc lực cản và các tham số của hệ; không thể kết luận “tần số dao động càng lớn thì tắt dần càng nhanh” như một quy luật chung. Vì vậy C là phát biểu không đúng.
 #### Bài 59
 
 <!-- source-id: BT-Chuong-I-p145-q15-379 -->
@@ -1266,29 +1173,21 @@ D. 8%.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
+
     **Hướng dẫn giải:**
 
-    Trước hết xác định đúng loại dao động: tắt dần có biên độ giảm do lực cản; dao động cưỡng bức có tần số bằng tần số ngoại lực; cộng hưởng xảy ra khi tần số cưỡng bức gần tần số riêng.
-
-    Phần trăm cơ năng còn lại sau hai chu kì dao động là
-    Phần trăm cơ năng hao phí là 100% - 92% = 8%
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **D. 8%.**
+    Sau hai chu kì, biên độ còn $A_2=0{,}98^2A_0$ nên $W_2/W_0=0{,}98^4\approx0{,}9224$. Phần cơ năng mất đi khoảng $7{,}76\%$, gần $8\%$; chọn D.
 #### Bài 60
 
 <!-- source-id: BT-Chuong-I-p145-q16-380 -->
 
-Một vật dao động điều hòa có phương trình
-
-$$
-x=5\cos\left(\frac{2\pi}{3}t+\frac{\pi}{6}\right)\ \text{cm}.
-$$
+Một vật dao động điều hòa có phương trình $x=5\cos\left(\frac{2\pi}{3}t+\frac{\pi}{6}\right)\,\mathrm{cm}$.
 
 Bỏ qua lực cản của môi trường. Lần lượt tác dụng lên vật các ngoại lực cưỡng bức
 
-- $F_1=2\cos\left(2\pi t+\frac{\pi}{3}\right)$ N;
-- $F_2=2{,}5\cos(2\pi t)$ N;
-- $F_3=5\cos\left(2\pi t-\frac{\pi}{3}\right)$ N.
+- $F_1=2\cos\left(2\pi t+\frac{\pi}{3}\right)\,\mathrm N$;
+- $F_2=2{,}5\cos(2\pi t)\,\mathrm N$;
+- $F_3=5\cos\left(2\pi t-\frac{\pi}{3}\right)\,\mathrm N$.
 
 Biên độ dao động cưỡng bức ở giai đoạn ổn định trong ba trường hợp lần lượt là $A_1,A_2,A_3$. Nhận xét nào sau đây đúng?
 
@@ -1301,264 +1200,225 @@ C. $A_1=A_2=A_3$.
 D. $A_2=A_3>A_1$.
 
 ??? success "Đáp án và lời giải"
-    **Đáp án: A.**
+    **Đáp án:** A.
+
     **Hướng dẫn giải:**
 
-    Ba ngoại lực có cùng tần số góc $2\pi$ rad/s. Với cùng hệ dao động và cùng tần số cưỡng bức, biên độ ổn định tỉ lệ với biên độ ngoại lực. Vì
-
-    $$5>2{,}5>2,$$
-
-    nên $A_3>A_2>A_1$.
+    Ba ngoại lực có cùng tần số góc $2\pi\,\mathrm{rad/s}$. Với cùng hệ dao động và cùng tần số cưỡng bức, biên độ ổn định tỉ lệ với biên độ ngoại lực. Vì $5>2{,}5>2$ nên $A_3>A_2>A_1$.
 #### Bài 61
 
 <!-- source-id: BT-Chuong-I-p146-q17-381 -->
 
-Một người xách một xô nước đi trên đường, mỗi bước đi dài 40 cm thì nước trong xô bị
-sóng sánh mạnh nhất khi tốc độ đi của người đó là v = 3,6 km/h. Chu kì dao động riêng của nước
+Một người xách một xô nước đi trên đường, mỗi bước đi dài $40\,\mathrm{cm}$ thì nước trong xô bị
+sóng sánh mạnh nhất khi tốc độ đi của người đó là $v=3,6\,\mathrm{km/h}$. Chu kì dao động riêng của nước
 trong xô là
 
-A. 1 s.
+A. $1\,\mathrm s$.
 
-B. 2 s.
+B. $2\,\mathrm s$.
 
-C. 0,4 s.
+C. $0,4\,\mathrm s$.
 
-D. 0,25 s.
+D. $0,25\,\mathrm s$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
+
     **Hướng dẫn giải:**
 
-    Trước hết xác định đúng loại dao động: tắt dần có biên độ giảm do lực cản; dao động cưỡng bức có tần số bằng tần số ngoại lực; cộng hưởng xảy ra khi tần số cưỡng bức gần tần số riêng.
-
-    Tốc độ di chuyển của người
-    Nước trong xô sóng sánh mạnh nhất khi xảy ra cộng hưởng cơ học. Khi đó chu kì dao động riêng
-    bằng chu kì ngoại lực
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. 0,4 s.**
+    Tốc độ $3{,}6\,\mathrm{km/h}=1\,\mathrm{m/s}$. Mỗi bước dài $0{,}40\,\mathrm m$ nên chu kì kích thích là $T=0{,}40/1=0{,}40\,\mathrm s$. Nước sóng sánh mạnh nhất khi cộng hưởng, do đó $T_0=T=0{,}40\,\mathrm s$; chọn C.
 #### Bài 62
 
 <!-- source-id: BT-Chuong-I-p146-q18-382 -->
 
-Một con lắc lò xo có độ cứng k = 25 N/m, vật nặng khối lượng m dao động tắt dần theo
+Một con lắc lò xo có độ cứng k = $25\,\mathrm{N/m}$, vật nặng khối lượng m dao động tắt dần theo
 phương ngang. Thời gian từ lúc bắt dầu dao động đến khi dừng hẳn là 10 (s). Đồ thị dao động của
 vật như hình 3.3. Khối lượng vật nặng xấp xỉ là
 
 ![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/i_p146_q18_382_fig1.webp){ loading=lazy }
 
-A. 2,5 kg.
+A. $2,5\,\mathrm{kg}$.
 
-B. 2,7 kg.
+B. $2,7\,\mathrm{kg}$.
 
-C. 1,8 kg.
+C. $1,8\,\mathrm{kg}$.
 
-D. 0,5 kg.
+D. $0,5\,\mathrm{kg}$.
 
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
+
     **Hướng dẫn giải:**
 
-    Trước hết xác định đúng loại dao động: tắt dần có biên độ giảm do lực cản; dao động cưỡng bức có tần số bằng tần số ngoại lực; cộng hưởng xảy ra khi tần số cưỡng bức gần tần số riêng.
-
-    Quan sát hình vẽ nhận thấy vật thực hiện 5 chu kì dao động rồi ngừng hẳn.
-    Chu kì dao động:
-    Khối lượng vật nặng:
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. 2,5 kg.**
+    Đồ thị cho vật thực hiện 5 chu kì trong $10\,\mathrm s$, nên $T=2\,\mathrm s$. Từ $T=2\pi\sqrt{m/k}$ với $k=25\,\mathrm{N/m}$, suy ra $m=kT^2/(4\pi^2)\approx2{,}53\,\mathrm{kg}$, gần nhất $2{,}5\,\mathrm{kg}$; chọn A.
 ### Nhận biết — Đúng/Sai
 
 #### Bài 63
 
 <!-- source-id: BT-Chuong-I-p137-q3-357 -->
 
-Con lắc lò xo có độ cứng $64$ N/m, một đầu cố định, đầu còn lại gắn vật khối lượng $m$, dao động theo phương ngang. Tác dụng lên con lắc ngoại lực tuần hoàn
+Con lắc lò xo có độ cứng $k=64\,\mathrm{N/m}$, một đầu cố định, đầu còn lại gắn vật khối lượng $m$, dao động theo phương ngang. Tác dụng lên con lắc ngoại lực tuần hoàn $F=F_0\cos(2\pi f t-\pi/3)\,\mathrm N$.
 
-$$
-F=F_0\cos\left(2\pi f t-\frac{\pi}{3}\right)\ \text{N}.
-$$
+Thay đổi tần số ngoại lực từ $1{,}5\,\mathrm{Hz}$ đến $5\,\mathrm{Hz}$ thì nhận thấy tại $f=2{,}55\,\mathrm{Hz}$ vật dao động với biên độ cực đại. Xét các phát biểu:
 
-Thay đổi tần số ngoại lực từ $1{,}5$ Hz đến $5$ Hz thì nhận thấy tại $f=2{,}55$ Hz vật dao động với biên độ cực đại. Xét các phát biểu:
+a) Tần số dao động riêng của con lắc lò xo là $2{,}55\,\mathrm{Hz}$.
 
-a) Tần số dao động riêng của con lắc lò xo là $2{,}55$ Hz.
-
-b) Khối lượng vật nặng là $200$ g.
+b) Khối lượng vật nặng là $200\,\mathrm g$.
 
 c) Khi tăng tần số ngoại lực trong khoảng khảo sát, biên độ dao động lúc đầu tăng lên, sau đó giảm đi.
 
 d) Khi dao động cưỡng bức đã ổn định, nếu thay đổi pha ban đầu của lực cưỡng bức thì biên độ dao động không thay đổi.
 
 ??? success "Đáp án và lời giải"
-    **Đáp án: a) Đúng; b) Sai; c) Đúng; d) Đúng.**
+    **Đáp án:** a) Đúng; b) Sai; c) Đúng; d) Đúng.
+
     **Hướng dẫn giải:**
 
-    Biên độ cực đại tại $f=2{,}55$ Hz cho biết hệ xảy ra cộng hưởng, nên $f_0=2{,}55$ Hz.
+    a) **Đúng.** Biên độ đạt cực đại tại $f=2{,}55\,\mathrm{Hz}$, nên trong mô hình cộng hưởng dùng ở bài này tần số riêng là $f_0=2{,}55\,\mathrm{Hz}$.
 
-    Từ
+    b) **Sai.** Từ $f_0=\dfrac{1}{2\pi}\sqrt{k/m}$ suy ra $m=\dfrac{k}{4\pi^2f_0^2}\approx0{,}25\,\mathrm{kg}=250\,\mathrm g$, không phải $200\,\mathrm g$.
 
-    $\displaystyle f_0=\frac{1}{2\pi}\sqrt{\frac{k}{m}}$
+    c) **Đúng.** Khi quét tần số qua vùng cộng hưởng, biên độ tăng dần tới cực đại tại tần số cộng hưởng rồi giảm.
 
-    suy ra
+    d) **Đúng.** Ở trạng thái cưỡng bức ổn định, biên độ phụ thuộc biên độ và tần số ngoại lực, đặc trưng hệ và độ cản; thay đổi pha ban đầu của ngoại lực chỉ làm đổi pha của đáp ứng, không đổi biên độ ổn định.
 
-    $\displaystyle m=\frac{k}{4\pi^2f_0^2}\approx\frac{64}{4\pi^2\cdot2{,}55^2}\approx0{,}25\ \text{kg}=250\ \text{g}.$
-
-    Vì vậy b sai. Khi quét tần số qua vùng cộng hưởng, biên độ tăng tới cực đại rồi giảm. Biên độ ổn định phụ thuộc biên độ và tần số ngoại lực, độ cản và đặc trưng hệ, không phụ thuộc pha ban đầu của ngoại lực.
 #### Bài 64
 
 <!-- source-id: BT-Chuong-I-p138-q4-358 -->
 
-Con lắc lò xo gồm vật nhỏ khối lượng 20 gam gắn vào đầu một lò xo có độ cứng 1 N/m.
+Con lắc lò xo gồm vật nhỏ khối lượng 20 gam gắn vào đầu một lò xo có độ cứng $1\,\mathrm{N/m}$.
 Vật được gắn trên một giá đỡ cố định nằm dọc theo trục lò xo. Hệ dao động theo phương nằm
-ngang. Biết hệ số ma sát giữa vật và giá đỡ là 0,1. Kéo vật khỏi vị trí cân bằng một khoảng 10 cm
-theo chiều dương rồi thả cho vật dao động không vận tốc đầu. Lấy $g=10$ m/s².
+ngang. Biết hệ số ma sát giữa vật và giá đỡ là 0,1. Kéo vật khỏi vị trí cân bằng một khoảng $10\,\mathrm{cm}$
+theo chiều dương rồi thả cho vật dao động không vận tốc đầu. Lấy $g=10\,\mathrm{m/s^2}$.
 
-a) Vị trí cân bằng tạm thời trong nửa chu kì dao động đầu cách vị trí cân bằng ban đầu 1 cm.
+a) Vị trí cân bằng tạm thời trong nửa chu kì dao động đầu cách vị trí cân bằng ban đầu $1\,\mathrm{cm}$.
 
-b) Biên độ sau một phần tư chu kì dao động đầu tiên là 10 cm.
+b) Biên độ sau một phần tư chu kì dao động đầu tiên là $10\,\mathrm{cm}$.
 
-c) Độ giảm biên độ dao động trong mỗi chu kì là 8 cm.
+c) Độ giảm biên độ dao động trong mỗi chu kì là $8\,\mathrm{cm}$.
 
-d) Tốc độ lớn nhất mà vật đạt được trong quá trình dao động là $40\sqrt2$ cm/s.
+d) Tốc độ lớn nhất mà vật đạt được trong quá trình dao động là $40\sqrt2\,\mathrm{cm/s}$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** a) Sai; b) Sai; c) Đúng; d) Đúng.
 
     **Hướng dẫn giải:**
 
-    Lực ma sát trượt có độ lớn $F_\mathrm{ms}=\mu mg=0{,}1\cdot0{,}02\cdot10=0{,}02$ N.
-    Độ lệch của vị trí cân bằng tạm thời là
-    $x_0=F_\mathrm{ms}/k=0{,}02$ m $=2$ cm. Vì vậy a) **Sai**.
+    a) **Sai.** Lực ma sát trượt có độ lớn $F_\mathrm{ms}=\mu mg=0{,}1\cdot0{,}02\cdot10=0{,}02\,\mathrm N$. Vị trí cân bằng tạm thời lệch một đoạn $x_0=F_\mathrm{ms}/k=0{,}02\,\mathrm m=2\,\mathrm{cm}$, không phải $1\,\mathrm{cm}$.
 
-    Trong nửa chu kì đầu, biên độ giảm một lượng $2x_0=4$ cm; còn sau một phần tư chu kì đầu tiên, độ lệch cực đại tương ứng quanh vị trí cân bằng tạm thời là $A-x_0=8$ cm, không phải 10 cm. Vì vậy b) **Sai**.
+    b) **Sai.** Trong nhánh đầu, biên độ đối với vị trí cân bằng tạm thời là $A-x_0=10-2=8\,\mathrm{cm}$, không phải $10\,\mathrm{cm}$.
 
-    Sau một chu kì, độ giảm biên độ là
-    $\Delta A_T=4x_0=8$ cm, nên c) **Đúng**.
+    c) **Đúng.** Sau một chu kì, độ giảm biên độ do ma sát trượt là $\Delta A_T=4x_0=8\,\mathrm{cm}$.
 
-    $\omega=\sqrt{k/m}=\sqrt{1/0{,}02}=5\sqrt2$ rad/s. Trong nhánh đầu, biên độ đối với vị trí cân bằng tạm thời là $A-x_0=0{,}08$ m, nên
-    $v_{\max}=\omega(A-x_0)=5\sqrt2\cdot0{,}08=0{,}4\sqrt2$ m/s $=40\sqrt2$ cm/s. Do đó d) **Đúng**.
+    d) **Đúng.** $\omega=\sqrt{k/m}=\sqrt{1/0{,}02}=5\sqrt2\,\mathrm{rad/s}$. Tốc độ cực đại lần đầu là
+    $v_{\max}=\omega(A-x_0)=5\sqrt2\cdot0{,}08=0{,}4\sqrt2\,\mathrm{m/s}=40\sqrt2\,\mathrm{cm/s}$.
 
 #### Bài 65
 
 <!-- source-id: BT-Chuong-I-p147-q1-383 -->
 
-Một con lắc lò xo gồm một lò xo có độ cứng 36 N/m, vật nặng khối lượng 250 gam. Kéo
-vật khỏi vị trí cân bằng một khoảng 4 cm rồi thả cho vật dao động theo phương nằm ngang. Biết
+Một con lắc lò xo gồm một lò xo có độ cứng $36\,\mathrm{N/m}$, vật nặng khối lượng 250 gam. Kéo
+vật khỏi vị trí cân bằng một khoảng $4\,\mathrm{cm}$ rồi thả cho vật dao động theo phương nằm ngang. Biết
 rằng sau mỗi chu kì dao động biên độ giảm 5%.
 
-a) Chu kì dao động của vật là 0,52 s.
+a) Chu kì dao động của vật là $0,52\,\mathrm s$.
 
-b) Cơ năng ban đầu của vật là 0,029 J.
+b) Cơ năng ban đầu của vật là $0,029\,\mathrm J$.
 
-c) Cơ năng của vật sau 2 chu kì dao động là 0,02 J.
+c) Cơ năng của vật sau 2 chu kì dao động là $0,02\,\mathrm J$.
 
-d) Sau 6 dao động toàn phần cơ năng của vật còn lại 0,0127 J.
+d) Sau 6 dao động toàn phần cơ năng của vật còn lại $0,0127\,\mathrm J$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** a) Đúng; b) Đúng; c) Sai; d) Sai.
 
     **Hướng dẫn giải:**
 
-    a) $T=2\pi\sqrt{m/k}=2\pi\sqrt{0{,}25/36}=\pi/6\approx0{,}524$ s, nên phát biểu $0{,}52$ s là **Đúng**.
+    a) **Đúng.** $T=2\pi\sqrt{m/k}=2\pi\sqrt{0{,}25/36}=\pi/6\approx0{,}524\,\mathrm s$, nên phát biểu $0{,}52\,\mathrm s$ là **Đúng**.
 
-    b) $W_0=\dfrac12kA_0^2=\dfrac12\cdot36\cdot0{,}04^2=0{,}0288$ J $\approx0{,}029$ J, nên **Đúng**.
+    b) **Đúng.** $W_0=\dfrac12kA_0^2=\dfrac12\cdot36\cdot0{,}04^2=0{,}0288\,\mathrm J$ $\approx0{,}029\,\mathrm J$, nên **Đúng**.
 
     Sau mỗi chu kì, $A$ còn $0{,}95$ lần nên cơ năng còn $0{,}95^2$ lần.
 
-    c) $W_2=W_0\cdot0{,}95^4\approx0{,}02346$ J, không phải $0{,}02$ J nếu làm tròn theo dữ kiện đã cho. Vì vậy **Sai**.
+    c) **Sai.** $W_2=W_0\cdot0{,}95^4\approx0{,}02346\,\mathrm J$, không phải $0{,}02\,\mathrm J$ nếu làm tròn theo dữ kiện đã cho. Vì vậy **Sai**.
 
-    d) $W_6=W_0\cdot0{,}95^{12}\approx0{,}01556$ J, không phải $0{,}0127$ J. Vì vậy **Sai**.
+    d) **Sai.** $W_6=W_0\cdot0{,}95^{12}\approx0{,}01556\,\mathrm J$, không phải $0{,}0127\,\mathrm J$. Vì vậy **Sai**.
 
 #### Bài 66
 
 <!-- source-id: BT-Chuong-I-p147-q2-384 -->
 
-Một con lắc lò xo gồm vật nặng khối lượng 0,2 kg, lò xo có độ cứng 80 N/m dao động
-theo phương ngang. Hệ số ma sát giữa vật và mặt phẳng nghiêng là 0,1. Kéo vật khỏi vị trí cân
-bằng một khoảng 4 cm theo chiều dương rồi thả không vận tốc đầu. Lấy $g=10$ m/s².
+Một con lắc lò xo gồm vật nặng khối lượng $0,2\,\mathrm{kg}$, lò xo có độ cứng $80\,\mathrm{N/m}$ dao động
+theo phương ngang. Hệ số ma sát giữa vật và mặt phẳng ngang là $0{,}1$. Kéo vật khỏi vị trí cân
+bằng một khoảng $4\,\mathrm{cm}$ theo chiều dương rồi thả không vận tốc đầu. Lấy $g=10\,\mathrm{m/s^2}$.
 
-a) Độ giảm biên độ sau mỗi nửa chu kì dao động là 0,25 cm.
+a) Độ giảm biên độ sau mỗi nửa chu kì dao động là $0,25\,\mathrm{cm}$.
 
-b) Quãng đường vật đi được từ lúc vật bắt đầu dao động đến khi vật dừng lại lần đầu tiên là 7,5 cm.
+b) Quãng đường vật đi được từ lúc vật bắt đầu dao động đến khi vật dừng lại lần đầu tiên là $7,5\,\mathrm{cm}$.
 
 c) Số dao động vật thực hiện cho tới khi dừng lại là 8 dao động.
 
-d) Thời gian từ lúc vật bắt đầu dao động cho đến khi dừng lại là 1,26 s.
+d) Thời gian từ lúc vật bắt đầu dao động cho đến khi dừng lại là $1,26\,\mathrm s$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** a) Sai; b) Đúng; c) Sai; d) Đúng.
 
     **Hướng dẫn giải:**
 
-    Với mô hình ma sát trượt không đổi, độ giảm biên độ sau mỗi nửa chu kì là
-    $\Delta A_{T/2}=\dfrac{2\mu mg}{k}=\dfrac{2\cdot0{,}1\cdot0{,}2\cdot10}{80}=0{,}005$ m $=0{,}5$ cm. Do đó a) **Sai**.
+    a) **Sai.** Với ma sát trượt trên mặt phẳng ngang, độ giảm biên độ sau mỗi nửa chu kì là $\Delta A_{T/2}=2\mu mg/k=0{,}005\,\mathrm m=0{,}5\,\mathrm{cm}$, không phải $0{,}25\,\mathrm{cm}$.
 
-    Sau nửa chu kì đầu, biên độ phía âm còn $4-0{,}5=3{,}5$ cm, nên quãng đường đến lần dừng thứ nhất là $4+3{,}5=7{,}5$ cm. Vì vậy b) **Đúng**.
+    b) **Đúng.** Sau nửa chu kì đầu, biên độ phía âm còn $4-0{,}5=3{,}5\,\mathrm{cm}$, nên quãng đường tới lần dừng đầu tiên là $4+3{,}5=7{,}5\,\mathrm{cm}$.
 
-    Độ giảm biên độ sau một chu kì là $1$ cm, nên từ $A_0=4$ cm vật thực hiện $N=4$ chu kì trước khi dừng, không phải 8. Vì vậy c) **Sai**.
+    c) **Sai.** Sau một chu kì biên độ giảm $1\,\mathrm{cm}$, nên từ $A_0=4\,\mathrm{cm}$ vật thực hiện $N=4$ dao động toàn phần trước khi dừng, không phải 8.
 
-    $T=2\pi\sqrt{m/k}=2\pi\sqrt{0{,}2/80}\approx0{,}31416$ s.
-    Thời gian dao động là $t=NT\approx4\cdot0{,}31416=1{,}2566$ s $\approx1{,}26$ s, nên d) **Đúng**.
+    d) **Đúng.** $T=2\pi\sqrt{m/k}=2\pi\sqrt{0{,}2/80}\approx0{,}31416\,\mathrm s$, nên $t=NT\approx4\cdot0{,}31416=1{,}26\,\mathrm s$.
 
+    !!! warning "Đối chiếu nguồn"
+        Dòng đề PDF ghi “mặt phẳng nghiêng” nhưng không cho góc nghiêng; cả câu dẫn trước đó và phần hướng dẫn của PDF đều dùng chuyển động theo phương ngang với $N=mg$. Bản trình bày sửa tối thiểu thành “mặt phẳng ngang” để nhất quán với chính mô hình được nguồn sử dụng.
 #### Bài 67
 
 <!-- source-id: BT-Chuong-I-p148-q3-385 -->
 
-Một đồng hồ quả lắc có cấu tạo gồm một thanh dài 25 cm có khối lượng không đáng kể và vật nặng khối lượng $50$ g. Con lắc dao động với biên độ góc $0{,}18$ rad. Biết sau mỗi chu kì biên độ dao động của con lắc giảm 5%. Lấy $g=10$ m/s². Để duy trì dao động của con lắc một cách liên tục người ta dùng một pin AA có suất điện động $1{,}5$ V và dung lượng pin $900$ mAh. Biết điện năng tiêu thụ bằng tích số suất điện động và điện lượng do pin cung cấp, hiệu suất của pin là 80%.
+Một đồng hồ quả lắc có cấu tạo gồm một thanh dài $25\,\mathrm{cm}$ có khối lượng không đáng kể và vật nặng khối lượng $50$ g. Con lắc dao động với biên độ góc $0{,}18$ rad. Biết sau mỗi chu kì biên độ dao động của con lắc giảm 5%. Lấy $g=10\,\mathrm{m/s^2}$. Để duy trì dao động của con lắc một cách liên tục người ta dùng một pin AA có suất điện động $1{,}5\,\mathrm V$ và dung lượng pin $900$ mAh. Biết điện năng tiêu thụ bằng tích số suất điện động và điện lượng do pin cung cấp, hiệu suất của pin là 80%.
 
-a) Cơ năng dao động của con lắc là $0{,}02$ J.
+a) Cơ năng dao động của con lắc là $0{,}02\,\mathrm J$.
 
-b) Năng lượng hao phí sau chu kì đầu xấp xỉ $0{,}0002$ J.
+b) Năng lượng hao phí sau chu kì đầu xấp xỉ $0{,}0002\,\mathrm J$.
 
-c) Điện năng lí tưởng của pin là $3240$ J.
+c) Điện năng lí tưởng của pin là $3240\,\mathrm J$.
 
 d) Giả sử năng lượng hao phí sau mỗi chu kì bằng giá trị xấp xỉ ở b) và đồng hồ chạy ổn định trong suốt thời gian sử dụng pin. Thời gian sử dụng pin là $225{,}42$ ngày.
 
 ??? success "Đáp án và lời giải"
-    **Đáp án sau kiểm tra:** a) Sai; b) Đúng; c) Sai; d) Sai.
+    **Đáp án:** a) Sai; b) Đúng; c) Sai; d) Sai.
 
     **Hướng dẫn giải:**
 
-    Với góc nhỏ, cơ năng ban đầu xấp xỉ
+    a) **Sai.** Với gần đúng góc nhỏ, $W_0\approx\tfrac12m g\ell\alpha_0^2=\tfrac12\cdot0{,}05\cdot10\cdot0{,}25\cdot0{,}18^2\approx2{,}03\times10^{-3}\,\mathrm J$, không phải $0{,}02\,\mathrm J$.
 
-    $W_0=\dfrac12mgl\alpha_0^2=\dfrac12\cdot0{,}05\cdot10\cdot0{,}25\cdot0{,}18^2\approx2{,}03\times10^{-3}$ J.
+    b) **Đúng.** Sau một chu kì, $\alpha_1=0{,}95\alpha_0$ và $W\propto\alpha^2$, nên $\Delta W=W_0(1-0{,}95^2)\approx1{,}97\times10^{-4}\,\mathrm J\approx0{,}0002\,\mathrm J$.
 
-    Vì vậy a) **Sai**.
+    c) **Sai.** Dung lượng $900\,\mathrm{mAh}=0{,}9\,\mathrm{Ah}$ ứng với $Q=0{,}9\cdot3600=3240\,\mathrm C$. Điện năng lí tưởng là $E=UQ=1{,}5\cdot3240=4860\,\mathrm J$, không phải $3240\,\mathrm J$.
 
-    Sau một chu kì, $\alpha_1=0{,}95\alpha_0$. Do $W\propto\alpha^2$ trong gần đúng góc nhỏ,
+    d) **Sai.** Năng lượng hữu ích là $0{,}8E=3888\,\mathrm J$. Theo chính giả thiết của d), mỗi chu kì hao phí $0{,}0002\,\mathrm J$. Nếu dùng gần đúng $T\approx1\,\mathrm s$, thời gian là $3888/0{,}0002=1{,}944\times10^7\,\mathrm s=225$ ngày, không phải $225{,}42$ ngày. Dùng $T=2\pi\sqrt{0{,}25/10}\approx0{,}9935\,\mathrm s$ còn cho thời gian nhỏ hơn.
 
-    $\Delta W=W_0-W_1=W_0(1-0{,}95^2)\approx1{,}97\times10^{-4}$ J $\approx0{,}0002$ J.
-
-    Vậy b) **Đúng** theo mức làm tròn của đề.
-
-    Dung lượng $0{,}9$ Ah tương ứng điện lượng $Q=0{,}9\cdot3600=3240$ C. Điện năng lí tưởng của pin là
-
-    $E=UQ=1{,}5\cdot3240=4860$ J,
-
-    nên c) **Sai**. Năng lượng hữu ích ở hiệu suất 80% là $E_h=0{,}8\cdot4860=3888$ J.
-
-    Với giả thiết riêng của d) rằng mỗi chu kì hao phí xấp xỉ $0{,}0002$ J, nếu dùng cùng gần đúng $T\approx1$ s như lời giải nguồn thì
-
-    $t\approx\dfrac{3888}{0{,}0002}\,\mathrm s=1{,}944\times10^7$ s $=225$ ngày,
-
-    không phải $225{,}42$ ngày. Vì vậy d) **Sai**. Nếu dùng chu kì không làm tròn $T=2\pi\sqrt{0{,}25/10}\approx0{,}9935$ s thì kết quả còn nhỏ hơn, nên kết luận d) không thay đổi.
-
-!!! warning "Đối chiếu nguồn"
-    Câu dẫn PDF bỏ mất khối lượng vật nặng, nhưng chính dòng thay số đầu tiên của lời giải dùng $m=0{,}05$ kg; bản learner-facing phục hồi đúng dữ kiện $50$ g từ đó. PDF còn tính sai $3240\cdot1{,}5$ thành $4869$ J, rồi dùng $80\%$ của giá trị sai này để ra $225{,}42$ ngày. Sửa phép nhân cho $4860$ J làm c) và d) đều Sai; các dữ kiện còn lại được giữ nguyên.
-
+    !!! warning "Đối chiếu nguồn"
+        PDF tính sai phép nhân $3240\cdot1{,}5$ thành $4869\,\mathrm J$, rồi tiếp tục dùng giá trị đó để thu được $225{,}42$ ngày. Phép tính độc lập cho $4860\,\mathrm J$ và kết luận c), d) đều Sai. Dữ kiện khối lượng $50\,\mathrm g$ có trong câu dẫn PDF và được giữ nguyên.
 #### Bài 68
 
 <!-- source-id: BT-Chuong-I-p149-q4-386 -->
 
 Một con lắc lò xo dao động tắt dần trên mặt phẳng nằm ngang có đồ thị (x-t) như hình 3.4.
-Biết rằng lò xo có độ cứng 25 N/m. Lấy $g=10$ m/s².
+Biết rằng lò xo có độ cứng $25\,\mathrm{N/m}$. Lấy $g=10\,\mathrm{m/s^2}$.
 
 ![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/i_p149_q4_386_fig1.webp){ loading=lazy }
 
-a) Chu kì dao động của vật là 0,8 s.
+a) Chu kì dao động của vật là $0,8\,\mathrm s$.
 
-b) Khối lượng của vật là 0,5 kg.
+b) Khối lượng của vật là $0,5\,\mathrm{kg}$.
 
-c) Độ giảm biên độ của vật trong nửa chu kì dao động là 1,4 cm.
+c) Độ giảm biên độ của vật trong nửa chu kì dao động là $1,4\,\mathrm{cm}$.
 
 d) Hệ số ma sát giữa vật và mặt phẳng ngang là 0,05.
 
@@ -1567,14 +1427,14 @@ d) Hệ số ma sát giữa vật và mặt phẳng ngang là 0,05.
 
     **Hướng dẫn giải:**
 
-    a) Từ đồ thị đọc được $T=0{,}8$ s, nên **Đúng**.
+    a) **Đúng.** Từ đồ thị đọc được $T=0{,}8\,\mathrm s$, nên **Đúng**.
 
-    b) Với $T=2\pi\sqrt{m/k}$,
-    $m=k\left(\dfrac{T}{2\pi}\right)^2=25\left(\dfrac{0{,}8}{2\pi}\right)^2\approx0{,}405$ kg, không phải $0{,}5$ kg. Vì vậy **Sai**.
+    b) **Sai.** Với $T=2\pi\sqrt{m/k}$,
+    $m=k\left(\dfrac{T}{2\pi}\right)^2=25\left(\dfrac{0{,}8}{2\pi}\right)^2\approx0{,}405\,\mathrm{kg}$, không phải $0{,}5\,\mathrm{kg}$. Vì vậy **Sai**.
 
-    c) Từ hai biên liên tiếp trên đồ thị, biên độ giảm $6{,}4-5{,}0=1{,}4$ cm sau nửa chu kì, nên **Đúng**.
+    c) **Đúng.** Từ hai biên liên tiếp trên đồ thị, biên độ giảm $6{,}4-5{,}0=1{,}4\,\mathrm{cm}$ sau nửa chu kì, nên **Đúng**.
 
-    d) Với ma sát trượt không đổi,
+    d) **Sai.** Với ma sát trượt không đổi,
     $\Delta A_{T/2}=\dfrac{2\mu mg}{k}$.
     Do đó
     $\mu=\dfrac{k\Delta A_{T/2}}{2mg}\approx\dfrac{25\cdot0{,}014}{2\cdot0{,}405\cdot10}\approx0{,}043$, không phải $0{,}05$. Vì vậy **Sai**.
@@ -1598,12 +1458,14 @@ C. $F_1>F_2>F_3$.
 D. $F_1>F_3>F_2$.
 
 ??? success "Đáp án và lời giải"
-    **Đáp án: A.**
+    **Đáp án:** A.
+
     **Hướng dẫn giải:**
 
-    Lực cản càng lớn thì biên độ giảm càng nhanh. Từ đồ thị, dao động 3 tắt nhanh nhất, sau đó đến dao động 2, còn dao động 1 tắt chậm nhất. Vì vậy
+    Theo cách đọc định tính của nguồn, đường (3) giảm biên độ nhanh nhất, tiếp theo là đường (2), còn đường (1) duy trì dao động lâu nhất. Với quy ước “lực cản lớn hơn làm tắt dần nhanh hơn” được dùng trong bài, suy ra $F_3>F_2>F_1$, chọn A.
 
-    $$F_3>F_2>F_1.$$
+    !!! note "Giới hạn mô hình"
+        Suy luận trên đúng theo mô hình định tính mà PDF dùng để phân loại ba đường. Với phương trình cản nhớt tuyến tính khi xét cả các chế độ dưới hạn, tới hạn và vượt hạn, thời gian trở về cân bằng không biến thiên đơn điệu chỉ theo hệ số cản; vì vậy không nên dùng quy tắc này ngoài ngữ cảnh của hình đã cho.
 #### Bài 70
 
 <!-- source-id: BT-Chuong-I-p126-q20-334 -->
@@ -1622,21 +1484,14 @@ B. con lắc (1).
 C. con lắc (3).
 
 D. con lắc (4).
-Hình 2.2
-Hình 2.1
 
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** B
+
     **Hướng dẫn giải:**
 
-    Trước hết xác định đúng loại dao động: tắt dần có biên độ giảm do lực cản; dao động cưỡng bức có tần số bằng tần số ngoại lực; cộng hưởng xảy ra khi tần số cưỡng bức gần tần số riêng.
-
-    Tần số dao động được xác định theo công thức
-    Con lắc điều khiền M và con lắc (1) có chiều dài gần bằng nhau. Độ sai lệch tần số dao động của
-    con lắc 1 và con lắc điều khiển M nhỏ nhất. Do đó con lắc (1) dao động mạnh nhất.
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **B. con lắc (1).**
+    Tần số riêng của con lắc đơn phụ thuộc chiều dài $f=(2\pi)^{-1}\sqrt{g/\ell}$. Trên hình, con lắc (1) có chiều dài gần bằng con lắc điều khiển M nhất nên tần số riêng gần tần số kích thích nhất và dao động mạnh nhất; chọn B.
 #### Bài 71
 
 <!-- source-id: BT-Chuong-I-p127-q21-335 -->
@@ -1647,73 +1502,65 @@ của vật là (làm tròn đến số thập phân thứ hai)
 
 ![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/i_p127_q21_335_fig1.webp){ loading=lazy }
 
-A. 0,25 s.
+A. $0,25\,\mathrm s$.
 
-B. 0,12 s.
+B. $0,12\,\mathrm s$.
 
-C. 0,5 s.
+C. $0,5\,\mathrm s$.
 
-D. 0,17 s.
+D. $0,17\,\mathrm s$.
 
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
+
     **Hướng dẫn giải:**
 
-    Trước hết xác định đúng loại dao động: tắt dần có biên độ giảm do lực cản; dao động cưỡng bức có tần số bằng tần số ngoại lực; cộng hưởng xảy ra khi tần số cưỡng bức gần tần số riêng.
-
-    Theo đồ thị hình 2.3 Tại tần số ngoại lực f = 6 Hz thì biên độ dao động cưỡng bức đạt cực đại.
-    Lúc này xảy ra hiện tượng cộng hưởng cơ học. Tần số dao động riêng là f0 = f = 6 Hz.
-    Chu kỳ dao động riêng
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **D. 0,17 s.**
+    Đỉnh đồ thị cộng hưởng nằm tại $f_0\approx6\,\mathrm{Hz}$. Do đó $T_0=1/f_0\approx1/6=0{,}17\,\mathrm s$; chọn D.
 #### Bài 72
 
 <!-- source-id: BT-Chuong-I-p127-q22-336 -->
 
-Một vật dao động điều hòa với tần số riêng f0 = 5 Hz. Ngoài dao động riêng, vật còn
-chịu tác dụng của ngoại lực cưỡng bức tuần hoàn có tần số f = 7,5 Hz. Sau khi vật đạt trạng thái
+Một vật dao động điều hòa với tần số riêng $f_0=5\,\mathrm{Hz}$. Ngoài dao động riêng, vật còn
+chịu tác dụng của ngoại lực cưỡng bức tuần hoàn có tần số $f=7,5\,\mathrm{Hz}$. Sau khi vật đạt trạng thái
 dao động ổn định, tần số dao động của hệ là
 
-A. 12,5 Hz.
+A. $12,5\,\mathrm{Hz}$.
 
-B. 7,5 Hz.
+B. $7,5\,\mathrm{Hz}$.
 
-C. 5 Hz.
+C. $5\,\mathrm{Hz}$.
 
-D. 2,5 Hz.
+D. $2,5\,\mathrm{Hz}$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** B
+
     **Hướng dẫn giải:**
+
     Dao động cưỡng bức, vật dao động cưỡng bức sẽ dao động với tần số của ngoại lực
-    Do đó: fdđcb = f = 7,5 Hz
+    Do đó: fdđcb = $f=7,5\,\mathrm{Hz}$
 
 #### Bài 73
 
 <!-- source-id: BT-Chuong-I-p127-q23-337 -->
 
-Một vật dao động cưỡng bức dưới tác dụng của ngoại lực F = F0cos4πft (với F0 và f
-không đổi, t tính bằng s). Tần số dao động cưỡng bức của vật là
+Một vật dao động cưỡng bức dưới tác dụng của ngoại lực $F=F_0\cos(4\pi f t)$, với $F_0$ và $f$ không đổi, $t$ tính bằng giây. Tần số dao động cưỡng bức của vật là
 
-A. f.
+A. $f$.
 
-B. πf.
+B. $\pi f$.
 
-C. 2f.
+C. $2f$.
 
-D. 0,5f.
+D. $0{,}5f$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
+
     **Hướng dẫn giải:**
 
-    Trước hết xác định đúng loại dao động: tắt dần có biên độ giảm do lực cản; dao động cưỡng bức có tần số bằng tần số ngoại lực; cộng hưởng xảy ra khi tần số cưỡng bức gần tần số riêng.
-
-    Tần số góc của lực cưỡng bức
-    Tần số dao động cưỡng bức bằng tần số lực cưỡng bức
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. 2f.**
+    Ngoại lực $F=F_0\cos(4\pi f t)$ có tần số góc $\omega_F=4\pi f$, nên tần số $f_F=\omega_F/(2\pi)=2f$. Dao động cưỡng bức ổn định có cùng tần số; chọn C.
 #### Bài 74
 
 <!-- source-id: BT-Chuong-I-p128-q24-338 -->
@@ -1729,7 +1576,8 @@ C. $W_n=W\left(\dfrac{100}{100-a}\right)^{2n}$.
 D. $W_n=W\left(\dfrac{100}{100-a}\right)^n$.
 
 ??? success "Đáp án và lời giải"
-    **Đáp án: A.**
+    **Đáp án:** A.
+
     **Hướng dẫn giải:**
 
     Sau mỗi chu kì,
@@ -1778,41 +1626,36 @@ vật là
 
 ![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/i_p130_q26_340_fig1.webp){ loading=lazy }
 
-A. 2 cm.
+A. $2\,\mathrm{cm}$.
 
-B. 4 cm.
+B. $4\,\mathrm{cm}$.
 
-C. 1 cm.
+C. $1\,\mathrm{cm}$.
 
-D. 5 cm.
+D. $5\,\mathrm{cm}$.
 
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** B
+
     **Hướng dẫn giải:**
 
-    Trước hết xác định đúng loại dao động: tắt dần có biên độ giảm do lực cản; dao động cưỡng bức có tần số bằng tần số ngoại lực; cộng hưởng xảy ra khi tần số cưỡng bức gần tần số riêng.
-
-    Sau nửa chu kì biên độ dao động giảm từ 8 cm xuống còn 6 cm.
-    Vậy độ giảm biên độ sau nửa chu kì là:
-    Độ giảm biên độ dao động trong một chu kì là
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **B. 4 cm.**
+    Đọc hai đỉnh dương cách nhau một chu kì trên đồ thị: biên độ giảm từ khoảng $8\,\mathrm{cm}$ xuống $4\,\mathrm{cm}$. Vì vậy sau một chu kì biên độ còn $4\,\mathrm{cm}$; chọn B.
 #### Bài 77
 
 <!-- source-id: BT-Chuong-I-p130-q27-341 -->
 
 Một người xách một xô nước từ một bờ sông về nhà. Nước trong xô dao động với chu kì
-0,3 s. Biết rằng mỗi chân người này có độ dài 0,6 m. Nước trong xô dao động mạnh nhất khi
+$0,3\,\mathrm s$. Biết rằng mỗi chân người này có độ dài $0,6\,\mathrm m$. Nước trong xô dao động mạnh nhất khi
 người này bước đi với tốc độ
 
-A. 2 km/h.
+A. $2\,\mathrm{km/h}$.
 
-B. 3,6 km/h.
+B. $3,6\,\mathrm{km/h}$.
 
-C. 5 km/h.
+C. $5\,\mathrm{km/h}$.
 
-D. 7,2 km/h.
+D. $7,2\,\mathrm{km/h}$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** D.
@@ -1820,10 +1663,10 @@ D. 7,2 km/h.
     **Hướng dẫn giải:**
 
     Nước dao động mạnh nhất khi xảy ra cộng hưởng, nên chu kì bước bằng chu kì riêng của nước:
-    $T=T_0=0{,}3$ s.
+    $T=T_0=0{,}3\,\mathrm s$.
 
-    Với mỗi bước dài $0{,}6$ m, tốc độ là
-    $v=\dfrac{0{,}6}{0{,}3}=2$ m/s $=7{,}2$ km/h.
+    Với mỗi bước dài $0{,}6\,\mathrm m$, tốc độ là
+    $v=\dfrac{0{,}6}{0{,}3}=2\,\mathrm{m/s}$ $=7{,}2\,\mathrm{km/h}$.
 
     Vậy chọn **D**.
 
@@ -1833,43 +1676,40 @@ D. 7,2 km/h.
 
 <!-- source-id: BT-Chuong-I-p132-q35-349 -->
 
-Một con lắc lò xo dao động tắt dần theo phương ngang với chu kì T = 0,2s, lò xo nhẹ, vật
-nhỏ dao động có khối lượng 100g. Hệ số ma sát giữa vật và mặt phẳng ngang là 0,01. Độ giảm
+Một con lắc lò xo dao động tắt dần theo phương ngang với chu kì $T=0,2\,\mathrm s$, lò xo nhẹ, vật
+nhỏ dao động có khối lượng $100\,\mathrm g$. Hệ số ma sát giữa vật và mặt phẳng ngang là 0,01. Độ giảm
 biên độ của vật sau một nửa chu kì dao động là
 
-A. 0,4 cm
+A. $0,4\,\mathrm{cm}$
 
-B. 0,3 cm
+B. $0,3\,\mathrm{cm}$
 
-C. 0,02 cm
+C. $0,02\,\mathrm{cm}$
 
-D. 0,2 m
+D. $0,2\,\mathrm m$
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** C. $0{,}02$ cm.
+    **Đáp án:** C. $0{,}02\,\mathrm{cm}$.
 
     **Hướng dẫn giải:**
+
     Từ $T=2\pi\sqrt{m/k}$:
-    $k=4\pi^2m/T^2\approx4\pi^2\cdot0{,}1/0{,}2^2\approx100$ N/m (lấy $\pi^2\approx10$ như cách trình bày của nguồn).
+    $k=4\pi^2m/T^2\approx4\pi^2\cdot0{,}1/0{,}2^2\approx100\,\mathrm{N/m}$ (lấy $\pi^2\approx10$ như cách trình bày của nguồn).
 
     Với ma sát trượt không đổi, độ giảm biên độ sau nửa chu kì là
-    $\Delta A_{T/2}=2\mu mg/k=2\cdot0{,}01\cdot0{,}1\cdot10/100=2\times10^{-4}$ m.
+    $\Delta A_{T/2}=2\mu mg/k=2\cdot0{,}01\cdot0{,}1\cdot10/100=2\times10^{-4}\,\mathrm m$.
 
-    Đổi đơn vị: $2\times10^{-4}$ m $=0{,}02$ cm. Vậy chọn **C**.
+    Đổi đơn vị: $2\times10^{-4}\,\mathrm m$ $=0{,}02\,\mathrm{cm}$. Vậy chọn **C**.
 
-!!! warning "Đối chiếu nguồn"
-    PDF nguồn tính đúng $\Delta A=0{,}0002$ m nhưng đổi nhầm thành $0{,}2$ cm. Đúng ra $0{,}0002$ m $=0{,}02$ cm; phương án C được hiệu chỉnh theo giá trị đúng.
+    !!! warning "Đối chiếu nguồn"
+        PDF nguồn tính đúng $\Delta A=0{,}0002\,\mathrm m$ nhưng đổi nhầm thành $0{,}2\,\mathrm{cm}$. Đúng ra $0{,}0002\,\mathrm m$ $=0{,}02\,\mathrm{cm}$; phương án C được hiệu chỉnh theo giá trị đúng.
 #### Bài 79
 
 <!-- source-id: BT-Chuong-I-p133-q36-350 -->
 
-Con lắc lò xo dao động điều hòa với chu kì $T=\pi/10$ s, khối lượng lò xo không đáng kể; một đầu cố định, đầu còn lại gắn vật nặng khối lượng $m=0{,}25$ kg. Con lắc dao động cưỡng bức theo phương trùng với trục của lò xo dưới tác dụng của ngoại lực tuần hoàn
+Con lắc lò xo dao động điều hòa với chu kì $T=\pi/10\,\mathrm s$, khối lượng lò xo không đáng kể; một đầu cố định, đầu còn lại gắn vật nặng khối lượng $m=0{,}25\,\mathrm{kg}$. Con lắc dao động cưỡng bức theo phương trùng với trục của lò xo dưới tác dụng của ngoại lực tuần hoàn $F=F_0\cos(\omega t)\,\mathrm N$.
 
-$$
-F=F_0\cos(\omega t)\ \text{N}.
-$$
-
-Thay đổi tần số góc $\omega$ từ $10$ rad/s đến $15$ rad/s thì biên độ dao động
+Thay đổi tần số góc $\omega$ từ $10\,\mathrm{rad/s}$ đến $15\,\mathrm{rad/s}$ thì biên độ dao động
 
 A. tăng lên.
 
@@ -1883,7 +1723,8 @@ D. giảm xuống rồi tăng lên.
     **Đáp án:** A
 
     **Hướng dẫn giải:**
-    Tần số góc riêng của hệ là $\omega_0=2\pi/T=20$ rad/s. Khi $\omega$ tăng từ $10$ lên $15$ rad/s, tần số cưỡng bức tiến gần $\omega_0$, nên trong khoảng này biên độ cưỡng bức tăng.
+
+    Tần số góc riêng của hệ là $\omega_0=2\pi/T=20\,\mathrm{rad/s}$. Khi $\omega$ tăng từ $10$ lên $15\,\mathrm{rad/s}$, tần số cưỡng bức tiến gần $\omega_0$, nên trong khoảng này biên độ cưỡng bức tăng.
 
 #### Bài 80
 
@@ -1904,17 +1745,10 @@ D. 10.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** B
+
     **Hướng dẫn giải:**
 
-    Trước hết xác định đúng loại dao động: tắt dần có biên độ giảm do lực cản; dao động cưỡng bức có tần số bằng tần số ngoại lực; cộng hưởng xảy ra khi tần số cưỡng bức gần tần số riêng.
-
-    Từ đồ thị ta thấy, số dao động vật thực hiện đến khi dừng lại là N = 8
-    Số dao động được tính theo công thức:
-    Khi đi từ biên độ dương + 16 cm đến vị trí biên độ âm A1 là nửa chu kì, biên độ dao động
-    giảm một lượng:
-    Khi đó biên độ
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **B. 15.**
+    Trên đồ thị, $A_1$ là độ lớn của cực tiểu đầu tiên sau khi bắt đầu dao động; trục tung cho giá trị khoảng $15$. Chọn B.
 #### Bài 81
 
 <!-- source-id: BT-Chuong-I-p133-q38-352 -->
@@ -1923,29 +1757,30 @@ Tác dụng vào hệ dao động một ngoại lực cưỡng bức tuần hoà
 
 ![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/i_p133_q38_352_fig1.webp){ loading=lazy }
 
-A. $0{,}15$ s.
+A. $0{,}15\,\mathrm s$.
 
-B. $0{,}35$ s.
+B. $0{,}35\,\mathrm s$.
 
-C. $0{,}45$ s.
+C. $0{,}45\,\mathrm s$.
 
-D. $0{,}55$ s.
+D. $0{,}55\,\mathrm s$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
 
     **Hướng dẫn giải:**
-    Biên độ cưỡng bức cực đại tại tần số gần tần số riêng. Từ đỉnh đồ thị, nguồn đọc được $f_0\approx6{,}25$ Hz, nên
+
+    Biên độ cưỡng bức cực đại tại tần số gần tần số riêng. Từ đỉnh đồ thị, nguồn đọc được $f_0\approx6{,}25\,\mathrm{Hz}$, nên
 
     $T_0\approx\frac{1}{6{,}25}=0{,}16\ \text{s}.$
 
-    Giá trị gần nhất là $0{,}15$ s.
+    Giá trị gần nhất là $0{,}15\,\mathrm s$.
 
 #### Bài 82
 
 <!-- source-id: BT-Chuong-I-p134-q39-353 -->
 
-Một con lắc lò xo có độ cứng $k=4\pi^2$ N/m dao động tắt dần trên mặt phẳng nằm ngang có đồ thị như hình 2.10. Hệ số ma sát giữa vật và mặt phẳng nằm ngang có giá trị gần đúng là
+Một con lắc lò xo có độ cứng $k=4\pi^2\,\mathrm{N/m}$ dao động tắt dần trên mặt phẳng nằm ngang có đồ thị như hình 2.10. Hệ số ma sát giữa vật và mặt phẳng nằm ngang có giá trị gần đúng là
 
 ![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/i_p134_q39_353_fig1.webp){ loading=lazy }
 
@@ -1961,46 +1796,41 @@ D. $0{,}5$.
     **Đáp án:** C
 
     **Hướng dẫn giải:**
+
     Đọc chu kì và độ giảm biên độ từ đồ thị rồi dùng quan hệ giảm biên độ của dao động tắt dần do ma sát khô như hướng dẫn nguồn. Kết quả gần đúng là $\mu\approx0{,}08$.
 
 #### Bài 83
 
 <!-- source-id: BT-Chuong-I-p135-q40-354 -->
 
-Một con lắc lò xo gồm vật nhỏ khối lượng m = 0,02 kg và lò xo có độ cứng k = 1N/m.
+Một con lắc lò xo gồm vật nhỏ khối lượng $m=0{,}02\,\mathrm{kg}$ và lò xo có độ cứng $k=1\,\mathrm{N/m}$.
 Vật nhỏ được đặt trên giá đỡ cố định nằm ngang dọc theo trục lò xo. Hệ số ma sát trượt giữa giá
-đỡ và vật nhỏ là μ=0,1. Ban đầu giữ vật ở vị trí lò xo bị giãn ra theo chiều dương một
-khoảng Δl0=10 cm rồi buông nhẹ để con lắc dao động tắt dần. Lấy g = 10m/s2. Độ giảm thế năng
+đỡ và vật nhỏ là $\mu=0{,}1$. Ban đầu giữ vật ở vị trí lò xo bị giãn ra theo chiều dương một
+khoảng $\Delta\ell_0=10\,\mathrm{cm}$ rồi buông nhẹ để con lắc dao động tắt dần. Lấy $g=10\,\mathrm{m/s^2}$. Độ giảm thế năng
 của con lắc trong giai đoạn từ khi buông tới vị trí mà tốc độ dao động của con lắc cực đại lần đầu
 là
 
-A. 2,4 mJ.
+A. $2,4\,\mathrm{mJ}$.
 
-B. 4,8 mJ.
+B. $4,8\,\mathrm{mJ}$.
 
-C. 3,6 mJ.
+C. $3,6\,\mathrm{mJ}$.
 
-D. 5,4 mJ.
+D. $5,4\,\mathrm{mJ}$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** B
+
     **Hướng dẫn giải:**
 
-    Trước hết xác định đúng loại dao động: tắt dần có biên độ giảm do lực cản; dao động cưỡng bức có tần số bằng tần số ngoại lực; cộng hưởng xảy ra khi tần số cưỡng bức gần tần số riêng.
-
-    Ban đầu vật ở cách vị trí cân bằng 10 cm. Do đó vật đang ở biên A = 10 cm = 0,1 m.
-    Khi tốc độ con lắc cực đại lần đầu, khi đó vật đi qua vị trí cân bằng tạm thời +x0.
-    Vị trí +x0 cách vị trí O ban đầu một khoảng
-    Độ giảm thế năng
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **B. 4,8 mJ.**
+    Trong nửa chu kì đầu với ma sát trượt, vị trí cân bằng tạm thời lệch $x_0=\mu mg/k=0{,}02\,\mathrm m$. Tốc độ cực đại lần đầu đạt khi vật qua vị trí này. Độ giảm thế năng đàn hồi từ $x=0{,}10\,\mathrm m$ đến $x=0{,}02\,\mathrm m$ là $\Delta W_\mathrm{t}=\tfrac12k(0{,}10^2-0{,}02^2)=4{,}8\times10^{-3}\,\mathrm J=4{,}8\,\mathrm{mJ}$; chọn B.
 ### Vận dụng — Đúng/Sai
 
 #### Bài 84
 
 <!-- source-id: BT-Chuong-I-p136-q1-355 -->
 
-Máy đo địa chấn được sử dụng để phát hiện và đo đạc những rung động địa chấn được tạo ra bởi sự dịch chuyển của lớp vỏ Trái Đất. Tần số của những cơn địa chấn thường nằm trong khoảng 30 Hz – 40 Hz. Năng lượng từ các cơn địa chấn có khả năng kích thích con lắc lò xo bên trong máy đo làm đầu bút di chuyển để vẽ lên giấy như hình 2.12.
+Máy đo địa chấn được sử dụng để phát hiện và đo đạc những rung động địa chấn được tạo ra bởi sự dịch chuyển của lớp vỏ Trái Đất. Tần số của những cơn địa chấn thường nằm trong khoảng $30\,\mathrm{Hz}$ – $40\,\mathrm{Hz}$. Năng lượng từ các cơn địa chấn có khả năng kích thích con lắc lò xo bên trong máy đo làm đầu bút di chuyển để vẽ lên giấy như hình 2.12.
 
 ![Hình 2.12 — Máy đo địa chấn](../../../assets/exercise-figures/clean-v14/i_p136_q1_355_fig1.webp){ loading=lazy }
 
@@ -2008,52 +1838,51 @@ a) Dao động của con lắc lò xo trong máy địa chấn là dao động d
 
 b) Đầu bút di chuyển và vẽ được lên tờ giấy là do các cơn địa chấn tạo ra dao động duy trì.
 
-c) Tần số dao động của những con lắc lò xo trong máy địa chấn vào khoảng 30 Hz – 40 Hz.
+c) Tần số dao động của những con lắc lò xo trong máy địa chấn vào khoảng $30\,\mathrm{Hz}$ – $40\,\mathrm{Hz}$.
 
-d) Để máy địa chấn ghi nhận được kết quả tốt nhất thì tần số riêng của con lắc lò xo phải có giá trị thật nhỏ so với 30 Hz – 40 Hz.
+d) Để máy địa chấn ghi nhận được kết quả tốt nhất thì tần số riêng của con lắc lò xo phải có giá trị thật nhỏ so với $30\,\mathrm{Hz}$ – $40\,\mathrm{Hz}$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** a) Sai; b) Sai; c) Đúng; d) Đúng.
 
     **Hướng dẫn giải:**
-    a) Dao động con lắc lò xo trong máy địa chấn là dao động cưỡng bức.
-    b) Đầu bút di chuyển và vẽ lên tờ giấy là do các dao động cưỡng bức từ các cơn địa chấn tác
-    dụng lên lò xo.
-    c) Vì con lắc lò xo trong máy địa chấn dao động cưỡng bức nên tần số dao động bằng tần số
-    ngoại lực cưỡng bức. Do đó tần số vào khoảng 30 Hz – 40 Hz.
-    d) Để kết quả ghi tốt nhất, cần thiết kế tần số riêng của lò xo có giá trị nhỏ so với tần 30 Hz – 40
-    Hz của địa chấn. Vì tần số riêng của lò xo gần tần số của địa chấn thì sẽ gây ra hiện tượng cộng
-    hưởng, khi đó máy có thể cho kết quả đo không chính xác hoặc bị hỏng.
+
+    a) **Sai.** Dao động của phần tử cảm biến do rung động địa chấn kích thích là dao động cưỡng bức, không phải dao động duy trì.
+
+    b) **Sai.** Đầu bút ghi chuyển động do tác động cưỡng bức từ chuyển động của nền/khung máy, không phải do cơ chế bù năng lượng của dao động duy trì.
+
+    c) **Đúng.** Ở đáp ứng cưỡng bức ổn định, tần số dao động của phần tử cảm biến bằng tần số kích thích, nên nằm trong dải $30$–$40\,\mathrm{Hz}$ theo dữ kiện đề.
+
+    d) **Đúng.** Theo mô hình máy đo trong nguồn, chọn tần số riêng thấp hơn nhiều dải cần đo giúp tránh vùng cộng hưởng mạnh và làm chuyển động tương đối của khối quán tính phản ánh rung động của nền tốt hơn.
 
 #### Bài 85
 
 <!-- source-id: BT-Chuong-I-p137-q2-356 -->
 
 Một hành khách dùng một sợi dây không giãn có chiều dài $l$ để treo một ba lô lên trần một
-toa tàu hoả. Biết rằng mỗi thanh ray của đường tàu có độ dài 12 m và mỗi khi tàu chạy qua chỗ
-nối hai thanh ray thì ba lô bị dao động cưỡng bức. Khi tàu chạy với tốc độ 36 km/h thì thấy
+toa tàu hoả. Biết rằng mỗi thanh ray của đường tàu có độ dài $12\,\mathrm m$ và mỗi khi tàu chạy qua chỗ
+nối hai thanh ray thì ba lô bị dao động cưỡng bức. Khi tàu chạy với tốc độ $36\,\mathrm{km/h}$ thì thấy
 chiếc ba lô dao động mạnh nhất.
 
 a) Dao động của chiếc ba lô là mạnh nhất khi xảy ra cộng hưởng cơ học.
 
-b) Chu kì ngoại lực là 2 s.
+b) Chu kì ngoại lực là $2\,\mathrm s$.
 
 c) Chu kì dao động riêng của ba lô được tính theo công thức $T_0=2\pi\sqrt{l/g}$.
 
-d) Chiều dài dây treo xấp xỉ 36 cm.
+d) Chiều dài dây treo xấp xỉ $36\,\mathrm{cm}$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** a) Đúng; b) Sai; c) Đúng; d) Đúng.
 
     **Hướng dẫn giải:**
 
-    a) **Đúng.** Biên độ cưỡng bức lớn nhất tại cộng hưởng.
+    a) **Đúng.** Chiếc ba lô dao động mạnh nhất khi tần số kích thích do các mối nối ray bằng tần số riêng, tức xảy ra cộng hưởng cơ học.
 
-    Đổi $36$ km/h $=10$ m/s. Mỗi lần tàu đi qua một mối nối cách nhau $12$ m là một chu kì của ngoại lực, nên
-    $T_F=\dfrac{12}{10}=1{,}2$ s. Vì vậy b) **Sai**.
+    b) **Sai.** $36\,\mathrm{km/h}=10\,\mathrm{m/s}$. Hai mối nối liên tiếp cách nhau $12\,\mathrm m$, nên chu kì ngoại lực là $T_F=12/10=1{,}2\,\mathrm s$, không phải $2\,\mathrm s$.
 
-    c) **Đúng.** Coi ba lô là con lắc đơn dao động nhỏ, $T_0=2\pi\sqrt{l/g}$.
+    c) **Đúng.** Coi ba lô là con lắc đơn dao động nhỏ, chu kì riêng là $T_0=2\pi\sqrt{\ell/g}$.
 
-    d) **Đúng.** Khi cộng hưởng, $T_0=T_F=1{,}2$ s. Suy ra
-    $l=g\left(\dfrac{T_0}{2\pi}\right)^2$.
-    Với $g\approx10$ m/s², $l\approx10\left(\dfrac{1{,}2}{2\pi}\right)^2\approx0{,}365$ m $\approx36$ cm.
+    d) **Đúng.** Khi cộng hưởng, $T_0=T_F=1{,}2\,\mathrm s$. Suy ra
+    $\ell=g[T_0/(2\pi)]^2$. Với $g\approx10\,\mathrm{m/s^2}$, $\ell\approx0{,}365\,\mathrm m\approx36\,\mathrm{cm}$.
+

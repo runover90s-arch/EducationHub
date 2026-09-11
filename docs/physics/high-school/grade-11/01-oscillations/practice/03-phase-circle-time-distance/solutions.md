@@ -26,22 +26,28 @@ Chọn **B**. Trong mọi khoảng thời gian dài $T/2$, vật đi từ một 
 Chọn **C**. $x/A=\cos\Delta\varphi=1/2$ nên $\Delta\varphi=\pi/3$. Do $T$ ứng với $2\pi$, thời gian là $T/6$.
 
 ## Bài 5
-a) **Đúng**.  
-b) **Đúng**.  
-c) **Đúng**.  
+a) **Đúng.** Hai biên lệch pha $\pi$, tương ứng nửa chu kì nên thời gian là $T/2$.
+
+b) **Đúng.** Từ cân bằng đến biên gần nhất pha biến thiên $\pi/2$, tức một phần tư chu kì.
+
+c) **Đúng.** Trong một chu kì vật đi từ một biên sang biên kia rồi trở lại, tổng quãng đường là $2A+2A=4A$.
+
 d) **Sai**. Quãng đường trong $T/4$ phụ thuộc pha ban đầu; chỉ một số đoạn đặc biệt mới bằng $A$.
 
 ## Bài 6
-a) **Đúng**.  
-b) **Đúng**.  
-c) **Sai**: cùng li độ có thể đi theo hai chiều trái nhau.  
+a) **Đúng.** Trong biểu diễn đường tròn pha, pha có dạng $\omega t+\varphi$, nên góc quét tăng tuyến tính với tốc độ $\omega$.
+
+b) **Đúng.** Biểu diễn đường tròn pha được xây dựng sao cho hình chiếu của bán kính quay lên trục dao động bằng $x=A\cos(\omega t+\varphi)$.
+
+c) **Sai.** cùng li độ có thể đi theo hai chiều trái nhau.
+
 d) **Đúng**, với $\Delta t=\Delta\varphi/\omega$.
 
 ## Bài 7
-Từ biên dương, $x/A=-1/2$ ứng với góc quét nhỏ nhất $2\pi/3$. Do đó $\Delta t=(2\pi/3)/(2\pi/T)=T/3=0,4$ s.
+Từ biên dương, $x/A=-1/2$ ứng với góc quét nhỏ nhất $2\pi/3$. Do đó $\Delta t=(2\pi/3)/(2\pi/T)=T/3=0,4\,\mathrm s$.
 
 ## Bài 8
-$2,4$ s $=3T$. Mỗi chu kì vật đi $4A=24$ cm. Vậy quãng đường là $3\cdot24=72$ cm.
+$2,4\,\mathrm s$ $=3T$. Mỗi chu kì vật đi $4A=24\,\mathrm{cm}$. Vậy quãng đường là $3\cdot24=72\,\mathrm{cm}$.
 
 ## Bài 9
 Ở $x=-A/2$ theo chiều dương, pha có thể chọn $4\pi/3$; ở $x=A/2$ theo chiều dương, trạng thái kế tiếp có pha $5\pi/3$. Chênh pha $\pi/3$, nên $\Delta t=T/6$.
@@ -55,14 +61,14 @@ Sau $5\pi/3$, lần thứ nhất là $2\pi/3+2\pi=8\pi/3$; lần thứ hai là $
 
 Chênh pha đến lần thứ hai: $10\pi/3-5\pi/3=5\pi/3$.
 
-Vì $2\pi$ ứng với $T$, $\Delta t=(5/6)T=1,0$ s.
+Vì $2\pi$ ứng với $T$, $\Delta t=(5/6)T=1,0\,\mathrm s$.
 
 ---
 
 [← Bài tập](exercises.md)
 
-## Bài 11–41
+## Bài 11–40
 
-Đáp án và lời giải của **Bài 11–41** đã được đặt trực tiếp dưới từng bài trong trang bài tập bằng nút **“Đáp án và lời giải”** để tránh tách đề, hình minh họa và lời giải sang nhiều vị trí khác nhau.
+Đáp án và lời giải của **Bài 11–40** đã được đặt trực tiếp dưới từng bài trong trang bài tập bằng nút **“Đáp án và lời giải”** để tránh tách đề, hình minh họa và lời giải sang nhiều vị trí khác nhau.
 
 [← Mở trang bài tập](exercises.md)

@@ -194,15 +194,15 @@ Sau đó giải hệ $Q=CU$ và phương trình nút.
 ## 11. Ví dụ
 
 ### Ví dụ 1 — Hai tụ nối tiếp
-$C_1=2\,\mu$F, $C_2=3\,\mu$F, U=12 V.
+$C_1=2\,\mu\,\mathrm F$, $C_2=3\,\mu\,\mathrm F$, $U=12\,\mathrm V$.
 
-$C_{eq}=1,2\,\mu$F.  
-$Q=C_{eq}U=14,4\,\mu$C.
+$C_{eq}=1,2\,\mu\,\mathrm F$.
+$Q=C_{eq}U=14,4\,\mu\,\mathrm C$.
 
-$U_1=Q/C_1=7,2$ V; $U_2=4,8$ V.
+$U_1=Q/C_1=7,2\,\mathrm V$; $U_2=4,8\,\mathrm V$.
 
 ### Ví dụ 2 — Nối song song hai tụ đã tích
-$C_1=2\,\mu$F ở 10 V, $C_2=3\,\mu$F ở 0 V. Nối cùng cực tính:
+$C_1=2\,\mu\,\mathrm F$ ở $10\,\mathrm V$, $C_2=3\,\mu\,\mathrm F$ ở $0\,\mathrm V$. Nối cùng cực tính:
 
 $$
 U_f=\frac{2\cdot10+3\cdot0}{5}=4\ \text{V}.

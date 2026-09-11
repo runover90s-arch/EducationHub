@@ -83,7 +83,7 @@ $$
 
 ## 5. Định mức thiết bị
 
-Thiết bị ghi 220 V – 1000 W nghĩa là khi hoạt động ở điện áp định mức 220 V trong điều kiện thiết kế, công suất khoảng 1000 W.
+Thiết bị ghi $220\,\mathrm V$ – $1000\,\mathrm W$ nghĩa là khi hoạt động ở điện áp định mức $220\,\mathrm V$ trong điều kiện thiết kế, công suất khoảng $1000\,\mathrm W$.
 
 Nếu coi thiết bị là điện trở cố định quanh trạng thái định mức:
 
@@ -191,19 +191,19 @@ Muốn hiệu suất gần 100% cần R≫r, nhưng khi đó công suất tải 
 ## 10. Ví dụ
 
 ### Ví dụ 1
-Điện trở 6 Ω có dòng 2 A trong 5 phút:
+Điện trở $6\,\Omega$ có dòng $2\,\mathrm A$ trong 5 phút:
 
-$P=I^2R=24$ W.
+$P=I^2R=24\,\mathrm W$.
 
-$Q=Pt=24\cdot300=7200$ J.
+$Q=Pt=24\cdot300=7200\,\mathrm J$.
 
 ### Ví dụ 2 — Điện năng
-Máy 1,5 kW chạy 2 giờ: 3 kWh.
+Máy 1,5 kW chạy 2 giờ: $3\,\mathrm{kWh}$.
 
 ### Ví dụ 3 — Đun nước
-Nếu cần 360 kJ nhiệt hữu ích, bếp 1000 W hiệu suất 80%:
+Nếu cần 360 kJ nhiệt hữu ích, bếp $1000\,\mathrm W$ hiệu suất 80%:
 
-$t=360000/(0,8\cdot1000)=450$ s.
+$t=360000/(0,8\cdot1000)=450\,\mathrm s$.
 
 ## 11. Bẫy
 
@@ -218,7 +218,7 @@ $t=360000/(0,8\cdot1000)=450$ s.
 - $A=UIt$.
 - $P=UI=I^2R=U^2/R$ cho điện trở.
 - $Q=I^2Rt$.
-- 1 kWh = 3,6 MJ.
+- $1\,\mathrm{kWh}$ = 3,6 MJ.
 - Tải cực đại: R=r.
 - Hiệu suất và công suất cực đại là hai tiêu chí khác nhau.
 

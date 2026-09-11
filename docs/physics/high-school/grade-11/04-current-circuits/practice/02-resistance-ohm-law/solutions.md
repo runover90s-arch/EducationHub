@@ -23,22 +23,28 @@ Chọn **C**.
 Chọn **A**. $R=6\cdot3/(6+3)=2\,\Omega$.
 
 ## Bài 4
-Chọn **B**. $I=U/R=2$ A.
+Chọn **B**. $I=U/R=2\,\mathrm A$.
 
 ## Bài 5
-a) **Đúng**.  
-b) **Đúng**.  
-c) **Sai**: R giảm khi S tăng.  
-d) **Đúng** trong gần đúng tuyến tính.
+a) **Đúng.** Điện trở của dây dẫn đồng chất tiết diện đều được cho bởi $R=\rho l/S$.
+
+b) **Đúng.** Từ $R=\rho l/S$, khi vật liệu và tiết diện không đổi thì $R\propto l$.
+
+c) **Sai.** R giảm khi S tăng.
+
+d) **Đúng.** trong gần đúng tuyến tính.
 
 ## Bài 6
-a) **Đúng**.  
-b) **Đúng** với vật dẫn ohmic.  
-c) **Sai**.  
-d) **Đúng**.
+a) **Đúng.** Định luật Ohm cho đoạn mạch thuần trở có dạng $I=U/R$.
+
+b) **Đúng.** với vật dẫn ohmic.
+
+c) **Sai.** Với mắc song song, $1/R_{\text{eq}}=\sum 1/R_i$, nên $R_{\text{eq}}$ nhỏ hơn từng điện trở nhánh dương.
+
+d) **Đúng.** Trong mạch nối tiếp không có nút phân nhánh, điện tích đi qua các phần tử với cùng tốc độ nên cường độ dòng điện như nhau.
 
 ## Bài 7
-$S=0,5\cdot10^{-6}$ m². $R=\rho l/S=1,1\cdot10^{-6}\cdot2/(0,5\cdot10^{-6})=4,4\,\Omega$.
+$S=0,5\cdot10^{-6}\,\mathrm{m^2}$. $R=\rho l/S=1,1\cdot10^{-6}\cdot2/(0,5\cdot10^{-6})=4,4\,\Omega$.
 
 ## Bài 8
 $R=R_0[1+\alpha(T-T_0)]=20[1+0,004\cdot50]=24\,\Omega$.

@@ -154,8 +154,8 @@ Dùng nhiều điểm và đồ thị vẫn đáng tin hơn vì không phụ thu
 
 Đo được:
 
-- khi $I_1=0,10$ A thì $U_1=1,44$ V;
-- khi $I_2=0,30$ A thì $U_2=1,32$ V.
+- khi $I_1=0,10\,\mathrm A$ thì $U_1=1,44\,\mathrm V$;
+- khi $I_2=0,30\,\mathrm A$ thì $U_2=1,32\,\mathrm V$.
 
 Điện trở trong:
 
@@ -171,7 +171,7 @@ $$
 
 Kiểm tra bằng điểm thứ hai:
 
-$1,32+0,60\cdot0,30=1,50$ V.
+$1,32+0,60\cdot0,30=1,50\,\mathrm V$.
 
 Hai cách cho cùng kết quả, nên phép tính tự nhất quán.
 
@@ -228,22 +228,22 @@ $$
 ## 11. Bài tập thực hành nhanh
 
 ### Câu 1
-Nguồn cho $U=1,46$ V khi $I=0,10$ A và $U=1,34$ V khi $I=0,30$ A. Tính $r$ và $\mathcal E$.
+Nguồn cho $U=1,46\,\mathrm V$ khi $I=0,10\,\mathrm A$ và $U=1,34\,\mathrm V$ khi $I=0,30\,\mathrm A$. Tính $r$ và $\mathcal E$.
 
 ### Câu 2
-Đồ thị $U-I$ cắt trục $U$ tại 1,60 V và khi $I$ tăng 0,50 A thì $U$ giảm 0,20 V. Tìm $\mathcal E$ và $r$.
+Đồ thị $U-I$ cắt trục $U$ tại $1,60\,\mathrm V$ và khi $I$ tăng $0,50\,\mathrm A$ thì $U$ giảm $0,20\,\mathrm V$. Tìm $\mathcal E$ và $r$.
 
 ### Câu 3
-Một pin có $\mathcal E=1,50$ V, $r=0,50\ \Omega$. Khi dòng là 0,40 A, điện áp hai cực bằng bao nhiêu?
+Một pin có $\mathcal E=1,50\,\mathrm V$, $r=0,50\ \Omega$. Khi dòng là $0,40\,\mathrm A$, điện áp hai cực bằng bao nhiêu?
 
 ### Câu 4
 Vì sao không nên xác định $r$ bằng cách nối tắt pin rồi lấy $r=\mathcal E/I_{sc}$ trong bài thực hành thông thường ở trường học?
 
 ## Đáp án và hướng dẫn
 
-1. $r=(1,46-1,34)/(0,30-0,10)=0,60\ \Omega$. $\mathcal E=1,46+0,60\cdot0,10=1,52$ V.
-2. $\mathcal E=1,60$ V; $r=0,20/0,50=0,40\ \Omega$.
-3. $U=1,50-0,50\cdot0,40=1,30$ V.
+1. $r=(1,46-1,34)/(0,30-0,10)=0,60\ \Omega$. $\mathcal E=1,46+0,60\cdot0,10=1,52\,\mathrm V$.
+2. $\mathcal E=1,60\,\mathrm V$; $r=0,20/0,50=0,40\ \Omega$.
+3. $U=1,50-0,50\cdot0,40=1,30\,\mathrm V$.
 4. Nối tắt làm dòng rất lớn, dễ gây nóng và hỏng nguồn hoặc đồng hồ. Ngoài ra trạng thái của pin có thể thay đổi nên phép đo không còn đại diện tốt cho mô hình tuyến tính ở vùng làm việc thông thường.
 
 ## Tóm tắt

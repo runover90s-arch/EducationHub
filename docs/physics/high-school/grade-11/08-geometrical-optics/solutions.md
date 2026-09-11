@@ -39,14 +39,14 @@ i_c\approx41,8^\circ.
 $$
 
 ### Câu 6
-$f=0,20$ m:
+$f=0,20\,\mathrm m$:
 
 $$
 D=\frac1{0,20}=+5,0\,\text{dp}.
 $$
 
 ### Câu 7
-$f=-0,25$ m:
+$f=-0,25\,\mathrm m$:
 
 $$
 D=-4,0\,\text{dp}.
@@ -115,7 +115,7 @@ $$
 \frac1{d'}=\frac1{15}-\frac1{45}=\frac2{45},
 $$
 
-$d'=22,5$ cm.
+$d'=22,5\,\mathrm{cm}$.
 
 $$
 k=-\frac{22,5}{45}=-0,5.
@@ -129,7 +129,7 @@ $$
 \frac1{d'}=\frac1{12}-\frac18=-\frac1{24}.
 $$
 
-$d'=-24$ cm.
+$d'=-24\,\mathrm{cm}$.
 
 $$
 k=-\frac{-24}{8}=3.
@@ -143,7 +143,7 @@ $$
 \frac1{d'}=-\frac1{20}-\frac1{30}=-\frac1{12}.
 $$
 
-$d'=-12$ cm, $k=0,4$. Ảnh ảo, cùng chiều, nhỏ hơn.
+$d'=-12\,\mathrm{cm}$, $k=0,4$. Ảnh ảo, cùng chiều, nhỏ hơn.
 
 ## Mức 3
 
@@ -189,7 +189,7 @@ $$
 d_2'=\frac{10\cdot20}{10}=20\,\text{cm}.
 $$
 
-Ảnh đi xa kính thêm 5 cm khi vật từ 30 cm tiến tới 20 cm.
+Ảnh đi xa kính thêm $5\,\mathrm{cm}$ khi vật từ $30\,\mathrm{cm}$ tiến tới $20\,\mathrm{cm}$.
 
 ### Câu 20
 
@@ -203,7 +203,7 @@ $$
 Hệ tương đương hội tụ.
 
 ### Câu 21
-Cực viễn 40 cm, kính sát mắt:
+Cực viễn $40\,\mathrm{cm}$, kính sát mắt:
 
 $$
 \begin{gathered}
@@ -213,7 +213,7 @@ D=-2,5\,\text{dp}.
 $$
 
 ### Câu 22
-D=0,25 m, L=0,80 m:
+D=$0,25\,\mathrm m$, $L=0,80\,\mathrm m$:
 
 $$
 D_k=\frac1f=\frac1{0,25}-\frac1{0,80}=4-1,25=+2,75\,\text{dp}.
@@ -272,7 +272,7 @@ $$
 45°>41,8°, nên **có phản xạ toàn phần**.
 
 ### Câu 28
-L=120 cm, f=20 cm:
+$L=120\,\mathrm{cm}$, $f=20\,\mathrm{cm}$:
 
 $$
 \begin{gathered}
@@ -297,7 +297,7 @@ $$
 d_{1,2}=\frac{120\pm69,28}{2},
 $$
 
-xấp xỉ 94,64 cm và 25,36 cm; d' hoán đổi.
+xấp xỉ $94,64\,\mathrm{cm}$ và $25,36\,\mathrm{cm}$; d' hoán đổi.
 
 Độ phóng đại hai vị trí là nghịch đảo:
 
@@ -315,25 +315,25 @@ $$
 $$
 
 ### Câu 29
-Với kính 1: $f_1=10$ cm, $d_1=15$ cm. Ta có
+Với kính 1: $f_1=10\,\mathrm{cm}$, $d_1=15\,\mathrm{cm}$. Ta có
 
 $$
 \frac{1}{d_1'}=\frac{1}{f_1}-\frac{1}{d_1}=\frac{1}{10}-\frac{1}{15}=\frac{1}{30},\qquad d_1'=30\text{ cm}.
 $$
 
-Ảnh thứ nhất nằm cách kính 1 một đoạn 30 cm. Hai kính cách nhau 40 cm nên ảnh này nằm **trước kính 2** một đoạn
+Ảnh thứ nhất nằm cách kính 1 một đoạn $30\,\mathrm{cm}$. Hai kính cách nhau $40\,\mathrm{cm}$ nên ảnh này nằm **trước kính 2** một đoạn
 
 $$
 d_2=40-30=10\text{ cm}.
 $$
 
-Ảnh thứ nhất vì vậy đóng vai trò là vật thật của kính 2. Với $f_2=15$ cm:
+Ảnh thứ nhất vì vậy đóng vai trò là vật thật của kính 2. Với $f_2=15\,\mathrm{cm}$:
 
 $$
 \frac{1}{d_2'}=\frac{1}{15}-\frac{1}{10}=-\frac{1}{30}\qquad\Rightarrow\qquad d_2'=-30\text{ cm}.
 $$
 
-Dấu âm cho biết ảnh cuối là **ảnh ảo**, nằm cách kính 2 30 cm về phía bên trái.
+Dấu âm cho biết ảnh cuối là **ảnh ảo**, nằm cách kính 2 $30\,\mathrm{cm}$ về phía bên trái.
 
 Số phóng đại của từng kính:
 
@@ -344,7 +344,7 @@ $$
 Do đó số phóng đại tổng là $k=k_1k_2=-6$. Ảnh cuối lớn gấp 6 lần vật và ngược chiều vật ban đầu.
 
 ### Câu 30
-$f=20$ cm, d=10 cm:
+$f=20\,\mathrm{cm}$, $d=10\,\mathrm{cm}$:
 
 $$
 \frac1{d'}=\frac1{20}-\frac1{10}=-\frac1{20}.
@@ -379,7 +379,7 @@ $$
 Đây là khoảng biểu kiến tính từ mặt trên của lớp kính trong gần đúng góc nhỏ.
 
 ### Câu 33
-$D=0,10$ m, $\lambda=550\times10^{-9}$ m:
+$D=0,10\,\mathrm m$, $\lambda=550\times10^{-9}\,\mathrm m$:
 
 $$
 \theta_{min}=1,22\frac{550\times10^{-9}}{0,10}

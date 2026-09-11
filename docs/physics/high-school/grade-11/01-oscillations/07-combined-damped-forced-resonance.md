@@ -237,7 +237,7 @@ Không dùng kết quả này cho mọi dạng lực cản; nó phụ thuộc m�
 
 ## Ví dụ 1 — Tổng hợp cùng pha
 
-$A_1=3$ cm, $A_2=5$ cm và hai dao động cùng pha.
+$A_1=3\,\mathrm{cm}$, $A_2=5\,\mathrm{cm}$ và hai dao động cùng pha.
 
 Biên độ tổng hợp:
 
@@ -247,7 +247,7 @@ $$
 
 ## Ví dụ 2 — Tổng hợp vuông pha
 
-$A_1=6$ cm, $A_2=8$ cm, $\Delta\varphi=\pi/2$.
+$A_1=6\,\mathrm{cm}$, $A_2=8\,\mathrm{cm}$, $\Delta\varphi=\pi/2$.
 
 $$
 A=\sqrt{6^2+8^2}=10\text{ cm}.
@@ -255,7 +255,7 @@ $$
 
 ## Ví dụ 3 — Cộng hưởng
 
-Một hệ có tần số riêng $4$ Hz. Ngoại lực có thể điều chỉnh tần số. Khi lực cản nhỏ, biên độ lớn nhất sẽ xuất hiện quanh $4$ Hz, không phải ở tần số tùy ý lớn hơn.
+Một hệ có tần số riêng $4\,\mathrm{Hz}$. Ngoại lực có thể điều chỉnh tần số. Khi lực cản nhỏ, biên độ lớn nhất sẽ xuất hiện quanh $4\,\mathrm{Hz}$, không phải ở tần số tùy ý lớn hơn.
 
 ## Phân dạng
 
@@ -290,18 +290,18 @@ Dùng biến thiên cơ năng bằng công của lực cản; không gán công 
 
 ## Bài tập nhanh
 
-1. Hai dao động cùng phương, cùng tần số có $A_1=4$ cm, $A_2=7$ cm, cùng pha. Tìm $A$.
+1. Hai dao động cùng phương, cùng tần số có $A_1=4\,\mathrm{cm}$, $A_2=7\,\mathrm{cm}$, cùng pha. Tìm $A$.
 2. Với cùng hai biên độ trên nhưng ngược pha, tìm $A$.
-3. $A_1=A_2=5$ cm, độ lệch pha $120^\circ$. Tính $A$.
-4. Một hệ có $f_0=3$ Hz chịu ngoại lực $f_F=5$ Hz. Ở trạng thái ổn định, hệ dao động với tần số bao nhiêu?
+3. $A_1=A_2=5\,\mathrm{cm}$, độ lệch pha $120^\circ$. Tính $A$.
+4. Một hệ có $f_0=3\,\mathrm{Hz}$ chịu ngoại lực $f_F=5\,\mathrm{Hz}$. Ở trạng thái ổn định, hệ dao động với tần số bao nhiêu?
 5. Khi tăng lực cản, đỉnh cộng hưởng thường cao lên hay thấp xuống?
 
 ### Đáp án nhanh
 
-1. $11$ cm.
-2. $3$ cm.
-3. $5$ cm.
-4. $5$ Hz.
+1. $11\,\mathrm{cm}$.
+2. $3\,\mathrm{cm}$.
+3. $5\,\mathrm{cm}$.
+4. $5\,\mathrm{Hz}$.
 5. Thấp xuống.
 
 ## Tóm tắt

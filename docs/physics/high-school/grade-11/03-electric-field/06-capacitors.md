@@ -44,9 +44,9 @@ $$
 
 Các bội thường dùng:
 
-- $\mu$F = $10^{-6}$ F;
-- nF = $10^{-9}$ F;
-- pF = $10^{-12}$ F.
+- $\mu\,\mathrm F=10^{-6}\,\mathrm F$;
+- nF = $10^{-9}\,\mathrm F$;
+- pF = $10^{-12}\,\mathrm F$.
 
 ### Ý nghĩa
 
@@ -172,9 +172,9 @@ Thông số định mức là giới hạn kĩ thuật, không phải công th�
 ## 11. Ví dụ
 
 ### Ví dụ 1
-$C=5\,\mu$F, $U=12$ V:
+$C=5\,\mu\,\mathrm F$, $U=12\,\mathrm V$:
 
-$Q=CU=60\,\mu$C.
+$Q=CU=60\,\mu\,\mathrm C$.
 
 Năng lượng:
 
@@ -183,7 +183,7 @@ W=\frac12CU^2=3,6\times10^{-4}\ \text{J}.
 $$
 
 ### Ví dụ 2 — Tụ cô lập thay khoảng cách
-Tăng d gấp đôi → C giảm nửa. Q không đổi nên U tăng gấp đôi; W=Q²/(2C) tăng gấp đôi.
+Tăng d gấp đôi → C giảm nửa. Q không đổi nên U tăng gấp đôi; W=Q²/($2\,\mathrm C$) tăng gấp đôi.
 
 ### Ví dụ 3 — Nối nguồn, đưa điện môi
 $\varepsilon_r=4$. C tăng 4 lần, U không đổi → Q và W đều tăng 4 lần.

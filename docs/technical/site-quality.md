@@ -22,6 +22,7 @@ Trình kiểm tra phát hiện:
 - display math chỉ chứa một kí hiệu và tạo khoảng trắng vô ích;
 - nhiều display math ngắn xếp sát nhau, làm lời giải bị giãn quá mức trên mobile;
 - link Markdown nội bộ bị chết;
+- ảnh Markdown local bị thiếu hoặc resolve ra ngoài `docs/`;
 - file được khai báo trong `nav`, CSS hoặc JavaScript nhưng không tồn tại;
 - `mkdocs.yml` không hợp lệ.
 
@@ -62,3 +63,10 @@ python tools/check_site.py --lint-only
 ```
 
 Chế độ này không cần MkDocs nhưng cũng không thể phát hiện lỗi chỉ xuất hiện sau khi Markdown được kết xuất thành HTML.
+
+
+## Lỗi và cảnh báo
+
+`check_site.py` dùng **ERROR** cho lỗi deterministic có thể xác định từ source, gồm link/asset local không tồn tại, path asset thoát khỏi `docs/`, cấu hình MkDocs sai và các lỗi LaTeX/HTML chắc chắn. Các nghi vấn mang tính ngữ nghĩa của bài tập được để cho checker chuyên biệt báo **WARNING** thay vì làm build thất bại khi chưa đủ bằng chứng.
+
+Với Vật lí 11, phân công gate tối thiểu là: `check_practice_bank.py` bắt layout phần biên soạn trước và ghi chú nội bộ learner-facing; `check_pdf_import.py` bắt layout/provenance/asset của khối nhập PDF; `check_solution_quality.py` bắt cấu trúc lời giải, Đúng/Sai, placeholder đã xác nhận và cảnh báo đề nghi thiếu dữ kiện; `check_site.py` tiếp tục là lớp bảo vệ link/asset toàn site. Các gate này bổ sung cho nhau, không thay thế duplicate/source checks hiện có.

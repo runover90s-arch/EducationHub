@@ -167,11 +167,11 @@ Trên trung trực $d_1=d_2$, nên $\Delta d=0$. Trạng thái tại đó chỉ 
 
 ### Ví dụ 1 — Cực đại cơ bản
 
-Hai nguồn cùng pha, $\lambda=2$ cm. Điểm M có $d_2-d_1=6$ cm. Vì $\Delta d=3\lambda$, M thuộc cực đại.
+Hai nguồn cùng pha, $\lambda=2\,\mathrm{cm}$. Điểm M có $d_2-d_1=6\,\mathrm{cm}$. Vì $\Delta d=3\lambda$, M thuộc cực đại.
 
 ### Ví dụ 2 — Biên độ tại M
 
-Hai nguồn cùng biên độ $a=3$ mm. Tại M, hai sóng lệch pha $2\pi/3$:
+Hai nguồn cùng biên độ $a=3\,\mathrm{mm}$. Tại M, hai sóng lệch pha $2\pi/3$:
 
 $$
 A_M=2a|\cos(\pi/3)|=3\ \text{mm}.
@@ -179,7 +179,7 @@ $$
 
 ### Ví dụ 3 — Đếm cực đại trên đoạn nối nguồn
 
-Hai nguồn cùng pha cách nhau $a=10$ cm, $\lambda=2$ cm. Trên đoạn nối nguồn, $|\Delta d|\le10$ cm. Cực đại khi $\Delta d=2k$ cm, nên $|k|\le5$. Nếu tính cả hai nguồn theo mô hình toán học, có 11 giá trị $k$; trong bài thực nghiệm có thể loại đầu mút nếu đề quy định chỉ xét điểm trong khoảng.
+Hai nguồn cùng pha cách nhau $a=10\,\mathrm{cm}$, $\lambda=2\,\mathrm{cm}$. Trên đoạn nối nguồn, $|\Delta d|\le10\,\mathrm{cm}$. Cực đại khi $\Delta d=2k\,\mathrm{cm}$, nên $|k|\le5$. Nếu tính cả hai nguồn theo mô hình toán học, có 11 giá trị $k$; trong bài thực nghiệm có thể loại đầu mút nếu đề quy định chỉ xét điểm trong khoảng.
 
 ## 11. Bẫy thường gặp
 

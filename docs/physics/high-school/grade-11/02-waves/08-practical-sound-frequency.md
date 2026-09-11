@@ -124,7 +124,7 @@ $$
 
 ## 7. Ví dụ mẫu
 
-Trên đồ thị, từ đỉnh thứ nhất đến đỉnh thứ 21 có khoảng thời gian $0,040$ s.
+Trên đồ thị, từ đỉnh thứ nhất đến đỉnh thứ 21 có khoảng thời gian $0,040\,\mathrm s$.
 
 Giữa hai đỉnh đó có:
 
@@ -136,7 +136,7 @@ $$
 f=\frac{20}{0,040}=500\ \text{Hz}.
 $$
 
-Tần số nguồn âm xấp xỉ **500 Hz**.
+Tần số nguồn âm xấp xỉ **$500\,\mathrm{Hz}$**.
 
 ## 8. Nếu tín hiệu không phải hình sin đẹp
 
@@ -169,22 +169,22 @@ Tiếng nói, quạt, va chạm bàn hoặc tiếng xe có thể làm đồ th�
 ## 10. Bài tập thực hành nhanh
 
 ### Câu 1
-Trên đồ thị, 15 chu kì chiếm $30$ ms. Tính tần số âm.
+Trên đồ thị, 15 chu kì chiếm $30\,\mathrm{ms}$. Tính tần số âm.
 
 ### Câu 2
-Từ đỉnh thứ 3 đến đỉnh thứ 13 của tín hiệu có khoảng thời gian $25$ ms. Tính tần số.
+Từ đỉnh thứ 3 đến đỉnh thứ 13 của tín hiệu có khoảng thời gian $25\,\mathrm{ms}$. Tính tần số.
 
 ### Câu 3
-Ba lần đo cho $f_1=498$ Hz, $f_2=502$ Hz, $f_3=500$ Hz. Tính giá trị trung bình.
+Ba lần đo cho $f_1=498\,\mathrm{Hz}$, $f_2=502\,\mathrm{Hz}$, $f_3=500\,\mathrm{Hz}$. Tính giá trị trung bình.
 
 ### Câu 4
 Một học sinh lấy khoảng thời gian giữa hai lần tín hiệu hình sin liên tiếp cắt trục thời gian rồi gọi đó là chu kì. Vì sao cách làm này có thể sai?
 
 ## Đáp án và hướng dẫn
 
-1. $f=15/(30\times10^{-3})=500$ Hz.
-2. Từ đỉnh thứ 3 đến đỉnh thứ 13 có 10 chu kì, nên $f=10/(25\times10^{-3})=400$ Hz.
-3. $\bar f=(498+502+500)/3=500$ Hz.
+1. $f=15/(30\times10^{-3})=500\,\mathrm{Hz}$.
+2. Từ đỉnh thứ 3 đến đỉnh thứ 13 có 10 chu kì, nên $f=10/(25\times10^{-3})=400\,\mathrm{Hz}$.
+3. $\bar f=(498+502+500)/3=500\,\mathrm{Hz}$.
 4. Hai lần cắt trục liên tiếp của tín hiệu hình sin thường cách nhau $T/2$. Muốn lấy đúng $T$, phải chọn hai trạng thái cùng pha, chẳng hạn hai đỉnh liên tiếp hoặc hai lần cắt cùng chiều.
 
 ## Tóm tắt

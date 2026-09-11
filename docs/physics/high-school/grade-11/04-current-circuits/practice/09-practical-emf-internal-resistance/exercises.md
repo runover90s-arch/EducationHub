@@ -9,7 +9,6 @@ tags:
 
 # Bài tập — Bài 9 — Thực hành đo suất điện động và điện trở trong của pin
 
-> Hệ bài tập được biên soạn theo các dạng xuất hiện trong bộ tài liệu Vật lí 11 của dự án. Câu hỏi được giữ ngắn, trực tiếp; độ khó tăng dần và không cố tình thêm dữ kiện gây nhiễu.
 
 [← Trở lại bài học](../../09-practical-emf-internal-resistance.md)
 
@@ -90,10 +89,13 @@ c) r lấy từ độ lớn độ dốc của đồ thị U theo I.
 d) Chỉ cần một cặp U,I bất kì là luôn xác định được cả $\mathcal E$ và r mà không có dữ kiện khác.
 
 ??? success "Đáp án và lời giải"
-    a) **Đúng**.
-    b) **Đúng**.
-    c) **Đúng**.
-    d) **Sai**: một phương trình $U=\mathcal E-rI$ có hai ẩn.
+    a) **Đúng.** Nhiều điểm đo cho phép khớp quan hệ $U=\mathcal E-rI$ thay vì suy ra tham số từ chỉ một phép đo dễ bị chi phối bởi sai số ngẫu nhiên.
+
+    b) **Đúng.** Từ $U=\mathcal E-rI$, tại $I=0$ ta có $U=\mathcal E$, nên tung độ gốc của đồ thị cho suất điện động.
+
+    c) **Đúng.** Quan hệ $U=\mathcal E-rI$ là đường thẳng có hệ số góc $-r$, nên độ lớn độ dốc bằng $r$.
+
+    d) **Sai.** một phương trình $U=\mathcal E-rI$ có hai ẩn.
 
 ### Bài 6 — Mức 2 — Thông hiểu
 
@@ -101,17 +103,20 @@ Với nguồn đang phát điện:
 
 a) U giảm gần tuyến tính khi I tăng nếu $\mathcal E,r$ không đổi.
 
-b) I=0 cho U=$\mathcal E$.
+b) I=0 cho $U=\mathcal E$.
 
 c) Giao điểm trục I của đường kéo dài là $I_{sc}=\mathcal E/r$.
 
 d) Nên luôn trực tiếp đo I_sc để chính xác nhất.
 
 ??? success "Đáp án và lời giải"
-    a) **Đúng**.
-    b) **Đúng**.
-    c) **Đúng** về mô hình.
-    d) **Sai** vì nguy cơ ngắn mạch; thường suy ra từ đường thẳng an toàn hơn.
+    a) **Đúng.** Phương trình $U=\mathcal E-rI$ là hàm bậc nhất theo $I$ với hệ số góc âm $-r$.
+
+    b) **Đúng.** Thế $I=0$ vào $U=\mathcal E-rI$ cho ngay $U=\mathcal E$.
+
+    c) **Đúng.** về mô hình.
+
+    d) **Sai.** vì nguy cơ ngắn mạch; thường suy ra từ đường thẳng an toàn hơn.
 
 ## Phần C — Trả lời ngắn
 
@@ -120,38 +125,38 @@ d) Nên luôn trực tiếp đo I_sc để chính xác nhất.
 Hai điểm đo: $(I_1,U_1)=(0,5\text{ A},5,7\text{ V})$ và $(I_2,U_2)=(1,5\text{ A},5,1\text{ V})$. Tính r và $\mathcal E$.
 
 ??? success "Đáp án và lời giải"
-    Từ $U=\mathcal E-rI$: $r=(U_1-U_2)/(I_2-I_1)=(5,7-5,1)/(1,5-0,5)=0,6\,\Omega$. $\mathcal E=U_1+rI_1=5,7+0,6\cdot0,5=6,0$ V.
+    Từ $U=\mathcal E-rI$: $r=(U_1-U_2)/(I_2-I_1)=(5,7-5,1)/(1,5-0,5)=0,6\,\Omega$. $\mathcal E=U_1+rI_1=5,7+0,6\cdot0,5=6,0\,\mathrm V$.
 
 ### Bài 8 — Mức 3 — Vận dụng
 
 Đồ thị U–I đi qua $(0,6\text{ A},8,7\text{ V})$ và $(1,8\text{ A},8,1\text{ V})$. Tính $\mathcal E,r$.
 
 ??? success "Đáp án và lời giải"
-    $r=(8,7-8,1)/(1,8-0,6)=0,5\,\Omega$. $\mathcal E=8,7+0,5\cdot0,6=9,0$ V.
+    $r=(8,7-8,1)/(1,8-0,6)=0,5\,\Omega$. $\mathcal E=8,7+0,5\cdot0,6=9,0\,\mathrm V$.
 
 ### Bài 9 — Mức 3 — Vận dụng
 
-Nguồn có $\mathcal E=3,0$ V, $r=0,40\,\Omega$. Dự đoán U khi I=2,0 A.
+Nguồn có $\mathcal E=3,0\,\mathrm V$, $r=0,40\,\Omega$. Dự đoán U khi $I=2,0\,\mathrm A$.
 
 ??? success "Đáp án và lời giải"
-    $U=3,0-0,40\cdot2,0=2,2$ V.
+    $U=3,0-0,40\cdot2,0=2,2\,\mathrm V$.
 
 ## Phần D — Vận dụng và vận dụng cao
 
 ### Bài 10 — Mức 4 — Vận dụng cao
 
-Bốn cặp số đo $(I,U)$ là: (0,5 A; 5,82 V), (1,0 A; 5,61 V), (1,5 A; 5,39 V), (2,0 A; 5,20 V). Hãy ước tính r và $\mathcal E$ bằng cách dùng hai điểm đầu–cuối, sau đó kiểm tra hai điểm giữa có phù hợp gần đúng không.
+Bốn cặp số đo $(I,U)$ là: ($0,5\,\mathrm A$; $5,82\,\mathrm V$), ($1,0\,\mathrm A$; $5,61\,\mathrm V$), ($1,5\,\mathrm A$; $5,39\,\mathrm V$), ($2,0\,\mathrm A$; $5,20\,\mathrm V$). Hãy ước tính r và $\mathcal E$ bằng cách dùng hai điểm đầu–cuối, sau đó kiểm tra hai điểm giữa có phù hợp gần đúng không.
 
 ??? success "Đáp án và lời giải"
     Dùng đầu–cuối:
 
     $r\approx(5,82-5,20)/(2,0-0,5)=0,62/1,5\approx0,413\,\Omega$.
 
-    $\mathcal E\approx U+rI=5,82+0,413\cdot0,5\approx6,03$ V.
+    $\mathcal E\approx U+rI=5,82+0,413\cdot0,5\approx6,03\,\mathrm V$.
 
-    Dự đoán tại I=1,0 A: $U\approx6,03-0,413=5,62$ V, rất gần 5,61 V.
+    Dự đoán tại $I=1,0\,\mathrm A$: $U\approx6,03-0,413=5,62\,\mathrm V$, rất gần $5,61\,\mathrm V$.
 
-    Tại I=1,5 A: $U\approx6,03-0,620=5,41$ V, gần 5,39 V.
+    Tại $I=1,5\,\mathrm A$: $U\approx6,03-0,620=5,41\,\mathrm V$, gần $5,39\,\mathrm V$.
 
     Các điểm phù hợp với mô hình tuyến tính trong sai số đo nhỏ. Khi làm thực nghiệm thật, nên hồi quy tuyến tính toàn bộ dữ liệu thay vì chỉ hai điểm.
 
@@ -169,6 +174,7 @@ Khi thực hiện thí nghiệm đo suất điện động $\xi$ và điện tr�
     **Đáp án:** $2{,}86\,\mathrm V$.
 
     **Hướng dẫn giải:**
+
     $\overline U=\dfrac{2{,}84+2{,}86+2{,}87}{3}=2{,}856\ldots\,\mathrm V\approx2{,}86\,\mathrm V$.
 #### Bài 12
 
@@ -180,6 +186,7 @@ Khi thực hiện thí nghiệm đo suất điện động $\xi$ và điện tr�
     **Đáp án:** $0{,}01\,\mathrm V$.
 
     **Hướng dẫn giải:**
+
     Giá trị trung bình được lấy $\overline U\approx2{,}86\,\mathrm V$.
 
     Sai số tuyệt đối trung bình:
@@ -196,6 +203,7 @@ Một học sinh thực hiện thí nghiệm đo suất điện động $\xi$ v�
     **Đáp án:** $1{,}30\,\mathrm V$.
 
     **Hướng dẫn giải:**
+
     Với $U=\xi-Ir$, tại $I=0$ ta có $U=\xi$. Kéo dài đường thẳng đến trục tung cho tung độ khoảng $1{,}30\,\mathrm V$.
 
     Vậy $\xi\approx1{,}30\,\mathrm V$.
@@ -211,6 +219,7 @@ Một học sinh thực hiện thí nghiệm đo suất điện động $\xi$ v�
     **Đáp án:** $1\,\Omega$.
 
     **Hướng dẫn giải:**
+
     Chọn hai điểm trên đường thẳng, chẳng hạn $M(440\,\mathrm{mA};0{,}95\,\mathrm V)$ và $N(740\,\mathrm{mA};0{,}65\,\mathrm V)$.
 
     Từ $U=\xi-Ir$:
@@ -235,6 +244,7 @@ D. Dòng điện chạy trong đoạn mạch.
     **Đáp án:** C
 
     **Hướng dẫn giải:**
+
     Đồng hồ đa năng có thể đo trực tiếp hiệu điện thế, dòng điện và điện trở của phần tử thích hợp. Điện trở trong của nguồn phải được suy ra từ các phép đo $U,I$ (chẳng hạn qua quan hệ $U=\xi-Ir$), không đo trực tiếp theo cách bố trí thí nghiệm này. Chọn **C**.
 #### Bài 16
 
@@ -276,6 +286,7 @@ D. pin điện hóa; biến trở $100\,\Omega$; điện trở có giá trị x�
     **Đáp án:** B
 
     **Hướng dẫn giải:**
+
     Bộ thí nghiệm cần nguồn pin, biến trở để thay đổi tải, điện trở đã biết, hai đồng hồ đa năng để đo $U$ và $I$, khóa K, bảng lắp mạch và dây nối. Phương án **B** liệt kê đầy đủ các dụng cụ này.
 #### Bài 18
 
@@ -349,6 +360,7 @@ D. Hình 4.
     **Đáp án:** A
 
     **Hướng dẫn giải:**
+
     Đặc tuyến của nguồn là $U=\xi-Ir$, tức $U$ phụ thuộc tuyến tính vào $I$ với hệ số góc $-r<0$. Vì vậy đồ thị là đường thẳng giảm theo $I$, tương ứng **Hình 1**.
 #### Bài 21
 
@@ -378,6 +390,7 @@ D. (III) – (I) – (II) – (IV).
     **Đáp án:** C
 
     **Hướng dẫn giải:**
+
     Trước hết thiết lập giá trị biến trở và đóng mạch để đo (**III**), sau đó ghi số liệu và lặp phép đo (**I**). Có đủ số liệu mới dựng đồ thị và suy ra $\xi$ (**IV**), rồi chọn hai điểm trên đường thẳng để tính $r$ (**II**). Thứ tự đúng là **(III) – (I) – (IV) – (II)**.
 #### Bài 22
 
@@ -397,6 +410,7 @@ D. điều chỉnh điện trở tương đương trong mạch.
     **Đáp án:** C
 
     **Hướng dẫn giải:**
+
     Khóa K dùng để đóng hoặc ngắt đường dẫn dòng điện, tức chuyển mạch giữa trạng thái kín và hở. Chọn **C**.
 #### Bài 23
 
@@ -442,6 +456,7 @@ D. $0{,}45\,\Omega$.
     **Đáp án:** B
 
     **Hướng dẫn giải:**
+
     Chọn hai điểm $M(600\,\mathrm{mA};0{,}95\,\mathrm V)$ và $N(960\,\mathrm{mA};0{,}75\,\mathrm V)$ trên đường thẳng.
 
     $r=\dfrac{U_M-U_N}{I_N-I_M}=\dfrac{0{,}95-0{,}75}{0{,}960-0{,}600}\approx0{,}56\,\Omega$.
@@ -543,6 +558,8 @@ d) Suất điện động trong trường hợp này là $1{,}48\,\mathrm V$.
 
 ![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/iv_p128_q4_378_fig1.webp){ loading=lazy }
 
+![Đồ thị U-I thu được trong thí nghiệm](../../../assets/exercise-figures/clean-v14/iv_p128_q4_378_fig2.webp){ loading=lazy }
+
 a) Để hạn chế sai số, ta cần lựa chọn thang đo phù hợp trên đồng hồ đo điện đa năng.
 
 b) Sau khi đã lắp xong mạch điện, học sinh tiến hành ngay việc lấy số liệu mà không cần thông qua giáo viên.
@@ -573,12 +590,12 @@ Ghép cột A và cột B tương ứng để thể hiện các dụng cụ thí
 
 Cột A gồm các hình đánh số (1)–(7). Cột B gồm:
 
-(a) Khóa K.  
-(b) Điện trở đã biết giá trị.  
-(c) Bảng lắp mạch điện.  
-(d) Pin điện hóa.  
-(e) Biến trở $100\,\Omega$.  
-(f) Đồng hồ điện đa năng hiện số.  
+(a) Khóa K.
+(b) Điện trở đã biết giá trị.
+(c) Bảng lắp mạch điện.
+(d) Pin điện hóa.
+(e) Biến trở $100\,\Omega$.
+(f) Đồng hồ điện đa năng hiện số.
 (g) Dây nối.
 
 ![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/iv_p118_q1_349_fig1.webp){ loading=lazy }
@@ -597,6 +614,7 @@ D. (1) – (a); (2) – (d); (3) – (e); (4) – (f); (5) – (b); (6) – (c);
     **Đáp án:** B
 
     **Hướng dẫn giải:**
+
     Quan sát các nhãn số trên hình: (1) pin điện hóa; (2) biến trở $100\,\Omega$; (3) điện trở đã biết; (4) đồng hồ đa năng; (5) khóa K; (6) bảng lắp mạch; (7) dây nối. Vì vậy ghép đúng là **(1)–(d), (2)–(e), (3)–(b), (4)–(f), (5)–(a), (6)–(c), (7)–(g)**.
 ### Vận dụng — Trắc nghiệm 4 lựa chọn
 
@@ -618,6 +636,7 @@ D. $1{,}39\,\mathrm V$.
     **Đáp án:** B
 
     **Hướng dẫn giải:**
+
     $\overline U=\dfrac{1{,}42+1{,}41+1{,}39}{3}=1{,}406\ldots\,\mathrm V\approx1{,}41\,\mathrm V$.
 
     Chọn **B**.
@@ -640,11 +659,13 @@ D. $52\,\mathrm A$.
 
     **Hướng dẫn giải:**
 
-    Giá trị trung bình:
-    $\bar I=\frac{51+54+52}{3}=52\,\mathrm{mA}.$
+    Giá trị trung bình là
+    $\bar I=\dfrac{51+54+52}{3}=52{,}33\ldots\,\mathrm{mA}$.
+
     Sai số tuyệt đối trung bình:
-    $\overline{\Delta I} =\frac{|52-51|+|52-54|+|52-52|}{3} =1{,}0\,\mathrm{mA}.$
-    Chọn **B**.
+    $\overline{\Delta I}=\dfrac{|51-52{,}33|+|54-52{,}33|+|52-52{,}33|}{3}\approx1{,}11\,\mathrm{mA}$.
+
+    Với độ chính xác của các số liệu và các phương án đã cho, giá trị này được lấy xấp xỉ $1{,}0\,\mathrm{mA}$, nên chọn **B**.
 #### Bài 32
 
 <!-- source-id: BT-Chuong-IV-p122-q23-371 -->
@@ -663,6 +684,7 @@ D. $(1{,}38\pm0{,}02)\,\mathrm V$.
     **Đáp án:** A
 
     **Hướng dẫn giải:**
+
     Giá trị trung bình $\overline U=(1{,}38+1{,}40+1{,}37)/3\approx1{,}383\,\mathrm V$.
 
     Sai số tuyệt đối trung bình xấp xỉ $0{,}011\,\mathrm V$, làm tròn thành $0{,}01\,\mathrm V$. Giá trị trung bình được ghi đến cùng hàng thập phân với sai số, nên
@@ -673,33 +695,31 @@ D. $(1{,}38\pm0{,}02)\,\mathrm V$.
 
 <!-- source-id: BT-Chuong-IV-p123-q24-372 -->
 
-Thực hiện thí nghiệm đo suất điện động ξ và điện trở trong r của nguồn. Điều chỉnh biến
-trở tại vị trí 80 Ω, ta thu được các kết quả của hiệu điện thế lần lượt là 1,35 V; 1,32 V; 1,31 V. Biết
-độ chia nhỏ nhất (ĐCNN) của Volt kế là 0,01V, sai số của dụng cụ đo bằng một nửa ĐCNN. Cách
-ghi kết quả thí nghiệm hiệu điện thế nào sau đây đúng với số chữ số có nghĩa?
+Thực hiện thí nghiệm đo suất điện động $\xi$ và điện trở trong $r$ của nguồn. Điều chỉnh biến trở tại vị trí $80\,\Omega$, ta thu được các kết quả của hiệu điện thế lần lượt là $1{,}35\,\mathrm V$; $1{,}32\,\mathrm V$; $1{,}31\,\mathrm V$. Biết độ chia nhỏ nhất (ĐCNN) của vôn kế là $0{,}01\,\mathrm V$, sai số của dụng cụ đo bằng một nửa ĐCNN. Cách ghi kết quả thí nghiệm hiệu điện thế nào sau đây đúng với số chữ số có nghĩa?
 
-A. (1,3 ± 0,1)V.
+A. $(1{,}3\pm0{,}1)\,\mathrm V$.
 
-B. (1,327 ± 0,018) V.
+B. $(1{,}327\pm0{,}018)\,\mathrm V$.
 
-C. (1,32 ± 0,01)V.
+C. $(1{,}32\pm0{,}01)\,\mathrm V$.
 
-D. (1,33 ± 0,02) V.
+D. $(1{,}32\pm0{,}02)\,\mathrm V$.
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** D. $(1{,}33\pm0{,}02)$ V.
+    **Đáp án:** Không có phương án nào hoàn toàn đúng; tính độc lập cho $(1{,}33\pm0{,}02)\,\mathrm V$.
 
     **Hướng dẫn giải:**
+
     Giá trị trung bình:
-    $\overline U=(1{,}35+1{,}32+1{,}31)/3=1{,}3267$ V $\approx1{,}33$ V.
+    $\overline U=(1{,}35+1{,}32+1{,}31)/3=1{,}3267\ldots\,\mathrm V$.
 
-    Sai số ngẫu nhiên trung bình:
-    $\overline{\Delta U}=(|1{,}35-1{,}3267|+|1{,}32-1{,}3267|+|1{,}31-1{,}3267|)/3\approx0{,}0156$ V.
+    Sai số tuyệt đối trung bình:
+    $\overline{\Delta U}\approx(0{,}0233+0{,}0067+0{,}0167)/3\approx0{,}0156\,\mathrm V$.
 
-    Sai số dụng cụ bằng nửa độ chia nhỏ nhất: $\Delta U_{dc}=0{,}005$ V. Do đó
-    $\Delta U\approx0{,}0156+0{,}005=0{,}0206$ V $\approx0{,}02$ V.
+    Sai số dụng cụ là $\Delta U_{dc}=0{,}005\,\mathrm V$, nên
+    $\Delta U\approx0{,}0156+0{,}005=0{,}0206\,\mathrm V\approx0{,}02\,\mathrm V$.
 
-    Vậy ghi kết quả $U=(1{,}33\pm0{,}02)$ V.
+    Giá trị trung bình phải được làm tròn đến cùng hàng thập phân với sai số: $\overline U\approx1{,}33\,\mathrm V$. Vì vậy kết quả độc lập là $U=(1{,}33\pm0{,}02)\,\mathrm V$.
 
-!!! warning "Đối chiếu nguồn"
-    PDF nguồn làm tròn $\overline U=1{,}3267$ V thành $1{,}32$ V. Theo quy tắc làm tròn thông thường đến $0{,}01$ V, giá trị đúng là $1{,}33$ V; repository hiệu chỉnh phương án D tương ứng.
+    !!! warning "Đối chiếu nguồn"
+        PDF giữ phương án D là $(1{,}32\pm0{,}02)\,\mathrm V$ và chọn D do làm tròn $1{,}3267\ldots$ xuống $1{,}32$. Theo quy tắc làm tròn thông thường đến $0{,}01\,\mathrm V$, phải được $1{,}33\,\mathrm V$. Vì vậy không sửa phương án nguồn; chỉ ghi rõ kết quả tính độc lập.

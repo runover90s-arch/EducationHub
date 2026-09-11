@@ -321,25 +321,25 @@ $$
 x=5\cos\left(4\pi t-\frac{\pi}{3}\right)\text{ cm}.
 $$
 
-Tại $t=\frac{1}{12}$ s, xác định $x$, $v$, $a$.
+Tại $t=\frac{1}{12}\,\mathrm s$, xác định $x$, $v$, $a$.
 
 ### Giải
 
 Pha tại thời điểm xét là $\Phi=4\pi\cdot\frac{1}{12}-\frac{\pi}{3}=0$.
 
-Do đó $x=5$ cm, $v=0$ và $a=-\omega^2x=-(4\pi)^2\cdot5$ cm/s².
+Do đó $x=5\,\mathrm{cm}$, $v=0$ và $a=-\omega^2x=-(4\pi)^2\cdot5\,\mathrm{cm/s^2}$.
 
 Vật đang ở biên dương và chuẩn bị chuyển động theo chiều âm.
 
 ## Ví dụ 2 — Tìm tốc độ từ li độ
 
-Vật dao động với $A=8$ cm, $\omega=5$ rad/s. Khi $x=4$ cm, tốc độ là
+Vật dao động với $A=8\,\mathrm{cm}$, $\omega=5\,\mathrm{rad/s}$. Khi $x=4\,\mathrm{cm}$, tốc độ là
 
 $$
 |v|=\omega\sqrt{A^2-x^2}=5\sqrt{64-16}=20\sqrt3\text{ cm/s}.
 $$
 
-Nếu đề nói vật đang đi theo chiều âm thì $v=-20\sqrt3$ cm/s.
+Nếu đề nói vật đang đi theo chiều âm thì $v=-20\sqrt3\,\mathrm{cm/s}$.
 
 ## Ví dụ 3 — Tìm tần số góc từ hai trạng thái
 
@@ -351,9 +351,9 @@ $$
 \omega^2=\frac{40^2-30^2}{4^2-3^2}=100,
 $$
 
-nên $\omega=10$ rad/s.
+nên $\omega=10\,\mathrm{rad/s}$.
 
-Biên độ được suy ra từ $A^2=x_1^2+v_1^2/\omega^2=25$, do đó $A=5$ cm.
+Biên độ được suy ra từ $A^2=x_1^2+v_1^2/\omega^2=25$, do đó $A=5\,\mathrm{cm}$.
 
 ## Phản ví dụ
 
@@ -394,19 +394,19 @@ Một chuyển động có $a=-4x+2$ không thỏa trực tiếp dạng $a=-\ome
 
 ## Bài tập nhanh
 
-1. Vật dao động với $A=6$ cm, $\omega=4$ rad/s. Tính tốc độ cực đại và độ lớn gia tốc cực đại.
-2. Với $x=3$ cm, $A=5$ cm, $\omega=10$ rad/s, tính tốc độ.
+1. Vật dao động với $A=6\,\mathrm{cm}$, $\omega=4\,\mathrm{rad/s}$. Tính tốc độ cực đại và độ lớn gia tốc cực đại.
+2. Với $x=3\,\mathrm{cm}$, $A=5\,\mathrm{cm}$, $\omega=10\,\mathrm{rad/s}$, tính tốc độ.
 3. Một vật có $a=-100x$ khi dùng cùng đơn vị SI. Xác định $\omega$ và $T$.
 4. Tại một thời điểm $x>0$ và $v>0$. Vật đang nhanh dần hay chậm dần?
-5. Một đồ thị $a-x$ có hệ số góc $-64$ s⁻². Tìm tần số góc.
+5. Một đồ thị $a-x$ có hệ số góc $-64\,\mathrm s$⁻². Tìm tần số góc.
 
 ### Đáp án nhanh
 
-1. $24$ cm/s; $96$ cm/s².
-2. $40$ cm/s.
-3. $\omega=10$ rad/s; $T=\pi/5$ s.
+1. $24\,\mathrm{cm/s}$; $96\,\mathrm{cm/s^2}$.
+2. $40\,\mathrm{cm/s}$.
+3. $\omega=10\,\mathrm{rad/s}$; $T=\pi/5\,\mathrm s$.
 4. Chậm dần vì $a<0$ và $v>0$.
-5. $8$ rad/s.
+5. $8\,\mathrm{rad/s}$.
 
 ## Tóm tắt
 

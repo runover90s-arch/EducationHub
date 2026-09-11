@@ -113,7 +113,7 @@ Cần đọc đúng định nghĩa đề bài vì "hiệu suất" trong thiết 
 
 ## 9. Ví dụ — Số electron mỗi giây
 
-Dòng quang điện bão hòa $I=16\,\mu$A.
+Dòng quang điện bão hòa $I=16\,\mu\,\mathrm A$.
 
 $$
 n=\frac{16\times10^{-6}}{1,602\times10^{-19}}\approx9,99\times10^{13}\text{ electron/s}.

@@ -48,9 +48,9 @@ Tần số của âm cơ bản liên hệ trực tiếp với tần số dao đ�
 
 Theo quy ước phổ biến trong giáo dục:
 
-- hạ âm: tần số dưới khoảng 20 Hz;
-- âm nghe được: xấp xỉ 20 Hz đến 20 kHz;
-- siêu âm: trên khoảng 20 kHz.
+- hạ âm: tần số dưới khoảng $20\,\mathrm{Hz}$;
+- âm nghe được: xấp xỉ $20\,\mathrm{Hz}$ đến $20\,\mathrm{kHz}$;
+- siêu âm: trên khoảng $20\,\mathrm{kHz}$.
 
 Khả năng nghe thực tế phụ thuộc từng người, tuổi và cường độ âm, nên các mốc trên là mốc quy ước gần đúng.
 
@@ -95,7 +95,7 @@ $$
 \boxed{L=10\log_{10}\frac{I}{I_0}\ \text{dB}},
 $$
 
-với $I_0=10^{-12}$ W/m² là cường độ chuẩn thường dùng.
+với $I_0=10^{-12}\,\mathrm{W/m^2}$ là cường độ chuẩn thường dùng.
 
 ### So sánh hai mức
 
@@ -105,9 +105,9 @@ $$
 
 Hệ quả:
 
-- $I$ tăng 10 lần → $L$ tăng 10 dB;
-- $I$ tăng 100 lần → $L$ tăng 20 dB;
-- $I$ tăng 2 lần → $L$ tăng khoảng 3,01 dB.
+- $I$ tăng 10 lần → $L$ tăng $10\,\mathrm{dB}$;
+- $I$ tăng 100 lần → $L$ tăng $20\,\mathrm{dB}$;
+- $I$ tăng 2 lần → $L$ tăng khoảng $3,01\,\mathrm{dB}$.
 
 ## 7. Độ to
 
@@ -147,7 +147,7 @@ $$
 
 ### Ví dụ 2 — Mức âm
 
-Nếu $I=10^{-6}$ W/m²:
+Nếu $I=10^{-6}\,\mathrm{W/m^2}$:
 
 $$
 L=10\log_{10}(10^6)=60\ \text{dB}.
@@ -160,7 +160,7 @@ Nếu hai nguồn không kết hợp tạo tại điểm M các cường độ $
 ## 11. Lỗi thường gặp
 
 !!! warning "Không cộng dB trực tiếp"
-    Hai âm 60 dB không tạo thành 120 dB. Phải đổi về cường độ, cộng cường độ rồi đổi lại mức.
+    Hai âm $60\,\mathrm{dB}$ không tạo thành $120\,\mathrm{dB}$. Phải đổi về cường độ, cộng cường độ rồi đổi lại mức.
 
 !!! warning "Công thức $1/r^2$ có điều kiện"
     Quan hệ $I=P/(4\pi r^2)$ giả sử nguồn điểm đẳng hướng trong không gian tự do và bỏ qua hấp thụ/phản xạ đáng kể.
@@ -177,11 +177,11 @@ $$
 
 nếu tốc độ truyền thay đổi thì bước sóng thay đổi theo.
 
-Ví dụ, một âm 500 Hz truyền từ môi trường A có $v_A=300$ m/s sang môi trường B có $v_B=450$ m/s:
+Ví dụ, một âm $500\,\mathrm{Hz}$ truyền từ môi trường A có $v_A=300\,\mathrm{m/s}$ sang môi trường B có $v_B=450\,\mathrm{m/s}$:
 
-- trong A: $\lambda_A=300/500=0,60$ m;
-- trong B: $\lambda_B=450/500=0,90$ m;
-- tần số vẫn là 500 Hz.
+- trong A: $\lambda_A=300/500=0,60\,\mathrm m$;
+- trong B: $\lambda_B=450/500=0,90\,\mathrm m$;
+- tần số vẫn là $500\,\mathrm{Hz}$.
 
 !!! note "Đừng biến nhận xét định tính thành luật tuyệt đối"
     Trong điều kiện thông thường, âm thường truyền nhanh hơn trong chất rắn và chất lỏng so với trong chất khí. Tuy nhiên giá trị cụ thể phụ thuộc từng vật liệu và điều kiện, nên khi tính phải dùng dữ kiện của đề hoặc số liệu đo.
@@ -210,9 +210,9 @@ Công thức này rất hữu ích trong thí nghiệm đo tốc độ truyền 
 
 ### Ví dụ
 
-Hai vị trí cộng hưởng liên tiếp cách nhau 17 cm, nguồn âm có $f=1000$ Hz.
+Hai vị trí cộng hưởng liên tiếp cách nhau $17\,\mathrm{cm}$, nguồn âm có $f=1000\,\mathrm{Hz}$.
 
-$\Delta L=0,17$ m nên:
+$\Delta L=0,17\,\mathrm m$ nên:
 
 $$
 v=2\cdot1000\cdot0,17=340\ \text{m/s}.
@@ -232,7 +232,7 @@ Các giá trị này phụ thuộc tần số và từng người. Khi làm bài
 - Âm là sóng cơ.
 - Độ cao chủ yếu do tần số.
 - $I=P/S$; nguồn điểm đẳng hướng: $I=P/(4\pi r^2)$.
-- $L=10\log_{10}(I/I_0)$ dB.
+- $L=10\log_{10}(I/I_0)\,\mathrm{dB}$.
 - Âm sắc liên hệ phổ họa âm.
 
 ## 5 điều cần nhớ

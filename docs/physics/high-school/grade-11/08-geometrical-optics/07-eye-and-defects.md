@@ -56,7 +56,7 @@ $$
 D=25\,\text{cm}.
 $$
 
-D=25 cm là **quy ước chuẩn** cho mắt chuẩn trong bài học, không phải khoảng cực cận sinh học của mọi người.
+D=$25\,\mathrm{cm}$ là **quy ước chuẩn** cho mắt chuẩn trong bài học, không phải khoảng cực cận sinh học của mọi người.
 
 ## 4. Cận thị
 
@@ -82,7 +82,7 @@ $$
 
 ### Ví dụ
 
-Mắt cận có cực viễn 50 cm. Kính sát mắt để nhìn xa:
+Mắt cận có cực viễn $50\,\mathrm{cm}$. Kính sát mắt để nhìn xa:
 
 $$
 \begin{gathered}
@@ -99,7 +99,7 @@ Sửa bằng thấu kính **hội tụ** phù hợp.
 
 ### Bài nhìn gần
 
-Giả sử mắt có cực cận thật là $C_C=L>D$ và muốn đọc vật ở D=25 cm với kính sát mắt. Kính phải tạo ảnh ảo của vật tại cực cận L.
+Giả sử mắt có cực cận thật là $C_C=L>D$ và muốn đọc vật ở D=$25\,\mathrm{cm}$ với kính sát mắt. Kính phải tạo ảnh ảo của vật tại cực cận L.
 
 Theo quy ước thấu kính:
 
@@ -138,7 +138,7 @@ Khái niệm này dẫn đến số bội giác trong kính lúp, kính hiển v
 
 ## 9. Ví dụ sửa viễn/lão ở gần
 
-Một người có cực cận 1,0 m muốn đọc ở 25 cm. Kính sát mắt:
+Một người có cực cận $1,0\,\mathrm m$ muốn đọc ở $25\,\mathrm{cm}$. Kính sát mắt:
 
 $$
 \begin{gathered}
@@ -152,10 +152,10 @@ $$
 !!! warning "Cận thị dùng kính hội tụ"
     Cận thị nhìn xa kém và thường sửa xa bằng kính phân kì.
 
-!!! warning "Cực viễn của mắt bình thường là 25 cm"
-    25 cm là khoảng nhìn rõ gần quy ước; cực viễn mắt bình thường là vô cực trong mô hình.
+!!! warning "Cực viễn của mắt bình thường là $25\,\mathrm{cm}$"
+    $25\,\mathrm{cm}$ là khoảng nhìn rõ gần quy ước; cực viễn mắt bình thường là vô cực trong mô hình.
 
-!!! warning "Coi 25 cm là hằng số sinh học"
+!!! warning "Coi $25\,\mathrm{cm}$ là hằng số sinh học"
     Đây là giá trị quy ước trong bài số bội giác, không phải đo đạc cá nhân.
 
 !!! note "Không dùng bài này để tự kê kính"
@@ -172,7 +172,7 @@ $$
 
 ## Tóm tắt
 
-Mắt điều tiết để đưa ảnh lên võng mạc. Cận thị có cực viễn hữu hạn và sửa xa bằng kính phân kì; viễn/lão khi nhìn gần thường cần kính hội tụ. Bài phổ thông dùng mô hình kính sát mắt và khoảng nhìn rõ gần quy ước 25 cm.
+Mắt điều tiết để đưa ảnh lên võng mạc. Cận thị có cực viễn hữu hạn và sửa xa bằng kính phân kì; viễn/lão khi nhìn gần thường cần kính hội tụ. Bài phổ thông dùng mô hình kính sát mắt và khoảng nhìn rõ gần quy ước $25\,\mathrm{cm}$.
 
 ## 5 điều cần nhớ
 
@@ -180,7 +180,7 @@ Mắt điều tiết để đưa ảnh lên võng mạc. Cận thị có cực v
 2. Cực viễn: xa nhất khi không điều tiết.
 3. Cực cận: gần nhất khi điều tiết tối đa.
 4. Cận sửa xa bằng kính phân kì.
-5. 25 cm là quy ước bài học, không phải giá trị cá nhân bắt buộc.
+5. $25\,\mathrm{cm}$ là quy ước bài học, không phải giá trị cá nhân bắt buộc.
 
 
 <!-- LESSON_PRACTICE_LINKS -->

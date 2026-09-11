@@ -133,7 +133,7 @@ Mô hình gần đúng quan trọng: vùng giữa hai bản kim loại phẳng s
 ## 10. Ví dụ
 
 ### Ví dụ 1
-$Q=4\,\mu$C, điểm M cách Q $30$ cm trong chân không.
+$Q=4\,\mu\,\mathrm C$, điểm M cách Q $30\,\mathrm{cm}$ trong chân không.
 
 $$
 E=9\times10^9\frac{4\times10^{-6}}{0,3^2}
@@ -143,9 +143,9 @@ $$
 Nếu Q dương, E hướng ra xa Q.
 
 ### Ví dụ 2 — Lực lên electron
-Tại nơi $E=2\times10^4$ N/C, electron chịu lực có độ lớn:
+Tại nơi $E=2\times10^4\,\mathrm{N/C}$, electron chịu lực có độ lớn:
 
-$F=eE\approx3,20\times10^{-15}$ N,
+$F=eE\approx3,20\times10^{-15}\,\mathrm N$,
 
 chiều ngược $\vec E$.
 

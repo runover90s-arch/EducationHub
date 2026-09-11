@@ -85,7 +85,7 @@ Nếu có lõi vật liệu từ, L có thể tăng mạnh và phụ thuộc t�
 
 ## 5. Ví dụ tính L
 
-Ống dây dài 0,50 m, N=1000, S=$4,0\times10^{-4}$ m²:
+Ống dây dài $0,50\,\mathrm m$, N=1000, $S=4,0\times10^{-4}\,\mathrm{m^2}$:
 
 $$
 L=4\pi\times10^{-7}\frac{1000^2\cdot4,0\times10^{-4}}{0,50}
@@ -96,7 +96,7 @@ Tức khoảng 1,0 mH.
 
 ## 6. Ví dụ suất điện động tự cảm
 
-Cuộn L=0,20 H, dòng giảm từ 3 A xuống 1 A trong 0,05 s.
+Cuộn L=0,20 H, dòng giảm từ $3\,\mathrm A$ xuống $1\,\mathrm A$ trong $0,05\,\mathrm s$.
 
 Độ lớn:
 
@@ -171,7 +171,7 @@ $$
     Nó chống **sự biến thiên của dòng**. Khi I giảm, tự cảm có thể tạo suất điện động cùng chiều dòng cũ để giữ nó.
 
 !!! warning "L không phải điện trở"
-    L đo bằng H, không phải Ω. Cuộn dây thực còn có điện trở dây quấn, nhưng đó là đại lượng khác.
+    L đo bằng H, không phải $\Omega$. Cuộn dây thực còn có điện trở dây quấn, nhưng đó là đại lượng khác.
 
 !!! warning "Quên bình phương N"
     Với ống dây dài lõi không khí, $L\propto N^2$.

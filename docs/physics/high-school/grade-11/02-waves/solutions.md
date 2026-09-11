@@ -14,16 +14,16 @@ tags:
 
 ## Câu 1–7
 
-1. $\lambda=v/f=4/20=0,20$ m.
+1. $\lambda=v/f=4/20=0,20\,\mathrm m$.
 2. $|\Delta\varphi|=2\pi(15/60)=\pi/2$ rad.
-3. $\omega=40\pi$ nên $f=20$ Hz; $k=5\pi$ nên $\lambda=0,4$ m; $v=\omega/k=8$ m/s; dấu $-kx$ → truyền theo $+x$.
-4. $\lambda=0,12$ m, nên $T=\lambda/v=0,20$ s.
+3. $\omega=40\pi$ nên $f=20\,\mathrm{Hz}$; $k=5\pi$ nên $\lambda=0,4\,\mathrm m$; $v=\omega/k=8\,\mathrm{m/s}$; dấu $-kx$ → truyền theo $+x$.
+4. $\lambda=0,12\,\mathrm m$, nên $T=\lambda/v=0,20\,\mathrm s$.
 5. Không. Âm là sóng cơ nên cần môi trường vật chất.
-6. $\lambda=c/f=3\times10^8/10^8=3$ m.
+6. $\lambda=c/f=3\times10^8/10^8=3\,\mathrm m$.
 7. $i=\lambda D/a$, nên tăng 20%.
 
 ## Câu 8
-$f=5$ Hz, $\lambda=v/f=0,4$ m. M cách nguồn $x=0,20$ m nên trễ pha $2\pi x/\lambda=\pi$.
+$f=5\,\mathrm{Hz}$, $\lambda=v/f=0,4\,\mathrm m$. M cách nguồn $x=0,20\,\mathrm m$ nên trễ pha $2\pi x/\lambda=\pi$.
 
 $$
 u_M=4\cos(10\pi t+\pi/3-\pi)
@@ -34,16 +34,16 @@ $$
 $|\Delta\varphi|=2\pi(30/80)=3\pi/4$ rad. N nằm sau M theo chiều truyền nên N trễ pha $3\pi/4$.
 
 ## Câu 10
-$AB=v\Delta t=1,5\cdot0,12=0,18$ m.
+$AB=v\Delta t=1,5\cdot0,12=0,18\,\mathrm m$.
 
 ## Câu 11
-Dạng $\omega t+kx$ nên truyền theo $-x$. Tốc độ $v=\omega/k=100\pi/(20\pi)=5$ m/s.
+Dạng $\omega t+kx$ nên truyền theo $-x$. Tốc độ $v=\omega/k=100\pi/(20\pi)=5\,\mathrm{m/s}$.
 
 ## Câu 12
-Ngược pha gần nhất: $d_{\min}=\lambda/2=8$ cm → $\lambda=16$ cm.
+Ngược pha gần nhất: $d_{\min}=\lambda/2=8\,\mathrm{cm}$ → $\lambda=16\,\mathrm{cm}$.
 
 ## Câu 13
-$\Delta d=5$ cm $=2,5\lambda=(2+1/2)\lambda$. Với nguồn cùng pha, đó là cực tiểu.
+$\Delta d=5\,\mathrm{cm}$ $=2,5\lambda=(2+1/2)\lambda$. Với nguồn cùng pha, đó là cực tiểu.
 
 ## Câu 14
 Độ lệch pha tại M có độ lớn $2\pi/3$. Hai biên độ bằng nhau:
@@ -59,7 +59,7 @@ Nguồn ngược pha: cực đại khi $\Delta d=(k+1/2)\lambda$.
 $|k|\cdot3\le12$ → $|k|\le4$. Các giá trị $k=-4,-3,\ldots,3,4$.
 
 ## Câu 17
-4 bụng → $L=4\lambda/2=2\lambda$. Vậy $\lambda=0,60$ m.
+4 bụng → $L=4\lambda/2=2\lambda$. Vậy $\lambda=0,60\,\mathrm m$.
 
 ## Câu 18
 Mode có 3 bụng là $n=3$:
@@ -71,40 +71,40 @@ f_3=\frac{3v}{2L}
 $$
 
 ## Câu 19
-Mode cơ bản nút–bụng: $L=\lambda/4$. Vậy $\lambda=4L=1,0$ m.
+Mode cơ bản nút–bụng: $L=\lambda/4$. Vậy $\lambda=4L=1,0\,\mathrm m$.
 
 ## Câu 20
-Nút–nút $=\lambda/2=10$ cm → $\lambda=20$ cm. Nút–bụng gần nhất $=\lambda/4=5$ cm.
+Nút–nút $=\lambda/2=10\,\mathrm{cm}$ → $\lambda=20\,\mathrm{cm}$. Nút–bụng gần nhất $=\lambda/4=5\,\mathrm{cm}$.
 
 ## Câu 21
-$I\propto1/r^2$. Từ $2$ m đến $6$ m là tăng khoảng cách 3 lần, nên $I'=I/9$.
+$I\propto1/r^2$. Từ $2\,\mathrm m$ đến $6\,\mathrm m$ là tăng khoảng cách 3 lần, nên $I'=I/9$.
 
 ## Câu 22
-$L=10\log_{10}(10^{-7}/10^{-12})=50$ dB.
+$L=10\log_{10}(10^{-7}/10^{-12})=50\,\mathrm{dB}$.
 
 ## Câu 23
-$10\log_{10}(1000)=30$ dB.
+$10\log_{10}(1000)=30\,\mathrm{dB}$.
 
 ## Câu 24
 Sóng vô tuyến → hồng ngoại → ánh sáng nhìn thấy → tử ngoại → tia X.
 
 ## Câu 25
-$f=c/\lambda=3\times10^8/(500\times10^{-9})=6\times10^{14}$ Hz.
+$f=c/\lambda=3\times10^8/(500\times10^{-9})=6\times10^{14}\,\mathrm{Hz}$.
 
 ## Câu 26
-$a=10^{-3}$ m, $D=1,5$ m, $\lambda=600\times10^{-9}$ m:
+$a=10^{-3}\,\mathrm m$, $D=1,5\,\mathrm m$, $\lambda=600\times10^{-9}\,\mathrm m$:
 
 $$
 i=\frac{\lambda D}{a}=0,9\times10^{-3}\ \text{m}=0,9\ \text{mm}.
 $$
 
 ## Câu 27
-Vân sáng bậc 4 bên trái: $x=-4i=-3,6$ mm.
+Vân sáng bậc 4 bên trái: $x=-4i=-3,6\,\mathrm{mm}$.
 
-Vân tối gần trung tâm nhất bên phải: $x=i/2=0,45$ mm.
+Vân tối gần trung tâm nhất bên phải: $x=i/2=0,45\,\mathrm{mm}$.
 
 ## Câu 28
-Hai tọa độ là $-2i$ và $+5i$, khoảng cách $7i=7$ mm. Vậy $i=1$ mm.
+Hai tọa độ là $-2i$ và $+5i$, khoảng cách $7i=7\,\mathrm{mm}$. Vậy $i=1\,\mathrm{mm}$.
 
 ## Câu 29
 Vân sáng có $x=ki$. Điều kiện $|1,2k|\le4,2$ cho $|k|\le3,5$, nên $k=-3,-2,-1,0,1,2,3$: **7 vân sáng**.
@@ -145,7 +145,7 @@ $$
 \Delta\Phi=-2\pi(1,5)=-3\pi,
 $$
 
-tương đương $\pi$ modulo $2\pi$. Hai sóng ngược pha tại M. Vì mỗi sóng có cùng biên độ $3$ mm, $A_M=0$.
+tương đương $\pi$ modulo $2\pi$. Hai sóng ngược pha tại M. Vì mỗi sóng có cùng biên độ $3\,\mathrm{mm}$, $A_M=0$.
 
 ## Câu 33
 Với hai đầu cố định, khoảng giữa tần số riêng liên tiếp:
@@ -154,7 +154,7 @@ $$
 \Delta f=\frac{v}{2L}=150-120=30\ \text{Hz}.
 $$
 
-Vì $L=1$ m, $v=60$ m/s.
+Vì $L=1\,\mathrm m$, $v=60\,\mathrm{m/s}$.
 
 Tần số mode $n$ là $f_n=n\Delta f$. Do đó $120=4\cdot30$ → mode 4; $150=5\cdot30$ → mode 5.
 
@@ -165,10 +165,10 @@ $$
 10\log_{10}(100)=20\ \text{dB}.
 $$
 
-Vậy $L_B=50$ dB.
+Vậy $L_B=50\,\mathrm{dB}$.
 
 ## Câu 35
-Với cùng bố trí, $i\propto\lambda$. Vì $i_1=1$ mm:
+Với cùng bố trí, $i\propto\lambda$. Vì $i_1=1\,\mathrm{mm}$:
 
 $$
 i_2=1\cdot\frac{600}{500}=1,2\ \text{mm}.
@@ -176,11 +176,11 @@ $$
 
 Cần $k_1i_1=k_2i_2$. Tương đương $k_1=1,2k_2=6k_2/5$. Cặp dương nhỏ nhất $k_1=6$, $k_2=5$.
 
-Khoảng cách nhỏ nhất ngoài trung tâm: $x=6i_1=6$ mm.
+Khoảng cách nhỏ nhất ngoài trung tâm: $x=6i_1=6\,\mathrm{mm}$.
 
 ## Câu 36
 
-$6,0$ ms $=6,0\times10^{-3}$ s.
+$6,0\,\mathrm{ms}$ $=6,0\times10^{-3}\,\mathrm s$.
 
 Trong thời gian đó có 12 chu kì nên:
 
@@ -192,7 +192,7 @@ $$
 
 Từ đỉnh thứ 4 đến đỉnh thứ 14 có **10 chu kì**, không phải 11.
 
-$20$ ms $=0,020$ s, nên:
+$20\,\mathrm{ms}$ $=0,020\,\mathrm s$, nên:
 
 $$
 f=\frac{10}{0,020}=500\ \text{Hz}.
@@ -202,11 +202,11 @@ $$
 
 Hai cộng hưởng liên tiếp có:
 
-$\Delta L=0,52-0,18=0,34$ m.
+$\Delta L=0,52-0,18=0,34\,\mathrm m$.
 
 Với ống một đầu kín:
 
-$\lambda=2\Delta L=0,68$ m.
+$\lambda=2\Delta L=0,68\,\mathrm m$.
 
 Do đó:
 
@@ -218,7 +218,7 @@ $$
 
 Tiếng vọng đi từ người tới vách đá rồi quay lại, nên quãng đường tổng là:
 
-$2d=102$ m.
+$2d=102\,\mathrm m$.
 
 Vậy:
 
@@ -228,11 +228,11 @@ $$
 
 ## Câu 40
 
-$\Delta L=25$ cm $=0,25$ m.
+$\Delta L=25\,\mathrm{cm}$ $=0,25\,\mathrm m$.
 
 Hai cộng hưởng liên tiếp cách nhau $\lambda/2$, nên:
 
-$\lambda=0,50$ m.
+$\lambda=0,50\,\mathrm m$.
 
 Tốc độ:
 
@@ -244,7 +244,7 @@ $$
 
 Tần số do nguồn quyết định nên khi truyền sang B vẫn là:
 
-$f_B=600$ Hz.
+$f_B=600\,\mathrm{Hz}$.
 
 Bước sóng trong B:
 
@@ -274,7 +274,7 @@ f'=f\frac{v}{v-v_s}
 \approx627,3\,\text{Hz}.
 $$
 
-Kết quả lớn hơn 600 Hz, phù hợp trực giác “tiến lại gần → âm thu cao hơn”.
+Kết quả lớn hơn $600\,\mathrm{Hz}$, phù hợp trực giác “tiến lại gần → âm thu cao hơn”.
 
 ### Câu 44
 Máy thu rời nguồn làm tử số giảm; nguồn rời máy thu làm mẫu số tăng:

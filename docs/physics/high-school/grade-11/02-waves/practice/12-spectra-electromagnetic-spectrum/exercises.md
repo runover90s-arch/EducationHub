@@ -9,7 +9,6 @@ tags:
 
 # Bài tập — Bài 12 — Quang phổ và thang sóng điện từ
 
-> Hệ bài tập được biên soạn theo các dạng xuất hiện trong bộ tài liệu Vật lí 11 của dự án. Câu hỏi được giữ ngắn, trực tiếp; độ khó tăng dần và không cố tình thêm dữ kiện gây nhiễu.
 
 [← Trở lại bài học](../../12-spectra-electromagnetic-spectrum.md)
 
@@ -28,7 +27,11 @@ C. tia tử ngoại.
 D. sóng vô tuyến.
 
 ??? success "Đáp án và lời giải"
-    Chọn **C**.
+    **Đáp án:** C. Tia tử ngoại.
+
+    **Hướng dẫn giải:**
+
+    Trong các lựa chọn, thứ tự bước sóng tăng dần là tử ngoại → ánh sáng đỏ → hồng ngoại → sóng vô tuyến, nên tia tử ngoại có bước sóng ngắn nhất.
 
 ### Bài 2 — Mức 1 — Nhận biết
 
@@ -43,7 +46,11 @@ C. bằng nhau.
 D. bằng 0.
 
 ??? success "Đáp án và lời giải"
-    Chọn **B**.
+    **Đáp án:** B. Lớn hơn.
+
+    **Hướng dẫn giải:**
+
+    Tia X có bước sóng ngắn hơn ánh sáng nhìn thấy; vì $f=c/\lambda$ trong chân không, tần số của tia X lớn hơn.
 
 ### Bài 3 — Mức 1 — Nhận biết
 
@@ -58,7 +65,11 @@ C. mọi nguồn đều giống nhau.
 D. chỉ laser phát ra.
 
 ??? success "Đáp án và lời giải"
-    Chọn **A** theo mô hình phổ thông.
+    **Đáp án:** A.
+
+    **Hướng dẫn giải:**
+
+    Theo mô hình phổ thông, chất rắn, chất lỏng và khối khí có áp suất lớn khi được nung nóng phát quang phổ liên tục; khí loãng bị kích thích thường cho quang phổ vạch.
 
 ## Phần B — Đúng/Sai
 
@@ -75,44 +86,67 @@ c) Tử ngoại có bước sóng dài hơn hồng ngoại.
 d) Tia gamma có tần số rất cao.
 
 ??? success "Đáp án và lời giải"
-    a) **Đúng**.
-    b) **Đúng**.
-    c) **Sai**.
-    d) **Đúng**.
+    **Đáp án:** a) Đúng; b) Đúng; c) Sai; d) Đúng.
+
+    **Hướng dẫn giải:**
+
+    a) **Đúng.** Trong chân không $c=\lambda f$ nên $f$ tăng thì $\lambda$ giảm.
+
+    b) **Đúng.** Hồng ngoại nằm phía bước sóng dài hơn ánh sáng đỏ.
+
+    c) **Sai.** Tử ngoại có bước sóng ngắn hơn ánh sáng nhìn thấy và ngắn hơn nhiều so với hồng ngoại.
+
+    d) **Đúng.** Tia gamma thuộc vùng tần số rất cao của thang sóng điện từ.
 
 ## Phần C — Trả lời ngắn
 
 ### Bài 5 — Mức 3 — Vận dụng
 
-Một bức xạ có $\lambda=3\cdot10^{-7}$ m. Tính tần số trong chân không.
+Một bức xạ có $\lambda=3\cdot10^{-7}\,\mathrm m$. Tính tần số trong chân không.
 
 ??? success "Đáp án và lời giải"
-    $f=c/\lambda=3\cdot10^8/(3\cdot10^{-7})=10^{15}$ Hz.
+    **Đáp án:** $10^{15}\,\mathrm{Hz}$.
+
+    **Hướng dẫn giải:**
+
+    $f=c/\lambda=3\times10^8/(3\times10^{-7})=10^{15}\,\mathrm{Hz}$.
 
 ### Bài 6 — Mức 3 — Vận dụng
 
 Sắp xếp theo bước sóng tăng dần: tia X, hồng ngoại, ánh sáng nhìn thấy, sóng vô tuyến.
 
 ??? success "Đáp án và lời giải"
-    Thứ tự: **tia X → ánh sáng nhìn thấy → hồng ngoại → sóng vô tuyến**.
+    **Đáp án:** Tia X → ánh sáng nhìn thấy → hồng ngoại → sóng vô tuyến.
+
+    **Hướng dẫn giải:**
+
+    Trên thang sóng điện từ, bước sóng tăng theo thứ tự tia X, vùng nhìn thấy, hồng ngoại rồi sóng vô tuyến.
 
 ### Bài 7 — Mức 3 — Vận dụng
 
-Một bức xạ có tần số $3\cdot10^{16}$ Hz. Tính bước sóng trong chân không và đổi sang nm.
+Một bức xạ có tần số $3\cdot10^{16}\,\mathrm{Hz}$. Tính bước sóng trong chân không và đổi sang nm.
 
 ??? success "Đáp án và lời giải"
-    $\lambda=c/f=3\cdot10^8/(3\cdot10^{16})=10^{-8}$ m $=10$ nm.
+    **Đáp án:** $10\,\mathrm{nm}$.
+
+    **Hướng dẫn giải:**
+
+    $\lambda=c/f=3\times10^8/(3\times10^{16})=10^{-8}\,\mathrm m=10\,\mathrm{nm}$.
 
 ## Phần D — Vận dụng và vận dụng cao
 
 ### Bài 8 — Mức 4 — Vận dụng cao
 
-Hai bức xạ A và B có tần số lần lượt $5\cdot10^{14}$ Hz và $10^{19}$ Hz. Tính bước sóng trong chân không và nhận xét vùng phổ tương đối của chúng.
+Hai bức xạ A và B có tần số lần lượt $5\cdot10^{14}\,\mathrm{Hz}$ và $10^{19}\,\mathrm{Hz}$. Tính bước sóng trong chân không và nhận xét vùng phổ tương đối của chúng.
 
 ??? success "Đáp án và lời giải"
-    A: $\lambda_A=3\cdot10^8/(5\cdot10^{14})=6\cdot10^{-7}$ m $=600$ nm, thuộc vùng ánh sáng nhìn thấy.
+    **Đáp án:** $\lambda_A=600\,\mathrm{nm}$; $\lambda_B=0{,}03\,\mathrm{nm}$.
 
-    B: $\lambda_B=3\cdot10^8/10^{19}=3\cdot10^{-11}$ m $=0,03$ nm, thuộc vùng bức xạ rất ngắn, điển hình vùng tia X cứng/tia gamma tùy cách phân loại nguồn. Ở mức phổ thông, chỉ cần nhận xét B có tần số rất cao và bước sóng rất ngắn.
+    **Hướng dẫn giải:**
+
+    Với A: $\lambda_A=3\times10^8/(5\times10^{14})=6\times10^{-7}\,\mathrm m=600\,\mathrm{nm}$, thuộc vùng ánh sáng nhìn thấy.
+
+    Với B: $\lambda_B=3\times10^8/10^{19}=3\times10^{-11}\,\mathrm m=0{,}03\,\mathrm{nm}$. Đây là bức xạ bước sóng rất ngắn, ở vùng có thể được gọi là tia X cứng hoặc gamma tùy quy ước phân loại theo nguồn phát; kết luận chắc chắn từ dữ kiện là tần số rất cao và bước sóng rất ngắn.
 
 ## Ngân hàng bài tập mở rộng
 
@@ -126,6 +160,7 @@ Một trạm không gian đo được cường độ của bức xạ điện t�
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** $63{,}1$
+
     **Hướng dẫn giải:**
 
     Với nguồn bức xạ đẳng hướng, $I=P/(4\pi r^2)$, nên
@@ -151,11 +186,11 @@ C. không nhìn thấy được có bước sóng lớn hơn bước sóng của
 D. không nhìn thấy được có bước sóng nhỏ hơn bước sóng của ánh sáng tím.
 
 ??? success "Đáp án và lời giải"
-    **Đáp án: C.**
+    **Đáp án:** C.
 
     **Hướng dẫn giải:**
 
-    Tia hồng ngoại là bức xạ điện từ không nhìn thấy được và có bước sóng dài hơn vùng ánh sáng đỏ của quang phổ nhìn thấy.
+    Tia hồng ngoại là bức xạ điện từ không nhìn thấy được, nằm phía bước sóng dài hơn ánh sáng đỏ trong thang sóng điện từ. Vì vậy chọn C.
 
 #### Bài 11
 
@@ -172,13 +207,12 @@ C. quang phổ kế.
 D. màn huỳnh quang.
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** A
+    **Đáp án:** A. Pin nhiệt điện.
+
     **Hướng dẫn giải:**
 
-    Dùng $c=\lambda f$ để đổi giữa bước sóng và tần số, sau đó đối chiếu với miền tương ứng trên thang sóng điện từ.
+    Tia hồng ngoại không nhìn thấy bằng mắt thường nhưng gây tác dụng nhiệt rõ. Pin nhiệt điện có thể biến sự tăng nhiệt do bức xạ hấp thụ thành tín hiệu điện, nên dùng để nhận biết tia hồng ngoại; chọn A.
 
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. pin nhiệt điện.**
 #### Bài 12
 
 <!-- source-id: BT-Chuong-II-p99-q5-202 -->
@@ -195,7 +229,9 @@ D. hủy hoại tế bào nên dùng trong chữa bệnh ung thư.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
+
     **Hướng dẫn giải:**
+
     Trong y học, tia X được ứng dụng trong máy chiếu chụp “X quang” dựa vào tính chất: Có khả năng đâm
     xuyên mạnh và tác dụng mạnh lên phim ảnh.
 
@@ -215,8 +251,10 @@ D. không thể đo được.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** B
+
     **Hướng dẫn giải:**
-    Tia X có bước sóng nhỏ hơn tia tử ngoại, bước sóng tia X là 0,01 nm - 10 nm.
+
+    Tia X có bước sóng nhỏ hơn tia tử ngoại, bước sóng tia X là $0,01\,\mathrm{nm}$ - $10\,\mathrm{nm}$.
 
 #### Bài 14
 
@@ -234,7 +272,9 @@ D. Tia tử ngoại.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
+
     **Hướng dẫn giải:**
+
     Hồ quang điện không thể phát ra tia gamma.
 
 #### Bài 15
@@ -252,11 +292,11 @@ C. Rơn-ghen.
 D. tử ngoại
 
 ??? success "Đáp án và lời giải"
-    **Đáp án: A.**
+    **Đáp án:** A. Hồng ngoại.
 
     **Hướng dẫn giải:**
 
-    $3\,\mu\text{m}=3000\,\text{nm}$, lớn hơn nhiều so với bước sóng ánh sáng đỏ ở mép vùng nhìn thấy, nên bức xạ này thuộc vùng hồng ngoại.
+    $3\,\mu\mathrm m=3000\,\mathrm{nm}$, lớn hơn nhiều so với bước sóng ánh sáng đỏ ở mép vùng nhìn thấy, nên bức xạ này thuộc vùng hồng ngoại.
 
 #### Bài 16
 
@@ -274,7 +314,9 @@ D. (2) và (3).
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** B
+
     **Hướng dẫn giải:**
+
     Trong 4 nguồn trên, chỉ có Mặt trời phát ra tia Rơn-ghen.
 
 #### Bài 17
@@ -293,7 +335,9 @@ D. sóng vô tuyến - ánh sáng nhìn thấy - tia hồng ngoại - tia tử n
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** B
+
     **Hướng dẫn giải:**
+
     Thứ tự sắp xếp tăng dần của bước sóng trong thang sóng điện từ là tia X - tia tử ngoại - ánh sáng nhìn
     thấy - tia hồng ngoại - sóng vô tuyến.
 
@@ -315,6 +359,7 @@ D. tia gamma.
     **Đáp án:** C. Tia hồng ngoại.
 
     **Hướng dẫn giải:**
+
     $\lambda=c/f=3\times10^8/(3\times10^{14})=10^{-6}\,\mathrm{m}=1\,\mu\mathrm{m}$.
     Bước sóng này thuộc miền hồng ngoại, nên chọn C.
 
@@ -336,13 +381,12 @@ C. tia Rơn-ghen.
 D. sóng vô tuyến.
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** D
+    **Đáp án:** D. Sóng vô tuyến.
+
     **Hướng dẫn giải:**
 
-    Dùng $c=\lambda f$ để đổi giữa bước sóng và tần số, sau đó đối chiếu với miền tương ứng trên thang sóng điện từ.
+    Điện thoại di động trao đổi tín hiệu vô tuyến bằng sóng điện từ thuộc miền tần số vô tuyến/vi ba, không phải gamma, tử ngoại hay tia X. Vì vậy chọn D.
 
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **D. sóng vô tuyến.**
 #### Bài 20
 
 <!-- source-id: BT-Chuong-II-p108-q6-238 -->
@@ -351,16 +395,18 @@ Tia hồng ngoại được phát ra chỉ bởi
 
 A. các vật được nung nóng (đến nhiệt độ cao).
 
-B. các vật có nhiệt độ trên 00C.
+B. các vật có nhiệt độ trên $0^\circ\mathrm C$.
 
-C. vật có nhiệt độ lớn hơn 0 K.
+C. vật có nhiệt độ lớn hơn $0\,\mathrm K$.
 
 D. mọi vật có nhiệt độ cao hơn môi trường xung quanh.
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** C
+    **Đáp án:** C. Vật có nhiệt độ lớn hơn $0\,\mathrm K$.
+
     **Hướng dẫn giải:**
-    Tia hồng ngoại được phát ra bởi các vật có nhiệt độ lớn hơn 0 (K).
+
+    Vật có nhiệt độ tuyệt đối lớn hơn $0\,\mathrm K$ phát bức xạ nhiệt; phổ bức xạ có thành phần hồng ngoại. Vì vậy trong các lựa chọn, C là phát biểu tổng quát nhất. Phương án B chỉ giới hạn ở trên $0^\circ\mathrm C$ nên quá hẹp.
 
 #### Bài 21
 
@@ -378,7 +424,9 @@ D. dùng để sấy, sưởi
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
+
     **Hướng dẫn giải:**
+
     Tia tử ngoại được ứng dụng trong việc kiểm tra khuyết tật của sản phẩm.
 
 #### Bài 22
@@ -397,7 +445,9 @@ D. không nhìn thấy được có bước sóng nhỏ hơn bước sóng của
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
+
     **Hướng dẫn giải:**
+
     Tia tử ngoại là bức xạ không nhìn thấy được có bước sóng nhỏ hơn bước sóng của ánh sáng tím.
 
 #### Bài 23
@@ -416,7 +466,9 @@ D. Tia hồng ngoại có bước sóng nhỏ hơn tia tử ngoại.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
+
     **Hướng dẫn giải:**
+
     Tia hồng ngoại có bước sóng lớn hơn (tần số nhỏ hơn) tia tử ngoại.
 
 #### Bài 24
@@ -435,7 +487,9 @@ D. có khả năng đâm xuyên mạnh
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
+
     **Hướng dẫn giải:**
+
     Tính chất nổi bật nhất của tia X là có khả năng đâm xuyên mạnh.
 
 #### Bài 25
@@ -454,7 +508,9 @@ D. Có tác dụng sinh lý như huỷ diệt tế bào.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
+
     **Hướng dẫn giải:**
+
     Tia X không bị lệch hướng trong điện trường.
 
 #### Bài 26
@@ -475,13 +531,12 @@ D. Bức xạ phát ra từ hồ quang điện lúc hàn điện chứa rất nh
 phản ứng hóa học không có ích trong cơ thể con người.
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** A
+    **Đáp án:** A.
+
     **Hướng dẫn giải:**
 
-    Dùng $c=\lambda f$ để đổi giữa bước sóng và tần số, sau đó đối chiếu với miền tương ứng trên thang sóng điện từ.
+    Hồ quang điện phát mạnh tia tử ngoại. Tử ngoại có tác dụng sinh học mạnh, có thể gây tổn thương giác mạc và da; vì vậy thợ hàn phải dùng mặt nạ và phương tiện bảo hộ phù hợp. Trong các lựa chọn, A nêu đúng nguy cơ quyết định.
 
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. Bức xạ phát ra từ hồ quang điện lúc hàn điện chứa rất nhiều tia tử ngoại có thể làm hỏng giác mạc**
 #### Bài 27
 
 <!-- source-id: BT-Chuong-II-p110-q17-249 -->
@@ -498,7 +553,9 @@ D. sóng vô tuyến - ánh sáng nhìn thấy - tia hồng ngoại - tia tử n
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
+
     **Hướng dẫn giải:**
+
     Thứ tự sắp xếp tăng dần của tần số trong thang sóng điện từ là sóng vô tuyến - tia hồng ngoại - ánh sáng
     nhìn thấy - tia tử ngoại - tia X.
 
@@ -507,19 +564,20 @@ D. sóng vô tuyến - ánh sáng nhìn thấy - tia hồng ngoại - tia tử n
 <!-- source-id: BT-Chuong-II-p110-q18-250 -->
 
 Tia UVB là bức xạ thuộc vùng tử ngoại có hại cho người vì có thể gây ung thư da. Trong chân
-không, tia UVB có bước sóng nằm trong khoảng từ $0{,}28\,\mu\mathrm{m}$ đến $0{,}32\,\mu\mathrm{m}$. Lấy c = $3\times10^{8}$ m/s. Tia UVB
+không, tia UVB có bước sóng nằm trong khoảng từ $0{,}28\,\mu\mathrm{m}$ đến $0{,}32\,\mu\mathrm{m}$. Lấy c = $3\times10^{8}\,\mathrm{m/s}$. Tia UVB
 có tần số nằm trong khoảng
 
-A. từ $1{,}05\times10^{14}$ Hz đến $9{,}33\times10^{14}$ Hz.
+A. từ $1{,}05\times10^{14}\,\mathrm{Hz}$ đến $9{,}33\times10^{14}\,\mathrm{Hz}$.
 
-B. từ $9{,}33\times10^{14}$ Hz đến $1{,}06\times10^{15}$ Hz.
+B. từ $9{,}33\times10^{14}\,\mathrm{Hz}$ đến $1{,}06\times10^{15}\,\mathrm{Hz}$.
 
-C. từ $9{,}38\times10^{14}$ Hz đến $1{,}07\times10^{15}$ Hz.
+C. từ $9{,}38\times10^{14}\,\mathrm{Hz}$ đến $1{,}07\times10^{15}\,\mathrm{Hz}$.
 
-D. từ $1{,}07\times10^{14}$ Hz đến $1{,}05\times10^{15}$ Hz.
+D. từ $1{,}07\times10^{14}\,\mathrm{Hz}$ đến $1{,}05\times10^{15}\,\mathrm{Hz}$.
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** C
+    **Đáp án:** C.
+
     **Hướng dẫn giải:**
 
     Với $f=c/\lambda$, tần số nhỏ nhất ứng với bước sóng lớn nhất:
@@ -530,9 +588,10 @@ D. từ $1{,}07\times10^{14}$ Hz đến $1{,}05\times10^{15}$ Hz.
 
     $f_{\max}=\dfrac{3\times10^8}{0{,}28\times10^{-6}}\approx1{,}07\times10^{15}\,\mathrm{Hz}$.
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. từ $9{,}38\times10^{14}$ Hz đến $1{,}07\times10^{15}$ Hz.**
+    Vì vậy chọn C.
 
-    **Đối chiếu nguồn:** dòng hướng dẫn trong PDF in $0{,}38\,\mu\mathrm{m}$ và $10^{14}$ ở phép tính thứ hai; dữ kiện đề là $0{,}28\,\mu\mathrm{m}$ và đáp án nguồn tô C, nên công thức trên khôi phục theo chính dữ kiện của đề.
+    !!! warning "Đối chiếu nguồn"
+        Dòng hướng dẫn PDF in nhầm $0{,}38\,\mu\mathrm m$ ở phép tính thứ hai và ghi sai bậc $10^{14}$ cho $f_{\max}$. Dữ kiện đề là $0{,}28\,\mu\mathrm m$ đến $0{,}32\,\mu\mathrm m$; tính trực tiếp từ chính dữ kiện đó cho khoảng ở phương án C.
 
 ### Nhận biết — Đúng/Sai
 
@@ -560,9 +619,14 @@ d) Tần số của bức xạ A nhỏ hơn tần số của bức xạ B.
     **Đáp án:** a) Sai; b) Đúng; c) Đúng; d) Sai.
 
     **Hướng dẫn giải:**
-    Theo chiều bước sóng tăng dần: gamma - X - tử ngoại - nhìn thấy - hồng ngoại - vô tuyến. Do đó A là tử ngoại, B là hồng ngoại: a) Sai, b) Đúng.
-    Sóng điện từ là sóng ngang và truyền được trong chân không: c) Đúng.
-    Tử ngoại có tần số lớn hơn hồng ngoại, nên $f_A<f_B$ là sai: d) Sai.
+
+    a) **Sai.** Theo thứ tự bước sóng tăng dần gamma → X → tử ngoại → nhìn thấy → hồng ngoại → vô tuyến, A phải là tử ngoại và B phải là hồng ngoại.
+
+    b) **Đúng.** Thứ tự trên đi từ vùng bước sóng ngắn đến dài.
+
+    c) **Đúng.** Sóng điện từ là sóng ngang và truyền được trong chân không.
+
+    d) **Sai.** A là tử ngoại còn B là hồng ngoại, nên $f_A>f_B$, không phải $f_A<f_B$.
 
 #### Bài 30
 
@@ -582,13 +646,17 @@ d) Tần số sóng của bức xạ 3 nhỏ hơn tần số của bức xạ 1.
     **Đáp án:** a) Đúng; b) Sai; c) Sai; d) Sai.
 
     **Hướng dẫn giải:**
-    a) Theo sơ đồ nguồn, vùng 1 là hồng ngoại, 2 là tử ngoại và 3 là gamma.
-    b) Chiều sắp xếp trên hình không phải chiều bước sóng tăng dần như phát biểu.
-    c) Sóng điện từ trong chân không là sóng ngang; không có thành phần sóng dọc trong mô hình điện từ phổ thông.
-    d) Tia gamma có tần số lớn hơn nhiều so với tia hồng ngoại, nên phát biểu “nhỏ hơn” sai.
+
+    a) **Đúng.** Sơ đồ gốc của dạng câu hỏi này gán vùng 1 cho tia hồng ngoại, vùng 2 cho tia tử ngoại và vùng 3 cho tia gamma.
+
+    b) **Sai.** Theo chiều từ trên xuống của sơ đồ, các bước sóng ngắn dần (tần số tăng dần), không phải bước sóng tăng dần.
+
+    c) **Sai.** Sóng điện từ truyền trong chân không là sóng ngang; phát biểu cho phép cả sóng dọc là sai.
+
+    d) **Sai.** Vùng 3 là tia gamma còn vùng 1 là tia hồng ngoại, nên $f_3>f_1$, trái với phát biểu.
 
     !!! warning "Đối chiếu nguồn"
-        Bảng đáp án PDF đánh c) Đúng dù chính kiến thức trong phần lý thuyết xác định sóng điện từ là sóng ngang. Kết luận c) được sửa về Sai.
+        Trang PDF đang dùng bị thiếu chính sơ đồ “1-2-3” mà đề dẫn nhắc tới. Hai ý a), b) được kiểm tra chéo với bản cùng câu hỏi còn hiển thị sơ đồ: thứ tự vùng là hồng ngoại → tử ngoại → gamma và chiều từ trên xuống ứng với bước sóng giảm dần. Không bổ sung hình ngoài nguồn PDF vào bài tập. Ngoài ra bảng đáp án PDF đánh c) Đúng dù phần hướng dẫn ngay dưới xác định sóng điện từ là sóng ngang; c) được sửa thành Sai theo tính chất của sóng điện từ.
 
 ### Thông hiểu — Trắc nghiệm 4 lựa chọn
 
@@ -608,29 +676,31 @@ C. tia đơn sắc màu đỏ trong ánh sáng Mặt Trời.
 D. tia đơn sắc màu tím trong ánh sáng Mặt Trời.
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** A
+    **Đáp án:** A. Tia tử ngoại trong ánh sáng Mặt Trời.
+
     **Hướng dẫn giải:**
-    Tầng ôzon hấp thụ hết các tia có bước sóng dưới 300 nm và là tấm “áo giáp” bảo vệ cho người và sinh
-    vật trên mặt đất khỏi bị tác dụng hủy diệt của tia tử ngoại trong ánh sáng Mặt Trời.
+
+    Tầng ôzon hấp thụ mạnh các bức xạ tử ngoại năng lượng cao của Mặt Trời, nhờ đó làm giảm lượng tia tử ngoại nguy hiểm tới mặt đất. Trong các lựa chọn, A là đáp án đúng. Không cần dùng phát biểu tuyệt đối rằng tầng ôzon hấp thụ “hết” mọi bức xạ dưới một bước sóng cố định.
 
 #### Bài 32
 
 <!-- source-id: BT-Chuong-II-p100-q17-214 -->
 
-Bước sóng của bức xạ da cam trong chân không là 600 nm thì tần số của bức xạ đó là
+Bước sóng của bức xạ da cam trong chân không là $600\,\mathrm{nm}$ thì tần số của bức xạ đó là
 
-A. $5\times10^{12}$ Hz.
+A. $5\times10^{12}\,\mathrm{Hz}$.
 
-B. $5\times10^{13}$ Hz.
+B. $5\times10^{13}\,\mathrm{Hz}$.
 
-C. $5\times10^{14}$ Hz.
+C. $5\times10^{14}\,\mathrm{Hz}$.
 
-D. $5\times10^{15}$ Hz.
+D. $5\times10^{15}\,\mathrm{Hz}$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C. $5\times10^{14}\,\mathrm{Hz}$.
 
     **Hướng dẫn giải:**
+
     $\lambda=600\,\mathrm{nm}=600\times10^{-9}\,\mathrm{m}$.
     $f=c/\lambda=3\times10^8/(600\times10^{-9})=5\times10^{14}\,\mathrm{Hz}$.
 
@@ -651,7 +721,9 @@ D. tử ngoại.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
+
     **Hướng dẫn giải:**
+
     $\lambda=\dfrac{c}{f}=\dfrac{3\times10^8}{10^{14}}=3\times10^{-6}\,\mathrm{m}$.
     Bước sóng này thuộc vùng hồng ngoại, nên chọn A.
 #### Bài 34
@@ -659,7 +731,7 @@ D. tử ngoại.
 <!-- source-id: BT-Chuong-II-p101-q19-216 -->
 
 
-Một bức xạ truyền trong không khí với chu kì $8{,}25\times10^{-18}$ s. Bức xạ này thuộc vùng bức xạ
+Một bức xạ truyền trong không khí với chu kì $8{,}25\times10^{-18}\,\mathrm s$. Bức xạ này thuộc vùng bức xạ
 
 A. hồng ngoại.
 
@@ -671,7 +743,9 @@ D. tử ngoại
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
+
     **Hướng dẫn giải:**
+
     $\lambda=cT=3\times10^8\cdot8{,}25\times10^{-18}=2{,}475\times10^{-9}\,\mathrm{m}$.
     Bước sóng này thuộc vùng tia X (Rơn-ghen), nên chọn C.
 #### Bài 35
@@ -679,19 +753,20 @@ D. tử ngoại
 <!-- source-id: BT-Chuong-II-p101-q20-217 -->
 
 Tia UVA là bức xạ thuộc vùng tử ngoại có hại cho người vì có thể gây ung thư da. Trong chân
-không, tia UVA có bước sóng nằm trong khoảng từ $0{,}32\,\mu\mathrm{m}$ đến $0{,}38\,\mu\mathrm{m}$. Lấy c = $3\times10^{8}$ m/s. Tia UVA
+không, tia UVA có bước sóng nằm trong khoảng từ $0{,}32\,\mu\mathrm{m}$ đến $0{,}38\,\mu\mathrm{m}$. Lấy c = $3\times10^{8}\,\mathrm{m/s}$. Tia UVA
 có tần số nằm trong khoảng
 
-A. từ $1{,}05\times10^{14}$ Hz đến $9{,}33\times10^{14}$ Hz.
+A. từ $1{,}05\times10^{14}\,\mathrm{Hz}$ đến $9{,}33\times10^{14}\,\mathrm{Hz}$.
 
-B. từ $7{,}89\times10^{14}$ Hz đến $9{,}38\times10^{14}$ Hz.
+B. từ $7{,}89\times10^{14}\,\mathrm{Hz}$ đến $9{,}38\times10^{14}\,\mathrm{Hz}$.
 
-C. từ $9{,}38\times10^{14}$ Hz đến $1{,}07\times10^{15}$ Hz.
+C. từ $9{,}38\times10^{14}\,\mathrm{Hz}$ đến $1{,}07\times10^{15}\,\mathrm{Hz}$.
 
-D. từ $1{,}07\times10^{14}$ Hz đến $1{,}05\times10^{15}$ Hz.
+D. từ $1{,}07\times10^{14}\,\mathrm{Hz}$ đến $1{,}05\times10^{15}\,\mathrm{Hz}$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** B
+
     **Hướng dẫn giải:**
 
     Với $f=c/\lambda$, tần số lớn nhất ứng với bước sóng nhỏ nhất:
@@ -702,4 +777,4 @@ D. từ $1{,}07\times10^{14}$ Hz đến $1{,}05\times10^{15}$ Hz.
 
     $f_{\min}=\dfrac{3\times10^8}{0{,}38\times10^{-6}}\approx7{,}89\times10^{14}\,\mathrm{Hz}$.
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **B. từ $7{,}89\times10^{14}$ Hz đến $9{,}38\times10^{14}$ Hz.**
+    Khoảng tần số này trùng với phương án B.

@@ -86,9 +86,9 @@ Từ $\vec F=I\vec l\times\vec B$:
 
 ## 6. Ví dụ cơ bản
 
-Một đoạn dây dài 20 cm mang dòng 3 A đặt vuông góc trong từ trường đều $B=0,5$ T.
+Một đoạn dây dài $20\,\mathrm{cm}$ mang dòng $3\,\mathrm A$ đặt vuông góc trong từ trường đều $B=0,5$ T.
 
-Đổi $l=0,20$ m. Vì $\alpha=90^\circ$:
+Đổi $l=0,20\,\mathrm m$. Vì $\alpha=90^\circ$:
 
 $$
 F=BIl=0,5\cdot3\cdot0,20=0,30\,\text{N}.
@@ -96,7 +96,7 @@ $$
 
 ## 7. Ví dụ có góc
 
-Dây dài 40 cm, $I=2$ A, $B=0,25$ T, dây tạo với $\vec B$ góc 30°.
+Dây dài $40\,\mathrm{cm}$, $I=2\,\mathrm A$, $B=0,25$ T, dây tạo với $\vec B$ góc 30°.
 
 $$
 F=0,25\cdot2\cdot0,40\cdot\sin30^\circ=0,10\,\text{N}.

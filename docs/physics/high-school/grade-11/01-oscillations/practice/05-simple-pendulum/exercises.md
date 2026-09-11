@@ -9,7 +9,6 @@ tags:
 
 # Bài tập — Bài 5 — Con lắc đơn
 
-> Hệ bài tập được biên soạn theo các dạng xuất hiện trong bộ tài liệu Vật lí 11 của dự án. Câu hỏi được giữ ngắn, trực tiếp; độ khó tăng dần và không cố tình thêm dữ kiện gây nhiễu.
 
 [← Trở lại bài học](../../05-simple-pendulum.md)
 
@@ -47,18 +46,18 @@ D. tăng 4 lần.
 
 ### Bài 3 — Mức 1 — Nhận biết
 
-Con lắc đơn dài $1$ m tại nơi $g=\pi^2$ m/s² có chu kì
+Con lắc đơn dài $1\,\mathrm m$ tại nơi $g=\pi^2\,\mathrm{m/s^2}$ có chu kì
 
-A. $1$ s.
+A. $1\,\mathrm s$.
 
-B. $2$ s.
+B. $2\,\mathrm s$.
 
-C. $\pi$ s.
+C. $\pi\,\mathrm s$.
 
-D. $2\pi$ s.
+D. $2\pi\,\mathrm s$.
 
 ??? success "Đáp án và lời giải"
-    Chọn **B**. $T=2\pi\sqrt{1/\pi^2}=2$ s.
+    Chọn **B**. $T=2\pi\sqrt{1/\pi^2}=2\,\mathrm s$.
 
 ### Bài 4 — Mức 1 — Nhận biết
 
@@ -90,10 +89,13 @@ c) Chu kì giảm khi gia tốc trọng trường tăng.
 d) Công thức $T=2\pi\sqrt{\ell/g}$ đúng chính xác cho mọi biên độ góc.
 
 ??? success "Đáp án và lời giải"
-    a) **Đúng**.
-    b) **Đúng**.
-    c) **Đúng**.
-    d) **Sai**: công thức chuẩn này dựa trên gần đúng góc nhỏ.
+    a) **Đúng.** Trong gần đúng góc nhỏ, $T=2\pi\sqrt{\ell/g}$ nên khối lượng không xuất hiện trong biểu thức chu kì.
+
+    b) **Đúng.** Từ $T=2\pi\sqrt{\ell/g}$ suy ra $T\propto\sqrt{\ell}$ khi $g$ không đổi.
+
+    c) **Đúng.** Từ $T=2\pi\sqrt{\ell/g}$ suy ra $T\propto1/\sqrt g$ khi $\ell$ không đổi.
+
+    d) **Sai.** công thức chuẩn này dựa trên gần đúng góc nhỏ.
 
 ### Bài 6 — Mức 2 — Thông hiểu
 
@@ -108,39 +110,42 @@ c) Ở vị trí cân bằng, thế năng cực đại.
 d) Tốc độ cực đại ở vị trí cân bằng.
 
 ??? success "Đáp án và lời giải"
-    a) **Đúng**.
-    b) **Đúng**.
-    c) **Sai**: với mốc ở cân bằng, thế năng nhỏ nhất bằng 0 tại đó.
-    d) **Đúng**.
+    a) **Đúng.** Trong mô hình con lắc lí tưởng không có ma sát hay lực cản, chỉ có lực thế sinh công nên cơ năng không đổi.
+
+    b) **Đúng.** Tại biên, vận tốc tức thời bằng $0$ nên $K=\tfrac12mv^2=0$.
+
+    c) **Sai.** với mốc ở cân bằng, thế năng nhỏ nhất bằng 0 tại đó.
+
+    d) **Đúng.** Tại vị trí cân bằng thế năng nhỏ nhất nên, với cơ năng bảo toàn, động năng và tốc độ đạt cực đại.
 
 ## Phần C — Trả lời ngắn
 
 ### Bài 7 — Mức 3 — Vận dụng
 
-Con lắc đơn dài $0,81$ m tại nơi $g=10$ m/s². Tính chu kì gần đúng với $\pi\approx3,14$.
+Con lắc đơn dài $0,81\,\mathrm m$ tại nơi $g=10\,\mathrm{m/s^2}$. Tính chu kì gần đúng với $\pi\approx3,14$.
 
 ??? success "Đáp án và lời giải"
-    $T=2\pi\sqrt{0,81/10}\approx6,28\cdot0,2846\approx1,79$ s.
+    $T=2\pi\sqrt{0,81/10}\approx6,28\cdot0,2846\approx1,79\,\mathrm s$.
 
 ### Bài 8 — Mức 3 — Vận dụng
 
-Một con lắc đơn có chu kì $T_1=2$ s. Tăng chiều dài thêm $21\%$. Tính chu kì mới.
+Một con lắc đơn có chu kì $T_1=2\,\mathrm s$. Tăng chiều dài thêm $21\%$. Tính chu kì mới.
 
 ??? success "Đáp án và lời giải"
-    $\ell_2=1,21\ell_1$, nên $T_2/T_1=\sqrt{1,21}=1,1$. Vậy $T_2=2,2$ s.
+    $\ell_2=1,21\ell_1$, nên $T_2/T_1=\sqrt{1,21}=1,1$. Vậy $T_2=2,2\,\mathrm s$.
 
 ### Bài 9 — Mức 3 — Vận dụng
 
-Con lắc đơn dài $1$ m, biên độ góc nhỏ $0,08$ rad, $g=10$ m/s². Tính tốc độ cực đại theo gần đúng góc nhỏ.
+Con lắc đơn dài $1\,\mathrm m$, biên độ góc nhỏ $0,08$ rad, $g=10\,\mathrm{m/s^2}$. Tính tốc độ cực đại theo gần đúng góc nhỏ.
 
 ??? success "Đáp án và lời giải"
-    Với $s_0=\ell\alpha_0=0,08$ m và $\omega=\sqrt{g/\ell}=\sqrt{10}$ rad/s, $v_{\max}=\omega s_0\approx0,253$ m/s.
+    Với $s_0=\ell\alpha_0=0,08\,\mathrm m$ và $\omega=\sqrt{g/\ell}=\sqrt{10}\,\mathrm{rad/s}$, $v_{\max}=\omega s_0\approx0,253\,\mathrm{m/s}$.
 
 ## Phần D — Vận dụng và vận dụng cao
 
 ### Bài 10 — Mức 4 — Vận dụng cao
 
-Một con lắc đơn dài $1$ m được kéo lệch đến góc $60^\circ$ rồi thả không vận tốc đầu. Bỏ qua ma sát, lấy $g=10$ m/s². Tính tốc độ ở vị trí thấp nhất và lực căng dây tại đó đối với vật nặng khối lượng $0,20$ kg.
+Một con lắc đơn dài $1\,\mathrm m$ được kéo lệch đến góc $60^\circ$ rồi thả không vận tốc đầu. Bỏ qua ma sát, lấy $g=10\,\mathrm{m/s^2}$. Tính tốc độ ở vị trí thấp nhất và lực căng dây tại đó đối với vật nặng khối lượng $0,20\,\mathrm{kg}$.
 
 ??? success "Đáp án và lời giải"
     Không dùng gần đúng góc nhỏ vì biên độ $60^\circ$ lớn.
@@ -149,13 +154,13 @@ Một con lắc đơn dài $1$ m được kéo lệch đến góc $60^\circ$ r�
 
     $\frac12mv^2=mg\ell(1-\cos60^\circ)$.
 
-    Suy ra $v^2=2g\ell(1-1/2)=10$, nên $v=\sqrt{10}\approx3,16$ m/s.
+    Suy ra $v^2=2g\ell(1-1/2)=10$, nên $v=\sqrt{10}\approx3,16\,\mathrm{m/s}$.
 
     Tại vị trí thấp nhất, phương bán kính hướng lên:
 
     $T-mg=mv^2/\ell$.
 
-    Do đó $T=mg+mv^2/\ell=0,2\cdot10+0,2\cdot10=4$ N.
+    Do đó $T=mg+mv^2/\ell=0,2\cdot10+0,2\cdot10=4\,\mathrm N$.
 
 ## Ngân hàng bài tập mở rộng
 
@@ -165,35 +170,25 @@ Một con lắc đơn dài $1$ m được kéo lệch đến góc $60^\circ$ r�
 
 <!-- source-id: BT-Chuong-I-p33-q5-81 -->
 
-Thực hiện thí nghiệm với thiết bị ghi đồ thị dao động điều hoà của một vật nhỏ, thu được kết
-quả như hình vẽ bên dưới. Biết quả nặng có khối lượng 100g, dây treo có chiều dài 1m, lấy g ≈
-m/s2. Thời gian ngắn nhất kể từ thời điểm ban đầu đến khi vật qua vị trí cân bằng lần thứ 2 là bao
-nhiêu giây ?
+Thực hiện thí nghiệm với thiết bị ghi đồ thị dao động điều hòa của một vật nhỏ, thu được kết quả như hình vẽ bên dưới. Biết quả nặng có khối lượng $100\,\mathrm g$, dây treo dài $1\,\mathrm m$, lấy $g\approx\pi^2\,\mathrm{m/s^2}$. Thời gian ngắn nhất kể từ thời điểm ban đầu đến khi vật qua vị trí cân bằng lần thứ hai là bao nhiêu giây?
 
 ![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/i_p33_q5_81_fig1.webp){ loading=lazy }
 
 ??? success "Đáp án và lời giải"
-    **Đáp án đã hiệu chỉnh:** $\dfrac{5}{6}$ s $\approx 0{,}833$ s.
+    **Đáp án:** $\dfrac{11}{6}\,\mathrm s\approx1{,}83\,\mathrm s$
 
     **Hướng dẫn giải:**
 
-    Từ đồ thị, để vật đi từ trạng thái ban đầu đến **lần thứ hai qua vị trí cân bằng**, góc quét nhỏ nhất trên đường tròn lượng giác là
+    Đồ thị cho $A=8\,\mathrm{cm}$, $x(0)=4\,\mathrm{cm}=A/2$ và đường cong đang đi lên nên $v(0)>0$. Với $x=A\cos(\omega t+\varphi)$, ta có $\varphi=-\pi/3$.
 
-    $\Delta\varphi=\frac{\pi}{2}+\frac{\pi}{3}=\frac{5\pi}{6}.$
+    Từ $\ell=1\,\mathrm m$ và $g\approx\pi^2\,\mathrm{m/s^2}$, $\omega=\sqrt{g/\ell}=\pi\,\mathrm{rad/s}$. Pha tăng từ $-\pi/3$; lần qua cân bằng thứ nhất ở $\pi/2$, còn lần thứ hai ở $3\pi/2$. Vì vậy
 
-    Chu kì đọc từ đồ thị cho $\omega=\pi$ rad/s. Dùng hệ thức
+    $\Delta\varphi=3\pi/2-(-\pi/3)=11\pi/6$,
 
-    $\Delta\varphi=\omega\Delta t$
-
-    ta có
-
-    $\frac{5\pi}{6}=\pi\Delta t \quad\Rightarrow\quad \Delta t=\frac56\text{ s}.$
-
-    Vậy thời gian ngắn nhất cần tìm là $\boxed{\dfrac56\text{ s}\approx0{,}833\text{ s}}$.
+    nên $\Delta t=\Delta\varphi/\omega=11/6\,\mathrm s\approx1{,}83\,\mathrm s$.
 
     !!! warning "Đối chiếu nguồn"
-        Ô đáp án trong PDF ghi $1{,}2$ s, nhưng chính phần *Hướng dẫn giải* của PDF tính được $5/6$ s. Phép tính theo $\Delta\varphi=\omega\Delta t$ xác nhận $5/6$ s; vì vậy đáp án hiển thị ở đây được hiệu chỉnh theo lời giải đúng.
-
+        Ô đáp án PDF ghi $1{,}2\,\mathrm s$, còn phần hướng dẫn của PDF dùng góc $5\pi/6$ để được $5/6\,\mathrm s$; góc đó chỉ đưa vật tới **lần qua vị trí cân bằng thứ nhất**. Đếm đúng “lần thứ hai” trên đồ thị cho $11\pi/6$ và kết quả $11/6\,\mathrm s$.
 ### Vận dụng — Trả lời ngắn
 
 #### Bài 12
@@ -201,16 +196,20 @@ nhiêu giây ?
 <!-- source-id: BT-Chuong-I-p22-q1-47 -->
 
 Đồ thị li độ - thời gian của một con lắc đơn dao động điều hòa được mô tả như hình . Quãng
-đường vật đi được sau khoảng thời gian 27 s kể từ lúc bắt đầu dao động là bao nhiêu cm?
+đường vật đi được sau khoảng thời gian $27\,\mathrm s$ kể từ lúc bắt đầu dao động là bao nhiêu cm?
 
 ![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/i_p22_q1_47_fig1.webp){ loading=lazy }
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** 720 cm
+    **Đáp án:** $1080\,\mathrm{cm}$
+
     **Hướng dẫn giải:**
 
-    Với dao động nhỏ của con lắc đơn, dùng $T=2\pi\sqrt{\ell/g}$; nếu bài hỏi trạng thái theo thời gian thì kết hợp $\Delta\varphi=\omega\Delta t$.
+    Đồ thị cho biên độ $A=40\,\mathrm{cm}$ và các trạng thái $+A,0,-A,0,+A$ lần lượt tại $t=0,1,2,3,4\,\mathrm s$, nên chu kì là $T=4\,\mathrm s$.
 
-    Dựa vào đồ thị ta được: T = 6 s
+    Ta có $27\,\mathrm s=6T+3T/4$. Trong 6 chu kì, vật đi quãng đường $6\cdot4A=960\,\mathrm{cm}$. Trong $3T/4$ tiếp theo, từ $+A$ vật đi qua cân bằng, tới $-A$ rồi trở lại cân bằng, quãng đường bằng $3A=120\,\mathrm{cm}$.
 
-    Vậy kết quả cần tìm là **720 cm**.
+    Tổng quãng đường là $s=960+120=1080\,\mathrm{cm}$.
+
+    !!! warning "Đối chiếu nguồn"
+        Phần hướng dẫn PDF đọc đồ thị thành $T=6\,\mathrm s$ và cho $720\,\mathrm{cm}$. Các mốc $0,1,2,3\,\mathrm s$ trên hình gốc lần lượt ứng với $+A,0,-A,0$, nên $T=4\,\mathrm s$; tính lại trực tiếp từ đồ thị cho $1080\,\mathrm{cm}$.

@@ -9,7 +9,6 @@ tags:
 
 # Bài tập — Bài 3 — Điện trường và cường độ điện trường
 
-> Hệ bài tập được biên soạn theo các dạng xuất hiện trong bộ tài liệu Vật lí 11 của dự án. Câu hỏi được giữ ngắn, trực tiếp; độ khó tăng dần và không cố tình thêm dữ kiện gây nhiễu.
 
 [← Trở lại bài học](../../03-electric-field-intensity.md)
 
@@ -47,18 +46,18 @@ D. không xác định.
 
 ### Bài 3 — Mức 1 — Nhận biết
 
-Điện tích điểm $Q=+4\,\mu$C. Tại điểm cách Q $0,30$ m trong chân không, cường độ điện trường bằng
+Điện tích điểm $Q=+4\,\mu\,\mathrm C$. Tại điểm cách Q $0,30\,\mathrm m$ trong chân không, cường độ điện trường bằng
 
-A. $4\cdot10^4$ V/m.
+A. $4\cdot10^4\,\mathrm{V/m}$.
 
-B. $4\cdot10^5$ V/m.
+B. $4\cdot10^5\,\mathrm{V/m}$.
 
-C. $4\cdot10^6$ V/m.
+C. $4\cdot10^6\,\mathrm{V/m}$.
 
-D. $1,2\cdot10^5$ V/m.
+D. $1,2\cdot10^5\,\mathrm{V/m}$.
 
 ??? success "Đáp án và lời giải"
-    Chọn **B**. $E=kQ/r^2=9\cdot10^9\cdot4\cdot10^{-6}/0,09=4\cdot10^5$ V/m.
+    Chọn **B**. $E=kQ/r^2=9\cdot10^9\cdot4\cdot10^{-6}/0,09=4\cdot10^5\,\mathrm{V/m}$.
 
 ### Bài 4 — Mức 1 — Nhận biết
 
@@ -90,10 +89,13 @@ c) Mật độ đường sức dày hơn thường biểu diễn điện trườ
 d) Đường sức của điện tích điểm âm hướng ra xa điện tích.
 
 ??? success "Đáp án và lời giải"
-    a) **Đúng**.
-    b) **Đúng**.
-    c) **Đúng** về cách biểu diễn.
-    d) **Sai**: hướng vào điện tích âm.
+    a) **Đúng.** Đường sức được định nghĩa sao cho tiếp tuyến tại mỗi điểm có hướng trùng với vectơ $\vec E$ tại điểm đó.
+
+    b) **Đúng.** Nếu hai đường sức cắt nhau thì tại giao điểm $\vec E$ phải có hai hướng khác nhau, trái với tính xác định duy nhất của điện trường.
+
+    c) **Đúng.** về cách biểu diễn.
+
+    d) **Sai.** hướng vào điện tích âm.
 
 ### Bài 6 — Mức 2 — Thông hiểu
 
@@ -108,48 +110,51 @@ c) Độ lớn E phụ thuộc điện tích thử đặt tại điểm xét.
 d) Nếu Q đổi dấu thì độ lớn E không đổi nhưng hướng đảo.
 
 ??? success "Đáp án và lời giải"
-    a) **Đúng**.
-    b) **Đúng**.
-    c) **Sai** trong định nghĩa điện trường nguồn; điện tích thử chỉ dùng để thăm dò.
-    d) **Đúng**.
+    a) **Đúng.** Với điện tích điểm, $E=k|Q|/r^2$, nên ở cùng khoảng cách $E$ tỉ lệ với $|Q|$.
+
+    b) **Đúng.** Từ $E=k|Q|/r^2$, giữ $Q$ không đổi thì cường độ điện trường giảm theo bình phương khoảng cách.
+
+    c) **Sai.** trong định nghĩa điện trường nguồn; điện tích thử chỉ dùng để thăm dò.
+
+    d) **Đúng.** Độ lớn phụ thuộc $|Q|$, còn hướng của $\vec E$ ra xa điện tích dương và hướng vào điện tích âm.
 
 ## Phần C — Trả lời ngắn
 
 ### Bài 7 — Mức 3 — Vận dụng
 
-Điện tích $Q=-2\,\mu$C. Tính cường độ điện trường tại điểm cách Q $15$ cm trong chân không và nêu hướng.
+Điện tích $Q=-2\,\mu\,\mathrm C$. Tính cường độ điện trường tại điểm cách Q $15\,\mathrm{cm}$ trong chân không và nêu hướng.
 
 ??? success "Đáp án và lời giải"
-    $E=9\cdot10^9\cdot2\cdot10^{-6}/0,15^2=8,0\cdot10^5$ V/m. Vì Q âm, vectơ $\vec E$ hướng từ điểm xét về Q.
+    $E=9\cdot10^9\cdot2\cdot10^{-6}/0,15^2=8,0\cdot10^5\,\mathrm{V/m}$. Vì Q âm, vectơ $\vec E$ hướng từ điểm xét về Q.
 
 ### Bài 8 — Mức 3 — Vận dụng
 
-Tại một điểm, điện tích thử $q=+2$ nC chịu lực điện $6\cdot10^{-5}$ N theo hướng Đông. Tính $\vec E$.
+Tại một điểm, điện tích thử $q=+2$ nC chịu lực điện $6\cdot10^{-5}\,\mathrm N$ theo hướng Đông. Tính $\vec E$.
 
 ??? success "Đáp án và lời giải"
-    $E=F/q=6\cdot10^{-5}/(2\cdot10^{-9})=3\cdot10^4$ V/m. Vì q dương, $\vec E$ cùng chiều lực: hướng Đông.
+    $E=F/q=6\cdot10^{-5}/(2\cdot10^{-9})=3\cdot10^4\,\mathrm{V/m}$. Vì q dương, $\vec E$ cùng chiều lực: hướng Đông.
 
 ### Bài 9 — Mức 3 — Vận dụng
 
-Điện trường đều có $E=500$ V/m. Điện tích $q=-4\,\mu$C đặt trong trường chịu lực điện có độ lớn bao nhiêu và hướng thế nào so với $\vec E$?
+Điện trường đều có $E=500\,\mathrm{V/m}$. Điện tích $q=-4\,\mu\,\mathrm C$ đặt trong trường chịu lực điện có độ lớn bao nhiêu và hướng thế nào so với $\vec E$?
 
 ??? success "Đáp án và lời giải"
-    $F=|q|E=4\cdot10^{-6}\cdot500=2\cdot10^{-3}$ N. Vì q âm, lực ngược chiều $\vec E$.
+    $F=|q|E=4\cdot10^{-6}\cdot500=2\cdot10^{-3}\,\mathrm N$. Vì q âm, lực ngược chiều $\vec E$.
 
 ## Phần D — Vận dụng và vận dụng cao
 
 ### Bài 10 — Mức 4 — Vận dụng cao
 
-Một điện tích điểm Q tạo cường độ điện trường $E_1=9\cdot10^4$ V/m tại điểm cách nó $20$ cm. Tính cường độ tại điểm cách Q $30$ cm và độ lớn Q.
+Một điện tích điểm Q tạo cường độ điện trường $E_1=9\cdot10^4\,\mathrm{V/m}$ tại điểm cách nó $20\,\mathrm{cm}$. Tính cường độ tại điểm cách Q $30\,\mathrm{cm}$ và độ lớn Q.
 
 ??? success "Đáp án và lời giải"
     Vì $E\propto1/r^2$:
 
-    $E_2=E_1(r_1/r_2)^2=9\cdot10^4(0,20/0,30)^2=4\cdot10^4$ V/m.
+    $E_2=E_1(r_1/r_2)^2=9\cdot10^4(0,20/0,30)^2=4\cdot10^4\,\mathrm{V/m}$.
 
     Từ $E_1=k|Q|/r_1^2$:
 
-    $|Q|=E_1r_1^2/k=9\cdot10^4\cdot0,04/(9\cdot10^9)=4\cdot10^{-7}$ C $=0,4\,\mu$C.
+    $|Q|=E_1r_1^2/k=9\cdot10^4\cdot0,04/(9\cdot10^9)=4\cdot10^{-7}\,\mathrm C$ $=0,4\,\mu\,\mathrm C$.
 
 ## Ngân hàng bài tập mở rộng
 
@@ -165,6 +170,7 @@ Cho hai tấm kim loại phẳng rộng, đặt nằm ngang, song song với nha
     **Đáp án:** $400$
 
     **Hướng dẫn giải:**
+
     Áp dụng $U=Ed$, suy ra
 
     $$E=\frac{U}{d}=\frac{20}{0{,}05}=400\,\mathrm{V/m}.$$
@@ -179,6 +185,7 @@ Cho hai tấm kim loại phẳng rộng, đặt nằm ngang song song với nhau
     **Đáp án:** 3
 
     **Hướng dẫn giải:**
+
     $$E=\frac{U}{d}=\frac{50}{0{,}05}=1000\,\mathrm{V/m}=10^3\,\mathrm{V/m}.$$
 
     Vậy $a=3$.
@@ -201,7 +208,9 @@ D. truyền tương tác giữa các điện tích.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** B
+
     **Hướng dẫn giải:**
+
     Điện trường được tạo ra bởi điện tích, là dạng vật chất tồn tại quanh điện tích và tác dụng lực điện lên mọi
     vật đặt trong nó.
 
@@ -221,7 +230,9 @@ D. tốc độ dịch chuyển điện tích tại điểm đó.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
+
     **Hướng dẫn giải:**
+
     Cường độ điện trường tại một điểm đặc trưng cho tác dụng lực của điện trường lên điện tích tại điểm đó.
 
 #### Bài 15
@@ -240,7 +251,9 @@ D. V.m.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
+
     **Hướng dẫn giải:**
+
     Đơn vị của cường độ điện trường là V/m
 
 #### Bài 16
@@ -260,7 +273,9 @@ D. Độ lớn của điện tích q đặt tại điểm quan sát.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
+
     **Hướng dẫn giải:**
+
     Độ lớn cường độ điện trường không phụ thuộc vào độ lớn điện tích thử → Độ lớn của điện tích q đặt tại
     điểm quan sát.
 
@@ -280,7 +295,9 @@ D. thẳng có chiều đi ra khỏi điện tích Q.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** B
+
     **Hướng dẫn giải:**
+
     $Q<0$ nên những đường thẳng có chiều đi vào điện tích $Q$.
 
 #### Bài 18
@@ -299,7 +316,9 @@ D. đường sức điện.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** B
+
     **Hướng dẫn giải:**
+
     Cường độ điện trường là một đại lượng véctơ
 
 #### Bài 19
@@ -320,6 +339,7 @@ D. tăng 4 lần.
     **Đáp án:** C.
 
     **Hướng dẫn giải:**
+
     Với điện tích điểm, $E\sim1/r^2$. Vì vậy khi $r$ tăng 2 lần thì $E$ giảm $2^2=4$ lần.
 
 #### Bài 20
@@ -337,7 +357,8 @@ C. Với mọi $q_1,q_2$ thì $\vec F_1=\vec F_2$.
 D. Với mọi điện tích thử phù hợp, $\vec E=\vec F_1/q_1=\vec F_2/q_2$.
 
 ??? success "Đáp án và lời giải"
-    **Đáp án: D.**
+    **Đáp án:** D
+
     **Hướng dẫn giải:**
 
     Theo định nghĩa cường độ điện trường tại một điểm,
@@ -363,7 +384,9 @@ D. Điện trường tác dụng lực điện lên các điện tích chuyển 
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** B
+
     **Hướng dẫn giải:**
+
     - Điện trường được tạo ra bởi điện tích, là dạng vật chất tồn tại xung quanh điện tích và truyền tương tác
     giữa các điện tích.
 
@@ -386,11 +409,10 @@ D. Hình 4.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
+
     **Hướng dẫn giải:**
 
-    Dùng $E=F/q_0=k|Q|/(\varepsilon r^2)$; $\vec E$ hướng ra xa điện tích dương và hướng về điện tích âm.
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **D. Hình 4.**
+    Với điện tích điểm, $E=k|Q|/(\varepsilon r^2)$ nên $E$ giảm theo $1/r^2$ khi $r$ tăng. Đồ thị phù hợp là D.
 #### Bài 23
 
 <!-- source-id: BT-Chuong-III-p34-q12-93 -->
@@ -409,7 +431,9 @@ D. Cả A và B là điện tích âm.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
+
     **Hướng dẫn giải:**
+
     Đường sức điện hướng vào điện tích → A, B đều là điện tích âm.
 
 #### Bài 24
@@ -428,7 +452,9 @@ D. Các đường sức của điện trường đều là các đường thẳn
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** B
+
     **Hướng dẫn giải:**
+
     Trong trường hợp có 1 điện tích các đường sức đi từ điện tích dương ra vô cực hoặc từ vô cực đến điện tích
     âm.
 
@@ -452,6 +478,7 @@ D. không thể có các đường sức có dạng như thế.
     **Đáp án:** C
 
     **Hướng dẫn giải:**
+
     Đường sức điện đi ra từ điện tích dương và đi vào điện tích âm. Hình nguồn thể hiện một hệ gồm một điện tích dương và một điện tích âm, nên chọn C.
 
 #### Bài 26
@@ -471,7 +498,9 @@ D. theo một quỹ đạo bất kỳ.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** B
+
     **Hướng dẫn giải:**
+
     Điện tích âm chuyển động ngược chiều đường sức điện trường
 
 ### Thông hiểu — Trắc nghiệm 4 lựa chọn
@@ -492,7 +521,9 @@ D. Đường sức điện.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
+
     **Hướng dẫn giải:**
+
     Cường độ điện trường cho biết độ mạnh yếu của điện trường tại một điểm.
 
 #### Bài 28
@@ -511,13 +542,10 @@ D. hằng số điện môi của của môi trường.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
+
     **Hướng dẫn giải:**
 
-    Dùng $E=F/q_0=k|Q|/(\varepsilon r^2)$; $\vec E$ hướng ra xa điện tích dương và hướng về điện tích âm.
-
-    → Cường độ điện trường không phụ thuộc vào độ lớn điện tích thử.
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. độ lớn điện tích thử.**
+    Cường độ điện trường do điện tích nguồn tạo ra tại một điểm phụ thuộc điện tích nguồn, môi trường và vị trí điểm xét; nó không phụ thuộc điện tích thử. Chọn A.
 #### Bài 29
 
 <!-- source-id: BT-Chuong-III-p36-q10-106 -->
@@ -536,6 +564,7 @@ D. phụ thuộc nhiệt độ môi trường.
     **Đáp án:** A
 
     **Hướng dẫn giải:**
+
     Theo định nghĩa, chiều của $\vec E$ tại một điểm là chiều của lực điện tác dụng lên **điện tích thử dương** đặt tại điểm đó. Vì vậy chọn A.
 
 #### Bài 30
@@ -556,6 +585,7 @@ D. $E=-9\cdot10^{-9}\dfrac{Q}{r^2}$.
     **Đáp án:** B.
 
     **Hướng dẫn giải:**
+
     Theo cách viết đại số của nguồn với $Q<0$, $E=-9\cdot10^9Q/r^2$ để độ lớn $E$ dương.
 
 #### Bài 31
@@ -574,11 +604,10 @@ D. tăng 3 lần.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
+
     **Hướng dẫn giải:**
 
-    Dùng $E=F/q_0=k|Q|/(\varepsilon r^2)$; $\vec E$ hướng ra xa điện tích dương và hướng về điện tích âm.
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. giảm 9 lần.**
+    Với một điện tích điểm, $E\propto1/r^2$. Khoảng cách tăng 3 lần thì cường độ giảm $3^2=9$ lần. Chọn C.
 #### Bài 32
 
 <!-- source-id: BT-Chuong-III-p37-q14-110 -->
@@ -596,13 +625,10 @@ D. tăng 2 lần.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
+
     **Hướng dẫn giải:**
 
-    Dùng $E=F/q_0=k|Q|/(\varepsilon r^2)$; $\vec E$ hướng ra xa điện tích dương và hướng về điện tích âm.
-
-    → Cường độ điện trường không phụ thuộc vào độ lớn điện tích thử.
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. không đổi.**
+    Cường độ điện trường là đặc trưng của điện trường tại điểm xét và không phụ thuộc độ lớn điện tích thử dùng để đo. Chọn C.
 #### Bài 33
 
 <!-- source-id: BT-Chuong-III-p38-q15-111 -->
@@ -621,6 +647,7 @@ D. $Q=3\cdot10^{-6}\,\mathrm C$.
     **Đáp án:** C
 
     **Hướng dẫn giải:**
+
     Trong chân không,
 
     $$E=k\frac{Q}{r^2}\Rightarrow Q=\frac{Er^2}{k}=\frac{4\cdot10^4\cdot(0{,}3)^2}{9\cdot10^9}=4\cdot10^{-7}\,\mathrm C.$$
@@ -643,10 +670,12 @@ D. trong một vùng không gian hẹp gần mặt đất.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
-    **Hướng dẫn giải:**
-    Điện trường đều tồn tại ở giữa hai bản kim loại phẳng, song song, có kích thước bằng nhau tích điện trái
-    dấu hoặc trong một vùng không gian hẹp gần mặt đất.
 
+    **Hướng dẫn giải:**
+
+    Trong một vùng không gian đủ hẹp gần mặt đất, điện trường khí quyển có thể được coi xấp xỉ đều, nên D là lựa chọn phù hợp.
+
+    Phương án C chưa đúng như đã viết: điện trường chỉ gần đều **ở vùng giữa** hai bản phẳng song song lớn mang điện trái dấu và đủ xa mép; câu C chỉ nói “xung quanh” hai bản, không nêu trạng thái tích điện.
 #### Bài 35
 
 <!-- source-id: BT-Chuong-III-p66-q2-175 -->
@@ -663,7 +692,9 @@ D. là những đường thẳng đồng quy.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
+
     **Hướng dẫn giải:**
+
     Các đường sức điện trong điện trường đều là các đường thẳng song song cách đều.
 
 #### Bài 36
@@ -683,7 +714,9 @@ D. $E=F/q$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
+
     **Hướng dẫn giải:**
+
     Trong điện trường đều, công thức liên hệ giữa cường độ điện trường và hiệu điện thế là $U=Ed$.
 
 #### Bài 37
@@ -702,7 +735,9 @@ D. Điện trường không đều
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
+
     **Hướng dẫn giải:**
+
     Trong điện trường đều, công thức liên hệ giữa cường độ điện trường và hiệu điện thế là $U=Ed$.
 
 #### Bài 38
@@ -723,7 +758,9 @@ D. Hình d.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** B
+
     **Hướng dẫn giải:**
+
     Các đường sức điện trong điện trường đều là các đường thẳng song song cách đều.
 
 #### Bài 39
@@ -742,7 +779,9 @@ D. là các đường có hướng, xuất phát ở điện tích dương và k
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
+
     **Hướng dẫn giải:**
+
     Vì qua mỗi điểm trong điện trường chỉ có duy nhất một đường sức điện đi qua
 
 ### Vận dụng — Trắc nghiệm 4 lựa chọn
@@ -768,6 +807,7 @@ D. $8{,}75\cdot10^{8}\,\mathrm{V/m}$.
     **Đáp án:** B
 
     **Hướng dẫn giải:**
+
     Cường độ điện trường trong màng tế bào:
 
     $$E=\frac{U}{d}=\frac{0{,}07}{8\cdot10^{-9}}=8{,}75\cdot10^6\,\mathrm{V/m}.$$
@@ -790,12 +830,10 @@ D. độ lớn lực tác dụng lên mọi điện tích không thay đổi.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
+
     **Hướng dẫn giải:**
 
-    Dùng $E=F/q_0=k|Q|/(\varepsilon r^2)$; $\vec E$ hướng ra xa điện tích dương và hướng về điện tích âm.
-
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. vectơ cường độ điện trường tại mọi điểm đều bằng nhau.**
+    Điện trường đều có vectơ $\vec E$ như nhau tại mọi điểm trong vùng xét: cùng phương, cùng chiều và cùng độ lớn. Chọn A.
 #### Bài 42
 
 <!-- source-id: BT-Chuong-III-p82-q3-209 -->
@@ -812,13 +850,10 @@ D. do hệ 2 điện tích điểm gây ra.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** B
+
     **Hướng dẫn giải:**
 
-    Dùng $E=F/q_0=k|Q|/(\varepsilon r^2)$; $\vec E$ hướng ra xa điện tích dương và hướng về điện tích âm.
-
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **B. có vectơ $\vec E$ không đổi về hướng và độ lớn ở những điểm khác nhau.**
-
+    Trong điện trường đều, các đường sức là những đường thẳng song song, cùng chiều và cách đều nhau. Chọn B.
 #### Bài 43
 
 <!-- source-id: BT-Chuong-III-p82-q4-210 -->
@@ -836,12 +871,10 @@ D. giảm diện tích của hai bản phẳng.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** B
+
     **Hướng dẫn giải:**
 
-    Dùng $E=F/q_0=k|Q|/(\varepsilon r^2)$; $\vec E$ hướng ra xa điện tích dương và hướng về điện tích âm.
-
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **B. tăng khoảng cách giữa hai bản phẳng.**
+    Giữa hai bản song song khi hiệu điện thế $U$ được giữ không đổi, $E=U/d$. Vì vậy tăng khoảng cách $d$ làm $E$ giảm. Chọn B.
 #### Bài 44
 
 <!-- source-id: BT-Chuong-III-p82-q6-212 -->
@@ -858,31 +891,30 @@ D. Các đường sức là các đường có hướng.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
+
     **Hướng dẫn giải:**
 
-    Dùng $E=F/q_0=k|Q|/(\varepsilon r^2)$; $\vec E$ hướng ra xa điện tích dương và hướng về điện tích âm.
-
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. Các đường sức của cùng một điện trường đều có thể cắt nhau.**
+    Các đường sức điện không thể cắt nhau, vì tại một điểm vectơ cường độ điện trường chỉ có một hướng xác định. Do đó phương án A là phát biểu không đúng.
 #### Bài 45
 
 <!-- source-id: BT-Chuong-III-p83-q8-214 -->
 
-Trong một điện trường đều, nếu trên một đường sức, giữa hai điểm cách nhau 4 cm có hiệu điện
-thế 10 V, giữa hai điểm cách nhau 6 cm có hiệu điện thế là
+Trong một điện trường đều, nếu trên một đường sức, giữa hai điểm cách nhau $4\,\mathrm{cm}$ có hiệu điện
+thế $10\,\mathrm V$, giữa hai điểm cách nhau $6\,\mathrm{cm}$ có hiệu điện thế là
 
-A. 8 V.
+A. $8\,\mathrm V$.
 
-B. 10 V.
+B. $10\,\mathrm V$.
 
-C. 15 V.
+C. $15\,\mathrm V$.
 
-D. 22,5 V.
+D. $22,5\,\mathrm V$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
 
     **Hướng dẫn giải:**
+
     Trong điện trường đều, trên cùng một đường sức, $|U|=Ed$ nên hiệu điện thế tỉ lệ với khoảng cách. Do đó
     $U_2=10\cdot\dfrac{6}{4}=15\,\mathrm V$.
     Chọn C.
@@ -891,24 +923,23 @@ D. 22,5 V.
 
 <!-- source-id: BT-Chuong-III-p83-q9-215 -->
 
-Giữa hai bản kim loại phẳng song song cách nhau 4 cm có một hiệu điện thế không đổi 200 V.
+Giữa hai bản kim loại phẳng song song cách nhau $4\,\mathrm{cm}$ có một hiệu điện thế không đổi $200\,\mathrm V$.
 Cường độ điện trường ở khoảng giữa hai bản kim loại là
 
-A. 5000 V/m.
+A. $5000\,\mathrm{V/m}$.
 
-B. 50 V/m.
+B. $50\,\mathrm{V/m}$.
 
-C. 800 V/m.
+C. $800\,\mathrm{V/m}$.
 
-D. 80 V/m.
+D. $80\,\mathrm{V/m}$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
+
     **Hướng dẫn giải:**
 
-    Dùng $E=F/q_0=k|Q|/(\varepsilon r^2)$; $\vec E$ hướng ra xa điện tích dương và hướng về điện tích âm.
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. 5000 V/m.**
+    Trong điện trường đều, $E=U/d=200/0{,}040=5{,}0\cdot10^3\,\mathrm{V/m}$. Chọn A.
 #### Bài 47
 
 <!-- source-id: BT-Chuong-III-p83-q11-217 -->
@@ -926,11 +957,10 @@ D. điện trường đều, đường sức là đường thẳng, $E=1000\,\ma
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
+
     **Hướng dẫn giải:**
 
-    Dùng $E=F/q_0=k|Q|/(\varepsilon r^2)$; $\vec E$ hướng ra xa điện tích dương và hướng về điện tích âm.
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **D. điện trường đều, đường sức là đường thẳng, $E=1000\,\mathrm{V/m}$.**
+    Điện trường giữa hai bản song song là đều; với $U=50\,\mathrm V$, $d=0{,}050\,\mathrm m$, $E=U/d=1000\,\mathrm{V/m}$. Chọn D.
 
 ### Thông hiểu — Trắc nghiệm 4 lựa chọn
 
@@ -949,12 +979,11 @@ C. $q=1{,}25\cdot10^{-3}\,\mathrm C$.
 D. $q=12{,}5\,\mathrm C$.
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** C
+    **Đáp án:** $1{,}25\cdot10^{-3}\,\mathrm C$
+
     **Hướng dẫn giải:**
 
-    Dùng $E=F/q_0=k|Q|/(\varepsilon r^2)$; $\vec E$ hướng ra xa điện tích dương và hướng về điện tích âm.
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. $q=1{,}25\cdot10^{-3}\,\mathrm C$.**
+    Từ định nghĩa $E=F/|q|$ suy ra $|q|=F/E=2\cdot10^{-4}/0{,}16=1{,}25\cdot10^{-3}\,\mathrm C$.
 #### Bài 49
 
 <!-- source-id: BT-Chuong-III-p35-q2-98 -->
@@ -970,12 +999,11 @@ C. $E=4500\,\mathrm{V/m}$.
 D. $E=2250\,\mathrm{V/m}$.
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** C
+    **Đáp án:** $4500\,\mathrm{V/m}$
+
     **Hướng dẫn giải:**
 
-    Dùng $E=F/q_0=k|Q|/(\varepsilon r^2)$; $\vec E$ hướng ra xa điện tích dương và hướng về điện tích âm.
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. $E=4500\,\mathrm{V/m}$.**
+    Với $q=5\cdot10^{-9}\,\mathrm C$ và $r=0{,}10\,\mathrm m$, $E=9\cdot10^9\cdot5\cdot10^{-9}/(0{,}10)^2=4500\,\mathrm{V/m}$.
 #### Bài 50
 
 <!-- source-id: BT-Chuong-III-p35-q3-99 -->
@@ -991,37 +1019,33 @@ C. $4\cdot10^{4}\,\mathrm{V/m}$.
 D. $2{,}5\cdot10^{4}\,\mathrm{V/m}$.
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** B
+    **Đáp án:** $3\cdot10^4\,\mathrm{V/m}$
+
     **Hướng dẫn giải:**
 
-    Dùng $E=F/q_0=k|Q|/(\varepsilon r^2)$; $\vec E$ hướng ra xa điện tích dương và hướng về điện tích âm.
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **B. $3\cdot10^{4}\,\mathrm{V/m}$.**
+    Từ $E=F/|q|$, thay các dữ kiện của đề cho $E=3\cdot10^4\,\mathrm{V/m}$.
 #### Bài 51
 
 <!-- source-id: BT-Chuong-III-p35-q4-100 -->
 
 Một điện tích điểm q đặt trong một môi trường đồng tính, vô hạn có hằng số điện môi bằng 2,5. Tại
-điểm M cách q một đoạn 0,4 m vectơ cường độ điện trường có độ lớn bằng $9\cdot10^{5}$ V/m và hướng về phía điện
+điểm M cách q một đoạn $0,4\,\mathrm m$ vectơ cường độ điện trường có độ lớn bằng $9\cdot10^{5}\,\mathrm{V/m}$ và hướng về phía điện
 tích q. Khẳng định nào sau đây đúng khi nói về dấu và độ lớn của điện tích q?
 
-A. q= - $4\,\mu\mathrm C$.
+A. $q=-4\,\mu\mathrm C$.
 
-B. q= $4\,\mu\mathrm C$.
+B. $q=4\,\mu\mathrm C$.
 
-C. q= $0{,}4\,\mu\mathrm C$.
+C. $q=0{,}4\,\mu\mathrm C$.
 
-D. q= - $40\,\mu\mathrm C$.
+D. $q=-40\,\mu\mathrm C$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
+
     **Hướng dẫn giải:**
 
-    Dùng $E=F/q_0=k|Q|/(\varepsilon r^2)$; $\vec E$ hướng ra xa điện tích dương và hướng về điện tích âm.
-
-    Vì vectơ cường độ điện trường hướng về phía điện tích q nên q<0.
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **D. q= - $40\,\mu\mathrm C$.**
+    Vectơ $\vec E$ tại điểm xét hướng về điện tích nguồn nên nguồn mang điện âm. Từ $|Q|=E\varepsilon r^2/k$ thay số của đề được $|Q|=40\,\mu\mathrm C$. Chọn D.
 #### Bài 52
 
 <!-- source-id: BT-Chuong-III-p36-q5-101 -->
@@ -1039,13 +1063,10 @@ D. 4E.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** B
+
     **Hướng dẫn giải:**
 
-    Dùng $E=F/q_0=k|Q|/(\varepsilon r^2)$; $\vec E$ hướng ra xa điện tích dương và hướng về điện tích âm.
-
-    Mà AM=MN → AN=2AM
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **B. 0,25E.**
+    Khoảng cách từ nguồn đến N gấp đôi khoảng cách đến M nên $E_N/E_M=(r_M/r_N)^2=1/4$. Chọn B.
 #### Bài 53
 
 <!-- source-id: BT-Chuong-III-p36-q7-103 -->
@@ -1063,7 +1084,9 @@ D. véctơ cường độ điện trường gây bởi điện tích ở gần �
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
+
     **Hướng dẫn giải:**
+
     Theo nguyên lí chồng chất điện trường thì ta có hình vẽ trên. Hướng của cường độ điện trường tổng hợp là
     hướng của tổng 2 véctơ cường độ điện trường thành phần.
 
@@ -1084,160 +1107,153 @@ D. giảm diện tích của hai bản phẳng.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** B
+
     **Hướng dẫn giải:**
 
-    Dùng $E=F/q_0=k|Q|/(\varepsilon r^2)$; $\vec E$ hướng ra xa điện tích dương và hướng về điện tích âm.
+    Trong điện trường đều giữa hai bản khi hiệu điện thế được giữ cố định, $E=U/d$. Vì vậy thay đổi khoảng cách theo dữ kiện của đề cho quan hệ ở phương án B.
 
-    Trong điện trường đều, công thức liên hệ giữa cường độ điện trường và hiệu điện thế là $E=\dfrac{U}{d}$; vì nguồn có $U$ không đổi nên khi $d$ tăng thì $E$ giảm.
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **B. tăng khoảng cách giữa hai bản phẳng.**
 ### Vận dụng — Trả lời ngắn
 
 #### Bài 55
 
 <!-- source-id: BT-Chuong-III-p45-q1-128 -->
 
-Tìm độ lớn cường độ điện trường tại M cách q một đoạn 20 cm. (tính theo V/m )
+Một điện tích điểm $q=-2{,}8\,\mathrm{nC}$ đặt trong không khí. Tìm độ lớn cường độ điện trường tại M cách $q$ một đoạn $20\,\mathrm{cm}$ (tính theo $\mathrm{V/m}$).
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** $630$
+    **Đáp án:** $630\,\mathrm{V/m}$
+
     **Hướng dẫn giải:**
 
-    Dùng $E=F/q_0=k|Q|/(\varepsilon r^2)$; $\vec E$ hướng ra xa điện tích dương và hướng về điện tích âm.
-
-    Vậy kết quả cần tìm là **$630$**.
+    Với $r=0{,}20\,\mathrm m$, $E=k|q|/r^2=9\cdot10^9\cdot2{,}8\cdot10^{-9}/0{,}20^2=630\,\mathrm{V/m}$.
 #### Bài 56
 
 <!-- source-id: BT-Chuong-III-p45-q2-129 -->
 
-Tìm độ lớn cường độ điện trường tại M cách q một đoạn 20 cm khi đặt điện tích trong dầu có hằng số
-điện môi $\varepsilon=2$ (tính theo V/m )
+Một điện tích điểm $q=-2{,}8\,\mathrm{nC}$ đặt trong dầu có hằng số điện môi $\varepsilon=2$. Tìm độ lớn cường độ điện trường tại M cách $q$ một đoạn $20\,\mathrm{cm}$ (tính theo $\mathrm{V/m}$).
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** $315$
+    **Đáp án:** $315\,\mathrm{V/m}$
+
     **Hướng dẫn giải:**
 
-    Dùng $E=F/q_0=k|Q|/(\varepsilon r^2)$; $\vec E$ hướng ra xa điện tích dương và hướng về điện tích âm.
-
-    Vậy kết quả cần tìm là **$315$**.
+    Với $q=-2{,}8\,\mathrm{nC}$, $r=0{,}20\,\mathrm m$ và $\varepsilon=2$, $E=k|q|/(\varepsilon r^2)=630/2=315\,\mathrm{V/m}$.
 #### Bài 57
 
 <!-- source-id: BT-Chuong-III-p46-q4-133 -->
 
-Điểm N nằm trên đoạn AB và cách đều AB. Tìm độ lớn cường độ điện trường tại N. (tính theo V/m)
+Với $q_1=-10^{-9}\,\mathrm C$, $q_2=10^{-9}\,\mathrm C$ đặt tại A, B cách nhau $40\,\mathrm{cm}$ trong chân không, điểm N là trung điểm AB. Tìm độ lớn cường độ điện trường tại N (tính theo $\mathrm{V/m}$).
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** $2700$
+    **Đáp án:** $450\,\mathrm{V/m}$
+
     **Hướng dẫn giải:**
 
-    Dùng $E=F/q_0=k|Q|/(\varepsilon r^2)$; $\vec E$ hướng ra xa điện tích dương và hướng về điện tích âm.
+    Theo dữ kiện in trong đề, $q_1=-10^{-9}\,\mathrm C$, $q_2=10^{-9}\,\mathrm C$ và $AB=40\,\mathrm{cm}$. Tại trung điểm N, $r=0{,}20\,\mathrm m$ nên mỗi điện tích tạo $E_1=E_2=225\,\mathrm{V/m}$. Hai vectơ cùng hướng từ điện tích dương về điện tích âm, do đó $E_N=450\,\mathrm{V/m}$.
 
-    Vậy kết quả cần tìm là **$2700$**.
+    **Đối chiếu nguồn:** ô đáp án và hướng dẫn PDF dùng độ lớn điện tích $6\cdot10^{-9}\,\mathrm C$ dù dòng dữ kiện in rõ $10^{-9}\,\mathrm C$. Kết quả $2700\,\mathrm{V/m}$ của nguồn vì thế lớn hơn đúng 6 lần; lời giải này giữ dữ kiện in trong đề.
 #### Bài 58
 
 <!-- source-id: BT-Chuong-III-p46-q5-136 -->
 
-Tính lực điện tác dụng lên điện tích q? (tính theo N)
+Tại M có điện trường ngoài cường độ $E=1000\,\mathrm{V/m}$. Tính độ lớn lực điện tác dụng lên điện tích $q=10^{-4}\,\mathrm C$ đặt tại M (tính theo $\mathrm N$).
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** $0{,}1$
+    **Đáp án:** $0{,}1\,\mathrm N$
+
     **Hướng dẫn giải:**
 
-    Dùng $E=F/q_0=k|Q|/(\varepsilon r^2)$; $\vec E$ hướng ra xa điện tích dương và hướng về điện tích âm.
+    Hiểu câu 5 theo ý định tính lực lên điện tích $q=10^{-4}\,\mathrm C$ đặt trong điện trường ngoài có cường độ $E=1000\,\mathrm{V/m}$ tại M. Khi đó $F=|q|E=10^{-4}\cdot1000=0{,}1\,\mathrm N$.
 
-    Vậy kết quả cần tìm là **$0{,}1$**.
+    **Đối chiếu nguồn:** câu dẫn chung của PDF vừa nói điện tích $q$ “đặt tại M” vừa dùng M như điểm có điện trường, khiến vai trò điện tích nguồn và điện tích thử bị lẫn. Phép tính trên nêu rõ cách hiểu cần thiết cho Câu 5.
 #### Bài 59
 
 <!-- source-id: BT-Chuong-III-p46-q6-137 -->
 
-Tìm khoảng cách từ M đến điện tích q ? (tính theo m)
+Một điện tích điểm nguồn $q=10^{-4}\,\mathrm C$ đặt trong chân không tạo tại M điện trường có cường độ $1000\,\mathrm{V/m}$. Tìm khoảng cách từ M đến điện tích q (tính theo $\mathrm m$).
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** $30$
+    **Đáp án:** $30\,\mathrm m$
+
     **Hướng dẫn giải:**
 
-    Dùng $E=F/q_0=k|Q|/(\varepsilon r^2)$; $\vec E$ hướng ra xa điện tích dương và hướng về điện tích âm.
+    Hiểu câu 6 theo ý định điện tích nguồn $q=10^{-4}\,\mathrm C$ tạo cường độ $E=1000\,\mathrm{V/m}$ tại M. Từ $E=k|q|/r^2$ suy ra $r=\sqrt{k|q|/E}=\sqrt{9\cdot10^9\cdot10^{-4}/1000}=30\,\mathrm m$.
 
-    Vậy kết quả cần tìm là **$30$**.
+    **Đối chiếu nguồn:** câu dẫn chung của PDF đặt $q$ “tại M” nhưng Câu 6 lại hỏi khoảng cách từ M đến $q$. Lời giải giữ phép tính mà nguồn thực sự sử dụng và làm rõ vai trò điện tích nguồn.
 #### Bài 60
 
 <!-- source-id: BT-Chuong-III-p56-q1-162 -->
 
-Nếu khoảng cách từ A đến q tăng 5 lần thì cường độ điện trường tại A có độ lớn là bao nhiêu? (tính
-theo V/m)
+Một điện tích điểm $q$ đặt trong chân không tạo tại A, cách $q$ một đoạn $r_1=2\,\mathrm{cm}$, cường độ điện trường $E_1=10^5\,\mathrm{V/m}$. Nếu khoảng cách từ A đến $q$ tăng 5 lần thì cường độ điện trường tại A có độ lớn là bao nhiêu (tính theo $\mathrm{V/m}$)?
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** $4000$
+    **Đáp án:** $4000\,\mathrm{V/m}$
+
     **Hướng dẫn giải:**
 
-    Dùng $E=F/q_0=k|Q|/(\varepsilon r^2)$; $\vec E$ hướng ra xa điện tích dương và hướng về điện tích âm.
-
-    Vậy kết quả cần tìm là **$4000$**.
+    Vì $E\propto1/r^2$, khi khoảng cách tăng 5 lần thì $E_2=E_1/25=10^5/25=4000\,\mathrm{V/m}$.
 #### Bài 61
 
 <!-- source-id: BT-Chuong-III-p56-q2-163 -->
 
-Khoảng cách từ A đến q là bao nhiêu nếu cường độ điện trường tại A là $5\cdot10^{5}$ V/m? (tính theo cm)
+Một điện tích điểm $q$ đặt trong chân không tạo tại A, cách $q$ một đoạn $r_1=2\,\mathrm{cm}$, cường độ điện trường $E_1=10^5\,\mathrm{V/m}$. Khoảng cách từ A đến $q$ là bao nhiêu nếu cường độ điện trường tại A là $E_2=5\cdot10^{5}\,\mathrm{V/m}$ (tính theo $\mathrm{cm}$)?
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** $2{,}5$
+    **Đáp án:** $0{,}89\,\mathrm{cm}$
+
     **Hướng dẫn giải:**
 
-    Dùng $E=F/q_0=k|Q|/(\varepsilon r^2)$; $\vec E$ hướng ra xa điện tích dương và hướng về điện tích âm.
+    Từ $E_1r_1^2=E_2r_2^2$, ta có $r_2=r_1\sqrt{E_1/E_2}=2\sqrt{10^5/(5\cdot10^5)}=2/\sqrt5\approx0{,}894\,\mathrm{cm}$.
 
-    Vậy kết quả cần tìm là **$2{,}5$**.
+    **Đối chiếu nguồn:** PDF cho đáp án $2{,}5\,\mathrm{cm}$ vì dòng biến đổi trong hướng dẫn dùng $25\cdot10^5\,\mathrm{V/m}$ thay cho $5\cdot10^5\,\mathrm{V/m}$ đã in trong đề. Kết quả trên dùng đúng dữ kiện của câu hỏi.
 #### Bài 62
 
 <!-- source-id: BT-Chuong-III-p56-q3-166 -->
 
-Tính độ lớn cường độ điện trường tại M cách điện tích một đoạn 10 cm? (tính theo vôn/mét)
+Điện tích điểm $q=10^{-9}\,\mathrm C$ đặt tại O trong không khí. Tính độ lớn cường độ điện trường tại M cách O một đoạn $10\,\mathrm{cm}$ (tính theo $\mathrm{V/m}$).
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** $900$
+    **Đáp án:** $900\,\mathrm{V/m}$
+
     **Hướng dẫn giải:**
 
-    Dùng $E=F/q_0=k|Q|/(\varepsilon r^2)$; $\vec E$ hướng ra xa điện tích dương và hướng về điện tích âm.
-
-    Vậy kết quả cần tìm là **$900$**.
+    Với $q=10^{-9}\,\mathrm C$ và $r=0{,}10\,\mathrm m$, $E=k|q|/r^2=9\cdot10^9\cdot10^{-9}/0{,}10^2=900\,\mathrm{V/m}$.
 #### Bài 63
 
 <!-- source-id: BT-Chuong-III-p56-q4-167 -->
 
-Xác định lực điện do điện tích q tác dụng lên điện tích điểm q’= $-2\cdot10^{-4}$ đặt tại M? (tính theo N)
+Điện tích điểm $q=10^{-9}\,\mathrm C$ đặt tại O trong không khí. Tại M cách O $10\,\mathrm{cm}$, đặt điện tích $q'=-2\cdot10^{-4}\,\mathrm C$. Xác định độ lớn lực điện tác dụng lên $q'$ (tính theo $\mathrm N$).
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** $0{,}18$
+    **Đáp án:** $0{,}18\,\mathrm N$
+
     **Hướng dẫn giải:**
 
-    Dùng $E=F/q_0=k|Q|/(\varepsilon r^2)$; $\vec E$ hướng ra xa điện tích dương và hướng về điện tích âm.
+    Tại M, Câu 3 đã cho $E=900\,\mathrm{V/m}$. Với điện tích thử $q'=-2\cdot10^{-4}\,\mathrm C$, độ lớn lực là $F=|q'|E=2\cdot10^{-4}\cdot900=0{,}18\,\mathrm N$.
 
-    Vậy kết quả cần tìm là **$0{,}18$**.
 ### Vận dụng — Trắc nghiệm 4 lựa chọn
 
 #### Bài 64
 
 <!-- source-id: BT-Chuong-III-p38-q1-112 -->
 
-Một điện tích $-1\,\mu\mathrm C$ đặt trong chân không sinh ra điện trường tại một điểm cách nó 1m có độ lớn và
+Một điện tích $-1\,\mu\mathrm C$ đặt trong chân không sinh ra điện trường tại một điểm cách nó $1\,\mathrm m$ có độ lớn và
 hướng là
 
-A. 9000 V/m, hướng về phía nó.
+A. $9000\,\mathrm{V/m}$, hướng về phía nó.
 
-B. 9000 V/m, hướng ra xa nó.
+B. $9000\,\mathrm{V/m}$, hướng ra xa nó.
 
-C. $9\cdot10^{9}$ V/m, hướng về phía nó.
+C. $9\cdot10^{9}\,\mathrm{V/m}$, hướng về phía nó.
 
-D. $9\cdot10^{9}$ V/m, hướng ra xa nó.
+D. $9\cdot10^{9}\,\mathrm{V/m}$, hướng ra xa nó.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
+
     **Hướng dẫn giải:**
 
-    Dùng $E=F/q_0=k|Q|/(\varepsilon r^2)$; $\vec E$ hướng ra xa điện tích dương và hướng về điện tích âm.
-
-    Vì Q<0 → vectơ cường độ điện trường hướng về phía nó.
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. 9000 V/m, hướng về phía nó.**
+    Với $q=-1\,\mu\mathrm C$ và $r=1\,\mathrm m$, $E=9\cdot10^9\cdot10^{-6}=9000\,\mathrm{V/m}$. Vì nguồn âm nên $\vec E$ hướng về nguồn. Chọn A.
 #### Bài 65
 
 <!-- source-id: BT-Chuong-III-p38-q2-113 -->
@@ -1256,30 +1272,30 @@ D. $E_2=\dfrac43E_1$.
     **Đáp án:** D.
 
     **Hướng dẫn giải:**
+
     $E_1/E_2=(F_1/|q_1|)/(F_2/|q_2|)=3/4$, nên $E_2=\dfrac43E_1$.
 
 #### Bài 66
 
 <!-- source-id: BT-Chuong-III-p38-q3-114 -->
 
-Điện tích điểm q = $80\,\mathrm{nC}$ đặt cố định tại O trong dầu. Hằng số điện môi của dầu là $\varepsilon$ = 2. Cường độ
-điện trường do q gây ra tại M cách O một khoảng MO = 30 cm là
+Điện tích điểm $q=80\,\mathrm{nC}$ đặt cố định tại O trong dầu. Hằng số điện môi của dầu là $\varepsilon$ = 2. Cường độ
+điện trường do q gây ra tại M cách O một khoảng MO = $30\,\mathrm{cm}$ là
 
-A. $0{,}6\cdot10^{3}$ V/m.
+A. $0{,}6\cdot10^{3}\,\mathrm{V/m}$.
 
-B. $0{,}6\cdot10^{4}$ V/m.
+B. $0{,}6\cdot10^{4}\,\mathrm{V/m}$.
 
-C. $4\cdot10^{3}$ V/m.
+C. $4\cdot10^{3}\,\mathrm{V/m}$.
 
-D. $2\cdot10^{5}$ V/m.
+D. $2\cdot10^{5}\,\mathrm{V/m}$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
+
     **Hướng dẫn giải:**
 
-    Dùng $E=F/q_0=k|Q|/(\varepsilon r^2)$; $\vec E$ hướng ra xa điện tích dương và hướng về điện tích âm.
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. $4\cdot10^{3}$ V/m.**
+    Từ $E=k|Q|/(\varepsilon r^2)$, thay $|Q|=80\,\mathrm{nC}$, $\varepsilon=2$, $r=0{,}30\,\mathrm m$ được $E=4000\,\mathrm{V/m}$. Chọn C.
 #### Bài 67
 
 <!-- source-id: BT-Chuong-III-p38-q4-115 -->
@@ -1287,23 +1303,20 @@ D. $2\cdot10^{5}$ V/m.
 Có hai điện tích $q_1=5\cdot10^{-9}\,\mathrm C$, $q_2=-5\cdot10^{-9}\,\mathrm C$ đặt trong chân không cách nhau $10\,\mathrm{cm}$. Xác định cường
 độ điện trường tại điểm M nằm trên đường thẳng đi qua hai điện tích đó và cách $q_1$ $5\,\mathrm{cm}$; cách $q_2$ $15\,\mathrm{cm}$.
 
-A. 4500 V/m.
+A. $4500\,\mathrm{V/m}$.
 
-B. 36000 V/m.
+B. $36000\,\mathrm{V/m}$.
 
-C. 18000 V/m.
+C. $18000\,\mathrm{V/m}$.
 
-D. 16000 V/m.
+D. $16000\,\mathrm{V/m}$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
+
     **Hướng dẫn giải:**
 
-    Dùng $E=F/q_0=k|Q|/(\varepsilon r^2)$; $\vec E$ hướng ra xa điện tích dương và hướng về điện tích âm.
-
-    Áp dụng nguyên lý chồng chất điện trường:
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **D. 16000 V/m.**
+    Tại M, hai vectơ cường độ do hai điện tích gây ra ngược chiều. Từ khoảng cách trong đề, $E_1=18000\,\mathrm{V/m}$ và $E_2=2000\,\mathrm{V/m}$, nên $E=|E_1-E_2|=16000\,\mathrm{V/m}$. Chọn D.
 #### Bài 68
 
 <!-- source-id: BT-Chuong-III-p39-q6-117 -->
@@ -1311,49 +1324,41 @@ D. 16000 V/m.
 Hai điện tích điểm $q_1=0{,}5\,\mathrm{nC}$ và $q_2=-0{,}5\,\mathrm{nC}$ đặt tại hai điểm A, B cách nhau $6\,\mathrm{cm}$ trong không khí.
 Cường độ điện trường tại trung điểm của AB có độ lớn là.
 
-A. E = 0 V/m.
+A. $E=0\,\mathrm{V/m}$.
 
-B. E = 5000 V/m.
+B. $E=5000\,\mathrm{V/m}$.
 
-C. E = 10000 V/m.
+C. $E=10000\,\mathrm{V/m}$.
 
-D. E = 20000 V/m.
+D. $E=20000\,\mathrm{V/m}$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
+
     **Hướng dẫn giải:**
 
-    Dùng $E=F/q_0=k|Q|/(\varepsilon r^2)$; $\vec E$ hướng ra xa điện tích dương và hướng về điện tích âm.
-
-    Vì M là trung điểm AB và $q_1q_2<0$ nên $E=E_1+E_2=10000\,\mathrm{V/m}$.
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. E = 10000 V/m.**
+    Tại trung điểm của hai điện tích bằng nhau trái dấu, hai vectơ điện trường cùng hướng từ điện tích dương về điện tích âm. Mỗi điện tích tạo $5000\,\mathrm{V/m}$, nên $E=10000\,\mathrm{V/m}$. Chọn C.
 #### Bài 69
 
 <!-- source-id: BT-Chuong-III-p40-q10-121 -->
 
 Hai điện tích $Q_1=10^{-9}\,\mathrm C$, $Q_2=2\cdot10^{-9}\,\mathrm C$ đặt tại A và B trong không khí. Xác định điểm C mà tại đó
-véctơ cường độ điện trường bằng không . Cho AB = 20 cm.
+véctơ cường độ điện trường bằng không . Cho $AB=20\,\mathrm{cm}$.
 
-A. AC = 8,3 cm ; BC = 11,7 cm.
+A. AC = $8,3\,\mathrm{cm}$ ; BC = $11,7\,\mathrm{cm}$.
 
-B. AC = 48,3 cm ;BC = 68,3 cm.
+B. AC = $48,3\,\mathrm{cm}$ ;BC = $68,3\,\mathrm{cm}$.
 
-C. AC =11,7 cm ; BC = 8,3 cm.
+C. AC =$11,7\,\mathrm{cm}$ ; BC = $8,3\,\mathrm{cm}$.
 
-D. AC = 7,3 cm ; BC = 17,3 cm.
+D. AC = $7,3\,\mathrm{cm}$ ; BC = $17,3\,\mathrm{cm}$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
+
     **Hướng dẫn giải:**
 
-    Dùng $E=F/q_0=k|Q|/(\varepsilon r^2)$; $\vec E$ hướng ra xa điện tích dương và hướng về điện tích âm.
-
-    + Để cường độ điện trường tại C bằng 0 thì cường độ điện trường $E_1$ gây bởi $Q_1$ ngược chiều với cường độ
-    điện trường $E_2$ gây bởi $Q_2$ → C phải nằm giữa AB.
-    Mặt khác $r_1+r_2=20\,\mathrm{cm}$ → $r_1=8{,}3\,\mathrm{cm}$, $r_2=11{,}7\,\mathrm{cm}$.
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. AC = 8,3 cm ; BC = 11,7 cm.**
+    Hai điện tích cùng dấu nên điểm triệt tiêu nằm giữa chúng. Gọi $x$ là khoảng cách đến $Q_1$ và $AB=20\,\mathrm{cm}$; điều kiện $Q_1/x^2=Q_2/(20-x)^2$ với tỉ số điện tích trong đề cho $x\approx8{,}3\,\mathrm{cm}$. Chọn A.
 #### Bài 70
 
 <!-- source-id: BT-Chuong-III-p48-q1-140 -->
@@ -1372,6 +1377,7 @@ D. $3\cdot10^4\,\mathrm{V/m}$.
     **Đáp án:** B.
 
     **Hướng dẫn giải:**
+
     $E=k\dfrac{|q|}{r^2}=9\cdot10^9\dfrac{10^{-9}}{0{,}03^2}=10^4\,\mathrm{V/m}$.
 
 #### Bài 71
@@ -1381,23 +1387,20 @@ D. $3\cdot10^4\,\mathrm{V/m}$.
 Đặt một điện tích - $1\,\mu\mathrm C$ tại một điểm, nó chịu một lực điện 1 mN có hướng từ trái sang phải. Cường
 độ điện trường có độ lớn và hướng là
 
-A. 1000 V/m, từ trái sang phải.
+A. $1000\,\mathrm{V/m}$, từ trái sang phải.
 
-B. 1000 V/m, từ phải sang trái.
+B. $1000\,\mathrm{V/m}$, từ phải sang trái.
 
-C. 1V/m, từ trái sang phải.
+C. $1\,\mathrm{V/m}$, từ trái sang phải.
 
-D. 1 V/m, từ phải sang trái.
+D. $1\,\mathrm{V/m}$, từ phải sang trái.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** B
+
     **Hướng dẫn giải:**
 
-    Dùng $E=F/q_0=k|Q|/(\varepsilon r^2)$; $\vec E$ hướng ra xa điện tích dương và hướng về điện tích âm.
-
-    q<0 → véctơ cường độ điện trường ngược chiều với lực điện.
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **B. 1000 V/m, từ phải sang trái.**
+    Điện tích thử âm chịu lực sang phải nên $\vec E$ phải hướng sang trái. Độ lớn $E=F/|q|=10^{-3}/10^{-6}=1000\,\mathrm{V/m}$. Chọn B.
 #### Bài 72
 
 <!-- source-id: BT-Chuong-III-p49-q3-142 -->
@@ -1416,11 +1419,10 @@ D. $E_2=0{,}4E_1$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
+
     **Hướng dẫn giải:**
 
-    Dùng $E=F/q_0=k|Q|/(\varepsilon r^2)$; $\vec E$ hướng ra xa điện tích dương và hướng về điện tích âm.
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **D. $E_2=0{,}4E_1$.**
+    Tại cùng một điểm, $E=F/|q|$. Do đó $E_1/E_2=(F_1/q_1)/(F_2/q_2)=5/2=2{,}5$, hay $E_2=0{,}4E_1$. Chọn D.
 #### Bài 73
 
 <!-- source-id: BT-Chuong-III-p49-q4-143 -->
@@ -1439,6 +1441,7 @@ D. khác phương với lực $\vec F$ tác dụng lên điện tích $q$ đặt
     **Đáp án:** C.
 
     **Hướng dẫn giải:**
+
     Từ $\vec F=q\vec E$, $\vec F$ luôn cùng phương với $\vec E$; chiều còn phụ thuộc dấu của $q$.
 
 #### Bài 74
@@ -1457,7 +1460,9 @@ D. Bên ngoài một quả cầu kim loại nhiễm điện.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
+
     **Hướng dẫn giải:**
+
     Vì sau khi được tích điện, các electron trong quả cầu sẽ có xu hướng chuyển động phân bố ra bề mặt vật
     dẫn, sau khi đạt trạng thái cân bằng, bên trong vật dẫn sẽ không còn điện tích. Mặt khác, do sự phân bố của
     các điện tích trên bề mặt, điện trường tổng hợp trong lòng vật dẫn gây ra do các điện tích trên bề mặt bị triệt
@@ -1481,6 +1486,7 @@ D. Hợp với $\vec E$ một góc $30^\circ$.
     **Đáp án:** C.
 
     **Hướng dẫn giải:**
+
     Với $q<0$, $\vec F=q\vec E$ nên $\vec F$ luôn ngược hướng với $\vec E$.
 
 #### Bài 76
@@ -1500,13 +1506,10 @@ D. 2E.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
+
     **Hướng dẫn giải:**
 
-    Dùng $E=F/q_0=k|Q|/(\varepsilon r^2)$; $\vec E$ hướng ra xa điện tích dương và hướng về điện tích âm.
-
-    Từ $E\propto\dfrac{1}{r^2}$, khi khoảng cách tăng từ $r$ lên $2r$ thì $E_N=\dfrac{E}{4}$.
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. $\dfrac{E}{4}$.**
+    Với điện tích nguồn không đổi, $E\propto1/r^2$. Khoảng cách tăng 2 lần thì cường độ còn $1/4$. Chọn A.
 #### Bài 77
 
 <!-- source-id: BT-Chuong-III-p50-q8-147 -->
@@ -1524,7 +1527,9 @@ D. Cường độ điện trường có phương là đường thẳng nối M v
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** B
+
     **Hướng dẫn giải:**
+
     Cường độ điện trường có độ lớn tỉ lệ nghịch với bình phương r.
 
 #### Bài 78
@@ -1544,13 +1549,10 @@ D. không đổi.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
+
     **Hướng dẫn giải:**
 
-    Dùng $E=F/q_0=k|Q|/(\varepsilon r^2)$; $\vec E$ hướng ra xa điện tích dương và hướng về điện tích âm.
-
-    → Cường độ điện trường không phụ thuộc vào độ lớn điện tích thử.
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **D. không đổi.**
+    Cường độ điện trường tại một điểm không phụ thuộc điện tích thử; thay điện tích thử chỉ làm lực $\vec F=q\vec E$ thay đổi tương ứng. Chọn D.
 #### Bài 79
 
 <!-- source-id: BT-Chuong-III-p50-q10-149 -->
@@ -1569,6 +1571,7 @@ D. độ lớn tính theo công thức $E_M=k|Q|/(\varepsilon r)$.
     **Đáp án:** B.
 
     **Hướng dẫn giải:**
+
     Vectơ cường độ điện trường do điện tích điểm dương gây ra hướng từ điện tích ra xa; vì vậy B đúng.
 
 #### Bài 80
@@ -1587,7 +1590,9 @@ D. tốc độ dịch chuyển điện tích tại điểm đó.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** B
+
     **Hướng dẫn giải:**
+
     Cường độ điện trường tại một điểm đặc trưng cho tác dụng lực của điện trường lên điện tích tại điểm đó.
 
 #### Bài 81
@@ -1607,11 +1612,10 @@ D. $E=6000\,\mathrm{V/m}$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
+
     **Hướng dẫn giải:**
 
-    Dùng $E=F/q_0=k|Q|/(\varepsilon r^2)$; $\vec E$ hướng ra xa điện tích dương và hướng về điện tích âm.
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. $E=5400\,\mathrm{V/m}$.**
+    Với $q=6\cdot10^{-9}\,\mathrm C$ và $r=0{,}10\,\mathrm m$, $E=9\cdot10^9\cdot6\cdot10^{-9}/0{,}10^2=5400\,\mathrm{V/m}$. Chọn A.
 #### Bài 82
 
 <!-- source-id: BT-Chuong-III-p51-q14-153 -->
@@ -1628,7 +1632,9 @@ D. năng lượng.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
+
     **Hướng dẫn giải:**
+
     Cường độ điện trường tại một điểm là đại lượng đặc trưng cho điện trường về khả năng tác dụng lực.
 
 #### Bài 83
@@ -1648,13 +1654,10 @@ D. $k\dfrac{|Q|}{2r}$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** B
+
     **Hướng dẫn giải:**
 
-    Dùng $E=F/q_0=k|Q|/(\varepsilon r^2)$; $\vec E$ hướng ra xa điện tích dương và hướng về điện tích âm.
-
-    Trong chân không, $\varepsilon=1$, nên $E_M=k\dfrac{|Q|}{r^2}$.
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **B. $k\dfrac{|Q|}{r^2}$.**
+    Độ lớn điện trường của điện tích điểm trong chân không là $E=k|Q|/r^2$. Biểu thức tương ứng là phương án B.
 #### Bài 84
 
 <!-- source-id: BT-Chuong-III-p51-q17-156 -->
@@ -1674,6 +1677,7 @@ D. $9000\,\mathrm{V/m}$
     **Đáp án:** C
 
     **Hướng dẫn giải:**
+
     $E=k\dfrac{|q|}{r^2}=9\cdot10^9\dfrac{5\cdot10^{-9}}{(0{,}05)^2}=1{,}8\cdot10^4\,\mathrm{V/m}=18000\,\mathrm{V/m}$.
     Chọn C.
 
@@ -1683,33 +1687,30 @@ D. $9000\,\mathrm{V/m}$
 
 <!-- source-id: BT-Chuong-III-p41-q1-122 -->
 
-Đặt một điện tích Q = $10^{-6}$ C và một môi trường có hằng số điện môi bằng 3.
+Đặt một điện tích $Q=10^{-6}\,\mathrm C$ và một môi trường có hằng số điện môi bằng 3.
 
-a) Cường độ điện trường tại điểm M cách Q 2 cm là $25\cdot10^{5}$ (V/m).
+a) Cường độ điện trường tại điểm M cách Q $2\,\mathrm{cm}$ là $25\cdot10^{5}$ (V/m).
 
-b) Lực điện tác dụng lên điện tích Q là 2,5 N
+b) Lực điện tác dụng lên điện tích Q là $2,5\,\mathrm N$
 
-c) Cường độ điện trường tại M cách Q 2 cm nếu đặt Q trong không khí là $225\cdot10^{5}$ (V/m).
+c) Cường độ điện trường tại M cách Q $2\,\mathrm{cm}$ nếu đặt Q trong không khí là $225\cdot10^{5}$ (V/m).
 
-d) Cường độ điện trường tại N cách Q 4 cm là $50\cdot10^{5}$ V/m.
+d) Cường độ điện trường tại N cách Q $4\,\mathrm{cm}$ là $50\cdot10^{5}\,\mathrm{V/m}$.
 
 ??? success "Đáp án và lời giải"
-    **Kết luận sau kiểm tra:** a) Sai; b) Sai; c) Đúng; d) Sai.
+    **Đáp án:** a) Sai; b) Sai; c) Đúng; d) Sai
 
     **Hướng dẫn giải:**
-    a) Trong môi trường $\varepsilon=3$ tại $r=2\,\mathrm{cm}$:
-    $E_M=\dfrac{k|Q|}{\varepsilon r^2}=\dfrac{9\cdot10^9\cdot10^{-6}}{3(0{,}02)^2}=7{,}5\cdot10^6\,\mathrm{V/m}=75\cdot10^5\,\mathrm{V/m}$, không phải $25\cdot10^5\,\mathrm{V/m}$.
 
-    b) Đề không cho một điện trường ngoài tác dụng lên chính điện tích nguồn $Q$, nên không thể suy ra lực điện tác dụng lên $Q$ bằng $2{,}5\,\mathrm N$. Nếu lấy $E_M$ ở câu a) làm điện trường tác dụng lên một điện tích thử $10^{-6}\,\mathrm C$ thì lực cũng là $7{,}5\,\mathrm N$, không phải $2{,}5\,\mathrm N$.
+    a) **Sai.** Với $\varepsilon=3$, $r=0{,}02\,\mathrm m$: $E_M=9\cdot10^9\cdot10^{-6}/[3(0{,}02)^2]=7{,}5\cdot10^6\,\mathrm{V/m}=75\cdot10^5\,\mathrm{V/m}$, không phải $25\cdot10^5\,\mathrm{V/m}$.
 
-    c) Trong không khí ($\varepsilon\approx1$):
-    $E_M=\dfrac{9\cdot10^9\cdot10^{-6}}{(0{,}02)^2}=2{,}25\cdot10^7\,\mathrm{V/m}=225\cdot10^5\,\mathrm{V/m}$, nên c) đúng.
+    b) **Sai.** Đề chỉ cho một điện tích nguồn $Q$ và không cho điện trường ngoài hay điện tích thứ hai tác dụng lên nó, nên không thể suy ra lực điện lên chính $Q$ bằng $2{,}5\,\mathrm N$. Dùng điện trường do $Q$ tự tạo tại M để tính “lực lên Q” là không hợp lệ.
 
-    d) Tại $r=4\,\mathrm{cm}$ trong môi trường $\varepsilon=3$:
-    $E_N=\dfrac{9\cdot10^9\cdot10^{-6}}{3(0{,}04)^2}=1{,}875\cdot10^6\,\mathrm{V/m}=18{,}75\cdot10^5\,\mathrm{V/m}$, không phải $50\cdot10^5\,\mathrm{V/m}$.
+    c) **Đúng.** Trong không khí, $E_M=9\cdot10^9\cdot10^{-6}/(0{,}02)^2=2{,}25\cdot10^7\,\mathrm{V/m}=225\cdot10^5\,\mathrm{V/m}$.
 
-    **Đối chiếu nguồn:** bảng nguồn đánh b) Đúng và phần hướng dẫn dùng $F=QE_M$ cho chính điện tích nguồn; cách lập luận này không hợp lệ và phép số trong nguồn cũng tự mâu thuẫn. Kết luận trên dựa trên dữ kiện của đề và công thức điện trường của điện tích điểm.
+    d) **Sai.** Ở $r=0{,}04\,\mathrm m$, $\varepsilon=3$: $E_N=1{,}875\cdot10^6\,\mathrm{V/m}=18{,}75\cdot10^5\,\mathrm{V/m}$, không phải $50\cdot10^5\,\mathrm{V/m}$.
 
+    **Đối chiếu nguồn:** bảng nguồn đánh b) Đúng và phần hướng dẫn dùng $F=QE_M$ cho chính điện tích nguồn. Mô hình đó không hợp lệ; phép số trong nguồn cũng tự mâu thuẫn.
 #### Bài 86
 
 <!-- source-id: BT-Chuong-III-p41-q2-123 -->
@@ -1725,21 +1726,19 @@ c) Đặt điện tích trong chất lỏng có hằng số điện môi $\varep
 d) Vectơ cường độ điện trường tại M cách O $5\,\mathrm{cm}$ hướng vào điện tích $q$.
 
 ??? success "Đáp án và lời giải"
-    **Đáp án theo nguồn:** a) Sai; b) Sai; c) Đúng; d) Sai.
+    **Đáp án:** a) Sai; b) Sai; c) Đúng; d) Sai
 
     **Hướng dẫn giải:**
 
-    a) Theo công thức $E=\dfrac{k|q|}{r^2}$, với $r=0{,}05\,\mathrm m$, PDF tính được $E=21600\,\mathrm{V/m}$, nên phát biểu $3600\,\mathrm{V/m}$ là sai.
+    a) **Sai.** $E=9\cdot10^9\cdot6\cdot10^{-9}/(0{,}05)^2=21600\,\mathrm{V/m}$, không phải $3600\,\mathrm{V/m}$.
 
-    b) **Sai.** Nếu điện tích $q=6\cdot10^{-9}\,\mathrm C$ chịu lực $F=2\cdot10^{-4}\,\mathrm N$ thì
-    $E=\dfrac{F}{|q|}=\dfrac{2\cdot10^{-4}}{6\cdot10^{-9}}\approx3{,}33\cdot10^4\,\mathrm{V/m}$, không phải $21600\,\mathrm{V/m}$.
+    b) **Sai.** Nếu $q=6\cdot10^{-9}\,\mathrm C$ chịu lực $F=2\cdot10^{-4}\,\mathrm N$ thì $E=F/|q|\approx3{,}33\cdot10^4\,\mathrm{V/m}$, không phải $21600\,\mathrm{V/m}$.
 
-    c) **Đúng.** Từ $21600=\dfrac{9\cdot10^9\cdot6\cdot10^{-9}}{16r^2}$ suy ra $r=0{,}0125\,\mathrm m=1{,}25\,\mathrm{cm}$.
+    c) **Đúng.** $21600=9\cdot10^9\cdot6\cdot10^{-9}/(16r^2)$ cho $r=0{,}0125\,\mathrm m=1{,}25\,\mathrm{cm}$.
 
-    d) **Sai.** Vì $q>0$, $\vec E$ hướng ra xa điện tích.
+    d) **Sai.** Vì $q>0$, $\vec E$ do q tạo ra hướng ra xa điện tích.
 
-    **Đối chiếu nguồn:** ở câu b), mệnh đề ghi lực $2\cdot10^{-4}\,\mathrm N$ nhưng dòng thế số trong hướng dẫn PDF lại dùng $3\cdot10^{-4}\,\mathrm N$ để thu được $50000\,\mathrm{V/m}$. Kết luận b) vẫn là Sai, nhưng phép tính trên dùng đúng dữ kiện in trong mệnh đề.
-
+    **Đối chiếu nguồn:** ở b), mệnh đề in $2\cdot10^{-4}\,\mathrm N$ nhưng hướng dẫn PDF lại thế $3\cdot10^{-4}\,\mathrm N$. Kết luận b) vẫn Sai; phép tính trên dùng đúng dữ kiện in trong mệnh đề.
 #### Bài 87
 
 <!-- source-id: BT-Chuong-III-p42-q3-124 -->
@@ -1758,6 +1757,7 @@ d) Nếu đặt điện tích trong dầu có hằng số điện môi bằng 2 
     **Đáp án:** a) Đúng; b) Đúng; c) Sai; d) Sai.
 
     **Hướng dẫn giải:**
+
     a) **Đúng.** Vì $Q<0$, $\vec E$ tại A hướng về Q.
 
     b) **Đúng.** $E=k|Q|/r^2=9\cdot10^9\cdot8\cdot10^{-13}/0{,}02^2=18\,\mathrm{V/m}$.
@@ -1781,10 +1781,11 @@ c) Nếu đặt điện tích q trong không khí thì điện trường tại M
 d) Điểm N cách điện tích q một khoảng $r=17\,\mathrm{cm}$ có cường độ điện trường xấp xỉ $3{,}5\cdot10^4\,\mathrm{V/m}$.
 
 ??? success "Đáp án và lời giải"
-    **Kết luận sau kiểm tra:** a) Đúng; b) Đúng; c) Đúng; d) Đúng.
+    **Đáp án:** a) Đúng; b) Đúng; c) Đúng; d) Đúng.
 
     **Hướng dẫn giải:**
-    a) Từ $E=\dfrac{k|q|}{\varepsilon r^2}$:
+
+    a) **Đúng.** Từ $E=\dfrac{k|q|}{\varepsilon r^2}$:
     $|q|=\dfrac{E\varepsilon r^2}{k}=\dfrac{1{,}5\cdot10^4\cdot81\cdot(0{,}26)^2}{9\cdot10^9}=9{,}126\cdot10^{-6}\,\mathrm C$, nên a) đúng.
 
     b) **Đúng.** Với cùng $q$ và $r$, $E\propto1/\varepsilon$. Chuyển từ nước ($\varepsilon=81$) sang không khí ($\varepsilon\approx1$) làm cường độ điện trường tăng 81 lần.
@@ -1801,27 +1802,28 @@ d) Điểm N cách điện tích q một khoảng $r=17\,\mathrm{cm}$ có cườ
 <!-- source-id: BT-Chuong-III-p44-q6-127 -->
 
 Một điện tích điểm dương Q trong chân không gây ra tại điểm M cách điện tích một khoảng r =
-30cm, một điện trường có cường độ E = 30000V/m.
+$30\,\mathrm{cm}$, một điện trường có cường độ $E=30000\,\mathrm{V/m}$.
 
 a) Vectơ cường độ điện trường tại M hướng ra xa Q
 
 b) Độ lớn của điện tích Q là $3\cdot10^{-7}$ (C)
 
-c) Cường độ điện trường tại M là 15000 V/m nếu đặt M trong dầu (có hằng số điện môi là 2)
+c) Cường độ điện trường tại M là $15000\,\mathrm{V/m}$ nếu đặt M trong dầu (có hằng số điện môi là 2)
 
-d) Tăng khoảng cách từ M đến điện tích lên 5 lần thì cường độ điện trường có giá trị là 750000 V/m
+d) Tăng khoảng cách từ M đến điện tích lên 5 lần thì cường độ điện trường có giá trị là $750000\,\mathrm{V/m}$
 
 ??? success "Đáp án và lời giải"
-    **Kết luận:** a) Đúng; b) Đúng; c) Đúng; d) Sai.
+    **Đáp án:** a) Đúng; b) Đúng; c) Đúng; d) Sai.
 
     **Hướng dẫn giải:**
-    a) Vì $Q>0$, $\vec E$ tại M hướng ra xa Q.
 
-    b) $Q=\dfrac{Er^2}{k}=\dfrac{30000\cdot(0{,}30)^2}{9\cdot10^9}=3\cdot10^{-7}\,\mathrm C$, nên b) đúng.
+    a) **Đúng.** Vì $Q>0$, $\vec E$ tại M hướng ra xa Q.
 
-    c) Trong dầu có $\varepsilon=2$, cường độ điện trường giảm 2 lần còn $15000\,\mathrm{V/m}$, nên c) đúng.
+    b) **Đúng.** $Q=\dfrac{Er^2}{k}=\dfrac{30000\cdot(0{,}30)^2}{9\cdot10^9}=3\cdot10^{-7}\,\mathrm C$, nên b) đúng.
 
-    d) Vì $E\propto1/r^2$, khi khoảng cách tăng 5 lần thì $E'=E/25=1200\,\mathrm{V/m}$, không phải $750000\,\mathrm{V/m}$; d) sai.
+    c) **Đúng.** Trong dầu có $\varepsilon=2$, cường độ điện trường giảm 2 lần còn $15000\,\mathrm{V/m}$, nên c) đúng.
+
+    d) **Sai.** Vì $E\propto1/r^2$, khi khoảng cách tăng 5 lần thì $E'=E/25=1200\,\mathrm{V/m}$, không phải $750000\,\mathrm{V/m}$; d) sai.
 
 #### Bài 90
 
@@ -1841,6 +1843,7 @@ d) Tăng khoảng cách từ M đến Q lên 2 lần thì cường độ điện
     **Đáp án:** a) Sai; b) Đúng; c) Sai; d) Đúng.
 
     **Hướng dẫn giải:**
+
     a) **Sai.** Độ lớn cường độ điện trường không phụ thuộc điện tích thử, nên vẫn là $10^5\,\mathrm{V/m}$.
 
     b) **Đúng.** Tăng điện tích thử không làm thay đổi $E$ tại M.
@@ -1868,11 +1871,12 @@ d) Nếu đặt điện tích q trong dầu ($\varepsilon=2$) thì cường đ�
     **Đáp án:** a) Sai; b) Đúng; c) Đúng; d) Đúng.
 
     **Hướng dẫn giải:**
-    a) **Sai theo bảng đáp án nguồn.** Phần lời giải in trong PDF ghi “hướng vào điện tích q vì $q>0$”, mâu thuẫn với chính bảng đáp án; giữ nguyên điểm mâu thuẫn để review học thuật ở lượt sau.
+
+    a) **Sai.** Vì $q>0$, vectơ cường độ điện trường do q tạo ra tại A hướng **ra xa** q. Phát biểu “hướng vào điện tích q” là sai.
 
     b) **Đúng.** $E=k|q|/r^2\Rightarrow10^5=9\cdot10^9|q|/0{,}03^2\Rightarrow|q|=10^{-8}\,\mathrm C$.
 
     c) **Đúng.** Khi khoảng cách tăng từ $3$ lên $6\,\mathrm{cm}$, $E$ giảm 4 lần còn $25000\,\mathrm{V/m}$.
-    **Đối chiếu nguồn:** dòng hướng dẫn PDF in “10 cm”, nhưng mệnh đề gốc ghi $6\,\mathrm{cm}$ và giá trị $25000\,\mathrm{V/m}$ tương ứng với $6\,\mathrm{cm}$.
+    **Đối chiếu nguồn:** ở a), phần hướng dẫn PDF ghi “hướng vào điện tích q vì $q>0$”, trái với quy tắc hướng của điện trường do điện tích dương và cũng trái bảng đáp án. Ở c), hướng dẫn PDF in “$10\,\mathrm{cm}$”, nhưng mệnh đề gốc ghi $6\,\mathrm{cm}$ và giá trị $25000\,\mathrm{V/m}$ tương ứng với $6\,\mathrm{cm}$. Hai điểm này được sửa theo dữ kiện và mô hình điện tích điểm.
 
     d) **Đúng.** Trong dầu có $\varepsilon=2$, $E$ giảm 2 lần còn $50000\,\mathrm{V/m}$.

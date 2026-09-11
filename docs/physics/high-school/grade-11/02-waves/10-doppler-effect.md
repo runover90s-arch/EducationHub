@@ -139,7 +139,7 @@ Một cách kiểm tra nhanh rất hữu ích:
 
 ## 6. Ví dụ 1 — Người nghe tiến về nguồn đứng yên
 
-Một còi phát âm $f_0=600$ Hz. Tốc độ âm $v=340$ m/s. Người nghe chạy về phía nguồn với $v_M=10$ m/s.
+Một còi phát âm $f_0=600\,\mathrm{Hz}$. Tốc độ âm $v=340\,\mathrm{m/s}$. Người nghe chạy về phía nguồn với $v_M=10\,\mathrm{m/s}$.
 
 Ta có:
 
@@ -151,7 +151,7 @@ Người nghe tiến về nguồn nên nghe âm cao hơn.
 
 ## 7. Ví dụ 2 — Nguồn tiến về người nghe
 
-Xe cứu thương phát còi $f_0=800$ Hz, chạy về phía người đứng yên với $v_S=20$ m/s. Lấy $v=340$ m/s.
+Xe cứu thương phát còi $f_0=800\,\mathrm{Hz}$, chạy về phía người đứng yên với $v_S=20\,\mathrm{m/s}$. Lấy $v=340\,\mathrm{m/s}$.
 
 $$
 f'=800\frac{340}{340-20}=850\text{ Hz}.
@@ -167,7 +167,7 @@ Sự đổi cao độ đột ngột khi xe vừa đi qua người nghe chính l�
 
 ## 8. Ví dụ 3 — Cả nguồn và máy thu cùng chuyển động
 
-Nguồn phát $f_0=1000$ Hz. Nguồn đi sang phải với 15 m/s, người nghe ở phía trước cũng đi sang phải với 5 m/s. Hai vật đang **tiến gần nhau hay xa nhau**?
+Nguồn phát $f_0=1000\,\mathrm{Hz}$. Nguồn đi sang phải với $15\,\mathrm{m/s}$, người nghe ở phía trước cũng đi sang phải với $5\,\mathrm{m/s}$. Hai vật đang **tiến gần nhau hay xa nhau**?
 
 Nguồn phía sau chạy nhanh hơn nên khoảng cách giảm: nguồn tiến về máy thu. Máy thu lại chạy cùng chiều sóng, tức chạy ra xa nguồn.
 
@@ -177,7 +177,7 @@ $$
 f'=1000\frac{340-5}{340-15}\approx1030,8\text{ Hz}.
 $$
 
-Kết quả lớn hơn 1000 Hz, phù hợp trực giác vì khoảng cách giữa nguồn và máy thu đang giảm.
+Kết quả lớn hơn $1000\,\mathrm{Hz}$, phù hợp trực giác vì khoảng cách giữa nguồn và máy thu đang giảm.
 
 ## 9. Sóng phản xạ và bài toán "hai lần Doppler"
 

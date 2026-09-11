@@ -15,9 +15,12 @@ tags:
 
 Trong kim loại, hạt tải điện chủ yếu là:
 
-A. proton.  
-B. electron dẫn.  
-C. ion dương.  
+A. proton.
+
+B. electron dẫn.
+
+C. ion dương.
+
 D. lỗ trống.
 
 ??? success "Đáp án"
@@ -27,9 +30,12 @@ D. lỗ trống.
 
 Trong chất điện phân, dòng điện do:
 
-A. chỉ electron.  
-B. chỉ ion dương.  
-C. ion dương và ion âm chuyển động có hướng.  
+A. chỉ electron.
+
+B. chỉ ion dương.
+
+C. ion dương và ion âm chuyển động có hướng.
+
 D. photon.
 
 ??? success "Đáp án"
@@ -39,9 +45,12 @@ D. photon.
 
 Với kim loại trong miền tuyến tính, khi nhiệt độ tăng thì điện trở thường:
 
-A. tăng.  
-B. giảm về 0.  
-C. không đổi.  
+A. tăng.
+
+B. giảm về 0.
+
+C. không đổi.
+
 D. đổi dấu.
 
 ??? success "Đáp án"
@@ -51,9 +60,12 @@ D. đổi dấu.
 
 Định luật Faraday cho điện phân cho thấy khối lượng chất giải phóng tỉ lệ với:
 
-A. $I/t$.  
-B. $It$.  
-C. $I^2t$.  
+A. $I/t$.
+
+B. $It$.
+
+C. $I^2t$.
+
 D. $U^2t$.
 
 ??? success "Đáp án"
@@ -63,9 +75,12 @@ D. $U^2t$.
 
 Không khí bình thường dẫn điện kém chủ yếu vì:
 
-A. không có phân tử.  
-B. mật độ hạt tải tự do rất nhỏ.  
-C. electron không mang điện.  
+A. không có phân tử.
+
+B. mật độ hạt tải tự do rất nhỏ.
+
+C. electron không mang điện.
+
 D. không có điện trường nào tồn tại được.
 
 ??? success "Đáp án"
@@ -75,9 +90,12 @@ D. không có điện trường nào tồn tại được.
 
 Bán dẫn loại n có hạt tải đa số là:
 
-A. proton.  
-B. lỗ trống.  
-C. electron.  
+A. proton.
+
+B. lỗ trống.
+
+C. electron.
+
 D. ion âm tự do trong dung dịch.
 
 ??? success "Đáp án"
@@ -87,9 +105,12 @@ D. ion âm tự do trong dung dịch.
 
 Tia catot là:
 
-A. tia gamma.  
-B. sóng âm.  
-C. chùm electron.  
+A. tia gamma.
+
+B. sóng âm.
+
+C. chùm electron.
+
 D. chùm proton.
 
 ??? success "Đáp án"
@@ -99,9 +120,12 @@ D. chùm proton.
 
 Nếu hai bình điện phân mắc nối tiếp thì đại lượng chắc chắn giống nhau trong cùng thời gian là:
 
-A. khối lượng giải phóng.  
-B. hóa trị.  
-C. điện lượng đi qua.  
+A. khối lượng giải phóng.
+
+B. hóa trị.
+
+C. điện lượng đi qua.
+
 D. đương lượng điện hóa.
 
 ??? success "Đáp án"
@@ -111,9 +135,12 @@ D. đương lượng điện hóa.
 
 Phát biểu đúng về siêu dẫn là:
 
-A. mọi kim loại đều siêu dẫn ở 0°C.  
-B. đó chỉ là hệ quả tuyến tính của R giảm theo nhiệt độ.  
-C. một số vật liệu có thể chuyển sang trạng thái điện trở DC gần bằng 0 dưới nhiệt độ tới hạn.  
+A. mọi kim loại đều siêu dẫn ở 0°C.
+
+B. đó chỉ là hệ quả tuyến tính của R giảm theo nhiệt độ.
+
+C. một số vật liệu có thể chuyển sang trạng thái điện trở DC gần bằng 0 dưới nhiệt độ tới hạn.
+
 D. trạng thái siêu dẫn không bao giờ bị phá bởi từ trường.
 
 ??? success "Đáp án"
@@ -123,9 +150,12 @@ D. trạng thái siêu dẫn không bao giờ bị phá bởi từ trường.
 
 Tế bào quang điện chân không tạo hạt tải nhờ:
 
-A. ion hóa dung dịch.  
-B. ánh sáng làm electron phát khỏi catot.  
-C. proton thoát khỏi kim loại.  
+A. ion hóa dung dịch.
+
+B. ánh sáng làm electron phát khỏi catot.
+
+C. proton thoát khỏi kim loại.
+
 D. lỗ trống rời tinh thể vào chân không.
 
 ??? success "Đáp án"

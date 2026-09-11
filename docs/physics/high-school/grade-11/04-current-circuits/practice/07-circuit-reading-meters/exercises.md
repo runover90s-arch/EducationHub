@@ -9,7 +9,6 @@ tags:
 
 # Bài tập — Bài 7 — Đọc và biến đổi mạch; ampe kế, vôn kế lí tưởng
 
-> Hệ bài tập được biên soạn theo các dạng xuất hiện trong bộ tài liệu Vật lí 11 của dự án. Câu hỏi được giữ ngắn, trực tiếp; độ khó tăng dần và không cố tình thêm dữ kiện gây nhiễu.
 
 [← Trở lại bài học](../../07-circuit-reading-meters.md)
 
@@ -23,7 +22,7 @@ A. bằng 0.
 
 B. vô hạn.
 
-C. bằng 1 Ω.
+C. bằng $1\,\Omega$.
 
 D. thay đổi tùy dòng.
 
@@ -90,10 +89,13 @@ c) Vôn kế lí tưởng được thay bằng nhánh hở khi tính dòng mạc
 d) Hai điện trở có một đầu chung thì chắc chắn mắc song song.
 
 ??? success "Đáp án và lời giải"
-    a) **Đúng**.
-    b) **Đúng**.
-    c) **Đúng**.
-    d) **Sai**: muốn song song phải chung cả hai nút đầu cuối.
+    a) **Đúng.** Dây dẫn lí tưởng có điện trở bằng $0$, nên không có độ giảm điện thế dọc dây khi có dòng hữu hạn.
+
+    b) **Đúng.** Ampe kế lí tưởng có điện trở trong bằng $0$, nên khi phân tích mạch nó tương đương một đoạn dây nối.
+
+    c) **Đúng.** Vôn kế lí tưởng có điện trở vô cùng lớn nên dòng qua nhánh vôn kế bằng $0$, tương đương nhánh hở.
+
+    d) **Sai.** muốn song song phải chung cả hai nút đầu cuối.
 
 ### Bài 6 — Mức 2 — Thông hiểu
 
@@ -108,39 +110,42 @@ c) Vôn kế lí tưởng đo áp trên R1 nếu mắc song song hai đầu R1.
 d) Ampe kế lí tưởng phải mắc song song R1 để đo dòng qua R1.
 
 ??? success "Đáp án và lời giải"
-    a) **Đúng**.
-    b) **Đúng**.
-    c) **Đúng**.
-    d) **Sai**: ampe kế phải mắc nối tiếp với nhánh cần đo.
+    a) **Đúng.** Nếu hai điện trở mắc nối tiếp thì không có nút phân nhánh giữa chúng, nên cường độ dòng điện qua hai điện trở bằng nhau.
+
+    b) **Đúng.** Trong mạch nối tiếp cùng dòng $I$, $U_i=IR_i$ nên $U_1/U_2=R_1/R_2$.
+
+    c) **Đúng.** Vôn kế mắc song song với hai đầu $R_1$ đo đúng hiệu điện thế giữa chính hai nút đó và không làm đổi mạch trong mô hình lí tưởng.
+
+    d) **Sai.** ampe kế phải mắc nối tiếp với nhánh cần đo.
 
 ## Phần C — Trả lời ngắn
 
 ### Bài 7 — Mức 3 — Vận dụng
 
-R1=$4\,\Omega$, R2=$6\,\Omega$ nối tiếp vào 20 V. Ampe kế lí tưởng nối tiếp mạch chỉ bao nhiêu? Vôn kế lí tưởng mắc hai đầu R2 chỉ bao nhiêu?
+$R_1=4\,\Omega$, $R_2=6\,\Omega$ nối tiếp vào $20\,\mathrm V$. Ampe kế lí tưởng nối tiếp mạch chỉ bao nhiêu? Vôn kế lí tưởng mắc hai đầu R2 chỉ bao nhiêu?
 
 ??? success "Đáp án và lời giải"
-    $R_t=10\,\Omega$, $I=20/10=2$ A. Vôn kế trên R2: $U_2=IR_2=12$ V.
+    $R_t=10\,\Omega$, $I=20/10=2\,\mathrm A$. Vôn kế trên R2: $U_2=IR_2=12\,\mathrm V$.
 
 ### Bài 8 — Mức 3 — Vận dụng
 
-R1=$6\,\Omega$, R2=$3\,\Omega$ song song dưới 12 V. Tính dòng mạch chính và dòng mỗi nhánh.
+$R_1=6\,\Omega$, $R_2=3\,\Omega$ song song dưới $12\,\mathrm V$. Tính dòng mạch chính và dòng mỗi nhánh.
 
 ??? success "Đáp án và lời giải"
-    $I_1=12/6=2$ A; $I_2=12/3=4$ A. Dòng chính $I=6$ A.
+    $I_1=12/6=2\,\mathrm A$; $I_2=12/3=4\,\mathrm A$. Dòng chính $I=6\,\mathrm A$.
 
 ### Bài 9 — Mức 3 — Vận dụng
 
-Một mạch có R1=$2\,\Omega$ nối tiếp với bộ song song R2=$3\,\Omega$, R3=$6\,\Omega$. Đặt 12 V. Tính dòng qua từng điện trở.
+Một mạch có $R_1=2\,\Omega$ nối tiếp với bộ song song $R_2=3\,\Omega$, $R_3=6\,\Omega$. Đặt $12\,\mathrm V$. Tính dòng qua từng điện trở.
 
 ??? success "Đáp án và lời giải"
-    $R_{23}=3\cdot6/(3+6)=2\,\Omega$. Tổng $R=4\,\Omega$, dòng chính và qua R1: $I_1=3$ A. Điện áp trên bộ song song $U_{23}=3\cdot2=6$ V. $I_2=6/3=2$ A; $I_3=6/6=1$ A.
+    $R_{23}=3\cdot6/(3+6)=2\,\Omega$. Tổng $R=4\,\Omega$, dòng chính và qua R1: $I_1=3\,\mathrm A$. Điện áp trên bộ song song $U_{23}=3\cdot2=6\,\mathrm V$. $I_2=6/3=2\,\mathrm A$; $I_3=6/6=1\,\mathrm A$.
 
 ## Phần D — Vận dụng và vận dụng cao
 
 ### Bài 10 — Mức 4 — Vận dụng cao
 
-Mạch cầu gồm bốn điện trở: R1=2 Ω, R2=4 Ω ở nhánh trên; R3=3 Ω, R4=6 Ω ở nhánh dưới, nối giữa cùng hai nút nguồn. Một vôn kế lí tưởng nối giữa hai điểm giữa hai nhánh. Chứng minh vôn kế chỉ 0.
+Mạch cầu gồm bốn điện trở: $R_1=2\,\Omega$, $R_2=4\,\Omega$ ở nhánh trên; $R_3=3\,\Omega$, $R_4=6\,\Omega$ ở nhánh dưới, nối giữa cùng hai nút nguồn. Một vôn kế lí tưởng nối giữa hai điểm giữa hai nhánh. Chứng minh vôn kế chỉ 0.
 
 ??? success "Đáp án và lời giải"
     Hai nhánh là các bộ chia điện áp độc lập vì vôn kế lí tưởng không lấy dòng.
@@ -209,11 +214,11 @@ d) Cường độ dòng điện qua điện trở $R_4$ là $2\,\mathrm A$.
 
     a) **Đúng.** $R_{\rm td}=R_{12}+R_{34}=3{,}6\ \Omega$.
 
-    b) **Sai.** Dòng mạch chính $I=18/3{,}6=5$ A; điện áp nhóm đầu $U_{12}=IR_{12}=6$ V, nên $U_1=6$ V, không phải $18$ V.
+    b) **Sai.** Dòng mạch chính $I=18/3{,}6=5\,\mathrm A$; điện áp nhóm đầu $U_{12}=IR_{12}=6\,\mathrm V$, nên $U_1=6\,\mathrm V$, không phải $18\,\mathrm V$.
 
-    c) **Sai.** $I_2=U_{12}/R_2=6/3=2$ A.
+    c) **Sai.** $I_2=U_{12}/R_2=6/3=2\,\mathrm A$.
 
-    d) **Đúng.** $U_{34}=18-6=12$ V nên $I_4=12/6=2$ A.
+    d) **Đúng.** $U_{34}=18-6=12\,\mathrm V$ nên $I_4=12/6=2\,\mathrm A$.
 
 #### Bài 13
 
@@ -245,3 +250,6 @@ d) Khi $K$ đóng, số chỉ của ampe kế là $0{,}375\,\mathrm A$.
     c) **Đúng.** Khi $K$ mở, ampe kế nằm nối tiếp với $R_3$ và dòng mạch chính $I=U/R_{\rm td}=6/8=0{,}75\,\mathrm A$.
 
     d) **Đúng.** Khi $K$ đóng, nhánh $R_4+[R_2\parallel R_3]$ có điện trở $8\ \Omega$, nên dòng nhánh là $6/8=0{,}75\,\mathrm A$. Hiệu điện thế trên $R_2\parallel R_3$ là $0{,}75\cdot2=1{,}5\,\mathrm V$, do đó ampe kế chỉ $I_3=1{,}5/4=0{,}375\,\mathrm A$.
+
+    !!! warning "Đối chiếu nguồn"
+        Đề nguồn cho $U_{AB}=6\,\mathrm V$, nhưng phần hướng dẫn của PDF lại thay bằng $12\,\mathrm V$ khi tính trường hợp $K$ đóng và vì thế đánh dấu mệnh đề d là Sai. Tính độc lập theo đúng dữ kiện đề cho $I_A=0{,}375\,\mathrm A$, nên mệnh đề d là **Đúng**.

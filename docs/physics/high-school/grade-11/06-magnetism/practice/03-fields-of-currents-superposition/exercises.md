@@ -9,7 +9,6 @@ tags:
 
 # Bài tập — Bài 3 — Từ trường của dòng điện và nguyên lí chồng chất
 
-> Hệ bài tập được biên soạn theo các dạng xuất hiện trong bộ tài liệu Vật lí 11 của dự án. Câu hỏi được giữ ngắn, trực tiếp; độ khó tăng dần và không cố tình thêm dữ kiện gây nhiễu.
 
 [← Trở lại bài học](../../03-fields-of-currents-superposition.md)
 
@@ -17,48 +16,72 @@ tags:
 
 ### Bài 1 — Mức 1 — Nhận biết
 
-Cảm ứng từ cách dây thẳng dài mang dòng I một khoảng r trong chân không là
+Cảm ứng từ tại điểm cách dây dẫn thẳng dài mang dòng điện $I$ một khoảng $r$ trong chân không là
 
-A. $B=\mu_0I/(2\pi r)$.
+A. $B=\dfrac{\mu_0I}{2\pi r}$.
 
 B. $B=\mu_0Ir$.
 
-C. $B=\mu_0I/(4\pi r^2)$.
+C. $B=\dfrac{\mu_0I}{4\pi r^2}$.
 
 D. $B=Ir/\mu_0$.
 
 ??? success "Đáp án và lời giải"
-    Chọn **A**.
+    **Đáp án:** A.
+
+    **Hướng dẫn giải:**
+
+    Với dây dẫn thẳng dài trong chân không,
+
+    $B=\frac{\mu_0I}{2\pi r}$,
+
+    nên chọn **A**. Công thức này áp dụng khi có thể coi dây đủ dài so với khoảng cách $r$ đến điểm xét.
 
 ### Bài 2 — Mức 1 — Nhận biết
 
-Tại tâm vòng dây tròn bán kính R mang dòng I một vòng, cảm ứng từ là
+Tại tâm vòng dây tròn một vòng bán kính $R$ mang dòng điện $I$ trong chân không, cảm ứng từ có độ lớn
 
-A. $\mu_0I/(2R)$.
+A. $\dfrac{\mu_0I}{2R}$.
 
-B. $\mu_0I/(2\pi R)$.
+B. $\dfrac{\mu_0I}{2\pi R}$.
 
 C. $\mu_0IR$.
 
-D. 0.
+D. $0$.
 
 ??? success "Đáp án và lời giải"
-    Chọn **A**.
+    **Đáp án:** A.
+
+    **Hướng dẫn giải:**
+
+    Tại tâm một vòng dây tròn trong chân không,
+
+    $B=\frac{\mu_0I}{2R}$.
+
+    Vì vậy chọn **A**.
 
 ### Bài 3 — Mức 1 — Nhận biết
 
-Ống dây dài có mật độ vòng n và dòng I, từ trường bên trong gần đều có
+Ống dây đủ dài, lõi không khí, có mật độ vòng dây $n$ và dòng điện $I$. Từ trường bên trong, bỏ qua hiệu ứng ở hai đầu, có độ lớn gần bằng
 
 A. $B=\mu_0nI$.
 
-B. $B=\mu_0I/(2\pi r)$.
+B. $B=\dfrac{\mu_0I}{2\pi r}$.
 
 C. $B=n/I$.
 
 D. $B=\mu_0n/I$.
 
 ??? success "Đáp án và lời giải"
-    Chọn **A** trong mô hình ống dây dài.
+    **Đáp án:** A.
+
+    **Hướng dẫn giải:**
+
+    Đối với ống dây đủ dài trong không khí/chân không và bỏ qua hiệu ứng ở hai đầu,
+
+    $B\approx\mu_0nI$,
+
+    với $n=N/L$ là số vòng trên một đơn vị chiều dài. Vì vậy chọn **A**.
 
 ## Phần B — Đúng/Sai
 
@@ -66,56 +89,95 @@ D. $B=\mu_0n/I$.
 
 Từ trường do dòng điện:
 
-a) Quanh dây thẳng dài, đường sức là các đường tròn đồng tâm quanh dây.
+a) Quanh dây thẳng dài, đường sức là các đường tròn đồng tâm có tâm nằm trên dây.
 
-b) Chiều xác định bằng quy tắc nắm tay phải.
+b) Chiều đường sức quanh dây thẳng được xác định bằng quy tắc nắm tay phải.
 
-c) Độ lớn B của dây thẳng tỉ lệ nghịch khoảng cách r.
+c) Với dây thẳng dài, độ lớn $B$ tỉ lệ nghịch với khoảng cách $r$ đến dây.
 
-d) Hai từ trường chồng chất cộng theo độ lớn mà không cần xét hướng.
+d) Khi nhiều từ trường chồng chất, chỉ cần cộng các độ lớn $B$ mà không xét hướng.
 
 ??? success "Đáp án và lời giải"
-    a) **Đúng**.
-    b) **Đúng**.
-    c) **Đúng**.
-    d) **Sai**: phải cộng vectơ.
+    **Đáp án:** a) Đúng; b) Đúng; c) Đúng; d) Sai.
+
+    **Hướng dẫn giải:**
+
+    a) **Đúng.** Trong các mặt phẳng vuông góc với dây thẳng dài, đường sức từ là các đường tròn đồng tâm có tâm trên trục dây.
+
+    b) **Đúng.** Nắm bàn tay phải sao cho ngón cái chỉ chiều dòng điện; các ngón còn lại khum theo chiều đường sức từ.
+
+    c) **Đúng.** Từ $B=\mu_0I/(2\pi r)$, khi $I$ không đổi thì $B\propto1/r$.
+
+    d) **Sai.** Nguyên lí chồng chất là cộng **vectơ**: $\vec B=\vec B_1+\vec B_2+\cdots$. Chỉ trong các trường hợp cùng phương mới có thể quy về cộng hoặc trừ độ lớn có xét chiều.
 
 ## Phần C — Trả lời ngắn
 
 ### Bài 5 — Mức 3 — Vận dụng
 
-Dây thẳng dài mang dòng 10 A. Tính B tại điểm cách dây 5 cm. Lấy $\mu_0=4\pi\cdot10^{-7}$ H/m.
+Dây thẳng dài mang dòng $10\,\mathrm A$. Tính $B$ tại điểm cách dây $5\,\mathrm{cm}$. Lấy $\mu_0=4\pi\cdot10^{-7}\,\mathrm{T\,m/A}$.
 
 ??? success "Đáp án và lời giải"
-    $B=\mu_0I/(2\pi r)=4\pi\cdot10^{-7}\cdot10/(2\pi\cdot0,05)=4\cdot10^{-5}$ T.
+    **Đáp án:** $B=4{,}0\cdot10^{-5}\,\mathrm T$.
+
+    **Hướng dẫn giải:**
+
+    Đổi $r=5\,\mathrm{cm}=0{,}05\,\mathrm m$. Với dây thẳng dài,
+
+    $B=\frac{\mu_0I}{2\pi r}=\frac{4\pi\cdot10^{-7}\cdot10}{2\pi\cdot0{,}05}=4{,}0\cdot10^{-5}\,\mathrm T$.
 
 ### Bài 6 — Mức 3 — Vận dụng
 
-Vòng dây bán kính 10 cm mang dòng 5 A. Tính B tại tâm.
+Vòng dây tròn một vòng bán kính $10\,\mathrm{cm}$ mang dòng $5\,\mathrm A$. Tính $B$ tại tâm trong chân không.
 
 ??? success "Đáp án và lời giải"
-    $B=\mu_0I/(2R)=4\pi\cdot10^{-7}\cdot5/(0,20)=\pi\cdot10^{-5}$ T $\approx3,14\cdot10^{-5}$ T.
+    **Đáp án:** $B\approx3{,}14\cdot10^{-5}\,\mathrm T$.
+
+    **Hướng dẫn giải:**
+
+    Đổi $R=10\,\mathrm{cm}=0{,}10\,\mathrm m$. Tại tâm một vòng dây,
+
+    $B=\frac{\mu_0I}{2R}=\frac{4\pi\cdot10^{-7}\cdot5}{2\cdot0{,}10}=\pi\cdot10^{-5}\,\mathrm T\approx3{,}14\cdot10^{-5}\,\mathrm T$.
 
 ### Bài 7 — Mức 3 — Vận dụng
 
-Ống dây dài có 1000 vòng trên chiều dài 0,50 m, dòng 0,8 A. Tính B bên trong.
+Ống dây dài có $N=1000$ vòng trên chiều dài $L=0{,}50\,\mathrm m$, dòng điện $I=0{,}8\,\mathrm A$. Tính $B$ bên trong, coi lõi là không khí và bỏ qua hiệu ứng ở hai đầu.
 
 ??? success "Đáp án và lời giải"
-    $n=N/l=2000$ vòng/m. $B=\mu_0nI=4\pi\cdot10^{-7}\cdot2000\cdot0,8\approx2,01\cdot10^{-3}$ T.
+    **Đáp án:** $B\approx2{,}01\cdot10^{-3}\,\mathrm T$.
+
+    **Hướng dẫn giải:**
+
+    Mật độ vòng dây là
+
+    $n=\frac{N}{L}=\frac{1000}{0{,}50}=2000\,\mathrm{m^{-1}}$.
+
+    Với ống dây dài lõi không khí,
+
+    $B=\mu_0nI=4\pi\cdot10^{-7}\cdot2000\cdot0{,}8\approx2{,}01\cdot10^{-3}\,\mathrm T$.
 
 ## Phần D — Vận dụng và vận dụng cao
 
 ### Bài 8 — Mức 4 — Vận dụng cao
 
-Hai dây thẳng dài song song cách nhau 20 cm, mang dòng $I_1=4$ A và $I_2=9$ A cùng chiều. Tìm điểm trên đoạn nối hai dây nơi từ trường tổng hợp bằng 0.
+Hai dây thẳng dài song song cách nhau $20\,\mathrm{cm}$, mang dòng $I_1=4\,\mathrm A$ và $I_2=9\,\mathrm A$ cùng chiều. Tìm điểm trên đoạn nối hai dây nơi từ trường tổng hợp bằng 0.
 
 ??? success "Đáp án và lời giải"
-    Giữa hai dây có dòng cùng chiều, từ trường do hai dây tại các điểm giữa ngược hướng. Gọi x là khoảng cách đến dây 1:
+    **Đáp án:** Điểm nằm giữa hai dây, cách dây mang $I_1=4\,\mathrm A$ khoảng $6{,}15\,\mathrm{cm}$.
 
-    $\mu_0I_1/(2\pi x)=\mu_0I_2/[2\pi(0,20-x)]$.
+    **Hướng dẫn giải:**
 
-    $I_1/x=I_2/(0,20-x)$.
+    Với hai dòng cùng chiều, tại các điểm **giữa** hai dây, hai vectơ cảm ứng từ ngược chiều; ở phía ngoài chúng cùng chiều nên không thể triệt tiêu.
 
-    $4(0,20-x)=9x$ nên $0,80=13x$, $x\approx0,0615$ m.
+    Gọi $d=0{,}20\,\mathrm m$ và $x$ là khoảng cách từ điểm cần tìm đến dây 1. Điều kiện triệt tiêu là $B_1=B_2$:
 
-    Vậy điểm nằm giữa hai dây, cách dây 4 A khoảng $6,15$ cm, gần dây có dòng nhỏ hơn.
+    $\frac{\mu_0I_1}{2\pi x}=\frac{\mu_0I_2}{2\pi(d-x)}$.
+
+    Rút gọn:
+
+    $\frac{4}{x}=\frac{9}{0{,}20-x}$.
+
+    Suy ra $4(0{,}20-x)=9x$, nên $0{,}80=13x$ và
+
+    $x\approx0{,}0615\,\mathrm m=6{,}15\,\mathrm{cm}$.
+
+    Điểm triệt tiêu nằm gần dây có dòng điện nhỏ hơn, phù hợp với kết quả trên.

@@ -26,34 +26,40 @@ Chọn **B**: chiều $\vec E$ là chiều điện thế giảm.
 Chọn **A** với cách đặt M ở phía điện thế cao hơn và N theo chiều $\vec E$.
 
 ## Bài 5
-a) **Đúng**.  
-b) **Đúng**.  
-c) **Đúng** vì $A=q(V_M-V_N)>0$.  
-d) **Sai**: dấu thế năng phụ thuộc mốc và hệ điện tích.
+a) **Đúng.** Lực điện tĩnh là lực thế nên công của lực điện chỉ phụ thuộc hai điểm đầu-cuối, không phụ thuộc quỹ đạo.
+
+b) **Đúng.** Với lực điện tĩnh là lực thế, đi theo đường kín trở về điểm ban đầu cho độ biến thiên thế năng bằng $0$, nên tổng công bằng $0$.
+
+c) **Đúng.** vì $A=q(V_M-V_N)>0$.
+
+d) **Sai.** dấu thế năng phụ thuộc mốc và hệ điện tích.
 
 ## Bài 6
-a) **Đúng**.  
-b) **Đúng** theo quy ước đang dùng.  
-c) **Đúng**.  
-d) **Sai**: $d$ phải là độ dịch chuyển theo phương điện trường giữa hai mặt đẳng thế tương ứng.
+a) **Đúng.** Điện thế $V$ là năng lượng điện thế trên một đơn vị điện tích và không có hướng, nên là đại lượng vô hướng.
+
+b) **Đúng.** theo quy ước đang dùng.
+
+c) **Đúng.** Từ định nghĩa $V=W/q$, đơn vị của điện thế là jun trên culông; do đó $1\,\mathrm V=1\,\mathrm{J/C}$.
+
+d) **Sai.** $d$ phải là độ dịch chuyển theo phương điện trường giữa hai mặt đẳng thế tương ứng.
 
 ## Bài 7
-$A=q(V_M-V_N)=2\cdot10^{-6}(120-20)=2\cdot10^{-4}$ J.
+$A=q(V_M-V_N)=2\cdot10^{-6}(120-20)=2\cdot10^{-4}\,\mathrm J$.
 
 ## Bài 8
-$U=Ed=2\cdot10^4\cdot5\cdot10^{-3}=100$ V.
+$U=Ed=2\cdot10^4\cdot5\cdot10^{-3}=100\,\mathrm V$.
 
 ## Bài 9
-Độ tăng động năng của electron qua hiệu điện thế 200 V là $200$ eV. Nếu đổi sang J: $200\cdot1,6\cdot10^{-19}=3,2\cdot10^{-17}$ J.
+Độ tăng động năng của electron qua hiệu điện thế $200\,\mathrm V$ là $200$ eV. Nếu đổi sang J: $200\cdot1,6\cdot10^{-19}=3,2\cdot10^{-17}\,\mathrm J$.
 
 ## Bài 10
 N nằm theo chiều điện trường so với M, nên điện thế giảm:
 
-$V_M-V_N=E(x_N-x_M)=500(0,70-0,20)=250$ V.
+$V_M-V_N=E(x_N-x_M)=500(0,70-0,20)=250\,\mathrm V$.
 
 Công lực điện:
 
-$A_{MN}=q(V_M-V_N)=-4\cdot10^{-6}\cdot250=-1,0\cdot10^{-3}$ J.
+$A_{MN}=q(V_M-V_N)=-4\cdot10^{-6}\cdot250=-1,0\cdot10^{-3}\,\mathrm J$.
 
 Dấu âm phù hợp: điện tích âm đi theo chiều điện trường thì lực điện hướng ngược chuyển động, nên lực điện thực hiện công âm.
 

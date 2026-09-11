@@ -81,7 +81,7 @@ Với:
 
 - A: khối lượng mol nguyên tử theo đơn vị g/mol trong bài phổ thông;
 - n: hóa trị ion;
-- $F\approx9,65\times10^4$ C/mol là hằng số Faraday.
+- $F\approx9,65\times10^4\,\mathrm{C/mol}$ là hằng số Faraday.
 
 Kết hợp:
 
@@ -101,9 +101,9 @@ Vì vậy công thức Faraday nối điện lượng vĩ mô $It$ với số mo
 
 ## 8. Ví dụ — Mạ bạc
 
-Dòng $I=0,50$ A chạy qua dung dịch bạc trong $t=30$ phút. Lấy $A=108$ g/mol, n=1.
+Dòng $I=0,50\,\mathrm A$ chạy qua dung dịch bạc trong $t=30$ phút. Lấy $A=108$ g/mol, n=1.
 
-Đổi $t=1800$ s.
+Đổi $t=1800\,\mathrm s$.
 
 $$
 m=\frac{108\cdot0,50\cdot1800}{96500}\approx1,01\text{ g}.

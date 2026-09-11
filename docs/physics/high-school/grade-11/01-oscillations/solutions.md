@@ -17,10 +17,10 @@ tags:
 ### Câu 1
 So sánh với $x=A\cos(\omega t+\varphi)$:
 
-- $A=5$ cm;
-- $\omega=4\pi$ rad/s;
-- $T=2\pi/\omega=0,5$ s;
-- $f=1/T=2$ Hz;
+- $A=5\,\mathrm{cm}$;
+- $\omega=4\pi\,\mathrm{rad/s}$;
+- $T=2\pi/\omega=0,5\,\mathrm s$;
+- $f=1/T=2\,\mathrm{Hz}$;
 - $\varphi=-\pi/3$ rad.
 
 ### Câu 2
@@ -30,13 +30,13 @@ Vật chuyển động theo chiều dương nên $v>0$. Vì $a=-\omega^2x$ và $
 Số dao động là $N=\Delta t/T=3,2/0,4=8$.
 
 ### Câu 4
-$v_{\max}=\omega A=50$ cm/s; $a_{\max}=\omega^2A=250$ cm/s².
+$v_{\max}=\omega A=50\,\mathrm{cm/s}$; $a_{\max}=\omega^2A=250\,\mathrm{cm/s^2}$.
 
 ### Câu 5
-Đổi $m=0,20$ kg. Ta có $\omega=\sqrt{k/m}=\sqrt{250}=5\sqrt{10}$ rad/s. Chu kì $T=2\pi/\omega\approx0,397$ s, nên $f\approx2,52$ Hz.
+Đổi $m=0,20\,\mathrm{kg}$. Ta có $\omega=\sqrt{k/m}=\sqrt{250}=5\sqrt{10}\,\mathrm{rad/s}$. Chu kì $T=2\pi/\omega\approx0,397\,\mathrm s$, nên $f\approx2,52\,\mathrm{Hz}$.
 
 ### Câu 6
-$T=2\pi\sqrt{\ell/g}=2\pi\sqrt{1/9,8}\approx2,01$ s.
+$T=2\pi\sqrt{\ell/g}=2\pi\sqrt{1/9,8}\approx2,01\,\mathrm s$.
 
 ### Câu 7
 **B. Cộng hưởng.** Khi tần số ngoại lực bằng hoặc rất gần tần số riêng, biên độ cưỡng bức đạt cực đại trong mô hình cộng hưởng; độ cao của đỉnh còn phụ thuộc lực cản.
@@ -60,12 +60,12 @@ $$
 v_1^2-v_2^2=\omega^2(x_2^2-x_1^2).
 $$
 
-Thay số: $108-36=12\omega^2$, nên $\omega^2=6$ và $\omega=\sqrt6$ rad/s.
+Thay số: $108-36=12\omega^2$, nên $\omega^2=6$ và $\omega=\sqrt6\,\mathrm{rad/s}$.
 
-Từ trạng thái 2: $36=6(A^2-16)$, suy ra $A^2=22$. Vậy $A=\sqrt{22}$ cm.
+Từ trạng thái 2: $36=6(A^2-16)$, suy ra $A^2=22$. Vậy $A=\sqrt{22}\,\mathrm{cm}$.
 
 ### Câu 11
-Tại $t=0$, $x_0=4\cos(\pi/6)=2\sqrt3$ cm.
+Tại $t=0$, $x_0=4\cos(\pi/6)=2\sqrt3\,\mathrm{cm}$.
 
 Vận tốc $v=-A\omega\sin(\omega t+\varphi)$ nên $v_0<0$ vì $\sin(\pi/6)>0$. Vật đang ở phía dương nhưng chuyển động theo chiều âm, tức **đang tiến về vị trí cân bằng**.
 
@@ -77,33 +77,33 @@ A=\sqrt{3^2+4^2}=5\ \text{cm}.
 $$
 
 ### Câu 13
-Từ biên dương đến $x=A/2$ ứng với góc pha tăng từ $0$ đến $\pi/3$. Do đó $\Delta t=(\pi/3)/\omega=T/6=0,10$ s, suy ra $T=0,60$ s.
+Từ biên dương đến $x=A/2$ ứng với góc pha tăng từ $0$ đến $\pi/3$. Do đó $\Delta t=(\pi/3)/\omega=T/6=0,10\,\mathrm s$, suy ra $T=0,60\,\mathrm s$.
 
 ### Câu 14
 Trong một chu kì, một vị trí bên trong hai biên được đi qua hai lần. Vì $A/2$ là vị trí bên trong nên có **2 lần**, trong đó chỉ **1 lần** theo chiều dương.
 
 ### Câu 15
-$2,4$ s bằng $3T$. Trong mỗi chu kì vật đi quãng đường $4A=20$ cm. Vậy $S=60$ cm.
+$2,4\,\mathrm s$ bằng $3T$. Trong mỗi chu kì vật đi quãng đường $4A=20\,\mathrm{cm}$. Vậy $S=60\,\mathrm{cm}$.
 
 ### Câu 16
-Trong mọi nửa chu kì, vật đi từ một trạng thái đến trạng thái đối pha và tổng quãng đường luôn bằng $2A$. Vậy $S=16$ cm, không phụ thuộc thời điểm bắt đầu.
+Trong mọi nửa chu kì, vật đi từ một trạng thái đến trạng thái đối pha và tổng quãng đường luôn bằng $2A$. Vậy $S=16\,\mathrm{cm}$, không phụ thuộc thời điểm bắt đầu.
 
 ## Mức 3
 
 ### Câu 17
-$\Delta\ell_0=0,04$ m. Với con lắc treo thẳng đứng:
+$\Delta\ell_0=0,04\,\mathrm m$. Với con lắc treo thẳng đứng:
 
 $$
 \omega=\sqrt{\frac{g}{\Delta\ell_0}}=\sqrt{250}=5\sqrt{10}\ \text{rad/s}.
 $$
 
-$T=2\pi/\omega\approx0,397$ s.
+$T=2\pi/\omega\approx0,397\,\mathrm s$.
 
 ### Câu 18
-Độ biến dạng nhỏ nhất là $\Delta\ell_{\min}=\Delta\ell_0-A=3-5=-2$ cm. Giá trị âm cho biết lò xo bị nén trong một phần chu kì. **Có bị nén.**
+Độ biến dạng nhỏ nhất là $\Delta\ell_{\min}=\Delta\ell_0-A=3-5=-2\,\mathrm{cm}$. Giá trị âm cho biết lò xo bị nén trong một phần chu kì. **Có bị nén.**
 
 ### Câu 19
-Đổi $A=0,05$ m:
+Đổi $A=0,05\,\mathrm m$:
 
 $$
 W=\frac12kA^2=\frac12\cdot80\cdot0,05^2=0,10\ \text{J}.
@@ -119,10 +119,10 @@ $$
 T^2=T_1^2+T_2^2=0,6^2+0,8^2=1.
 $$
 
-Vậy $T=1,0$ s.
+Vậy $T=1,0\,\mathrm s$.
 
 ### Câu 22
-Song song: $k_{ss}=k_1+k_2=90$ N/m.
+Song song: $k_{ss}=k_1+k_2=90\,\mathrm{N/m}$.
 
 Nối tiếp:
 
@@ -131,7 +131,7 @@ k_{nt}=\frac{k_1k_2}{k_1+k_2}=\frac{60\cdot30}{90}=20\ \text{N/m}.
 $$
 
 ### Câu 23
-Với lò xo đều, $k\ell=$ hằng số. Đoạn mới dài bằng $1/3$ chiều dài ban đầu nên độ cứng tăng 3 lần: $k'=120$ N/m.
+Với lò xo đều, $k\ell=$ hằng số. Đoạn mới dài bằng $1/3$ chiều dài ban đầu nên độ cứng tăng 3 lần: $k'=120\,\mathrm{N/m}$.
 
 ### Câu 24
 $T\propto\sqrt{\ell}$. Tăng chiều dài $21\%$ nghĩa là $\ell'=1,21\ell$:
@@ -162,7 +162,7 @@ $$
 v_{\max}\approx\alpha_0\sqrt{g\ell}=0,10\sqrt{10\cdot0,80}=0,2\sqrt2\ \text{m/s}.
 $$
 
-Xấp xỉ $0,283$ m/s.
+Xấp xỉ $0,283\,\mathrm{m/s}$.
 
 ### Câu 27
 Từ năng lượng, $v^2=2g\ell(\cos\alpha-\cos\alpha_0)$. Chiếu theo phương dây:
@@ -181,7 +181,7 @@ $$
 ## Mức 4
 
 ### Câu 28
-$\omega=2\pi/T=\pi$ rad/s. Tại $t=0$, $x_0=A\cos\varphi=5$ cm nên $\cos\varphi=1/2$.
+$\omega=2\pi/T=\pi\,\mathrm{rad/s}$. Tại $t=0$, $x_0=A\cos\varphi=5\,\mathrm{cm}$ nên $\cos\varphi=1/2$.
 
 Có hai họ pha $\varphi=\pm\pi/3+2k\pi$. Vì $v_0=-A\omega\sin\varphi<0$, cần $\sin\varphi>0$. Chọn $\varphi=\pi/3$.
 
@@ -194,13 +194,13 @@ $$
 ### Câu 29
 Ta mô tả pha bằng đường tròn.
 
-Ở $x=-A/2=-3$ cm và $v>0$, điểm pha nằm nửa dưới, có thể chọn $\theta_1=4\pi/3$.
+Ở $x=-A/2=-3\,\mathrm{cm}$ và $v>0$, điểm pha nằm nửa dưới, có thể chọn $\theta_1=4\pi/3$.
 
-Ở $x=A\sqrt3/2=3\sqrt3$ cm và $v>0$, cần $\sin\theta<0$, chọn $\theta_2=11\pi/6$.
+Ở $x=A\sqrt3/2=3\sqrt3\,\mathrm{cm}$ và $v>0$, cần $\sin\theta<0$, chọn $\theta_2=11\pi/6$.
 
 Độ tăng pha ngắn nhất theo chiều thời gian: $\Delta\theta=11\pi/6-4\pi/3=\pi/2$.
 
-Vì $\omega=2\pi/T=5\pi/3$ rad/s:
+Vì $\omega=2\pi/T=5\pi/3\,\mathrm{rad/s}$:
 
 $$
 \Delta t=\frac{\Delta\theta}{\omega}
@@ -211,11 +211,11 @@ $$
 ### Câu 30
 Ở vị trí cân bằng, toàn bộ cơ năng là động năng nên $v=v_{\max}=\omega A$.
 
-$\omega=\sqrt{k/m}=\sqrt{100/0,25}=20$ rad/s.
+$\omega=\sqrt{k/m}=\sqrt{100/0,25}=20\,\mathrm{rad/s}$.
 
-Trước xung: $A_1=v_1/\omega=0,80/20=0,040$ m = $4$ cm.
+Trước xung: $A_1=v_1/\omega=0,80/20=0,040\,\mathrm m=4\,\mathrm{cm}$.
 
-Sau xung: $A_2=1,20/20=0,060$ m = $6$ cm.
+Sau xung: $A_2=1,20/20=0,060\,\mathrm m=6\,\mathrm{cm}$.
 
 Xung làm thay đổi vận tốc tức thời nhưng vị trí chưa kịp thay đổi, vì vậy không thể giữ nguyên biên độ.
 
@@ -235,7 +235,7 @@ $$
 Biên độ còn khoảng **90,3%** ban đầu.
 
 ### Câu 32
-Biên độ ổn định lớn nhất ở $f=4,0$ Hz vì trùng tần số riêng $f_0=4$ Hz. Với lực cản nhỏ, đây là điều kiện cộng hưởng. Hai trường hợp $3,5$ Hz và $5,0$ Hz lệch khỏi tần số riêng nên biên độ nhỏ hơn.
+Biên độ ổn định lớn nhất ở $f=4,0\,\mathrm{Hz}$ vì trùng tần số riêng $f_0=4\,\mathrm{Hz}$. Với lực cản nhỏ, đây là điều kiện cộng hưởng. Hai trường hợp $3,5\,\mathrm{Hz}$ và $5,0\,\mathrm{Hz}$ lệch khỏi tần số riêng nên biên độ nhỏ hơn.
 
 ### Câu 33
 Độ lệch pha:
@@ -244,7 +244,7 @@ $$
 \Delta\varphi=\frac{\pi}{6}-\left(-\frac{\pi}{3}\right)=\frac{\pi}{2}.
 $$
 
-Vì vậy $A=\sqrt{4^2+3^2}=5$ cm.
+Vì vậy $A=\sqrt{4^2+3^2}=5\,\mathrm{cm}$.
 
 Để tìm pha, dùng thành phần:
 
@@ -271,13 +271,13 @@ Vì $W_t/W=x^2/A^2$ nên tại $|x|=A/2$:
 - $|v|/v_{\max}=\sqrt{1-x^2/A^2}=\sqrt3/2$.
 
 ### Câu 35
-a) $\Delta\ell_0=mg/k=0,20\cdot10/50=0,04$ m = $4$ cm.
+a) $\Delta\ell_0=mg/k=0,20\cdot10/50=0,04\,\mathrm m=4\,\mathrm{cm}$.
 
-b) Độ biến dạng lớn nhất ở biên dưới: $\Delta\ell_{\max}=4+6=10$ cm. Vậy $F_{\max}=50\cdot0,10=5$ N.
+b) Độ biến dạng lớn nhất ở biên dưới: $\Delta\ell_{\max}=4+6=10\,\mathrm{cm}$. Vậy $F_{\max}=50\cdot0,10=5\,\mathrm N$.
 
 c) Vì $A>\Delta\ell_0$, lò xo đi qua trạng thái không biến dạng nên $F_{\min}=0$.
 
-d) Có. Trạng thái không biến dạng xảy ra khi $x=-\Delta\ell_0=-4$ cm, nằm trong miền $[-6;6]$ cm.
+d) Có. Trạng thái không biến dạng xảy ra khi $x=-\Delta\ell_0=-4\,\mathrm{cm}$, nằm trong miền $[-6;6]\,\mathrm{cm}$.
 
 ## Mức 5
 

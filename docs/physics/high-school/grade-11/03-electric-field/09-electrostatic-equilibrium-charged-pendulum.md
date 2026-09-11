@@ -183,7 +183,7 @@ Suy ra $x=2d/3$. Điểm này cách điện tích nhỏ $q_2$ một đoạn $d/3
 
 ## 8. Ví dụ — Hạt tích điện treo dây
 
-$m=20$ g, $q=2\,\mu$C, $E=5\times10^4$ V/m, $g=10$ m/s².
+$m=20$ g, $q=2\,\mu\,\mathrm C$, $E=5\times10^4\,\mathrm{V/m}$, $g=10\,\mathrm{m/s^2}$.
 
 Lực điện:
 

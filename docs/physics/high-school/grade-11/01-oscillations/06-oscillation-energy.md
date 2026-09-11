@@ -293,7 +293,7 @@ $$
 
 ## Ví dụ 3 — Tính cơ năng
 
-Con lắc lò xo có $k=50$ N/m, $A=4$ cm.
+Con lắc lò xo có $k=50\,\mathrm{N/m}$, $A=4\,\mathrm{cm}$.
 
 $$
 W=\frac12\cdot50\cdot(0,04)^2=0,04\text{ J}.
@@ -301,7 +301,7 @@ $$
 
 ## Ví dụ 4 — Tần số biến thiên năng lượng
 
-Vật dao động với $f=2$ Hz. Động năng và thế năng biến thiên với tần số $4$ Hz và chu kì $0,25$ s.
+Vật dao động với $f=2\,\mathrm{Hz}$. Động năng và thế năng biến thiên với tần số $4\,\mathrm{Hz}$ và chu kì $0,25\,\mathrm s$.
 
 ## Phân dạng
 
@@ -336,18 +336,18 @@ Nhớ: theo li độ là parabol; theo thời gian là hàm có chu kì $T/2$.
 
 ## Bài tập nhanh
 
-1. Con lắc lò xo có $k=80$ N/m, $A=5$ cm. Tính cơ năng.
+1. Con lắc lò xo có $k=80\,\mathrm{N/m}$, $A=5\,\mathrm{cm}$. Tính cơ năng.
 2. Khi $W_d=8W_t$, tìm $|x|/A$.
 3. Khi $W_t=W_d$, tìm $|v|/v_{\max}$.
-4. Vật dao động với $T=0,8$ s. Chu kì biến thiên của động năng là bao nhiêu?
+4. Vật dao động với $T=0,8\,\mathrm s$. Chu kì biến thiên của động năng là bao nhiêu?
 5. Biên độ giảm còn một nửa trong một dao động tắt dần. Nếu $k$ không đổi, cơ năng còn bao nhiêu phần ban đầu?
 
 ### Đáp án nhanh
 
-1. $0,10$ J.
+1. $0,10\,\mathrm J$.
 2. $1/3$.
 3. $1/\sqrt2$.
-4. $0,4$ s.
+4. $0,4\,\mathrm s$.
 5. $1/4$.
 
 ## Tóm tắt

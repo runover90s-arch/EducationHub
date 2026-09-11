@@ -21,7 +21,7 @@ $$
 F=BIl=0,40\cdot5\cdot0,20=0,40\,\text N.
 $$
 
-**Đáp số: 0,40 N.**
+**Đáp số: $0,40\,\mathrm N$.**
 
 ### Câu 4
 Ban đầu $F_0=BIl$. Sau đó
@@ -33,7 +33,7 @@ $$
 **Đáp án: bằng một nửa.**
 
 ### Câu 5
-$r=0,05$ m:
+$r=0,05\,\mathrm m$:
 
 $$
 B=2\times10^{-7}\frac{10}{0,05}=4,0\times10^{-5}\,\text T.
@@ -50,7 +50,7 @@ $$
 Xấp xỉ $6,28\times10^{-5}$ T.
 
 ### Câu 7
-$l=0,40$ m:
+$l=0,40\,\mathrm m$:
 
 $$
 B=\mu_0\frac Nl I
@@ -78,15 +78,15 @@ r=\frac{2\times10^{-7}I}{B}
 $$
 
 ### Câu 11
-Gọi x là khoảng cách từ dây 2 A đến M. Hai dòng cùng chiều nên trong khoảng giữa hai dây, hai B ngược chiều.
+Gọi x là khoảng cách từ dây $2\,\mathrm A$ đến M. Hai dòng cùng chiều nên trong khoảng giữa hai dây, hai B ngược chiều.
 
 $$
 \frac{2}{x}=\frac{4}{0,12-x}.
 $$
 
-Suy ra $x=0,04$ m.
+Suy ra $x=0,04\,\mathrm m$.
 
-**M cách dây 2 A 4 cm và dây 4 A 8 cm.**
+**M cách dây $2\,\mathrm A$ $4\,\mathrm{cm}$ và dây $4\,\mathrm A$ $8\,\mathrm{cm}$.**
 
 ### Câu 12
 
@@ -119,7 +119,7 @@ Vì $r\propto m/|q|$ và proton, electron có cùng $|q|$, proton có bán kính
 ## Mức 3
 
 ### Câu 17
-Gọi x là khoảng cách từ dây 5 A đến điểm triệt tiêu:
+Gọi x là khoảng cách từ dây $5\,\mathrm A$ đến điểm triệt tiêu:
 
 $$
 \begin{gathered}
@@ -128,12 +128,12 @@ $$
 \end{gathered}
 $$
 
-**Điểm M cách dây 5 A 5 cm, cách dây 15 A 15 cm.**
+**Điểm M cách dây $5\,\mathrm A$ $5\,\mathrm{cm}$, cách dây $15\,\mathrm A$ $15\,\mathrm{cm}$.**
 
 ### Câu 18
-Hai dòng ngược chiều nên trong đoạn giữa, hai từ trường cùng chiều. Điểm B=0 phải nằm ngoài, phía dây 4 A.
+Hai dòng ngược chiều nên trong đoạn giữa, hai từ trường cùng chiều. Điểm B=0 phải nằm ngoài, phía dây $4\,\mathrm A$.
 
-Gọi x là khoảng cách từ dây 4 A đến M ở phía ngoài. Khi đó khoảng cách tới dây 9 A là $x+0,10$:
+Gọi x là khoảng cách từ dây $4\,\mathrm A$ đến M ở phía ngoài. Khi đó khoảng cách tới dây $9\,\mathrm A$ là $x+0,10$:
 
 $$
 \begin{gathered}
@@ -142,7 +142,7 @@ $$
 \end{gathered}
 $$
 
-**M nằm ngoài phía dây 4 A, cách dây này 8 cm.**
+**M nằm ngoài phía dây $4\,\mathrm A$, cách dây này $8\,\mathrm{cm}$.**
 
 ### Câu 19
 
@@ -207,7 +207,7 @@ r=\frac1{0,020}\sqrt{\frac{2\cdot9,11\times10^{-31}\cdot800}{1,60\times10^{-19}}
 \approx4,77\times10^{-3}\,\text m.
 $$
 
-**Đáp số: khoảng 4,8 mm.**
+**Đáp số: khoảng $4,8\,\mathrm{mm}$.**
 
 ### Câu 24
 Với góc 60°:
@@ -307,7 +307,7 @@ r=\frac{mv}{|q|B}
 =1,0\,\text m.
 $$
 
-Lời giải cho r=0,10 m **sai một bậc 10**.
+Lời giải cho $r=0,10\,\mathrm m$ **sai một bậc 10**.
 
 ### Câu 30
 Trong mỗi vùng, hạt dương chịu lực từ luôn vuông góc vận tốc. Khi B đảo chiều, lực từ đảo phía đối với cùng v nên độ cong đảo chiều. Vì độ lớn B, q, m, v không đổi:

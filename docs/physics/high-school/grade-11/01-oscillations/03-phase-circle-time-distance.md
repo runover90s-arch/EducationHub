@@ -330,19 +330,19 @@ Tách phần thời gian dài; với đoạn dư không quá $T/2$, dùng $S_{\m
 
 ## Bài tập nhanh
 
-1. Một vật có $T=1,2$ s. Thời gian ngắn nhất từ vị trí cân bằng đến biên là bao nhiêu?
+1. Một vật có $T=1,2\,\mathrm s$. Thời gian ngắn nhất từ vị trí cân bằng đến biên là bao nhiêu?
 2. Trong $2,5T$, quãng đường vật đi được là bao nhiêu theo $A$?
 3. Trong một chu kì, vật đi qua $x=A/3$ bao nhiêu lần nếu không xét chiều?
 4. Trong một chu kì, vật đi qua $x=A/3$ theo chiều dương bao nhiêu lần?
-5. Với $A=6$ cm, khoảng thời gian ứng với góc quét $\pi/3$. Tính $S_{\max}$.
+5. Với $A=6\,\mathrm{cm}$, khoảng thời gian ứng với góc quét $\pi/3$. Tính $S_{\max}$.
 
 ### Đáp án nhanh
 
-1. $0,3$ s.
+1. $0,3\,\mathrm s$.
 2. $10A$.
 3. Hai lần.
 4. Một lần.
-5. $6$ cm.
+5. $6\,\mathrm{cm}$.
 
 ## Tóm tắt
 

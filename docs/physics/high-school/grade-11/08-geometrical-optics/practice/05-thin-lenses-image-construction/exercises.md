@@ -9,7 +9,6 @@ tags:
 
 # Bài tập — Bài 5 — Thấu kính mỏng và dựng ảnh
 
-> Hệ bài tập được biên soạn theo các dạng xuất hiện trong bộ tài liệu Vật lí 11 của dự án. Câu hỏi được giữ ngắn, trực tiếp; độ khó tăng dần và không cố tình thêm dữ kiện gây nhiễu.
 
 [← Trở lại bài học](../../05-thin-lenses-image-construction.md)
 
@@ -17,101 +16,158 @@ tags:
 
 ### Bài 1 — Mức 1 — Nhận biết
 
-Thấu kính hội tụ có tiêu cự theo quy ước dấu thường dùng là
+Theo quy ước dấu dùng trong giáo trình, thấu kính hội tụ có tiêu cự
 
-A. f>0.
+A. $f>0$.
 
-B. f<0.
+B. $f<0$.
 
-C. f=0.
+C. $f=0$.
 
 D. không có tiêu điểm.
 
 ??? success "Đáp án và lời giải"
-    Chọn **A**.
+    **Đáp án:** A.
+
+    **Hướng dẫn giải:**
+
+    Theo quy ước dấu đang dùng, thấu kính hội tụ có tiêu cự dương, còn thấu kính phân kì có tiêu cự âm. Vì vậy $f>0$ và chọn **A**.
 
 ### Bài 2 — Mức 1 — Nhận biết
 
-Công thức thấu kính mỏng với vật thật và quy ước đại số chuẩn là
+Với quy ước dấu của giáo trình, công thức thấu kính mỏng là
 
-A. $1/f=1/d+1/d'$.
+A. $\dfrac{1}{f}=\dfrac{1}{d}+\dfrac{1}{d'}$.
 
 B. $f=d+d'$.
 
-C. $1/f=d+d'$.
+C. $\dfrac{1}{f}=d+d'$.
 
 D. $f=dd'$.
 
 ??? success "Đáp án và lời giải"
-    Chọn **A**.
+    **Đáp án:** A.
+
+    **Hướng dẫn giải:**
+
+    Công thức thấu kính mỏng theo quy ước dấu của giáo trình là $\dfrac{1}{f}=\dfrac{1}{d}+\dfrac{1}{d'}$. Các biểu thức còn lại không đúng với phương trình thấu kính; riêng C và D còn không phù hợp thứ nguyên. Chọn **A**.
 
 ### Bài 3 — Mức 1 — Nhận biết
 
-Vật thật đặt ngoài 2f trước thấu kính hội tụ cho ảnh
+Vật thật đặt ngoài $2f$ trước một thấu kính hội tụ cho ảnh
 
-A. thật, ngược chiều, nhỏ hơn vật, nằm giữa f và 2f.
+A. thật, ngược chiều, nhỏ hơn vật, nằm giữa $f$ và $2f$.
 
-B. ảo, cùng chiều, lớn hơn.
+B. ảo, cùng chiều, lớn hơn vật.
 
-C. thật, cùng chiều.
+C. thật, cùng chiều với vật.
 
 D. không có ảnh.
 
 ??? success "Đáp án và lời giải"
-    Chọn **A**.
+    **Đáp án:** A.
+
+    **Hướng dẫn giải:**
+
+    Với thấu kính hội tụ và vật thật có $d>2f$, ảnh nằm ở phía sau kính với $f<d'<2f$, là ảnh thật, ngược chiều và nhỏ hơn vật. Vì vậy chọn **A**.
 
 ## Phần B — Đúng/Sai
 
 ### Bài 4 — Mức 2 — Thông hiểu
 
-Thấu kính mỏng:
+Xét mô hình thấu kính mỏng:
 
-a) Tia qua quang tâm trong gần đúng mỏng truyền thẳng.
+a) Tia sáng đi qua quang tâm truyền thẳng trong gần đúng thấu kính mỏng.
 
-b) Tia tới song song trục chính qua thấu kính hội tụ ló qua tiêu điểm ảnh.
+b) Tia tới song song với trục chính qua thấu kính hội tụ cho tia ló đi qua tiêu điểm ảnh.
 
-c) Thấu kính phân kì với vật thật thường cho ảnh ảo, cùng chiều, nhỏ hơn.
+c) Thấu kính phân kì với vật thật thường cho ảnh ảo, cùng chiều và nhỏ hơn vật.
 
-d) Ảnh thật có thể hứng trên màn.
+d) Ảnh thật có thể hứng được trên màn đặt tại vị trí ảnh.
 
 ??? success "Đáp án và lời giải"
-    a) **Đúng**.
-    b) **Đúng**.
-    c) **Đúng**.
-    d) **Đúng**.
+    **Đáp án:** a) Đúng; b) Đúng; c) Đúng; d) Đúng.
+
+    **Hướng dẫn giải:**
+
+    a) **Đúng.** Trong mô hình thấu kính mỏng, tia đi qua quang tâm được coi là truyền thẳng gần như không đổi hướng.
+
+    b) **Đúng.** Với thấu kính hội tụ, tia tới song song trục chính cho tia ló đi qua tiêu điểm ảnh $F'$.
+
+    c) **Đúng.** Với vật thật, thấu kính phân kì cho $d'<0$ và $0<k<1$, nên ảnh ảo, cùng chiều và nhỏ hơn vật.
+
+    d) **Đúng.** Ảnh thật là nơi các tia ló thực sự hội tụ, vì vậy có thể hứng trên màn đặt đúng vị trí ảnh.
 
 ## Phần C — Trả lời ngắn
 
 ### Bài 5 — Mức 3 — Vận dụng
 
-Thấu kính hội tụ f=10 cm, vật thật cách kính d=30 cm. Tính d' và độ phóng đại đại số k=-d'/d.
+Thấu kính hội tụ có $f=10\,\mathrm{cm}$, vật thật cách kính $d=30\,\mathrm{cm}$. Tính $d'$ và độ phóng đại đại số $k=-d'/d$.
 
 ??? success "Đáp án và lời giải"
-    $1/d'=1/f-1/d=1/10-1/30=1/15$, nên $d'=15$ cm. $k=-15/30=-0,5$: ảnh thật, ngược chiều, cao bằng nửa vật.
+    **Đáp án:** $d'=15\,\mathrm{cm}$; $k=-0{,}5$.
+
+    **Hướng dẫn giải:**
+
+    Dùng công thức thấu kính $\dfrac{1}{f}=\dfrac{1}{d}+\dfrac{1}{d'}$:
+
+    $\dfrac{1}{d'}=\dfrac{1}{10}-\dfrac{1}{30}=\dfrac{1}{15}\,\mathrm{cm}^{-1}$.
+
+    Suy ra $d'=15\,\mathrm{cm}>0$, nên ảnh là ảnh thật. Độ phóng đại
+
+    $k=-\dfrac{d'}{d}=-\dfrac{15}{30}=-0{,}5$.
+
+    Vậy ảnh thật, ngược chiều và có độ cao bằng một nửa vật.
 
 ### Bài 6 — Mức 3 — Vận dụng
 
-Thấu kính hội tụ f=20 cm, vật đặt d=10 cm. Tính vị trí ảnh.
+Thấu kính hội tụ có $f=20\,\mathrm{cm}$, vật thật đặt cách kính $d=10\,\mathrm{cm}$. Tính vị trí ảnh.
 
 ??? success "Đáp án và lời giải"
-    $1/d'=1/20-1/10=-1/20$, nên $d'=-20$ cm: ảnh ảo nằm cùng phía vật, cách kính 20 cm.
+    **Đáp án:** $d'=-20\,\mathrm{cm}$.
+
+    **Hướng dẫn giải:**
+
+    Vì $d<f$, trước khi tính có thể dự đoán thấu kính hội tụ cho ảnh ảo. Từ công thức thấu kính:
+
+    $\dfrac{1}{d'}=\dfrac{1}{20}-\dfrac{1}{10}=-\dfrac{1}{20}\,\mathrm{cm}^{-1}$.
+
+    Do đó $d'=-20\,\mathrm{cm}$. Dấu âm cho biết ảnh ảo nằm cùng phía với vật và cách kính $20\,\mathrm{cm}$.
 
 ### Bài 7 — Mức 3 — Vận dụng
 
-Thấu kính phân kì f=-15 cm, vật thật d=30 cm. Tính d'.
+Thấu kính phân kì có $f=-15\,\mathrm{cm}$, vật thật đặt cách kính $d=30\,\mathrm{cm}$. Tính $d'$.
 
 ??? success "Đáp án và lời giải"
-    $1/d'=1/f-1/d=-1/15-1/30=-1/10$, nên $d'=-10$ cm.
+    **Đáp án:** $d'=-10\,\mathrm{cm}$.
+
+    **Hướng dẫn giải:**
+
+    Áp dụng công thức thấu kính với $f<0$ cho thấu kính phân kì:
+
+    $\dfrac{1}{d'}=\dfrac{1}{f}-\dfrac{1}{d}=-\dfrac{1}{15}-\dfrac{1}{30}=-\dfrac{1}{10}\,\mathrm{cm}^{-1}$.
+
+    Suy ra $d'=-10\,\mathrm{cm}$. Kết quả $d'<0$ phù hợp với tính chất ảnh ảo của thấu kính phân kì khi vật là vật thật.
 
 ## Phần D — Vận dụng và vận dụng cao
 
 ### Bài 8 — Mức 4 — Vận dụng cao
 
-Một vật cao 2 cm đặt trước thấu kính hội tụ f=12 cm, cách kính 18 cm. Tính vị trí, tính chất và chiều cao ảnh.
+Một vật cao $2\,\mathrm{cm}$ đặt trước thấu kính hội tụ có $f=12\,\mathrm{cm}$, cách kính $d=18\,\mathrm{cm}$. Tính vị trí, tính chất và chiều cao ảnh.
 
 ??? success "Đáp án và lời giải"
-    $1/d'=1/12-1/18=(3-2)/36=1/36$, nên $d'=36$ cm, ảnh thật.
+    **Đáp án:** $d'=36\,\mathrm{cm}$; ảnh thật, ngược chiều, lớn gấp $2$ lần; $h'=-4\,\mathrm{cm}$ nên độ lớn chiều cao ảnh là $4\,\mathrm{cm}$.
 
-    Độ phóng đại $k=-d'/d=-36/18=-2$.
+    **Hướng dẫn giải:**
 
-    Chiều cao ảnh $h'=kh=-2\cdot2=-4$ cm. Dấu âm cho biết ảnh ngược chiều; độ lớn ảnh 4 cm, gấp đôi vật.
+    Vì $f<d<2f$, có thể dự đoán ảnh thật, ngược chiều và lớn hơn vật. Từ công thức thấu kính:
+
+    $\dfrac{1}{d'}=\dfrac{1}{12}-\dfrac{1}{18}=\dfrac{1}{36}\,\mathrm{cm}^{-1}$,
+
+    nên $d'=36\,\mathrm{cm}>0$.
+
+    Độ phóng đại đại số là
+
+    $k=-\dfrac{d'}{d}=-\dfrac{36}{18}=-2$.
+
+    Với $h=2\,\mathrm{cm}$, ta có $h'=kh=-2\cdot2=-4\,\mathrm{cm}$. Dấu âm biểu thị ảnh ngược chiều; độ lớn $|h'|=4\,\mathrm{cm}$. Kết quả phù hợp với dự đoán hình học ban đầu.

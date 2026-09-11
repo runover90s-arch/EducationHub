@@ -14,36 +14,99 @@ tags:
 [← Bài tập](exercises.md)
 
 ## Bài 1
-Chọn **A**.
+**Đáp án:** A.
+
+**Hướng dẫn giải:**
+
+Với dây dẫn thẳng dài trong chân không,
+
+$B=\frac{\mu_0I}{2\pi r}$,
+
+nên chọn **A**. Công thức này áp dụng khi có thể coi dây đủ dài so với khoảng cách $r$ đến điểm xét.
 
 ## Bài 2
-Chọn **A**.
+**Đáp án:** A.
+
+**Hướng dẫn giải:**
+
+Tại tâm một vòng dây tròn trong chân không,
+
+$B=\frac{\mu_0I}{2R}$.
+
+Vì vậy chọn **A**.
 
 ## Bài 3
-Chọn **A** trong mô hình ống dây dài.
+**Đáp án:** A.
+
+**Hướng dẫn giải:**
+
+Đối với ống dây đủ dài trong không khí/chân không và bỏ qua hiệu ứng ở hai đầu,
+
+$B\approx\mu_0nI$,
+
+với $n=N/L$ là số vòng trên một đơn vị chiều dài. Vì vậy chọn **A**.
 
 ## Bài 4
-a) **Đúng**.  
-b) **Đúng**.  
-c) **Đúng**.  
-d) **Sai**: phải cộng vectơ.
+**Đáp án:** a) Đúng; b) Đúng; c) Đúng; d) Sai.
+
+**Hướng dẫn giải:**
+
+a) **Đúng.** Trong các mặt phẳng vuông góc với dây thẳng dài, đường sức từ là các đường tròn đồng tâm có tâm trên trục dây.
+
+b) **Đúng.** Nắm bàn tay phải sao cho ngón cái chỉ chiều dòng điện; các ngón còn lại khum theo chiều đường sức từ.
+
+c) **Đúng.** Từ $B=\mu_0I/(2\pi r)$, khi $I$ không đổi thì $B\propto1/r$.
+
+d) **Sai.** Nguyên lí chồng chất là cộng **vectơ**: $\vec B=\vec B_1+\vec B_2+\cdots$. Chỉ trong các trường hợp cùng phương mới có thể quy về cộng hoặc trừ độ lớn có xét chiều.
 
 ## Bài 5
-$B=\mu_0I/(2\pi r)=4\pi\cdot10^{-7}\cdot10/(2\pi\cdot0,05)=4\cdot10^{-5}$ T.
+**Đáp án:** $B=4{,}0\cdot10^{-5}\,\mathrm T$.
+
+**Hướng dẫn giải:**
+
+Đổi $r=5\,\mathrm{cm}=0{,}05\,\mathrm m$. Với dây thẳng dài,
+
+$B=\frac{\mu_0I}{2\pi r}=\frac{4\pi\cdot10^{-7}\cdot10}{2\pi\cdot0{,}05}=4{,}0\cdot10^{-5}\,\mathrm T$.
 
 ## Bài 6
-$B=\mu_0I/(2R)=4\pi\cdot10^{-7}\cdot5/(0,20)=\pi\cdot10^{-5}$ T $\approx3,14\cdot10^{-5}$ T.
+**Đáp án:** $B\approx3{,}14\cdot10^{-5}\,\mathrm T$.
+
+**Hướng dẫn giải:**
+
+Đổi $R=10\,\mathrm{cm}=0{,}10\,\mathrm m$. Tại tâm một vòng dây,
+
+$B=\frac{\mu_0I}{2R}=\frac{4\pi\cdot10^{-7}\cdot5}{2\cdot0{,}10}=\pi\cdot10^{-5}\,\mathrm T\approx3{,}14\cdot10^{-5}\,\mathrm T$.
 
 ## Bài 7
-$n=N/l=2000$ vòng/m. $B=\mu_0nI=4\pi\cdot10^{-7}\cdot2000\cdot0,8\approx2,01\cdot10^{-3}$ T.
+**Đáp án:** $B\approx2{,}01\cdot10^{-3}\,\mathrm T$.
+
+**Hướng dẫn giải:**
+
+Mật độ vòng dây là
+
+$n=\frac{N}{L}=\frac{1000}{0{,}50}=2000\,\mathrm{m^{-1}}$.
+
+Với ống dây dài lõi không khí,
+
+$B=\mu_0nI=4\pi\cdot10^{-7}\cdot2000\cdot0{,}8\approx2{,}01\cdot10^{-3}\,\mathrm T$.
 
 ## Bài 8
-Giữa hai dây có dòng cùng chiều, từ trường do hai dây tại các điểm giữa ngược hướng. Gọi x là khoảng cách đến dây 1:
+**Đáp án:** Điểm nằm giữa hai dây, cách dây mang $I_1=4\,\mathrm A$ khoảng $6{,}15\,\mathrm{cm}$.
 
-$\mu_0I_1/(2\pi x)=\mu_0I_2/[2\pi(0,20-x)]$.
+**Hướng dẫn giải:**
 
-$I_1/x=I_2/(0,20-x)$.
+Với hai dòng cùng chiều, tại các điểm **giữa** hai dây, hai vectơ cảm ứng từ ngược chiều; ở phía ngoài chúng cùng chiều nên không thể triệt tiêu.
 
-$4(0,20-x)=9x$ nên $0,80=13x$, $x\approx0,0615$ m.
+Gọi $d=0{,}20\,\mathrm m$ và $x$ là khoảng cách từ điểm cần tìm đến dây 1. Điều kiện triệt tiêu là $B_1=B_2$:
 
-Vậy điểm nằm giữa hai dây, cách dây 4 A khoảng $6,15$ cm, gần dây có dòng nhỏ hơn.
+$\frac{\mu_0I_1}{2\pi x}=\frac{\mu_0I_2}{2\pi(d-x)}$.
+
+Rút gọn:
+
+$\frac{4}{x}=\frac{9}{0{,}20-x}$.
+
+Suy ra $4(0{,}20-x)=9x$, nên $0{,}80=13x$ và
+
+$x\approx0{,}0615\,\mathrm m=6{,}15\,\mathrm{cm}$.
+
+Điểm triệt tiêu nằm gần dây có dòng điện nhỏ hơn, phù hợp với kết quả trên.

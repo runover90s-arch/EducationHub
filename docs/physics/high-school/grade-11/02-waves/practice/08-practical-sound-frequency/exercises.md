@@ -9,7 +9,6 @@ tags:
 
 # Bài tập — Bài 8 — Thực hành đo tần số của sóng âm
 
-> Hệ bài tập được biên soạn theo các dạng xuất hiện trong bộ tài liệu Vật lí 11 của dự án. Câu hỏi được giữ ngắn, trực tiếp; độ khó tăng dần và không cố tình thêm dữ kiện gây nhiễu.
 
 [← Trở lại bài học](../../08-practical-sound-frequency.md)
 
@@ -17,18 +16,18 @@ tags:
 
 ### Bài 1 — Mức 1 — Nhận biết
 
-Khi đo tần số bằng màn hình dao động kí, nếu $5$ chu kì chiếm $10$ ms thì tần số là
+Khi đo tần số bằng màn hình dao động kí, nếu $5$ chu kì chiếm $10\,\mathrm{ms}$ thì tần số là
 
-A. $50$ Hz.
+A. $50\,\mathrm{Hz}$.
 
-B. $100$ Hz.
+B. $100\,\mathrm{Hz}$.
 
-C. $500$ Hz.
+C. $500\,\mathrm{Hz}$.
 
-D. $2000$ Hz.
+D. $2000\,\mathrm{Hz}$.
 
 ??? success "Đáp án và lời giải"
-    Chọn **C**. $T=10\text{ ms}/5=2$ ms, nên $f=1/T=500$ Hz.
+    Chọn **C**. $T=10\text{ ms}/5=2\,\mathrm{ms}$, nên $f=1/T=500\,\mathrm{Hz}$.
 
 ### Bài 2 — Mức 1 — Nhận biết
 
@@ -47,18 +46,18 @@ D. chọn hai điểm bất kì không cùng pha.
 
 ### Bài 3 — Mức 1 — Nhận biết
 
-Hai đỉnh liên tiếp trên tín hiệu âm cách nhau $0,8$ ms. Tần số gần bằng
+Hai đỉnh liên tiếp trên tín hiệu âm cách nhau $0,8\,\mathrm{ms}$. Tần số gần bằng
 
-A. $125$ Hz.
+A. $125\,\mathrm{Hz}$.
 
-B. $800$ Hz.
+B. $800\,\mathrm{Hz}$.
 
-C. $1250$ Hz.
+C. $1250\,\mathrm{Hz}$.
 
-D. $8000$ Hz.
+D. $8000\,\mathrm{Hz}$.
 
 ??? success "Đáp án và lời giải"
-    Chọn **C**. $f=1/(0,8\cdot10^{-3})=1250$ Hz.
+    Chọn **C**. $f=1/(0,8\cdot10^{-3})=1250\,\mathrm{Hz}$.
 
 ## Phần B — Đúng/Sai
 
@@ -75,46 +74,49 @@ c) Biên độ tín hiệu quyết định trực tiếp tần số.
 d) Cần đổi đúng đơn vị ms sang s trước khi tính Hz.
 
 ??? success "Đáp án và lời giải"
-    a) **Đúng**.
-    b) **Đúng**.
-    c) **Sai**.
-    d) **Đúng**.
+    a) **Đúng.** Một chu kì là khoảng thời gian giữa hai lần liên tiếp hệ trở lại cùng trạng thái dao động, tức cùng pha.
+
+    b) **Đúng.** Đo thời gian của nhiều chu kì rồi chia cho số chu kì làm giảm ảnh hưởng tương đối của sai số bấm giờ.
+
+    c) **Sai.** Biên độ và tần số là hai đặc trưng độc lập; thay đổi biên độ không tự làm thay đổi tần số của tín hiệu tuần hoàn.
+
+    d) **Đúng.** Vì $f=1/T$ dùng $T$ theo giây để cho đơn vị héc, nên phải đổi $1\,\mathrm{ms}=10^{-3}\,\mathrm s$ trước khi tính.
 
 ## Phần C — Trả lời ngắn
 
 ### Bài 5 — Mức 3 — Vận dụng
 
-Trên màn hình, 8 chu kì chiếm $16,4$ ms. Tính tần số.
+Trên màn hình, 8 chu kì chiếm $16,4\,\mathrm{ms}$. Tính tần số.
 
 ??? success "Đáp án và lời giải"
-    $T=16,4/8=2,05$ ms $=2,05\cdot10^{-3}$ s. $f=1/T\approx487,8$ Hz.
+    $T=16,4/8=2,05\,\mathrm{ms}$ $=2,05\cdot10^{-3}\,\mathrm s$. $f=1/T\approx487,8\,\mathrm{Hz}$.
 
 ### Bài 6 — Mức 3 — Vận dụng
 
-Một tín hiệu có tần số danh định $440$ Hz. Nếu đo được $10$ chu kì trong $22,9$ ms, tính tần số đo và sai lệch tương đối so với giá trị danh định.
+Một tín hiệu có tần số danh định $440\,\mathrm{Hz}$. Nếu đo được $10$ chu kì trong $22,9\,\mathrm{ms}$, tính tần số đo và sai lệch tương đối so với giá trị danh định.
 
 ??? success "Đáp án và lời giải"
-    $T=2,29$ ms, nên $f_{đo}=1/0,00229\approx436,7$ Hz. Sai lệch tương đối $\approx|436,7-440|/440\cdot100\%\approx0,75\%$.
+    $T=2,29\,\mathrm{ms}$, nên $f_{đo}=1/0,00229\approx436,7\,\mathrm{Hz}$. Sai lệch tương đối $\approx|436,7-440|/440\cdot100\%\approx0,75\%$.
 
 ### Bài 7 — Mức 3 — Vận dụng
 
-Thang thời gian là $0,5$ ms/ô. Khoảng cách giữa hai đỉnh liên tiếp là $4,8$ ô. Tính tần số.
+Thang thời gian là $0,5\,\mathrm{ms}$/ô. Khoảng cách giữa hai đỉnh liên tiếp là $4,8$ ô. Tính tần số.
 
 ??? success "Đáp án và lời giải"
-    $T=4,8\cdot0,5=2,4$ ms. $f=1/(2,4\cdot10^{-3})\approx416,7$ Hz.
+    $T=4,8\cdot0,5=2,4\,\mathrm{ms}$. $f=1/(2,4\cdot10^{-3})\approx416,7\,\mathrm{Hz}$.
 
 ## Phần D — Vận dụng và vận dụng cao
 
 ### Bài 8 — Mức 4 — Vận dụng cao
 
-Ba lần đo thời gian của 20 chu kì cho các giá trị $45,2$ ms; $45,6$ ms; $45,4$ ms. Tính tần số từ giá trị trung bình và nêu vì sao nên dùng nhiều chu kì.
+Ba lần đo thời gian của 20 chu kì cho các giá trị $45,2\,\mathrm{ms}$; $45,6\,\mathrm{ms}$; $45,4\,\mathrm{ms}$. Tính tần số từ giá trị trung bình và nêu vì sao nên dùng nhiều chu kì.
 
 ??? success "Đáp án và lời giải"
     Thời gian trung bình của 20 chu kì:
 
-    $\bar t=(45,2+45,6+45,4)/3=45,4$ ms.
+    $\bar t=(45,2+45,6+45,4)/3=45,4\,\mathrm{ms}$.
 
-    $T=45,4/20=2,27$ ms, nên $f\approx1/0,00227\approx440,5$ Hz.
+    $T=45,4/20=2,27\,\mathrm{ms}$, nên $f\approx1/0,00227\approx440,5\,\mathrm{Hz}$.
 
     Đo nhiều chu kì làm sai số đọc mốc thời gian được chia cho số chu kì, nên sai số tương đối của chu kì giảm đáng kể.
 
@@ -137,13 +139,15 @@ Giá trị tần số trung bình của sóng âm này xấp xỉ bao nhiêu Hz?
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** $502$
+
     **Hướng dẫn giải:**
 
-    Xác định chu kì từ số dao động hoặc đồ thị rồi dùng $f=1/T$; chú ý đổi mili giây, micro giây về giây trước khi tính.
+    Giá trị trung bình của ba lần đo là
 
-    Giá trị tần số trung bình là
+    $\overline f=\dfrac{502+498+505}{3}=501{,}67\,\mathrm{Hz}$.
 
-    Vậy kết quả cần tìm là **$502$**.
+    Làm tròn đến hàng đơn vị: $\overline f\approx502\,\mathrm{Hz}$.
+
 #### Bài 10
 
 <!-- source-id: BT-Chuong-II-p85-q2-192 -->
@@ -159,13 +163,22 @@ Giá trị trung bình của tần số trong thí nghiệm này xấp xỉ bao 
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** $566$
-    **Hướng dẫn giải:**
-    Chu kì trung bình:
-    $\overline T=\dfrac{1{,}6+1{,}9+1{,}8}{3}\approx1{,}77\,\mathrm{ms}=1{,}77\times10^{-3}\,\mathrm{s}$.
-    Tần số trung bình:
-    $\overline f=\dfrac1{\overline T}\approx566\,\mathrm{Hz}$.
 
-    Vậy kết quả cần tìm là **$566$**.
+    **Hướng dẫn giải:**
+
+    Theo cách xử lí số liệu của nguồn, trước hết lấy trung bình các lần đo chu kì:
+
+    $\overline T=\dfrac{1{,}6+1{,}9+1{,}8}{3}=1{,}7667\,\mathrm{ms}=1{,}7667\times10^{-3}\,\mathrm s$.
+
+    Tần số suy ra từ chu kì trung bình là
+
+    $f=\dfrac1{\overline T}\approx566{,}0\,\mathrm{Hz}$.
+
+    Làm tròn đến hàng đơn vị được $566\,\mathrm{Hz}$.
+
+    !!! note "Đối chiếu nguồn"
+        Nếu hiểu cụm “giá trị trung bình của tần số” theo nghĩa lấy trung bình riêng ba giá trị $1/T_i$, kết quả sẽ khoảng $569\,\mathrm{Hz}$. PDF dùng quy trình đo gián tiếp: lấy $\overline T$ rồi tính $f=1/\overline T$, nên đáp án $566\,\mathrm{Hz}$ được giữ theo đúng cách xử lí của nguồn.
+
 #### Bài 11
 
 <!-- source-id: BT-Chuong-II-p86-q3-193 -->
@@ -181,7 +194,9 @@ Sai số tuyệt đối của tần số trong thí nghiệm này xấp xỉ bao
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** $63$
+
     **Hướng dẫn giải:**
+
     Các tần số đo được:
     $f_1=1/T_1\approx666{,}67\,\mathrm{Hz}$, $f_2\approx833{,}33\,\mathrm{Hz}$, $f_3\approx714{,}29\,\mathrm{Hz}$.
     Tần số trung bình:
@@ -190,6 +205,7 @@ Sai số tuyệt đối của tần số trong thí nghiệm này xấp xỉ bao
     $\overline{\Delta f}=\dfrac{|666{,}67-738{,}01|+|833{,}33-738{,}01|+|714{,}29-738{,}01|}{3}\approx63\,\mathrm{Hz}$.
 
     Vậy kết quả cần tìm là **$63$**.
+
 #### Bài 12
 
 <!-- source-id: BT-Chuong-II-p86-q4-194 -->
@@ -208,12 +224,14 @@ Sai số tỉ đối của tần số trong thí nghiệm xấp xỉ bao nhiêu 
     **Đáp án:** $1{,}37$
 
     **Hướng dẫn giải:**
+
     Tần số trung bình:
     $\overline f=\dfrac{475+485+462+472}{4}=473{,}5\,\mathrm{Hz}$.
     Sai số tuyệt đối trung bình:
     $\overline{\Delta f}=\dfrac{|475-473{,}5|+|485-473{,}5|+|462-473{,}5|+|472-473{,}5|}{4}=6{,}5\,\mathrm{Hz}$.
     Sai số tỉ đối:
     $\delta_f=\dfrac{\overline{\Delta f}}{\overline f}\cdot100\%\approx1{,}37\%$.
+
 #### Bài 13
 
 <!-- source-id: BT-Chuong-II-p87-q5-195 -->
@@ -225,28 +243,29 @@ số dao động của âm thoa A?
 ![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/ii_p87_q5_195_fig1.webp){ loading=lazy }
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** 3
+    **Đáp án:** $3$
+
     **Hướng dẫn giải:**
 
-    Xác định chu kì từ số dao động hoặc đồ thị rồi dùng $f=1/T$; chú ý đổi mili giây, micro giây về giây trước khi tính.
+    Hai tín hiệu được vẽ trên cùng trục thời gian. Trong cùng một khoảng ngang, A thực hiện khoảng 2 chu kì còn B thực hiện khoảng 6 chu kì. Vì số chu kì trong cùng thời gian tỉ lệ với tần số,
 
-    Trong cùng một khoảng thời gian, sóng A chỉ có 2 dao động, trong khi sóng B có 6 dao động. Vậy số
-    dao động của sóng B gấp 3 lần số dao động của sóng A. Vậy tần số
+    $\dfrac{f_B}{f_A}=\dfrac{6}{2}=3$.
 
-    Vậy kết quả cần tìm là **3**.
+    Vậy tần số của B gấp 3 lần tần số của A.
+
 #### Bài 14
 
 <!-- source-id: BT-Chuong-II-p87-q6-196 -->
 
-Dạng sóng của một tín hiệu âm có dạng như hình 2.11 dưới đây. Biết dao động kí đang chọn ở
-thang đo . Biết rằng một ô trong màn hình gọi là một div có giá trị 2,5 volt/div và 1,2 ms.
-Hiệu số giữa tần số dao động của tín hiệu B và tần số của tín hiệu A là bao nhiêu Hz? (làm tròn đến
+Dạng sóng của một tín hiệu âm có dạng như hình 2.11 dưới đây. Một ô (div) tương ứng $2{,}5\,\mathrm{V/div}$ theo phương đứng và $1{,}2\,\mathrm{ms/div}$ theo phương ngang.
+Hiệu số giữa tần số dao động của tín hiệu B và tần số của tín hiệu A là bao nhiêu $\mathrm{Hz}$? (Làm tròn đến
 chữ số hàng đơn vị)
 
 ![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/ii_p87_q6_196_fig1.webp){ loading=lazy }
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** $379$
+
     **Hướng dẫn giải:**
 
     Xác định chu kì từ số ô trên dao động kí rồi dùng $f=1/T$; đổi mili giây về giây trước khi tính.
@@ -277,6 +296,7 @@ D. $\overline A=\dfrac{A_1+A_2-\cdots-A_n}{n}$.
     **Đáp án:** A.
 
     **Hướng dẫn giải:**
+
     Giá trị trung bình của $n$ lần đo là
     $\overline A=\dfrac{A_1+A_2+\cdots+A_n}{n}$.
 
@@ -299,12 +319,15 @@ D. $\overline{\Delta A}=\dfrac{\Delta A_1+\Delta A_2+\cdots+\Delta A_n}{n}$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
+
     **Hướng dẫn giải:**
 
-    Xác định chu kì từ số dao động hoặc đồ thị rồi dùng $f=1/T$; chú ý đổi mili giây, micro giây về giây trước khi tính.
+    Sai số tuyệt đối trung bình là trung bình cộng các độ lệch tuyệt đối của từng lần đo:
 
+    $\overline{\Delta A}=\dfrac{\Delta A_1+\Delta A_2+\cdots+\Delta A_n}{n}$.
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **D. $\overline{\Delta A}=\dfrac{\Delta A_1+\Delta A_2+\cdots+\Delta A_n}{n}$.**
+    Chọn **D**.
+
 #### Bài 17
 
 <!-- source-id: BT-Chuong-II-p76-q3-161 -->
@@ -323,6 +346,7 @@ D. $\delta A=\dfrac{\Delta A'}{\overline A}\cdot100\%$.
     **Đáp án:** A.
 
     **Hướng dẫn giải:**
+
     Sai số tỉ đối của phép đo được tính bởi
     $\delta A=\dfrac{\overline{\Delta A}}{\overline A}\cdot100\%$.
 
@@ -345,34 +369,44 @@ D. $A=\Delta A\pm\overline A$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
+
     **Hướng dẫn giải:**
 
-    Xác định chu kì từ số dao động hoặc đồ thị rồi dùng $f=1/T$; chú ý đổi mili giây, micro giây về giây trước khi tính.
+    Kết quả phép đo được viết dưới dạng giá trị trung bình kèm sai số tuyệt đối:
 
+    $A=\overline A\pm\Delta A$.
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. $A=\overline A\pm\Delta A$.**
+    Chọn **A**.
+
 #### Bài 19
 
 <!-- source-id: BT-Chuong-II-p76-q5-163 -->
 
-Đại lượng chu kì $T$ được đo trong $n$ lần có giá trị $T_1,T_2,\ldots,T_n$. Giá trị trung bình của $T$ là 20,5 s. Sai số tỉ đối là 5,2 %. Sai số tuyệt đối của phép đo xấp xỉ là
+Đại lượng chu kì $T$ được đo trong $n$ lần có giá trị $T_1,T_2,\ldots,T_n$. Giá trị trung bình của $T$ là $20,5\,\mathrm s$. Sai số tỉ đối là 5,2 %. Sai số tuyệt đối của phép đo xấp xỉ là
 
-A. 1,02 s.
+A. $1,02\,\mathrm s$.
 
-B. 2,01 s.
+B. $2,01\,\mathrm s$.
 
-C. 1,07 s.
+C. $1,07\,\mathrm s$.
 
-D. 2,07 s.
+D. $2,07\,\mathrm s$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
+
     **Hướng dẫn giải:**
 
-    Xác định chu kì từ số dao động hoặc đồ thị rồi dùng $f=1/T$; chú ý đổi mili giây, micro giây về giây trước khi tính.
+    Sai số tỉ đối thỏa
 
+    $\delta_T=\dfrac{\Delta T}{\overline T}\cdot100\%$.
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. 1,07 s.**
+    Suy ra
+
+    $\Delta T=\dfrac{5{,}2}{100}\cdot20{,}5=1{,}066\,\mathrm s\approx1{,}07\,\mathrm s$.
+
+    Chọn **C**.
+
 #### Bài 20
 
 <!-- source-id: BT-Chuong-II-p81-q26-184 -->
@@ -382,9 +416,9 @@ Màn hình dao động kí điện tử đo ở hai kênh CH1 và kênh CH 2 có
 
 ![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/ii_p81_q26_184_fig1.webp){ loading=lazy }
 
-A. Tần số f2 = 1,75.f1.
+A. $f_2=1{,}75f_1$.
 
-B. Tần số f1 = 1,75.f2.
+B. $f_1=1{,}75f_2$.
 
 C. Hai dao động cùng tần số.
 
@@ -392,12 +426,15 @@ D. Dao động (1) trễ pha hơn dao động (2).
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
+
     **Hướng dẫn giải:**
 
-    Xác định chu kì từ số dao động hoặc đồ thị rồi dùng $f=1/T$; chú ý đổi mili giây, micro giây về giây trước khi tính.
+    Hai tín hiệu dùng chung trục thời gian. Từ hình, trong cùng một khoảng ngang tín hiệu (1) thực hiện khoảng 2 chu kì còn tín hiệu (2) thực hiện khoảng $3{,}5$ chu kì. Vì $f\propto N$ khi thời gian quan sát như nhau,
 
+    $\dfrac{f_2}{f_1}\approx\dfrac{3{,}5}{2}=1{,}75$.
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. Tần số f2 = 1,75.f1.**
+    Do đó $f_2=1{,}75f_1$. Chọn **A**.
+
 #### Bài 21
 
 <!-- source-id: BT-Chuong-II-p81-q27-185 -->
@@ -407,46 +444,56 @@ Trong một thí nghiệm đo tốc độ truyền âm, ngưới ta đo được
 sai số tỉ đối của bước sóng là 4%. Các bạn học sinh đo được tốc độ trung bình trong thí nghiệm là 334
 m/s. Sai số tuyệt đối của tốc độ truyền âm trong thí nghiệm xấp xỉ là
 
-A. 483 m/s.
+A. $483\,\mathrm{m/s}$.
 
-B. 30 m/s.
+B. $30\,\mathrm{m/s}$.
 
-C. 53 m/s.
+C. $53\,\mathrm{m/s}$.
 
-D. 13 m/s.
+D. $13\,\mathrm{m/s}$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** B
+
     **Hướng dẫn giải:**
+
     Với $v=f\lambda$, sai số tỉ đối gần đúng thỏa
     $\dfrac{\Delta v}{v}=\dfrac{\Delta f}{f}+\dfrac{\Delta\lambda}{\lambda}=0{,}05+0{,}04=0{,}09$.
     Suy ra $\Delta v\approx0{,}09\cdot334\approx30\,\mathrm{m/s}$.
+
 #### Bài 22
 
 <!-- source-id: BT-Chuong-II-p82-q28-186 -->
 
 Khi đo tần số âm của một âm thoa A, các bạn học sinh đã xác định được tần số sóng âm đo
-nguồn A là 256 Hz. Thay âm thoa A bằng âm thoa B thì đồ thị tín hiệu hai âm được cho như hình 2.6.
+nguồn A là $256\,\mathrm{Hz}$. Thay âm thoa A bằng âm thoa B thì đồ thị tín hiệu hai âm được cho như hình 2.6.
 Tần số âm B xấp xỉ
 
 ![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/ii_p82_q28_186_fig1.webp){ loading=lazy }
 
-A. 85 Hz.
+A. $85\,\mathrm{Hz}$.
 
-B. 128 Hz.
+B. $128\,\mathrm{Hz}$.
 
-C. 512 Hz.
+C. $512\,\mathrm{Hz}$.
 
-D. 768 Hz.
+D. $768\,\mathrm{Hz}$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
+
     **Hướng dẫn giải:**
 
-    Xác định chu kì từ số dao động hoặc đồ thị rồi dùng $f=1/T$; chú ý đổi mili giây, micro giây về giây trước khi tính.
+    Trong cùng khoảng thời gian trên hình, tín hiệu A có 2 chu kì còn tín hiệu B có 6 chu kì, nên
 
+    $\dfrac{f_B}{f_A}=\dfrac{6}{2}=3$.
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **D. 768 Hz.**
+    Với $f_A=256\,\mathrm{Hz}$:
+
+    $f_B=3\cdot256=768\,\mathrm{Hz}$.
+
+    Chọn **D**.
+
 ### Nhận biết — Đúng/Sai
 
 #### Bài 23
@@ -455,29 +502,30 @@ D. 768 Hz.
 
 Để thiết kế một âm thoa để chuẩn nốt Sol G4 trên đán Piano, người ta dùng thí nghiệm đo tần
 số âm. Hình dạng tín hiệu trên màn hình dao động kí của tín hiệu như hình 2.7 dưới đây. Biết tốc độ
-truyền âm trong không khí là 340 m/s.
+truyền âm trong không khí là $340\,\mathrm{m/s}$.
 
 ![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/ii_p82_q1_187_fig1.webp){ loading=lazy }
 
 a) Để đồ thị rõ nét, cần chỉnh núm Intensity trên máy dao động kí điện tử.
 
-b) Tần số sóng âm nốt Sol G4 xấp xỉ 392 Hz.
+b) Tần số sóng âm nốt Sol G4 xấp xỉ $392\,\mathrm{Hz}$.
 
-c) Bước sóng của sóng âm xấp xỉ 0,57 m.
+c) Bước sóng của sóng âm xấp xỉ $0,57\,\mathrm m$.
 
-d) Tín hiệu điện của máy phát tần số có biên độ xấp xỉ 7 V.
+d) Tín hiệu điện của máy phát tần số có biên độ xấp xỉ $7\,\mathrm V$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** a) Sai; b) Đúng; c) Sai; d) Đúng.
 
     **Hướng dẫn giải:**
-    a) Núm Focus dùng chỉnh độ nét; Intensity chủ yếu chỉnh độ sáng vệt, nên a) Sai.
 
-    b) Một chu kì khoảng 3 ô, mỗi ô $0{,}85\,\mathrm{ms}$: $T\approx2{,}55\,\mathrm{ms}$, nên $f\approx1/T\approx392\,\mathrm{Hz}$.
+    a) **Sai.** Núm Focus dùng chỉnh độ nét; Intensity chủ yếu chỉnh độ sáng vệt, nên a) Sai.
 
-    c) $\lambda=v/f\approx340/392\approx0{,}867\,\mathrm{m}$, không phải $0{,}57\,\mathrm{m}$.
+    b) **Đúng.** Một chu kì khoảng 3 ô, mỗi ô $0{,}85\,\mathrm{ms}$: $T\approx2{,}55\,\mathrm{ms}$, nên $f\approx1/T\approx392\,\mathrm{Hz}$.
 
-    d) Biên độ tín hiệu khoảng $3{,}5$ ô, mỗi ô $2\,\mathrm{V}$, nên $U\approx7\,\mathrm{V}$.
+    c) **Sai.** $\lambda=v/f\approx340/392\approx0{,}867\,\mathrm{m}$, không phải $0{,}57\,\mathrm{m}$.
+
+    d) **Đúng.** Biên độ tín hiệu khoảng $3{,}5$ ô, mỗi ô $2\,\mathrm{V}$, nên $U\approx7\,\mathrm{V}$.
 
 #### Bài 24
 
@@ -497,13 +545,14 @@ d) Việc điều chỉnh núm Timer là thay đổi tần số tín hiệu dao 
     **Đáp án:** a) Sai; b) Đúng; c) Sai; d) Sai.
 
     **Hướng dẫn giải:**
-    a) Sóng từ âm thoa đến micro là sóng âm cơ học, không phải sóng điện từ.
 
-    b) Micro biến dao động âm thành tín hiệu điện; để quan sát tín hiệu, đầu ra micro phải nối với ngõ vào dao động kí.
+    a) **Sai.** Sóng từ âm thoa đến micro là sóng âm cơ học, không phải sóng điện từ.
 
-    c) Với phép đo dùng âm thoa và micro như đề mô tả, tín hiệu cần quan sát đi từ micro đến dao động kí, không phải từ máy phát cao tần vào kênh CH.
+    b) **Đúng.** Micro biến dao động âm thành tín hiệu điện; để quan sát tín hiệu, đầu ra micro phải nối với ngõ vào dao động kí.
 
-    d) Núm Timer/Time-div chỉ thay đổi thang thời gian hiển thị của dao động kí, không làm thay đổi tần số âm.
+    c) **Sai.** Với phép đo dùng âm thoa và micro như đề mô tả, tín hiệu cần quan sát đi từ micro đến dao động kí, không phải từ máy phát cao tần vào kênh CH.
+
+    d) **Sai.** Núm Timer/Time-div chỉ thay đổi thang thời gian hiển thị của dao động kí, không làm thay đổi tần số âm.
 
     !!! warning "Đối chiếu nguồn"
         PDF đánh b) Sai và c) Đúng, nhưng hai kết luận đó không phù hợp với chính cấu hình “âm thoa đặt trước micro” của đề. Đáp án được sửa theo chức năng của micro và dao động kí trong phép đo này.
@@ -529,17 +578,21 @@ d) Nguồn âm A dao động sớm pha hơn nguồn âm B.
     **Đáp án:** a) Sai; b) Đúng; c) Đúng; d) Đúng.
 
     **Hướng dẫn giải:**
-    a) Biên độ tín hiệu A lớn hơn B nên độ to không như nhau.
-    b) Trong cùng khoảng thời gian, A và B thực hiện cùng số dao động nên có cùng tần số.
-    c) Biên độ A lớn hơn nên âm A to hơn.
-    d) Ở cùng mốc thời gian, pha của A đi trước B; A sớm pha hơn B.
+
+    a) **Sai.** Biên độ tín hiệu A lớn hơn B nên độ to không như nhau.
+
+    b) **Đúng.** Trong cùng khoảng thời gian, A và B thực hiện cùng số dao động nên có cùng tần số.
+
+    c) **Đúng.** Biên độ A lớn hơn nên âm A to hơn.
+
+    d) **Đúng.** Ở cùng mốc thời gian, pha của A đi trước B; A sớm pha hơn B.
 
 #### Bài 26
 
 <!-- source-id: BT-Chuong-II-p84-q4-190 -->
 
 Màn hình dao động kí điện tử ghi nhận xung tín hiệu âm tần có hình dạng như hình 2.9 dưới
-đây. Biết mỗi ô trên màn hình ứng với 1,5 V (1,5 volt/div), thời gian 0,5 ms.
+đây. Biết mỗi ô trên màn hình ứng với $1,5\,\mathrm V$ (1,5 volt/div), thời gian $0,5\,\mathrm{ms}$.
 (Biết rằng 1 ô = 1 div)
 
 ![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/ii_p84_q4_190_fig1.webp){ loading=lazy }
@@ -548,18 +601,22 @@ a) Để điều chỉnh đồ thị lên giữa màn hình, các bạn học si
 
 b) Sóng từ nguồn đến là dạng sóng hình sin.
 
-c) Chu kì dao động của sóng âm tần này là 2,5 ms.
+c) Chu kì dao động của sóng âm tần này là $2,5\,\mathrm{ms}$.
 
-d) Biên độ tín hiệu có độ lớn xấp xỉ 6 V.
+d) Biên độ tín hiệu có độ lớn xấp xỉ $6\,\mathrm V$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** a) Đúng; b) Đúng; c) Đúng; d) Sai.
 
     **Hướng dẫn giải:**
-    a) Núm Position theo phương đứng dùng dịch vệt lên/xuống màn hình.
-    b) Dạng tín hiệu là hình sin.
-    c) Một chu kì dài 5 ô, mỗi ô $0{,}5\,\mathrm{ms}$, nên $T=2{,}5\,\mathrm{ms}$.
-    d) Khoảng đỉnh-đỉnh khoảng $5{,}4$ ô, tương ứng $8{,}1\,\mathrm{V}$. Biên độ là một nửa: $A\approx4{,}05\,\mathrm{V}$, không phải $6\,\mathrm{V}$.
+
+    a) **Đúng.** Núm Position theo phương đứng dùng dịch vệt lên/xuống màn hình.
+
+    b) **Đúng.** Dạng tín hiệu là hình sin.
+
+    c) **Đúng.** Một chu kì dài 5 ô, mỗi ô $0{,}5\,\mathrm{ms}$, nên $T=2{,}5\,\mathrm{ms}$.
+
+    d) **Sai.** Khoảng đỉnh-đỉnh khoảng $5{,}4$ ô, tương ứng $8{,}1\,\mathrm{V}$. Biên độ là một nửa: $A\approx4{,}05\,\mathrm{V}$, không phải $6\,\mathrm{V}$.
 
 ### Thông hiểu — Trắc nghiệm 4 lựa chọn
 
@@ -579,12 +636,13 @@ D. sóng điện từ.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
+
     **Hướng dẫn giải:**
 
-    Xác định chu kì từ số dao động hoặc đồ thị rồi dùng $f=1/T$; chú ý đổi mili giây, micro giây về giây trước khi tính.
+    Dây nối giữa máy phát tần số và dao động kí truyền **tín hiệu điện**; tần số biến thiên của tín hiệu điện được đặt tương ứng với tần số âm cần khảo sát. Nó không phải sóng âm truyền trong dây.
 
+    Chọn **C**.
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. tín hiệu điện mang tần số sóng âm.**
 #### Bài 28
 
 <!-- source-id: BT-Chuong-II-p78-q20-178 -->
@@ -598,19 +656,21 @@ B. giữa ba vị trí cân bằng liên tiếp.
 C. giữa bốn vị trí cân bằng liên tiếp.
 
 D. giữa 5 vị trí cân bằng liên tiếp.
+
 ??? success "Đáp án và lời giải"
     **Đáp án:** B
+
     **Hướng dẫn giải:**
 
-    Xác định chu kì từ số dao động hoặc đồ thị rồi dùng $f=1/T$; chú ý đổi mili giây, micro giây về giây trước khi tính.
+    Một dao động hình sin đi qua vị trí cân bằng sau mỗi nửa chu kì $T/2$. Vì vậy từ lần qua vị trí cân bằng thứ nhất đến lần thứ ba liên tiếp có hai khoảng $T/2$, tổng cộng đúng một chu kì $T$.
 
+    Chọn **B**.
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **B. giữa ba vị trí cân bằng liên tiếp.**
 #### Bài 29
 
 <!-- source-id: BT-Chuong-II-p78-q21-179 -->
 
-Khi thực hành thí nghiệm đo tấn số âm, học sinh phải tiến hành gõ vào âm thoa để tạo dao
+Khi thực hành thí nghiệm đo tần số âm, học sinh phải tiến hành gõ vào âm thoa để tạo dao
 động âm trong ít nhất 3 lần. Một học sinh lần lượt gõ vào âm thoa với lực gõ tăng dần thì khoảng cách
 giữa
 
@@ -624,12 +684,13 @@ D. biên dương và biên âm tăng lên.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
+
     **Hướng dẫn giải:**
 
-    Xác định chu kì từ số dao động hoặc đồ thị rồi dùng $f=1/T$; chú ý đổi mili giây, micro giây về giây trước khi tính.
+    Gõ âm thoa mạnh hơn làm biên độ dao động tăng, nhưng trong mô hình thí nghiệm không làm thay đổi đáng kể tần số riêng của âm thoa. Trên màn hình, khoảng cách theo phương đứng giữa biên dương và biên âm bằng $2A$ nên tăng lên.
 
+    Chọn **D**.
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **D. biên dương và biên âm tăng lên.**
 #### Bài 30
 
 <!-- source-id: BT-Chuong-II-p78-q22-180 -->
@@ -649,9 +710,12 @@ D. 1 ô.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
+
     **Hướng dẫn giải:**
+
     Khoảng cách từ biên dương đến biên âm là 4 ô li, tương ứng $2A=4$ ô.
     Suy ra $A=2$ ô.
+
 #### Bài 31
 
 <!-- source-id: BT-Chuong-II-p79-q23-181 -->
@@ -660,18 +724,19 @@ Trong hình 2.4 , thời gian tính theo ms, tần số của dao động của 
 
 ![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/ii_p79_q23_181_fig1.webp){ loading=lazy }
 
-A. 512 Hz.
+A. $512\,\mathrm{Hz}$.
 
-B. 375 Hz.
+B. $375\,\mathrm{Hz}$.
 
-C. 725 Hz.
+C. $725\,\mathrm{Hz}$.
 
-D. 465 Hz.
+D. $465\,\mathrm{Hz}$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** D. $465\,\mathrm{Hz}$.
 
     **Hướng dẫn giải:**
+
     Từ Hình 2.4, một chu kì dài khoảng $4{,}3$ ô và thang thời gian là $0{,}5\,\mathrm{ms/div}$.
     Do đó $T\approx4{,}3\cdot0{,}5\times10^{-3}=2{,}15\times10^{-3}\,\mathrm{s}$,
     $f=1/T\approx465\,\mathrm{Hz}$.
@@ -692,24 +757,29 @@ Dùng dao động kí điện tử để đo chu kì một sóng âm. Chu kì c�
 
 Sai số tuyệt đối trung bình của chu kì sóng âm là
 
-A. 0,12 ms.
+A. $0,12\,\mathrm{ms}$.
 
-B. 0 ms.
+B. $0\,\mathrm{ms}$.
 
-C. 0,15 ms.
+C. $0,15\,\mathrm{ms}$.
 
-D. 0,10 ms.
+D. $0,10\,\mathrm{ms}$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
+
     **Hướng dẫn giải:**
+
     Giá trị trung bình:
+
     $\overline T=\dfrac{2{,}2+2{,}5+2{,}1+2{,}4+2{,}3}{5}=2{,}3\,\mathrm{ms}$.
-    Các độ lệch tuyệt đối lần lượt là $0{,}1;0{,}2;0{,}2;0{,}1;0{,}0\,\mathrm{ms}$.
-    Sai số tuyệt đối trung bình:
+
+    Các độ lệch tuyệt đối là $0{,}1;\ 0{,}2;\ 0{,}2;\ 0{,}1;\ 0\,\mathrm{ms}$. Do đó
+
     $\overline{\Delta T}=\dfrac{0{,}1+0{,}2+0{,}2+0{,}1+0}{5}=0{,}12\,\mathrm{ms}$.
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. 0,12 ms.**
+    Chọn **A**.
+
 ### Vận dụng — Trắc nghiệm 4 lựa chọn
 
 #### Bài 33
@@ -728,12 +798,15 @@ D. $\dfrac{\overline{\Delta v}}{\overline v}=\dfrac{\overline{\Delta f}}{\overli
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
+
     **Hướng dẫn giải:**
 
-    Xác định chu kì từ số dao động hoặc đồ thị rồi dùng $f=1/T$; chú ý đổi mili giây, micro giây về giây trước khi tính.
+    Với $v=f\lambda$, quy tắc truyền sai số tỉ đối cho tích cho
 
+    $\dfrac{\overline{\Delta v}}{\overline v}\approx\dfrac{\overline{\Delta f}}{\overline f}+\dfrac{\overline{\Delta\lambda}}{\overline\lambda}$.
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. $\dfrac{\overline{\Delta v}}{\overline v}=\dfrac{\overline{\Delta f}}{\overline f}+\dfrac{\overline{\Delta\lambda}}{\overline\lambda}$.**
+    Đây là hệ thức ở phương án A.
+
 #### Bài 34
 
 <!-- source-id: BT-Chuong-II-p77-q8-166 -->
@@ -751,12 +824,13 @@ D. máy phát tần số.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** B
+
     **Hướng dẫn giải:**
 
-    Xác định chu kì từ số dao động hoặc đồ thị rồi dùng $f=1/T$; chú ý đổi mili giây, micro giây về giây trước khi tính.
+    Micro nhận dao động áp suất của sóng âm và biến đổi chúng thành tín hiệu điện có cùng biến thiên theo thời gian để đưa tới thiết bị đo.
 
+    Chọn **B**.
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **B. micro.**
 #### Bài 35
 
 <!-- source-id: BT-Chuong-II-p77-q9-167 -->
@@ -770,14 +844,16 @@ B. dao động kí điện tử.
 C. máy phát tần số.
 
 D. micro.
+
 ??? success "Đáp án và lời giải"
     **Đáp án:** B
+
     **Hướng dẫn giải:**
 
-    Xác định chu kì từ số dao động hoặc đồ thị rồi dùng $f=1/T$; chú ý đổi mili giây, micro giây về giây trước khi tính.
+    Dao động kí điện tử là thiết bị hiển thị điện áp tín hiệu theo thời gian dưới dạng đồ thị trên màn hình.
 
+    Chọn **B**.
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **B. dao động kí điện tử.**
 #### Bài 36
 
 <!-- source-id: BT-Chuong-II-p77-q10-168 -->
@@ -794,12 +870,13 @@ D. âm thoa và micro.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
+
     **Hướng dẫn giải:**
 
-    Xác định chu kì từ số dao động hoặc đồ thị rồi dùng $f=1/T$; chú ý đổi mili giây, micro giây về giây trước khi tính.
+    Trong cấu hình được hỏi ở câu này, que đo lấy tín hiệu điện từ đầu ra của máy phát tần số và đưa vào kênh vào của dao động kí để quan sát/hiệu chỉnh tín hiệu.
 
+    Chọn **A**.
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. máy phát tần số và dao động kí điện tử.**
 #### Bài 37
 
 <!-- source-id: BT-Chuong-II-p77-q11-169 -->
@@ -816,18 +893,19 @@ D. micro.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
+
     **Hướng dẫn giải:**
 
-    Xác định chu kì từ số dao động hoặc đồ thị rồi dùng $f=1/T$; chú ý đổi mili giây, micro giây về giây trước khi tính.
+    Âm thoa dao động cơ học và làm không khí xung quanh dao động, tạo ra sóng âm. Micro chỉ thu và biến đổi tín hiệu; dao động kí dùng để quan sát tín hiệu.
 
+    Chọn **C**.
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. âm thoa.**
 #### Bài 38
 
 <!-- source-id: BT-Chuong-II-p77-q12-170 -->
 
 Khi màn hình máy dao động kí quá sáng. Để giảm độ sáng của màn hình trên dao động kí điện
-tử, học sinh phài điều chỉnh núm
+tử, học sinh phải điều chỉnh núm
 
 A. scale illum.
 
@@ -836,20 +914,22 @@ B. núm focus.
 C. núm intensity.
 
 D. núm position ⇕.
+
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
+
     **Hướng dẫn giải:**
 
-    Xác định chu kì từ số dao động hoặc đồ thị rồi dùng $f=1/T$; chú ý đổi mili giây, micro giây về giây trước khi tính.
+    `Scale Illum` điều chỉnh độ sáng của lưới/thang chia trên màn hình. Câu hỏi nói màn hình/thang hiển thị quá sáng, nên giảm `Scale Illum`.
 
+    Chọn **A**.
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. scale illum.**
 #### Bài 39
 
 <!-- source-id: BT-Chuong-II-p77-q13-171 -->
 
 Khi đồ thị tín hiệu quá tối. Để tăng độ sáng của đồ thị biểu diễn tín hiệu trên dao động kí điện
-tử, học sinh phài điều chỉnh núm
+tử, học sinh phải điều chỉnh núm
 
 A. scale illum.
 
@@ -858,20 +938,22 @@ B. núm focus.
 C. núm intensity.
 
 D. núm position ⇔.
+
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
+
     **Hướng dẫn giải:**
 
-    Xác định chu kì từ số dao động hoặc đồ thị rồi dùng $f=1/T$; chú ý đổi mili giây, micro giây về giây trước khi tính.
+    `Intensity` điều chỉnh độ sáng của **vệt tín hiệu**. Khi đường biểu diễn tín hiệu quá tối, tăng `Intensity` để quan sát rõ hơn.
 
+    Chọn **C**.
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. núm intensity.**
 #### Bài 40
 
 <!-- source-id: BT-Chuong-II-p77-q14-172 -->
 
 Khi đồ thị tín hiệu bị nhòe, không rõ nét. Để tăng độ nét của đồ thị biểu diễn tín hiệu trên dao
-động kí điện tử, học sinh phài điều chỉnh núm
+động kí điện tử, học sinh phải điều chỉnh núm
 
 A. scale illum.
 
@@ -880,14 +962,16 @@ B. núm focus.
 C. núm intensity.
 
 D. núm position ⇕.
+
 ??? success "Đáp án và lời giải"
     **Đáp án:** B
+
     **Hướng dẫn giải:**
 
-    Xác định chu kì từ số dao động hoặc đồ thị rồi dùng $f=1/T$; chú ý đổi mili giây, micro giây về giây trước khi tính.
+    `Focus` dùng điều chỉnh độ hội tụ/độ nét của vệt. Khi tín hiệu bị nhòe, cần chỉnh `Focus`.
 
+    Chọn **B**.
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **B. núm focus.**
 #### Bài 41
 
 <!-- source-id: BT-Chuong-II-p77-q15-173 -->
@@ -902,19 +986,21 @@ B. núm position ⇔.
 C. núm time.
 
 D. núm volt.
+
 ??? success "Đáp án và lời giải"
     **Đáp án:** B
+
     **Hướng dẫn giải:**
 
-    Xác định chu kì từ số dao động hoặc đồ thị rồi dùng $f=1/T$; chú ý đổi mili giây, micro giây về giây trước khi tính.
+    Núm `Position` theo phương ngang dịch toàn bộ vệt sang trái hoặc phải mà không làm thay đổi thang thời gian. Khi vệt lệch phải, dùng núm vị trí ngang để dịch sang trái.
 
+    Chọn **B**.
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **B. núm position ⇔.**
 #### Bài 42
 
 <!-- source-id: BT-Chuong-II-p77-q16-174 -->
 
-Để chuẩn tín hiệu trong máy dao động kí, ta dụng dây tín hiệu cắm một đầu jack vào cổng
+Để chuẩn tín hiệu trong máy dao động kí, ta dùng dây tín hiệu cắm một đầu jack vào cổng
 input của kênh đo CH. Đầu móc của dây tín hiệu nối vào
 
 A. khe mode trên dao động kí điện tử.
@@ -927,12 +1013,13 @@ D. cắm vào khe cal trên dao động kí điện tử.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
+
     **Hướng dẫn giải:**
 
-    Xác định chu kì từ số dao động hoặc đồ thị rồi dùng $f=1/T$; chú ý đổi mili giây, micro giây về giây trước khi tính.
+    Để kiểm tra/chuẩn kênh đo, đầu vào của dao động kí được nối với ngõ ra hiệu chuẩn `CAL` của chính dao động kí, nơi cung cấp tín hiệu chuẩn đã biết.
 
+    Chọn **D**.
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **D. cắm vào khe cal trên dao động kí điện tử.**
 #### Bài 43
 
 <!-- source-id: BT-Chuong-II-p78-q18-176 -->
@@ -943,7 +1030,7 @@ nào?
 
 ![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/ii_p78_q18_176_fig1.webp){ loading=lazy }
 
-A. Núm Auto sét.
+A. Núm Auto Set.
 
 B. Núm Volt.
 
@@ -953,12 +1040,13 @@ D. Núm Time.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** B
+
     **Hướng dẫn giải:**
 
-    Xác định chu kì từ số dao động hoặc đồ thị rồi dùng $f=1/T$; chú ý đổi mili giây, micro giây về giây trước khi tính.
+    Hình cho thấy biên độ theo phương đứng vượt khỏi vùng hiển thị. Cần thay đổi độ nhạy điện áp theo phương đứng (`Volt/div`) để toàn bộ tín hiệu nằm trong màn hình; núm thời gian chỉ thay đổi thang ngang và `Position` chỉ dịch vệt.
 
+    Chọn **B**.
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **B. Núm Volt.**
 #### Bài 44
 
 <!-- source-id: BT-Chuong-II-p81-q25-183 -->
@@ -971,21 +1059,32 @@ Một học sinh tại trường THPT Ngô Quyền thực hiện thí nghiệm �
 
 Dựa vào bảng kết quả hãy cho biết nhận xét nào sau đây không đúng?
 
-A. Chu kì trung bình là 2,3 s.
+A. Chu kì trung bình là $2,3\,\mathrm s$.
 
-B. Tần số trung bình xấp xỉ 0,43 Hz.
+B. Tần số trung bình xấp xỉ $0,43\,\mathrm{Hz}$.
 
 C. Số liệu thu được hoàn toàn chính xác.
 
-D. Sai số tuyệt đối trung bình của chu kì là 0,15 s.
+D. Sai số tuyệt đối trung bình của chu kì là $0,15\,\mathrm s$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
+
     **Hướng dẫn giải:**
 
-    Hướng dẫn.
+    Từ đúng các số liệu in trong bảng:
 
-    Sóng âm có tần số từ 16 Hz đến 20.000 Hz.
+    $\overline T=\dfrac{2{,}2+2{,}5+2{,}1+2{,}4}{4}=2{,}3\,\mathrm s$,
 
-    Bài toán cho tần số trung bình là 0,43 Hz &lt; 16 Hz là không chính xác với thí nghiệm đo tần số âm.
-    Có thể bạn học sinh này đã sai về đơn vị đo.
+    nên A đúng. Tần số suy ra từ chu kì trung bình là
+
+    $f=\dfrac1{\overline T}=\dfrac1{2{,}3}\approx0{,}435\,\mathrm{Hz}\approx0{,}43\,\mathrm{Hz}$,
+
+    nên B đúng theo số liệu in. Sai số tuyệt đối trung bình:
+
+    $\overline{\Delta T}=\dfrac{|2{,}2-2{,}3|+|2{,}5-2{,}3|+|2{,}1-2{,}3|+|2{,}4-2{,}3|}{4}=0{,}15\,\mathrm s$,
+
+    nên D đúng. Dữ liệu có độ phân tán khác 0 nên không thể nói “hoàn toàn chính xác”; C là nhận xét không đúng.
+
+    !!! warning "Đối chiếu nguồn"
+        Bảng PDF in đơn vị chu kì là giây, dẫn tới $f\approx0{,}43\,\mathrm{Hz}$, không phù hợp với một âm thoa dùng để tạo âm nghe được. PDF cũng nhận xét có khả năng sai đơn vị. Không có đủ căn cứ để tự đổi `s` thành `ms`, nhưng sự bất nhất đơn vị này không làm đáp án trở nên mơ hồ: A, B và D đều đúng theo chính bảng số liệu in, còn C sai vì các lần đo có độ phân tán khác 0.

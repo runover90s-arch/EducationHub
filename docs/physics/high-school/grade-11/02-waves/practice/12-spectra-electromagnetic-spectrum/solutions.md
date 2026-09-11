@@ -14,33 +14,71 @@ tags:
 [← Bài tập](exercises.md)
 
 ## Bài 1
-Chọn **C**.
+**Đáp án:** C. Tia tử ngoại.
+
+**Hướng dẫn giải:**
+
+Trong các lựa chọn, thứ tự bước sóng tăng dần là tử ngoại → ánh sáng đỏ → hồng ngoại → sóng vô tuyến, nên tia tử ngoại có bước sóng ngắn nhất.
 
 ## Bài 2
-Chọn **B**.
+**Đáp án:** B. Lớn hơn.
+
+**Hướng dẫn giải:**
+
+Tia X có bước sóng ngắn hơn ánh sáng nhìn thấy; vì $f=c/\lambda$ trong chân không, tần số của tia X lớn hơn.
 
 ## Bài 3
-Chọn **A** theo mô hình phổ thông.
+**Đáp án:** A.
+
+**Hướng dẫn giải:**
+
+Theo mô hình phổ thông, chất rắn, chất lỏng và khối khí có áp suất lớn khi được nung nóng phát quang phổ liên tục; khí loãng bị kích thích thường cho quang phổ vạch.
+
 
 ## Bài 4
-a) **Đúng**.  
-b) **Đúng**.  
-c) **Sai**.  
-d) **Đúng**.
+**Đáp án:** a) Đúng; b) Đúng; c) Sai; d) Đúng.
+
+**Hướng dẫn giải:**
+
+a) **Đúng.** Trong chân không $c=\lambda f$ nên $f$ tăng thì $\lambda$ giảm.
+
+b) **Đúng.** Hồng ngoại nằm phía bước sóng dài hơn ánh sáng đỏ.
+
+c) **Sai.** Tử ngoại có bước sóng ngắn hơn ánh sáng nhìn thấy và ngắn hơn nhiều so với hồng ngoại.
+
+d) **Đúng.** Tia gamma thuộc vùng tần số rất cao của thang sóng điện từ.
+
 
 ## Bài 5
-$f=c/\lambda=3\cdot10^8/(3\cdot10^{-7})=10^{15}$ Hz.
+**Đáp án:** $10^{15}\,\mathrm{Hz}$.
+
+**Hướng dẫn giải:**
+
+$f=c/\lambda=3\times10^8/(3\times10^{-7})=10^{15}\,\mathrm{Hz}$.
 
 ## Bài 6
-Thứ tự: **tia X → ánh sáng nhìn thấy → hồng ngoại → sóng vô tuyến**.
+**Đáp án:** Tia X → ánh sáng nhìn thấy → hồng ngoại → sóng vô tuyến.
+
+**Hướng dẫn giải:**
+
+Trên thang sóng điện từ, bước sóng tăng theo thứ tự tia X, vùng nhìn thấy, hồng ngoại rồi sóng vô tuyến.
 
 ## Bài 7
-$\lambda=c/f=3\cdot10^8/(3\cdot10^{16})=10^{-8}$ m $=10$ nm.
+**Đáp án:** $10\,\mathrm{nm}$.
+
+**Hướng dẫn giải:**
+
+$\lambda=c/f=3\times10^8/(3\times10^{16})=10^{-8}\,\mathrm m=10\,\mathrm{nm}$.
+
 
 ## Bài 8
-A: $\lambda_A=3\cdot10^8/(5\cdot10^{14})=6\cdot10^{-7}$ m $=600$ nm, thuộc vùng ánh sáng nhìn thấy.
+**Đáp án:** $\lambda_A=600\,\mathrm{nm}$; $\lambda_B=0{,}03\,\mathrm{nm}$.
 
-B: $\lambda_B=3\cdot10^8/10^{19}=3\cdot10^{-11}$ m $=0,03$ nm, thuộc vùng bức xạ rất ngắn, điển hình vùng tia X cứng/tia gamma tùy cách phân loại nguồn. Ở mức phổ thông, chỉ cần nhận xét B có tần số rất cao và bước sóng rất ngắn.
+**Hướng dẫn giải:**
+
+Với A: $\lambda_A=3\times10^8/(5\times10^{14})=6\times10^{-7}\,\mathrm m=600\,\mathrm{nm}$, thuộc vùng ánh sáng nhìn thấy.
+
+Với B: $\lambda_B=3\times10^8/10^{19}=3\times10^{-11}\,\mathrm m=0{,}03\,\mathrm{nm}$. Đây là bức xạ bước sóng rất ngắn, ở vùng có thể được gọi là tia X cứng hoặc gamma tùy quy ước phân loại theo nguồn phát; kết luận chắc chắn từ dữ kiện là tần số rất cao và bước sóng rất ngắn.
 
 ---
 

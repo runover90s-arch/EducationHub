@@ -161,7 +161,7 @@ Nếu một sáng, một tối, hãy viết từng tọa độ rồi lấy trị
 
 ### Ví dụ 1 — Khoảng vân
 
-$a=1$ mm, $D=2$ m, $\lambda=600$ nm.
+$a=1\,\mathrm{mm}$, $D=2\,\mathrm m$, $\lambda=600\,\mathrm{nm}$.
 
 Đổi về SI:
 
@@ -172,11 +172,11 @@ $$
 
 ### Ví dụ 2 — Vị trí vân tối
 
-Với $i=1,2$ mm, vân tối thứ nhất bên phải trung tâm ở $x=i/2=0,6$ mm; vân tối tiếp theo ở $1,8$ mm.
+Với $i=1,2\,\mathrm{mm}$, vân tối thứ nhất bên phải trung tâm ở $x=i/2=0,6\,\mathrm{mm}$; vân tối tiếp theo ở $1,8\,\mathrm{mm}$.
 
 ### Ví dụ 3 — Tìm bước sóng
 
-Khoảng cách giữa 6 vân sáng liên tiếp là 5 khoảng vân. Nếu độ dài đo được là 5 mm thì $i=1$ mm, không phải $5/6$ mm.
+Khoảng cách giữa 6 vân sáng liên tiếp là 5 khoảng vân. Nếu độ dài đo được là $5\,\mathrm{mm}$ thì $i=1\,\mathrm{mm}$, không phải $5/6\,\mathrm{mm}$.
 
 ## 11. Điều kiện áp dụng
 

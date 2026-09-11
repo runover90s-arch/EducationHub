@@ -9,7 +9,6 @@ tags:
 
 # Bài tập — Bài 3 — Nguồn điện, suất điện động và điện trở trong
 
-> Hệ bài tập được biên soạn theo các dạng xuất hiện trong bộ tài liệu Vật lí 11 của dự án. Câu hỏi được giữ ngắn, trực tiếp; độ khó tăng dần và không cố tình thêm dữ kiện gây nhiễu.
 
 [← Trở lại bài học](../../03-emf-internal-resistance.md)
 
@@ -32,18 +31,18 @@ D. $\mathcal E=P/t$.
 
 ### Bài 2 — Mức 1 — Nhận biết
 
-Nguồn có suất điện động $12$ V, điện trở trong $1\,\Omega$, đang phát dòng $2$ A. Hiệu điện thế hai cực nguồn là
+Nguồn có suất điện động $12\,\mathrm V$, điện trở trong $1\,\Omega$, đang phát dòng $2\,\mathrm A$. Hiệu điện thế hai cực nguồn là
 
-A. $10$ V.
+A. $10\,\mathrm V$.
 
-B. $12$ V.
+B. $12\,\mathrm V$.
 
-C. $14$ V.
+C. $14\,\mathrm V$.
 
-D. $24$ V.
+D. $24\,\mathrm V$.
 
 ??? success "Đáp án và lời giải"
-    Chọn **A**. Khi nguồn phát điện: $U=\mathcal E-Ir=12-2=10$ V.
+    Chọn **A**. Khi nguồn phát điện: $U=\mathcal E-Ir=12-2=10\,\mathrm V$.
 
 ### Bài 3 — Mức 1 — Nhận biết
 
@@ -90,10 +89,13 @@ c) Khi hở mạch, U bằng suất điện động.
 d) Suất điện động có đơn vị ampe.
 
 ??? success "Đáp án và lời giải"
-    a) **Đúng**.
-    b) **Đúng**.
-    c) **Đúng**.
-    d) **Sai**: đơn vị vôn.
+    a) **Đúng.** Với nguồn đang phát điện, định luật Ohm cho toàn mạch cho hiệu điện thế hai cực $U=\mathcal E-Ir$.
+
+    b) **Đúng.** Từ $U=\mathcal E-Ir$, với $\mathcal E$ và $r$ cố định thì tăng $I$ làm sụt áp trong $Ir$ tăng và $U$ giảm.
+
+    c) **Đúng.** Khi hở mạch $I=0$, nên từ $U=\mathcal E-Ir$ suy ra $U=\mathcal E$.
+
+    d) **Sai.** đơn vị vôn.
 
 ### Bài 6 — Mức 2 — Thông hiểu
 
@@ -108,46 +110,49 @@ c) Điện trở trong càng lớn luôn làm hiệu suất nguồn tăng.
 d) Nguồn thực có thể nóng lên do tổn hao trong.
 
 ??? success "Đáp án và lời giải"
-    a) **Đúng**.
-    b) **Đúng**.
-    c) **Sai**.
-    d) **Đúng**.
+    a) **Đúng.** Theo định nghĩa suất điện động, $\mathcal E=A_{\text{lạ}}/q$.
+
+    b) **Đúng.** Vì điện lượng qua nguồn là $q=It$ và $A_{ng}=\mathcal E q$, nên $A_{ng}=\mathcal E It$.
+
+    c) **Sai.** Với tải $R$, hiệu suất nguồn $H=R/(R+r)$ nên tăng $r$ làm hiệu suất giảm, không phải luôn tăng.
+
+    d) **Đúng.** Điện trở trong $r$ tiêu thụ công suất $P_{\text{hao}}=I^2r$, chuyển điện năng thành nhiệt trong nguồn.
 
 ## Phần C — Trả lời ngắn
 
 ### Bài 7 — Mức 3 — Vận dụng
 
-Nguồn có $\mathcal E=9$ V, $r=0,5\,\Omega$, phát dòng $I=1,2$ A. Tính U hai cực.
+Nguồn có $\mathcal E=9\,\mathrm V$, $r=0,5\,\Omega$, phát dòng $I=1,2\,\mathrm A$. Tính U hai cực.
 
 ??? success "Đáp án và lời giải"
-    $U=9-1,2\cdot0,5=8,4$ V.
+    $U=9-1,2\cdot0,5=8,4\,\mathrm V$.
 
 ### Bài 8 — Mức 3 — Vận dụng
 
-Một nguồn hở mạch đo được $12$ V. Khi phát dòng $2$ A, hiệu điện thế hai cực còn $11$ V. Tính điện trở trong.
+Một nguồn hở mạch đo được $12\,\mathrm V$. Khi phát dòng $2\,\mathrm A$, hiệu điện thế hai cực còn $11\,\mathrm V$. Tính điện trở trong.
 
 ??? success "Đáp án và lời giải"
-    $\mathcal E\approx12$ V khi hở mạch. $r=(\mathcal E-U)/I=(12-11)/2=0,5\,\Omega$.
+    $\mathcal E\approx12\,\mathrm V$ khi hở mạch. $r=(\mathcal E-U)/I=(12-11)/2=0,5\,\Omega$.
 
 ### Bài 9 — Mức 3 — Vận dụng
 
-Nguồn $6$ V, $r=1\,\Omega$ phát dòng $0,50$ A trong 2 phút. Tính công của nguồn và nhiệt tỏa trên điện trở trong.
+Nguồn $6\,\mathrm V$, $r=1\,\Omega$ phát dòng $0,50\,\mathrm A$ trong 2 phút. Tính công của nguồn và nhiệt tỏa trên điện trở trong.
 
 ??? success "Đáp án và lời giải"
-    $t=120$ s. Công nguồn $A=\mathcal E It=6\cdot0,5\cdot120=360$ J. Nhiệt trên r: $Q=I^2rt=0,25\cdot1\cdot120=30$ J.
+    $t=120\,\mathrm s$. Công nguồn $A=\mathcal E It=6\cdot0,5\cdot120=360\,\mathrm J$. Nhiệt trên r: $Q=I^2rt=0,25\cdot1\cdot120=30\,\mathrm J$.
 
 ## Phần D — Vận dụng và vận dụng cao
 
 ### Bài 10 — Mức 4 — Vận dụng cao
 
-Một nguồn có $\mathcal E=12$ V. Khi dòng phát là $1$ A, U hai cực $11,5$ V. Khi dòng phát $3$ A, U hai cực là bao nhiêu nếu mô hình nguồn tuyến tính không đổi?
+Một nguồn có $\mathcal E=12\,\mathrm V$. Khi dòng phát là $1\,\mathrm A$, U hai cực $11,5\,\mathrm V$. Khi dòng phát $3\,\mathrm A$, U hai cực là bao nhiêu nếu mô hình nguồn tuyến tính không đổi?
 
 ??? success "Đáp án và lời giải"
     Từ trạng thái đầu: $r=(12-11,5)/1=0,5\,\Omega$.
 
-    Ở $I=3$ A:
+    Ở $I=3\,\mathrm A$:
 
-    $U=\mathcal E-Ir=12-3\cdot0,5=10,5$ V.
+    $U=\mathcal E-Ir=12-3\cdot0,5=10,5\,\mathrm V$.
 
     Ta đã dùng giả thiết $\mathcal E$ và r không đổi trong khoảng làm việc.
 
@@ -253,7 +258,7 @@ Cho mạch điện như hình vẽ. Biết ampe kế lí tưởng chỉ $1{,}92\
 
     Từ định luật nút theo sơ đồ nguồn, suy ra $I_3\approx2{,}3872\,\mathrm A$, nên
 
-    $r=(8-4{,}8384)/2{,}3872\approx3\,\Omega$.
+    $r=(12-4{,}8384)/2{,}3872\approx3\,\Omega$.
 
 ### Nhận biết — Trắc nghiệm 4 lựa chọn
 
@@ -294,12 +299,10 @@ D. dự trữ điện tích của nguồn điện.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** B
+
     **Hướng dẫn giải:**
 
-    Suất điện động là công của nguồn trên một đơn vị điện tích; khi nguồn phát điện, hiệu điện thế hai cực dùng $U=\mathcal E-Ir$.
-
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **B. thực hiện công của nguồn điện.**
+    Suất điện động $\mathcal E=A_{\mathrm{lạ}}/q$ đo công của lực lạ trong nguồn trên một đơn vị điện tích. Vì vậy nó đặc trưng cho khả năng thực hiện công của nguồn điện.
 #### Bài 18
 
 <!-- source-id: BT-Chuong-IV-p62-q4-196 -->
@@ -316,12 +319,10 @@ D. luôn lớn hơn hoặc bằng suất điện động của nguồn điện k
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
+
     **Hướng dẫn giải:**
 
-    Suất điện động là công của nguồn trên một đơn vị điện tích; khi nguồn phát điện, hiệu điện thế hai cực dùng $U=\mathcal E-Ir$.
-
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. luôn nhỏ hơn suất điện động của nguồn điện khi có dòng điện chạy qua nguồn.**
+    Khi nguồn đang **phát điện**, $U=\mathcal E-Ir$. Với $I>0$ và $r>0$ thì $U<\mathcal E$, nên theo chế độ mà câu hỏi nguồn đang xét chọn C.
 #### Bài 19
 
 <!-- source-id: BT-Chuong-IV-p62-q5-197 -->
@@ -338,12 +339,10 @@ D. chuyển hóa điện năng thành các dạng năng lượng khác.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
+
     **Hướng dẫn giải:**
 
-    Suất điện động là công của nguồn trên một đơn vị điện tích; khi nguồn phát điện, hiệu điện thế hai cực dùng $U=\mathcal E-Ir$.
-
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. tạo ra và duy trì sự chênh lệch điện thế.**
+    Nguồn điện thực hiện công để tách điện tích và tạo, duy trì chênh lệch điện thế giữa hai cực; nhờ đó có thể duy trì dòng điện trong mạch kín. Chọn A.
 #### Bài 20
 
 <!-- source-id: BT-Chuong-IV-p62-q6-198 -->
@@ -383,12 +382,10 @@ D. lực điện trường.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** B
+
     **Hướng dẫn giải:**
 
-    Suất điện động là công của nguồn trên một đơn vị điện tích; khi nguồn phát điện, hiệu điện thế hai cực dùng $U=\mathcal E-Ir$.
-
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **B. lực hóa học.**
+    Trong pin và ắc-quy, quá trình hóa học thực hiện công tách và vận chuyển điện tích bên trong nguồn; vì vậy lực lạ có bản chất hóa học.
 #### Bài 22
 
 <!-- source-id: BT-Chuong-IV-p63-q10-202 -->
@@ -405,12 +402,10 @@ D. suất điện động của pin giảm và điện trở trong của pin tă
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
+
     **Hướng dẫn giải:**
 
-    Suất điện động là công của nguồn trên một đơn vị điện tích; khi nguồn phát điện, hiệu điện thế hai cực dùng $U=\mathcal E-Ir$.
-
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **D. suất điện động của pin giảm và điện trở trong của pin tăng.**
+    Sau thời gian sử dụng, nguồn hóa học suy giảm khả năng duy trì điện áp và các quá trình bên trong làm điện trở trong tăng. Theo mô hình của bài, suất điện động giảm còn điện trở trong tăng.
 #### Bài 23
 
 <!-- source-id: BT-Chuong-IV-p65-q24-215 -->
@@ -419,13 +414,13 @@ Một pin có thông số như hình. Biết cường độ dòng điện mà n�
 
 ![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/iv_p65_q24_215_fig1.webp){ loading=lazy }
 
-A. 200 h.
+A. $200\,\mathrm h$.
 
-B. 1000 h.
+B. $1000\,\mathrm h$.
 
-C. 5000 h.
+C. $5000\,\mathrm h$.
 
-D. 500 h.
+D. $500\,\mathrm h$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
@@ -439,7 +434,7 @@ D. 500 h.
     Vậy chọn **A**.
 
     !!! note "Đối chiếu nguồn"
-        PDF ghi nhầm đơn vị ở dòng cuối lời giải thành “200 A”. Đại lượng đang tính là thời gian và đáp án nguồn là 200 h, nên đơn vị đúng là **giờ (h)**.
+        PDF ghi nhầm đơn vị ở dòng cuối lời giải thành “$200\,\mathrm A$”. Đại lượng đang tính là thời gian và đáp án nguồn là $200\,\mathrm h$, nên đơn vị đúng là **giờ (h)**.
 
 #### Bài 24
 
@@ -457,12 +452,10 @@ D. điện lượng.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
+
     **Hướng dẫn giải:**
 
-    Suất điện động là công của nguồn trên một đơn vị điện tích; khi nguồn phát điện, hiệu điện thế hai cực dùng $U=\mathcal E-Ir$.
-
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. suất điện động.**
+    Suất điện động được định nghĩa từ công của lực lạ trên một đơn vị điện tích, nên là đại lượng đặc trưng trực tiếp cho khả năng thực hiện công của nguồn.
 #### Bài 25
 
 <!-- source-id: BT-Chuong-IV-p78-q2-236 -->
@@ -479,12 +472,10 @@ D. Dùng để duy trì dòng điện trong mạch.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
+
     **Hướng dẫn giải:**
 
-    Suất điện động là công của nguồn trên một đơn vị điện tích; khi nguồn phát điện, hiệu điện thế hai cực dùng $U=\mathcal E-Ir$.
-
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. Dùng để tạo ra các ion âm.**
+    Nguồn điện tách và dịch chuyển các điện tích có sẵn để tạo và duy trì chênh lệch điện thế; nó không có chức năng “tạo ra các ion âm”. Vì vậy C là kết luận sai.
 #### Bài 26
 
 <!-- source-id: BT-Chuong-IV-p78-q3-237 -->
@@ -501,12 +492,10 @@ D. lực hóa học.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
+
     **Hướng dẫn giải:**
 
-    Suất điện động là công của nguồn trên một đơn vị điện tích; khi nguồn phát điện, hiệu điện thế hai cực dùng $U=\mathcal E-Ir$.
-
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **D. lực hóa học.**
+    Trong pin điện hóa, lực lạ xuất phát từ các tương tác và phản ứng hóa học, nên có bản chất hóa học.
 #### Bài 27
 
 <!-- source-id: BT-Chuong-IV-p78-q4-238 -->
@@ -523,12 +512,10 @@ D. lực điện trường.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
+
     **Hướng dẫn giải:**
 
-    Suất điện động là công của nguồn trên một đơn vị điện tích; khi nguồn phát điện, hiệu điện thế hai cực dùng $U=\mathcal E-Ir$.
-
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. lực điện từ.**
+    Trong máy phát điện, cơ chế tạo suất điện động gắn với cảm ứng điện từ; theo cách phân loại của nguồn, lực lạ có bản chất điện từ.
 #### Bài 28
 
 <!-- source-id: BT-Chuong-IV-p78-q5-239 -->
@@ -545,12 +532,10 @@ D. Đều đặc trưng cho khả năng thực hiện công của nguồn điệ
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
+
     **Hướng dẫn giải:**
 
-    Suất điện động là công của nguồn trên một đơn vị điện tích; khi nguồn phát điện, hiệu điện thế hai cực dùng $U=\mathcal E-Ir$.
-
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **D. Đều đặc trưng cho khả năng thực hiện công của nguồn điện.**
+    Suất điện động đặc trưng cho công của **nguồn** trên một đơn vị điện tích. Hiệu điện thế đặc trưng cho công của điện trường giữa hai điểm và không phải lúc nào cũng là “khả năng thực hiện công của nguồn”. Vì vậy D là phát biểu sai; khi hở mạch, điện áp hai cực lí tưởng bằng suất điện động.
 #### Bài 29
 
 <!-- source-id: BT-Chuong-IV-p78-q6-240 -->
@@ -588,12 +573,10 @@ D. Trong nguồn điện hoá học (pin, ácquy), có sự chuyển hoá từ q
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
+
     **Hướng dẫn giải:**
 
-    Suất điện động là công của nguồn trên một đơn vị điện tích; khi nguồn phát điện, hiệu điện thế hai cực dùng $U=\mathcal E-Ir$.
-
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. Trong nguồn điện hoá học (pin, ácquy), có sự chuyển hoá từ hoá năng thành điện năng.**
+    Pin và ắc-quy là nguồn điện hóa học: hóa năng của phản ứng bên trong được chuyển hóa thành điện năng cung cấp cho mạch ngoài.
 #### Bài 31
 
 <!-- source-id: BT-Chuong-IV-p78-q8-242 -->
@@ -648,7 +631,7 @@ D. $5\,\mathrm J$.
 
 Một cục pin có thông số như hình. Thông số $9\,\mathrm V$ cho ta biết
 
-![Pin 9 V 700 mAh](../../../assets/exercise-figures/clean-v14/iv_p80_q13_247.webp){ loading=lazy }
+![Pin $9\,\mathrm V$ 700 mAh](../../../assets/exercise-figures/clean-v14/iv_p80_q13_247.webp){ loading=lazy }
 
 A. suất điện động của viên pin.
 
@@ -675,7 +658,7 @@ Cho sơ đồ mạch điện như hình vẽ, biết mỗi nguồn có suất đ
 
 ![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/iv_p70_q3_225_fig1.webp){ loading=lazy }
 
-a) Suất điện động của bộ nguồn là $\xi$ V.
+a) Suất điện động của bộ nguồn là $\xi\,\mathrm V$.
 
 b) Điện trở trong của bộ nguồn là $r/5\,\Omega$.
 
@@ -719,7 +702,7 @@ d) Để có thể duy trì trong vòng $20\,\mathrm h$ thì ắc-quy cần cung
 
     a) **Đúng.** Ắc-quy là nguồn điện, có nhiệm vụ tạo và duy trì hiệu điện thế.
 
-    b) **Sai.** Nhãn trên ắc-quy ghi **12 V**, không phải 20 V.
+    b) **Sai.** Nhãn trên ắc-quy ghi **$12\,\mathrm V$**, không phải $20\,\mathrm V$.
 
     c) **Đúng.** Nhãn ghi dung lượng **20 Ah**.
 
@@ -772,12 +755,10 @@ D. A.s.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
+
     **Hướng dẫn giải:**
 
-    Suất điện động là công của nguồn trên một đơn vị điện tích; khi nguồn phát điện, hiệu điện thế hai cực dùng $U=\mathcal E-Ir$.
-
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. J/C.**
+    Từ $\mathcal E=A/q$, đơn vị là $\mathrm{J/C}$. Mà $1\,\mathrm{V}=1\,\mathrm{J/C}$, nên chọn C.
 #### Bài 38
 
 <!-- source-id: BT-Chuong-IV-p63-q12-204 -->
@@ -794,12 +775,10 @@ D. Được tính bằng đơn vị ampe giờ (A.h).
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
+
     **Hướng dẫn giải:**
 
-    Suất điện động là công của nguồn trên một đơn vị điện tích; khi nguồn phát điện, hiệu điện thế hai cực dùng $U=\mathcal E-Ir$.
-
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. Được tính bằng đơn vị Jun (J).**
+    Dung lượng ắc-quy là điện lượng có thể cung cấp, thường ghi bằng $\mathrm{Ah}$ (cũng có thể đổi ra C). Jun là đơn vị năng lượng, không phải đơn vị dung lượng điện tích trong ngữ cảnh này.
 #### Bài 39
 
 <!-- source-id: BT-Chuong-IV-p63-q13-205 -->
@@ -839,12 +818,10 @@ D. tạo ra sự tích điện khác nhau giữa hai cực của nguồn điện
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** B
+
     **Hướng dẫn giải:**
 
-    Suất điện động là công của nguồn trên một đơn vị điện tích; khi nguồn phát điện, hiệu điện thế hai cực dùng $U=\mathcal E-Ir$.
-
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **B. tạo ra các điện tích mới cho nguồn điện.**
+    Lực lạ có tác dụng tách và chuyển điện tích ngược chiều lực điện bên trong nguồn, nhờ đó duy trì hiệu điện thế hai cực. Nó không tạo ra điện tích mới, nên B là phương án “không có tác dụng”.
 #### Bài 41
 
 <!-- source-id: BT-Chuong-IV-p63-q15-207 -->
@@ -861,12 +838,10 @@ D. Có đơn vị là Volt (V).
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** B
+
     **Hướng dẫn giải:**
 
-    Suất điện động là công của nguồn trên một đơn vị điện tích; khi nguồn phát điện, hiệu điện thế hai cực dùng $U=\mathcal E-Ir$.
-
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **B. Suất điện động của nguồn điện đặc trưng cho khả năng tích điện của nguồn.**
+    Suất điện động đặc trưng cho công của nguồn trên một đơn vị điện tích, không đặc trưng cho “khả năng tích điện” của nguồn. Do đó B sai.
 #### Bài 42
 
 <!-- source-id: BT-Chuong-IV-p64-q17-209 -->
@@ -883,12 +858,10 @@ D. điện trường.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
+
     **Hướng dẫn giải:**
 
-    Suất điện động là công của nguồn trên một đơn vị điện tích; khi nguồn phát điện, hiệu điện thế hai cực dùng $U=\mathcal E-Ir$.
-
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. lực lạ.**
+    Bên trong nguồn, để đưa điện tích ngược chiều tác dụng của điện trường tĩnh điện cần lực không phải lực điện; lực đó được gọi là lực lạ. Chọn C.
 #### Bài 43
 
 <!-- source-id: BT-Chuong-IV-p64-q19-211 -->
@@ -906,12 +879,10 @@ D. Nguồn điện là pin có lực lạ là lực tĩnh điện.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
+
     **Hướng dẫn giải:**
 
-    Suất điện động là công của nguồn trên một đơn vị điện tích; khi nguồn phát điện, hiệu điện thế hai cực dùng $U=\mathcal E-Ir$.
-
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **D. Nguồn điện là pin có lực lạ là lực tĩnh điện.**
+    Với pin điện hóa, lực lạ có bản chất hóa học chứ không phải lực tĩnh điện. Vì vậy D là phát biểu sai.
 #### Bài 44
 
 <!-- source-id: BT-Chuong-IV-p64-q20-212 -->
@@ -922,7 +893,7 @@ A. Suất điện động của nguồn điện là đại lượng đặc trưn
 
 B. Suất điện động của nguồn điện được xác định bằng công suất dịch chuyển vòng kín của mạch điện.
 
-C. Suất điện động của nguồn điện bằng công dịch chuyển điện tích dương 1 C từ cực âm đến cực dương bên
+C. Suất điện động của nguồn điện bằng công dịch chuyển điện tích dương $1\,\mathrm C$ từ cực âm đến cực dương bên
 trong nguồn.
 
 D. Suất điện động được đo bằng thương số giữa công A của lực lạ để di chuyển một điện tích dương q từ cực
@@ -930,12 +901,10 @@ D. Suất điện động được đo bằng thương số giữa công A của
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** B
+
     **Hướng dẫn giải:**
 
-    Suất điện động là công của nguồn trên một đơn vị điện tích; khi nguồn phát điện, hiệu điện thế hai cực dùng $U=\mathcal E-Ir$.
-
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **B. Suất điện động của nguồn điện được xác định bằng công suất dịch chuyển vòng kín của mạch điện.**
+    Suất điện động được xác định bởi $\mathcal E=A_{\mathrm{lạ}}/q$, tức **công trên một đơn vị điện tích**, không phải “công suất dịch chuyển vòng kín”. Vì vậy B sai.
 #### Bài 45
 
 <!-- source-id: BT-Chuong-IV-p64-q21-213 -->
@@ -954,6 +923,7 @@ D. làm biến mất electron ở cực dương.
     **Đáp án:** A.
 
     **Hướng dẫn giải:**
+
     Bên trong nguồn, lực lạ thực hiện công để tách và dịch chuyển các hạt mang điện, duy trì sự phân bố điện tích ở hai cực. Mô tả phù hợp nhất là **A**.
 
 #### Bài 46
@@ -974,7 +944,8 @@ D. $\xi=15\,\mathrm V$.
     **Đáp án:** D.
 
     **Hướng dẫn giải:**
-    Theo định luật Ôm cho toàn mạch, $\xi=I(R+r)=1{,}5(9+1)=15$ V. Chọn **D**.
+
+    Theo định luật Ôm cho toàn mạch, $\xi=I(R+r)=1{,}5(9+1)=15\,\mathrm V$. Chọn **D**.
 
 #### Bài 47
 

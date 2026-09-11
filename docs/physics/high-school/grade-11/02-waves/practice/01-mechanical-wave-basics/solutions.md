@@ -14,42 +14,101 @@ tags:
 [← Bài tập](exercises.md)
 
 ## Bài 1
-Chọn **B**. $\lambda=v/f=4/20=0,20$ m.
+
+**Đáp án:** B
+
+**Hướng dẫn giải:**
+
+Dùng $\lambda=v/f$:
+
+$\lambda=4/20=0{,}20\,\mathrm m$.
+
+Vậy chọn **B**.
 
 ## Bài 2
-Chọn **C**. Sóng cơ cần môi trường vật chất và truyền trạng thái dao động/năng lượng, không mang các phần tử môi trường đi theo.
+
+**Đáp án:** C
+
+**Hướng dẫn giải:**
+
+Sóng cơ cần môi trường vật chất và truyền trạng thái dao động cùng năng lượng qua môi trường; các phần tử môi trường chỉ dao động quanh vị trí cân bằng. Vì vậy chọn **C**.
 
 ## Bài 3
-Chọn **C**. Hai điểm gần nhất cùng pha trên phương truyền sóng cách nhau một bước sóng.
+
+**Đáp án:** C
+
+**Hướng dẫn giải:**
+
+Hai điểm gần nhau nhất trên cùng phương truyền sóng dao động cùng pha cách nhau đúng một bước sóng. Do $\lambda=40\,\mathrm{cm}$, khoảng cách cần tìm là $40\,\mathrm{cm}$. Chọn **C**.
 
 ## Bài 4
-a) **Đúng**.  
-b) **Đúng**.  
-c) **Sai** đối với sóng cơ trong khối môi trường thông thường; chất khí không truyền sóng cơ ngang thể tích.  
-d) **Đúng**: tần số liên tục qua mặt phân cách, còn tốc độ và bước sóng có thể đổi.
+
+**Đáp án:** a) Đúng; b) Đúng; c) Sai; d) Đúng.
+
+**Hướng dẫn giải:**
+
+a) **Đúng.** Trong trạng thái truyền sóng ổn định, phần tử môi trường dao động cùng tần số và chu kì với nguồn.
+
+b) **Đúng.** Trong một chu kì $T$, sóng truyền quãng đường $vT=\lambda$.
+
+c) **Sai.** Sóng cơ ngang trong khối môi trường cần khả năng chống biến dạng trượt; chất khí không truyền loại sóng ngang này.
+
+d) **Đúng.** Khi qua mặt phân cách, tần số do nguồn quyết định nên thường không đổi; tốc độ và bước sóng có thể thay đổi.
 
 ## Bài 5
-$\lambda=v/f=5/25=0,20$ m. Thời gian truyền $t=s/v=3/5=0,60$ s.
+
+**Đáp án:** $\lambda=0{,}20\,\mathrm m$; $t=0{,}60\,\mathrm s$.
+
+**Hướng dẫn giải:**
+
+Bước sóng:
+
+$\lambda=v/f=5/25=0{,}20\,\mathrm m$.
+
+Thời gian sóng truyền $3\,\mathrm m$:
+
+$t=s/v=3/5=0{,}60\,\mathrm s$.
 
 ## Bài 6
-Ngược pha khi $\Delta d=(k+1/2)\lambda$. Khoảng cách nhỏ nhất ứng với $k=0$: $\lambda/2=30$ cm.
+
+**Đáp án:** $30\,\mathrm{cm}$.
+
+**Hướng dẫn giải:**
+
+Hai điểm ngược pha khi $\Delta d=(k+1/2)\lambda$. Khoảng cách dương nhỏ nhất ứng với $k=0$:
+
+$\Delta d_{\min}=\lambda/2=30\,\mathrm{cm}$.
 
 ## Bài 7
-$v=1,5/0,30=5$ m/s. $\lambda=v/f=5/4=1,25$ m.
+
+**Đáp án:** $v=5\,\mathrm{m/s}$; $\lambda=1{,}25\,\mathrm m$.
+
+**Hướng dẫn giải:**
+
+Tốc độ truyền sóng:
+
+$v=AB/\Delta t=1{,}5/0{,}30=5\,\mathrm{m/s}$.
+
+Bước sóng:
+
+$\lambda=v/f=5/4=1{,}25\,\mathrm m$.
 
 ## Bài 8
-Độ lệch pha theo không gian: $|\Delta\varphi|=2\pi d/\lambda$. Với $d=0,45$ m và độ lệch pha đang xét là $3\pi/2$:
 
-$2\pi\cdot0,45/\lambda=3\pi/2$.
+**Đáp án:** $\lambda=0{,}60\,\mathrm m$; $f=4\,\mathrm{Hz}$.
 
-Suy ra $\lambda=0,60$ m. Tần số $f=v/\lambda=2,4/0,60=4$ Hz.
+**Hướng dẫn giải:**
+
+Độ lệch pha theo không gian là $|\Delta\varphi|=2\pi d/\lambda$. Với $d=0{,}45\,\mathrm m$ và độ lệch pha được cho là $3\pi/2$:
+
+$2\pi\dfrac{0{,}45}{\lambda}=\dfrac{3\pi}{2}$,
+
+suy ra $\lambda=0{,}60\,\mathrm m$. Do đó
+
+$f=v/\lambda=2{,}4/0{,}60=4\,\mathrm{Hz}$.
+
 
 ---
 
 [← Bài tập](exercises.md)
 
-## Bài 9–101
-
-Đáp án và lời giải của **Bài 9–101** đã được đặt trực tiếp dưới từng bài trong trang bài tập bằng nút **“Đáp án và lời giải”** để tránh tách đề, hình minh họa và lời giải sang nhiều vị trí khác nhau.
-
-[← Mở trang bài tập](exercises.md)

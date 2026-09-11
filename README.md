@@ -12,12 +12,15 @@ Bản hiện tại có ngân hàng luyện tập Vật lí 11 tách theo từng 
 
 > Hướng dẫn duy trì nội dung và quy tắc làm việc với AI: [`tools/AI-INSTRUCTIONS.md`](tools/AI-INSTRUCTIONS.md).
 
-## Chạy tại Codespaces hoặc máy cá nhân
+## Làm việc trên điện thoại, Codespaces hoặc máy cá nhân
+
+Nếu làm hoàn toàn trên Android và muốn tránh tiêu tốn Codespaces, xem [`MOBILE-DEVELOPMENT.md`](MOBILE-DEVELOPMENT.md). Bạn có thể sửa bằng `github.dev`, để GitHub Actions tự kiểm tra/build, và chỉ dùng Termux khi cần terminal hoặc preview local.
 
 ```bash
 pip install -r requirements.txt
 python tools/check_practice_bank.py
 python tools/check_pdf_import.py
+python tools/check_solution_quality.py
 python tools/check_site.py
 mkdocs serve
 ```
@@ -27,6 +30,7 @@ mkdocs serve
 ```bash
 python tools/check_practice_bank.py
 python tools/check_pdf_import.py
+python tools/check_solution_quality.py
 python tools/check_site.py
 ```
 

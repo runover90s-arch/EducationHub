@@ -143,7 +143,7 @@ Trong đoạn giữa hai dây, từ trường thường cùng chiều nên khôn
 
 ## 7. Ví dụ — hai dây cùng chiều
 
-Hai dây cách 12 cm, $I_1=2$ A, $I_2=4$ A cùng chiều. Điểm M giữa hai dây có B=0.
+Hai dây cách $12\,\mathrm{cm}$, $I_1=2\,\mathrm A$, $I_2=4\,\mathrm A$ cùng chiều. Điểm M giữa hai dây có B=0.
 
 Đặt $r_1=x$, $r_2=0,12-x$:
 
@@ -157,11 +157,11 @@ $$
 2(0,12-x)=4x\Rightarrow x=0,04\,\text{m}=4\,\text{cm}.
 $$
 
-M cách dây 2 A 4 cm và cách dây 4 A 8 cm.
+M cách dây $2\,\mathrm A$ $4\,\mathrm{cm}$ và cách dây $4\,\mathrm A$ $8\,\mathrm{cm}$.
 
 ## 8. Ví dụ — vòng dây và dây thẳng
 
-Một vòng tròn bán kính 10 cm, N=20, I=0,5 A. Tại tâm:
+Một vòng tròn bán kính $10\,\mathrm{cm}$, N=20, $I=0,5\,\mathrm A$. Tại tâm:
 
 $$
 B=\frac{4\pi\times10^{-7}\cdot20\cdot0,5}{2\cdot0,10}

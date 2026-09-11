@@ -58,7 +58,7 @@ $$
 \boxed{R=\rho\frac{\ell}{S}}.
 $$
 
-Trong đó $\rho$ là điện trở suất, đơn vị $\Omega\cdot$m.
+Trong đó $\rho$ là điện trở suất, đơn vị $\Omega\cdot\,\mathrm m$.
 
 Hệ quả:
 
@@ -177,7 +177,7 @@ $R_1=6\Omega$, $R_2=3\Omega$ song song:
 
 $R_{eq}=2\Omega$.
 
-Nếu U=12 V, tổng I=6 A; $I_1=2$ A, $I_2=4$ A.
+Nếu $U=12\,\mathrm V$, tổng $I=6\,\mathrm A$; $I_1=2\,\mathrm A$, $I_2=4\,\mathrm A$.
 
 ## 12. Bẫy
 

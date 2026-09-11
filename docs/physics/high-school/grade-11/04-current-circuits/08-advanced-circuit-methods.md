@@ -186,7 +186,7 @@ Do đó:
 2. tìm hiệu điện thế hai đầu tụ;
 3. tính $Q=CU$.
 
-Đây là quy tắc trung tâm của nhóm bài RC trong corpus.
+Đây là quy tắc trung tâm của nhóm bài RC trong phần này.
 
 ## 9. Chuyển mạch với tụ
 
@@ -229,7 +229,7 @@ Với nhiều nguồn, $A_{\text{nguồn}}$ là tổng công đại số của c
 
 ## 11. Không đưa hàm mũ nếu bài chỉ hỏi trạng thái
 
-Các bài trong mạch RC của corpus chủ yếu khai thác:
+Các bài mạch RC ở đây chủ yếu khai thác:
 
 - trạng thái xác lập;
 - điện lượng chuyển qua khóa;

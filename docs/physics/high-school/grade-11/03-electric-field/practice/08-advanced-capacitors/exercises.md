@@ -9,7 +9,6 @@ tags:
 
 # Bài tập — Bài 8 — Ghép tụ và các bài toán tụ điện nâng cao
 
-> Hệ bài tập được biên soạn theo các dạng xuất hiện trong bộ tài liệu Vật lí 11 của dự án. Câu hỏi được giữ ngắn, trực tiếp; độ khó tăng dần và không cố tình thêm dữ kiện gây nhiễu.
 
 [← Trở lại bài học](../../08-advanced-capacitors.md)
 
@@ -17,33 +16,33 @@ tags:
 
 ### Bài 1 — Mức 1 — Nhận biết
 
-Hai tụ $C_1=3\,\mu$F, $C_2=6\,\mu$F mắc song song. Điện dung tương đương là
+Hai tụ $C_1=3\,\mu\,\mathrm F$, $C_2=6\,\mu\,\mathrm F$ mắc song song. Điện dung tương đương là
 
-A. $2\,\mu$F.
+A. $2\,\mu\,\mathrm F$.
 
-B. $3\,\mu$F.
+B. $3\,\mu\,\mathrm F$.
 
-C. $9\,\mu$F.
+C. $9\,\mu\,\mathrm F$.
 
-D. $18\,\mu$F.
+D. $18\,\mu\,\mathrm F$.
 
 ??? success "Đáp án và lời giải"
     Chọn **C**. Song song: $C_b=C_1+C_2$.
 
 ### Bài 2 — Mức 1 — Nhận biết
 
-Hai tụ $3\,\mu$F và $6\,\mu$F mắc nối tiếp. Điện dung tương đương là
+Hai tụ $3\,\mu\,\mathrm F$ và $6\,\mu\,\mathrm F$ mắc nối tiếp. Điện dung tương đương là
 
-A. $2\,\mu$F.
+A. $2\,\mu\,\mathrm F$.
 
-B. $3\,\mu$F.
+B. $3\,\mu\,\mathrm F$.
 
-C. $9\,\mu$F.
+C. $9\,\mu\,\mathrm F$.
 
-D. $18\,\mu$F.
+D. $18\,\mu\,\mathrm F$.
 
 ??? success "Đáp án và lời giải"
-    Chọn **A**. $C_b=C_1C_2/(C_1+C_2)=18/9=2\,\mu$F.
+    Chọn **A**. $C_b=C_1C_2/(C_1+C_2)=18/9=2\,\mu\,\mathrm F$.
 
 ### Bài 3 — Mức 1 — Nhận biết
 
@@ -90,10 +89,13 @@ c) Điện dung tương đương nối tiếp lớn hơn mọi điện dung thà
 d) Điện dung tương đương song song bằng tổng các điện dung.
 
 ??? success "Đáp án và lời giải"
-    a) **Đúng**.
-    b) **Đúng**.
-    c) **Sai**: nhỏ hơn điện dung nhỏ nhất.
-    d) **Đúng**.
+    a) **Đúng.** Các tụ mắc song song cùng nối vào hai nút mạch nên có cùng hiệu điện thế giữa hai bản.
+
+    b) **Đúng.** Ở chuỗi tụ ban đầu trung hòa, các bản nối trong không trao đổi điện tích với bên ngoài nên các tụ mắc nối tiếp có cùng độ lớn điện tích.
+
+    c) **Sai.** nhỏ hơn điện dung nhỏ nhất.
+
+    d) **Đúng.** Vì $Q=\sum Q_i=\sum C_iU=C_{\text{eq}}U$, nên $C_{\text{eq}}=\sum C_i$ cho mắc song song.
 
 ### Bài 6 — Mức 2 — Thông hiểu
 
@@ -108,48 +110,51 @@ c) Nếu C tăng mà Q giữ nguyên thì năng lượng $Q^2/(2C)$ giảm.
 d) Q luôn bằng CU với U không đổi bất kể thao tác.
 
 ??? success "Đáp án và lời giải"
-    a) **Đúng**.
-    b) **Đúng**.
-    c) **Đúng**.
-    d) **Sai**: U không nhất thiết không đổi khi đã ngắt nguồn.
+    a) **Đúng.** Khi một nút/bản tụ bị cô lập và không có đường rò, không có điện tích đi vào hay ra nên tổng điện tích của phần cô lập được bảo toàn.
+
+    b) **Đúng.** Với phần tụ cô lập có $Q$ bảo toàn, $U=Q/C$ nên thay đổi $C$ sẽ làm $U$ thay đổi.
+
+    c) **Đúng.** Từ $W=Q^2/(2C)$, với $Q$ không đổi thì năng lượng tỉ lệ nghịch với điện dung.
+
+    d) **Sai.** U không nhất thiết không đổi khi đã ngắt nguồn.
 
 ## Phần C — Trả lời ngắn
 
 ### Bài 7 — Mức 3 — Vận dụng
 
-Hai tụ $4\,\mu$F và $12\,\mu$F mắc nối tiếp vào $32$ V. Tính điện tích trên mỗi tụ và hiệu điện thế mỗi tụ.
+Hai tụ $4\,\mu\,\mathrm F$ và $12\,\mu\,\mathrm F$ mắc nối tiếp vào $32\,\mathrm V$. Tính điện tích trên mỗi tụ và hiệu điện thế mỗi tụ.
 
 ??? success "Đáp án và lời giải"
-    $C_b=4\cdot12/(4+12)=3\,\mu$F. $Q=C_bU=96\,\mu$C. Nối tiếp nên mỗi tụ có $|Q|=96\,\mu$C. $U_1=96/4=24$ V; $U_2=96/12=8$ V.
+    $C_b=4\cdot12/(4+12)=3\,\mu\,\mathrm F$. $Q=C_bU=96\,\mu\,\mathrm C$. Nối tiếp nên mỗi tụ có $|Q|=96\,\mu\,\mathrm C$. $U_1=96/4=24\,\mathrm V$; $U_2=96/12=8\,\mathrm V$.
 
 ### Bài 8 — Mức 3 — Vận dụng
 
-Hai tụ $2\,\mu$F và $3\,\mu$F mắc song song vào $20$ V. Tính điện tích từng tụ và tổng năng lượng.
+Hai tụ $2\,\mu\,\mathrm F$ và $3\,\mu\,\mathrm F$ mắc song song vào $20\,\mathrm V$. Tính điện tích từng tụ và tổng năng lượng.
 
 ??? success "Đáp án và lời giải"
-    $Q_1=C_1U=40\,\mu$C; $Q_2=60\,\mu$C. $C_b=5\,\mu$F. $W=\frac12C_bU^2=0,5\cdot5\cdot10^{-6}\cdot400=1,0\cdot10^{-3}$ J.
+    $Q_1=C_1U=40\,\mu\,\mathrm C$; $Q_2=60\,\mu\,\mathrm C$. $C_b=5\,\mu\,\mathrm F$. $W=\frac12C_bU^2=0,5\cdot5\cdot10^{-6}\cdot400=1,0\cdot10^{-3}\,\mathrm J$.
 
 ### Bài 9 — Mức 3 — Vận dụng
 
-Tụ $C_1=6\,\mu$F tích đến $12$ V rồi ngắt nguồn. Nối song song với tụ $C_2=3\,\mu$F ban đầu chưa tích điện, cùng cực tính. Tính hiệu điện thế cuối.
+Tụ $C_1=6\,\mu\,\mathrm F$ tích đến $12\,\mathrm V$ rồi ngắt nguồn. Nối song song với tụ $C_2=3\,\mu\,\mathrm F$ ban đầu chưa tích điện, cùng cực tính. Tính hiệu điện thế cuối.
 
 ??? success "Đáp án và lời giải"
-    Điện tích tổng bảo toàn: $Q_{tot}=C_1U_1=72\,\mu$C. Sau nối song song, $C_{tot}=9\,\mu$F. $U_f=Q_{tot}/C_{tot}=8$ V.
+    Điện tích tổng bảo toàn: $Q_{tot}=C_1U_1=72\,\mu\,\mathrm C$. Sau nối song song, $C_{tot}=9\,\mu\,\mathrm F$. $U_f=Q_{tot}/C_{tot}=8\,\mathrm V$.
 
 ## Phần D — Vận dụng và vận dụng cao
 
 ### Bài 10 — Mức 4 — Vận dụng cao
 
-Hai tụ $C_1=4\,\mu$F và $C_2=6\,\mu$F được tích riêng đến cùng hiệu điện thế $U=10$ V. Sau đó ngắt nguồn và nối bản dương của tụ 1 với bản âm của tụ 2, hai bản còn lại nối với nhau. Tính hiệu điện thế cuối về độ lớn.
+Hai tụ $C_1=4\,\mu\,\mathrm F$ và $C_2=6\,\mu\,\mathrm F$ được tích riêng đến cùng hiệu điện thế $U=10\,\mathrm V$. Sau đó ngắt nguồn và nối bản dương của tụ 1 với bản âm của tụ 2, hai bản còn lại nối với nhau. Tính hiệu điện thế cuối về độ lớn.
 
 ??? success "Đáp án và lời giải"
     Đây là nối song song **ngược cực tính**. Chọn chiều điện tích dương của tụ 1 là dương. Điện tích đại số ban đầu trên nút nối tương ứng:
 
-    $Q_{net}=C_1U-C_2U=(4-6)\cdot10=-20\,\mu$C.
+    $Q_{net}=C_1U-C_2U=(4-6)\cdot10=-20\,\mu\,\mathrm C$.
 
-    Sau khi nối, hai tụ có cùng độ lớn hiệu điện thế cuối và tổng điện dung $C_1+C_2=10\,\mu$F.
+    Sau khi nối, hai tụ có cùng độ lớn hiệu điện thế cuối và tổng điện dung $C_1+C_2=10\,\mu\,\mathrm F$.
 
-    $U_f=|Q_{net}|/(C_1+C_2)=20/10=2$ V.
+    $U_f=|Q_{net}|/(C_1+C_2)=20/10=2\,\mathrm V$.
 
     Chiều cực tính cuối theo tụ 2 vì $C_2U>C_1U$.
 
@@ -169,6 +174,7 @@ Xét các tụ điện giống nhau có điện dung $C=20\,\mu\mathrm F$. Ghép
     **Đáp án sau kiểm tra:** $0{,}36\,\mathrm{mC}$.
 
     **Hướng dẫn giải:**
+
     Nhánh trên có điện dung $C$; nhánh dưới gồm hai tụ $C$ nối tiếp nên có điện dung $C/2$. Hai nhánh song song:
     $C_{MN}=C+C/2=3C/2=30\,\mu\mathrm F$.
     Do đó $Q=C_{MN}U=30\cdot10^{-6}\cdot12=3{,}6\cdot10^{-4}\,\mathrm C=0{,}36\,\mathrm{mC}$.
@@ -187,6 +193,7 @@ Cho các tụ điện $C_1=C_2=C_3=C_4=5\,\mu\mathrm F$ được mắc thành m�
     **Đáp án sau kiểm tra:** $5\,\mu\mathrm F$.
 
     **Hướng dẫn giải:**
+
     M và N nối trực tiếp nên là cùng một nút. Vì vậy $C_1$ song song $C_3$ cho $10\,\mu\mathrm F$, còn $C_2$ song song $C_4$ cũng cho $10\,\mu\mathrm F$. Hai nhóm này nối tiếp nên
     $C_{\mathrm{eq}}=\dfrac{10\cdot10}{10+10}=5\,\mu\mathrm F$.
 
@@ -197,12 +204,13 @@ Cho các tụ điện $C_1=C_2=C_3=C_4=5\,\mu\mathrm F$ được mắc thành m�
 <!-- source-id: BT-Chuong-III-p165-q11-431 -->
 
 Ba tụ $C_1=2\cdot10^{-9}\,\mathrm F$, $C_2=4\cdot10^{-9}\,\mathrm F$, $C_3=6\cdot10^{-9}\,\mathrm F$ mắc nối tiếp. Hiệu
-điện thế giới hạn của mỗi tụ là 500 V. Hiệu điện thế giới hạn của bộ tụ là bao nhiêu vôn?
+điện thế giới hạn của mỗi tụ là $500\,\mathrm V$. Hiệu điện thế giới hạn của bộ tụ là bao nhiêu vôn?
 
 ??? success "Đáp án và lời giải"
     **Đáp án sau kiểm tra:** $916{,}7\,\mathrm V$ (xấp xỉ).
 
     **Hướng dẫn giải:**
+
     Ba tụ nối tiếp có cùng điện tích. Điều kiện giới hạn cho điện tích là
     $Q_{\max}=\min(C_1U_{1\max},C_2U_{2\max},C_3U_{3\max})=2\cdot10^{-9}\cdot500=10^{-6}\,\mathrm C$.
     Khi đó $U_1=500\,\mathrm V$, $U_2=250\,\mathrm V$, $U_3\approx166{,}7\,\mathrm V$, nên $U_{\max}\approx916{,}7\,\mathrm V$.
@@ -219,6 +227,7 @@ Hai tụ điện có điện dung và hiệu điện thế giới hạn lần l�
     **Đáp án sau kiểm tra:** $750\,\mathrm V$.
 
     **Hướng dẫn giải:**
+
     Khi ghép nối tiếp, hai tụ mang cùng độ lớn điện tích. Giới hạn điện tích là
     $Q_{\max}=\min(5\,\mu\mathrm F\cdot500\,\mathrm V,10\,\mu\mathrm F\cdot1000\,\mathrm V)=2{,}5\,\mathrm{mC}$.
     Khi đó $U_1=500\,\mathrm V$, $U_2=250\,\mathrm V$, nên hiệu điện thế giới hạn của bộ là $750\,\mathrm V$.
@@ -237,6 +246,7 @@ Electron thoát ra từ K, được tăng tốc bởi một điện trường đ
     **Đáp án sau kiểm tra:** $15{,}9$ (đơn vị $10^6\,\mathrm{m/s}$, xấp xỉ).
 
     **Hướng dẫn giải:**
+
     Trong tụ, electron có gia tốc theo phương vuông góc với vận tốc ban đầu, có độ lớn $a=\dfrac{eU}{m_e d}$. Thời gian đi trong vùng bản tụ là $t_1=s/v$, nên độ lệch trong tụ là $y_1=as^2/(2v^2)$ và vận tốc lệch khi ra khỏi tụ là $v_y=as/v$.
     Trên quãng bay tự do $\ell$, độ lệch thêm là $y_2=v_y\ell/v=as\ell/v^2$. Vì $b=y_1+y_2$,
     $v=\sqrt{\dfrac{eUs(\ell+s/2)}{m_e d b}}\approx1{,}585\cdot10^7\,\mathrm{m/s}$.
@@ -255,6 +265,7 @@ giá trị bao nhiêu vôn?
     **Đáp án sau kiểm tra:** $320\,\mathrm V$.
 
     **Hướng dẫn giải:**
+
     Nối các bản cùng dấu nên điện tích toàn hệ được bảo toàn và hiệu điện thế cuối là
     $U=\dfrac{C_1U_1+C_2U_2}{C_1+C_2}=\dfrac{2\cdot200+3\cdot400}{2+3}=320\,\mathrm V$.
 
@@ -270,6 +281,7 @@ Trên vỏ tụ điện (1) ghi $4700\,\mu\mathrm F-35\,\mathrm V$ và tụ đi�
     **Đáp án sau kiểm tra:** $42{,}55\,\mathrm V$ (xấp xỉ).
 
     **Hướng dẫn giải:**
+
     Hai tụ nối tiếp có cùng độ lớn điện tích. Giới hạn là
     $Q_{\max}=\min(4700\,\mu\mathrm F\cdot35\,\mathrm V,3300\,\mu\mathrm F\cdot25\,\mathrm V)=82{,}5\,\mathrm{mC}$.
     Do đó $U_1=Q_{\max}/C_1\approx17{,}55\,\mathrm V$, $U_2=25\,\mathrm V$, nên $U_{\max}\approx42{,}55\,\mathrm V$.
@@ -289,6 +301,7 @@ Hiệu điện thế giữa hai điểm M, B là bao nhiêu vôn?
     **Đáp án sau kiểm tra:** $4\,\mathrm V$.
 
     **Hướng dẫn giải:**
+
     Gọi $C_1=C$, khi đó $C_2=2C$. Từ M đến B có hai tụ $C_1$ song song nên $C_{MB}=2C$. Nhánh N–M có $C_2=2C$ nối tiếp với $C_{MB}=2C$, tương đương $C$; song song với tụ $C_1$ trực tiếp từ N xuống B nên $C_{NB}=2C$.
     Vì tụ A–N cũng có điện dung $C_2=2C$, hai phần A–N và N–B nối tiếp có điện dung bằng nhau nên $U_{NB}=8\,\mathrm V$. Trong nhánh N–M–B, hai phần đều có điện dung $2C$, nên chia đều $U_{NB}$ và $U_{MB}=4\,\mathrm V$.
 

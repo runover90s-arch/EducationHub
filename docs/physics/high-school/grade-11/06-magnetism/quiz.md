@@ -9,9 +9,12 @@ order: 92
 ## Câu 1
 Dòng điện thẳng dài tăng gấp đôi, khoảng cách tới điểm xét giữ nguyên. B tại điểm đó:
 
-A. giảm 2 lần.  
-B. tăng 2 lần.  
-C. tăng 4 lần.  
+A. giảm 2 lần.
+
+B. tăng 2 lần.
+
+C. tăng 4 lần.
+
 D. không đổi.
 
 ??? success "Đáp án"
@@ -20,9 +23,12 @@ D. không đổi.
 ## Câu 2
 Lực từ lên dây thẳng bằng 0 khi:
 
-A. I vuông góc B.  
-B. I song song B.  
-C. B lớn.  
+A. I vuông góc B.
+
+B. I song song B.
+
+C. B lớn.
+
 D. dây ngắn.
 
 ??? success "Đáp án"
@@ -31,9 +37,12 @@ D. dây ngắn.
 ## Câu 3
 Hai dòng song song cùng chiều:
 
-A. hút nhau.  
-B. đẩy nhau.  
-C. không tương tác.  
+A. hút nhau.
+
+B. đẩy nhau.
+
+C. không tương tác.
+
 D. luôn làm B bằng 0 ở ngoài hai dây.
 
 ??? success "Đáp án"
@@ -42,9 +51,12 @@ D. luôn làm B bằng 0 ở ngoài hai dây.
 ## Câu 4
 Tại tâm N vòng dây tròn:
 
-A. $B\propto R$.  
-B. $B\propto1/R$.  
-C. B không phụ thuộc I.  
+A. $B\propto R$.
+
+B. $B\propto1/R$.
+
+C. B không phụ thuộc I.
+
 D. B không phụ thuộc N.
 
 ??? success "Đáp án"
@@ -53,9 +65,12 @@ D. B không phụ thuộc N.
 ## Câu 5
 Mômen lên khung dây cực đại khi pháp tuyến khung:
 
-A. song song B.  
-B. vuông góc B.  
-C. ngược chiều B.  
+A. song song B.
+
+B. vuông góc B.
+
+C. ngược chiều B.
+
 D. không phụ thuộc góc.
 
 ??? success "Đáp án"
@@ -64,9 +79,12 @@ D. không phụ thuộc góc.
 ## Câu 6
 Lực Lorentz từ lên điện tích chuyển động luôn:
 
-A. cùng chiều v.  
-B. ngược chiều v.  
-C. vuông góc v.  
+A. cùng chiều v.
+
+B. ngược chiều v.
+
+C. vuông góc v.
+
 D. cùng chiều B.
 
 ??? success "Đáp án"
@@ -75,9 +93,12 @@ D. cùng chiều B.
 ## Câu 7
 Một hạt chuyển động đúng song song B thì:
 
-A. chuyển động tròn.  
-B. lực từ bằng 0.  
-C. tốc độ tăng.  
+A. chuyển động tròn.
+
+B. lực từ bằng 0.
+
+C. tốc độ tăng.
+
 D. động năng giảm.
 
 ??? success "Đáp án"
@@ -86,9 +107,12 @@ D. động năng giảm.
 ## Câu 8
 Trong từ trường thuần túy, lực từ làm:
 
-A. thay đổi động năng.  
-B. thay đổi điện tích.  
-C. chủ yếu đổi hướng vận tốc.  
+A. thay đổi động năng.
+
+B. thay đổi điện tích.
+
+C. chủ yếu đổi hướng vận tốc.
+
 D. luôn dừng hạt.
 
 ??? success "Đáp án"
@@ -97,9 +121,12 @@ D. luôn dừng hạt.
 ## Câu 9
 Hạt chuyển động vuông góc B có bán kính quỹ đạo:
 
-A. $r=|q|B/(mv)$.  
-B. $r=mv/(|q|B)$.  
-C. $r=mB/(|q|v)$.  
+A. $r=|q|B/(mv)$.
+
+B. $r=mv/(|q|B)$.
+
+C. $r=mB/(|q|v)$.
+
 D. $r=v/(|q|mB)$.
 
 ??? success "Đáp án"
@@ -108,9 +135,12 @@ D. $r=v/(|q|mB)$.
 ## Câu 10
 Khi vận tốc có cả thành phần song song và vuông góc B, quỹ đạo thường là:
 
-A. đường thẳng.  
-B. parabol.  
-C. đường xoắn ốc.  
+A. đường thẳng.
+
+B. parabol.
+
+C. đường xoắn ốc.
+
 D. elip đứng yên.
 
 ??? success "Đáp án"

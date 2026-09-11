@@ -26,25 +26,31 @@ Chọn **B**.
 Chọn **B** vì điện trở vô hạn.
 
 ## Bài 5
-a) **Đúng**.  
-b) **Đúng**.  
-c) **Đúng**.  
-d) **Sai**: muốn song song phải chung cả hai nút đầu cuối.
+a) **Đúng.** Dây dẫn lí tưởng có điện trở bằng $0$, nên không có độ giảm điện thế dọc dây khi có dòng hữu hạn.
+
+b) **Đúng.** Ampe kế lí tưởng có điện trở trong bằng $0$, nên khi phân tích mạch nó tương đương một đoạn dây nối.
+
+c) **Đúng.** Vôn kế lí tưởng có điện trở vô cùng lớn nên dòng qua nhánh vôn kế bằng $0$, tương đương nhánh hở.
+
+d) **Sai.** muốn song song phải chung cả hai nút đầu cuối.
 
 ## Bài 6
-a) **Đúng**.  
-b) **Đúng**.  
-c) **Đúng**.  
-d) **Sai**: ampe kế phải mắc nối tiếp với nhánh cần đo.
+a) **Đúng.** Nếu hai điện trở mắc nối tiếp thì không có nút phân nhánh giữa chúng, nên cường độ dòng điện qua hai điện trở bằng nhau.
+
+b) **Đúng.** Trong mạch nối tiếp cùng dòng $I$, $U_i=IR_i$ nên $U_1/U_2=R_1/R_2$.
+
+c) **Đúng.** Vôn kế mắc song song với hai đầu $R_1$ đo đúng hiệu điện thế giữa chính hai nút đó và không làm đổi mạch trong mô hình lí tưởng.
+
+d) **Sai.** ampe kế phải mắc nối tiếp với nhánh cần đo.
 
 ## Bài 7
-$R_t=10\,\Omega$, $I=20/10=2$ A. Vôn kế trên R2: $U_2=IR_2=12$ V.
+$R_t=10\,\Omega$, $I=20/10=2\,\mathrm A$. Vôn kế trên R2: $U_2=IR_2=12\,\mathrm V$.
 
 ## Bài 8
-$I_1=12/6=2$ A; $I_2=12/3=4$ A. Dòng chính $I=6$ A.
+$I_1=12/6=2\,\mathrm A$; $I_2=12/3=4\,\mathrm A$. Dòng chính $I=6\,\mathrm A$.
 
 ## Bài 9
-$R_{23}=3\cdot6/(3+6)=2\,\Omega$. Tổng $R=4\,\Omega$, dòng chính và qua R1: $I_1=3$ A. Điện áp trên bộ song song $U_{23}=3\cdot2=6$ V. $I_2=6/3=2$ A; $I_3=6/6=1$ A.
+$R_{23}=3\cdot6/(3+6)=2\,\Omega$. Tổng $R=4\,\Omega$, dòng chính và qua R1: $I_1=3\,\mathrm A$. Điện áp trên bộ song song $U_{23}=3\cdot2=6\,\mathrm V$. $I_2=6/3=2\,\mathrm A$; $I_3=6/6=1\,\mathrm A$.
 
 ## Bài 10
 Hai nhánh là các bộ chia điện áp độc lập vì vôn kế lí tưởng không lấy dòng.

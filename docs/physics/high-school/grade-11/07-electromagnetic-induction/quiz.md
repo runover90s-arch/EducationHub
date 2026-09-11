@@ -9,9 +9,12 @@ order: 92
 ## Câu 1
 Trong $\Phi=BS\cos\theta$, $\theta$ là góc giữa:
 
-A. B và mặt phẳng.  
-B. B và pháp tuyến.  
-C. B và dòng điện.  
+A. B và mặt phẳng.
+
+B. B và pháp tuyến.
+
+C. B và dòng điện.
+
 D. pháp tuyến và dòng điện.
 
 ??? success "Đáp án"
@@ -20,10 +23,13 @@ D. pháp tuyến và dòng điện.
 ## Câu 2
 Từ thông có đơn vị:
 
-A. T.  
-B. H.  
-C. Wb.  
-D. Ω.
+A. T.
+
+B. H.
+
+C. Wb.
+
+D. $\Omega$.
 
 ??? success "Đáp án"
     **C.**
@@ -31,9 +37,12 @@ D. Ω.
 ## Câu 3
 Điều kiện cốt lõi để có suất điện động cảm ứng là:
 
-A. có nam châm.  
-B. có B rất lớn.  
-C. từ thông biến thiên.  
+A. có nam châm.
+
+B. có B rất lớn.
+
+C. từ thông biến thiên.
+
 D. dây rất dài.
 
 ??? success "Đáp án"
@@ -42,9 +51,12 @@ D. dây rất dài.
 ## Câu 4
 Định luật Lenz cho biết:
 
-A. độ lớn B.  
-B. chiều hiệu ứng cảm ứng.  
-C. điện trở dây.  
+A. độ lớn B.
+
+B. chiều hiệu ứng cảm ứng.
+
+C. điện trở dây.
+
 D. số vòng.
 
 ??? success "Đáp án"
@@ -53,9 +65,12 @@ D. số vòng.
 ## Câu 5
 Trên đồ thị Phi-t, độ lớn suất điện động tỉ lệ với:
 
-A. Phi.  
-B. t.  
-C. độ dốc.  
+A. Phi.
+
+B. t.
+
+C. độ dốc.
+
 D. diện tích dưới đồ thị.
 
 ??? success "Đáp án"
@@ -64,9 +79,12 @@ D. diện tích dưới đồ thị.
 ## Câu 6
 Cấu hình thanh trượt chuẩn có:
 
-A. $E=B\ell/v$.  
-B. $E=B\ell v$.  
-C. $E=Bv/\ell$.  
+A. $E=B\ell/v$.
+
+B. $E=B\ell v$.
+
+C. $E=Bv/\ell$.
+
 D. $E=\ell/(Bv)$.
 
 ??? success "Đáp án"
@@ -75,9 +93,12 @@ D. $E=\ell/(Bv)$.
 ## Câu 7
 Suất điện động tự cảm chống:
 
-A. bản thân dòng điện trong mọi lúc.  
-B. sự biến thiên của dòng điện.  
-C. điện trở.  
+A. bản thân dòng điện trong mọi lúc.
+
+B. sự biến thiên của dòng điện.
+
+C. điện trở.
+
 D. từ trường ngoài bất kể biến thiên.
 
 ??? success "Đáp án"
@@ -86,9 +107,12 @@ D. từ trường ngoài bất kể biến thiên.
 ## Câu 8
 Năng lượng cuộn cảm lí tưởng:
 
-A. $LI^2$.  
-B. $LI^2/2$.  
-C. $CU^2/2$.  
+A. $LI^2$.
+
+B. $LI^2/2$.
+
+C. $CU^2/2$.
+
 D. $I^2R$.
 
 ??? success "Đáp án"
@@ -97,9 +121,12 @@ D. $I^2R$.
 ## Câu 9
 L của ống dây dài lõi không khí tỉ lệ với:
 
-A. N.  
-B. $N^2$.  
-C. $1/N^2$.  
+A. N.
+
+B. $N^2$.
+
+C. $1/N^2$.
+
 D. không phụ thuộc N.
 
 ??? success "Đáp án"
@@ -108,9 +135,12 @@ D. không phụ thuộc N.
 ## Câu 10
 Khi dòng qua cuộn cảm đang giảm, tự cảm có xu hướng:
 
-A. làm giảm nhanh hơn.  
-B. duy trì dòng theo chiều cũ.  
-C. đảo dấu điện tích.  
+A. làm giảm nhanh hơn.
+
+B. duy trì dòng theo chiều cũ.
+
+C. đảo dấu điện tích.
+
 D. làm R bằng 0.
 
 ??? success "Đáp án"

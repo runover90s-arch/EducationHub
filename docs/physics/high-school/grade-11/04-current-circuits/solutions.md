@@ -13,34 +13,34 @@ tags:
 # Lời giải Chương 4 — Dòng điện và mạch điện
 
 ## Câu 1
-$t=120$ s. $q=It=0,5\cdot120=60$ C.
+$t=120\,\mathrm s$. $q=It=0,5\cdot120=60\,\mathrm C$.
 
 ## Câu 2
-$q=Ne=2\times10^{20}\cdot1,602\times10^{-19}=32,04$ C.
+$q=Ne=2\times10^{20}\cdot1,602\times10^{-19}=32,04\,\mathrm C$.
 
-$I=q/t=3,204$ A.
+$I=q/t=3,204\,\mathrm A$.
 
 ## Câu 3
 $R\propto\ell/S$; đường kính tăng 2 lần → S tăng 4 lần. Do đó:
 
-$R'=R\cdot2/4=3$ Ω.
+$R'=R\cdot2/4=3\,\Omega$.
 
 ## Câu 4
-$R_{eq}=4+6=10$ Ω.
+$R_{eq}=4+6=10\,\Omega$.
 
 ## Câu 5
-$R_{eq}=4\cdot6/(4+6)=2,4$ Ω.
+$R_{eq}=4\cdot6/(4+6)=2,4\,\Omega$.
 
 ## Câu 6
-$I_1=12/3=4$ A; $I_2=12/6=2$ A; $I=6$ A.
+$I_1=12/3=4\,\mathrm A$; $I_2=12/6=2\,\mathrm A$; $I=6\,\mathrm A$.
 
 ## Câu 7
-$I=9/(8+1)=1$ A.
+$I=9/(8+1)=1\,\mathrm A$.
 
-$U=IR=8$ V, cũng bằng $9-1\cdot1=8$ V.
+$U=IR=8\,\mathrm V$, cũng bằng $9-1\cdot1=8\,\mathrm V$.
 
 ## Câu 8
-$I_{sc}=12/0,5=24$ A.
+$I_{sc}=12/0,5=24\,\mathrm A$.
 
 Đây là dòng rất lớn; thực tế có thể làm nguồn, dây và tiếp điểm nóng mạnh. Không tạo đoản mạch để thử.
 
@@ -50,29 +50,29 @@ Dùng $U=E-rI$.
 Hai trạng thái:
 $5,5=E-r$; $5,0=E-2r$.
 
-Lấy hiệu: $0,5=r$. Suy ra E=6 V.
+Lấy hiệu: $0,5=r$. Suy ra $E=6\,\mathrm V$.
 
 ## Câu 10
 $H=R/(R+r)=0,8$.
 
-$R/(R+1)=0,8$ → $R=4$ Ω.
+$R/(R+1)=0,8$ → $R=4\,\Omega$.
 
 ## Câu 11
-Công suất cực đại khi R=r=2 Ω.
+Công suất cực đại khi $R=r=2\,\Omega$.
 
 $$
 P_{\max}=\frac{E^2}{4r}=\frac{100}{8}=12,5\ \text{W}.
 $$
 
 ## Câu 12
-$P=I^2R=4\cdot10=40$ W.
+$P=I^2R=4\cdot10=40\,\mathrm W$.
 
-$t=300$ s → $Q=Pt=12000$ J.
+$t=300\,\mathrm s$ → $Q=Pt=12000\,\mathrm J$.
 
 ## Câu 13
-0,5 h × 1,2 kW = 0,6 kWh.
+0,5 h × 1,2 kW = $0,6\,\mathrm{kWh}$.
 
-Theo J: $0,6\cdot3,6\times10^6=2,16\times10^6$ J.
+Theo J: $0,6\cdot3,6\times10^6=2,16\times10^6\,\mathrm J$.
 
 ## Câu 14
 $H=0,84$.
@@ -82,13 +82,13 @@ t=\frac{420000}{0,84\cdot1000}=500\ \text{s}.
 $$
 
 ## Câu 15
-$R=U^2/P=220^2/100=484$ Ω.
+$R=U^2/P=220^2/100=484\,\Omega$.
 
 ## Câu 16
-Nối tiếp: $E_b=6$ V, $r_b=0,8$ Ω.
+Nối tiếp: $E_b=6\,\mathrm V$, $r_b=0,8\,\Omega$.
 
 ## Câu 17
-Song song nguồn giống: $E_b=1,5$ V, $r_b=0,2/4=0,05$ Ω.
+Song song nguồn giống: $E_b=1,5\,\mathrm V$, $r_b=0,2/4=0,05\,\Omega$.
 
 ## Câu 18
 n=4 nguồn/nhánh, m=3 nhánh:
@@ -106,15 +106,15 @@ $$
 Vì 8 chia 16, chọn n=8, m=2 là ứng viên chính.
 
 ## Câu 20
-$R_{23}=6\cdot3/(6+3)=2$ Ω.
+$R_{23}=6\cdot3/(6+3)=2\,\Omega$.
 
-$R_{eq}=6+2=8$ Ω.
+$R_{eq}=6+2=8\,\Omega$.
 
-$I=12/8=1,5$ A.
+$I=12/8=1,5\,\mathrm A$.
 
-Điện áp nhóm song song $U_{23}=I\cdot2=3$ V.
+Điện áp nhóm song song $U_{23}=I\cdot2=3\,\mathrm V$.
 
-$I_2=3/6=0,5$ A; $I_3=3/3=1$ A. Tổng 1,5 A đúng.
+$I_2=3/6=0,5\,\mathrm A$; $I_3=3/3=1\,\mathrm A$. Tổng $1,5\,\mathrm A$ đúng.
 
 ## Câu 21
 Hai R bằng nhau nối tiếp nên chia áp đều. Vôn kế lí tưởng không làm thay đổi mạch. Số chỉ $U/2$.
@@ -128,20 +128,20 @@ Cầu cân bằng → hai nút giữa cùng điện thế → dòng nhánh cầu
 ## Câu 24
 Bảo toàn dòng nút:
 
-$I_3=I_1+I_2=3,5$ A.
+$I_3=I_1+I_2=3,5\,\mathrm A$.
 
 ## Câu 25
-Suất điện động đại số $E_{net}=12-3=9$ V.
+Suất điện động đại số $E_{net}=12-3=9\,\mathrm V$.
 
-$I=9/3=3$ A theo chiều nguồn 12 V chiếm ưu thế.
+$I=9/3=3\,\mathrm A$ theo chiều nguồn $12\,\mathrm V$ chiếm ưu thế.
 
 ## Câu 26
-Dòng thực có độ lớn 0,8 A và chạy **B→A**, ngược chiều giả định.
+Dòng thực có độ lớn $0,8\,\mathrm A$ và chạy **B→A**, ngược chiều giả định.
 
 ## Câu 27
 Xếp chồng đại số:
 
-$I=2+(-0,5)=1,5$ A theo chiều dương đã chọn.
+$I=2+(-0,5)=1,5\,\mathrm A$ theo chiều dương đã chọn.
 
 ## Câu 28
 Điện áp hở mạch:
@@ -158,11 +158,11 @@ Có dòng tuần hoàn nội bộ vì hai E khác nhau, dù không tải.
 Ở xác lập DC, tụ lí tưởng là nhánh hở: $I_C=0$.
 
 ## Câu 30
-Dòng xác lập bằng 0 nên $U_R=IR=0$. Toàn bộ điện áp nguồn nằm trên tụ: $U_C=12$ V.
+Dòng xác lập bằng 0 nên $U_R=IR=0$. Toàn bộ điện áp nguồn nằm trên tụ: $U_C=12\,\mathrm V$.
 
 ## Câu 31
 Ban đầu:
-$Q_1=C_1U_1=20\,\mu$C; $Q_2=0$.
+$Q_1=C_1U_1=20\,\mu\,\mathrm C$; $Q_2=0$.
 
 Điện áp cuối:
 
@@ -186,50 +186,50 @@ W_f=\frac12(C_1+C_2)U_f^2
 =40\,\mu\text{J}.
 $$
 
-Chênh lệch $60\,\mu$J chuyển thành nhiệt/bức xạ và các dạng khác trong quá trình nối.
+Chênh lệch $60\,\mu\,\mathrm J$ chuyển thành nhiệt/bức xạ và các dạng khác trong quá trình nối.
 
 ## Câu 32
-$Q=CU=4\,\mu$F × 5 V = $20\,\mu$C.
+$Q=CU=4\,\mu\,\mathrm F$ × $5\,\mathrm V=20\,\mu\,\mathrm C$.
 
-Mỗi bản có độ lớn 20 µC, trái dấu.
+Mỗi bản có độ lớn $20\,\mu\mathrm C$, trái dấu.
 
 ## Câu 33
-Vùng dẫn cô lập bảo toàn tổng điện tích. Sau ổn định vẫn **+6 µC**.
+Vùng dẫn cô lập bảo toàn tổng điện tích. Sau ổn định vẫn **$+6\,\mu\mathrm C$**.
 
 ## Câu 34
 Mạch ngoài:
 
-$R_{23}=6\cdot3/9=2$ Ω.
+$R_{23}=6\cdot3/9=2\,\Omega$.
 
-$R_{ngoài}=5+2=7$ Ω.
+$R_{ngoài}=5+2=7\,\Omega$.
 
-Toàn mạch có $R_{tổng}=8$ Ω nên:
+Toàn mạch có $R_{tổng}=8\,\Omega$ nên:
 
-$I=12/8=1,5$ A.
+$I=12/8=1,5\,\mathrm A$.
 
-$U_{cực}=IR_{ngoài}=10,5$ V.
+$U_{cực}=IR_{ngoài}=10,5\,\mathrm V$.
 
-Sụt áp trên R1: $7,5$ V. Nhóm song song có $U_{23}=3$ V.
+Sụt áp trên R1: $7,5\,\mathrm V$. Nhóm song song có $U_{23}=3\,\mathrm V$.
 
-$I_2=0,5$ A; $I_3=1$ A.
+$I_2=0,5\,\mathrm A$; $I_3=1\,\mathrm A$.
 
 Công suất tải ngoài:
 
-$P=I^2R_{ngoài}=1,5^2\cdot7=15,75$ W.
+$P=I^2R_{ngoài}=1,5^2\cdot7=15,75\,\mathrm W$.
 
-Kiểm tra: $P=UI=10,5\cdot1,5=15,75$ W.
+Kiểm tra: $P=UI=10,5\cdot1,5=15,75\,\mathrm W$.
 
 ## Câu 35
-a) $R=r=2$ Ω.
+a) $R=r=2\,\Omega$.
 
-b) $I=E/(R+r)=12/4=3$ A.
+b) $I=E/(R+r)=12/4=3\,\mathrm A$.
 
 c) $H=R/(R+r)=1/2=50\%$.
 
 Đây là ví dụ cho thấy công suất tải cực đại không đồng nghĩa hiệu suất cao.
 
 ## Câu 36
-N=36, R=4 Ω, r=1 Ω.
+N=36, $R=4\,\Omega$, $r=1\,\Omega$.
 
 Điều kiện liên tục:
 
@@ -238,15 +238,15 @@ n\approx\sqrt{\frac{NR}{r}}
 =\sqrt{144}=12.
 $$
 
-12 chia 36, nên n=12, m=3 cho đúng $r_b=nr/m=12/3=4$ Ω = R.
+12 chia 36, nên n=12, m=3 cho đúng $r_b=nr/m=12/3=4\,\Omega$ = R.
 
 Dòng:
 
-$E_b=12\cdot2=24$ V; $r_b=4$ Ω.
+$E_b=12\cdot2=24\,\mathrm V$; $r_b=4\,\Omega$.
 
-$I=24/(4+4)=3$ A.
+$I=24/(4+4)=3\,\mathrm A$.
 
-Các cặp lân cận theo ước của 36 như (9,4), (6,6), (18,2) cho $r_b$ khác 4 Ω; có thể kiểm tra trực tiếp nhưng n=12 thỏa đúng điều kiện cực đại nên là cấu hình tối ưu trong mô hình.
+Các cặp lân cận theo ước của 36 như (9,4), (6,6), (18,2) cho $r_b$ khác $4\,\Omega$; có thể kiểm tra trực tiếp nhưng n=12 thỏa đúng điều kiện cực đại nên là cấu hình tối ưu trong mô hình.
 
 ## Câu 37
 a)
@@ -269,14 +269,14 @@ r_{eq}
 =2\ \Omega.
 $$
 
-c) Nối R=4 Ω:
+c) Nối $R=4\,\Omega$:
 
-$I=10/(2+4)=5/3$ A.
+$I=10/(2+4)=5/3\,\mathrm A$.
 
 Dòng qua tải theo chiều từ cực A có điện thế cao hơn sang B.
 
 ## Câu 38
-a) $Q=CU=5\,\mu$F × 10 V = $50\,\mu$C.
+a) $Q=CU=5\,\mu\,\mathrm F$ × $10\,\mathrm V=50\,\mu\,\mathrm C$.
 
 b)
 
@@ -286,7 +286,7 @@ W_C=\frac12CU^2
 =2,5\times10^{-4}\ \text{J}.
 $$
 
-c) Công nguồn khi chuyển điện lượng Q qua suất điện động 10 V:
+c) Công nguồn khi chuyển điện lượng Q qua suất điện động $10\,\mathrm V$:
 
 $$
 A_{\text{nguồn}}=UQ=10\cdot50\times10^{-6}=5\times10^{-4}\ \text{J}.
@@ -327,15 +327,15 @@ $$
 
 Tung độ gốc cho ngay:
 
-$\mathcal E=1,60$ V.
+$\mathcal E=1,60\,\mathrm V$.
 
 Độ dốc của đường $U-I$ là $-r$. Khi dòng tăng:
 
-$\Delta I=0,50-0,10=0,40$ A,
+$\Delta I=0,50-0,10=0,40\,\mathrm A$,
 
 trong khi điện áp giảm:
 
-$\Delta U=1,40-1,56=-0,16$ V.
+$\Delta U=1,40-1,56=-0,16\,\mathrm V$.
 
 Vậy:
 
@@ -353,7 +353,7 @@ $$
 
 ## Câu 42
 
-Mỗi lần I tăng 0,10 A thì U giảm 0,05 V. Do đó:
+Mỗi lần I tăng $0,10\,\mathrm A$ thì U giảm $0,05\,\mathrm V$. Do đó:
 
 $$
 r=\frac{0,05}{0,10}=0,50\ \Omega.
@@ -367,8 +367,8 @@ $$
 
 Kiểm tra:
 
-- điểm 2: $1,41+0,50\cdot0,20=1,51$ V;
-- điểm 3: $1,36+0,50\cdot0,30=1,51$ V.
+- điểm 2: $1,41+0,50\cdot0,20=1,51\,\mathrm V$;
+- điểm 3: $1,36+0,50\cdot0,30=1,51\,\mathrm V$.
 
 Ba điểm hoàn toàn phù hợp với cùng một đường thẳng trong dữ kiện đã cho.
 
@@ -411,10 +411,10 @@ $$
 P_{cơ}=\mathcal E'I=8\cdot2=16\,\text W.
 $$
 
-Phần Joule nội là $I^2r'=8$ W, tổng đúng bằng $UI=24$ W.
+Phần Joule nội là $I^2r'=8\,\mathrm W$, tổng đúng bằng $UI=24\,\mathrm W$.
 
 ### Câu 47
-Đi A→B qua điện trở theo chiều dòng: điện thế giảm IR=4 V. Đi qua nguồn từ cực âm sang dương: điện thế tăng E=6 V. Đi qua r theo chiều dòng: giảm Ir=1 V.
+Đi A→B qua điện trở theo chiều dòng: điện thế giảm IR=$4\,\mathrm V$. Đi qua nguồn từ cực âm sang dương: điện thế tăng $E=6\,\mathrm V$. Đi qua r theo chiều dòng: giảm Ir=$1\,\mathrm V$.
 
 Tổng biến thiên:
 
@@ -435,7 +435,7 @@ W=\frac12CU^2 =\frac12\cdot4\times10^{-6}\cdot36 =72\times10^{-6}\,\text J.
 $$
 
 ### Câu 50
-Dấu âm không làm bài “sai”. Nó cho biết chiều dòng thực ngược giả định ban đầu, tức dòng thực có độ lớn 0,25 A theo B→A.
+Dấu âm không làm bài “sai”. Nó cho biết chiều dòng thực ngược giả định ban đầu, tức dòng thực có độ lớn $0,25\,\mathrm A$ theo B→A.
 
 ### Câu 51
 

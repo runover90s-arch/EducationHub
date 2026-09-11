@@ -14,34 +14,89 @@ tags:
 [← Bài tập](exercises.md)
 
 ## Bài 1
-Chọn **A**.
+**Đáp án:** A.
+
+**Hướng dẫn giải:**
+
+Với hai môi trường đẳng hướng, góc tới $i$ và góc khúc xạ $r$ đều đo với pháp tuyến tại điểm tới. Định luật Snell là $n_1\sin i=n_2\sin r$. Các quan hệ dùng cos hoặc tỉ số trực tiếp của góc không đúng trong trường hợp tổng quát.
 
 ## Bài 2
-Chọn **C**. $v=c/n=3\cdot10^8/1,5=2\cdot10^8$ m/s.
+**Đáp án:** C.
+
+**Hướng dẫn giải:**
+
+Chiết suất tuyệt đối thỏa $n=c/v$, nên $v=c/n$. Lấy $c=3{,}0\cdot10^8\,\mathrm{m/s}$:
+
+$v=\dfrac{3{,}0\cdot10^8}{1{,}5}=2{,}0\cdot10^8\,\mathrm{m/s}$.
+
+Vậy chọn **C**.
 
 ## Bài 3
-Chọn **B**.
+**Đáp án:** B.
+
+**Hướng dẫn giải:**
+
+Khi $n_2>n_1$, định luật Snell cho $\sin r=(n_1/n_2)\sin i<\sin i$. Với $0^\circ\le i,r<90^\circ$, suy ra $r<i$, nên tia khúc xạ lệch **gần pháp tuyến hơn**.
 
 ## Bài 4
-a) **Đúng**.  
-b) **Đúng**.  
-c) **Đúng**.  
-d) **Đúng**.
+**Đáp án:** a) Đúng; b) Đúng; c) Đúng; d) Đúng.
+
+**Hướng dẫn giải:**
+
+a) **Đúng.** Với mặt phân cách đứng yên, tần số do nguồn quyết định và được giữ nguyên khi truyền qua mặt phân cách.
+
+b) **Đúng.** Tốc độ pha thỏa $v=c/n$ nên có thể đổi theo môi trường. Vì $f$ không đổi và $v=\lambda f$, bước sóng $\lambda$ cũng có thể thay đổi.
+
+c) **Đúng.** Đây là một phần của định luật khúc xạ: tia tới, tia khúc xạ và pháp tuyến tại điểm tới đồng phẳng.
+
+d) **Đúng.** Theo định nghĩa chiết suất tuyệt đối, $n=c/v$, với $c$ là tốc độ ánh sáng trong chân không và $v$ là tốc độ pha trong môi trường.
 
 ## Bài 5
-$\sin r=\sin30^\circ/1,5=1/3$. $r=\arcsin(1/3)\approx19,5^\circ$.
+**Đáp án:** $r\approx19{,}5^\circ$.
+
+**Hướng dẫn giải:**
+
+Lấy chiết suất không khí xấp xỉ $1$. Theo Snell:
+
+$\sin r=\dfrac{1}{1{,}5}\sin30^\circ=\dfrac13$.
+
+Suy ra $r=\arcsin(1/3)\approx19{,}47^\circ$. Làm tròn đến $0{,}1^\circ$, ta được $r\approx19{,}5^\circ$.
 
 ## Bài 6
-$n=c/v=3,0/2,4=1,25$.
+**Đáp án:** $n=1{,}25$.
+
+**Hướng dẫn giải:**
+
+Dùng $n=c/v$ với $c=3{,}0\cdot10^8\,\mathrm{m/s}$:
+
+$n=\dfrac{3{,}0\cdot10^8}{2{,}4\cdot10^8}=1{,}25$.
+
+Chiết suất là đại lượng không có đơn vị.
 
 ## Bài 7
-Tần số không đổi, tốc độ giảm n lần nên $\lambda=\lambda_0/n=600/1,5=400$ nm.
+**Đáp án:** $400\,\mathrm{nm}$.
+
+**Hướng dẫn giải:**
+
+Khi qua mặt phân cách đứng yên, tần số không đổi. Trong môi trường, tốc độ giảm $n$ lần so với chân không, nên bước sóng cũng giảm $n$ lần:
+
+$\lambda=\dfrac{\lambda_0}{n}=\dfrac{600}{1{,}5}=400\,\mathrm{nm}$.
+
+Vậy bước sóng trong môi trường là $400\,\mathrm{nm}$.
 
 ## Bài 8
-Snell:
+**Đáp án:** $r\approx34{,}4^\circ$; tia khúc xạ lệch gần pháp tuyến hơn.
 
-$1,2\sin45^\circ=1,5\sin r$.
+**Hướng dẫn giải:**
 
-$\sin r=(1,2/1,5)(\sqrt2/2)\approx0,5657$.
+Vì $n_2>n_1$, trước khi tính có thể dự đoán $r<i$. Áp dụng định luật Snell:
 
-$r\approx34,4^\circ$. Vì $r<i$, tia khúc xạ gần pháp tuyến hơn, phù hợp vì đi vào môi trường chiết suất lớn hơn.
+$n_1\sin i=n_2\sin r$.
+
+Suy ra
+
+$\sin r=\dfrac{1{,}2}{1{,}5}\sin45^\circ\approx0{,}5657$,
+
+nên $r\approx34{,}45^\circ\approx34{,}4^\circ$.
+
+Kết quả có $r<45^\circ$, đúng với dự đoán: khi đi vào môi trường có chiết suất lớn hơn, tia khúc xạ lệch gần pháp tuyến hơn.

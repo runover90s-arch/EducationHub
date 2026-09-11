@@ -9,7 +9,6 @@ tags:
 
 # Bài tập — Bài 5 — Định luật Ohm cho toàn mạch
 
-> Hệ bài tập được biên soạn theo các dạng xuất hiện trong bộ tài liệu Vật lí 11 của dự án. Câu hỏi được giữ ngắn, trực tiếp; độ khó tăng dần và không cố tình thêm dữ kiện gây nhiễu.
 
 [← Trở lại bài học](../../05-full-circuit-ohm-law.md)
 
@@ -17,18 +16,18 @@ tags:
 
 ### Bài 1 — Mức 1 — Nhận biết
 
-Mạch kín gồm nguồn $\mathcal E=12$ V, $r=1\,\Omega$ và điện trở ngoài $R=5\,\Omega$. Dòng điện là
+Mạch kín gồm nguồn $\mathcal E=12\,\mathrm V$, $r=1\,\Omega$ và điện trở ngoài $R=5\,\Omega$. Dòng điện là
 
-A. $1$ A.
+A. $1\,\mathrm A$.
 
-B. $2$ A.
+B. $2\,\mathrm A$.
 
-C. $2,4$ A.
+C. $2,4\,\mathrm A$.
 
-D. $12$ A.
+D. $12\,\mathrm A$.
 
 ??? success "Đáp án và lời giải"
-    Chọn **B**. $I=\mathcal E/(R+r)=12/6=2$ A.
+    Chọn **B**. $I=\mathcal E/(R+r)=12/6=2\,\mathrm A$.
 
 ### Bài 2 — Mức 1 — Nhận biết
 
@@ -90,10 +89,13 @@ c) Tăng R luôn làm I tăng.
 d) Khi R rất lớn, I tiến về 0 và U hai cực tiến gần $\mathcal E$.
 
 ??? success "Đáp án và lời giải"
-    a) **Đúng**.
-    b) **Đúng**.
-    c) **Sai**.
-    d) **Đúng**.
+    a) **Đúng.** Định luật Ohm cho toàn mạch với tải $R$ và điện trở trong $r$ cho $I=\mathcal E/(R+r)$.
+
+    b) **Đúng.** Hiệu điện thế trên tải là $U_R=IR$ và cũng bằng hiệu điện thế hai cực nguồn $\mathcal E-Ir$.
+
+    c) **Sai.** Từ $I=\mathcal E/(R+r)$, khi $\mathcal E,r$ không đổi thì tăng $R$ làm $I$ giảm.
+
+    d) **Đúng.** Khi $R\to\infty$, $I=\mathcal E/(R+r)\to0$, nên sụt áp $Ir\to0$ và $U=\mathcal E-Ir\to\mathcal E$.
 
 ### Bài 6 — Mức 2 — Thông hiểu
 
@@ -108,39 +110,42 @@ c) Có cực đại tại R=r.
 d) Tại cực đại, hiệu suất nguồn là 100%.
 
 ??? success "Đáp án và lời giải"
-    a) **Đúng**.
-    b) **Đúng**.
-    c) **Đúng**.
-    d) **Sai**: khi R=r thì $H=R/(R+r)=1/2=50\%$.
+    a) **Đúng.** Với tải $R$, công suất mạch ngoài $P=\mathcal E^2R/(R+r)^2$ nên tại $R=0$ ta có $P=0$.
+
+    b) **Đúng.** Từ $P=\mathcal E^2R/(R+r)^2$, khi $R\to\infty$ thì $P\sim\mathcal E^2/R\to0$.
+
+    c) **Đúng.** Định lí truyền công suất cực đại cho nguồn có điện trở trong $r$: công suất tải đạt cực đại khi $R=r$.
+
+    d) **Sai.** khi R=r thì $H=R/(R+r)=1/2=50\%$.
 
 ## Phần C — Trả lời ngắn
 
 ### Bài 7 — Mức 3 — Vận dụng
 
-Nguồn $9$ V, $r=1\,\Omega$ nối với $R=8\,\Omega$. Tính I, U ngoài và hiệu suất.
+Nguồn $9\,\mathrm V$, $r=1\,\Omega$ nối với $R=8\,\Omega$. Tính I, U ngoài và hiệu suất.
 
 ??? success "Đáp án và lời giải"
-    $I=9/(8+1)=1$ A. $U=IR=8$ V. $H=U/\mathcal E=8/9\approx88,9\%$.
+    $I=9/(8+1)=1\,\mathrm A$. $U=IR=8\,\mathrm V$. $H=U/\mathcal E=8/9\approx88,9\%$.
 
 ### Bài 8 — Mức 3 — Vận dụng
 
-Nguồn có $\mathcal E=6$ V, r chưa biết. Mắc R=$5\,\Omega$ thì I=$1$ A. Tính r.
+Nguồn có $\mathcal E=6\,\mathrm V$, r chưa biết. Mắc $R=5\,\Omega$ thì $I=1\,\mathrm A$. Tính r.
 
 ??? success "Đáp án và lời giải"
     $R+r=\mathcal E/I=6\,\Omega$, nên $r=1\,\Omega$.
 
 ### Bài 9 — Mức 3 — Vận dụng
 
-Nguồn $12$ V, $r=3\,\Omega$. Tìm R để công suất mạch ngoài cực đại và giá trị cực đại.
+Nguồn $12\,\mathrm V$, $r=3\,\Omega$. Tìm R để công suất mạch ngoài cực đại và giá trị cực đại.
 
 ??? success "Đáp án và lời giải"
-    Cực đại khi $R=r=3\,\Omega$. $P_{max}=\mathcal E^2/(4r)=144/12=12$ W.
+    Cực đại khi $R=r=3\,\Omega$. $P_{max}=\mathcal E^2/(4r)=144/12=12\,\mathrm W$.
 
 ## Phần D — Vận dụng và vận dụng cao
 
 ### Bài 10 — Mức 4 — Vận dụng cao
 
-Nguồn có $\mathcal E=10$ V, $r=1\,\Omega$. Mạch ngoài là biến trở R. Tìm hai giá trị R để công suất trên R bằng $16$ W.
+Nguồn có $\mathcal E=10\,\mathrm V$, $r=1\,\Omega$. Mạch ngoài là biến trở R. Tìm hai giá trị R để công suất trên R bằng $16\,\mathrm W$.
 
 ??? success "Đáp án và lời giải"
     Ta có
@@ -225,17 +230,18 @@ Cho mạch điện như hình, bỏ qua điện trở dây nối. Biết $\xi_1=
 ![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/iv_p86_q3_259_fig1.webp){ loading=lazy }
 
 ??? success "Đáp án và lời giải"
-    **Đáp án sau kiểm tra:** $R=4\,\Omega$.
+    **Đáp án:** $R=4\,\Omega$.
 
     **Hướng dẫn giải:**
-    Theo sơ đồ, hai nguồn mắc nối tiếp cùng chiều nên $\xi_b=\xi_1+\xi_2=10$ V và $r_b=r_1+r_2=1\,\Omega$.
 
-    Với $I=2$ A, định luật Ôm toàn mạch cho
+    Theo sơ đồ, hai nguồn mắc nối tiếp cùng chiều nên $\xi_b=\xi_1+\xi_2=10\,\mathrm V$ và $r_b=r_1+r_2=1\,\Omega$.
+
+    Với $I=2\,\mathrm A$, định luật Ôm toàn mạch cho
 
     $R=\dfrac{\xi_b}{I}-r_b=\dfrac{10}{2}-1=4\,\Omega$.
 
-!!! warning "Đối chiếu nguồn"
-    PDF ghi đáp án $2{,}5\,\Omega$, nhưng phần lời giải tự đổi dữ kiện thành $\xi_1=3$ V và $r_1=r_2=1\,\Omega$. Không có cơ sở thay các số đã in trong đề; dùng đúng $\xi_1=4$ V, $r_1=r_2=0{,}5\,\Omega$ cho kết quả duy nhất $4\,\Omega$.
+    !!! warning "Đối chiếu nguồn"
+        PDF ghi đáp án $2{,}5\,\Omega$, nhưng phần lời giải tự đổi dữ kiện thành $\xi_1=3\,\mathrm V$ và $r_1=r_2=1\,\Omega$. Không có cơ sở thay các số đã in trong đề; dùng đúng $\xi_1=4\,\mathrm V$, $r_1=r_2=0{,}5\,\Omega$ cho kết quả duy nhất $4\,\Omega$.
 
 #### Bài 15
 
@@ -274,12 +280,10 @@ D. lực dịch chuyển nguồn điện từ vị trí này đến vị trí kh
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
+
     **Hướng dẫn giải:**
 
-    Rút gọn mạch ngoài trước, rồi dùng $I=\mathcal E/(R+r)$ và $U=IR=\mathcal E-Ir$.
-
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. lực lạ trong nguồn.**
+    Công của nguồn điện là công của lực lạ thực hiện bên trong nguồn để dịch chuyển điện tích và duy trì sự phân li điện tích giữa hai cực. Chọn A.
 #### Bài 17
 
 <!-- source-id: BT-Chuong-IV-p65-q25-216 -->
@@ -498,12 +502,10 @@ D. điện trường.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
+
     **Hướng dẫn giải:**
 
-    Rút gọn mạch ngoài trước, rồi dùng $I=\mathcal E/(R+r)$ và $U=IR=\mathcal E-Ir$.
-
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **D. điện trường.**
+    Ở mạch ngoài, các hạt tải điện chuyển động có hướng dưới tác dụng của điện trường trong vật dẫn. “Lực lạ” là khái niệm dùng cho quá trình bên trong nguồn. Chọn D.
 #### Bài 25
 
 <!-- source-id: BT-Chuong-IV-p64-q18-210 -->

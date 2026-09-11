@@ -7,7 +7,8 @@ The checker covers both layers of the Grade 11 bank:
 
 It is a structural/pedagogical gate, not a substitute for independent physics review.
 It catches recurring failures such as missing/mismatched solutions, placeholder prose,
-empty T/F explanations, under-explained advanced questions and truncated imports.
+empty T/F explanations, merged answer/guide paragraphs, misplaced source-comparison notes,
+confirmed generic solution placeholders, under-explained advanced questions and truncated imports.
 """
 from __future__ import annotations
 
@@ -15,6 +16,8 @@ from pathlib import Path
 import re
 import sys
 import textwrap
+
+from practice_bank_common import image_refs, infer_marker_kind, labels_share_paragraph, tf_solution_item_issues
 
 ROOT = Path(__file__).resolve().parents[1]
 GRADE11 = ROOT / "docs/physics/high-school/grade-11"
@@ -33,6 +36,20 @@ PLACEHOLDERS = re.compile(
     re.I,
 )
 BARE_ITEM = re.compile(r"(?m)^\s{4,}[a-d][.)]\s*$")
+SOURCE_COMPARE = '!!! warning "Đối chiếu nguồn"'
+GENERIC_WAVE_SOLUTION = re.compile(
+    r"Dùng quan hệ\s*\$v=\\lambda f=\\lambda/T\$;?\s*"
+    r"khi đọc đồ thị phải xác định đúng chu kì theo thời gian và bước sóng theo không gian\.?",
+    re.I,
+)
+GENERIC_CHOICE_SOLUTION = re.compile(
+    r"Đối chiếu kết quả với các lựa chọn,?\s*phương án phù hợp là[^.\n]*\.?",
+    re.I,
+)
+SUSPICIOUS_SHORT_PROMPT = re.compile(
+    r"(?:Tính|Xác định)\s+(?:bước sóng|khoảng cách\s+[A-Z]{1,3}|tốc độ sóng|vận tốc sóng)[^?\n]{0,60}\?",
+    re.I,
+)
 
 errors: list[str] = []
 warnings: list[str] = []
@@ -60,6 +77,61 @@ def labelled_tf_count(solution: str) -> int:
         or bool(re.search(rf"\b{x}\)\s*\*\*", solution))
         for x in "abcd"
     )
+
+
+def confirmed_generic_only(solution: str) -> bool:
+    """Flag confirmed stock prose only when it effectively is the whole solution."""
+    plain = flat(textwrap.dedent(solution))
+    plain = re.sub(r"\*\*(?:Đáp án|Kết luận|Hướng dẫn giải):?\*\*", " ", plain, flags=re.I)
+    for pattern in (GENERIC_WAVE_SOLUTION, GENERIC_CHOICE_SOLUTION):
+        if pattern.search(plain):
+            remainder = flat(pattern.sub(" ", plain))
+            # Allow the sentence inside a genuinely worked solution; reject it when
+            # little bài-specific reasoning remains after removing answer-key text.
+            remainder = re.sub(r"^[A-D](?:\.|\b)[^;]{0,30}", " ", remainder).strip()
+            if len(remainder) < 80:
+                return True
+    return False
+
+
+def source_compare_misplaced(block: str) -> bool:
+    """A source-comparison warning belongs inside the current success details block."""
+    pos = block.find(SOURCE_COMPARE)
+    while pos >= 0:
+        mark = block.find(SOLUTION_MARK)
+        if mark < 0 or pos < mark:
+            return True
+        line_start = block.rfind("\n", 0, pos) + 1
+        line = block[line_start:block.find("\n", pos) if block.find("\n", pos) >= 0 else len(block)]
+        if len(line) - len(line.lstrip(" ")) < 4:
+            return True
+        pos = block.find(SOURCE_COMPARE, pos + len(SOURCE_COMPARE))
+    return False
+
+
+def warn_if_short_numeric_prompt(label: str, question: str, solution: str) -> None:
+    """Heuristic only: short computation prompt with no local data/figure but numeric answer."""
+    visible = re.sub(r"<!--.*?-->", " ", question, flags=re.S)
+    if not SUSPICIOUS_SHORT_PROMPT.search(visible):
+        return
+    if re.search(r"\d", visible) or image_refs(visible):
+        return
+    answer = re.search(r"\*\*Đáp án:\*\*([^\n]*)", solution)
+    if answer and re.search(r"\d", answer.group(1)):
+        warnings.append(f"SUSPECT_MISSING_DATA {label}: đề rất ngắn, không có số liệu/hình trong block nhưng đáp án là số")
+
+
+def authored_kind(text: str, heading_pos: int) -> str | None:
+    """Use the authoritative Phần A/B/C/D heading for authored questions."""
+    pos = text.rfind("\n## Phần ", 0, heading_pos)
+    if pos < 0:
+        return None
+    line = text[pos + 1:text.find("\n", pos + 1)]
+    if line.startswith("## Phần A"):
+        return "mcq"
+    if line.startswith("## Phần B"):
+        return "tf"
+    return None
 
 
 # ---------------------------------------------------------------------------
@@ -116,10 +188,21 @@ for ex in PRACTICE_FILES:
 
         if len(inline_flat) < 8:
             errors.append(f"AUTHORED_TOO_SHORT {ex.relative_to(ROOT)} Bài {n}: lời giải gần như trống")
-        if PLACEHOLDERS.search(inline_dedented):
+        if PLACEHOLDERS.search(inline_dedented) or confirmed_generic_only(inline_dedented):
             errors.append(f"AUTHORED_PLACEHOLDER {ex.relative_to(ROOT)} Bài {n}")
         if BARE_ITEM.search(inline):
             errors.append(f"AUTHORED_BARE_TF_ITEM {ex.relative_to(ROOT)} Bài {n}")
+        if labels_share_paragraph(inline_dedented, "**Đáp án:**", "**Hướng dẫn giải:**"):
+            errors.append(
+                f"AUTHORED_MERGED_LABELS {ex.relative_to(ROOT)} Bài {n}: "
+                "Đáp án và Hướng dẫn giải đang ở cùng Markdown paragraph"
+            )
+        if source_compare_misplaced(block):
+            errors.append(
+                f"AUTHORED_SOURCE_COMPARE_OUTSIDE {ex.relative_to(ROOT)} Bài {n}: "
+                "'Đối chiếu nguồn' phải nằm trong đúng khối đáp án/lời giải"
+            )
+        warn_if_short_numeric_prompt(f"{ex.relative_to(ROOT)} Bài {n}", question, inline_dedented)
 
         sep = separate.get(n)
         if sep is None:
@@ -146,13 +229,12 @@ for ex in PRACTICE_FILES:
                     f"AUTHORED_APPLIED_BARE {ex.relative_to(ROOT)} Bài {n}: Mức 3 thiếu bước tính/suy luận"
                 )
 
-        items = tf_item_count(question)
-        if items >= 3:
+        kind = authored_kind(et, h.start())
+        if kind == 'tf':
             authored_tf += 1
-            if labelled_tf_count(inline_dedented) < 3:
-                errors.append(
-                    f"AUTHORED_TF_INCOMPLETE {ex.relative_to(ROOT)} Bài {n}: thiếu giải thích theo từng ý"
-                )
+            tf_issues = tf_solution_item_issues(inline_dedented)
+            for issue in tf_issues:
+                errors.append(f"AUTHORED_TF_INCOMPLETE {ex.relative_to(ROOT)} Bài {n}: {issue}")
             if len(inline_flat) < 45:
                 errors.append(
                     f"AUTHORED_TF_TOO_SHORT {ex.relative_to(ROOT)} Bài {n}: lời giải Đúng/Sai quá ngắn"
@@ -194,18 +276,22 @@ for path in SOURCE_FILES:
             errors.append(f"SOURCE_MISSING_GUIDE {source_id}: thiếu nhãn '**Hướng dẫn giải:**'")
         if len(solution_flat) < 30:
             errors.append(f"SOURCE_TOO_SHORT {source_id}: lời giải chỉ có {len(solution_flat)} ký tự")
-        if PLACEHOLDERS.search(solution):
+        if PLACEHOLDERS.search(solution) or confirmed_generic_only(solution):
             errors.append(f"SOURCE_PLACEHOLDER {source_id}: còn câu mẫu/placeholder trong lời giải")
         if BARE_ITEM.search(solution):
             errors.append(f"SOURCE_BARE_TF_ITEM {source_id}: còn mục a/b/c/d trống trong lời giải")
+        if labels_share_paragraph(solution, "**Đáp án:**", "**Hướng dẫn giải:**"):
+            errors.append(f"SOURCE_MERGED_LABELS {source_id}: Đáp án và Hướng dẫn giải đang ở cùng Markdown paragraph")
+        if source_compare_misplaced(block):
+            errors.append(f"SOURCE_COMPARE_OUTSIDE {source_id}: 'Đối chiếu nguồn' phải nằm trong đúng khối đáp án/lời giải")
+        warn_if_short_numeric_prompt(source_id, question, solution)
 
-        items = tf_item_count(question)
-        if items >= 3:
+        kind = infer_marker_kind(question)
+        if kind == 'tf':
             source_tf += 1
-            explicit = bool(re.search(r"\*\*(?:Đáp án|Kết luận)", solution))
-            labelled = labelled_tf_count(solution)
-            if not explicit and labelled < 3:
-                errors.append(f"SOURCE_TF_INCOMPLETE {source_id}: chưa tách kết luận/giải thích đủ các ý Đúng-Sai")
+            tf_issues = tf_solution_item_issues(solution)
+            for issue in tf_issues:
+                errors.append(f"SOURCE_TF_INCOMPLETE {source_id}: {issue}")
             if len(solution_flat) < 150:
                 errors.append(f"SOURCE_TF_TOO_SHORT {source_id}: lời giải Đúng-Sai quá ngắn ({len(solution_flat)} ký tự)")
 

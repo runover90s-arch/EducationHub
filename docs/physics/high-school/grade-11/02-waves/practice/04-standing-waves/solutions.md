@@ -14,42 +14,89 @@ tags:
 [← Bài tập](exercises.md)
 
 ## Bài 1
-Chọn **B**, với $k=1,2,3,\ldots$
+
+**Đáp án:** B
+
+**Hướng dẫn giải:**
+
+Dây hai đầu cố định có hai đầu là nút. Điều kiện sóng dừng là
+
+$L=k\dfrac{\lambda}{2},\qquad k=1,2,3,\ldots$
+
+nên chọn **B**.
 
 ## Bài 2
-Chọn **B**.
+
+**Đáp án:** B
+
+**Hướng dẫn giải:**
+
+Hai nút liên tiếp cách nhau nửa bước sóng, tức $\lambda/2$. Chọn **B**.
 
 ## Bài 3
-Chọn **B**.
+
+**Đáp án:** B
+
+**Hướng dẫn giải:**
+
+Từ một nút đến bụng gần nhất bằng một phần tư bước sóng, tức $\lambda/4$. Chọn **B**.
 
 ## Bài 4
-a) **Đúng**.  
-b) **Đúng**.  
-c) **Đúng**.  
-d) **Sai**: các đoạn giữa hai nút liên tiếp dao động cùng pha, hai đoạn kề nhau ngược pha.
+
+**Đáp án:** a) Đúng; b) Đúng; c) Đúng; d) Sai.
+
+**Hướng dẫn giải:**
+
+a) **Đúng.** Nút sóng là vị trí có biên độ dao động bằng 0.
+
+b) **Đúng.** Bụng sóng là vị trí có biên độ dao động cực đại.
+
+c) **Đúng.** Hai bụng liên tiếp cách nhau $\lambda/2$.
+
+d) **Sai.** Các điểm trong cùng một khoảng giữa hai nút liên tiếp dao động cùng pha; hai khoảng kề nhau dao động ngược pha, nên không phải mọi điểm trên dây cùng pha.
 
 ## Bài 5
-Với hai đầu cố định, số bụng $k=6$ và $L=k\lambda/2$. Do đó $\lambda=2L/k=2,4/6=0,40$ m.
+
+**Đáp án:** $\lambda=0{,}40\,\mathrm m$.
+
+**Hướng dẫn giải:**
+
+Hai đầu cố định và có 6 bụng nên $L=6\lambda/2$. Do đó
+
+$\lambda=\dfrac{2L}{6}=\dfrac{2\cdot1{,}2}{6}=0{,}40\,\mathrm m$.
 
 ## Bài 6
-Ở họa âm cơ bản $\lambda_1=2L=1,8$ m. $f_1=v/\lambda_1=180/1,8=100$ Hz.
+
+**Đáp án:** $f_1=100\,\mathrm{Hz}$.
+
+**Hướng dẫn giải:**
+
+Ở họa âm cơ bản của dây hai đầu cố định, $\lambda_1=2L=1{,}8\,\mathrm m$. Vì vậy
+
+$f_1=v/\lambda_1=180/1{,}8=100\,\mathrm{Hz}$.
 
 ## Bài 7
-Một đầu nút, một đầu bụng: mode cơ bản có $L=\lambda/4$. Vậy $\lambda=4L=3,0$ m.
+
+**Đáp án:** $\lambda=3{,}0\,\mathrm m$.
+
+**Hướng dẫn giải:**
+
+Ở mode cơ bản của dây một đầu cố định, một đầu tự do, $L=\lambda/4$. Do đó
+
+$\lambda=4L=4\cdot0{,}75=3{,}0\,\mathrm m$.
 
 ## Bài 8
-Với hai đầu cố định, $f_n=n\,v/(2L)$ nên tần số tỉ lệ số bụng $n$.
 
-$f_5/f_4=5/4$.
+**Đáp án:** $150\,\mathrm{Hz}$.
 
-Do $f_4=120$ Hz, $f_5=120\cdot5/4=150$ Hz.
+**Hướng dẫn giải:**
+
+Với cùng dây và cùng lực căng, $v$ không đổi. Dây hai đầu cố định có $f_n=nv/(2L)$ nên $f_n$ tỉ lệ với số bụng $n$.
+
+$\dfrac{f_5}{f_4}=\dfrac54\Rightarrow f_5=120\cdot\dfrac54=150\,\mathrm{Hz}$.
+
 
 ---
 
 [← Bài tập](exercises.md)
 
-## Bài 9–96
-
-Đáp án và lời giải của **Bài 9–96** đã được đặt trực tiếp dưới từng bài trong trang bài tập bằng nút **“Đáp án và lời giải”** để tránh tách đề, hình minh họa và lời giải sang nhiều vị trí khác nhau.
-
-[← Mở trang bài tập](exercises.md)

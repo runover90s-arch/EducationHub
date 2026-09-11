@@ -17,31 +17,37 @@ tags:
 Chọn **A**; với điện trở thuần còn có $P=I^2R=U^2/R$.
 
 ## Bài 2
-Chọn **C**. $P=I^2R=4\cdot10=40$ W.
+Chọn **C**. $P=I^2R=4\cdot10=40\,\mathrm W$.
 
 ## Bài 3
-Chọn **B**. $I=P/U=1100/220=5$ A.
+Chọn **B**. $I=P/U=1100/220=5\,\mathrm A$.
 
 ## Bài 4
 Chọn **A**.
 
 ## Bài 5
-a) **Đúng**.  
-b) **Đúng**.  
-c) **Đúng**.  
-d) **Sai**: với I không đổi, $P=I^2R$ nên tăng.
+a) **Đúng.** kW là đơn vị công suất và giờ là đơn vị thời gian, nên tích kW·h là đơn vị của năng lượng.
+
+b) **Đúng.** $1\,\mathrm{kWh}=1000\,\mathrm W\times3600\,\mathrm s=3{,}6\times10^6\,\mathrm J$.
+
+c) **Đúng.** Từ $P=UI$ và định luật Ohm $I=U/R$, suy ra $P=U^2/R$.
+
+d) **Sai.** với I không đổi, $P=I^2R$ nên tăng.
 
 ## Bài 6
-a) **Đúng**.  
-b) **Đúng**.  
-c) **Đúng**.  
-d) **Sai** vì có tổn hao trong.
+a) **Đúng.** Vì công của nguồn trong thời gian $t$ là $A=\mathcal E It$, nên công suất $P=A/t=\mathcal E I$.
+
+b) **Đúng.** Phần điện trở trong $r$ tỏa nhiệt theo định luật Joule với công suất $P_{\text{hao}}=I^2r$.
+
+c) **Đúng.** Điện năng mạch ngoài nhận trong thời gian $t$ là $A=UIt$, nên công suất bằng $P=UI$.
+
+d) **Sai.** vì có tổn hao trong.
 
 ## Bài 7
-$P=1,2$ kW, $t=0,25$ h nên $A=0,30$ kWh. Đổi ra J: $0,30\cdot3,6\cdot10^6=1,08\cdot10^6$ J.
+$P=1,2$ kW, $t=0,25$ h nên $A=0,30\,\mathrm{kWh}$. Đổi ra J: $0,30\cdot3,6\cdot10^6=1,08\cdot10^6\,\mathrm J$.
 
 ## Bài 8
-$I=U/R=220/44=5$ A. $P=UI=1100$ W. $Q=Pt=1100\cdot300=3,3\cdot10^5$ J.
+$I=U/R=220/44=5\,\mathrm A$. $P=UI=1100\,\mathrm W$. $Q=Pt=1100\cdot300=3,3\cdot10^5\,\mathrm J$.
 
 ## Bài 9
 $H=A_{ích}/A_{vào}=1,5/2,0=0,75=75\%$.
@@ -49,13 +55,13 @@ $H=A_{ích}/A_{vào}=1,5/2,0=0,75=75\%$.
 ## Bài 10
 Nhiệt nước cần nhận:
 
-$Q=mc\Delta T=1,5\cdot4200\cdot80=504000$ J.
+$Q=mc\Delta T=1,5\cdot4200\cdot80=504000\,\mathrm J$.
 
 Vì hiệu suất $H=0,80$, điện năng cần cung cấp:
 
-$A=Q/H=504000/0,80=630000$ J.
+$A=Q/H=504000/0,80=630000\,\mathrm J$.
 
-$t=A/P=630000/1000=630$ s $=10,5$ phút.
+$t=A/P=630000/1000=630\,\mathrm s$ $=10,5$ phút.
 
 ---
 

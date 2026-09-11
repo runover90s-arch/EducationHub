@@ -14,46 +14,105 @@ tags:
 [← Bài tập](exercises.md)
 
 ## Bài 1
-Chọn **B**. Điểm xa nguồn trễ pha $2\pi x/\lambda$.
+
+**Đáp án:** B
+
+**Hướng dẫn giải:**
+
+Với sóng truyền theo chiều dương $Ox$, điểm cách nguồn một đoạn $x$ trễ pha $2\pi x/\lambda$. Vì vậy
+
+$u=A\cos\left(\omega t-\dfrac{2\pi x}{\lambda}\right)$,
+
+nên chọn **B**.
 
 ## Bài 2
-Chọn **B**. $\Delta\varphi=2\pi(\lambda/4)/\lambda=\pi/2$.
+
+**Đáp án:** B
+
+**Hướng dẫn giải:**
+
+$\Delta\varphi=2\pi\Delta x/\lambda$. Với $\Delta x=\lambda/4$:
+
+$|\Delta\varphi|=2\pi\dfrac{\lambda/4}{\lambda}=\dfrac{\pi}{2}$.
+
+Chọn **B**.
 
 ## Bài 3
-Chọn **B**. $\omega=8\pi$ nên $f=4$ Hz; hệ số của $x$ là $2\pi/\lambda=2\pi$ nên $\lambda=1$ m. Do đó $v=f\lambda=4$ m/s.
+
+**Đáp án:** B
+
+**Hướng dẫn giải:**
+
+So sánh $u=3\cos(8\pi t-2\pi x)$ với $u=A\cos(\omega t-kx)$:
+
+$f=\dfrac{\omega}{2\pi}=4\,\mathrm{Hz},\qquad \lambda=\dfrac{2\pi}{k}=1\,\mathrm m$.
+
+Vậy $v=f\lambda=4\,\mathrm{m/s}$, chọn **B**.
 
 ## Bài 4
-a) **Đúng**.  
-b) **Đúng** với dạng truyền theo chiều dương Ox.  
-c) **Đúng**.  
-d) **Sai**: chênh pha $4\pi$, nên cùng pha.
+
+**Đáp án:** a) Đúng; b) Đúng; c) Đúng; d) Sai.
+
+**Hướng dẫn giải:**
+
+a) **Đúng.** Số sóng được định nghĩa bởi $k=2\pi/\lambda$.
+
+b) **Đúng.** Với dạng truyền theo chiều dương $Ox$, pha tại cùng thời điểm là $\omega t-kx+\varphi_0$ nên giảm khi $x$ tăng.
+
+c) **Đúng.** Thời gian để cùng trạng thái sóng truyền thêm quãng đường $d$ là $\Delta t=d/v$.
+
+d) **Sai.** Hai điểm cách nhau $2\lambda$ lệch pha $4\pi$, tương đương cùng pha, không phải ngược pha.
 
 ## Bài 5
-$\lambda=v/f=0,20$ m. $\Delta\varphi=2\pi d/\lambda=2\pi\cdot0,15/0,20=3\pi/2$ rad.
+
+**Đáp án:** $3\pi/2\,\mathrm{rad}$.
+
+**Hướng dẫn giải:**
+
+$\lambda=v/f=2/10=0{,}20\,\mathrm m$. Với $d=15\,\mathrm{cm}=0{,}15\,\mathrm m$:
+
+$|\Delta\varphi|=2\pi d/\lambda=2\pi\dfrac{0{,}15}{0{,}20}=\dfrac{3\pi}{2}\,\mathrm{rad}$.
 
 ## Bài 6
-$f=\omega/(2\pi)=5$ Hz nên $\lambda=v/f=0,4$ m. Độ trễ pha $2\pi d/\lambda=2\pi\cdot0,3/0,4=3\pi/2$. Do đó $u_M=4\cos(10\pi t+\pi/6-3\pi/2)$ cm, có thể rút gọn pha tương đương.
+
+**Đáp án:** $u_M=4\cos(10\pi t-4\pi/3)\,\mathrm{cm}$ (hoặc dạng pha tương đương).
+
+**Hướng dẫn giải:**
+
+$f=\omega/(2\pi)=5\,\mathrm{Hz}$ nên $\lambda=v/f=0{,}40\,\mathrm m$. Với $OM=0{,}30\,\mathrm m$, độ trễ pha là
+
+$\Delta\varphi=2\pi\dfrac{OM}{\lambda}=\dfrac{3\pi}{2}$.
+
+Do đó
+
+$u_M=4\cos\left(10\pi t+\dfrac{\pi}{6}-\dfrac{3\pi}{2}\right)=4\cos\left(10\pi t-\dfrac{4\pi}{3}\right)\,\mathrm{cm}$.
 
 ## Bài 7
-Khoảng cách giữa hai đỉnh liên tiếp chính là $\lambda=0,24$ m. $v=f\lambda=5\cdot0,24=1,20$ m/s.
+
+**Đáp án:** $1{,}20\,\mathrm{m/s}$.
+
+**Hướng dẫn giải:**
+
+Khoảng cách giữa hai đỉnh liên tiếp là một bước sóng, nên $\lambda=24\,\mathrm{cm}=0{,}24\,\mathrm m$. Vì vậy
+
+$v=f\lambda=5\cdot0{,}24=1{,}20\,\mathrm{m/s}$.
 
 ## Bài 8
-Tại cùng thời điểm, N trễ pha so với M một lượng
+
+**Đáp án:** $MN=0{,}25\,\mathrm m$.
+
+**Hướng dẫn giải:**
+
+Tại cùng thời điểm, N trễ pha so với M:
 
 $\Delta\varphi=5\pi/6-\pi/3=\pi/2$.
 
-Tần số $f=6\pi/(2\pi)=3$ Hz, nên $\lambda=v/f=1$ m.
+Từ $\omega=6\pi\,\mathrm{rad/s}$ suy ra $f=3\,\mathrm{Hz}$, nên $\lambda=v/f=1\,\mathrm m$. Vì $MN<\lambda$:
 
-Vì $\Delta\varphi=2\pi\,MN/\lambda$ và $MN<\lambda$:
+$MN=\dfrac{\Delta\varphi}{2\pi}\lambda=\dfrac14\lambda=0{,}25\,\mathrm m$.
 
-$MN=(\pi/2)\lambda/(2\pi)=\lambda/4=0,25$ m.
 
 ---
 
 [← Bài tập](exercises.md)
 
-## Bài 9–66
-
-Đáp án và lời giải của **Bài 9–66** đã được đặt trực tiếp dưới từng bài trong trang bài tập bằng nút **“Đáp án và lời giải”** để tránh tách đề, hình minh họa và lời giải sang nhiều vị trí khác nhau.
-
-[← Mở trang bài tập](exercises.md)

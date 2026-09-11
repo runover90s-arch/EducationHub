@@ -176,13 +176,13 @@ $$
 
 ### Ví dụ 1 — Tìm bước sóng
 
-Sóng truyền với $v=2,4$ m/s, tần số $f=6$ Hz.
+Sóng truyền với $v=2,4\,\mathrm{m/s}$, tần số $f=6\,\mathrm{Hz}$.
 
-Ta có $\lambda=v/f=0,40$ m.
+Ta có $\lambda=v/f=0,40\,\mathrm m$.
 
 ### Ví dụ 2 — Tìm độ lệch pha
 
-Hai điểm trên cùng phương truyền cách nhau $15$ cm. Bước sóng $60$ cm.
+Hai điểm trên cùng phương truyền cách nhau $15\,\mathrm{cm}$. Bước sóng $60\,\mathrm{cm}$.
 
 $$
 |\Delta\varphi|=2\pi\frac{15}{60}=\frac{\pi}{2}.
@@ -192,12 +192,12 @@ Hai điểm vuông pha.
 
 ### Ví dụ 3 — Đổi môi trường
 
-Nguồn phát $f=100$ Hz. Trong môi trường 1, $v_1=200$ m/s; trong môi trường 2, $v_2=300$ m/s.
+Nguồn phát $f=100\,\mathrm{Hz}$. Trong môi trường 1, $v_1=200\,\mathrm{m/s}$; trong môi trường 2, $v_2=300\,\mathrm{m/s}$.
 
 Tần số không đổi. Bước sóng:
 
-- $\lambda_1=2$ m;
-- $\lambda_2=3$ m.
+- $\lambda_1=2\,\mathrm m$;
+- $\lambda_2=3\,\mathrm m$.
 
 Tỉ số bước sóng bằng tỉ số tốc độ.
 

@@ -206,9 +206,9 @@ $$
 
 ta có:
 
-- $A=6$ cm;
-- $x\in[-6;6]$ cm;
-- chiều dài quỹ đạo $L=12$ cm.
+- $A=6\,\mathrm{cm}$;
+- $x\in[-6;6]\,\mathrm{cm}$;
+- chiều dài quỹ đạo $L=12\,\mathrm{cm}$.
 
 !!! danger "Sai lầm nghiêm trọng"
     Không viết biên độ âm. Nếu gặp $x=-5\cos(\omega t+\alpha)$, phải đưa về dạng có biên độ dương $x=5\cos(\omega t+\alpha+\pi)$.
@@ -509,22 +509,22 @@ Xác định $A,\omega,T,f,\varphi$.
 
 So sánh với dạng chuẩn $x=A\cos(\omega t+\varphi)$, ta đọc trực tiếp được:
 
-- biên độ: $A=8$ cm;
-- tần số góc: $\omega=4\pi$ rad/s;
+- biên độ: $A=8\,\mathrm{cm}$;
+- tần số góc: $\omega=4\pi\,\mathrm{rad/s}$;
 - pha ban đầu: $\varphi=-\dfrac{\pi}{3}$ rad.
 
-Từ $\omega=4\pi$ rad/s:
+Từ $\omega=4\pi\,\mathrm{rad/s}$:
 
-- chu kì: $T=\dfrac{2\pi}{\omega}=\dfrac{2\pi}{4\pi}=0,5$ s;
-- tần số: $f=\dfrac1T=2$ Hz.
+- chu kì: $T=\dfrac{2\pi}{\omega}=\dfrac{2\pi}{4\pi}=0,5\,\mathrm s$;
+- tần số: $f=\dfrac1T=2\,\mathrm{Hz}$.
 
-**Kết quả:** $A=8$ cm, $\omega=4\pi$ rad/s, $T=0,5$ s, $f=2$ Hz, $\varphi=-\dfrac{\pi}{3}$ rad.
+**Kết quả:** $A=8\,\mathrm{cm}$, $\omega=4\pi\,\mathrm{rad/s}$, $T=0,5\,\mathrm s$, $f=2\,\mathrm{Hz}$, $\varphi=-\dfrac{\pi}{3}$ rad.
 
 ---
 
 ## Ví dụ 2 — Pha và li độ tại một thời điểm
 
-Với $x=8\cos\left(4\pi t-\dfrac{\pi}{3}\right)$ cm, tính pha và li độ tại $t=0,25$ s.
+Với $x=8\cos\left(4\pi t-\dfrac{\pi}{3}\right)\,\mathrm{cm}$, tính pha và li độ tại $t=0,25\,\mathrm s$.
 
 ### Giải
 
@@ -537,13 +537,13 @@ x&=8\cos\frac{2\pi}{3}=8\left(-\frac12\right)=-4\text{ cm}.
 \end{aligned}
 $$
 
-**Kết quả:** $\Phi=\dfrac{2\pi}{3}$ rad và $x=-4$ cm.
+**Kết quả:** $\Phi=\dfrac{2\pi}{3}$ rad và $x=-4\,\mathrm{cm}$.
 
 ---
 
 ## Ví dụ 3 — Từ số dao động
 
-Một vật thực hiện 30 dao động toàn phần trong 12 s. Tính $T,f,\omega$.
+Một vật thực hiện 30 dao động toàn phần trong $12\,\mathrm s$. Tính $T,f,\omega$.
 
 ### Giải
 
@@ -553,9 +553,9 @@ $$
 f=\frac{N}{\Delta t}=\frac{30}{12}=2,5\text{ Hz}.
 $$
 
-Suy ra $T=\dfrac1f=0,4$ s và $\omega=2\pi f=5\pi$ rad/s.
+Suy ra $T=\dfrac1f=0,4\,\mathrm s$ và $\omega=2\pi f=5\pi\,\mathrm{rad/s}$.
 
-**Kết quả:** $T=0,4$ s, $f=2,5$ Hz, $\omega=5\pi$ rad/s.
+**Kết quả:** $T=0,4\,\mathrm s$, $f=2,5\,\mathrm{Hz}$, $\omega=5\pi\,\mathrm{rad/s}$.
 
 ---
 
@@ -591,7 +591,7 @@ x
 \end{aligned}
 $$
 
-**Kết quả:** $x=6\cos\left(2\pi t+\dfrac{2\pi}{3}\right)$ cm.
+**Kết quả:** $x=6\cos\left(2\pi t+\dfrac{2\pi}{3}\right)\,\mathrm{cm}$.
 
 ---
 
@@ -603,18 +603,24 @@ $$
 
 Chuyển động nào dưới đây là dao động cơ?
 
-A. Một ô tô chạy thẳng đều trên đường.  
-B. Một vật gắn lò xo chuyển động qua lại quanh vị trí cân bằng.  
-C. Một viên đá rơi tự do.  
+A. Một ô tô chạy thẳng đều trên đường.
+
+B. Một vật gắn lò xo chuyển động qua lại quanh vị trí cân bằng.
+
+C. Một viên đá rơi tự do.
+
 D. Một vệ tinh chuyển động tròn đều quanh Trái Đất.
 
 ### Câu 2
 
 Đại lượng cho biết số dao động toàn phần vật thực hiện trong một giây là:
 
-A. biên độ.  
-B. chu kì.  
-C. tần số.  
+A. biên độ.
+
+B. chu kì.
+
+C. tần số.
+
 D. pha ban đầu.
 
 ### Câu 3
@@ -627,19 +633,25 @@ $$
 
 tần số góc là:
 
-A. $4$ rad/s.  
-B. $4\pi$ rad/s.  
-C. $2$ Hz.  
+A. $4\,\mathrm{rad/s}$.
+
+B. $4\pi\,\mathrm{rad/s}$.
+
+C. $2\,\mathrm{Hz}$.
+
 D. $\pi/3$ rad.
 
 ### Câu 4
 
-Một vật dao động điều hòa có biên độ $A=7$ cm. Chiều dài quỹ đạo là:
+Một vật dao động điều hòa có biên độ $A=7\,\mathrm{cm}$. Chiều dài quỹ đạo là:
 
-A. $7$ cm.  
-B. $14$ cm.  
-C. $3,5$ cm.  
-D. $49$ cm.
+A. $7\,\mathrm{cm}$.
+
+B. $14\,\mathrm{cm}$.
+
+C. $3,5\,\mathrm{cm}$.
+
+D. $49\,\mathrm{cm}$.
 
 ### Câu 5
 
@@ -651,10 +663,13 @@ $$
 
 chu kì là:
 
-A. $0,1$ s.  
-B. $0,2$ s.  
-C. $5$ s.  
-D. $10$ s.
+A. $0,1\,\mathrm s$.
+
+B. $0,2\,\mathrm s$.
+
+C. $5\,\mathrm s$.
+
+D. $10\,\mathrm s$.
 
 ---
 
@@ -662,7 +677,7 @@ D. $10$ s.
 
 ### Câu 6
 
-Một vật thực hiện 18 dao động toàn phần trong 9 s. Tần số của dao động bằng bao nhiêu?
+Một vật thực hiện 18 dao động toàn phần trong $9\,\mathrm s$. Tần số của dao động bằng bao nhiêu?
 
 ### Câu 7
 
@@ -676,7 +691,7 @@ Tính:
 
 1. chu kì;
 2. tần số;
-3. pha tại $t=0,3$ s.
+3. pha tại $t=0,3\,\mathrm s$.
 
 ### Câu 8
 
@@ -689,18 +704,18 @@ $$
 Tính li độ tại:
 
 1. $t=0$;
-2. $t=\dfrac16$ s;
-3. $t=\dfrac13$ s.
+2. $t=\dfrac16\,\mathrm s$;
+3. $t=\dfrac13\,\mathrm s$.
 
 ### Câu 9
 
-Một dao động có chu kì $0,25$ s.
+Một dao động có chu kì $0,25\,\mathrm s$.
 
 Tính:
 
 1. tần số;
 2. tần số góc;
-3. số dao động toàn phần trong 5 s.
+3. số dao động toàn phần trong $5\,\mathrm s$.
 
 ---
 
@@ -716,10 +731,13 @@ $$
 
 Xét các phát biểu:
 
-a) Biên độ của dao động là $4$ cm.  
-b) Tần số là $5\pi$ Hz.  
-c) Tại $t=0$, li độ là $2\sqrt3$ cm.  
-d) Chiều dài quỹ đạo là $8$ cm.
+a) Biên độ của dao động là $4\,\mathrm{cm}$.
+
+b) Tần số là $5\pi\,\mathrm{Hz}$.
+
+c) Tại $t=0$, li độ là $2\sqrt3\,\mathrm{cm}$.
+
+d) Chiều dài quỹ đạo là $8\,\mathrm{cm}$.
 
 Hãy xác định đúng hoặc sai cho từng ý.
 
@@ -727,9 +745,12 @@ Hãy xác định đúng hoặc sai cho từng ý.
 
 Xét dao động điều hòa.
 
-a) Pha dao động biến thiên tuyến tính theo thời gian.  
-b) Cùng một li độ thì vật luôn có cùng một trạng thái chuyển động.  
-c) Sau mỗi chu kì, trạng thái dao động lặp lại như cũ.  
+a) Pha dao động biến thiên tuyến tính theo thời gian.
+
+b) Cùng một li độ thì vật luôn có cùng một trạng thái chuyển động.
+
+c) Sau mỗi chu kì, trạng thái dao động lặp lại như cũ.
+
 d) Biên độ có thể nhận giá trị âm nếu pha ban đầu phù hợp.
 
 Hãy xác định đúng hoặc sai.
@@ -751,7 +772,7 @@ $$
 
 ### Câu 13
 
-Một vật dao động điều hòa. Trong 6 s vật thực hiện 15 dao động toàn phần. Biên độ là 4 cm.
+Một vật dao động điều hòa. Trong $6\,\mathrm s$ vật thực hiện 15 dao động toàn phần. Biên độ là $4\,\mathrm{cm}$.
 
 Tính:
 
@@ -762,7 +783,7 @@ Tính:
 
 ### Câu 14
 
-Một đồ thị li độ – thời gian có giá trị cực đại $+5$ cm và cực tiểu $-5$ cm. Hai đỉnh liên tiếp của đồ thị xuất hiện tại $t=0,2$ s và $t=0,8$ s.
+Một đồ thị li độ – thời gian có giá trị cực đại $+5\,\mathrm{cm}$ và cực tiểu $-5\,\mathrm{cm}$. Hai đỉnh liên tiếp của đồ thị xuất hiện tại $t=0,2\,\mathrm s$ và $t=0,8\,\mathrm s$.
 
 Tính:
 
@@ -779,7 +800,7 @@ $$
 x=10\cos\left(2\pi t+\frac{\pi}{3}\right)\text{ mm}.
 $$
 
-Trong khoảng thời gian 3 s, vật thực hiện bao nhiêu dao động toàn phần?
+Trong khoảng thời gian $3\,\mathrm s$, vật thực hiện bao nhiêu dao động toàn phần?
 
 ---
 
@@ -812,19 +833,19 @@ Trong khoảng thời gian 3 s, vật thực hiện bao nhiêu dao động toàn
 
 ## Câu 3
 
-**Đáp án: B.** So sánh $x=5\cos\left(4\pi t-\dfrac{\pi}{3}\right)$ với $x=A\cos(\omega t+\varphi)$, hệ số của $t$ trong pha là $\omega$. Vì vậy $\omega=4\pi$ rad/s.
+**Đáp án: B.** So sánh $x=5\cos\left(4\pi t-\dfrac{\pi}{3}\right)$ với $x=A\cos(\omega t+\varphi)$, hệ số của $t$ trong pha là $\omega$. Vì vậy $\omega=4\pi\,\mathrm{rad/s}$.
 
 ---
 
 ## Câu 4
 
-**Đáp án: B.** Với $A=7$ cm, chiều dài quỹ đạo là $L=2A=14$ cm.
+**Đáp án: B.** Với $A=7\,\mathrm{cm}$, chiều dài quỹ đạo là $L=2A=14\,\mathrm{cm}$.
 
 ---
 
 ## Câu 5
 
-**Đáp án: B.** Ta có $\omega=10\pi$ rad/s, nên
+**Đáp án: B.** Ta có $\omega=10\pi\,\mathrm{rad/s}$, nên
 
 $$
 T=\frac{2\pi}{\omega}=\frac{2\pi}{10\pi}=0,2\text{ s}.
@@ -834,56 +855,56 @@ $$
 
 ## Câu 6
 
-Vật thực hiện $N=18$ dao động trong $\Delta t=9$ s, do đó $f=\dfrac{N}{\Delta t}=\dfrac{18}{9}=2$ Hz.
+Vật thực hiện $N=18$ dao động trong $\Delta t=9\,\mathrm s$, do đó $f=\dfrac{N}{\Delta t}=\dfrac{18}{9}=2\,\mathrm{Hz}$.
 
-**Đáp án:** $f=2$ Hz.
+**Đáp án:** $f=2\,\mathrm{Hz}$.
 
 ---
 
 ## Câu 7
 
-Từ $x=6\cos\left(5\pi t-\dfrac{\pi}{2}\right)$ cm, ta đọc được $\omega=5\pi$ rad/s.
+Từ $x=6\cos\left(5\pi t-\dfrac{\pi}{2}\right)\,\mathrm{cm}$, ta đọc được $\omega=5\pi\,\mathrm{rad/s}$.
 
-- **Chu kì:** $T=\dfrac{2\pi}{5\pi}=0,4$ s.
-- **Tần số:** $f=\dfrac1T=2,5$ Hz.
-- **Pha tại $t=0,3$ s:** $\Phi=5\pi\cdot0,3-\dfrac{\pi}{2}=\pi$ rad.
+- **Chu kì:** $T=\dfrac{2\pi}{5\pi}=0,4\,\mathrm s$.
+- **Tần số:** $f=\dfrac1T=2,5\,\mathrm{Hz}$.
+- **Pha tại $t=0,3\,\mathrm s$:** $\Phi=5\pi\cdot0,3-\dfrac{\pi}{2}=\pi$ rad.
 
-**Kết quả:** $T=0,4$ s, $f=2,5$ Hz, $\Phi=\pi$ rad.
+**Kết quả:** $T=0,4\,\mathrm s$, $f=2,5\,\mathrm{Hz}$, $\Phi=\pi$ rad.
 
 ---
 
 ## Câu 8
 
-Với $x=3\cos\left(2\pi t+\dfrac{\pi}{3}\right)$ cm, thay lần lượt từng thời điểm vào phương trình:
+Với $x=3\cos\left(2\pi t+\dfrac{\pi}{3}\right)\,\mathrm{cm}$, thay lần lượt từng thời điểm vào phương trình:
 
-1. Tại $t=0$: $x=3\cos\dfrac{\pi}{3}=1,5$ cm.
-2. Tại $t=\dfrac16$ s: pha $\Phi=2\pi\cdot\dfrac16+\dfrac{\pi}{3}=\dfrac{2\pi}{3}$, nên $x=3\cos\dfrac{2\pi}{3}=-1,5$ cm.
-3. Tại $t=\dfrac13$ s: pha $\Phi=2\pi\cdot\dfrac13+\dfrac{\pi}{3}=\pi$, nên $x=3\cos\pi=-3$ cm.
+1. Tại $t=0$: $x=3\cos\dfrac{\pi}{3}=1,5\,\mathrm{cm}$.
+2. Tại $t=\dfrac16\,\mathrm s$: pha $\Phi=2\pi\cdot\dfrac16+\dfrac{\pi}{3}=\dfrac{2\pi}{3}$, nên $x=3\cos\dfrac{2\pi}{3}=-1,5\,\mathrm{cm}$.
+3. Tại $t=\dfrac13\,\mathrm s$: pha $\Phi=2\pi\cdot\dfrac13+\dfrac{\pi}{3}=\pi$, nên $x=3\cos\pi=-3\,\mathrm{cm}$.
 
-**Kết quả:** $x(0)=1,5$ cm; $x\left(\dfrac16\right)=-1,5$ cm; $x\left(\dfrac13\right)=-3$ cm.
+**Kết quả:** $x(0)=1,5\,\mathrm{cm}$; $x\left(\dfrac16\right)=-1,5\,\mathrm{cm}$; $x\left(\dfrac13\right)=-3\,\mathrm{cm}$.
 
 ---
 
 ## Câu 9
 
-Cho $T=0,25$ s.
+Cho $T=0,25\,\mathrm s$.
 
-- Tần số: $f=\dfrac1T=4$ Hz.
-- Tần số góc: $\omega=2\pi f=8\pi$ rad/s.
-- Trong 5 s, số dao động là $N=f\Delta t=4\cdot5=20$.
+- Tần số: $f=\dfrac1T=4\,\mathrm{Hz}$.
+- Tần số góc: $\omega=2\pi f=8\pi\,\mathrm{rad/s}$.
+- Trong $5\,\mathrm s$, số dao động là $N=f\Delta t=4\cdot5=20$.
 
-**Kết quả:** $f=4$ Hz, $\omega=8\pi$ rad/s, $N=20$.
+**Kết quả:** $f=4\,\mathrm{Hz}$, $\omega=8\pi\,\mathrm{rad/s}$, $N=20$.
 
 ---
 
 ## Câu 10
 
-Với $x=4\cos\left(5\pi t+\dfrac{\pi}{6}\right)$ cm:
+Với $x=4\cos\left(5\pi t+\dfrac{\pi}{6}\right)\,\mathrm{cm}$:
 
-- **a) Đúng.** Biên độ $A=4$ cm.
-- **b) Sai.** $5\pi$ là tần số góc, không phải tần số. Ta có $f=\dfrac{\omega}{2\pi}=\dfrac{5\pi}{2\pi}=2,5$ Hz.
-- **c) Đúng.** Tại $t=0$, $x=4\cos\dfrac{\pi}{6}=2\sqrt3$ cm.
-- **d) Đúng.** Chiều dài quỹ đạo $L=2A=8$ cm.
+- **a) Đúng.** Biên độ $A=4\,\mathrm{cm}$.
+- **b) Sai.** $5\pi$ là tần số góc, không phải tần số. Ta có $f=\dfrac{\omega}{2\pi}=\dfrac{5\pi}{2\pi}=2,5\,\mathrm{Hz}$.
+- **c) Đúng.** Tại $t=0$, $x=4\cos\dfrac{\pi}{6}=2\sqrt3\,\mathrm{cm}$.
+- **d) Đúng.** Chiều dài quỹ đạo $L=2A=8\,\mathrm{cm}$.
 
 **Kết luận:** a Đúng; b Sai; c Đúng; d Đúng.
 
@@ -918,40 +939,40 @@ x
 \end{aligned}
 $$
 
-Sau khi chuẩn hóa, đọc được $A=5$ cm, $\omega=4\pi$ rad/s và $\varphi=\dfrac{5\pi}{6}$ rad. Do đó $T=\dfrac{2\pi}{4\pi}=0,5$ s và $f=\dfrac1T=2$ Hz.
+Sau khi chuẩn hóa, đọc được $A=5\,\mathrm{cm}$, $\omega=4\pi\,\mathrm{rad/s}$ và $\varphi=\dfrac{5\pi}{6}$ rad. Do đó $T=\dfrac{2\pi}{4\pi}=0,5\,\mathrm s$ và $f=\dfrac1T=2\,\mathrm{Hz}$.
 
-**Kết quả:** $A=5$ cm, $T=0,5$ s, $f=2$ Hz, $\varphi=\dfrac{5\pi}{6}$ rad.
+**Kết quả:** $A=5\,\mathrm{cm}$, $T=0,5\,\mathrm s$, $f=2\,\mathrm{Hz}$, $\varphi=\dfrac{5\pi}{6}$ rad.
 
 ---
 
 ## Câu 13
 
-Trong $\Delta t=6$ s, vật thực hiện $N=15$ dao động và có biên độ $A=4$ cm.
+Trong $\Delta t=6\,\mathrm s$, vật thực hiện $N=15$ dao động và có biên độ $A=4\,\mathrm{cm}$.
 
-- Chu kì: $T=\dfrac{\Delta t}{N}=\dfrac6{15}=0,4$ s.
-- Tần số: $f=\dfrac{N}{\Delta t}=\dfrac{15}{6}=2,5$ Hz.
-- Tần số góc: $\omega=2\pi f=5\pi$ rad/s.
-- Chiều dài quỹ đạo: $L=2A=8$ cm.
+- Chu kì: $T=\dfrac{\Delta t}{N}=\dfrac6{15}=0,4\,\mathrm s$.
+- Tần số: $f=\dfrac{N}{\Delta t}=\dfrac{15}{6}=2,5\,\mathrm{Hz}$.
+- Tần số góc: $\omega=2\pi f=5\pi\,\mathrm{rad/s}$.
+- Chiều dài quỹ đạo: $L=2A=8\,\mathrm{cm}$.
 
-**Kết quả:** $T=0,4$ s, $f=2,5$ Hz, $\omega=5\pi$ rad/s, $L=8$ cm.
+**Kết quả:** $T=0,4\,\mathrm s$, $f=2,5\,\mathrm{Hz}$, $\omega=5\pi\,\mathrm{rad/s}$, $L=8\,\mathrm{cm}$.
 
 ---
 
 ## Câu 14
 
-Từ đồ thị, $x_{\max}=+5$ cm và $x_{\min}=-5$ cm nên $A=5$ cm. Hai đỉnh liên tiếp ở $0,2$ s và $0,8$ s, vì vậy $T=0,8-0,2=0,6$ s.
+Từ đồ thị, $x_{\max}=+5\,\mathrm{cm}$ và $x_{\min}=-5\,\mathrm{cm}$ nên $A=5\,\mathrm{cm}$. Hai đỉnh liên tiếp ở $0,2\,\mathrm s$ và $0,8\,\mathrm s$, vì vậy $T=0,8-0,2=0,6\,\mathrm s$.
 
-Suy ra $f=\dfrac1T=\dfrac53$ Hz và $\omega=2\pi f=\dfrac{10\pi}{3}$ rad/s.
+Suy ra $f=\dfrac1T=\dfrac53\,\mathrm{Hz}$ và $\omega=2\pi f=\dfrac{10\pi}{3}\,\mathrm{rad/s}$.
 
-**Kết quả:** $A=5$ cm, $T=0,6$ s, $f=\dfrac53$ Hz, $\omega=\dfrac{10\pi}{3}$ rad/s.
+**Kết quả:** $A=5\,\mathrm{cm}$, $T=0,6\,\mathrm s$, $f=\dfrac53\,\mathrm{Hz}$, $\omega=\dfrac{10\pi}{3}\,\mathrm{rad/s}$.
 
 ---
 
 ## Câu 15
 
-Với $x=10\cos\left(2\pi t+\dfrac{\pi}{3}\right)$ mm, ta có $\omega=2\pi$ rad/s nên $f=\dfrac{\omega}{2\pi}=1$ Hz.
+Với $x=10\cos\left(2\pi t+\dfrac{\pi}{3}\right)\,\mathrm{mm}$, ta có $\omega=2\pi\,\mathrm{rad/s}$ nên $f=\dfrac{\omega}{2\pi}=1\,\mathrm{Hz}$.
 
-Trong $3$ s, số dao động toàn phần là $N=f\Delta t=1\cdot3=3$.
+Trong $3\,\mathrm s$, số dao động toàn phần là $N=f\Delta t=1\cdot3=3$.
 
 **Kết quả:** $N=3$ dao động toàn phần.
 

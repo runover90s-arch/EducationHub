@@ -153,15 +153,15 @@ $$
 ## 10. Ví dụ
 
 ### Ví dụ 1
-$\mathcal E=12$ V, r=1 Ω, R=5 Ω:
+$\mathcal E=12\,\mathrm V$, $r=1\,\Omega$, $R=5\,\Omega$:
 
-I=2 A; U=10 V; H=5/6≈83,3%.
+$I=2\,\mathrm A$; $U=10\,\mathrm V$; H=5/6≈83,3%.
 
 ### Ví dụ 2 — Đoản mạch
-$\mathcal E=1,5$ V, r=0,5 Ω → $I_{sc}=3$ A.
+$\mathcal E=1,5\,\mathrm V$, $r=0,5\,\Omega$ → $I_{sc}=3\,\mathrm A$.
 
 ### Ví dụ 3 — Hai trạng thái
-Nếu U giảm tuyến tính 0,5 V khi I tăng 1 A, độ dốc -0,5 V/A → r=0,5 Ω.
+Nếu U giảm tuyến tính $0,5\,\mathrm V$ khi I tăng $1\,\mathrm A$, độ dốc $-0,5\,\mathrm{V/A}$ → $r=0,5\,\Omega$.
 
 ## 11. Bẫy
 

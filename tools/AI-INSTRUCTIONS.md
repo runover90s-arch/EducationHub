@@ -131,7 +131,7 @@ Trước khi hoàn tất một đợt nhập/sửa bài tập:
 - kiểm tra các khối `??? success` render hợp lệ;
 - chạy các checker có sẵn trong `tools/` nếu phù hợp.
 
-## 8. Trạng thái bàn giao hiện tại — chuẩn Vật lí 11 v16
+## 8. Chuẩn hiển thị Vật lí 11 — áp dụng từ v16
 
 Từ bản v16, **toàn bộ 61 bộ luyện tập theo từng bài của Vật lí 11** tiếp tục giữ chuẩn hiển thị đã thống nhất, đồng thời áp dụng quality gate cho đáp án/lời giải:
 
@@ -344,7 +344,16 @@ Phần này tổng hợp các yêu cầu làm việc mà chủ repository đã n
 ### 13.2. Chuẩn hiển thị toàn bộ bài tập Vật lí 11
 
 - **Bài 1 là mẫu giao diện/structure trực quan; chuẩn này áp dụng cho tất cả 61 bộ bài tập theo từng bài.**
+- Trang learner-facing không hiển thị các đoạn giải thích chung về quy trình import, project/repository, corpus/source hay cách nội bộ tổ chức dữ liệu nếu chúng không phải nội dung học tập. Provenance cần bảo toàn bằng comment/metadata ẩn theo schema hiện hành.
 - Nhãn hiển thị phải là `Bài N`, đánh số liên tục trong từng bộ; tuyệt đối không quay lại `Bài PDF N` hoặc số câu PDF làm nhãn chính.
+- Với trắc nghiệm bốn lựa chọn, `A.`, `B.`, `C.`, `D.` phải xếp theo hàng dọc; mỗi phương án là một paragraph riêng, có dòng trống giữa các phương án; không dùng bảng hoặc multi-column cho đáp án trên mobile.
+- Với câu Đúng/Sai, `a)`, `b)`, `c)`, `d)` phải xếp theo hàng dọc và mỗi ý là một paragraph riêng. Trong lời giải, từng ý cũng phải là paragraph riêng và nêu rõ kết luận Đúng/Sai.
+- Thứ tự learner-facing chuẩn là **đề dẫn → hình/đồ thị/sơ đồ dùng chung (nếu có) → phương án hoặc mệnh đề → `Đáp án và lời giải`**. Không đặt hình dữ kiện dùng chung sau các mệnh đề.
+- Trong `??? success "Đáp án và lời giải"`, phần **Đáp án/Kết luận** và **Hướng dẫn giải** phải là các paragraph riêng; phải có dòng trống Markdown thực sự giữa chúng và giữa nhãn `Hướng dẫn giải` với nội dung giải tiếp theo.
+- `Đối chiếu nguồn`, khi thật sự cần để minh bạch mâu thuẫn học thuật, phải nằm bên trong khối `??? success "Đáp án và lời giải"` của đúng bài; diễn đạt trung tính và tránh từ nội bộ như `repository`, `learner-facing`, `corpus` nếu không cần.
+- Các quy tắc về A/B/C/D, a/b/c/d, thứ tự đề → hình → lựa chọn/mệnh đề → lời giải và paragraph của `Đáp án`/`Hướng dẫn giải` áp dụng cho toàn bộ nội dung Vật lí 11 có cấu trúc tương ứng, không chỉ các trang practice hoặc Bài 1.
+- Quality gate phải **fail** các lỗi deterministic tương ứng: ghép A/B/C/D hoặc a/b/c/d trong cùng paragraph, thiếu một marker bắt buộc, lời giải Đúng/Sai thiếu verdict/giải thích theo từng ý, `Đáp án` và `Hướng dẫn giải` dính cùng paragraph, hình local không tồn tại, hoặc hình dữ kiện đứng sau choices/statements. Không hạ threshold cũ, không dùng allowlist hàng loạt và không vô hiệu duplicate/source checker để làm gate xanh.
+- Các nghi vấn ngữ nghĩa như câu hỏi quá ngắn, không thấy dữ kiện/hình nhưng có đáp án số chỉ được báo **WARNING** khi checker chưa thể chứng minh lỗi; phải đối chiếu nguồn trước khi sửa dữ kiện.
 - Đề bài và phương án phải tách dòng rõ, không dính liền thành một đoạn dài.
 - Mỗi bài phải có khối `??? success "Đáp án và lời giải"` riêng; đáp án/lời giải không được trộn vào phần đề.
 - Không để ảnh đề chứa sẵn phương án được tô/chọn, đáp án, hướng dẫn giải hay lời giải nếu các phần đó có thể tách khỏi hình.
@@ -417,3 +426,15 @@ Quy tắc này là migration/provenance rule, không phải cơ chế nới qual
 ---
 
 **Handoff rule:** Khi repository này được gửi lại trong một phiên ChatGPT mới, hãy coi `tools/AI-INSTRUCTIONS.md` là tài liệu điều phối dự án và đọc nó trước khi đề xuất hoặc thực hiện thay đổi.
+
+## 14. Quy trình mobile-first không phụ thuộc Codespaces — áp dụng từ v39
+
+Chủ repository có thể làm việc hoàn toàn trên điện thoại Android và không muốn phụ thuộc quota GitHub Codespaces.
+
+- Ưu tiên `github.dev` cho chỉnh sửa, tìm kiếm, diff, commit/push và quản lý branch.
+- Dùng GitHub Actions làm quality gate/build từ xa; không yêu cầu Codespaces chỉ để chạy checker.
+- Dùng Termux khi cần terminal, chạy checker/build hoặc `mkdocs serve` local.
+- Workflow `Validate Education Hub` phải kiểm tra branch/PR bằng đủ: `check_practice_bank.py`, `check_pdf_import.py`, `check_solution_quality.py`, `check_site.py`, và `mkdocs build --strict`.
+- Workflow deploy trên `main` cũng phải chạy đủ các checker trên trước khi publish GitHub Pages.
+- Khi bàn giao source trong bối cảnh mobile-first, ưu tiên hướng dẫn upload/commit bằng GitHub web hoặc github.dev; chỉ đưa khối lệnh Codespaces ở mục 11 nếu người dùng thật sự quay lại Codespaces hoặc yêu cầu nó.
+- Tài liệu hướng dẫn mobile chính thức của repository nằm tại `MOBILE-DEVELOPMENT.md`; cập nhật file này nếu workflow hoặc lệnh kiểm tra thay đổi.

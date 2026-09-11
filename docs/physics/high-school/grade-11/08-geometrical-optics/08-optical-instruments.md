@@ -56,7 +56,7 @@ $$
 \boxed{G_\infty=\frac Df}
 $$
 
-với D=25 cm là khoảng nhìn rõ gần quy ước.
+với D=$25\,\mathrm{cm}$ là khoảng nhìn rõ gần quy ước.
 
 ### Ngắm chừng ở cực cận
 
@@ -70,7 +70,7 @@ trong mô hình kính sát mắt chuẩn.
 
 ## 3. Ví dụ kính lúp
 
-Kính lúp f=5 cm:
+Kính lúp $f=5\,\mathrm{cm}$:
 
 $$
 G_\infty=\frac{25}{5}=5.
@@ -111,7 +111,7 @@ Trong đó:
 - $f_1$: tiêu cự vật kính;
 - $f_2$: tiêu cự thị kính;
 - $\delta$: độ dài quang học, thường là khoảng giữa tiêu điểm ảnh của vật kính và tiêu điểm vật của thị kính theo quy ước giáo trình;
-- D=25 cm.
+- D=$25\,\mathrm{cm}$.
 
 ### Ý nghĩa
 
@@ -119,7 +119,7 @@ Muốn bội giác lớn thường cần vật kính tiêu cự rất ngắn và
 
 ## 6. Ví dụ kính hiển vi
 
-$f_1=0,5$ cm, $f_2=2,5$ cm, $\delta=16$ cm, D=25 cm:
+$f_1=0,5\,\mathrm{cm}$, $f_2=2,5\,\mathrm{cm}$, $\delta=16\,\mathrm{cm}$, D=$25\,\mathrm{cm}$:
 
 $$
 G_\infty\approx\frac{16\cdot25}{0,5\cdot2,5}=320.
@@ -148,7 +148,7 @@ $$
 
 ## 8. Ví dụ kính thiên văn
 
-Vật kính $f_1=1,0$ m, thị kính $f_2=2,5$ cm=0,025 m:
+Vật kính $f_1=1,0\,\mathrm m$, thị kính $f_2=2,5\,\mathrm{cm}=0,025\,\mathrm m$:
 
 $$
 |G|=\frac{1,0}{0,025}=40.
@@ -187,8 +187,8 @@ $$
 !!! warning "Kính lúp f càng lớn thì G càng lớn"
     Với ngắm vô cực $G=D/f$, tiêu cự càng nhỏ thì G càng lớn.
 
-!!! warning "Kính thiên văn dùng D=25 cm trong công thức G"
-    Kính thiên văn ngắm vô cực có $|G|=f_1/f_2$, không có D=25 cm.
+!!! warning "Kính thiên văn dùng D=$25\,\mathrm{cm}$ trong công thức G"
+    Kính thiên văn ngắm vô cực có $|G|=f_1/f_2$, không có D=$25\,\mathrm{cm}$.
 
 !!! warning "Tăng bội giác là tăng độ phân giải vô hạn"
     Độ phân giải còn phụ thuộc nhiễu xạ, khẩu độ, quang sai và chất lượng hệ.

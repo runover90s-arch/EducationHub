@@ -9,7 +9,6 @@ tags:
 
 # Bài tập — Bài 5 — Công của lực điện, điện thế và hiệu điện thế
 
-> Hệ bài tập được biên soạn theo các dạng xuất hiện trong bộ tài liệu Vật lí 11 của dự án. Câu hỏi được giữ ngắn, trực tiếp; độ khó tăng dần và không cố tình thêm dữ kiện gây nhiễu.
 
 [← Trở lại bài học](../../05-work-potential-voltage.md)
 
@@ -90,10 +89,13 @@ c) Nếu q dương đi từ nơi điện thế cao xuống thấp, lực điện
 d) Thế năng điện luôn dương.
 
 ??? success "Đáp án và lời giải"
-    a) **Đúng**.
-    b) **Đúng**.
-    c) **Đúng** vì $A=q(V_M-V_N)>0$.
-    d) **Sai**: dấu thế năng phụ thuộc mốc và hệ điện tích.
+    a) **Đúng.** Lực điện tĩnh là lực thế nên công của lực điện chỉ phụ thuộc hai điểm đầu-cuối, không phụ thuộc quỹ đạo.
+
+    b) **Đúng.** Với lực điện tĩnh là lực thế, đi theo đường kín trở về điểm ban đầu cho độ biến thiên thế năng bằng $0$, nên tổng công bằng $0$.
+
+    c) **Đúng.** vì $A=q(V_M-V_N)>0$.
+
+    d) **Sai.** dấu thế năng phụ thuộc mốc và hệ điện tích.
 
 ### Bài 6 — Mức 2 — Thông hiểu
 
@@ -103,53 +105,56 @@ a) Điện thế là đại lượng vô hướng.
 
 b) Hiệu điện thế $U_{MN}=V_M-V_N$.
 
-c) $1$ V = $1$ J/C.
+c) $1\,\mathrm V=1\,\mathrm{J/C}$.
 
 d) Cường độ điện trường đều có thể tính $E=U/d$ nếu d là khoảng cách theo phương vuông góc đường sức.
 
 ??? success "Đáp án và lời giải"
-    a) **Đúng**.
-    b) **Đúng** theo quy ước đang dùng.
-    c) **Đúng**.
-    d) **Sai**: $d$ phải là độ dịch chuyển theo phương điện trường giữa hai mặt đẳng thế tương ứng.
+    a) **Đúng.** Điện thế $V$ là năng lượng điện thế trên một đơn vị điện tích và không có hướng, nên là đại lượng vô hướng.
+
+    b) **Đúng.** theo quy ước đang dùng.
+
+    c) **Đúng.** Từ định nghĩa $V=W/q$, đơn vị của điện thế là jun trên culông; do đó $1\,\mathrm V=1\,\mathrm{J/C}$.
+
+    d) **Sai.** $d$ phải là độ dịch chuyển theo phương điện trường giữa hai mặt đẳng thế tương ứng.
 
 ## Phần C — Trả lời ngắn
 
 ### Bài 7 — Mức 3 — Vận dụng
 
-Điện tích $q=2\,\mu$C đi từ điểm M có điện thế $120$ V đến N có điện thế $20$ V. Tính công của lực điện.
+Điện tích $q=2\,\mu\,\mathrm C$ đi từ điểm M có điện thế $120\,\mathrm V$ đến N có điện thế $20\,\mathrm V$. Tính công của lực điện.
 
 ??? success "Đáp án và lời giải"
-    $A=q(V_M-V_N)=2\cdot10^{-6}(120-20)=2\cdot10^{-4}$ J.
+    $A=q(V_M-V_N)=2\cdot10^{-6}(120-20)=2\cdot10^{-4}\,\mathrm J$.
 
 ### Bài 8 — Mức 3 — Vận dụng
 
-Hai bản phẳng tạo điện trường đều $E=2\cdot10^4$ V/m, cách nhau $5$ mm. Tính hiệu điện thế giữa hai bản.
+Hai bản phẳng tạo điện trường đều $E=2\cdot10^4\,\mathrm{V/m}$, cách nhau $5\,\mathrm{mm}$. Tính hiệu điện thế giữa hai bản.
 
 ??? success "Đáp án và lời giải"
-    $U=Ed=2\cdot10^4\cdot5\cdot10^{-3}=100$ V.
+    $U=Ed=2\cdot10^4\cdot5\cdot10^{-3}=100\,\mathrm V$.
 
 ### Bài 9 — Mức 3 — Vận dụng
 
-Một electron đi qua hiệu điện thế tăng thêm về độ lớn $200$ V và được gia tốc từ nghỉ. Tính độ tăng động năng theo eV.
+Một electron đi qua hiệu điện thế tăng thêm về độ lớn $200\,\mathrm V$ và được gia tốc từ nghỉ. Tính độ tăng động năng theo eV.
 
 ??? success "Đáp án và lời giải"
-    Độ tăng động năng của electron qua hiệu điện thế 200 V là $200$ eV. Nếu đổi sang J: $200\cdot1,6\cdot10^{-19}=3,2\cdot10^{-17}$ J.
+    Độ tăng động năng của electron qua hiệu điện thế $200\,\mathrm V$ là $200$ eV. Nếu đổi sang J: $200\cdot1,6\cdot10^{-19}=3,2\cdot10^{-17}\,\mathrm J$.
 
 ## Phần D — Vận dụng và vận dụng cao
 
 ### Bài 10 — Mức 4 — Vận dụng cao
 
-Trong điện trường đều $E=500$ V/m hướng theo trục Ox dương. Điểm M có tọa độ $x_M=0,20$ m, điểm N có $x_N=0,70$ m. Tính $V_M-V_N$ và công của lực điện khi điện tích $q=-4\,\mu$C đi từ M đến N.
+Trong điện trường đều $E=500\,\mathrm{V/m}$ hướng theo trục Ox dương. Điểm M có tọa độ $x_M=0,20\,\mathrm m$, điểm N có $x_N=0,70\,\mathrm m$. Tính $V_M-V_N$ và công của lực điện khi điện tích $q=-4\,\mu\,\mathrm C$ đi từ M đến N.
 
 ??? success "Đáp án và lời giải"
     N nằm theo chiều điện trường so với M, nên điện thế giảm:
 
-    $V_M-V_N=E(x_N-x_M)=500(0,70-0,20)=250$ V.
+    $V_M-V_N=E(x_N-x_M)=500(0,70-0,20)=250\,\mathrm V$.
 
     Công lực điện:
 
-    $A_{MN}=q(V_M-V_N)=-4\cdot10^{-6}\cdot250=-1,0\cdot10^{-3}$ J.
+    $A_{MN}=q(V_M-V_N)=-4\cdot10^{-6}\cdot250=-1,0\cdot10^{-3}\,\mathrm J$.
 
     Dấu âm phù hợp: điện tích âm đi theo chiều điện trường thì lực điện hướng ngược chuyển động, nên lực điện thực hiện công âm.
 
@@ -233,7 +238,7 @@ Tính công của lực điện (theo đơn vị $10^{-7}\,\mathrm J$) khi đi�
 
 <!-- source-id: BT-Chuong-III-p110-q34-271 -->
 
-Một tụ điện phẳng có hai cực làm bằng kim loại, cách nhau 2 cm. Cường độ điện trường giữa hai
+Một tụ điện phẳng có hai cực làm bằng kim loại, cách nhau $2\,\mathrm{cm}$. Cường độ điện trường giữa hai
 bản tụ là $E=10^5\,\mathrm{V/m}$. Một điện tích $q=2\cdot10^{-5}\,\mathrm C$ đặt tại điểm M, nằm giữa hai bản tụ và cách bản âm 1,5
 cm. Chọn bản âm của tụ làm mốc thế năng điện. Xác định thế năng của điện tích q tại M.
 
@@ -241,6 +246,7 @@ cm. Chọn bản âm của tụ làm mốc thế năng điện. Xác định th�
     **Đáp án:** $0{,}03$
 
     **Hướng dẫn giải:**
+
     Chọn bản âm làm mốc thế năng, $d=1{,}5\,\mathrm{cm}=1{,}5\cdot10^{-2}\,\mathrm m$.
     $W_M=qEd=2\cdot10^{-5}\cdot10^5\cdot1{,}5\cdot10^{-2}=0{,}03\,\mathrm J$.
 
@@ -248,14 +254,15 @@ cm. Chọn bản âm của tụ làm mốc thế năng điện. Xác định th�
 
 <!-- source-id: BT-Chuong-III-p110-q35-272 -->
 
-Một tụ điện phẳng có hai cực làm bằng kim loại, cách nhau 2 cm. Cường độ điện trường giữa hai
+Một tụ điện phẳng có hai cực làm bằng kim loại, cách nhau $2\,\mathrm{cm}$. Cường độ điện trường giữa hai
 bản tụ là $E=10^5\,\mathrm{V/m}$. Một điện tích $q=2\cdot10^{-5}\,\mathrm C$ đặt tại điểm A, nằm giữa hai bản tụ và cách bản dương
-1,5 cm. Chọn bản âm của tụ làm mốc thế năng điện. Xác định thế năng của điện tích q tại A.
+$1,5\,\mathrm{cm}$. Chọn bản âm của tụ làm mốc thế năng điện. Xác định thế năng của điện tích q tại A.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** $0{,}01$
 
     **Hướng dẫn giải:**
+
     Khoảng cách từ A đến bản âm là $d=(2-1{,}5)\,\mathrm{cm}=5\cdot10^{-3}\,\mathrm m$.
     $W_A=qEd=2\cdot10^{-5}\cdot10^5\cdot5\cdot10^{-3}=0{,}01\,\mathrm J$.
 
@@ -270,6 +277,7 @@ tích q khi nó di chuyển từ A đến B ngược chiều đường sức (th
     **Đáp án:** $1{,}25$
 
     **Hướng dẫn giải:**
+
     Vì $\overrightarrow{AB}$ ngược chiều $\vec E$ nên $d_{AB}=-0{,}05\,\mathrm m$.
     $A_{AB}=qEd_{AB}=(-10^{-6})\cdot2500\cdot(-0{,}05)=1{,}25\cdot10^{-4}\,\mathrm J$.
     Vậy kết quả theo đơn vị $10^{-4}\,\mathrm J$ là $1{,}25$.
@@ -287,6 +295,7 @@ $AC=8\,\mathrm{cm}$. Công của lực điện tác dụng lên điện tích $q
     **Đáp án:** $2{,}56$
 
     **Hướng dẫn giải:**
+
     Tam giác vuông có $BC=10\,\mathrm{cm}$ và hình chiếu của $AC$ lên $BC$ là
     $HC=AC\cos C=\dfrac{AC^2}{BC}=\dfrac{8^2}{10}=6{,}4\,\mathrm{cm}=0{,}064\,\mathrm m$.
     $A_{AC}=qEHC=10\cdot10^{-9}\cdot4000\cdot0{,}064=2{,}56\cdot10^{-6}\,\mathrm J$.
@@ -303,6 +312,7 @@ không khí. Tính công của lực điện (theo đơn vị $10^{-7}\,\mathrm 
     **Đáp án:** $2{,}56$
 
     **Hướng dẫn giải:**
+
     Với $BC=10\,\mathrm{cm}$, hình chiếu của $AC$ lên phương điện trường là
     $HC=\dfrac{AC^2}{BC}=6{,}4\,\mathrm{cm}=0{,}064\,\mathrm m$.
     $A_{AC}=qEHC=4\cdot10^{-8}\cdot100\cdot0{,}064=2{,}56\cdot10^{-7}\,\mathrm J$.
@@ -312,14 +322,15 @@ không khí. Tính công của lực điện (theo đơn vị $10^{-7}\,\mathrm 
 
 <!-- source-id: BT-Chuong-III-p119-q4-300 -->
 
-Một tụ điện phẳng có hai cực làm bằng kim loại, cách nhau 2 cm. Cường độ điện trường giữa hai
+Một tụ điện phẳng có hai cực làm bằng kim loại, cách nhau $2\,\mathrm{cm}$. Cường độ điện trường giữa hai
 bản tụ là $E=10^6\,\mathrm{V/m}$. Một điện tích $q=-2\cdot10^{-5}\,\mathrm C$ đặt tại điểm M, nằm giữa hai bản tụ và cách bản âm
-1,5 cm. Chọn bản âm của tụ làm mốc thế năng điện. Xác định thế năng của điện tích q tại M.
+$1,5\,\mathrm{cm}$. Chọn bản âm của tụ làm mốc thế năng điện. Xác định thế năng của điện tích q tại M.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** $-0{,}3$
 
     **Hướng dẫn giải:**
+
     Chọn bản âm làm mốc thế năng, $d=1{,}5\,\mathrm{cm}=1{,}5\cdot10^{-2}\,\mathrm m$.
     $W_M=qEd=-2\cdot10^{-5}\cdot10^6\cdot1{,}5\cdot10^{-2}=-0{,}3\,\mathrm J$.
 
@@ -334,6 +345,7 @@ Biết hiệu điện thế $U_{MN}=50\,\mathrm V$.
     **Đáp án:** $0{,}08$
 
     **Hướng dẫn giải:**
+
     $A_{MN}=U_{MN}q=50\cdot1{,}6\cdot10^{-6}=8\cdot10^{-5}\,\mathrm J=0{,}08\,\mathrm{mJ}$.
 
     **Đối chiếu nguồn:** PDF ghi $80\,\mathrm{mJ}$, nhưng giá trị này không khớp phép nhân $50\cdot1{,}6\cdot10^{-6}\,\mathrm J$.
@@ -349,6 +361,7 @@ gốc điện thế tại vô cực. Điện thế tại M bằng bao nhiêu V ?
     **Đáp án:** $50$
 
     **Hướng dẫn giải:**
+
     $A=qV_M\Rightarrow V_M=\dfrac{A}{q}=\dfrac{1{,}3\cdot10^{-4}}{2{,}6\cdot10^{-6}}=50\,\mathrm V$.
 
 #### Bài 22
@@ -362,6 +375,7 @@ trường là $250\,\mathrm{V/m}$. Hiệu điện thế giữa hai điểm đó 
     **Đáp án:** $150$
 
     **Hướng dẫn giải:**
+
     $U=Ed=250\cdot0{,}6=150\,\mathrm V$.
 
 #### Bài 23
@@ -376,6 +390,7 @@ nhiêu V ?
     **Đáp án:** $144$
 
     **Hướng dẫn giải:**
+
     Với tam giác vuông $6-8-10$, $BH=\dfrac{AB^2}{BC}=\dfrac{0{,}06^2}{0{,}10}=0{,}036\,\mathrm m$.
     $U_{BA}=EBH=4000\cdot0{,}036=144\,\mathrm V$.
 
@@ -391,6 +406,7 @@ nhiêu kg nước ở 100°C bốc thành hơi ở 100°C?
     **Đáp án:** $1167$
 
     **Hướng dẫn giải:**
+
     Năng lượng của tia sét theo nguồn:
     $A=Uq=1{,}4\cdot10^8\cdot25=3{,}5\cdot10^9\,\mathrm J$.
     Với $L=3\cdot10^6\,\mathrm{J/kg}$, $m=\dfrac{A}{L}=\dfrac{3{,}5\cdot10^9}{3\cdot10^6}=1167\,\mathrm{kg}$.
@@ -406,6 +422,7 @@ của lực điện trường là bao nhiêu ?
     **Đáp án:** $-8$
 
     **Hướng dẫn giải:**
+
     $A=qU_{MN}=(-2)\cdot4=-8\,\mathrm J$.
 
     **Đối chiếu nguồn:** PDF ghi đơn vị $\mathrm V$ ở kết quả công; đơn vị đúng của công là $\mathrm J$.
@@ -421,6 +438,7 @@ Ta cần thực hiện một công $8\cdot10^{-2}\,\mathrm J$ để dịch chuy�
     **Đáp án:** $0{,}5$
 
     **Hướng dẫn giải:**
+
     $A_{\infty B}=qV_B\Rightarrow V_B=\dfrac{A_{\infty B}}{q}=\dfrac{8\cdot10^{-2}}{0{,}16}=0{,}5\,\mathrm V$.
 
 #### Bài 27
@@ -434,6 +452,7 @@ trường là $1000\,\mathrm{V/m}$. Hiệu điện thế giữa hai điểm đó
     **Đáp án:** $500$
 
     **Hướng dẫn giải:**
+
     $U=Ed=1000\cdot0{,}5=500\,\mathrm V$.
 
 ### Nhận biết — Trắc nghiệm 4 lựa chọn
@@ -454,12 +473,10 @@ D. oát (W).
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** B
+
     **Hướng dẫn giải:**
 
-    Dùng $A_{MN}=q(V_M-V_N)=qU_{MN}$; trong điện trường đều, nếu độ dời theo phương điện trường là $d$ thì $A=qEd$.
-
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **B. jun (J).**
+    Công của lực điện là một đại lượng năng lượng, nên đơn vị SI là joule (J). Chọn B.
 #### Bài 29
 
 <!-- source-id: BT-Chuong-III-p101-q4-238 -->
@@ -477,12 +494,10 @@ D. $d$ là chiều dài của đường đi.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
+
     **Hướng dẫn giải:**
 
-    Dùng $A_{MN}=q(V_M-V_N)=qU_{MN}$; trong điện trường đều, nếu độ dời theo phương điện trường là $d$ thì $A=qEd$.
-
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **D. d là chiều dài của đường đi.**
+    Trong $A=qEd$, $d$ là độ dời đại số theo phương đường sức, tức hình chiếu của vectơ độ dời lên phương $\vec E$; nó không phải độ dài quãng đường nói chung. Vì vậy D là phát biểu không đúng.
 #### Bài 30
 
 <!-- source-id: BT-Chuong-III-p101-q5-239 -->
@@ -501,6 +516,7 @@ D. không thay đổi.
     **Đáp án:** A
 
     **Hướng dẫn giải:**
+
     Trong điện trường đều, $A_{MN}=qEd$, với $d$ là độ dài đại số hình chiếu của độ dời lên phương điện trường. Chỉ biết chiều dài đường đi tăng chưa đủ để xác định $d$, nên chưa đủ dữ kiện.
 
 #### Bài 31
@@ -523,6 +539,7 @@ D. $3\cdot10^{-5}\,\mathrm C$.
     **Đáp án:** C
 
     **Hướng dẫn giải:**
+
     $|q|=\dfrac{|A|}{Ed}=\dfrac{15\cdot10^{-5}}{1000\cdot0{,}05}=3\cdot10^{-6}\,\mathrm C$.
 
 #### Bài 32
@@ -541,12 +558,10 @@ D. lực điện thực hiện công âm thì thế năng tĩnh điện giảm.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** B
+
     **Hướng dẫn giải:**
 
-    Dùng $A_{MN}=q(V_M-V_N)=qU_{MN}$; trong điện trường đều, nếu độ dời theo phương điện trường là $d$ thì $A=qEd$.
-
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **B. công của lực điện là số đo độ biến thiên thế năng tĩnh điện.**
+    Lực điện là lực thế: $A_{MN}=W_M-W_N=-\Delta W$. Vì vậy công của lực điện đo độ giảm thế năng khi điện tích chuyển từ M đến N; phương án B phù hợp nếu hiểu “độ biến thiên” theo chiều giảm này.
 #### Bài 33
 
 <!-- source-id: BT-Chuong-III-p102-q10-244 -->
@@ -564,13 +579,10 @@ D. $1000\,\mathrm{V/m}$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
+
     **Hướng dẫn giải:**
 
-    Dùng $A_{MN}=q(V_M-V_N)=qU_{MN}$; trong điện trường đều, nếu độ dời theo phương điện trường là $d$ thì $A=qEd$.
-
-    $E=\dfrac{A}{qd}=\dfrac{1}{10\cdot10^{-3}\cdot0{,}01}=10000\,\mathrm{V/m}$.
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. $10000\,\mathrm{V/m}$.**
+    Trong điện trường đều và chuyển dời cùng phương điện trường, $A=qEd$. Với $A=1\,\mathrm J$, $q=0{,}01\,\mathrm C$, $d=0{,}01\,\mathrm m$, suy ra $E=A/(qd)=10^4\,\mathrm{V/m}$. Chọn A.
 #### Bài 34
 
 <!-- source-id: BT-Chuong-III-p103-q12-246 -->
@@ -589,12 +601,10 @@ D. độ dài đại số của đoạn từ hình chiếu điểm đầu đến
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
+
     **Hướng dẫn giải:**
 
-    Dùng $A_{MN}=q(V_M-V_N)=qU_{MN}$; trong điện trường đều, nếu độ dời theo phương điện trường là $d$ thì $A=qEd$.
-
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. độ dài đại số của đoạn từ hình chiếu điểm đầu đến hình chiếu điểm cuối lên một đường sức, tính theo chiều đường sức điện.**
+    Trong biểu thức $A=qEd$, $d$ là khoảng cách đại số giữa hình chiếu của điểm đầu và điểm cuối lên phương đường sức. Chọn C.
 #### Bài 35
 
 <!-- source-id: BT-Chuong-III-p103-q13-247 -->
@@ -613,12 +623,13 @@ D. Thế năng của điện tích $q$ đặt tại điểm M trong điện trư
     **Đáp án:** D.
 
     **Hướng dẫn giải:**
+
     Hệ thức tổng quát là $W_M=qV_M$, nên thế năng phụ thuộc điện tích thử $q$; vì vậy D sai.
 
     Trong điện trường đều, với mốc phù hợp có $V_M=Ed$, nên $W_M=qEd$; B đúng trong điều kiện đã nêu. Công của lực điện thỏa $A_{MN}=W_M-W_N$, nên C đúng.
 
-!!! warning "Đối chiếu nguồn"
-    PDF viết B theo dạng $W_M=qEd$ nhưng bỏ điều kiện “điện trường đều” và không nhắc lại ý nghĩa của $d$. Ngay câu 12 liền trước trên cùng trang xác định $A=qEd$ cho điện trường đều và định nghĩa $d$ là độ dài đại số theo chiều đường sức. Bản learner-facing bổ sung đúng điều kiện ngữ cảnh đó để câu có một đáp án sai duy nhất là D.
+    !!! warning "Đối chiếu nguồn"
+        PDF viết B theo dạng $W_M=qEd$ nhưng bỏ điều kiện “điện trường đều” và không nhắc lại ý nghĩa của $d$. Ngay câu 12 liền trước trên cùng trang xác định $A=qEd$ cho điện trường đều và định nghĩa $d$ là độ dài đại số theo chiều đường sức. Bản trình bày này bổ sung đúng điều kiện ngữ cảnh đó để câu có một đáp án sai duy nhất là D.
 
 ### Thông hiểu — Trắc nghiệm 4 lựa chọn
 
@@ -641,6 +652,7 @@ D. $-1{,}25\,\mathrm J$.
     **Đáp án:** A
 
     **Hướng dẫn giải:**
+
     $A_{AB}=W_A-W_B\Rightarrow W_A=A_{AB}+W_B=2{,}5+3{,}75=6{,}25\,\mathrm J$.
 
 #### Bài 37
@@ -662,6 +674,7 @@ D. $120\,\mathrm{mJ}$.
     **Đáp án:** D
 
     **Hướng dẫn giải:**
+
     Với cùng điện tích và cùng hai điểm, $A\propto E$:
     $A_2=A_1\dfrac{E_2}{E_1}=90\dfrac{200}{150}=120\,\mathrm{mJ}$.
 
@@ -685,6 +698,7 @@ D. $320\,\mathrm{mJ}$.
     **Đáp án:** A
 
     **Hướng dẫn giải:**
+
     Với cùng điện trường và hai điểm, $A\propto q$:
     $A_2=A_1\dfrac{q_2}{q_1}=80\dfrac{4\cdot10^{-9}}{10^{-8}}=32\,\mathrm{mJ}$.
 
@@ -709,6 +723,7 @@ D. $12\cdot10^{-7}\,\mathrm J$.
     **Đáp án:** C
 
     **Hướng dẫn giải:**
+
     $A_{AB}=qE\,AB\cos60^\circ=4\cdot10^{-8}\cdot100\cdot0{,}2\cdot\cos60^\circ=4\cdot10^{-7}\,\mathrm J$.
     $A_{BC}=qE\,BC\cos120^\circ=4\cdot10^{-8}\cdot100\cdot0{,}4\cdot\cos120^\circ=-8\cdot10^{-7}\,\mathrm J$.
     $A_{ABC}=A_{AB}+A_{BC}=-4\cdot10^{-7}\,\mathrm J$.
@@ -732,6 +747,7 @@ D. $8{,}5\cdot10^{-17}\,\mathrm J$.
     **Đáp án:** C
 
     **Hướng dẫn giải:**
+
     Bảo toàn cơ năng điện: $W_A+W_{\mathrm{đ}A}=W_B+W_{\mathrm{đ}B}$.
     Vì $v_B=0$, $W_B=W_A+\dfrac12mv_A^2=8\cdot10^{-17}+\dfrac12\cdot1{,}67\cdot10^{-27}\cdot(2{,}5\cdot10^4)^2\approx8{,}1\cdot10^{-17}\,\mathrm J$.
 
@@ -754,12 +770,10 @@ D. độ lớn của cường độ điện trường tại các điểm trên �
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** B
+
     **Hướng dẫn giải:**
 
-    Dùng $A_{MN}=q(V_M-V_N)=qU_{MN}$; trong điện trường đều, nếu độ dời theo phương điện trường là $d$ thì $A=qEd$.
-
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **B. hình dạng của đường đi MN.**
+    Điện trường tĩnh là trường thế nên công của lực điện giữa hai điểm chỉ phụ thuộc điểm đầu và điểm cuối, không phụ thuộc hình dạng đường đi. Chọn B.
 #### Bài 42
 
 <!-- source-id: BT-Chuong-III-p112-q3-277 -->
@@ -776,12 +790,10 @@ D. độ lớn nhỏ của vùng không gian có điện trường.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
+
     **Hướng dẫn giải:**
 
-    Dùng $A_{MN}=q(V_M-V_N)=qU_{MN}$; trong điện trường đều, nếu độ dời theo phương điện trường là $d$ thì $A=qEd$.
-
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. khả năng sinh công của điện trường để dịch chuyển điện tích q từ điểm đó ra xa vô cùng.**
+    Thế năng điện đặc trưng cho khả năng sinh công của điện trường đối với điện tích tại vị trí đang xét; với mốc ở vô cực có thể liên hệ trực tiếp với công đưa điện tích từ điểm đó ra vô cực. Chọn C.
 #### Bài 43
 
 <!-- source-id: BT-Chuong-III-p112-q4-278 -->
@@ -801,6 +813,7 @@ D. chưa đủ dữ kiện để xác định.
     **Đáp án:** A
 
     **Hướng dẫn giải:**
+
     $A_{MN}=W_M-W_N$. Nếu thế năng tăng thì $W_N>W_M$, do đó $A_{MN}<0$.
 
 #### Bài 44
@@ -823,6 +836,7 @@ D. $120\,\mathrm{mJ}$.
     **Đáp án:** C
 
     **Hướng dẫn giải:**
+
     Với cùng điện tích và cùng hai điểm, $A\propto E$:
     $A_2=90\dfrac{100}{150}=60\,\mathrm{mJ}$.
 
@@ -844,12 +858,13 @@ D. $W_N>W_M>0$.
     **Đáp án:** B.
 
     **Hướng dẫn giải:**
+
     Với mốc thế năng ở vô cực, $W=kQq/r$. Vì $Q<0$, $q>0$ nên $W<0$. Đồng thời $ON<OM$, nên $|W_N|>|W_M|$ và do đó $W_N<W_M<0$.
 
     Vậy chọn **B**.
 
-!!! warning "Đối chiếu nguồn"
-    PDF in “chọn mốc thế năng tại điện tích $Q$”, nhưng tại vị trí điện tích điểm ($r=0$) điện thế $kQ/r$ phân kỳ nên không thể dùng làm mốc hữu hạn. Chính lời giải nguồn lại dùng $W=kQq/r$, là biểu thức với mốc ở vô cực. Bản learner-facing sửa mốc thành **vô cực** để khớp mô hình và chính lời giải nguồn.
+    !!! warning "Đối chiếu nguồn"
+        PDF in “chọn mốc thế năng tại điện tích $Q$”, nhưng tại vị trí điện tích điểm ($r=0$) điện thế $kQ/r$ phân kỳ nên không thể dùng làm mốc hữu hạn. Chính lời giải nguồn lại dùng $W=kQq/r$, là biểu thức với mốc ở vô cực. Bản trình bày này sửa mốc thành **vô cực** để khớp mô hình và chính lời giải nguồn.
 
 #### Bài 46
 
@@ -870,6 +885,7 @@ D. $15\,\mathrm J$.
     **Đáp án:** D
 
     **Hướng dẫn giải:**
+
     Công của lực điện không phụ thuộc đường đi:
     $A_{MPN}=W_M-W_N=25-10=15\,\mathrm J$.
 
@@ -892,6 +908,7 @@ D. $12\cdot10^{-7}\,\mathrm J$.
     **Đáp án:** A
 
     **Hướng dẫn giải:**
+
     $A_{AB}=qE\,AB\cos60^\circ=(-4\cdot10^{-8})\cdot100\cdot0{,}2\cdot\cos60^\circ=-4\cdot10^{-7}\,\mathrm J$.
     $A_{BC}=qE\,BC\cos120^\circ=(-4\cdot10^{-8})\cdot100\cdot0{,}4\cdot\cos120^\circ=8\cdot10^{-7}\,\mathrm J$.
     $A_{ABC}=4\cdot10^{-7}\,\mathrm J$.
@@ -916,6 +933,7 @@ D. Điện tích dịch chuyển dọc theo chiều một đường sức thì c
     **Đáp án:** C
 
     **Hướng dẫn giải:**
+
     Với độ dịch chuyển có độ lớn $s$ cố định, $A=qEs\cos\alpha$. Khi đi ngược chiều đường sức, $\alpha=180^\circ$ nên $A=-qEs$: giá trị đại số của $A$ là nhỏ nhất nhưng độ lớn $|A|=qEs$ lại là lớn nhất. Vì phương án C nói “độ lớn nhỏ nhất” nên C sai.
 
 #### Bài 49
@@ -937,6 +955,7 @@ D. $-1{,}492\cdot10^{-6}\,\mathrm J$.
     **Đáp án:** B
 
     **Hướng dẫn giải:**
+
     $A_{ABC}=qE\,[AB\cos30^\circ+BC\cos120^\circ]$.
     Theo lời giải nguồn:
     $A_{ABC}=4\cdot10^{-8}\cdot100\,[0{,}2\cos30^\circ+0{,}4\cos120^\circ]\approx-0{,}107\cdot10^{-6}\,\mathrm J$.
@@ -960,6 +979,7 @@ D. thế năng điện tăng một lượng $5\,\mathrm{mJ}$.
     **Đáp án:** D
 
     **Hướng dẫn giải:**
+
     $A_{AB}=W_A-W_B=-5\,\mathrm{mJ}\Rightarrow W_B-W_A=5\,\mathrm{mJ}$, nên thế năng điện tăng một lượng $5\,\mathrm{mJ}$.
 
 #### Bài 51
@@ -977,13 +997,13 @@ C. khả năng sinh công tại một điểm.
 D. khả năng tác dụng lực tại tất cả các điểm trong không gian có điện trường.
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** C
+    **Đáp án:** A
+
     **Hướng dẫn giải:**
 
-    Dùng $A_{MN}=q(V_M-V_N)=qU_{MN}$; trong điện trường đều, nếu độ dời theo phương điện trường là $d$ thì $A=qEd$.
+    Theo định nghĩa ngay trong phần lý thuyết của tài liệu, điện thế tại một điểm đặc trưng cho điện trường tại điểm đó **về phương diện thế năng**. Khi đặt điện tích $q$ tại M, thế năng thỏa $W_M=qV_M$. Vì vậy phương án A diễn đạt đúng ý nghĩa của điện thế.
 
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. khả năng sinh công tại một điểm.**
+    **Đối chiếu nguồn:** PDF tô phương án C “khả năng sinh công tại một điểm”, nhưng cách diễn đạt này không phải định nghĩa điện thế và mâu thuẫn với chính phần lý thuyết của cùng tài liệu (“đặc trưng cho điện trường tại điểm đó về thế năng”). Vì vậy đáp án được sửa thành A.
 #### Bài 52
 
 <!-- source-id: BT-Chuong-III-p127-q2-304 -->
@@ -1000,12 +1020,10 @@ D. W.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
+
     **Hướng dẫn giải:**
 
-    Dùng $A_{MN}=q(V_M-V_N)=qU_{MN}$; trong điện trường đều, nếu độ dời theo phương điện trường là $d$ thì $A=qEd$.
-
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. V .**
+    Đơn vị SI của điện thế là vôn, kí hiệu V. Chọn A.
 #### Bài 53
 
 <!-- source-id: BT-Chuong-III-p127-q3-305 -->
@@ -1022,12 +1040,10 @@ D. Vector.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
+
     **Hướng dẫn giải:**
 
-    Dùng $A_{MN}=q(V_M-V_N)=qU_{MN}$; trong điện trường đều, nếu độ dời theo phương điện trường là $d$ thì $A=qEd$.
-
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. đại số.**
+    Điện thế là đại lượng đại số (vô hướng), có thể dương, âm hoặc bằng 0 tùy mốc điện thế. Chọn A.
 #### Bài 54
 
 <!-- source-id: BT-Chuong-III-p127-q4-306 -->
@@ -1044,12 +1060,10 @@ D. $V_M=\dfrac{q}{A_{M\infty}}$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** B
+
     **Hướng dẫn giải:**
 
-    Dùng $A_{MN}=q(V_M-V_N)=qU_{MN}$; trong điện trường đều, nếu độ dời theo phương điện trường là $d$ thì $A=qEd$.
-
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **B. $V_M=\dfrac{A_{M\infty}}{q}$.**
+    Với mốc điện thế ở vô cực, $V_M=A_{M\to\infty}/q$. Chọn B.
 #### Bài 55
 
 <!-- source-id: BT-Chuong-III-p127-q5-307 -->
@@ -1066,12 +1080,10 @@ D. sinh công của điện trường để dịch chuyển của điện tích 
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
+
     **Hướng dẫn giải:**
 
-    Dùng $A_{MN}=q(V_M-V_N)=qU_{MN}$; trong điện trường đều, nếu độ dời theo phương điện trường là $d$ thì $A=qEd$.
-
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **D. sinh công của điện trường để dịch chuyển của điện tích q giữa hai điểm.**
+    Hiệu điện thế giữa hai điểm đặc trưng cho khả năng sinh công của điện trường khi dịch chuyển một đơn vị điện tích giữa hai điểm đó. Chọn D.
 #### Bài 56
 
 <!-- source-id: BT-Chuong-III-p127-q6-308 -->
@@ -1089,12 +1101,10 @@ D. lực điện.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
+
     **Hướng dẫn giải:**
 
-    Dùng $A_{MN}=q(V_M-V_N)=qU_{MN}$; trong điện trường đều, nếu độ dời theo phương điện trường là $d$ thì $A=qEd$.
-
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. hiệu điện thế.**
+    Đại lượng $U_{MN}=V_M-V_N$ là hiệu điện thế giữa M và N. Chọn C.
 #### Bài 57
 
 <!-- source-id: BT-Chuong-III-p127-q7-309 -->
@@ -1111,12 +1121,10 @@ D. $\mathrm{N/C}$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** B
+
     **Hướng dẫn giải:**
 
-    Dùng $A_{MN}=q(V_M-V_N)=qU_{MN}$; trong điện trường đều, nếu độ dời theo phương điện trường là $d$ thì $A=qEd$.
-
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **B. $\mathrm{J/C}$.**
+    Từ $U=A/q$, $1\,\mathrm V=1\,\mathrm J/\mathrm C$. Chọn B.
 #### Bài 58
 
 <!-- source-id: BT-Chuong-III-p127-q8-310 -->
@@ -1133,12 +1141,10 @@ D. $U=Ed$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
+
     **Hướng dẫn giải:**
 
-    Dùng $A_{MN}=q(V_M-V_N)=qU_{MN}$; trong điện trường đều, nếu độ dời theo phương điện trường là $d$ thì $A=qEd$.
-
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **D. $U=Ed$.**
+    Trong điện trường đều, nếu hai điểm cách nhau một khoảng đại số $d$ theo phương điện trường thì $U=Ed$. Chọn D.
 #### Bài 59
 
 <!-- source-id: BT-Chuong-III-p127-q9-311 -->
@@ -1155,12 +1161,10 @@ D. C.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
+
     **Hướng dẫn giải:**
 
-    Dùng $A_{MN}=q(V_M-V_N)=qU_{MN}$; trong điện trường đều, nếu độ dời theo phương điện trường là $d$ thì $A=qEd$.
-
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. V.**
+    Hiệu điện thế và điện thế đều có đơn vị SI là vôn (V). Chọn C.
 #### Bài 60
 
 <!-- source-id: BT-Chuong-III-p128-q10-312 -->
@@ -1177,12 +1181,11 @@ D. điện thế tại A cao hơn điện thế tại B.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
+
     **Hướng dẫn giải:**
 
-    Dùng $A_{MN}=q(V_M-V_N)=qU_{MN}$; trong điện trường đều, nếu độ dời theo phương điện trường là $d$ thì $A=qEd$.
+    Vì $U_{AB}=V_A-V_B>0$ nên $V_A>V_B$. Điện thế tại A cao hơn tại B; chọn D.
 
-
-    Vậy kết quả cần tìm là **D**.
 ### Thông hiểu — Trắc nghiệm 4 lựa chọn
 
 #### Bài 61
@@ -1201,12 +1204,10 @@ D. $V_N-V_M=10\,\mathrm V$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
+
     **Hướng dẫn giải:**
 
-    Dùng $A_{MN}=q(V_M-V_N)=qU_{MN}$; trong điện trường đều, nếu độ dời theo phương điện trường là $d$ thì $A=qEd$.
-
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. $V_M-V_N=10\,\mathrm V$.**
+    Theo định nghĩa $U_{MN}=V_M-V_N$. Biểu thức tương ứng là phương án C.
 #### Bài 62
 
 <!-- source-id: BT-Chuong-III-p129-q18-320 -->
@@ -1224,12 +1225,10 @@ D. trong cả quá trình là dương.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
+
     **Hướng dẫn giải:**
 
-    Dùng $A_{MN}=q(V_M-V_N)=qU_{MN}$; trong điện trường đều, nếu độ dời theo phương điện trường là $d$ thì $A=qEd$.
-
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. trong cả quá trình bằng 0.**
+    Lực điện tĩnh là lực thế; công trên một đường kín bằng 0. Chọn A.
 #### Bài 63
 
 <!-- source-id: BT-Chuong-III-p129-q19-321 -->
@@ -1246,12 +1245,10 @@ D. vị trí được chọn làm mốc của điện thế.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
+
     **Hướng dẫn giải:**
 
-    Dùng $A_{MN}=q(V_M-V_N)=qU_{MN}$; trong điện trường đều, nếu độ dời theo phương điện trường là $d$ thì $A=qEd$.
-
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. điện tích $q$ đặt tại điểm M.**
+    Điện thế tại một điểm là đặc trưng của điện trường và không phụ thuộc điện tích thử đặt tại đó. Chọn C.
 #### Bài 64
 
 <!-- source-id: BT-Chuong-III-p129-q20-322 -->
@@ -1267,13 +1264,13 @@ C. Cao thế.
 D. Đẳng thế.
 
 ??? success "Đáp án và lời giải"
-    **Đáp án sau kiểm tra:** Không có một phương án đúng cho toàn bộ dải $1$–$66\,\mathrm{kV}$.
+    **Đáp án:** Không có một phương án đúng cho toàn bộ dải $1$–$66\,\mathrm{kV}$
 
     **Hướng dẫn giải:**
-    Theo phân cấp điện áp hiện hành ở Việt Nam, hạ áp là đến $1\,\mathrm{kV}$, trung áp là trên $1\,\mathrm{kV}$ đến $35\,\mathrm{kV}$, còn cao áp là trên $35\,\mathrm{kV}$ đến $220\,\mathrm{kV}$. Vì vậy dải $1$–$66\,\mathrm{kV}$ đi qua nhiều cấp điện áp và không thể gọi toàn bộ là “trung thế”.
 
-    **Đối chiếu nguồn:** PDF chọn B. Đây là lỗi nguồn đã xác định; không sửa dữ kiện để ép khớp một phương án.
+    Theo QCVN 26:2025/BCT đang có hiệu lực, hạ áp có điện áp danh định đến $1\,\mathrm{kV}$; trung áp trên $1\,\mathrm{kV}$ đến $35\,\mathrm{kV}$; cao áp trên $35\,\mathrm{kV}$ đến $220\,\mathrm{kV}$. Vì vậy dải $1$–$66\,\mathrm{kV}$ cắt qua nhiều cấp điện áp và không thể gọi toàn bộ là trung thế.
 
+    **Đối chiếu nguồn:** PDF chọn B. Kết luận đó không phù hợp với phân cấp điện áp hiện hành; không sửa dữ kiện để ép khớp một phương án.
 #### Bài 65
 
 <!-- source-id: BT-Chuong-III-p129-q21-323 -->
@@ -1292,14 +1289,15 @@ D. $150\,\mathrm V$.
     **Đáp án:** D.
 
     **Hướng dẫn giải:**
+
     Công của lực điện thỏa $A_{AB}=qU_{AB}$. Vì vậy
 
-    $U_{AB}=A_{AB}/q=(3\cdot10^{-4})/(2\cdot10^{-6})=150$ V.
+    $U_{AB}=A_{AB}/q=(3\cdot10^{-4})/(2\cdot10^{-6})=150\,\mathrm V$.
 
     Chọn **D**.
 
-!!! warning "Đối chiếu nguồn"
-    PDF dùng cụm “cần tốn một công”, dễ bị hiểu là công của ngoại lực. Tuy nhiên chính lời giải nguồn ký hiệu $A_{AB}$ và dùng $A_{AB}=qU_{AB}$, tức công của **lực điện**. Bản learner-facing làm rõ chủ thể thực hiện công, không đổi số liệu hay đáp án.
+    !!! warning "Đối chiếu nguồn"
+        PDF dùng cụm “cần tốn một công”, dễ bị hiểu là công của ngoại lực. Tuy nhiên chính lời giải nguồn ký hiệu $A_{AB}$ và dùng $A_{AB}=qU_{AB}$, tức công của **lực điện**. Bản trình bày này làm rõ chủ thể thực hiện công, không đổi số liệu hay đáp án.
 
 #### Bài 66
 
@@ -1308,18 +1306,19 @@ D. $150\,\mathrm V$.
 Ta cần thực hiện một công $5\cdot10^{-6}\,\mathrm J$ để dịch chuyển điện tích $2{,}5\cdot10^{-5}\,\mathrm C$ từ vô cực đến điểm A. Chọn
 gốc điện thế tại vô cực. Điện thế tại A là
 
-A. 2 V.
+A. $2\,\mathrm V$.
 
-B. −2 V.
+B. −$2\,\mathrm V$.
 
-C. 0,2 V.
+C. $0,2\,\mathrm V$.
 
-D. −0,2 V.
+D. −$0,2\,\mathrm V$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
 
     **Hướng dẫn giải:**
+
     $V_A=\dfrac{A_{\infty A}}{q}=\dfrac{5\cdot10^{-6}}{2{,}5\cdot10^{-5}}=0{,}2\,\mathrm V$.
 
 #### Bài 67
@@ -1341,6 +1340,7 @@ D. $5{,}8\cdot10^{-19}\,\mathrm J$.
     **Đáp án:** B
 
     **Hướng dẫn giải:**
+
     $A_{AB}=qU_{AB}=1{,}6\cdot10^{-19}\cdot30=4{,}8\cdot10^{-18}\,\mathrm J$.
 
 #### Bài 68
@@ -1350,18 +1350,19 @@ D. $5{,}8\cdot10^{-19}\,\mathrm J$.
 Một điện trường đều cường độ $5000\,\mathrm{V/m}$, có phương song song với cạnh huyền BC của một tam giác
 vuông ABC có chiều từ B đến C, biết $AB=3\,\mathrm{cm}$, $BC=5\,\mathrm{cm}$. Hiệu điện thế giữa hai điểm AC là
 
-A. 200 V.
+A. $200\,\mathrm V$.
 
-B. 150 V.
+B. $150\,\mathrm V$.
 
-C. 160 V.
+C. $160\,\mathrm V$.
 
-D. 250 V.
+D. $250\,\mathrm V$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
 
     **Hướng dẫn giải:**
+
     $AC=\sqrt{BC^2-AB^2}=\sqrt{0{,}05^2-0{,}03^2}=0{,}04\,\mathrm m$, $\cos\widehat{ACB}=\dfrac45$.
     $U_{AC}=E\,AC\cos\widehat{ACB}=5000\cdot0{,}04\cdot\dfrac45=160\,\mathrm V$.
 
@@ -1376,18 +1377,19 @@ Có ba điện tích điểm $q_1=5\cdot10^{-9}\,\mathrm C$; $q_2=-2\cdot10^{-9}
 
 ![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/iii_p132_q30_332_fig1.webp){ loading=lazy }
 
-A. 116,9 V.
+A. $116,9\,\mathrm V$.
 
-B. 350,7 V.
+B. $350,7\,\mathrm V$.
 
-C. 662,5 V.
+C. $662,5\,\mathrm V$.
 
-D. 77,9 V.
+D. $77,9\,\mathrm V$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
 
     **Hướng dẫn giải:**
+
     Với tam giác đều cạnh $a=0{,}20\,\mathrm m$, khoảng cách từ tâm O đến mỗi đỉnh là $r=\dfrac{a}{\sqrt3}$.
     $V_O=k\dfrac{q_1+q_2+q_3}{r}=9\cdot10^9\dfrac{(5-2-1{,}5)\cdot10^{-9}}{0{,}20/\sqrt3}\approx116{,}9\,\mathrm V$.
 
@@ -1409,12 +1411,10 @@ D. $U_{MN}=A_{MN}q$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
+
     **Hướng dẫn giải:**
 
-    Dùng $A_{MN}=q(V_M-V_N)=qU_{MN}$; trong điện trường đều, nếu độ dời theo phương điện trường là $d$ thì $A=qEd$.
-
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **D. $U_{MN}=A_{MN}q$.**
+    Quan hệ đúng giữa công và hiệu điện thế là $A=qU$, hay $U=A/q$. Biểu thức nhân $A$ với $q$ là sai; chọn D.
 #### Bài 71
 
 <!-- source-id: BT-Chuong-III-p140-q2-346 -->
@@ -1431,12 +1431,10 @@ D. Cường độ điện trường.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
+
     **Hướng dẫn giải:**
 
-    Dùng $A_{MN}=q(V_M-V_N)=qU_{MN}$; trong điện trường đều, nếu độ dời theo phương điện trường là $d$ thì $A=qEd$.
-
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. Điện thế.**
+    Đại lượng đặc trưng cho điện trường về phương diện tạo thế năng trên một đơn vị điện tích là điện thế. Chọn A.
 #### Bài 72
 
 <!-- source-id: BT-Chuong-III-p140-q3-347 -->
@@ -1453,12 +1451,10 @@ D. $U_{AB}=-U_{BA}$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
+
     **Hướng dẫn giải:**
 
-    Dùng $A_{MN}=q(V_M-V_N)=qU_{MN}$; trong điện trường đều, nếu độ dời theo phương điện trường là $d$ thì $A=qEd$.
-
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **D. $U_{AB}=-U_{BA}$.**
+    Vì $U_{AB}=V_A-V_B$ và $U_{BA}=V_B-V_A$, nên $U_{AB}=-U_{BA}$. Chọn D.
 #### Bài 73
 
 <!-- source-id: BT-Chuong-III-p140-q5-349 -->
@@ -1466,18 +1462,19 @@ D. $U_{AB}=-U_{BA}$.
 Công mà lực điện sinh ra khi dịch chuyển điện tích $1{,}6\cdot10^{-19}\,\mathrm C$ từ điểm A đến điểm B là $3{,}2\cdot10^{-18}\,\mathrm J$.
 Hiệu điện thế $U_{AB}$ là
 
-A. 10 V.
+A. $10\,\mathrm V$.
 
-B. 20 V.
+B. $20\,\mathrm V$.
 
-C. 30 V.
+C. $30\,\mathrm V$.
 
-D. 40 V
+D. $40\,\mathrm V$
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** B
 
     **Hướng dẫn giải:**
+
     $U_{AB}=\dfrac{A_{AB}}{q}=\dfrac{3{,}2\cdot10^{-18}}{1{,}6\cdot10^{-19}}=20\,\mathrm V$.
 
 #### Bài 74
@@ -1497,11 +1494,10 @@ D. $53\,\mathrm V$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** B
+
     **Hướng dẫn giải:**
 
-    Dùng $A_{MN}=q(V_M-V_N)=qU_{MN}$; trong điện trường đều, nếu độ dời theo phương điện trường là $d$ thì $A=qEd$.
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **B. 36 V.**
+    Giữa hai bản, $E=U/d=120/0{,}020=6000\,\mathrm{V/m}$. Chọn bản âm làm mốc $V=0$; N cách bản âm $0{,}006\,\mathrm m$ nên $V_N=E\cdot0{,}006=36\,\mathrm V$. Chọn B.
 #### Bài 75
 
 <!-- source-id: BT-Chuong-III-p140-q7-351 -->
@@ -1519,12 +1515,10 @@ D. trong cả quá trình là dương.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
+
     **Hướng dẫn giải:**
 
-    Dùng $A_{MN}=q(V_M-V_N)=qU_{MN}$; trong điện trường đều, nếu độ dời theo phương điện trường là $d$ thì $A=qEd$.
-
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. trong cả quá trình bằng 0.**
+    Trong điện trường tĩnh, công của lực điện trên mọi đường kín bằng 0. Chọn A.
 #### Bài 76
 
 <!-- source-id: BT-Chuong-III-p141-q9-353 -->
@@ -1541,17 +1535,15 @@ D. $U_{MN}=\dfrac{V_N}{V_M}$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
+
     **Hướng dẫn giải:**
 
-    Dùng $A_{MN}=q(V_M-V_N)=qU_{MN}$; trong điện trường đều, nếu độ dời theo phương điện trường là $d$ thì $A=qEd$.
-
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. $U_{MN}=V_M-V_N$.**
+    Theo định nghĩa $U_{MN}=V_M-V_N$. Chọn C.
 #### Bài 77
 
 <!-- source-id: BT-Chuong-III-p141-q10-354 -->
 
-Theo quy định của mạng lưới truyền tải điện ở Việt Nam, các lưới điện có điện áp từ dưới 1kV được
+Theo quy định của mạng lưới truyền tải điện ở Việt Nam, các lưới điện có điện áp từ dưới $1\,\mathrm{kV}$ được
 gọi là
 
 A. Hạ thế.
@@ -1566,7 +1558,8 @@ D. Đẳng thế.
     **Đáp án:** A
 
     **Hướng dẫn giải:**
-    Theo phân cấp điện áp hiện hành, hạ áp là cấp điện áp danh định đến $1\,\mathrm{kV}$. Do đó lưới có điện áp dưới $1\,\mathrm{kV}$ thuộc hạ áp.
+
+    Theo QCVN 26:2025/BCT đang có hiệu lực, hạ áp là cấp điện áp danh định đến $1\,\mathrm{kV}$. Vì vậy lưới dưới $1\,\mathrm{kV}$ thuộc hạ áp, chọn A.
 #### Bài 78
 
 <!-- source-id: BT-Chuong-III-p141-q11-355 -->
@@ -1583,12 +1576,10 @@ D. $V_M-V_N=15\,\mathrm V$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
+
     **Hướng dẫn giải:**
 
-    Dùng $A_{MN}=q(V_M-V_N)=qU_{MN}$; trong điện trường đều, nếu độ dời theo phương điện trường là $d$ thì $A=qEd$.
-
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. $V_N-V_M=15\,\mathrm V$.**
+    Từ các điện thế đã cho, $U_{NM}=V_N-V_M=15\,\mathrm V$. Chọn C.
 #### Bài 79
 
 <!-- source-id: BT-Chuong-III-p141-q13-357 -->
@@ -1609,6 +1600,7 @@ D. $5{,}75\cdot10^{6}\,\mathrm{V/m}$.
     **Đáp án:** A
 
     **Hướng dẫn giải:**
+
     $E=\dfrac{U}{d}=\dfrac{0{,}07}{8\cdot10^{-9}}=8{,}75\cdot10^6\,\mathrm{V/m}$.
 
 #### Bài 80
@@ -1630,6 +1622,7 @@ D. $500\,\mathrm V$.
     **Đáp án:** B
 
     **Hướng dẫn giải:**
+
     $U_{AB}=\dfrac{A}{q}=\dfrac{4\cdot10^{-4}}{2\cdot10^{-6}}=200\,\mathrm V$.
 
 #### Bài 81
@@ -1651,6 +1644,7 @@ D. $V_2=3000\,\mathrm V$; $V_3=35000\,\mathrm V$.
     **Đáp án:** B
 
     **Hướng dẫn giải:**
+
     Chọn $V_1=0$. Giữa (1) và (2):
     $V_2=V_1-E_{12}d_{12}=0-4\cdot10^4\cdot0{,}08=-3200\,\mathrm V$.
     Giữa (2) và (3), độ dời đại số theo chiều $\vec E_{23}$ là $-0{,}12\,\mathrm m$:
@@ -1672,12 +1666,10 @@ D. C.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
+
     **Hướng dẫn giải:**
 
-    Dùng $A_{MN}=q(V_M-V_N)=qU_{MN}$; trong điện trường đều, nếu độ dời theo phương điện trường là $d$ thì $A=qEd$.
-
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. V.**
+    Đơn vị của điện thế và hiệu điện thế là vôn (V). Chọn C.
 #### Bài 83
 
 <!-- source-id: BT-Chuong-III-p143-q18-362 -->
@@ -1693,9 +1685,10 @@ C. $-662{,}5\,\mathrm V$.
 D. $662{,}5\,\mathrm V$.
 
 ??? success "Đáp án và lời giải"
-    **Đáp án sau kiểm tra:** Không có phương án phù hợp; $U_{OH}\approx-276{,}46\,\mathrm V$.
+    **Đáp án:** Không có phương án phù hợp; $U_{OH}\approx-276{,}46\,\mathrm V$.
 
     **Hướng dẫn giải:**
+
     Với tam giác đều cạnh $a=0{,}10\,\mathrm m$,
     $AH=\dfrac{a\sqrt3}{2}=\dfrac{\sqrt3}{20}\,\mathrm m$,
     $OA=OB=OC=\dfrac{a}{\sqrt3}=\dfrac{\sqrt3}{30}\,\mathrm m$,
@@ -1718,7 +1711,7 @@ D. $662{,}5\,\mathrm V$.
 
 <!-- source-id: BT-Chuong-III-p117-q3-295 -->
 
-Hai bản kim loại phẳng song song cách nhau 2 cm, nhiễm điện trái dấu. Biết lực điện sinh công $A=2\cdot10^{-9}\,\mathrm J$ để dịch chuyển điện tích $q=5\cdot10^{-10}\,\mathrm C$ từ bản dương sang bản âm.
+Hai bản kim loại phẳng song song cách nhau $2\,\mathrm{cm}$, nhiễm điện trái dấu. Biết lực điện sinh công $A=2\cdot10^{-9}\,\mathrm J$ để dịch chuyển điện tích $q=5\cdot10^{-10}\,\mathrm C$ từ bản dương sang bản âm.
 
 a) Điện trường giữa hai tấm kim loại là điện trường đều có đường sức vuông góc với các tấm kim loại và cách đều nhau.
 
@@ -1729,15 +1722,17 @@ c) Điện tích di chuyển từ bản dương sang bản âm có vectơ độ 
 d) Điện trường đều có cường độ $E=200\,\mathrm{V/m}$.
 
 ??? success "Đáp án và lời giải"
+    **Đáp án:** a) Đúng; b) Đúng; c) Sai; d) Đúng
+
     **Hướng dẫn giải:**
-    a) Điện trường giữa hai bản phẳng song song tích điện trái dấu là điện trường đều; nhận định đúng.
 
-    b) Trong điện trường đều, công có dạng $A=qEd$; nhận định đúng.
+    a) **Đúng.** Giữa hai bản phẳng song song tích điện trái dấu, bỏ qua hiệu ứng mép, điện trường là gần đều; đường sức vuông góc với hai bản.
 
-    c) $\vec E$ hướng từ bản dương sang bản âm, nên khi điện tích đi từ bản dương sang bản âm thì $\vec d$ cùng hướng $\vec E$; nhận định sai.
+    b) **Đúng.** Chuyển động từ bản dương sang bản âm là cùng chiều $\vec E$, nên $A=qEd$.
 
-    d) $E=\dfrac{A}{qd}=\dfrac{2\cdot10^{-9}}{5\cdot10^{-10}\cdot0{,}02}=200\,\mathrm{V/m}$; nhận định đúng.
+    c) **Sai.** $\vec E$ hướng từ bản dương sang bản âm, nên độ dời từ bản dương sang bản âm cùng hướng $\vec E$, không ngược hướng.
 
+    d) **Đúng.** $E=A/(qd)=2\cdot10^{-9}/(5\cdot10^{-10}\cdot0{,}02)=200\,\mathrm{V/m}$.
 #### Bài 85
 
 <!-- source-id: BT-Chuong-III-p133-q1-333 -->
@@ -1755,15 +1750,17 @@ c) Điện thế của tầng mây trên bằng $381\,\mathrm{kV}$.
 d) Thế năng điện của tầng trên là $472{,}44\,\mathrm J$.
 
 ??? success "Đáp án và lời giải"
+    **Đáp án:** a) Đúng; b) Sai; c) Đúng; d) Sai
+
     **Hướng dẫn giải:**
-    a) Chiều điện trường là chiều giảm điện thế, từ tầng dương xuống tầng âm; nhận định đúng.
 
-    b) $U=Ed=830\cdot700=581000\,\mathrm V=581\,\mathrm{kV}$, không phải $581\,\mathrm V$; nhận định sai.
+    a) **Đúng.** Điện trường hướng từ tầng mang điện dương xuống tầng mang điện âm.
 
-    c) $U=V_2-V_1\Rightarrow V_2=U+V_1=581000-200000=381000\,\mathrm V=381\,\mathrm{kV}$; nhận định đúng.
+    b) **Sai.** $U=Ed=830\cdot700=581000\,\mathrm V=581\,\mathrm{kV}$, không phải $581\,\mathrm V$.
 
-    d) $W=Q_2V_2=1{,}24\cdot381000=472440\,\mathrm J$, không phải $472{,}44\,\mathrm J$; nhận định sai.
+    c) **Đúng.** $V_2=V_1+U=-200\,\mathrm{kV}+581\,\mathrm{kV}=381\,\mathrm{kV}$.
 
+    d) **Sai.** $W=Q_2V_2=1{,}24\cdot381000=472440\,\mathrm J$, không phải $472{,}44\,\mathrm J$.
 #### Bài 86
 
 <!-- source-id: BT-Chuong-III-p133-q2-334 -->
@@ -1780,16 +1777,17 @@ c) Công của lực điện dịch chuyển điểm q từ P đến N bằng $-
 d) Công để dịch chuyển điện tích đi theo đường kín MNPM là $0\,\mathrm J$.
 
 ??? success "Đáp án và lời giải"
+    **Đáp án:** a) Sai; b) Sai; c) Đúng; d) Đúng
+
     **Hướng dẫn giải:**
-    a) $A_{M\to N}=qE\,MN=(-4\cdot10^{-8})\cdot200\cdot0{,}1=-8\cdot10^{-7}\,\mathrm J$, trái với dấu của phát biểu; nhận định sai.
 
-    b) $U_{NM}=E(-MN)=200\cdot(-0{,}1)=-20\,\mathrm V$, không phải $20\,\mathrm V$; nhận định sai.
+    a) **Sai.** $A_{M\to N}=qE\,MN=(-4\cdot10^{-8})\cdot200\cdot0{,}10=-8\cdot10^{-7}\,\mathrm J$, trái dấu với phát biểu.
 
-    c) Với $PN$ có hình chiếu lên $MN$ là $HN=\dfrac{NP^2}{MN}=0{,}064\,\mathrm m$,
-    $A_{P\to N}=qEH_N=(-4\cdot10^{-8})\cdot200\cdot0{,}064=-5{,}12\cdot10^{-7}\,\mathrm J$; nhận định đúng.
+    b) **Sai.** $U_{NM}=V_N-V_M=-E\,MN=-20\,\mathrm V$, không phải $20\,\mathrm V$.
 
-    d) Trên đường kín, điểm đầu trùng điểm cuối nên $A_{MNPM}=0$; nhận định đúng.
+    c) **Đúng.** Tam giác vuông tại P có $MN=10\,\mathrm{cm}$, $NP=8\,\mathrm{cm}$; hình chiếu của $PN$ lên $MN$ là $HN=NP^2/MN=6{,}4\,\mathrm{cm}$. Do đó $A_{P\to N}=qE\cdot0{,}064=-5{,}12\cdot10^{-7}\,\mathrm J$.
 
+    d) **Đúng.** Lực điện tĩnh là lực thế, nên công trên đường kín MNPM bằng 0.
 #### Bài 87
 
 <!-- source-id: BT-Chuong-III-p136-q5-337 -->
@@ -1805,14 +1803,17 @@ c) Điện thế tại bản (3) là $52\,\mathrm V$.
 d) Công của lực điện để dịch chuyển điện tích $q=3\cdot10^{-6}\,\mathrm C$ từ bản (1) đến bản (2) là $84\cdot10^{-6}\,\mu\mathrm J$.
 
 ??? success "Đáp án và lời giải"
+    **Đáp án:** a) Sai; b) Sai; c) Đúng; d) Sai
+
     **Hướng dẫn giải:**
-    a) $\vec E_{12}$ hướng từ bản (1) đến (2), còn $\vec E_{23}$ hướng từ bản (3) đến (2), nên hai vectơ ngược chiều; nhận định sai.
 
-    b) $V_2=V_1-E_{12}d_{12}=0-400\cdot0{,}07=-28\,\mathrm V$, không phải $28\,\mathrm V$; nhận định sai.
+    a) **Sai.** $\vec E_{12}$ hướng từ bản (1) dương về bản (2) âm, còn $\vec E_{23}$ hướng từ bản (3) dương về bản (2) âm; hai vectơ ngược chiều.
 
-    c) $V_3=V_2-E_{23}(-d_{23})=-28-800\cdot(-0{,}1)=52\,\mathrm V$; nhận định đúng.
+    b) **Sai.** $V_2=V_1-E_{12}d_{12}=0-400\cdot0{,}07=-28\,\mathrm V$, không phải $28\,\mathrm V$.
 
-    d) $A=qE_{12}d_{12}=3\cdot10^{-6}\cdot400\cdot0{,}07=84\cdot10^{-6}\,\mathrm J=84\,\mu\mathrm J$. Phát biểu lại ghi $84\cdot10^{-6}\,\mu\mathrm J$, nhỏ hơn kết quả đúng $10^6$ lần; nhận định sai.
+    c) **Đúng.** Đi từ (2) sang (3) là ngược chiều $\vec E_{23}$ nên $V_3=V_2+E_{23}d_{23}=-28+800\cdot0{,}10=52\,\mathrm V$.
+
+    d) **Sai.** $A=qE_{12}d_{12}=3\cdot10^{-6}\cdot400\cdot0{,}07=84\cdot10^{-6}\,\mathrm J=84\,\mu\mathrm J$. Phát biểu ghi $84\cdot10^{-6}\,\mu\mathrm J=84\cdot10^{-12}\,\mathrm J$, nhỏ hơn đúng $10^6$ lần.
 
 ### Thông hiểu — Trắc nghiệm 4 lựa chọn
 
@@ -1835,6 +1836,7 @@ D. chưa đủ dữ kiện để xác định.
     **Đáp án:** B
 
     **Hướng dẫn giải:**
+
     $A_{MN}=W_M-W_N$. Nếu thế năng giảm thì $W_M>W_N$, do đó công của lực điện trường dương.
 
 #### Bài 89
@@ -1853,12 +1855,10 @@ D. luôn luôn khác không.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
+
     **Hướng dẫn giải:**
 
-    Dùng $A_{MN}=q(V_M-V_N)=qU_{MN}$; trong điện trường đều, nếu độ dời theo phương điện trường là $d$ thì $A=qEd$.
-
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. gắn với điện trường.**
+    Điện thế là đặc trưng của điện trường tại điểm xét, không phụ thuộc điện tích thử; nó là đại lượng vô hướng và có thể bằng 0 tùy mốc. Chọn A.
 #### Bài 90
 
 <!-- source-id: BT-Chuong-III-p128-q12-314 -->
@@ -1875,12 +1875,10 @@ D. nhiệt kế.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
+
     **Hướng dẫn giải:**
 
-    Dùng $A_{MN}=q(V_M-V_N)=qU_{MN}$; trong điện trường đều, nếu độ dời theo phương điện trường là $d$ thì $A=qEd$.
-
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. tĩnh điện kế.**
+    Dụng cụ dùng để đo điện thế/hiệu điện thế tĩnh điện trong ngữ cảnh bài là tĩnh điện kế. Chọn A.
 #### Bài 91
 
 <!-- source-id: BT-Chuong-III-p128-q13-315 -->
@@ -1898,12 +1896,10 @@ trường.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
+
     **Hướng dẫn giải:**
 
-    Dùng $A_{MN}=q(V_M-V_N)=qU_{MN}$; trong điện trường đều, nếu độ dời theo phương điện trường là $d$ thì $A=qEd$.
-
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. Hiệu điện thế giữa hai điểm phụ thuộc điện tích dịch chuyển giữa hai điểm đó.**
+    Hiệu điện thế giữa hai điểm là đặc trưng của điện trường, không phụ thuộc giá trị điện tích thử được dịch chuyển. Vì vậy phát biểu C là sai.
 #### Bài 92
 
 <!-- source-id: BT-Chuong-III-p128-q14-316 -->
@@ -1920,12 +1916,10 @@ D. lượng đường trong máu của bệnh nhân.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
+
     **Hướng dẫn giải:**
 
-    Dùng $A_{MN}=q(V_M-V_N)=qU_{MN}$; trong điện trường đều, nếu độ dời theo phương điện trường là $d$ thì $A=qEd$.
-
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. hiệu điện thế giữa các điểm khác nhau trên da của bệnh nhân.**
+    Các điện cực của điện tâm đồ đo chênh lệch điện thế trên bề mặt cơ thể. Chọn A.
 #### Bài 93
 
 <!-- source-id: BT-Chuong-III-p128-q16-318 -->
@@ -1942,12 +1936,11 @@ D. Điện thế ở M cao hơn điện thế ở N $30\,\mathrm V$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
+
     **Hướng dẫn giải:**
 
-    Dùng $A_{MN}=q(V_M-V_N)=qU_{MN}$; trong điện trường đều, nếu độ dời theo phương điện trường là $d$ thì $A=qEd$.
+    Nếu $U_{MN}=30\,\mathrm V$ thì $V_M-V_N=30\,\mathrm V$, tức điện thế tại M cao hơn tại N $30\,\mathrm V$. Chọn D.
 
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **D. Điện thế ở M cao hơn điện thế ở N $30\,\mathrm V$.**
 ### Vận dụng — Trắc nghiệm 4 lựa chọn
 
 #### Bài 94
@@ -1971,6 +1964,7 @@ D. $1{,}5\cdot10^{-7}\,\mathrm J$.
     **Đáp án:** C
 
     **Hướng dẫn giải:**
+
     Theo hình nguồn, hình chiếu của $\overrightarrow{AB}$ lên phương $\vec E$ là $HB=-BC/2=-0{,}05\,\mathrm m$.
     $A_{AB}=qEHB=10\cdot10^{-9}\cdot300\cdot(-0{,}05)=-1{,}5\cdot10^{-7}\,\mathrm J$.
 
@@ -1992,9 +1986,10 @@ C. $-1{,}5\cdot10^{-7}\,\mathrm J$.
 D. $1{,}5\cdot10^{-7}\,\mathrm J$.
 
 ??? success "Đáp án và lời giải"
-    **Đáp án sau kiểm tra:** Không có phương án phù hợp.
+    **Đáp án:** Không có phương án phù hợp.
 
     **Hướng dẫn giải:**
+
     Theo hình, $\vec E$ hướng thẳng đứng lên trên. Với tam giác đều cạnh $0{,}10\,\mathrm m$, hình chiếu của $\overrightarrow{AB}$ lên phương $\vec E$ bằng $-AH$, trong đó
     $AH=\sqrt{AB^2-(BC/2)^2}=\sqrt{0{,}10^2-0{,}05^2}=\dfrac{\sqrt3}{20}\approx0{,}08660\,\mathrm m$.
     Vì vậy
@@ -2023,6 +2018,7 @@ D. $3\cdot10^{-6}\,\mathrm J$.
     **Đáp án:** B
 
     **Hướng dẫn giải:**
+
     Vì $\vec E$ cùng chiều $\overrightarrow{MN}$, hình chiếu của $\overrightarrow{OM}$ lên phương điện trường là $NM=-0{,}04\,\mathrm m$.
     $A_{OM}=qE\,NM=(-3\cdot10^{-8})\cdot2000\cdot(-0{,}04)=2{,}4\cdot10^{-6}\,\mathrm J$.
 
@@ -2045,6 +2041,7 @@ D. $V_2=3000\,\mathrm V$; $V_3=1000\,\mathrm V$.
     **Đáp án:** B
 
     **Hướng dẫn giải:**
+
     Chọn $V_1=0$.
     $V_2=V_1-E_{12}d_{12}=0-3\cdot10^4\cdot0{,}04=-1200\,\mathrm V$.
     Vì $\vec E_{23}$ hướng từ bản (3) về bản (2), độ dời đại số từ (2) đến (3) là $-0{,}10\,\mathrm m$:
@@ -2069,6 +2066,7 @@ D. $150\,\mathrm{V/m}$.
     **Đáp án:** C
 
     **Hướng dẫn giải:**
+
     $U=\dfrac{A}{q}=\dfrac{3\cdot10^{-9}}{2\cdot10^{-10}}=15\,\mathrm V$.
     $E=\dfrac{U}{d}=\dfrac{15}{0{,}05}=300\,\mathrm{V/m}$.
 

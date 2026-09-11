@@ -102,7 +102,7 @@ Tính chất dẫn mạnh một chiều và cản chiều kia là cơ sở của
 Ở mức mạch đơn giản, điốt có thể được mô hình hóa:
 
 - điốt lí tưởng: dẫn hoàn toàn khi thuận, khóa khi ngược;
-- mô hình sụt áp gần cố định: ví dụ khoảng 0,7 V cho diode silic trong một miền dòng, nhưng đây chỉ là gần đúng.
+- mô hình sụt áp gần cố định: ví dụ khoảng $0,7\,\mathrm V$ cho diode silic trong một miền dòng, nhưng đây chỉ là gần đúng.
 
 ## 10. Nhiệt độ và độ dẫn bán dẫn
 

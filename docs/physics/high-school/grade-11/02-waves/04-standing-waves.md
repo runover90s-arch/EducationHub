@@ -140,11 +140,11 @@ $$
 L=n\frac{\lambda}{2}.
 $$
 
-Ví dụ dây dài $1,2$ m có 3 bó:
+Ví dụ dây dài $1,2\,\mathrm m$ có 3 bó:
 
-$\lambda=2L/3=0,8$ m.
+$\lambda=2L/3=0,8\,\mathrm m$.
 
-Nếu $v=40$ m/s thì $f=v/\lambda=50$ Hz.
+Nếu $v=40\,\mathrm{m/s}$ thì $f=v/\lambda=50\,\mathrm{Hz}$.
 
 ## 9. Bài toán tần số liên tiếp
 
@@ -170,19 +170,19 @@ Các tần số là $f=(2n+1)v/(4L)$. Hai tần số cho phép liên tiếp cũn
 
 ### Ví dụ 1 — Hai đầu cố định
 
-Dây dài $0,90$ m, có 3 bụng. Vì $n=3$:
+Dây dài $0,90\,\mathrm m$, có 3 bụng. Vì $n=3$:
 
-$\lambda=2L/n=0,60$ m.
+$\lambda=2L/n=0,60\,\mathrm m$.
 
-Nếu $f=100$ Hz thì $v=60$ m/s.
+Nếu $f=100\,\mathrm{Hz}$ thì $v=60\,\mathrm{m/s}$.
 
 ### Ví dụ 2 — Một đầu tự do
 
-Ống/đoạn môi trường mô hình một đầu nút, một đầu bụng có chiều dài $L=0,50$ m ở mode cơ bản. Khi đó $L=\lambda/4$, nên $\lambda=2,0$ m.
+Ống/đoạn môi trường mô hình một đầu nút, một đầu bụng có chiều dài $L=0,50\,\mathrm m$ ở mode cơ bản. Khi đó $L=\lambda/4$, nên $\lambda=2,0\,\mathrm m$.
 
 ### Ví dụ 3 — Khoảng cách nút–bụng
 
-Hai nút liên tiếp cách nhau $12$ cm → $\lambda=24$ cm. Nút đến bụng gần nhất là $6$ cm.
+Hai nút liên tiếp cách nhau $12\,\mathrm{cm}$ → $\lambda=24\,\mathrm{cm}$. Nút đến bụng gần nhất là $6\,\mathrm{cm}$.
 
 ## 11. Bẫy thường gặp
 

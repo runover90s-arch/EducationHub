@@ -127,13 +127,13 @@ nếu f tính bằng mét; đơn vị diop (dp hoặc D trong ngữ cảnh quang
 
 ## 9. Ví dụ hội tụ
 
-$f=20$ cm, d=60 cm:
+$f=20\,\mathrm{cm}$, $d=60\,\mathrm{cm}$:
 
 $$
 \frac1{d'}=\frac1{20}-\frac1{60}=\frac1{30}.
 $$
 
-$d'=30$ cm.
+$d'=30\,\mathrm{cm}$.
 
 $$
 k=-\frac{30}{60}=-0,5.
@@ -143,13 +143,13 @@ $$
 
 ## 10. Ví dụ vật trong tiêu cự
 
-$f=15$ cm, d=10 cm:
+$f=15\,\mathrm{cm}$, $d=10\,\mathrm{cm}$:
 
 $$
 \frac1{d'}=\frac1{15}-\frac1{10}=-\frac1{30}.
 $$
 
-$d'=-30$ cm.
+$d'=-30\,\mathrm{cm}$.
 
 $$
 k=-\frac{-30}{10}=3.
@@ -159,13 +159,13 @@ $$
 
 ## 11. Ví dụ phân kì
 
-$f=-20$ cm, d=30 cm:
+$f=-20\,\mathrm{cm}$, $d=30\,\mathrm{cm}$:
 
 $$
 \frac1{d'}=-\frac1{20}-\frac1{30}=-\frac1{12}.
 $$
 
-$d'=-12$ cm.
+$d'=-12\,\mathrm{cm}$.
 
 $$
 k=0,4.

@@ -14,42 +14,87 @@ tags:
 [← Bài tập](exercises.md)
 
 ## Bài 1
-Chọn **A**. Với hai nguồn cùng pha, cực đại khi hiệu đường đi bằng $k\lambda$.
+
+**Đáp án:** A
+
+**Hướng dẫn giải:**
+
+Hai nguồn cùng pha cho cực đại khi hiệu đường đi bằng $k\lambda$. Ở đây $d_2-d_1=3\lambda$, nên M nằm trên cực đại giao thoa. Chọn **A**.
 
 ## Bài 2
+
+**Đáp án:** B
+
+**Hướng dẫn giải:**
+
+Với hai nguồn cùng pha, cực tiểu thỏa
+
+$d_2-d_1=(k+1/2)\lambda$.
+
 Chọn **B**.
 
 ## Bài 3
-Chọn **D** nếu bỏ qua suy giảm biên độ trên đường truyền.
+
+**Đáp án:** D
+
+**Hướng dẫn giải:**
+
+Hai sóng tới M cùng pha và mỗi sóng có biên độ $a$. Bỏ qua suy giảm biên độ, hai biên độ cộng đại số nên $A_M=a+a=2a$. Chọn **D**.
 
 ## Bài 4
-a) **Đúng**.  
-b) **Đúng**.  
-c) **Sai**: với hai nguồn cùng pha, trung trực có hiệu đường đi bằng 0 nên là cực đại.  
-d) **Đúng**.
+
+**Đáp án:** a) Đúng; b) Đúng; c) Sai; d) Đúng.
+
+**Hướng dẫn giải:**
+
+a) **Đúng.** Với hai nguồn cùng pha, cực đại thỏa $\Delta d=k\lambda$.
+
+b) **Đúng.** Cực tiểu thỏa $\Delta d=(k+1/2)\lambda$.
+
+c) **Sai.** Trên trung trực, $d_1=d_2$ nên $\Delta d=0$; với hai nguồn cùng pha đây là cực đại.
+
+d) **Đúng.** Hai nguồn kết hợp phải có cùng tần số và hiệu pha không đổi theo thời gian.
 
 ## Bài 5
-Hiệu đường đi $|d_2-d_1|=4$ cm $=2\lambda$, nên M là cực đại.
+
+**Đáp án:** Cực đại.
+
+**Hướng dẫn giải:**
+
+$|d_2-d_1|=|14-10|=4\,\mathrm{cm}=2\lambda$. Hiệu đường đi là bội nguyên của $\lambda$, nên M là cực đại.
 
 ## Bài 6
-$3,75/1,5=2,5=2+1/2$, nên điểm đó thuộc cực tiểu.
+
+**Đáp án:** Cực tiểu.
+
+**Hướng dẫn giải:**
+
+$|d_2-d_1|/\lambda=3{,}75/1{,}5=2{,}5=2+1/2$. Vì hiệu đường đi là nửa nguyên lần bước sóng, điểm đang xét là cực tiểu.
 
 ## Bài 7
-Trên đoạn AB, hiệu đường đi $|d_2-d_1|$ chạy từ 0 đến gần $AB=10$ cm. Cực đại khi $|d_2-d_1|=k\lambda$ với $k=0,1,2,3,4$ và gần $5$ thì trùng nguồn. Mỗi $k=1..4$ có hai vị trí đối xứng, $k=0$ có một vị trí giữa. Tổng $1+2\cdot4=9$ vị trí nội bộ.
+
+**Đáp án:** 9 điểm.
+
+**Hướng dẫn giải:**
+
+Trên đoạn AB, đặt gốc tại trung điểm; $|d_2-d_1|=2|x|$. Cực đại thỏa $2|x|=k\lambda$.
+
+Vì $AB=10\,\mathrm{cm}=5\lambda$, bỏ hai nguồn nên $k=0,1,2,3,4$. Với $k=0$ có một điểm giữa; mỗi $k=1,2,3,4$ cho hai điểm đối xứng. Tổng cộng $1+2\cdot4=9$ điểm.
 
 ## Bài 8
-Trên đoạn AB, đặt trục gốc tại trung điểm. Hiệu đường đi theo độ lớn là $|d_2-d_1|=2|x|$, biến thiên từ 0 đến nhỏ hơn $20$ cm.
 
-Cực tiểu: $2|x|=(k+1/2)\lambda=(k+1/2)4$ cm.
+**Đáp án:** 10 điểm.
 
-Cần $(k+1/2)4<20$, tức $k+1/2<5$. Với $k=0,1,2,3,4$, mỗi giá trị cho hai vị trí đối xứng. Vậy có $10$ điểm cực tiểu giữa A và B.
+**Hướng dẫn giải:**
+
+Cực tiểu trên đoạn AB thỏa
+
+$2|x|=(k+1/2)\lambda$.
+
+Với $AB=20\,\mathrm{cm}$ và $\lambda=4\,\mathrm{cm}$, điều kiện nằm giữa hai nguồn là $(k+1/2)\lambda<AB$, tức $k+1/2<5$. Có $k=0,1,2,3,4$; mỗi giá trị cho hai vị trí đối xứng. Vậy có $10$ điểm cực tiểu.
+
 
 ---
 
 [← Bài tập](exercises.md)
 
-## Bài 9–92
-
-Đáp án và lời giải của **Bài 9–92** đã được đặt trực tiếp dưới từng bài trong trang bài tập bằng nút **“Đáp án và lời giải”** để tránh tách đề, hình minh họa và lời giải sang nhiều vị trí khác nhau.
-
-[← Mở trang bài tập](exercises.md)

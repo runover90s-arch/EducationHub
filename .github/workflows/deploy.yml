@@ -39,6 +39,7 @@ jobs:
         run: |
           python tools/check_practice_bank.py
           python tools/check_pdf_import.py
+          python tools/check_solution_quality.py
           python tools/check_site.py
 
       - name: Configure GitHub Pages

@@ -118,7 +118,7 @@ trong mô hình bỏ qua tổn hao khác.
 
 ## 5. Ví dụ
 
-Thanh dài 0,40 m trượt đều với v=5 m/s trong B=0,50 T, tổng điện trở mạch R=2 Ω.
+Thanh dài $0,40\,\mathrm m$ trượt đều với $v=5\,\mathrm{m/s}$ trong B=0,50 T, tổng điện trở mạch $R=2\,\Omega$.
 
 Suất điện động:
 

@@ -41,14 +41,14 @@ $$
 ### Câu 7
 Góc B với mặt là 30°, nên góc với pháp tuyến là 60°.
 
-$S=200\times10^{-4}=0,020$ m²:
+$S=200\times10^{-4}=0,020\,\mathrm{m^2}$:
 
 $$
 \Phi=BS\cos60^\circ=0,20\cdot0,020\cdot0,5=2,0\times10^{-3}\,\text{Wb}.
 $$
 
 ### Câu 8
-$S=25\times10^{-4}=2,5\times10^{-3}$ m²:
+$S=25\times10^{-4}=2,5\times10^{-3}\,\mathrm{m^2}$:
 
 $$
 |\mathcal E|=NS\frac{\Delta B}{\Delta t}
@@ -104,7 +104,7 @@ $$
 P=Fv=0,060\cdot4=0,24\,\text W.
 $$
 
-Kiểm tra $I^2R=0,40^2\cdot1,5=0,24$ W.
+Kiểm tra $I^2R=0,40^2\cdot1,5=0,24\,\mathrm W$.
 
 ### Câu 14
 Từ thông mỗi vòng đổi từ BS về 0:
@@ -113,7 +113,7 @@ $$
 |\mathcal E|=N\frac{BS}{\Delta t}.
 $$
 
-$S=40\times10^{-4}=4,0\times10^{-3}$ m²:
+$S=40\times10^{-4}=4,0\times10^{-3}\,\mathrm{m^2}$:
 
 $$
 |\mathcal E|=100\frac{0,25\cdot4,0\times10^{-3}}{0,020}=5,0\,\text V.
@@ -125,7 +125,7 @@ $$
 \mathcal E_0=NBS\omega.
 $$
 
-$S=10^{-3}$ m²:
+$S=10^{-3}\,\mathrm{m^2}$:
 
 $$
 \mathcal E_0=500\cdot0,20\cdot10^{-3}\cdot100=10\,\text V.
@@ -229,7 +229,7 @@ $$
 \mathcal E=Blv=0,5\cdot0,4\cdot10=2,0\,\text V,
 $$
 
-nên I=2 A đúng. Lực từ:
+nên $I=2\,\mathrm A$ đúng. Lực từ:
 
 $$
 F=BIl=0,5\cdot2\cdot0,4=0,4\,\text N
@@ -249,7 +249,7 @@ $$
 I^2R=2^2\cdot1=4,0\,\text W.
 $$
 
-Vì vậy kết luận 2 W **sai**.
+Vì vậy kết luận $2\,\mathrm W$ **sai**.
 
 ### Câu 26
 Khi ngắt mạch, dòng qua cuộn muốn giảm rất nhanh nên $|dI/dt|$ lớn. Suất tự cảm

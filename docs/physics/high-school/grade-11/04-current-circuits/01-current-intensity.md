@@ -68,7 +68,7 @@ $$
 
 cho dòng không đổi.
 
-Đơn vị: ampere (A), với $1$ A = $1$ C/s.
+Đơn vị: ampere (A), với $1\,\mathrm A=1\,\mathrm{C/s}$.
 
 Với dòng biến thiên, công thức trên cho cường độ trung bình trên khoảng thời gian; mô tả tức thời cần khái niệm giới hạn.
 
@@ -89,9 +89,9 @@ N=\frac{q}{e}=\frac{It}{e}.
 $$
 
 ### Ví dụ
-Dòng 2 A chạy trong 5 s:
+Dòng $2\,\mathrm A$ chạy trong $5\,\mathrm s$:
 
-$q=10$ C.
+$q=10\,\mathrm C$.
 
 Số electron có độ lớn tương đương:
 
@@ -147,9 +147,9 @@ $$
 Ở mức bài phổ thông với đoạn thẳng/hằng số, ta tính bằng diện tích hình chữ nhật, tam giác, hình thang.
 
 ### Ví dụ
-I giảm đều từ 4 A về 0 trong 2 s. Diện tích tam giác:
+I giảm đều từ $4\,\mathrm A$ về 0 trong $2\,\mathrm s$. Diện tích tam giác:
 
-$q=\tfrac12\cdot2\cdot4=4$ C.
+$q=\tfrac12\cdot2\cdot4=4\,\mathrm C$.
 
 ## 9. Mật độ dòng điện
 
@@ -167,7 +167,7 @@ $$
     $q=It$ là lượng điện tích **đi qua tiết diện**, không phải điện tích toàn bộ dây dẫn.
 
 !!! warning "Đổi đơn vị"
-    mA = $10^{-3}$ A; $\mu$A = $10^{-6}$ A. Phút, giờ phải đổi sang giây khi dùng C/s.
+    mA = $10^{-3}\,\mathrm A$; $\mu\,\mathrm A=10^{-6}\,\mathrm A$. Phút, giờ phải đổi sang giây khi dùng C/s.
 
 ## Tóm tắt
 

@@ -17,7 +17,7 @@ tags:
 Chọn **A**, với $A_{ng}$ là công của lực lạ bên trong nguồn để dịch chuyển điện tích q.
 
 ## Bài 2
-Chọn **A**. Khi nguồn phát điện: $U=\mathcal E-Ir=12-2=10$ V.
+Chọn **A**. Khi nguồn phát điện: $U=\mathcal E-Ir=12-2=10\,\mathrm V$.
 
 ## Bài 3
 Chọn **C** vì sụt áp trong bằng 0.
@@ -26,32 +26,38 @@ Chọn **C** vì sụt áp trong bằng 0.
 Chọn **A**.
 
 ## Bài 5
-a) **Đúng**.  
-b) **Đúng**.  
-c) **Đúng**.  
-d) **Sai**: đơn vị vôn.
+a) **Đúng.** Với nguồn đang phát điện, định luật Ohm cho toàn mạch cho hiệu điện thế hai cực $U=\mathcal E-Ir$.
+
+b) **Đúng.** Từ $U=\mathcal E-Ir$, với $\mathcal E$ và $r$ cố định thì tăng $I$ làm sụt áp trong $Ir$ tăng và $U$ giảm.
+
+c) **Đúng.** Khi hở mạch $I=0$, nên từ $U=\mathcal E-Ir$ suy ra $U=\mathcal E$.
+
+d) **Sai.** đơn vị vôn.
 
 ## Bài 6
-a) **Đúng**.  
-b) **Đúng**.  
-c) **Sai**.  
-d) **Đúng**.
+a) **Đúng.** Theo định nghĩa suất điện động, $\mathcal E=A_{\text{lạ}}/q$.
+
+b) **Đúng.** Vì điện lượng qua nguồn là $q=It$ và $A_{ng}=\mathcal E q$, nên $A_{ng}=\mathcal E It$.
+
+c) **Sai.** Với tải $R$, hiệu suất nguồn $H=R/(R+r)$ nên tăng $r$ làm hiệu suất giảm, không phải luôn tăng.
+
+d) **Đúng.** Điện trở trong $r$ tiêu thụ công suất $P_{\text{hao}}=I^2r$, chuyển điện năng thành nhiệt trong nguồn.
 
 ## Bài 7
-$U=9-1,2\cdot0,5=8,4$ V.
+$U=9-1,2\cdot0,5=8,4\,\mathrm V$.
 
 ## Bài 8
-$\mathcal E\approx12$ V khi hở mạch. $r=(\mathcal E-U)/I=(12-11)/2=0,5\,\Omega$.
+$\mathcal E\approx12\,\mathrm V$ khi hở mạch. $r=(\mathcal E-U)/I=(12-11)/2=0,5\,\Omega$.
 
 ## Bài 9
-$t=120$ s. Công nguồn $A=\mathcal E It=6\cdot0,5\cdot120=360$ J. Nhiệt trên r: $Q=I^2rt=0,25\cdot1\cdot120=30$ J.
+$t=120\,\mathrm s$. Công nguồn $A=\mathcal E It=6\cdot0,5\cdot120=360\,\mathrm J$. Nhiệt trên r: $Q=I^2rt=0,25\cdot1\cdot120=30\,\mathrm J$.
 
 ## Bài 10
 Từ trạng thái đầu: $r=(12-11,5)/1=0,5\,\Omega$.
 
-Ở $I=3$ A:
+Ở $I=3\,\mathrm A$:
 
-$U=\mathcal E-Ir=12-3\cdot0,5=10,5$ V.
+$U=\mathcal E-Ir=12-3\cdot0,5=10,5\,\mathrm V$.
 
 Ta đã dùng giả thiết $\mathcal E$ và r không đổi trong khoảng làm việc.
 
@@ -59,8 +65,8 @@ Ta đã dùng giả thiết $\mathcal E$ và r không đổi trong khoảng làm
 
 [← Bài tập](exercises.md)
 
-## Bài 11–48
+## Bài 11–49
 
-Đáp án và lời giải của **Bài 11–48** đã được đặt trực tiếp dưới từng bài trong trang bài tập bằng nút **“Đáp án và lời giải”** để tránh tách đề, hình minh họa và lời giải sang nhiều vị trí khác nhau.
+Đáp án và lời giải của **Bài 11–49** đã được đặt trực tiếp dưới từng bài trong trang bài tập bằng nút **“Đáp án và lời giải”** để tránh tách đề, hình minh họa và lời giải sang nhiều vị trí khác nhau.
 
 [← Mở trang bài tập](exercises.md)

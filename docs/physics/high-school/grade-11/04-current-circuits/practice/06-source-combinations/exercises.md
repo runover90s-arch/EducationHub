@@ -9,7 +9,6 @@ tags:
 
 # Bài tập — Bài 6 — Ghép nguồn thành bộ
 
-> Hệ bài tập được biên soạn theo các dạng xuất hiện trong bộ tài liệu Vật lí 11 của dự án. Câu hỏi được giữ ngắn, trực tiếp; độ khó tăng dần và không cố tình thêm dữ kiện gây nhiễu.
 
 [← Trở lại bài học](../../06-source-combinations.md)
 
@@ -90,10 +89,13 @@ c) Ghép song song tùy ý các nguồn có suất điện động rất khác n
 d) Khi thiết kế bộ hỗn hợp đối xứng cần xét cả suất điện động và điện trở trong.
 
 ??? success "Đáp án và lời giải"
-    a) **Đúng**.
-    b) **Đúng**.
-    c) **Sai**: có thể xuất hiện dòng tuần hoàn lớn giữa nguồn.
-    d) **Đúng**.
+    a) **Đúng.** Các suất điện động và điện trở trong cộng đại số khi $n$ nguồn giống nhau mắc nối tiếp cùng chiều.
+
+    b) **Đúng.** Với $n$ nguồn giống nhau mắc song song đúng cực, suất điện động bộ bằng một nguồn còn điện trở trong tương đương là $r/n$.
+
+    c) **Sai.** có thể xuất hiện dòng tuần hoàn lớn giữa nguồn.
+
+    d) **Đúng.** Số nguồn nối tiếp quyết định suất điện động mỗi nhánh, còn số nhánh song song làm thay đổi điện trở trong tương đương; cả hai cùng chi phối dòng tải.
 
 ### Bài 6 — Mức 2 — Thông hiểu
 
@@ -108,39 +110,42 @@ c) Điện trở trong bộ là $nr/m$.
 d) Suất điện động bộ là $m\mathcal E$.
 
 ??? success "Đáp án và lời giải"
-    a) **Đúng**.
-    b) **Đúng**.
-    c) **Đúng**.
-    d) **Sai**: các nhánh song song cùng suất điện động $n\mathcal E$, nên suất điện động bộ bằng $n\mathcal E$.
+    a) **Đúng.** Bộ gồm $m$ nhánh song song, mỗi nhánh có $n$ nguồn nối tiếp nên tổng số nguồn là $N=mn$.
+
+    b) **Đúng.** Mỗi nhánh có $n$ nguồn giống nhau mắc nối tiếp cùng chiều nên suất điện động của nhánh bằng tổng $n\mathcal E$.
+
+    c) **Đúng.** Mỗi nhánh có điện trở trong $nr$; $m$ nhánh giống nhau mắc song song cho $r_b=(nr)/m$.
+
+    d) **Sai.** các nhánh song song cùng suất điện động $n\mathcal E$, nên suất điện động bộ bằng $n\mathcal E$.
 
 ## Phần C — Trả lời ngắn
 
 ### Bài 7 — Mức 3 — Vận dụng
 
-Bốn pin giống nhau, mỗi pin $1,5$ V, $r=0,5\,\Omega$, ghép nối tiếp. Tính $\mathcal E_b$, $r_b$.
+Bốn pin giống nhau, mỗi pin $1,5\,\mathrm V$, $r=0,5\,\Omega$, ghép nối tiếp. Tính $\mathcal E_b$, $r_b$.
 
 ??? success "Đáp án và lời giải"
-    $\mathcal E_b=4\cdot1,5=6$ V; $r_b=4\cdot0,5=2\,\Omega$.
+    $\mathcal E_b=4\cdot1,5=6\,\mathrm V$; $r_b=4\cdot0,5=2\,\Omega$.
 
 ### Bài 8 — Mức 3 — Vận dụng
 
 Bốn pin giống nhau như trên ghép song song. Tính $\mathcal E_b$, $r_b$.
 
 ??? success "Đáp án và lời giải"
-    $\mathcal E_b=1,5$ V; $r_b=0,5/4=0,125\,\Omega$.
+    $\mathcal E_b=1,5\,\mathrm V$; $r_b=0,5/4=0,125\,\Omega$.
 
 ### Bài 9 — Mức 3 — Vận dụng
 
-Sáu nguồn giống nhau $\mathcal E=2$ V, $r=1\,\Omega$ ghép thành 2 nhánh song song, mỗi nhánh 3 nguồn nối tiếp. Tính bộ nguồn.
+Sáu nguồn giống nhau $\mathcal E=2\,\mathrm V$, $r=1\,\Omega$ ghép thành 2 nhánh song song, mỗi nhánh 3 nguồn nối tiếp. Tính bộ nguồn.
 
 ??? success "Đáp án và lời giải"
-    Mỗi nhánh: $\mathcal E_n=3\cdot2=6$ V, $r_n=3\,\Omega$. Hai nhánh song song giống nhau: $\mathcal E_b=6$ V, $r_b=3/2=1,5\,\Omega$.
+    Mỗi nhánh: $\mathcal E_n=3\cdot2=6\,\mathrm V$, $r_n=3\,\Omega$. Hai nhánh song song giống nhau: $\mathcal E_b=6\,\mathrm V$, $r_b=3/2=1,5\,\Omega$.
 
 ## Phần D — Vận dụng và vận dụng cao
 
 ### Bài 10 — Mức 4 — Vận dụng cao
 
-Có 12 nguồn giống nhau, mỗi nguồn $\mathcal E=1,5$ V, $r=0,5\,\Omega$. Ghép thành m nhánh song song giống nhau, mỗi nhánh n nguồn nối tiếp, mn=12. Mạch ngoài R=$2\,\Omega$. So sánh dòng mạch chính cho các phương án n=1,2,3,4,6,12 và chọn phương án lớn nhất.
+Có 12 nguồn giống nhau, mỗi nguồn $\mathcal E=1,5\,\mathrm V$, $r=0,5\,\Omega$. Ghép thành m nhánh song song giống nhau, mỗi nhánh n nguồn nối tiếp, mn=12. Mạch ngoài $R=2\,\Omega$. So sánh dòng mạch chính cho các phương án n=1,2,3,4,6,12 và chọn phương án lớn nhất.
 
 ??? success "Đáp án và lời giải"
     Với cấu hình n nguồn nối tiếp mỗi nhánh và m=12/n nhánh song song:
@@ -151,12 +156,12 @@ Có 12 nguồn giống nhau, mỗi nguồn $\mathcal E=1,5$ V, $r=0,5\,\Omega$. 
 
     Tính nhanh:
 
-    - n=1: $I\approx0,735$ A.
-    - n=2: $I\approx1,385$ A.
-    - n=3: $I\approx1,895$ A.
-    - n=4: $I=6/(2+2/3)=2,25$ A.
-    - n=6: $I=9/(2+1,5)=2,571$ A.
-    - n=12: $I=18/(2+6)=2,25$ A.
+    - n=1: $I\approx0,735\,\mathrm A$.
+    - n=2: $I\approx1,385\,\mathrm A$.
+    - n=3: $I\approx1,895\,\mathrm A$.
+    - n=4: $I=6/(2+2/3)=2,25\,\mathrm A$.
+    - n=6: $I=9/(2+1,5)=2,571\,\mathrm A$.
+    - n=12: $I=18/(2+6)=2,25\,\mathrm A$.
 
     Trong các phương án nguyên cho trước, **n=6, m=2** cho dòng lớn nhất. Kết quả phù hợp nguyên tắc tối ưu khi điện trở trong bộ gần điện trở ngoài.
 
@@ -174,6 +179,7 @@ Nếu ghép 3 pin giống nhau nối tiếp thu được bộ nguồn $7{,}5\,\m
     **Đáp án:** $2{,}5\,\mathrm V$.
 
     **Hướng dẫn giải:**
+
     Khi ba pin giống nhau nối tiếp, $\xi_b=3\xi=7{,}5\,\mathrm V$, nên $\xi=2{,}5\,\mathrm V$.
 
     Khi ghép ba pin giống nhau song song, suất điện động của bộ bằng suất điện động của mỗi pin:
@@ -193,6 +199,7 @@ Trong việc thiết kế mạch điện, để có được các suất điện
     **Đáp án:** $1\,\Omega$.
 
     **Hướng dẫn giải:**
+
     Với bộ bốn pin nối tiếp:
     $U=\xi_b-Ir_b$.
 
@@ -207,49 +214,53 @@ Trong việc thiết kế mạch điện, để có được các suất điện
 
 <!-- source-id: BT-Chuong-IV-p62-q7-199 -->
 
-Một mạch điện có n nguồn điện giống nhau (ξ0; r0) mắc nối tiếp. Suất điện động và điện trở trong bộ
-nguồn tính theo công thức
+Một mạch điện có $n$ nguồn điện giống nhau $(\xi_0;r_0)$ mắc nối tiếp. Suất điện động và điện trở trong của bộ nguồn được tính theo công thức
 
-A. ξb = n.ξ0 ; rb = r0/n.
+A. $\xi_b=n\xi_0$; $r_b=r_0/n$.
 
-B. ξb = ξ0 ; rb = n.r0.
+B. $\xi_b=\xi_0$; $r_b=nr_0$.
 
-C. ξb = n.ξ0 ; rb = n.r0.
+C. $\xi_b=n\xi_0$; $r_b=nr_0$.
 
-D. ξb = ξ0 ; rb = r0/n.
+D. $\xi_b=\xi_0$; $r_b=r_0/n$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
+
     **Hướng dẫn giải:**
 
-    Tính suất điện động bộ và điện trở trong bộ theo đúng cách ghép nguồn, sau đó áp dụng định luật Ohm cho toàn mạch.
+    Với $n$ nguồn giống nhau mắc nối tiếp, các suất điện động cộng đại số và các điện trở trong cũng mắc nối tiếp:
+    $\xi_b=n\xi_0$ và $r_b=nr_0$.
 
+    Vì vậy chọn **C**.
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. ξb = n.ξ0 ; rb = n.r0.**
 #### Bài 14
 
 <!-- source-id: BT-Chuong-IV-p79-q10-244 -->
 
-Một nguồn điện với suất điện động ξ , điện trở trong r, mắc với một điện trở ngoài R = r thì cường độ
-dòng điện chạy trong mạch là I. Nếu thay nguồn điện đó bằng 3 nguồn điện giống hệt nó mắc nối tiếp thì cường
-độ dòng điện trong mạch
+Một nguồn điện có suất điện động $\xi$, điện trở trong $r$, mắc với điện trở ngoài $R=r$ thì cường độ dòng điện trong mạch là $I$. Nếu thay nguồn điện đó bằng 3 nguồn điện giống hệt nó mắc nối tiếp thì cường độ dòng điện trong mạch
 
-A. bằng 3I.
+A. bằng $3I$.
 
-B. bằng 2I.
+B. bằng $2I$.
 
-C. bằng 1,5I.
+C. bằng $1{,}5I$.
 
-D. bằng 2,5I.
+D. bằng $2{,}5I$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
+
     **Hướng dẫn giải:**
 
-    Tính suất điện động bộ và điện trở trong bộ theo đúng cách ghép nguồn, sau đó áp dụng định luật Ohm cho toàn mạch.
+    Ban đầu, vì $R=r$ nên
+    $I=\dfrac{\xi}{R+r}=\dfrac{\xi}{2r}$.
 
+    Ba nguồn giống nhau mắc nối tiếp có $\xi_b=3\xi$ và $r_b=3r$. Khi đó
+    $I'=\dfrac{3\xi}{R+3r}=\dfrac{3\xi}{4r}=\dfrac{3}{2}I=1{,}5I$.
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. bằng 1,5I.**
+    Vì vậy chọn **C**.
+
 #### Bài 15
 
 <!-- source-id: BT-Chuong-IV-p79-q11-245 -->
@@ -268,57 +279,61 @@ D. không ghép được.
     **Đáp án:** C
 
     **Hướng dẫn giải:**
+
     Với ba nguồn giống nhau mắc nối tiếp, $\xi_b=3\xi=3\cdot3=9\,\mathrm V$. Vì vậy chọn **C**.
+
 #### Bài 16
 
 <!-- source-id: BT-Chuong-IV-p80-q14-248 -->
 
-Có n nguồn điện giống nhau (ξ0; r0) mắc song song. Suất điện động và điện trở trong bộ nguồn tính
-theo công thức
+Có $n$ nguồn điện giống nhau $(\xi_0;r_0)$ mắc song song. Suất điện động và điện trở trong của bộ nguồn được tính theo công thức
 
-A. ξb = n. ξ0 ; rb = r0/n.
+A. $\xi_b=n\xi_0$; $r_b=r_0/n$.
 
-B. ξb = ξ0 ; rb = n.r0.
+B. $\xi_b=\xi_0$; $r_b=nr_0$.
 
-C. ξb = n. ξ0 ; rb = n.r.
+C. $\xi_b=n\xi_0$; $r_b=nr_0$.
 
-D. ξb = ξ0 ; rb = r0/n.
+D. $\xi_b=\xi_0$; $r_b=r_0/n$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
+
     **Hướng dẫn giải:**
 
-    Tính suất điện động bộ và điện trở trong bộ theo đúng cách ghép nguồn, sau đó áp dụng định luật Ohm cho toàn mạch.
+    Với các nguồn giống nhau mắc song song đúng cực, suất điện động của bộ bằng suất điện động của một nguồn, còn $n$ điện trở trong bằng nhau mắc song song:
+    $\xi_b=\xi_0$ và $r_b=r_0/n$.
 
+    Vì vậy chọn **D**.
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **D. ξb = ξ0 ; rb = r0/n.**
 #### Bài 17
 
 <!-- source-id: BT-Chuong-IV-p80-q16-250 -->
 
-Có một số nguồn giống nhau mắc nối tiếp vào mạch mạch ngoài có điện trở R = 10 Ω. Nếu dùng 6
-nguồn này thì cường độ dòng điện trong mạch là 3A. Nếu dùng 12 nguồn thì cường độ dòng điện trong mạch
-là 5A. Tính suất điện động và điện trở trong của mỗi nguồn.
+Có một số nguồn giống nhau mắc nối tiếp với mạch ngoài có điện trở $R=10\,\Omega$. Nếu dùng 6 nguồn thì cường độ dòng điện trong mạch là $3\,\mathrm A$. Nếu dùng 12 nguồn thì cường độ dòng điện trong mạch là $5\,\mathrm A$. Tính suất điện động và điện trở trong của mỗi nguồn.
 
-A. ξ = 6,25V, r = 5/12 Ω.
+A. $\xi=6{,}25\,\mathrm V$, $r=5/12\,\Omega$.
 
-B. ξ = 6,25V, r = 1,2 Ω.
+B. $\xi=6{,}25\,\mathrm V$, $r=1{,}2\,\Omega$.
 
-C. ξ = 12,5 V, r = 5/12 Ω.
+C. $\xi=12{,}5\,\mathrm V$, $r=5/12\,\Omega$.
 
-D. ξ = 12,5 V, r = 1,2 Ω.
+D. $\xi=12{,}5\,\mathrm V$, $r=1{,}2\,\Omega$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
+
     **Hướng dẫn giải:**
 
-    Tính suất điện động bộ và điện trở trong bộ theo đúng cách ghép nguồn, sau đó áp dụng định luật Ohm cho toàn mạch.
+    Với $n$ nguồn giống nhau mắc nối tiếp, $\xi_b=n\xi$, $r_b=nr$, nên $3=\dfrac{6\xi}{10+6r}$ và $5=\dfrac{12\xi}{10+12r}$.
 
-    Với 6 nguồn, cường độ dòng điện chạy trong mạch:
-    Với 12 nguồn, cường độ dòng điện chạy trong mạch:
-    Ta thu được hệ phương trình {
+    Từ đó $6\xi=30+18r$ và $12\xi=50+60r$. Nhân phương trình thứ nhất với 2 rồi so sánh với phương trình thứ hai:
+    $60+36r=50+60r$, suy ra $r=5/12\,\Omega$.
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. ξ = 6,25V, r = 5/12 Ω.**
+    Thế lại, $6\xi=30+18\cdot5/12=37{,}5$, nên $\xi=6{,}25\,\mathrm V$.
+
+    Vì vậy chọn **A**.
+
 #### Bài 18
 
 <!-- source-id: BT-Chuong-IV-p81-q17-251 -->
@@ -337,6 +352,7 @@ D. $18\,\mathrm V$.
     **Đáp án:** B
 
     **Hướng dẫn giải:**
+
     Khi ghép song song các nguồn giống nhau, suất điện động của bộ bằng suất điện động của mỗi nguồn: $\xi_b=\xi=9\,\mathrm V$. Chọn **B**.
 ### Nhận biết — Đúng/Sai
 
@@ -373,31 +389,31 @@ d) Cường độ dòng điện chạy trong mạch có giá trị là $4\,\math
 
 <!-- source-id: BT-Chuong-IV-p82-q2-254 -->
 
-Người ta mắc một bộ 5 pin giống nhau song song thì thu được một bộ nguồn có suất điện động 12 V và
-điện trở trong 0,4Ω. Mạch ngoài gồm 1 bóng đèn có điện trở R = 2 Ω.
+Người ta mắc một bộ 5 pin giống nhau song song thì thu được một bộ nguồn có suất điện động $12\,\mathrm V$ và
+điện trở trong $0,4\,\Omega$. Mạch ngoài gồm 1 bóng đèn có điện trở $R=2\,\Omega$.
 
-a) Mỗi pin có suất điện động là 12 V.
+a) Mỗi pin có suất điện động là $12\,\mathrm V$.
 
-b) Điện trở trong của mỗi pin là 0,4Ω.
+b) Điện trở trong của mỗi pin là $0,4\,\Omega$.
 
-c) Hiệu điện thế đặt vào hai đầu bóng đèn là 10V.
+c) Hiệu điện thế đặt vào hai đầu bóng đèn là $10\,\mathrm V$.
 
-d) Nếu ta mắc 5 pin nối tiếp nhau, cường độ dòng điện trong mạch khi này là 5A.
+d) Nếu ta mắc 5 pin nối tiếp nhau, cường độ dòng điện trong mạch khi này là $5\,\mathrm A$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** a) Đúng; b) Sai; c) Đúng; d) Đúng.
 
     **Hướng dẫn giải:**
 
-    Năm pin giống nhau mắc song song cho $\xi_b=\xi=12$ V và $r_b=r/5=0{,}4\ \Omega$.
+    Năm pin giống nhau mắc song song cho $\xi_b=\xi=12\,\mathrm V$ và $r_b=r/5=0{,}4\ \Omega$.
 
-    a) **Đúng.** Mỗi pin có suất điện động $\xi=12$ V.
+    a) **Đúng.** Mỗi pin có suất điện động $\xi=12\,\mathrm V$.
 
     b) **Sai.** $r=5r_b=5\cdot0{,}4=2\ \Omega$, không phải $0{,}4\ \Omega$.
 
-    c) **Đúng.** Với $R=2\ \Omega$, $I=12/(2+0{,}4)=5$ A và $U=IR=10$ V.
+    c) **Đúng.** Với $R=2\ \Omega$, $I=12/(2+0{,}4)=5\,\mathrm A$ và $U=IR=10\,\mathrm V$.
 
-    d) **Đúng.** Nếu mắc nối tiếp: $\xi'_b=5\xi=60$ V, $r'_b=5r=10\ \Omega$. Khi đó $I'=60/(2+10)=5$ A.
+    d) **Đúng.** Nếu mắc nối tiếp: $\xi'_b=5\xi=60\,\mathrm V$, $r'_b=5r=10\ \Omega$. Khi đó $I'=60/(2+10)=5\,\mathrm A$.
 ### Vận dụng — Trắc nghiệm 4 lựa chọn
 
 #### Bài 21

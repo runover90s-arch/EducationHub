@@ -1,6 +1,6 @@
 {
   "raw_detected": 2094,
-  "deduplicated_verified_imported": 1639,
+  "deduplicated_verified_imported": 1633,
   "by_lesson": {
     "01-oscillations/01-harmonic-oscillation-foundations": 109,
     "01-oscillations/02-displacement-velocity-acceleration": 52,
@@ -9,9 +9,9 @@
     "01-oscillations/05-simple-pendulum": 2,
     "01-oscillations/06-oscillation-energy": 153,
     "01-oscillations/07-combined-damped-forced-resonance": 75,
-    "02-waves/01-mechanical-wave-basics": 93,
-    "02-waves/02-wave-equation-phase-graphs": 57,
-    "02-waves/03-mechanical-interference": 84,
+    "02-waves/01-mechanical-wave-basics": 91,
+    "02-waves/02-wave-equation-phase-graphs": 56,
+    "02-waves/03-mechanical-interference": 81,
     "02-waves/04-standing-waves": 87,
     "02-waves/05-sound-waves": 51,
     "02-waves/06-electromagnetic-waves": 28,
@@ -82,6 +82,36 @@
       "alias_source_id": "BT-Chuong-I-p183-q16-469",
       "reason": "duplicate occurrence in source PDF",
       "source_variation": "Repeated occurrence prints mass unit g; its own substitution and answer use the kg-scale value. Canonical p166 occurrence prints kg."
+    },
+    {
+      "canonical_source_id": "BT-Chuong-II-p194-q4-428",
+      "alias_source_id": "BT-Chuong-II-p210-q1-483",
+      "reason": "duplicate occurrence in source PDF"
+    },
+    {
+      "canonical_source_id": "BT-Chuong-II-p195-q8-432",
+      "alias_source_id": "BT-Chuong-II-p211-q3-485",
+      "reason": "duplicate occurrence in source PDF"
+    },
+    {
+      "canonical_source_id": "BT-Chuong-II-p196-q10-434",
+      "alias_source_id": "BT-Chuong-II-p212-q9-491",
+      "reason": "duplicate occurrence in source PDF"
+    },
+    {
+      "canonical_source_id": "BT-Chuong-II-p212-q10-492",
+      "alias_source_id": "BT-Chuong-II-p129-q33-293",
+      "reason": "duplicate occurrence in source PDF"
+    },
+    {
+      "canonical_source_id": "BT-Chuong-II-p198-q6-445",
+      "alias_source_id": "BT-Chuong-II-p129-q32-292",
+      "reason": "duplicate occurrence in source PDF"
+    },
+    {
+      "canonical_source_id": "BT-Chuong-II-p127-q18-278",
+      "alias_source_id": "BT-Chuong-II-p213-q15-497",
+      "reason": "duplicate occurrence in source PDF"
     }
   ],
   "source_id_migrations": [
@@ -104,7 +134,6 @@
       "BT-Chuong-I-p183-q16-469"
     ],
     "B_source_error_correction_certain": [
-      "BT-Chuong-I-p29-q3-75",
       "BT-Chuong-I-p71-q35-194",
       "BT-Chuong-I-p105-q4-284",
       "BT-Chuong-I-p108-q9-295",
@@ -120,6 +149,18 @@
       "BT-Chuong-I-p148-q3-385",
       "BT-Chuong-III-p84-q13-219"
     ],
+    "C_source_ambiguity_not_uniquely_resolvable": []
+  },
+  "source_issue_resolutions_v23": {
+    "A_repo_error": [
+      "BT-Chuong-II-p210-q1-483",
+      "BT-Chuong-II-p211-q3-485",
+      "BT-Chuong-II-p212-q9-491",
+      "BT-Chuong-II-p129-q33-293",
+      "BT-Chuong-II-p129-q32-292",
+      "BT-Chuong-II-p213-q15-497"
+    ],
+    "B_source_error_correction_certain": [],
     "C_source_ambiguity_not_uniquely_resolvable": []
   }
 }

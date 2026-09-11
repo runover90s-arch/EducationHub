@@ -26,25 +26,31 @@ Chọn **B** nếu lực điện cùng chiều trọng lực.
 Chọn **B** vì lực đẩy Coulomb tăng.
 
 ## Bài 5
-a) **Đúng**.  
-b) **Đúng**.  
-c) **Sai**: hai gia tốc vuông góc nên $g_{hiệu}=\sqrt{g^2+(qE/m)^2}$.  
-d) **Đúng**.
+a) **Đúng.** Điều kiện cân bằng cơ học là hợp lực tác dụng lên vật bằng vectơ không.
+
+b) **Đúng.** Khi trọng lực và lực điện đều không đổi, tổng của chúng là một lực không đổi nên có thể biểu diễn như một trường hiệu dụng để xác định phương cân bằng.
+
+c) **Sai.** hai gia tốc vuông góc nên $g_{hiệu}=\sqrt{g^2+(qE/m)^2}$.
+
+d) **Đúng.** Đổi dấu $q$ làm lực điện $\vec F=q\vec E$ đổi hướng, nên phía lệch cân bằng cũng đổi.
 
 ## Bài 6
-a) **Đúng**.  
-b) **Đúng**.  
-c) **Sai**.  
-d) **Đúng**.
+a) **Đúng.** Với hai điện tích cùng dấu, lực Coulomb trên mỗi điện tích hướng ra xa điện tích kia nên là lực đẩy.
+
+b) **Đúng.** Theo phương ngang, gia tốc bằng $0$, nên thành phần ngang của lực căng phải cân bằng lực Coulomb.
+
+c) **Sai.** Góc cân bằng do tỉ số giữa lực điện và trọng lực quyết định; không thể bỏ $mg$ nếu đề không cho điều kiện khiến trọng lực không đáng kể.
+
+d) **Đúng.** Với cấu hình đối xứng, hình học cho khoảng cách ngang giữa hai quả cầu phụ thuộc trực tiếp vào chiều dài dây và góc lệch.
 
 ## Bài 7
-$qE=2\cdot10^{-6}\cdot5\cdot10^4=0,10$ N; $mg=0,20$ N. $\tan\theta=qE/(mg)=0,5$, nên $\theta\approx26,6^\circ$.
+$qE=2\cdot10^{-6}\cdot5\cdot10^4=0,10\,\mathrm N$; $mg=0,20\,\mathrm N$. $\tan\theta=qE/(mg)=0,5$, nên $\theta\approx26,6^\circ$.
 
 ## Bài 8
-$T=\sqrt{(mg)^2+(qE)^2}=\sqrt{0,20^2+0,10^2}=0,224$ N.
+$T=\sqrt{(mg)^2+(qE)^2}=\sqrt{0,20^2+0,10^2}=0,224\,\mathrm N$.
 
 ## Bài 9
-Gia tốc hiệu dụng $g'=g+qE/m=12$ m/s². $T=2\pi\sqrt{\ell/g'}=2\pi\sqrt{0,75/12}=2\pi\cdot0,25=\pi/2\approx1,57$ s.
+Gia tốc hiệu dụng $g'=g+qE/m=12\,\mathrm{m/s^2}$. $T=2\pi\sqrt{\ell/g'}=2\pi\sqrt{0,75/12}=2\pi\cdot0,25=\pi/2\approx1,57\,\mathrm s$.
 
 ## Bài 10
 Khoảng cách hai quả cầu với góc nhỏ: $r\approx2\ell\theta$.
@@ -61,7 +67,7 @@ $mg\theta=\frac{kq^2}{4\ell^2\theta^2}$,
 
 $\theta^3=\frac{kq^2}{4mg\ell^2}$.
 
-Thay số: $q=2\cdot10^{-7}$ C, $m=0,01$ kg, $\ell=0,5$ m:
+Thay số: $q=2\cdot10^{-7}\,\mathrm C$, $m=0,01\,\mathrm{kg}$, $\ell=0,5\,\mathrm m$:
 
 $\theta^3=\frac{9\cdot10^9\cdot4\cdot10^{-14}}{4\cdot0,01\cdot10\cdot0,25}=0,0036$.
 

@@ -17,7 +17,7 @@ tags:
 Chọn **A**.
 
 ## Bài 2
-Chọn **C**. $Q=CU=5\cdot12=60\,\mu$C.
+Chọn **C**. $Q=CU=5\cdot12=60\,\mu\,\mathrm C$.
 
 ## Bài 3
 Chọn **B**.
@@ -26,34 +26,40 @@ Chọn **B**.
 Chọn **C** vì $C=\varepsilon_0\varepsilon_r S/d$.
 
 ## Bài 5
-a) **Đúng**.  
-b) **Đúng**.  
-c) **Đúng** vì $Q=CU$.  
-d) **Sai**: $W=QU/2$.
+a) **Đúng.** Từ $C=Q/U$, đơn vị SI là $\mathrm{C/V}$ và được gọi là fara (F).
+
+b) **Đúng.** Điện dung là đặc trưng hình học-vật liệu của tụ; với tụ tuyến tính $C=Q/U$ giữ không đổi khi $Q$ và $U$ biến thiên tương ứng.
+
+c) **Đúng.** vì $Q=CU$.
+
+d) **Sai.** $W=QU/2$.
 
 ## Bài 6
-a) **Đúng**.  
-b) **Đúng**.  
-c) **Đúng**.  
-d) **Sai**: $U=Q/C$ nên U giảm.
+a) **Đúng.** Với tụ phẳng $C=\varepsilon_0\varepsilon_r S/d$, nên khi $d$ và điện môi không đổi thì $C\propto S$.
+
+b) **Đúng.** Từ $C=\varepsilon_0\varepsilon_r S/d$, giữ $S$ và điện môi cố định thì $C$ tỉ lệ nghịch với $d$.
+
+c) **Đúng.** Khi điện môi lấp đầy khe, $C=\varepsilon_r C_0$; với $\varepsilon_r>1$ thì điện dung tăng.
+
+d) **Sai.** $U=Q/C$ nên U giảm.
 
 ## Bài 7
-$Q=CU=20\cdot10^{-6}\cdot30=600\,\mu$C. $W=\frac12CU^2=0,5\cdot20\cdot10^{-6}\cdot900=9\cdot10^{-3}$ J.
+$Q=CU=20\cdot10^{-6}\cdot30=600\,\mu\,\mathrm C$. $W=\frac12CU^2=0,5\cdot20\cdot10^{-6}\cdot900=9\cdot10^{-3}\,\mathrm J$.
 
 ## Bài 8
 $C=Q/U=(80\,\mu\text{C})/(20\,\text{V})=4\,\mu\text{F}$.
 
 ## Bài 9
-Đổi $S=200$ $\mathrm{cm^2}$ $=0,02$ m², $d=10^{-3}$ m. $C=\varepsilon_0S/d=8,85\cdot10^{-12}\cdot0,02/10^{-3}=1,77\cdot10^{-10}$ F $=177$ pF.
+Đổi $S=200$ $\mathrm{cm^2}$ $=0,02\,\mathrm{m^2}$, $d=10^{-3}\,\mathrm m$. $C=\varepsilon_0S/d=8,85\cdot10^{-12}\cdot0,02/10^{-3}=1,77\cdot10^{-10}\,\mathrm F$ $=177$ pF.
 
 ## Bài 10
-Trước khi ngắt: $Q=CU=10\,\mu$F$\cdot100$ V $=1,0$ mC.
+Trước khi ngắt: $Q=CU=10\,\mu\,\mathrm F\cdot100\,\mathrm V$ $=1,0$ mC.
 
-Sau khi ngắt, tụ cô lập nên **Q bảo toàn**. Tăng khoảng cách gấp đôi làm $C'=C/2=5\,\mu$F.
+Sau khi ngắt, tụ cô lập nên **Q bảo toàn**. Tăng khoảng cách gấp đôi làm $C'=C/2=5\,\mu\,\mathrm F$.
 
-$U'=Q/C'=1,0\cdot10^{-3}/(5\cdot10^{-6})=200$ V.
+$U'=Q/C'=1,0\cdot10^{-3}/(5\cdot10^{-6})=200\,\mathrm V$.
 
-Năng lượng mới $W'=Q^2/(2C')=0,1$ J. Ban đầu $W=\frac12CU^2=0,05$ J. Năng lượng tăng vì ngoại lực thực hiện công khi kéo hai bản xa nhau.
+Năng lượng mới $W'=Q^2/(2C')=0,1\,\mathrm J$. Ban đầu $W=\frac12CU^2=0,05\,\mathrm J$. Năng lượng tăng vì ngoại lực thực hiện công khi kéo hai bản xa nhau.
 
 ---
 

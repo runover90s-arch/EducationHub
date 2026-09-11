@@ -149,7 +149,7 @@ Trong đoạn giữa, hai vectơ điện trường cùng chiều nên không tri
 ## 9. Ví dụ
 
 ### Ví dụ 1
-$q_1=2\,\mu$C, $q_2=-3\,\mu$C, $r=0,10$ m trong chân không.
+$q_1=2\,\mu\,\mathrm C$, $q_2=-3\,\mu\,\mathrm C$, $r=0,10\,\mathrm m$ trong chân không.
 
 $$
 F=9\times10^9\frac{2\times10^{-6}\cdot3\times10^{-6}}{0,10^2}
@@ -162,7 +162,7 @@ Hai điện tích trái dấu nên hút nhau.
 Giữ điện tích không đổi, $r$ giảm từ $r$ xuống $r/3$. Lực tăng 9 lần.
 
 ### Ví dụ 3 — Hai lực vuông góc
-Điện tích q chịu hai lực 3 N và 4 N vuông góc. Hợp lực 5 N.
+Điện tích q chịu hai lực $3\,\mathrm N$ và $4\,\mathrm N$ vuông góc. Hợp lực $5\,\mathrm N$.
 
 ## 10. Đơn vị và kiểm tra kết quả
 
@@ -170,7 +170,7 @@ Giữ điện tích không đổi, $r$ giảm từ $r$ xuống $r/3$. Lực tăn
 - khoảng cách đổi về m;
 - lực ra N.
 
-Nếu dùng $\mu$C và cm mà không đổi, sai thường rất lớn.
+Nếu dùng $\mu\,\mathrm C$ và cm mà không đổi, sai thường rất lớn.
 
 ## 11. Giới hạn mô hình
 

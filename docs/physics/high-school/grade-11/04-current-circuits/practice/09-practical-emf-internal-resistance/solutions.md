@@ -26,36 +26,42 @@ Chọn **B** vì hệ số góc là $-r$.
 Chọn **C** vì dòng ngắn mạch có thể rất lớn và làm nóng/hỏng nguồn, dây, dụng cụ.
 
 ## Bài 5
-a) **Đúng**.  
-b) **Đúng**.  
-c) **Đúng**.  
-d) **Sai**: một phương trình $U=\mathcal E-rI$ có hai ẩn.
+a) **Đúng.** Nhiều điểm đo cho phép khớp quan hệ $U=\mathcal E-rI$ thay vì suy ra tham số từ chỉ một phép đo dễ bị chi phối bởi sai số ngẫu nhiên.
+
+b) **Đúng.** Từ $U=\mathcal E-rI$, tại $I=0$ ta có $U=\mathcal E$, nên tung độ gốc của đồ thị cho suất điện động.
+
+c) **Đúng.** Quan hệ $U=\mathcal E-rI$ là đường thẳng có hệ số góc $-r$, nên độ lớn độ dốc bằng $r$.
+
+d) **Sai.** một phương trình $U=\mathcal E-rI$ có hai ẩn.
 
 ## Bài 6
-a) **Đúng**.  
-b) **Đúng**.  
-c) **Đúng** về mô hình.  
-d) **Sai** vì nguy cơ ngắn mạch; thường suy ra từ đường thẳng an toàn hơn.
+a) **Đúng.** Phương trình $U=\mathcal E-rI$ là hàm bậc nhất theo $I$ với hệ số góc âm $-r$.
+
+b) **Đúng.** Thế $I=0$ vào $U=\mathcal E-rI$ cho ngay $U=\mathcal E$.
+
+c) **Đúng.** về mô hình.
+
+d) **Sai.** vì nguy cơ ngắn mạch; thường suy ra từ đường thẳng an toàn hơn.
 
 ## Bài 7
-Từ $U=\mathcal E-rI$: $r=(U_1-U_2)/(I_2-I_1)=(5,7-5,1)/(1,5-0,5)=0,6\,\Omega$. $\mathcal E=U_1+rI_1=5,7+0,6\cdot0,5=6,0$ V.
+Từ $U=\mathcal E-rI$: $r=(U_1-U_2)/(I_2-I_1)=(5,7-5,1)/(1,5-0,5)=0,6\,\Omega$. $\mathcal E=U_1+rI_1=5,7+0,6\cdot0,5=6,0\,\mathrm V$.
 
 ## Bài 8
-$r=(8,7-8,1)/(1,8-0,6)=0,5\,\Omega$. $\mathcal E=8,7+0,5\cdot0,6=9,0$ V.
+$r=(8,7-8,1)/(1,8-0,6)=0,5\,\Omega$. $\mathcal E=8,7+0,5\cdot0,6=9,0\,\mathrm V$.
 
 ## Bài 9
-$U=3,0-0,40\cdot2,0=2,2$ V.
+$U=3,0-0,40\cdot2,0=2,2\,\mathrm V$.
 
 ## Bài 10
 Dùng đầu–cuối:
 
 $r\approx(5,82-5,20)/(2,0-0,5)=0,62/1,5\approx0,413\,\Omega$.
 
-$\mathcal E\approx U+rI=5,82+0,413\cdot0,5\approx6,03$ V.
+$\mathcal E\approx U+rI=5,82+0,413\cdot0,5\approx6,03\,\mathrm V$.
 
-Dự đoán tại I=1,0 A: $U\approx6,03-0,413=5,62$ V, rất gần 5,61 V.
+Dự đoán tại $I=1,0\,\mathrm A$: $U\approx6,03-0,413=5,62\,\mathrm V$, rất gần $5,61\,\mathrm V$.
 
-Tại I=1,5 A: $U\approx6,03-0,620=5,41$ V, gần 5,39 V.
+Tại $I=1,5\,\mathrm A$: $U\approx6,03-0,620=5,41\,\mathrm V$, gần $5,39\,\mathrm V$.
 
 Các điểm phù hợp với mô hình tuyến tính trong sai số đo nhỏ. Khi làm thực nghiệm thật, nên hồi quy tuyến tính toàn bộ dữ liệu thay vì chỉ hai điểm.
 

@@ -17,22 +17,25 @@ tags:
 Chọn **C**. Tần số do nguồn quyết định; tốc độ và bước sóng thay đổi theo môi trường.
 
 ## Bài 2
-Chọn **C** vì $\Delta L=10\log(I_2/I_1)=10$ dB suy ra $I_2/I_1=10$.
+Chọn **C** vì $\Delta L=10\log(I_2/I_1)=10\,\mathrm{dB}$ suy ra $I_2/I_1=10$.
 
 ## Bài 3
 Chọn **B**.
 
 ## Bài 4
-a) **Đúng**.  
-b) **Đúng** trong mô hình phổ thông.  
-c) **Sai**: độ to liên quan cường độ/mức cường độ, không đồng nhất với tần số.  
-d) **Đúng**.
+a) **Đúng.** Âm cần môi trường vật chất để truyền, nên thuộc loại sóng cơ.
+
+b) **Đúng.** trong mô hình phổ thông.
+
+c) **Sai.** độ to liên quan cường độ/mức cường độ, không đồng nhất với tần số.
+
+d) **Đúng.** Cường độ âm là công suất truyền qua một đơn vị diện tích, nên đơn vị SI là $\mathrm{W/m^2}$.
 
 ## Bài 5
-$\lambda=v/f=340/680=0,50$ m.
+$\lambda=v/f=340/680=0,50\,\mathrm m$.
 
 ## Bài 6
-$L=10\log(I/I_0)=10\log(10^6)=60$ dB.
+$L=10\log(I/I_0)=10\log(10^6)=60\,\mathrm{dB}$.
 
 ## Bài 7
 $I\propto1/r^2$. Vì $r$ tăng 3 lần nên cường độ giảm $3^2=9$ lần.
@@ -40,9 +43,9 @@ $I\propto1/r^2$. Vì $r$ tăng 3 lần nên cường độ giảm $3^2=9$ lần.
 ## Bài 8
 Với ống một đầu kín, các chiều dài cộng hưởng liên tiếp hơn kém nhau $\lambda/2$.
 
-$L_2-L_1=42-18=24$ cm $=\lambda/2$.
+$L_2-L_1=42-18=24\,\mathrm{cm}$ $=\lambda/2$.
 
-Suy ra $\lambda=48$ cm $=0,48$ m. Tần số $f=v/\lambda=336/0,48=700$ Hz.
+Suy ra $\lambda=48\,\mathrm{cm}$ $=0,48\,\mathrm m$. Tần số $f=v/\lambda=336/0,48=700\,\mathrm{Hz}$.
 
 ---
 

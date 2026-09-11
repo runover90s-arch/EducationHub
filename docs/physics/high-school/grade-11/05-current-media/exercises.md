@@ -27,13 +27,13 @@ tags:
 
 **Câu 6.** Một dây kim loại có $R_0=20\,\Omega$ ở 20°C, $\alpha=4,0\times10^{-3}\,\text{K}^{-1}$. Tính R ở 120°C theo mô hình tuyến tính.
 
-**Câu 7.** Cặp nhiệt điện có $\alpha_T=40\,\mu\text{V/K}$. Hai mối nối chênh nhau 200 K. Tính suất điện động.
+**Câu 7.** Cặp nhiệt điện có $\alpha_T=40\,\mu\text{V/K}$. Hai mối nối chênh nhau $200\,\mathrm K$. Tính suất điện động.
 
-**Câu 8.** Dòng 2 A qua bình điện phân trong 10 phút. Tính điện lượng qua bình.
+**Câu 8.** Dòng $2\,\mathrm A$ qua bình điện phân trong 10 phút. Tính điện lượng qua bình.
 
 ## Mức 2 — Thông hiểu
 
-**Câu 9.** Dòng 0,80 A qua dung dịch Cu$^{2+}$ trong 30 phút. Lấy $A_{Cu}=64$ g/mol, $F=96500$ C/mol. Tính khối lượng đồng bám ở catot.
+**Câu 9.** Dòng $0,80\,\mathrm A$ qua dung dịch Cu$^{2+}$ trong 30 phút. Lấy $A_{Cu}=64$ g/mol, $F=96500\,\mathrm{C/mol}$. Tính khối lượng đồng bám ở catot.
 
 **Câu 10.** Hai bình điện phân Ag$^+$ và Cu$^{2+}$ mắc nối tiếp. Cùng điện lượng đi qua. So sánh khối lượng Ag và Cu giải phóng, với $A_{Ag}=108$, $A_{Cu}=64$.
 
@@ -43,31 +43,31 @@ tags:
 
 **Câu 13.** Vì sao diode bán dẫn có thể dùng để chỉnh lưu?
 
-**Câu 14.** Dòng quang điện bão hòa là $8,0\,\mu$A. Tính số electron đến anot trong 1 s.
+**Câu 14.** Dòng quang điện bão hòa là $8,0\,\mu\,\mathrm A$. Tính số electron đến anot trong $1\,\mathrm s$.
 
 ## Mức 3 — Vận dụng
 
-**Câu 15.** Bóng đèn có điện trở 24 Ω ở 20°C. Khi sáng, điện trở 240 Ω. Lấy $\alpha=4,5\times10^{-3}\,\text{K}^{-1}$. Ước lượng nhiệt độ dây tóc theo mô hình tuyến tính.
+**Câu 15.** Bóng đèn có điện trở $24\,\Omega$ ở 20°C. Khi sáng, điện trở $240\,\Omega$. Lấy $\alpha=4,5\times10^{-3}\,\text{K}^{-1}$. Ước lượng nhiệt độ dây tóc theo mô hình tuyến tính.
 
-**Câu 16.** Một mối hàn cặp nhiệt điện ở 0°C, mối kia trong lò. Hệ số $50\,\mu$V/K, vôn kế chỉ 60 mV. Tính nhiệt độ lò theo mô hình tuyến tính.
+**Câu 16.** Một mối hàn cặp nhiệt điện ở 0°C, mối kia trong lò. Hệ số $50\,\mu\,\mathrm{V/K}$, vôn kế chỉ $60\,\mathrm{mV}$. Tính nhiệt độ lò theo mô hình tuyến tính.
 
-**Câu 17.** Bình điện phân AgNO$_3$ có dòng 0,25 A chạy trong 40 phút. Tính khối lượng Ag bám, lấy $A=108$, n=1.
+**Câu 17.** Bình điện phân AgNO$_3$ có dòng $0,25\,\mathrm A$ chạy trong 40 phút. Tính khối lượng Ag bám, lấy $A=108$, n=1.
 
 **Câu 18.** Hai bình Fe$^{3+}$ và Cu$^{2+}$ nối tiếp. Nếu 1,40 g Fe được giải phóng, tính khối lượng Cu tương ứng. Lấy Fe=56, Cu=64.
 
-**Câu 19.** Một dòng quang điện bão hòa 16 µA. Chùm sáng đơn sắc 400 nm có công suất 20 µW. Lấy $h=6,626\times10^{-34}$ J·s, $c=3,00\times10^8$ m/s. Tính hiệu suất đếm electron/photon theo mô hình đơn giản.
+**Câu 19.** Một dòng quang điện bão hòa 16 µA. Chùm sáng đơn sắc $400\,\mathrm{nm}$ có công suất 20 µW. Lấy $h=6,626\times10^{-34}\,\mathrm{J\,s}$, $c=3,00\times10^8\,\mathrm{m/s}$. Tính hiệu suất đếm electron/photon theo mô hình đơn giản.
 
 ## Mức 4 — Vận dụng cao
 
-**Câu 20.** Một bình điện phân có điện trở 6 Ω mắc nối tiếp điện trở 4 Ω với nguồn $\mathcal E=12$ V, $r=2\,\Omega$. Dung dịch Ag$^+$. Tính khối lượng Ag bám sau 32 phút 10 giây.
+**Câu 20.** Một bình điện phân có điện trở $6\,\Omega$ mắc nối tiếp điện trở $4\,\Omega$ với nguồn $\mathcal E=12\,\mathrm V$, $r=2\,\Omega$. Dung dịch Ag$^+$. Tính khối lượng Ag bám sau 32 phút 10 giây.
 
-**Câu 21.** Một dây kim loại có điện trở 10 Ω ở 20°C. Khi mắc vào nguồn 12 V, nhiệt độ tăng đến 220°C. Lấy $\alpha=4,0\times10^{-3}$ K$^{-1}$. Bỏ qua điện trở dây nối. Tính dòng cuối cùng và so với dòng ban đầu nếu giả sử nhiệt độ ban đầu đúng 20°C.
+**Câu 21.** Một dây kim loại có điện trở $10\,\Omega$ ở 20°C. Khi mắc vào nguồn $12\,\mathrm V$, nhiệt độ tăng đến 220°C. Lấy $\alpha=4,0\times10^{-3}\,\mathrm K^{-1}$. Bỏ qua điện trở dây nối. Tính dòng cuối cùng và so với dòng ban đầu nếu giả sử nhiệt độ ban đầu đúng 20°C.
 
-**Câu 22.** Một diode lí tưởng nối tiếp R=1 kΩ với nguồn 5 V. Tính dòng khi diode phân cực thuận. Nếu đảo diode thì dòng bằng bao nhiêu trong mô hình lí tưởng?
+**Câu 22.** Một diode lí tưởng nối tiếp $R=1\,\mathrm{k}\Omega$ với nguồn $5\,\mathrm V$. Tính dòng khi diode phân cực thuận. Nếu đảo diode thì dòng bằng bao nhiêu trong mô hình lí tưởng?
 
 **Câu 23.** Vì sao không thể mô tả tia lửa điện trong không khí bằng một điện trở R không đổi độc lập điện áp? Trả lời theo cơ chế hạt tải.
 
-**Câu 24.** Một tế bào quang điện có hiệu suất đếm 2%. Chùm photon 500 nm có công suất 1 mW chiếu vào. Tính dòng bão hòa lí tưởng hóa nếu mọi electron phát ra đều được thu.
+**Câu 24.** Một tế bào quang điện có hiệu suất đếm 2%. Chùm photon $500\,\mathrm{nm}$ có công suất 1 mW chiếu vào. Tính dòng bão hòa lí tưởng hóa nếu mọi electron phát ra đều được thu.
 
 ## Thử thách tư duy
 

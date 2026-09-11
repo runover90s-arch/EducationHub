@@ -117,7 +117,7 @@ Liên quan mạnh đến bức xạ nhiệt của các vật ở nhiệt độ t
 
 ### Ánh sáng nhìn thấy
 
-Khoảng 380–750 nm theo quy ước gần đúng.
+Khoảng 380–$750\,\mathrm{nm}$ theo quy ước gần đúng.
 
 ### Tử ngoại
 
@@ -133,11 +133,11 @@ Thường gắn với các quá trình hạt nhân/năng lượng cao. Có tần
 
 ## 9. Ví dụ chuyển đổi bước sóng–tần số
 
-Một bức xạ trong chân không có $\lambda=600$ nm.
+Một bức xạ trong chân không có $\lambda=600\,\mathrm{nm}$.
 
 Đổi:
 
-$600$ nm $=6,00\times10^{-7}$ m.
+$600\,\mathrm{nm}$ $=6,00\times10^{-7}\,\mathrm m$.
 
 Tần số:
 

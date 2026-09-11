@@ -20,40 +20,46 @@ Chọn **A** về định nghĩa vectơ.
 Chọn **B**.
 
 ## Bài 3
-Chọn **B**. $E=kQ/r^2=9\cdot10^9\cdot4\cdot10^{-6}/0,09=4\cdot10^5$ V/m.
+Chọn **B**. $E=kQ/r^2=9\cdot10^9\cdot4\cdot10^{-6}/0,09=4\cdot10^5\,\mathrm{V/m}$.
 
 ## Bài 4
 Chọn **A**; cũng có thể dùng V/m.
 
 ## Bài 5
-a) **Đúng**.  
-b) **Đúng**.  
-c) **Đúng** về cách biểu diễn.  
-d) **Sai**: hướng vào điện tích âm.
+a) **Đúng.** Đường sức được định nghĩa sao cho tiếp tuyến tại mỗi điểm có hướng trùng với vectơ $\vec E$ tại điểm đó.
+
+b) **Đúng.** Nếu hai đường sức cắt nhau thì tại giao điểm $\vec E$ phải có hai hướng khác nhau, trái với tính xác định duy nhất của điện trường.
+
+c) **Đúng.** về cách biểu diễn.
+
+d) **Sai.** hướng vào điện tích âm.
 
 ## Bài 6
-a) **Đúng**.  
-b) **Đúng**.  
-c) **Sai** trong định nghĩa điện trường nguồn; điện tích thử chỉ dùng để thăm dò.  
-d) **Đúng**.
+a) **Đúng.** Với điện tích điểm, $E=k|Q|/r^2$, nên ở cùng khoảng cách $E$ tỉ lệ với $|Q|$.
+
+b) **Đúng.** Từ $E=k|Q|/r^2$, giữ $Q$ không đổi thì cường độ điện trường giảm theo bình phương khoảng cách.
+
+c) **Sai.** trong định nghĩa điện trường nguồn; điện tích thử chỉ dùng để thăm dò.
+
+d) **Đúng.** Độ lớn phụ thuộc $|Q|$, còn hướng của $\vec E$ ra xa điện tích dương và hướng vào điện tích âm.
 
 ## Bài 7
-$E=9\cdot10^9\cdot2\cdot10^{-6}/0,15^2=8,0\cdot10^5$ V/m. Vì Q âm, vectơ $\vec E$ hướng từ điểm xét về Q.
+$E=9\cdot10^9\cdot2\cdot10^{-6}/0,15^2=8,0\cdot10^5\,\mathrm{V/m}$. Vì Q âm, vectơ $\vec E$ hướng từ điểm xét về Q.
 
 ## Bài 8
-$E=F/q=6\cdot10^{-5}/(2\cdot10^{-9})=3\cdot10^4$ V/m. Vì q dương, $\vec E$ cùng chiều lực: hướng Đông.
+$E=F/q=6\cdot10^{-5}/(2\cdot10^{-9})=3\cdot10^4\,\mathrm{V/m}$. Vì q dương, $\vec E$ cùng chiều lực: hướng Đông.
 
 ## Bài 9
-$F=|q|E=4\cdot10^{-6}\cdot500=2\cdot10^{-3}$ N. Vì q âm, lực ngược chiều $\vec E$.
+$F=|q|E=4\cdot10^{-6}\cdot500=2\cdot10^{-3}\,\mathrm N$. Vì q âm, lực ngược chiều $\vec E$.
 
 ## Bài 10
 Vì $E\propto1/r^2$:
 
-$E_2=E_1(r_1/r_2)^2=9\cdot10^4(0,20/0,30)^2=4\cdot10^4$ V/m.
+$E_2=E_1(r_1/r_2)^2=9\cdot10^4(0,20/0,30)^2=4\cdot10^4\,\mathrm{V/m}$.
 
 Từ $E_1=k|Q|/r_1^2$:
 
-$|Q|=E_1r_1^2/k=9\cdot10^4\cdot0,04/(9\cdot10^9)=4\cdot10^{-7}$ C $=0,4\,\mu$C.
+$|Q|=E_1r_1^2/k=9\cdot10^4\cdot0,04/(9\cdot10^9)=4\cdot10^{-7}\,\mathrm C$ $=0,4\,\mu\,\mathrm C$.
 
 ---
 

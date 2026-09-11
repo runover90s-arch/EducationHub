@@ -78,7 +78,7 @@ $$
 
 Cũng bằng $IR$ nếu mạch ngoài chỉ có R.
 
-Khi I=0 (mạch hở), U=$\mathcal E$ trong mô hình lí tưởng đo bằng vôn kế có điện trở rất lớn.
+Khi I=0 (mạch hở), $U=\mathcal E$ trong mô hình lí tưởng đo bằng vôn kế có điện trở rất lớn.
 
 ## 5. Nguồn đang được nạp
 
@@ -152,17 +152,17 @@ $$
 ## 9. Ví dụ
 
 ### Ví dụ 1
-Nguồn $\mathcal E=12$ V, r=1 Ω, mạch ngoài R=5 Ω.
+Nguồn $\mathcal E=12\,\mathrm V$, $r=1\,\Omega$, mạch ngoài $R=5\,\Omega$.
 
-$I=12/6=2$ A.
+$I=12/6=2\,\mathrm A$.
 
-$U=\mathcal E-Ir=10$ V.
+$U=\mathcal E-Ir=10\,\mathrm V$.
 
 ### Ví dụ 2
 Mạch hở: I≈0, U≈$\mathcal E$.
 
 ### Ví dụ 3
-Nguồn 9 V, dòng 0,5 A. Công suất nguồn 4,5 W.
+Nguồn $9\,\mathrm V$, dòng $0,5\,\mathrm A$. Công suất nguồn $4,5\,\mathrm W$.
 
 ## 10. Bẫy
 

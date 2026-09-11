@@ -128,7 +128,7 @@ Một vòng dây nằm yên trong từ trường đều không đổi, không qu
 
 ## 9. Ví dụ 1 — vòng quay
 
-Vòng diện tích $S=0,020$ m² trong B=0,30 T. Ban đầu pháp tuyến song song B; sau đó quay để pháp tuyến vuông góc B.
+Vòng diện tích $S=0,020\,\mathrm{m^2}$ trong B=0,30 T. Ban đầu pháp tuyến song song B; sau đó quay để pháp tuyến vuông góc B.
 
 Ban đầu:
 
@@ -152,7 +152,7 @@ $$
 
 ## 10. Ví dụ 2 — thay B
 
-Cuộn 100 vòng, diện tích mỗi vòng $10\,\text{cm}^2=1,0\times10^{-3}$ m², pháp tuyến song song B. B tăng từ 0,10 T lên 0,50 T.
+Cuộn 100 vòng, diện tích mỗi vòng $10\,\text{cm}^2=1,0\times10^{-3}\,\mathrm{m^2}$, pháp tuyến song song B. B tăng từ 0,10 T lên 0,50 T.
 
 Mỗi vòng:
 

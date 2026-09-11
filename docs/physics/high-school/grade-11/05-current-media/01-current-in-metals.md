@@ -136,7 +136,7 @@ Một chất siêu dẫn có thể đẩy từ trường ra khỏi phần thể 
 
 1. xác định hai nhiệt độ;
 2. dùng hiệu $T_2-T_1$;
-3. đổi $\mu$V/K hoặc mV/K sang V/K nếu cần;
+3. đổi $\mu\,\mathrm{V/K}$ hoặc mV/K sang V/K nếu cần;
 4. tính $\mathcal E$.
 
 ## Tóm tắt

@@ -9,7 +9,6 @@ tags:
 
 # Bài tập — Bài 8 — Kirchhoff, xếp chồng, nguồn tương đương và mạch RC
 
-> Hệ bài tập được biên soạn theo các dạng xuất hiện trong bộ tài liệu Vật lí 11 của dự án. Câu hỏi được giữ ngắn, trực tiếp; độ khó tăng dần và không cố tình thêm dữ kiện gây nhiễu.
 
 [← Trở lại bài học](../../08-advanced-circuit-methods.md)
 
@@ -90,10 +89,13 @@ c) Khi “tắt” nguồn áp lí tưởng trong xếp chồng, thay nó bằng
 d) Khi “tắt” nguồn dòng lí tưởng, thay bằng ngắn mạch.
 
 ??? success "Đáp án và lời giải"
-    a) **Đúng**.
-    b) **Đúng**.
-    c) **Đúng**.
-    d) **Sai**: nguồn dòng lí tưởng bị thay bằng hở mạch.
+    a) **Đúng.** Các định luật nút và vòng Kirchhoff được xây dựng để lập hệ phương trình dòng-áp cho mạch có nhiều nhánh và nhiều vòng kín.
+
+    b) **Đúng.** Trong mạch tuyến tính, đáp ứng tổng bằng tổng các đáp ứng do từng nguồn độc lập gây ra khi xét riêng từng nguồn.
+
+    c) **Đúng.** Nguồn áp lí tưởng bị đặt về $0\,\mathrm V$ tương đương hai cực cùng điện thế, tức một ngắn mạch.
+
+    d) **Sai.** nguồn dòng lí tưởng bị thay bằng hở mạch.
 
 ### Bài 6 — Mức 2 — Thông hiểu
 
@@ -108,39 +110,42 @@ c) Năng lượng tụ là $\frac12CU^2$.
 d) Tụ luôn tương đương ngắn mạch ở mọi thời điểm.
 
 ??? success "Đáp án và lời giải"
-    a) **Đúng**.
-    b) **Đúng**.
-    c) **Đúng**.
-    d) **Sai**.
+    a) **Đúng.** Vì $i=C\,du_C/dt$, một bước nhảy hữu hạn của $u_C$ trong thời gian bằng $0$ sẽ đòi hỏi dòng xung vô hạn.
+
+    b) **Đúng.** Ở trạng thái một chiều xác lập, điện áp trên tụ không đổi nên $du_C/dt=0$ và $i=C\,du_C/dt=0$.
+
+    c) **Đúng.** Năng lượng điện trường tích trong tụ tuyến tính được tính bởi $W=\tfrac12CU^2$.
+
+    d) **Sai.** Tụ chỉ có thể được xem gần như ngắn mạch trong một số thời điểm/quá trình thích hợp; ở xác lập DC lâu dài nó tương đương hở mạch.
 
 ## Phần C — Trả lời ngắn
 
 ### Bài 7 — Mức 3 — Vận dụng
 
-Tại một nút có dòng $I_1=2$ A và $I_2=1,5$ A đi vào; dòng $I_3=0,8$ A đi ra và dòng I4 chưa biết đi ra. Tính I4.
+Tại một nút có dòng $I_1=2\,\mathrm A$ và $I_2=1,5\,\mathrm A$ đi vào; dòng $I_3=0,8\,\mathrm A$ đi ra và dòng I4 chưa biết đi ra. Tính I4.
 
 ??? success "Đáp án và lời giải"
-    Bảo toàn điện tích tại nút: $I_1+I_2=I_3+I_4$. $I_4=2+1,5-0,8=2,7$ A.
+    Bảo toàn điện tích tại nút: $I_1+I_2=I_3+I_4$. $I_4=2+1,5-0,8=2,7\,\mathrm A$.
 
 ### Bài 8 — Mức 3 — Vận dụng
 
-Một nguồn Thévenin có $V_{th}=12$ V, $R_{th}=3\,\Omega$ cấp tải $R_L=9\,\Omega$. Tính dòng và áp tải.
+Một nguồn Thévenin có $V_{th}=12\,\mathrm V$, $R_{th}=3\,\Omega$ cấp tải $R_L=9\,\Omega$. Tính dòng và áp tải.
 
 ??? success "Đáp án và lời giải"
-    $I=V_{th}/(R_{th}+R_L)=12/12=1$ A. $U_L=IR_L=9$ V.
+    $I=V_{th}/(R_{th}+R_L)=12/12=1\,\mathrm A$. $U_L=IR_L=9\,\mathrm V$.
 
 ### Bài 9 — Mức 3 — Vận dụng
 
-Tụ $C=100\,\mu$F được nạp đến 20 V. Tính điện tích và năng lượng trước khi chuyển mạch.
+Tụ $C=100\,\mu\,\mathrm F$ được nạp đến $20\,\mathrm V$. Tính điện tích và năng lượng trước khi chuyển mạch.
 
 ??? success "Đáp án và lời giải"
-    $Q=CU=100\cdot10^{-6}\cdot20=2\cdot10^{-3}$ C. $W=\frac12CU^2=0,5\cdot100\cdot10^{-6}\cdot400=0,020$ J.
+    $Q=CU=100\cdot10^{-6}\cdot20=2\cdot10^{-3}\,\mathrm C$. $W=\frac12CU^2=0,5\cdot100\cdot10^{-6}\cdot400=0,020\,\mathrm J$.
 
 ## Phần D — Vận dụng và vận dụng cao
 
 ### Bài 10 — Mức 4 — Vận dụng cao
 
-Mạch hai vòng có một nguồn 12 V. Vòng trái gồm nguồn và R1=2 Ω; điện trở chung giữa hai vòng R3=4 Ω; vòng phải có R2=6 Ω. Chọn dòng vòng I1 theo chiều kim đồng hồ ở vòng trái và I2 theo chiều kim đồng hồ ở vòng phải, nên dòng qua R3 theo hướng vòng trái là I1-I2. Lập và giải hệ dòng vòng.
+Mạch hai vòng có một nguồn $12\,\mathrm V$. Vòng trái gồm nguồn và $R_1=2\,\Omega$; điện trở chung giữa hai vòng $R_3=4\,\Omega$; vòng phải có $R_2=6\,\Omega$. Chọn dòng vòng I1 theo chiều kim đồng hồ ở vòng trái và I2 theo chiều kim đồng hồ ở vòng phải, nên dòng qua R3 theo hướng vòng trái là I1-I2. Lập và giải hệ dòng vòng.
 
 ??? success "Đáp án và lời giải"
     Phương trình vòng trái:
@@ -155,9 +160,9 @@ Mạch hai vòng có một nguồn 12 V. Vòng trái gồm nguồn và R1=2 Ω; 
 
     $6(2,5I_2)-4I_2=12\Rightarrow11I_2=12$.
 
-    $I_2=12/11\approx1,091$ A; $I_1=30/11\approx2,727$ A.
+    $I_2=12/11\approx1,091\,\mathrm A$; $I_1=30/11\approx2,727\,\mathrm A$.
 
-    Dòng qua R3 theo hướng vòng trái: $I_3=I_1-I_2=18/11\approx1,636$ A.
+    Dòng qua R3 theo hướng vòng trái: $I_3=I_1-I_2=18/11\approx1,636\,\mathrm A$.
 
 ## Ngân hàng bài tập mở rộng
 
@@ -175,6 +180,7 @@ Cho sơ đồ mạch điện như hình vẽ, biết $\mathcal E=15\,\mathrm V$,
     **Đáp án:** $0{,}67\,\Omega$.
 
     **Hướng dẫn giải:**
+
     Điện trở mạch ngoài là $R_N=R_1\parallel R=\dfrac{2R}{2+R}$, nên
     $I=\dfrac{\mathcal E}{R_N+r}=\dfrac{15(2+R)}{3R+2}$.
 
@@ -203,7 +209,9 @@ D. Để giảm điện trở trong mạch.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** B
+
     **Hướng dẫn giải:**
+
     Cầu chì ngắt mạch khi dòng điện quá lớn, bảo vệ thiết bị khỏi hư hại
 
 #### Bài 13
@@ -224,6 +232,7 @@ D. $180\,\Omega$.
     **Đáp án:** B
 
     **Hướng dẫn giải:**
+
     Khi đèn sáng bình thường, $I=P/U=60/120=0{,}5\,\mathrm A$.
 
     Điện trở định mức của đèn là $R_\text{đ}=U^2/P=120^2/60=240\,\Omega$.

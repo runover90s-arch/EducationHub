@@ -107,7 +107,7 @@ Trên đồ thị $\Phi-t$, độ lớn suất điện động bằng N lần **
 
 ### Ví dụ
 
-Từ thông mỗi vòng giảm tuyến tính từ 5 mWb xuống 1 mWb trong 0,20 s, N=50:
+Từ thông mỗi vòng giảm tuyến tính từ 5 mWb xuống 1 mWb trong $0,20\,\mathrm s$, N=50:
 
 $$
 |\mathcal E|=50\frac{4\times10^{-3}}{0,20}=1,0\,\text V.
@@ -155,9 +155,9 @@ Nếu R tăng mà biến thiên từ thông giữ nguyên, suất điện độn
 
 ## 10. Ví dụ tổng hợp
 
-Cuộn N=200, S=25 cm² đặt vuông góc B. B giảm đều từ 0,80 T về 0 trong 0,10 s. Điện trở toàn cuộn R=4 Ω.
+Cuộn N=200, $S=25\,\mathrm{cm^2}$ đặt vuông góc B. B giảm đều từ 0,80 T về 0 trong $0,10\,\mathrm s$. Điện trở toàn cuộn $R=4\,\Omega$.
 
-$S=2,5\times10^{-3}$ m².
+$S=2,5\times10^{-3}\,\mathrm{m^2}$.
 
 Độ lớn suất điện động:
 

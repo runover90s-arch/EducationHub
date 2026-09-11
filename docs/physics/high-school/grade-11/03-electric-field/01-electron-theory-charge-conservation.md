@@ -73,7 +73,7 @@ $$
 $$
 
 ### Ví dụ
-Vật có $q=-3,204\times10^{-18}$ C:
+Vật có $q=-3,204\times10^{-18}\,\mathrm C$:
 
 $N=|q|/e=20$ electron thừa.
 
@@ -142,9 +142,9 @@ $$
 Điện tích không tự sinh ra hoặc mất đi trong các quá trình thông thường xét ở đây; nó được chuyển giữa các vật.
 
 ### Ví dụ
-Hai quả cầu giống nhau có $q_1=+6\,\mu$C, $q_2=-2\,\mu$C. Cho tiếp xúc rồi tách:
+Hai quả cầu giống nhau có $q_1=+6\,\mu\,\mathrm C$, $q_2=-2\,\mu\,\mathrm C$. Cho tiếp xúc rồi tách:
 
-Tổng $q=+4\,\mu$C. Hai quả cầu giống nhau nên mỗi quả có $+2\,\mu$C.
+Tổng $q=+4\,\mu\,\mathrm C$. Hai quả cầu giống nhau nên mỗi quả có $+2\,\mu\,\mathrm C$.
 
 ## 10. Hệ nhiều quả cầu giống nhau
 
@@ -165,27 +165,27 @@ Nếu hai vật **đẩy nhau**, trong mô hình tĩnh điện phổ thông có 
 ## 12. Ví dụ vận dụng
 
 ### Ví dụ 1 — Số electron
-Một vật có $q=+8,01\times10^{-19}$ C.
+Một vật có $q=+8,01\times10^{-19}\,\mathrm C$.
 
 $N=q/e=5$. Vật **thiếu 5 electron**.
 
 ### Ví dụ 2 — Tiếp xúc hai quả cầu giống nhau
-$q_1=10\,\mu$C, $q_2=-4\,\mu$C.
+$q_1=10\,\mu\,\mathrm C$, $q_2=-4\,\mu\,\mathrm C$.
 
-Sau tiếp xúc: mỗi quả $3\,\mu$C.
+Sau tiếp xúc: mỗi quả $3\,\mu\,\mathrm C$.
 
 ### Ví dụ 3 — Trình tự tiếp xúc
-A có $8\,\mu$C, B và C trung hòa, ba quả giống nhau. Cho A chạm B rồi B chạm C.
+A có $8\,\mu\,\mathrm C$, B và C trung hòa, ba quả giống nhau. Cho A chạm B rồi B chạm C.
 
-Sau A–B: A=B=$4\,\mu$C.  
-Sau B–C: B=C=$2\,\mu$C.  
-Cuối cùng: A=$4$, B=$2$, C=$2\,\mu$C.
+Sau A–B: A=$B=4\,\mu\,\mathrm C$.
+Sau B–C: $B=C=2\,\mu\,\mathrm C$.
+Cuối cùng: A=$4$, $B=2$, $C=2\,\mu\,\mathrm C$.
 
-Tổng vẫn $8\,\mu$C.
+Tổng vẫn $8\,\mu\,\mathrm C$.
 
 ## Tóm tắt
 
-- $e\approx1,602\times10^{-19}$ C.
+- $e\approx1,602\times10^{-19}\,\mathrm C$.
 - $q=ne$.
 - Nhiễm âm: thừa electron; nhiễm dương: thiếu electron.
 - Hưởng ứng là phân bố lại điện tích, không nhất thiết đổi tổng điện tích.

@@ -9,7 +9,6 @@ tags:
 
 # Bài tập — Bài 2 — Lực từ tác dụng lên dòng điện
 
-> Hệ bài tập được biên soạn theo các dạng xuất hiện trong bộ tài liệu Vật lí 11 của dự án. Câu hỏi được giữ ngắn, trực tiếp; độ khó tăng dần và không cố tình thêm dữ kiện gây nhiễu.
 
 [← Trở lại bài học](../../02-magnetic-force-current-wire.md)
 
@@ -17,103 +16,152 @@ tags:
 
 ### Bài 1 — Mức 1 — Nhận biết
 
-Lực từ lên đoạn dây dài l có dòng I trong từ trường đều B có độ lớn
+Độ lớn lực từ tác dụng lên đoạn dây thẳng dài $\ell$ mang dòng điện $I$ trong từ trường đều $B$ là
 
-A. $F=BIl\sin\alpha$.
+A. $F=BI\ell\sin\alpha$.
 
-B. $F=BIl\cos\alpha$ trong mọi trường hợp.
+B. $F=BI\ell\cos\alpha$ trong mọi trường hợp.
 
-C. $F=BI/l$.
+C. $F=BI/\ell$.
 
 D. $F=B/I$.
 
 ??? success "Đáp án và lời giải"
-    Chọn **A**, với α là góc giữa chiều dòng điện và $\vec B$.
+    **Đáp án:** A.
+
+    **Hướng dẫn giải:**
+
+    Với đoạn dây thẳng trong từ trường đều, lực từ có độ lớn
+
+    $F=BI\ell\sin\alpha$,
+
+    trong đó $\alpha$ là góc giữa chiều dòng điện và $\vec B$. Vì vậy chọn **A**.
 
 ### Bài 2 — Mức 1 — Nhận biết
 
-Dây dẫn song song với $\vec B$ thì lực từ
+Đoạn dây có dòng điện song song với $\vec B$ thì lực từ
 
 A. cực đại.
 
 B. bằng 0.
 
-C. bằng BIl.
+C. bằng $BI\ell$.
 
 D. không xác định.
 
 ??? success "Đáp án và lời giải"
-    Chọn **B** vì $\sin0=0$.
+    **Đáp án:** B.
+
+    **Hướng dẫn giải:**
+
+    Khi dây song song với $\vec B$, góc $\alpha=0^\circ$ hoặc $180^\circ$. Do $\sin\alpha=0$ nên $F=BI\ell\sin\alpha=0$. Vì vậy chọn **B**.
 
 ### Bài 3 — Mức 1 — Nhận biết
 
-Dây vuông góc với $\vec B$ thì lực từ
+Đoạn dây có dòng điện vuông góc với $\vec B$ thì lực từ
 
 A. bằng 0.
 
-B. có độ lớn BIl.
+B. có độ lớn $BI\ell$.
 
-C. bằng BI/l.
+C. bằng $BI/\ell$.
 
-D. chỉ phụ thuộc l.
+D. chỉ phụ thuộc $\ell$.
 
 ??? success "Đáp án và lời giải"
-    Chọn **B**.
+    **Đáp án:** B.
+
+    **Hướng dẫn giải:**
+
+    Khi dây vuông góc với $\vec B$, $\alpha=90^\circ$ nên $\sin\alpha=1$. Vì vậy $F=BI\ell$, chọn **B**.
 
 ## Phần B — Đúng/Sai
 
 ### Bài 4 — Mức 2 — Thông hiểu
 
-Lực từ lên dây có dòng:
+Lực từ tác dụng lên đoạn dây có dòng điện trong từ trường:
 
-a) Vuông góc cả chiều dòng và $\vec B$.
+a) Khi lực từ khác 0, phương của lực vuông góc với cả chiều dòng điện và $\vec B$.
 
-b) Đổi chiều dòng làm lực đảo chiều.
+b) Đổi chiều dòng điện, giữ nguyên các yếu tố khác, thì lực từ đổi chiều.
 
-c) Đổi chiều $\vec B$ làm lực đảo chiều.
+c) Đổi chiều $\vec B$, giữ nguyên các yếu tố khác, thì lực từ đổi chiều.
 
-d) Tăng I gấp đôi, các yếu tố khác giữ nguyên, lực không đổi.
+d) Tăng $I$ gấp đôi, các yếu tố khác giữ nguyên, thì độ lớn lực từ không đổi.
 
 ??? success "Đáp án và lời giải"
-    a) **Đúng**.
-    b) **Đúng**.
-    c) **Đúng**.
-    d) **Sai**: lực tăng gấp đôi.
+    **Đáp án:** a) Đúng; b) Đúng; c) Đúng; d) Sai.
+
+    **Hướng dẫn giải:**
+
+    a) **Đúng.** Từ $\vec F=I\vec\ell\times\vec B$, khi $\vec F\ne\vec0$, vectơ lực vuông góc với cả $\vec\ell$ và $\vec B$.
+
+    b) **Đúng.** Đổi chiều dòng điện làm $\vec\ell$ đổi chiều, nên tích có hướng và $\vec F$ đổi chiều.
+
+    c) **Đúng.** Đổi chiều $\vec B$ cũng làm tích có hướng đổi dấu, nên $\vec F$ đảo chiều.
+
+    d) **Sai.** Với $B$, $\ell$ và $\alpha$ không đổi, $F=BI\ell\sin\alpha\propto I$. Tăng $I$ gấp đôi làm lực tăng gấp đôi.
 
 ## Phần C — Trả lời ngắn
 
 ### Bài 5 — Mức 3 — Vận dụng
 
-Đoạn dây dài $0,20$ m mang dòng 5 A đặt vuông góc từ trường $B=0,40$ T. Tính lực từ.
+Đoạn dây dài $0{,}20\,\mathrm m$ mang dòng $5\,\mathrm A$ đặt vuông góc với từ trường đều $B=0{,}40\,\mathrm T$. Tính lực từ.
 
 ??? success "Đáp án và lời giải"
-    $F=BIl=0,40\cdot5\cdot0,20=0,40$ N.
+    **Đáp án:** $F=0{,}40\,\mathrm N$.
+
+    **Hướng dẫn giải:**
+
+    Dây vuông góc với $\vec B$ nên $\sin\alpha=1$. Do đó
+
+    $F=BI\ell=0{,}40\cdot5\cdot0{,}20=0{,}40\,\mathrm N$.
 
 ### Bài 6 — Mức 3 — Vận dụng
 
-Dây dài $0,50$ m mang dòng 2 A trong từ trường 0,30 T, hợp với $\vec B$ góc $30^\circ$. Tính lực.
+Dây dài $0{,}50\,\mathrm m$ mang dòng $2\,\mathrm A$ trong từ trường $B=0{,}30\,\mathrm T$, hợp với $\vec B$ góc $30^\circ$. Tính lực từ.
 
 ??? success "Đáp án và lời giải"
-    $F=BIl\sin30^\circ=0,30\cdot2\cdot0,50\cdot0,5=0,15$ N.
+    **Đáp án:** $F=0{,}15\,\mathrm N$.
+
+    **Hướng dẫn giải:**
+
+    Áp dụng $F=BI\ell\sin\alpha$ với $\alpha=30^\circ$:
+
+    $F=0{,}30\cdot2\cdot0{,}50\cdot\sin30^\circ=0{,}15\,\mathrm N$.
 
 ### Bài 7 — Mức 3 — Vận dụng
 
-Một đoạn dây chịu lực $0,12$ N khi vuông góc B. Biết I=3 A, l=0,20 m. Tính B.
+Một đoạn dây chịu lực từ $0{,}12\,\mathrm N$ khi vuông góc với từ trường. Biết $I=3\,\mathrm A$, $\ell=0{,}20\,\mathrm m$. Tính $B$.
 
 ??? success "Đáp án và lời giải"
-    $B=F/(Il)=0,12/(3\cdot0,20)=0,20$ T.
+    **Đáp án:** $B=0{,}20\,\mathrm T$.
+
+    **Hướng dẫn giải:**
+
+    Vì dây vuông góc với từ trường, $F=BI\ell$. Suy ra
+
+    $B=\frac{F}{I\ell}=\frac{0{,}12}{3\cdot0{,}20}=0{,}20\,\mathrm T$.
 
 ## Phần D — Vận dụng và vận dụng cao
 
 ### Bài 8 — Mức 4 — Vận dụng cao
 
-Một thanh dẫn dài $0,40$ m, khối lượng $20$ g nằm ngang trong từ trường đều thẳng đứng. Dòng điện chạy qua thanh theo phương vuông góc B sao cho lực từ hướng lên. Lấy $B=0,50$ T, $g=10$ m/s². Tính dòng để thanh vừa cân bằng trọng lực.
+Một thanh dẫn thẳng dài $0{,}40\,\mathrm m$, khối lượng $20\,\mathrm g$ nằm ngang trong một từ trường đều cũng nằm ngang và vuông góc với thanh. Dòng điện chạy dọc theo thanh và có chiều sao cho lực từ hướng thẳng đứng lên trên. Lấy $B=0{,}50\,\mathrm T$, $g=10\,\mathrm{m/s^2}$. Tính cường độ dòng điện để thanh vừa cân bằng trọng lực.
 
 ??? success "Đáp án và lời giải"
-    Cần $F_t=mg$.
+    **Đáp án:** $I=1{,}0\,\mathrm A$.
 
-    $BIl=mg$ vì dây vuông góc B.
+    **Hướng dẫn giải:**
 
-    $I=mg/(Bl)=0,020\cdot10/(0,50\cdot0,40)=1,0$ A.
+    Đổi khối lượng: $m=20\,\mathrm g=0{,}020\,\mathrm{kg}$. Thanh vuông góc với $\vec B$ nên lực từ có độ lớn $F_t=BI\ell$.
 
-    Chiều dòng phải chọn theo quy tắc bàn tay sao cho lực từ hướng lên.
+    Để thanh cân bằng, lực từ hướng lên phải cân bằng trọng lực:
+
+    $BI\ell=mg$.
+
+    Suy ra
+
+    $I=\frac{mg}{B\ell}=\frac{0{,}020\cdot10}{0{,}50\cdot0{,}40}=1{,}0\,\mathrm A$.
+
+    Chiều dòng điện được chọn theo quy tắc bàn tay trái, tương đương với yêu cầu $I\vec\ell\times\vec B$ hướng lên trên.

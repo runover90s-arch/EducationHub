@@ -100,7 +100,7 @@ Trong miền nhìn thấy:
 - liên quan mạnh đến bức xạ nhiệt của các vật;
 - ứng dụng cảm biến nhiệt, điều khiển từ xa, ảnh nhiệt.
 
-Không nên nói “hồng ngoại chỉ do vật nóng phát ra”; mọi vật ở nhiệt độ trên 0 K có bức xạ nhiệt với phổ phụ thuộc nhiệt độ.
+Không nên nói “hồng ngoại chỉ do vật nóng phát ra”; mọi vật ở nhiệt độ trên $0\,\mathrm K$ có bức xạ nhiệt với phổ phụ thuộc nhiệt độ.
 
 ## 8. Tử ngoại
 
@@ -130,16 +130,16 @@ Trong vật lí hiện đại, cách phân biệt đáng tin cậy thường d�
 ## 11. Ví dụ
 
 ### Ví dụ 1
-Sóng điện từ trong chân không có $f=100$ MHz.
+Sóng điện từ trong chân không có $f=100\,\mathrm{MHz}$.
 
-Đổi $f=10^8$ Hz:
+Đổi $f=10^8\,\mathrm{Hz}$:
 
 $$
 \lambda=\frac{c}{f}=3\ \text{m}.
 $$
 
 ### Ví dụ 2
-Ánh sáng có $\lambda=600$ nm trong chân không. Tần số:
+Ánh sáng có $\lambda=600\,\mathrm{nm}$ trong chân không. Tần số:
 
 $$
 f=\frac{3\times10^8}{600\times10^{-9}}
@@ -165,7 +165,7 @@ $$
 ## 5 điều cần nhớ
 
 1. Điện từ trường lan truyền, không cần môi trường vật chất.
-2. Tốc độ chân không khoảng $3\times10^8$ m/s.
+2. Tốc độ chân không khoảng $3\times10^8\,\mathrm{m/s}$.
 3. Sóng điện từ là sóng ngang.
 4. Đỏ có bước sóng dài hơn tím trong vùng nhìn thấy.
 5. Tia X và gamma đều là bức xạ ion hóa năng lượng cao, cần kiểm soát an toàn.

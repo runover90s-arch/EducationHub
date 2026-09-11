@@ -144,14 +144,14 @@ $$
 
 ## 7. Ví dụ — proton chuyển động tròn
 
-Proton có $m=1,67\times10^{-27}$ kg, $q=1,60\times10^{-19}$ C, vận tốc $2,0\times10^6$ m/s vuông góc với $B=0,20$ T.
+Proton có $m=1,67\times10^{-27}\,\mathrm{kg}$, $q=1,60\times10^{-19}\,\mathrm C$, vận tốc $2,0\times10^6\,\mathrm{m/s}$ vuông góc với $B=0,20$ T.
 
 $$
 r=\frac{1,67\times10^{-27}\cdot2,0\times10^6}{1,60\times10^{-19}\cdot0,20}
 \approx0,104\,\text m.
 $$
 
-Bán kính khoảng 10,4 cm.
+Bán kính khoảng $10,4\,\mathrm{cm}$.
 
 ## 8. Ví dụ — electron và proton cùng tốc độ
 

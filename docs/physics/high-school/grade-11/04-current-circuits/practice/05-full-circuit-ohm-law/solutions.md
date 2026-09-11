@@ -14,7 +14,7 @@ tags:
 [← Bài tập](exercises.md)
 
 ## Bài 1
-Chọn **B**. $I=\mathcal E/(R+r)=12/6=2$ A.
+Chọn **B**. $I=\mathcal E/(R+r)=12/6=2\,\mathrm A$.
 
 ## Bài 2
 Chọn **A** vì $H=P_{ngoài}/P_{nguồn}=UI/(\mathcal EI)=U/\mathcal E=R/(R+r)$.
@@ -26,25 +26,31 @@ Chọn **B** trong mô hình nguồn có điện trở trong r.
 Chọn **B** theo định lí truyền công suất cực đại.
 
 ## Bài 5
-a) **Đúng**.  
-b) **Đúng**.  
-c) **Sai**.  
-d) **Đúng**.
+a) **Đúng.** Định luật Ohm cho toàn mạch với tải $R$ và điện trở trong $r$ cho $I=\mathcal E/(R+r)$.
+
+b) **Đúng.** Hiệu điện thế trên tải là $U_R=IR$ và cũng bằng hiệu điện thế hai cực nguồn $\mathcal E-Ir$.
+
+c) **Sai.** Từ $I=\mathcal E/(R+r)$, khi $\mathcal E,r$ không đổi thì tăng $R$ làm $I$ giảm.
+
+d) **Đúng.** Khi $R\to\infty$, $I=\mathcal E/(R+r)\to0$, nên sụt áp $Ir\to0$ và $U=\mathcal E-Ir\to\mathcal E$.
 
 ## Bài 6
-a) **Đúng**.  
-b) **Đúng**.  
-c) **Đúng**.  
-d) **Sai**: khi R=r thì $H=R/(R+r)=1/2=50\%$.
+a) **Đúng.** Với tải $R$, công suất mạch ngoài $P=\mathcal E^2R/(R+r)^2$ nên tại $R=0$ ta có $P=0$.
+
+b) **Đúng.** Từ $P=\mathcal E^2R/(R+r)^2$, khi $R\to\infty$ thì $P\sim\mathcal E^2/R\to0$.
+
+c) **Đúng.** Định lí truyền công suất cực đại cho nguồn có điện trở trong $r$: công suất tải đạt cực đại khi $R=r$.
+
+d) **Sai.** khi R=r thì $H=R/(R+r)=1/2=50\%$.
 
 ## Bài 7
-$I=9/(8+1)=1$ A. $U=IR=8$ V. $H=U/\mathcal E=8/9\approx88,9\%$.
+$I=9/(8+1)=1\,\mathrm A$. $U=IR=8\,\mathrm V$. $H=U/\mathcal E=8/9\approx88,9\%$.
 
 ## Bài 8
 $R+r=\mathcal E/I=6\,\Omega$, nên $r=1\,\Omega$.
 
 ## Bài 9
-Cực đại khi $R=r=3\,\Omega$. $P_{max}=\mathcal E^2/(4r)=144/12=12$ W.
+Cực đại khi $R=r=3\,\Omega$. $P_{max}=\mathcal E^2/(4r)=144/12=12\,\mathrm W$.
 
 ## Bài 10
 Ta có

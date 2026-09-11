@@ -9,8 +9,6 @@ tags:
 
 # Bài tập — Bài 4 — Sóng dừng
 
-> Hệ bài tập được biên soạn theo các dạng xuất hiện trong bộ tài liệu Vật lí 11 của dự án. Câu hỏi được giữ ngắn, trực tiếp; độ khó tăng dần và không cố tình thêm dữ kiện gây nhiễu.
-
 [← Trở lại bài học](../../04-standing-waves.md)
 
 ## Phần A — Trắc nghiệm 4 lựa chọn
@@ -28,7 +26,15 @@ C. $L=(2k+1)\lambda/4$.
 D. $L=\lambda/8$.
 
 ??? success "Đáp án và lời giải"
-    Chọn **B**, với $k=1,2,3,\ldots$
+    **Đáp án:** B
+
+    **Hướng dẫn giải:**
+
+    Dây hai đầu cố định có hai đầu là nút. Điều kiện sóng dừng là
+
+    $L=k\dfrac{\lambda}{2},\qquad k=1,2,3,\ldots$
+
+    nên chọn **B**.
 
 ### Bài 2 — Mức 1 — Nhận biết
 
@@ -43,7 +49,11 @@ C. $\lambda$.
 D. $2\lambda$.
 
 ??? success "Đáp án và lời giải"
-    Chọn **B**.
+    **Đáp án:** B
+
+    **Hướng dẫn giải:**
+
+    Hai nút liên tiếp cách nhau nửa bước sóng, tức $\lambda/2$. Chọn **B**.
 
 ### Bài 3 — Mức 1 — Nhận biết
 
@@ -58,7 +68,11 @@ C. $\lambda/2$.
 D. $\lambda$.
 
 ??? success "Đáp án và lời giải"
-    Chọn **B**.
+    **Đáp án:** B
+
+    **Hướng dẫn giải:**
+
+    Từ một nút đến bụng gần nhất bằng một phần tư bước sóng, tức $\lambda/4$. Chọn **B**.
 
 ## Phần B — Đúng/Sai
 
@@ -75,46 +89,73 @@ c) Khoảng cách hai bụng liên tiếp là $\lambda/2$.
 d) Mọi điểm trên dây dao động cùng pha.
 
 ??? success "Đáp án và lời giải"
-    a) **Đúng**.
-    b) **Đúng**.
-    c) **Đúng**.
-    d) **Sai**: các đoạn giữa hai nút liên tiếp dao động cùng pha, hai đoạn kề nhau ngược pha.
+    **Đáp án:** a) Đúng; b) Đúng; c) Đúng; d) Sai.
+
+    **Hướng dẫn giải:**
+
+    a) **Đúng.** Nút sóng là vị trí có biên độ dao động bằng 0.
+
+    b) **Đúng.** Bụng sóng là vị trí có biên độ dao động cực đại.
+
+    c) **Đúng.** Hai bụng liên tiếp cách nhau $\lambda/2$.
+
+    d) **Sai.** Các điểm trong cùng một khoảng giữa hai nút liên tiếp dao động cùng pha; hai khoảng kề nhau dao động ngược pha, nên không phải mọi điểm trên dây cùng pha.
 
 ## Phần C — Trả lời ngắn
 
 ### Bài 5 — Mức 3 — Vận dụng
 
-Dây dài $1,2$ m hai đầu cố định có 6 bụng sóng. Tính bước sóng.
+Dây dài $1,2\,\mathrm m$ hai đầu cố định có 6 bụng sóng. Tính bước sóng.
 
 ??? success "Đáp án và lời giải"
-    Với hai đầu cố định, số bụng $k=6$ và $L=k\lambda/2$. Do đó $\lambda=2L/k=2,4/6=0,40$ m.
+    **Đáp án:** $\lambda=0{,}40\,\mathrm m$.
+
+    **Hướng dẫn giải:**
+
+    Hai đầu cố định và có 6 bụng nên $L=6\lambda/2$. Do đó
+
+    $\lambda=\dfrac{2L}{6}=\dfrac{2\cdot1{,}2}{6}=0{,}40\,\mathrm m$.
 
 ### Bài 6 — Mức 3 — Vận dụng
 
-Dây dài $0,90$ m, hai đầu cố định, vận tốc sóng $180$ m/s. Tính tần số cơ bản.
+Dây dài $0,90\,\mathrm m$, hai đầu cố định, vận tốc sóng $180\,\mathrm{m/s}$. Tính tần số cơ bản.
 
 ??? success "Đáp án và lời giải"
-    Ở họa âm cơ bản $\lambda_1=2L=1,8$ m. $f_1=v/\lambda_1=180/1,8=100$ Hz.
+    **Đáp án:** $f_1=100\,\mathrm{Hz}$.
+
+    **Hướng dẫn giải:**
+
+    Ở họa âm cơ bản của dây hai đầu cố định, $\lambda_1=2L=1{,}8\,\mathrm m$. Vì vậy
+
+    $f_1=v/\lambda_1=180/1{,}8=100\,\mathrm{Hz}$.
 
 ### Bài 7 — Mức 3 — Vận dụng
 
-Một đầu dây cố định, đầu kia tự do. Chiều dài dây $0,75$ m. Ở mode cơ bản, tính bước sóng.
+Một đầu dây cố định, đầu kia tự do. Chiều dài dây $0,75\,\mathrm m$. Ở mode cơ bản, tính bước sóng.
 
 ??? success "Đáp án và lời giải"
-    Một đầu nút, một đầu bụng: mode cơ bản có $L=\lambda/4$. Vậy $\lambda=4L=3,0$ m.
+    **Đáp án:** $\lambda=3{,}0\,\mathrm m$.
+
+    **Hướng dẫn giải:**
+
+    Ở mode cơ bản của dây một đầu cố định, một đầu tự do, $L=\lambda/4$. Do đó
+
+    $\lambda=4L=4\cdot0{,}75=3{,}0\,\mathrm m$.
 
 ## Phần D — Vận dụng và vận dụng cao
 
 ### Bài 8 — Mức 4 — Vận dụng cao
 
-Một dây dài $1$ m hai đầu cố định. Khi kích thích ở $120$ Hz thấy có 4 bụng. Giữ nguyên lực căng và khối lượng riêng dài của dây. Muốn có 5 bụng thì cần tần số bao nhiêu?
+Một dây dài $1\,\mathrm m$ hai đầu cố định. Khi kích thích ở $120\,\mathrm{Hz}$ thấy có 4 bụng. Giữ nguyên lực căng và khối lượng riêng dài của dây. Muốn có 5 bụng thì cần tần số bao nhiêu?
 
 ??? success "Đáp án và lời giải"
-    Với hai đầu cố định, $f_n=n\,v/(2L)$ nên tần số tỉ lệ số bụng $n$.
+    **Đáp án:** $150\,\mathrm{Hz}$.
 
-    $f_5/f_4=5/4$.
+    **Hướng dẫn giải:**
 
-    Do $f_4=120$ Hz, $f_5=120\cdot5/4=150$ Hz.
+    Với cùng dây và cùng lực căng, $v$ không đổi. Dây hai đầu cố định có $f_n=nv/(2L)$ nên $f_n$ tỉ lệ với số bụng $n$.
+
+    $\dfrac{f_5}{f_4}=\dfrac54\Rightarrow f_5=120\cdot\dfrac54=150\,\mathrm{Hz}$.
 
 ## Ngân hàng bài tập mở rộng
 
@@ -124,47 +165,40 @@ Một dây dài $1$ m hai đầu cố định. Khi kích thích ở $120$ Hz th�
 
 <!-- source-id: BT-Chuong-II-p164-q1-385 -->
 
-Trên dây đàn hồi AB dài 100 cm, với đầu B cố định. Tại đầu A gắn với một vật dao động
-với tần số ƒ = 40 Hz. Tốc độ truyền sóng trên dây là v = 20 m/s. Trên dây có bao nhiêu nút sóng?
+Trên dây đàn hồi AB dài $100\,\mathrm{cm}$, với đầu B cố định. Tại đầu A gắn với một vật dao động
+với tần số $f=40\,\mathrm{Hz}$. Tốc độ truyền sóng trên dây là $v=20\,\mathrm{m/s}$. Trên dây có bao nhiêu nút sóng?
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** 5
+
     **Hướng dẫn giải:**
 
-    Hai nút liên tiếp hoặc hai bụng liên tiếp cách nhau $\lambda/2$. Dây hai đầu cố định có $L=n\lambda/2$; một đầu cố định, một đầu tự do có $L=(2n+1)\lambda/4$.
+    $\lambda=v/f=20/40=0{,}50\,\mathrm m$. Với A được coi là nút và B cố định, $L=1\,\mathrm m=4\lambda/2$, nên có 4 bụng và 5 nút. Kết quả là $5$ nút.
 
-    Để trên dây xuất hiện sóng dừng, ta có
-    Số bụng sóng n trên dây AB là
-    . Vậy trên dây có 4 bụng, 5 nút.
-
-    Vậy kết quả cần tìm là **5**.
 #### Bài 10
 
 <!-- source-id: BT-Chuong-II-p164-q2-386 -->
 
-Trên một sợi dây đàn hồi có chiều dài 1,2 m người ta tạo ra sóng dừng được mô tả như hình
-bên, với tốc độ truyền sóng trên dây là 10,64 m/s. Tần số của sóng truyền trên dây có giá trị bằng
+Trên một sợi dây đàn hồi có chiều dài $1,2\,\mathrm m$ người ta tạo ra sóng dừng được mô tả như hình
+bên, với tốc độ truyền sóng trên dây là $10,64\,\mathrm{m/s}$. Tần số của sóng truyền trên dây có giá trị bằng
 bao nhiêu Hz ?
 
 ![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/ii_p164_q2_386_fig1.webp){ loading=lazy }
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** $13{,}3$
+
     **Hướng dẫn giải:**
 
-    Hai nút liên tiếp hoặc hai bụng liên tiếp cách nhau $\lambda/2$. Dây hai đầu cố định có $L=n\lambda/2$; một đầu cố định, một đầu tự do có $L=(2n+1)\lambda/4$.
+    Từ hình có 3 bụng trên chiều dài $L=1{,}2\,\mathrm m$, nên $L=3\lambda/2$ và $\lambda=0{,}8\,\mathrm m$. Do đó $f=v/\lambda=10{,}64/0{,}8=13{,}3\,\mathrm{Hz}$.
 
-    Để trên dây xuất hiện sóng dừng, ta có
-    Tốc độ truyền sóng trên dây là
-
-    Vậy kết quả cần tìm là **$13{,}3$**.
 #### Bài 11
 
 <!-- source-id: BT-Chuong-II-p164-q3-387 -->
 
 
-Một nam châm điện có dòng điện xoay chiều tần số 50 Hz chạy qua. Đặt nam châm điện
-phía trên một dây thép AB căng ngang với hai đầu cố định. Chiều dài sợi dây là 0,6 m (Hình 13.2).
+Một nam châm điện có dòng điện xoay chiều tần số $50\,\mathrm{Hz}$ chạy qua. Đặt nam châm điện
+phía trên một dây thép AB căng ngang với hai đầu cố định. Chiều dài sợi dây là $0,6\,\mathrm m$ (Hình 13.2).
 Người ta thấy trên dây có sóng dừng với hai bụng sóng. Sóng truyền trên dây có tốc độ bằng bao
 nhiêu m/s?
 
@@ -172,23 +206,28 @@ nhiêu m/s?
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** $60$
+
     **Hướng dẫn giải:**
+
     Nam châm điện hút dây hai lần trong một chu kì dòng điện xoay chiều, nên tần số dao động cưỡng bức của dây là $f=2\cdot50=100\,\mathrm{Hz}$.
     Hai đầu dây là nút; trên dây có 2 bụng nên $n=2$ và
     $L=n\dfrac{\lambda}{2}\Rightarrow\lambda=\dfrac{2L}{n}=0{,}6\,\mathrm{m}$.
     Vậy $v=\lambda f=0{,}6\cdot100=60\,\mathrm{m/s}$.
+
 #### Bài 12
 
 <!-- source-id: BT-Chuong-II-p165-q4-388 -->
 
-Một sợi dây AB dài 1 m đầu A cố định đầu B gắn với cần rung có tần số thay đổi được. B
-coi là nút sóng Ban đầu trên dây có sóng dừng. Khi tần số tăng thêm 20 Hz thì số nút sóng trên dây
+Một sợi dây AB dài $1\,\mathrm m$ đầu A cố định đầu B gắn với cần rung có tần số thay đổi được. B
+coi là nút sóng Ban đầu trên dây có sóng dừng. Khi tần số tăng thêm $20\,\mathrm{Hz}$ thì số nút sóng trên dây
 tăng thêm 7 nút. Sau khoảng thời gian bằng bao nhiêu giây thì sóng phản xạ từ A truyền hết một lần
 chiều dài sợi dây? (Kết quả làm tròn đến chữ số thập phân thứ 2 sau dấu phẩy)
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** $0{,}18$
+
     **Hướng dẫn giải:**
+
     Với dây hai đầu là nút, điều kiện sóng dừng là
     $L=n\dfrac{\lambda}{2}=n\dfrac{v}{2f}$, hay $f=\dfrac{nv}{2L}$.
     Khi tần số tăng $\Delta f=20\,\mathrm{Hz}$ thì số nút tăng tương ứng $\Delta n=7$:
@@ -197,19 +236,21 @@ chiều dài sợi dây? (Kết quả làm tròn đến chữ số thập phân 
     $t=\dfrac{L}{v}=\dfrac{7}{40}=0{,}175\,\mathrm{s}\approx0{,}18\,\mathrm{s}$.
 
     Vậy kết quả cần tìm là **$0{,}18$**.
+
 #### Bài 13
 
 <!-- source-id: BT-Chuong-II-p165-q5-389 -->
 
-Trong thí nghiệm về sóng dừng trên một sợi dây đàn hồi dài 1,2m với hai đầu cố định, người
+Trong thí nghiệm về sóng dừng trên một sợi dây đàn hồi dài $1,2\,\mathrm m$ với hai đầu cố định, người
 ta quan sát thấy ngoài 2 đầu dây cố định còn có hai điểm khác trên dây không dao động. Biết
-khoảng thời gian giữa hai lần liên tiếp sợi dây duỗi thẳng là 0,05s. Tốc độ truyền sóng trên dây bằng
+khoảng thời gian giữa hai lần liên tiếp sợi dây duỗi thẳng là $0,05\,\mathrm s$. Tốc độ truyền sóng trên dây bằng
 bao nhiêu cm/s ?
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** $800\,\mathrm{cm/s}$.
 
     **Hướng dẫn giải:**
+
     Ngoài hai đầu cố định còn có hai nút bên trong, nên toàn dây có 4 nút và 3 khoảng nút-nút:
     $L=3\lambda/2$. Từ $L=1{,}2\,\mathrm{m}$ suy ra $\lambda=0{,}8\,\mathrm{m}$.
     Hai lần liên tiếp toàn dây duỗi thẳng cách nhau $T/2$, nên $T/2=0{,}05\,\mathrm{s}\Rightarrow T=0{,}10\,\mathrm{s}$.
@@ -224,18 +265,21 @@ bao nhiêu cm/s ?
 
 
 Một sợi dây đàn hồi căng ngang, đang có sóng dừng ổn định. Trên dây, A là một điểm nút,
-B là một điểm bụng gần A nhất, C là trung điểm của AB, với AB = 10 cm. Biết khoảng thời gian
+B là một điểm bụng gần A nhất, C là trung điểm của AB, với $AB=10\,\mathrm{cm}$. Biết khoảng thời gian
 ngắn nhất giữa hai lần mà li độ dao động của phần tử tại B bằng biên độ dao động của phần tử tại C
-là 0,2 s. Tốc độ truyền sóng trên dây có giá trị bằng bao nhiêu m/s?
+là $0,2\,\mathrm s$. Tốc độ truyền sóng trên dây có giá trị bằng bao nhiêu m/s?
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** $0{,}5$
+
     **Hướng dẫn giải:**
+
     Vì B là bụng gần nút A nhất, $AB=\lambda/4=10\,\mathrm{cm}$ nên $\lambda=40\,\mathrm{cm}$.
     C là trung điểm AB nên $AC=5\,\mathrm{cm}=\lambda/8$.
     Theo nguồn, khoảng thời gian ngắn nhất đã cho bằng $T/4$:
     $T/4=0{,}2\Rightarrow T=0{,}8\,\mathrm{s}$.
     Do $\lambda=vT$, suy ra $v=40/0{,}8=50\,\mathrm{cm/s}=0{,}5\,\mathrm{m/s}$.
+
 #### Bài 15
 
 <!-- source-id: BT-Chuong-II-p166-q7-391 -->
@@ -247,6 +291,7 @@ lần bước sóng?
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** $1{,}25$
+
     **Hướng dẫn giải:**
 
     Cột không khí có một đầu kín, một đầu hở nên $L=(2n+1)\lambda/4$.
@@ -256,66 +301,66 @@ lần bước sóng?
     $L=(2\cdot2+1)\dfrac{\lambda}{4}=\dfrac{5}{4}\lambda=1{,}25\lambda$.
 
     Vậy kết quả cần tìm là **$1{,}25$**.
+
 #### Bài 16
 
 <!-- source-id: BT-Chuong-II-p166-q8-392 -->
 
 Trên một sợi dây đang có sóng dừng, khoảng cách ngắn nhất giữa một nút và một bụng là
-2cm. Sóng truyền trên dây có bước sóng là bao nhiêu cm?
+$2\,\mathrm{cm}$. Sóng truyền trên dây có bước sóng là bao nhiêu cm?
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** 8
+
     **Hướng dẫn giải:**
 
-    Hai nút liên tiếp hoặc hai bụng liên tiếp cách nhau $\lambda/2$. Dây hai đầu cố định có $L=n\lambda/2$; một đầu cố định, một đầu tự do có $L=(2n+1)\lambda/4$.
+    Khoảng cách từ một nút đến bụng gần nhất bằng $\lambda/4$. Do $\lambda/4=2\,\mathrm{cm}$ nên $\lambda=8\,\mathrm{cm}$.
 
-    Khoảng cách giữa một nút và một bụng là
-
-    Vậy kết quả cần tìm là **8**.
 #### Bài 17
 
 <!-- source-id: BT-Chuong-II-p167-q9-393 -->
 
-Một sợi dây đàn hồi dài 30 cm có hai đầu cố định. Trên dây đang có sóng dừng. Biết sóng
-truyền trên dây với bước sóng 20 cm và biên độ dao động của điểm bụng là 2 cm. Số điểm trên dây
-mà phần tử tại đó dao động với biên độ 6 mm là bao nhiêu?
+Một sợi dây đàn hồi dài $30\,\mathrm{cm}$ có hai đầu cố định. Trên dây đang có sóng dừng. Biết sóng
+truyền trên dây với bước sóng $20\,\mathrm{cm}$ và biên độ dao động của điểm bụng là $2\,\mathrm{cm}$. Số điểm trên dây
+mà phần tử tại đó dao động với biên độ $6\,\mathrm{mm}$ là bao nhiêu?
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** 6
 
     **Hướng dẫn giải:**
 
-    $\dfrac{AB}{\lambda/2}=\dfrac{30}{10}=3$, nên trên dây có 3 bó sóng. Mỗi bó có 2 phần tử dao động với biên độ 6 mm.
+    $\dfrac{AB}{\lambda/2}=\dfrac{30}{10}=3$, nên trên dây có 3 bó sóng. Mỗi bó có 2 phần tử dao động với biên độ $6\,\mathrm{mm}$.
 
-    Vậy trên dây có **6 điểm** dao động với biên độ 6 mm.
+    Vậy trên dây có **6 điểm** dao động với biên độ $6\,\mathrm{mm}$.
 
 #### Bài 18
 
 <!-- source-id: BT-Chuong-II-p167-q10-394 -->
 
-Sóng dừng trên sợi dây đàn hồi 2 đầu cố định AB dài 1 m. Biết tần số sóng trong khoảng
-300 Hz đến 450 Hz. Tốc độ truyền dao động là 320 m/s. Sóng truyền trên dây có tần số bằng bao
+Sóng dừng trên sợi dây đàn hồi 2 đầu cố định AB dài $1\,\mathrm m$. Biết tần số sóng trong khoảng
+$300\,\mathrm{Hz}$ đến $450\,\mathrm{Hz}$. Tốc độ truyền dao động là $320\,\mathrm{m/s}$. Sóng truyền trên dây có tần số bằng bao
 nhiêu Hz?
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** $320$
+
     **Hướng dẫn giải:**
 
-    Hai nút liên tiếp hoặc hai bụng liên tiếp cách nhau $\lambda/2$. Dây hai đầu cố định có $L=n\lambda/2$; một đầu cố định, một đầu tự do có $L=(2n+1)\lambda/4$.
+    Hai đầu cố định nên $f_n=nv/(2L)=160n\,\mathrm{Hz}$. Trong khoảng từ $300$ đến $450\,\mathrm{Hz}$ chỉ có $n=2$, cho $f=320\,\mathrm{Hz}$.
 
-    Vậy kết quả cần tìm là **$320$**.
 #### Bài 19
 
 <!-- source-id: BT-Chuong-II-p167-q11-395 -->
 
-Một sợi dây sắt, mảnh, dài 120 cm căng ngang, có hai đầu cố định. Ở phía trên, gần sợi dây
-có một nam châm điện được nuôi bằng nguồn điện xoay chiều có tần số 50 Hz. Trên dây xuất hiện
+Một sợi dây sắt, mảnh, dài $120\,\mathrm{cm}$ căng ngang, có hai đầu cố định. Ở phía trên, gần sợi dây
+có một nam châm điện được nuôi bằng nguồn điện xoay chiều có tần số $50\,\mathrm{Hz}$. Trên dây xuất hiện
 sóng dừng với 2 bụng sóng. Tốc độ truyền sóng trên dây là bao nhiêu m/s ?
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** $120\,\mathrm{m/s}$.
 
     **Hướng dẫn giải:**
+
     Hai bụng trên dây hai đầu cố định tương ứng $n=2$:
     $L=n\lambda/2\Rightarrow1{,}2=\lambda$, nên $\lambda=1{,}2\,\mathrm{m}$.
     Lực hút của nam châm điện không phụ thuộc chiều dòng điện, nên với nguồn xoay chiều $50\,\mathrm{Hz}$ lực kích thích biến thiên hai lần trong mỗi chu kì: $f_{\text{dây}}=100\,\mathrm{Hz}$.
@@ -329,14 +374,15 @@ sóng dừng với 2 bụng sóng. Tốc độ truyền sóng trên dây là bao
 <!-- source-id: BT-Chuong-II-p167-q12-396 -->
 
 Một sợi dây đàn hồi căng ngang với đầu A cố định đang có sóng dừng. M và N là hai phân
-tử dao động điều hòa có vị trí cân bằng cách đầu A những đoạn lần lượt là 16 cm và 27 cm. Biết
-sóng truyền trên dây có bước sóng 24 cm. Tính tỉ số giữa biên độ dao động của M và biên độ dao
+tử dao động điều hòa có vị trí cân bằng cách đầu A những đoạn lần lượt là $16\,\mathrm{cm}$ và $27\,\mathrm{cm}$. Biết
+sóng truyền trên dây có bước sóng $24\,\mathrm{cm}$. Tính tỉ số giữa biên độ dao động của M và biên độ dao
 động của N. (Kết quả làm tròn đến chữ số thập phân thứ nhất sau dấu phẩy)
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** $1{,}2$.
 
     **Hướng dẫn giải:**
+
     Với đầu A là nút, biên độ tại vị trí cách A một đoạn $x$ tỉ lệ với $|\sin(2\pi x/\lambda)|$.
     Do đó
     $\dfrac{A_M}{A_N}=\dfrac{|\sin(2\pi\cdot16/24)|}{|\sin(2\pi\cdot27/24)|}=\dfrac{\sqrt3/2}{\sqrt2/2}=\sqrt{\dfrac32}\approx1{,}2247$.
@@ -358,7 +404,8 @@ bụng sóng?
     **Đáp án:** 3
 
     **Hướng dẫn giải:**
-    Đếm được trên dây có 3 bụng
+
+    Mỗi đoạn phồng giữa hai nút liên tiếp là một bụng sóng. Quan sát hình có ba đoạn phồng riêng biệt, nên trên dây có $3$ bụng sóng.
 
 #### Bài 22
 
@@ -373,69 +420,70 @@ bằng bao nhiêu cm?
     **Đáp án:** 6
 
     **Hướng dẫn giải:**
-    Bề rộng của bụng = 3 + 3 = 6
+
+    Trên hình, biên độ của bụng là $3\,\mathrm{cm}$, tức phần tử ở bụng đi từ vị trí biên $-3\,\mathrm{cm}$ đến $+3\,\mathrm{cm}$. Vì vậy bề rộng giữa hai vị trí biên là $2A=2\cdot3=6\,\mathrm{cm}$.
 
 #### Bài 23
 
 <!-- source-id: BT-Chuong-II-p174-q3-421 -->
 
-Một sợi dây AB dài 100 cm căng ngang, đầu B cố định, đầu A gắn với một nhánh của âm
-thoa dao động điều hòa với tần số 40 Hz. Trên dây AB có một sóng dừng ổn định, A được coi là nút
-sóng. Tốc độ truyền sóng trên dây là 20 m/s. Kể cả A và B, Tổng số nút và số bụng của sợi dây là
+Một sợi dây AB dài $100\,\mathrm{cm}$ căng ngang, đầu B cố định, đầu A gắn với một nhánh của âm
+thoa dao động điều hòa với tần số $40\,\mathrm{Hz}$. Trên dây AB có một sóng dừng ổn định, A được coi là nút
+sóng. Tốc độ truyền sóng trên dây là $20\,\mathrm{m/s}$. Kể cả A và B, Tổng số nút và số bụng của sợi dây là
 bao nhiêu?
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** 9
+
     **Hướng dẫn giải:**
 
-    Hai nút liên tiếp hoặc hai bụng liên tiếp cách nhau $\lambda/2$. Dây hai đầu cố định có $L=n\lambda/2$; một đầu cố định, một đầu tự do có $L=(2n+1)\lambda/4$.
+    $\lambda=v/f=20/40=0{,}50\,\mathrm m$. Với hai đầu là nút, $L=n\lambda/2$ nên $1=0{,}25n$, suy ra $n=4$ bụng và có $n+1=5$ nút. Tổng số nút và bụng là $9$.
 
-    . Suy ra có 4 bụng và 5 nút, tổng số nút và bụng là 5+4=9
-
-    Vậy kết quả cần tìm là **9**.
 #### Bài 24
 
 <!-- source-id: BT-Chuong-II-p175-q4-422 -->
 
-Một sợi dây sắt dài 1,21 m căng ngang, có một đầu cố định một đầu tự do. Ở phía trên, gần
+Một sợi dây sắt dài $1,21\,\mathrm m$ căng ngang, có một đầu cố định một đầu tự do. Ở phía trên, gần
 sợi dây có một nam châm điện được nuôi bằng nguồn điện xoay chiều. Cho dòng điện qua nam
-châm thì trên dây xuất hiện sóng dừng với 6 bụng sóng. Nếu tốc độ truyền sóng trên dây là 66 m/s
+châm thì trên dây xuất hiện sóng dừng với 6 bụng sóng. Nếu tốc độ truyền sóng trên dây là $66\,\mathrm{m/s}$
 thì tần số của dòng điện xoay chiều là bao nhiêu Hz ?
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** $75$
+
     **Hướng dẫn giải:**
 
-    Hai nút liên tiếp hoặc hai bụng liên tiếp cách nhau $\lambda/2$. Dây hai đầu cố định có $L=n\lambda/2$; một đầu cố định, một đầu tự do có $L=(2n+1)\lambda/4$.
+    Dây một đầu cố định, một đầu tự do và có 6 bụng nên $L=(2\cdot6-1)\lambda/4=11\lambda/4$. Suy ra $\lambda=4L/11=0{,}44\,\mathrm m$, nên tần số dao động của dây là $f_s=v/\lambda=150\,\mathrm{Hz}$.
 
-    Vậy kết quả cần tìm là **$75$**.
+    Nam châm điện hút dây hai lần trong một chu kì dòng xoay chiều, vì vậy $f_s=2f_{AC}$. Suy ra $f_{AC}=75\,\mathrm{Hz}$.
+
 #### Bài 25
 
 <!-- source-id: BT-Chuong-II-p175-q5-423 -->
 
 Quan sát sóng dừng trên sợi dây AB, đầu A dao động điều hòa theo phương vuông góc với
-sợi dây (coi A là nút). Với đầu B tự do và tần số dao động của đầu A là 22 Hz thì trên dây có 6 nút.
+sợi dây (coi A là nút). Với đầu B tự do và tần số dao động của đầu A là $22\,\mathrm{Hz}$ thì trên dây có 6 nút.
 Nếu đầu B cố định và coi tốc độ truyền sóng trên dây như cũ, để vẫn có 6 nút thì tần số dao động
 của đầu A phải bằng bao nhiêu Hz?
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** $20$
+
     **Hướng dẫn giải:**
 
-    Hai nút liên tiếp hoặc hai bụng liên tiếp cách nhau $\lambda/2$. Dây hai đầu cố định có $L=n\lambda/2$; một đầu cố định, một đầu tự do có $L=(2n+1)\lambda/4$.
+    Khi B tự do và có 6 nút, chiều dài dây thỏa $L=11\lambda_1/4$, nên $\lambda_1=4L/11$. Khi B cố định và tổng số nút vẫn là 6, dây có 5 bụng: $L=5\lambda_2/2$, nên $\lambda_2=2L/5$.
 
-    Đầu A tự do, đầu B cố định, ta có
-    Khi 2 đầu cố định
+    Vì tốc độ truyền không đổi, $f_2/f_1=\lambda_1/\lambda_2=10/11$. Do $f_1=22\,\mathrm{Hz}$, $f_2=20\,\mathrm{Hz}$.
 
-    Vậy kết quả cần tìm là **$20$**.
 #### Bài 26
 
 <!-- source-id: BT-Chuong-II-p175-q6-424 -->
 
-Một sợi dây đang có sóng dừng ổn định. Sóng truyền trên dây có tần số 10 Hz và bước sóng 6 cm. Trên dây, hai phần tử M và N có vị trí cân bằng cách nhau 8 cm, M thuộc một bụng sóng dao động điều hòa với biên độ 6 mm. Lấy $\pi^2=10$. Tại thời điểm $t$, phần tử M đang chuyển động với tốc độ $6\pi$ cm/s thì phần tử N chuyển động với gia tốc có độ lớn bằng bao nhiêu m/s²? (Kết quả làm tròn đến chữ số thập phân thứ nhất sau dấu phẩy)
+Một sợi dây đang có sóng dừng ổn định. Sóng truyền trên dây có tần số $10\,\mathrm{Hz}$ và bước sóng $6\,\mathrm{cm}$. Trên dây, hai phần tử M và N có vị trí cân bằng cách nhau $8\,\mathrm{cm}$, M thuộc một bụng sóng dao động điều hòa với biên độ $6\,\mathrm{mm}$. Lấy $\pi^2=10$. Tại thời điểm $t$, phần tử M đang chuyển động với tốc độ $6\pi\,\mathrm{cm/s}$ thì phần tử N chuyển động với gia tốc có độ lớn bằng bao nhiêu m/s²? (Kết quả làm tròn đến chữ số thập phân thứ nhất sau dấu phẩy)
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** $10{,}4$
+
     **Hướng dẫn giải:**
 
     Biên độ của M là $A_M=6\,\mathrm{mm}=0{,}6\,\mathrm{cm}$ và $\omega=2\pi f=20\pi\,\mathrm{rad/s}$.
@@ -472,12 +520,11 @@ D. cùng pha với sóng tới nếu vật cản là cố định.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** B
+
     **Hướng dẫn giải:**
 
-    Hai nút liên tiếp hoặc hai bụng liên tiếp cách nhau $\lambda/2$. Dây hai đầu cố định có $L=n\lambda/2$; một đầu cố định, một đầu tự do có $L=(2n+1)\lambda/4$.
+    Phản xạ tại đầu cố định làm đảo pha, nên sóng phản xạ ngược pha với sóng tới ngay tại điểm phản xạ. Chọn **B**.
 
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **B. ngược pha với sóng tới nếu vật cản là cố định.**
 #### Bài 28
 
 <!-- source-id: BT-Chuong-II-p152-q2-342 -->
@@ -495,12 +542,11 @@ D. một nửa bước sóng.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
+
     **Hướng dẫn giải:**
 
-    Hai nút liên tiếp hoặc hai bụng liên tiếp cách nhau $\lambda/2$. Dây hai đầu cố định có $L=n\lambda/2$; một đầu cố định, một đầu tự do có $L=(2n+1)\lambda/4$.
+    Trong sóng dừng, hai nút liên tiếp hoặc hai bụng liên tiếp cách nhau $\lambda/2$. Chọn **D**.
 
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **D. một nửa bước sóng.**
 #### Bài 29
 
 <!-- source-id: BT-Chuong-II-p152-q3-343 -->
@@ -518,12 +564,11 @@ D. hai lần khoảng cách giữa hai nút hoặc hai bụng kề nhau.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
+
     **Hướng dẫn giải:**
 
-    Hai nút liên tiếp hoặc hai bụng liên tiếp cách nhau $\lambda/2$. Dây hai đầu cố định có $L=n\lambda/2$; một đầu cố định, một đầu tự do có $L=(2n+1)\lambda/4$.
+    Vì hai nút hoặc hai bụng kề nhau cách $\lambda/2$, bước sóng bằng hai lần khoảng cách đó. Chọn **D**.
 
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **D. hai lần khoảng cách giữa hai nút hoặc hai bụng kề nhau.**
 #### Bài 30
 
 <!-- source-id: BT-Chuong-II-p152-q4-344 -->
@@ -540,12 +585,11 @@ D. một số lẻ lần bước sóng.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
+
     **Hướng dẫn giải:**
 
-    Hai nút liên tiếp hoặc hai bụng liên tiếp cách nhau $\lambda/2$. Dây hai đầu cố định có $L=n\lambda/2$; một đầu cố định, một đầu tự do có $L=(2n+1)\lambda/4$.
+    Hai đầu cố định đều là nút nên chiều dài dây phải chứa một số nguyên nửa bước sóng: $L=n\lambda/2$. Chọn **C**.
 
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. một số nguyên lần nửa bước sóng.**
 #### Bài 31
 
 <!-- source-id: BT-Chuong-II-p152-q5-345 -->
@@ -566,12 +610,11 @@ D. AQ.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
+
     **Hướng dẫn giải:**
 
-    Hai nút liên tiếp hoặc hai bụng liên tiếp cách nhau $\lambda/2$. Dây hai đầu cố định có $L=n\lambda/2$; một đầu cố định, một đầu tự do có $L=(2n+1)\lambda/4$.
+    Trên hình, A, M, Q, B là các nút liên tiếp; từ A đến Q có hai khoảng nút, mỗi khoảng $\lambda/2$. Vì vậy $AQ=\lambda$. Chọn **D**.
 
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **D. AQ.**
 #### Bài 32
 
 <!-- source-id: BT-Chuong-II-p152-q6-346 -->
@@ -588,17 +631,15 @@ C. hai sóng cùng biên độ, khác bước sóng lan truyền theo hai hướ
 thoa với nhau tạo nên một sóng tổng hợp.
 
 D. hai sóng khác biên độ, khác bước sóng lan truyền theo hai hướng ngược nhau gặp nhau và giao
-Hình 9.2.
-
 thoa với nhau tạo nên một sóng tổng hợp.
+
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
+
     **Hướng dẫn giải:**
 
-    Hai nút liên tiếp hoặc hai bụng liên tiếp cách nhau $\lambda/2$. Dây hai đầu cố định có $L=n\lambda/2$; một đầu cố định, một đầu tự do có $L=(2n+1)\lambda/4$.
+    Sóng dừng hình thành do giao thoa của hai sóng cùng tần số, cùng bước sóng, cùng biên độ truyền ngược chiều nhau. Chọn **A**.
 
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. hai sóng cùng biên độ, cùng bước sóng lan truyền theo hai hướng ngược nhau gặp nhau và giao**
 #### Bài 33
 
 <!-- source-id: BT-Chuong-II-p153-q7-347 -->
@@ -615,12 +656,11 @@ D. Những điểm luôn dao động với biên độ cực tiểu gọi là b�
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
+
     **Hướng dẫn giải:**
 
-    Hai nút liên tiếp hoặc hai bụng liên tiếp cách nhau $\lambda/2$. Dây hai đầu cố định có $L=n\lambda/2$; một đầu cố định, một đầu tự do có $L=(2n+1)\lambda/4$.
+    Nút sóng là vị trí có biên độ bằng 0 nên luôn đứng yên. Chọn **A**.
 
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. Những điểm luôn đứng yên gọi là nút sóng.**
 #### Bài 34
 
 <!-- source-id: BT-Chuong-II-p153-q8-348 -->
@@ -637,12 +677,11 @@ D. hai lần tư bước sóng.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
+
     **Hướng dẫn giải:**
 
-    Hai nút liên tiếp hoặc hai bụng liên tiếp cách nhau $\lambda/2$. Dây hai đầu cố định có $L=n\lambda/2$; một đầu cố định, một đầu tự do có $L=(2n+1)\lambda/4$.
+    Nút và bụng kề nhau cách nhau một phần tư bước sóng, $\lambda/4$. Chọn **C**.
 
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. một phần tư bước sóng.**
 #### Bài 35
 
 <!-- source-id: BT-Chuong-II-p153-q9-349 -->
@@ -658,13 +697,15 @@ C. $L=2\lambda$.
 D. $L=\dfrac{\lambda}{4}$.
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** B
+    **Đáp án:** Đề không có phương án đúng duy nhất; A, B và C đều thỏa điều kiện tổng quát.
+
     **Hướng dẫn giải:**
 
-    Hai nút liên tiếp hoặc hai bụng liên tiếp cách nhau $\lambda/2$. Dây hai đầu cố định có $L=n\lambda/2$; một đầu cố định, một đầu tự do có $L=(2n+1)\lambda/4$.
+    Điều kiện tổng quát của dây hai đầu cố định là $L=n\lambda/2$ với $n=1,2,3,\ldots$. Vì vậy $L=\lambda/2$, $L=\lambda$ và $L=2\lambda$ đều có thể tạo sóng dừng (tương ứng $n=1,2,4$); phương án D thì không.
 
+    !!! warning "Đối chiếu nguồn"
+        PDF đánh dấu B, nhưng câu hỏi không giới hạn ở họa âm cơ bản nên A, B và C đều thỏa điều kiện sóng dừng. Do đó đề không có một phương án đúng duy nhất.
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **B. $L=\dfrac{\lambda}{2}$.**
 #### Bài 36
 
 <!-- source-id: BT-Chuong-II-p153-q10-350 -->
@@ -674,24 +715,21 @@ dây đàn phát ra có bước sóng lớn nhất bằng
 
 ![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/ii_p153_q10_350_fig1.webp){ loading=lazy }
 
-A. L
-2 .
+A. $L/2$.
 
-B. L
-4 .
+B. $L/4$.
 
-C. L.
+C. $L$.
 
-D. 2L.
+D. $2L$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
+
     **Hướng dẫn giải:**
 
-    Hai nút liên tiếp hoặc hai bụng liên tiếp cách nhau $\lambda/2$. Dây hai đầu cố định có $L=n\lambda/2$; một đầu cố định, một đầu tự do có $L=(2n+1)\lambda/4$.
+    Dây đàn có hai đầu cố định. Bước sóng lớn nhất ứng với mode cơ bản $n=1$: $L=\lambda_{\max}/2$, nên $\lambda_{\max}=2L$. Chọn **D**.
 
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **D. 2L.**
 #### Bài 37
 
 <!-- source-id: BT-Chuong-II-p153-q11-351 -->
@@ -708,12 +746,11 @@ D. $L=(2n+1)\dfrac{\lambda}{2}$ với $n=1,2,3,\ldots$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
+
     **Hướng dẫn giải:**
 
-    Hai nút liên tiếp hoặc hai bụng liên tiếp cách nhau $\lambda/2$. Dây hai đầu cố định có $L=n\lambda/2$; một đầu cố định, một đầu tự do có $L=(2n+1)\lambda/4$.
+    Với hai đầu cố định là hai nút, điều kiện sóng dừng là $L=n\lambda/2$, $n=1,2,3,\ldots$. Chọn **A**.
 
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. $L=n\dfrac{\lambda}{2}$ với $n=1,2,3,\ldots$.**
 #### Bài 38
 
 <!-- source-id: BT-Chuong-II-p153-q12-352 -->
@@ -730,17 +767,16 @@ D. $L=(2n+1)\dfrac{\lambda}{2}$ với $n=1,2,3,\ldots$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
+
     **Hướng dẫn giải:**
 
-    Hai nút liên tiếp hoặc hai bụng liên tiếp cách nhau $\lambda/2$. Dây hai đầu cố định có $L=n\lambda/2$; một đầu cố định, một đầu tự do có $L=(2n+1)\lambda/4$.
+    Một đầu là nút, một đầu là bụng nên $L=(2n+1)\lambda/4$, $n=0,1,2,\ldots$. Chọn **C**.
 
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. $L=(2n+1)\dfrac{\lambda}{4}$ với $n=0,1,2,3,\ldots$.**
 #### Bài 39
 
 <!-- source-id: BT-Chuong-II-p153-q13-353 -->
 
-Sóng dừng trên một sợi dây đàn hồi chiều dài L = PQ được mô tả như Hình bên. Số nút
+Sóng dừng trên một sợi dây đàn hồi chiều dài $L=PQ$ được mô tả như hình bên. Số nút
 sóng (kể cả hai đầu dây) và số bụng sóng trên dây là
 
 ![Hình sóng dừng trên dây PQ](../../../assets/exercise-figures/clean-v14/ii_p153_q13_353.webp){ loading=lazy }
@@ -755,12 +791,11 @@ D. bốn nút sóng và sáu bụng sóng.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
+
     **Hướng dẫn giải:**
 
-    Hai nút liên tiếp hoặc hai bụng liên tiếp cách nhau $\lambda/2$. Dây hai đầu cố định có $L=n\lambda/2$; một đầu cố định, một đầu tự do có $L=(2n+1)\lambda/4$.
+    Quan sát hình có 3 bụng. Hai đầu đều là nút nên số nút bằng số bụng cộng 1, tức 4 nút. Chọn **C**.
 
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. bốn nút sóng và ba bụng sóng.**
 #### Bài 40
 
 <!-- source-id: BT-Chuong-II-p154-q14-354 -->
@@ -777,12 +812,11 @@ D. Khoảng cách giữa hai nút hoặc hai bụng liên tiếp bằng $\lambda
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** B
+
     **Hướng dẫn giải:**
 
-    Hai nút liên tiếp hoặc hai bụng liên tiếp cách nhau $\lambda/2$. Dây hai đầu cố định có $L=n\lambda/2$; một đầu cố định, một đầu tự do có $L=(2n+1)\lambda/4$.
+    Hai nút liên tiếp hoặc hai bụng liên tiếp cách nhau $\lambda/2$, không phải $\lambda$. Vì vậy B là phát biểu sai. Chọn **B**.
 
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **B. Khoảng cách giữa hai nút hoặc hai bụng liên tiếp bằng bước sóng $\lambda$.**
 #### Bài 41
 
 <!-- source-id: BT-Chuong-II-p154-q15-355 -->
@@ -799,12 +833,11 @@ D. Xác định năng lượng sóng.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
+
     **Hướng dẫn giải:**
 
-    Hai nút liên tiếp hoặc hai bụng liên tiếp cách nhau $\lambda/2$. Dây hai đầu cố định có $L=n\lambda/2$; một đầu cố định, một đầu tự do có $L=(2n+1)\lambda/4$.
+    Từ hình sóng dừng có thể đo $\lambda$ qua khoảng nút/bụng; khi biết tần số $f$, dùng $v=\lambda f$ để xác định tốc độ truyền sóng. Chọn **A**.
 
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. Xác định vận tốc truyền sóng.**
 #### Bài 42
 
 <!-- source-id: BT-Chuong-II-p154-q16-356 -->
@@ -822,12 +855,11 @@ D. lẻ lần một phần tư bước sóng.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
+
     **Hướng dẫn giải:**
 
-    Hai nút liên tiếp hoặc hai bụng liên tiếp cách nhau $\lambda/2$. Dây hai đầu cố định có $L=n\lambda/2$; một đầu cố định, một đầu tự do có $L=(2n+1)\lambda/4$.
+    Một đầu cố định là nút, đầu tự do là bụng nên $L=(2n+1)\lambda/4$, tức một số lẻ lần $\lambda/4$. Chọn **D**.
 
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **D. lẻ lần một phần tư bước sóng.**
 #### Bài 43
 
 <!-- source-id: BT-Chuong-II-p154-q17-357 -->
@@ -844,12 +876,11 @@ D. bước sóng bằng số lẻ lần chiều dài dây.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** B
+
     **Hướng dẫn giải:**
 
-    Hai nút liên tiếp hoặc hai bụng liên tiếp cách nhau $\lambda/2$. Dây hai đầu cố định có $L=n\lambda/2$; một đầu cố định, một đầu tự do có $L=(2n+1)\lambda/4$.
+    Hai đầu cố định là hai nút, do đó $L=n\lambda/2$ với $n$ nguyên dương. Chọn **B**.
 
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **B. chiều dài dây bằng một số nguyên lần nửa bước sóng.**
 #### Bài 44
 
 <!-- source-id: BT-Chuong-II-p154-q18-358 -->
@@ -866,158 +897,153 @@ D. tới và sóng ngang.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
+
     **Hướng dẫn giải:**
 
-    Hai nút liên tiếp hoặc hai bụng liên tiếp cách nhau $\lambda/2$. Dây hai đầu cố định có $L=n\lambda/2$; một đầu cố định, một đầu tự do có $L=(2n+1)\lambda/4$.
+    Sóng dừng trên dây là kết quả giao thoa giữa sóng tới và sóng phản xạ truyền ngược chiều. Chọn **A**.
 
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. tới và sóng phản xạ.**
 #### Bài 45
 
 <!-- source-id: BT-Chuong-II-p156-q29-369 -->
 
 Trên một sợi dây đàn hồi đang có sóng dừng. Biết khoảng cách ngắn nhất giữa một nút
-sóng và vị trí cân bằng của một bụng sóng là 0,25m. Sóng truyền trên dây với bước sóng là
+sóng và vị trí cân bằng của một bụng sóng là $0,25\,\mathrm m$. Sóng truyền trên dây với bước sóng là
 
-A. 0,5 m.
+A. $0,5\,\mathrm m$.
 
-B. 1,5 m.
+B. $1,5\,\mathrm m$.
 
-C. 1,0 m.
+C. $1,0\,\mathrm m$.
 
-D. 2,0 m.
+D. $2,0\,\mathrm m$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
+
     **Hướng dẫn giải:**
 
-    Hai nút liên tiếp hoặc hai bụng liên tiếp cách nhau $\lambda/2$. Dây hai đầu cố định có $L=n\lambda/2$; một đầu cố định, một đầu tự do có $L=(2n+1)\lambda/4$.
+    Nút và bụng gần nhất cách nhau $\lambda/4=0{,}25\,\mathrm m$, nên $\lambda=1{,}0\,\mathrm m$. Chọn **C**.
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. 1,0 m.**
 #### Bài 46
 
 <!-- source-id: BT-Chuong-II-p156-q30-370 -->
 
-Trên một sợi dây đang có sóng dừng. Biết sóng truyền trên dây có bước sóng 30 cm.
+Trên một sợi dây đang có sóng dừng. Biết sóng truyền trên dây có bước sóng $30\,\mathrm{cm}$.
 Khoảng cách ngắn nhất từ một nút đến một bụng là
 
-A. 15 cm.
+A. $15\,\mathrm{cm}$.
 
-B. 30 cm.
+B. $30\,\mathrm{cm}$.
 
-C. 7,5 cm.
+C. $7,5\,\mathrm{cm}$.
 
-D. 60 cm.
+D. $60\,\mathrm{cm}$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
+
     **Hướng dẫn giải:**
 
-    Hai nút liên tiếp hoặc hai bụng liên tiếp cách nhau $\lambda/2$. Dây hai đầu cố định có $L=n\lambda/2$; một đầu cố định, một đầu tự do có $L=(2n+1)\lambda/4$.
+    Khoảng cách nút–bụng gần nhất bằng $\lambda/4=30/4=7{,}5\,\mathrm{cm}$. Chọn **C**.
 
-    Khi có sóng dừng trên dây, khoảng cách ngắn nhất từ một nút đến một bụng là
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. 7,5 cm.**
 #### Bài 47
 
 <!-- source-id: BT-Chuong-II-p157-q32-372 -->
 
-Một sợi dây đàn hồi có độ dài AB = 80cm, đầu B giữ cố định, đầu A gắn với cần rung dao
-động điều hòa với tần số 50Hz theo phương vuông góc với AB. Trên dây có một sóng dừng với 4
+Một sợi dây đàn hồi có độ dài $AB=80\,\mathrm{cm}$, đầu B giữ cố định, đầu A gắn với cần rung dao
+động điều hòa với tần số $50\,\mathrm{Hz}$ theo phương vuông góc với AB. Trên dây có một sóng dừng với 4
 bụng sóng, coi A và B là nút sóng. Tốc độ truyền sóng trên dây là
 
-A. 10 m/s.
+A. $10\,\mathrm{m/s}$.
 
-B. 5 m/s.
+B. $5\,\mathrm{m/s}$.
 
-C. 20 m/s.
+C. $20\,\mathrm{m/s}$.
 
-D. 40 m/s.
+D. $40\,\mathrm{m/s}$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
+
     **Hướng dẫn giải:**
 
-    Hai nút liên tiếp hoặc hai bụng liên tiếp cách nhau $\lambda/2$. Dây hai đầu cố định có $L=n\lambda/2$; một đầu cố định, một đầu tự do có $L=(2n+1)\lambda/4$.
+    Dây hai đầu là nút và có 4 bụng nên $L=4\lambda/2=2\lambda$. Với $L=0{,}80\,\mathrm m$, $\lambda=0{,}40\,\mathrm m$. Do đó $v=\lambda f=0{,}40\cdot50=20\,\mathrm{m/s}$. Chọn **C**.
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. 20 m/s.**
 #### Bài 48
 
 <!-- source-id: BT-Chuong-II-p157-q33-373 -->
 
-Trên một sợi dây cố định dài 0,9 m có sóng dừng. Kể cả hai nút ở hai đầu dây thì trên dây
-có 10 nút sóng. Biết tốc độ truyền sóng truyền trên dây là 40m/s. Sóng truyền trên dây có tần s
+Trên một sợi dây cố định dài $0,9\,\mathrm m$ có sóng dừng. Kể cả hai nút ở hai đầu dây thì trên dây
+có 10 nút sóng. Biết tốc độ truyền sóng trên dây là $40\,\mathrm{m/s}$. Sóng truyền trên dây có tần s
 
-A. 100 Hz.
+A. $100\,\mathrm{Hz}$.
 
-B. 200 Hz.
+B. $200\,\mathrm{Hz}$.
 
-C. 300 Hz.
+C. $300\,\mathrm{Hz}$.
 
-D. 400 Hz.
+D. $400\,\mathrm{Hz}$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** B
+
     **Hướng dẫn giải:**
 
-    Hai nút liên tiếp hoặc hai bụng liên tiếp cách nhau $\lambda/2$. Dây hai đầu cố định có $L=n\lambda/2$; một đầu cố định, một đầu tự do có $L=(2n+1)\lambda/4$.
+    Kể cả hai đầu có 10 nút nên có 9 bụng. Vì $L=9\lambda/2$, $\lambda=2L/9=0{,}20\,\mathrm m$. Tần số $f=v/\lambda=40/0{,}20=200\,\mathrm{Hz}$. Chọn **B**.
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **B. 200 Hz.**
 #### Bài 49
 
 <!-- source-id: BT-Chuong-II-p157-q34-374 -->
 
-Một sợi dây sắt dài 120 cm căng ngang, có hai đầu cố định. Ở phía trên, gần sợi dây có
-một nam châm điện được nuôi bằng nguồn điện xoay chiều có tần số 50 Hz. Trên dây xuất hiện
+Một sợi dây sắt dài $120\,\mathrm{cm}$ căng ngang, có hai đầu cố định. Ở phía trên, gần sợi dây có
+một nam châm điện được nuôi bằng nguồn điện xoay chiều có tần số $50\,\mathrm{Hz}$. Trên dây xuất hiện
 sóng dừng với 2 bụng sóng. Tốc độ truyền sóng trên dây là
 
-A. 120 m/s.
+A. $120\,\mathrm{m/s}$.
 
-B. 60 m/s.
+B. $60\,\mathrm{m/s}$.
 
-C. 180 m/s.
+C. $180\,\mathrm{m/s}$.
 
-D. 240 m/s.
+D. $240\,\mathrm{m/s}$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
+
     **Hướng dẫn giải:**
 
-    Hai nút liên tiếp hoặc hai bụng liên tiếp cách nhau $\lambda/2$. Dây hai đầu cố định có $L=n\lambda/2$; một đầu cố định, một đầu tự do có $L=(2n+1)\lambda/4$.
+    Nam châm điện hút dây hai lần trong mỗi chu kì dòng điện, nên dây bị cưỡng bức ở $f_s=2\cdot50=100\,\mathrm{Hz}$. Hai đầu cố định và có 2 bụng nên $L=2\lambda/2=\lambda=1{,}2\,\mathrm m$. Vậy $v=\lambda f_s=120\,\mathrm{m/s}$. Chọn **A**.
 
-    Nguồn điện xoay chiều có tần số 50 Hz nên tần số của sóng trên dây là 100 Hz
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. 120 m/s.**
 #### Bài 50
 
 <!-- source-id: BT-Chuong-II-p157-q35-375 -->
 
-Một sợi dây sắt dài 1,2 m căng ngang, có hai đầu cố định. Ở phía trên, gần sợi dây có một
+Một sợi dây sắt dài $1,2\,\mathrm m$ căng ngang, có hai đầu cố định. Ở phía trên, gần sợi dây có một
 nam châm điện được nuôi bằng nguồn điện xoay chiều. Cho dòng điện qua nam châm thì trên dây
-xuất hiện sóng dừng với 6 bụng sóng. Nếu tốc độ truyền sóng trên dây là 20m/s thì tần số của dòng
+xuất hiện sóng dừng với 6 bụng sóng. Nếu tốc độ truyền sóng trên dây là $20\,\mathrm{m/s}$ thì tần số của dòng
 điện xoay chiều là
 
-A. 50 Hz.
+A. $50\,\mathrm{Hz}$.
 
-B. 100 Hz.
+B. $100\,\mathrm{Hz}$.
 
-C. 60 Hz.
+C. $60\,\mathrm{Hz}$.
 
-D. 25 Hz.
+D. $25\,\mathrm{Hz}$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
+
     **Hướng dẫn giải:**
 
-    Hai nút liên tiếp hoặc hai bụng liên tiếp cách nhau $\lambda/2$. Dây hai đầu cố định có $L=n\lambda/2$; một đầu cố định, một đầu tự do có $L=(2n+1)\lambda/4$.
+    Sáu bụng trên dây hai đầu cố định cho $L=6\lambda/2$, nên $\lambda=2L/6=0{,}40\,\mathrm m$. Tần số dao động của dây là $f_s=v/\lambda=20/0{,}40=50\,\mathrm{Hz}$. Vì $f_s=2f_{AC}$, $f_{AC}=25\,\mathrm{Hz}$. Chọn **D**.
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **D. 25 Hz.**
 #### Bài 51
 
 <!-- source-id: BT-Chuong-II-p157-q36-376 -->
 
-Một sợi dây đàn hồi 2 đầu cố định, hai tần số liên tiếp có sóng dừng trên dây là 50 Hz và
-70Hz. Hãy xác định tần số nhỏ nhất có sóng dừng trên dây.
+Một sợi dây đàn hồi 2 đầu cố định, hai tần số liên tiếp có sóng dừng trên dây là $50\,\mathrm{Hz}$ và
+$70\,\mathrm{Hz}$. Hãy xác định tần số nhỏ nhất có sóng dừng trên dây.
 
 A. 20.
 
@@ -1029,67 +1055,65 @@ D. 40.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
+
     **Hướng dẫn giải:**
 
-    Hai nút liên tiếp hoặc hai bụng liên tiếp cách nhau $\lambda/2$. Dây hai đầu cố định có $L=n\lambda/2$; một đầu cố định, một đầu tự do có $L=(2n+1)\lambda/4$.
+    Với dây hai đầu cố định, các tần số cộng hưởng là $f_n=nf_1$ nên hai tần số liên tiếp hơn nhau đúng $f_1$. Do đó $f_1=70-50=20\,\mathrm{Hz}$. Chọn **A**.
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. 20.**
 #### Bài 52
 
 <!-- source-id: BT-Chuong-II-p157-q37-377 -->
 
 Một sợi dây đàn hồi căng ngang, hai đầu cố định. Trên dây có sóng dừng, tốc độ truyền
-sóng không đổi. Khi tần số sóng trên dây là 42 Hz thì trên dây có 4 điểm bụng. Nếu trên dây có 6
+sóng không đổi. Khi tần số sóng trên dây là $42\,\mathrm{Hz}$ thì trên dây có 4 điểm bụng. Nếu trên dây có 6
 điểm bụng thì tần số sóng trên dây là
 
-A. 252 Hz.
+A. $252\,\mathrm{Hz}$.
 
-B. 126 Hz.
+B. $126\,\mathrm{Hz}$.
 
-C. 28 Hz.
+C. $28\,\mathrm{Hz}$.
 
-D. 63 Hz.
+D. $63\,\mathrm{Hz}$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
+
     **Hướng dẫn giải:**
 
-    Hai nút liên tiếp hoặc hai bụng liên tiếp cách nhau $\lambda/2$. Dây hai đầu cố định có $L=n\lambda/2$; một đầu cố định, một đầu tự do có $L=(2n+1)\lambda/4$.
+    Cùng dây và cùng tốc độ, $f_n\propto n$, trong đó $n$ là số bụng. Do đó $f_2=42\cdot6/4=63\,\mathrm{Hz}$. Chọn **D**.
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **D. 63 Hz.**
 #### Bài 53
 
 <!-- source-id: BT-Chuong-II-p158-q38-378 -->
 
 Trên một sợi dây đàn hồi đang có sóng dừng với biên độ dao động của các điểm bụng
 là a. M là một phần tử dây dao động với biên độ 0,5a. Biết vị trí cân bằng của M cách điểm nút
-gần nó nhất một khoảng 2 cm. Sóng truyền trên dây có bước sóng là:
+gần nó nhất một khoảng $2\,\mathrm{cm}$. Sóng truyền trên dây có bước sóng là:
 
-A. 24 cm.
+A. $24\,\mathrm{cm}$.
 
-B. 12 cm.
+B. $12\,\mathrm{cm}$.
 
-C. 16 cm.
+C. $16\,\mathrm{cm}$.
 
-D. 3 cm.
+D. $3\,\mathrm{cm}$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
+
     **Hướng dẫn giải:**
 
-    Hai nút liên tiếp hoặc hai bụng liên tiếp cách nhau $\lambda/2$. Dây hai đầu cố định có $L=n\lambda/2$; một đầu cố định, một đầu tự do có $L=(2n+1)\lambda/4$.
+    Gọi $d=2\,\mathrm{cm}$ là khoảng cách từ M đến nút gần nhất. Biên độ tại M thỏa $A_M=A_b\sin(2\pi d/\lambda)$. Vì M nằm giữa nút và bụng gần nhất, $0<2\pi d/\lambda<\pi/2$. Điều kiện $A_M=0{,}5A_b$ cho $2\pi d/\lambda=\pi/6$, nên $\lambda=12d=24\,\mathrm{cm}$. Chọn **A**.
 
-    Biên độ của 1 phần tử M sóng dừng cách nút sóng doạn d là
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. 24 cm.**
 #### Bài 54
 
 <!-- source-id: BT-Chuong-II-p158-q39-379 -->
 
 
 Một sợi dây căng ngang với hai đầu cố định, đang có sóng đừng, Biết khoảng cách xa
-nhất giữa hai phần tử dây dao động với cùng biên độ 5 mm là 80 cm, còn khoảng cách xa nhất
-giữa hai phần tử dây dao động cùng pha với cùng biên độ 5 mm là 65 cm. Tỉ số giữa tốc độ cực
+nhất giữa hai phần tử dây dao động với cùng biên độ $5\,\mathrm{mm}$ là $80\,\mathrm{cm}$, còn khoảng cách xa nhất
+giữa hai phần tử dây dao động cùng pha với cùng biên độ $5\,\mathrm{mm}$ là $65\,\mathrm{cm}$. Tỉ số giữa tốc độ cực
 đại của một phần tử dây tại bụng sóng và tốc độ truyền sóng trên dây là
 
 A. 0,12.
@@ -1102,7 +1126,9 @@ D. 0,14.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
+
     **Hướng dẫn giải:**
+
     Hai phần tử xa nhau nhất có cùng biên độ ở hai bó sóng ngoài cùng. Gọi $x$ là khoảng cách từ mỗi điểm đó đến đầu dây gần nhất.
     Hai phần tử cùng biên độ ở hai bó liền kề cách nhau xa nhất một nửa bước sóng, nên
     $\lambda=2(80-65)=30\,\mathrm{cm}$.
@@ -1117,25 +1143,28 @@ D. 0,14.
     $v=\lambda f=300f\,\mathrm{mm/s}$.
     Vì thế
     $\dfrac{v_{\max}}{v}=\dfrac{20\pi}{300\sqrt3}\approx0{,}12$.
+
 #### Bài 55
 
 <!-- source-id: BT-Chuong-II-p159-q40-380 -->
 
-Trên một sợi dây OB căng ngang, hai đầu cố định đang có sóng dừng với tần số $f$ xác định. Gọi M, N và P là ba điểm trên dây có vị trí cân bằng cách B lần lượt 4 cm, 6 cm và 38 cm. Hình vẽ mô tả dạng sợi dây ở thời điểm $t_1$ (đường 1) và thời điểm $t_2=t_1+\dfrac{11}{12f}$ (đường 2). Tại thời điểm $t_1$, li độ của phần tử dây ở N bằng biên độ của phần tử dây ở M và tốc độ của phần tử dây ở M là 60 cm/s. Tại thời điểm $t_2$, vận tốc của phần tử dây ở P là
+Trên một sợi dây OB căng ngang, hai đầu cố định đang có sóng dừng với tần số $f$ xác định. Gọi M, N và P là ba điểm trên dây có vị trí cân bằng cách B lần lượt $4\,\mathrm{cm}$, $6\,\mathrm{cm}$ và $38\,\mathrm{cm}$. Hình vẽ mô tả dạng sợi dây ở thời điểm $t_1$ (đường 1) và thời điểm $t_2=t_1+\dfrac{11}{12f}$ (đường 2). Tại thời điểm $t_1$, li độ của phần tử dây ở N bằng biên độ của phần tử dây ở M và tốc độ của phần tử dây ở M là $60\,\mathrm{cm/s}$. Tại thời điểm $t_2$, vận tốc của phần tử dây ở P là
 
 ![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/ii_p159_q40_380_fig1.webp){ loading=lazy }
 
-A. $20\sqrt3$ cm/s.
+A. $20\sqrt3\,\mathrm{cm/s}$.
 
-B. 60 cm/s.
+B. $60\,\mathrm{cm/s}$.
 
-C. $-20\sqrt3$ cm/s.
+C. $-20\sqrt3\,\mathrm{cm/s}$.
 
-D. $-60$ cm/s.
+D. $-60\,\mathrm{cm/s}$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
+
     **Hướng dẫn giải:**
+
     Từ đồ thị, $\lambda=24\,\mathrm{cm}$; $BM=\lambda/6$, $BN=\lambda/4$ và $BP=3\lambda/2+\lambda/12$.
     Với B là nút, N là bụng; M và N cùng pha, còn P ngược pha với M.
     Biên độ tại điểm cách nút một đoạn $x$ là $A=A_b\left|\sin\dfrac{2\pi x}{\lambda}\right|$, nên
@@ -1145,7 +1174,6 @@ D. $-60$ cm/s.
     Sau $11T/12$, nguồn cho $u_P=-A_b/4$ và P chuyển động theo chiều âm, nên
     $v_P=-\omega\sqrt{A_P^2-u_P^2}=-60\,\mathrm{cm/s}$.
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **D. $-60$ cm/s.**
 #### Bài 56
 
 <!-- source-id: BT-Chuong-II-p168-q1-397 -->
@@ -1162,12 +1190,11 @@ D. luôn luôn ngược pha với sóng tới ở điểm phản xạ.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** B
+
     **Hướng dẫn giải:**
 
-    Hai nút liên tiếp hoặc hai bụng liên tiếp cách nhau $\lambda/2$. Dây hai đầu cố định có $L=n\lambda/2$; một đầu cố định, một đầu tự do có $L=(2n+1)\lambda/4$.
+    Tại vật cản cố định, sóng phản xạ đảo pha so với sóng tới ở điểm phản xạ. Chọn **B**.
 
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **B. ngược pha với sóng tới ở điểm phản xạ khi phản xạ trên một vật cản cố định.**
 #### Bài 57
 
 <!-- source-id: BT-Chuong-II-p168-q2-398 -->
@@ -1184,12 +1211,11 @@ D. Sóng phản xạ luôn ngược pha với sóng tới ở điểm phản x�
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** B
+
     **Hướng dẫn giải:**
 
-    Hai nút liên tiếp hoặc hai bụng liên tiếp cách nhau $\lambda/2$. Dây hai đầu cố định có $L=n\lambda/2$; một đầu cố định, một đầu tự do có $L=(2n+1)\lambda/4$.
+    Tại đầu tự do, sóng phản xạ không đảo pha, nên cùng pha với sóng tới ngay tại điểm phản xạ. Chọn **B**.
 
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **B. Sóng phản xạ luôn cùng pha với sóng tới ở điểm phản xạ.**
 #### Bài 58
 
 <!-- source-id: BT-Chuong-II-p168-q3-399 -->
@@ -1206,12 +1232,11 @@ D. cùng pha.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
+
     **Hướng dẫn giải:**
 
-    Hai nút liên tiếp hoặc hai bụng liên tiếp cách nhau $\lambda/2$. Dây hai đầu cố định có $L=n\lambda/2$; một đầu cố định, một đầu tự do có $L=(2n+1)\lambda/4$.
+    Vật cản tự do không làm đảo pha sóng phản xạ; sóng tới và sóng phản xạ cùng pha tại điểm phản xạ. Chọn **D**.
 
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **D. cùng pha.**
 #### Bài 59
 
 <!-- source-id: BT-Chuong-II-p168-q4-400 -->
@@ -1228,12 +1253,11 @@ D. sóng được tạo thành giữa hai điểm cố định trong một môi 
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** B
+
     **Hướng dẫn giải:**
 
-    Hai nút liên tiếp hoặc hai bụng liên tiếp cách nhau $\lambda/2$. Dây hai đầu cố định có $L=n\lambda/2$; một đầu cố định, một đầu tự do có $L=(2n+1)\lambda/4$.
+    Sóng dừng là hệ quả giao thoa giữa sóng tới và sóng phản xạ cùng tần số truyền ngược chiều. Chọn **B**.
 
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **B. sóng được tạo thành do sự giao thoa giữa sóng tới và sóng phản xạ.**
 #### Bài 60
 
 <!-- source-id: BT-Chuong-II-p168-q5-401 -->
@@ -1250,12 +1274,11 @@ D. Tất cả phần tử dây đều đứng yên.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
+
     **Hướng dẫn giải:**
 
-    Hai nút liên tiếp hoặc hai bụng liên tiếp cách nhau $\lambda/2$. Dây hai đầu cố định có $L=n\lambda/2$; một đầu cố định, một đầu tự do có $L=(2n+1)\lambda/4$.
+    Đặc trưng quan sát của sóng dừng là các nút có biên độ bằng 0 xen kẽ các bụng có biên độ cực đại. Chọn **A**.
 
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. Trên dây có những bụng sóng xen kẽ với nút sóng.**
 #### Bài 61
 
 <!-- source-id: BT-Chuong-II-p168-q6-402 -->
@@ -1272,12 +1295,11 @@ D. $L=n\lambda$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** B
+
     **Hướng dẫn giải:**
 
-    Hai nút liên tiếp hoặc hai bụng liên tiếp cách nhau $\lambda/2$. Dây hai đầu cố định có $L=n\lambda/2$; một đầu cố định, một đầu tự do có $L=(2n+1)\lambda/4$.
+    Hai đầu cố định là hai nút, nên chiều dài dây thỏa $L=n\lambda/2$ với $n$ nguyên dương. Chọn **B**.
 
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **B. $L=n\dfrac{\lambda}{2}$.**
 #### Bài 62
 
 <!-- source-id: BT-Chuong-II-p169-q8-404 -->
@@ -1295,8 +1317,10 @@ D. A.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** B
+
     **Hướng dẫn giải:**
-    Điểm cách bụng một phần tư bước sóng là nút nên biên độ bằng 0
+
+    Trong sóng dừng, khoảng cách từ một bụng đến nút gần nhất bằng $\lambda/4$. Vì điểm đang xét cách bụng đúng $\lambda/4$, nó là nút sóng và có biên độ bằng $0$. Chọn **B**.
 
 #### Bài 63
 
@@ -1306,49 +1330,43 @@ Một sợi dây chiều dài L căng ngang, hai đầu cố định. Trên dây
 bụng sóng, tốc độ truyền sóng trên dây là v. Khoảng thời gian giữa hai lần liên tiếp sợi dây duỗi
 thẳng là
 
-A. v .
-nL
+A. $\dfrac{v}{nL}$.
 
-B. nv
-L .
+B. $\dfrac{nv}{L}$.
 
-C. L
-2nv .
+C. $\dfrac{L}{2nv}$.
 
-D. L
-nv .
+D. $\dfrac{L}{nv}$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
+
     **Hướng dẫn giải:**
 
-    Hai nút liên tiếp hoặc hai bụng liên tiếp cách nhau $\lambda/2$. Dây hai đầu cố định có $L=n\lambda/2$; một đầu cố định, một đầu tự do có $L=(2n+1)\lambda/4$.
+    Với $n$ bụng trên dây hai đầu cố định, $L=n\lambda/2$, nên $\lambda=2L/n$ và $T=\lambda/v=2L/(nv)$. Dây duỗi thẳng hai lần trong mỗi chu kì, vì vậy khoảng thời gian giữa hai lần liên tiếp là $T/2=L/(nv)$. Chọn **D**.
 
-    Khoảng thời gian giữa hai lần liên tiếp sợi dây dũi thẳng là
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **D. L**
 #### Bài 64
 
 <!-- source-id: BT-Chuong-II-p169-q10-406 -->
 
-Trên một sợi dây đàn hồi dài 1m, hai đầu cố định, có sóng dừng với 2 bụng sóng. Bước
+Trên một sợi dây đàn hồi dài $1\,\mathrm m$, hai đầu cố định, có sóng dừng với 2 bụng sóng. Bước
 sóng của sóng truyền trên đây là
 
-A. 1 m.
+A. $1\,\mathrm m$.
 
-B. 0,5 m.
+B. $0,5\,\mathrm m$.
 
-C. 2 m.
+C. $2\,\mathrm m$.
 
-D. 0,25 m.
+D. $0,25\,\mathrm m$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
+
     **Hướng dẫn giải:**
 
-    Hai nút liên tiếp hoặc hai bụng liên tiếp cách nhau $\lambda/2$. Dây hai đầu cố định có $L=n\lambda/2$; một đầu cố định, một đầu tự do có $L=(2n+1)\lambda/4$.
+    Có 2 bụng nên $L=2\lambda/2=\lambda$. Với $L=1\,\mathrm m$, suy ra $\lambda=1\,\mathrm m$. Chọn **A**.
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. 1 m.**
 #### Bài 65
 
 <!-- source-id: BT-Chuong-II-p169-q11-407 -->
@@ -1365,7 +1383,9 @@ D. hai lần khoảng cách giữa hai nút sóng liên tiếp.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
+
     **Hướng dẫn giải:**
+
     Khoảng cách giữa hai nút sóng liên tiếp là 2
     $\lambda$nên hai lần khoảng cách giữa hai nút sóng liên tiếp là
     một bước sóng
@@ -1387,12 +1407,11 @@ D. chiều dài của dây bằng một số nguyên lẻ lần một phần tư
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
+
     **Hướng dẫn giải:**
 
-    Hai nút liên tiếp hoặc hai bụng liên tiếp cách nhau $\lambda/2$. Dây hai đầu cố định có $L=n\lambda/2$; một đầu cố định, một đầu tự do có $L=(2n+1)\lambda/4$.
+    Dây một đầu cố định, một đầu tự do có điều kiện $L=(2n+1)\lambda/4$, tức một số nguyên lẻ lần một phần tư bước sóng. Chọn **D**.
 
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **D. chiều dài của dây bằng một số nguyên lẻ lần một phần tư bước sóng.**
 #### Bài 67
 
 <!-- source-id: BT-Chuong-II-p169-q13-409 -->
@@ -1410,18 +1429,17 @@ D. một phần tư bước sóng.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
+
     **Hướng dẫn giải:**
 
-    Hai nút liên tiếp hoặc hai bụng liên tiếp cách nhau $\lambda/2$. Dây hai đầu cố định có $L=n\lambda/2$; một đầu cố định, một đầu tự do có $L=(2n+1)\lambda/4$.
+    Từ một nút đến bụng gần nhất là $\lambda/4$. Chọn **D**.
 
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **D. một phần tư bước sóng.**
 #### Bài 68
 
 <!-- source-id: BT-Chuong-II-p170-q14-410 -->
 
-Trên một sợi dây đàn hồi dài 1,2 m, hai đầu cố định, đang có sóng dừng. Biết sóng truyền
-trên dây có tần số 100 Hz và tốc độ 80 m/s. Số bụng sóng trên dây là
+Trên một sợi dây đàn hồi dài $1,2\,\mathrm m$, hai đầu cố định, đang có sóng dừng. Biết sóng truyền
+trên dây có tần số $100\,\mathrm{Hz}$ và tốc độ $80\,\mathrm{m/s}$. Số bụng sóng trên dây là
 
 A. 3.
 
@@ -1433,44 +1451,40 @@ D. 2.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
+
     **Hướng dẫn giải:**
 
-    Hai nút liên tiếp hoặc hai bụng liên tiếp cách nhau $\lambda/2$. Dây hai đầu cố định có $L=n\lambda/2$; một đầu cố định, một đầu tự do có $L=(2n+1)\lambda/4$.
+    $\lambda=v/f=80/100=0{,}80\,\mathrm m$. Với hai đầu cố định, $n=2L/\lambda=2\cdot1{,}2/0{,}8=3$. Trên dây có 3 bụng. Chọn **A**.
 
-    = , Trên dây có 3 bụng
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. 3.**
 #### Bài 69
 
 <!-- source-id: BT-Chuong-II-p170-q15-411 -->
 
-Tạo sóng dừng trên sợi dây hai đầu cố định có chiều dài 1m, vận tốc truyền sóng trên dây
-là 30m/s. Hỏi nếu kích thích với các tần số sau thì tần số nào có khả năng gây ra hiện tuợng sóng
+Tạo sóng dừng trên sợi dây hai đầu cố định có chiều dài $1\,\mathrm m$, vận tốc truyền sóng trên dây
+là $30\,\mathrm{m/s}$. Hỏi nếu kích thích với các tần số sau thì tần số nào có khả năng gây ra hiện tuợng sóng
 dừng trên dây.
 
-A. 20 Hz.
+A. $20\,\mathrm{Hz}$.
 
-B. 40 Hz.
+B. $40\,\mathrm{Hz}$.
 
-C. 35Hz.
+C. $35\,\mathrm{Hz}$.
 
-D. 45Hz.
+D. $45\,\mathrm{Hz}$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
+
     **Hướng dẫn giải:**
 
-    Hai nút liên tiếp hoặc hai bụng liên tiếp cách nhau $\lambda/2$. Dây hai đầu cố định có $L=n\lambda/2$; một đầu cố định, một đầu tự do có $L=(2n+1)\lambda/4$.
+    Tần số riêng của dây hai đầu cố định là $f_n=nv/(2L)=15n\,\mathrm{Hz}$. Trong các lựa chọn, chỉ $45\,\mathrm{Hz}=15\cdot3$ thỏa. Chọn **D**.
 
-    . Suy ra n = 3 và f = 45 Hz
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **D. 45Hz.**
 #### Bài 70
 
 <!-- source-id: BT-Chuong-II-p170-q16-412 -->
 
 Một sợi dây đàn hồi 1 đầu cố định 1 đầu tự do, hai tần số liên tiếp có sóng dừng trên dây là
-45 Hz và 75 Hz. Hãy xác định tần số nhỏ nhất có sóng dừng trên dây.
+$45\,\mathrm{Hz}$ và $75\,\mathrm{Hz}$. Hãy xác định tần số nhỏ nhất có sóng dừng trên dây.
 
 A. 20.
 
@@ -1482,111 +1496,111 @@ D. 40.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** B
+
     **Hướng dẫn giải:**
 
-    Hai nút liên tiếp hoặc hai bụng liên tiếp cách nhau $\lambda/2$. Dây hai đầu cố định có $L=n\lambda/2$; một đầu cố định, một đầu tự do có $L=(2n+1)\lambda/4$.
+    Dây một đầu cố định, một đầu tự do có các tần số $f_n=(2n+1)f_0$. Hai tần số liên tiếp chênh $2f_0$, nên $75-45=2f_0$ và $f_0=15\,\mathrm{Hz}$. Chọn **B**.
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **B. 15.**
 #### Bài 71
 
 <!-- source-id: BT-Chuong-II-p170-q17-413 -->
 
 Trên một sợi dây căng ngang với hai đầu cố định đang có sóng dừng. Không xét các điểm
 bụng hoặc nút, quan sát thấy những điểm có cùng biên độ và ở gần nhau nhất thì đều cách đều nhau
-15cm. Bước sóng trên dây có giá trị bằng
+$15\,\mathrm{cm}$. Bước sóng trên dây có giá trị bằng
 
-A. 30 cm.
+A. $30\,\mathrm{cm}$.
 
-B. 60 cm.
+B. $60\,\mathrm{cm}$.
 
-C. 90 cm.
+C. $90\,\mathrm{cm}$.
 
-D. 45 cm.
+D. $45\,\mathrm{cm}$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** B
+
     **Hướng dẫn giải:**
 
-    Hai nút liên tiếp hoặc hai bụng liên tiếp cách nhau $\lambda/2$. Dây hai đầu cố định có $L=n\lambda/2$; một đầu cố định, một đầu tự do có $L=(2n+1)\lambda/4$.
+    Trong mỗi nửa bước sóng, các vị trí không phải nút/bụng có cùng biên độ xuất hiện đối xứng; khi các vị trí gần nhau nhất cùng biên độ lại cách đều nhau, khoảng cách đó bằng $\lambda/4$. Do $\lambda/4=15\,\mathrm{cm}$, suy ra $\lambda=60\,\mathrm{cm}$. Chọn **B**.
 
-    Những điểm có cùng biên độ và ở gần nhau nhất thì đều cách đều nhau
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **B. 60 cm.**
 #### Bài 72
 
 <!-- source-id: BT-Chuong-II-p170-q18-414 -->
 
-Một sợi dây đàn hồi dài 90 cm có một đầu cố định và một đầu tự do đang có sóng dừng.
+Một sợi dây đàn hồi dài $90\,\mathrm{cm}$ có một đầu cố định và một đầu tự do đang có sóng dừng.
 Kể cả đầu dây cố định, trên dây có 8 nút. Biết rằng khoảng thời gian giữa 6 lần liên tiếp sợi dây
-duỗi thẳng là 0,25 s. Tốc độ truyền sóng trên dây là
+duỗi thẳng là $0,25\,\mathrm s$. Tốc độ truyền sóng trên dây là
 
-A. 1,2 m/s.
+A. $1,2\,\mathrm{m/s}$.
 
-B. 2,9 m/s.
+B. $2,9\,\mathrm{m/s}$.
 
-C. 2,4 m/s.
+C. $2,4\,\mathrm{m/s}$.
 
-D. 2,6 m/s.
+D. $2,6\,\mathrm{m/s}$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
+
     **Hướng dẫn giải:**
 
-    Hai nút liên tiếp hoặc hai bụng liên tiếp cách nhau $\lambda/2$. Dây hai đầu cố định có $L=n\lambda/2$; một đầu cố định, một đầu tự do có $L=(2n+1)\lambda/4$.
+    Dây một đầu cố định, một đầu tự do có 8 nút kể cả đầu cố định, nên có 8 bụng và $L=(2\cdot8-1)\lambda/4=15\lambda/4$. Suy ra $\lambda=4L/15=0{,}24\,\mathrm m$.
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. 2,4 m/s.**
+    Sáu lần dây duỗi thẳng liên tiếp tạo 5 khoảng $T/2$: $5T/2=0{,}25$, nên $T=0{,}10\,\mathrm s$, $f=10\,\mathrm{Hz}$. Vậy $v=\lambda f=2{,}4\,\mathrm{m/s}$. Chọn **C**.
+
 #### Bài 73
 
 <!-- source-id: BT-Chuong-II-p200-q15-454 -->
 
-Một sợi dây đàn hồi dài 21 cm, một đầu cố định, một đầu tự do. Biết tốc độ truyền sóng trên
-dây là 2,8 m/s. Nếu dây dao động với tám bụng sóng thì tần số rung của sợi dây là
+Một sợi dây đàn hồi dài $21\,\mathrm{cm}$, một đầu cố định, một đầu tự do. Biết tốc độ truyền sóng trên
+dây là $2,8\,\mathrm{m/s}$. Nếu dây dao động với tám bụng sóng thì tần số rung của sợi dây là
 
-A. ƒ = 40 Hz.
+A. $f=40\,\mathrm{Hz}$.
 
-B. ƒ = 50 Hz.
+B. $f=50\,\mathrm{Hz}$.
 
-C. ƒ = 60 Hz.
+C. $f=60\,\mathrm{Hz}$.
 
-D. ƒ = 20 Hz.
+D. $f=20\,\mathrm{Hz}$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** B
+
     **Hướng dẫn giải:**
 
-    Hai nút liên tiếp hoặc hai bụng liên tiếp cách nhau $\lambda/2$. Dây hai đầu cố định có $L=n\lambda/2$; một đầu cố định, một đầu tự do có $L=(2n+1)\lambda/4$.
+    Một đầu cố định, một đầu tự do và có 8 bụng nên $L=(2\cdot8-1)\lambda/4=15\lambda/4$. Với $L=0{,}21\,\mathrm m$, $\lambda=0{,}056\,\mathrm m$. Do đó $f=v/\lambda=2{,}8/0{,}056=50\,\mathrm{Hz}$. Chọn **B**.
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **B. ƒ = 50 Hz.**
 #### Bài 74
 
 <!-- source-id: BT-Chuong-II-p202-q7-461 -->
 
 Trên sợi dây AB người ta tạo ra sóng dừng có hình dạng được mô tả như Hình bên. Biết
-khoảng cách từ B đến nút dao động thứ 3 (kể từ B) là 5 cm. Bước sóng có giá trị là
+khoảng cách từ B đến nút dao động thứ 3 (kể từ B) là $5\,\mathrm{cm}$. Bước sóng có giá trị là
 
 ![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/ii_p202_q7_461_fig1.webp){ loading=lazy }
 
-A. $\lambda$ = 4 cm.
+A. $\lambda=4\,\mathrm{cm}$.
 
-B. $\lambda$ = 5 cm.
+B. $\lambda=5\,\mathrm{cm}$.
 
-C. $\lambda$ = 8 cm.
+C. $\lambda=8\,\mathrm{cm}$.
 
-D. $\lambda$ =10 cm.
+D. $\lambda=10\,\mathrm{cm}$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
+
     **Hướng dẫn giải:**
 
-    Hai nút liên tiếp hoặc hai bụng liên tiếp cách nhau $\lambda/2$. Dây hai đầu cố định có $L=n\lambda/2$; một đầu cố định, một đầu tự do có $L=(2n+1)\lambda/4$.
+    Theo hình, từ đầu B (bụng) đến nút thứ ba kể từ B gồm một đoạn $\lambda/4$ và hai đoạn $\lambda/2$, nên $5=\lambda/4+\lambda=5\lambda/4$. Suy ra $\lambda=4\,\mathrm{cm}$. Chọn **A**.
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. $\lambda$ = 4 cm.**
 #### Bài 75
 
 <!-- source-id: BT-Chuong-II-p202-q8-462 -->
 
-Một dây AB dài 20 cm, điểm B cố định. Đầu A gắn vào một âm thoa rung coi là nút. Biết tần
-số của sóng là ƒ = 20 Hz, tốc độ truyền sóng là v =100 cm/s. Số bụng và số nút quan sát được khi có
+Một dây AB dài $20\,\mathrm{cm}$, điểm B cố định. Đầu A gắn vào một âm thoa rung coi là nút. Biết tần
+số của sóng là $f=20\,\mathrm{Hz}$, tốc độ truyền sóng là $v=100\,\mathrm{cm/s}$. Số bụng và số nút quan sát được khi có
 hiện tượng sóng dừng là
 
 A. 8 bụng, 9 nút.
@@ -1599,73 +1613,79 @@ D. 9 bụng, 8 nút.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
+
     **Hướng dẫn giải:**
 
-    Hai nút liên tiếp hoặc hai bụng liên tiếp cách nhau $\lambda/2$. Dây hai đầu cố định có $L=n\lambda/2$; một đầu cố định, một đầu tự do có $L=(2n+1)\lambda/4$.
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. 8 bụng, 9 nút.**
-### Nhận biết — Đúng/Sai
+    $\lambda=v/f=100/20=5\,\mathrm{cm}$. Hai đầu được coi là nút nên $L=n\lambda/2$: $20=n\cdot2{,}5$, suy ra $n=8$ bụng và $9$ nút. Chọn **A**.
 
 #### Bài 76
 
 <!-- source-id: BT-Chuong-II-p161-q1-381 -->
 
-Một sợi dây dài 2 m được căng cố định ở hai đầu. Sóng dừng xuất hiện với tần số 50 Hz và
+Một sợi dây dài $2\,\mathrm m$ được căng cố định ở hai đầu. Sóng dừng xuất hiện với tần số $50\,\mathrm{Hz}$ và
 trên dây có 4 nút sóng (không kể hai đầu dây).
 
 a) Số bụng sóng trên dây là 5.
 
 b) Chiều dài sợi dây bằng 2 lần bước sóng.
 
-c) Bước sóng của sóng trên dây là 0,8 m.
+c) Bước sóng của sóng trên dây là $0,8\,\mathrm m$.
 
-d) Tốc độ truyền sóng trên dây là 40 m/s.
+d) Tốc độ truyền sóng trên dây là $40\,\mathrm{m/s}$.
 
 ??? success "Đáp án và lời giải"
+    **Đáp án:** a) Đúng; b) Sai; c) Đúng; d) Đúng.
+
     **Hướng dẫn giải:**
-    a) Kể cả hai đầu dây có $6$ nút, nên có $5$ bụng.
 
-    b) $L=n\dfrac{\lambda}{2}=5\dfrac{\lambda}{2}=2{,}5\lambda$.
+    a) **Đúng.** Có 4 nút bên trong và 2 nút ở hai đầu, tổng 6 nút nên có 5 bụng.
 
-    c) $2=2{,}5\lambda\Rightarrow\lambda=0{,}8\,\mathrm{m}$.
+    b) **Sai.** Với 5 bụng, $L=5\lambda/2=2{,}5\lambda$, không phải $2\lambda$.
 
-    d) $v=\lambda f=0{,}8\cdot50=40\,\mathrm{m/s}$.
+    c) **Đúng.** $\lambda=2L/5=0{,}8\,\mathrm m$.
+
+    d) **Đúng.** $v=\lambda f=0{,}8\cdot50=40\,\mathrm{m/s}$.
+
 #### Bài 77
 
 <!-- source-id: BT-Chuong-II-p161-q2-382 -->
 
-Một sợi dây dài 1,8 m được cố định ở hai đầu. Sóng dừng xuất hiện trên dây với bước sóng
-là 0,9 m với tốc độ 45 m/s.
+Một sợi dây dài $1,8\,\mathrm m$ được cố định ở hai đầu. Sóng dừng xuất hiện trên dây với bước sóng
+là $0,9\,\mathrm m$ với tốc độ $45\,\mathrm{m/s}$.
 
-a) Khoảng cách giữa hai nút sóng liên tiếp là 0,45 m.
+a) Khoảng cách giữa hai nút sóng liên tiếp là $0,45\,\mathrm m$.
 
-b) Khoảng cách giữa một nút sóng và một bụng liên tiếp là 0,9 m.
+b) Khoảng cách giữa một nút sóng và một bụng liên tiếp là $0,9\,\mathrm m$.
 
 c) Trên dây có 4 bụng và 5 nút sóng.
 
-d) Tần số của sóng trên dây là 100 Hz
+d) Tần số của sóng trên dây là $100\,\mathrm{Hz}$
 
 ??? success "Đáp án và lời giải"
+    **Đáp án:** a) Đúng; b) Sai; c) Đúng; d) Sai.
+
     **Hướng dẫn giải:**
-    a) Hai nút liên tiếp cách nhau $\lambda/2=0{,}45\,\mathrm{m}$.
 
-    b) Một nút và một bụng liên tiếp cách nhau $\lambda/4=0{,}225\,\mathrm{m}$.
+    a) **Đúng.** Hai nút liên tiếp cách $\lambda/2=0{,}45\,\mathrm m$.
 
-    c) $L=n\lambda/2\Rightarrow1{,}8=0{,}45n\Rightarrow n=4$, nên có $4$ bụng và $5$ nút.
+    b) **Sai.** Nút và bụng gần nhất cách $\lambda/4=0{,}225\,\mathrm m$, không phải $0{,}9\,\mathrm m$.
 
-    d) $f=v/\lambda=45/0{,}9=50$.
+    c) **Đúng.** $n=2L/\lambda=4$, nên có 4 bụng và 5 nút.
+
+    d) **Sai.** $f=v/\lambda=45/0{,}9=50\,\mathrm{Hz}$, không phải $100\,\mathrm{Hz}$.
+
 #### Bài 78
 
 <!-- source-id: BT-Chuong-II-p162-q3-383 -->
 
-Một sợi dây dài 1,4 m được cố định ở một đầu và đầu còn lại tự do. Sóng dừng xuất hiện
-trên dây với tần số 75 Hz và tốc độ truyền sóng là 60 m/s.
+Một sợi dây dài $1,4\,\mathrm m$ được cố định ở một đầu và đầu còn lại tự do. Sóng dừng xuất hiện
+trên dây với tần số $75\,\mathrm{Hz}$ và tốc độ truyền sóng là $60\,\mathrm{m/s}$.
 
 a) Đầu cố định là nút, đầu tự do là bụng.
 
-b) Bước sóng truyền trên dây là 0,8 m
+b) Bước sóng truyền trên dây là $0,8\,\mathrm m$
 
-c) Khoảng cách giữa hai bụng sóng liên tiếp là 0,45 m.
+c) Khoảng cách giữa hai bụng sóng liên tiếp là $0,45\,\mathrm m$.
 
 d) Tổng số bụng và số nút trên dây là 8
 
@@ -1674,19 +1694,20 @@ d) Tổng số bụng và số nút trên dây là 8
 
     **Hướng dẫn giải:**
 
-    a) **Đúng.** Hình cho thấy hệ nút - bụng cố định, đặc trưng của sóng dừng.
+    a) **Đúng.** Với sóng dừng trên dây một đầu cố định, một đầu tự do, đầu cố định là nút còn đầu tự do là bụng.
 
-    b) **Đúng.** Từ $v=60\ \text{m/s}$ và $f=75\ \text{Hz}$: $\lambda=v/f=0{,}80\ \text{m}$.
+    b) **Đúng.** Từ $v=60\ \mathrm{m/s}$ và $f=75\ \mathrm{Hz}$: $\lambda=v/f=0{,}80\ \mathrm m$.
 
-    c) **Sai.** Hai bụng sóng liên tiếp cách nhau $\lambda/2=0{,}40\ \text{m}$, không phải một bước sóng.
+    c) **Sai.** Hai bụng sóng liên tiếp cách nhau $\lambda/2=0{,}40\ \mathrm m$, không phải một bước sóng.
 
-    d) **Đúng.** Với $L=1{,}40\ \text{m}=7\lambda/4$, hệ có $4$ nút và $4$ bụng, tổng cộng $8$ vị trí nút/bụng đặc trưng như hình.
+    d) **Đúng.** Với $L=1{,}40\ \mathrm m=7\lambda/4$, hệ có $4$ nút và $4$ bụng, tổng cộng $8$ vị trí nút/bụng đặc trưng như hình.
+
 #### Bài 79
 
 <!-- source-id: BT-Chuong-II-p162-q4-384 -->
 
 Thực hiện thí nghiệm sóng dừng trên sợi dây ta thu được hình ảnh bên dưới, biết sợi dây có
-chiều dài 1,5 m và tốc độ truyền sóng trên dây là 100 m/s.
+chiều dài $1,5\,\mathrm m$ và tốc độ truyền sóng trên dây là $100\,\mathrm{m/s}$.
 
 ![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/ii_p162_q4_384_fig1.webp){ loading=lazy }
 
@@ -1696,16 +1717,20 @@ b) Tính cả hai đầu dây, trên dây có 3 bụng và 4 nút
 
 c) Chiều dài sợi dây bằng ba lần bước sóng
 
-d) Tần số của sóng truyền trên sợi dây là 50 Hz
+d) Tần số của sóng truyền trên sợi dây là $50\,\mathrm{Hz}$
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** a) Đúng; b) Đúng; c) Sai; d) Sai.
 
     **Hướng dẫn giải:**
-    Hình cho thấy hai đầu là nút và có 3 bụng, 4 nút. Với dây hai đầu cố định và $n=3$:
-    $L=3\lambda/2\Rightarrow\lambda=2L/3=1{,}0\,\mathrm{m}$.
-    Vì vậy $L=1{,}5\lambda$, không phải $3\lambda$, và
-    $f=v/\lambda=100/1=100\,\mathrm{Hz}$, không phải $50\,\mathrm{Hz}$.
+
+    a) **Đúng.** Hình cho thấy hai đầu dây đều là nút, nên đây là sợi dây có hai đầu cố định.
+
+    b) **Đúng.** Hình có 3 bụng; với hai đầu đều là nút thì số nút bằng $3+1=4$.
+
+    c) **Sai.** Với 3 bụng, $L=3\lambda/2=1{,}5\lambda$, không phải $3\lambda$.
+
+    d) **Sai.** Từ $L=1{,}5\,\mathrm m$ và $L=3\lambda/2$ suy ra $\lambda=1{,}0\,\mathrm m$. Với $v=100\,\mathrm{m/s}$, $f=v/\lambda=100\,\mathrm{Hz}$, không phải $50\,\mathrm{Hz}$.
 
 #### Bài 80
 
@@ -1722,71 +1747,89 @@ b) Bước sóng trong thí nghiệm có chiều dài bằng AQ
 
 c) Tại điểm M và P sóng tới và sóng phản xạ ngược pha
 
-d) Cho biết thời gian để một điểm trên dây dao động từ vị trí N đến vị trí P là 0,02 s. Tấn số sóng sử dụng trong thí nghiệm này bằng 25 Hz
+d) Cho biết thời gian để một điểm trên dây dao động từ vị trí N đến vị trí P là $0,02\,\mathrm s$. Tấn số sóng sử dụng trong thí nghiệm này bằng $25\,\mathrm{Hz}$
 
 ??? success "Đáp án và lời giải"
+    **Đáp án:** a) Đúng; b) Đúng; c) Sai; d) Đúng.
+
     **Hướng dẫn giải:**
-    a) P là bụng nên dao động với biên độ lớn nhất.
-    b) Hai nút liên tiếp cách nhau $\lambda/2$; A và Q là ba nút liên tiếp nên $AQ=\lambda$.
-    c) M là nút nên sóng tới và sóng phản xạ ngược pha; P là bụng nên hai sóng cùng pha.
-    d) Từ N đến P, thời gian dao động là $T/2=0{,}02\,\mathrm{s}$, suy ra $T=0{,}04\,\mathrm{s}$ và $f=1/T=25\,\mathrm{Hz}$.
+
+    a) **Đúng.** P là bụng nên có biên độ cực đại.
+
+    b) **Đúng.** Trên hình A, M, Q là ba nút liên tiếp nên $AQ=2(\lambda/2)=\lambda$.
+
+    c) **Sai.** Ở nút M, sóng tới và phản xạ ngược pha; ở bụng P chúng cùng pha.
+
+    d) **Đúng.** Từ N đến P là hai vị trí biên đối nhau nên mất $T/2=0{,}02\,\mathrm s$. Suy ra $T=0{,}04\,\mathrm s$ và $f=25\,\mathrm{Hz}$.
+
 #### Bài 81
 
 <!-- source-id: BT-Chuong-II-p171-q2-416 -->
 
 
-Sóng dừng trên một dây đàn dài 0,6 m, hai đầu cố định. Trên dây có một bụng sóng
+Sóng dừng trên một dây đàn dài $0,6\,\mathrm m$, hai đầu cố định. Trên dây có một bụng sóng
 
 a) Trên dây có 2 nút.
 
-b) Bước sóng của sóng trên sợi dây là 1 m
+b) Bước sóng của sóng trên sợi dây là $1\,\mathrm m$
 
-c) Nếu sóng truyền trên dây có tần số 50 Hz thì vận tốc của sóng là 60 m/s
+c) Nếu sóng truyền trên dây có tần số $50\,\mathrm{Hz}$ thì vận tốc của sóng là $60\,\mathrm{m/s}$
 
-d) Nếu dây dao động với 4 bụng sóng thì bước sóng trên dây là 0,3 m
+d) Nếu dây dao động với 4 bụng sóng thì bước sóng trên dây là $0,3\,\mathrm m$
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** a) Đúng; b) Sai; c) Đúng; d) Đúng.
 
     **Hướng dẫn giải:**
-    Với một bụng và hai đầu cố định, dây ở họa âm cơ bản: $L=\lambda/2$.
-    Do $L=0{,}6\,\mathrm{m}$ nên $\lambda=1{,}2\,\mathrm{m}$.
-    Vì vậy a) Đúng, b) Sai và nếu $f=50\,\mathrm{Hz}$ thì $v=\lambda f=60\,\mathrm{m/s}$, nên c) Đúng.
-    Nếu có 4 bụng: $L=4\lambda'/2$, suy ra $\lambda'=2L/4=0{,}3\,\mathrm{m}$, nên d) Đúng.
+
+    a) **Đúng.** Với một bụng và hai đầu cố định, hai đầu là hai nút nên trên dây có 2 nút.
+
+    b) **Sai.** Ở họa âm cơ bản, $L=\lambda/2$. Với $L=0{,}6\,\mathrm m$, $\lambda=1{,}2\,\mathrm m$, không phải $1\,\mathrm m$.
+
+    c) **Đúng.** Nếu $f=50\,\mathrm{Hz}$ thì $v=\lambda f=1{,}2\cdot50=60\,\mathrm{m/s}$.
+
+    d) **Đúng.** Nếu có 4 bụng, $L=4\lambda'/2$, nên $\lambda'=2L/4=0{,}3\,\mathrm m$.
 
     !!! warning "Đối chiếu nguồn"
-        PDF in “dây dài 6 m”, nhưng toàn bộ mệnh đề và hướng dẫn của chính nguồn dùng $L=0{,}6\,\mathrm{m}$. Dữ kiện được hiệu chỉnh tối thiểu thành $0{,}6\,\mathrm{m}$.
+        PDF in “dây dài $6\,\mathrm m$”, nhưng toàn bộ mệnh đề và hướng dẫn của chính nguồn dùng $L=0{,}6\,\mathrm{m}$. Dữ kiện được hiệu chỉnh tối thiểu thành $0{,}6\,\mathrm{m}$.
 
 #### Bài 82
 
 <!-- source-id: BT-Chuong-II-p172-q3-417 -->
 
 
-Trên sợi dây đàn hồi có chiều dài 40 cm, người ta tạo ra sóng dừng có hình dạng được mô tả
+Trên sợi dây đàn hồi có chiều dài $40\,\mathrm{cm}$, người ta tạo ra sóng dừng có hình dạng được mô tả
 như hình.
 
 ![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/ii_p172_q3_417_fig1.webp){ loading=lazy }
 
 a) Trên dây có 2 bó sóng nguyên
 
-b) Bước sóng của sóng trên sợi dây là 40 cm
+b) Bước sóng của sóng trên sợi dây là $40\,\mathrm{cm}$
 
-c) Hai điểm A và B cách nhau 10 cm
+c) Hai điểm A và B cách nhau $10\,\mathrm{cm}$
 
-d) Nếu sóng truyền trên dây có tần số 50 Hz thì tốc độ của sóng là 2 m/s
+d) Nếu sóng truyền trên dây có tần số $50\,\mathrm{Hz}$ thì tốc độ của sóng là $2\,\mathrm{m/s}$
 
 ??? success "Đáp án và lời giải"
+    **Đáp án:** a) Đúng; b) Đúng; c) Sai; d) Sai.
+
     **Hướng dẫn giải:**
-    a) Quan sát thấy trên dây có 2 bó sóng nguyên.
-    b) $n=2$ và $L=n\lambda/2$, nên $\lambda=2L/n=40\,\mathrm{cm}$.
-    c) A và B là hai bụng nên cách nhau $\lambda/2=20\,\mathrm{cm}$.
-    d) $v=\lambda f=40\cdot50=2000\,\mathrm{cm/s}=20\,\mathrm{m/s}$.
+
+    a) **Đúng.** Hình cho 2 bó sóng nguyên.
+
+    b) **Đúng.** $L=2\lambda/2=\lambda$, nên $\lambda=40\,\mathrm{cm}$.
+
+    c) **Sai.** A và B là hai bụng kề nhau nên $AB=\lambda/2=20\,\mathrm{cm}$.
+
+    d) **Sai.** $v=\lambda f=0{,}40\cdot50=20\,\mathrm{m/s}$, không phải $2\,\mathrm{m/s}$.
+
 #### Bài 83
 
 <!-- source-id: BT-Chuong-II-p172-q4-418 -->
 
 
-Mô hình hóa sóng dừng xuất hiện trên dây như hình bên. Biết dây có chiều dài 140 cm.
+Mô hình hóa sóng dừng xuất hiện trên dây như hình bên. Biết dây có chiều dài $140\,\mathrm{cm}$.
 
 ![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/ii_p172_q4_418_fig1.webp){ loading=lazy }
 
@@ -1794,22 +1837,23 @@ a) Sóng truyền trên sợi dây có một đầu cố định và một đầ
 
 b) Trên dây có 4 nút và 3 bụng.
 
-c) Bước sóng của sóng trên sợi dây là 80 cm.
+c) Bước sóng của sóng trên sợi dây là $80\,\mathrm{cm}$.
 
-d) Nếu sóng truyền trên dây có vận tốc 3,2 m/s thì tần số của sóng là 40 Hz.
+d) Nếu sóng truyền trên dây có vận tốc $3,2\,\mathrm{m/s}$ thì tần số của sóng là $40\,\mathrm{Hz}$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** a) Đúng; b) Sai; c) Đúng; d) Sai.
 
     **Hướng dẫn giải:**
-    a) Một đầu là nút, đầu kia là bụng nên dây có một đầu cố định và một đầu tự do.
 
-    b) Hình có 4 nút và 4 bụng, không phải 3 bụng.
+    a) **Đúng.** Một đầu là nút, đầu kia là bụng nên dây có một đầu cố định và một đầu tự do.
 
-    c) Với 3 bó nguyên cộng một phần tư bước sóng ở đầu tự do,
+    b) **Sai.** Hình có 4 nút và 4 bụng, không phải 3 bụng.
+
+    c) **Đúng.** Với 3 bó nguyên cộng một phần tư bước sóng ở đầu tự do,
     $L=(2\cdot3+1)\lambda/4=7\lambda/4$. Từ $L=140\,\mathrm{cm}$ suy ra $\lambda=80\,\mathrm{cm}$.
 
-    d) $v=3{,}2\,\mathrm{m/s}=320\,\mathrm{cm/s}$, nên
+    d) **Sai.** $v=3{,}2\,\mathrm{m/s}=320\,\mathrm{cm/s}$, nên
     $f=v/\lambda=320/80=4\,\mathrm{Hz}$, không phải $40\,\mathrm{Hz}$.
 
     !!! warning "Đối chiếu nguồn"
@@ -1819,54 +1863,59 @@ d) Nếu sóng truyền trên dây có vận tốc 3,2 m/s thì tần số của
 
 <!-- source-id: BT-Chuong-II-p215-q2-502 -->
 
-Một sợi dây AB dài 100 cm căng ngang đầu B cố định đầu A gắn với một nhánh của âm thoa
-dao động điều hòa với tần số 20 Hz. Trên dây AB có một sóng dừng ổn định, A được coi là nút sóng.
-Tốc độ truyền sóng trên dây là 20 m/s. Kể cả A và B
+Một sợi dây AB dài $100\,\mathrm{cm}$ căng ngang đầu B cố định đầu A gắn với một nhánh của âm thoa
+dao động điều hòa với tần số $20\,\mathrm{Hz}$. Trên dây AB có một sóng dừng ổn định, A được coi là nút sóng.
+Tốc độ truyền sóng trên dây là $20\,\mathrm{m/s}$. Kể cả A và B
 
-a) Chu kì của sóng là 0,05 s .
+a) Chu kì của sóng là $0,05\,\mathrm s$ .
 
-b) Sóng có bước sóng là 1 cm.
+b) Sóng có bước sóng là $1\,\mathrm{cm}$.
 
 c) Kể cả A và B có 5 nút
 
 d) Kể cả A và B có 2 bụng
 
 ??? success "Đáp án và lời giải"
+    **Đáp án:** a) Đúng; b) Sai; c) Sai; d) Đúng.
+
     **Hướng dẫn giải:**
 
-    Hai nút liên tiếp hoặc hai bụng liên tiếp cách nhau $\lambda/2$. Dây hai đầu cố định có $L=n\lambda/2$; một đầu cố định, một đầu tự do có $L=(2n+1)\lambda/4$.
+    a) **Đúng.** $T=1/f=1/20=0{,}05\,\mathrm s$.
 
-    a) Chu kì của sóng là 0,05 s
-    b) Sóng có bước sóng là
-    c) Kể cả A và B có 3 nút
-    d) Kể cả A và B có 2 bụng
+    b) **Sai.** $\lambda=v/f=20/20=1\,\mathrm m=100\,\mathrm{cm}$, không phải $1\,\mathrm{cm}$.
+
+    c) **Sai.** $L=1\,\mathrm m=2\lambda/2$, nên có 2 bụng và 3 nút kể cả A, B.
+
+    d) **Đúng.** Kết quả trên cho đúng 2 bụng.
+
 #### Bài 85
 
 <!-- source-id: BT-Chuong-II-p216-q3-503 -->
 
 Trong thí nghiệm sóng dừng trên dây mềm có hai đầu cố định, người ta thấy có 5 bụng sóng
-xuất hiện khi tần số dao động của dây là 50 Hz. Biết tốc độ truyền sóng trên dây là 16 m/s. Chiều dài
+xuất hiện khi tần số dao động của dây là $50\,\mathrm{Hz}$. Biết tốc độ truyền sóng trên dây là $16\,\mathrm{m/s}$. Chiều dài
 sợi dây có giá trị
 
-a) Chu kì dao động của sợi dây là 0,02 s.
+a) Chu kì dao động của sợi dây là $0,02\,\mathrm s$.
 
-b) Bước sóng là 800 cm.
+b) Bước sóng là $800\,\mathrm{cm}$.
 
 c) Ta thấy trên sợi dây có 5 nút sóng.
 
-d) Chiều dài sợi dây là 0,8 m.
+d) Chiều dài sợi dây là $0,8\,\mathrm m$.
 
 ??? success "Đáp án và lời giải"
+    **Đáp án:** a) Đúng; b) Sai; c) Sai; d) Đúng.
+
     **Hướng dẫn giải:**
 
-    Hai nút liên tiếp hoặc hai bụng liên tiếp cách nhau $\lambda/2$. Dây hai đầu cố định có $L=n\lambda/2$; một đầu cố định, một đầu tự do có $L=(2n+1)\lambda/4$.
+    a) **Đúng.** $T=1/50=0{,}02\,\mathrm s$.
 
-    a) Chu kì dao động của sợi dây là 0,02 s.
-    b) Bước sóng là 0,32 m.
-    c) Ta thấy trên sợi dây có 6 nút sóng.
-    Vì sóng dừng trên sợi dây có 2 đầu cố định nên số nút là 6 nút
-    d) Chiều dài sợi dây là 0,8 m.
-### Thông hiểu — Trắc nghiệm 4 lựa chọn
+    b) **Sai.** $\lambda=v/f=16/50=0{,}32\,\mathrm m=32\,\mathrm{cm}$, không phải $800\,\mathrm{cm}$.
+
+    c) **Sai.** Dây hai đầu cố định có 5 bụng thì có 6 nút.
+
+    d) **Đúng.** $L=5\lambda/2=5\cdot0{,}32/2=0{,}8\,\mathrm m$.
 
 #### Bài 86
 
@@ -1886,12 +1935,11 @@ D. $AB=3{,}25\lambda$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
+
     **Hướng dẫn giải:**
 
-    Hai nút liên tiếp hoặc hai bụng liên tiếp cách nhau $\lambda/2$. Dây hai đầu cố định có $L=n\lambda/2$; một đầu cố định, một đầu tự do có $L=(2n+1)\lambda/4$.
+    Quan sát hình: từ A đến B gồm 4 khoảng nút–nút, mỗi khoảng $\lambda/2$. Vì vậy $AB=4\lambda/2=2\lambda$. Chọn **A**.
 
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. $AB=2\lambda$.**
 #### Bài 87
 
 <!-- source-id: BT-Chuong-II-p154-q20-360 -->
@@ -1910,12 +1958,11 @@ D. $AB=1{,}75\lambda$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
+
     **Hướng dẫn giải:**
 
-    Hai nút liên tiếp hoặc hai bụng liên tiếp cách nhau $\lambda/2$. Dây hai đầu cố định có $L=n\lambda/2$; một đầu cố định, một đầu tự do có $L=(2n+1)\lambda/4$.
+    Hình có một đầu là bụng và đầu kia là nút; cộng các đoạn được chỉ trên hình cho $AB=\lambda/4+4(\lambda/2)=2{,}25\lambda$. Chọn **C**.
 
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. $AB=2{,}25\lambda$.**
 #### Bài 88
 
 <!-- source-id: BT-Chuong-II-p154-q21-361 -->
@@ -1925,22 +1972,22 @@ của sóng trên dây bằng
 
 ![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/ii_p154_q21_361_fig1.webp){ loading=lazy }
 
-A. 3 cm.
+A. $3\,\mathrm{cm}$.
 
-B. 4 cm.
+B. $4\,\mathrm{cm}$.
 
-C. 5 cm.
+C. $5\,\mathrm{cm}$.
 
-D. 6 cm.
+D. $6\,\mathrm{cm}$.
 
 ??? success "Đáp án và lời giải"
-    **Đáp án: D.**
+    **Đáp án:** D.
 
     **Hướng dẫn giải:**
 
-    Trên hình, điểm $M$ nằm giữa một nút và nút kế tiếp, tức ở vị trí bụng sóng. Khoảng cách từ bụng đến nút gần nhất bằng $\lambda/4$. Hình cho khoảng cách đó là $1{,}5\,\text{cm}$, do đó
+    Trên hình, điểm $M$ nằm giữa một nút và nút kế tiếp, tức ở vị trí bụng sóng. Khoảng cách từ bụng đến nút gần nhất bằng $\lambda/4$. Hình cho khoảng cách đó là $1{,}5\,\mathrm{cm}$, do đó
 
-    $\displaystyle \frac{\lambda}{4}=1{,}5\,\text{cm}\Rightarrow \lambda=6\,\text{cm}.$
+    $\displaystyle \frac{\lambda}{4}=1{,}5\,\mathrm{cm}\Rightarrow \lambda=6\,\mathrm{cm}.$
 
 #### Bài 89
 
@@ -1958,12 +2005,11 @@ D. $L=(2n+1)\dfrac{v}{2f}$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
+
     **Hướng dẫn giải:**
 
-    Hai nút liên tiếp hoặc hai bụng liên tiếp cách nhau $\lambda/2$. Dây hai đầu cố định có $L=n\lambda/2$; một đầu cố định, một đầu tự do có $L=(2n+1)\lambda/4$.
+    Hai đầu cố định: $L=n\lambda/2$. Với $\lambda=v/f$, suy ra $L=nv/(2f)$, $n=1,2,3,\ldots$. Chọn **A**.
 
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. $L=n\dfrac{v}{2f}$ với $n=1,2,3,\ldots$.**
 #### Bài 90
 
 <!-- source-id: BT-Chuong-II-p155-q23-363 -->
@@ -1980,12 +2026,11 @@ D. $L=(2n+1)\dfrac{v}{2f}$ với $n=1,2,3,\ldots$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
+
     **Hướng dẫn giải:**
 
-    Hai nút liên tiếp hoặc hai bụng liên tiếp cách nhau $\lambda/2$. Dây hai đầu cố định có $L=n\lambda/2$; một đầu cố định, một đầu tự do có $L=(2n+1)\lambda/4$.
+    Một đầu cố định, một đầu tự do: $L=(2n+1)\lambda/4$. Thay $\lambda=v/f$ được $L=(2n+1)v/(4f)$, $n=0,1,2,\ldots$. Chọn **C**.
 
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. $L=(2n+1)\dfrac{v}{4f}$ với $n=0,1,2,3,\ldots$.**
 #### Bài 91
 
 <!-- source-id: BT-Chuong-II-p155-q24-364 -->
@@ -2002,12 +2047,11 @@ D. $0{,}75\lambda$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
+
     **Hướng dẫn giải:**
 
-    Hai nút liên tiếp hoặc hai bụng liên tiếp cách nhau $\lambda/2$. Dây hai đầu cố định có $L=n\lambda/2$; một đầu cố định, một đầu tự do có $L=(2n+1)\lambda/4$.
+    Bắt đầu tại một bụng A; nút gần nhất cách $\lambda/4$. Giữa A và B còn một bụng, nên trình tự là bụng–nút–bụng–nút B, tổng khoảng cách $3\lambda/4=0{,}75\lambda$. Chọn **D**.
 
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **D. $0{,}75\lambda$.**
 #### Bài 92
 
 <!-- source-id: BT-Chuong-II-p155-q25-365 -->
@@ -2024,12 +2068,11 @@ D. $0{,}75\lambda$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
+
     **Hướng dẫn giải:**
 
-    Hai nút liên tiếp hoặc hai bụng liên tiếp cách nhau $\lambda/2$. Dây hai đầu cố định có $L=n\lambda/2$; một đầu cố định, một đầu tự do có $L=(2n+1)\lambda/4$.
+    Từ bụng A đến nút B, nếu giữa chúng có thêm hai nút thì trình tự khoảng cách là $\lambda/4+\lambda/2+\lambda/2=5\lambda/4=1{,}25\lambda$. Chọn **C**.
 
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. $1{,}25\lambda$.**
 #### Bài 93
 
 <!-- source-id: BT-Chuong-II-p155-q26-366 -->
@@ -2048,12 +2091,11 @@ D. Sóng dừng chỉ xảy ra khi hai sóng gặp nhau cùng pha và có cùng 
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
+
     **Hướng dẫn giải:**
 
-    Hai nút liên tiếp hoặc hai bụng liên tiếp cách nhau $\lambda/2$. Dây hai đầu cố định có $L=n\lambda/2$; một đầu cố định, một đầu tự do có $L=(2n+1)\lambda/4$.
+    Với một sợi dây và điều kiện biên xác định, các tần số cộng hưởng thỏa quan hệ chứa $v$ và $L$ (chẳng hạn hai đầu cố định: $f_n=nv/(2L)$). Vì vậy C là phát biểu đúng. Các nút không có biên độ cực đại, và điều kiện hình thành sóng dừng không phải “hai sóng gặp nhau cùng pha ở mọi nơi”. Chọn **C**.
 
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. Tần số của sóng dừng phụ thuộc vào chiều dài của sợi dây và tốc độ truyền sóng.**
 #### Bài 94
 
 <!-- source-id: BT-Chuong-II-p155-q27-367 -->
@@ -2071,7 +2113,7 @@ C. 6.
 D. 2.
 
 ??? success "Đáp án và lời giải"
-    **Đáp án: B.**
+    **Đáp án:** B.
 
     **Hướng dẫn giải:**
 
@@ -2086,21 +2128,21 @@ D. 2.
 <!-- source-id: BT-Chuong-II-p156-q31-371 -->
 
 Quan sát sóng dừng trên một sợi dây đàn hồi, người ta đo được khoảng cách giữa 5 nút
-sóng liên tiếp là 100 cm. Biết tần số của sóng truyền trên dây bằng 100 Hz, tốc độ truyền sóng trên
+sóng liên tiếp là $100\,\mathrm{cm}$. Biết tần số của sóng truyền trên dây bằng $100\,\mathrm{Hz}$, tốc độ truyền sóng trên
 dây là:
 
-A. 50 m/s.
+A. $50\,\mathrm{m/s}$.
 
-B. 100 m/s.
+B. $100\,\mathrm{m/s}$.
 
-C. 25 m/s.
+C. $25\,\mathrm{m/s}$.
 
-D. 75 m/s.
+D. $75\,\mathrm{m/s}$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
+
     **Hướng dẫn giải:**
 
-    Hai nút liên tiếp hoặc hai bụng liên tiếp cách nhau $\lambda/2$. Dây hai đầu cố định có $L=n\lambda/2$; một đầu cố định, một đầu tự do có $L=(2n+1)\lambda/4$.
+    Năm nút liên tiếp tạo 4 khoảng $\lambda/2$, nên $100\,\mathrm{cm}=2\lambda$ và $\lambda=0{,}50\,\mathrm m$. Do đó $v=\lambda f=0{,}50\cdot100=50\,\mathrm{m/s}$. Chọn **A**.
 
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. 50 m/s.**

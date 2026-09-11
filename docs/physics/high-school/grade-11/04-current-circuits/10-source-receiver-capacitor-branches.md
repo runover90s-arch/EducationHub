@@ -207,7 +207,7 @@ Phần này liên hệ trực tiếp với [Bài 8 — phương pháp mạch nâ
 
 ## 11. Ví dụ — Nguồn đang được nạp
 
-Nguồn $\mathcal E=6$ V, $r=1\,\Omega$ được nối với bộ nạp làm dòng 2 A đi vào cực dương.
+Nguồn $\mathcal E=6\,\mathrm V$, $r=1\,\Omega$ được nối với bộ nạp làm dòng $2\,\mathrm A$ đi vào cực dương.
 
 Điện áp ngoài cần có:
 
@@ -223,10 +223,10 @@ $$
 
 Trong mô hình:
 
-- công suất tích lũy hóa học: $\mathcal E I=12$ W;
-- nhiệt trong nguồn: $I^2r=4$ W.
+- công suất tích lũy hóa học: $\mathcal E I=12\,\mathrm W$;
+- nhiệt trong nguồn: $I^2r=4\,\mathrm W$.
 
-Tổng đúng 16 W.
+Tổng đúng $16\,\mathrm W$.
 
 ## 12. Bẫy thường gặp
 

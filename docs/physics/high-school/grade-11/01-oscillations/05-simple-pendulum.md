@@ -298,7 +298,7 @@ Bài loại này nên chia chuyển động thành từng cung có chiều dài 
 
 ## Ví dụ 1 — Tìm chiều dài từ chu kì
 
-Con lắc có $T=2$ s tại nơi $g=\pi^2$ m/s².
+Con lắc có $T=2\,\mathrm s$ tại nơi $g=\pi^2\,\mathrm{m/s^2}$.
 
 Từ $T=2\pi\sqrt{\ell/g}$:
 
@@ -306,11 +306,11 @@ $$
 2=2\pi\sqrt{\frac{\ell}{\pi^2}},
 $$
 
-suy ra $\ell=1$ m.
+suy ra $\ell=1\,\mathrm m$.
 
 ## Ví dụ 2 — Tốc độ tại góc bất kì
 
-Con lắc dài $1$ m, thả từ $\alpha_0=60^\circ$. Tại $\alpha=30^\circ$, với $g=10$ m/s²:
+Con lắc dài $1\,\mathrm m$, thả từ $\alpha_0=60^\circ$. Tại $\alpha=30^\circ$, với $g=10\,\mathrm{m/s^2}$:
 
 $$
 v=\sqrt{20\left(\cos30^\circ-\cos60^\circ\right)}.
@@ -373,19 +373,19 @@ Dùng quan hệ tuyến tính $T^2\propto\ell$ và đọc hệ số góc.
 
 ## Bài tập nhanh
 
-1. Con lắc dài $1$ m tại nơi $g=10$ m/s². Tính $\omega$.
+1. Con lắc dài $1\,\mathrm m$ tại nơi $g=10\,\mathrm{m/s^2}$. Tính $\omega$.
 2. Nếu chiều dài tăng $21\%$, chu kì tăng bao nhiêu phần trăm?
 3. Ở biên góc $\alpha_0$, tốc độ bằng bao nhiêu?
 4. Tại vị trí cân bằng, thành phần gia tốc tiếp tuyến bằng bao nhiêu?
-5. Đồ thị $T^2-\ell$ có hệ số góc $4,0$ s²/m. Viết biểu thức xác định $g$.
+5. Đồ thị $T^2-\ell$ có hệ số góc $4,0\,\mathrm{s^2/m}$. Viết biểu thức xác định $g$.
 
 ### Đáp án nhanh
 
-1. $\sqrt{10}$ rad/s.
+1. $\sqrt{10}\,\mathrm{rad/s}$.
 2. $10\%$.
 3. $0$.
 4. $0$.
-5. $g=4\pi^2/4=\pi^2$ m/s².
+5. $g=4\pi^2/4=\pi^2\,\mathrm{m/s^2}$.
 
 ## Tóm tắt
 

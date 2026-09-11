@@ -149,7 +149,7 @@ Trước khi phát hành chạy:
 python tools/check_practice_bank.py
 python tools/check_pdf_import.py
 python tools/check_solution_quality.py
-python tools/check_site.py --lint-only
+python tools/check_site.py
 ```
 
 Bộ kiểm tra cấu trúc không thay thế việc kiểm chứng học thuật: người biên soạn vẫn phải tính lại đáp án và xem xét điều kiện vật lí của từng câu.
@@ -179,4 +179,21 @@ Không được sửa âm thầm. Quy trình bắt buộc:
 5. nếu thiếu dữ kiện để quyết định duy nhất, giữ nguyên vấn đề và ghi rõ điều kiện còn thiếu thay vì đoán.
 
 Checker `tools/check_solution_quality.py` kiểm tra cả hai lớp ngân hàng — bài biên soạn trước và bài nhập từ PDF — về tính toàn vẹn, sự đồng nhất giữa lời giải inline/`solutions.md`, mức độ giải thích theo độ khó và cấu trúc Đúng/Sai. Checker này **không thay thế** bước kiểm chứng vật lí độc lập ở trên.
+
+## 13. Quality gate cho cấu trúc learner-facing
+
+Các lỗi có thể xác định chắc chắn bằng cấu trúc Markdown phải làm checker thất bại, không được hạ ngưỡng hoặc thêm allowlist để né lỗi:
+
+- trắc nghiệm bốn lựa chọn phải có đủ `A.`–`D.` và mỗi phương án là một paragraph riêng;
+- câu Đúng/Sai phải có đủ `a)`–`d)`, mỗi mệnh đề là một paragraph riêng;
+- lời giải Đúng/Sai phải có verdict rõ cho từng `a)`–`d)` và có giải thích gắn với chính mệnh đề đó; verdict đứng một mình không đạt chuẩn;
+- `**Đáp án:**` và `**Hướng dẫn giải:**` phải ở hai paragraph khác nhau;
+- nếu một block có hình dữ kiện và lựa chọn/mệnh đề, hình phải đứng trước `A.`–`D.` hoặc `a)`–`d)`;
+- mọi ảnh Markdown local phải tồn tại và resolve bên trong `docs/`;
+- ghi chú nội bộ về repository/import/corpus không được lộ ở phần mở đầu learner-facing của trang practice;
+- `!!! warning "Đối chiếu nguồn"` chỉ được đặt bên trong `??? success "Đáp án và lời giải"` của đúng bài;
+- các câu lời giải mẫu đã xác nhận là placeholder, ví dụ câu chung về `$v=\lambda f=\lambda/T$` dùng thay cho suy luận riêng của bài, không được quay lại.
+- với block nhập PDF, loại câu được suy ra từ marker learner-facing thực tế; heading nhóm lịch sử không được coi là authoritative nếu một nhóm chứa lẫn nhiều format. Trường hợp không đủ bằng chứng để phân loại chắc chắn phải chuyển sang warning/audit thủ công thay vì ép fail sai.
+
+Các dấu hiệu cần suy luận ngữ nghĩa nhưng chưa đủ chắc chắn để kết luận lỗi chỉ nên tạo **WARNING**. Ví dụ: một câu rất ngắn như “Tính bước sóng?” hoặc “Tính khoảng cách AB?” không có số liệu hay figure trong block nhưng lại có đáp án số cụ thể. Warning là tín hiệu để mở đúng nguồn/PDF kiểm tra, không phải bằng chứng để tự đoán dữ kiện.
 

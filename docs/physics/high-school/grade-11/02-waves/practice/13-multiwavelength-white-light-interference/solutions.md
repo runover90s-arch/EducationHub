@@ -14,35 +14,69 @@ tags:
 [← Bài tập](exercises.md)
 
 ## Bài 1
-Chọn **A** vì vị trí vân sáng $x=k\lambda D/a$.
+**Đáp án:** A.
+
+**Hướng dẫn giải:**
+
+Vị trí vân sáng của bức xạ $\lambda$ là $x=k\lambda D/a$. Hai vân sáng trùng nhau khi chúng có cùng $x$, nên $k_1\lambda_1=k_2\lambda_2$.
 
 ## Bài 2
-Chọn **B**.
+**Đáp án:** B. Trắng.
+
+**Hướng dẫn giải:**
+
+Tại vân trung tâm, hiệu đường đi bằng 0 nên cực đại bậc 0 của mọi thành phần bước sóng trùng nhau. Vì vậy với ánh sáng trắng, vùng trung tâm có màu trắng.
 
 ## Bài 3
-Chọn **C** vì $3\cdot600=4\cdot450=1800$ nm.
+**Đáp án:** C. $k_1=3$, $k_2=4$.
+
+**Hướng dẫn giải:**
+
+Điều kiện trùng vân sáng là $k_1\lambda_1=k_2\lambda_2$. Với $600k_1=450k_2$, rút gọn được $4k_1=3k_2$; nghiệm nguyên dương nhỏ nhất là $k_1=3$, $k_2=4$.
+
 
 ## Bài 4
-a) **Đúng**.  
-b) **Đúng**.  
-c) **Đúng**.  
-d) **Sai**; chỉ những bậc thỏa điều kiện số nguyên thích hợp mới trùng.
+**Đáp án:** a) Đúng; b) Đúng; c) Đúng; d) Sai.
+
+**Hướng dẫn giải:**
+
+a) **Đúng.** Với cùng $D,a$, mỗi bước sóng có khoảng vân $i=\lambda D/a$ riêng.
+
+b) **Đúng.** Vì $i\propto\lambda$, bước sóng lớn hơn cho khoảng vân lớn hơn.
+
+c) **Đúng.** Mọi bức xạ đều có vân sáng bậc 0 tại $x=0$.
+
+d) **Sai.** Hai vân sáng chỉ trùng khi $k_1\lambda_1=k_2\lambda_2$ với các bậc nguyên phù hợp; không phải mọi vân sáng đều trùng.
+
 
 ## Bài 5
-Cần $k_1\cdot500=k_2\cdot600$. Rút gọn $5k_1=6k_2$. Nghiệm nguyên dương nhỏ nhất: $k_1=6$, $k_2=5$.
+**Đáp án:** Bức xạ $500\,\mathrm{nm}$ ở bậc 6 và bức xạ $600\,\mathrm{nm}$ ở bậc 5.
+
+**Hướng dẫn giải:**
+
+Cần $500k_1=600k_2$, hay $5k_1=6k_2$. Nghiệm nguyên dương nhỏ nhất là $k_1=6$, $k_2=5$.
 
 ## Bài 6
-Cần $k_đ\,1,5=k_t\,1,0$. Giá trị chung nhỏ nhất khác 0 là $3,0$ mm: đỏ bậc 2, tím bậc 3.
+**Đáp án:** $3{,}0\,\mathrm{mm}$.
+
+**Hướng dẫn giải:**
+
+Vị trí trùng thỏa $1{,}5k_\text{đ}=1{,}0k_\text{t}$. Bội chung dương nhỏ nhất của $1{,}5$ và $1{,}0\,\mathrm{mm}$ là $3{,}0\,\mathrm{mm}$, ứng với đỏ bậc 2 và tím bậc 3.
 
 ## Bài 7
-Vì $i\propto\lambda$, $i_đ/i_t=650/450=13/9\approx1,44$.
+**Đáp án:** $i_\text{đ}/i_\text{t}=13/9\approx1{,}44$.
+
+**Hướng dẫn giải:**
+
+Trong cùng hệ khe, $i=\lambda D/a$ nên $i_\text{đ}/i_\text{t}=\lambda_\text{đ}/\lambda_\text{t}=650/450=13/9\approx1{,}44$.
+
 
 ## Bài 8
-Trước hết $i_2/i_1=\lambda_2/\lambda_1=600/480=5/4$, nên $i_2=1,5$ mm.
+**Đáp án:** $6{,}0\,\mathrm{mm}$.
 
-Vị trí trùng thỏa $k_1i_1=k_2i_2$. Cần $1,2k_1=1,5k_2$, hay $4k_1=5k_2$. Nghiệm dương nhỏ nhất $k_1=5$, $k_2=4$.
+**Hướng dẫn giải:**
 
-Vị trí: $x=5\cdot1,2=6,0$ mm.
+Ta có $i_2/i_1=\lambda_2/\lambda_1=600/480=5/4$, nên $i_2=1{,}5\,\mathrm{mm}$. Điều kiện trùng vân là $k_1i_1=k_2i_2$, tức $1{,}2k_1=1{,}5k_2$ hay $4k_1=5k_2$. Nghiệm dương nhỏ nhất là $k_1=5$, $k_2=4$, vì vậy $x=5\cdot1{,}2=6{,}0\,\mathrm{mm}$.
 
 ---
 

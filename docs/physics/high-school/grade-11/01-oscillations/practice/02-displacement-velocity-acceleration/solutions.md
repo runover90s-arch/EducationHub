@@ -17,7 +17,7 @@ tags:
 Chọn **C**. Gia tốc luôn hướng về vị trí cân bằng và có độ lớn tỉ lệ với $|x|$: $a=-\omega^2x$.
 
 ## Bài 2
-Chọn **C**. $v_{\max}=\omega A=5\cdot4=20$ cm/s.
+Chọn **C**. $v_{\max}=\omega A=5\cdot4=20\,\mathrm{cm/s}$.
 
 ## Bài 3
 Chọn **B**. Ở biên $|x|=A$ nên $v=0$, còn $|a|=\omega^2A$ đạt cực đại.
@@ -26,38 +26,44 @@ Chọn **B**. Ở biên $|x|=A$ nên $v=0$, còn $|a|=\omega^2A$ đạt cực đ
 Chọn **A**. Nếu $x=A\cos\Phi$ thì $v=A\omega\cos(\Phi+\pi/2)$.
 
 ## Bài 5
-a) **Đúng**: $v_{\max}=\omega A=20$ cm/s.  
-b) **Đúng**: $a_{\max}=\omega^2A=16\cdot5=80$ cm/s².  
-c) **Đúng**: $|v|=\omega\sqrt{A^2-x^2}=4\sqrt{25-9}=16$ cm/s.  
-d) **Sai**: $a=-\omega^2x$, nên $x>0$ thì $a<0$.
+a) **Đúng.** $v_{\max}=\omega A=20\,\mathrm{cm/s}$.
+
+b) **Đúng.** $a_{\max}=\omega^2A=16\cdot5=80\,\mathrm{cm/s^2}$.
+
+c) **Đúng.** $|v|=\omega\sqrt{A^2-x^2}=4\sqrt{25-9}=16\,\mathrm{cm/s}$.
+
+d) **Sai.** $a=-\omega^2x$, nên $x>0$ thì $a<0$.
 
 ## Bài 6
-a) **Đúng**.  
-b) **Sai**: $|a|=\omega^2|x|$ tăng khi ra xa vị trí cân bằng.  
-c) **Đúng**.  
-d) **Đúng**: $v^2=\omega^2(A^2-x^2)$ chỉ phụ thuộc $x^2$.
+a) **Đúng.** Từ $v^2=\omega^2(A^2-x^2)$, khi $|x|$ giảm từ $A$ về $0$ thì độ lớn vận tốc tăng.
+
+b) **Sai.** $|a|=\omega^2|x|$ tăng khi ra xa vị trí cân bằng.
+
+c) **Đúng.** Vì $a=-\omega^2x$ và tại vị trí cân bằng $x=0$ nên $a=0$.
+
+d) **Đúng.** $v^2=\omega^2(A^2-x^2)$ chỉ phụ thuộc $x^2$.
 
 ## Bài 7
-$|v|=\omega\sqrt{A^2-x^2}=6\sqrt{100-64}=36$ cm/s. $|a|=\omega^2|x|=36\cdot8=288$ cm/s².
+$|v|=\omega\sqrt{A^2-x^2}=6\sqrt{100-64}=36\,\mathrm{cm/s}$. $|a|=\omega^2|x|=36\cdot8=288\,\mathrm{cm/s^2}$.
 
 ## Bài 8
-Từ $a_{\max}=\omega v_{\max}$ suy ra $\omega=200/40=5$ rad/s. Sau đó $A=v_{\max}/\omega=40/5=8$ cm.
+Từ $a_{\max}=\omega v_{\max}$ suy ra $\omega=200/40=5\,\mathrm{rad/s}$. Sau đó $A=v_{\max}/\omega=40/5=8\,\mathrm{cm}$.
 
 ## Bài 9
-Từ $a=-\omega^2x$: $\omega^2=48/3=16$, nên $\omega=4$ rad/s. Khi đó $|v|=4\sqrt{25-9}=16$ cm/s.
+Từ $a=-\omega^2x$: $\omega^2=48/3=16$, nên $\omega=4\,\mathrm{rad/s}$. Khi đó $|v|=4\sqrt{25-9}=16\,\mathrm{cm/s}$.
 
 ## Bài 10
 Dùng hệ thức độc lập $v^2=\omega^2(A^2-x^2)$ cho hai trạng thái:
 
 $v_1^2-v_2^2=\omega^2(x_2^2-x_1^2)$.
 
-Suy ra $400-300=\omega^2(16-9)$, nên $\omega^2=100/7$ và $\omega=10/\sqrt7$ rad/s.
+Suy ra $400-300=\omega^2(16-9)$, nên $\omega^2=100/7$ và $\omega=10/\sqrt7\,\mathrm{rad/s}$.
 
 Thay vào trạng thái thứ nhất:
 
 $A^2=x_1^2+v_1^2/\omega^2=9+400/(100/7)=37$.
 
-Vậy $A=\sqrt{37}$ cm. Kết quả thỏa $A>|x_1|,|x_2|$.
+Vậy $A=\sqrt{37}\,\mathrm{cm}$. Kết quả thỏa $A>|x_1|,|x_2|$.
 
 ---
 

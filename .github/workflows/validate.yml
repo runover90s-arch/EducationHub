@@ -1,0 +1,41 @@
+name: Validate Education Hub
+
+on:
+  pull_request:
+  push:
+    branches-ignore:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    name: Check and build
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Setup Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run repository checks
+        run: |
+          python tools/check_practice_bank.py
+          python tools/check_pdf_import.py
+          python tools/check_solution_quality.py
+          python tools/check_site.py
+
+      - name: Build MkDocs strictly
+        run: mkdocs build --strict --clean --site-dir site

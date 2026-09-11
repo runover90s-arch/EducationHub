@@ -9,7 +9,6 @@ tags:
 
 # Bài tập — Bài 9 — Cân bằng điện tích và con lắc trong điện trường
 
-> Hệ bài tập được biên soạn theo các dạng xuất hiện trong bộ tài liệu Vật lí 11 của dự án. Câu hỏi được giữ ngắn, trực tiếp; độ khó tăng dần và không cố tình thêm dữ kiện gây nhiễu.
 
 [← Trở lại bài học](../../09-electrostatic-equilibrium-charged-pendulum.md)
 
@@ -90,10 +89,13 @@ c) Nếu E ngang thì $g_{hiệu}=g+qE/m$ theo đại số một chiều.
 d) Dấu điện tích quyết định phía lệch.
 
 ??? success "Đáp án và lời giải"
-    a) **Đúng**.
-    b) **Đúng**.
-    c) **Sai**: hai gia tốc vuông góc nên $g_{hiệu}=\sqrt{g^2+(qE/m)^2}$.
-    d) **Đúng**.
+    a) **Đúng.** Điều kiện cân bằng cơ học là hợp lực tác dụng lên vật bằng vectơ không.
+
+    b) **Đúng.** Khi trọng lực và lực điện đều không đổi, tổng của chúng là một lực không đổi nên có thể biểu diễn như một trường hiệu dụng để xác định phương cân bằng.
+
+    c) **Sai.** hai gia tốc vuông góc nên $g_{hiệu}=\sqrt{g^2+(qE/m)^2}$.
+
+    d) **Đúng.** Đổi dấu $q$ làm lực điện $\vec F=q\vec E$ đổi hướng, nên phía lệch cân bằng cũng đổi.
 
 ### Bài 6 — Mức 2 — Thông hiểu
 
@@ -108,39 +110,42 @@ c) Có thể bỏ trọng lực khi tính góc lệch mà không cần điều k
 d) Khoảng cách giữa hai quả cầu phụ thuộc chiều dài dây và góc lệch.
 
 ??? success "Đáp án và lời giải"
-    a) **Đúng**.
-    b) **Đúng**.
-    c) **Sai**.
-    d) **Đúng**.
+    a) **Đúng.** Với hai điện tích cùng dấu, lực Coulomb trên mỗi điện tích hướng ra xa điện tích kia nên là lực đẩy.
+
+    b) **Đúng.** Theo phương ngang, gia tốc bằng $0$, nên thành phần ngang của lực căng phải cân bằng lực Coulomb.
+
+    c) **Sai.** Góc cân bằng do tỉ số giữa lực điện và trọng lực quyết định; không thể bỏ $mg$ nếu đề không cho điều kiện khiến trọng lực không đáng kể.
+
+    d) **Đúng.** Với cấu hình đối xứng, hình học cho khoảng cách ngang giữa hai quả cầu phụ thuộc trực tiếp vào chiều dài dây và góc lệch.
 
 ## Phần C — Trả lời ngắn
 
 ### Bài 7 — Mức 3 — Vận dụng
 
-Quả cầu $m=20$ g, $q=2\,\mu$C treo trong điện trường ngang $E=5\cdot10^4$ V/m. Lấy $g=10$ m/s². Tính góc lệch cân bằng.
+Quả cầu $m=20$ g, $q=2\,\mu\,\mathrm C$ treo trong điện trường ngang $E=5\cdot10^4\,\mathrm{V/m}$. Lấy $g=10\,\mathrm{m/s^2}$. Tính góc lệch cân bằng.
 
 ??? success "Đáp án và lời giải"
-    $qE=2\cdot10^{-6}\cdot5\cdot10^4=0,10$ N; $mg=0,20$ N. $\tan\theta=qE/(mg)=0,5$, nên $\theta\approx26,6^\circ$.
+    $qE=2\cdot10^{-6}\cdot5\cdot10^4=0,10\,\mathrm N$; $mg=0,20\,\mathrm N$. $\tan\theta=qE/(mg)=0,5$, nên $\theta\approx26,6^\circ$.
 
 ### Bài 8 — Mức 3 — Vận dụng
 
 Với dữ kiện trên, tính lực căng dây ở cân bằng.
 
 ??? success "Đáp án và lời giải"
-    $T=\sqrt{(mg)^2+(qE)^2}=\sqrt{0,20^2+0,10^2}=0,224$ N.
+    $T=\sqrt{(mg)^2+(qE)^2}=\sqrt{0,20^2+0,10^2}=0,224\,\mathrm N$.
 
 ### Bài 9 — Mức 3 — Vận dụng
 
-Một con lắc tích điện dương đặt trong điện trường thẳng đứng hướng xuống, $qE/m=2$ m/s², $g=10$ m/s². Tính chu kì góc nhỏ nếu $\ell=0,75$ m.
+Một con lắc tích điện dương đặt trong điện trường thẳng đứng hướng xuống, $qE/m=2\,\mathrm{m/s^2}$, $g=10\,\mathrm{m/s^2}$. Tính chu kì góc nhỏ nếu $\ell=0,75\,\mathrm m$.
 
 ??? success "Đáp án và lời giải"
-    Gia tốc hiệu dụng $g'=g+qE/m=12$ m/s². $T=2\pi\sqrt{\ell/g'}=2\pi\sqrt{0,75/12}=2\pi\cdot0,25=\pi/2\approx1,57$ s.
+    Gia tốc hiệu dụng $g'=g+qE/m=12\,\mathrm{m/s^2}$. $T=2\pi\sqrt{\ell/g'}=2\pi\sqrt{0,75/12}=2\pi\cdot0,25=\pi/2\approx1,57\,\mathrm s$.
 
 ## Phần D — Vận dụng và vận dụng cao
 
 ### Bài 10 — Mức 4 — Vận dụng cao
 
-Hai quả cầu nhỏ giống nhau, mỗi quả có khối lượng $m=10$ g và điện tích $q=0,20\,\mu$C, treo từ cùng một điểm bằng hai dây dài $\ell=0,50$ m. Ở cân bằng mỗi dây lệch góc nhỏ θ so với phương thẳng đứng. Lấy $g=10$ m/s², $k=9\cdot10^9$. Dùng gần đúng $\sin\theta\approx\tan\theta\approx\theta$ để ước tính θ.
+Hai quả cầu nhỏ giống nhau, mỗi quả có khối lượng $m=10$ g và điện tích $q=0,20\,\mu\,\mathrm C$, treo từ cùng một điểm bằng hai dây dài $\ell=0,50\,\mathrm m$. Ở cân bằng mỗi dây lệch góc nhỏ θ so với phương thẳng đứng. Lấy $g=10\,\mathrm{m/s^2}$, $k=9\cdot10^9$. Dùng gần đúng $\sin\theta\approx\tan\theta\approx\theta$ để ước tính θ.
 
 ??? success "Đáp án và lời giải"
     Khoảng cách hai quả cầu với góc nhỏ: $r\approx2\ell\theta$.
@@ -157,7 +162,7 @@ Hai quả cầu nhỏ giống nhau, mỗi quả có khối lượng $m=10$ g và
 
     $\theta^3=\frac{kq^2}{4mg\ell^2}$.
 
-    Thay số: $q=2\cdot10^{-7}$ C, $m=0,01$ kg, $\ell=0,5$ m:
+    Thay số: $q=2\cdot10^{-7}\,\mathrm C$, $m=0,01\,\mathrm{kg}$, $\ell=0,5\,\mathrm m$:
 
     $\theta^3=\frac{9\cdot10^9\cdot4\cdot10^{-14}}{4\cdot0,01\cdot10\cdot0,25}=0,0036$.
 
@@ -174,15 +179,16 @@ Hai quả cầu nhỏ giống nhau, mỗi quả có khối lượng $m=10$ g và
 Một điện tích $80\,\mathrm{nC}$ lơ lửng trong không khí giữa hai bản kim loại song song, tích điện trái dấu, cách nhau $0{,}1\,\mathrm m$. Hiệu điện thế giữa hai bản là $4000\,\mathrm V$. Khối lượng của điện tích bằng bao nhiêu $\mathrm{mg}$?
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** $32$
+    **Đáp án:** $320\,\mathrm{mg}$
 
     **Hướng dẫn giải:**
-    Điện tích chịu tác dụng của hai lực : Trọng lực
-     ; lực điện
 
-    Điều kiện cân bằng :
+    Điện trường giữa hai bản có độ lớn $E=U/d=4000/0{,}1=4\times10^4\,\mathrm{V/m}$.
+    Vật lơ lửng nên $|q|E=mg$, do đó
+    $m=|q|E/g=80\times10^{-9}\cdot4\times10^4/10=3{,}2\times10^{-4}\,\mathrm{kg}=320\,\mathrm{mg}$.
 
-    Độ lớn
+    !!! warning "Đối chiếu nguồn"
+        PDF ghi đáp án $32\,\mathrm{mg}$ do phép thay số đã làm mất một hệ số 10. Tính trực tiếp từ $U/d=4\times10^4\,\mathrm{V/m}$ cho $320\,\mathrm{mg}$.
 
 #### Bài 12
 
@@ -191,18 +197,13 @@ Một điện tích $80\,\mathrm{nC}$ lơ lửng trong không khí giữa hai b�
 Quả cầu nhỏ khối lượng $25\,\mathrm g$, mang điện tích $q=2{,}5\cdot10^{-7}\,\mathrm C$, được treo bởi một sợi dây không dãn, khối lượng không đáng kể và đặt trong một điện trường đều có phương nằm ngang, độ lớn $E=10^6\,\mathrm{V/m}$. Lấy $g=10\,\mathrm{m/s^2}$. Góc lệch của dây treo so với phương thẳng đứng khi vật ở vị trí cân bằng bằng bao nhiêu độ?
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** $45$
+    **Đáp án:** $45^\circ$
 
     **Hướng dẫn giải:**
 
-    Điện tích chịu tác dụng của ba lực : Trọng lực
-     ; lực điện
-     ; lực căng dây treo
-
-    Điều kiện cân bằng :
-
-    Từ hình vẽ ta có
-
+    Ở cân bằng, lực điện nằm ngang và trọng lực thẳng đứng:
+    $T\sin\alpha=|q|E$, $T\cos\alpha=mg$.
+    Vì vậy $\tan\alpha=|q|E/(mg)=2{,}5\times10^{-7}\cdot10^6/(0{,}025\cdot10)=1$, suy ra $\alpha=45^\circ$.
 #### Bài 13
 
 <!-- source-id: BT-Chuong-III-p78-q5-203 -->
@@ -210,19 +211,17 @@ Quả cầu nhỏ khối lượng $25\,\mathrm g$, mang điện tích $q=2{,}5\c
 Một viên bi kim loại nhỏ có khối lượng $9\cdot10^{-5}\,\mathrm{kg}$, thể tích $10\,\mathrm{mm^3}$, được đặt trong dầu có khối lượng riêng $800\,\mathrm{kg/m^3}$. Hệ đặt trong điện trường đều $E=4{,}1\cdot10^5\,\mathrm{V/m}$ hướng thẳng đứng từ trên xuống; viên bi lơ lửng. Lấy $g=10\,\mathrm{m/s^2}$. Điện tích của viên bi bằng bao nhiêu $\mathrm{nC}$?
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** 2
+    **Đáp án:** $-2{,}0\,\mathrm{nC}$
 
     **Hướng dẫn giải:**
-    Điện tích chịu tác dụng của ba lực : Trọng lực
-     ; lực điện
-     ; lực đẩy archimedes
 
-    Điều kiện cân bằng :
+    Đổi $V=10\,\mathrm{mm^3}=10^{-8}\,\mathrm{m^3}$.
+    $P=mg=9\times10^{-4}\,\mathrm N$, còn lực đẩy Ác-si-mét là $F_A=\rho Vg=800\cdot10^{-8}\cdot10=8\times10^{-5}\,\mathrm N$.
+    Để cân bằng, lực điện phải hướng lên với độ lớn $F_e=P-F_A=8{,}2\times10^{-4}\,\mathrm N$. Vì $\vec E$ hướng xuống nên $q<0$.
+    $q=-F_e/E=-8{,}2\times10^{-4}/(4{,}1\times10^5)=-2{,}0\times10^{-9}\,\mathrm C=-2{,}0\,\mathrm{nC}$.
 
-    Vì
-
-    Nên lực điện cùng phương cùng chiều với lực đẩy archimedes
-    Chiếu lên chiều dương ta có
+    !!! warning "Đối chiếu nguồn"
+        Ô đáp án PDF ghi “2” nhưng không mang dấu. Từ chiều của $\vec E$ và điều kiện cân bằng, điện tích phải **âm**; vì đề hỏi điện tích chứ không hỏi độ lớn, kết quả đầy đủ là $-2\,\mathrm{nC}$.
 
 #### Bài 14
 
@@ -233,18 +232,13 @@ Trong vùng không gian giữa hai tấm kim loại phẳng, tích điện trái
 ![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/iii_p79_q6_204_fig1.webp){ loading=lazy }
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** $0{,}18$
+    **Đáp án:** $0{,}18\,\mathrm s$
+
     **Hướng dẫn giải:**
 
-    Ở trạng thái cân bằng, tổng lực bằng 0; thường chiếu lực để có $T\cos\alpha=mg$, $T\sin\alpha=F_e$, nên $\tan\alpha=F_e/(mg)$.
-
-    Ban đầu, điện tích chịu tác dụng của hai lực : Trọng lực
-    Điều kiện cân bằng :
-    Khi hiệu điện thế giảm đột ngột đến giá trị 850 V thì lực điện tác dụng lên điện tích giảm ⇒Điện tích
-    chuyển động nhanh dần đều đến bản âm với gia tốc
-    Thời gian hạt bụi chạm bản âm là
-
-    Vậy kết quả cần tìm là **$0{,}18$**.
+    Ban đầu hạt cân bằng nên $|q|U/d=mg$. Khi hạ hiệu điện thế còn $U'=850\,\mathrm V$, lực điện chỉ còn $(U'/U)mg=0{,}85mg$. Hợp lực hướng xuống có độ lớn $0{,}15mg$, nên $a=0{,}15g=1{,}5\,\mathrm{m/s^2}$.
+    Hạt bắt đầu ở chính giữa hai bản, nên quãng đường tới bản dưới là $s=d/2=0{,}025\,\mathrm m$. Từ nghỉ, $s=at^2/2$, do đó
+    $t=\sqrt{2s/a}=\sqrt{0{,}05/1{,}5}\approx0{,}183\,\mathrm s\approx0{,}18\,\mathrm s$.
 #### Bài 15
 
 <!-- source-id: BT-Chuong-III-p91-q3-231 -->
@@ -252,19 +246,15 @@ Trong vùng không gian giữa hai tấm kim loại phẳng, tích điện trái
 Một hạt bụi có khối lượng $m=1\,\mathrm g$, mang điện tích $q=-2\cdot10^{-6}\,\mathrm C$, nằm cân bằng trong điện trường giữa hai bản kim loại tích điện trái dấu đặt song song, nằm ngang, cách nhau $d=4\,\mathrm{cm}$. Lấy $g=10\,\mathrm{m/s^2}$. Nếu điện tích hạt bụi giảm đi $20\%$, phải thay đổi hiệu điện thế giữa hai bản một lượng bao nhiêu vôn để hạt bụi vẫn cân bằng?
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** $50$
+    **Đáp án:** $50\,\mathrm V$
+
     **Hướng dẫn giải:**
 
-    Ở trạng thái cân bằng, tổng lực bằng 0; thường chiếu lực để có $T\cos\alpha=mg$, $T\sin\alpha=F_e$, nên $\tan\alpha=F_e/(mg)$.
-
-    Hạt bụi nằm cân bằng trong điện trường đều dưới tác dụng hai lực: Trọng lực P
-    có phương thẳng đứng
-    hướng xuống, lực điện F
-    có phương thẳng đứng hướng lên.
-    hướng lên trên nên vecto cường độ điện trường E
-    hướng xuống dưới.
-
-    Vậy kết quả cần tìm là **$50$**.
+    Ban đầu cân bằng: $|q|U/d=mg$, nên
+    $U=mgd/|q|=10^{-3}\cdot10\cdot0{,}04/(2\times10^{-6})=200\,\mathrm V$.
+    Sau khi độ lớn điện tích giảm $20\%$, $|q'|=0{,}8|q|=1{,}6\times10^{-6}\,\mathrm C$. Muốn tiếp tục cân bằng:
+    $U'=mgd/|q'|=250\,\mathrm V$.
+    Vì vậy phải **tăng** hiệu điện thế một lượng $\Delta U=U'-U=50\,\mathrm V$.
 #### Bài 16
 
 <!-- source-id: BT-Chuong-III-p92-q4-232 -->
@@ -275,6 +265,7 @@ Một quả cầu khối lượng $m=1\,\mathrm g$ treo trên một sợi dây m
     **Đáp án:** $0{,}02\,\mathrm N$.
 
     **Hướng dẫn giải:**
+
     Ở trạng thái cân bằng, chiếu theo phương thẳng đứng: $T\cos60^\circ=mg$. Do đó
     $T=mg/\cos60^\circ=10^{-3}\cdot10/0{,}5=0{,}02\,\mathrm N$.
 
@@ -285,18 +276,15 @@ Một quả cầu khối lượng $m=1\,\mathrm g$ treo trên một sợi dây m
 Hai tấm kim loại phẳng nằm ngang nhiễm điện trái dấu đặt trong dầu; điện trường giữa hai bản hướng từ trên xuống dưới và có cường độ $20000\,\mathrm{V/m}$. Một quả cầu sắt bán kính $1\,\mathrm{cm}$ mang điện tích $q$ nằm lơ lửng giữa hai bản. Biết khối lượng riêng của sắt là $7800\,\mathrm{kg/m^3}$, của dầu là $800\,\mathrm{kg/m^3}$; lấy $g=10\,\mathrm{m/s^2}$. Độ lớn của $q$ bằng bao nhiêu $\mu\mathrm C$? Làm tròn đến hàng phần mười.
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** $14{,}7$
+    **Đáp án:** $14{,}7\,\mu\mathrm C$ (độ lớn)
+
     **Hướng dẫn giải:**
 
-    Ở trạng thái cân bằng, tổng lực bằng 0; thường chiếu lực để có $T\cos\alpha=mg$, $T\sin\alpha=F_e$, nên $\tan\alpha=F_e/(mg)$.
+    Thể tích quả cầu $V=\dfrac43\pi r^3=\dfrac43\pi(0{,}01)^3\approx4{,}189\times10^{-6}\,\mathrm{m^3}$.
+    Trọng lượng hiệu dụng trong dầu là $(\rho_{Fe}-\rho_d)Vg=(7800-800)\cdot4{,}189\times10^{-6}\cdot10\approx0{,}293\,\mathrm N$.
+    Để lơ lửng, lực điện phải hướng lên nên $q<0$ vì $\vec E$ hướng xuống. Độ lớn điện tích:
+    $|q|=0{,}293/(2\times10^4)\approx1{,}47\times10^{-5}\,\mathrm C=14{,}7\,\mu\mathrm C$.
 
-    - Các lực tác dụng lên quả cầu:
-    +Lực đẩy Ac-si-met
-    +Lực điện trường:
-    (hướng xuống nếu q > 0; hướng lên nếu q < 0).
-    - Quả cầu nằm cân bằng (lơ lửng) khi:
-
-    Vậy kết quả cần tìm là **$14{,}7$**.
 ### Nhận biết — Trắc nghiệm 4 lựa chọn
 
 #### Bài 18
@@ -319,6 +307,7 @@ D. cùng hướng.
     **Đáp án:** B.
 
     **Hướng dẫn giải:**
+
     Cặp lực này cùng phương, ngược chiều, cùng độ lớn nhưng tác dụng lên hai vật khác nhau nên là cặp lực trực đối.
 
 #### Bài 19
@@ -339,6 +328,7 @@ D. $15\cdot10^{-12}\,\mathrm C$.
     **Đáp án:** B
 
     **Hướng dẫn giải:**
+
     Hạt bụi cân bằng dưới tác dụng của trọng lực và lực điện. Vì $\vec E$ hướng xuống còn lực điện phải hướng lên để cân bằng trọng lực nên $q<0$.
     $|q|E=mg\Rightarrow q=-\dfrac{mg}{E}=-\dfrac{3\cdot10^{-9}\cdot10}{2000}=-15\cdot10^{-12}\,\mathrm C$.
     Chọn B.
@@ -361,6 +351,7 @@ D. $2{,}7\cdot10^5\,\mathrm{V/m}$.
     **Đáp án:** A
 
     **Hướng dẫn giải:**
+
     Khi cân bằng: $T\sin\alpha=qE$, $T\cos\alpha=mg$, nên
     $\tan\alpha=\dfrac{qE}{mg}$.
     Do đó
@@ -385,6 +376,7 @@ D. $60^\circ$.
     **Đáp án:** C ($45^\circ$).
 
     **Hướng dẫn giải:**
+
     Ở trạng thái cân bằng, lực điện nằm ngang và trọng lực thẳng đứng nên
 
     $\tan\alpha=\dfrac{|q_1|E}{mg}$.
@@ -395,8 +387,8 @@ D. $60^\circ$.
 
     Suy ra $\alpha=45^\circ$, chọn **C**.
 
-!!! warning "Đối chiếu nguồn"
-    Câu dẫn PDF bị thiếu giá trị $q_1$. Trong lời giải, nguồn in $0{,}5\times10^{-4}$ C nhưng ngay sau đó lại tính tỉ số lực bằng $1$ và tô $45^\circ$. Với toàn bộ các số còn lại giữ nguyên, giá trị duy nhất làm chính phép tính đó đúng là $q_1=mg/E=5\times10^{-9}$ C $=0{,}5\times10^{-8}$ C. Bản learner-facing phục hồi dữ kiện này và sửa riêng số mũ bị in sai trong lời giải nguồn.
+    !!! warning "Đối chiếu nguồn"
+        Câu dẫn PDF bị thiếu giá trị $q_1$. Trong lời giải, nguồn in $0{,}5\times10^{-4}\,\mathrm C$ nhưng ngay sau đó lại tính tỉ số lực bằng $1$ và tô $45^\circ$. Với toàn bộ các số còn lại giữ nguyên, giá trị duy nhất làm chính phép tính đó đúng là $q_1=mg/E=5\times10^{-9}\,\mathrm C$ $=0{,}5\times10^{-8}\,\mathrm C$. Bản trình bày này phục hồi dữ kiện này và sửa riêng số mũ bị in sai trong lời giải nguồn.
 
 #### Bài 22
 
@@ -414,15 +406,10 @@ D. $1\,\mathrm{m/s^2}$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
+
     **Hướng dẫn giải:**
 
-    Ở trạng thái cân bằng, tổng lực bằng 0; thường chiếu lực để có $T\cos\alpha=mg$, $T\sin\alpha=F_e$, nên $\tan\alpha=F_e/(mg)$.
-
-    Khi điện tích giảm đi 10%, thì q’ = 0,9q.
-    Áp dụng định luât II Newton:
-    Chiếu theo chiều dương hướng xuống:
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **D. 1 $\mathrm{m/s^2}$.**
+    Ban đầu hạt lơ lửng nên $|q|E=mg$. Khi độ lớn điện tích giảm $10\%$, lực điện còn $0{,}9mg$ trong khi trọng lực vẫn là $mg$. Hợp lực hướng xuống có độ lớn $0{,}1mg$, nên gia tốc $a=0{,}1g=1\,\mathrm{m/s^2}$. Chọn **D**.
 #### Bài 23
 
 <!-- source-id: BT-Chuong-III-p86-q18-224 -->
@@ -441,6 +428,7 @@ D. $0{,}29\,\mathrm s$.
     **Đáp án:** C
 
     **Hướng dẫn giải:**
+
     Ban đầu hạt bụi cân bằng nên $mg=qU/d$. Sau khi hiệu điện thế giảm còn $U-\Delta U$, lực điện giảm; hợp lực hướng xuống có độ lớn
     $F=mg-q\dfrac{U-\Delta U}{d}=q\dfrac{\Delta U}{d}$.
     Từ điều kiện ban đầu suy ra gia tốc rơi
@@ -476,7 +464,7 @@ d) Độ lớn điện tích của hai quả cầu nhỏ hơn $2\,\mu\mathrm C$.
 
     c) **Đúng.** Chiếu theo phương ngang và thẳng đứng: $F_e=T\sin\alpha$, $mg=T\cos\alpha$, nên $F_e=mg\tan\alpha\approx1{,}5\times10^{-3}\cdot9{,}8\tan20^\circ\approx5{,}35\ \text{mN}$.
 
-    d) **Đúng.** Từ $F_e=kq^2/r^2$, suy ra $|q|=\sqrt{F_er^2/k}\approx2{,}0\times10^{-8}$ C $=0{,}020\ \mu\text{C}<2\ \mu\text{C}$.
+    d) **Đúng.** Từ $F_e=kq^2/r^2$, suy ra $|q|=\sqrt{F_er^2/k}\approx2{,}0\times10^{-8}\,\mathrm C$ $=0{,}020\ \mu\text{C}<2\ \mu\text{C}$.
 
     !!! warning "Đối chiếu nguồn"
         Bảng đáp án PDF đánh dấu ý b) sai, nhưng điều kiện cân bằng vector cho trực tiếp $\vec P=-(\vec T+\vec F_e)$. Vì vậy ý b) được hiệu chỉnh thành đúng.
@@ -498,6 +486,7 @@ d) Với $k=9\cdot10^9\,\mathrm{N\,m^2/C^2}$, lực tương tác giữa hai vậ
     **Đáp án:** a) Đúng; b) Đúng; c) Sai; d) Đúng.
 
     **Hướng dẫn giải:**
+
     a) **Đúng.** Hai điện tích cùng dấu nên đẩy nhau.
 
     b) **Đúng.** Hai lực tương tác cùng phương, ngược chiều và cùng độ lớn nên hai vật chuyển động theo hai hướng ngược nhau trên đường nối tâm.
@@ -524,6 +513,7 @@ d) Nếu nhúng cả hệ như cũ vào dầu có hằng số điện môi là $
     **Đáp án:** a) Sai; b) Đúng; c) Đúng; d) Sai.
 
     **Hướng dẫn giải:**
+
     a) **Sai.** Hai lực có cùng phương, ngược chiều và cùng độ lớn.
 
     b) **Đúng.** Hai quả cầu có cùng khối lượng và điện tích nên cấu hình cân bằng đối xứng.
@@ -586,7 +576,7 @@ d) Độ lớn điện tích của hạt bụi là $10^{-13}\,\mathrm C$.
 
     c) **Đúng.** Từ chiều điện trường trong hình và chiều lực điện hướng lên, suy ra điện tích của hạt phải âm.
 
-    d) **Đúng.** Ở cân bằng $|q|E=mg$, nên $|q|=mg/E=10^{-13}$ C theo dữ kiện đề.
+    d) **Đúng.** Ở cân bằng $|q|E=mg$, nên $|q|=mg/E=10^{-13}\,\mathrm C$ theo dữ kiện đề.
 #### Bài 29
 
 <!-- source-id: BT-Chuong-III-p73-q2-195 -->
@@ -604,17 +594,17 @@ c) Nếu cho con lắc dao động thì chu kì dao động của nó là $1{,}1
 d) Khi bi đang cân bằng, nếu đổi dấu điện tích của hai bản kim loại nhưng giữ nguyên độ lớn của cường độ điện trường thì viên bi sẽ dao động với tốc độ cực đại bằng $3{,}76\,\mathrm{m/s}$.
 
 ??? success "Đáp án và lời giải"
-    **Đáp án theo nguồn:** a) Sai; b) Sai; c) Đúng; d) Đúng.
+    **Đáp án:** a) Sai; b) Sai; c) Đúng; d) Đúng.
 
     **Hướng dẫn giải:**
 
-    a) Ngoài trọng lực $\vec P$ và lực điện $\vec F$, viên bi còn chịu lực căng dây $\vec T$.
+    a) **Sai.** Ngoài trọng lực $\vec P$ và lực điện $\vec F$, viên bi còn chịu lực căng dây $\vec T$.
 
-    b) Ở vị trí cân bằng, $\tan\alpha=\dfrac{|q|E}{mg}=1$, nên $\alpha=45^\circ$, không phải $30^\circ$.
+    b) **Sai.** Ở vị trí cân bằng, $\tan\alpha=\dfrac{|q|E}{mg}=1$, nên $\alpha=45^\circ$, không phải $30^\circ$.
 
-    c) Gia tốc biểu kiến có độ lớn $g_{\mathrm{bk}}=\sqrt{g^2+(qE/m)^2}=14{,}142\,\mathrm{m/s^2}$. Do đó $T=2\pi\sqrt{l/g_{\mathrm{bk}}}=1{,}181\,\mathrm s$.
+    c) **Đúng.** Gia tốc biểu kiến có độ lớn $g_{\mathrm{bk}}=\sqrt{g^2+(qE/m)^2}=14{,}142\,\mathrm{m/s^2}$. Do đó $T=2\pi\sqrt{l/g_{\mathrm{bk}}}=1{,}181\,\mathrm s$.
 
-    d) Theo hướng dẫn nguồn, sau khi đổi dấu hai bản, vị trí cân bằng mới đối xứng với vị trí cân bằng cũ qua phương thẳng đứng, biên độ góc là $90^\circ$. Khi đó $v_{\max}=\sqrt{2g_{\mathrm{bk}}l(1-\cos90^\circ)}\approx3{,}76\,\mathrm{m/s}$.
+    d) **Đúng.** Sau khi đổi dấu hai bản, vị trí cân bằng mới đối xứng với vị trí cân bằng cũ qua phương thẳng đứng, biên độ góc là $90^\circ$. Khi đó $v_{\max}=\sqrt{2g_{\mathrm{bk}}l(1-\cos90^\circ)}\approx3{,}76\,\mathrm{m/s}$.
 
 #### Bài 30
 
@@ -635,15 +625,15 @@ d) Điện tích của bi là $q=-4\cdot10^{-9}\,\mathrm C$.
 
     **Hướng dẫn giải:**
 
-    Đổi $V=10\ \text{mm}^3=10^{-8}\ \text{m}^3$. Trọng lực $P=mg=9\times10^{-4}$ N; lực đẩy Ác-si-mét $F_A=\rho Vg=800\cdot10^{-8}\cdot10=8\times10^{-5}$ N.
+    Đổi $V=10\ \text{mm}^3=10^{-8}\ \text{m}^3$. Trọng lực $P=mg=9\times10^{-4}\,\mathrm N$; lực đẩy Ác-si-mét $F_A=\rho Vg=800\cdot10^{-8}\cdot10=8\times10^{-5}\,\mathrm N$.
 
     a) **Đúng.** Hòn bi chịu trọng lực, lực đẩy Ác-si-mét và lực điện.
 
-    b) **Sai.** $P=9\times10^{-4}$ N lớn hơn $F_A=8\times10^{-5}$ N.
+    b) **Sai.** $P=9\times10^{-4}\,\mathrm N$ lớn hơn $F_A=8\times10^{-5}\,\mathrm N$.
 
     c) **Đúng.** Để cân bằng, lực điện phải hướng lên. Vì $\vec E$ hướng xuống nên điện tích của bi âm.
 
-    d) **Sai.** Điều kiện cân bằng $F_e+F_A=P$ cho $F_e=8{,}2\times10^{-4}$ N. Với $E=4{,}1\times10^5$ V/m, $q=-F_e/E=-2{,}0\times10^{-9}$ C, không phải $-4\times10^{-9}$ C.
+    d) **Sai.** Điều kiện cân bằng $F_e+F_A=P$ cho $F_e=8{,}2\times10^{-4}\,\mathrm N$. Với $E=4{,}1\times10^5\,\mathrm{V/m}$, $q=-F_e/E=-2{,}0\times10^{-9}\,\mathrm C$, không phải $-4\times10^{-9}\,\mathrm C$.
 #### Bài 31
 
 <!-- source-id: BT-Chuong-III-p75-q4-197 -->
@@ -686,17 +676,17 @@ c) Nếu điện tích giọt thủy ngân giảm chỉ còn $0{,}5q$ thì giọ
 d) Nếu hiệu điện thế giữa hai bản chỉ còn $0{,}5U$ (điện tích của giọt thủy ngân vẫn là $q$, chiều điện trường không thay đổi) thì vận tốc của giọt thủy ngân khi chạm vào bản kim loại theo chiều dịch chuyển là $5\,\mathrm{m/s}$.
 
 ??? success "Đáp án và lời giải"
-    **Đáp án theo nguồn:** a) Đúng; b) Đúng; c) Sai; d) Sai.
+    **Đáp án:** a) Đúng; b) Đúng; c) Sai; d) Sai.
 
     **Hướng dẫn giải:**
 
-    a) Hai bản tích điện trái dấu, song song với nhau nên điện trường giữa hai bản được xem là điện trường đều.
+    a) **Đúng.** Hai bản tích điện trái dấu, song song với nhau nên điện trường giữa hai bản được xem là điện trường đều.
 
-    b) Ban đầu giọt thủy ngân cân bằng. Trọng lực hướng xuống nên lực điện phải hướng lên. Vì giọt mang điện dương, $\vec E$ cũng hướng lên; do đó bản dương ở phía dưới và bản âm ở phía trên.
+    b) **Đúng.** Ban đầu giọt thủy ngân cân bằng. Trọng lực hướng xuống nên lực điện phải hướng lên. Vì giọt mang điện dương, $\vec E$ cũng hướng lên; do đó bản dương ở phía dưới và bản âm ở phía trên.
 
-    c) Khi điện tích chỉ còn $0{,}5q$, lực điện giảm còn một nửa trong khi trọng lực không đổi, nên giọt chuyển động xuống dưới, không phải đi lên.
+    c) **Sai.** Khi điện tích chỉ còn $0{,}5q$, lực điện giảm còn một nửa trong khi trọng lực không đổi, nên giọt chuyển động xuống dưới, không phải đi lên.
 
-    d) Ban đầu $qU/d=P$. Khi $U$ giảm còn $0{,}5U$, hợp lực hướng xuống bằng $0{,}5P$, nên $a=g/2=5\,\mathrm{m/s^2}$. Với $d=0{,}10\,\mathrm m$ và xuất phát từ nghỉ, $v=\sqrt{2ad}=1\,\mathrm{m/s}$; vì vậy phát biểu $5\,\mathrm{m/s}$ là sai.
+    d) **Sai.** Ban đầu $qU/d=P$. Khi $U$ giảm còn $0{,}5U$, hợp lực hướng xuống bằng $0{,}5P$, nên $a=g/2=5\,\mathrm{m/s^2}$. Với $d=0{,}10\,\mathrm m$ và xuất phát từ nghỉ, $v=\sqrt{2ad}=1\,\mathrm{m/s}$; vì vậy phát biểu $5\,\mathrm{m/s}$ là sai.
 
 ### Thông hiểu — Trắc nghiệm 4 lựa chọn
 
@@ -719,7 +709,9 @@ D. Góc lệch của hai quả cầu bằng nhau.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
+
     **Hướng dẫn giải:**
+
     Mặc dù hai quả cầu được tích điện có độ lớn khác nhau nhưng lực tương tác giữa chúng là như nhau. Do
     đó làm cho hai quả cầu lệch với những góc bằng nhau.
 
@@ -739,7 +731,9 @@ D. cùng loại nằm trên cùng một đường thẳng.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
+
     **Hướng dẫn giải:**
+
     Ba điện tích nằm cân bằng thì những lực điện tác dụng lên mỗi điện tích cân bằng lẫn nhau (Tức là các lực
     tác dụng lên mỗi điện tích cùng phương, ngược chiều và có độ lớn bằng nhau). Điều đó có nghĩa là tất cả
     các lực phải có cùng một giá hay ba điện tích phải nằm trên cùng một đường thẳng, và các điện tích không
@@ -765,6 +759,7 @@ D. $60^\circ$.
     **Đáp án:** A.
 
     **Hướng dẫn giải:**
+
     Ở trạng thái cân bằng, $\tan\alpha=F_d/(mg)$ với
     $F_d=kq^2/r^2=9\cdot10^9(5\cdot10^{-7})^2/0{,}6^2$. Suy ra $\tan\alpha=0{,}25$ và $\alpha\approx14^\circ$.
 
@@ -786,6 +781,7 @@ D. $Q/4$.
     **Đáp án:** B.
 
     **Hướng dẫn giải:**
+
     Điện tích ở giữa phải trái dấu với $Q$. Xét cân bằng của một điện tích $Q$ ở đầu:
     $kQ^2/r^2=k|Qq|/(r/2)^2\Rightarrow|q|=|Q|/4$.
     Vì trái dấu nên $q=-Q/4$.
@@ -815,6 +811,6 @@ d) Để cả hệ cân bằng, giá trị của $q_3$ là $3{,}375\,\mu\mathrm 
 
     b) **Đúng.** Muốn lực tổng hợp tác dụng lên $q_3$ bằng $0$, hai lực do $q_1,q_2$ gây ra phải ngược chiều; với hai điện tích cùng dấu, điểm cân bằng nằm giữa $A$ và $B$.
 
-    c) **Sai.** Điều kiện cân bằng cho $|q_1|/AC^2=|q_2|/BC^2$, nên $AC/BC=\sqrt{6/54}=1/3$. Kết hợp $AC+BC=6$ cm suy ra $AC=1{,}5$ cm, $BC=4{,}5$ cm.
+    c) **Sai.** Điều kiện cân bằng cho $|q_1|/AC^2=|q_2|/BC^2$, nên $AC/BC=\sqrt{6/54}=1/3$. Kết hợp $AC+BC=6\,\mathrm{cm}$ suy ra $AC=1{,}5\,\mathrm{cm}$, $BC=4{,}5\,\mathrm{cm}$.
 
     d) **Sai.** Nếu yêu cầu cả hệ cân bằng thì $q_3$ phải trái dấu với $q_1,q_2$ và có độ lớn $3{,}375\ \mu\text{C}$, tức $q_3=-3{,}375\ \mu\text{C}$.

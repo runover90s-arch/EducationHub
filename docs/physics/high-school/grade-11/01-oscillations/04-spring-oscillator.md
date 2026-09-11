@@ -335,7 +335,7 @@ trong đó $x'$ phải đo từ vị trí cân bằng mới.
 
 ## Ví dụ 1 — Tìm k từ chu kì
 
-Vật $m=0,20$ kg dao động với $T=0,40$ s. Lấy $\pi^2\approx10$.
+Vật $m=0,20\,\mathrm{kg}$ dao động với $T=0,40\,\mathrm s$. Lấy $\pi^2\approx10$.
 
 Từ $T=2\pi\sqrt{m/k}$:
 
@@ -345,7 +345,7 @@ $$
 
 ## Ví dụ 2 — Lò xo treo thẳng đứng
 
-Tại vị trí cân bằng, lò xo dãn $2,5$ cm. Lấy $g=10$ m/s².
+Tại vị trí cân bằng, lò xo dãn $2,5\,\mathrm{cm}$. Lấy $g=10\,\mathrm{m/s^2}$.
 
 Ta có
 
@@ -353,7 +353,7 @@ $$
 \omega=\sqrt{\frac{g}{\Delta\ell_0}}=\sqrt{\frac{10}{0,025}}=20\text{ rad/s}.
 $$
 
-Do đó $T=2\pi/20=\pi/10$ s.
+Do đó $T=2\pi/20=\pi/10\,\mathrm s$.
 
 ## Ví dụ 3 — Khi động năng gấp ba thế năng
 
@@ -367,7 +367,7 @@ Trong một chu kì vật đi qua hai vị trí $x=\pm A/2$, mỗi vị trí hai
 
 ## Ví dụ 4 — Cắt lò xo
 
-Lò xo dài $60$ cm có độ cứng $30$ N/m. Cắt lấy đoạn dài $20$ cm:
+Lò xo dài $60\,\mathrm{cm}$ có độ cứng $30\,\mathrm{N/m}$. Cắt lấy đoạn dài $20\,\mathrm{cm}$:
 
 $$
 k'=30\cdot\frac{60}{20}=90\text{ N/m}.
@@ -416,19 +416,19 @@ Xác định trạng thái tại thời điểm biến đổi → lập hệ m�
 
 ## Bài tập nhanh
 
-1. $m=100$ g, $k=40$ N/m. Tính $\omega$.
-2. Một lò xo treo thẳng đứng dãn $4$ cm tại vị trí cân bằng. Lấy $g=10$ m/s². Tính $\omega$.
-3. Hai lò xo $k_1=60$ N/m, $k_2=30$ N/m ghép nối tiếp. Tính $k_{eq}$.
-4. Với $A=6$ cm, tại vị trí nào động năng bằng thế năng?
-5. Lò xo dài $80$ cm có $k=25$ N/m. Cắt lấy đoạn $20$ cm. Tìm độ cứng đoạn mới.
+1. $m=100$ g, $k=40\,\mathrm{N/m}$. Tính $\omega$.
+2. Một lò xo treo thẳng đứng dãn $4\,\mathrm{cm}$ tại vị trí cân bằng. Lấy $g=10\,\mathrm{m/s^2}$. Tính $\omega$.
+3. Hai lò xo $k_1=60\,\mathrm{N/m}$, $k_2=30\,\mathrm{N/m}$ ghép nối tiếp. Tính $k_{eq}$.
+4. Với $A=6\,\mathrm{cm}$, tại vị trí nào động năng bằng thế năng?
+5. Lò xo dài $80\,\mathrm{cm}$ có $k=25\,\mathrm{N/m}$. Cắt lấy đoạn $20\,\mathrm{cm}$. Tìm độ cứng đoạn mới.
 
 ### Đáp án nhanh
 
-1. $20$ rad/s.
-2. $5\sqrt{10}$ rad/s.
-3. $20$ N/m.
-4. $|x|=3\sqrt2$ cm.
-5. $100$ N/m.
+1. $20\,\mathrm{rad/s}$.
+2. $5\sqrt{10}\,\mathrm{rad/s}$.
+3. $20\,\mathrm{N/m}$.
+4. $|x|=3\sqrt2\,\mathrm{cm}$.
+5. $100\,\mathrm{N/m}$.
 
 ## Tóm tắt
 

@@ -33,7 +33,7 @@ Chùm electron.
 
 ## Câu 6
 
-$\Delta T=100$ K.
+$\Delta T=100\,\mathrm K$.
 
 $$
 R=20[1+4,0\times10^{-3}\cdot100]=28\,\Omega.
@@ -47,7 +47,7 @@ $$
 
 ## Câu 8
 
-$t=600$ s:
+$t=600\,\mathrm s$:
 
 $$
 q=It=2\cdot600=1200\text{ C}.
@@ -55,7 +55,7 @@ $$
 
 ## Câu 9
 
-Cu$^{2+}$ nên n=2, $t=1800$ s:
+Cu$^{2+}$ nên n=2, $t=1800\,\mathrm s$:
 
 $$
 m=\frac{64\cdot0,80\cdot1800}{2\cdot96500}\approx0,477\text{ g}.
@@ -105,7 +105,7 @@ Nhiệt độ theo Celsius xấp xỉ 2020°C. Đây là kết quả của mô h
 
 ## Câu 16
 
-$60$ mV = 0,060 V.
+$60\,\mathrm{mV}=0,060\,\mathrm V$.
 
 $$
 \Delta T=\frac{0,060}{50\times10^{-6}}=1200\text{ K}.
@@ -115,7 +115,7 @@ Mối chuẩn ở 0°C nên nhiệt độ lò xấp xỉ 1200°C theo mô hình.
 
 ## Câu 17
 
-$t=2400$ s:
+$t=2400\,\mathrm s$:
 
 $$
 m=\frac{108\cdot0,25\cdot2400}{96500}\approx0,671\text{ g}.
@@ -169,7 +169,7 @@ $$
 I=\frac{12}{12}=1\text{ A}.
 $$
 
-$t=32$ phút 10 s = 1930 s. Với Ag, n=1:
+$t=32$ phút $10\,\mathrm s=1930\,\mathrm s$. Với Ag, n=1:
 
 $$
 m=\frac{108\cdot1\cdot1930}{96500}=2,16\text{ g}.

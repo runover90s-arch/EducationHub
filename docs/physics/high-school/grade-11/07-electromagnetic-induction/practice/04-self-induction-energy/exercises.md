@@ -9,7 +9,6 @@ tags:
 
 # Bài tập — Bài 4 — Tự cảm và năng lượng từ trường
 
-> Hệ bài tập được biên soạn theo các dạng xuất hiện trong bộ tài liệu Vật lí 11 của dự án. Câu hỏi được giữ ngắn, trực tiếp; độ khó tăng dần và không cố tình thêm dữ kiện gây nhiễu.
 
 [← Trở lại bài học](../../04-self-induction-energy.md)
 
@@ -17,7 +16,7 @@ tags:
 
 ### Bài 1 — Mức 1 — Nhận biết
 
-Suất điện động tự cảm có độ lớn
+Với cuộn cảm có độ tự cảm $L$ không đổi, suất điện động tự cảm trung bình khi dòng biến thiên đều có độ lớn
 
 A. $|\mathcal E_L|=L|\Delta I|/\Delta t$.
 
@@ -28,11 +27,15 @@ C. $|\mathcal E_L|=LI^2$.
 D. $|\mathcal E_L|=R/L$.
 
 ??? success "Đáp án và lời giải"
-    Chọn **A** cho biến thiên đều/trung bình.
+    **Đáp án:** A.
+
+    **Hướng dẫn giải:**
+
+    Với độ tự cảm $L$ không đổi, suất điện động tự cảm tức thời là $\mathcal E_L=-L\,dI/dt$. Nếu dòng biến thiên đều trong khoảng $\Delta t$, độ lớn suất điện động là $|\mathcal E_L|=L|\Delta I|/\Delta t$. Vì vậy chọn **A**.
 
 ### Bài 2 — Mức 1 — Nhận biết
 
-Đơn vị của hệ số tự cảm L là
+Đơn vị SI của hệ số tự cảm $L$ là
 
 A. tesla.
 
@@ -43,11 +46,15 @@ C. weber trên mét vuông.
 D. coulomb.
 
 ??? success "Đáp án và lời giải"
-    Chọn **B**.
+    **Đáp án:** B.
+
+    **Hướng dẫn giải:**
+
+    Đơn vị SI của độ tự cảm $L$ là henry, kí hiệu $\mathrm H$. Tesla và weber trên mét vuông đều gắn với cảm ứng từ, còn coulomb là đơn vị điện tích. Vì vậy chọn **B**.
 
 ### Bài 3 — Mức 1 — Nhận biết
 
-Năng lượng từ trường trong cuộn cảm mang dòng I là
+Năng lượng từ trường trong cuộn cảm lí tưởng có độ tự cảm $L$ mang dòng $I$ là
 
 A. $W=LI^2$.
 
@@ -58,7 +65,11 @@ C. $W=I^2/(2L)$.
 D. $W=L/I$.
 
 ??? success "Đáp án và lời giải"
-    Chọn **B**.
+    **Đáp án:** B.
+
+    **Hướng dẫn giải:**
+
+    Năng lượng từ trường tích trữ trong cuộn cảm lí tưởng có độ tự cảm $L$ mang dòng $I$ là $W=\tfrac12LI^2$. Vì vậy chọn **B**.
 
 ## Phần B — Đúng/Sai
 
@@ -66,56 +77,83 @@ D. $W=L/I$.
 
 Tự cảm:
 
-a) Xuất hiện khi dòng qua chính mạch biến thiên.
+a) Xuất hiện khi dòng điện qua chính mạch biến thiên.
 
 b) Suất điện động tự cảm chống lại sự biến thiên dòng theo Lenz.
 
 c) Cuộn cảm tích trữ năng lượng từ trường.
 
-d) Khi I không đổi theo thời gian, suất điện động tự cảm lý tưởng khác 0.
+d) Khi $I$ không đổi theo thời gian, suất điện động tự cảm lí tưởng khác $0$.
 
 ??? success "Đáp án và lời giải"
-    a) **Đúng**.
-    b) **Đúng**.
-    c) **Đúng**.
-    d) **Sai**: $dI/dt=0$ nên $\mathcal E_L=0$.
+    **Đáp án:** a) Đúng; b) Đúng; c) Đúng; d) Sai.
+
+    **Hướng dẫn giải:**
+
+    a) **Đúng.** Tự cảm là hiện tượng cảm ứng điện từ do chính dòng điện biến thiên trong mạch làm từ thông móc vòng của mạch thay đổi.
+
+    b) **Đúng.** Theo Lenz, suất điện động tự cảm có tác dụng chống lại sự biến thiên của dòng điện đã sinh ra nó, không phải luôn chống chiều dòng hiện có.
+
+    c) **Đúng.** Cuộn cảm mang dòng điện tích trữ năng lượng trong từ trường, với $W=\tfrac12LI^2$ trong mô hình lí tưởng.
+
+    d) **Sai.** Khi $I$ không đổi theo thời gian thì $dI/dt=0$, nên $\mathcal E_L=-L\,dI/dt=0$.
 
 ## Phần C — Trả lời ngắn
 
 ### Bài 5 — Mức 3 — Vận dụng
 
-Cuộn cảm L=0,5 H, dòng tăng đều từ 0 lên 2 A trong 0,1 s. Tính độ lớn suất điện động tự cảm.
+Cuộn cảm có $L=0{,}5\,\mathrm H$, dòng tăng đều từ $0$ lên $2\,\mathrm A$ trong $0{,}1\,\mathrm s$. Tính độ lớn suất điện động tự cảm.
 
 ??? success "Đáp án và lời giải"
-    $|\mathcal E_L|=L\Delta I/\Delta t=0,5\cdot2/0,1=10$ V.
+    **Đáp án:** $|\mathcal E_L|=10\,\mathrm V$.
+
+    **Hướng dẫn giải:**
+
+    Dòng tăng đều từ $0$ đến $2\,\mathrm A$ trong $0{,}1\,\mathrm s$, nên $|\Delta I|/\Delta t=2/0{,}1=20\,\mathrm{A/s}$. Do đó
+
+    $|\mathcal E_L|=L|\Delta I|/\Delta t=0{,}5\times20=10\,\mathrm V$.
 
 ### Bài 6 — Mức 3 — Vận dụng
 
-Cuộn cảm 0,2 H mang dòng 3 A. Tính năng lượng từ trường.
+Cuộn cảm lí tưởng có $L=0{,}2\,\mathrm H$ mang dòng $I=3\,\mathrm A$. Tính năng lượng từ trường.
 
 ??? success "Đáp án và lời giải"
-    $W=\frac12LI^2=0,5\cdot0,2\cdot9=0,9$ J.
+    **Đáp án:** $W=0{,}90\,\mathrm J$.
+
+    **Hướng dẫn giải:**
+
+    Năng lượng từ trường của cuộn cảm lí tưởng là $W=\tfrac12LI^2$. Thay $L=0{,}2\,\mathrm H$ và $I=3\,\mathrm A$:
+
+    $W=\tfrac12\times0{,}2\times3^2=0{,}90\,\mathrm J$.
 
 ### Bài 7 — Mức 3 — Vận dụng
 
-Một cuộn cảm tạo suất điện động tự cảm 6 V khi dòng giảm đều 3 A trong 0,25 s. Tính L.
+Một cuộn cảm tạo suất điện động tự cảm có độ lớn $6\,\mathrm V$ khi dòng giảm đều $3\,\mathrm A$ trong $0{,}25\,\mathrm s$. Tính $L$.
 
 ??? success "Đáp án và lời giải"
-    $L=|\mathcal E|\Delta t/|\Delta I|=6\cdot0,25/3=0,5$ H.
+    **Đáp án:** $L=0{,}50\,\mathrm H$.
+
+    **Hướng dẫn giải:**
+
+    Vì dòng giảm đều $3\,\mathrm A$ trong $0{,}25\,\mathrm s$, ta dùng độ lớn $|\mathcal E_L|=L|\Delta I|/\Delta t$. Suy ra
+
+    $L=|\mathcal E_L|\Delta t/|\Delta I|=6\times0{,}25/3=0{,}50\,\mathrm H$.
 
 ## Phần D — Vận dụng và vận dụng cao
 
 ### Bài 8 — Mức 4 — Vận dụng cao
 
-Cuộn cảm L=0,40 H đang mang dòng 2 A. Dòng giảm tuyến tính về 0 trong 0,05 s. Tính độ lớn suất điện động tự cảm trung bình và năng lượng từ trường ban đầu. Nếu toàn bộ năng lượng cuối cùng tỏa trên điện trở, có bao nhiêu joule được tỏa?
+Cuộn cảm lí tưởng có $L=0{,}40\,\mathrm H$ đang mang dòng $I=2\,\mathrm A$. Dòng giảm tuyến tính về $0$ trong $0{,}05\,\mathrm s$. Tính độ lớn suất điện động tự cảm trung bình và năng lượng từ trường ban đầu. Nếu toàn bộ năng lượng từ trường ban đầu cuối cùng chuyển thành nhiệt trên điện trở, có bao nhiêu joule được tỏa?
 
 ??? success "Đáp án và lời giải"
-    Suất điện động trung bình:
+    **Đáp án:** $|\mathcal E_L|=16\,\mathrm V$; $W_0=0{,}80\,\mathrm J$; nếu toàn bộ năng lượng từ trường cuối cùng tỏa nhiệt thì nhiệt lượng là $0{,}80\,\mathrm J$.
 
-    $|\mathcal E_L|=L|\Delta I|/\Delta t=0,40\cdot2/0,05=16$ V.
+    **Hướng dẫn giải:**
 
-    Năng lượng ban đầu:
+    Dòng giảm tuyến tính từ $2\,\mathrm A$ về $0$ trong $0{,}05\,\mathrm s$, nên độ lớn tốc độ biến thiên dòng là $|\Delta I|/\Delta t=2/0{,}05=40\,\mathrm{A/s}$. Vì $L=0{,}40\,\mathrm H$,
 
-    $W_0=\frac12LI^2=0,5\cdot0,40\cdot4=0,80$ J.
+    $|\mathcal E_L|=L|\Delta I|/\Delta t=0{,}40\times40=16\,\mathrm V$.
 
-    Nếu cuối cùng dòng bằng 0 và bỏ qua các kênh khác, toàn bộ $0,80$ J được chuyển thành nhiệt trên điện trở.
+    Năng lượng từ trường ban đầu là $W_0=\tfrac12LI^2=\tfrac12\times0{,}40\times2^2=0{,}80\,\mathrm J$.
+
+    Khi dòng cuối cùng bằng $0$, năng lượng từ trường của cuộn cảm bằng $0$. Theo giả thiết đề bài rằng toàn bộ năng lượng ban đầu cuối cùng chuyển thành nhiệt trên điện trở, nhiệt lượng tỏa ra là $Q=W_0=0{,}80\,\mathrm J$.

@@ -16,12 +16,12 @@ tags:
 $N=|q|/e=4,806/1,602=3$. Điện tích âm nên vật **thừa 3 electron**.
 
 ## Câu 2
-Tổng điện tích $6\,\mu$C. Hai quả giống nhau nên sau tiếp xúc mỗi quả:
+Tổng điện tích $6\,\mu\,\mathrm C$. Hai quả giống nhau nên sau tiếp xúc mỗi quả:
 
-$q'=3\,\mu$C.
+$q'=3\,\mu\,\mathrm C$.
 
 ## Câu 3
-$r=0,20$ m:
+$r=0,20\,\mathrm m$:
 
 $$
 F=9\times10^9
@@ -38,7 +38,7 @@ $F\propto1/r^2$, nên lực giảm 9 lần.
 Trong điện môi $F=F_0/\varepsilon_r$. Do đó về chân không lực tăng 4 lần: $F_0=4F$.
 
 ## Câu 6
-$r=0,30$ m:
+$r=0,30\,\mathrm m$:
 
 $$
 E=9\times10^9\frac{3\times10^{-6}}{0,09}
@@ -48,7 +48,7 @@ $$
 Q dương → hướng ra xa Q.
 
 ## Câu 7
-$F=|q|E=5\times10^{-9}\cdot2\times10^4=10^{-4}$ N. Vì q âm, lực ngược E.
+$F=|q|E=5\times10^{-9}\cdot2\times10^4=10^{-4}\,\mathrm N$. Vì q âm, lực ngược E.
 
 ## Câu 8
 Gọi điểm cách +Q là x, cách +4Q là a-x. Hai trường ngược chiều giữa hai nguồn:
@@ -63,27 +63,27 @@ $a-x=2x$ → $x=a/3$.
 Giữa hai điện tích trái dấu, hai trường cùng hướng từ dương sang âm nên không thể triệt tiêu. Điểm E=0 nằm **ngoài đoạn, phía +Q** vì +Q có độ lớn nhỏ hơn.
 
 ## Câu 10
-$E=\sqrt{(3\times10^4)^2+(4\times10^4)^2}=5\times10^4$ N/C.
+$E=\sqrt{(3\times10^4)^2+(4\times10^4)^2}=5\times10^4\,\mathrm{N/C}$.
 
 ## Câu 11
-$m=0,002$ kg; $mg=0,02$ N. Cân bằng: $qE=mg$.
+$m=0,002\,\mathrm{kg}$; $mg=0,02\,\mathrm N$. Cân bằng: $qE=mg$.
 
-$E=0,02/(2\times10^{-6})=10^4$ N/C. q dương nên lực cùng E; để cân bằng trọng lực, E hướng lên.
+$E=0,02/(2\times10^{-6})=10^4\,\mathrm{N/C}$. q dương nên lực cùng E; để cân bằng trọng lực, E hướng lên.
 
 ## Câu 12
-$d=0,05$ m:
+$d=0,05\,\mathrm m$:
 
-$A=qEd=3\times10^{-6}\cdot2000\cdot0,05=3\times10^{-4}$ J.
+$A=qEd=3\times10^{-6}\cdot2000\cdot0,05=3\times10^{-4}\,\mathrm J$.
 
 ## Câu 13
-$U_{MN}=120-50=70$ V.
+$U_{MN}=120-50=70\,\mathrm V$.
 
-$A=qU=-2\times10^{-6}\cdot70=-1,4\times10^{-4}$ J.
+$A=qU=-2\times10^{-6}\cdot70=-1,4\times10^{-4}\,\mathrm J$.
 
 Lực điện làm công âm theo chuyển động M→N.
 
 ## Câu 14
-$r=0,20$ m:
+$r=0,20\,\mathrm m$:
 
 $$
 V=9\times10^9\frac{4\times10^{-6}}{0,20}
@@ -96,12 +96,12 @@ $$
 Điện trường là tổng vectơ. Hai vectơ do +Q và -Q tại điểm cách đều thường cùng hướng theo chiều từ dương sang âm ở trung trực, nên **không thể kết luận E=0; thực tế trong cấu hình lưỡng cực đối xứng E thường khác 0**.
 
 ## Câu 16
-$d=0,20$ m theo chiều E:
+$d=0,20\,\mathrm m$ theo chiều E:
 
-$V_A-V_B=Ed=100$ V.
+$V_A-V_B=Ed=100\,\mathrm V$.
 
 ## Câu 17
-$Q=CU=4\,\mu\text{F}\cdot25\text{ V}=100\,\mu$C.
+$Q=CU=4\,\mu\text{F}\cdot25\text{ V}=100\,\mu\,\mathrm C$.
 
 $$
 W=\frac12CU^2
@@ -119,16 +119,16 @@ Nối nguồn → U không đổi. C tăng 5 lần → Q tăng 5 lần; $W=\tfra
 Cô lập → Q không đổi. C tăng 5 lần → U giảm 5 lần; $W=Q^2/(2C)$ giảm 5 lần.
 
 ## Câu 21
-$C_{eq}=C_1C_2/(C_1+C_2)=2\,\mu$F.
+$C_{eq}=C_1C_2/(C_1+C_2)=2\,\mu\,\mathrm F$.
 
-Q của chuỗi: $Q=C_{eq}U=24\,\mu$C.
+Q của chuỗi: $Q=C_{eq}U=24\,\mu\,\mathrm C$.
 
-$U_1=Q/C_1=8$ V; $U_2=4$ V.
+$U_1=Q/C_1=8\,\mathrm V$; $U_2=4\,\mathrm V$.
 
 ## Câu 22
-$C_{eq}=3+6=9\,\mu$F.
+$C_{eq}=3+6=9\,\mu\,\mathrm F$.
 
-$Q_{\text{tổng}}=C_{eq}U=108\,\mu$C.
+$Q_{\text{tổng}}=C_{eq}U=108\,\mu\,\mathrm C$.
 
 ## Câu 23
 $\vec a=(e/m_p)\vec E$ vì proton có q=+e. Gia tốc cùng chiều E, độ lớn $a=eE/m_p$.
@@ -157,9 +157,9 @@ $$
 $$
 
 ## Câu 26
-$t=\ell/v_0=0,10/(2\times10^5)=5\times10^{-7}$ s.
+$t=\ell/v_0=0,10/(2\times10^5)=5\times10^{-7}\,\mathrm s$.
 
-$a=(q/m)E=2\times10^7\cdot10^4=2\times10^{11}$ m/s².
+$a=(q/m)E=2\times10^7\cdot10^4=2\times10^{11}\,\mathrm{m/s^2}$.
 
 $$
 y=\frac12at^2
@@ -167,10 +167,10 @@ y=\frac12at^2
 =0,025\ \text{m}.
 $$
 
-Độ lệch 2,5 cm theo chiều lực điện.
+Độ lệch $2,5\,\mathrm{cm}$ theo chiều lực điện.
 
 ## Câu 27
-Điện tích ban đầu $Q_1=C_1U_1=24\,\mu$C; $Q_2=0$. Hệ sau nối cô lập và cùng cực:
+Điện tích ban đầu $Q_1=C_1U_1=24\,\mu\,\mathrm C$; $Q_2=0$. Hệ sau nối cô lập và cùng cực:
 
 $$
 U_f=\frac{24}{2+4}=4\ \text{V}.
@@ -206,7 +206,7 @@ $$
 \frac{Q}{x^2}=\frac{9Q}{(40-x)^2}.
 $$
 
-$40-x=3x$ → $x=10$ cm.
+$40-x=3x$ → $x=10\,\mathrm{cm}$.
 
 ## Câu 32
 Đặt $q_1=+Q$ tại x=0, $q_2=-4Q$ tại x=a. Điểm triệt tiêu phải phía ngoài gần +Q, tức x<0. Gọi khoảng cách đến +Q là d; đến -4Q là a+d.
@@ -265,7 +265,7 @@ $$
 \end{gathered}
 $$
 
-**Điểm cách +Q 10 cm và +4Q 20 cm.**
+**Điểm cách +Q $10\,\mathrm{cm}$ và +4Q $20\,\mathrm{cm}$.**
 
 ### Câu 37
 Giữa hai điện tích trái dấu, hai vectơ E cùng hướng từ điện tích dương về điện tích âm, nên không thể triệt tiêu. Điểm E=0 phải nằm ngoài, phía điện tích có độ lớn nhỏ hơn, tức phía ngoài +Q.

@@ -9,7 +9,6 @@ tags:
 
 # Bài tập — Bài 1 — Dòng điện và cường độ dòng điện
 
-> Hệ bài tập được biên soạn theo các dạng xuất hiện trong bộ tài liệu Vật lí 11 của dự án. Câu hỏi được giữ ngắn, trực tiếp; độ khó tăng dần và không cố tình thêm dữ kiện gây nhiễu.
 
 [← Trở lại bài học](../../01-current-intensity.md)
 
@@ -17,18 +16,18 @@ tags:
 
 ### Bài 1 — Mức 1 — Nhận biết
 
-Điện lượng $12$ C đi qua tiết diện dây trong $4$ s. Cường độ dòng điện trung bình là
+Điện lượng $12\,\mathrm C$ đi qua tiết diện dây trong $4\,\mathrm s$. Cường độ dòng điện trung bình là
 
-A. $0,33$ A.
+A. $0,33\,\mathrm A$.
 
-B. $3$ A.
+B. $3\,\mathrm A$.
 
-C. $8$ A.
+C. $8\,\mathrm A$.
 
-D. $48$ A.
+D. $48\,\mathrm A$.
 
 ??? success "Đáp án và lời giải"
-    Chọn **B**. $I=\Delta q/\Delta t=12/4=3$ A.
+    Chọn **B**. $I=\Delta q/\Delta t=12/4=3\,\mathrm A$.
 
 ### Bài 2 — Mức 1 — Nhận biết
 
@@ -62,18 +61,18 @@ D. từ cực âm sang cực dương ngoài nguồn.
 
 ### Bài 4 — Mức 1 — Nhận biết
 
-Dòng điện $I=2$ A chạy trong $30$ s. Điện lượng qua tiết diện là
+Dòng điện $I=2\,\mathrm A$ chạy trong $30\,\mathrm s$. Điện lượng qua tiết diện là
 
-A. $15$ C.
+A. $15\,\mathrm C$.
 
-B. $28$ C.
+B. $28\,\mathrm C$.
 
-C. $60$ C.
+C. $60\,\mathrm C$.
 
-D. $120$ C.
+D. $120\,\mathrm C$.
 
 ??? success "Đáp án và lời giải"
-    Chọn **C**. $q=It=2\cdot30=60$ C.
+    Chọn **C**. $q=It=2\cdot30=60\,\mathrm C$.
 
 ## Phần B — Đúng/Sai
 
@@ -81,7 +80,7 @@ D. $120$ C.
 
 Xét cường độ dòng điện:
 
-a) $1$ A = $1$ C/s.
+a) $1\,\mathrm A=1\,\mathrm{C/s}$.
 
 b) $I=\Delta q/\Delta t$.
 
@@ -90,10 +89,13 @@ c) Trong kim loại, hạt tải điện chủ yếu là electron tự do.
 d) Electron chuyển động nhiệt hỗn loạn hoàn toàn dừng lại khi có dòng điện.
 
 ??? success "Đáp án và lời giải"
-    a) **Đúng**.
-    b) **Đúng** cho giá trị trung bình; dòng không đổi thì dùng trực tiếp.
-    c) **Đúng**.
-    d) **Sai**: chuyển động nhiệt vẫn tồn tại, chồng thêm chuyển động trôi có hướng.
+    a) **Đúng.** Từ $I=\Delta q/\Delta t$, một ampe là dòng điện truyền một culông điện tích qua tiết diện trong một giây.
+
+    b) **Đúng.** cho giá trị trung bình; dòng không đổi thì dùng trực tiếp.
+
+    c) **Đúng.** Ion mạng tinh thể kim loại gần như cố định, còn electron dẫn có thể chuyển động có hướng và tạo dòng điện.
+
+    d) **Sai.** chuyển động nhiệt vẫn tồn tại, chồng thêm chuyển động trôi có hướng.
 
 ### Bài 6 — Mức 2 — Thông hiểu
 
@@ -108,33 +110,36 @@ c) Tốc độ trôi bằng tốc độ lan truyền tín hiệu điện trong d
 d) Điện lượng qua tiết diện trong thời gian t là $It$ với dòng không đổi.
 
 ??? success "Đáp án và lời giải"
-    a) **Đúng**.
-    b) **Đúng**.
-    c) **Sai**: tốc độ trôi của electron rất nhỏ so với tốc độ truyền trường/tín hiệu.
-    d) **Đúng**.
+    a) **Đúng.** Trong thời gian $\Delta t$, số hạt qua tiết diện là $nSv\Delta t$, nên $I=\Delta q/\Delta t=neSv$ về độ lớn.
+
+    b) **Đúng.** Từ $I=neSv$, khi $n,e,v$ không đổi thì $I$ tỉ lệ thuận với tiết diện $S$.
+
+    c) **Sai.** tốc độ trôi của electron rất nhỏ so với tốc độ truyền trường/tín hiệu.
+
+    d) **Đúng.** Từ định nghĩa $I=\Delta q/\Delta t$, với dòng không đổi suy ra $q=It$.
 
 ## Phần C — Trả lời ngắn
 
 ### Bài 7 — Mức 3 — Vận dụng
 
-Dòng điện $0,50$ A chạy trong $2$ phút. Tính điện lượng và số electron qua tiết diện. Lấy $e=1,6\cdot10^{-19}$ C.
+Dòng điện $0,50\,\mathrm A$ chạy trong $2$ phút. Tính điện lượng và số electron qua tiết diện. Lấy $e=1,6\cdot10^{-19}\,\mathrm C$.
 
 ??? success "Đáp án và lời giải"
-    $t=120$ s. $q=It=0,5\cdot120=60$ C. Số electron $N=q/e=60/(1,6\cdot10^{-19})=3,75\cdot10^{20}$.
+    $t=120\,\mathrm s$. $q=It=0,5\cdot120=60\,\mathrm C$. Số electron $N=q/e=60/(1,6\cdot10^{-19})=3,75\cdot10^{20}$.
 
 ### Bài 8 — Mức 3 — Vận dụng
 
-Trong $0,20$ s có $5\cdot10^{17}$ electron đi qua tiết diện dây. Tính cường độ dòng điện.
+Trong $0,20\,\mathrm s$ có $5\cdot10^{17}$ electron đi qua tiết diện dây. Tính cường độ dòng điện.
 
 ??? success "Đáp án và lời giải"
-    $q=Ne=5\cdot10^{17}\cdot1,6\cdot10^{-19}=0,08$ C. $I=q/t=0,08/0,20=0,40$ A.
+    $q=Ne=5\cdot10^{17}\cdot1,6\cdot10^{-19}=0,08\,\mathrm C$. $I=q/t=0,08/0,20=0,40\,\mathrm A$.
 
 ### Bài 9 — Mức 3 — Vận dụng
 
-Dây dẫn có tiết diện $S=1$ mm², mật độ electron tự do $n=8,5\cdot10^{28}$ m⁻³, dòng điện $I=1,36$ A. Tính tốc độ trôi trung bình. Lấy $e=1,6\cdot10^{-19}$ C.
+Dây dẫn có tiết diện $S=1\,\mathrm{mm^2}$, mật độ electron tự do $n=8,5\cdot10^{28}\,\mathrm m$⁻³, dòng điện $I=1,36\,\mathrm A$. Tính tốc độ trôi trung bình. Lấy $e=1,6\cdot10^{-19}\,\mathrm C$.
 
 ??? success "Đáp án và lời giải"
-    $S=10^{-6}$ m². Từ $I=neSv$: $v=I/(neS)=1,36/(8,5\cdot10^{28}\cdot1,6\cdot10^{-19}\cdot10^{-6})=10^{-4}$ m/s $=0,1$ mm/s.
+    $S=10^{-6}\,\mathrm{m^2}$. Từ $I=neSv$: $v=I/(neS)=1,36/(8,5\cdot10^{28}\cdot1,6\cdot10^{-19}\cdot10^{-6})=10^{-4}\,\mathrm{m/s}$ $=0,1\,\mathrm{mm/s}$.
 
 ## Phần D — Vận dụng và vận dụng cao
 
@@ -163,6 +168,7 @@ Cường độ của một dòng điện không đổi chạy qua dây tóc củ
     **Đáp án:** $90$
 
     **Hướng dẫn giải:**
+
     $\Delta q=I\Delta t=1{,}0\cdot1{,}5\cdot60=90\,\mathrm C$.
 
     Vậy kết quả cần tìm là **$90$**.
@@ -176,6 +182,7 @@ Trong thời gian $\Delta t=30\,\mathrm s$, có một điện lượng $\Delta q
     **Đáp án:** $2{,}5$
 
     **Hướng dẫn giải:**
+
     $I=\Delta q/\Delta t=60/30=2{,}0\,\mathrm A$.
 
     $N=I\Delta t'/e=2{,}0\cdot20/(1{,}6\times10^{-19})=2{,}5\times10^{20}$.
@@ -191,6 +198,7 @@ Mật độ electron tự do trong một đoạn dây nhôm hình trụ là $n=1
     **Đáp án:** $0{,}22$
 
     **Hướng dẫn giải:**
+
     Với $S=\pi d^2/4$ và $I=Snev$,
 
     $v=\dfrac{4I}{\pi d^2ne}\approx0{,}22\times10^{-6}\,\mathrm{m/s}=0{,}22\,\mu\mathrm{m/s}$.
@@ -206,6 +214,7 @@ Cho dòng điện không đổi cường độ $I=4{,}2\,\mathrm A$ chạy qua m
     **Đáp án:** $3{,}3$
 
     **Hướng dẫn giải:**
+
     Diện tích tiết diện dây là $S=\pi d^2/4$.
 
     Từ $I=Snev$ suy ra $v=4I/(\pi d^2ne)$.
@@ -226,6 +235,7 @@ $j=I/S$.
     **Đáp án:** $640$
 
     **Hướng dẫn giải:**
+
     Từ $I=Snev$ suy ra $j=I/S=nev$.
 
     $j=8{,}0\times10^{28}\cdot5{,}0\times10^{-5}\cdot1{,}6\times10^{-19}=640\times10^3\,\mathrm{A/m^2}=640\,\mathrm{kA/m^2}$.
@@ -241,6 +251,7 @@ Trong một thí nghiệm mạ bạc, cần có điện tích $\Delta q=8{,}2\ti
     **Đáp án:** $4{,}1$
 
     **Hướng dẫn giải:**
+
     $\Delta t=\Delta q/I=(8{,}2\times10^3)/0{,}20=4{,}1\times10^4\,\mathrm s$.
 
     Vậy kết quả cần tìm là **$4{,}1$**.
@@ -254,6 +265,7 @@ Trong một dây dẫn có dòng điện không đổi chạy qua. Điện lư�
     **Đáp án:** $2{,}25$
 
     **Hướng dẫn giải:**
+
     $I=\Delta q/\Delta t=675/300=2{,}25\,\mathrm A$.
 
     Vậy kết quả cần tìm là **$2{,}25$**.
@@ -267,6 +279,7 @@ Trong một dây dẫn có dòng điện không đổi cường độ $2{,}50\,\
     **Đáp án:** $500$
 
     **Hướng dẫn giải:**
+
     $\Delta q=I\Delta t=2{,}50\cdot200=500\,\mathrm C$.
 
     Vậy kết quả cần tìm là **$500$**.
@@ -280,6 +293,7 @@ Một dòng điện không đổi chạy qua một dây dẫn kim loại hình t
     **Đáp án:** $0{,}24$
 
     **Hướng dẫn giải:**
+
     $I=Ne/\Delta t=(7{,}5\times10^{18})(1{,}6\times10^{-19})/5{,}0=0{,}24\,\mathrm A$.
 
     Vậy kết quả cần tìm là **$0{,}24$**.
@@ -293,12 +307,13 @@ Mắc nối tiếp một bóng đèn với một ampe kế rồi nối hai đầ
     **Đáp án:** $270$
 
     **Hướng dẫn giải:**
+
     Vì ampe kế mắc nối tiếp với bóng đèn nên cường độ dòng điện qua bóng đèn là $I=450\,\mathrm{mA}=0{,}450\,\mathrm A$.
 
     $\Delta q=I\Delta t=0{,}450\cdot600=270\,\mathrm C$.
 
-!!! warning "Đối chiếu nguồn"
-    Ô đáp án trong PDF ghi $0{,}04$, nhưng chính phần hướng dẫn của PDF tính $\Delta q=0{,}450\cdot600=270\,\mathrm C$. Tính độc lập cũng cho $270\,\mathrm C$, nên đáp án được hiệu chỉnh theo dữ kiện và phép tính nguồn.
+    !!! warning "Đối chiếu nguồn"
+        Ô đáp án trong PDF ghi $0{,}04$, nhưng chính phần hướng dẫn của PDF tính $\Delta q=0{,}450\cdot600=270\,\mathrm C$. Tính độc lập cũng cho $270\,\mathrm C$, nên đáp án được hiệu chỉnh theo dữ kiện và phép tính nguồn.
 #### Bài 21
 
 <!-- source-id: BT-Chuong-IV-p18-q5-79 -->
@@ -309,6 +324,7 @@ Dòng điện không đổi có cường độ $3{,}30\,\mathrm A$ chạy trong 
     **Đáp án:** $1{,}24$
 
     **Hướng dẫn giải:**
+
     Với khối lượng mol $M=64{,}0\times10^{-3}\,\mathrm{kg/mol}$, mật độ electron tự do là $n=N_A\rho/M$.
 
     Tiết diện dây $S=\pi d^2/4$. Từ $I=Snev$ suy ra
@@ -325,6 +341,7 @@ Cho dòng điện không đổi cường độ $4{,}25\,\mathrm A$ chạy qua m�
     **Đáp án:** $52{,}1$
 
     **Hướng dẫn giải:**
+
     Từ $I=Snev$, với $S=\pi d^2/4$, suy ra
     $t=l/v=l\pi d^2ne/(4I)$.
 
@@ -352,6 +369,7 @@ D. Coulomb$^2$/giây.
     **Đáp án:** C
 
     **Hướng dẫn giải:**
+
     Vì $I=\Delta q/\Delta t$, đơn vị của cường độ dòng điện có thể viết là C/s.
 
     Vậy chọn **C**.
@@ -373,6 +391,7 @@ D. $IT^{-1}$.
     **Đáp án:** A
 
     **Hướng dẫn giải:**
+
     Thứ nguyên cơ bản của cường độ dòng điện là $I$.
 
     Vậy chọn **A**.
@@ -392,12 +411,10 @@ D. đồng hồ.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** B
+
     **Hướng dẫn giải:**
 
-    Dùng $I=\Delta q/\Delta t$ và $N=\Delta q/e$; với dòng điện trong kim loại có thể dùng $I=neSv$.
-
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **B. ampe kế.**
+    Ampe kế là dụng cụ dùng để đo cường độ dòng điện. Thước kẻ đo độ dài, cân đo khối lượng; “đồng hồ” nói chung không xác định đại lượng cần đo.
 #### Bài 26
 
 <!-- source-id: BT-Chuong-IV-p4-q4-4 -->
@@ -414,12 +431,10 @@ D. khả năng tỏa nhiệt của dòng điện.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
+
     **Hướng dẫn giải:**
 
-    Dùng $I=\Delta q/\Delta t$ và $N=\Delta q/e$; với dòng điện trong kim loại có thể dùng $I=neSv$.
-
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. độ mạnh yếu của dòng điện.**
+    Từ $I=\Delta q/\Delta t$, cường độ dòng điện cho biết mức điện lượng đi qua một tiết diện trong một đơn vị thời gian, tức đặc trưng cho độ mạnh yếu của dòng điện.
 #### Bài 27
 
 <!-- source-id: BT-Chuong-IV-p4-q5-5 -->
@@ -436,12 +451,10 @@ D. có thể đo bằng lực kế.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** B
+
     **Hướng dẫn giải:**
 
-    Dùng $I=\Delta q/\Delta t$ và $N=\Delta q/e$; với dòng điện trong kim loại có thể dùng $I=neSv$.
-
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **B. vô hướng.**
+    Cường độ dòng điện là đại lượng vô hướng. Đơn vị SI là ampe và dụng cụ đo trực tiếp là ampe kế.
 #### Bài 28
 
 <!-- source-id: BT-Chuong-IV-p4-q6-6 -->
@@ -460,6 +473,7 @@ D. một Coulomb – một giây.
     **Đáp án:** D
 
     **Hướng dẫn giải:**
+
     $1\,\mathrm A=1\,\mathrm C/\mathrm s$.
 
     Vậy chọn **D**.
@@ -481,6 +495,7 @@ D. Các phân tử Nitrogen.
     **Đáp án:** D
 
     **Hướng dẫn giải:**
+
     Phân tử Nitrogen trung hòa điện nên dòng chuyển dời có hướng của chúng không tạo thành dòng điện.
 
     Vậy chọn **D**.
@@ -501,12 +516,10 @@ D. Dòng điện không đổi là dòng điện chỉ có chiều không thay �
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
+
     **Hướng dẫn giải:**
 
-    Dùng $I=\Delta q/\Delta t$ và $N=\Delta q/e$; với dòng điện trong kim loại có thể dùng $I=neSv$.
-
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **D. Dòng điện không đổi là dòng điện chỉ có chiều không thay đổi theo thời gian.**
+    Dòng điện không đổi phải có **cả chiều và cường độ không đổi theo thời gian**. Phương án D chỉ nêu điều kiện về chiều nên phát biểu không đầy đủ và là phát biểu sai cần chọn.
 #### Bài 31
 
 <!-- source-id: BT-Chuong-IV-p4-q9-9 -->
@@ -524,12 +537,10 @@ D. Hai dòng ion âm, ngược chiều.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
+
     **Hướng dẫn giải:**
 
-    Dùng $I=\Delta q/\Delta t$ và $N=\Delta q/e$; với dòng điện trong kim loại có thể dùng $I=neSv$.
-
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. Hai dòng ion khác dấu, ngược chiều.**
+    Dòng điện quy ước do ion dương chuyển động cùng chiều chuyển động của ion dương, còn do ion âm thì ngược chiều chuyển động của ion âm. Hai dòng ion trái dấu chuyển động ngược chiều vì thế tạo hai dòng điện quy ước **cùng chiều**, nên cường độ tổng khác không.
 #### Bài 32
 
 <!-- source-id: BT-Chuong-IV-p4-q10-10 -->
@@ -548,6 +559,7 @@ D. chiều và cường độ không thay đổi theo thời gian.
     **Đáp án:** D
 
     **Hướng dẫn giải:**
+
     Dòng điện không đổi có cả chiều và cường độ không thay đổi theo thời gian.
 
     Vậy chọn **D**.
@@ -570,12 +582,10 @@ D. II và III.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
+
     **Hướng dẫn giải:**
 
-    Dùng $I=\Delta q/\Delta t$ và $N=\Delta q/e$; với dòng điện trong kim loại có thể dùng $I=neSv$.
-
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. I và II.**
+    Với dòng điện không đổi, $I=neSv$. Mật độ hạt tải $n$ và đặc tính hạt tải/vật liệu ảnh hưởng đến dòng điện; thời gian dòng điện tồn tại không phải là một thông số trong biểu thức cường độ tức thời của trạng thái đã cho. Chọn I và II.
 #### Bài 34
 
 <!-- source-id: BT-Chuong-IV-p5-q13-13 -->
@@ -592,12 +602,10 @@ D. phải có các hạt mang điện chuyển động có hướng.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
+
     **Hướng dẫn giải:**
 
-    Dùng $I=\Delta q/\Delta t$ và $N=\Delta q/e$; với dòng điện trong kim loại có thể dùng $I=neSv$.
-
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **D. phải có các hạt mang điện chuyển động có hướng.**
+    Dòng điện là chuyển động có hướng của điện tích. Vì vậy điều kiện trực tiếp phải có các hạt mang điện và chúng phải có chuyển động có hướng; chỉ có vật dẫn hay chuyển động nhiệt hỗn loạn chưa đủ.
 #### Bài 35
 
 <!-- source-id: BT-Chuong-IV-p5-q14-14 -->
@@ -614,12 +622,10 @@ D. dòng chuyển dời của ion dương.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** B
+
     **Hướng dẫn giải:**
 
-    Dùng $I=\Delta q/\Delta t$ và $N=\Delta q/e$; với dòng điện trong kim loại có thể dùng $I=neSv$.
-
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **B. dòng chuyển dời có hướng của các điện tích.**
+    Định nghĩa dòng điện là dòng chuyển dời có hướng của các điện tích. Electron hay ion chỉ là các trường hợp hạt tải điện cụ thể.
 #### Bài 36
 
 <!-- source-id: BT-Chuong-IV-p5-q15-15 -->
@@ -636,12 +642,10 @@ D. các nguyên tử.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** B
+
     **Hướng dẫn giải:**
 
-    Dùng $I=\Delta q/\Delta t$ và $N=\Delta q/e$; với dòng điện trong kim loại có thể dùng $I=neSv$.
-
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **B. các electron.**
+    Trong kim loại, các ion dương nằm tại nút mạng; hạt tải điện chuyển động có hướng là các electron tự do. Vì vậy chọn B.
 #### Bài 37
 
 <!-- source-id: BT-Chuong-IV-p8-q38-38 -->
@@ -660,6 +664,7 @@ D. $1{,}2\,\mathrm{mm/s}$.
     **Đáp án:** B
 
     **Hướng dẫn giải:**
+
     $v=I/(Sne)$ với $S=\pi d^2/4$, suy ra $v\approx0{,}042\,\mathrm{mm/s}$.
 
     Vậy chọn **B**.
@@ -678,7 +683,7 @@ C. $0{,}38\,\mu\mathrm{m/s}$.
 D. $0{,}48\,\mu\mathrm{m/s}$.
 
 ??? success "Đáp án và lời giải"
-    **Kết luận:** Không có phương án nào đúng. Theo dữ kiện đề, $v\approx161\,\mu\mathrm{m/s}$.
+    **Đáp án:** Không có phương án nào đúng. Theo dữ kiện đề, $v\approx161\,\mu\mathrm{m/s}$.
 
     **Hướng dẫn giải:**
 
@@ -692,10 +697,10 @@ D. $0{,}48\,\mu\mathrm{m/s}$.
 
     Dùng $I=nevS$:
 
-    $v=\dfrac{I}{neS}\approx1{,}61\cdot10^{-4}$ m/s $\approx161\,\mu\mathrm{m/s}$.
+    $v=\dfrac{I}{neS}\approx1{,}61\cdot10^{-4}\,\mathrm{m/s}$ $\approx161\,\mu\mathrm{m/s}$.
 
-!!! warning "Đối chiếu nguồn"
-    PDF tô C ($0{,}38\,\mu\mathrm{m/s}$) và lời giải dùng tiết diện của một thanh đặc thay vì tiết diện vành khăn của ống; kết quả đó còn không khớp phép thay số. Với đúng hai đường kính đã in, kết quả là khoảng $161\,\mu\mathrm{m/s}$, ngoài bốn phương án. Nhãn lựa chọn cuối của PDF bị lặp thành A; repository giữ chuẩn cấu trúc là D.
+    !!! warning "Đối chiếu nguồn"
+        PDF tô C ($0{,}38\,\mu\mathrm{m/s}$) và lời giải dùng tiết diện của một thanh đặc thay vì tiết diện vành khăn của ống; kết quả đó còn không khớp phép thay số. Với đúng hai đường kính đã in, kết quả là khoảng $161\,\mu\mathrm{m/s}$, ngoài bốn phương án. Nhãn lựa chọn cuối của PDF bị lặp thành A; phương án cuối được ký hiệu D để giữ đủ bốn lựa chọn.
 
 #### Bài 39
 
@@ -715,6 +720,7 @@ D. Tăng $2{,}5\times10^{19}$ hạt mỗi giây.
     **Đáp án:** C
 
     **Hướng dẫn giải:**
+
     Dòng điện đi vào vật bằng dòng điện đi ra khỏi vật nên vật không có sự tích trữ điện tích. Số electron của vật không đổi theo thời gian.
 #### Bài 40
 
@@ -732,12 +738,10 @@ D. điện tích dương.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
+
     **Hướng dẫn giải:**
 
-    Dùng $I=\Delta q/\Delta t$ và $N=\Delta q/e$; với dòng điện trong kim loại có thể dùng $I=neSv$.
-
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **D. điện tích dương.**
+    Chiều dòng điện quy ước là chiều chuyển động có hướng của điện tích dương; với hạt tải âm thì chiều chuyển động của hạt ngược chiều dòng điện.
 #### Bài 41
 
 <!-- source-id: BT-Chuong-IV-p14-q2-54 -->
@@ -754,12 +758,10 @@ D. watt (W).
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
+
     **Hướng dẫn giải:**
 
-    Dùng $I=\Delta q/\Delta t$ và $N=\Delta q/e$; với dòng điện trong kim loại có thể dùng $I=neSv$.
-
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. ampe (A).**
+    Đơn vị SI của cường độ dòng điện là ampe, ký hiệu A.
 #### Bài 42
 
 <!-- source-id: BT-Chuong-IV-p14-q3-55 -->
@@ -777,12 +779,10 @@ D. dòng proton chuyển từ P qua N.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
+
     **Hướng dẫn giải:**
 
-    Dùng $I=\Delta q/\Delta t$ và $N=\Delta q/e$; với dòng điện trong kim loại có thể dùng $I=neSv$.
-
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. dòng electron chuyển từ N qua P.**
+    Quả cầu N tích điện âm có thừa electron, còn P tích điện dương thiếu electron. Khi nối bằng dây đồng, electron dịch chuyển từ N sang P, nên chọn A.
 #### Bài 43
 
 <!-- source-id: BT-Chuong-IV-p14-q4-56 -->
@@ -800,12 +800,10 @@ D. ngược chiều và cùng cường độ.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
+
     **Hướng dẫn giải:**
 
-    Dùng $I=\Delta q/\Delta t$ và $N=\Delta q/e$; với dòng điện trong kim loại có thể dùng $I=neSv$.
-
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **D. ngược chiều và cùng cường độ.**
+    Proton bay từ Tây sang Đông tạo dòng điện quy ước theo hướng Tây $\to$ Đông. Electron bay cùng hướng nhưng mang điện âm nên tạo dòng điện quy ước Đông $\to$ Tây. Vì $|q_p|=|q_e|$ và hai hạt có cùng tốc độ, hai cường độ bằng nhau về độ lớn.
 #### Bài 44
 
 <!-- source-id: BT-Chuong-IV-p14-q5-57 -->
@@ -822,12 +820,10 @@ D. có hướng của các ion dương và âm.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** B
+
     **Hướng dẫn giải:**
 
-    Dùng $I=\Delta q/\Delta t$ và $N=\Delta q/e$; với dòng điện trong kim loại có thể dùng $I=neSv$.
-
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **B. có hướng của các điện tích tự do.**
+    Trong kim loại, dòng điện là chuyển động có hướng của các điện tích tự do, cụ thể là electron tự do. Phương án B diễn đạt đúng nhất trong các lựa chọn.
 #### Bài 45
 
 <!-- source-id: BT-Chuong-IV-p14-q6-58 -->
@@ -844,12 +840,10 @@ D. cường độ của điện trường ngoài
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** B
+
     **Hướng dẫn giải:**
 
-    Dùng $I=\Delta q/\Delta t$ và $N=\Delta q/e$; với dòng điện trong kim loại có thể dùng $I=neSv$.
-
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **B. chiều của điện trường ngoài.**
+    Chiều dòng điện quy ước trùng chiều điện trường ngoài. Dấu hạt tải quyết định chiều chuyển động thực của hạt, nhưng không làm đổi quy ước chiều dòng điện đối với một điện trường đã cho.
 #### Bài 46
 
 <!-- source-id: BT-Chuong-IV-p14-q7-59 -->
@@ -866,12 +860,10 @@ D. proton.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
+
     **Hướng dẫn giải:**
 
-    Dùng $I=\Delta q/\Delta t$ và $N=\Delta q/e$; với dòng điện trong kim loại có thể dùng $I=neSv$.
-
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. electron tự do.**
+    Hạt tải điện có khả năng chuyển động trong kim loại là electron tự do; các ion dương của mạng tinh thể chỉ dao động quanh vị trí cân bằng.
 #### Bài 47
 
 <!-- source-id: BT-Chuong-IV-p14-q8-60 -->
@@ -888,12 +880,10 @@ D. chiều và cường độ không thay đổi theo thời gian.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
+
     **Hướng dẫn giải:**
 
-    Dùng $I=\Delta q/\Delta t$ và $N=\Delta q/e$; với dòng điện trong kim loại có thể dùng $I=neSv$.
-
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **D. chiều và cường độ không thay đổi theo thời gian.**
+    Dòng điện không đổi là dòng điện có **chiều và cường độ** không thay đổi theo thời gian. Vì vậy D đầy đủ.
 #### Bài 48
 
 <!-- source-id: BT-Chuong-IV-p14-q9-61 -->
@@ -912,6 +902,7 @@ D. $I=2\dfrac{\Delta q}{\Delta t}$.
     **Đáp án:** B
 
     **Hướng dẫn giải:**
+
     Theo định nghĩa cường độ dòng điện không đổi, $I=\Delta q/\Delta t$.
 
     Vậy chọn **B**.
@@ -931,12 +922,10 @@ D. chỉ cần có các vật dẫn nối liền với nhau thành mạch điệ
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** B
+
     **Hướng dẫn giải:**
 
-    Dùng $I=\Delta q/\Delta t$ và $N=\Delta q/e$; với dòng điện trong kim loại có thể dùng $I=neSv$.
-
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **B. chỉ cần duy trì một hiệu điện thế giữa hai đầu vật dẫn.**
+    Trong một vật dẫn đã có hạt tải tự do, duy trì hiệu điện thế giữa hai đầu vật dẫn tạo điện trường làm các hạt tải chuyển động có hướng. Trong các lựa chọn, B là điều kiện phù hợp nhất với ngữ cảnh nguồn.
 #### Bài 50
 
 <!-- source-id: BT-Chuong-IV-p15-q12-64 -->
@@ -953,12 +942,10 @@ D. tác dụng cơ học.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
+
     **Hướng dẫn giải:**
 
-    Dùng $I=\Delta q/\Delta t$ và $N=\Delta q/e$; với dòng điện trong kim loại có thể dùng $I=neSv$.
-
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. tác dụng từ.**
+    Tác dụng từ là tác dụng đặc trưng của dòng điện vì xuất hiện đối với dòng điện trong mọi môi trường; các tác dụng nhiệt hay hóa học phụ thuộc điều kiện và môi trường.
 #### Bài 51
 
 <!-- source-id: BT-Chuong-IV-p15-q13-65 -->
@@ -975,12 +962,10 @@ D. các ion Na+ và ion Cl-.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
+
     **Hướng dẫn giải:**
 
-    Dùng $I=\Delta q/\Delta t$ và $N=\Delta q/e$; với dòng điện trong kim loại có thể dùng $I=neSv$.
-
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **D. các ion Na+ và ion Cl-.**
+    Nước muối phân li thành các ion; cả $\mathrm{Na^+}$ và $\mathrm{Cl^-}$ đều là hạt tải điện và chuyển động có hướng trong điện trường.
 #### Bài 52
 
 <!-- source-id: BT-Chuong-IV-p15-q14-66 -->
@@ -999,12 +984,10 @@ D. Giảm dần rồi tăng dần khi tiết diện dây tăng dần.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** B
+
     **Hướng dẫn giải:**
 
-    Dùng $I=\Delta q/\Delta t$ và $N=\Delta q/e$; với dòng điện trong kim loại có thể dùng $I=neSv$.
-
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **B. Tăng dần khi tiết diện dây nhỏ dần.**
+    Dòng điện không đổi qua cùng vật liệu thỏa $I=neSv$. Với $I,n,e$ không đổi, $v\propto1/S$; tiết diện càng nhỏ thì tốc độ trôi càng lớn.
 #### Bài 53
 
 <!-- source-id: BT-Chuong-IV-p15-q15-67 -->
@@ -1023,6 +1006,7 @@ D. $I=Snve$.
     **Đáp án:** D
 
     **Hướng dẫn giải:**
+
     Với dòng điện trong kim loại, $I=Snve$.
 
     Vậy chọn **D**.
@@ -1043,12 +1027,10 @@ D. có thể nhỏ hơn hoặc lớn hơn.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** B
+
     **Hướng dẫn giải:**
 
-    Dùng $I=\Delta q/\Delta t$ và $N=\Delta q/e$; với dòng điện trong kim loại có thể dùng $I=neSv$.
-
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **B. lớn hơn.**
+    Hai đoạn đồng chất mang cùng dòng điện nên $I=neSv$. Do $n$ như nhau và đoạn mảnh có $S$ nhỏ hơn, tốc độ trôi $v$ ở đoạn mảnh lớn hơn.
 #### Bài 55
 
 <!-- source-id: BT-Chuong-IV-p15-q17-69 -->
@@ -1067,6 +1049,7 @@ D. $7{,}5\times10^{18}$.
     **Đáp án:** D
 
     **Hướng dẫn giải:**
+
     $N=\Delta q/e=1{,}2/(1{,}6\times10^{-19})=7{,}5\times10^{18}$.
 
     Vậy chọn **D**.
@@ -1088,6 +1071,7 @@ D. $4{,}4\times10^{17}$.
     **Đáp án:** B
 
     **Hướng dẫn giải:**
+
     Trong $1\,\mathrm s$, điện lượng qua tiết diện là $\Delta q=1{,}6/4=0{,}4\,\mathrm C$.
 
     $N=\Delta q/e=0{,}4/(1{,}6\times10^{-19})=2{,}5\times10^{18}$.
@@ -1110,11 +1094,17 @@ c) Muốn có dòng điện, bắt buộc phải có các electron chuyển đ�
 d) Nước tinh khiết là một chất có mật độ hạt tải điện rất cao.
 
 ??? success "Đáp án và lời giải"
+    **Đáp án:** a) Đúng; b) Sai; c) Sai; d) Sai
+
     **Hướng dẫn giải:**
-    a. Kim loại là vật dẫn điện.
-    b. Các hạt mang điện có thể chuyển động trong chân không, tạo nên một dòng điện.
-    c. Dòng điện có thể là dòng chuyển động có hướng của các ion, không nhất thiết là electron.
-    d. Nước tinh khiết là một chất cách điện, trong nước tinh khiết không có các ion để tải điện.
+
+    a) **Đúng.** Kim loại có electron tự do nên có thể tồn tại dòng điện khi có điện trường thích hợp.
+
+    b) **Sai.** Chân không không có hạt tải sẵn như trong vật dẫn, nhưng chùm electron hoặc ion được phát vào chân không vẫn tạo được dòng điện.
+
+    c) **Sai.** Dòng điện có thể do ion dương, ion âm hoặc các hạt mang điện khác chuyển động có hướng; không bắt buộc phải là electron.
+
+    d) **Sai.** Nước tinh khiết có nồng độ ion rất nhỏ nên dẫn điện rất kém, không có mật độ hạt tải điện “rất cao”.
 #### Bài 58
 
 <!-- source-id: BT-Chuong-IV-p9-q2-42 -->
@@ -1130,11 +1120,17 @@ c) Khi tăng tiết diện của dây, cường độ dòng điện tăng vì c�
 d) Mật độ của hạt tải điện không phụ thuộc vào đặc điểm hình học của dây dẫn (chiều dài, tiết diện, hình dạng,…).
 
 ??? success "Đáp án và lời giải"
+    **Đáp án:** a) Đúng; b) Đúng; c) Sai; d) Đúng
+
     **Hướng dẫn giải:**
-    a. Cùng một hiệu điện thế, trên một chiều dài lớn hơn, số volt/mét giảm, tức là cường độ điện trường giảm.
-    b. Nếu giảm chiều dài dây, cường độ điện trường tăng nên vận tốc trôi tăng.
-    c. Dòng điện tăng là do số lượng hạt tải điện qua tiết diện tăng, không phải do vận tốc trôi tăng vì dây rộng hơn.
-    d. Mật độ hạt tải điện chỉ phụ thuộc vào vật liệu làm dây dẫn.
+
+    a) **Đúng.** Với dây đồng chất đặt dưới hiệu điện thế không đổi, $E\approx U/l$; tăng $l$ làm $E$ giảm.
+
+    b) **Đúng.** Giảm $l$ làm $E$ tăng; trong mô hình dẫn điện ohmic, tốc độ trôi tỉ lệ với điện trường nên tăng.
+
+    c) **Sai.** Tăng tiết diện làm số hạt có thể qua một tiết diện trong mỗi giây tăng. Nó không làm tốc độ trôi tăng chỉ vì “không gian rộng hơn”.
+
+    d) **Đúng.** Mật độ hạt tải $n$ là đặc trưng vi mô của vật liệu ở trạng thái xét, không do chiều dài hay tiết diện hình học quyết định.
 #### Bài 59
 
 <!-- source-id: BT-Chuong-IV-p10-q3-43 -->
@@ -1152,13 +1148,17 @@ c) Mật độ electron dẫn ở đoạn bị hẹp thấp hơn so với trong 
 d) Vận tốc trôi của electron trong đoạn bị hẹp lớn hơn so với trong dây chính.
 
 ??? success "Đáp án và lời giải"
-    **Hướng dẫn giải:**
-    a. Đúng
-    b. Phần dây có tiết diện hẹp không bị tích điện, suy ra điện lượng đi vào bằng với điện lượng đi ra trên một đơn
-    vị thời gian, nghĩa là dòng điện là đồng nhất trên cả dây.
-    c. Mật độ electron dẫn phụ thuộc vào bản chất của vật liệu, không phụ thuộc vào đặc điểm hình học.
-    d. Do dòng điện là đồng nhất, nơi có tiết diện nhỏ phải có vận tốc trôi lớn.
+    **Đáp án:** a) Đúng; b) Đúng; c) Sai; d) Đúng
 
+    **Hướng dẫn giải:**
+
+    a) **Đúng.** Đoạn có đường kính nhỏ hơn có tiết diện $S=\pi d^2/4$ nhỏ hơn.
+
+    b) **Đúng.** Không có tích điện theo thời gian nên điện lượng qua các tiết diện trong cùng thời gian bằng nhau; cường độ dòng điện dọc dây bằng nhau.
+
+    c) **Sai.** Hai đoạn là cùng vật liệu nên mật độ electron dẫn $n$ không giảm chỉ vì tiết diện nhỏ hơn.
+
+    d) **Đúng.** Từ $I=neSv$, với $I,n,e$ không đổi và $S$ nhỏ hơn thì $v$ lớn hơn.
 #### Bài 60
 
 <!-- source-id: BT-Chuong-IV-p10-q4-44 -->
@@ -1176,24 +1176,24 @@ c) Cường độ dòng điện qua thanh thép là khoảng $86{,}55\,\mathrm A
 d) Mật độ dòng điện của thanh thép không đổi nếu ta tăng bề dày của thanh thêm $1\,\mathrm{mm}$, còn hiệu điện thế và chiều dài thanh không đổi.
 
 ??? success "Đáp án và lời giải"
-    **Đáp án sau kiểm tra:** a) Đúng; b) Sai; c) Sai; d) Đúng.
+    **Đáp án:** a) Đúng; b) Sai; c) Sai; d) Đúng.
 
     **Hướng dẫn giải:**
 
     a) **Đúng.** Trong kim loại, hạt tải điện là electron tự do.
 
-    b) **Sai.** Chu vi trong là 8 cm nên cạnh trong $a=8/4=2$ cm. Bề dày $t=1$ mm $=0{,}1$ cm, do đó cạnh ngoài $a+2t=2{,}2$ cm. Tiết diện phần thép là $S=2{,}2^2-2^2=0{,}84\,\mathrm{cm^2}$.
+    b) **Sai.** Chu vi trong là $8\,\mathrm{cm}$ nên cạnh trong $a=8/4=2\,\mathrm{cm}$. Bề dày $t=1\,\mathrm{mm}$ $=0{,}1\,\mathrm{cm}$, do đó cạnh ngoài $a+2t=2{,}2\,\mathrm{cm}$. Tiết diện phần thép là $S=2{,}2^2-2^2=0{,}84\,\mathrm{cm^2}$.
 
     c) **Sai.** Đổi $S=8{,}4\cdot10^{-5}\,\mathrm{m^2}$ và $v=0{,}4\cdot10^{-3}\,\mathrm{m/s}$. Khi đó
 
-    $I=neSv=8{,}4\cdot10^{28}\cdot1{,}6\cdot10^{-19}\cdot8{,}4\cdot10^{-5}\cdot0{,}4\cdot10^{-3}\approx451{,}6$ A,
+    $I=neSv=8{,}4\cdot10^{28}\cdot1{,}6\cdot10^{-19}\cdot8{,}4\cdot10^{-5}\cdot0{,}4\cdot10^{-3}\approx451{,}6\,\mathrm A$,
 
-    không phải $86{,}55$ A.
+    không phải $86{,}55\,\mathrm A$.
 
     d) **Đúng.** Với cùng vật liệu, cùng chiều dài và hiệu điện thế, điện trường trong thanh không đổi nên mật độ dòng điện $j=\sigma E$ không phụ thuộc tiết diện. Tăng bề dày làm tăng $I$ và $S$ cùng tỉ lệ nhưng không đổi $j=I/S$.
 
-!!! warning "Đối chiếu nguồn"
-    PDF nhầm “chu vi trong 8 cm” thành cạnh trong 8 cm khi tính hình học, đồng thời dòng thay số cường độ dùng mật độ hạt tải thấp hơn dữ kiện đề một bậc. Vì vậy đáp án nguồn cho c) là Đúng không phù hợp với dữ kiện đã in; bản learner-facing tính lại trực tiếp từ hình học và $I=neSv$.
+    !!! warning "Đối chiếu nguồn"
+        PDF nhầm “chu vi trong $8\,\mathrm{cm}$” thành cạnh trong $8\,\mathrm{cm}$ khi tính hình học, đồng thời dòng thay số cường độ dùng mật độ hạt tải thấp hơn dữ kiện đề một bậc. Vì vậy đáp án nguồn cho c) là Đúng không phù hợp với dữ kiện đã in; bản trình bày này tính lại trực tiếp từ hình học và $I=neSv$.
 
 #### Bài 61
 
@@ -1212,11 +1212,17 @@ c) Trong bốn phút, điện lượng truyền qua tiết diện của dây là
 d) Số electron đã truyền qua trong 4 phút trên là $7{,}5\times10^{21}$ hạt.
 
 ??? success "Đáp án và lời giải"
+    **Đáp án:** a) Đúng; b) Đúng; c) Sai; d) Đúng
+
     **Hướng dẫn giải:**
-    a. Số chỉ ampe kế là cường độ dòng điện qua dây.
-    b. $q=It=5\cdot1=5\,\mathrm C$.
-    c. $q=It=5\cdot4\cdot60=1200\,\mathrm C$, nên phát biểu sai.
-    d. $N=q/e=1200/(1{,}6\times10^{-19})=7{,}5\times10^{21}$, nên phát biểu đúng.
+
+    a) **Đúng.** Số chỉ ampe kế mắc nối tiếp là cường độ dòng điện qua dây: $I=5\,\mathrm A$.
+
+    b) **Đúng.** Trong $1\,\mathrm s$, $q=It=5\cdot1=5\,\mathrm C$.
+
+    c) **Sai.** Bốn phút là $240\,\mathrm s$, nên $q=5\cdot240=1200\,\mathrm C$, không phải $120\,\mathrm C$.
+
+    d) **Đúng.** $N=q/e=1200/(1{,}6\times10^{-19})=7{,}5\times10^{21}$ electron.
 #### Bài 62
 
 <!-- source-id: BT-Chuong-IV-p11-q6-46 -->
@@ -1234,11 +1240,17 @@ c) Tổng số đo của ampe kế số 1 và ampe kế số 2 bằng số đo c
 d) Số đo của ampe kế số 3 bằng số đo của ampe kế số 4.
 
 ??? success "Đáp án và lời giải"
+    **Đáp án:** a) Đúng; b) Đúng; c) Đúng; d) Đúng
+
     **Hướng dẫn giải:**
-    a. Dòng chuyển dời của các điện tích âm ngược chiều quy ước của dòng điện.
-    b. Vì không có phần tử nào bị tích điện nên điện lượng mỗi giây đi vào nút A bằng tổng điện lượng mỗi giây đi ra khỏi nút A.
-    c. $I_3=I_1+I_2$.
-    d. Tương tự, $I_4=I_1+I_2=I_3$.
+
+    a) **Đúng.** Dòng điện quy ước chạy từ trái sang phải nên electron trong kim loại dịch chuyển có hướng từ phải sang trái.
+
+    b) **Đúng.** Nút A không tích điện theo thời gian nên điện lượng vào nút trong mỗi giây bằng tổng điện lượng đi ra hai nhánh.
+
+    c) **Đúng.** Định luật nút cho $I_3=I_1+I_2$.
+
+    d) **Đúng.** Tại nút B cũng không tích điện, nên $I_4=I_1+I_2=I_3$.
 #### Bài 63
 
 <!-- source-id: BT-Chuong-IV-p16-q1-71 -->
@@ -1254,11 +1266,17 @@ c) Dòng điện này là dòng dịch chuyển có hướng của tất cả c�
 d) Chiều của dòng điện này là chiều chuyển động của các hạt mang điện dịch chuyển có hướng.
 
 ??? success "Đáp án và lời giải"
+    **Đáp án:** a) Đúng; b) Sai; c) Sai; d) Sai
+
     **Hướng dẫn giải:**
-    a. Dòng điện không đổi có chiều và cường độ không đổi.
-    b. Dòng điện không đổi có chiều không đổi theo thời gian.
-    c. Dòng điện trong kim loại là dòng dịch chuyển có hướng của các electron tự do.
-    d. Chiều dòng điện quy ước là chiều dịch chuyển có hướng của điện tích dương; trong kim loại nó ngược chiều dịch chuyển có hướng của electron.
+
+    a) **Đúng.** Dòng điện không đổi có cường độ không đổi theo thời gian.
+
+    b) **Sai.** Dòng điện không đổi còn có chiều không đổi theo thời gian.
+
+    c) **Sai.** Chỉ các electron **tự do** tham gia chuyển động trôi tạo dòng điện; không phải tất cả electron trong nguyên tử kim loại.
+
+    d) **Sai.** Chiều dòng điện là chiều chuyển động quy ước của điện tích dương. Trong kim loại, electron chuyển động ngược chiều dòng điện.
 #### Bài 64
 
 <!-- source-id: BT-Chuong-IV-p16-q2-72 -->
@@ -1274,11 +1292,17 @@ c) Điện lượng chuyển qua tiết diện thẳng của dây dẫn trong th
 d) Số electron tự do dịch chuyển qua tiết diện thẳng của dây trong thời gian $240\,\mathrm s$ là $3{,}75\times10^{21}$.
 
 ??? success "Đáp án và lời giải"
+    **Đáp án:** a) Sai; b) Sai; c) Đúng; d) Đúng
+
     **Hướng dẫn giải:**
-    a. Dòng điện trong kim loại là dòng dịch chuyển có hướng của các electron tự do.
-    b. Điện tích của electron là $-1{,}6\times10^{-19}\,\mathrm C$.
-    c. $\Delta q=I\Delta t=2{,}50\cdot120=300\,\mathrm C$.
-    d. $N=I\Delta t/e=2{,}50\cdot240/(1{,}6\times10^{-19})=3{,}75\times10^{21}$.
+
+    a) **Sai.** Hạt tải điện trong kim loại là electron tự do, không phải proton.
+
+    b) **Sai.** Điện tích của electron là $q_e=-1{,}6\times10^{-19}\,\mathrm C$; $1{,}6\times10^{-19}\,\mathrm C$ chỉ là độ lớn điện tích nguyên tố.
+
+    c) **Đúng.** $q=It=2{,}50\cdot120=300\,\mathrm C$.
+
+    d) **Đúng.** Trong $240\,\mathrm s$, $q=2{,}50\cdot240=600\,\mathrm C$, nên $N=q/e=3{,}75\times10^{21}$ electron.
 #### Bài 65
 
 <!-- source-id: BT-Chuong-IV-p16-q3-73 -->
@@ -1294,11 +1318,17 @@ c) Tốc độ chuyển động có hướng của electron giảm dần.
 d) Mật độ của dòng điện này không thay đổi dọc theo đoạn dây MN. Biết mật độ dòng điện là cường độ dòng điện trên một đơn vị diện tích tiết diện thẳng của dây dẫn.
 
 ??? success "Đáp án và lời giải"
+    **Đáp án:** a) Sai; b) Đúng; c) Sai; d) Sai
+
     **Hướng dẫn giải:**
-    a. Electron dịch chuyển có hướng từ N đến M, ngược chiều dòng điện.
-    b. Với dòng điện không đổi, $\Delta q=I\Delta t$ nên trong cùng thời gian điện lượng qua mọi tiết diện là như nhau.
-    c. Từ $I=Snve$ suy ra $v=I/(Sne)$; electron đi từ N đến M theo hướng tiết diện giảm nên tốc độ trôi tăng dần.
-    d. $j=I/S$ nên khi $S$ thay đổi thì mật độ dòng điện thay đổi.
+
+    a) **Sai.** Electron chuyển động có hướng ngược chiều dòng điện, tức từ N về M.
+
+    b) **Đúng.** Với dòng điện không đổi, trong cùng khoảng thời gian $\Delta q=I\Delta t$ như nhau qua mọi tiết diện.
+
+    c) **Sai.** Electron đi từ N về M, tức đi về phía tiết diện nhỏ dần; từ $I=neSv$ suy ra độ lớn tốc độ trôi tăng dần.
+
+    d) **Sai.** $j=I/S$; $I$ không đổi nhưng $S$ tăng từ M đến N nên mật độ dòng điện giảm theo chiều M $\to$ N.
 #### Bài 66
 
 <!-- source-id: BT-Chuong-IV-p17-q4-74 -->
@@ -1314,11 +1344,17 @@ c) Điện lượng chuyển qua tiết diện thẳng của dây dẫn trong th
 d) Mật độ dòng điện chạy qua dây dẫn này là $4{,}2\times10^5\,\mathrm{A/m^2}$.
 
 ??? success "Đáp án và lời giải"
+    **Đáp án:** a) Sai; b) Sai; c) Đúng; d) Đúng
+
     **Hướng dẫn giải:**
-    a. Dòng điện trong kim loại là dòng dịch chuyển có hướng của electron tự do.
-    b. Electron dịch chuyển ngược chiều dòng điện, tức từ H đến G.
-    c. $\Delta q=I\Delta t=0{,}25\cdot150=37{,}5\,\mathrm C$.
-    d. $S=6{,}0\times10^{-7}\,\mathrm{m^2}$ nên $j=I/S\approx4{,}2\times10^5\,\mathrm{A/m^2}$.
+
+    a) **Sai.** Trong kim loại, dòng điện do electron tự do chuyển động có hướng tạo nên; neutron không mang điện.
+
+    b) **Sai.** Dòng điện quy ước từ G đến H nên electron dịch chuyển có hướng từ H đến G.
+
+    c) **Đúng.** $q=It=0{,}25\cdot150=37{,}5\,\mathrm C$.
+
+    d) **Đúng.** $S=6{,}0\times10^{-3}\,\mathrm{cm^2}=6{,}0\times10^{-7}\,\mathrm{m^2}$, nên $j=I/S\approx4{,}17\times10^5\,\mathrm{A/m^2}\approx4{,}2\times10^5\,\mathrm{A/m^2}$.
 ### Thông hiểu — Trắc nghiệm 4 lựa chọn
 
 #### Bài 67
@@ -1337,12 +1373,10 @@ D. Trong mạch điện kín thắp sáng đèn với nguồn điện là pin M�
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
+
     **Hướng dẫn giải:**
 
-    Dùng $I=\Delta q/\Delta t$ và $N=\Delta q/e$; với dòng điện trong kim loại có thể dùng $I=neSv$.
-
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. Trong mạch điện thắp sáng đèn của xe đạp với nguồn điện là dynamo.**
+    Dynamo xe đạp phát điện áp biến thiên theo chuyển động quay nên dòng qua đèn không phải dòng điện không đổi. Pin, ắc-quy và pin Mặt Trời trong mô hình bài học có thể cấp dòng một chiều ổn định cho mạch tải.
 #### Bài 68
 
 <!-- source-id: BT-Chuong-IV-p5-q17-17 -->
@@ -1359,12 +1393,10 @@ D. có nguồn điện.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
+
     **Hướng dẫn giải:**
 
-    Dùng $I=\Delta q/\Delta t$ và $N=\Delta q/e$; với dòng điện trong kim loại có thể dùng $I=neSv$.
-
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **C. có điện trường và điện tích tự do.**
+    Để có dòng điện cần có hạt mang điện tự do và tác nhân làm chúng chuyển động có hướng; trong mô hình dẫn điện đó là điện trường. Vì vậy chọn C.
 #### Bài 69
 
 <!-- source-id: BT-Chuong-IV-p5-q18-18 -->
@@ -1381,12 +1413,10 @@ D. neutron.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
+
     **Hướng dẫn giải:**
 
-    Dùng $I=\Delta q/\Delta t$ và $N=\Delta q/e$; với dòng điện trong kim loại có thể dùng $I=neSv$.
-
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **D. neutron.**
+    Neutron trung hòa điện nên không thể trực tiếp là hạt tải điện. Proton, electron và ion đều mang điện.
 #### Bài 70
 
 <!-- source-id: BT-Chuong-IV-p5-q19-19 -->
@@ -1403,12 +1433,10 @@ D. Tác dụng từ.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
+
     **Hướng dẫn giải:**
 
-    Dùng $I=\Delta q/\Delta t$ và $N=\Delta q/e$; với dòng điện trong kim loại có thể dùng $I=neSv$.
-
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **A. Tác dụng cơ.**
+    Theo hệ tác dụng của dòng điện dùng trong nguồn, các tác dụng cơ bản được nêu là nhiệt, hóa học và từ; tác dụng cơ học là hệ quả có thể xuất hiện qua tương tác điện từ chứ không được xếp là tác dụng trực tiếp trong câu này.
 #### Bài 71
 
 <!-- source-id: BT-Chuong-IV-p5-q20-20 -->
@@ -1425,6 +1453,7 @@ D. Hai đoạn dây dẫn giống hệt với dây dẫn A, được cặp song 
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
+
     **Hướng dẫn giải:**
 
     Với dòng điện trong kim loại, $I=neSv$. Ở phương án C, hai đoạn dây giống hệt được nối tiếp nên mật độ hạt tải, tiết diện và vận tốc trôi trong mỗi đoạn không đổi so với dây A; cường độ dòng điện vì thế vẫn bằng của dây A.
@@ -1451,12 +1480,10 @@ D. I, II, III.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
+
     **Hướng dẫn giải:**
 
-    Dùng $I=\Delta q/\Delta t$ và $N=\Delta q/e$; với dòng điện trong kim loại có thể dùng $I=neSv$.
-
-
-    Đối chiếu kết quả với các lựa chọn, phương án phù hợp là **D. I, II, III.**
+    Với hiệu điện thế không đổi, $I=U/R$ và $R=\rho l/S$, do đó $I=US/(\rho l)$. Vì thế chiều dài $l$, tiết diện $S$ và vật liệu (qua $\rho$) đều ảnh hưởng đến cường độ dòng điện.
 #### Bài 73
 
 <!-- source-id: BT-Chuong-IV-p6-q23-23 -->
@@ -1475,6 +1502,7 @@ D. $28{,}125\times10^{21}$.
     **Đáp án:** B
 
     **Hướng dẫn giải:**
+
     Trong $1\,\mathrm s$, $\Delta q=15/30=0{,}5\,\mathrm C$.
 
     $N=\Delta q/e=0{,}5/(1{,}6\times10^{-19})=3{,}125\times10^{18}$.
@@ -1498,6 +1526,7 @@ D. $30\,\mathrm C$.
     **Đáp án:** D
 
     **Hướng dẫn giải:**
+
     $\Delta q=I\Delta t=0{,}5\cdot60=30\,\mathrm C$.
 
     Vậy chọn **D**.
@@ -1519,6 +1548,7 @@ D. $40\,\mathrm C$.
     **Đáp án:** C
 
     **Hướng dẫn giải:**
+
     $\Delta q=Ne\Delta t=1{,}25\times10^{19}\cdot1{,}6\times10^{-19}\cdot15=30\,\mathrm C$.
 
     Vậy chọn **C**.
@@ -1540,6 +1570,7 @@ D. $25\,\mathrm C$.
     **Đáp án:** D
 
     **Hướng dẫn giải:**
+
     $\Delta q'=\Delta q\,\Delta t'/\Delta t=5\cdot50/10=25\,\mathrm C$.
 
     Vậy chọn **D**.
@@ -1561,6 +1592,7 @@ D. $25\,\mathrm C$.
     **Đáp án:** B
 
     **Hướng dẫn giải:**
+
     $\Delta q'=\Delta q\,\Delta t'/\Delta t=2\cdot50/10=10\,\mathrm C$.
 
     Vậy chọn **B**.
@@ -1582,6 +1614,7 @@ D. $48\,\mathrm A$.
     **Đáp án:** C
 
     **Hướng dẫn giải:**
+
     $I=\Delta q/\Delta t=24/(2\cdot60)=0{,}2\,\mathrm A$.
 
     Vậy chọn **C**.
@@ -1603,6 +1636,7 @@ D. $0{,}5\,\mathrm A$.
     **Đáp án:** C
 
     **Hướng dẫn giải:**
+
     $I=Ne/\Delta t=6{,}25\times10^{18}\cdot1{,}6\times10^{-19}/4=0{,}25\,\mathrm A$.
 
     Vậy chọn **C**.
@@ -1624,6 +1658,7 @@ D. $0{,}266\times10^{-14}$.
     **Đáp án:** A
 
     **Hướng dẫn giải:**
+
     $N=I\Delta t/e=30\times10^{-6}/(1{,}6\times10^{-19})=1{,}875\times10^{14}$ electron trong mỗi giây.
 
     Vậy chọn **A**.
@@ -1647,6 +1682,7 @@ D. $6\,\mathrm C$.
     **Đáp án:** D
 
     **Hướng dẫn giải:**
+
     Cùng thời gian nên $\Delta q_2/\Delta q_1=I_2/I_1$.
 
     $\Delta q_2=4\cdot4{,}5/3=6\,\mathrm C$.
@@ -1670,6 +1706,7 @@ D. $10^{-20}$ electron.
     **Đáp án:** C
 
     **Hướng dẫn giải:**
+
     Điện lượng trong $100\,\mathrm s$ là $16\,\mathrm C$, nên $N=16/(1{,}6\times10^{-19})=10^{20}$.
 
     Vậy chọn **C**.
@@ -1691,6 +1728,7 @@ D. $10^{-20}$ electron.
     **Đáp án:** A
 
     **Hướng dẫn giải:**
+
     Trong $1\,\mathrm s$, điện lượng là $0{,}16\,\mathrm C$, nên $N=0{,}16/(1{,}6\times10^{-19})=10^{18}$.
 
     Vậy chọn **A**.
@@ -1712,6 +1750,7 @@ D. $6\times10^{17}$ electron.
     **Đáp án:** D
 
     **Hướng dẫn giải:**
+
     $N=I\Delta t/e=1{,}6\times10^{-3}\cdot60/(1{,}6\times10^{-19})=6\times10^{17}$.
 
     Vậy chọn **D**.
@@ -1733,6 +1772,7 @@ D. $0{,}5\,\mathrm A$.
     **Đáp án:** B
 
     **Hướng dẫn giải:**
+
     $I=Q/t=CU/t=6\times10^{-6}\cdot3/10^{-4}=0{,}18\,\mathrm A=180\,\mathrm{mA}$.
 
     Vậy chọn **B**.
@@ -1754,6 +1794,7 @@ D. $7640\,\mathrm s$.
     **Đáp án:** A
 
     **Hướng dẫn giải:**
+
     Từ $I=Snev$ và $t=l/v$,
     $t=n\pi d^2el/(4I)\approx4670{,}75\,\mathrm s$.
 
@@ -1776,11 +1817,12 @@ D. $0{,}219\,\mathrm A$.
     **Đáp án:** A. $0{,}576\,\mathrm A$.
 
     **Hướng dẫn giải:**
+
     Electron chuyển về cực dương và ion dương chuyển về cực âm nhưng **cả hai đều tạo dòng điện quy ước cùng chiều**, nên cường độ dòng điện là tổng hai phần đóng góp.
 
     Trong $1\,\mathrm s$, số điện tích nguyên tố đi qua tiết diện là $N=(2{,}4+1{,}2)\times10^{18}=3{,}6\times10^{18}$.
 
     Do đó $I=Ne/\Delta t=3{,}6\times10^{18}\cdot1{,}6\times10^{-19}=0{,}576\,\mathrm A$. Vậy chọn **A**.
 
-!!! warning "Đối chiếu nguồn"
-    PDF nguồn chỉ tính dòng do electron và bỏ phần đóng góp của ion dương nên cho $0{,}384\,\mathrm A$. Với dòng điện trong chất khí, hai loại hạt mang điện chuyển động ngược chiều tạo dòng điện quy ước cùng chiều, vì vậy phải cộng hai đóng góp.
+    !!! warning "Đối chiếu nguồn"
+        PDF nguồn chỉ tính dòng do electron và bỏ phần đóng góp của ion dương nên cho $0{,}384\,\mathrm A$. Với dòng điện trong chất khí, hai loại hạt mang điện chuyển động ngược chiều tạo dòng điện quy ước cùng chiều, vì vậy phải cộng hai đóng góp.

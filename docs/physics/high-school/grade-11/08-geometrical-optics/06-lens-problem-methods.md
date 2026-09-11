@@ -69,9 +69,9 @@ $$
 
 ### Ví dụ
 
-Vật và màn cách nhau L=100 cm, ảnh rõ lớn gấp 4 lần vật.
+Vật và màn cách nhau $L=100\,\mathrm{cm}$, ảnh rõ lớn gấp 4 lần vật.
 
-$d'=4d$, nên 5d=100 → d=20 cm, d'=80 cm.
+$d'=4d$, nên 5d=100 → $d=20\,\mathrm{cm}$, d'=$80\,\mathrm{cm}$.
 
 $$
 f=\frac{20\cdot80}{100}=16\,\text{cm}.
@@ -220,7 +220,7 @@ Dạng này thuộc Mức 4–5 vì yêu cầu kiểm soát dấu tốt.
 
 ## 10. Ví dụ Bessel
 
-Vật–màn cách L=90 cm. Có hai vị trí kính cách nhau a=30 cm.
+Vật–màn cách $L=90\,\mathrm{cm}$. Có hai vị trí kính cách nhau $a=30\,\mathrm{cm}$.
 
 $$
 f=\frac{90^2-30^2}{4\cdot90}

@@ -6,7 +6,7 @@ Checks:
 - LaTeX commands that accidentally sit outside math regions;
 - indented $$ blocks that are likely to be emitted literally in lists/admonitions;
 - layout smells such as stacked short display equations;
-- broken internal Markdown links and invalid MkDocs nav/assets;
+- broken internal Markdown links, broken image references and invalid MkDocs nav/assets;
 - rendered HTML for raw $$ / LaTeX that escaped Arithmatex.
 
 By default the script also runs ``mkdocs build --strict`` in a temporary
@@ -38,6 +38,7 @@ LATEX_COMMAND = re.compile(
     r"mathrm|left|right|quad|qquad|begin|end)\b"
 )
 LINK_RE = re.compile(r"(?<!!)\[[^\]]+\]\(([^)]+)\)")
+IMAGE_RE = re.compile(r"!\[[^\]]*\]\(([^)]+)\)")
 FENCE_RE = re.compile(r"^\s*(```|~~~)")
 SINGLE_SYMBOL_RE = re.compile(r"^[A-Za-z](?:_[A-Za-z0-9{}]+)?$")
 RAW_MATH_RE = re.compile(
@@ -233,6 +234,7 @@ def lint_markdown(path: Path) -> list[Issue]:
             )
 
     issues.extend(check_links(path, lines))
+    issues.extend(check_images(path, lines))
     return issues
 
 
@@ -268,6 +270,47 @@ def check_links(path: Path, lines: list[str]) -> list[Issue]:
                 continue
             if not resolved.is_file():
                 issues.append(Issue(path, lineno, "LINK001", f"Không tìm thấy file đích: {target}"))
+    return issues
+
+
+def check_images(path: Path, lines: list[str]) -> list[Issue]:
+    """Fail local Markdown image references that do not resolve inside docs/."""
+    issues: list[Issue] = []
+    in_fence = False
+    fence = ""
+    for lineno, line in enumerate(lines, 1):
+        m = FENCE_RE.match(line)
+        if m:
+            marker = m.group(1)
+            if not in_fence:
+                in_fence = True
+                fence = marker
+            elif marker == fence:
+                in_fence = False
+                fence = ""
+            continue
+        if in_fence:
+            continue
+        for match in IMAGE_RE.finditer(line):
+            target = match.group(1).strip()
+            if not target or target.startswith(("http://", "https://", "data:")):
+                continue
+            target = target.split("#", 1)[0].split("?", 1)[0]
+            # Optional Markdown image titles are not used in the Grade 11 bank,
+            # but handle the common `path "title"` form without treating the
+            # title as part of the filename. Paths containing spaces should use <...>.
+            if target.startswith("<") and ">" in target:
+                target = target[1:target.index(">")]
+            else:
+                target = re.split(r"\s+[\"']", target, maxsplit=1)[0]
+            resolved = (path.parent / unquote(target)).resolve()
+            try:
+                resolved.relative_to(DOCS.resolve())
+            except ValueError:
+                issues.append(Issue(path, lineno, "ASSET003", f"Ảnh tham chiếu thoát khỏi docs/: {target}"))
+                continue
+            if not resolved.is_file():
+                issues.append(Issue(path, lineno, "ASSET002", f"Không tìm thấy ảnh được tham chiếu: {target}"))
     return issues
 
 

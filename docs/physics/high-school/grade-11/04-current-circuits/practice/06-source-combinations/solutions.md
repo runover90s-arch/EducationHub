@@ -26,25 +26,31 @@ Chọn **A**.
 Chọn **B**.
 
 ## Bài 5
-a) **Đúng**.  
-b) **Đúng**.  
-c) **Sai**: có thể xuất hiện dòng tuần hoàn lớn giữa nguồn.  
-d) **Đúng**.
+a) **Đúng.** Các suất điện động và điện trở trong cộng đại số khi $n$ nguồn giống nhau mắc nối tiếp cùng chiều.
+
+b) **Đúng.** Với $n$ nguồn giống nhau mắc song song đúng cực, suất điện động bộ bằng một nguồn còn điện trở trong tương đương là $r/n$.
+
+c) **Sai.** có thể xuất hiện dòng tuần hoàn lớn giữa nguồn.
+
+d) **Đúng.** Số nguồn nối tiếp quyết định suất điện động mỗi nhánh, còn số nhánh song song làm thay đổi điện trở trong tương đương; cả hai cùng chi phối dòng tải.
 
 ## Bài 6
-a) **Đúng**.  
-b) **Đúng**.  
-c) **Đúng**.  
-d) **Sai**: các nhánh song song cùng suất điện động $n\mathcal E$, nên suất điện động bộ bằng $n\mathcal E$.
+a) **Đúng.** Bộ gồm $m$ nhánh song song, mỗi nhánh có $n$ nguồn nối tiếp nên tổng số nguồn là $N=mn$.
+
+b) **Đúng.** Mỗi nhánh có $n$ nguồn giống nhau mắc nối tiếp cùng chiều nên suất điện động của nhánh bằng tổng $n\mathcal E$.
+
+c) **Đúng.** Mỗi nhánh có điện trở trong $nr$; $m$ nhánh giống nhau mắc song song cho $r_b=(nr)/m$.
+
+d) **Sai.** các nhánh song song cùng suất điện động $n\mathcal E$, nên suất điện động bộ bằng $n\mathcal E$.
 
 ## Bài 7
-$\mathcal E_b=4\cdot1,5=6$ V; $r_b=4\cdot0,5=2\,\Omega$.
+$\mathcal E_b=4\cdot1,5=6\,\mathrm V$; $r_b=4\cdot0,5=2\,\Omega$.
 
 ## Bài 8
-$\mathcal E_b=1,5$ V; $r_b=0,5/4=0,125\,\Omega$.
+$\mathcal E_b=1,5\,\mathrm V$; $r_b=0,5/4=0,125\,\Omega$.
 
 ## Bài 9
-Mỗi nhánh: $\mathcal E_n=3\cdot2=6$ V, $r_n=3\,\Omega$. Hai nhánh song song giống nhau: $\mathcal E_b=6$ V, $r_b=3/2=1,5\,\Omega$.
+Mỗi nhánh: $\mathcal E_n=3\cdot2=6\,\mathrm V$, $r_n=3\,\Omega$. Hai nhánh song song giống nhau: $\mathcal E_b=6\,\mathrm V$, $r_b=3/2=1,5\,\Omega$.
 
 ## Bài 10
 Với cấu hình n nguồn nối tiếp mỗi nhánh và m=12/n nhánh song song:
@@ -55,12 +61,12 @@ $I=\frac{1,5n}{2+n^2/24}$.
 
 Tính nhanh:
 
-- n=1: $I\approx0,735$ A.
-- n=2: $I\approx1,385$ A.
-- n=3: $I\approx1,895$ A.
-- n=4: $I=6/(2+2/3)=2,25$ A.
-- n=6: $I=9/(2+1,5)=2,571$ A.
-- n=12: $I=18/(2+6)=2,25$ A.
+- n=1: $I\approx0,735\,\mathrm A$.
+- n=2: $I\approx1,385\,\mathrm A$.
+- n=3: $I\approx1,895\,\mathrm A$.
+- n=4: $I=6/(2+2/3)=2,25\,\mathrm A$.
+- n=6: $I=9/(2+1,5)=2,571\,\mathrm A$.
+- n=12: $I=18/(2+6)=2,25\,\mathrm A$.
 
 Trong các phương án nguyên cho trước, **n=6, m=2** cho dòng lớn nhất. Kết quả phù hợp nguyên tắc tối ưu khi điện trở trong bộ gần điện trở ngoài.
 

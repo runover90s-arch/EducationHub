@@ -131,17 +131,17 @@ Nếu thu được $L_1,L_2,L_3,L_4$, hãy tính nhiều khoảng liên tiếp r
 
 ## 7. Ví dụ cộng hưởng cột khí
 
-Nguồn âm có $f=500$ Hz. Hai vị trí cộng hưởng liên tiếp của cột khí là:
+Nguồn âm có $f=500\,\mathrm{Hz}$. Hai vị trí cộng hưởng liên tiếp của cột khí là:
 
-$L_1=0,18$ m và $L_2=0,52$ m.
+$L_1=0,18\,\mathrm m$ và $L_2=0,52\,\mathrm m$.
 
 Hiệu chiều dài:
 
-$\Delta L=0,34$ m.
+$\Delta L=0,34\,\mathrm m$.
 
 Bước sóng:
 
-$\lambda=2\Delta L=0,68$ m.
+$\lambda=2\Delta L=0,68\,\mathrm m$.
 
 Vậy:
 
@@ -161,7 +161,7 @@ $$
 
 ### Ví dụ
 
-Tường cách micro 34 m. Từ xung âm phát ra đến lúc thu tiếng vọng là $0,20$ s.
+Tường cách micro $34\,\mathrm m$. Từ xung âm phát ra đến lúc thu tiếng vọng là $0,20\,\mathrm s$.
 
 $$
 v=\frac{2\cdot34}{0,20}=340\ \text{m/s}.
@@ -209,23 +209,23 @@ Hãy kiểm tra:
 ## 11. Bài tập thực hành nhanh
 
 ### Câu 1
-Nguồn âm 680 Hz. Hai cộng hưởng liên tiếp của cột khí cách nhau 25 cm. Tính tốc độ truyền âm.
+Nguồn âm $680\,\mathrm{Hz}$. Hai cộng hưởng liên tiếp của cột khí cách nhau $25\,\mathrm{cm}$. Tính tốc độ truyền âm.
 
 ### Câu 2
-Hai chiều dài cộng hưởng liên tiếp là 16 cm và 50 cm, tần số nguồn 500 Hz. Tính tốc độ âm.
+Hai chiều dài cộng hưởng liên tiếp là $16\,\mathrm{cm}$ và $50\,\mathrm{cm}$, tần số nguồn $500\,\mathrm{Hz}$. Tính tốc độ âm.
 
 ### Câu 3
-Một người đứng cách vách đá 68 m và nghe tiếng vọng sau $0,40$ s. Tính tốc độ âm.
+Một người đứng cách vách đá $68\,\mathrm m$ và nghe tiếng vọng sau $0,40\,\mathrm s$. Tính tốc độ âm.
 
 ### Câu 4
-Âm có tần số 400 Hz truyền trong môi trường A với tốc độ 320 m/s rồi sang môi trường B với tốc độ 480 m/s. Tần số và bước sóng trong B là bao nhiêu?
+Âm có tần số $400\,\mathrm{Hz}$ truyền trong môi trường A với tốc độ $320\,\mathrm{m/s}$ rồi sang môi trường B với tốc độ $480\,\mathrm{m/s}$. Tần số và bước sóng trong B là bao nhiêu?
 
 ## Đáp án và hướng dẫn
 
-1. $\Delta L=0,25$ m nên $v=2\cdot680\cdot0,25=340$ m/s.
-2. $\Delta L=0,34$ m nên $v=2\cdot500\cdot0,34=340$ m/s.
-3. Âm đi và về nên quãng đường $2d=136$ m. $v=136/0,40=340$ m/s.
-4. Tần số không đổi: $f=400$ Hz. Trong B: $\lambda_B=v_B/f=480/400=1,20$ m.
+1. $\Delta L=0,25\,\mathrm m$ nên $v=2\cdot680\cdot0,25=340\,\mathrm{m/s}$.
+2. $\Delta L=0,34\,\mathrm m$ nên $v=2\cdot500\cdot0,34=340\,\mathrm{m/s}$.
+3. Âm đi và về nên quãng đường $2d=136\,\mathrm m$. $v=136/0,40=340\,\mathrm{m/s}$.
+4. Tần số không đổi: $f=400\,\mathrm{Hz}$. Trong B: $\lambda_B=v_B/f=480/400=1,20\,\mathrm m$.
 
 ## Tóm tắt
 

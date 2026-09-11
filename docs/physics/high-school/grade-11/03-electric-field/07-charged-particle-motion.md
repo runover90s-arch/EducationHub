@@ -211,14 +211,14 @@ Trong bài vi mô electron/proton, trọng lực thường rất nhỏ so với 
 ## 10. Ví dụ
 
 ### Ví dụ 1 — Proton trong E
-Proton trong trường $E=10^4$ V/m:
+Proton trong trường $E=10^4\,\mathrm{V/m}$:
 
 $a=eE/m_p$.
 
 Chỉ cần công thức; nếu đề cho $m_p$ mới thay số.
 
 ### Ví dụ 2 — Electron qua U
-Electron từ nghỉ được tăng tốc qua $U=100$ V:
+Electron từ nghỉ được tăng tốc qua $U=100\,\mathrm V$:
 
 $$
 v=\sqrt{\frac{2eU}{m_e}}.

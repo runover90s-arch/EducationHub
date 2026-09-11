@@ -4,7 +4,10 @@
 Không thay thế thẩm định học thuật thủ công, nhưng bắt các lỗi xuất bản thường gặp:
 - thiếu cặp Bài tập / Đáp án;
 - số câu giữa đề và lời giải không khớp;
-- trắc nghiệm thiếu A–D;
+- trắc nghiệm thiếu A–D hoặc ghép nhiều lựa chọn trong một paragraph;
+- Đúng/Sai thiếu a–d hoặc ghép nhiều mệnh đề trong một paragraph;
+- hình dữ kiện đặt sau lựa chọn/mệnh đề;
+- ghi chú nội bộ project/import lộ ra ở đầu practice page;
 - câu trùng nguyên văn;
 - bài học thiếu liên kết sang luyện tập;
 - thuật ngữ mức độ còn để tiếng Anh;
@@ -13,6 +16,8 @@ Không thay thế thẩm định học thuật thủ công, nhưng bắt các l�
 from __future__ import annotations
 from pathlib import Path
 import re, sys
+
+from practice_bank_common import figure_after_choices, image_refs, marker_layout_errors, question_before_solution
 
 ROOT=Path(__file__).resolve().parents[1]
 GRADE=ROOT/'docs/physics/high-school/grade-11'
@@ -23,6 +28,54 @@ errors=[]
 questions_seen={}
 total=0
 pairs=0
+
+INTERNAL_NOTE_RE = re.compile(
+    r"\b(?:repository|learner-facing|corpus|pipeline|source-id|import report)\b|"
+    r"(?:quy trình|ghi chú|lưu ý)[^\n]{0,80}(?:import|nhập từ PDF)|nhập từ PDF",
+    re.I,
+)
+
+
+def authored_section(text: str, label: str) -> str:
+    m = re.search(rf"^## {re.escape(label)}.*?$(.*?)(?=^## |\Z)", text, re.M | re.S)
+    return m.group(1) if m else ""
+
+
+def check_authored_layout(path: Path, text: str, label: str, kind: str) -> None:
+    section = authored_section(text, label)
+    if not section:
+        return
+    heads = list(re.finditer(r"^### (?:Câu|Bài) (\d+)\b.*$", section, re.M))
+    for i, head in enumerate(heads):
+        end = heads[i + 1].start() if i + 1 < len(heads) else len(section)
+        question = question_before_solution(section[head.end():end])
+        number = head.group(1)
+        for issue in marker_layout_errors(question, kind):
+            errors.append(f"Layout {kind} không hợp lệ: {path.relative_to(ROOT)} Bài {number}: {issue}")
+        if figure_after_choices(question, kind):
+            errors.append(
+                f"Hình nằm sau phương án/mệnh đề: {path.relative_to(ROOT)} Bài {number}; "
+                "thứ tự phải là đề dẫn -> hình -> lựa chọn/mệnh đề"
+            )
+        for ref in image_refs(question):
+            if ref.startswith(('http://', 'https://', 'data:')):
+                continue
+            target=(path.parent/ref.split('#',1)[0].split('?',1)[0]).resolve()
+            if not target.exists():
+                errors.append(f"Ảnh bài biên soạn không tồn tại: {path.relative_to(ROOT)} Bài {number} -> {ref}")
+
+
+def check_practice_intro(path: Path, text: str) -> None:
+    # Only inspect the learner-facing intro before the first H2 section. Provenance
+    # inside source comments/solution blocks is intentionally outside this rule.
+    body = re.sub(r"\A---\n.*?\n---\n", "", text, flags=re.S)
+    intro = body.split("\n## ", 1)[0]
+    intro = re.sub(r"<!--.*?-->", " ", intro, flags=re.S)
+    hit = INTERNAL_NOTE_RE.search(intro)
+    if hit:
+        errors.append(
+            f"Ghi chú nội bộ learner-facing ở đầu practice page: {path.relative_to(ROOT)} -> {hit.group(0)!r}"
+        )
 
 for ex in sorted(GRADE.glob('[0-9][0-9]-*/practice/*/exercises.md')):
     sol=ex.with_name('solutions.md')
@@ -55,17 +108,10 @@ for ex in sorted(GRADE.glob('[0-9][0-9]-*/practice/*/exercises.md')):
             else:
                 questions_seen[key]=str(ex.relative_to(ROOT))
 
-    # Multiple choice section must have 4 options per question in that section.
-    mA=re.search(r'^## Phần A .*?$(.*?)(?=^## Phần B|^## Phần C|^## Phần D|\Z)',et,re.M|re.S)
-    if mA:
-        block=mA.group(1)
-        hs=list(re.finditer(r'^### (?:Câu|Bài) \d+.*$',block,re.M))
-        for i,h in enumerate(hs):
-            body=block[h.end(): hs[i+1].start() if i+1<len(hs) else len(block)]
-            for opt in 'ABCD':
-                if not re.search(rf'(^|\n){opt}\.\s',body):
-                    errors.append(f'Trắc nghiệm thiếu phương án {opt}: {ex.relative_to(ROOT)}')
-                    break
+    # Deterministic learner-facing layout checks for authored A/B sections.
+    check_authored_layout(ex, et, 'Phần A', 'mcq')
+    check_authored_layout(ex, et, 'Phần B', 'tf')
+    check_practice_intro(ex, et)
 
 # Every theory lesson must link to its practice pair.
 for lesson in sorted(GRADE.glob('[0-9][0-9]-*/[0-9][0-9]-*.md')):

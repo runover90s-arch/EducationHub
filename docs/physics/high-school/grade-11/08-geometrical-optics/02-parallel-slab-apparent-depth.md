@@ -59,7 +59,7 @@ $$
 
 ## 3. Ví dụ độ dời
 
-Tấm kính dày 4 cm, n=1,5, tia từ không khí tới i=45°.
+Tấm kính dày $4\,\mathrm{cm}$, n=1,5, tia từ không khí tới i=45°.
 
 Đầu tiên:
 
@@ -125,13 +125,13 @@ $$
 
 ## 6. Ví dụ — bể nước
 
-Đáy bể sâu 1,20 m, nước n=4/3, nhìn gần vuông góc từ không khí:
+Đáy bể sâu $1,20\,\mathrm m$, nước n=4/3, nhìn gần vuông góc từ không khí:
 
 $$
 h'=1,20\frac{1}{4/3}=0,90\,\text m.
 $$
 
-Đáy có vẻ gần mặt nước hơn 0,30 m.
+Đáy có vẻ gần mặt nước hơn $0,30\,\mathrm m$.
 
 ## 7. Nhiều lớp song song
 

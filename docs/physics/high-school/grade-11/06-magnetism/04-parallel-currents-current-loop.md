@@ -58,7 +58,7 @@ Không cần học như khẩu hiệu. Chọn dây 1 tạo $\vec B$ tại vị t
 
 ## 3. Ví dụ lực giữa hai dây
 
-Hai dây cách 5 cm, $I_1=10$ A, $I_2=4$ A cùng chiều. Lực trên 1 m dây:
+Hai dây cách $5\,\mathrm{cm}$, $I_1=10\,\mathrm A$, $I_2=4\,\mathrm A$ cùng chiều. Lực trên $1\,\mathrm m$ dây:
 
 $$
 \frac{F}{l}=2\times10^{-7}\frac{I_1I_2}{d}
@@ -139,7 +139,7 @@ Trong động cơ một chiều đơn giản:
 
 ## 8. Ví dụ mômen
 
-Khung N=50 vòng, diện tích $S=20\,\text{cm}^2=2,0\times10^{-3}\,\text{m}^2$, I=0,5 A, B=0,2 T. Pháp tuyến khung tạo với B góc 30°.
+Khung N=50 vòng, diện tích $S=20\,\text{cm}^2=2,0\times10^{-3}\,\text{m}^2$, $I=0,5\,\mathrm A$, B=0,2 T. Pháp tuyến khung tạo với B góc 30°.
 
 $$
 \tau=50\cdot0,5\cdot0,2\cdot2,0\times10^{-3}\cdot\sin30^\circ

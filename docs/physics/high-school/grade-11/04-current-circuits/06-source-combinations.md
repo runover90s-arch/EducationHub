@@ -147,14 +147,14 @@ Không tối ưu một đại lượng rồi bỏ điều kiện an toàn.
 ## 8. Ví dụ
 
 ### Ví dụ 1 — Nối tiếp
-3 pin 1,5 V, r=0,2 Ω nối tiếp:
+3 pin $1,5\,\mathrm V$, $r=0,2\,\Omega$ nối tiếp:
 
-$\mathcal E_b=4,5$ V, $r_b=0,6$ Ω.
+$\mathcal E_b=4,5\,\mathrm V$, $r_b=0,6\,\Omega$.
 
 ### Ví dụ 2 — Song song
 4 pin giống nhau song song:
 
-$\mathcal E_b=1,5$ V, $r_b=0,05$ Ω.
+$\mathcal E_b=1,5\,\mathrm V$, $r_b=0,05\,\Omega$.
 
 ### Ví dụ 3 — Hỗn hợp
 12 nguồn, mỗi nguồn E,r. Ghép 3 nhánh, mỗi nhánh 4 nguồn nối tiếp:

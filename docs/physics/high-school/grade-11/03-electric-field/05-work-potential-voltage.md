@@ -186,12 +186,12 @@ $$
 ## 11. Ví dụ
 
 ### Ví dụ 1 — Công trong điện trường đều
-$q=2\,\mu$C, $E=1000$ V/m, dịch chuyển $5$ cm theo chiều E.
+$q=2\,\mu\,\mathrm C$, $E=1000\,\mathrm{V/m}$, dịch chuyển $5\,\mathrm{cm}$ theo chiều E.
 
-$A=qEd=2\times10^{-6}\cdot1000\cdot0,05=10^{-4}$ J.
+$A=qEd=2\times10^{-6}\cdot1000\cdot0,05=10^{-4}\,\mathrm J$.
 
 ### Ví dụ 2 — Electron qua hiệu điện thế
-Electron đi từ M đến N với $U_{MN}=100$ V.
+Electron đi từ M đến N với $U_{MN}=100\,\mathrm V$.
 
 $A=qU=-e\cdot100<0$: lực điện làm công âm theo chiều M→N. Nếu electron tự tăng tốc chỉ bởi điện trường, chiều tự nhiên sẽ ngược với chiều làm công âm này.
 

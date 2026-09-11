@@ -117,14 +117,14 @@ $$
 
 ### Ví dụ
 
-Cho $u=3\cos(20\pi t-4\pi x+\pi/6)$ cm, $x$ tính bằng m.
+Cho $u=3\cos(20\pi t-4\pi x+\pi/6)\,\mathrm{cm}$, $x$ tính bằng m.
 
 Ta có:
 
-- $A=3$ cm;
-- $f=10$ Hz;
-- $\lambda=0,5$ m;
-- $v=5$ m/s;
+- $A=3\,\mathrm{cm}$;
+- $f=10\,\mathrm{Hz}$;
+- $\lambda=0,5\,\mathrm m$;
+- $v=5\,\mathrm{m/s}$;
 - sóng truyền theo $+x$.
 
 ## 6. Từ phương trình tại hai điểm tìm khoảng cách
@@ -199,9 +199,9 @@ Không cần thuộc hình mẫu; hãy dùng quan hệ dấu giữa vận tốc 
 
 ### Ví dụ 1 — Viết phương trình tại điểm M
 
-Nguồn $O$: $u_O=4\cos(10\pi t)$ mm. Sóng truyền theo $+x$ với $v=2$ m/s. Điểm $M$ cách O $30$ cm.
+Nguồn $O$: $u_O=4\cos(10\pi t)\,\mathrm{mm}$. Sóng truyền theo $+x$ với $v=2\,\mathrm{m/s}$. Điểm $M$ cách O $30\,\mathrm{cm}$.
 
-$f=5$ Hz nên $\lambda=v/f=0,4$ m. Độ trễ pha từ O đến M:
+$f=5\,\mathrm{Hz}$ nên $\lambda=v/f=0,4\,\mathrm m$. Độ trễ pha từ O đến M:
 
 $$
 \frac{2\pi x}{\lambda}=2\pi\frac{0,30}{0,40}=\frac{3\pi}{2}.
@@ -215,11 +215,11 @@ $$
 
 ### Ví dụ 2 — Tìm chiều truyền
 
-Cho $u=2\cos(50t+5x)$ cm. Hệ số $x$ mang dấu cộng nên sóng truyền theo chiều âm $Ox$.
+Cho $u=2\cos(50t+5x)\,\mathrm{cm}$. Hệ số $x$ mang dấu cộng nên sóng truyền theo chiều âm $Ox$.
 
 ### Ví dụ 3 — Tìm trạng thái trễ
 
-Hai điểm cách nhau $12$ cm, tốc độ truyền $0,6$ m/s. Thời gian truyền từ điểm trước đến điểm sau là $0,12/0,6=0,20$ s.
+Hai điểm cách nhau $12\,\mathrm{cm}$, tốc độ truyền $0,6\,\mathrm{m/s}$. Thời gian truyền từ điểm trước đến điểm sau là $0,12/0,6=0,20\,\mathrm s$.
 
 ## 11. Lỗi thường gặp
 
