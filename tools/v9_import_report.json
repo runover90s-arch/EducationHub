@@ -146,10 +146,13 @@
       "BT-Chuong-IV-p10-q4-44",
       "BT-Chuong-IV-p86-q3-259",
       "BT-Chuong-IV-p99-q35-297",
-      "BT-Chuong-I-p148-q3-385",
-      "BT-Chuong-III-p84-q13-219"
+      "BT-Chuong-I-p148-q3-385"
     ],
-    "C_source_ambiguity_not_uniquely_resolvable": []
+    "C_source_ambiguity_not_uniquely_resolvable": [
+      "BT-Chuong-III-p128-q15-317",
+      "BT-Chuong-III-p145-q3-365",
+      "BT-Chuong-III-p84-q13-219"
+    ]
   },
   "source_issue_resolutions_v23": {
     "A_repo_error": [
@@ -162,5 +165,15 @@
     ],
     "B_source_error_correction_certain": [],
     "C_source_ambiguity_not_uniquely_resolvable": []
-  }
+  },
+  "source_issue_resolutions_v24": {
+    "A_repo_error": [],
+    "B_source_error_correction_certain": [
+      "BT-Chuong-III-p128-q15-317",
+      "BT-Chuong-III-p145-q3-365",
+      "BT-Chuong-III-p84-q13-219"
+    ],
+    "C_source_ambiguity_not_uniquely_resolvable": []
+  },
+  "current_source_issue_resolution_key": "source_issue_resolutions_v24"
 }

@@ -1,0 +1,200 @@
+{
+  "scope": "docs/physics/high-school/grade-11/04-current-circuits/ — ONLY GROUP A practice audit",
+  "mode": "CONTINUE / AUDIT / UPDATE",
+  "BASE_VERSION": "education-hub-v13.zip",
+  "base_checkpoint": {
+    "series": 2,
+    "version": 13
+  },
+  "target_checkpoint": {
+    "series": 2,
+    "version": 14
+  },
+  "groups": {
+    "GROUP_A": [
+      "01-current-intensity",
+      "02-resistance-ohm-law",
+      "03-emf-internal-resistance",
+      "04-energy-power-joule"
+    ],
+    "GROUP_B": [
+      "05-full-circuit-ohm-law",
+      "06-source-combinations",
+      "07-circuit-reading-meters"
+    ],
+    "GROUP_C": [
+      "08-advanced-circuit-methods",
+      "09-practical-emf-internal-resistance",
+      "10-source-receiver-capacitor-branches"
+    ]
+  },
+  "question_counts": {
+    "01-current-intensity": 87,
+    "02-resistance-ohm-law": 102,
+    "03-emf-internal-resistance": 49,
+    "04-energy-power-joule": 87,
+    "total": 325,
+    "authored": 40,
+    "pdf_canonical": 285
+  },
+  "audit_method": [
+    "Solved answer and solution independently for every Group A item.",
+    "For every item with a circuit or measurement diagram, inspected the actual stored figure/PDF render and determined nodes/branches from the image rather than OCR text.",
+    "For multiple-choice items with no unique correct source option, re-opened the source PDF image before making a minimal single-option repair.",
+    "True/False items were checked statement by statement.",
+    "Learner-facing source-comparison/provenance notes were removed; source corrections are recorded only in this internal report."
+  ],
+  "topology_spot_checks": [
+    {
+      "source_id": "BT-Chuong-IV-p41-q4-144",
+      "result": "R1 is in series with the parallel branch containing the lamp and R2; T/F solution expanded from the actual topology."
+    },
+    {
+      "source_id": "BT-Chuong-IV-p42-q6-146",
+      "result": "Upper branch contains R1 then lamp D1; lower branch contains lamp D2; branches are parallel."
+    },
+    {
+      "source_id": "BT-Chuong-IV-p39-q2-142",
+      "result": "Ladder topology verified from figure; no OCR-inferred wire connections used."
+    },
+    {
+      "source_id": "BT-Chuong-IV-p49-q1-177",
+      "result": "R1, R2 and R3 are three parallel branches across the same terminals."
+    },
+    {
+      "source_id": "BT-Chuong-IV-p104-q4-314",
+      "result": "Three external resistor branches are in parallel; ammeter is in the R1 branch."
+    },
+    {
+      "source_id": "BT-Chuong-IV-p111-q4-342",
+      "result": "R3 is parallel with the series pair R1+R2."
+    },
+    {
+      "source_id": "BT-Chuong-IV-p102-q44-306",
+      "result": "Two source polarities were visually checked; both emfs drive the same loop direction, so they add."
+    }
+  ],
+  "fixed": [
+    {
+      "source_id": "BT-Chuong-IV-p8-q39-39",
+      "lesson": "01-current-intensity",
+      "issue": "Source modeled a hollow copper tube as a solid disk; none of A-D matched the annular-section calculation.",
+      "action": "Changed only option C to 161 micro-m/s and set answer C; retained independent annular-area derivation."
+    },
+    {
+      "source_id": "BT-Chuong-IV-p27-q8-88",
+      "lesson": "02-resistance-ohm-law",
+      "issue": "Source options B: I=U/R and D: U=IR were algebraically equivalent.",
+      "action": "Changed only option D to U=R/I; B is now the unique Ohm-law answer."
+    },
+    {
+      "source_id": "BT-Chuong-IV-p41-q4-144",
+      "lesson": "02-resistance-ohm-law",
+      "issue": "T/F solution for items c-d was too generic for a topology-dependent problem.",
+      "action": "Expanded the solution using the visually verified series/parallel topology and explicit currents/voltages."
+    },
+    {
+      "source_id": "BT-Chuong-IV-p62-q4-196",
+      "lesson": "03-emf-internal-resistance",
+      "issue": "The statement U<E is not unconditional when a source is charging or ideal.",
+      "action": "Restricted the stem to a source with r>0 operating in discharge/generator mode."
+    },
+    {
+      "source_id": "BT-Chuong-IV-p97-q31-293",
+      "lesson": "04-energy-power-joule",
+      "issue": "Ah was described as stored energy.",
+      "action": "Corrected Ah to electric charge capacity; energy calculation remains UQ."
+    },
+    {
+      "source_id": "BT-Chuong-IV-p99-q35-297",
+      "lesson": "04-energy-power-joule",
+      "issue": "Source solution derived r=26/135 ohm but incorrectly approximated it as 0.9 ohm, so no source option was correct.",
+      "action": "After checking the PDF image, changed only option A to E≈11.96 V, r≈0.193 ohm; answer A."
+    },
+    {
+      "source_id": "BT-Chuong-IV-p107-q2-322",
+      "lesson": "04-energy-power-joule",
+      "issue": "Source options 500 Wh and 1800 kJ were equivalent.",
+      "action": "After checking the PDF image, changed only option B to 180 kJ; answer A is unique."
+    },
+    {
+      "source_id": "BT-Chuong-IV-p107-q5-325",
+      "lesson": "04-energy-power-joule",
+      "issue": "Power-square relation omitted the fixed-resistance condition in the explanation.",
+      "action": "Stated explicitly that R is constant before using P=U^2/R."
+    },
+    {
+      "source_id": "BT-Chuong-IV-p107-q6-326",
+      "lesson": "04-energy-power-joule",
+      "issue": "Incandescent-lamp resistance changes with temperature, so scaling rated power by U^2 needs a model assumption.",
+      "action": "Added the explicit assumption that lamp resistance is treated as constant."
+    },
+    {
+      "source_id": "BT-Chuong-IV-p108-q11-331",
+      "lesson": "04-energy-power-joule",
+      "issue": "Statements that P is proportional to U or I were missing the corresponding held-fixed variable.",
+      "action": "Added I fixed to option A and U fixed to option B, preserving C as the unique incorrect statement."
+    },
+    {
+      "source_id": "BT-Chuong-IV-p96-q20-282",
+      "lesson": "04-energy-power-joule",
+      "issue": "Source options 1.175 kWh and 1175 Wh were equivalent.",
+      "action": "After checking the PDF image, changed only option B to 117.5 Wh; answer A is unique."
+    },
+    {
+      "source_id": "BT-Chuong-IV-p96-q23-285",
+      "lesson": "04-energy-power-joule",
+      "issue": "Solution had raw un-delimited equation text and decimal punctuation inconsistency.",
+      "action": "Normalized the full energy calculation to valid inline LaTeX."
+    }
+  ],
+  "verified_existing_corrections": [
+    {
+      "source_id": "BT-Chuong-IV-p18-q4-78",
+      "result": "q=270 C verified independently."
+    },
+    {
+      "source_id": "BT-Chuong-IV-p10-q4-44",
+      "result": "Hollow-square steel cross-section and I≈451.6 A verified from the printed inner perimeter and carrier density."
+    },
+    {
+      "source_id": "BT-Chuong-IV-p8-q37-37",
+      "result": "Electron and positive-ion conventional-current contributions add; I=0.576 A."
+    },
+    {
+      "source_id": "BT-Chuong-IV-p33-q9-114",
+      "result": "Metal winding resistance increases with temperature in the stated model; answer A retained."
+    },
+    {
+      "source_id": "BT-Chuong-IV-p37-q2-132",
+      "result": "Aluminum resistivity wording already minimally repaired; R≈10.59 ohm, answer A."
+    },
+    {
+      "source_id": "BT-Chuong-IV-p75-q5-233",
+      "result": "U-I graph gives 9 V for three identical series cells, hence 3 V per cell."
+    },
+    {
+      "source_id": "BT-Chuong-IV-p65-q24-215",
+      "result": "1000 mAh / 5 mA = 200 h."
+    },
+    {
+      "source_id": "BT-Chuong-IV-p105-q6-320",
+      "result": "Daily cost 0.035625 million VND verified from 9.5 kW × 1.5 h/day."
+    },
+    {
+      "source_id": "BT-Chuong-IV-p108-q8-328",
+      "result": "Q proportional to I^2 for fixed R,t; halving I quarters heat."
+    }
+  ],
+  "learner_facing_forbidden_markers_remaining": 0,
+  "unresolved": [],
+  "next": null,
+  "validation": {
+    "check_practice_bank": "PASS — 61 banks; 540 authored + 1633 PDF; 0 structural errors",
+    "check_pdf_import": "PASS — 1633 canonical PDF items; Chapter IV=350; 0 integrity errors",
+    "check_solution_quality": "PASS — 2173 total items; 0 errors",
+    "check_site_lint_only": "PASS — 237 Markdown; 0 errors; 0 warnings"
+  },
+  "status": "GROUP_A_COMPLETE",
+  "chapter_final_status": "CHAPTER_IV_COMPLETE"
+}

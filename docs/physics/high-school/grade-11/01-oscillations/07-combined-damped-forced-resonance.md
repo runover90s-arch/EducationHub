@@ -113,9 +113,9 @@ Phương pháp này giúp nhìn trực tiếp:
 
 ## 5. Dao động tự do
 
-Dao động tự do là dao động sau khi hệ được kích thích ban đầu rồi để hệ tự dao động dưới tác dụng của lực nội tại của nó.
+Dao động tự do là dao động sau khi hệ được kích thích ban đầu rồi để hệ tự dao động, không còn chịu ngoại lực tuần hoàn áp đặt tần số.
 
-Trong mô hình lí tưởng, tần số dao động bằng tần số riêng của hệ.
+Trong mô hình lí tưởng, tần số dao động bằng tần số riêng do các đặc trưng của hệ quyết định.
 
 Ví dụ: con lắc lò xo không ma sát sau khi kéo lệch rồi thả.
 
@@ -128,7 +128,7 @@ Dao động tắt dần là dao động có biên độ giảm dần theo thời
 - biên độ giảm dần;
 - cơ năng giảm dần;
 - phần năng lượng cơ học mất đi chuyển thành nội năng/nhiệt hoặc các dạng khác;
-- lực cản càng lớn, dao động tắt càng nhanh.
+- trong chế độ hệ vẫn còn dao động qua lại, lực cản lớn hơn thường làm biên độ suy giảm nhanh hơn. Nếu lực cản đủ lớn, hệ có thể trở về vị trí cân bằng mà không còn dao động qua lại, nên không dùng nhận xét này như một quy luật tuyệt đối cho mọi mức cản.
 
 ### Có phải mọi dao động tắt dần đều xấu?
 
@@ -163,19 +163,15 @@ Sau giai đoạn quá độ, hệ đi vào trạng thái ổn định.
 
 ## 9. Cộng hưởng
 
-Cộng hưởng là hiện tượng biên độ dao động cưỡng bức tăng mạnh và đạt cực đại khi tần số của lực cưỡng bức gần hoặc bằng tần số riêng của hệ, tùy mô hình và mức cản.
+Cộng hưởng là hiện tượng biên độ dao động cưỡng bức tăng mạnh và đạt cực đại khi tần số của lực cưỡng bức ở gần tần số riêng của hệ.
 
-Trong mô hình phổ thông với lực cản nhỏ:
-
-$$
-\boxed{f_F\approx f_0}.
-$$
-
-Hoặc theo tần số góc:
+Trong mô hình phổ thông khi lực cản nhỏ, thường lấy điều kiện cộng hưởng:
 
 $$
-\omega_F\approx\omega_0.
+\boxed{f_F=f_0},
 $$
+
+hay $\omega_F=\omega_0$. Với mô hình có giảm chấn xét chính xác, tần số làm biên độ li độ cực đại có thể lệch nhẹ so với tần số riêng; khi lực cản nhỏ, độ lệch này nhỏ.
 
 ## 10. Ảnh hưởng của lực cản đến cộng hưởng
 

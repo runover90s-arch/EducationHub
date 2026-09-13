@@ -63,9 +63,9 @@ $$
 !!! warning "Không gọi là hai lực cân bằng"
     Hai lực này tác dụng lên **hai vật khác nhau**, nên không phải hai lực cân bằng tác dụng lên cùng một vật.
 
-## 4. Trong điện môi đồng tính
+## 4. Trong điện môi đồng nhất, đẳng hướng
 
-Nếu môi trường được mô hình bởi hằng số điện môi tương đối $\varepsilon_r$:
+Nếu hai điện tích nằm trong cùng một điện môi đồng nhất, đẳng hướng, được mô hình bằng hằng số điện môi tương đối $\varepsilon_r$ và có thể bỏ qua ảnh hưởng của các mặt phân cách điện môi:
 
 $$
 \boxed{F=\frac{k|q_1q_2|}{\varepsilon_r r^2}}.
@@ -198,7 +198,7 @@ Các nhóm bài dưới đây được tổ chức theo dấu hiệu nhận bi�
 
 ### Dạng 1 — Xác định lực tương tác giữa hai điện tích điểm
 
-Kiểm tra trước điều kiện coi các vật là điện tích điểm và xác định môi trường. Độ lớn lực Coulomb được tính từ $F=k|q_1q_2|/(\varepsilon r^2)$. Sau đó mới xác định chiều lực: cùng dấu đẩy, trái dấu hút.
+Kiểm tra trước điều kiện coi các vật là điện tích điểm và xác định môi trường. Độ lớn lực Coulomb được tính từ $F=k|q_1q_2|/(\varepsilon_r r^2)$. Sau đó mới xác định chiều lực: cùng dấu đẩy, trái dấu hút.
 
 Đổi điện tích về coulomb và khoảng cách về mét trước khi bình phương. Nếu đề hỏi tỉ số lực khi thay đổi khoảng cách hoặc điện tích, nên lập tỉ số để tránh tính số dài.
 

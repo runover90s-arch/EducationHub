@@ -1,0 +1,70 @@
+{
+  "base_version": "education-hub-v11",
+  "target_version": "education-hub-v12",
+  "mode": "CONTINUE / FINALIZE",
+  "scope": "docs/physics/high-school/grade-11/03-electric-field/",
+  "chapter": "Chương III — Điện trường",
+  "source_primary": "BT-Chương III_1.pdf",
+  "coverage": {
+    "lesson_files": 9,
+    "practice_sets": 9,
+    "authored_practice_questions": 90,
+    "imported_pdf_questions": 361,
+    "chapter_exercises": 42,
+    "quiz_questions": 10
+  },
+  "resolved_source_repairs": [
+    {
+      "source_id": "BT-Chuong-III-p145-q3-365",
+      "location": "practice/07-charged-particle-motion — Bài 68",
+      "repair": "Restore q>0.",
+      "verified_result": "a Đúng; b Đúng; c Sai; d Đúng."
+    },
+    {
+      "source_id": "BT-Chuong-III-p128-q15-317",
+      "location": "practice/07-charged-particle-motion — Bài 73",
+      "repair": "Restore q>0.",
+      "verified_result": "A."
+    },
+    {
+      "source_id": "BT-Chuong-III-p84-q13-219",
+      "location": "practice/09-electrostatic-equilibrium-charged-pendulum — Bài 21",
+      "repair": "Restore q1=5e-9 C.",
+      "verified_result": "alpha=45 degrees; C."
+    }
+  ],
+  "synchronization": {
+    "chapter_exercises_solutions": "42/42 numbering aligned and continuous",
+    "practice_numbering": "continuous in all 9 practice sets",
+    "quiz": "10 questions with 10 answer entries"
+  },
+  "unresolved": [],
+  "status": "CHAPTER_III_COMPLETE",
+  "next": null,
+  "gate_results": {
+    "python tools/check_practice_bank.py": {
+      "exit_code": 0,
+      "result": "PASS — 61 practice sets; 540 authored + 1633 PDF-imported items; 0 structural errors."
+    },
+    "python tools/check_pdf_import.py": {
+      "exit_code": 0,
+      "result": "PASS — 1633 canonical PDF items + 10 aliases; Chapter III=361; 0 integrity errors."
+    },
+    "python tools/check_solution_quality.py": {
+      "exit_code": 0,
+      "result": "PASS — 2173 total items checked; 0 errors."
+    },
+    "python tools/check_site.py": {
+      "exit_code": 1,
+      "result": "Markdown lint PASS — 237 files, 0 errors, 0 warnings; build step unavailable because mkdocs executable is not installed."
+    },
+    "python tools/check_site.py --lint-only": {
+      "exit_code": 0,
+      "result": "PASS — 237 Markdown files; 0 errors, 0 warnings."
+    },
+    "mkdocs build --strict": {
+      "exit_code": 127,
+      "result": "NOT RUN SUCCESSFULLY — mkdocs command unavailable. pip install -r requirements.txt was attempted but failed because PyPI could not be reached due DNS/network failure."
+    }
+  }
+}

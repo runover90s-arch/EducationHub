@@ -525,17 +525,14 @@ B. $I=\dfrac{U}{R}$.
 
 C. $U=\dfrac{I}{R}$.
 
-D. $U=IR$.
+D. $U=\dfrac{R}{I}$.
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** B theo cách viết của nguồn; D tương đương đại số
+    **Đáp án:** B
 
     **Hướng dẫn giải:**
 
-    Định luật Ohm cho đoạn mạch thuần điện trở thường được viết $I=U/R$, nên nguồn chọn B. Biến đổi đại số biểu thức này cho $U=IR$, vì vậy phương án D cũng đúng về mặt toán học.
-
-    !!! warning "Đối chiếu nguồn"
-        PDF chọn B, nhưng B và D là hai dạng đại số tương đương của cùng định luật. Giữ nguyên bốn phương án của nguồn thay vì sửa lựa chọn để ép câu hỏi thành đơn đáp án.
+    Với đoạn mạch thuần điện trở ở nhiệt độ và các điều kiện vật lí không đổi, định luật Ohm cho $I=U/R$. Chọn **B**.
 #### Bài 31
 
 <!-- source-id: BT-Chuong-IV-p27-q9-89 -->
@@ -1047,8 +1044,6 @@ D. Hiệu điện thế qua quạt giảm.
 
     Với dây quấn kim loại của quạt, điện trở tăng theo nhiệt độ trong khoảng làm việc thông thường: $R\approx R_0[1+\alpha(T-T_0)]$ với $\alpha>0$. Khi quạt nóng lên, điện trở của phần dẫn kim loại tăng. Vì vậy chọn A.
 
-    !!! warning "Đối chiếu nguồn"
-        PDF tô B nhưng ngay phần “Hướng dẫn giải” của chính PDF ghi rằng khi nhiệt độ tăng, điện trở dây dẫn kim loại tăng. Tính chất vật lí này dẫn tới A; đáp án tô B của nguồn mâu thuẫn với hướng dẫn nguồn.
 #### Bài 54
 
 <!-- source-id: BT-Chuong-IV-p33-q10-115 -->
@@ -1868,7 +1863,7 @@ D. $0{,}8\,\Omega$.
 
 <!-- source-id: BT-Chuong-IV-p49-q18-176 -->
 
-Một dây dẫn bằng đồng dài $25\,\mathrm m$ có điện trở $42{,}5\,\Omega$. Lấy điện trở suất của đồng $\rho=1{,}7\times10^{-8}\,\Omega\,\mathrm m$ như giá trị dùng trong hướng dẫn nguồn. Tiết diện của dây dẫn này là
+Một dây dẫn bằng đồng dài $25\,\mathrm m$ có điện trở $42{,}5\,\Omega$. Lấy điện trở suất của đồng $\rho=1{,}7\times10^{-8}\,\Omega\,\mathrm m$. Tiết diện của dây dẫn này là
 
 A. $1{,}7\,\mathrm{mm^2}$.
 
@@ -2000,9 +1995,9 @@ d) Cường độ dòng điện qua $R_2$ là $1\,\mathrm A$.
 
     b) **Sai.** Dòng định mức $I_\text{đm}=P_\text{đm}/U_\text{đm}=3/6=0{,}5\,\mathrm A$.
 
-    c) **Đúng.** Khi đèn sáng bình thường, dùng các quan hệ dòng - áp trên sơ đồ suy ra $R_2=6\ \Omega$.
+    c) **Đúng.** Từ sơ đồ mạch, $R_1$ nối tiếp với nhánh song song gồm đèn và $R_2$. Đèn sáng bình thường nên hiệu điện thế trên nhánh song song là $6\,\mathrm V$. Khi đó $I_{\rm đ}=3/6=0{,}5\,\mathrm A$, còn trên $R_1$ có $U_1=9-6=3\,\mathrm V$, nên dòng mạch chính $I=U_1/R_1=3/2=1{,}5\,\mathrm A$. Do đó $I_2=I-I_{\rm đ}=1\,\mathrm A$ và $R_2=6/1=6\,\Omega$.
 
-    d) **Đúng.** Với $R_2=6\ \Omega$ và hiệu điện thế tương ứng $6\,\mathrm V$, $I_2=1\,\mathrm A$.
+    d) **Đúng.** Theo phép tính trên, dòng qua $R_2$ là $I_2=1\,\mathrm A$.
 #### Bài 96
 
 <!-- source-id: BT-Chuong-IV-p42-q5-145 -->
@@ -2209,5 +2204,3 @@ D. $22\,\Omega$.
 
     Vậy chọn **A**.
 
-    !!! warning "Đối chiếu nguồn"
-        PDF lặp cụm “điện trở suất của đồng” ở dữ kiện thứ hai. Do bài đang so sánh dây đồng với dây nhôm và giá trị $2{,}7\times10^{-8}\ \Omega\,\text{m}$ được dùng cho dây nhôm trong chính lời giải nguồn, câu chữ được hiệu chỉnh tối thiểu thành “điện trở suất của nhôm”.

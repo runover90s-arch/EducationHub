@@ -27,7 +27,7 @@ C. $i=\lambda a/D$.
 D. $i=D/(\lambda a)$.
 
 ??? success "Đáp án và lời giải"
-    Chọn **B**.
+    Trong thí nghiệm Young chuẩn, khoảng vân thỏa $i=\lambda D/a$. Vì vậy chọn **B**.
 
 ### Bài 2 — Mức 1 — Nhận biết
 
@@ -57,7 +57,7 @@ C. $x=i/k$.
 D. $x=2ki$.
 
 ??? success "Đáp án và lời giải"
-    Chọn **A**, với $k=0,\pm1,\pm2,\ldots$
+    Vân sáng thỏa $x_k=ki$ với $k=0,\pm1,\pm2,\ldots$. Vì vậy chọn **A**.
 
 ## Phần B — Đúng/Sai
 
@@ -203,7 +203,7 @@ D. $0{,}69\,\mu\mathrm{m}$.
 Trong thí nghiệm Y-âng về giao thoa ánh sáng, các khe S1,S2 được chiếu sáng bởi ánh sáng
 đơn sắc bước sóng $0{,}5\,\mu\mathrm{m}$. Khoảng cách giữa hai khe $a=1\,\mathrm{mm}$. Khoảng cách giữa mặt phẳng chứa
 
-hai khe và màn quan sát E là $D=3\,\mathrm m$. Xét trong miền giao thoa có bề rộng là $12,75\,\mathrm{mm}$ thì số vân
+hai khe và màn quan sát E là $D=3\,\mathrm m$. Xét miền giao thoa rộng $12{,}75\,\mathrm{mm}$ và đối xứng qua vân trung tâm. Số vân
 sáng quan sát được là
 
 A. 8 vân.
@@ -226,6 +226,8 @@ D. 10 vân.
     Miền giao thoa rộng $12{,}75\,\mathrm{mm}$ và đối xứng qua vân trung tâm, nên mỗi phía rộng $6{,}375\,\mathrm{mm}$. Vân sáng thỏa $|k|i\le6{,}375\,\mathrm{mm}$, tức $|k|\le4{,}25$. Có các bậc $k=-4,-3,\ldots,4$, tổng cộng 9 vân sáng.
 
     Chọn **B**.
+
+<!-- source-audit-note: Added the symmetry condition required to determine the fringe count uniquely. -->
 
 #### Bài 13
 

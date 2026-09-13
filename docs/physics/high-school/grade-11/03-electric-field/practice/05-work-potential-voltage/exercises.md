@@ -186,7 +186,7 @@ Tính công của lực điện (theo đơn vị $10^{-7}\,\mathrm J$) khi đi�
 
     Do đó $A_{MN}=(-4\cdot10^{-8})\cdot200\cdot0{,}036\approx-2{,}9\cdot10^{-7}\,\mathrm J$.
 
-    **Đối chiếu nguồn:** Phần chữ của PDF ghi nhầm “vuông tại P”, nhưng hình nguồn đánh dấu góc vuông tại N và chính lời giải nguồn dùng $MP$ làm cạnh huyền, $MN^2=MP^2-NP^2$. Vì hình và phép giải cùng nhất quán, đây là lỗi chữ nguồn đã xác định; đề được hiệu đính thành “vuông tại N”.
+    <!-- audit-note: Source text says “vuông tại P”, while the printed figure and source calculation both use N as the right-angle vertex; learner-facing stem follows the figure/calculation. -->
 
     <!-- source-fragment-id: BT-Chuong-III-p109-q31-268 -->
 
@@ -210,7 +210,7 @@ Tính công của lực điện (theo đơn vị $10^{-7}\,\mathrm J$) khi đi�
     Khi đi từ P đến N, hình chiếu độ dời lên chiều $\vec E$ là $d_{PN}=-PH=-0{,}064\,\mathrm m$.
     Vì vậy $A_{PN}=qEd_{PN}=(-4\cdot10^{-8})\cdot200\cdot(-0{,}064)=5{,}12\cdot10^{-7}\,\mathrm J$.
 
-    **Đối chiếu nguồn:** Cùng dữ kiện với Bài 11, phần chữ PDF ghi “vuông tại P” nhưng hình và toàn bộ phép giải nguồn xác định góc vuông ở N. Do đó hiệu đính “vuông tại N” là xác định được, không cần suy đoán.
+    <!-- audit-note: Source text says “vuông tại P”; the figure and calculation establish the right angle at N. -->
 
     <!-- source-fragment-id: BT-Chuong-III-p110-q32-269 -->
 
@@ -348,13 +348,13 @@ Biết hiệu điện thế $U_{MN}=50\,\mathrm V$.
 
     $A_{MN}=U_{MN}q=50\cdot1{,}6\cdot10^{-6}=8\cdot10^{-5}\,\mathrm J=0{,}08\,\mathrm{mJ}$.
 
-    **Đối chiếu nguồn:** PDF ghi $80\,\mathrm{mJ}$, nhưng giá trị này không khớp phép nhân $50\cdot1{,}6\cdot10^{-6}\,\mathrm J$.
+    <!-- audit-note: Source prints 80 mJ; independent calculation from the printed data gives 0.08 mJ. -->
 
 #### Bài 21
 
 <!-- source-id: BT-Chuong-III-p138-q2-340 -->
 
-Ta cần thực hiện một công $1{,}3\cdot10^{-4}\,\mathrm J$ để dịch chuyển điện tích $2{,}6\cdot10^{-6}\,\mathrm C$ từ vô cực đến điểm M. Chọn
+Một ngoại lực thực hiện công $1{,}3\cdot10^{-4}\,\mathrm J$ để dịch chuyển chậm điện tích $2{,}6\cdot10^{-6}\,\mathrm C$ từ vô cực đến điểm M. Chọn
 gốc điện thế tại vô cực. Điện thế tại M bằng bao nhiêu V ?
 
 ??? success "Đáp án và lời giải"
@@ -362,7 +362,7 @@ gốc điện thế tại vô cực. Điện thế tại M bằng bao nhiêu V ?
 
     **Hướng dẫn giải:**
 
-    $A=qV_M\Rightarrow V_M=\dfrac{A}{q}=\dfrac{1{,}3\cdot10^{-4}}{2{,}6\cdot10^{-6}}=50\,\mathrm V$.
+    Khi dịch chuyển chậm từ vô cực đến M, độ biến thiên động năng bằng 0 nên công của ngoại lực bằng độ tăng thế năng: $A_{\text{ngoại}}=\Delta W=qV_M$. Suy ra $V_M=\dfrac{A_{\text{ngoại}}}{q}=\dfrac{1{,}3\cdot10^{-4}}{2{,}6\cdot10^{-6}}=50\,\mathrm V$.
 
 #### Bài 22
 
@@ -399,7 +399,7 @@ nhiêu V ?
 <!-- source-id: BT-Chuong-III-p139-q6-344 -->
 
 Giả thiết rằng trong một tia sét có một điện tích $q=25\,\mathrm C$ được phóng ra từ đám mây và mặt đất có
-$U=1{,}4\cdot10^{8}\,\mathrm V$. Cho biết nhiệt hóa hơi của nước bằng $3\cdot10^{6}\,\mathrm{J/kg}$, năng lượng của tia sét này có thể làm bao
+$U=1{,}4\cdot10^{8}\,\mathrm V$. Cho biết nhiệt hóa hơi của nước bằng $3\cdot10^{6}\,\mathrm{J/kg}$, và coi toàn bộ năng lượng điện giải phóng được dùng để hóa hơi nước, tia sét này có thể làm bao
 nhiêu kg nước ở 100°C bốc thành hơi ở 100°C?
 
 ??? success "Đáp án và lời giải"
@@ -407,7 +407,7 @@ nhiêu kg nước ở 100°C bốc thành hơi ở 100°C?
 
     **Hướng dẫn giải:**
 
-    Năng lượng của tia sét theo nguồn:
+    Năng lượng điện giải phóng là
     $A=Uq=1{,}4\cdot10^8\cdot25=3{,}5\cdot10^9\,\mathrm J$.
     Với $L=3\cdot10^6\,\mathrm{J/kg}$, $m=\dfrac{A}{L}=\dfrac{3{,}5\cdot10^9}{3\cdot10^6}=1167\,\mathrm{kg}$.
 
@@ -425,13 +425,13 @@ của lực điện trường là bao nhiêu ?
 
     $A=qU_{MN}=(-2)\cdot4=-8\,\mathrm J$.
 
-    **Đối chiếu nguồn:** PDF ghi đơn vị $\mathrm V$ ở kết quả công; đơn vị đúng của công là $\mathrm J$.
+    <!-- audit-note: Source prints V for the work result; learner-facing result uses the dimensionally correct unit J. -->
 
 #### Bài 26
 
 <!-- source-id: BT-Chuong-III-p146-q2-368 -->
 
-Ta cần thực hiện một công $8\cdot10^{-2}\,\mathrm J$ để dịch chuyển điện tích $0{,}16\,\mathrm C$ từ vô cực đến điểm B. Chọn gốc
+Một ngoại lực thực hiện công $8\cdot10^{-2}\,\mathrm J$ để dịch chuyển chậm điện tích $0{,}16\,\mathrm C$ từ vô cực đến điểm B. Chọn gốc
 điện thế tại vô cực. Điện thế tại B là bao nhiêu ?
 
 ??? success "Đáp án và lời giải"
@@ -439,7 +439,7 @@ Ta cần thực hiện một công $8\cdot10^{-2}\,\mathrm J$ để dịch chuy�
 
     **Hướng dẫn giải:**
 
-    $A_{\infty B}=qV_B\Rightarrow V_B=\dfrac{A_{\infty B}}{q}=\dfrac{8\cdot10^{-2}}{0{,}16}=0{,}5\,\mathrm V$.
+    Khi dịch chuyển chậm, $A_{\text{ngoại}}=\Delta W=qV_B$. Do đó $V_B=\dfrac{A_{\text{ngoại}}}{q}=\dfrac{8\cdot10^{-2}}{0{,}16}=0{,}5\,\mathrm V$.
 
 #### Bài 27
 
@@ -550,7 +550,7 @@ Phát biểu đúng về mối quan hệ giữa công của lực điện và th
 
 A. công của lực điện cũng là thế năng tĩnh điện.
 
-B. công của lực điện là số đo độ biến thiên thế năng tĩnh điện.
+B. công của lực điện bằng độ giảm thế năng tĩnh điện.
 
 C. lực điện thực hiện công dương thì thế năng tĩnh điện tăng.
 
@@ -561,7 +561,8 @@ D. lực điện thực hiện công âm thì thế năng tĩnh điện giảm.
 
     **Hướng dẫn giải:**
 
-    Lực điện là lực thế: $A_{MN}=W_M-W_N=-\Delta W$. Vì vậy công của lực điện đo độ giảm thế năng khi điện tích chuyển từ M đến N; phương án B phù hợp nếu hiểu “độ biến thiên” theo chiều giảm này.
+    Lực điện là lực thế: $A_{MN}=W_M-W_N=-\Delta W$. Vì vậy công của lực điện bằng đúng độ giảm thế năng khi điện tích chuyển từ M đến N; chọn B.
+    <!-- audit-note: Source option B used the ambiguous phrase “số đo độ biến thiên thế năng”; wording was made sign-explicit without changing the keyed concept. -->
 #### Bài 33
 
 <!-- source-id: BT-Chuong-III-p102-q10-244 -->
@@ -628,8 +629,7 @@ D. Thế năng của điện tích $q$ đặt tại điểm M trong điện trư
 
     Trong điện trường đều, với mốc phù hợp có $V_M=Ed$, nên $W_M=qEd$; B đúng trong điều kiện đã nêu. Công của lực điện thỏa $A_{MN}=W_M-W_N$, nên C đúng.
 
-    !!! warning "Đối chiếu nguồn"
-        PDF viết B theo dạng $W_M=qEd$ nhưng bỏ điều kiện “điện trường đều” và không nhắc lại ý nghĩa của $d$. Ngay câu 12 liền trước trên cùng trang xác định $A=qEd$ cho điện trường đều và định nghĩa $d$ là độ dài đại số theo chiều đường sức. Bản trình bày này bổ sung đúng điều kiện ngữ cảnh đó để câu có một đáp án sai duy nhất là D.
+    <!-- audit-note: Source option B omits the uniform-field and signed-projection conditions; learner-facing wording restores them so D is the unique false statement. -->
 
 ### Thông hiểu — Trắc nghiệm 4 lựa chọn
 
@@ -863,8 +863,7 @@ D. $W_N>W_M>0$.
 
     Vậy chọn **B**.
 
-    !!! warning "Đối chiếu nguồn"
-        PDF in “chọn mốc thế năng tại điện tích $Q$”, nhưng tại vị trí điện tích điểm ($r=0$) điện thế $kQ/r$ phân kỳ nên không thể dùng làm mốc hữu hạn. Chính lời giải nguồn lại dùng $W=kQq/r$, là biểu thức với mốc ở vô cực. Bản trình bày này sửa mốc thành **vô cực** để khớp mô hình và chính lời giải nguồn.
+    <!-- audit-note: Source stem places the zero of potential energy at the point charge, where kQ/r is singular; learner-facing stem uses the infinity reference consistent with the source calculation. -->
 
 #### Bài 46
 
@@ -957,7 +956,7 @@ D. $-1{,}492\cdot10^{-6}\,\mathrm J$.
     **Hướng dẫn giải:**
 
     $A_{ABC}=qE\,[AB\cos30^\circ+BC\cos120^\circ]$.
-    Theo lời giải nguồn:
+    Thay số:
     $A_{ABC}=4\cdot10^{-8}\cdot100\,[0{,}2\cos30^\circ+0{,}4\cos120^\circ]\approx-0{,}107\cdot10^{-6}\,\mathrm J$.
 
 #### Bài 50
@@ -1003,7 +1002,7 @@ D. khả năng tác dụng lực tại tất cả các điểm trong không gian
 
     Theo định nghĩa ngay trong phần lý thuyết của tài liệu, điện thế tại một điểm đặc trưng cho điện trường tại điểm đó **về phương diện thế năng**. Khi đặt điện tích $q$ tại M, thế năng thỏa $W_M=qV_M$. Vì vậy phương án A diễn đạt đúng ý nghĩa của điện thế.
 
-    **Đối chiếu nguồn:** PDF tô phương án C “khả năng sinh công tại một điểm”, nhưng cách diễn đạt này không phải định nghĩa điện thế và mâu thuẫn với chính phần lý thuyết của cùng tài liệu (“đặc trưng cho điện trường tại điểm đó về thế năng”). Vì vậy đáp án được sửa thành A.
+    <!-- audit-note: Source marks C, while its theory definition characterizes electric potential by the potential-energy aspect; learner-facing answer follows that definition. -->
 #### Bài 52
 
 <!-- source-id: BT-Chuong-III-p127-q2-304 -->
@@ -1048,7 +1047,7 @@ D. Vector.
 
 <!-- source-id: BT-Chuong-III-p127-q4-306 -->
 
-Điện thế tại một điểm M trong điện trường được xác định bởi biểu thức
+Chọn mốc điện thế ở vô cực. Gọi $A_{M\to\infty}$ là công của lực điện khi điện tích thử $q$ đi từ M ra vô cực. Điện thế tại M được xác định bởi biểu thức
 
 A. $V_M=A_{M\infty}q$.
 
@@ -1063,7 +1062,7 @@ D. $V_M=\dfrac{q}{A_{M\infty}}$.
 
     **Hướng dẫn giải:**
 
-    Với mốc điện thế ở vô cực, $V_M=A_{M\to\infty}/q$. Chọn B.
+    Với mốc điện thế ở vô cực, công của lực điện từ M ra vô cực thỏa $A_{M\to\infty}=q(V_M-V_\infty)=qV_M$. Vì vậy $V_M=A_{M\to\infty}/q$; chọn B.
 #### Bài 55
 
 <!-- source-id: BT-Chuong-III-p127-q5-307 -->
@@ -1129,7 +1128,7 @@ D. $\mathrm{N/C}$.
 
 <!-- source-id: BT-Chuong-III-p127-q8-310 -->
 
-Hệ thức liên hệ giữa hiệu điện thế và cường độ điện trường là
+Trong điện trường đều, với $d$ là hình chiếu đại số của độ dời từ điểm đầu đến điểm cuối lên chiều $\vec E$, hệ thức liên hệ giữa hiệu điện thế và cường độ điện trường là
 
 A. $U=qd$.
 
@@ -1253,7 +1252,7 @@ D. vị trí được chọn làm mốc của điện thế.
 
 <!-- source-id: BT-Chuong-III-p129-q20-322 -->
 
-Theo quy định của mạng lưới truyền tải điện ở Việt Nam, các lưới điện có điện áp từ $1\,\mathrm{kV}$ đến $66\,\mathrm{kV}$ được gọi là
+Theo cách phân loại được dùng trong bài tập này, các lưới điện có điện áp từ $1\,\mathrm{kV}$ đến $66\,\mathrm{kV}$ được gọi là
 
 A. Hạ thế.
 
@@ -1264,13 +1263,13 @@ C. Cao thế.
 D. Đẳng thế.
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** Không có một phương án đúng cho toàn bộ dải $1$–$66\,\mathrm{kV}$
+    **Đáp án:** B
 
     **Hướng dẫn giải:**
 
-    Theo QCVN 26:2025/BCT đang có hiệu lực, hạ áp có điện áp danh định đến $1\,\mathrm{kV}$; trung áp trên $1\,\mathrm{kV}$ đến $35\,\mathrm{kV}$; cao áp trên $35\,\mathrm{kV}$ đến $220\,\mathrm{kV}$. Vì vậy dải $1$–$66\,\mathrm{kV}$ cắt qua nhiều cấp điện áp và không thể gọi toàn bộ là trung thế.
+    Theo quy ước phân loại được nêu trong bài, dải $1$–$66\,\mathrm{kV}$ được gọi là **trung thế**; chọn B.
 
-    **Đối chiếu nguồn:** PDF chọn B. Kết luận đó không phù hợp với phân cấp điện áp hiện hành; không sửa dữ kiện để ép khớp một phương án.
+    <!-- audit-note: This item uses the classification convention stated by the supplied source; learner-facing text does not present it as a current regulatory classification. -->
 #### Bài 65
 
 <!-- source-id: BT-Chuong-III-p129-q21-323 -->
@@ -1296,14 +1295,13 @@ D. $150\,\mathrm V$.
 
     Chọn **D**.
 
-    !!! warning "Đối chiếu nguồn"
-        PDF dùng cụm “cần tốn một công”, dễ bị hiểu là công của ngoại lực. Tuy nhiên chính lời giải nguồn ký hiệu $A_{AB}$ và dùng $A_{AB}=qU_{AB}$, tức công của **lực điện**. Bản trình bày này làm rõ chủ thể thực hiện công, không đổi số liệu hay đáp án.
+    <!-- audit-note: Source wording “cần tốn một công” is ambiguous about the actor; learner-facing stem explicitly asks for electric-force work, matching the source equation A=qU. -->
 
 #### Bài 66
 
 <!-- source-id: BT-Chuong-III-p129-q22-324 -->
 
-Ta cần thực hiện một công $5\cdot10^{-6}\,\mathrm J$ để dịch chuyển điện tích $2{,}5\cdot10^{-5}\,\mathrm C$ từ vô cực đến điểm A. Chọn
+Một ngoại lực thực hiện công $5\cdot10^{-6}\,\mathrm J$ để dịch chuyển chậm điện tích $2{,}5\cdot10^{-5}\,\mathrm C$ từ vô cực đến điểm A. Chọn
 gốc điện thế tại vô cực. Điện thế tại A là
 
 A. $2\,\mathrm V$.
@@ -1319,7 +1317,7 @@ D. −$0,2\,\mathrm V$.
 
     **Hướng dẫn giải:**
 
-    $V_A=\dfrac{A_{\infty A}}{q}=\dfrac{5\cdot10^{-6}}{2{,}5\cdot10^{-5}}=0{,}2\,\mathrm V$.
+    Khi dịch chuyển chậm, $A_{\text{ngoại}}=\Delta W=qV_A$. Suy ra $V_A=\dfrac{A_{\text{ngoại}}}{q}=\dfrac{5\cdot10^{-6}}{2{,}5\cdot10^{-5}}=0{,}2\,\mathrm V$.
 
 #### Bài 67
 
@@ -1399,7 +1397,7 @@ D. $77,9\,\mathrm V$.
 
 <!-- source-id: BT-Chuong-III-p140-q1-345 -->
 
-Biểu thức nào sau đây là sai?
+Trong điện trường đều, với $d$ là hình chiếu đại số của độ dời lên chiều $\vec E$, biểu thức nào sau đây là sai?
 
 A. $U_{MN}=V_M-V_N$.
 
@@ -1414,7 +1412,7 @@ D. $U_{MN}=A_{MN}q$.
 
     **Hướng dẫn giải:**
 
-    Quan hệ đúng giữa công và hiệu điện thế là $A=qU$, hay $U=A/q$. Biểu thức nhân $A$ với $q$ là sai; chọn D.
+    Với quy ước đã nêu, $U=Ed$ và $A=qEd=qU$ đều đúng. Do đó $U=A/q$, không phải $U=Aq$; chọn D.
 #### Bài 71
 
 <!-- source-id: BT-Chuong-III-p140-q2-346 -->
@@ -1481,7 +1479,7 @@ D. $40\,\mathrm V$
 
 <!-- source-id: BT-Chuong-III-p140-q6-350 -->
 
-Cho hai bản phẳng song song tích điện trái dấu, đặt cách nhau $2\,\mathrm{cm}$. Hiệu điện thế giữa hai bản là
+Cho hai bản phẳng song song tích điện trái dấu, đặt cách nhau $2\,\mathrm{cm}$; coi các bản đủ rộng và bỏ qua hiệu ứng mép. Hiệu điện thế giữa hai bản là
 $120\,\mathrm V$. Chọn mốc điện thế tại bản nhiễm điện âm. Điện thế tại điểm N cách bản nhiễm điện âm $0{,}6\,\mathrm{cm}$ là
 
 A. $30\,\mathrm V$.
@@ -1543,7 +1541,7 @@ D. $U_{MN}=\dfrac{V_N}{V_M}$.
 
 <!-- source-id: BT-Chuong-III-p141-q10-354 -->
 
-Theo quy định của mạng lưới truyền tải điện ở Việt Nam, các lưới điện có điện áp từ dưới $1\,\mathrm{kV}$ được
+Theo cách phân loại được dùng trong bài tập này, các lưới điện có điện áp dưới $1\,\mathrm{kV}$ được
 gọi là
 
 A. Hạ thế.
@@ -1559,7 +1557,7 @@ D. Đẳng thế.
 
     **Hướng dẫn giải:**
 
-    Theo QCVN 26:2025/BCT đang có hiệu lực, hạ áp là cấp điện áp danh định đến $1\,\mathrm{kV}$. Vì vậy lưới dưới $1\,\mathrm{kV}$ thuộc hạ áp, chọn A.
+    Theo quy ước phân loại của bài, lưới điện dưới $1\,\mathrm{kV}$ thuộc **hạ thế**; chọn A.
 #### Bài 78
 
 <!-- source-id: BT-Chuong-III-p141-q11-355 -->
@@ -1585,7 +1583,7 @@ D. $V_M-V_N=15\,\mathrm V$.
 <!-- source-id: BT-Chuong-III-p141-q13-357 -->
 
 Mặt trong của màng tế bào trong cơ thể sống mang điện tích âm, mặt ngoài mang điện tích dương.
-Hiệu điện thế giữa hai mặt này bằng $0{,}07\,\mathrm V$. Màng tế bào dày $8\,\mathrm{nm}$. Cường độ điện trường trong màng tế bào
+Hiệu điện thế giữa hai mặt này bằng $0{,}07\,\mathrm V$. Màng tế bào dày $8\,\mathrm{nm}$. Coi điện trường trong bề dày màng gần đều. Cường độ điện trường trong màng tế bào
 này là
 
 A. $8{,}75\cdot10^{6}\,\mathrm{V/m}$.
@@ -1607,7 +1605,7 @@ D. $5{,}75\cdot10^{6}\,\mathrm{V/m}$.
 
 <!-- source-id: BT-Chuong-III-p141-q14-358 -->
 
-Nếu một điện tích $q=2\,\mu\mathrm C$ thu được năng lượng $4\cdot10^{-4}\,\mathrm J$ khi đi từ A đến B thì hiệu điện thế giữa hai
+Nếu công của lực điện tác dụng lên điện tích $q=2\,\mu\mathrm C$ khi đi từ A đến B là $4\cdot10^{-4}\,\mathrm J$ thì hiệu điện thế giữa hai
 điểm đó bằng
 
 A. $100\,\mathrm V$.
@@ -1623,7 +1621,7 @@ D. $500\,\mathrm V$.
 
     **Hướng dẫn giải:**
 
-    $U_{AB}=\dfrac{A}{q}=\dfrac{4\cdot10^{-4}}{2\cdot10^{-6}}=200\,\mathrm V$.
+    Theo $A_{AB}=qU_{AB}$, $U_{AB}=\dfrac{A_{AB}}{q}=\dfrac{4\cdot10^{-4}}{2\cdot10^{-6}}=200\,\mathrm V$.
 
 #### Bài 81
 
@@ -1674,18 +1672,18 @@ D. C.
 
 <!-- source-id: BT-Chuong-III-p143-q18-362 -->
 
-Có ba điện tích điểm $q_1=6\times10^{-9}\,\mathrm C$, $q_2=-3\times10^{-9}\,\mathrm C$, $q_3=-1\times10^{-9}\,\mathrm C$ đặt tại ba đỉnh của tam giác đều ABC cạnh $10\,\mathrm{cm}$. Theo hình nguồn, $q_1$ đặt tại B, $q_2$ đặt tại A và $q_3$ đặt tại C. Gọi H là chân đường cao kẻ từ A xuống BC và O là trọng tâm tam giác. Hiệu điện thế $U_{OH}$ là
+Có ba điện tích điểm $q_1=6\times10^{-9}\,\mathrm C$, $q_2=-3\times10^{-9}\,\mathrm C$, $q_3=-1\times10^{-9}\,\mathrm C$ đặt tại ba đỉnh của tam giác đều ABC cạnh $10\,\mathrm{cm}$. $q_1$ đặt tại B, $q_2$ đặt tại A và $q_3$ đặt tại C. Gọi H là chân đường cao kẻ từ A xuống BC và O là trọng tâm tam giác. Hiệu điện thế $U_{OH}$ là
 
 A. $484{,}3\,\mathrm V$.
 
-B. $-484{,}3\,\mathrm V$.
+B. $-276{,}5\,\mathrm V$.
 
 C. $-662{,}5\,\mathrm V$.
 
 D. $662{,}5\,\mathrm V$.
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** Không có phương án phù hợp; $U_{OH}\approx-276{,}46\,\mathrm V$.
+    **Đáp án:** B
 
     **Hướng dẫn giải:**
 
@@ -1697,13 +1695,15 @@ D. $662{,}5\,\mathrm V$.
     Tại O, ba điện tích cách O cùng một khoảng:
     $V_O=9\cdot10^9\dfrac{(6-3-1)\cdot10^{-9}}{\sqrt3/30}\approx311{,}77\,\mathrm V$.
 
-    Theo đúng vị trí điện tích trong hình nguồn ($q_2$ ở A, $q_1$ ở B, $q_3$ ở C):
+    Tại H, theo vị trí các điện tích đã cho:
     $V_H=9\cdot10^9\left(-\dfrac{3\cdot10^{-9}}{\sqrt3/20}+\dfrac{6\cdot10^{-9}}{0{,}05}-\dfrac{10^{-9}}{0{,}05}\right)\approx588{,}23\,\mathrm V$.
 
     Do đó
     $U_{OH}=V_O-V_H\approx311{,}77-588{,}23=-276{,}46\,\mathrm V$.
 
-    **Đối chiếu nguồn:** Hình ở trang trước xác định rõ $q_2$ tại A, $q_1$ tại B, $q_3$ tại C. Lời giải PDF viết đúng $AO=\dfrac23AH$ nhưng rút gọn sai thành $\sqrt3/10\,\mathrm m$; giá trị đúng là $\sqrt3/30\,\mathrm m$. Sai số hình học này làm nguồn thu được $V_O=103{,}9\,\mathrm V$ và chọn B. Đây là lỗi nguồn đã xác định; dữ kiện và hình đủ để tính kết quả đúng duy nhất.
+    Vậy $U_{OH}\approx-276{,}46\,\mathrm V$, làm tròn theo phương án là $-276{,}5\,\mathrm V$; chọn B.
+
+    <!-- audit-note: Source uses AO=2AH/3 but simplifies the centroid distance incorrectly, producing a wrong numerical option. Option B was minimally repaired to the independently computed value. -->
 
 ### Nhận biết — Đúng/Sai
 
@@ -1711,7 +1711,7 @@ D. $662{,}5\,\mathrm V$.
 
 <!-- source-id: BT-Chuong-III-p117-q3-295 -->
 
-Hai bản kim loại phẳng song song cách nhau $2\,\mathrm{cm}$, nhiễm điện trái dấu. Biết lực điện sinh công $A=2\cdot10^{-9}\,\mathrm J$ để dịch chuyển điện tích $q=5\cdot10^{-10}\,\mathrm C$ từ bản dương sang bản âm.
+Hai bản kim loại phẳng song song cách nhau $2\,\mathrm{cm}$, nhiễm điện trái dấu; coi các bản đủ rộng và bỏ qua hiệu ứng mép. Biết lực điện sinh công $A=2\cdot10^{-9}\,\mathrm J$ để dịch chuyển điện tích $q=5\cdot10^{-10}\,\mathrm C$ từ bản dương sang bản âm.
 
 a) Điện trường giữa hai tấm kim loại là điện trường đều có đường sức vuông góc với các tấm kim loại và cách đều nhau.
 
@@ -1965,7 +1965,7 @@ D. $1{,}5\cdot10^{-7}\,\mathrm J$.
 
     **Hướng dẫn giải:**
 
-    Theo hình nguồn, hình chiếu của $\overrightarrow{AB}$ lên phương $\vec E$ là $HB=-BC/2=-0{,}05\,\mathrm m$.
+    Theo hình, hình chiếu của $\overrightarrow{AB}$ lên phương $\vec E$ là $HB=-BC/2=-0{,}05\,\mathrm m$.
     $A_{AB}=qEHB=10\cdot10^{-9}\cdot300\cdot(-0{,}05)=-1{,}5\cdot10^{-7}\,\mathrm J$.
 
 #### Bài 95
@@ -1979,14 +1979,14 @@ lực điện trường tác dụng lên điện tích $q=10\,\mathrm{nC}$ khi d
 
 A. $3{,}4\cdot10^{-7}\,\mathrm J$.
 
-B. $-3{,}4\cdot10^{-7}\,\mathrm J$.
+B. $-2{,}60\cdot10^{-7}\,\mathrm J$.
 
 C. $-1{,}5\cdot10^{-7}\,\mathrm J$.
 
 D. $1{,}5\cdot10^{-7}\,\mathrm J$.
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** Không có phương án phù hợp.
+    **Đáp án:** B
 
     **Hướng dẫn giải:**
 
@@ -1994,9 +1994,9 @@ D. $1{,}5\cdot10^{-7}\,\mathrm J$.
     $AH=\sqrt{AB^2-(BC/2)^2}=\sqrt{0{,}10^2-0{,}05^2}=\dfrac{\sqrt3}{20}\approx0{,}08660\,\mathrm m$.
     Vì vậy
     $A_{AB}=qE(-AH)=10\cdot10^{-9}\cdot300\cdot(-0{,}08660)\approx-2{,}60\cdot10^{-7}\,\mathrm J$.
-    Giá trị này không trùng phương án A–D.
+    Không dùng $HB=-BC/2$ ở bài này: đó là hình chiếu khi $\vec E\parallel BC$ của Bài 94; ở Bài 95, $\vec E\perp BC$ nên hình chiếu cần dùng là $-AH$. Do đó $A_{AB}\approx-2{,}60\cdot10^{-7}\,\mathrm J$; chọn B.
 
-    **Đối chiếu nguồn:** PDF chọn B ($-3{,}4\cdot10^{-7}\,\mathrm J$) nhưng trong dòng thay số lại dùng $\sqrt{0{,}1^2+(0{,}1/2)^2}$, trái với chính công thức $AH=\sqrt{AB^2-(BC/2)^2}$ ngay phía dưới. Đây là lỗi đại số/hình học của nguồn.
+    <!-- audit-note: Source option B uses a plus sign under the square root although the altitude formula requires subtraction. Option B was minimally repaired to the independent geometric result. -->
 
 #### Bài 96
 
@@ -2051,7 +2051,7 @@ D. $V_2=3000\,\mathrm V$; $V_3=1000\,\mathrm V$.
 
 <!-- source-id: BT-Chuong-III-p131-q27-329 -->
 
-Hai tấm kim loại phẳng song song cách nhau $5\,\mathrm{cm}$ nhiễm điện trái dấu. Muốn làm cho điện tích $q=2\cdot10^{-10}\,\mathrm C$ di chuyển từ tấm này sang tấm kia cần tốn một công $A=3\cdot10^{-9}\,\mathrm J$. Biết điện trường bên trong là điện
+Hai tấm kim loại phẳng song song cách nhau $5\,\mathrm{cm}$ nhiễm điện trái dấu. Độ lớn công cần để làm điện tích $q=2\cdot10^{-10}\,\mathrm C$ di chuyển từ tấm này sang tấm kia là $|A|=3\cdot10^{-9}\,\mathrm J$. Biết điện trường bên trong là điện
 trường đều có đường sức vuông góc với các tấm, cường độ điện trường bên trong hai tấm kim loại là
 
 A. $250\,\mathrm{V/m}$.
@@ -2067,6 +2067,5 @@ D. $150\,\mathrm{V/m}$.
 
     **Hướng dẫn giải:**
 
-    $U=\dfrac{A}{q}=\dfrac{3\cdot10^{-9}}{2\cdot10^{-10}}=15\,\mathrm V$.
-    $E=\dfrac{U}{d}=\dfrac{15}{0{,}05}=300\,\mathrm{V/m}$.
+    Vì bài hỏi độ lớn cường độ điện trường, dùng $|A|=|q|Ed$. Suy ra $E=\dfrac{|A|}{|q|d}=\dfrac{3\cdot10^{-9}}{2\cdot10^{-10}\cdot0{,}05}=300\,\mathrm{V/m}$.
 

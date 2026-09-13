@@ -119,23 +119,17 @@ Dấu của q quyết định vật lệch **cùng chiều hay ngược chiều*
 
 ## 5. Điện trường thẳng đứng
 
-Nếu $\vec E$ thẳng đứng, lực điện cùng phương với trọng lực.
-
-Ta có thể dùng "gia tốc hiệu dụng" theo độ lớn:
+Nếu $\vec E$ thẳng đứng, lực điện cùng phương hoặc ngược phương với trọng lực. Cách an toàn nhất là gộp theo vectơ:
 
 $$
-g_{\text{eff}}=\left|g\pm\frac{qE}{m}\right|
+\vec g_{\text{eff}}=\vec g+\frac{q}{m}\vec E,
+\qquad
+g_{\text{eff}}=|\vec g_{\text{eff}}|.
 $$
 
-với dấu đại số phải xác định theo chiều trục đã chọn.
+Nếu chọn chiều dương thẳng đứng hướng xuống và gọi $E_y$ là thành phần đại số của điện trường theo trục đó thì $g_{\text{eff}}=|g+qE_y/m|$. Khi vật treo cân bằng theo phương của hợp lực ngoài, lực căng có độ lớn $T=mg_{\text{eff}}$.
 
-Nếu vật treo cân bằng thẳng đứng, lực căng:
-
-$$
-T=|mg\pm qE|.
-$$
-
-Trong bài con lắc đơn dao động nhỏ trong điện trường đều thẳng đứng, nếu mô hình cho phép gộp các lực không đổi theo phương thẳng đứng, chu kì có thể viết:
+Trong bài con lắc đơn dao động nhỏ trong điện trường đều thẳng đứng, nếu $g_{\text{eff}}>0$ và các lực ngoài không đổi theo vị trí trong miền dao động, chu kì có thể viết:
 
 $$
 T_{\text{dao động}}=2\pi\sqrt{\frac{\ell}{g_{\text{eff}}}}.
@@ -155,7 +149,7 @@ $$
 g_{\text{eff}}=\frac{F_0}{m}=\sqrt{g^2+\left(\frac{qE}{m}\right)^2}.
 $$
 
-Vị trí cân bằng mới nằm theo hướng ngược hợp lực tác dụng ngoài. Dao động nhỏ quanh vị trí này có chu kì:
+Ở cân bằng, dây có phương của hợp lực $m\vec g+q\vec E$; vectơ từ điểm treo đến vật **cùng hướng** với hợp lực ngoài, còn lực căng dây ngược hướng hợp lực đó. Dao động nhỏ quanh vị trí này có chu kì:
 
 $$
 T=2\pi\sqrt{\frac{\ell}{g_{\text{eff}}}}.

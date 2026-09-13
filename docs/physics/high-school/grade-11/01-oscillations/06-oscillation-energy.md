@@ -65,19 +65,19 @@ $$
 
 ## 3. Thế năng trong mô hình dao động điều hòa
 
-Đối với con lắc lò xo khi lấy mốc thích hợp tại vị trí cân bằng:
+Trong mô hình dao động điều hòa tuyến tính, nếu chọn mốc thế năng của **hệ dao động** tại vị trí cân bằng thì
 
 $$
-\boxed{W_t=\frac12kx^2}.
+\boxed{W_t=\frac12m\omega^2x^2}.
 $$
 
-Do $k=m\omega^2$:
+Với con lắc lò xo, $m\omega^2=k$ nên
 
 $$
-W_t=\frac12m\omega^2x^2.
+W_t=\frac12kx^2.
 $$
 
-Với con lắc đơn góc nhỏ, biểu thức gần đúng cũng có cấu trúc bậc hai theo li độ góc hoặc li độ dài.
+Với con lắc lò xo nằm ngang có vị trí cân bằng trùng chiều dài tự nhiên, đây là thế năng đàn hồi. Với con lắc treo thẳng đứng, biểu thức này là phần thế năng biến thiên của hệ quanh vị trí cân bằng sau khi gộp thế năng đàn hồi và thế năng trọng trường. Với con lắc đơn góc nhỏ, biểu thức gần đúng cũng có cấu trúc bậc hai theo li độ góc hoặc li độ dài.
 
 ## 4. Cơ năng
 

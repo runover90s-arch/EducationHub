@@ -26,9 +26,9 @@ Chọn **D**. Với lò xo đều, $k$ tỉ lệ nghịch chiều dài. Đoạn 
 Chọn **A**. $k_{nt}=k_1k_2/(k_1+k_2)=60\cdot30/90=20\,\mathrm{N/m}$.
 
 ## Bài 5
-a) **Đúng.** về vị trí cân bằng tĩnh.
+a) **Đúng.** Khi vật ở vị trí cân bằng, độ dãn của lò xo là $\Delta\ell_0$, nên độ lớn lực đàn hồi là $k\Delta\ell_0=mg$.
 
-b) **Đúng.** Ở vị trí cân bằng tĩnh, lực đàn hồi $k\Delta\ell_0$ cân bằng trọng lực $mg$.
+b) **Đúng.** Điều kiện cân bằng theo phương thẳng đứng cho $k\Delta\ell_0=mg$.
 
 c) **Đúng.** li độ lên trên đủ lớn làm chiều dài nhỏ hơn chiều dài tự nhiên.
 

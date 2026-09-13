@@ -88,7 +88,7 @@ Nếu q âm, a có dấu âm trên trục này.
 
 ## 4. Phương pháp năng lượng
 
-Nếu hạt đi từ M đến N:
+Nếu hạt đi từ M đến N và trong quãng đó **chỉ lực điện thực hiện công** (hoặc tổng công của các lực khác bằng 0):
 
 $$
 K_N-K_M=qU_{MN}.
@@ -240,7 +240,7 @@ Hạt q dương bay ngang vào trường E hướng lên. Quỹ đạo cong lên
 - $\vec a=q\vec E/m$.
 - Song song E → chuyển động thẳng biến đổi đều.
 - Vuông góc E → parabol.
-- Năng lượng: $\Delta K=qU_{MN}$.
+- Khi chỉ lực điện sinh công: $\Delta K=qU_{MN}$.
 - Sau khi ra khỏi vùng E, hạt đi thẳng đều nếu không còn lực.
 
 ## 5 điều cần nhớ
@@ -269,7 +269,7 @@ Bài toán tương tự ném ngang nhưng gia tốc do lực điện quyết đ�
 
 ### Dạng 3 — Tìm vận tốc của điện tích trong điện trường đều từ điện thế
 
-Dùng định lí động năng hoặc bảo toàn năng lượng điện–động: $\Delta W_đ=A_{điện}=q(V_A-V_B)$. Công thức này đặc biệt hiệu quả khi đề cho hiệu điện thế nhưng không cho khoảng cách hay thời gian.
+Khi chỉ lực điện sinh công (hoặc công các lực khác bằng 0), dùng định lí động năng hoặc bảo toàn năng lượng điện–động: $\Delta W_đ=A_{điện}=q(V_A-V_B)$. Công thức này đặc biệt hiệu quả khi đề cho hiệu điện thế nhưng không cho khoảng cách hay thời gian.
 
 Giữ dấu của $q$ để biết động năng tăng hay giảm; nếu biểu thức cho $v^2&lt;0$ thì trạng thái giả định không thể đạt được.
 

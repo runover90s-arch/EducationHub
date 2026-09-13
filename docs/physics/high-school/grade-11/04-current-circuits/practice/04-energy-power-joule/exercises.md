@@ -166,7 +166,7 @@ Một bếp điện truyền $1,5\cdot10^6\,\mathrm J$ nhiệt hữu ích cho n�
 
 <!-- source-id: BT-Chuong-IV-p105-q1-315 -->
 
-Dữ kiện nguồn cho Bài 11–14: một trường có $20$ phòng học; trung bình mỗi phòng sử dụng thiết bị điện $10$ giờ mỗi ngày với công suất tiêu thụ $500\,\mathrm W$.
+Dữ kiện chung cho Bài 11–14: một trường có $20$ phòng học; trung bình mỗi phòng sử dụng thiết bị điện $10$ giờ mỗi ngày với công suất tiêu thụ $500\,\mathrm W$.
 
 Công suất điện tiêu thụ trung bình của trường học trên là bao nhiêu kW?
 
@@ -180,7 +180,7 @@ Công suất điện tiêu thụ trung bình của trường học trên là bao
 
 <!-- source-id: BT-Chuong-IV-p105-q2-316 -->
 
-Dữ kiện nguồn cho Bài 11–14: một trường có $20$ phòng học; trung bình mỗi phòng sử dụng thiết bị điện $10$ giờ mỗi ngày với công suất tiêu thụ $500\,\mathrm W$.
+Dữ kiện chung cho Bài 11–14: một trường có $20$ phòng học; trung bình mỗi phòng sử dụng thiết bị điện $10$ giờ mỗi ngày với công suất tiêu thụ $500\,\mathrm W$.
 
 Năng lượng điện tiêu thụ của trường học trên 30 ngày là bao nhiêu kWh?
 
@@ -194,7 +194,7 @@ Năng lượng điện tiêu thụ của trường học trên 30 ngày là bao 
 
 <!-- source-id: BT-Chuong-IV-p105-q3-317 -->
 
-Dữ kiện nguồn cho Bài 11–14: một trường có $20$ phòng học; trung bình mỗi phòng sử dụng thiết bị điện $10$ giờ mỗi ngày với công suất tiêu thụ $500\,\mathrm W$.
+Dữ kiện chung cho Bài 11–14: một trường có $20$ phòng học; trung bình mỗi phòng sử dụng thiết bị điện $10$ giờ mỗi ngày với công suất tiêu thụ $500\,\mathrm W$.
 
 Tiền điện của trường học trên phải trả trong 30 ngày với giá điện 2000 đ/kWh là bao nhiêu
 triệu đồng?
@@ -209,7 +209,7 @@ triệu đồng?
 
 <!-- source-id: BT-Chuong-IV-p105-q4-318 -->
 
-Dữ kiện nguồn cho Bài 11–14: một trường có $20$ phòng học; trung bình mỗi phòng sử dụng thiết bị điện $10$ giờ mỗi ngày với công suất tiêu thụ $500\,\mathrm W$.
+Dữ kiện chung cho Bài 11–14: một trường có $20$ phòng học; trung bình mỗi phòng sử dụng thiết bị điện $10$ giờ mỗi ngày với công suất tiêu thụ $500\,\mathrm W$.
 
 Nếu tại các phòng học của trường học trên, các bạn học sinh đều có ý thức tiết kiệm điện bằng
 cách tắt các thiết bị điện khi không sử dụng. Thời gian dùng các thiết bị điện ở mỗi phòng học chỉ
@@ -226,7 +226,7 @@ tháng 30 ngày) là bao nhiêu triệu đồng?
 
 <!-- source-id: BT-Chuong-IV-p105-q5-319 -->
 
-Dữ kiện nguồn cho Bài 15–16: bình nóng lạnh hoạt động ở hiệu điện thế $230\,\mathrm V$ với công suất $9{,}5\,\mathrm{kW}$.
+Dữ kiện chung cho Bài 15–16: bình nóng lạnh hoạt động ở hiệu điện thế $230\,\mathrm V$ với công suất $9{,}5\,\mathrm{kW}$.
 
 Cường độ dòng điện qua bình nóng lạnh là bao nhiêu A? (Kết quả làm tròn đến 3 chữ số có
 nghĩa)
@@ -241,7 +241,7 @@ nghĩa)
 
 <!-- source-id: BT-Chuong-IV-p105-q6-320 -->
 
-Dữ kiện nguồn cho Bài 15–16: bình nóng lạnh hoạt động ở hiệu điện thế $230\,\mathrm V$ với công suất $9{,}5\,\mathrm{kW}$.
+Dữ kiện chung cho Bài 15–16: bình nóng lạnh hoạt động ở hiệu điện thế $230\,\mathrm V$ với công suất $9{,}5\,\mathrm{kW}$.
 
 Giả sử mỗi ngày, một gia đình sử dụng bình nóng lạnh trong 90 phút. Nếu giá bản điện là 2
 500 đồng/kWh thì số tiền gia đình phải trả mỗi ngày để sử dụng bình nóng lạnh là bao nhiêu triệu
@@ -254,13 +254,11 @@ Giả sử mỗi ngày, một gia đình sử dụng bình nóng lạnh trong 90
 
     Đổi $90$ phút $=1{,}5\,\mathrm h$. Điện năng mỗi ngày: $A=Pt=9{,}5\cdot1{,}5=14{,}25\,\mathrm{kWh}$. Chi phí: $14{,}25\cdot2500=35\,625$ đồng $=0{,}035625$ triệu đồng, làm tròn 3 chữ số có nghĩa được $0{,}0356$ triệu đồng/ngày.
 
-    !!! warning "Đối chiếu nguồn"
-        PDF ghi $1{,}07$ triệu đồng; giá trị đó xấp xỉ chi phí **30 ngày** ($35\,625\cdot30=1\,068\,750$ đồng), trong khi câu hỏi in trong PDF hỏi chi phí **mỗi ngày**. Bản này giữ đúng đại lượng được hỏi.
 #### Bài 17
 
 <!-- source-id: BT-Chuong-IV-p112-q1-343 -->
 
-Dữ kiện nguồn cho Bài 17–19: ấm nhôm khối lượng $0{,}4\,\mathrm{kg}$ chứa $2\,\mathrm{kg}$ nước ở $20^\circ\mathrm C$; $c_{\text{nước}}=4200\,\mathrm{J/(kg\cdot K)}$, $c_{\text{Al}}=880\,\mathrm{J/(kg\cdot K)}$; $27{,}1\%$ nhiệt lượng tỏa ra môi trường.
+Dữ kiện chung cho Bài 17–19: ấm nhôm khối lượng $0{,}4\,\mathrm{kg}$ chứa $2\,\mathrm{kg}$ nước ở $20^\circ\mathrm C$; $c_{\text{nước}}=4200\,\mathrm{J/(kg\cdot K)}$, $c_{\text{Al}}=880\,\mathrm{J/(kg\cdot K)}$; $27{,}1\%$ nhiệt lượng tỏa ra môi trường.
 
 Nhiệt lượng cần để tăng nhiệt độ của ấm nhôm từ 20°C tới 100°C là bao nhiêu kJ? (Kết quả
 làm tròn đến 3 chữ số có nghĩa)
@@ -275,7 +273,7 @@ làm tròn đến 3 chữ số có nghĩa)
 
 <!-- source-id: BT-Chuong-IV-p112-q2-344 -->
 
-Dữ kiện nguồn cho Bài 17–19: ấm nhôm khối lượng $0{,}4\,\mathrm{kg}$ chứa $2\,\mathrm{kg}$ nước ở $20^\circ\mathrm C$; $c_{\text{nước}}=4200\,\mathrm{J/(kg\cdot K)}$, $c_{\text{Al}}=880\,\mathrm{J/(kg\cdot K)}$; $27{,}1\%$ nhiệt lượng tỏa ra môi trường.
+Dữ kiện chung cho Bài 17–19: ấm nhôm khối lượng $0{,}4\,\mathrm{kg}$ chứa $2\,\mathrm{kg}$ nước ở $20^\circ\mathrm C$; $c_{\text{nước}}=4200\,\mathrm{J/(kg\cdot K)}$, $c_{\text{Al}}=880\,\mathrm{J/(kg\cdot K)}$; $27{,}1\%$ nhiệt lượng tỏa ra môi trường.
 
 Nhiệt lượng cần để tăng nhiệt độ của nước từ 20°C tới 100°C là bao nhiêu kJ? (Kết quả làm
 tròn đến 3 chữ số có nghĩa)
@@ -290,7 +288,7 @@ tròn đến 3 chữ số có nghĩa)
 
 <!-- source-id: BT-Chuong-IV-p112-q3-345 -->
 
-Dữ kiện nguồn cho Bài 17–19: ấm nhôm khối lượng $0{,}4\,\mathrm{kg}$ chứa $2\,\mathrm{kg}$ nước ở $20^\circ\mathrm C$; $c_{\text{nước}}=4200\,\mathrm{J/(kg\cdot K)}$, $c_{\text{Al}}=880\,\mathrm{J/(kg\cdot K)}$; $27{,}1\%$ nhiệt lượng tỏa ra môi trường.
+Dữ kiện chung cho Bài 17–19: ấm nhôm khối lượng $0{,}4\,\mathrm{kg}$ chứa $2\,\mathrm{kg}$ nước ở $20^\circ\mathrm C$; $c_{\text{nước}}=4200\,\mathrm{J/(kg\cdot K)}$, $c_{\text{Al}}=880\,\mathrm{J/(kg\cdot K)}$; $27{,}1\%$ nhiệt lượng tỏa ra môi trường.
 
 Muốn đun sôi lượng nước đó trong 16 phút thì ấm phải có công suất là bao nhiêu W? (Kết
 quả làm tròn đến 4 chữ số có nghĩa)
@@ -305,7 +303,7 @@ quả làm tròn đến 4 chữ số có nghĩa)
 
 <!-- source-id: BT-Chuong-IV-p112-q4-346 -->
 
-Dữ kiện nguồn cho Bài 20–21: đèn pin dùng hai pin mắc nối tiếp; mỗi pin có suất điện động $1{,}50\,\mathrm V$, điện trở trong lần lượt $r_1=0{,}255\,\Omega$, $r_2=0{,}153\,\Omega$; khi đóng công tắc, dòng qua bóng đèn là $I=0{,}600\,\mathrm A$.
+Dữ kiện chung cho Bài 20–21: đèn pin dùng hai pin mắc nối tiếp; mỗi pin có suất điện động $1{,}50\,\mathrm V$, điện trở trong lần lượt $r_1=0{,}255\,\Omega$, $r_2=0{,}153\,\Omega$; khi đóng công tắc, dòng qua bóng đèn là $I=0{,}600\,\mathrm A$.
 
 Điện trở của bóng đèn pin là bao nhiêu Ω? (Kết quả làm tròn sau
 dấu phẩy hai chữ số thập phân)
@@ -320,7 +318,7 @@ dấu phẩy hai chữ số thập phân)
 
 <!-- source-id: BT-Chuong-IV-p113-q5-347 -->
 
-Dữ kiện nguồn cho Bài 20–21: đèn pin dùng hai pin mắc nối tiếp; mỗi pin có suất điện động $1{,}50\,\mathrm V$, điện trở trong lần lượt $r_1=0{,}255\,\Omega$, $r_2=0{,}153\,\Omega$; khi đóng công tắc, dòng qua bóng đèn là $I=0{,}600\,\mathrm A$.
+Dữ kiện chung cho Bài 20–21: đèn pin dùng hai pin mắc nối tiếp; mỗi pin có suất điện động $1{,}50\,\mathrm V$, điện trở trong lần lượt $r_1=0{,}255\,\Omega$, $r_2=0{,}153\,\Omega$; khi đóng công tắc, dòng qua bóng đèn là $I=0{,}600\,\mathrm A$.
 
 Công suất chuyển năng lượng ở điện trở trong (thành nội năng trong pin) là bao nhiêu W?
 (Kết quả làm tròn sau dấu phẩy hai chữ số thập phân)
@@ -495,7 +493,7 @@ D. $12\,\mathrm W$.
 
 <!-- source-id: BT-Chuong-IV-p97-q31-293 -->
 
-Người ta dùng số ampe-giờ (Ah) để biểu diễn năng lượng lưu trữ của pin hoặc acquy. Một
+Người ta dùng số ampe-giờ (Ah) để biểu diễn dung lượng điện của pin hoặc acquy. Một
 acquy 60 Ah có thể cung cấp dòng điện có cường độ $60\,\mathrm A$ trong 1 giờ hoặc $30\,\mathrm A$ trong 2 giờ. Năng
 lượng được lưu trữ trong acquy ô tô $12\,\mathrm V$, 80 Ah là
 
@@ -602,7 +600,7 @@ D. $R_1=6\,\Omega$, $R_2=24\,\Omega$.
 
 Một ắc-quy phát dòng $I_1=15\,\mathrm A$ thì công suất mạch ngoài $P_1=136\,\mathrm W$; khi phát dòng $I_2=6\,\mathrm A$ thì công suất mạch ngoài $P_2=64{,}8\,\mathrm W$. Suất điện động và điện trở trong của ắc-quy là
 
-A. $\mathcal E=12\,\mathrm V$, $r=0{,}9\,\Omega$.
+A. $\mathcal E\approx11{,}96\,\mathrm V$, $r\approx0{,}193\,\Omega$.
 
 B. $\mathcal E=10\,\mathrm V$, $r=1{,}1\,\Omega$.
 
@@ -611,24 +609,13 @@ C. $\mathcal E=12\,\mathrm V$, $r=1{,}1\,\Omega$.
 D. $\mathcal E=10\,\mathrm V$, $r=0{,}9\,\Omega$.
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** Không có phương án nào đúng hoàn toàn.
+    **Đáp án:** A
 
     **Hướng dẫn giải:**
 
-    Với nguồn phát điện, công suất mạch ngoài là $P=(\mathcal E-Ir)I$.
+    Với nguồn phát điện, công suất mạch ngoài là $P=(\mathcal E-Ir)I$. Từ hai trạng thái: $136=(\mathcal E-15r)15$ và $64{,}8=(\mathcal E-6r)6$.
 
-    Từ hai trạng thái:
-
-    $136=(\mathcal E-15r)15$,
-
-    $64{,}8=(\mathcal E-6r)6$.
-
-    Giải hệ được $r=26/135\,\Omega\approx0{,}193\,\Omega$ và $\mathcal E=538/45\,\mathrm V\approx11{,}96\,\mathrm V$.
-
-    Giá trị $\mathcal E$ gần $12\,\mathrm V$ nhưng $r$ không gần $0{,}9\,\Omega$ hay $1{,}1\,\Omega$, nên không phương án nào đúng.
-
-    !!! warning "Đối chiếu nguồn"
-        Chính lời giải PDF cũng thu được $r=26/135\,\Omega$ nhưng sau đó ghi sai $r\approx0{,}9\,\Omega$ và tô A. Bản trình bày này giữ nghiệm chính xác của hệ phương trình và không ép chọn phương án sai.
+    Giải hệ được $r=26/135\,\Omega\approx0{,}193\,\Omega$ và $\mathcal E=538/45\,\mathrm V\approx11{,}96\,\mathrm V$. Hai giá trị này khớp phương án A sau khi làm tròn. Chọn **A**.
 
 #### Bài 34
 
@@ -920,21 +907,18 @@ giờ, thì điện năng tiêu thụ của bóng đèn là
 
 A. $500\,\mathrm{Wh}$.
 
-B. $1800\,\mathrm{kJ}$.
+B. $180\,\mathrm{kJ}$.
 
 C. $500\,\mathrm{kJ}$.
 
 D. $1800\,\mathrm{Wh}$.
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** A theo nguồn; B có cùng giá trị vật lí
+    **Đáp án:** A
 
     **Hướng dẫn giải:**
 
-    $A=Pt=100\,\mathrm W\cdot5\,\mathrm h=500\,\mathrm{Wh}$. Mà $500\,\mathrm{Wh}=1800\,\mathrm{kJ}$, nên A và B biểu diễn cùng một điện năng.
-
-    !!! warning "Đối chiếu nguồn"
-        PDF chọn A nhưng giữ đồng thời B = $1800\,\mathrm{kJ}$; hai lựa chọn tương đương. Bản này giữ nguyên phương án nguồn và nêu rõ tính không đơn trị.
+    $A=Pt=100\,\mathrm W\cdot5\,\mathrm h=500\,\mathrm{Wh}=1800\,\mathrm{kJ}$. Trong các phương án hiện có, chọn **A**.
 #### Bài 46
 
 <!-- source-id: BT-Chuong-IV-p107-q3-323 -->
@@ -1002,13 +986,13 @@ D. giảm 4 lần.
 
     **Hướng dẫn giải:**
 
-    P = U2 / R nên U tăng 2 thì P tăng 4.
+    Với điện trở $R$ không đổi, $P=U^2/R$. Vì vậy khi $U$ tăng 2 lần thì $P$ tăng 4 lần.
 
 #### Bài 49
 
 <!-- source-id: BT-Chuong-IV-p107-q6-326 -->
 
-Một bóng đèn có ghi $220\,\mathrm V$ – $60\,\mathrm W$. Nếu mắc bóng đèn vào hiệu điện thế $110\,\mathrm V$ thì công suất
+Một bóng đèn có ghi $220\,\mathrm V$ – $60\,\mathrm W$. Coi điện trở của bóng đèn không đổi. Nếu mắc bóng đèn vào hiệu điện thế $110\,\mathrm V$ thì công suất
 tiêu thụ của bóng đèn là
 
 A. $60\,\mathrm W$.
@@ -1024,8 +1008,9 @@ D. $45\,\mathrm W$.
 
     **Hướng dẫn giải:**
 
-    Công suất tỉ lệ thuận với bình phương hiệu điện thế, nên khi giảm hiệu điện thế đi 2 lần thì công
-    suất giảm đi 4 lần: P' = P/4 = 60/4 = $15\,\mathrm W$
+    Với điện trở được coi là không đổi, $P=U^2/R$. Khi giảm hiệu điện thế 2 lần, công suất giảm 4 lần:
+
+    $P'=P/4=60/4=15\,\mathrm W$.
 
 #### Bài 50
 
@@ -1049,8 +1034,6 @@ D. tăng 4 lần.
 
     Với điện trở thuần và cùng $R,t$, $Q=I^2Rt$. Nếu $I$ giảm 2 lần thì $Q$ giảm $2^2=4$ lần. Chọn B.
 
-    !!! warning "Đối chiếu nguồn"
-        PDF tô B và phép tính độc lập cũng cho B. Đáp án C ở bản trước không khớp với phép tính.
 #### Bài 51
 
 <!-- source-id: BT-Chuong-IV-p108-q9-329 -->
@@ -1097,9 +1080,9 @@ D. năng lượng cơ học, năng lượng nhiệt và năng lượng ánh sán
 
 Trong các nhận xét sau về công suất điện của một đoạn mạch, nhận xét nào không đúng?
 
-A. Công suất tỉ lệ thuận với hiệu điện thế hai đầu mạch.
+A. Khi cường độ dòng điện không đổi, công suất tỉ lệ thuận với hiệu điện thế hai đầu mạch.
 
-B. Công suất tỉ lệ thuận với cường độ dòng điện chạy qua mạch.
+B. Khi hiệu điện thế không đổi, công suất tỉ lệ thuận với cường độ dòng điện chạy qua mạch.
 
 C. Công suất tỉ lệ nghịch với thời gian dòng điện chạy qua mạch.
 
@@ -1110,7 +1093,7 @@ D. Công suất có đơn vị là oát (W).
 
     **Hướng dẫn giải:**
 
-    $P=A/t=UI$. Công suất không phải là đại lượng tỉ lệ nghịch với thời gian dòng điện chạy qua khi trạng thái điện của đoạn mạch đã cho. Nhận xét C sai.
+    Từ $P=UI$, nếu giữ $I$ không đổi thì $P$ tỉ lệ với $U$; nếu giữ $U$ không đổi thì $P$ tỉ lệ với $I$. Công suất không phải là đại lượng tỉ lệ nghịch với thời gian dòng điện chạy qua khi trạng thái điện của đoạn mạch đã cho. Vì vậy C sai.
 #### Bài 54
 
 <!-- source-id: BT-Chuong-IV-p108-q12-332 -->
@@ -1727,7 +1710,7 @@ D. tăng 2 lần.
 
     **Hướng dẫn giải:**
 
-    P = U2/R, khi U không đổi R giảm 2 lần thì P tăng 2 lần.
+    Với $U$ không đổi, $P=U^2/R$. Khi $R$ giảm 2 lần thì $P$ tăng 2 lần.
 
 #### Bài 81
 
@@ -1749,7 +1732,7 @@ D. giảm hiệu điện thế 4 lần.
 
     **Hướng dẫn giải:**
 
-    P = U2/R, khi R không đổi để P tăng 4 lần thì U tăng 2 lần.
+    Với $R$ không đổi, $P=U^2/R$. Để $P$ tăng 4 lần thì $U$ phải tăng 2 lần.
 
 #### Bài 82
 
@@ -1805,21 +1788,18 @@ trong một ngày là
 
 A. $1{,}175\,\mathrm{kWh}$.
 
-B. $1175\,\mathrm{Wh}$.
+B. $117{,}5\,\mathrm{Wh}$.
 
 C. $1150\,\mathrm{kJ}$.
 
 D. $1510\,\mathrm{kJ}$.
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** A theo nguồn; B có cùng giá trị vật lí
+    **Đáp án:** A
 
     **Hướng dẫn giải:**
 
-    Tổng công suất $P=2\cdot40+75+80=235\,\mathrm W$. Trong $5\,\mathrm h$, $A=235\cdot5=1175\,\mathrm{Wh}=1{,}175\,\mathrm{kWh}$. Do đó A và B là hai cách viết cùng một giá trị.
-
-    !!! warning "Đối chiếu nguồn"
-        PDF nguồn có đồng thời A = $1{,}175\,\mathrm{kWh}$ và B = $1175\,\mathrm{Wh}$. Hai phương án tương đương. Bản trước đã đổi B thành $117{,}5\,\mathrm{Wh}$; bản này khôi phục đúng phương án PDF và không ép câu thành đơn đáp án.
+    Tổng công suất $P=2\cdot40+75+80=235\,\mathrm W$. Trong $5\,\mathrm h$, điện năng tiêu thụ là $A=235\cdot5=1175\,\mathrm{Wh}=1{,}175\,\mathrm{kWh}$. Chọn **A**.
 #### Bài 85
 
 <!-- source-id: BT-Chuong-IV-p96-q21-283 -->
@@ -1883,4 +1863,5 @@ D. $7\,\mathrm{kWh}$.
     **Hướng dẫn giải:**
 
     Điện năng mà bóng đèn tiêu thụ trong 30 ngày:
-    A = UIt = 220.0,2.30.4.60.60 = $19008000\,\mathrm J=5,28\,\mathrm{kWh}$
+
+    $A=UIt=220\cdot0{,}2\cdot30\cdot4\cdot3600=19\,008\,000\,\mathrm J=5{,}28\,\mathrm{kWh}$.

@@ -93,7 +93,7 @@ d) Nếu vận tốc đầu vuông góc E, một thành phần chuyển động 
 
     b) **Đúng.** Từ $\vec a=\vec F/m=q\vec E/m$, với $q,m$ và điện trường đều không đổi thì gia tốc là hằng số.
 
-    c) **Sai.** trừ trường hợp q=0; hạt mang điện chịu gia tốc.
+    c) **Sai.** Với hạt mang điện ($q\ne0$), lực điện $\vec F=q\vec E$ khác không nên hạt có gia tốc; vì vậy chuyển động không đều.
 
     d) **Đúng.** Lực điện chỉ gây gia tốc theo hướng $\vec E$; thành phần vận tốc vuông góc $\vec E$ giữ không đổi còn thành phần song song biến đổi đều.
 
@@ -207,8 +207,6 @@ Hai bản kim loại có kích thước lớn và bằng nhau, đặt song song 
     $0{,}12=\dfrac12\dfrac{1{,}6\cdot10^{-19}}{9{,}1\cdot10^{-31}}\dfrac{48}{0{,}24}t^2$,
     suy ra $t=8{,}26\cdot10^{-8}\,\mathrm s=82{,}6\,\mathrm{ns}$.
 
-    !!! warning "Đối chiếu nguồn"
-        PDF in $m_e=9{,}1\times10^{-19}\,\mathrm{kg}$ trong câu dẫn, nhưng chính phép tính của nguồn dùng $9{,}1\times10^{-31}\,\mathrm{kg}$. Giá trị $10^{-31}\,\mathrm{kg}$ được dùng ở đây để nhất quán với khối lượng electron và với đáp án của bài.
 
 #### Bài 13
 
@@ -236,8 +234,6 @@ Hai bản kim loại có kích thước lớn và bằng nhau, đặt song song,
     Tầm xa theo phương $Ox$ là
     $x=v_0t=200\cdot8{,}26\cdot10^{-8}=1{,}652\cdot10^{-5}\,\mathrm m=16{,}5\,\mu\mathrm m$.
 
-    !!! warning "Đối chiếu nguồn"
-        PDF in $m_e=9{,}1\times10^{-19}\,\mathrm{kg}$ trong câu dẫn, nhưng chính phép tính của nguồn dùng $9{,}1\times10^{-31}\,\mathrm{kg}$. Giá trị $10^{-31}\,\mathrm{kg}$ được dùng ở đây để nhất quán với khối lượng electron và với đáp án của bài.
 
 #### Bài 14
 
@@ -451,7 +447,7 @@ U trong trường hợp này có độ lớn bằng bao nhiêu kV?
 
 Hai bản kim loại phẳng nằm ngang song song cách nhau $10\,\mathrm{cm}$ có hiệu điện thế giữa hai bản là $100\,\mathrm V$. Một êlectrôn chuyển động dọc theo đường sức về bản âm. Biết điện trường giữa hai bản là điện trường đều và bỏ qua tác dụng của trọng lực. Gia tốc của nó bằng
 
-A. $-1{,}76\cdot10^{13}\,\mathrm{m/s^2}$.
+A. $-1{,}76\cdot10^{14}\,\mathrm{m/s^2}$.
 
 B. $1{,}59\cdot10^{13}\,\mathrm{m/s^2}$.
 
@@ -460,7 +456,7 @@ C. $-2{,}76\cdot10^{13}\,\mathrm{m/s^2}$.
 D. $1{,}52\cdot10^{13}\,\mathrm{m/s^2}$.
 
 ??? success "Đáp án và lời giải"
-    **Đáp án sau kiểm tra:** Không có phương án in sẵn nào đúng.
+    **Đáp án:** A
 
     **Hướng dẫn giải:**
 
@@ -470,8 +466,6 @@ D. $1{,}52\cdot10^{13}\,\mathrm{m/s^2}$.
     Chọn chiều dương cùng chiều $\vec E$. Vì electron mang điện âm,
     $a=\dfrac{qE}{m_e}=\dfrac{-1{,}6\times10^{-19}\cdot1000}{9{,}1\times10^{-31}}\approx-1{,}76\times10^{14}\,\mathrm{m/s^2}$.
 
-    !!! warning "Đối chiếu nguồn"
-        Các phương án của PDF đều ghi bậc $10^{13}\,\mathrm{m/s^2}$, trong khi dữ kiện $U=100\,\mathrm V$, $d=10\,\mathrm{cm}$ cho $E=1000\,\mathrm{V/m}$ và do đó $|a|\approx1{,}76\times10^{14}\,\mathrm{m/s^2}$. Vì vậy không có phương án in sẵn nào đúng.
 
 #### Bài 26
 
@@ -973,8 +967,6 @@ D. $8{,}5\cdot10^{-17}\,\mathrm J$.
     $W_A+\dfrac12mv_A^2=W_B$ vì tại B hạt dừng lại.
     $W_B=-8\cdot10^{-17}+\dfrac12\cdot2{,}672\cdot10^{-26}\cdot(2{,}5\cdot10^4)^2\approx-7{,}2\cdot10^{-17}\,\mathrm J$.
 
-    !!! warning "Đối chiếu nguồn"
-        PDF gọi hạt này là “electron” nhưng đồng thời cho khối lượng $2{,}672\times10^{-26}\,\mathrm{kg}$, không phải khối lượng electron. Phần trình bày giữ dữ kiện khối lượng của nguồn và gọi đối tượng là “hạt mang điện âm”; phép bảo toàn cơ năng không phụ thuộc việc gán tên hạt.
 #### Bài 46
 
 <!-- source-id: BT-Chuong-III-p114-q12-286 -->
@@ -1218,7 +1210,7 @@ c) Tốc độ của electron khi vừa ra khỏi vùng giữa hai bản là $2\
 d) Màn huỳnh quang S cách hai bản kim loại $15\,\mathrm{cm}$. Vị trí electron đập vào màn cách trục ống $2{,}3\cdot10^{-3}\,\mathrm m$.
 
 ??? success "Đáp án và lời giải"
-    **Đáp án đã hiệu chỉnh:** a) Đúng; b) Đúng; c) Sai; d) Sai.
+    **Đáp án:** a) Đúng; b) Đúng; c) Sai; d) Sai.
 
     **Hướng dẫn giải:**
 
@@ -1230,8 +1222,6 @@ d) Màn huỳnh quang S cách hai bản kim loại $15\,\mathrm{cm}$. Vị trí 
 
     d) **Sai.** Độ lệch trong hai bản khoảng $y_1=at^2/2\approx6{,}86\,\mathrm{mm}$. Sau đó electron bay thêm $0{,}15\,\mathrm m$ với vận tốc thành phần $v_y$, lệch thêm khoảng $25{,}7\,\mathrm{mm}$. Tổng độ lệch xấp xỉ $32{,}6\,\mathrm{mm}$ $=3{,}26\times10^{-2}\,\mathrm m$.
 
-    !!! warning "Đối chiếu nguồn"
-        Bảng đáp án và một số số mũ trong lời giải PDF không nhất quán với chính công thức của bài. Phần giải trên tính lại trực tiếp từ $E=U/d$, $a=eE/m_e$ và chuyển động ném ngang trong điện trường đều.
 #### Bài 56
 
 <!-- source-id: BT-Chuong-III-p87-q1-225 -->
@@ -1287,8 +1277,6 @@ d) Quỹ đạo của electron trên có dạng một phần của parabol.
 
     d) **Sai.** Electron chuyển động dọc theo đường sức nên gia tốc cùng một phương cố định với chuyển động; quỹ đạo là đoạn thẳng.
 
-    !!! warning "Đối chiếu nguồn"
-        Bảng Đúng/Sai của PDF đánh ý a) là Đúng nhưng phần hướng dẫn ngay dưới lại nêu đúng quy tắc “đường sức hướng từ bản dương sang bản âm”. Ý a) được hiệu chỉnh thành Sai theo chính quy tắc đó.
 #### Bài 58
 
 <!-- source-id: BT-Chuong-III-p89-q4-228 -->
@@ -1318,8 +1306,6 @@ d) Vận tốc của electron khi ra khỏi điện trường là $286012\,\math
 
     d) **Sai.** Độ lệch tới N là $h=5{,}0-4{,}9=0{,}1\,\mathrm{mm}=10^{-4}\,\mathrm m$. Từ $v_y^2=2(eE/m_e)h$ và $v_x=v_0=2\times10^5\,\mathrm{m/s}$, suy ra $v=\sqrt{v_x^2+v_y^2}\approx2{,}867\times10^5\,\mathrm{m/s}$, khác $286012\,\mathrm{m/s}$.
 
-    !!! warning "Đối chiếu nguồn"
-        PDF mô tả đúng quỹ đạo là một nhánh parabol trong phần hướng dẫn nhưng bảng đáp án lại đánh ý c) Sai. Ý c) được hiệu chỉnh thành Đúng theo phương trình chuyển động.
 #### Bài 59
 
 <!-- source-id: BT-Chuong-III-p107-q29-263 -->
@@ -1579,7 +1565,7 @@ d) Công của lực điện để dịch chuyển một điện tích $q=2\cdot
 
 <!-- source-id: BT-Chuong-III-p145-q3-365 -->
 
-Một điện tích q chuyển động từ điểm A đến B, đến C, đến D và về A trong điện trường đều như hình vẽ.
+Một điện tích dương $q$ chuyển động từ điểm A đến B, đến C, đến D và về A trong điện trường đều như hình vẽ.
 
 ![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/iii_p145_q3_365_fig1.webp){ loading=lazy }
 
@@ -1592,20 +1578,18 @@ c) Công của lực điện dịch chuyển điện tích: $A_{BC}<A_{CD}$.
 d) Công của lực điện khi dịch chuyển điện tích đi hết chu trình bằng $0\,\mathrm J$.
 
 ??? success "Đáp án và lời giải"
-    **Đáp án sau kiểm tra:** a) Đúng; b) Không xác định duy nhất từ đề; c) Không xác định duy nhất từ đề; d) Đúng.
+    **Đáp án:** a) Đúng; b) Đúng; c) Sai; d) Đúng.
 
     **Hướng dẫn giải:**
 
-    a) **Đúng.** Lực điện là lực thế nên khi đổi chiều hai điểm đầu - cuối: $A_{AB}=-A_{BA}$ với mọi dấu của $q$.
+    a) **Đúng.** Lực điện là lực thế nên khi đổi chiều hai điểm đầu - cuối: $A_{AB}=-A_{BA}$.
 
-    b) **Không xác định duy nhất.** Điện trường hướng sang phải còn hình chiếu độ dời từ B đến D theo chiều điện trường là âm, nên $A_{BD}=qE\Delta x$. Vì đề không cho dấu của $q$, công âm nếu $q>0$ nhưng dương nếu $q<0$.
+    b) **Đúng.** Điện trường hướng sang phải, còn từ B đến D có hình chiếu độ dời theo chiều điện trường âm. Vì $q>0$, $A_{BD}=qE\Delta x<0$.
 
-    c) **Không xác định duy nhất.** Ta có hình chiếu $d_{BC}>0$ và $d_{CD}<0$. Với $q>0$ thì $A_{BC}>0>A_{CD}$ nên mệnh đề $A_{BC}<A_{CD}$ sai; với $q<0$ thì hai dấu đảo lại và mệnh đề trở thành đúng.
+    c) **Sai.** Từ hình vẽ, hình chiếu của $\overrightarrow{BC}$ lên chiều điện trường dương còn hình chiếu của $\overrightarrow{CD}$ âm. Với $q>0$, suy ra $A_{BC}>0>A_{CD}$, do đó không thể có $A_{BC}<A_{CD}$.
 
-    d) **Đúng.** Đi hết một chu trình kín trở lại A thì $\Delta V=0$, do đó công của lực điện bằng $0$ với mọi $q$.
+    d) **Đúng.** Đi hết một chu trình kín trở lại A thì $\Delta V=0$, nên công của lực điện bằng $0$.
 
-    !!! warning "Đối chiếu nguồn"
-        PDF không ghi dấu của $q$ nhưng bảng đáp án và hướng dẫn ngầm xử lí như $q>0$, từ đó đánh b) Đúng và c) Sai. Không có dữ kiện nào trong đề hoặc hình cho phép chọn dấu của $q$, vì vậy hai ý này được giữ ở trạng thái không xác định duy nhất thay vì áp đặt quy ước ngầm.
 #### Bài 69
 
 <!-- source-id: BT-Chuong-III-p145-q4-366 -->
@@ -1716,7 +1700,7 @@ D. Khối lượng $m$ của điện tích.
 
 <!-- source-id: BT-Chuong-III-p128-q15-317 -->
 
-Điện tích $q$ chuyển động từ M đến N trong một điện trường đều, công của lực điện càng nhỏ nếu
+Điện tích dương $q$ chuyển động từ M đến N trong một điện trường đều, công của lực điện càng nhỏ nếu
 
 A. hiệu điện thế $U_{MN}$ càng nhỏ.
 
@@ -1727,14 +1711,12 @@ C. đường đi từ M đến N càng dài.
 D. đường đi từ M đến N càng ngắn.
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** Không đủ dữ kiện để chọn duy nhất; nếu $q>0$ thì chọn A.
+    **Đáp án:** A
 
     **Hướng dẫn giải:**
 
-    Công của lực điện từ M đến N là $A_{MN}=qU_{MN}$. Với một điện tích **dương** cố định, $U_{MN}$ càng nhỏ thì $A_{MN}$ càng nhỏ, nên khi đó chọn A. Nếu $q<0$, quan hệ thứ tự đảo chiều, vì vậy dấu của $q$ là dữ kiện cần thiết để kết luận duy nhất.
+    Công của lực điện từ M đến N là $A_{MN}=qU_{MN}$. Vì $q>0$ và không đổi, $A_{MN}$ biến thiên cùng chiều với $U_{MN}$; do đó $U_{MN}$ càng nhỏ thì công của lực điện càng nhỏ. Công không phụ thuộc hình dạng hay độ dài đường đi. Chọn A.
 
-    !!! warning "Đối chiếu nguồn"
-        PDF chọn A nhưng câu dẫn chỉ ghi “điện tích $q$”, không quy định $q>0$. Do đó đáp án A chỉ đúng dưới giả thiết ngầm $q>0$; đề in sẵn thiếu điều kiện để có đáp án duy nhất.
 
 ### Vận dụng — Trắc nghiệm 4 lựa chọn
 
@@ -1777,7 +1759,7 @@ Một electron đang ở độ cao $1,04\,\mathrm m$ so với mặt đất, tạ
 Mốc thế năng điện được chọn tại mặt đất, electron có điện tích $q_e=-1{,}6\cdot10^{-19}\,\mathrm C$. Thế năng của electron đặt
 tại điểm M có giá trị bằng
 
-A. $-191\times10^{-19}\,\mathrm J$.
+A. $+191\times10^{-19}\,\mathrm J$.
 
 B. $-191\times10^{-19}\,\mathrm J$.
 
@@ -1786,15 +1768,13 @@ C. $191\cdot10^{-17}\,\mathrm J$.
 D. $-191\cdot10^{-17}\,\mathrm J$.
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** A và B đều trùng với kết quả tính; đề không có đáp án duy nhất.
+    **Đáp án:** B
 
     **Hướng dẫn giải:**
 
     Với mốc thế năng tại mặt đất và chiều điện trường Trái Đất như quy ước của nguồn,
     $W_M=q_eEd=(-1{,}6\times10^{-19})\cdot115\cdot1{,}04\approx-1{,}91\times10^{-17}\,\mathrm J=-191\times10^{-19}\,\mathrm J$.
 
-    !!! warning "Đối chiếu nguồn"
-        PDF in **A và B hoàn toàn giống nhau**, đều bằng $-191\times10^{-19}\,\mathrm J$. Vì kết quả độc lập đúng bằng giá trị đó nên cả A và B cùng khớp; không được tự đổi dấu một phương án chỉ để tạo đáp án duy nhất.
 #### Bài 76
 
 <!-- source-id: BT-Chuong-III-p104-q19-253 -->

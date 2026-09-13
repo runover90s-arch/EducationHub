@@ -1,6 +1,8 @@
 # Làm Education Hub hoàn toàn trên điện thoại Android
 
-Repository này có thể duy trì mà không cần GitHub Codespaces.
+> **Trạng thái hiện tại:** GitHub Codespaces đang không sử dụng được do quota/budget đã hết. Workflow chính của repository là **Termux-first** trên Android. Không cần Codespaces để tiếp tục phát triển. Chỉ quay lại Codespaces nếu sau này chủ repository xác nhận nó đã khả dụng và muốn dùng lại.
+
+Termux là terminal chính; `github.dev` chỉ dùng khi muốn sửa nhanh; GitHub Actions chịu trách nhiệm quality gate/build/deploy từ xa.
 
 ## 1. Sửa nhanh bằng github.dev
 
@@ -28,14 +30,25 @@ Khi sửa nội dung đáng kể, nên tạo branch riêng trong github.dev, ví
 
 Nếu chỉ sửa rất nhỏ và commit trực tiếp vào `main`, workflow deploy vẫn chạy toàn bộ checker trước khi publish GitHub Pages. Nếu checker thất bại, bản website mới sẽ không được deploy.
 
-## 3. Chạy local bằng Termux khi thật sự cần terminal
+## 3. Termux — môi trường terminal chính
 
 Cài Termux từ F-Droid hoặc GitHub Releases của Termux. Sau đó chạy:
 
 ```bash
 pkg update && pkg upgrade -y
-pkg install -y git python
+pkg install -y git python gh unzip rsync
+termux-setup-storage
 python -m pip install --upgrade pip
+```
+
+Khi Android hỏi quyền truy cập file, chọn **Cho phép**. Repository mặc định làm việc tại `~/EducationHub`; các ZIP tải từ ChatGPT thường nằm ở `~/storage/downloads/`.
+
+Để tránh lỗi `Author identity unknown` khi commit, cấu hình repo-local một lần:
+
+```bash
+cd ~/EducationHub
+git config user.name "runover90s-arch"
+git config user.email "266472043+runover90s-arch@users.noreply.github.com"
 ```
 
 Clone repository lần đầu:
@@ -81,6 +94,8 @@ python tools/check_site.py
 mkdocs build --strict
 ```
 
-## 5. Khi Codespaces hết quota
+## 5. Codespaces hiện không dùng
 
-Không cần xóa hoặc tạo Codespace mới để tiếp tục chỉnh repository. Dùng `github.dev` cho phần lớn công việc; chỉ dùng Termux khi cần terminal, chạy checker hoặc preview local. Cách này không sử dụng Codespaces compute hours.
+Codespaces hiện đang không khả dụng vì quota/budget. **Không coi đây là bước tạm thời cần khắc phục trong workflow phát triển.** Tiếp tục làm việc bằng Termux + GitHub Actions; `github.dev` chỉ là công cụ sửa nhanh tùy chọn. Cách này không sử dụng Codespaces compute hours.
+
+Nếu sau này Codespaces dùng được trở lại, chỉ chuyển workflow khi chủ repository nói rõ muốn dùng lại.

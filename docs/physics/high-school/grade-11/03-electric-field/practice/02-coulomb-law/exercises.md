@@ -57,7 +57,7 @@ C. không tương tác.
 D. chỉ tương tác nếu cùng độ lớn.
 
 ??? success "Đáp án và lời giải"
-    Chọn **B**.
+    Chọn **B**. Hai điện tích cùng dấu đẩy nhau; hai điện tích trái dấu hút nhau.
 
 ### Bài 4 — Mức 1 — Nhận biết
 
@@ -208,14 +208,20 @@ Hai điện tích điểm $q_1=15\,\mu\mathrm C$ và $q_2=-6\,\mu\mathrm C$ đ�
 Một phân tử ADN gồm hai nhánh xoắn kép liên kết với nhau có chiều dài $0{,}459\cdot10^{-6}\,\mathrm m$. Phần đuôi của phân tử có thể bị ion hóa mang điện tích âm $q_1=-1{,}6\cdot10^{-19}\,\mathrm C$, đầu còn lại mang điện tích dương $q_2=1{,}6\cdot10^{-19}\,\mathrm C$. Phân tử xoắn ốc này hoạt động như một lò xo và bị nén $1\%$ sau khi bị tích điện. Biết phân tử ADN trong nhân tế bào và môi trường xung quanh là nước, hằng số điện môi của nước là $81$. Tính “độ cứng $k$” của phân tử (theo đơn vị nN/m và làm tròn đến hai chữ số thập phân).
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** $2{,}94\,\mathrm{nN/m}$.
+    **Đáp án:** $3{,}00\,\mathrm{nN/m}$.
 
     **Hướng dẫn giải:**
 
-    Lực tương tác tĩnh điện của phân tử ADN:
-    $F=9\cdot10^9\dfrac{(1{,}6\cdot10^{-19})^2}{81(0{,}459\cdot10^{-6})^2}=1{,}35\cdot10^{-17}\,\mathrm N$.
-    Độ nén là $\Delta l=1\%\,l$, nên
-    $k=\dfrac{F}{\Delta l}=\dfrac{1{,}35\cdot10^{-17}}{0{,}01\cdot0{,}459\cdot10^{-6}}\approx2{,}94\cdot10^{-9}\,\mathrm{N/m}=2{,}94\,\mathrm{nN/m}$.
+    Gọi $l_0=0{,}459\cdot10^{-6}\,\mathrm m$. Phân tử bị nén $1\%$ nên độ nén là
+    $\Delta l=0{,}01l_0$ và khoảng cách hai đầu ở trạng thái cân bằng là $r=0{,}99l_0$.
+
+    Lực hút Coulomb ở trạng thái này:
+    $F_e=9\cdot10^9\dfrac{(1{,}6\cdot10^{-19})^2}{81(0{,}99l_0)^2}\approx1{,}38\cdot10^{-17}\,\mathrm N$.
+
+    Ở cân bằng, lực đàn hồi cân bằng lực điện: $k\Delta l=F_e$. Suy ra
+    $k=\dfrac{F_e}{0{,}01l_0}\approx3{,}00\cdot10^{-9}\,\mathrm{N/m}=3{,}00\,\mathrm{nN/m}$.
+
+<!-- source-audit-note: PDF dùng chiều dài ban đầu $l_0$ ngay trong lực Coulomb và cho $2{,}94\,\mathrm{nN/m}$. Vì stem nói phân tử bị nén $1\%$ sau khi tích điện, khoảng cách cân bằng phải là $0{,}99l_0$; tính độc lập cho $3{,}00\,\mathrm{nN/m}$. -->
 
 #### Bài 15
 
@@ -278,7 +284,7 @@ Hai điện tích điểm $q_1,q_2$ được giữ cố định tại A, B cách
 
     **Hướng dẫn giải:**
 
-    Để $q_3$ đứng yên, hai lực do $q_1$ và $q_2$ tác dụng phải cân bằng:
+    Vì C nằm giữa A và B, để hai lực tác dụng lên $q_3$ ngược chiều thì $q_1$ và $q_2$ phải cùng dấu. Khi đó điều kiện cân bằng là
     $\dfrac{k|q_1q_3|}{(a/3)^2}=\dfrac{k|q_2q_3|}{(2a/3)^2}\Rightarrow|q_2|=4|q_1|$.
 
 ### Nhận biết — Trắc nghiệm 4 lựa chọn
@@ -440,7 +446,7 @@ D. Vật A có thể mang điện hoặc trung hoà.
 
     Vật B mang điện dương có thể hút một vật A mang điện âm, nhưng cũng có thể hút vật A trung hòa do hiện tượng phân cực điện. Vì vậy từ hiện tượng hút không thể khẳng định A mang điện âm; A có thể mang điện hoặc trung hòa. Chọn D.
 
-    **Đối chiếu nguồn:** PDF chọn B, nhưng lực hút không loại trừ trường hợp vật A trung hòa bị phân cực. Kết luận D dùng đúng dữ kiện của đề.
+    <!-- source-audit-note: PDF chọn B, nhưng lực hút không loại trừ trường hợp vật A trung hòa bị phân cực. Kết luận D dùng đúng dữ kiện của đề. -->
 #### Bài 27
 
 <!-- source-id: BT-Chuong-III-p7-q13-13 -->
@@ -535,18 +541,18 @@ A. Có phương là đường thẳng nối giữa hai điện tích.
 
 B. Có độ lớn tỉ lệ với tích độ lớn hai điện tích.
 
-C. Có độ lớn tỉ lệ nghịch với khoảng cách giữa hai điện tích.
+C. Có độ lớn tỉ lệ nghịch với bình phương khoảng cách giữa hai điện tích.
 
 D. Là lực hút khi hai điện tích cùng dấu.
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** C và D đều không đúng
+    **Đáp án:** D
 
     **Hướng dẫn giải:**
 
-    Theo định luật Coulomb, $F\propto1/r^2$, nên C sai vì chỉ ghi tỉ lệ nghịch với $r$. Hai điện tích cùng dấu đẩy nhau chứ không hút nhau, nên D cũng sai. A và B đúng.
+    Theo định luật Coulomb, lực có phương trùng đường thẳng nối hai điện tích, độ lớn tỉ lệ với $|q_1q_2|$ và tỉ lệ nghịch với $r^2$. Hai điện tích cùng dấu phải đẩy nhau, nên D là phát biểu không đúng duy nhất.
 
-    **Đối chiếu nguồn:** câu hỏi yêu cầu chọn một phát biểu “không đúng”, nhưng bản in có hai phát biểu sai là C và D; do đó đề không có đáp án duy nhất.
+    <!-- source-audit-note: Bản in có cả C và D sai. Phương án C được sửa tối thiểu từ “tỉ lệ nghịch với khoảng cách” thành “tỉ lệ nghịch với bình phương khoảng cách”, giữ D là đáp án sai duy nhất như khóa nguồn. -->
 #### Bài 32
 
 <!-- source-id: BT-Chuong-III-p18-q9-62 -->
@@ -853,7 +859,7 @@ D. đẩy nhau một lực $1{,}8152\,\mathrm N$.
 
     **Hướng dẫn giải:**
 
-    Hai điện tích trái dấu nên hút nhau. Theo nguồn,
+    Hai điện tích trái dấu nên hút nhau. Ta có
     $F=k\dfrac{q^2}{\varepsilon r^2}=9\cdot10^9\dfrac{(10^{-4}/4)^2}{2\cdot1^2}=2{,}8125\,\mathrm N$.
 
 #### Bài 46
@@ -938,7 +944,7 @@ D. $7{,}2\,\mathrm N$.
 
     **Hướng dẫn giải:**
 
-    Tại O, hai lực điện cùng hướng. Theo lời giải nguồn,
+    Tại O, hai lực điện cùng hướng. Ta có
     $F_0=k\dfrac{|q_0(q_1-q_2)|}{(AB/2)^2}=9\cdot10^9\dfrac{2\cdot10^{-7}\cdot8\cdot10^{-8}}{(0{,}04/2)^2}=0{,}36\,\mathrm N$.
 
 #### Bài 50
@@ -982,5 +988,5 @@ D. $17{,}28\,\mathrm N$.
 
     **Hướng dẫn giải:**
 
-    Khoảng cách từ $q_3$ đến A và B là $0{,}05\,\mathrm m$, nên $F_1=F_2=14{,}40\,\mathrm N$. Theo hình nguồn, các thành phần vuông góc với AB triệt tiêu và
+    Khoảng cách từ $q_3$ đến A và B là $0{,}05\,\mathrm m$, nên $F_1=F_2=14{,}40\,\mathrm N$. Do đối xứng, các thành phần vuông góc với AB triệt tiêu và
     $F=2F_1\cos\alpha=2\cdot14{,}40\cdot\dfrac{0{,}06}{2\cdot0{,}05}=17{,}28\,\mathrm N$.

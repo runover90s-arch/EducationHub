@@ -98,6 +98,8 @@ Nếu đề cho điện trở ampe kế $R_A$ hoặc vôn kế $R_V$ hữu hạn
 
 Không dùng mô hình lí tưởng nữa.
 
+Với phép đo một chiều thực tế, cần nối đúng cực của đồng hồ và chọn thang đo phù hợp; không mắc ampe kế trực tiếp song song hai cực nguồn.
+
 ## 8. Vẽ lại mạch
 
 ### Bước 1

@@ -179,7 +179,7 @@ Tia hồng ngoại là bức xạ
 
 A. có màu hồng nhạt.
 
-B. không nhìn thấy được.
+B. nhìn thấy được bằng mắt thường.
 
 C. không nhìn thấy được có bước sóng lớn hơn bước sóng của ánh sáng đỏ.
 
@@ -275,7 +275,7 @@ D. Tia tử ngoại.
 
     **Hướng dẫn giải:**
 
-    Hồ quang điện không thể phát ra tia gamma.
+    Hồ quang điện thông thường phát mạnh ánh sáng nhìn thấy, hồng ngoại và tử ngoại do plasma nóng và các nguyên tử bị kích thích. Tia gamma gắn với các quá trình hạt nhân hoặc quá trình năng lượng rất cao, không phải bức xạ đặc trưng của hồ quang điện. Vì vậy chọn C.
 
 #### Bài 15
 
@@ -317,7 +317,7 @@ D. (2) và (3).
 
     **Hướng dẫn giải:**
 
-    Trong 4 nguồn trên, chỉ có Mặt trời phát ra tia Rơn-ghen.
+    Bàn là nung nóng, ngọn nến và đom đóm không phải nguồn tia X trong điều kiện nêu. Mặt Trời có các vùng plasma nhiệt độ rất cao phát bức xạ tia X. Vì vậy trong bốn nguồn đã cho, chỉ (4) phù hợp; chọn B.
 
 #### Bài 17
 
@@ -363,8 +363,7 @@ D. tia gamma.
     $\lambda=c/f=3\times10^8/(3\times10^{14})=10^{-6}\,\mathrm{m}=1\,\mu\mathrm{m}$.
     Bước sóng này thuộc miền hồng ngoại, nên chọn C.
 
-    !!! warning "Đối chiếu nguồn"
-        Bản nhập trước ghi A (sóng vô tuyến), không phù hợp với phép đổi $\lambda=1\,\mu\mathrm{m}$.
+    <!-- provenance-note: Bản nhập trước từng ghi A; phép đổi độc lập $\lambda=1\,\mu\mathrm{m}$ xác nhận đáp án C. -->
 
 #### Bài 19
 
@@ -427,7 +426,7 @@ D. dùng để sấy, sưởi
 
     **Hướng dẫn giải:**
 
-    Tia tử ngoại được ứng dụng trong việc kiểm tra khuyết tật của sản phẩm.
+    Tia tử ngoại có thể kích thích chất chỉ thị phát huỳnh quang; chất chỉ thị thấm vào các vết nứt bề mặt sẽ làm khuyết tật hiện rõ dưới tia tử ngoại. Các phương án B và D là ứng dụng điển hình của hồng ngoại, còn C dùng ánh sáng nhìn thấy. Vì vậy chọn A.
 
 #### Bài 22
 
@@ -437,7 +436,7 @@ Tia tử ngoại là bức xạ
 
 A. có màu tím.
 
-B. không nhìn thấy được.
+B. nhìn thấy được bằng mắt thường.
 
 C. không nhìn thấy được có bước sóng lớn hơn bước sóng của ánh sáng đỏ.
 
@@ -490,7 +489,7 @@ D. có khả năng đâm xuyên mạnh
 
     **Hướng dẫn giải:**
 
-    Tính chất nổi bật nhất của tia X là có khả năng đâm xuyên mạnh.
+    Tia X còn có thể tác dụng lên phim ảnh, gây phát quang và ion hóa, nhưng tính chất nổi bật thường dùng để nhận biết và ứng dụng tia X là khả năng đâm xuyên mạnh qua vật chất. Vì vậy chọn D.
 
 #### Bài 25
 
@@ -511,7 +510,7 @@ D. Có tác dụng sinh lý như huỷ diệt tế bào.
 
     **Hướng dẫn giải:**
 
-    Tia X không bị lệch hướng trong điện trường.
+    Tia X là sóng điện từ, không mang điện tích nên không bị lệch hướng trong điện trường. Các tính chất ở B, C và D đều là tính chất của tia X. Vì vậy phát biểu không phải tính chất của tia X là A.
 
 #### Bài 26
 
@@ -590,8 +589,7 @@ D. từ $1{,}07\times10^{14}\,\mathrm{Hz}$ đến $1{,}05\times10^{15}\,\mathrm{
 
     Vì vậy chọn C.
 
-    !!! warning "Đối chiếu nguồn"
-        Dòng hướng dẫn PDF in nhầm $0{,}38\,\mu\mathrm m$ ở phép tính thứ hai và ghi sai bậc $10^{14}$ cho $f_{\max}$. Dữ kiện đề là $0{,}28\,\mu\mathrm m$ đến $0{,}32\,\mu\mathrm m$; tính trực tiếp từ chính dữ kiện đó cho khoảng ở phương án C.
+    <!-- provenance-note: Hướng dẫn nguồn có lỗi in ở bước thay số; phép tính độc lập từ dữ kiện đề xác nhận phương án C. -->
 
 ### Nhận biết — Đúng/Sai
 
@@ -632,7 +630,18 @@ d) Tần số của bức xạ A nhỏ hơn tần số của bức xạ B.
 
 <!-- source-id: BT-Chuong-II-p111-q2-252 -->
 
-Thang của sóng điện từ được được chia vùng như sau:
+Thang sóng điện từ được biểu diễn theo chiều từ trên xuống như sau:
+
+| Theo chiều từ trên xuống |
+| --- |
+| Sóng vô tuyến |
+| **1** |
+| Ánh sáng nhìn thấy |
+| **2** |
+| Tia X |
+| **3** |
+
+Xét các phát biểu:
 
 a) 1 là tia hồng ngoại, 2 là tia tử ngoại và 3 là tia gamma.
 
@@ -647,7 +656,7 @@ d) Tần số sóng của bức xạ 3 nhỏ hơn tần số của bức xạ 1.
 
     **Hướng dẫn giải:**
 
-    a) **Đúng.** Sơ đồ gốc của dạng câu hỏi này gán vùng 1 cho tia hồng ngoại, vùng 2 cho tia tử ngoại và vùng 3 cho tia gamma.
+    a) **Đúng.** Theo thứ tự bước sóng giảm dần từ sóng vô tuyến đến tia gamma, vị trí 1 là hồng ngoại, vị trí 2 là tử ngoại và vị trí 3 là gamma.
 
     b) **Sai.** Theo chiều từ trên xuống của sơ đồ, các bước sóng ngắn dần (tần số tăng dần), không phải bước sóng tăng dần.
 
@@ -655,8 +664,7 @@ d) Tần số sóng của bức xạ 3 nhỏ hơn tần số của bức xạ 1.
 
     d) **Sai.** Vùng 3 là tia gamma còn vùng 1 là tia hồng ngoại, nên $f_3>f_1$, trái với phát biểu.
 
-    !!! warning "Đối chiếu nguồn"
-        Trang PDF đang dùng bị thiếu chính sơ đồ “1-2-3” mà đề dẫn nhắc tới. Hai ý a), b) được kiểm tra chéo với bản cùng câu hỏi còn hiển thị sơ đồ: thứ tự vùng là hồng ngoại → tử ngoại → gamma và chiều từ trên xuống ứng với bước sóng giảm dần. Không bổ sung hình ngoài nguồn PDF vào bài tập. Ngoài ra bảng đáp án PDF đánh c) Đúng dù phần hướng dẫn ngay dưới xác định sóng điện từ là sóng ngang; c) được sửa thành Sai theo tính chất của sóng điện từ.
+    <!-- provenance-note: Trang PDF nguồn bị thiếu sơ đồ 1-2-3; sơ đồ chữ ở đề đã phục hồi từ thứ tự vùng nêu trong hướng dẫn nguồn và kiểm chứng độc lập. Bảng đáp án nguồn đánh c) Đúng nhưng hướng dẫn và tính chất sóng điện từ xác nhận c) Sai. -->
 
 ### Thông hiểu — Trắc nghiệm 4 lựa chọn
 

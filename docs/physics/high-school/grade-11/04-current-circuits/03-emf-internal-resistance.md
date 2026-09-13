@@ -42,7 +42,7 @@ $$
 \boxed{\mathcal E=\frac{A_{\text{nguồn}}}{q}}.
 $$
 
-Trong đó $A_{\text{nguồn}}$ là công của lực lạ khi dịch chuyển điện tích q bên trong nguồn.
+Trong đó $A_{\text{nguồn}}$ là công của lực lạ khi dịch chuyển một điện lượng dương $q$ bên trong nguồn, từ cực âm về cực dương.
 
 Đơn vị: volt (V).
 
@@ -92,7 +92,7 @@ Không nên học thuộc dấu tách rời chiều dòng; hãy dùng quy tắc 
 
 ## 6. Công và công suất nguồn
 
-Trong thời gian t, điện lượng q=It qua nguồn.
+Với dòng điện không đổi trong thời gian $t$, điện lượng $q=It$ đi qua nguồn.
 
 Công của nguồn:
 

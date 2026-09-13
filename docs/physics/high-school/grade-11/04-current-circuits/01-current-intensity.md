@@ -60,13 +60,13 @@ Nội dung sâu về cơ chế dẫn điện của các môi trường khác kh�
 
 ## 4. Cường độ dòng điện
 
-Trong khoảng thời gian $\Delta t$, điện lượng đại số có độ lớn $\Delta q$ đi qua tiết diện:
+Trong khoảng thời gian $\Delta t$, nếu có điện lượng $\Delta q>0$ đi qua tiết diện theo chiều dòng điện quy ước thì cường độ dòng điện trung bình trên khoảng đó là:
 
 $$
-\boxed{I=\frac{\Delta q}{\Delta t}}
+\boxed{I_{\text{tb}}=\frac{\Delta q}{\Delta t}}.
 $$
 
-cho dòng không đổi.
+Với dòng điện không đổi, $I_{\text{tb}}=I$ nên dùng trực tiếp $I=\Delta q/\Delta t$.
 
 Đơn vị: ampere (A), với $1\,\mathrm A=1\,\mathrm{C/s}$.
 
@@ -74,7 +74,7 @@ Với dòng biến thiên, công thức trên cho cường độ trung bình tr�
 
 ## 5. Dòng điện không đổi
 
-Dòng điện không đổi có cường độ không đổi theo thời gian.
+Dòng điện không đổi có **chiều và cường độ không đổi theo thời gian**. Dòng điện một chiều chỉ yêu cầu chiều không đổi; cường độ vẫn có thể biến thiên theo thời gian.
 
 Khi đó:
 
@@ -174,7 +174,7 @@ $$
 - Dòng điện là chuyển dời có hướng của điện tích.
 - Chiều quy ước theo điện tích dương.
 - $I=q/t$ với dòng không đổi.
-- $q=It$, $N=It/e$.
+- Với dòng không đổi: $q=It$, $N=It/e$.
 - Trong mô hình kim loại: $I=neSv_d$.
 - Diện tích dưới đồ thị I–t cho điện lượng.
 
@@ -192,7 +192,7 @@ Các nhóm bài dưới đây được tổ chức theo dấu hiệu nhận bi�
 
 ### Dạng 1 — Xác định cường độ dòng điện
 
-Dùng $I=\Delta q/\Delta t$ cho dòng điện không đổi và $N=|\Delta q|/e$ khi cần số hạt tải điện. Đổi phút, giờ về giây và mA, µA về A trước khi tính.
+$I_{\text{tb}}=\Delta q/\Delta t$ cho cường độ trung bình trên một khoảng thời gian; với dòng điện không đổi, công thức trở thành $I=q/t$. Khi cần số hạt tải điện, dùng $N=|q|/e$. Đổi phút, giờ về giây và mA, µA về A trước khi tính.
 
 Nếu có cả ion dương và ion âm chuyển động, xét đóng góp dòng điện theo chiều quy ước; các hạt trái dấu chuyển động ngược chiều có thể tạo dòng điện cùng chiều.
 

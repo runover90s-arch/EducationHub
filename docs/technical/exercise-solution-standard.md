@@ -76,20 +76,30 @@ Mỗi câu phải được kiểm tra theo thứ tự:
 8. kiểm tra độ lớn có hợp lí không;
 9. đối chiếu lựa chọn nếu là trắc nghiệm.
 
-Không lấy đáp án có sẵn làm bằng chứng duy nhất.
+Không lấy đáp án có sẵn làm bằng chứng duy nhất. PDF là nguồn dữ kiện và văn phong quan trọng, nhưng đáp án phải được kiểm chứng độc lập.
+
+Với câu **single-choice A–D**, nếu sau khi kiểm chứng chắc chắn không có phương án đúng thì được sửa tối thiểu **một** phương án để có đúng một đáp án. Không thêm phương án `E`. Không dùng lựa chọn `Không có phương án phù hợp` khi kết quả vật lí xác định được chắc chắn.
 
 ## 6. Mức độ chi tiết của lời giải
 
 ### Câu dễ
 
-- nêu công thức;
-- thay số;
+- nêu căn cứ hoặc công thức chính;
+- áp dụng/thay số;
 - kết luận.
 
 ### Câu trung bình
 
-- giải thích vì sao chọn công thức;
-- biến đổi từng bước;
+- giải thích vì sao chọn quan hệ;
+- biến đổi rõ;
+- kết luận.
+
+### Câu vận dụng
+
+- ghi dữ kiện cần dùng;
+- chọn công thức/phương pháp;
+- thay số;
+- theo dõi đơn vị và điều kiện;
 - kết luận.
 
 ### Câu khó
@@ -97,12 +107,11 @@ Không lấy đáp án có sẵn làm bằng chứng duy nhất.
 Phải có:
 
 - phân tích dữ kiện;
-- nhận dạng ý tưởng;
-- lí do chọn phương pháp;
-- sơ đồ hoặc phân trường hợp nếu cần;
-- phép biến đổi rõ;
+- nêu chiến lược;
+- trình bày các bước trung gian quan trọng;
+- kiểm tra điều kiện, dấu, pha hoặc vectơ khi có;
 - kiểm tra kết quả;
-- chỉ ra bẫy nếu có.
+- kết luận và chỉ ra bẫy nếu có.
 
 ## 7. Đúng/Sai
 
@@ -175,8 +184,9 @@ Không được sửa âm thầm. Quy trình bắt buộc:
 1. đọc lại câu hỏi và hình gốc;
 2. tính/biện luận độc lập từ dữ kiện;
 3. đối chiếu phần đáp án và phần hướng dẫn trong PDF;
-4. nếu nguồn tự mâu thuẫn nhưng kết quả đúng xác định được chắc chắn, hiệu chỉnh tối thiểu và thêm admonition `Đối chiếu nguồn`;
-5. nếu thiếu dữ kiện để quyết định duy nhất, giữ nguyên vấn đề và ghi rõ điều kiện còn thiếu thay vì đoán.
+4. nếu nguồn tự mâu thuẫn nhưng kết quả đúng xác định được chắc chắn, hiệu chỉnh tối thiểu và lưu provenance bằng comment/metadata/report nội bộ;
+5. không đưa `Đối chiếu nguồn`, `Đối chiếu nguồn PDF`, `PDF chọn...`, lịch sử source sai hoặc ghi chú repository/corpus/import lên trang người học;
+6. nếu thiếu dữ kiện để quyết định duy nhất, giữ nguyên vấn đề và đánh dấu ở lớp nội bộ để kiểm tra thay vì đoán.
 
 Checker `tools/check_solution_quality.py` kiểm tra cả hai lớp ngân hàng — bài biên soạn trước và bài nhập từ PDF — về tính toàn vẹn, sự đồng nhất giữa lời giải inline/`solutions.md`, mức độ giải thích theo độ khó và cấu trúc Đúng/Sai. Checker này **không thay thế** bước kiểm chứng vật lí độc lập ở trên.
 
@@ -191,7 +201,7 @@ Các lỗi có thể xác định chắc chắn bằng cấu trúc Markdown ph�
 - nếu một block có hình dữ kiện và lựa chọn/mệnh đề, hình phải đứng trước `A.`–`D.` hoặc `a)`–`d)`;
 - mọi ảnh Markdown local phải tồn tại và resolve bên trong `docs/`;
 - ghi chú nội bộ về repository/import/corpus không được lộ ở phần mở đầu learner-facing của trang practice;
-- `!!! warning "Đối chiếu nguồn"` chỉ được đặt bên trong `??? success "Đáp án và lời giải"` của đúng bài;
+- trang người học không được chứa `Đối chiếu nguồn`, `Đối chiếu nguồn PDF`, `PDF chọn...` hoặc ghi chú lịch sử source/repository/corpus/import; provenance phải dùng comment/metadata/report nội bộ;
 - các câu lời giải mẫu đã xác nhận là placeholder, ví dụ câu chung về `$v=\lambda f=\lambda/T$` dùng thay cho suy luận riêng của bài, không được quay lại.
 - với block nhập PDF, loại câu được suy ra từ marker learner-facing thực tế; heading nhóm lịch sử không được coi là authoritative nếu một nhóm chứa lẫn nhiều format. Trường hợp không đủ bằng chứng để phân loại chắc chắn phải chuyển sang warning/audit thủ công thay vì ép fail sai.
 

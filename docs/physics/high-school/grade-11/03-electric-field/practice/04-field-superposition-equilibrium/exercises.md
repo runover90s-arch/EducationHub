@@ -233,7 +233,7 @@ Cho hai điện tích điểm $q_1=-10^{-9}\,\mathrm C$, $q_2=10^{-9}\,\mathrm C
 
     Theo dữ kiện in trong đề, $q_1=-10^{-9}\,\mathrm C$, $q_2=10^{-9}\,\mathrm C$ và $AB=40\,\mathrm{cm}$. Vì $MA=20\,\mathrm{cm}$, $MB=60\,\mathrm{cm}$, M nằm ngoài đoạn AB về phía A. Tại M, $E_1=225\,\mathrm{V/m}$ và $E_2=25\,\mathrm{V/m}$, hai vectơ ngược chiều; do đó $E=|E_1-E_2|=200\,\mathrm{V/m}$.
 
-    **Đối chiếu nguồn:** ô đáp án $1200\,\mathrm{V/m}$ và hướng dẫn PDF tự dùng $|q_1|=|q_2|=6\cdot10^{-9}\,\mathrm C$, trái với dòng dữ kiện chung in rõ $10^{-9}\,\mathrm C$. Lời giải này ưu tiên dữ kiện của đề.
+    <!-- audit-note: Source answer/solution used 1200 V/m with |q1|=|q2|=6e-9 C, inconsistent with the printed stem 1e-9 C. Learner-facing solution follows the printed stem. -->
 #### Bài 14
 
 <!-- source-id: BT-Chuong-III-p56-q5-170 -->
@@ -502,6 +502,6 @@ d) Cường độ điện trường tổng hợp tại C có độ lớn là $12
 
     c) **Sai.** Tam giác ABC có các cạnh $3$-$4$-$5$ nên $AC\perp BC$. Vì $\vec E_1$ theo AC và $\vec E_2$ theo BC, hai vectơ điện trường vuông góc; hợp lực không thể cùng hướng với riêng $\vec E_2$.
 
-    d) **Đúng.** $E=\sqrt{E_1^2+E_2^2}=9\sqrt2\cdot10^5\,\mathrm{V/m}\approx12{,}73\cdot10^5\,\mathrm{V/m}$, phù hợp giá trị $12{,}72\cdot10^5\,\mathrm{V/m}$ sau làm tròn theo nguồn.
+    d) **Đúng.** $E=\sqrt{E_1^2+E_2^2}=9\sqrt2\cdot10^5\,\mathrm{V/m}\approx12{,}73\cdot10^5\,\mathrm{V/m}$. Giá trị $12{,}72\cdot10^5\,\mathrm{V/m}$ trong mệnh đề là xấp xỉ rất gần nên kết luận Đúng được giữ nguyên.
 
-    **Đối chiếu nguồn:** phần chữ của hướng dẫn PDF có các giá trị trung gian không khớp phép thế số, nhưng chính dữ kiện đề cho $E_1=E_2=9\cdot10^5\,\mathrm{V/m}$; các kết luận trên được tính lại trực tiếp từ đề.
+    <!-- audit-note: Source solution has inconsistent intermediate values; recomputation from the printed stem gives E1=E2=9e5 V/m and E=9sqrt(2)e5 V/m. -->

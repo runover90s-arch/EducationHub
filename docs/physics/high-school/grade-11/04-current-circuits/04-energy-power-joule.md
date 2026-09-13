@@ -41,13 +41,15 @@ Vì $q=It$, cũng có $A=Uq$.
 
 ## 2. Công suất điện
 
+Trong mạch một chiều ở trạng thái đang xét, nếu $U$ là hiệu điện thế giữa **đúng hai đầu phần tử/đoạn mạch** và $I$ là dòng điện chạy qua chính phần tử/đoạn mạch đó thì:
+
 $$
 \boxed{P=\frac{A}{t}=UI}.
 $$
 
-Đơn vị: watt (W).
+Đơn vị: watt (W). Với quy ước thụ động, $P>0$ khi phần tử nhận điện năng; trong các bài chỉ hỏi công suất tiêu thụ, thường dùng độ lớn dương của $UI$.
 
-Với điện trở ohmic:
+Với điện trở ohmic ở trạng thái mà $R$ được coi là không đổi:
 
 $$
 \boxed{P=I^2R=\frac{U^2}{R}}.
@@ -57,15 +59,24 @@ Ba dạng tương đương khi U,I,R thuộc **cùng phần tử điện trở**
 
 ## 3. Định luật Joule–Lenz
 
-Nhiệt lượng tỏa trên điện trở:
+Nếu dòng $I$ và điện trở $R$ được coi là không đổi trong thời gian $t$, nhiệt lượng Joule tỏa trên điện trở là:
 
 $$
 \boxed{Q=I^2Rt}.
 $$
 
-Nếu điện năng hoàn toàn chuyển thành nhiệt trong điện trở, $Q=A$.
+Nếu $I$ hoặc $R$ thay đổi đáng kể theo thời gian, không được thế một giá trị bất kì vào công thức trên cho cả khoảng; phải chia khoảng phù hợp hoặc dùng dạng tổng quát $Q=\int I^2R\,dt$.
+
+Nếu phần tử là điện trở thuần và điện năng nhận vào hoàn toàn chuyển thành nhiệt thì $Q=A$.
 
 Nếu thiết bị còn tạo cơ năng, ánh sáng hữu ích..., không nên đồng nhất toàn bộ điện năng với nhiệt lượng hữu ích.
+
+
+!!! note "Điều kiện dùng bốn công thức dễ nhầm"
+    - $P=UI$: dùng cho **cùng một phần tử/đoạn mạch**, với $U$ là điện áp hai đầu và $I$ là dòng qua phần tử đó; trong chương này xét mạch một chiều.
+    - $P=I^2R$: chỉ suy ra từ $P=UI$ khi phần tử được mô hình bằng điện trở và dùng được $U=IR$.
+    - $P=U^2/R$: cùng điều kiện trên, đồng thời $U$ phải là điện áp trên **chính điện trở $R$**.
+    - $Q=I^2Rt$: là nhiệt Joule trên điện trở khi $I$ và $R$ coi như không đổi trong khoảng $t$. Không dùng công thức này để thay cho toàn bộ điện năng nhận vào của động cơ, nguồn đang nạp hoặc phần tử có chuyển hóa năng lượng khác.
 
 ## 4. Đơn vị kWh
 
@@ -216,8 +227,8 @@ $t=360000/(0,8\cdot1000)=450\,\mathrm s$.
 ## Tóm tắt
 
 - $A=UIt$.
-- $P=UI=I^2R=U^2/R$ cho điện trở.
-- $Q=I^2Rt$.
+- $P=UI$ dùng với $U$ và $I$ của cùng phần tử/đoạn mạch; với điện trở ohmic mới suy ra $P=I^2R=U^2/R$.
+- $Q=I^2Rt$ cho nhiệt Joule khi $I,R$ không đổi trong khoảng $t$.
 - $1\,\mathrm{kWh}$ = 3,6 MJ.
 - Tải cực đại: R=r.
 - Hiệu suất và công suất cực đại là hai tiêu chí khác nhau.
@@ -236,7 +247,7 @@ Các nhóm bài dưới đây được tổ chức theo dấu hiệu nhận bi�
 
 ### Dạng 1 — Năng lượng, công suất điện
 
-Chọn đúng công thức theo đại lượng đã biết: $A=UIt$, $P=UI$; với điện trở thuần có thể dùng $P=I^2R=U^2/R$. Nhiệt lượng Joule bằng $Q=I^2Rt$ nếu điện năng chuyển hoàn toàn thành nhiệt.
+Chọn đúng công thức theo đại lượng đã biết: $A=UIt$, $P=UI$; với điện trở ohmic có thể dùng $P=I^2R=U^2/R$. Nhiệt Joule trên điện trở được tính bằng $Q=I^2Rt$ khi $I$ và $R$ coi như không đổi trong khoảng $t$; chỉ khi điện năng nhận vào chuyển hoàn toàn thành nhiệt mới được đồng nhất $Q=A$.
 
 Ở bài thiết bị định mức, từ $U_{đm}$ và $P_{đm}$ suy $R=U_{đm}^2/P_{đm}$ nếu coi điện trở thiết bị không đổi; sau đó mới xét điều kiện mạch thực tế.
 

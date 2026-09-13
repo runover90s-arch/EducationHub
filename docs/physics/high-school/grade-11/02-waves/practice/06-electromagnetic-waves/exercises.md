@@ -288,14 +288,14 @@ Khi ánh sáng đỏ (có bước sóng $0{,}75\,\mu\mathrm{m}$ trong chân khô
 
 <!-- source-id: BT-Chuong-II-p114-q3-257 -->
 
-Một vệ tinh nhân tạo chuyển động ở độ cao $350\,\mathrm{km}$ so với mặt đất phát sóng vô tuyến với công suất bằng 50 kW về phía mặt đất. Bỏ qua sự hấp thụ sóng của khí quyển. Cường độ sóng nhận được bởi một máy thu vô tuyến ở mặt đất ngay phía dưới vệ tinh là bao nhiêu $\mathrm{nW/m^2}$?
+Một vệ tinh nhân tạo chuyển động ở độ cao $350\,\mathrm{km}$ so với mặt đất phát sóng vô tuyến với công suất bằng $50\,\mathrm{kW}$. Coi vệ tinh là nguồn điểm phát đẳng hướng và bỏ qua sự hấp thụ sóng của khí quyển. Cường độ sóng nhận được bởi một máy thu vô tuyến ở mặt đất ngay phía dưới vệ tinh là bao nhiêu $\mathrm{nW/m^2}$?
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** $32{,}5$
 
     **Hướng dẫn giải:**
 
-    Theo mô hình nguồn phát đẳng hướng mà PDF dùng, tại điểm ngay dưới vệ tinh cách nguồn $r=350\,\mathrm{km}=3{,}5\times10^5\,\mathrm m$:
+    Coi vệ tinh là nguồn điểm phát đẳng hướng. Tại điểm ngay dưới vệ tinh, khoảng cách đến nguồn là $r=350\,\mathrm{km}=3{,}5\times10^5\,\mathrm m$:
 
     $I=\dfrac{P}{4\pi r^2}=\dfrac{50\times10^3}{4\pi(3{,}5\times10^5)^2}\approx3{,}248\times10^{-8}\,\mathrm{W/m^2}$.
 
@@ -340,37 +340,40 @@ tốc trung bình của máy bay ra km/h?
 
 <!-- source-id: BT-Chuong-II-p115-q6-260 -->
 
-Trạm rada Sơn Trà (Đà Nẵng. ở độ cao $900\,\mathrm m$ so với mực nước biến, có tọa độ 16°8’vĩ Bắc và
+Trạm radar Sơn Trà (Đà Nẵng), ở độ cao $900\,\mathrm m$ so với mực nước biển, có tọa độ 16°8’ vĩ Bắc và
 108°15’kinh Đông (ngay cạnh bờ biển). Coi mặt biển là một mặt cầu bán kính $6400\,\mathrm{km}$. Nếu chỉ xét
-sóng phát từ rada truyền thẳng trong không khí đến tàu thuyền và bỏ qua chiều cao con thuyền thì vùng
-phủ sóng của trạm trên mặt biến là một phần mặt cầu - gọi là vùng phủ sóng. Tính độ dài vĩ tuyến Bắc
-16°8’ tính từ chân rada đến hết vùng phủ sóng ra km?
+sóng phát từ radar truyền thẳng trong không khí đến tàu thuyền và bỏ qua chiều cao con thuyền thì vùng
+phủ sóng của trạm trên mặt biển là một phần mặt cầu - gọi là vùng phủ sóng. Tính độ dài vĩ tuyến Bắc
+16°8’ tính từ chân radar đến hết vùng phủ sóng ra km?
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** $103$
+    **Đáp án:** $107{,}3\,\mathrm{km}$.
 
     **Hướng dẫn giải:**
 
-    Xét mặt phẳng của vĩ tuyến $16^\circ8'$. Bán kính đường tròn vĩ tuyến là
+    Gọi $R=6400\,\mathrm{km}$, $h=0{,}9\,\mathrm{km}$ và $\varphi=16^\circ8'$. Gọi $F$ là chân radar và $M$ là điểm giới hạn vùng phủ nằm trên cùng vĩ tuyến với $F$. Nếu $\Delta\theta$ là độ chênh kinh độ giữa $F$ và $M$, thì độ dài cung vĩ tuyến cần tìm là
 
-    $r=R\cos\varphi=6400\cos(16^\circ8')\approx6147{,}95\,\mathrm{km}$.
+    $s=R\cos\varphi\,\Delta\theta$.
 
-    Radar cao $h=0{,}9\,\mathrm{km}$ theo phương bán kính Trái Đất; phần độ cao chiếu vào mặt phẳng vĩ tuyến là
+    Ở giới hạn phủ sóng, tia $NM$ từ radar tiếp xúc với mặt cầu Trái Đất tại $M$, nên với $\gamma=\angle FOM$ ta có
 
-    $h'=h\cos\varphi\approx0{,}8646\,\mathrm{km}$.
+    $\cos\gamma=\dfrac{R}{R+h}$.
 
-    Tia xa nhất tiếp xúc với đường tròn vĩ tuyến. Nếu $\alpha$ là góc ở tâm từ chân radar đến điểm tiếp xúc thì
+    Hai điểm $F,M$ cùng vĩ độ $\varphi$, do đó
 
-    $\cos\alpha=\dfrac{r}{r+h'}$,
+    $\cos\gamma=\sin^2\varphi+\cos^2\varphi\cos\Delta\theta$.
 
-    nên $\alpha\approx0{,}01677\,\mathrm{rad}$. Độ dài cung phủ sóng theo vĩ tuyến:
+    Suy ra
 
-    $s=r\alpha\approx6147{,}95\cdot0{,}01677\approx103{,}1\,\mathrm{km}$.
+    $\cos\Delta\theta=\dfrac{R/(R+h)-\sin^2\varphi}{\cos^2\varphi}$,
 
-    Vậy kết quả làm tròn là $103\,\mathrm{km}$.
+    nên $\Delta\theta\approx0{,}01746\,\mathrm{rad}$. Vì vậy
 
-    !!! warning "Đối chiếu nguồn"
-        Phần hướng dẫn PDF in $MN=9000\,\mathrm m$ dù đề cho độ cao $900\,\mathrm m$, đồng thời giá trị góc trung gian in trong PDF không nhất quán với kết quả $103\,\mathrm{km}$. Tính lại với đúng $900\,\mathrm m$ cho $s\approx103{,}1\,\mathrm{km}$, phù hợp đáp án số của nguồn.
+    $s\approx6400\cos(16^\circ8')\cdot0{,}01746\approx107{,}3\,\mathrm{km}$.
+
+    Vậy độ dài vĩ tuyến từ chân radar đến rìa vùng phủ sóng xấp xỉ **$107{,}3\,\mathrm{km}$**.
+
+<!-- source-audit-note: Source projects the three-dimensional horizon geometry onto the latitude plane and reports 103 km; direct spherical geometry gives about 107.3 km. -->
 
 #### Bài 20
 
@@ -441,7 +444,7 @@ D. Sóng điện từ không truyền được trong chân không.
 
 <!-- source-id: BT-Chuong-II-p102-q23-220 -->
 
-Một angten vệ tinh có công suất phát sóng là $1570\,\mathrm W$ hướng về một vùng của Trái Đất. Tín hiệu
+Một angten vệ tinh có công suất phát sóng là $1570\,\mathrm W$ hướng về một vùng của Trái Đất. Coi công suất được phân bố đều trên tiết diện tròn của vùng phủ sóng. Tín hiệu
 nhận được từ vệ tinh ở vùng đó trên mặt đất có cường độ là $5\times10^{-10}\,\mathrm{W/m^2}$. Bán kính đáy của hình nón tiếp
 xúc với mặt đất được vệ tinh phủ sóng là
 
@@ -518,7 +521,7 @@ thắng đến các điểm nằm trên Xích Đạo Trái Đất trong khoảng
 
 A. Từ kinh độ 85°20’ Đ đến kinh độ 85°20’T.
 
-B. Từ kinh độ 111°20' Đ đến kinh đô 51°20’T.
+B. Từ kinh độ 111°20' Đ đến kinh độ 51°20’T.
 
 C. Từ kinh độ 81°20’ Đ đến kinh độ 81°20’T.
 
@@ -547,9 +550,7 @@ D. Từ kinh độ 83°20'T đến kinh độ 83°20'Đ.
 
     Tức từ $51^\circ20'$T đến $111^\circ20'$Đ. Chọn **B**.
 
-    !!! note "Đối chiếu nguồn"
-        Dòng cuối của phần hướng dẫn PDF in phép cộng $30^\circ+81^\circ20'$ thành $110^\circ20'$Đ. Phép cộng đúng là $111^\circ20'$Đ, phù hợp phương án B được tô trong PDF.
-
+    <!-- source-audit-note: Dòng cuối của phần hướng dẫn PDF in phép cộng $30^\circ+81^\circ20'$ thành $110^\circ20'$Đ. Phép cộng đúng là $111^\circ20'$Đ, phù hợp phương án B được tô trong PDF. -->
 #### Bài 26
 
 <!-- source-id: BT-Chuong-II-p108-q3-235 -->
@@ -569,7 +570,7 @@ D. dưới $10\,\mathrm m$.
 
     **Hướng dẫn giải:**
 
-    Truyền hình vô tuyến dùng các dải sóng cực ngắn/VHF-UHF có bước sóng cỡ mét đến dưới chục mét; trong các lựa chọn, D phù hợp với đáp án nguồn.
+    Truyền hình vô tuyến dùng các dải VHF/UHF có bước sóng từ cỡ mét đến dưới chục mét. Vì vậy trong các lựa chọn, chỉ phương án **D** phù hợp.
 
 #### Bài 27
 
@@ -628,14 +629,12 @@ d) Ánh sáng khi truyền trong nước là ánh sáng khả kiến.
 
     d) **Đúng.** Khi qua mặt phân cách, tần số ánh sáng không đổi. $f=6\times10^{14}\,\mathrm{Hz}$ vẫn thuộc miền ánh sáng nhìn thấy, nên phát biểu đúng.
 
-    !!! warning "Đối chiếu nguồn"
-        Hướng dẫn PDF cho rằng khi bước sóng giảm trong nước thì ánh sáng trở thành tử ngoại. Phân loại bức xạ phải dựa vào tần số (không đổi khi truyền qua môi trường), nên kết luận đó sai.
-
+    <!-- source-audit-note: Hướng dẫn PDF cho rằng khi bước sóng giảm trong nước thì ánh sáng trở thành tử ngoại. Phân loại bức xạ phải dựa vào tần số (không đổi khi truyền qua môi trường), nên kết luận đó sai. -->
 #### Bài 29
 
 <!-- source-id: BT-Chuong-II-p105-q3-225 -->
 
-Một radar phát vi sóng có công suất $10\,\mathrm W$. Biết cường độ vi sóng tối đa không gây nguy hiểm cho cơ thể người khi bị phơi nhiễm là $1500\,\mathrm{mW/m^2}$. Xét các phát biểu:
+Một radar phát vi sóng có công suất $10\,\mathrm W$. Coi radar là nguồn điểm phát đẳng hướng. Biết cường độ vi sóng tối đa không gây nguy hiểm cho cơ thể người khi bị phơi nhiễm là $1500\,\mathrm{mW/m^2}$. Xét các phát biểu:
 
 a) Cường độ vi sóng tối thiểu sẽ gây nguy hiểm cho cơ thể người là $1{,}5\,\mathrm{W/m^2}$.
 
@@ -743,8 +742,7 @@ d) Sóng điện từ mà điện thoại di động bắt được là sóng v�
 
     d) **Đúng.** Các tần số trên thuộc miền sóng vô tuyến của phổ điện từ.
 
-    !!! warning "Đối chiếu nguồn"
-        Ở ý b), phần hướng dẫn PDF thay nhầm tần số cực đại $1800\,\mathrm{MHz}$ của đề bằng $2600\,\mathrm{MHz}$. Lời giải trên tính theo đúng dải $900$–$1800\,\mathrm{MHz}$ được in trong câu hỏi.
+    <!-- source-audit-note: Ở ý b), phần hướng dẫn PDF thay nhầm tần số cực đại $1800\,\mathrm{MHz}$ của đề bằng $2600\,\mathrm{MHz}$. Lời giải trên tính theo đúng dải $900$–$1800\,\mathrm{MHz}$ được in trong câu hỏi. -->
 #### Bài 32
 
 <!-- source-id: BT-Chuong-II-p113-q4-254 -->

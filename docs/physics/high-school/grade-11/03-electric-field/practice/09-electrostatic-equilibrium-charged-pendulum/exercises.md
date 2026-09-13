@@ -187,8 +187,6 @@ Một điện tích $80\,\mathrm{nC}$ lơ lửng trong không khí giữa hai b�
     Vật lơ lửng nên $|q|E=mg$, do đó
     $m=|q|E/g=80\times10^{-9}\cdot4\times10^4/10=3{,}2\times10^{-4}\,\mathrm{kg}=320\,\mathrm{mg}$.
 
-    !!! warning "Đối chiếu nguồn"
-        PDF ghi đáp án $32\,\mathrm{mg}$ do phép thay số đã làm mất một hệ số 10. Tính trực tiếp từ $U/d=4\times10^4\,\mathrm{V/m}$ cho $320\,\mathrm{mg}$.
 
 #### Bài 12
 
@@ -220,8 +218,6 @@ Một viên bi kim loại nhỏ có khối lượng $9\cdot10^{-5}\,\mathrm{kg}$
     Để cân bằng, lực điện phải hướng lên với độ lớn $F_e=P-F_A=8{,}2\times10^{-4}\,\mathrm N$. Vì $\vec E$ hướng xuống nên $q<0$.
     $q=-F_e/E=-8{,}2\times10^{-4}/(4{,}1\times10^5)=-2{,}0\times10^{-9}\,\mathrm C=-2{,}0\,\mathrm{nC}$.
 
-    !!! warning "Đối chiếu nguồn"
-        Ô đáp án PDF ghi “2” nhưng không mang dấu. Từ chiều của $\vec E$ và điều kiện cân bằng, điện tích phải **âm**; vì đề hỏi điện tích chứ không hỏi độ lớn, kết quả đầy đủ là $-2\,\mathrm{nC}$.
 
 #### Bài 14
 
@@ -362,7 +358,7 @@ D. $2{,}7\cdot10^5\,\mathrm{V/m}$.
 
 <!-- source-id: BT-Chuong-III-p84-q13-219 -->
 
-Quả cầu nhỏ $m=0{,}5\,\mathrm g$, mang điện tích $q_1=0{,}5\times10^{-8}\,\mathrm C$ treo trên một sợi dây mảnh trong điện trường đều có phương nằm ngang. Cường độ điện trường $E=10^6\,\mathrm{V/m}$. Lấy $g=10\,\mathrm{m/s^2}$. Góc lệch của dây so với phương thẳng đứng là
+Quả cầu nhỏ $m=0{,}5\,\mathrm g$, mang điện tích $q_1=5\times10^{-9}\,\mathrm C$ treo trên một sợi dây mảnh trong điện trường đều có phương nằm ngang. Cường độ điện trường $E=10^6\,\mathrm{V/m}$. Lấy $g=10\,\mathrm{m/s^2}$. Góc lệch của dây so với phương thẳng đứng là
 
 A. $15^\circ$.
 
@@ -373,22 +369,22 @@ C. $45^\circ$.
 D. $60^\circ$.
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** C ($45^\circ$).
+    **Đáp án:** C
 
     **Hướng dẫn giải:**
 
-    Ở trạng thái cân bằng, lực điện nằm ngang và trọng lực thẳng đứng nên
+    **Chiến lược:** Khi quả cầu cân bằng, lực điện nằm ngang và trọng lực thẳng đứng là hai thành phần vuông góc; dùng tỉ số của chúng để tìm góc lệch.
 
-    $\tan\alpha=\dfrac{|q_1|E}{mg}$.
+    **Phương trình:** $F_e=|q_1|E$ và $P=mg$, nên $\tan\alpha=\dfrac{|q_1|E}{mg}$.
 
-    Thay số:
+    Thay số: $m=0{,}5\,\mathrm g=5\times10^{-4}\,\mathrm{kg}$, do đó
+    $\tan\alpha=\dfrac{5\times10^{-9}\cdot10^6}{5\times10^{-4}\cdot10}=1$.
 
-    $\tan\alpha=\dfrac{0{,}5\times10^{-8}\cdot10^6}{0{,}5\times10^{-3}\cdot10}=1$.
+    **Dấu/vectơ:** $q_1>0$ nên lực điện cùng chiều $\vec E$; điều này quyết định phía lệch của quả cầu. Độ lớn góc thỏa $\tan\alpha=1$.
 
-    Suy ra $\alpha=45^\circ$, chọn **C**.
+    **Nghiệm:** $\alpha=45^\circ$.
 
-    !!! warning "Đối chiếu nguồn"
-        Câu dẫn PDF bị thiếu giá trị $q_1$. Trong lời giải, nguồn in $0{,}5\times10^{-4}\,\mathrm C$ nhưng ngay sau đó lại tính tỉ số lực bằng $1$ và tô $45^\circ$. Với toàn bộ các số còn lại giữ nguyên, giá trị duy nhất làm chính phép tính đó đúng là $q_1=mg/E=5\times10^{-9}\,\mathrm C$ $=0{,}5\times10^{-8}\,\mathrm C$. Bản trình bày này phục hồi dữ kiện này và sửa riêng số mũ bị in sai trong lời giải nguồn.
+    **Kiểm tra:** $|q_1|E=5\times10^{-3}\,\mathrm N=mg$, nên hai lực vuông góc có cùng độ lớn và dây lệch $45^\circ$. Chọn C.
 
 #### Bài 22
 
@@ -454,7 +450,7 @@ c) Lực điện tương tác giữa hai quả cầu có độ lớn khoảng $5
 d) Độ lớn điện tích của hai quả cầu nhỏ hơn $2\,\mu\mathrm C$.
 
 ??? success "Đáp án và lời giải"
-    **Đáp án đã hiệu chỉnh:** a) Đúng; b) Đúng; c) Đúng; d) Đúng.
+    **Đáp án:** a) Đúng; b) Đúng; c) Đúng; d) Đúng.
 
     **Hướng dẫn giải:**
 
@@ -466,8 +462,6 @@ d) Độ lớn điện tích của hai quả cầu nhỏ hơn $2\,\mu\mathrm C$.
 
     d) **Đúng.** Từ $F_e=kq^2/r^2$, suy ra $|q|=\sqrt{F_er^2/k}\approx2{,}0\times10^{-8}\,\mathrm C$ $=0{,}020\ \mu\text{C}<2\ \mu\text{C}$.
 
-    !!! warning "Đối chiếu nguồn"
-        Bảng đáp án PDF đánh dấu ý b) sai, nhưng điều kiện cân bằng vector cho trực tiếp $\vec P=-(\vec T+\vec F_e)$. Vì vậy ý b) được hiệu chỉnh thành đúng.
 #### Bài 25
 
 <!-- source-id: BT-Chuong-III-p21-q1-72 -->

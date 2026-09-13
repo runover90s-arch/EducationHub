@@ -1,0 +1,116 @@
+{
+  "base_version": "education-hub-v9",
+  "target_version": "education-hub-v10",
+  "mode": "FINAL AUDIT / UPDATE",
+  "scope": "docs/physics/high-school/grade-11/03-electric-field/",
+  "method": {
+    "full_resolve_from_scratch": false,
+    "approach": "Cross-search repository markers, synchronize exercises/solutions, inspect prior correction points, and spot-check source-sensitive physics against the supplied Chapter III PDF.",
+    "source_primary": "BT-Chương III_1.pdf"
+  },
+  "coverage": {
+    "lesson_files": 9,
+    "practice_sets": 9,
+    "authored_practice_questions": 90,
+    "imported_pdf_questions": 361,
+    "chapter_exercises": 42,
+    "quiz_questions": 10
+  },
+  "search_results": {
+    "learner_facing_Doi_chieu_nguon": 0,
+    "learner_facing_Khong_co_phuong_an_phu_hop": 0,
+    "learner_facing_answer_mismatch_marker": 0,
+    "learner_facing_generic_solution_marker": 0,
+    "learner_facing_Dap_an_sau_kiem_tra": 0,
+    "learner_facing_Dap_an_da_hieu_chinh": 0,
+    "raw_latex_delimiters_backslash_parenthesis_or_bracket": 0
+  },
+  "synchronization": {
+    "chapter_exercises_solutions": "42/42 numbering aligned and continuous",
+    "practice_authored_solutions": "Bài 1–10 represented in each of 9 solution files; imported ranges Bài 11–N remain inline under their source questions by current schema",
+    "practice_numbering": "continuous in all 9 practice sets",
+    "quiz": "10 questions with 10 answer entries"
+  },
+  "spot_checks": [
+    {
+      "area": "charge sign / electric-field direction / force",
+      "examples": [
+        "BT-Chuong-III-p89-q3-227",
+        "BT-Chuong-III-p89-q4-228",
+        "BT-Chuong-III-p84-q13-219"
+      ],
+      "result": "No remaining unresolved item. BT-Chuong-III-p84-q13-219 was minimally repaired in v11 and independently verified: q1=5e-9 C gives alpha=45 degrees."
+    },
+    {
+      "area": "work / electric potential / potential energy",
+      "examples": [
+        "BT-Chuong-III-p103-q13-247",
+        "BT-Chuong-III-p113-q6-280",
+        "BT-Chuong-III-p129-q21-323",
+        "BT-Chuong-III-p128-q15-317",
+        "BT-Chuong-III-p145-q3-365"
+      ],
+      "result": "No remaining unresolved item. BT-Chuong-III-p128-q15-317 and BT-Chuong-III-p145-q3-365 were minimally repaired in v11 by restoring q>0, then independently verified."
+    },
+    {
+      "area": "capacitors / combinations / energy / dielectric / source-connected vs isolated",
+      "examples": [
+        "BT-Chuong-III-p165-q9-429",
+        "BT-Chuong-III-p165-q10-430",
+        "BT-Chuong-III-p165-q11-431",
+        "BT-Chuong-III-p165-q12-432",
+        "BT-Chuong-III-p168-q2-457",
+        "BT-Chuong-III-p168-q5-460",
+        "BT-Chuong-III-p168-q6-461"
+      ],
+      "result": "Equivalent capacitance, voltage sharing, charge conservation, rating limits, and energy/source-isolation rules are consistent with the stated models."
+    },
+    {
+      "area": "charged-particle motion / energy conservation",
+      "examples": [
+        "BT-Chuong-III-p69-q15-188",
+        "BT-Chuong-III-p106-q25-259",
+        "BT-Chuong-III-p115-q16-290",
+        "BT-Chuong-III-p114-q10-284"
+      ],
+      "result": "Direction/sign conventions, acceleration, stopping distance, and mechanical/electric energy relations spot-check correctly after prior fixes."
+    }
+  ],
+  "unresolved": [],
+  "updates": [
+    "Reclassified BT-Chuong-III-p84-q13-219 from certain source correction to source ambiguity in tools/v9_import_report.json.",
+    "Registered all three remaining Chapter III source ambiguities in C_source_ambiguity_not_uniquely_resolvable.",
+    "No additional learner-facing academic patch was made where the supplied source did not support one.",
+    "Resolved the three former source ambiguities in education-hub-v11 by minimal source-intent repair followed by independent physics verification.",
+    "Finalized Chapter III status with zero unresolved items and no open NEXT."
+  ],
+  "status": "COMPLETE_NO_UNRESOLVED",
+  "next": null,
+  "gate_results": {
+    "python tools/check_practice_bank.py": {
+      "exit_code": 0,
+      "result": "PASS"
+    },
+    "python tools/check_pdf_import.py": {
+      "exit_code": 0,
+      "result": "PASS"
+    },
+    "python tools/check_solution_quality.py": {
+      "exit_code": 0,
+      "result": "PASS"
+    },
+    "python tools/check_site.py": {
+      "exit_code": 1,
+      "result": "Markdown lint PASS (237 files, 0 errors, 0 warnings); build step unavailable because mkdocs executable is not installed."
+    },
+    "python tools/check_site.py --lint-only": {
+      "exit_code": 0,
+      "result": "PASS"
+    },
+    "mkdocs build --strict": {
+      "exit_code": 127,
+      "result": "NOT RUN: mkdocs command unavailable; pip install -r requirements.txt was attempted but PyPI could not be reached due DNS/network failure."
+    }
+  },
+  "superseded_by": "tools/ch3-completion-status.json"
+}

@@ -208,8 +208,8 @@ Một sóng cơ truyền dọc theo trục Ox có phương trình $u=5\cos(6\pi 
     Ba gợn sóng liên tiếp gồm hai khoảng bước sóng, nên khoảng cách từ gợn thứ nhất đến gợn thứ ba là
     $2\lambda=4\,\mathrm{m}$.
 
-    !!! warning "Đối chiếu nguồn"
-        PDF nguồn cho kết quả $12\,\mathrm{m}$; kết quả này không phù hợp với $k=\pi\,\mathrm{rad/m}$. Tính độc lập từ phương trình sóng cho $4\,\mathrm{m}$.
+
+<!-- provenance-note: PDF nguồn cho kết quả $12\,\mathrm{m}$; kết quả này không phù hợp với $k=\pi\,\mathrm{rad/m}$. Tính độc lập từ phương trình sóng cho $4\,\mathrm{m}$. -->
 
 #### Bài 11
 
@@ -250,8 +250,8 @@ mặt nước. Biết khoảng cách giữa 7 gợn lồi liên tiếp là $3\,\
     Vì $f=100\,\mathrm{Hz}$,
     $v=\lambda f=5\times10^{-3}\cdot100=0{,}5\,\mathrm{m/s}$.
 
-    !!! warning "Đối chiếu nguồn"
-        PDF nguồn ghi đúng dữ kiện $3\,\mathrm{cm}$ nhưng lời giải đổi sai thành $\lambda=0{,}5\,\mathrm{m}$ và kết luận $50\,\mathrm{m/s}$. Giữ nguyên dữ kiện đề và sửa kết quả theo phép tính đúng.
+
+<!-- provenance-note: PDF nguồn ghi đúng dữ kiện $3\,\mathrm{cm}$ nhưng lời giải đổi sai thành $\lambda=0{,}5\,\mathrm{m}$ và kết luận $50\,\mathrm{m/s}$. Giữ nguyên dữ kiện đề và sửa kết quả theo phép tính đúng. -->
 
 #### Bài 13
 
@@ -289,9 +289,9 @@ dấu phẩy)?
 
     **Hướng dẫn giải:**
 
-    $\lambda=\dfrac{v}{f}=\dfrac{60}{4}=15\,\mathrm{cm}$. Vì $d_{\min}=35\,\mathrm{cm}=2\lambda+\lambda/3$, hai điểm dao động lệch pha $\Delta\varphi=2\pi/3$.
+    $\lambda=\dfrac{v}{f}=\dfrac{60}{4}=15\,\mathrm{cm}$. Gọi $\Delta x$ là khoảng cách giữa hai vị trí cân bằng. Với sóng ngang, chênh li độ của hai phần tử biến thiên điều hòa và có thời điểm bằng $0$, nên khoảng cách nhỏ nhất chính là $\Delta x=35\,\mathrm{cm}$.
 
-    Khoảng cách lớn nhất giữa hai phần tử là
+    Do $\Delta x=35\,\mathrm{cm}=2\lambda+\lambda/3$, hai điểm lệch pha $\Delta\varphi=2\pi/3$. Khoảng cách lớn nhất giữa hai phần tử là
 
     $d_{\max}=\sqrt{(\Delta x)^2+2a^2(1-\cos\Delta\varphi)}=\sqrt{35^2+2\cdot4^2\left(1-\cos\dfrac{2\pi}{3}\right)}\approx35{,}7\,\mathrm{cm}$.
 
@@ -354,8 +354,8 @@ Tính bước sóng của sóng? (tính theo mm)
 
     $\lambda=2\cdot4=8\,\mathrm{mm}$.
 
-    !!! warning "Đối chiếu nguồn"
-        PDF có một dòng văn bản ghi $2\,\mathrm{mm}$, nhưng ngay phép lập $4=\lambda/2$ và ô đáp án đều dẫn tới $\lambda=8\,\mathrm{mm}$.
+
+<!-- provenance-note: PDF có một dòng văn bản ghi $2\,\mathrm{mm}$, nhưng ngay phép lập $4=\lambda/2$ và ô đáp án đều dẫn tới $\lambda=8\,\mathrm{mm}$. -->
 
 #### Bài 18
 
@@ -557,7 +557,7 @@ D. $f=\dfrac{1}{T}$.
 
 <!-- source-id: BT-Chuong-II-p9-q5-5 -->
 
-Trong cùng một môi trường truyền sóng cơ học, tốc độ truyền sóng
+Trong cùng một môi trường truyền sóng cơ học được coi là không tán sắc, tốc độ truyền sóng
 
 A. càng lớn nếu tần số của sóng càng lớn.
 
@@ -572,7 +572,7 @@ D. có giá trị như nhau với mọi tần số.
 
     **Hướng dẫn giải:**
 
-    Trong mô hình sóng cơ của bài, khi môi trường không đổi thì tốc độ truyền do các tính chất cơ học của môi trường quyết định, không do tần số nguồn quyết định. Chọn **D**.
+    Trong mô hình môi trường không tán sắc, khi môi trường không đổi thì tốc độ truyền do các tính chất cơ học của môi trường quyết định, không do tần số nguồn quyết định. Chọn **D**.
 
 #### Bài 30
 
@@ -703,8 +703,8 @@ D. $15\,\mathrm m$.
 
     Bước sóng là khoảng cách giữa hai điểm gần nhau nhất dao động cùng pha. Đọc trực tiếp trục $x$ của Hình 2.1, hai đỉnh liên tiếp cách nhau $5\,\mathrm{m}$, nên $\lambda=5\,\mathrm{m}$.
 
-    !!! warning "Đối chiếu nguồn"
-        PDF nguồn tô phương án A ($2{,}5\,\mathrm{m}$), nhưng khoảng cách đỉnh-đỉnh trên chính đồ thị là $5\,\mathrm{m}$.
+
+<!-- provenance-note: PDF nguồn tô phương án A ($2{,}5\,\mathrm{m}$), nhưng khoảng cách đỉnh-đỉnh trên chính đồ thị là $5\,\mathrm{m}$. -->
 
 #### Bài 36
 
@@ -730,8 +730,8 @@ D. $4\,\mathrm{m/s}$.
     $4\lambda=1{,}6\,\mathrm{m}\Rightarrow\lambda=0{,}4\,\mathrm{m}$.
     Suy ra $v=\lambda f=0{,}4\cdot10=4\,\mathrm{m/s}$.
 
-    !!! warning "Đối chiếu nguồn"
-        Dòng đề trong PDF in “$16\,\mathrm m$”, trong khi các phương án và chính hướng dẫn của PDF dùng $1{,}6\,\mathrm{m}$. Dữ kiện được hiệu chỉnh tối thiểu thành $1{,}6\,\mathrm{m}$ để khớp nhất quán với bài gốc.
+
+<!-- provenance-note: Dòng đề trong PDF in “$16\,\mathrm m$”, trong khi các phương án và chính hướng dẫn của PDF dùng $1{,}6\,\mathrm{m}$. Dữ kiện được hiệu chỉnh tối thiểu thành $1{,}6\,\mathrm{m}$ để khớp nhất quán với bài gốc. -->
 
 #### Bài 37
 
@@ -864,7 +864,7 @@ D. $4\,\mathrm m$.
 
 <!-- source-id: BT-Chuong-II-p27-q1-51 -->
 
-Một sóng cơ truyền từ không khí vào môi trường nước sau đó đi vào thủy tinh. Tốc độ của sóng cơ truyền trong các môi trường nước $v_{nc}$, không khí $v_{kk}$ và thủy tinh $v_{tt}$ được sắp xếp theo thứ tự tăng dần là
+Xét sóng âm truyền lần lượt trong không khí, nước và thủy tinh ở điều kiện thông thường. Tốc độ truyền âm trong các môi trường nước $v_{nc}$, không khí $v_{kk}$ và thủy tinh $v_{tt}$ được sắp xếp theo thứ tự tăng dần là
 
 A. $v_{nc},v_{kk},v_{tt}$.
 
@@ -1288,8 +1288,8 @@ D. $35\,\mathrm{cm}$.
 
     P và Q có vị trí cân bằng cách nhau $PQ=20\,\mathrm{cm}$. Sóng truyền theo phương vuông góc mặt nước nên chuyển dời của hai phần tử là theo phương thẳng đứng; khoảng cách không gian giữa chúng luôn không nhỏ hơn khoảng cách ngang $PQ$ và đạt nhỏ nhất khi hai li độ bằng nhau. Do đó $d_{\min}=20\,\mathrm{cm}$.
 
-    !!! warning "Đối chiếu nguồn"
-        PDF in đơn vị “m” ở bốn phương án nhưng phần hướng dẫn kết luận $20\,\mathrm{cm}$. Các đơn vị phương án được sửa về cm; không thay đổi số liệu của bài.
+
+<!-- provenance-note: PDF in đơn vị “m” ở bốn phương án nhưng phần hướng dẫn kết luận $20\,\mathrm{cm}$. Các đơn vị phương án được sửa về cm; không thay đổi số liệu của bài. -->
 
 #### Bài 61
 
@@ -1719,8 +1719,7 @@ D. $v=0{,}5\,\mathrm{cm/s}$.
 
 <!-- source-id: BT-Chuong-II-p22-q1-41 -->
 
-Một sóng cơ học truyền đi trong nước với tốc độ $2\,\mathrm{m/s}$, tần số dao động của nguồn sóng là 5
-Hz.
+Một sóng cơ học truyền đi trong nước với tốc độ $2\,\mathrm{m/s}$, tần số dao động của nguồn sóng là $5\,\mathrm{Hz}$. Khi sóng truyền sang không khí, coi tốc độ truyền sóng giảm còn tần số do nguồn quyết định không đổi.
 
 a) Khi sóng truyền từ nước ra ngoài không khí, tần số sóng trong không khí là $5\,\mathrm{Hz}$.
 
@@ -1758,22 +1757,21 @@ c) Tốc độ dao động cực đại của các phần tử có sóng truyề
 d) Tại điểm $M$ cách nguồn $O$ một khoảng $\dfrac{\lambda}{4}$, phương trình sóng là $u_M=4\cos\left(2\pi t-\dfrac{\pi}{2}\right)\,\mathrm{cm}$.
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** a) Đúng; b) Sai; c) Đúng; d) Sai.
+    **Đáp án:** a) Sai; b) Sai; c) Đúng; d) Sai.
 
     **Hướng dẫn giải:**
 
     Năm ngọn sóng liên tiếp tạo ra $4$ khoảng chu kì, nên $T=4/(5-1)=1\,\mathrm s$ và $\omega=2\pi\,\mathrm{rad/s}$.
 
-    a) **Đúng.** Tại $t=0$, $u_0=2\sqrt3\,\mathrm{cm}$, $A=4\,\mathrm{cm}$ nên $\cos\varphi=\sqrt3/2$. Nguồn đang đi lên nên $v_0>0$, tức $-\omega A\sin\varphi>0$; chọn $\varphi=-\pi/3$. Do đó $u_O=4\cos(2\pi t-\pi/3)\,\mathrm{cm}$.
+    a) **Sai.** Tại $t=0$, $u_0=2\sqrt3\,\mathrm{cm}$ và $A=4\,\mathrm{cm}$ nên $\cos\varphi=\sqrt3/2$. Vì nguồn đang đi lên, $v_0=-\omega A\sin\varphi>0$, do đó $\sin\varphi<0$ và $\varphi=-\pi/6$. Phương trình đúng là $u_O=4\cos(2\pi t-\pi/6)\,\mathrm{cm}$, không phải pha $-\pi/3$.
 
     b) **Sai.** $\lambda=vT=5\cdot1=5\,\mathrm m$, không phải $10\,\mathrm m$.
 
     c) **Đúng.** $v_{\max}=\omega A=2\pi\cdot4=8\pi\,\mathrm{cm/s}$.
 
-    d) **Sai.** Tại $M$ cách nguồn $\lambda/4$, sóng trễ pha $2\pi(\lambda/4)/\lambda=\pi/2$. Vì vậy $u_M=4\cos(2\pi t-\pi/3-\pi/2)=4\cos(2\pi t-5\pi/6)\,\mathrm{cm}$, không phải pha $-\pi/2$.
+    d) **Sai.** Tại $M$ cách nguồn $\lambda/4$, sóng trễ pha $\pi/2$ so với nguồn. Vì vậy $u_M=4\cos(2\pi t-\pi/6-\pi/2)=4\cos(2\pi t-2\pi/3)\,\mathrm{cm}$, không phải pha $-\pi/2$.
 
-    !!! warning "Đối chiếu nguồn"
-        Bảng đáp án PDF đánh dấu d) đúng nhưng công thức truyền sóng và chính pha ban đầu ở ý a) cho pha tại $M$ là $-5\pi/6$. Vì vậy d) được hiệu chỉnh thành sai.
+<!-- provenance-note: BT-Chuong-II-p32-q2-70 có lỗi lượng giác ở pha ban đầu; đáp án được kiểm chứng lại độc lập từ dữ kiện $u_0=2\sqrt3\,\mathrm{cm}$, $A=4\,\mathrm{cm}$ và chiều chuyển động. -->
 
 #### Bài 82
 
@@ -1902,8 +1900,8 @@ d) Tốc độ sóng truyền trên lò xo là $4\,\mathrm{cm/s}$.
 
     d) **Sai.** Với $T=0{,}5\ \mathrm s$, tốc độ truyền sóng là $v=\lambda/T=8/0{,}5=16\ \mathrm{cm/s}$, không phải giá trị nêu trong phát biểu.
 
-    !!! warning "Đối chiếu nguồn"
-        Phần hướng dẫn của PDF ghi đúng $\lambda=8\ \mathrm{cm}$ nhưng ở dòng tính tốc độ lại thay nhầm tử số thành $4\ \mathrm{cm}$. Phần giải trên dùng nhất quán $v=\lambda/T$ với chính bước sóng đã xác định từ hình.
+
+<!-- provenance-note: Phần hướng dẫn của PDF ghi đúng $\lambda=8\ \mathrm{cm}$ nhưng ở dòng tính tốc độ lại thay nhầm tử số thành $4\ \mathrm{cm}$. Phần giải trên dùng nhất quán $v=\lambda/T$ với chính bước sóng đã xác định từ hình. -->
 
 #### Bài 86
 
@@ -2055,8 +2053,8 @@ d) Tốc độ truyền sóng nước là $108\,\mathrm{cm/s}$.
 
     d) **Sai.** $v=\lambda f=24\cdot4=96\,\mathrm{cm/s}$, không phải $108\,\mathrm{cm/s}$.
 
-    !!! warning "Đối chiếu nguồn"
-        Hướng dẫn nguồn đã lấy 9 lần nhô lên thành 9 chu kì. Với 9 lần xuất hiện liên tiếp của cùng trạng thái, chỉ có 8 khoảng chu kì.
+
+<!-- provenance-note: Hướng dẫn nguồn đã lấy 9 lần nhô lên thành 9 chu kì. Với 9 lần xuất hiện liên tiếp của cùng trạng thái, chỉ có 8 khoảng chu kì. -->
 
 ### Thông hiểu — Trắc nghiệm 4 lựa chọn
 
@@ -2126,13 +2124,13 @@ D. biên độ sóng.
 
     **Hướng dẫn giải:**
 
-    Trong cùng môi trường, tần số và tốc độ truyền do nguồn/môi trường quyết định nên bước sóng không đổi. Hình cho thấy các gợn lan ra trên chu vi ngày càng lớn, nên năng lượng phân bố trên diện tích lớn hơn và biên độ giảm dần. Chọn **D**.
+    Trong cùng môi trường, tần số do nguồn quyết định và tốc độ truyền được coi như không đổi, nên bước sóng không đổi. Hình cho thấy chu vi các đường tròn sóng ngày càng lớn; năng lượng trên mỗi đơn vị độ dài của mặt sóng giảm, nên biên độ giảm theo khoảng cách. Chọn **D**.
 
 #### Bài 94
 
 <!-- source-id: BT-Chuong-II-p14-q25-25 -->
 
-Sóng cơ học lan truyền từ không khí vào nước. Đại lượng tăng là
+Một sóng âm truyền từ không khí vào nước ở điều kiện thông thường. Đại lượng tăng là
 
 A. biên độ sóng.
 

@@ -141,7 +141,7 @@ $$
 
 ## 5. Lực đàn hồi
 
-Độ lớn lực đàn hồi của lò xo:
+Trong giới hạn đàn hồi tuyến tính của lò xo, độ lớn lực đàn hồi tuân theo định luật Hooke:
 
 $$
 F_{dh}=k|\Delta\ell|.
@@ -215,11 +215,13 @@ $$
 W_d=\frac12mv^2=\frac12m\omega^2(A^2-x^2).
 $$
 
-Nếu chọn thế năng đàn hồi theo mốc thích hợp quanh vị trí cân bằng:
+Nếu chọn mốc thế năng của **hệ dao động** tại vị trí cân bằng, phần thế năng biến thiên theo li độ có dạng
 
 $$
 W_t=\frac12kx^2.
 $$
+
+Với con lắc nằm ngang có vị trí cân bằng trùng trạng thái lò xo không biến dạng, đây chính là thế năng đàn hồi. Với con lắc treo thẳng đứng, $\tfrac12kx^2$ là thế năng của hệ sau khi gộp thế năng đàn hồi và thế năng trọng trường rồi bỏ hằng số; thế năng đàn hồi riêng của lò xo vẫn phụ thuộc độ biến dạng so với chiều dài tự nhiên.
 
 Cơ năng:
 
@@ -322,7 +324,7 @@ Nguyên tắc chung:
 1. Trạng thái ngay trước biến cố xác định bởi $x$ và $v$.
 2. Tại thời điểm biến cố, vị trí thường chưa kịp thay đổi.
 3. Sau biến cố, cần xác định **vị trí cân bằng mới**, $\omega'$ và vận tốc ban đầu mới.
-4. Biên độ mới được tính bằng
+4. Nếu sau biến cố hệ mới vẫn dao động điều hòa, biên độ mới được tính bằng
 
 $$
 A'^2=x'^2+\frac{v'^2}{\omega'^2},

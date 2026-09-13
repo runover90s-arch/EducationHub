@@ -72,7 +72,7 @@ C. vật cách điện không chứa điện tích.
 D. vật dẫn không có electron.
 
 ??? success "Đáp án và lời giải"
-    Chọn **B**.
+    Chọn **B**. Vật dẫn có các hạt mang điện tự do (điển hình là electron dẫn) có thể dịch chuyển trong vật; ở vật cách điện, các điện tích bị liên kết chặt hơn.
 
 ## Phần B — Đúng/Sai
 
@@ -91,11 +91,11 @@ d) Trong hệ cô lập, tổng đại số điện tích có thể tự tăng l
 ??? success "Đáp án và lời giải"
     a) **Đúng.** Electron mang điện tích nguyên tố $q_e=-e\approx-1{,}602\times10^{-19}\,\mathrm C$.
 
-    b) **Đúng.** về độ lớn.
+    b) **Đúng.** Proton mang điện tích $+e$, electron mang điện tích $-e$, nên độ lớn điện tích của chúng bằng nhau và bằng $e$.
 
     c) **Đúng.** Điện tích âm xuất hiện khi số electron của vật lớn hơn trạng thái trung hòa điện.
 
-    d) **Sai.** theo định luật bảo toàn điện tích.
+    d) **Sai.** Trong hệ cô lập, tổng đại số điện tích được bảo toàn; điện tích không tự sinh thêm hoặc mất đi.
 
 ### Bài 6 — Mức 2 — Thông hiểu
 
@@ -179,12 +179,15 @@ Bốn quả cầu kim loại có kích thước giống nhau mang các điện t
 Biết khoảng cách từ electron trong nguyên tử hydrogen đến hạt nhân là $5\cdot10^{-11}\,\mathrm m$, điện tích của electron và proton có độ lớn bằng nhau $1{,}6\cdot10^{-19}\,\mathrm C$. Lấy $\varepsilon_0=8{,}85\cdot10^{-12}\,\mathrm{C^2/(N\,m^2)}$. Lực điện tương tác giữa electron và proton là bao nhiêu (theo đơn vị nN và làm tròn đến hai chữ số thập phân)?
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** $0{,}92\,\mathrm{nN}$.
+    **Đáp án:** $92{,}10\,\mathrm{nN}$.
 
     **Hướng dẫn giải:**
 
-    Theo biểu thức trong nguồn,
-    $F=\dfrac{|q_eq_p|}{4\pi\varepsilon_0r^2}=\dfrac{(1{,}6\cdot10^{-19})^2}{4\pi\cdot8{,}85\cdot10^{-12}(5\cdot10^{-11})^2}\approx9{,}21\cdot10^{-10}\,\mathrm N\approx0{,}92\,\mathrm{nN}$.
+    Ta có
+    $F=\dfrac{|q_eq_p|}{4\pi\varepsilon_0r^2}=\dfrac{(1{,}6\cdot10^{-19})^2}{4\pi\cdot8{,}85\cdot10^{-12}(5\cdot10^{-11})^2}\approx9{,}21\cdot10^{-8}\,\mathrm N$.
+    Vì $1\,\mathrm{nN}=10^{-9}\,\mathrm N$, suy ra $F\approx92{,}10\,\mathrm{nN}$.
+
+    <!-- source-audit-note: PDF tính đúng $F\approx9{,}21\cdot10^{-8}\,\mathrm N$ nhưng đổi sai sang $0{,}92\,\mathrm{nN}$. Đổi đơn vị đúng cho $92{,}10\,\mathrm{nN}$. -->
 
 #### Bài 13
 
@@ -474,7 +477,7 @@ D. lực hút, có độ lớn $2{,}9\cdot10^{-8}\,\mathrm N$.
 
 Hai quả cầu A, B có kích thước nhỏ được đặt cách nhau một khoảng $12\,\mathrm{cm}$ trong chân không. Biết quả cầu A có điện tích $-3{,}2\cdot10^{-7}\,\mathrm C$ và quả cầu B có điện tích $2{,}4\cdot10^{-7}\,\mathrm C$. Cho hai quả cầu tiếp xúc với nhau, sau đó đặt cách nhau một khoảng như lúc đầu. Biết rằng sau khi tiếp xúc, hai quả cầu có điện tích bằng nhau.
 
-a) Hằng số điện môi của chân không bằng 1.
+a) Hằng số điện môi tương đối của chân không bằng 1.
 
 b) Sau khi tiếp xúc, hai quả cầu đều mang điện tích $-0{,}4\cdot10^{-7}\,\mathrm C$.
 
@@ -487,7 +490,7 @@ d) Sau khi tiếp xúc, lực tương tác của hai quả cầu giảm 8 lần.
 
     **Hướng dẫn giải:**
 
-    a) **Đúng.** Chân không có hằng số điện môi $\varepsilon=1$.
+    a) **Đúng.** Chân không có hằng số điện môi tương đối $\varepsilon_r=1$.
 
     b) **Đúng.** Vì sau tiếp xúc hai quả cầu có điện tích bằng nhau và điện tích toàn hệ được bảo toàn, mỗi quả cầu có $q'=(-3{,}2+2{,}4)\cdot10^{-7}/2=-0{,}4\cdot10^{-7}\,\mathrm C$.
 
@@ -495,7 +498,7 @@ d) Sau khi tiếp xúc, lực tương tác của hai quả cầu giảm 8 lần.
 
     d) **Sai.** Sau tiếp xúc, $F'=9\cdot10^9(0{,}4\cdot10^{-7})^2/(0{,}12)^2=0{,}001\,\mathrm N$. Do đó $F'/F=1/48$: lực giảm 48 lần, không phải 8 lần.
 
-    **Đối chiếu nguồn:** bản PDF dạng Đúng/Sai làm rơi điều kiện “sau khi tiếp xúc, hai quả cầu có điện tích bằng nhau” của bài toán gốc, trong khi chính bảng đáp án và hướng dẫn vẫn sử dụng điều kiện này. Điều kiện bị thiếu được phục hồi để đề và lời giải tự nhất quán.
+    <!-- source-audit-note: Bản PDF dạng Đúng/Sai làm rơi điều kiện “sau khi tiếp xúc, hai quả cầu có điện tích bằng nhau” của bài toán gốc, trong khi bảng đáp án và hướng dẫn vẫn sử dụng điều kiện này. Điều kiện bị thiếu được phục hồi để đề và lời giải tự nhất quán. -->
 #### Bài 27
 
 <!-- source-id: BT-Chuong-III-p15-q5-46 -->

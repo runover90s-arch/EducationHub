@@ -268,8 +268,8 @@ Một nguồn âm có tần số $725\,\mathrm{Hz}$ đặt trong nước. Biết
     Hai điểm gần nhau nhất lệch pha $\pi/4$ thỏa
     $\dfrac{2\pi d}{\lambda}=\dfrac{\pi}{4}$, nên $d=\lambda/8=0{,}25\,\mathrm{m}$.
 
-    !!! warning "Đối chiếu nguồn"
-        PDF ghi nguồn âm đặt trong nước nhưng lại viết “tốc độ truyền âm trong không khí là $1450\,\mathrm{m/s}$”. Giá trị $1450\,\mathrm{m/s}$ là giá trị mà chính bài dùng cho nước; tên môi trường được sửa tối thiểu để đề nhất quán.
+
+<!-- provenance-note: PDF ghi nguồn âm đặt trong nước nhưng lại viết “tốc độ truyền âm trong không khí là $1450\,\mathrm{m/s}$”. Giá trị $1450\,\mathrm{m/s}$ là giá trị mà chính bài dùng cho nước; tên môi trường được sửa tối thiểu để đề nhất quán. -->
 
 #### Bài 14
 
@@ -289,8 +289,8 @@ phương truyền sóng là bao nhiêu (tính theo đơn vị rad và làm tròn
     $\Delta\varphi=\dfrac{2\pi d}{\lambda}=\dfrac{2\pi\cdot0{,}04}{6}\approx0{,}04189\,\mathrm{rad}$.
     Chỉ làm tròn ở bước cuối: $\Delta\varphi\approx0{,}04\,\mathrm{rad}$.
 
-    !!! warning "Đối chiếu nguồn"
-        PDF nguồn cho $4{,}19\,\mathrm{rad}$, tương ứng với việc bỏ qua đổi $4\,\mathrm{cm}=0{,}04\,\mathrm{m}$.
+
+<!-- provenance-note: PDF nguồn cho $4{,}19\,\mathrm{rad}$, tương ứng với việc bỏ qua đổi $4\,\mathrm{cm}=0{,}04\,\mathrm{m}$. -->
 
 #### Bài 15
 
@@ -329,8 +329,8 @@ Một sóng cơ truyền dọc theo trục Ox với phương trình $u=5\cos(8\p
     $8\pi t-\pi x=\dfrac{2\pi}{3}-\dfrac{100\pi}{3}=-\dfrac{98\pi}{3}$.
     Vì $\cos(-98\pi/3)=-1/2$, suy ra $u=-2{,}5\,\mathrm{cm}$.
 
-    !!! warning "Đối chiếu nguồn"
-        PDF nguồn thay trực tiếp $x=1/3$ vào công thức dù công thức quy định $x$ tính bằng cm, nên mất bước đổi đơn vị và cho dấu sai.
+
+<!-- provenance-note: PDF nguồn thay trực tiếp $x=1/3$ vào công thức dù công thức quy định $x$ tính bằng cm, nên mất bước đổi đơn vị và cho dấu sai. -->
 
 #### Bài 17
 
@@ -488,7 +488,7 @@ $$
 
 Sóng truyền ra môi trường xung quanh với tốc độ $6\,\mathrm{m/s}$. Điểm $M$ cách nguồn $12\,\mathrm m$. Phương trình sóng tại $M$ là
 
-A. $u_M=4\cos\left(2\pi t-\dfrac{5\pi}{6}\right)\,\mathrm{cm}$.
+A. $u_M=4\cos\left(2\pi t+\dfrac{\pi}{2}\right)\,\mathrm{cm}$.
 
 B. $u_M=4\cos\left(2\pi t-\dfrac{11\pi}{6}\right)\,\mathrm{cm}$.
 
@@ -497,18 +497,19 @@ C. $u_M=4\cos\left(2\pi t+\dfrac{5\pi}{6}\right)\,\mathrm{cm}$.
 D. $u_M=4\cos\left(2\pi t+\dfrac{11\pi}{6}\right)\,\mathrm{cm}$.
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** Không có phương án phù hợp với dữ kiện in trong đề.
+    **Đáp án:** A
 
     **Hướng dẫn giải:**
 
     Từ $\omega=2\pi\,\mathrm{rad/s}$ suy ra $T=1\,\mathrm s$, nên $\lambda=vT=6\,\mathrm m$.
 
-    Với $OM=12\,\mathrm m=2\lambda$, độ trễ pha từ O đến M là
-    $\Delta\varphi=2\pi OM/\lambda=4\pi$. Vì vậy M cùng pha với O và
-    $u_M=4\cos\left(2\pi t+\dfrac{\pi}{2}\right)\,\mathrm{cm}$. Biểu thức này không trùng với A, B, C hoặc D.
+    Với $OM=12\,\mathrm m=2\lambda$, độ trễ pha từ O đến M là $\Delta\varphi=2\pi OM/\lambda=4\pi$. Do đó M cùng pha với O:
 
-    !!! warning "Đối chiếu nguồn"
-        PDF in $OM=12\,\mathrm m$ nhưng phần hướng dẫn lại thay $OM=4\,\mathrm m$ và từ đó chọn A. Không có căn cứ để đổi dữ kiện in thành $4\,\mathrm m$; vì vậy bản học giữ nguyên $12\,\mathrm m$ và ghi rõ không có phương án phù hợp.
+    $u_M=4\cos\left(2\pi t+\dfrac{\pi}{2}\right)\,\mathrm{cm}$.
+
+    Vậy chọn **A**.
+
+<!-- provenance-note: BT-Chuong-II-p16-q33-33 in $OM=12\,\mathrm m$ nhưng hướng dẫn nguồn thay nhầm $OM=4\,\mathrm m$; phương án A được sửa tối thiểu để khớp kết quả vật lí từ dữ kiện in. -->
 
 #### Bài 24
 
@@ -854,8 +855,7 @@ cùng pha.
 
     **Hướng dẫn giải:**
 
-    Những điểm cách nhau một số nguyên lần nửa bước sóng trên cùng phương truyền thì dao động
-    ngược pha.
+    Với hai điểm trên cùng phương truyền, nếu khoảng cách bằng $n\lambda/2$ thì độ lệch pha là $n\pi$. Khi $n$ là số chẵn, hai điểm cùng pha; khi $n$ là số lẻ, hai điểm ngược pha. Vì phát biểu D khẳng định mọi số nguyên $n$ đều cho hai điểm cùng pha nên D sai. Chọn **D**.
 
 #### Bài 39
 
@@ -1263,8 +1263,7 @@ B. ngược pha.
 
 C. vuông pha.
 
-D. lệch pha
-.
+D. lệch pha $\pi/2$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** B

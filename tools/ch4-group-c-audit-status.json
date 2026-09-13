@@ -1,0 +1,143 @@
+{
+  "scope": "Chapter IV practice GROUP C only",
+  "mode": "CONTINUE / AUDIT / UPDATE",
+  "BASE_VERSION": "education-hub-v15.zip",
+  "base_checkpoint": {
+    "series": 2,
+    "version": 15
+  },
+  "target_checkpoint": {
+    "series": 2,
+    "version": 16
+  },
+  "folders": [
+    "08-advanced-circuit-methods",
+    "09-practical-emf-internal-resistance",
+    "10-source-receiver-capacitor-branches"
+  ],
+  "counts": {
+    "08-advanced-circuit-methods": {
+      "total": 18,
+      "authored": 10,
+      "pdf_canonical": 8
+    },
+    "09-practical-emf-internal-resistance": {
+      "total": 33,
+      "authored": 10,
+      "pdf_canonical": 23
+    },
+    "10-source-receiver-capacitor-branches": {
+      "total": 10,
+      "authored": 10,
+      "pdf_canonical": 0
+    }
+  },
+  "summary": {
+    "total": 61,
+    "authored": 30,
+    "pdf_canonical": 31,
+    "unresolved": 0
+  },
+  "audit_method": [
+    "Every Group C item was independently re-solved; Groups A and B were not re-audited.",
+    "All circuit, meter, graph and apparatus figures used for conclusions were inspected directly from repository crops and/or rendered source PDF pages; no wire topology was inferred from OCR.",
+    "Power/energy relations were checked with their physical scope: P=UI for the element port variables, P=I^2R and P=U^2/R for resistive elements, and Joule loss I^2r for internal resistance.",
+    "Hard circuit solutions were checked in the order equivalent topology -> current/voltage relations -> equations -> solve -> consistency check -> conclusion.",
+    "True/False items were checked statement by statement, including meter polarity and current direction.",
+    "If a source answer/options conflict with an independently determined result, learner-facing content is minimally repaired while provenance stays only in this internal report."
+  ],
+  "pdf_source_ids_reverified": [
+    "BT-Chuong-IV-p113-q6-348",
+    "BT-Chuong-IV-p32-q5-110",
+    "BT-Chuong-IV-p38-q8-138",
+    "BT-Chuong-IV-p101-q40-302",
+    "BT-Chuong-IV-p102-q47-309",
+    "BT-Chuong-IV-p103-q48-310",
+    "BT-Chuong-IV-p109-q18-338",
+    "BT-Chuong-IV-p95-q16-278",
+    "BT-Chuong-IV-p130-q1-379",
+    "BT-Chuong-IV-p130-q2-380",
+    "BT-Chuong-IV-p130-q3-381",
+    "BT-Chuong-IV-p131-q4-382",
+    "BT-Chuong-IV-p118-q6-354",
+    "BT-Chuong-IV-p119-q8-356",
+    "BT-Chuong-IV-p119-q9-357",
+    "BT-Chuong-IV-p119-q11-359",
+    "BT-Chuong-IV-p120-q12-360",
+    "BT-Chuong-IV-p120-q14-362",
+    "BT-Chuong-IV-p121-q16-364",
+    "BT-Chuong-IV-p121-q17-365",
+    "BT-Chuong-IV-p123-q25-373",
+    "BT-Chuong-IV-p124-q26-374",
+    "BT-Chuong-IV-p126-q1-375",
+    "BT-Chuong-IV-p126-q2-376",
+    "BT-Chuong-IV-p127-q3-377",
+    "BT-Chuong-IV-p128-q4-378",
+    "BT-Chuong-IV-p118-q1-349",
+    "BT-Chuong-IV-p122-q21-369",
+    "BT-Chuong-IV-p122-q22-370",
+    "BT-Chuong-IV-p122-q23-371",
+    "BT-Chuong-IV-p123-q24-372"
+  ],
+  "topology_or_figure_visually_checked": [
+    "BT-Chuong-IV-p113-q6-348",
+    "BT-Chuong-IV-p101-q40-302",
+    "BT-Chuong-IV-p102-q47-309",
+    "BT-Chuong-IV-p103-q48-310",
+    "BT-Chuong-IV-p109-q18-338",
+    "BT-Chuong-IV-p130-q3-381",
+    "BT-Chuong-IV-p131-q4-382",
+    "BT-Chuong-IV-p119-q8-356",
+    "BT-Chuong-IV-p119-q11-359",
+    "BT-Chuong-IV-p120-q12-360",
+    "BT-Chuong-IV-p120-q14-362",
+    "BT-Chuong-IV-p121-q16-364",
+    "BT-Chuong-IV-p123-q25-373",
+    "BT-Chuong-IV-p124-q26-374",
+    "BT-Chuong-IV-p126-q1-375",
+    "BT-Chuong-IV-p126-q2-376",
+    "BT-Chuong-IV-p127-q3-377",
+    "BT-Chuong-IV-p128-q4-378",
+    "BT-Chuong-IV-p118-q1-349"
+  ],
+  "fixed": [
+    {
+      "source_id": "BT-Chuong-IV-p126-q2-376",
+      "lesson": "09-practical-emf-internal-resistance",
+      "issue": "Source marks item c false, but the battery long plate is connected to M (higher potential) and meter ports are (4)=V, (3)=COM; connecting (4)->M and (3)->N gives U_MN>=0.",
+      "action": "Changed item c verdict to True and rewrote the explanation from the actual polarity/topology."
+    },
+    {
+      "source_id": "BT-Chuong-IV-p127-q3-377",
+      "lesson": "09-practical-emf-internal-resistance",
+      "issue": "Source marks item c true although conventional current reaches the ammeter from the Rx side; the stated COM(3)->Rx and mA(2)->N connection reverses meter polarity and would give a negative reading.",
+      "action": "Changed item c verdict to False and explained the required mA(2)->Rx, COM(3)->N orientation for I>=0."
+    },
+    {
+      "source_id": "BT-Chuong-IV-p123-q24-372",
+      "lesson": "09-practical-emf-internal-resistance",
+      "issue": "The independent mean is 1.3267 V and total uncertainty rounds to 0.02 V; the source option D used 1.32 V rather than rounding the mean to the same hundredth place.",
+      "action": "Changed only option D to (1.33±0.02) V and set answer D, preserving a unique single-choice question."
+    }
+  ],
+  "solution_quality_updates": [
+    "Expanded authored Kirchhoff Bài 10 in lesson 08 with explicit shared-branch topology, loop equations, solved currents and substitution check.",
+    "Expanded authored source/receiver Bài 10 in lesson 10 with equivalent loop, net emf, port voltage, power balance and efficiency check.",
+    "Replaced terse/generic explanations in selected easy authored items with the governing physical relation, and synchronized exercises.md with solutions.md.",
+    "Expanded capacitor True/False reasoning to distinguish zero steady-state current from nonzero stored charge."
+  ],
+  "answer_option_repairs_this_turn": [
+    "BT-Chuong-IV-p123-q24-372"
+  ],
+  "learner_facing_forbidden_markers_remaining": 0,
+  "unresolved": [],
+  "next": null,
+  "validation": {
+    "check_practice_bank": "PASS — 61 banks; 540 authored + 1633 PDF; 0 structural errors",
+    "check_pdf_import": "PASS — 1633 canonical PDF items; Chapter IV=350; 0 integrity errors",
+    "check_solution_quality": "PASS — 2173 total items; 0 errors",
+    "check_site_lint_only": "PASS — 237 Markdown; 0 errors; 0 warnings"
+  },
+  "status": "GROUP_C_COMPLETE",
+  "chapter_final_status": "CHAPTER_IV_COMPLETE"
+}

@@ -166,7 +166,7 @@ Một dây dài $1\,\mathrm m$ hai đầu cố định. Khi kích thích ở $12
 <!-- source-id: BT-Chuong-II-p164-q1-385 -->
 
 Trên dây đàn hồi AB dài $100\,\mathrm{cm}$, với đầu B cố định. Tại đầu A gắn với một vật dao động
-với tần số $f=40\,\mathrm{Hz}$. Tốc độ truyền sóng trên dây là $v=20\,\mathrm{m/s}$. Trên dây có bao nhiêu nút sóng?
+với tần số $f=40\,\mathrm{Hz}$. Tốc độ truyền sóng trên dây là $v=20\,\mathrm{m/s}$. Coi đầu A là một nút sóng. Trên dây có bao nhiêu nút sóng?
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** 5
@@ -256,8 +256,8 @@ bao nhiêu cm/s ?
     Hai lần liên tiếp toàn dây duỗi thẳng cách nhau $T/2$, nên $T/2=0{,}05\,\mathrm{s}\Rightarrow T=0{,}10\,\mathrm{s}$.
     Vì vậy $v=\lambda/T=0{,}8/0{,}10=8\,\mathrm{m/s}=800\,\mathrm{cm/s}$.
 
-    !!! warning "Đối chiếu nguồn"
-        PDF nguồn cho $80\,\mathrm{cm/s}$; kết quả đúng là $800\,\mathrm{cm/s}$ sau khi đổi $8\,\mathrm{m/s}$ sang cm/s.
+
+<!-- provenance-note: PDF nguồn cho $80\,\mathrm{cm/s}$; kết quả đúng là $800\,\mathrm{cm/s}$ sau khi đổi $8\,\mathrm{m/s}$ sang cm/s. -->
 
 #### Bài 14
 
@@ -276,7 +276,7 @@ là $0,2\,\mathrm s$. Tốc độ truyền sóng trên dây có giá trị bằn
 
     Vì B là bụng gần nút A nhất, $AB=\lambda/4=10\,\mathrm{cm}$ nên $\lambda=40\,\mathrm{cm}$.
     C là trung điểm AB nên $AC=5\,\mathrm{cm}=\lambda/8$.
-    Theo nguồn, khoảng thời gian ngắn nhất đã cho bằng $T/4$:
+    Biên độ tại C bằng $A_C=A_B\sin(\pi/4)=A_B/\sqrt2$. Điều kiện $u_B=A_C$ ứng với $\cos(\omega t+\varphi)=1/\sqrt2$; hai nghiệm gần nhau nhất cách nhau $T/4$. Do đó
     $T/4=0{,}2\Rightarrow T=0{,}8\,\mathrm{s}$.
     Do $\lambda=vT$, suy ra $v=40/0{,}8=50\,\mathrm{cm/s}=0{,}5\,\mathrm{m/s}$.
 
@@ -366,8 +366,8 @@ sóng dừng với 2 bụng sóng. Tốc độ truyền sóng trên dây là bao
     Lực hút của nam châm điện không phụ thuộc chiều dòng điện, nên với nguồn xoay chiều $50\,\mathrm{Hz}$ lực kích thích biến thiên hai lần trong mỗi chu kì: $f_{\text{dây}}=100\,\mathrm{Hz}$.
     Do đó $v=\lambda f=1{,}2\cdot100=120\,\mathrm{m/s}$.
 
-    !!! warning "Đối chiếu nguồn"
-        PDF nguồn cho $2{,}4\,\mathrm{m/s}$ dù chính mô tả lời giải dùng tần số rung gấp đôi $50\,\mathrm{Hz}$.
+
+<!-- provenance-note: PDF nguồn cho $2{,}4\,\mathrm{m/s}$ dù chính mô tả lời giải dùng tần số rung gấp đôi $50\,\mathrm{Hz}$. -->
 
 #### Bài 20
 
@@ -388,8 +388,8 @@ sóng truyền trên dây có bước sóng $24\,\mathrm{cm}$. Tính tỉ số g
     $\dfrac{A_M}{A_N}=\dfrac{|\sin(2\pi\cdot16/24)|}{|\sin(2\pi\cdot27/24)|}=\dfrac{\sqrt3/2}{\sqrt2/2}=\sqrt{\dfrac32}\approx1{,}2247$.
     Làm tròn ở bước cuối được $1{,}2$.
 
-    !!! warning "Đối chiếu nguồn"
-        PDF nguồn cho $-1{,}2$ do dùng giá trị có dấu của hàm sin. Biên độ là độ lớn không âm, nên tỉ số biên độ phải dương.
+
+<!-- provenance-note: PDF nguồn cho $-1{,}2$ do dùng giá trị có dấu của hàm sin. Biên độ là độ lớn không âm, nên tỉ số biên độ phải dương. -->
 
 #### Bài 21
 
@@ -686,7 +686,7 @@ D. hai lần tư bước sóng.
 
 <!-- source-id: BT-Chuong-II-p153-q9-349 -->
 
-Sóng truyền trên một sợi dây hai đầu cố định có bước sóng $\lambda$. Muốn có sóng dừng trên dây thì chiều dài $L$ của dây phải thỏa mãn điều kiện là
+Sóng truyền trên một sợi dây hai đầu cố định có bước sóng $\lambda$. Ở mode cơ bản, chiều dài $L$ của dây phải thỏa mãn điều kiện nào sau đây?
 
 A. $L=\lambda$.
 
@@ -697,14 +697,13 @@ C. $L=2\lambda$.
 D. $L=\dfrac{\lambda}{4}$.
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** Đề không có phương án đúng duy nhất; A, B và C đều thỏa điều kiện tổng quát.
+    **Đáp án:** B
 
     **Hướng dẫn giải:**
 
-    Điều kiện tổng quát của dây hai đầu cố định là $L=n\lambda/2$ với $n=1,2,3,\ldots$. Vì vậy $L=\lambda/2$, $L=\lambda$ và $L=2\lambda$ đều có thể tạo sóng dừng (tương ứng $n=1,2,4$); phương án D thì không.
+    Với dây hai đầu cố định, $L=n\lambda/2$ với $n=1,2,3,\ldots$. Ở mode cơ bản $n=1$, nên $L=\lambda/2$. Chọn **B**.
 
-    !!! warning "Đối chiếu nguồn"
-        PDF đánh dấu B, nhưng câu hỏi không giới hạn ở họa âm cơ bản nên A, B và C đều thỏa điều kiện sóng dừng. Do đó đề không có một phương án đúng duy nhất.
+<!-- provenance-note: source marked B; the stem is restricted to the fundamental mode so the single-choice item has exactly one correct option. -->
 
 #### Bài 36
 
@@ -806,7 +805,7 @@ A. Sóng dừng là sóng có các bụng và các nút cố định trong khôn
 
 B. Khoảng cách giữa hai nút hoặc hai bụng liên tiếp bằng bước sóng $\lambda$.
 
-C. Sóng dừng là tổng hợp của nhiều sóng tới và sóng phản xạ.
+C. Sóng dừng là tổng hợp của sóng tới và sóng phản xạ cùng tần số, cùng biên độ và truyền ngược chiều nhau.
 
 D. Khoảng cách giữa hai nút hoặc hai bụng liên tiếp bằng $\lambda/2$.
 
@@ -1171,7 +1170,7 @@ D. $-60\,\mathrm{cm/s}$.
     $A_M=\dfrac{\sqrt3}{2}A_b$, $A_N=A_b$, $A_P=\dfrac12A_b$.
     Tại $t_1$, từ $u_N=A_M$ suy ra $u_M=3A_b/4$. Do
     $|v_M|=\omega\sqrt{A_M^2-u_M^2}=60\,\mathrm{cm/s}$, ta có $\omega A_b=80\sqrt3$.
-    Sau $11T/12$, nguồn cho $u_P=-A_b/4$ và P chuyển động theo chiều âm, nên
+    Vì $t_2-t_1=11T/12$, đối chiếu pha của đường (1) và đường (2) trên hình cho $u_P(t_2)=-A_b/4$ và P đang chuyển động theo chiều âm. Do đó
     $v_P=-\omega\sqrt{A_P^2-u_P^2}=-60\,\mathrm{cm/s}$.
 
 #### Bài 56
@@ -1386,9 +1385,7 @@ D. hai lần khoảng cách giữa hai nút sóng liên tiếp.
 
     **Hướng dẫn giải:**
 
-    Khoảng cách giữa hai nút sóng liên tiếp là 2
-    $\lambda$nên hai lần khoảng cách giữa hai nút sóng liên tiếp là
-    một bước sóng
+    Khoảng cách giữa hai nút sóng liên tiếp là $\lambda/2$. Vì vậy hai lần khoảng cách giữa hai nút sóng liên tiếp bằng $\lambda$, tức một bước sóng.
 
 #### Bài 66
 
@@ -1747,7 +1744,7 @@ b) Bước sóng trong thí nghiệm có chiều dài bằng AQ
 
 c) Tại điểm M và P sóng tới và sóng phản xạ ngược pha
 
-d) Cho biết thời gian để một điểm trên dây dao động từ vị trí N đến vị trí P là $0,02\,\mathrm s$. Tấn số sóng sử dụng trong thí nghiệm này bằng $25\,\mathrm{Hz}$
+d) Cho biết thời gian để một điểm trên dây dao động từ vị trí N đến vị trí P là $0,02\,\mathrm s$. Tần số sóng sử dụng trong thí nghiệm này bằng $25\,\mathrm{Hz}$
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** a) Đúng; b) Đúng; c) Sai; d) Đúng.
@@ -1790,8 +1787,8 @@ d) Nếu dây dao động với 4 bụng sóng thì bước sóng trên dây là
 
     d) **Đúng.** Nếu có 4 bụng, $L=4\lambda'/2$, nên $\lambda'=2L/4=0{,}3\,\mathrm m$.
 
-    !!! warning "Đối chiếu nguồn"
-        PDF in “dây dài $6\,\mathrm m$”, nhưng toàn bộ mệnh đề và hướng dẫn của chính nguồn dùng $L=0{,}6\,\mathrm{m}$. Dữ kiện được hiệu chỉnh tối thiểu thành $0{,}6\,\mathrm{m}$.
+
+<!-- provenance-note: PDF in “dây dài $6\,\mathrm m$”, nhưng toàn bộ mệnh đề và hướng dẫn của chính nguồn dùng $L=0{,}6\,\mathrm{m}$. Dữ kiện được hiệu chỉnh tối thiểu thành $0{,}6\,\mathrm{m}$. -->
 
 #### Bài 82
 
@@ -1856,8 +1853,8 @@ d) Nếu sóng truyền trên dây có vận tốc $3,2\,\mathrm{m/s}$ thì tầ
     d) **Sai.** $v=3{,}2\,\mathrm{m/s}=320\,\mathrm{cm/s}$, nên
     $f=v/\lambda=320/80=4\,\mathrm{Hz}$, không phải $40\,\mathrm{Hz}$.
 
-    !!! warning "Đối chiếu nguồn"
-        PDF nguồn đổi $3{,}2\,\mathrm{m/s}$ thành $3200\,\mathrm{cm/s}$, lệch một hệ số 10, nên kết luận $40\,\mathrm{Hz}$ bị sai.
+
+<!-- provenance-note: PDF nguồn đổi $3{,}2\,\mathrm{m/s}$ thành $3200\,\mathrm{cm/s}$, lệch một hệ số 10, nên kết luận $40\,\mathrm{Hz}$ bị sai. -->
 
 #### Bài 84
 
@@ -2083,7 +2080,7 @@ Khi sóng dừng hình thành trên một sợi dây đàn hồi, điều nào s
 
 A. Các điểm nút là các điểm mà biên độ dao động lớn nhất.
 
-B. Các điểm bụng là các điểm mà vận tốc dao động lớn nhất.
+B. Các điểm bụng là các điểm mà vận tốc dao động luôn lớn nhất.
 
 C. Tần số của sóng dừng phụ thuộc vào chiều dài của sợi dây và tốc độ truyền sóng.
 
@@ -2094,7 +2091,7 @@ D. Sóng dừng chỉ xảy ra khi hai sóng gặp nhau cùng pha và có cùng 
 
     **Hướng dẫn giải:**
 
-    Với một sợi dây và điều kiện biên xác định, các tần số cộng hưởng thỏa quan hệ chứa $v$ và $L$ (chẳng hạn hai đầu cố định: $f_n=nv/(2L)$). Vì vậy C là phát biểu đúng. Các nút không có biên độ cực đại, và điều kiện hình thành sóng dừng không phải “hai sóng gặp nhau cùng pha ở mọi nơi”. Chọn **C**.
+    Với một sợi dây và điều kiện biên xác định, các tần số cộng hưởng thỏa quan hệ chứa $v$ và $L$ (chẳng hạn hai đầu cố định: $f_n=nv/(2L)$), nên C đúng. Ở bụng sóng, biên độ dao động là cực đại; tuy nhiên vận tốc tức thời của phần tử vẫn biến thiên theo thời gian và không luôn lớn nhất, nên B sai. Sóng dừng cũng không đòi hỏi hai sóng gặp nhau cùng pha ở mọi nơi. Chọn **C**.
 
 #### Bài 94
 

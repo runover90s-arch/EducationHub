@@ -158,7 +158,7 @@ Nếu chỉ tiếp xúc từng cặp theo trình tự, phải tính **từng bư
 
 ## 11. Kiểm tra dấu bằng tương tác
 
-Nếu biết hai vật hút nhau, không thể kết luận chắc chắn chúng trái dấu: một vật mang điện có thể hút vật trung hòa do phân cực/hưởng ứng.
+Trong mô hình **hai điện tích điểm** (hoặc hai vật nhỏ mang điện khi bỏ qua phân cực/cảm ứng lại lẫn nhau), nếu biết chắc cả hai vật đều mang điện thì hút nhau cho biết chúng trái dấu. Nhưng nếu chỉ quan sát thấy hai vật hút nhau thì chưa đủ để suy ra chúng trái dấu: một vật mang điện cũng có thể hút vật trung hòa do phân cực/hưởng ứng.
 
 Nếu hai vật **đẩy nhau**, trong mô hình tĩnh điện phổ thông có thể kết luận cả hai đều mang điện cùng dấu.
 

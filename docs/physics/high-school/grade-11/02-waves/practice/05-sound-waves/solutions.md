@@ -20,12 +20,12 @@ Chọn **C**. Tần số do nguồn quyết định; tốc độ và bước só
 Chọn **C** vì $\Delta L=10\log(I_2/I_1)=10\,\mathrm{dB}$ suy ra $I_2/I_1=10$.
 
 ## Bài 3
-Chọn **B**.
+Chọn **B**. Độ cao của âm chủ yếu gắn với tần số; biên độ và cường độ chủ yếu liên quan đến độ to.
 
 ## Bài 4
 a) **Đúng.** Âm cần môi trường vật chất để truyền, nên thuộc loại sóng cơ.
 
-b) **Đúng.** trong mô hình phổ thông.
+b) **Đúng.** Trong mô hình không tán sắc đúng ở mức phổ thông, tốc độ truyền âm được quyết định bởi tính chất môi trường và gần như không phụ thuộc tần số trong miền đang xét.
 
 c) **Sai.** độ to liên quan cường độ/mức cường độ, không đồng nhất với tần số.
 

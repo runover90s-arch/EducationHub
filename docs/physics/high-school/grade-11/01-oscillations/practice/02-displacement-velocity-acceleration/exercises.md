@@ -520,12 +520,12 @@ A. $6\,\mathrm{cm}$, $2\,\mathrm{rad/s}$.
 
 B. $6\,\mathrm{cm}$, $12\,\mathrm{rad/s}$.
 
-C. $12\,\mathrm{cm}$, $20\,\mathrm{rad/s}$.
+C. $6\,\mathrm{cm}$, $20\,\mathrm{rad/s}$.
 
 D. $12\,\mathrm{cm}$, $10\,\mathrm{rad/s}$.
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** Không có phương án nào đúng hoàn toàn; $A=6\,\mathrm{cm}$ và $\omega=20\,\mathrm{rad/s}$.
+    **Đáp án:** C
 
     **Hướng dẫn giải:**
 
@@ -543,8 +543,6 @@ D. $12\,\mathrm{cm}$, $10\,\mathrm{rad/s}$.
 
     nên $A=6\,\mathrm{cm}$.
 
-    !!! warning "Đối chiếu nguồn"
-        PDF tô **C. $12\,\mathrm{cm}$, $20\,\mathrm{rad/s}$**. Tính độc lập từ cả hai cặp $(x,v)$ cho kết quả duy nhất $(A,\omega)=(6\,\mathrm{cm},20\,\mathrm{rad/s})$, nên không có phương án in sẵn nào đúng hoàn toàn.
 
 #### Bài 27
 
@@ -1114,8 +1112,6 @@ Một vật dao động điều hòa với tốc độ cực đại là $50\,\ma
 
     $A=\dfrac{v_{\max}}{\omega}=\dfrac{50}{2}=25\,\mathrm{cm}=0{,}25\,\mathrm m$.
 
-    !!! warning "Đối chiếu nguồn"
-        PDF ghi đáp án $25$ và phần hướng dẫn kết luận $A=25\,\mathrm m$, nhưng phép tính $50/2=25$ đang dùng đơn vị xentimét. Đổi đúng đơn vị cho kết quả $25\,\mathrm{cm}=0{,}25\,\mathrm m$.
 
 #### Bài 48
 

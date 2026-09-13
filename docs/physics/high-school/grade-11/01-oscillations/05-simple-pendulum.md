@@ -5,7 +5,6 @@ order: 5
 difficulty: "standard-applied"
 prerequisites:
   - harmonic-oscillation
-  - oscillation-energy
 tags:
   - physics
   - grade-11
@@ -120,7 +119,7 @@ $$
 \boxed{v_{\max}=\omega s_0=\alpha_0\sqrt{g\ell}}.
 $$
 
-## 5. Công thức vận tốc theo năng lượng — dùng được rộng hơn
+## 5. Công thức tốc độ theo năng lượng — dùng được rộng hơn
 
 Nếu con lắc được thả từ biên góc $\alpha_0$ và tại một vị trí có góc $\alpha$, bỏ qua ma sát:
 
@@ -128,13 +127,13 @@ $$
 \frac12mv^2+mg\ell(1-\cos\alpha)=mg\ell(1-\cos\alpha_0).
 $$
 
-Suy ra:
+Suy ra tốc độ:
 
 $$
-\boxed{v=\sqrt{2g\ell(\cos\alpha-\cos\alpha_0)}}.
+\boxed{|v|=\sqrt{2g\ell(\cos\alpha-\cos\alpha_0)}}.
 $$
 
-Công thức này không cần gần đúng góc nhỏ trong bước bảo toàn cơ năng.
+Công thức này cho độ lớn của vận tốc, không xác định chiều chuyển động; nó không cần gần đúng góc nhỏ trong bước bảo toàn cơ năng.
 
 Tại vị trí cân bằng $\alpha=0$:
 
@@ -193,49 +192,53 @@ Tại vị trí cân bằng, $a_t=0$ nhưng $a_n$ lớn nhất; vì vậy không
 
 ## 8. Lực kéo về
 
-Thành phần tiếp tuyến của trọng lực đóng vai trò lực kéo về:
+Chọn chiều dương của li độ góc $\alpha$ và li độ dài $s$ cùng về một phía. Thành phần tiếp tuyến của trọng lực đóng vai trò lực kéo về nên có dấu ngược với li độ:
 
 $$
-F_{kv}=mg\sin\alpha.
+F_{kv}=-mg\sin\alpha.
 $$
 
 Với góc nhỏ:
 
 $$
-|F_{kv}|\approx mg|\alpha|=\frac{mg}{\ell}|s|.
+F_{kv}\approx-mg\alpha=-\frac{mg}{\ell}s,
 $$
+
+và độ lớn là $|F_{kv}|\approx mg|\alpha|=\dfrac{mg}{\ell}|s|$.
 
 ## 9. Lực căng dây
 
-Theo phương bán kính hướng vào điểm treo:
+Gọi $F_c$ là độ lớn lực căng dây. Khi dây còn căng, theo phương bán kính hướng vào điểm treo:
 
 $$
-T-mg\cos\alpha=m\frac{v^2}{\ell}.
+F_c-mg\cos\alpha=m\frac{v^2}{\ell}.
 $$
 
 Do đó:
 
 $$
-\boxed{T=mg\cos\alpha+m\frac{v^2}{\ell}}.
+\boxed{F_c=mg\cos\alpha+m\frac{v^2}{\ell}}.
 $$
 
-Thay công thức vận tốc:
+Nếu con lắc được thả từ biên $\pm\alpha_0$ với $v=0$, bỏ qua ma sát và dây vẫn căng trong suốt chuyển động, thay tốc độ từ bảo toàn cơ năng ta được:
 
 $$
-\boxed{T=mg(3\cos\alpha-2\cos\alpha_0)}.
+\boxed{F_c=mg(3\cos\alpha-2\cos\alpha_0)}.
 $$
 
 Tại vị trí cân bằng:
 
 $$
-T_{\max}=mg(3-2\cos\alpha_0).
+F_{c,\max}=mg(3-2\cos\alpha_0).
 $$
 
 Tại biên:
 
 $$
-T_{\min}=mg\cos\alpha_0.
+F_{c,\min}=mg\cos\alpha_0.
 $$
+
+Nếu công thức cho $F_c\le0$, giả thiết dây luôn căng không còn phù hợp; khi đó không được tiếp tục dùng mô hình con lắc đơn với dây căng như trên.
 
 ## 10. Thay đổi chiều dài
 
@@ -265,7 +268,7 @@ Con lắc đặt ở nơi có $g$ nhỏ hơn sẽ dao động chậm hơn.
 
 ## 12. Đo gia tốc trọng trường bằng con lắc đơn
 
-Từ
+Trong chế độ góc nhỏ, từ
 
 $$
 T^2=\frac{4\pi^2}{g}\ell,
@@ -313,7 +316,7 @@ suy ra $\ell=1\,\mathrm m$.
 Con lắc dài $1\,\mathrm m$, thả từ $\alpha_0=60^\circ$. Tại $\alpha=30^\circ$, với $g=10\,\mathrm{m/s^2}$:
 
 $$
-v=\sqrt{20\left(\cos30^\circ-\cos60^\circ\right)}.
+|v|=\sqrt{20\left(\cos30^\circ-\cos60^\circ\right)}.
 $$
 
 Đây là bài năng lượng, không cần giả thiết góc nhỏ.
@@ -323,7 +326,7 @@ $$
 Nếu $\alpha_0=60^\circ$:
 
 $$
-T_{\max}=mg(3-2\cos60^\circ)=2mg.
+F_{c,\max}=mg(3-2\cos60^\circ)=2mg.
 $$
 
 ## Ví dụ 4 — So sánh chu kì
@@ -401,10 +404,10 @@ $$
 v^2=2g\ell(\cos\alpha-\cos\alpha_0).
 $$
 
-Lực căng:
+Lực căng dây khi dây còn căng:
 
 $$
-T=mg\cos\alpha+m\frac{v^2}{\ell}.
+F_c=mg\cos\alpha+m\frac{v^2}{\ell}.
 $$
 
 ## 5 điều cần nhớ

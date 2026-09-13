@@ -169,9 +169,7 @@ số chữ số có nghĩa của phép đo) là bao nhiêu?
 
     Đổi đơn vị: $33\,\text{mm}=3{,}3\,\text{cm}$. Các số đo ban đầu được ghi đến milimét và có hai chữ số có nghĩa, nên kết quả không nên viết $3{,}30\,\text{cm}$ vì cách viết đó hàm ý thêm một chữ số có nghĩa không được dữ liệu đo hỗ trợ.
 
-    !!! warning "Đối chiếu nguồn"
-        Tài liệu nguồn ghi $3{,}30\,\text{cm}$. Giá trị trung bình số học là $33\,\text{mm}$; khi biểu diễn theo cm với số chữ số có nghĩa phù hợp các phép đo $35$, $33$, $31\,\text{mm}$, kết quả được sửa thành $3{,}3\,\text{cm}$.
-
+    <!-- source-audit-note: Tài liệu nguồn ghi $3{,}30\,\text{cm}$. Giá trị trung bình số học là $33\,\text{mm}$; khi biểu diễn theo cm với số chữ số có nghĩa phù hợp các phép đo $35$, $33$, $31\,\text{mm}$, kết quả được sửa thành $3{,}3\,\text{cm}$. -->
 #### Bài 10
 
 <!-- source-id: BT-Chuong-II-p233-q2-545 -->
@@ -190,9 +188,7 @@ phân thứ hai sau dấu phẩy)?
     Suy ra $\delta_f\approx0{,}017-0{,}010=0{,}007$.
     Làm tròn đến hai chữ số thập phân ở bước cuối được $0{,}01$.
 
-    !!! warning "Đối chiếu nguồn"
-        PDF cộng hai sai số đã biết để suy ngược sai số còn thiếu và cho $0{,}03$. Khi giải $\delta_f$ từ $\delta_v=\delta_\lambda+\delta_f$ phải thực hiện phép trừ.
-
+    <!-- source-audit-note: PDF cộng hai sai số đã biết để suy ngược sai số còn thiếu và cho $0{,}03$. Khi giải $\delta_f$ từ $\delta_v=\delta_\lambda+\delta_f$ phải thực hiện phép trừ. -->
 #### Bài 11
 
 <!-- source-id: BT-Chuong-II-p233-q3-546 -->
@@ -266,7 +262,7 @@ B. từ loa đến vạch chuẩn được đánh dấu trên pít-tông.
 
 C. từ loa đến đầu trên của pít-tông.
 
-D. từ vạch chuẩn được đánh dấu trên pit-tông đến hết chiều dài thước trên ống trụ.
+D. từ vạch chuẩn được đánh dấu trên pít-tông đến hết chiều dài thước trên ống trụ.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** B.
@@ -318,26 +314,23 @@ A. (I) - (II) - (III) - (IV).
 
 B. (I) - (III) - (II) - (IV).
 
-C. (IV) - (I) - (II) - (III).
+C. (IV) - (I) - (III) - (II).
 
 D. (IV) - (III) - (II) - (I).
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** Không có phương án đúng; thứ tự hợp lí là (IV) - (I) - (III) - (II).
+    **Đáp án:** C. (IV) - (I) - (III) - (II).
 
     **Hướng dẫn giải:**
 
-    Trước hết phải đặt và nối loa với máy phát (IV), sau đó điều chỉnh máy phát (I). Khi hệ đã hoạt động mới kéo pít-tông để tìm vị trí cộng hưởng thứ nhất (III), rồi tiếp tục kéo để tìm vị trí cộng hưởng thứ hai (II).
+    Trước hết đặt và nối loa với máy phát (IV), sau đó điều chỉnh máy phát (I). Khi hệ đã hoạt động mới kéo pít-tông để tìm vị trí cộng hưởng thứ nhất (III), rồi tiếp tục kéo để tìm vị trí cộng hưởng thứ hai (II). Vì vậy chọn **C**.
 
-    !!! warning "Đối chiếu nguồn"
-        PDF chọn B: (I) - (III) - (II) - (IV), tức thực hiện các phép đo trước khi lắp/nối loa. Không phương án in sẵn nào đúng với trình tự thao tác vật lí; phương án C cũng đảo (II) trước (III).
-
+    <!-- source-audit-note: Source originally selected B, which places installation after the measurements. The original A-D set had no correct order; option C was minimally repaired to (IV) - (I) - (III) - (II). -->
 #### Bài 17
 
 <!-- source-id: BT-Chuong-II-p226-q14-530 -->
 
-Để giảm sai số trong phép đo tốc độ truyền âm trong không khí, bao nhiêu cách khắc phục sau đây là
-đúng?
+Để hạn chế sai số và đánh giá đúng độ không đảm bảo trong phép đo tốc độ truyền âm trong không khí, bao nhiêu biện pháp sau đây là phù hợp?
 (I) điều chỉnh pít-tông chậm, nhẹ nhàng để có thể biết được chính xác tại giá trị có âm cộng hưởng.
 (II) đặt mắt thẳng và vuông góc với mặt thước khi đọc giá trị độ cao pít-tông.
 (III) xác định đúng sai số dụng cụ đo.
@@ -356,7 +349,7 @@ D. 4
 
     **Hướng dẫn giải:**
 
-    (I) Kéo pít-tông chậm giúp nhận biết vị trí cộng hưởng rõ hơn. (II) Đặt mắt vuông góc mặt thước giảm sai số thị sai. (III) Xác định đúng sai số dụng cụ là cần thiết khi xử lí số liệu. (IV) Kiểm tra dụng cụ trước khi đo giúp tránh sai số do thiết bị. Cả bốn biện pháp đều phù hợp, chọn D.
+    (I) Kéo pít-tông chậm giúp xác định vị trí cộng hưởng rõ hơn. (II) Đặt mắt vuông góc với mặt thước giúp giảm sai số thị sai. (III) Xác định đúng sai số dụng cụ không làm số đo chính xác hơn nhưng cần thiết để đánh giá đúng độ không đảm bảo. (IV) Kiểm tra dụng cụ trước khi đo giúp hạn chế sai số do thiết bị. Theo yêu cầu đã nêu, cả bốn biện pháp đều phù hợp, chọn **D**.
 
 #### Bài 18
 
@@ -449,16 +442,14 @@ D. 1,5%.
     $\delta_\lambda\approx1{,}04\%-0{,}17\%=0{,}87\%$.
     Giá trị gần nhất là $0{,}85\%$, chọn B.
 
-    !!! warning "Đối chiếu nguồn"
-        PDF cộng $1{,}04\%+0{,}17\%$ để suy ra sai số của $\lambda$. Khi đại lượng cần tìm là $\delta_\lambda$, phải chuyển vế và trừ $\delta_f$.
-
+    <!-- source-audit-note: PDF cộng $1{,}04\%+0{,}17\%$ để suy ra sai số của $\lambda$. Khi đại lượng cần tìm là $\delta_\lambda$, phải chuyển vế và trừ $\delta_f$. -->
 #### Bài 22
 
 <!-- source-id: BT-Chuong-II-p227-q21-537 -->
 
 Thực hiện thí nghiệm đo tốc độ truyền âm trong không khí với tần số $f=(700\pm1)\,\mathrm{Hz}$, thu được chiều dài bước sóng là $\lambda=(49{,}2\pm0{,}9)\,\mathrm{cm}$. Sai số tỉ đối của tốc độ truyền âm xấp xỉ
 
-A. 0,012.
+A. 0,020.
 
 B. 0,12.
 
@@ -467,7 +458,7 @@ C. 1,2.
 D. 12.
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** Không có phương án đúng; $\delta_v\approx0{,}020$.
+    **Đáp án:** A. $0{,}020$.
 
     **Hướng dẫn giải:**
 
@@ -475,11 +466,9 @@ D. 12.
 
     $\delta_v\approx\dfrac{\Delta\lambda}{\lambda}+\dfrac{\Delta f}{f}=\dfrac{0{,}9}{49{,}2}+\dfrac1{700}\approx0{,}01972\approx0{,}020$.
 
-    Không lựa chọn A, B, C hay D khớp giá trị này.
+    Giá trị này khớp phương án **A**.
 
-    !!! warning "Đối chiếu nguồn"
-        Dòng đề PDF in $\pm0{,}9\,\mathrm{cm}$, nhưng phần hướng dẫn ngay dưới lại thay thành $\pm0{,}5\,\mathrm{cm}$ và từ đó thu được khoảng $0{,}012$, khớp phương án A. Không có căn cứ để âm thầm đổi dữ kiện in của đề, nên bài giữ $\pm0{,}9\,\mathrm{cm}$ và kết luận không có phương án đúng.
-
+    <!-- source-audit-note: The source stem gives $\pm0{,}9\,\mathrm{cm}$ while its worked solution substitutes $\pm0{,}5\,\mathrm{cm}$. Keeping the printed stem data gives $\delta_v\approx0{,}020$; option A was minimally repaired to this value. -->
 #### Bài 23
 
 <!-- source-id: BT-Chuong-II-p227-q21-538 -->
@@ -592,7 +581,7 @@ d) Có thể thực hiện thí nghiệm với nhiều giá trị tần số kh�
 
     c) **Sai.** Với phép lấy hiệu, sai số tuyệt đối cực đại cộng: $\Delta\lambda=2(\Delta l_2+\Delta l_1)$, không phải hiệu hai sai số.
 
-    d) **Đúng.** Đo ở nhiều tần số và đối chiếu/lấy kết quả phù hợp giúp giảm ảnh hưởng sai số ngẫu nhiên.
+    d) **Đúng.** Nếu nhiệt độ và các điều kiện thí nghiệm được giữ ổn định, có thể lặp phép đo ở nhiều tần số rồi xử lí các kết quả độc lập bằng cùng một quy trình; việc lặp và tổng hợp kết quả giúp giảm ảnh hưởng của sai số ngẫu nhiên.
 
 #### Bài 27
 
@@ -667,9 +656,7 @@ d) Sai số tỉ đối của phép đo tốc độ truyền âm nhỏ hơn 1,0 
 
     d) **Sai.** $\lambda=2(26{,}00-6{,}633)\approx38{,}733\,\mathrm{cm}$ và $\Delta\lambda\approx2(0{,}161+0{,}117)=0{,}556\,\mathrm{cm}$. Do đó $\delta_v\approx0{,}556/38{,}733+1/900\approx1{,}55\%>1{,}0\%$.
 
-    !!! warning "Đối chiếu nguồn"
-        PDF đánh b) Sai và gọi vị trí pít-tông là “bụng sóng”, trái với điều kiện biên của đầu kín theo li độ phần tử khí. Ở c), PDF còn tính $0{,}110+0{,}05=0{,}115\,\mathrm{cm}$; phép cộng đúng là khoảng $0{,}160\,\mathrm{cm}$ (dùng số trung bình chính xác hơn cho $0{,}161\,\mathrm{cm}$). Các kết luận b/c/d được hiệu chỉnh theo mô hình và phép tính độc lập.
-
+    <!-- source-audit-note: PDF đánh b) Sai và gọi vị trí pít-tông là “bụng sóng”, trái với điều kiện biên của đầu kín theo li độ phần tử khí. Ở c), PDF còn tính $0{,}110+0{,}05=0{,}115\,\mathrm{cm}$; phép cộng đúng là khoảng $0{,}160\,\mathrm{cm}$ (dùng số trung bình chính xác hơn cho $0{,}161\,\mathrm{cm}$). Các kết luận b/c/d được hiệu chỉnh theo mô hình và phép tính độc lập. -->
 ### Thông hiểu — Trắc nghiệm 4 lựa chọn
 
 #### Bài 29

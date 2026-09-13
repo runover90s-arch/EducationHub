@@ -46,7 +46,7 @@ D. $20\,\mathrm{rad/s}$.
 
 ### Bài 3 — Mức 1 — Nhận biết
 
-Một lò xo có độ cứng $k=60\,\mathrm{N/m}$. Cắt lò xo thành ba phần bằng nhau. Độ cứng của mỗi phần bằng
+Một lò xo **đều** có độ cứng $k=60\,\mathrm{N/m}$. Cắt lò xo thành ba phần bằng nhau. Độ cứng của mỗi phần bằng
 
 A. $20\,\mathrm{N/m}$.
 
@@ -89,9 +89,9 @@ c) Nếu $A>\Delta\ell_0$, trong một phần chu kì lò xo bị nén.
 d) Chu kì phụ thuộc biên độ nếu lò xo lí tưởng và dao động nhỏ quanh cân bằng.
 
 ??? success "Đáp án và lời giải"
-    a) **Đúng.** về vị trí cân bằng tĩnh.
+    a) **Đúng.** Khi vật ở vị trí cân bằng, độ dãn của lò xo là $\Delta\ell_0$, nên độ lớn lực đàn hồi là $k\Delta\ell_0=mg$.
 
-    b) **Đúng.** Ở vị trí cân bằng tĩnh, lực đàn hồi $k\Delta\ell_0$ cân bằng trọng lực $mg$.
+    b) **Đúng.** Điều kiện cân bằng theo phương thẳng đứng cho $k\Delta\ell_0=mg$.
 
     c) **Đúng.** li độ lên trên đủ lớn làm chiều dài nhỏ hơn chiều dài tự nhiên.
 
@@ -145,7 +145,7 @@ Một con lắc lò xo nằm ngang có $k=100\,\mathrm{N/m}$, biên độ $A=4\,
 
 ### Bài 10 — Mức 4 — Vận dụng cao
 
-Con lắc lò xo treo thẳng đứng có $m=0,10\,\mathrm{kg}$, $k=40\,\mathrm{N/m}$, $g=10\,\mathrm{m/s^2}$ và biên độ $A=4\,\mathrm{cm}$. Chọn chiều dương hướng xuống, gốc tại vị trí cân bằng. Tính lực đàn hồi lớn nhất và nhỏ nhất trong quá trình dao động; cho biết lò xo có bị nén không.
+Con lắc lò xo treo thẳng đứng có $m=0,10\,\mathrm{kg}$, $k=40\,\mathrm{N/m}$, $g=10\,\mathrm{m/s^2}$ và biên độ $A=4\,\mathrm{cm}$. Chọn chiều dương hướng xuống, gốc tại vị trí cân bằng; coi lò xo lí tưởng vẫn tuân theo định luật Hooke khi bị nén. Tính **độ lớn** lực đàn hồi lớn nhất và nhỏ nhất trong quá trình dao động; cho biết lò xo có bị nén không.
 
 ??? success "Đáp án và lời giải"
     Độ dãn cân bằng:
@@ -180,7 +180,7 @@ c) Tần số là số lần vật đạt giá trị biên độ trong một gi�
 d) Độ lệch pha là sự khác biệt giữa pha ban đầu và pha tại một thời điểm bất kỳ trên đồ thị, được biểu diễn bằng độ hoặc radian.
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** a) Sai; b) Sai; c) Đúng; d) Đúng.
+    **Đáp án:** a) Sai; b) Sai; c) Sai; d) Đúng.
 
     **Hướng dẫn giải:**
 
@@ -188,9 +188,11 @@ d) Độ lệch pha là sự khác biệt giữa pha ban đầu và pha tại m�
 
     b) **Sai.** Chu kì $T$ là thời gian để vật thực hiện một dao động toàn phần và $T=1/f$; biểu thức $1/T$ là tần số, không phải chu kì.
 
-    c) **Đúng.** Theo cách diễn đạt của phát biểu, trạng thái đạt li độ cực đại dương $x=A$ lặp lại một lần trong mỗi chu kì, nên số lần trong một giây bằng $f=1/T$.
+    c) **Sai.** Tần số là số **dao động toàn phần** thực hiện trong một đơn vị thời gian, với $f=1/T$. Số lần vật chạm một vị trí biên trong một khoảng thời gian hữu hạn còn phụ thuộc thời điểm bắt đầu đếm, nên không phải định nghĩa của tần số.
 
     d) **Đúng.** Độ lệch pha là hiệu giữa hai pha; có thể biểu diễn bằng radian hoặc bằng độ.
+
+    <!-- source-correction: PDF đánh dấu c) Đúng; audit độc lập sửa thành Sai theo định nghĩa tần số. -->
 
 ### Thông hiểu — Trắc nghiệm 4 lựa chọn
 
@@ -245,8 +247,7 @@ D. Hàng IV.
 
     Hàng II có $A=10\,\mathrm{cm}$ và $T=0{,}5\,\mathrm s$, nên chọn **B**.
 
-    !!! warning "Đối chiếu nguồn"
-        PDF in phương án A là “Hàng IV”, trùng với phương án D; không có “Hàng I” trong bốn lựa chọn. Phần trình bày giữ nguyên các lựa chọn đã in. Lỗi in này không ảnh hưởng đáp án B.
+    <!-- source-note: PDF in phương án A là “Hàng IV”, trùng với D và thiếu “Hàng I”; đáp án B vẫn là phương án đúng duy nhất. -->
 
 #### Bài 14
 

@@ -18,7 +18,7 @@ tags:
 
 Bạn cần:
 
-- hiểu sóng dừng là giao thoa của hai sóng cùng tần số truyền ngược chiều;
+- hiểu sóng dừng lí tưởng là giao thoa của hai sóng cùng tần số, cùng biên độ truyền ngược chiều;
 - phân biệt nút và bụng;
 - nhớ đúng khoảng cách $\lambda/2$, $\lambda/4$;
 - thiết lập điều kiện hai đầu cố định, một đầu cố định–một đầu tự do;
@@ -27,7 +27,7 @@ Bạn cần:
 
 ## 1. Cơ chế hình thành
 
-Khi sóng tới gặp biên và phản xạ, sóng tới và sóng phản xạ có thể chồng chất. Nếu hai sóng cùng tần số truyền ngược chiều, hệ giao thoa tạo ra các vị trí có biên độ cố định theo không gian.
+Khi sóng tới gặp biên và phản xạ, sóng tới và sóng phản xạ có thể chồng chất. Trong mô hình sóng dừng lí tưởng, hai sóng thành phần có cùng tần số, cùng biên độ và truyền ngược chiều; khi đó các vị trí nút và bụng cố định theo không gian.
 
 Một mô hình đối xứng:
 

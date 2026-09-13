@@ -17,7 +17,7 @@ tags:
 Chọn **A** về định nghĩa vectơ.
 
 ## Bài 2
-Chọn **B**.
+Chọn **B**. Điện trường của điện tích điểm dương có hướng ra xa điện tích; điện tích điểm âm tạo điện trường hướng vào điện tích.
 
 ## Bài 3
 Chọn **B**. $E=kQ/r^2=9\cdot10^9\cdot4\cdot10^{-6}/0,09=4\cdot10^5\,\mathrm{V/m}$.

@@ -1,0 +1,152 @@
+{
+  "scope": "Chapter IV practice GROUP B only",
+  "mode": "CONTINUE / AUDIT / UPDATE",
+  "BASE_VERSION": "education-hub-v14.zip",
+  "base_checkpoint": {
+    "series": 2,
+    "version": 14
+  },
+  "target_checkpoint": {
+    "series": 2,
+    "version": 15
+  },
+  "folders": [
+    "05-full-circuit-ohm-law",
+    "06-source-combinations",
+    "07-circuit-reading-meters"
+  ],
+  "counts": {
+    "05-full-circuit-ohm-law": {
+      "total": 30,
+      "pdf_canonical": 20,
+      "authored": 10
+    },
+    "06-source-combinations": {
+      "total": 21,
+      "pdf_canonical": 11,
+      "authored": 10
+    },
+    "07-circuit-reading-meters": {
+      "total": 13,
+      "pdf_canonical": 3,
+      "authored": 10
+    }
+  },
+  "summary": {
+    "total": 64,
+    "authored": 30,
+    "pdf_canonical": 34,
+    "unresolved": 0
+  },
+  "audit_method": [
+    "Every Group B item was independently re-solved; Group A was not re-audited.",
+    "For every circuit figure, topology was determined from the actual repository crop/source PDF image rather than OCR-inferred wires.",
+    "Circuit solutions were checked in the order topology -> current -> voltage -> equation -> result, including source polarity/current direction when material.",
+    "All True/False items were checked statement by statement.",
+    "For A-D items, computed results were checked for zero or multiple matching options before retaining the answer."
+  ],
+  "pdf_source_ids_reverified": [
+    "BT-Chuong-IV-p74-q2-230",
+    "BT-Chuong-IV-p74-q4-232",
+    "BT-Chuong-IV-p76-q6-234",
+    "BT-Chuong-IV-p86-q3-259",
+    "BT-Chuong-IV-p86-q4-260",
+    "BT-Chuong-IV-p62-q1-193",
+    "BT-Chuong-IV-p65-q25-216",
+    "BT-Chuong-IV-p79-q9-243",
+    "BT-Chuong-IV-p80-q15-249",
+    "BT-Chuong-IV-p81-q18-252",
+    "BT-Chuong-IV-p71-q4-226",
+    "BT-Chuong-IV-p72-q6-228",
+    "BT-Chuong-IV-p83-q3-255",
+    "BT-Chuong-IV-p64-q16-208",
+    "BT-Chuong-IV-p64-q18-210",
+    "BT-Chuong-IV-p65-q26-217",
+    "BT-Chuong-IV-p66-q27-218",
+    "BT-Chuong-IV-p66-q28-219",
+    "BT-Chuong-IV-p66-q29-220",
+    "BT-Chuong-IV-p68-q31-222",
+    "BT-Chuong-IV-p74-q3-231",
+    "BT-Chuong-IV-p87-q6-262",
+    "BT-Chuong-IV-p62-q7-199",
+    "BT-Chuong-IV-p79-q10-244",
+    "BT-Chuong-IV-p79-q11-245",
+    "BT-Chuong-IV-p80-q14-248",
+    "BT-Chuong-IV-p80-q16-250",
+    "BT-Chuong-IV-p81-q17-251",
+    "BT-Chuong-IV-p72-q5-227",
+    "BT-Chuong-IV-p82-q2-254",
+    "BT-Chuong-IV-p67-q30-221",
+    "BT-Chuong-IV-p32-q4-109",
+    "BT-Chuong-IV-p50-q3-179",
+    "BT-Chuong-IV-p51-q4-180"
+  ],
+  "topology_visually_checked": [
+    "BT-Chuong-IV-p74-q4-232",
+    "BT-Chuong-IV-p76-q6-234",
+    "BT-Chuong-IV-p86-q3-259",
+    "BT-Chuong-IV-p86-q4-260",
+    "BT-Chuong-IV-p65-q25-216",
+    "BT-Chuong-IV-p79-q9-243",
+    "BT-Chuong-IV-p80-q15-249",
+    "BT-Chuong-IV-p81-q18-252",
+    "BT-Chuong-IV-p71-q4-226",
+    "BT-Chuong-IV-p72-q6-228",
+    "BT-Chuong-IV-p83-q3-255",
+    "BT-Chuong-IV-p66-q27-218",
+    "BT-Chuong-IV-p66-q28-219",
+    "BT-Chuong-IV-p66-q29-220",
+    "BT-Chuong-IV-p68-q31-222",
+    "BT-Chuong-IV-p87-q6-262",
+    "BT-Chuong-IV-p72-q5-227",
+    "BT-Chuong-IV-p67-q30-221",
+    "BT-Chuong-IV-p50-q3-179",
+    "BT-Chuong-IV-p51-q4-180"
+  ],
+  "updates": [
+    {
+      "source_id": "BT-Chuong-IV-p76-q6-234",
+      "action": "Made the ammeter-short topology explicit (C and D same node), then showed current split, branch voltages and node equation before the 0.5 A result."
+    },
+    {
+      "source_id": "BT-Chuong-IV-p86-q3-259",
+      "action": "Reverified the printed stem values and aiding source polarity; kept R=4 ohm, removed learner-facing source-provenance note, and expanded topology/current/voltage/equation reasoning."
+    },
+    {
+      "source_id": "BT-Chuong-IV-p86-q4-260",
+      "action": "Made the R1 series [(R2+R3)||R4] topology and ammeter-branch calculation explicit."
+    },
+    {
+      "source_id": "BT-Chuong-IV-p66-q29-220",
+      "action": "Reverified the actual MN/AB topology; kept U_AB=1.00 V, removed learner-facing source-provenance note, and expanded voltage-path reasoning."
+    },
+    {
+      "source_id": "BT-Chuong-IV-p74-q3-231",
+      "action": "Reverified three-pin series data then parallel regrouping; kept 2.5 V and removed learner-facing source-provenance note."
+    },
+    {
+      "source_id": "BT-Chuong-IV-p72-q5-227",
+      "action": "Made source opposition/polarity and current direction explicit; retained 12 V equivalent emf and 4 A loop current."
+    },
+    {
+      "source_id": "BT-Chuong-IV-p67-q30-221",
+      "action": "Made switch topology explicit: K open gives R1+R2, K closed shorts R2; retained 1.2 A."
+    },
+    {
+      "source_id": "BT-Chuong-IV-p51-q4-180",
+      "action": "Re-solved K-open/K-closed topology from the figure; retained item d=True at 0.375 A using the stated U_AB=6 V and removed learner-facing source-provenance note."
+    }
+  ],
+  "answer_option_repairs_this_turn": [],
+  "learner_facing_forbidden_markers_remaining": 0,
+  "unresolved": [],
+  "next": null,
+  "validation": {
+    "check_practice_bank": "PASS — 61 banks; 540 authored + 1633 PDF; 0 structural errors",
+    "check_solution_quality": "PASS — 2173 total items; 0 errors",
+    "check_site_lint_only": "PASS — 237 Markdown; 0 errors; 0 warnings",
+    "check_pdf_import": "PASS — 1633 canonical PDF items; Chapter IV=350; 0 integrity errors"
+  },
+  "status": "GROUP_B_COMPLETE",
+  "chapter_final_status": "CHAPTER_IV_COMPLETE"
+}

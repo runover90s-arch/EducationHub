@@ -23,7 +23,7 @@ Chọn **A**. Ngược pha nên $A=|A_1-A_2|=3\,\mathrm{cm}$.
 Chọn **B**. Trạng thái cưỡng bức ổn định dao động theo tần số của ngoại lực.
 
 ## Bài 4
-Chọn **A**.
+Cộng hưởng rõ nhất khi tần số ngoại lực gần tần số riêng; lực cản nhỏ làm đỉnh cộng hưởng cao và sắc hơn. Vì vậy chọn **A**.
 
 ## Bài 5
 a) **Đúng.** Dao động tắt dần chịu lực cản làm mất cơ năng nên biên độ giảm dần theo thời gian.

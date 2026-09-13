@@ -263,7 +263,7 @@ sát là (D + 3$\Delta D$) thì khoảng vân trên màn là bao nhiêu milimet?
 
     Vì $\dfrac{i_3}{i_2}=\dfrac{D+\Delta D}{D-\Delta D}=2$ nên $\Delta D=D/3$. Khi $D_4=D+3\Delta D$:
 
-    $\dfrac{i_4}{i_3}=\dfrac{D+3\Delta D}{D}=2$, suy ra $i_4=2\,\mathrm{mm}$.
+    $\dfrac{i_4}{i_1}=\dfrac{D+3\Delta D}{D}=2$, suy ra $i_4=2\,\mathrm{mm}$.
 
 #### Bài 14
 
@@ -280,8 +280,8 @@ Trong thí nghiệm Young về giao thoa ánh sáng, chiếu vào hai khe đồn
     Với $k_1=5$:
     $k_2=\dfrac{5\cdot0{,}66}{0{,}55}=6$.
 
-    !!! warning "Đối chiếu nguồn"
-        Phần kết quả của PDF/ bản nhập ghi 36 nhưng chính phép tính của bài cho $k_2=6$.
+
+<!-- provenance-note: Phần kết quả của PDF/ bản nhập ghi 36 nhưng chính phép tính của bài cho $k_2=6$. -->
 
 #### Bài 15
 
@@ -470,8 +470,8 @@ D. bằng một phần tư bước sóng.
 
     Trên đường nối hai nguồn, khi dịch chuyển một đoạn $x$ thì hiệu đường đi thay đổi $2x$. Hai cực đại liên tiếp ứng với hiệu đường đi tăng $\lambda$, nên khoảng cách giữa chúng là $\lambda/2$. Chọn **C**.
 
-    !!! warning "Đối chiếu nguồn"
-        PDF đánh dấu phương án D ($\lambda/4$), nhưng điều kiện cực đại $\Delta d=k\lambda$ trên đường nối hai nguồn cho khoảng cách liên tiếp bằng $\lambda/2$.
+
+<!-- provenance-note: PDF đánh dấu phương án D ($\lambda/4$), nhưng điều kiện cực đại $\Delta d=k\lambda$ trên đường nối hai nguồn cho khoảng cách liên tiếp bằng $\lambda/2$. -->
 
 #### Bài 24
 
@@ -731,19 +731,18 @@ B. $1,5\,\mathrm{Hz}$
 
 C. $2\,\mathrm{Hz}$
 
-D. $5\,\mathrm{Hz}$
+D. $2{,}5\,\mathrm{Hz}$
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** Không có phương án đúng; $f=2{,}5\,\mathrm{Hz}$.
+    **Đáp án:** D
 
     **Hướng dẫn giải:**
 
     Hai điểm gần nhau nhất trên cùng phương truyền sóng dao động ngược pha cách nhau $\lambda/2$.
     Do đó $\lambda/2=0{,}40\,\mathrm{m}\Rightarrow\lambda=0{,}80\,\mathrm{m}$.
-    Suy ra $f=v/\lambda=2/0{,}80=2{,}5\,\mathrm{Hz}$.
+    Suy ra $f=v/\lambda=2/0{,}80=2{,}5\,\mathrm{Hz}$. Vậy chọn **D**.
 
-    !!! warning "Đối chiếu nguồn"
-        PDF chọn D ($5\,\mathrm{Hz}$), tương ứng nhầm khoảng cách ngược pha gần nhất thành một bước sóng. Không phương án nào trong đề bằng $2{,}5\,\mathrm{Hz}$.
+<!-- provenance-note: BT-Chuong-II-p129-q31-291 chọn D nhưng in $5\,\mathrm{Hz}$; phương án D được sửa tối thiểu thành $2{,}5\,\mathrm{Hz}$ sau khi kiểm chứng độc lập. -->
 
 #### Bài 35
 
@@ -993,7 +992,7 @@ D. có tính chất hạt.
 
 <!-- source-id: BT-Chuong-II-p202-q9-463 -->
 
-Hai nguồn kết hợp S1, S2 cách nhau $10\,\mathrm{cm}$, có chu kỳ sóng là $0,2\,\mathrm s$. Tốc độ truyền sóng trong
+Hai nguồn kết hợp S1, S2 dao động cùng pha, cách nhau $10\,\mathrm{cm}$, có chu kỳ sóng là $0,2\,\mathrm s$. Tốc độ truyền sóng trong
 môi trường là $25\,\mathrm{cm/s}$. Số cực đại giao thoa trong khoảng S1S2 là
 
 A. 4.
@@ -1018,8 +1017,7 @@ D. 7.
 
 <!-- source-id: BT-Chuong-II-p203-q10-464 -->
 
-Trong thí nghiệm giao thoa sóng trên mặt nước, khoảng cách giữa nguồn sóng kết hợp O1,
-$O_1O_2=8{,}5\,\mathrm{cm}$, tần số dao động của hai nguồn là $f=25\,\mathrm{Hz}$, tốc độ truyền sóng trên mặt nước là $v=10\,\mathrm{cm/s}$. Xem biên độ sóng không giảm trong quá trình truyền đi từ nguồn. Số gợn sóng quan sát được
+Trong thí nghiệm giao thoa sóng trên mặt nước, hai nguồn sóng kết hợp $O_1,O_2$ dao động cùng pha cách nhau $O_1O_2=8{,}5\,\mathrm{cm}$, tần số dao động của hai nguồn là $f=25\,\mathrm{Hz}$, tốc độ truyền sóng trên mặt nước là $v=10\,\mathrm{cm/s}$. Xem biên độ sóng không giảm trong quá trình truyền đi từ nguồn. Số gợn sóng quan sát được
 trên đoạn O1O2 là
 
 A. 51.
@@ -1035,7 +1033,7 @@ D. 43.
 
     **Hướng dẫn giải:**
 
-    $\lambda=v/f=10/25=0{,}4\,\mathrm{cm}$. Trên đoạn $O_1O_2$, số gợn cực đại theo điều kiện nguồn của bài là $2\left\lfloor O_1O_2/\lambda+1/2\right\rfloor+1=2\cdot21+1=43$. Chọn **D**.
+    $\lambda=v/f=10/25=0{,}4\,\mathrm{cm}$. Với hai nguồn cùng pha, cực đại trên khoảng $O_1O_2$ thỏa $-O_1O_2<k\lambda<O_1O_2$. Do đó $-21{,}25<k<21{,}25$, nên $k=-21,-20,\ldots,20,21$: có $43$ cực đại. Chọn **D**.
 
 #### Bài 47
 
@@ -1092,7 +1090,7 @@ D. 9.
 
 A. $\left(k-\dfrac12\right)\lambda$.
 
-B. 0.
+B. $\dfrac{\lambda}{2}$.
 
 C. $\left(k+\dfrac14\right)\lambda$.
 
@@ -1138,7 +1136,7 @@ d) Khoảng cách từ vân sáng bậc hai đến vân tối thứ tư ở cùn
 
 <!-- source-id: BT-Chuong-II-p142-q2-332 -->
 
-Hai điểm M và N trên mặt chất lỏng cách hai nguồn $O_1,O_2$ những đoạn lần lượt là $O_1M=3{,}25\,\mathrm{cm}$, $O_2M=9{,}25\,\mathrm{cm}$, $O_1N=33\,\mathrm{cm}$, $O_2N=67\,\mathrm{cm}$; hai nguồn dao động cùng tần số $20\,\mathrm{Hz}$, cùng pha, vận tốc truyền sóng trên mặt chất lỏng là $80\,\mathrm{cm/s}$.
+Hai điểm M và N trên mặt chất lỏng cách hai nguồn $O_1,O_2$ những đoạn lần lượt là $O_1M=3{,}25\,\mathrm{cm}$, $O_2M=9{,}25\,\mathrm{cm}$, $O_1N=33\,\mathrm{cm}$, $O_2N=67\,\mathrm{cm}$; hai nguồn dao động cùng biên độ, cùng tần số $20\,\mathrm{Hz}$, cùng pha, vận tốc truyền sóng trên mặt chất lỏng là $80\,\mathrm{cm/s}$.
 
 a) Bước sóng $\lambda=16\,\mathrm m$.
 
@@ -1161,8 +1159,8 @@ d) N thuộc cực tiểu thứ chín kể từ trung trực.
 
     d) **Đúng.** $\Delta d_N=(8+1/2)\lambda$; nếu cực tiểu thứ nhất ứng với $k=0$, N thuộc cực tiểu thứ chín kể từ trung trực.
 
-    !!! warning "Đối chiếu nguồn"
-        Bản đáp án trước ghi a) Đúng dù ngay phép tính cho $\lambda=4\,\mathrm{cm}$; kết luận a) đã được sửa về Sai.
+
+<!-- provenance-note: Bản đáp án trước ghi a) Đúng dù ngay phép tính cho $\lambda=4\,\mathrm{cm}$; kết luận a) đã được sửa về Sai. -->
 
 #### Bài 52
 
@@ -1192,15 +1190,15 @@ d) Tại điểm N trên màn cách vân sáng trung tâm (chính giữa) một 
 
     d) **Sai.** Vân tối thứ $n$ tính từ vân trung tâm có $x=(n-1/2)i$. Với $x=3{,}0\,\mathrm{mm}=2{,}5i$ suy ra $n=3$, tức vân tối thứ ba.
 
-    !!! warning "Đối chiếu nguồn"
-        Hướng dẫn PDF coi vị trí $2{,}5i$ là “vân tối thứ 2”. Theo quy ước phổ thông đếm vân tối đầu tiên tại $0{,}5i$, vị trí $2{,}5i$ là vân tối thứ ba.
+
+<!-- provenance-note: Hướng dẫn PDF coi vị trí $2{,}5i$ là “vân tối thứ 2”. Theo quy ước phổ thông đếm vân tối đầu tiên tại $0{,}5i$, vị trí $2{,}5i$ là vân tối thứ ba. -->
 
 #### Bài 53
 
 <!-- source-id: BT-Chuong-II-p143-q4-334 -->
 
 
-Trên mặt nước nằm ngang, tại hai điểm $S_1,S_2$ cách nhau $9,6\,\mathrm{cm}$, người ta đặt hai nguồn sóng cơ kết hợp, dao động điều hòa theo phương thẳng đứng có tần số $15\,\mathrm{Hz}$ và luôn dao động cùng pha. Biết tốc độ truyền sóng trên mặt nước là $45\,\mathrm{cm/s}$ và coi biên độ sóng không đổi khi truyền đi.
+Trên mặt nước nằm ngang, tại hai điểm $S_1,S_2$ cách nhau $9,6\,\mathrm{cm}$, người ta đặt hai nguồn sóng cơ kết hợp cùng biên độ, dao động điều hòa theo phương thẳng đứng có tần số $15\,\mathrm{Hz}$ và luôn dao động cùng pha. Biết tốc độ truyền sóng trên mặt nước là $45\,\mathrm{cm/s}$ và coi biên độ sóng không đổi khi truyền đi.
 
 a) Bước sóng $\lambda=3\,\mathrm{cm}$.
 
@@ -1596,14 +1594,14 @@ D. 3.
     $5{,}5\le7{,}2n\le22\Rightarrow n\in\{1,2,3\}$.
     Vậy có 3 vị trí vân sáng trùng nhau của hai bức xạ.
 
-    !!! warning "Đối chiếu nguồn"
-        PDF có một dòng trung gian in nhầm hệ số $3{,}36n$. Từ $i_1=1{,}8\,\mathrm{mm}$ và điều kiện trùng vân $k_1/k_2=4/3$, khoảng cách đúng giữa hai vị trí trùng liên tiếp là $4i_1=7{,}2\,\mathrm{mm}$; phép đếm ở trên dùng giá trị này.
+
+<!-- provenance-note: PDF có một dòng trung gian in nhầm hệ số $3{,}36n$. Từ $i_1=1{,}8\,\mathrm{mm}$ và điều kiện trùng vân $k_1/k_2=4/3$, khoảng cách đúng giữa hai vị trí trùng liên tiếp là $4i_1=7{,}2\,\mathrm{mm}$; phép đếm ở trên dùng giá trị này. -->
 
 #### Bài 70
 
 <!-- source-id: BT-Chuong-II-p130-q36-296 -->
 
-Hai nguồn sóng cơ AB cách nhau dao động chạm nhẹ trên mặt chất lỏng, cùng tần số $80\,\mathrm{Hz}$,
+Hai nguồn sóng cơ A, B dao động chạm nhẹ trên mặt chất lỏng với cùng biên độ, cùng tần số $80\,\mathrm{Hz}$,
 cùng pha theo phương vuông góc với mặt chất lỏng. Vận tốc truyền sóng $16\,\mathrm{m/s}$. Số điểm không dao
 động trên đoạn $AB=90\,\mathrm{cm}$ là bao nhiêu?
 
@@ -1768,8 +1766,7 @@ D. $(k+0{,}5)\lambda$ với $k=0,\pm1,\pm2,\ldots$
 
 <!-- source-id: BT-Chuong-II-p138-q2-314 -->
 
-Trong thí nghiệm giao thoa với ánh sáng trắng của Young, khoảng cách giữa vân sáng và vân
-tối liên tiếp bằng
+Trong thí nghiệm Young với ánh sáng đơn sắc, khoảng cách giữa một vân sáng và vân tối liền kề bằng
 
 A. một khoảng vân
 
@@ -1811,16 +1808,16 @@ D. vuông pha với nhau.
 
 <!-- source-id: BT-Chuong-II-p138-q4-316 -->
 
-Trong thí nghiệm Young về giao thoa ánh sáng, khoảng cách giữa hai khe là a, khoảng cách từ
-mặt phẳng chứa hai khe đến màn quan sát là D, khoảng vân i. Bước sóng ánh sáng chiếu vào hai khe là
+Trong thí nghiệm Young về giao thoa ánh sáng, khoảng cách giữa hai khe là $a$, khoảng cách từ
+mặt phẳng chứa hai khe đến màn quan sát là $D$, khoảng vân $i$. Bước sóng ánh sáng chiếu vào hai khe là
 
-A. $\lambda$ = D/(ai).
+A. $\lambda=\dfrac{D}{ai}$.
 
-B. $\lambda$ = aD/i.
+B. $\lambda=\dfrac{aD}{i}$.
 
-C. $\lambda$ = ai/D.
+C. $\lambda=\dfrac{ai}{D}$.
 
-D. $\lambda$ = iD/a.
+D. $\lambda=\dfrac{iD}{a}$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
@@ -1837,7 +1834,7 @@ D. $\lambda$ = iD/a.
 
 A. bằng $\left(k-\dfrac12\right)\lambda$.
 
-B. bằng 0.
+B. bằng $\dfrac{\lambda}{2}$.
 
 C. bằng $\left(k+\dfrac14\right)\lambda$.
 
@@ -1926,8 +1923,8 @@ D. $48\,\mathrm{cm/s}$.
     Ta có $4=2{,}5\lambda\Rightarrow\lambda=1{,}6\,\mathrm{cm}$. Suy ra
     $v=\lambda f=1{,}6\cdot15=24\,\mathrm{cm/s}$. Vậy chọn **A**.
 
-    !!! warning "Đối chiếu nguồn"
-        PDF nguồn ghi đáp án B và trong hướng dẫn gọi $M$ là “cực đại thứ 3”, trái với dữ kiện ngay trong đề rằng $M$ có biên độ cực tiểu. Áp dụng đúng điều kiện cực tiểu cho kết quả $24\,\mathrm{cm/s}$.
+
+<!-- provenance-note: PDF nguồn ghi đáp án B và trong hướng dẫn gọi $M$ là “cực đại thứ 3”, trái với dữ kiện ngay trong đề rằng $M$ có biên độ cực tiểu. Áp dụng đúng điều kiện cực tiểu cho kết quả $24\,\mathrm{cm/s}$. -->
 
 #### Bài 83
 
@@ -2015,7 +2012,7 @@ d) Tại điểm N trên màn cách vân sáng trung tâm (chính giữa) một 
 
 <!-- source-id: BT-Chuong-II-p133-q3-303 -->
 
-Trên mặt chất lỏng có hai nguồn kết hợp A, B dao động với chu kỳ $0,02\,\mathrm s$. Tốc độ truyền sóng trên mặt chất lỏng là $v=15\,\mathrm{cm/s}$. Trạng thái dao động của $M_1$ cách A, B lần lượt những khoảng $d_1=12\,\mathrm{cm}$, $d_2=14{,}4\,\mathrm{cm}$ và của $M_2$ cách A, B lần lượt những khoảng $d'_1=16{,}5\,\mathrm{cm}$, $d'_2=19{,}05\,\mathrm{cm}$.
+Trên mặt chất lỏng có hai nguồn kết hợp A, B cùng biên độ, dao động với chu kỳ $0,02\,\mathrm s$. Tốc độ truyền sóng trên mặt chất lỏng là $v=15\,\mathrm{cm/s}$. Trạng thái dao động của $M_1$ cách A, B lần lượt những khoảng $d_1=12\,\mathrm{cm}$, $d_2=14{,}4\,\mathrm{cm}$ và của $M_2$ cách A, B lần lượt những khoảng $d'_1=16{,}5\,\mathrm{cm}$, $d'_2=19{,}05\,\mathrm{cm}$.
 
 a) Bước sóng $\lambda=0{,}3\,\mathrm{cm}$.
 

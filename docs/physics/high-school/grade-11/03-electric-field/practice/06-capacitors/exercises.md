@@ -169,13 +169,13 @@ Nối hai bản tụ điện với một hiệu điện thế $120\,\mathrm V$. 
 tích được điện tích bao nhiêu mC?
 
 ??? success "Đáp án và lời giải"
-    **Đáp án sau kiểm tra:** $2{,}4\,\mathrm{mC}$.
+    **Đáp án:** $2{,}4\,\mathrm{mC}$.
 
     **Hướng dẫn giải:**
 
     $Q=CU=20\cdot10^{-6}\cdot120=2{,}4\cdot10^{-3}\,\mathrm C=2{,}4\,\mathrm{mC}$.
 
-    **Đối chiếu nguồn:** ô đáp án trong PDF để trống; kết quả trên được tính độc lập từ dữ kiện đề.
+    <!-- audit-note: Source answer cell is blank; learner-facing result is independently computed from the printed data. -->
 
 #### Bài 12
 
@@ -185,14 +185,14 @@ Một tụ điện có điện dung $24\,\mathrm{nF}$ được tích điện đ�
 chuyển đến bản tích điện âm của tụ điện (đơn vị $\times 10^{13}$ (Êlectron))
 
 ??? success "Đáp án và lời giải"
-    **Đáp án sau kiểm tra:** $6{,}75$ (đơn vị $10^{13}$ electron).
+    **Đáp án:** $6{,}75$ (đơn vị $10^{13}$ electron).
 
     **Hướng dẫn giải:**
 
     $Q=CU=24\cdot10^{-9}\cdot450=1{,}08\cdot10^{-5}\,\mathrm C$.
     Số electron chuyển đến bản âm là $N=Q/e=1{,}08\cdot10^{-5}/(1{,}6\cdot10^{-19})=6{,}75\cdot10^{13}$.
 
-    **Đối chiếu nguồn:** ô đáp án trong PDF để trống; kết quả trên được tính độc lập.
+    <!-- audit-note: Source answer cell is blank; learner-facing result is independently computed from the printed data. -->
 
 #### Bài 13
 
@@ -202,13 +202,13 @@ Một tụ điện có điện dung $2000\,\mu\mathrm F$ được tích điện 
 bằng bao nhiêu J?
 
 ??? success "Đáp án và lời giải"
-    **Đáp án sau kiểm tra:** $0{,}10\,\mathrm J$.
+    **Đáp án:** $0{,}10\,\mathrm J$.
 
     **Hướng dẫn giải:**
 
     $W=\dfrac12CU^2=\dfrac12\cdot2000\cdot10^{-6}\cdot10^2=0{,}10\,\mathrm J$.
 
-    **Đối chiếu nguồn:** ô đáp án trong PDF để trống; kết quả trên được tính độc lập.
+    <!-- audit-note: Source answer cell is blank; learner-facing result is independently computed from the printed data. -->
 
 #### Bài 14
 
@@ -217,13 +217,13 @@ bằng bao nhiêu J?
 Hai đầu tụ có điện dung là $20\,\mu\mathrm F$ thì hiệu điện thế là $5\,\mathrm V$ thì năng lượng tích được là bao nhiêu mJ?
 
 ??? success "Đáp án và lời giải"
-    **Đáp án sau kiểm tra:** $0{,}25\,\mathrm{mJ}$.
+    **Đáp án:** $0{,}25\,\mathrm{mJ}$.
 
     **Hướng dẫn giải:**
 
     $W=\dfrac12CU^2=\dfrac12\cdot20\cdot10^{-6}\cdot5^2=2{,}5\cdot10^{-4}\,\mathrm J=0{,}25\,\mathrm{mJ}$.
 
-    **Đối chiếu nguồn:** ô đáp án trong PDF để trống; kết quả trên được tính độc lập.
+    <!-- audit-note: Source answer cell is blank; learner-facing result is independently computed from the printed data. -->
 
 #### Bài 15
 
@@ -233,14 +233,14 @@ Một tụ điện được tích điện bằng một hiệu điện thế là 
 muốn năng lượng của tụ là $22{,}5\,\mathrm{mJ}$ thì phải đặt vào hai đầu tụ một hiệu điện thế bao nhiêu vôn?
 
 ??? success "Đáp án và lời giải"
-    **Đáp án sau kiểm tra:** $15\,\mathrm V$.
+    **Đáp án:** $15\,\mathrm V$.
 
     **Hướng dẫn giải:**
 
     Với cùng một tụ, $W=\dfrac12CU^2$ nên $W\propto U^2$. Do đó
     $U_2=U_1\sqrt{W_2/W_1}=10\sqrt{22{,}5/10}=15\,\mathrm V$.
 
-    **Đối chiếu nguồn:** ô đáp án trong PDF để trống; kết quả trên được tính độc lập.
+    <!-- audit-note: Source answer cell is blank; learner-facing result is independently computed from the printed data. -->
 
 #### Bài 16
 
@@ -249,13 +249,13 @@ muốn năng lượng của tụ là $22{,}5\,\mathrm{mJ}$ thì phải đặt v�
 Cho một tụ điện có điện dung $3\,\mathrm{pF}$ được tích điện đến giá trị $9\cdot10^{-6}\,\mathrm C$. Năng lượng tích trữ trong tụ điện bằng bao nhiêu J?
 
 ??? success "Đáp án và lời giải"
-    **Đáp án sau kiểm tra:** $13{,}5\,\mathrm J$.
+    **Đáp án:** $13{,}5\,\mathrm J$.
 
     **Hướng dẫn giải:**
 
     $W=\dfrac{Q^2}{2C}=\dfrac{(9\cdot10^{-6})^2}{2\cdot3\cdot10^{-12}}=13{,}5\,\mathrm J$.
 
-    **Đối chiếu nguồn:** ô đáp án trong PDF để trống; kết quả trên được tính độc lập.
+    <!-- audit-note: Source answer cell is blank; learner-facing result is independently computed from the printed data. -->
 
 #### Bài 17
 
@@ -266,14 +266,14 @@ sáng với cường độ đủ lớn trong thời gian ngắn. Giả sử tụ
 bằng pin $9,0\,\mathrm V$, sau đó tụ phóng điện trong $0,001\,\mathrm s$. Công suất phóng điện của tụ bằng bao nhiêu W?
 
 ??? success "Đáp án và lời giải"
-    **Đáp án sau kiểm tra:** $8{,}1\cdot10^3\,\mathrm W$.
+    **Đáp án:** $8{,}1\cdot10^3\,\mathrm W$.
 
     **Hướng dẫn giải:**
 
     Năng lượng ban đầu của tụ là $W=\dfrac12CU^2=\dfrac12\cdot0{,}20\cdot9{,}0^2=8{,}1\,\mathrm J$.
     Nếu năng lượng này được phóng trong $0{,}001\,\mathrm s$ thì công suất trung bình là $P=W/t=8{,}1\cdot10^3\,\mathrm W$.
 
-    **Đối chiếu nguồn:** ô đáp án trong PDF để trống; kết quả trên được tính độc lập.
+    <!-- audit-note: Source answer cell is blank; learner-facing result is independently computed from the printed data. -->
 
 #### Bài 18
 
@@ -282,13 +282,13 @@ bằng pin $9,0\,\mathrm V$, sau đó tụ phóng điện trong $0,001\,\mathrm 
 Cho một tụ điện có điện dung $2\,\mathrm{pF}$ được tích điện đến giá trị $9\cdot10^{-6}\,\mathrm C$. Năng lượng tích trữ trong tụ điện bằng bao nhiêu J?
 
 ??? success "Đáp án và lời giải"
-    **Đáp án sau kiểm tra:** $20{,}25\,\mathrm J$.
+    **Đáp án:** $20{,}25\,\mathrm J$.
 
     **Hướng dẫn giải:**
 
     $W=\dfrac{Q^2}{2C}=\dfrac{(9\cdot10^{-6})^2}{2\cdot2\cdot10^{-12}}=20{,}25\,\mathrm J$.
 
-    **Đối chiếu nguồn:** ô đáp án trong PDF để trống; kết quả trên được tính độc lập.
+    <!-- audit-note: Source answer cell is blank; learner-facing result is independently computed from the printed data. -->
 
 #### Bài 19
 
@@ -299,14 +299,14 @@ Sau đó, tụ điện được ngắt khỏi pin và phóng điện qua đèn �
 lượng tụ điện đã chuyển qua đèn bằng bao nhiêu J?
 
 ??? success "Đáp án và lời giải"
-    **Đáp án sau kiểm tra:** $0{,}243\,\mathrm J$.
+    **Đáp án:** $0{,}243\,\mathrm J$.
 
     **Hướng dẫn giải:**
 
     Năng lượng chuyển qua đèn bằng độ giảm năng lượng của tụ:
     $\Delta W=\dfrac12C(U_1^2-U_2^2)=\dfrac12\cdot4500\cdot10^{-6}(12^2-6^2)=0{,}243\,\mathrm J$.
 
-    **Đối chiếu nguồn:** ô đáp án trong PDF để trống; kết quả trên được tính độc lập.
+    <!-- audit-note: Source answer cell is blank; learner-facing result is independently computed from the printed data. -->
 
 #### Bài 20
 
@@ -315,12 +315,12 @@ lượng tụ điện đã chuyển qua đèn bằng bao nhiêu J?
 Một tụ điện phẳng có điện dung $4\,\mu\mathrm F$, khoảng cách giữa hai bản tụ là $1\,\mathrm{mm}$. Năng lượng điện trường dự trữ trong tụ điện có giá trị lớn nhất là $0{,}045\,\mathrm J$. Cường độ điện trường lớn nhất mà điện môi giữa hai bản tụ còn chịu được là bao nhiêu, tính theo đơn vị $10^3\,\mathrm{V/m}$?
 
 ??? success "Đáp án và lời giải"
-    **Đáp án sau kiểm tra:** $150$ (đơn vị $10^3\,\mathrm{V/m}$).
+    **Đáp án:** $150$ (đơn vị $10^3\,\mathrm{V/m}$).
 
     **Hướng dẫn giải:**
 
     Từ $W_{\max}=\dfrac12CU_{\max}^2$ suy ra $U_{\max}=\sqrt{2W_{\max}/C}=150\,\mathrm V$.
     Với $d=1\,\mathrm{mm}=10^{-3}\,\mathrm m$, $E_{\max}=U_{\max}/d=1{,}5\cdot10^5\,\mathrm{V/m}=150\cdot10^3\,\mathrm{V/m}$.
 
-    **Đối chiếu nguồn:** ô đáp án trong PDF để trống; kết quả trên được tính độc lập.
+    <!-- audit-note: Source answer cell is blank; learner-facing result is independently computed from the printed data. -->
 

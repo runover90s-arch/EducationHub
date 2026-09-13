@@ -1,0 +1,67 @@
+{
+  "base_version": "education-hub-v10",
+  "target_version": "education-hub-v11",
+  "mode": "UPDATE",
+  "scope": [
+    "docs/physics/high-school/grade-11/03-electric-field/practice/07-charged-particle-motion/exercises.md",
+    "docs/physics/high-school/grade-11/03-electric-field/practice/09-electrostatic-equilibrium-charged-pendulum/exercises.md"
+  ],
+  "source_primary": "BT-Chương III_1.pdf",
+  "resolution_method": "Minimal editorial correction preserving the source intent, followed by independent physics verification.",
+  "resolved": [
+    {
+      "source_id": "BT-Chuong-III-p145-q3-365",
+      "location": "practice/07-charged-particle-motion — Bài 68",
+      "source_problem": "The stem omitted the charge sign while the keyed True/False pattern and source reasoning require q>0.",
+      "correction": "Added the minimal condition q>0; answer is a Đúng, b Đúng, c Sai, d Đúng.",
+      "independent_check": "With E to the right and q>0: A_BD<0; A_BC>0>A_CD; closed-loop work is zero.",
+      "status": "FIXED"
+    },
+    {
+      "source_id": "BT-Chuong-III-p128-q15-317",
+      "location": "practice/07-charged-particle-motion — Bài 73",
+      "source_problem": "The stem omitted the charge sign while the keyed answer assumes positive q.",
+      "correction": "Added the minimal condition q>0; unique answer A.",
+      "independent_check": "A_MN=qU_MN; for fixed q>0 the work increases monotonically with U_MN and is path-independent.",
+      "status": "FIXED"
+    },
+    {
+      "source_id": "BT-Chuong-III-p84-q13-219",
+      "location": "practice/09-electrostatic-equilibrium-charged-pendulum — Bài 21",
+      "source_problem": "The stem omitted q1. The source selects 45 degrees and sets tan(alpha)=1, while its printed charge factor in the numerical line has an inconsistent exponent.",
+      "correction": "Restored q1=5e-9 C, the unique value consistent with m=0.5 g, E=1e6 V/m, g=10 m/s^2 and the intended 45-degree result.",
+      "independent_check": "|q1|E=5e-3 N=mg, hence tan(alpha)=1 and alpha=45 degrees; unique answer C.",
+      "status": "FIXED"
+    }
+  ],
+  "current_unresolved": [],
+  "status": "COMPLETE_NO_UNRESOLVED",
+  "next": null,
+  "gate_results": {
+    "python tools/check_practice_bank.py": {
+      "exit_code": 0,
+      "result": "PASS"
+    },
+    "python tools/check_pdf_import.py": {
+      "exit_code": 0,
+      "result": "PASS"
+    },
+    "python tools/check_solution_quality.py": {
+      "exit_code": 0,
+      "result": "PASS"
+    },
+    "python tools/check_site.py": {
+      "exit_code": 1,
+      "result": "Markdown lint PASS (237 files, 0 errors, 0 warnings); full build unavailable because mkdocs executable is not installed."
+    },
+    "python tools/check_site.py --lint-only": {
+      "exit_code": 0,
+      "result": "PASS"
+    },
+    "mkdocs build --strict": {
+      "exit_code": 127,
+      "result": "NOT RUN SUCCESSFULLY: mkdocs command unavailable in the current runtime."
+    }
+  },
+  "superseded_by": "tools/ch3-completion-status.json"
+}

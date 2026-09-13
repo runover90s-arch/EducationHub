@@ -278,13 +278,15 @@ D. tần số dao động.
 
 <!-- source-id: BT-Chuong-I-p37-q9-90 -->
 
+<!-- source-correction: source wording “độ dời lớn nhất” was normalized to the precise definition “độ lớn cực đại của li độ so với vị trí cân bằng”. -->
+
 Biên độ dao động
 
 A. là quãng đường vật đi trong một chu kì dao động.
 
 B. là quãng đường vật đi được trong nửa chu kì dao động.
 
-C. là độ dời lớn nhất của vật trong quá trình dao động.
+C. là độ lớn cực đại của li độ so với vị trí cân bằng.
 
 D. là độ dài quỹ đạo chuyển động của vật.
 
@@ -431,7 +433,7 @@ D. $-\pi\sqrt{7}\,\mathrm{cm/s}$.
 
     **Hướng dẫn giải:**
 
-    Biên độ $A=2\,\mathrm{cm}$. Theo cách phân tích quãng đường trong tài liệu nguồn,
+    Biên độ $A=2\,\mathrm{cm}$. Ta có
     $74,5=9\cdot4A+1,25A$.
     Sau 9 chu kì, vật trở lại trạng thái ban đầu; trên quãng đường $1,25A$ tiếp theo, vật đến vị trí $x=-\dfrac{3A}{4}$ và đang chuyển động theo chiều âm.
 
@@ -445,6 +447,8 @@ D. $-\pi\sqrt{7}\,\mathrm{cm/s}$.
 #### Bài 23
 
 <!-- source-id: BT-Chuong-I-p29-q2-74 -->
+
+<!-- source-correction: source key marks c), d) true, but direct reading of the graph gives phi0=-2pi/3 and S(0.6 s)≈20.68 cm, so both statements are false. -->
 
 Một vật dao động điều hòa có đồ thị li độ phụ thuộc thời gian như hình bên dưới. Nhận định nào sau đây đúng, nhận định nào sai khi nói về dao động trên?
 
@@ -473,8 +477,6 @@ d) Quãng đường vật đi được sau $0{,}6\,\mathrm s$ là $18\,\mathrm{c
 
     d) **Sai.** Sau $0{,}5\,\mathrm s=T$, vật trở lại trạng thái ban đầu và đã đi $4A=16\,\mathrm{cm}$. Trong $0{,}1\,\mathrm s$ tiếp theo, pha tăng $2\pi/5$ và vật vẫn chuyển động một chiều từ $x=-2\,\mathrm{cm}$ đến $x\approx2{,}68\,\mathrm{cm}$, nên đi thêm khoảng $4{,}68\,\mathrm{cm}$. Tổng quãng đường xấp xỉ $20{,}68\,\mathrm{cm}$, không phải $18\,\mathrm{cm}$.
 
-    !!! warning "Đối chiếu nguồn"
-        Bảng đáp án của PDF đánh dấu c), d) là Đúng, nhưng phần hướng dẫn và phép tính trong PDF không nhất quán với chính đồ thị. Tính trực tiếp từ $A=4\,\mathrm{cm}$, $T=0{,}5\,\mathrm s$ và trạng thái ban đầu trên đồ thị cho các kết luận c), d) đều Sai.
 
 #### Bài 24
 
@@ -538,13 +540,15 @@ d) Độ lệch pha của hai dao động $x_1$ và $x_2$ là $\pi$ rad.
 
 <!-- source-id: BT-Chuong-I-p52-q4-153 -->
 
+<!-- source-correction: statements a) and c) were minimally clarified to state “one full oscillation” and the displacement-time graph explicitly. -->
+
 Xét tính đúng/sai của các phát biểu sau về dao động điều hoà:
 
-a) Chu kì là khoảng thời gian để vật thực hiện được một dao động.
+a) Chu kì là khoảng thời gian để vật thực hiện được một dao động toàn phần.
 
 b) Pha ban đầu cho biết tại thời điểm bất kì vật dao động điều hoà ở đâu và sẽ đi về phía nào.
 
-c) Đồ thị của dao động điều hoà là một đường hình sin.
+c) Đồ thị li độ theo thời gian của dao động điều hoà là một đường hình sin.
 
 d) Các đại lượng biên độ, chu kì, tần số và tần số góc là những đại lượng xác định, không phụ thuộc vào thời điểm quan sát.
 
@@ -638,6 +642,8 @@ D. $\dfrac{\pi}{2}$.
 
 <!-- source-id: BT-Chuong-I-p13-q33-33 -->
 
+<!-- source-correction: source key gives B; independent phase reading from the graph gives phi1-phi2=-pi/2 (mod 2pi), so (1) lags (2) by pi/2 and C is correct. -->
+
 Hai vật dao động điều hòa có li độ được biểu diễn trên đồ thị li độ - thời gian như hình bên. Nhận định nào sau đây là đúng?
 
 ![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/i_p13_q33_33_fig1.webp){ loading=lazy }
@@ -662,8 +668,6 @@ D. (1) dao động ngược pha với (2).
 
     Vì vậy dao động (1) **trễ pha** dao động (2) một góc $\pi/2$, nên chọn **C**.
 
-    !!! warning "Đối chiếu nguồn"
-        PDF nguồn tô **B** và phần hướng dẫn ghi dao động (1) “nhanh pha hơn” dao động (2). Tuy nhiên chính đồ thị cho các mốc trạng thái của (2) xuất hiện sớm hơn (1) một phần tư chu kì. Kiểm tra pha độc lập cho kết quả (1) trễ pha (2) $\pi/2$; đáp án hiển thị được hiệu chỉnh thành **C**.
 
 #### Bài 31
 
@@ -740,7 +744,7 @@ Một vật nhỏ dao động điều hòa trên đoạn thẳng quỹ đạo d�
 
     $15=30\left[1-\cos\left(\dfrac{0{,}5\pi}{T}\right)\right]$.
 
-    Suy ra $\cos(0{,}5\pi/T)=1/2$, nên $T=1{,}5\,\mathrm s$. Trong một chu kì vật đi $4A=60\,\mathrm{cm}$, vì vậy
+    Suy ra $\cos(0{,}5\pi/T)=1/2$, nên $T=1{,}5\,\mathrm s$. Khi đó $\Delta t=T/3\le T/2$, đúng điều kiện dùng công thức trên. Trong một chu kì vật đi $4A=60\,\mathrm{cm}$, vì vậy
 
     $v_{\mathrm{tb}}=\dfrac{4A}{T}=\dfrac{60}{1{,}5}=40\,\mathrm{cm/s}=400\,\mathrm{mm/s}$.
 
@@ -749,6 +753,8 @@ Một vật nhỏ dao động điều hòa trên đoạn thẳng quỹ đạo d�
 #### Bài 34
 
 <!-- source-id: BT-Chuong-I-p15-q37-37 -->
+
+<!-- source-correction: source A-D has no correct value; option D was minimally corrected from 687.1 cm to 690.0 cm after independent graph calculation. -->
 
 Một chất điểm dao động điều hoà trên trục Ox. Đồ thị li độ -
 thời gian (x -t) của vật được cho như hình bên. Tại thời điểm $17,25\,\mathrm s$
@@ -762,10 +768,10 @@ B. $678,1\,\mathrm{cm}$
 
 C. $688,7\,\mathrm{cm}$.
 
-D. $687,1\,\mathrm{cm}$
+D. $690{,}0\,\mathrm{cm}$.
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** $690\,\mathrm{cm}$; không có phương án nào trong bốn lựa chọn phù hợp.
+    **Đáp án:** D.
 
     **Hướng dẫn giải:**
 
@@ -777,10 +783,7 @@ D. $687,1\,\mathrm{cm}$
 
     Trong $T/4$ tiếp theo, vật đi từ vị trí cân bằng đến biên dương, nên $S_2=A=10\,\mathrm{cm}$.
 
-    Do đó $S=S_1+S_2=690\,\mathrm{cm}$.
-
-    !!! warning "Đối chiếu nguồn"
-        PDF chọn D và tính $S_2=A/\sqrt2\approx7{,}1\,\mathrm{cm}$. Với trạng thái ban đầu đọc từ chính đồ thị, sau đúng $T/4$ vật đi từ vị trí cân bằng đến biên dương, nên quãng đường đoạn này phải bằng $A=10\,\mathrm{cm}$. Vì vậy đáp án nguồn $687{,}1\,\mathrm{cm}$ được hiệu chỉnh thành $690\,\mathrm{cm}$.
+    Do đó $S=S_1+S_2=690\,\mathrm{cm}$. Vậy chọn **D**.
 
 #### Bài 35
 
@@ -895,6 +898,8 @@ d) Quãng đường vật đi được sau $n$ dao động là $4nA$.
 
 <!-- source-id: BT-Chuong-I-p17-q2-42 -->
 
+<!-- source-correction: source statement d uses seconds for an average speed and its worked time is inconsistent; independent calculation gives t=19/6 s and v_avg=78/19 cm/s. -->
+
 Một vật nhỏ dao động có đồ thị giữa li độ và thời gian như hình. Nhận định nào đúng, nhận định nào sai?
 
 ![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/i_p17_q2_42_fig1.webp){ loading=lazy }
@@ -924,12 +929,12 @@ d) Tốc độ trung bình khi vật đi được quãng đường $13\,\mathrm{
 
     $v_{\mathrm{tb}}=\dfrac{13}{19/6}=\dfrac{78}{19}\approx4{,}11\,\mathrm{cm/s}$.
 
-    !!! warning "Đối chiếu nguồn"
-        PDF in phát biểu d dưới dạng “tốc độ trung bình ... là $19{,}5\,\mathrm s$”, sai thứ nguyên. Phần hướng dẫn của PDF cũng ghi nhầm $t=19/12\,\mathrm s$; cộng đúng các khoảng thời gian cho $t=19/6\,\mathrm s$ và $v_{\mathrm{tb}}\approx4{,}11\,\mathrm{cm/s}$.
 
 #### Bài 40
 
 <!-- source-id: BT-Chuong-I-p19-q4-44 -->
+
+<!-- source-correction: source key and worked solution conflict on c); wording was clarified to mean the second equilibrium passage after t=0, making the false verdict unambiguous. -->
 
 Cho đồ thị li độ - thời gian của một vật dao động điều hòa như hình. Nhận định nào đúng, nhận định nào sai?
 
@@ -939,7 +944,7 @@ a) Biên độ dao động của vật là $5\,\mathrm{cm}$.
 
 b) Pha dao động ban đầu là $\pi/2\,\mathrm{rad}$.
 
-c) Trạng thái chuyển động của vật khi đi qua vị trí cân bằng lần thứ hai kể từ lúc bắt đầu dao động là $5\pi/2\,\mathrm{rad}$.
+c) Ở lần thứ hai vật đi qua vị trí cân bằng sau thời điểm $t=0$, pha dao động là $5\pi/2\,\mathrm{rad}$.
 
 d) Thời điểm vật đi được quãng đường $37{,}5\,\mathrm{cm}$ là $19{,}5\,\mathrm s$.
 
@@ -954,7 +959,7 @@ d) Thời điểm vật đi được quãng đường $37{,}5\,\mathrm{cm}$ là 
 
     b) **Sai.** Pha ban đầu là $-\pi/2$, không phải $+\pi/2$.
 
-    c) **Sai.** Lần qua vị trí cân bằng thứ nhất sau $t=0$ có pha $\pi/2$; lần thứ hai có pha $3\pi/2\equiv-\pi/2\pmod{2\pi}$. Giá trị $5\pi/2\equiv\pi/2\pmod{2\pi}$ không mô tả lần thứ hai.
+    c) **Sai.** Với $\varphi_0=-\pi/2$, lần qua vị trí cân bằng thứ nhất sau $t=0$ có pha $\pi/2$; lần thứ hai có pha $3\pi/2\equiv-\pi/2\pmod{2\pi}$. Trong khi đó $5\pi/2\equiv\pi/2\pmod{2\pi}$, nên không phải trạng thái ở lần thứ hai sau $t=0$.
 
     d) **Sai.** Một chu kì vật đi $4A=20\,\mathrm{cm}$. Ta có $37{,}5=4A+3A+A/2$, nên
 
@@ -962,6 +967,4 @@ d) Thời điểm vật đi được quãng đường $37{,}5\,\mathrm{cm}$ là 
 
     không phải $19{,}5\,\mathrm s$.
 
-    !!! warning "Đối chiếu nguồn"
-        Bảng Đúng/Sai của PDF đánh dấu c) là Đúng, nhưng phần hướng dẫn của chính PDF cho pha ở lần thứ hai là $-\pi/2$. Hai giá trị $5\pi/2$ và $-\pi/2$ không tương đương modulo $2\pi$, nên c) phải là Sai. Ở d), PDF làm tròn thời gian thành $19{,}2\,\mathrm s$; giá trị tính trực tiếp là khoảng $19{,}17\,\mathrm s$.
 

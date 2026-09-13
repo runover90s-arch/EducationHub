@@ -1,0 +1,75 @@
+{
+  "scope": "docs/physics/high-school/grade-11/04-current-circuits/ — theory audit only",
+  "mode": "AUDIT / UPDATE",
+  "BASE_VERSION": "education-hub-v12.zip",
+  "base_checkpoint": {
+    "series": 2,
+    "version": 12
+  },
+  "target_checkpoint": {
+    "series": 2,
+    "version": 13
+  },
+  "practice_audited": false,
+  "sources_checked": [
+    "BT-Chương IV_1.pdf",
+    "EBOOK CHUYÊN ĐỀ VẬT LÝ 11 TẬP 2 ĐIỆN TRƯỜNG VÀ DÒNG ĐIỆN, THẦY VŨ HOÀNG QUÂN-compressed.pdf",
+    "EBOOK PHONG TOẢ VẬT LÝ 11 TẬP 2 ĐIỆN TRƯỜNG, DÒNG ĐIỆN, MẠCH ĐIỆN, MAPSTUDY-compressed.pdf",
+    "EBOOK LÀM CHỦ VÀ NÂNG CAO VẬT LÝ 11 TẬP 2 ĐIỆN TRƯỜNG, DÒNG ĐIỆN MẠCH ĐIỆN, THẦY VŨ TUẤN ANH-compressed.pdf",
+    "EBOOK BẢN ĐỒ KIẾN THỨC VẬT LÝ 11, MAPSTUDY-compressed.pdf",
+    "EBOOK SỔ TAY CÔNG THỨC VẬT LÝ 11, THẦY VŨ HOÀNG QUÂN-compressed.pdf",
+    "EBOOK SỔ TAY LÝ THUYẾT VẬT LÝ 10 11 12, IPCLASS-compressed.pdf"
+  ],
+  "theory_files_audited": [
+    "index.md",
+    "01-current-intensity.md",
+    "02-resistance-ohm-law.md",
+    "03-emf-internal-resistance.md",
+    "04-energy-power-joule.md",
+    "05-full-circuit-ohm-law.md",
+    "06-source-combinations.md",
+    "07-circuit-reading-meters.md",
+    "08-advanced-circuit-methods.md",
+    "09-practical-emf-internal-resistance.md",
+    "10-source-receiver-capacitor-branches.md"
+  ],
+  "updates": [
+    "Clarified current intensity formula as interval-average and stated the full definition of constant current: both direction and magnitude are constant.",
+    "Added explicit conditions for R=rho*l/S: homogeneous conductor, uniform cross-section, fixed thermal state/rho.",
+    "Clarified emf definition uses positive charge magnitude moved internally from negative to positive terminal; q=It statement limited to constant current.",
+    "Tightened conditions for P=UI, P=I^2R, P=U^2/R and Q=I^2Rt; added variable-I/R Joule form and prevented use of resistor formulas for sources/receivers.",
+    "Stated the direct full-circuit Ohm law scope: one equivalent source feeding a purely resistive external equivalent load in steady DC.",
+    "Added practical DC meter polarity/range condition without changing ideal-meter model.",
+    "Stated Kirchhoff section scope as steady DC lumped circuits and emphasized consistent sign conventions."
+  ],
+  "practice_groups": {
+    "GROUP_A": [
+      "01-current-intensity",
+      "02-resistance-ohm-law",
+      "03-emf-internal-resistance",
+      "04-energy-power-joule"
+    ],
+    "GROUP_B": [
+      "05-full-circuit-ohm-law",
+      "06-source-combinations",
+      "07-circuit-reading-meters"
+    ],
+    "GROUP_C": [
+      "08-advanced-circuit-methods",
+      "09-practical-emf-internal-resistance",
+      "10-source-receiver-capacitor-branches"
+    ]
+  },
+  "practice_group_basis": "10 practice lesson folders split contiguously as 4/3/3; content was not audited in this turn.",
+  "unresolved_theory": [],
+  "next": null,
+  "validation": {
+    "check_site_lint_only": "PASS — 237 Markdown, 0 errors, 0 warnings"
+  },
+  "practice_progress": {
+    "GROUP_A": "COMPLETE",
+    "GROUP_B": "COMPLETE",
+    "GROUP_C": "COMPLETE"
+  },
+  "chapter_final_status": "CHAPTER_IV_COMPLETE"
+}

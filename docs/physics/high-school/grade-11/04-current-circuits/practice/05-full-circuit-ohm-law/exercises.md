@@ -211,15 +211,23 @@ Cho mạch điện như hình. $\xi=12\,\mathrm V$, $r=0{,}5\,\Omega$, $R_1=R_2=
 
     **Hướng dẫn giải:**
 
-    $R_N=R_1+(R_2\parallel R_4)+(R_3\parallel R_5)=2+1{,}5+2=5{,}5\,\Omega$.
+    **Topology:** ampe kế lí tưởng làm $C$ và $D$ cùng điện thế. Vì vậy mạch ngoài tương đương
+    $R_1$ nối tiếp $(R_2\parallel R_4)$ nối tiếp $(R_3\parallel R_5)$.
 
+    **Dòng mạch chính:**
+    $R_N=2+1{,}5+2=5{,}5\,\Omega$, nên
     $I=12/(5{,}5+0{,}5)=2\,\mathrm A$.
 
-    $U_{24}=I(R_2\parallel R_4)=3\,\mathrm V$ nên $I_2=3/2=1{,}5\,\mathrm A$.
+    **Điện áp hai nhóm song song:**
+    $U_{24}=I(R_2\parallel R_4)=3\,\mathrm V$ và
+    $U_{35}=I(R_3\parallel R_5)=4\,\mathrm V$.
 
-    $U_{35}=I(R_3\parallel R_5)=4\,\mathrm V$ nên $I_3=4/4=1\,\mathrm A$.
+    Suy ra $I_2=3/2=1{,}5\,\mathrm A$ và $I_3=4/4=1\,\mathrm A$.
 
-    Theo định luật nút tại điểm nối, $I_A=I_2-I_3=0{,}5\,\mathrm A$.
+    **Phương trình nút tại $C$:** dòng dư từ nhánh $R_2$ đi qua ampe kế sang $D$,
+    nên $I_A=I_2-I_3=0{,}5\,\mathrm A$.
+
+    **Kết quả:** ampe kế chỉ $0{,}5\,\mathrm A$.
 
 #### Bài 14
 
@@ -234,14 +242,17 @@ Cho mạch điện như hình, bỏ qua điện trở dây nối. Biết $\xi_1=
 
     **Hướng dẫn giải:**
 
-    Theo sơ đồ, hai nguồn mắc nối tiếp cùng chiều nên $\xi_b=\xi_1+\xi_2=10\,\mathrm V$ và $r_b=r_1+r_2=1\,\Omega$.
+    **Topology và cực tính:** hình cho hai nguồn mắc nối tiếp cùng chiều, nên
+    $\xi_b=\xi_1+\xi_2=10\,\mathrm V$ và $r_b=r_1+r_2=1\,\Omega$.
 
-    Với $I=2\,\mathrm A$, định luật Ôm toàn mạch cho
+    **Dòng điện:** dòng qua mỗi nguồn cũng là dòng mạch chính, $I=2\,\mathrm A$.
 
-    $R=\dfrac{\xi_b}{I}-r_b=\dfrac{10}{2}-1=4\,\Omega$.
+    **Điện áp mạch ngoài:** $U_R=IR$. Đồng thời với bộ nguồn đang phát điện,
+    $U_R=\xi_b-Ir_b=10-2\cdot1=8\,\mathrm V$.
 
-    !!! warning "Đối chiếu nguồn"
-        PDF ghi đáp án $2{,}5\,\Omega$, nhưng phần lời giải tự đổi dữ kiện thành $\xi_1=3\,\mathrm V$ và $r_1=r_2=1\,\Omega$. Không có cơ sở thay các số đã in trong đề; dùng đúng $\xi_1=4\,\mathrm V$, $r_1=r_2=0{,}5\,\Omega$ cho kết quả duy nhất $4\,\Omega$.
+    **Phương trình:** $IR=8$, do đó $R=8/2=4\,\Omega$.
+
+    **Kết quả:** $R=4\,\Omega$.
 
 #### Bài 15
 
@@ -256,11 +267,18 @@ Cho mạch điện như hình, bỏ qua điện trở dây nối. Biết $\xi=4\
 
     **Hướng dẫn giải:**
 
-    $R_N=R_1+[(R_2+R_3)\parallel R_4]=1+(4\parallel4)=3\,\Omega$.
+    **Topology:** $R_1$ nối tiếp với nhóm $[(R_2+R_3)\parallel R_4]$; ampe kế nằm trong nhánh $R_4$ và được coi có điện trở bằng $0$.
 
+    **Dòng mạch chính:**
+    $R_N=1+(4\parallel4)=3\,\Omega$, nên
     $I=4/(3+2)=0{,}8\,\mathrm A$.
 
-    Điện áp trên nhóm song song là $U=0{,}8\cdot2=1{,}6\,\mathrm V$, nên dòng qua $R_4$ và số chỉ ampe kế là $I_A=1{,}6/4=0{,}4\,\mathrm A$.
+    **Điện áp nhóm song song:** điện trở tương đương của nhóm là $2\,\Omega$, do đó
+    $U=I\cdot2=1{,}6\,\mathrm V$.
+
+    **Phương trình nhánh ampe kế:** $I_A=U/R_4=1{,}6/4=0{,}4\,\mathrm A$.
+
+    **Kết quả:** ampe kế chỉ $0{,}4\,\mathrm A$.
 
 ### Nhận biết — Trắc nghiệm 4 lựa chọn
 
@@ -627,16 +645,20 @@ D. $0{,}6\,\mathrm V$.
 
     **Hướng dẫn giải:**
 
-    $R_{12}=R_1+R_2=6\,\Omega$, $R_{123}=R_{12}\parallel R_3=1{,}5\,\Omega$, nên $R_N=R_{123}+R_4=5{,}5\,\Omega$.
+    **Topology:** nhánh trên $R_1+R_2=6\,\Omega$ song song với $R_3=2\,\Omega$ giữa $M$ và $N$; toàn bộ nhóm đó nối tiếp $R_4$ từ $N$ đến $B$.
 
+    **Dòng mạch chính:** $R_{MN}=6\parallel2=1{,}5\,\Omega$, nên $R_N=1{,}5+4=5{,}5\,\Omega$ và
     $I=1{,}2/(5{,}5+0{,}5)=0{,}20\,\mathrm A$.
 
-    $U_{NB}=IR_4=0{,}80\,\mathrm V$; điện áp trên nhóm $R_{12}\parallel R_3$ là $0{,}30\,\mathrm V$, nên $I_{12}=0{,}30/6=0{,}05\,\mathrm A$ và $U_{AN}=I_{12}R_2=0{,}20\,\mathrm V$.
+    **Điện áp:** $U_{NB}=IR_4=0{,}80\,\mathrm V$ và $U_{MN}=IR_{MN}=0{,}30\,\mathrm V$.
 
-    Do đó $U_{AB}=U_{AN}+U_{NB}=1{,}00\,\mathrm V$.
+    **Phương trình nhánh trên:** $I_{12}=U_{MN}/(R_1+R_2)=0{,}05\,\mathrm A$, nên
+    $U_{AN}=I_{12}R_2=0{,}20\,\mathrm V$.
 
-    !!! note "Đối chiếu nguồn"
-        Lời giải PDF có hai lỗi gõ ở bước giữa: ghi $R_{123}\parallel R_4$ dù sơ đồ và phép tính cho thấy chúng nối tiếp, đồng thời xuất hiện $I=0{,}15\,\mathrm A$ rồi các bước sau lại dùng đúng $0{,}20\,\mathrm A$. Phần giải trên giữ đúng sơ đồ và dữ kiện đề.
+    Vì $A\to N\to B$ là đường đi từ $A$ đến $B$,
+    $U_{AB}=U_{AN}+U_{NB}=1{,}00\,\mathrm V$.
+
+    **Kết quả:** chọn **A**.
 
 #### Bài 30
 

@@ -1,0 +1,906 @@
+{
+  "base_version": "education-hub-v43",
+  "scope": "Chapter I practice GROUP A only",
+  "status_definitions": {
+    "VERIFIED": "Question, answer, solution, units/sign/phase/conditions and source comparison checked; no patch required.",
+    "FIXED": "Audit completed and a repository patch was required.",
+    "UNRESOLVED": "Audit completed as far as possible but a source/data ambiguity remains."
+  },
+  "lessons": {
+    "01-harmonic-oscillation-foundations": [
+      {
+        "bai": 1,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 2,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 3,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 4,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 5,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 6,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 7,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 8,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 9,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 10,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 11,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p31-q1-77"
+      },
+      {
+        "bai": 12,
+        "status": "FIXED",
+        "note": "Removed learner-facing source correction note; retained independently verified T=0.8 s.",
+        "source_id": "BT-Chuong-I-p31-q2-78"
+      },
+      {
+        "bai": 13,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p31-q3-79"
+      },
+      {
+        "bai": 14,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p32-q4-80"
+      },
+      {
+        "bai": 15,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p45-q1-126"
+      },
+      {
+        "bai": 16,
+        "status": "FIXED",
+        "note": "Removed learner-facing source correction note; retained independently verified x(2 s)=sqrt(3) cm.",
+        "source_id": "BT-Chuong-I-p45-q2-127"
+      },
+      {
+        "bai": 17,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p45-q3-128"
+      },
+      {
+        "bai": 18,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p45-q4-129"
+      },
+      {
+        "bai": 19,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p46-q5-130"
+      },
+      {
+        "bai": 20,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p46-q6-131"
+      },
+      {
+        "bai": 21,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p52-q2-155"
+      },
+      {
+        "bai": 22,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p53-q3-156"
+      },
+      {
+        "bai": 23,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p53-q4-157"
+      },
+      {
+        "bai": 24,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p55-q5-158"
+      },
+      {
+        "bai": 25,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p55-q6-159"
+      },
+      {
+        "bai": 26,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p27-q16-70"
+      },
+      {
+        "bai": 27,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p27-q17-71"
+      },
+      {
+        "bai": 28,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p37-q2-84"
+      },
+      {
+        "bai": 29,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p37-q3-85"
+      },
+      {
+        "bai": 30,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p37-q4-86"
+      },
+      {
+        "bai": 31,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p37-q5-87"
+      },
+      {
+        "bai": 32,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p37-q6-88"
+      },
+      {
+        "bai": 33,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p37-q7-89"
+      },
+      {
+        "bai": 34,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p38-q10-91"
+      },
+      {
+        "bai": 35,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p38-q11-92"
+      },
+      {
+        "bai": 36,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p38-q12-93"
+      },
+      {
+        "bai": 37,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p38-q13-94"
+      },
+      {
+        "bai": 38,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p38-q14-95"
+      },
+      {
+        "bai": 39,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p38-q15-96"
+      },
+      {
+        "bai": 40,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p38-q16-97"
+      },
+      {
+        "bai": 41,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p38-q17-98"
+      },
+      {
+        "bai": 42,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p38-q18-99"
+      },
+      {
+        "bai": 43,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p41-q40-121"
+      },
+      {
+        "bai": 44,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p47-q1-132"
+      },
+      {
+        "bai": 45,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p47-q3-134"
+      },
+      {
+        "bai": 46,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p47-q5-136"
+      },
+      {
+        "bai": 47,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p47-q6-137"
+      },
+      {
+        "bai": 48,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p47-q7-138"
+      },
+      {
+        "bai": 49,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p47-q8-139"
+      },
+      {
+        "bai": 50,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p48-q9-140"
+      },
+      {
+        "bai": 51,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p48-q10-141"
+      },
+      {
+        "bai": 52,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p48-q11-142"
+      },
+      {
+        "bai": 53,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p48-q13-144"
+      },
+      {
+        "bai": 54,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p48-q14-145"
+      },
+      {
+        "bai": 55,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p48-q15-146"
+      },
+      {
+        "bai": 56,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p48-q16-147"
+      },
+      {
+        "bai": 57,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p48-q17-148"
+      },
+      {
+        "bai": 58,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p49-q18-149"
+      },
+      {
+        "bai": 59,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p28-q1-73"
+      },
+      {
+        "bai": 60,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p42-q1-122"
+      },
+      {
+        "bai": 61,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p42-q2-123"
+      },
+      {
+        "bai": 62,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p43-q3-124"
+      },
+      {
+        "bai": 63,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p44-q4-125"
+      },
+      {
+        "bai": 64,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p49-q1-150"
+      },
+      {
+        "bai": 65,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p49-q2-151"
+      },
+      {
+        "bai": 66,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p8-q3-3"
+      },
+      {
+        "bai": 67,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p8-q6-6"
+      },
+      {
+        "bai": 68,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p8-q8-8"
+      },
+      {
+        "bai": 69,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p8-q9-9"
+      },
+      {
+        "bai": 70,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p9-q12-12"
+      },
+      {
+        "bai": 71,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p9-q15-15"
+      },
+      {
+        "bai": 72,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p9-q16-16"
+      },
+      {
+        "bai": 73,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p10-q18-18"
+      },
+      {
+        "bai": 74,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p10-q19-19"
+      },
+      {
+        "bai": 75,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p10-q20-20"
+      },
+      {
+        "bai": 76,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p11-q21-21"
+      },
+      {
+        "bai": 77,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p11-q22-22"
+      },
+      {
+        "bai": 78,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p11-q23-23"
+      },
+      {
+        "bai": 79,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p11-q24-24"
+      },
+      {
+        "bai": 80,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p12-q26-26"
+      },
+      {
+        "bai": 81,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p12-q27-27"
+      },
+      {
+        "bai": 82,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p12-q28-28"
+      },
+      {
+        "bai": 83,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p12-q29-29"
+      },
+      {
+        "bai": 84,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p12-q30-30"
+      },
+      {
+        "bai": 85,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p13-q31-31"
+      },
+      {
+        "bai": 86,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p38-q19-100"
+      },
+      {
+        "bai": 87,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p39-q21-102"
+      },
+      {
+        "bai": 88,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p39-q22-103"
+      },
+      {
+        "bai": 89,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p39-q23-104"
+      },
+      {
+        "bai": 90,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p39-q24-105"
+      },
+      {
+        "bai": 91,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p39-q25-106"
+      },
+      {
+        "bai": 92,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p39-q26-107"
+      },
+      {
+        "bai": 93,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p39-q27-108"
+      },
+      {
+        "bai": 94,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p40-q31-112"
+      },
+      {
+        "bai": 95,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p40-q32-113"
+      },
+      {
+        "bai": 96,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p40-q33-114"
+      },
+      {
+        "bai": 97,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p22-q2-48"
+      },
+      {
+        "bai": 98,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p22-q4-50"
+      },
+      {
+        "bai": 99,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p23-q5-51"
+      },
+      {
+        "bai": 100,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p23-q6-52"
+      },
+      {
+        "bai": 101,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p24-q7-53"
+      },
+      {
+        "bai": 102,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p24-q8-54"
+      },
+      {
+        "bai": 103,
+        "status": "FIXED",
+        "note": "Re-cropped source graph so the denominators 12 remain visible.",
+        "source_id": "BT-Chuong-I-p15-q36-36"
+      },
+      {
+        "bai": 104,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p15-q38-38"
+      },
+      {
+        "bai": 105,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p16-q39-39"
+      },
+      {
+        "bai": 106,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p16-q40-40"
+      },
+      {
+        "bai": 107,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p26-q2-56"
+      },
+      {
+        "bai": 108,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p26-q3-57"
+      },
+      {
+        "bai": 109,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p26-q4-58"
+      },
+      {
+        "bai": 110,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p26-q5-59"
+      },
+      {
+        "bai": 111,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p26-q7-61"
+      },
+      {
+        "bai": 112,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p27-q11-65"
+      },
+      {
+        "bai": 113,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p27-q12-66"
+      },
+      {
+        "bai": 114,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p40-q34-115"
+      },
+      {
+        "bai": 115,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p41-q37-118"
+      },
+      {
+        "bai": 116,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p41-q38-119"
+      },
+      {
+        "bai": 117,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p18-q3-43"
+      },
+      {
+        "bai": 118,
+        "status": "FIXED",
+        "note": "Removed learner-facing source correction note; retained direct graph reading A=2 cm and T=0.9 s.",
+        "source_id": "BT-Chuong-I-p20-q5-45"
+      },
+      {
+        "bai": 119,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p20-q6-46"
+      }
+    ],
+    "02-displacement-velocity-acceleration": [
+      {
+        "bai": 1,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 2,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 3,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 4,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 5,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 6,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 7,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 8,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 9,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 10,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 11,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p82-q1-232"
+      },
+      {
+        "bai": 12,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p82-q2-233"
+      },
+      {
+        "bai": 13,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p82-q3-234"
+      },
+      {
+        "bai": 14,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p82-q4-235"
+      },
+      {
+        "bai": 15,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p27-q15-69"
+      },
+      {
+        "bai": 16,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p68-q1-160"
+      },
+      {
+        "bai": 17,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p68-q2-161"
+      },
+      {
+        "bai": 18,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p68-q5-164"
+      },
+      {
+        "bai": 19,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p68-q7-166"
+      },
+      {
+        "bai": 20,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p68-q8-167"
+      },
+      {
+        "bai": 21,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p68-q10-169"
+      },
+      {
+        "bai": 22,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p69-q12-171"
+      },
+      {
+        "bai": 23,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p69-q14-173"
+      },
+      {
+        "bai": 24,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p69-q18-177"
+      },
+      {
+        "bai": 25,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p69-q19-178"
+      },
+      {
+        "bai": 26,
+        "status": "FIXED",
+        "note": "Source A-D had no correct option; minimally changed option C to A=6 cm, omega=20 rad/s and set answer C.",
+        "source_id": "BT-Chuong-I-p71-q35-194"
+      },
+      {
+        "bai": 27,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p72-q40-199"
+      },
+      {
+        "bai": 28,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p76-q2-211"
+      },
+      {
+        "bai": 29,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p76-q4-213"
+      },
+      {
+        "bai": 30,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p76-q5-214"
+      },
+      {
+        "bai": 31,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p76-q6-215"
+      },
+      {
+        "bai": 32,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p76-q7-216"
+      },
+      {
+        "bai": 33,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p76-q8-217"
+      },
+      {
+        "bai": 34,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p77-q10-219"
+      },
+      {
+        "bai": 35,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p77-q11-220"
+      },
+      {
+        "bai": 36,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p77-q12-221"
+      },
+      {
+        "bai": 37,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p78-q13-222"
+      },
+      {
+        "bai": 38,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p78-q14-223"
+      },
+      {
+        "bai": 39,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p78-q15-224"
+      },
+      {
+        "bai": 40,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p78-q18-227"
+      },
+      {
+        "bai": 41,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p73-q1-200"
+      },
+      {
+        "bai": 42,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p73-q2-201"
+      },
+      {
+        "bai": 43,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p73-q3-202"
+      },
+      {
+        "bai": 44,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p73-q4-203"
+      },
+      {
+        "bai": 45,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p74-q1-204"
+      },
+      {
+        "bai": 46,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p74-q2-205"
+      },
+      {
+        "bai": 47,
+        "status": "FIXED",
+        "note": "Removed learner-facing source correction note; retained independently verified A=0.25 m.",
+        "source_id": "BT-Chuong-I-p74-q3-206"
+      },
+      {
+        "bai": 48,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p74-q4-207"
+      },
+      {
+        "bai": 49,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p74-q5-208"
+      },
+      {
+        "bai": 50,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p80-q1-228"
+      },
+      {
+        "bai": 51,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p80-q2-229"
+      },
+      {
+        "bai": 52,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p81-q3-230"
+      },
+      {
+        "bai": 53,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p81-q4-231"
+      },
+      {
+        "bai": 54,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p69-q20-179"
+      },
+      {
+        "bai": 55,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p70-q22-181"
+      },
+      {
+        "bai": 56,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p70-q23-182"
+      },
+      {
+        "bai": 57,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p70-q24-183"
+      },
+      {
+        "bai": 58,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p70-q25-184"
+      },
+      {
+        "bai": 59,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p70-q26-185"
+      },
+      {
+        "bai": 60,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p70-q28-187"
+      },
+      {
+        "bai": 61,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p70-q29-188"
+      },
+      {
+        "bai": 62,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-I-p71-q33-192"
+      }
+    ]
+  }
+}

@@ -23,16 +23,16 @@ Chọn **C**. Electron ngoài cùng có thể dịch chuyển; hạt nhân gắn
 Chọn **C**. Tổng điện tích hệ cô lập được bảo toàn: $+3-1=+2\,\mu\,\mathrm C$.
 
 ## Bài 4
-Chọn **B**.
+Chọn **B**. Vật dẫn có các hạt mang điện tự do (điển hình là electron dẫn) có thể dịch chuyển trong vật; ở vật cách điện, các điện tích bị liên kết chặt hơn.
 
 ## Bài 5
 a) **Đúng.** Electron mang điện tích nguyên tố $q_e=-e\approx-1{,}602\times10^{-19}\,\mathrm C$.
 
-b) **Đúng.** về độ lớn.
+b) **Đúng.** Proton mang điện tích $+e$, electron mang điện tích $-e$, nên độ lớn điện tích của chúng bằng nhau và bằng $e$.
 
 c) **Đúng.** Điện tích âm xuất hiện khi số electron của vật lớn hơn trạng thái trung hòa điện.
 
-d) **Sai.** theo định luật bảo toàn điện tích.
+d) **Sai.** Trong hệ cô lập, tổng đại số điện tích được bảo toàn; điện tích không tự sinh thêm hoặc mất đi.
 
 ## Bài 6
 a) **Đúng.** Khi cọ xát, electron có thể được trao đổi giữa hai vật; proton vẫn liên kết trong hạt nhân.

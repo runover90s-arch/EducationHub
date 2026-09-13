@@ -213,11 +213,12 @@ Con lắc lò xo nằm ngang có $k=100\,\mathrm{N/m}$, $m=1\,\mathrm{kg}$, dao 
 
     **Hướng dẫn giải:**
 
-    At the first state, $W=10\,\mathrm{mJ}+\tfrac12\cdot100\cdot0{,}01^2=15\,\mathrm{mJ}$. At the second state, $W_\mathrm{t}=15-5=10\,\mathrm{mJ}$. Hence $\tfrac12kx_2^2=0{,}010\,\mathrm J$, so $x_2=\sqrt{2\cdot0{,}010/100}=0{,}01414\,\mathrm m\approx1{,}41\,\mathrm{cm}$.
+    Ta có $W=10\,\mathrm{mJ}+\tfrac12\cdot100\cdot0{,}01^2=15\,\mathrm{mJ}$. Ở trạng thái sau, $W_\mathrm{t}=W-W_\mathrm{đ}=15-5=10\,\mathrm{mJ}$. Suy ra $\tfrac12kx_2^2=0{,}010\,\mathrm J$, nên $|x_2|=\sqrt{2\cdot0{,}010/100}=0{,}01414\,\mathrm m\approx1{,}41\,\mathrm{cm}$.
 #### Bài 14
 
 <!-- source-id: BT-Chuong-I-p105-q4-284 -->
 
+<!-- source-note: Phần hướng dẫn của PDF không nhất quán với phương trình đã in; kết quả hiện tại được tính lại trực tiếp từ phương trình đề bài. -->
 Một con lắc đơn có khối lượng của vật nặng là $200\,\mathrm g$ dao động với phương trình
 
 $$
@@ -242,9 +243,6 @@ $$
     Suy ra
 
     $W_\mathrm{đ}=\dfrac12mv^2=0{,}004\pi^2\cos^2(\pi^2/3)\,\mathrm J$ $\approx38{,}62\,\mathrm{mJ}$.
-
-    !!! warning "Đối chiếu nguồn"
-        PDF in đúng phương trình $s=10\sin(2\pi t)\,\mathrm{cm}$ nhưng phần hướng dẫn lại lấy vận tốc tương ứng với $s=10\sin(2t)\,\mathrm{cm}$ và cho đáp án $1\,\mathrm{mJ}$. Bản trình bày này giữ phương trình đã in trong đề và tính lại từ đạo hàm của chính phương trình đó.
 
 #### Bài 15
 
@@ -366,6 +364,7 @@ Một con lắc đơn có chiều dài $\ell=1{,}2\,\mathrm m$ dao động nhỏ
 
 <!-- source-id: BT-Chuong-I-p186-q2-476 -->
 
+<!-- source-note: PDF đổi sai đơn vị từ J sang mJ; kết quả hiện tại dùng phép đổi đơn vị đúng. -->
 Một vật nhỏ có khối lượng $m=100\,\mathrm g$, dao động điều hòa với biên độ $A=5\,\mathrm{cm}$ và chu kì $T=\pi\,\mathrm s$.
 Động năng cực đại của vật bằng bao nhiêu miliJun?
 
@@ -379,9 +378,6 @@ Một vật nhỏ có khối lượng $m=100\,\mathrm g$, dao động điều h�
 
     Động năng cực đại bằng cơ năng:
     $W_{\mathrm{đ,max}}=W=\dfrac12m\omega^2A^2=\dfrac12\cdot0{,}1\cdot2^2\cdot0{,}05^2=5\times10^{-4}\,\mathrm J$ $=0{,}5\,\mathrm{mJ}$.
-
-    !!! warning "Đối chiếu nguồn"
-        PDF ghi $5\times10^{-4}\,\mathrm J$ nhưng đổi thành $50\,\mathrm{mJ}$. Đổi đơn vị đúng là $5\times10^{-4}\,\mathrm J$ $=0{,}5\,\mathrm{mJ}$, nên đáp án nguồn được hiệu chỉnh.
 
 #### Bài 24
 
@@ -587,7 +583,7 @@ A. luôn luôn là một hằng số.
 
 B. bằng động năng của vật khi qua vị trí cân bằng.
 
-C. bằng thế năng của vật khi qua vị trí cân biên.
+C. bằng thế năng của vật khi qua vị trí biên.
 
 D. biến thiên tuần hoàn theo thời gian với chu kì T.
 
@@ -623,9 +619,9 @@ D. Động năng giảm, thế năng tăng khi vật đi từ vị trí biên đ
 
 Chọn phát biểu sai . Khi nói về năng lượng trong dao động điều hòa của con lắc lò xo thì
 
-A. cơ năng của con lắc tỉ lệ với bình phương biên độ dao động.
+A. với độ cứng lò xo không đổi, cơ năng của con lắc tỉ lệ với bình phương biên độ dao động.
 
-B. cơ năng tỉ lệ với bình phương của tần số dao động.
+B. với khối lượng và biên độ không đổi, cơ năng tỉ lệ với bình phương của tần số dao động.
 
 C. cơ năng là 1 hàm số sin theo thời gian với tần số bằng tần số dao động.
 
@@ -661,7 +657,7 @@ D. vận tốc không đổi.
 
 <!-- source-id: BT-Chuong-I-p91-q12-248 -->
 
-Một vật dao động điều hòa theo thời gian có phương trình $x=A\cos(\omega t+\varphi)$ thì động năng và thế năng cũng dao động điều hòa với tần số góc
+Một vật dao động điều hòa theo thời gian có phương trình $x=A\cos(\omega t+\varphi)$ thì động năng và thế năng biến thiên tuần hoàn với tần số góc
 
 A. $\omega'=\omega$.
 
@@ -1021,6 +1017,7 @@ D. $f=2\pi\sqrt{k/m}$.
 
 <!-- source-id: BT-Chuong-I-p108-q9-295 -->
 
+<!-- source-note: Câu dẫn PDF ghi nhầm “tần số” trong khi các phương án đều là công thức chu kì; câu dẫn đã được chuẩn hóa. -->
 Công thức được dùng để tính **chu kì** dao động của con lắc đơn là
 
 A. $T=2\pi\sqrt{m/k}$.
@@ -1037,9 +1034,6 @@ D. $T=2\pi\sqrt{g/\ell}$.
     **Hướng dẫn giải:**
 
     Với con lắc đơn dao động góc nhỏ, chu kì là $T=2\pi\sqrt{\ell/g}$, nên chọn **C**.
-
-    !!! warning "Đối chiếu nguồn"
-        PDF ghi câu dẫn là “tính **tần số** dao động” nhưng cả bốn phương án đều là công thức mang ký hiệu $T$; phương án C chính là công thức chu kì. Câu kế tiếp trong nguồn lại hỏi tần số với biểu thức $f=\dfrac{1}{2\pi}\sqrt{g/\ell}$. Vì vậy bản trình bày này sửa tối thiểu “tần số” thành “chu kì”.
 
 #### Bài 55
 
@@ -1114,6 +1108,7 @@ D. $W=\dfrac12m\omega^2A^2$.
 
 <!-- source-id: BT-Chuong-I-p109-q13-299 -->
 
+<!-- source-note: Các phương án PDF dùng nhầm ký hiệu T cho công thức tần số; ký hiệu đã được chuẩn hóa thành f. -->
 Tại nơi có gia tốc trọng trường $g$, một con lắc đơn có sợi dây dài $\ell$ đang dao động điều hòa. Tần số dao động của con lắc là
 
 A. $f=2\pi\sqrt{\ell/g}$.
@@ -1130,9 +1125,6 @@ D. $f=\dfrac{1}{2\pi}\sqrt{g/\ell}$.
     **Hướng dẫn giải:**
 
     Tần số của con lắc đơn dao động góc nhỏ là $f=\dfrac{1}{2\pi}\sqrt{g/\ell}$, nên chọn **D**.
-
-    !!! warning "Đối chiếu nguồn"
-        PDF hỏi “tần số” nhưng cả bốn phương án đều in nhầm ký hiệu $T$. Giá trị của phương án D đúng với công thức tần số, nên bản trình bày này chỉ sửa ký hiệu phương án từ $T$ thành $f$, không đổi các biểu thức số học.
 
 #### Bài 59
 
@@ -1592,6 +1584,7 @@ d) Nếu giữ nguyên khối lượng của vật và thay đổi lò xo có đ
 
 <!-- source-id: BT-Chuong-I-p102-q2-278 -->
 
+<!-- source-note: Extraction PDF làm vỡ đơn vị; các đại lượng được khôi phục từ phương trình và khối lượng in trong đề. -->
 Biết phương trình li độ của vật khối lượng $m=0{,}2\,\mathrm{kg}$ là $x=5\cos(20t)$ (cm). Chọn mốc thế năng tại vị trí cân bằng. Xét các phát biểu:
 
 a) Cơ năng của vật bằng $40\,\mathrm J$.
@@ -1613,16 +1606,14 @@ d) Vận tốc cực đại của vật bằng $20\sqrt{10}\,\mathrm{cm/s}$.
 
     b) **Đúng.** Vì $x=A\cos20t$, nên $W_\mathrm{t}=W(x/A)^2=0{,}1\cos^2(20t)\,\mathrm J$ và $W_\mathrm{đ}=W-W_\mathrm{t}=0{,}1\sin^2(20t)\,\mathrm J$.
 
-    c) **Sai.** Tại $t=2\,\mathrm s$, $W_\mathrm{t}=0{,}1\cos^2(40)\,\mathrm J$, chỉ cỡ vài phần trăm jun, không thể là $17{,}79\,\mathrm J$.
+    c) **Sai.** Tại $t=2\,\mathrm s$, $W_\mathrm{t}=0{,}1\cos^2(40)\,\mathrm J\approx0{,}0445\,\mathrm J$, không phải $17{,}79\,\mathrm J$.
 
     d) **Sai.** $v_{\max}=\omega A=20\cdot0{,}05=1\,\mathrm{m/s}$ $=100\,\mathrm{cm/s}$.
-
-    !!! warning "Đối chiếu nguồn"
-        Phần trích xuất từ PDF làm vỡ đơn vị và một số dòng công thức. Các đại lượng trên được chuẩn hóa trực tiếp từ phương trình $x=5\cos(20t)\,\mathrm{cm}$ và $m=0{,}2\,\mathrm{kg}$.
 #### Bài 81
 
 <!-- source-id: BT-Chuong-I-p102-q3-279 -->
 
+<!-- source-note: Hướng dẫn PDF hoán đổi động năng và thế năng tại 30 độ; kết quả hiện tại đã được kiểm chứng độc lập. -->
 Một con lắc đơn có khối lượng vật nặng 200 g, dây treo dài $100\,\mathrm{cm}$. Kéo con lắc ra khỏi vị trí cân bằng một góc $60^\circ$ rồi buông ra không vận tốc đầu. Lấy $g=10\,\mathrm{m/s^2}$.
 
 a) Chu kì dao động của con lắc là $0,316\,\mathrm s$.
@@ -1649,13 +1640,11 @@ d) Động năng của vật tại vị trí dây treo hợp với phương th�
     d) **Sai.** Bảo toàn cơ năng cho
     $W_\mathrm{đ}=W-W_\mathrm{t}=1-0{,}268\approx0{,}732\,\mathrm J$, không phải $0{,}5\,\mathrm J$.
 
-    !!! warning "Đối chiếu nguồn"
-        Phần hướng dẫn của PDF dùng $mg\ell(\cos30^\circ-\cos60^\circ)=0{,}732\,\mathrm J$ nhưng gọi đại lượng này là thế năng; thực chất đó là phần động năng thu được khi vật đi từ $60^\circ$ đến $30^\circ$. PDF sau đó gán $0{,}268\,\mathrm J$ cho động năng, tức đã hoán đổi hai đại lượng. Ngoài ra, công thức chu kì góc nhỏ không phải công thức chính xác ở biên $60^\circ$.
-
 #### Bài 82
 
 <!-- source-id: BT-Chuong-I-p103-q4-280 -->
 
+<!-- source-note: PDF đánh dấu c) theo gần đúng pi^2=10 nhưng đề không nêu gần đúng; kết quả hiện tại giữ giá trị chính xác. -->
 Một con lắc lò xo gồm một vật nặng có khối lượng 100 g và một lò xo có độ cứng $100\,\mathrm{N/m}$, dao động điều hòa với biên độ $A$ trên mặt phẳng nằm ngang. Khi thế năng của vật gấp đôi động năng thì vận tốc của vật là $10\,\mathrm{cm/s}$.
 
 a) Tốc độ cực đại của vật trong quá trình dao động là $10\sqrt3\,\mathrm{cm/s}$.
@@ -1680,9 +1669,6 @@ d) Động năng của con lắc biến thiên với chu kì $0,2\,\mathrm s$.
 
     d) **Sai.** Chu kì dao động là $T=2\pi/\omega$; động năng biến thiên với chu kì $T/2$, nên
     $T_{W_\mathrm{đ}}=\pi/(10\sqrt{10})\approx0{,}0993\,\mathrm s$, không phải $0{,}2\,\mathrm s$.
-
-    !!! warning "Đối chiếu nguồn"
-        PDF đánh dấu c) đúng bằng cách viết $\omega=10\pi\,\mathrm{rad/s}$. Từ đúng các dữ kiện $k=100\,\mathrm{N/m}$ và $m=0{,}1\,\mathrm{kg}$, kết quả chính xác là $10\sqrt{10}\,\mathrm{rad/s}$. $10\pi$ chỉ là xấp xỉ nếu ngầm lấy $\pi^2\approx10$, nhưng giả thiết này không được nêu trong bài.
 
 #### Bài 83
 
@@ -1719,6 +1705,7 @@ d) Cơ năng của vật dao động là $640\,\mathrm J$.
 
 <!-- source-id: BT-Chuong-I-p111-q2-306 -->
 
+<!-- source-note: Bảng đáp án PDF mâu thuẫn với chính hướng dẫn ở ý c); verdict hiện tại được kiểm chứng độc lập. -->
 Một vật dao động điều hòa với biên độ $A=6\,\mathrm{cm}$. Chọn mốc thế năng ở vị trí cân bằng. Xét các phát biểu:
 
 a) Trong dao động điều hòa, cơ năng của vật được bảo toàn.
@@ -1741,9 +1728,6 @@ d) Khi $W_\mathrm{đ}=\dfrac34W$ thì độ lớn li độ của vật bằng $3
     c) **Đúng.** Từ $W=W_\mathrm{đ}+W_\mathrm{t}$, suy ra $W_\mathrm{t}=W-3W/4=W/4$.
 
     d) **Đúng.** Với dao động điều hòa, $W_\mathrm{t}/W=x^2/A^2$. Do $W_\mathrm{t}=W/4$, ta có $|x|/A=1/2$, nên $|x|=A/2=3\,\mathrm{cm}$.
-
-    !!! warning "Đối chiếu nguồn"
-        Bảng đáp án trong PDF đánh dấu c) **Sai**, nhưng ngay phần hướng dẫn của chính PDF dùng $W=W_\mathrm{t}+W_\mathrm{đ}$ và suy ra $W_\mathrm{t}=W/4$. Kiểm tra độc lập cũng cho c) **Đúng**, nên giữ kết quả đúng và ghi rõ mâu thuẫn nguồn.
 
 #### Bài 85
 
@@ -1817,6 +1801,7 @@ d) Vật có tốc độ bằng 0 khi ở vị trí cao nhất.
 
 <!-- source-id: BT-Chuong-I-p184-q2-472 -->
 
+<!-- source-note: Bảng đáp án PDF mâu thuẫn với chính phép tính ở ý d); verdict hiện tại được kiểm chứng độc lập. -->
 Cho đồ thị vận tốc – thời gian của một con lắc đơn dao động như hình dưới. Biết khối lượng của vật treo vào sợi dây là $0{,}2\,\mathrm{kg}$. Xét các phát biểu:
 
 ![Đồ thị vận tốc theo thời gian](../../../assets/exercise-figures/clean-v14/i_p184_q2_472_fig1.webp){ loading=lazy }
@@ -1841,9 +1826,6 @@ d) Tại thời điểm $t=0{,}4\,\mathrm s$, thế năng của vật là $W_t=9
     c) **Sai.** $W=\tfrac12mv_\max^2=\tfrac12\cdot0{,}2\cdot0{,}35^2=0{,}01225\,\mathrm J$, không phải $4{,}9\times10^{-3}\,\mathrm J$.
 
     d) **Đúng.** Tại $t=0{,}4\,\mathrm s$, $v=0{,}35\cos(2\pi/3)=-0{,}175\,\mathrm{m/s}$. Suy ra $W_\mathrm t=W-\tfrac12mv^2=9{,}1875\times10^{-3}\,\mathrm J$.
-
-    !!! warning "Đối chiếu nguồn"
-        Bảng Đúng/Sai của PDF đánh dấu d) là Sai, nhưng chính phần hướng dẫn của PDF tính $W_\mathrm t=9{,}1875\times10^{-3}\,\mathrm J$, đúng bằng phát biểu d). Phép tính độc lập cũng cho cùng kết quả, nên d) được hiệu chỉnh thành Đúng.
 #### Bài 88
 
 <!-- source-id: BT-Chuong-I-p185-q3-473 -->
@@ -1945,16 +1927,16 @@ D. gia tốc dao động tăng 2 lần.
 
 <!-- source-id: BT-Chuong-I-p92-q21-257 -->
 
-Một con lắc lò xo dao động điều hòa với tần số 2f1. Động năng của con lắc biến thiên
-tuần hoàn theo thời gian với tần số f2 bằng
+Một con lắc lò xo dao động điều hòa với tần số $2f_1$. Động năng của con lắc biến thiên
+tuần hoàn theo thời gian với tần số $f_2$ bằng
 
-A. 2f1.
+A. $2f_1$.
 
-B. f1/2.
+B. $f_1/2$.
 
-C. f1.
+C. $f_1$.
 
-D. 4 f1.
+D. $4f_1$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
@@ -2220,8 +2202,8 @@ D. $1{,}44\,\mathrm J$.
 
 <!-- source-id: BT-Chuong-I-p164-q20-412 -->
 
-Khi nói về một vật dao động điều hoà với biên độ A và tần số f, trong những phát biểu dưới đây:
-(1) Cơ năng biến thiên tuần hoàn với tần số 2f.
+Khi nói về một vật dao động điều hoà với biên độ $A$ và tần số $f$, trong những phát biểu dưới đây:
+(1) Cơ năng biến thiên tuần hoàn với tần số $2f$.
 (2) Cơ năng bằng thế năng tại thời điểm vật ở biên.
 (3) Cơ năng tỉ lệ thuận với biên độ dao động.
 (4) Khi vật đi từ vị trí cân bằng ra biên, thế năng giảm, động năng tăng.
@@ -2241,24 +2223,32 @@ D. 4.
 
     **Hướng dẫn giải:**
 
-    Các phát biểu đúng: (2), (5).
-    (3) – sai vì cơ năng tỉ lệ thuận với bình phương biên độ.
-    (4) – sai vì khi đi từ vị trí cân bằng ra biên thì thế năng tăng, động năng giảm.
+    (1) **Sai.** Trong dao động điều hòa lí tưởng, cơ năng không đổi theo thời gian.
+
+    (2) **Đúng.** Ở biên, vận tốc bằng 0 nên động năng bằng 0 và cơ năng bằng thế năng.
+
+    (3) **Sai.** Với cùng hệ dao động, $W=\tfrac12kA^2$ nên cơ năng tỉ lệ với $A^2$, không tỉ lệ với $A$.
+
+    (4) **Sai.** Từ vị trí cân bằng ra biên, thế năng tăng và động năng giảm.
+
+    (5) **Đúng.** Từ biên về vị trí cân bằng, thế năng giảm và động năng tăng.
+
+    Vậy có 2 phát biểu đúng, chọn **C**.
 
 #### Bài 105
 
 <!-- source-id: BT-Chuong-I-p164-q21-413 -->
 
-Một vật dao động điều hòa với tần số 4f1. Động năng của con lắc biến thiên tuần hoàn theo thời
-gian với tần số f2 bằng
+Một vật dao động điều hòa với tần số $4f_1$. Động năng của con lắc biến thiên tuần hoàn theo thời
+gian với tần số $f_2$ bằng
 
-A. 4f1.
+A. $4f_1$.
 
-B. f1/4
+B. $f_1/4$.
 
-C. 2f1.
+C. $2f_1$.
 
-D. 8f1.
+D. $8f_1$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** D
@@ -2271,15 +2261,15 @@ D. 8f1.
 <!-- source-id: BT-Chuong-I-p164-q22-414 -->
 
 Một vật dao động điều hòa. Động năng của vật biến thiên tuần hoàn theo thời gian với tần số bằng
-f. Lực kéo về tác dụng vào vật biến thiên điều hòa với tần số bằng
+$f$. Lực kéo về tác dụng vào vật biến thiên điều hòa với tần số bằng
 
-A. 2f.
+A. $2f$.
 
-B. f/2.
+B. $f/2$.
 
-C. 4f.
+C. $4f$.
 
-D. f.
+D. $f$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** B
@@ -2394,7 +2384,7 @@ Một vật dao động điều hoà có phương trình li độ $x=5\cos(10t)\
 
 A. $10\,\mathrm{rad/s}$.
 
-B. 10t rad/s.
+B. $10t\,\mathrm{rad/s}$.
 
 C. $5\,\mathrm{rad/s}$.
 
@@ -2412,7 +2402,7 @@ D. $20\,\mathrm{rad/s}$.
 
 <!-- source-alias-id: BT-Chuong-I-p183-q16-469 -->
 
-Một vật nhỏ có khối lượng $2/\pi^2\,\mathrm{kg}$ dao động điều hòa với tần số $5\,\mathrm{Hz}$, và biên độ $5\,\mathrm{cm}$. Cơ năng
+Một vật nhỏ có khối lượng $\dfrac{2}{\pi^2}\,\mathrm{kg}$ dao động điều hòa với tần số $5\,\mathrm{Hz}$, và biên độ $5\,\mathrm{cm}$. Cơ năng
 dao động bằng
 
 A. $2,5\,\mathrm J$.
@@ -2428,7 +2418,7 @@ D. $0,5\,\mathrm J$.
 
     **Hướng dẫn giải:**
 
-    Ta có $\omega=2\pi f=10\pi\,\mathrm{rad/s}$. Với $m=2/\pi^2\,\mathrm{kg}$ và $A=0{,}05\,\mathrm m$, $W=\tfrac12m\omega^2A^2=0{,}25\,\mathrm J$; chọn C.
+    Ta có $\omega=2\pi f=10\pi\,\mathrm{rad/s}$. Với $m=\dfrac{2}{\pi^2}\,\mathrm{kg}$ và $A=0{,}05\,\mathrm m$, $W=\tfrac12m\omega^2A^2=0{,}25\,\mathrm J$; chọn C.
 #### Bài 113
 
 <!-- source-id: BT-Chuong-I-p166-q32-424 -->
@@ -2645,7 +2635,7 @@ phân thứ 2 sau dấu phẩy)
 
 Một con lắc lò xo dao động theo phương ngang với cơ năng dao động là $1\,\mathrm J$ và lực đàn hồi cực
 đại là $10\,\mathrm N$. Mốc thế năng tại vị trí cân bằng. Gọi Q là đầu cố định của lò xo, khoảng thời gian ngắn nhất
-giữa 2 lần liên tiếp Q chịu tác dụng lực kéo của lò xo có độ lớn là 5 3 (N) là $0,1\,\mathrm s$. Quãng đường lớn nhất
+giữa 2 lần liên tiếp Q chịu tác dụng lực kéo của lò xo có độ lớn là $5\sqrt3\,\mathrm N$ là $0,1\,\mathrm s$. Quãng đường lớn nhất
 mà vật nhỏ con lắc đi được trong $0,4\,\mathrm s$ là
 
 A. $60\,\mathrm{cm}$.
@@ -2666,6 +2656,7 @@ D. $40\,\mathrm{cm}$.
 
 <!-- source-id: BT-Chuong-I-p97-q35-271 -->
 
+<!-- source-note: Hướng dẫn PDF có một dòng nhầm alpha_0=30 độ; phép tính đúng dùng alpha=30 độ và alpha_0=60 độ. -->
 Một con lắc đơn gồm một vật nặng khối lượng $m=100$ g, con lắc có chiều dài dây treo là $\ell$, dao động tại nơi có gia tốc trọng trường $g=10\,\mathrm{m/s}^2$. Kéo con lắc khỏi vị trí cân bằng rồi buông nhẹ; trong quá trình dao động, lực căng dây cực tiểu nếu bỏ qua ma sát là $0,5\,\mathrm N$. Gốc thế năng tại vị trí cân bằng. Khi dây treo hợp với phương thẳng đứng một góc $30^\circ$ thì tỉ số giữa động năng và thế năng là
 
 A. 0,73.
@@ -2694,9 +2685,6 @@ D. 0,96.
     $\dfrac{W_đ}{W_t}=\dfrac{mg\ell(\cos\alpha-\cos\alpha_0)}{mg\ell(1-\cos\alpha)}=\dfrac{\cos30^\circ-\cos60^\circ}{1-\cos30^\circ}\approx2{,}73$.
 
     Vậy chọn **B**.
-
-    !!! note "Đối chiếu nguồn"
-        Trong phần hướng dẫn của PDF có một dòng ghi nhầm $\alpha_0=30^\circ$; phép tính ngay sau đó thực tế dùng góc hiện thời $\alpha=30^\circ$ và biên góc $\alpha_0=60^\circ$. Dữ kiện và đáp án B vẫn nhất quán khi ký hiệu được đọc đúng.
 
 #### Bài 126
 
@@ -3090,7 +3078,7 @@ D. $0,4\,\mathrm s$.
 
     **Hướng dẫn giải:**
 
-    Khoảng thời gian hai lần liên tiếp thế năng bằng động năng: T/4 = $0,3\,\mathrm s$ − $0,1\,\mathrm s$ → $T=0,8\,\mathrm s$
+    Hai lần liên tiếp thế năng bằng động năng cách nhau $T/4$. Từ đồ thị, $T/4=0{,}3-0{,}1=0{,}2\,\mathrm s$, suy ra $T=0{,}8\,\mathrm s$. Vậy chọn **C**.
 
 #### Bài 143
 
@@ -3212,7 +3200,7 @@ D. tuần hoàn với chu kỳ T/2.
 
     **Hướng dẫn giải:**
 
-    Động năng của vật biến đổi tuần hoàn theo thời gian với chu kỳ T/2 (xem lại phần lí thuyết)
+    Ta có $W_\mathrm{đ}=\tfrac12m\omega^2A^2\sin^2(\omega t+\varphi)$. Vì $\sin^2$ có chu kì góc $\pi$, động năng biến thiên tuần hoàn với chu kì $T/2$. Vậy chọn **D**.
 
 #### Bài 148
 
@@ -3311,6 +3299,7 @@ D. Đường II.
 
 <!-- source-id: BT-Chuong-I-p181-q10-463 -->
 
+<!-- source-note: Đề PDF không nêu g nhưng hướng dẫn dùng g=10 m/s^2; dữ kiện này đã được đưa vào đề để bài tự đủ. -->
 Một con lắc đơn có độ dài dây $\ell=2\,\mathrm m$, treo quả nặng $m=1\,\mathrm{kg}$, kéo con lắc lệch khỏi vị trí cân bằng góc $60^\circ$ rồi buông tay. Lấy $g=10\,\mathrm{m/s^2}$. Thế năng cực đại của con lắc đơn bằng
 
 A. $1\,\mathrm J$
@@ -3326,10 +3315,7 @@ D. $15\,\mathrm J$.
 
     **Hướng dẫn giải:**
 
-    Ở góc cực đại $60^\circ$, thế năng so với vị trí thấp nhất là $W_\mathrm{t,max}=mg\ell(1-\cos60^\circ)$. Phần hướng dẫn của nguồn dùng $g=10\,\mathrm{m/s^2}$, nên $W_\mathrm{t,max}=1\cdot10\cdot2\cdot(1-1/2)=10\,\mathrm J$; chọn C.
-
-    !!! warning "Đối chiếu nguồn"
-        Đề in trong PDF không nêu $g$, nhưng phần hướng dẫn của chính nguồn thay $g=10\,\mathrm{m/s^2}$. Kết quả C phụ thuộc dữ kiện ngầm này; bản đề đã được bổ sung $g=10\,\mathrm{m/s^2}$ để bài toán tự đủ dữ kiện.
+    Chọn mốc thế năng ở vị trí thấp nhất. Ở góc cực đại $60^\circ$, $W_\mathrm{t,max}=mg\ell(1-\cos60^\circ)=1\cdot10\cdot2\cdot(1-1/2)=10\,\mathrm J$. Vậy chọn **C**.
 #### Bài 153
 
 <!-- source-id: BT-Chuong-I-p182-q11-464 -->
@@ -3558,6 +3544,7 @@ d) Trong mỗi chu kì dao động, có 2 lần động năng bằng thế năng
 
 <!-- source-id: BT-Chuong-I-p174-q3-445 -->
 
+<!-- source-note: PDF lẫn đơn vị trên các phát biểu; nội dung hiện tại được chuẩn hóa theo trục tung đồ thị và phép tính vật lí. -->
 Một vật khối lượng $m=100\,\mathrm g$ dao động điều hòa. Đồ thị động năng theo thời gian được cho trong hình; tại $t=0$ vật có gia tốc âm, lấy $\pi^2\approx10$. Xét các phát biểu:
 
 ![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/i_p174_q3_445_fig1.webp){ loading=lazy }
@@ -3583,9 +3570,6 @@ d) Tần số góc của dao động bằng $\dfrac{10\pi}{3}\,\mathrm{rad/s}$.
     c) **Đúng.** Cơ năng bằng động năng cực đại, nên $W=320\,\mathrm{mJ}$.
 
     d) **Đúng.** Động năng biến thiên với chu kì $T/2$. Đọc chu kì của đồ thị động năng rồi suy ra chu kì dao động cho $\omega=2\pi/T=10\pi/3\,\mathrm{rad/s}$.
-
-    !!! warning "Đối chiếu nguồn"
-        Bản PDF làm lẫn đơn vị $10^{-3}\,\mathrm{mJ}$ và J ở các phát biểu. Để người học không bị nhiễu bởi lỗi đơn vị, câu được chuẩn hóa theo chính trục tung của đồ thị và phần tính của nguồn: $W_\mathrm{max}=320\,\mathrm{mJ}$.
 #### Bài 163
 
 <!-- source-id: BT-Chuong-I-p175-q4-446 -->

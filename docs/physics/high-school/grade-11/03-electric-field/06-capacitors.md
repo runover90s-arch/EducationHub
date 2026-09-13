@@ -40,6 +40,8 @@ $$
 \boxed{C=\frac{Q}{U}}.
 $$
 
+Ở đây $Q$ là **độ lớn** điện tích trên một bản và $U=|V_1-V_2|$ là **độ lớn** hiệu điện thế giữa hai bản, nên $C>0$. Nếu làm việc với điện thế nút có dấu, điện tích trên bản nối nút 1 có thể viết $q_1=C(V_1-V_2)$ và bản kia mang $-q_1$.
+
 Đơn vị: farad (F).
 
 Các bội thường dùng:
@@ -57,7 +59,7 @@ C đặc trưng cho khả năng tích điện của cấu tạo tụ. Với tụ
 
 ## 3. Tụ điện phẳng
 
-Hai bản song song diện tích hữu hiệu S, khoảng cách d, điện môi đồng nhất có hằng số điện môi tương đối $\varepsilon_r$:
+Hai bản song song có diện tích hữu hiệu S, khoảng cách d; điện môi đồng nhất, đẳng hướng lấp đầy khe và bỏ qua hiệu ứng mép. Khi đó:
 
 $$
 \boxed{C=\frac{\varepsilon_0\varepsilon_r S}{d}}.
@@ -109,13 +111,13 @@ Sự khác nhau là do khi nối nguồn, nguồn có thể trao đổi năng l�
 
 ## 6. Mật độ năng lượng điện trường
 
-Trong điện trường đều tuyến tính, năng lượng trên một đơn vị thể tích có dạng:
+Trong điện môi tuyến tính, đồng nhất và đẳng hướng, mật độ năng lượng điện trường tại điểm có cường độ $E$ là:
 
 $$
 w=\frac12\varepsilon E^2,
 $$
 
-với $\varepsilon=\varepsilon_0\varepsilon_r$.
+với $\varepsilon=\varepsilon_0\varepsilon_r$. Với điện trường đều giữa hai bản tụ, năng lượng toàn phần bằng $W=w\mathcal V$, trong đó $\mathcal V$ là thể tích vùng có điện trường.
 
 Đây là cách nhìn sâu hơn: năng lượng được gắn với điện trường trong không gian giữa các bản.
 
@@ -149,7 +151,7 @@ Vì $E=U/d$, trong mô hình cô lập chân không, E có thể giữ không đ
 
 ## 9. Đưa điện môi
 
-Nếu điện môi lấp đầy:
+Nếu điện môi có hằng số điện môi tương đối $\varepsilon_r$ lấp đầy khe, hình học không đổi và $C$ là điện dung khi khe là chân không (hoặc không khí được lấy gần đúng $\varepsilon_r\approx1$), thì:
 
 $C'=\varepsilon_r C$.
 
@@ -183,7 +185,7 @@ W=\frac12CU^2=3,6\times10^{-4}\ \text{J}.
 $$
 
 ### Ví dụ 2 — Tụ cô lập thay khoảng cách
-Tăng d gấp đôi → C giảm nửa. Q không đổi nên U tăng gấp đôi; W=Q²/($2\,\mathrm C$) tăng gấp đôi.
+Tăng $d$ gấp đôi → $C$ giảm một nửa. $Q$ không đổi nên $U$ tăng gấp đôi; từ $W=Q^2/(2C)$ suy ra năng lượng tăng gấp đôi.
 
 ### Ví dụ 3 — Nối nguồn, đưa điện môi
 $\varepsilon_r=4$. C tăng 4 lần, U không đổi → Q và W đều tăng 4 lần.

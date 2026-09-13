@@ -29,7 +29,7 @@ Bạn cần:
 
 ## 1. Mô hình thí nghiệm Young
 
-Hai khe hẹp $S_1,S_2$ cách nhau $a$ được chiếu bởi ánh sáng kết hợp. Màn quan sát cách mặt phẳng hai khe một khoảng $D$, với $D\gg a$.
+Hai khe hẹp $S_1,S_2$ cách nhau $a$ được chiếu bởi ánh sáng kết hợp. Trong bố trí Young chuẩn dùng các công thức dưới đây, hai khe được coi là hai nguồn kết hợp **cùng pha**; nếu giữa hai khe có độ lệch pha ban đầu khác 0 thì toàn bộ hệ vân bị dịch tương ứng. Màn quan sát cách mặt phẳng hai khe một khoảng $D$, với $D\gg a$.
 
 Điểm M trên màn có tọa độ ngang $x$ so với vân trung tâm.
 
@@ -77,7 +77,7 @@ $$
 \boxed{x_{t}=\left(k+\frac12\right)i}.
 $$
 
-Vân tối gần vân trung tâm nhất nằm cách $i/2$ về hai phía.
+Vân tối gần vân trung tâm nhất nằm cách $i/2$ về hai phía. Nếu hai sóng tới điểm quan sát có biên độ bằng nhau thì sự triệt tiêu tại các vị trí này là hoàn toàn; nếu biên độ không bằng nhau, đó vẫn là các vị trí cực tiểu nhưng cường độ không bằng 0.
 
 ## 4. Ý nghĩa của vân trung tâm
 

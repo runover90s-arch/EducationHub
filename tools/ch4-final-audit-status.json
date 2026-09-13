@@ -1,0 +1,85 @@
+{
+  "scope": "docs/physics/high-school/grade-11/04-current-circuits/ — FINAL AUDIT",
+  "mode": "FINAL AUDIT / UPDATE",
+  "SOURCE_VERSION": "education-hub-v16.zip",
+  "source_checkpoint": {
+    "series": 2,
+    "version": 16
+  },
+  "target_checkpoint": {
+    "series": 2,
+    "version": 17
+  },
+  "audit_scope": [
+    "theory cross-check",
+    "practice answer/solution consistency using completed Group A/B/C audits",
+    "circuit topology and polarity spot-checks",
+    "units and power/Joule-Lenz conditions",
+    "chapter exercises/solutions and quiz",
+    "source-id/source-alias integrity",
+    "LaTeX, links and local image references"
+  ],
+  "verified": {
+    "theory_files": 11,
+    "practice_items_previously_independently_audited_and_final_cross_checked": 450,
+    "chapter_exercises": 51,
+    "chapter_solutions": 51,
+    "quiz_questions": 10,
+    "chapter_iv_pdf_canonical_source_ids": 350,
+    "chapter_iv_unique_source_ids": 350,
+    "chapter_iv_source_aliases": 0,
+    "chapter_local_image_references": 77,
+    "chapter_unique_local_image_targets": 75,
+    "missing_local_image_targets": 0
+  },
+  "deep_spot_checks": [
+    "BT-Chuong-IV-p76-q6-234 — ammeter shorts C-D; node topology and 0.5 A result rechecked from stored figure",
+    "BT-Chuong-IV-p86-q3-259 — two source polarities rechecked visually; emfs aid and R=4 ohm remains correct",
+    "BT-Chuong-IV-p51-q4-180 — K-open/K-closed topology and ammeter currents rechecked from stored figure",
+    "BT-Chuong-IV-p113-q6-348 — load-power maximization rechecked; R=2/3 ohm",
+    "BT-Chuong-IV-p126-q2-376 — meter polarity and M/N source polarity rechecked from figure",
+    "BT-Chuong-IV-p127-q3-377 — current-meter port polarity and U-I graph intercept rechecked from figure",
+    "BT-Chuong-IV-p8-q39-39 — annular copper cross-section independently recomputed; 161 micro-m/s",
+    "BT-Chuong-IV-p99-q35-297 — battery power states independently recomputed; E≈11.96 V, r≈0.193 ohm",
+    "BT-Chuong-IV-p123-q24-372 — uncertainty and rounding independently recomputed; (1.33±0.02) V"
+  ],
+  "cumulative_answer_or_option_repairs_confirmed": [
+    "BT-Chuong-IV-p8-q39-39 — option C -> 161 micro-m/s",
+    "BT-Chuong-IV-p27-q8-88 — option D -> U=R/I so B is the unique Ohm-law answer",
+    "BT-Chuong-IV-p99-q35-297 — option A -> E≈11.96 V, r≈0.193 ohm",
+    "BT-Chuong-IV-p107-q2-322 — option B -> 180 kJ so A=500 Wh is unique",
+    "BT-Chuong-IV-p108-q11-331 — added held-fixed conditions to options A/B, preserving C as unique incorrect statement",
+    "BT-Chuong-IV-p96-q20-282 — option B -> 117.5 Wh so A=1.175 kWh is unique",
+    "BT-Chuong-IV-p123-q24-372 — option D -> (1.33±0.02) V"
+  ],
+  "cumulative_true_false_verdict_repairs_confirmed": [
+    "BT-Chuong-IV-p126-q2-376 item c -> True",
+    "BT-Chuong-IV-p127-q3-377 item c -> False"
+  ],
+  "theory_corrections_confirmed": [
+    "distinguished interval-average current from constant-current I=q/t",
+    "stated conditions for R=rho*l/S",
+    "clarified emf definition and internal resistance/source operating mode",
+    "stated scope of full-circuit Ohm law",
+    "tightened P=UI, P=I^2R, P=U^2/R and Q=I^2Rt conditions",
+    "clarified DC meter polarity/range use",
+    "stated Kirchhoff steady-DC/sign-convention scope"
+  ],
+  "fixed_in_final_audit": [
+    "Quiz item 7d now states the constant-I and constant-R condition for Q=I^2Rt without changing its True verdict.",
+    "Closed historical next fields in Chapter IV audit reports after final verification."
+  ],
+  "forbidden_learner_facing_markers_remaining": 0,
+  "generic_solution_markers_found": 0,
+  "unresolved": [],
+  "next": null,
+  "status": "CHAPTER_IV_COMPLETE",
+  "validation": {
+    "check_practice_bank": "PASS — 61 banks; 540 authored + 1633 PDF; 0 structural errors",
+    "check_pdf_import": "PASS — 1633 canonical PDF items; Chapter IV=350; 10 aliases globally; 0 integrity errors",
+    "check_solution_quality": "PASS — 2173 total items; 0 errors",
+    "check_site_full": "LINT PASS — 237 Markdown; 0 errors; 0 warnings; build step unavailable because mkdocs executable is missing",
+    "mkdocs_build_strict": "NOT RUN — mkdocs command not found",
+    "dependency_install_attempt": "FAILED — python -m pip install -r requirements.txt could not reach PyPI because DNS/name resolution failed"
+  }
+}

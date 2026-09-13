@@ -20,7 +20,7 @@ Chọn **C**. $F=kq_1q_2/r^2=9\cdot10^9\cdot6\cdot10^{-12}/0,09=0,6\,\mathrm N$.
 Chọn **C** vì $F\propto1/r^2$.
 
 ## Bài 3
-Chọn **B**.
+Chọn **B**. Hai điện tích cùng dấu đẩy nhau; hai điện tích trái dấu hút nhau.
 
 ## Bài 4
 Chọn **B** trong mô hình $F=F_0/\varepsilon_r$.

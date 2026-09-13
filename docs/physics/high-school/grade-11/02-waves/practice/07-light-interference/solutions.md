@@ -14,13 +14,13 @@ tags:
 [← Bài tập](exercises.md)
 
 ## Bài 1
-Chọn **B**.
+Trong thí nghiệm Young chuẩn, khoảng vân thỏa $i=\lambda D/a$. Vì vậy chọn **B**.
 
 ## Bài 2
 Chọn **C** vì $i\propto D$.
 
 ## Bài 3
-Chọn **A**, với $k=0,\pm1,\pm2,\ldots$
+Vân sáng thỏa $x_k=ki$ với $k=0,\pm1,\pm2,\ldots$. Vì vậy chọn **A**.
 
 ## Bài 4
 a) **Đúng.** Tại tâm màn, hiệu đường đi bằng $0=k\lambda$ với $k=0$, nên hai sóng giao thoa tăng cường và tạo vân sáng.

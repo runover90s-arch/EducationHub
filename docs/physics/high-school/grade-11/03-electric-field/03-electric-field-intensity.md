@@ -84,7 +84,7 @@ $$
 \boxed{E=k\frac{|Q|}{r^2}}.
 $$
 
-Trong điện môi đồng tính:
+Trong điện môi đồng nhất, đẳng hướng bao quanh nguồn và điểm xét, khi có thể bỏ qua ảnh hưởng của các mặt phân cách điện môi:
 
 $$
 E=\frac{k|Q|}{\varepsilon_r r^2}.
@@ -189,7 +189,7 @@ Các nhóm bài dưới đây được tổ chức theo dấu hiệu nhận bi�
 
 ### Dạng 1 — Tính cường độ điện trường tại một điểm
 
-Với điện tích điểm, dùng $E=k|Q|/(\varepsilon r^2)$. Vectơ điện trường hướng ra xa điện tích dương và hướng về điện tích âm. Nếu đề cho lực tác dụng lên điện tích thử, có thể dùng $\vec E=\vec F/q$ nhưng phải xử lí dấu của $q$ khi suy chiều.
+Với điện tích điểm trong điện môi đồng nhất, đẳng hướng được mô hình bằng hằng số điện môi tương đối $\varepsilon_r$ và bỏ qua ảnh hưởng mặt phân cách, dùng $E=k|Q|/(\varepsilon_r r^2)$; trong chân không $\varepsilon_r=1$. Vectơ điện trường hướng ra xa điện tích dương và hướng về điện tích âm. Nếu đề cho lực tác dụng lên điện tích thử, có thể dùng $\vec E=\vec F/q$ nhưng phải xử lí dấu của $q$ khi suy chiều.
 
 Luôn phân biệt điện tích gây ra điện trường với điện tích thử đặt tại điểm đang xét.
 

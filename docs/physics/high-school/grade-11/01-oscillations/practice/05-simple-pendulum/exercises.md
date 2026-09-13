@@ -31,7 +31,7 @@ D. $2\pi\ell/g$.
 
 ### Bài 2 — Mức 1 — Nhận biết
 
-Giữ nguyên nơi thí nghiệm, tăng chiều dài con lắc đơn lên 4 lần. Chu kì
+Giữ nguyên nơi thí nghiệm và vẫn xét dao động góc nhỏ, tăng chiều dài con lắc đơn lên 4 lần. Chu kì
 
 A. giảm 4 lần.
 
@@ -46,7 +46,7 @@ D. tăng 4 lần.
 
 ### Bài 3 — Mức 1 — Nhận biết
 
-Con lắc đơn dài $1\,\mathrm m$ tại nơi $g=\pi^2\,\mathrm{m/s^2}$ có chu kì
+Con lắc đơn dài $1\,\mathrm m$ dao động góc nhỏ tại nơi $g=\pi^2\,\mathrm{m/s^2}$ có chu kì
 
 A. $1\,\mathrm s$.
 
@@ -122,14 +122,14 @@ d) Tốc độ cực đại ở vị trí cân bằng.
 
 ### Bài 7 — Mức 3 — Vận dụng
 
-Con lắc đơn dài $0,81\,\mathrm m$ tại nơi $g=10\,\mathrm{m/s^2}$. Tính chu kì gần đúng với $\pi\approx3,14$.
+Con lắc đơn dài $0,81\,\mathrm m$ dao động góc nhỏ tại nơi $g=10\,\mathrm{m/s^2}$. Tính chu kì gần đúng với $\pi\approx3,14$.
 
 ??? success "Đáp án và lời giải"
     $T=2\pi\sqrt{0,81/10}\approx6,28\cdot0,2846\approx1,79\,\mathrm s$.
 
 ### Bài 8 — Mức 3 — Vận dụng
 
-Một con lắc đơn có chu kì $T_1=2\,\mathrm s$. Tăng chiều dài thêm $21\%$. Tính chu kì mới.
+Một con lắc đơn dao động góc nhỏ tại cùng một nơi có chu kì $T_1=2\,\mathrm s$. Tăng chiều dài thêm $21\%$ và vẫn duy trì điều kiện góc nhỏ. Tính chu kì mới.
 
 ??? success "Đáp án và lời giải"
     $\ell_2=1,21\ell_1$, nên $T_2/T_1=\sqrt{1,21}=1,1$. Vậy $T_2=2,2\,\mathrm s$.
@@ -187,16 +187,14 @@ Thực hiện thí nghiệm với thiết bị ghi đồ thị dao động đi�
 
     nên $\Delta t=\Delta\varphi/\omega=11/6\,\mathrm s\approx1{,}83\,\mathrm s$.
 
-    !!! warning "Đối chiếu nguồn"
-        Ô đáp án PDF ghi $1{,}2\,\mathrm s$, còn phần hướng dẫn của PDF dùng góc $5\pi/6$ để được $5/6\,\mathrm s$; góc đó chỉ đưa vật tới **lần qua vị trí cân bằng thứ nhất**. Đếm đúng “lần thứ hai” trên đồ thị cho $11\pi/6$ và kết quả $11/6\,\mathrm s$.
+    <!-- source-correction: PDF ghi 1,2 s và hướng dẫn 5/6 s; audit từ đồ thị cho lần qua VTCB thứ hai là 11/6 s. -->
 ### Vận dụng — Trả lời ngắn
 
 #### Bài 12
 
 <!-- source-id: BT-Chuong-I-p22-q1-47 -->
 
-Đồ thị li độ - thời gian của một con lắc đơn dao động điều hòa được mô tả như hình . Quãng
-đường vật đi được sau khoảng thời gian $27\,\mathrm s$ kể từ lúc bắt đầu dao động là bao nhiêu cm?
+Đồ thị li độ - thời gian của một con lắc đơn dao động điều hòa được mô tả như hình dưới đây. Quãng đường vật đi được sau khoảng thời gian $27\,\mathrm s$ kể từ lúc bắt đầu dao động là bao nhiêu cm?
 
 ![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/i_p22_q1_47_fig1.webp){ loading=lazy }
 
@@ -211,5 +209,4 @@ Thực hiện thí nghiệm với thiết bị ghi đồ thị dao động đi�
 
     Tổng quãng đường là $s=960+120=1080\,\mathrm{cm}$.
 
-    !!! warning "Đối chiếu nguồn"
-        Phần hướng dẫn PDF đọc đồ thị thành $T=6\,\mathrm s$ và cho $720\,\mathrm{cm}$. Các mốc $0,1,2,3\,\mathrm s$ trên hình gốc lần lượt ứng với $+A,0,-A,0$, nên $T=4\,\mathrm s$; tính lại trực tiếp từ đồ thị cho $1080\,\mathrm{cm}$.
+    <!-- source-correction: PDF đọc T=6 s và cho 720 cm; audit trực tiếp đồ thị cho T=4 s và quãng đường 1080 cm. -->

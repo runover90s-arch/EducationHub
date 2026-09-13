@@ -52,13 +52,13 @@ hay $U=IR$.
 
 ## 3. Điện trở suất
 
-Dây dẫn đồng chất dài $\ell$, tiết diện S:
+Với dây dẫn **đồng chất, tiết diện đều** $S$, chiều dài $\ell$ và ở trạng thái nhiệt độ xác định để điện trở suất $\rho$ được coi là không đổi:
 
 $$
 \boxed{R=\rho\frac{\ell}{S}}.
 $$
 
-Trong đó $\rho$ là điện trở suất, đơn vị $\Omega\cdot\,\mathrm m$.
+Trong đó $\rho$ là điện trở suất của vật liệu ở nhiệt độ đang xét, đơn vị $\Omega\cdot\mathrm m$.
 
 Hệ quả:
 

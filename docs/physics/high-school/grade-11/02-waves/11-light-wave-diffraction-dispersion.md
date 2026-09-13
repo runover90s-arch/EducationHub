@@ -34,7 +34,7 @@ $$
 c\approx3,00\times10^8\text{ m/s}.
 $$
 
-Trong môi trường có chiết suất $n$:
+Trong môi trường có chiết suất $n$ tại tần số đang xét:
 
 $$
 v=\frac{c}{n}.
@@ -111,7 +111,7 @@ Vì độ lệch qua lăng kính tăng khi chiết suất tăng trong cùng cấ
 
 ## 7. Lăng kính và các góc cơ bản
 
-Với lăng kính có góc chiết quang $A$, kí hiệu góc tới và ló là $i_1,i_2$, góc khúc xạ bên trong là $r_1,r_2$:
+Với lăng kính đặt trong không khí, có góc chiết quang $A$, kí hiệu góc tới và ló là $i_1,i_2$, góc khúc xạ bên trong là $r_1,r_2$. Gọi $n$ là chiết suất của lăng kính đối với không khí (xấp xỉ chiết suất tuyệt đối khi $n_{\text{kk}}\approx1$):
 
 $$
 \begin{gathered}

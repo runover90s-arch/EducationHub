@@ -108,11 +108,11 @@ Ví dụ, vật đi qua cùng một vị trí hai lần trong một chu kì như
 
 ### Khái niệm
 
-Trong mô hình lí tưởng, **dao động tự do** là dao động của hệ sau khi được kích thích ban đầu rồi để hệ tự dao động dưới tác dụng của các lực nội tại hoặc lực đặc trưng của hệ.
+Trong mô hình lí tưởng, **dao động tự do** là dao động của hệ sau khi được kích thích ban đầu rồi để hệ tự dao động, không còn chịu một ngoại lực tuần hoàn áp đặt tần số dao động.
 
 ### Ý nghĩa
 
-Chu kì hoặc tần số riêng của dao động tự do phụ thuộc vào các đặc trưng của hệ.
+Chu kì hoặc tần số riêng của dao động tự do do các đặc trưng của hệ quyết định.
 
 Ví dụ:
 

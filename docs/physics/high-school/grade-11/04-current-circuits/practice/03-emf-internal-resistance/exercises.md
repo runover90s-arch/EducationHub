@@ -196,8 +196,6 @@ Trong việc thiết kế mạch điện, để có được các suất điện
 
     $\xi=\dfrac{\xi_b}{3}=3\,\mathrm V$.
 
-    !!! note "Đối chiếu nguồn"
-        Ô “Đáp án” trong PDF ghi **9**, nhưng chính phần hướng dẫn giải của PDF kết luận suất điện động **mỗi pin** là $3\,\mathrm V$. Kết quả độc lập từ đồ thị và cách mắc nối tiếp cũng cho $3\,\mathrm V$.
 
 #### Bài 13
 
@@ -307,15 +305,15 @@ D. dự trữ điện tích của nguồn điện.
 
 <!-- source-id: BT-Chuong-IV-p62-q4-196 -->
 
-Hiệu điện thế giữa hai cực của một nguồn điện có độ lớn
+Khi nguồn có điện trở trong $r>0$ đang phát điện và có dòng điện chạy qua nguồn, hiệu điện thế giữa hai cực của nguồn có độ lớn
 
-A. luôn bằng suất điện động của nguồn điện khi có dòng điện chạy qua nguồn.
+A. luôn bằng suất điện động của nguồn điện.
 
-B. luôn lớn hơn suất điện động của nguồn điện khi có dòng điện chạy qua nguồn.
+B. luôn lớn hơn suất điện động của nguồn điện.
 
-C. luôn nhỏ hơn suất điện động của nguồn điện khi có dòng điện chạy qua nguồn.
+C. luôn nhỏ hơn suất điện động của nguồn điện.
 
-D. luôn lớn hơn hoặc bằng suất điện động của nguồn điện khi có dòng điện chạy qua nguồn.
+D. luôn lớn hơn hoặc bằng suất điện động của nguồn điện.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
@@ -433,8 +431,6 @@ D. $500\,\mathrm h$.
 
     Vậy chọn **A**.
 
-    !!! note "Đối chiếu nguồn"
-        PDF ghi nhầm đơn vị ở dòng cuối lời giải thành “$200\,\mathrm A$”. Đại lượng đang tính là thời gian và đáp án nguồn là $200\,\mathrm h$, nên đơn vị đúng là **giờ (h)**.
 
 #### Bài 24
 

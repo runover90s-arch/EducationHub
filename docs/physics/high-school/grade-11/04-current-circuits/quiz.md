@@ -89,7 +89,7 @@ b) $P=U^2/R$ dùng cho điện trở khi U là điện áp trên R.
 
 c) $1\,\mathrm{kWh}$ là đơn vị công suất.
 
-d) Joule–Lenz cho $Q=I^2Rt$.
+d) Với $I$ và $R$ không đổi trong khoảng thời gian $t$, định luật Joule–Lenz cho $Q=I^2Rt$.
 
 ### Câu 8
 a) Nguồn giống nhau nối tiếp làm E và r cùng tăng theo số nguồn.

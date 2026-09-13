@@ -29,7 +29,7 @@ Bạn cần:
 
 ## 1. Toàn mạch đơn giản
 
-Nguồn $(\mathcal E,r)$ nối mạch ngoài có điện trở tương đương R.
+Xét mạch một chiều kín gồm một nguồn (hoặc bộ nguồn đã quy đổi) có suất điện động $\mathcal E$, điện trở trong $r$, cấp cho mạch ngoài **thuần điện trở** có điện trở tương đương $R$. Các đại lượng được coi ổn định theo thời gian.
 
 Dòng điện:
 
@@ -40,6 +40,10 @@ $$
 Đây là định luật Ohm cho toàn mạch.
 
 Nếu mạch ngoài gồm nhiều điện trở, trước hết tìm $R_{eq}$ rồi thay vào R.
+
+
+!!! note "Phạm vi của công thức toàn mạch"
+    $I=\mathcal E/(R+r)$ dùng trực tiếp cho mô hình một nguồn tương đương nối với tải thuần điện trở. Nếu mạch có nhiều nguồn chưa quy đổi, máy thu/suất phản điện hoặc mạng nhiều vòng không rút gọn được thành một $R$ duy nhất, hãy dùng quan hệ điện áp–dòng phù hợp và Kirchhoff thay vì áp dụng công thức này cho từng nhánh.
 
 ## 2. Hiệu điện thế hai cực nguồn
 

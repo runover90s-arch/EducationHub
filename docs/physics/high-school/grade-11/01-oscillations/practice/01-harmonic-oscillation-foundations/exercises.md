@@ -209,8 +209,6 @@ Một vật dao động điều hòa dọc theo trục $Ox$. Đồ thị li đ�
 
     Suy ra $T=0{,}8\,\mathrm s$.
 
-    !!! warning "Đối chiếu nguồn"
-        Ô đáp án của PDF in $0{,}6\,\mathrm s$, nhưng chính phần hướng dẫn của PDF xác định $0{,}6\,\mathrm s$ là $\Delta t=3T/4$. Vì vậy chu kì suy ra từ dữ kiện và đồ thị là $T=0{,}8\,\mathrm s$.
 
 #### Bài 13
 
@@ -293,8 +291,6 @@ Xác định li độ của vật tại $t=2\,\mathrm s$. Kết quả tính bằ
 
     $x=2\cos\left(4\pi-\dfrac{\pi}{6}\right)=2\cos\dfrac{11\pi}{6}=\sqrt3\approx1{,}73\,\mathrm{cm}$.
 
-    !!! warning "Đối chiếu nguồn"
-        PDF ghi $0{,}87\,\mathrm{cm}$, tương ứng với việc chỉ tính $\cos(11\pi/6)$ mà bỏ hệ số biên độ $2$. Thay trực tiếp vào phương trình đã cho cho kết quả $1{,}73\,\mathrm{cm}$.
 
 #### Bài 17
 
@@ -1232,7 +1228,7 @@ b) Tần số dao động của vật là $1\,\mathrm{Hz}$.
 
 c) Tần số góc của dao động là $\pi\,\mathrm{rad/s}$.
 
-d) Độ dịch chuyển của vật ở thời điểm $1{,}2\,\mathrm s$ là $2\,\mathrm{cm}$.
+d) Độ dịch chuyển của vật từ $t=0$ đến $t=1{,}2\,\mathrm s$ là $2\,\mathrm{cm}$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** a) Sai; b) Đúng; c) Sai; d) Đúng.
@@ -1245,7 +1241,9 @@ d) Độ dịch chuyển của vật ở thời điểm $1{,}2\,\mathrm s$ là $
 
     c) **Sai.** $\omega=2\pi f=2\pi\,\mathrm{rad/s}$, không phải $\pi\,\mathrm{rad/s}$.
 
-    d) **Đúng.** Đọc trực tiếp đồ thị tại $t=1{,}2\,\mathrm s$ được $x=2\,\mathrm{cm}$.
+    d) **Đúng.** Từ đồ thị, $x(0)=2\,\mathrm{cm}$ và $x(1{,}2\,\mathrm s)=4\,\mathrm{cm}$. Do đó độ dịch chuyển trong khoảng này là
+
+    $$\Delta x=x(1{,}2)-x(0)=4-2=2\ \text{cm}.$$
 
 #### Bài 60
 
@@ -2772,8 +2770,6 @@ d) Tại thời điểm $t=0{,}75\,\mathrm s$, vật đi qua vị trí cân bằ
 
     d) **Sai.** Tại $t=0{,}75\,\mathrm s$, đường cong đạt biên dương, không đi qua vị trí cân bằng.
 
-    !!! warning "Đối chiếu nguồn"
-        Phần hướng dẫn của PDF ghi $A=4\,\mathrm{cm}$ và $x(0)=2\,\mathrm{cm}$, nhưng trục tung của chính đồ thị ghi mức $-2\,\mathrm{cm}$ tại cực tiểu. Đọc trực tiếp tỉ lệ trên đồ thị cho $A=2\,\mathrm{cm}$ và $x(0)=1\,\mathrm{cm}$; các kết luận trên dùng dữ kiện đồ thị.
 
 #### Bài 119
 

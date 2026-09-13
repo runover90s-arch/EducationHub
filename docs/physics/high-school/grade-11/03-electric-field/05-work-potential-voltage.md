@@ -133,23 +133,29 @@ $$
 \boxed{V=k\frac{Q}{r}}.
 $$
 
+Nếu môi trường quanh điện tích được mô hình là điện môi đồng nhất, đẳng hướng kéo dài tới mốc vô cực (hoặc các mặt phân cách đủ xa để bỏ qua ảnh hưởng) và có hằng số điện môi tương đối $\varepsilon_r$:
+
+$$
+V=\frac{kQ}{\varepsilon_r r}.
+$$
+
 Khác cường độ điện trường, V có thể dương hoặc âm theo dấu Q.
 
-Nhiều điện tích điểm:
+Với nhiều điện tích điểm, điện thế tổng hợp là tổng đại số các điện thế thành phần. Khi dùng riêng công thức $kQ_i/(\varepsilon_r r_i)$ cho từng nguồn, các nguồn và điểm xét phải nằm trong cùng mô hình điện môi đồng nhất nêu trên. Trong chân không:
 
 $$
 \boxed{V=\sum_i k\frac{Q_i}{r_i}}.
 $$
 
-Điện thế cộng đại số, dễ hơn tổng hợp vectơ E.
-
 ## 8. Thế năng tương tác hai điện tích điểm
 
-Với mốc ở vô cực:
+Trong chân không, với mốc ở vô cực:
 
 $$
 \boxed{W_t=k\frac{Qq}{r}}.
 $$
+
+Trong điện môi đồng nhất như trên, nên dùng $W_t=qV$ với điện thế tương ứng của môi trường thay vì áp dụng máy móc công thức chân không.
 
 - cùng dấu → thế năng dương;
 - trái dấu → thế năng âm.
@@ -228,7 +234,7 @@ Các nhóm bài dưới đây được tổ chức theo dấu hiệu nhận bi�
 
 ### Dạng 1 — Xác định cường độ điện trường và điện thế tại một điểm
 
-Đọc rõ hệ quy chiếu điện thế và loại điện trường. Với điện tích điểm khi chọn mốc ở vô cùng, $V=kQ/(\varepsilon r)$; trong điện trường đều, hiệu điện thế liên hệ với cường độ qua độ dịch chuyển theo phương đường sức.
+Đọc rõ hệ quy chiếu điện thế và loại điện trường. Với điện tích điểm khi chọn mốc ở vô cùng, trong chân không $V=kQ/r$; nếu cùng một điện môi đồng nhất, đẳng hướng được coi kéo dài tới mốc vô cực và bỏ qua ảnh hưởng mặt phân cách, dùng $V=kQ/(\varepsilon_r r)$. Trong điện trường đều, hiệu điện thế liên hệ với cường độ qua độ dịch chuyển theo phương đường sức.
 
 Điện thế là đại lượng đại số nên dấu của điện tích nguồn quan trọng; không lấy trị tuyệt đối như khi tính độ lớn cường độ điện trường.
 

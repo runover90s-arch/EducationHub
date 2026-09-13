@@ -193,11 +193,13 @@ nên:
 - tăng $a$ → khoảng vân giảm;
 - tăng $\lambda$ → khoảng vân tăng.
 
-Nếu toàn bộ thí nghiệm đặt trong môi trường chiết suất $n$ mà hình học không đổi, bước sóng giảm còn $\lambda/n$, nên:
+Với một bức xạ, nếu toàn bộ thí nghiệm đặt trong môi trường có chiết suất $n$ tại tần số đang xét và hình học không đổi, bước sóng giảm còn $\lambda/n$, nên:
 
 $$
 i'=\frac{i}{n}.
 $$
+
+Với nhiều bức xạ trong môi trường tán sắc, phải dùng chiết suất $n_j$ tương ứng cho từng $\lambda_j$; không dùng một giá trị $n$ chung nếu đề không cho phép bỏ qua sự phụ thuộc của chiết suất vào bước sóng.
 
 ## 10. Ví dụ — Hai màu trùng nhau
 

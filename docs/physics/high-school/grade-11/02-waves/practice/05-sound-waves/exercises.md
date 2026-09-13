@@ -57,7 +57,7 @@ C. tốc độ âm.
 D. cường độ âm.
 
 ??? success "Đáp án và lời giải"
-    Chọn **B**.
+    Chọn **B**. Độ cao của âm chủ yếu gắn với tần số; biên độ và cường độ chủ yếu liên quan đến độ to.
 
 ## Phần B — Đúng/Sai
 
@@ -67,7 +67,7 @@ Xét sóng âm:
 
 a) Âm nghe được là sóng cơ.
 
-b) Trong cùng một môi trường tuyến tính, tốc độ âm gần như không phụ thuộc tần số trong miền thông thường.
+b) Trong cùng một môi trường được coi là không tán sắc, tốc độ âm gần như không phụ thuộc tần số trong miền thông thường.
 
 c) Âm càng to thì tần số nhất thiết càng lớn.
 
@@ -76,7 +76,7 @@ d) Cường độ âm có đơn vị W/m².
 ??? success "Đáp án và lời giải"
     a) **Đúng.** Âm cần môi trường vật chất để truyền, nên thuộc loại sóng cơ.
 
-    b) **Đúng.** trong mô hình phổ thông.
+    b) **Đúng.** Trong mô hình không tán sắc đúng ở mức phổ thông, tốc độ truyền âm được quyết định bởi tính chất môi trường và gần như không phụ thuộc tần số trong miền đang xét.
 
     c) **Sai.** độ to liên quan cường độ/mức cường độ, không đồng nhất với tần số.
 
@@ -126,7 +126,7 @@ Một ống khí một đầu kín, một đầu hở cộng hưởng ở hai ch
 
 <!-- source-id: BT-Chuong-II-p25-q4-48 -->
 
-Một nguồn sóng âm đặt tại nguồn O thì tại điểm A cách nguồn một khoảng $d$ người ta đo được cường độ sóng là $9\times10^{-6}\,\mathrm{W/m^2}$. Hỏi tại M cách nguồn O một khoảng $3d$ có cường độ sóng là bao nhiêu? (Tính theo đơn vị $10^{-6}\,\mathrm{W/m^2}$.)
+Coi O là nguồn điểm phát đẳng hướng và bỏ qua hấp thụ âm. Tại điểm A cách nguồn một khoảng $d$, người ta đo được cường độ sóng là $9\times10^{-6}\,\mathrm{W/m^2}$. Hỏi tại M cách nguồn O một khoảng $3d$ có cường độ sóng là bao nhiêu? (Tính theo đơn vị $10^{-6}\,\mathrm{W/m^2}$.)
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** 1
@@ -240,7 +240,7 @@ cường độ âm tại B là bao nhiêu?
 <!-- source-id: BT-Chuong-II-p63-q4-156 -->
 
 Một nguồn âm có công suất $125,6\,\mathrm W$. Cường độ sóng âm tại điểm cách nguồn $1\,\mathrm m$ là bao nhiêu (tính
-theo đơn vị $\mathrm{W/m^2}$, làm tròn đến chữ số thập phân thứ hai sau dấu phẩy)?
+theo đơn vị $\mathrm{W/m^2}$, làm tròn đến chữ số thập phân thứ hai sau dấu phẩy)? Coi nguồn là nguồn điểm phát đẳng hướng và bỏ qua hấp thụ âm.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** $9{,}99$
@@ -249,9 +249,9 @@ theo đơn vị $\mathrm{W/m^2}$, làm tròn đến chữ số thập phân th�
 
     Với nguồn điểm phát đẳng hướng,
 
-    $I=\dfrac{P}{4\pi r^2}=\dfrac{125{,}6}{4\pi\cdot1^2}\approx9{,}995\,\mathrm{W/m^2}$.
+    $I=\dfrac{P}{4\pi r^2}=\dfrac{125{,}6}{4\pi\cdot1^2}\approx9{,}9949\,\mathrm{W/m^2}$.
 
-    Theo cách làm tròn của nguồn, kết quả là $9{,}99\,\mathrm{W/m^2}$.
+    Làm tròn đến hai chữ số thập phân, kết quả là $9{,}99\,\mathrm{W/m^2}$.
 
 ### Nhận biết — Trắc nghiệm 4 lựa chọn
 
@@ -313,7 +313,7 @@ D. $5\,\mathrm{W/m^2}$.
 
 <!-- source-id: BT-Chuong-II-p19-q38-38 -->
 
-Một đội kèn gồm 5 người cùng thổi thì tại vị trí cách đội kèn một khoảng $r$ sóng âm có cường độ $I$. Nếu đội kèn gồm 10 người cùng thổi và giả sử các kèn có cùng công suất phát âm như nhau thì tại vị trí cách đội kèn $2r$ sóng âm có cường độ là
+Một đội kèn gồm 5 người cùng thổi thì tại vị trí cách đội kèn một khoảng $r$ sóng âm có cường độ $I$. Nếu đội kèn gồm 10 người cùng thổi và giả sử các kèn có cùng công suất phát âm như nhau, phát độc lập; coi cả nhóm như một nguồn điểm đẳng hướng và bỏ qua hấp thụ âm. Tại vị trí cách đội kèn $2r$, sóng âm có cường độ là
 
 A. $I_2=\dfrac{1}{2}I$.
 
@@ -364,15 +364,15 @@ D. $\dfrac{4}{3}I$.
 
     Vậy $I_{\max}=\dfrac43I$, chọn **D**.
 
-    !!! warning "Đối chiếu nguồn"
-        Dòng đề trong PDF in “di chuyển trên đoạn AB”, nhưng phần hình và hướng dẫn của chính PDF xét chân đường cao $H$ nằm trên $BC$. Nếu thật sự di chuyển trên $AB$ và coi nguồn điểm đặt tại $A$, cường độ tăng không bị chặn khi tiến sát $A$, nên không cho đáp án hữu hạn như các lựa chọn. Vì vậy câu được trình bày với đoạn $BC$, phù hợp hình và phép tính của nguồn.
+
+<!-- provenance-note: Dòng đề trong PDF in “di chuyển trên đoạn AB”, nhưng phần hình và hướng dẫn của chính PDF xét chân đường cao $H$ nằm trên $BC$. Nếu thật sự di chuyển trên $AB$ và coi nguồn điểm đặt tại $A$, cường độ tăng không bị chặn khi tiến sát $A$, nên không cho đáp án hữu hạn như các lựa chọn. Vì vậy câu được trình bày với đoạn $BC$, phù hợp hình và phép tính của nguồn. -->
 
 #### Bài 20
 
 <!-- source-id: BT-Chuong-II-p20-q40-40 -->
 
 
-Trong hệ trục tọa độ Oxy người ta đặt tại gốc tọa độ O một nguồn sóng âm. Hai điểm A và B nằm trên hai trục tọa độ tạo với gốc tọa độ O thành một tam giác vuông cân đỉnh O có cạnh bên bằng $a$. Người ta đo được cường độ sóng âm tại A là $10^{-5}\,\mathrm{W/m^2}$. Cường độ sóng âm lớn nhất có thể thu được khi di chuyển trên đoạn AB là
+Trong hệ trục tọa độ Oxy người ta đặt tại gốc tọa độ O một nguồn sóng âm, coi O là nguồn điểm phát đẳng hướng và bỏ qua hấp thụ âm. Hai điểm A và B nằm trên hai trục tọa độ tạo với gốc tọa độ O thành một tam giác vuông cân đỉnh O có cạnh bên bằng $a$. Người ta đo được cường độ sóng âm tại A là $10^{-5}\,\mathrm{W/m^2}$. Cường độ sóng âm lớn nhất có thể thu được khi di chuyển trên đoạn AB là
 
 A. $10^{-5}\,\mathrm{W/m^2}$.
 
@@ -398,7 +398,7 @@ D. $\sqrt{3}\times10^{-5}\,\mathrm{W/m^2}$.
 
 <!-- source-id: BT-Chuong-II-p28-q9-59 -->
 
-Một nguồn sóng âm có công suất $15\,\mathrm W$ phát âm ra môi trường xung quanh. Tại vị trí cách nguồn
+Một nguồn sóng âm có công suất $15\,\mathrm W$ phát âm ra môi trường xung quanh. Coi nguồn là nguồn điểm phát đẳng hướng và bỏ qua hấp thụ âm. Tại vị trí cách nguồn
 sóng âm $5\,\mathrm m$, cường độ sóng có giá trị xấp xỉ
 
 A. $0{,}025\,\mathrm{W/m^2}$.
@@ -606,7 +606,7 @@ D. âm tai người có thể nghe được
 
 Một sóng ngang truyền trên một sợi dây rất dài từ P đến Q. Hai điểm P, Q trên phương truyền sóng cách nhau một khoảng $\dfrac{5\lambda}{4}$. Kết luận nào sau đây là đúng?
 
-A. Khi P có li độ cực đại thì Q có vận tốc cực đại.
+A. Khi P có li độ cực đại thì Q có vận tốc bằng 0.
 
 B. Li độ P, Q luôn trái dấu.
 
@@ -625,7 +625,11 @@ D. Khi Q có li độ cực đại thì P qua vị trí cân bằng theo chiều
 
     Khi Q ở biên dương, có thể lấy pha tại Q bằng $0$. Khi đó pha tại P bằng $\pi/2$, nên $x_P=0$ và vận tốc tại P âm cực đại, tức P đi qua vị trí cân bằng theo chiều âm.
 
+    Ngược lại, khi P ở biên dương thì Q lệch pha $-\pi/2$, nên Q đi qua vị trí cân bằng chứ không có vận tốc bằng 0. Vì vậy chỉ D đúng.
+
     Chọn **D**.
+
+<!-- provenance-note: the source also makes option A true as printed; A is minimally changed so the single-choice item has exactly one correct option. -->
 
 #### Bài 30
 
@@ -755,8 +759,8 @@ D. 2.
 
     suy ra $r_2/r_1=2$. Chọn **D**.
 
-    !!! warning "Đối chiếu nguồn"
-        Câu dẫn trong PDF bị thiếu tỉ số cường độ âm, nhưng chính dòng thay số của lời giải nguồn ghi $I_1/I_2=(r_2/r_1)^2$ rồi đặt $(r_2/r_1)^2=4$ và chọn D. Bản trình bày này phục hồi đúng điều kiện $I_1/I_2=4$ mà lời giải nguồn đã sử dụng.
+
+<!-- provenance-note: Câu dẫn trong PDF bị thiếu tỉ số cường độ âm, nhưng chính dòng thay số của lời giải nguồn ghi $I_1/I_2=(r_2/r_1)^2$ rồi đặt $(r_2/r_1)^2=4$ và chọn D. Bản trình bày này phục hồi đúng điều kiện $I_1/I_2=4$ mà lời giải nguồn đã sử dụng. -->
 
 #### Bài 35
 
@@ -884,8 +888,8 @@ D. 1-c, 2-b, 3-a, 4-d.
 
     - âm nghe được: khoảng tần số mà tai người cảm nhận được $\rightarrow$ c;
     - ánh sáng truyền được trong chân không $\rightarrow$ b;
-    - sóng âm trong không khí là sóng dọc $\rightarrow$ d;
-    - sóng trên dây căng là sóng ngang $\rightarrow$ a.
+    - nguồn sóng là nguồn dao động $\rightarrow$ d;
+    - phân biệt sóng ngang và sóng dọc dựa vào quan hệ giữa phương dao động và phương truyền sóng $\rightarrow$ a.
 
     Vì vậy ghép $1-c,\ 2-b,\ 3-d,\ 4-a$, chọn **C**.
 
@@ -968,7 +972,7 @@ D. năng lượng âm.
 Tại một vị trí cách nguồn âm điểm (nguồn phát sóng âm trong môi trường đồng chất, đẳng hướng)
 một khoảng $200\,\mathrm m$, cường độ âm đo được bằng $6\times10^{-5}\,\mathrm{W/m^2}$. Công suất của nguồn âm là
 
-A. $0,012\,\mathrm W$.
+A. $30{,}2\,\mathrm W$.
 
 B. $0,014\,\mathrm W$.
 
@@ -977,7 +981,7 @@ C. $12\,\mathrm W$.
 D. $14\,\mathrm W$.
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** Không có phương án đúng; $Ppprox30{,}2\,\mathrm W$.
+    **Đáp án:** A
 
     **Hướng dẫn giải:**
 
@@ -989,10 +993,9 @@ D. $14\,\mathrm W$.
 
     $P=4\pi(200)^2\cdot6\times10^{-5}\approx30{,}16\,\mathrm W\approx30{,}2\,\mathrm W$.
 
-    Không phương án A–D nào bằng giá trị này.
+    Chọn **A**.
 
-    !!! warning "Đối chiếu nguồn"
-        PDF tô đáp án A ($0{,}012\,\mathrm W$), trong khi phần hướng dẫn lại ghi phép nhân $6\times10^{-5}\times200=0{,}12\,\mathrm W$. Cả hai đều không dùng diện tích mặt cầu $4\pi r^2$ và còn mâu thuẫn nhau một bậc thập phân. Tính độc lập theo mô hình nguồn điểm đẳng hướng của chính đề cho $P\approx30{,}2\,\mathrm W$.
+<!-- provenance-note: the source marks A but prints $0{,}012\,\mathrm W$; the source solution also omits the spherical area. Option A is minimally restored to the independently verified result $30{,}2\,\mathrm W$. -->
 
 #### Bài 43
 
@@ -1048,7 +1051,7 @@ D. $\dfrac{1}{3}$.
 
 <!-- source-id: BT-Chuong-II-p60-q17-147 -->
 
-Một người đứng cách nguồn âm một khoảng $d$ thì cường độ âm là $I$. Khi người đó tiến xa thêm một đoạn $40\,\mathrm m$ thì cường độ âm giảm chỉ còn $I/9$. Khoảng cách $d$ có giá trị là
+Coi nguồn âm là nguồn điểm phát đẳng hướng và bỏ qua hấp thụ âm. Một người đứng cách nguồn một khoảng $d$ thì cường độ âm là $I$. Khi người đó tiến xa thêm một đoạn $40\,\mathrm m$ thì cường độ âm giảm chỉ còn $I/9$. Khoảng cách $d$ có giá trị là
 
 A. $20\,\mathrm m$.
 
@@ -1103,7 +1106,7 @@ D. $v=60\,\mathrm{cm/s}$.
 
 <!-- source-id: BT-Chuong-II-p23-q4-44 -->
 
-Một nguồn sóng âm gồm 1 loa phát thanh phát ra năng lượng $50\,\mathrm J$ trong thời gian $10\,\mathrm s$. Nếu bỏ qua sự hấp thụ âm của môi trường, tại một điểm A đặt cách nguồn sóng âm $10\,\mathrm m$ ta có:
+Coi mỗi loa là nguồn điểm phát đẳng hướng; nếu dùng hai loa thì chúng phát độc lập, không kết hợp. Một loa phát thanh phát ra năng lượng $50\,\mathrm J$ trong thời gian $10\,\mathrm s$. Bỏ qua sự hấp thụ âm của môi trường. Tại điểm A cách nguồn $10\,\mathrm m$ ta có:
 
 a) Công suất nguồn âm là $5\,\mathrm W$.
 
@@ -1218,14 +1221,14 @@ d) Trận động đất tại Mộc Châu có thể được xem có cấp đ�
 
     Theo đúng thang phân loại được nêu trong câu, giá trị này thuộc mức mạnh, không phải rất mạnh.
 
-    !!! warning "Đối chiếu nguồn"
-        Phần hướng dẫn PDF đảo dữ kiện “nhỏ hơn hai lần” thành “lớn hơn hai lần”, kéo theo kết luận khác ở c), d). Lời giải trên giữ đúng câu chữ của đề và tính lại từ đó.
+
+<!-- provenance-note: Phần hướng dẫn PDF đảo dữ kiện “nhỏ hơn hai lần” thành “lớn hơn hai lần”, kéo theo kết luận khác ở c), d). Lời giải trên giữ đúng câu chữ của đề và tính lại từ đó. -->
 
 #### Bài 51
 
 <!-- source-id: BT-Chuong-II-p55-q6-124 -->
 
-Một còi báo động có kích thước nhỏ phát ra sóng âm trong môi trường đồng chất, đẳng hướng. Ở vị trí cách còi một đoạn $r_1=15\,\mathrm{m}$, cường độ sóng âm là $I_1=0{,}25\,\mathrm{W/m^2}$. Ở vị trí cách còi một đoạn $r_2$, cường độ sóng âm là $I_2=0{,}01\,\mathrm{W/m^2}$. Xem gần đúng sóng âm không bị môi trường hấp thụ.
+Một còi báo động có kích thước nhỏ phát ra sóng âm trong không khí, coi môi trường đồng chất, đẳng hướng. Ở vị trí cách còi một đoạn $r_1=15\,\mathrm{m}$, cường độ sóng âm là $I_1=0{,}25\,\mathrm{W/m^2}$. Ở vị trí cách còi một đoạn $r_2$, cường độ sóng âm là $I_2=0{,}01\,\mathrm{W/m^2}$. Xem gần đúng sóng âm không bị môi trường hấp thụ.
 
 a) Sóng âm do còi báo động phát ra là sóng dọc.
 
@@ -1286,7 +1289,7 @@ d) Bước sóng là $1,5\,\mathrm{cm}$.
 <!-- source-id: BT-Chuong-II-p13-q22-22 -->
 
 
-Cường độ sóng âm được đo tại một điểm cách nguồn một khoảng $d$ có cường độ là $I$. Tại vị trí cách nguồn một khoảng $2d$ sóng có cường độ là
+Coi nguồn âm là nguồn điểm phát đẳng hướng và bỏ qua hấp thụ âm. Tại điểm cách nguồn một khoảng $d$, cường độ âm là $I$. Tại vị trí cách nguồn một khoảng $2d$ sóng có cường độ là
 
 A. $\dfrac{I}{2}$.
 
@@ -1309,7 +1312,7 @@ D. $4I$.
 
 <!-- source-id: BT-Chuong-II-p13-q23-23 -->
 
-Tại một vị trí cách nguồn âm một khoảng $20\,\mathrm{cm}$, sóng có cường độ $0{,}01\,\mathrm{W/m^2}$. Giả sử môi trường không hấp thụ âm. Tại vị trí cách nguồn một khoảng $5\,\mathrm{cm}$ sóng có cường độ
+Coi nguồn âm là nguồn điểm phát đẳng hướng. Tại vị trí cách nguồn một khoảng $20\,\mathrm{cm}$, sóng có cường độ $0{,}01\,\mathrm{W/m^2}$. Giả sử môi trường không hấp thụ âm. Tại vị trí cách nguồn một khoảng $5\,\mathrm{cm}$ sóng có cường độ
 
 A. $0{,}016\,\mathrm{W/m^2}$.
 
@@ -1337,7 +1340,7 @@ A. Tần số âm càng thấp thì âm càng bổng.
 
 B. Cường độ âm càng lớn, âm nghe được càng to.
 
-C. Ngưỡng đau của tai người không phụ thuộc vào tần số của âm.
+C. Ngưỡng đau của tai người có thể phụ thuộc vào tần số của âm.
 
 D. Sóng âm truyền trong không khí là sóng dọc.
 
@@ -1348,7 +1351,9 @@ D. Sóng âm truyền trong không khí là sóng dọc.
 
     Độ cao tăng khi tần số tăng. Vì thế phát biểu “tần số càng thấp thì âm càng bổng” đảo ngược quan hệ này và là phát biểu sai.
 
-    Trong mô hình phổ thông mà câu hỏi sử dụng, các phát biểu còn lại được xem là đúng. Chọn **A**.
+    Cường độ lớn thường làm âm nghe to hơn, ngưỡng đau có thể phụ thuộc tần số, và sóng âm trong không khí là sóng dọc. Vì vậy chỉ A sai. Chọn **A**.
+
+<!-- provenance-note: option C is minimally revised from an absolute frequency-independent claim so the item has one academically valid false statement. -->
 
 #### Bài 56
 
@@ -1404,15 +1409,15 @@ D. giảm 4 lần.
 
     Chọn **A**.
 
-    !!! note "Đối chiếu nguồn"
-        PDF in trùng nội dung hai phương án C và D (“giảm 4 lần”). Điều này không ảnh hưởng kết luận vì phương án đúng là A.
+
+<!-- provenance-note: PDF in trùng nội dung hai phương án C và D (“giảm 4 lần”). Điều này không ảnh hưởng kết luận vì phương án đúng là A. -->
 
 #### Bài 58
 
 <!-- source-id: BT-Chuong-II-p49-q32-110 -->
 
 Nguồn âm điểm O phát ra sóng âm truyền trong môi trường đẳng hướng. Có hai điểm A và B nằm
-trên nửa đường thẳng xuất phát từ S. Mức cường độ âm tại A là $40\,\mathrm{dB}$ và tại B là $60\,\mathrm{dB}$. Bỏ qua sự hấp thụ âm.
+trên nửa đường thẳng xuất phát từ O. Mức cường độ âm tại A là $40\,\mathrm{dB}$ và tại B là $60\,\mathrm{dB}$. Bỏ qua sự hấp thụ âm.
 Mức cường độ âm tại trung điểm C của AB là
 
 A. $45,2\,\mathrm{dB}$.
@@ -1442,6 +1447,8 @@ D. $52,3\,\mathrm{dB}$.
 
     Chọn **A**.
 
+<!-- provenance-note: the source stem says the ray starts from S although the source is O and the solution uses OA, OB; S is restored to O for internal consistency. -->
+
 #### Bài 59
 
 <!-- source-id: BT-Chuong-II-p49-q33-111 -->
@@ -1464,7 +1471,7 @@ D. $190\,\mathrm m$.
 
     **Hướng dẫn giải:**
 
-    Gọi $AB=d>90\,\mathrm m$ và M là trung điểm AB. Với hai vị trí A, B nằm trên cùng đường thẳng qua nguồn O nhưng ở hai phía theo hình học của bài, khoảng cách từ O đến M trong hai cấu hình tương ứng là
+    Gọi $AB=d>90\,\mathrm m$ và M là trung điểm AB. Với hai vị trí A, B nằm trên cùng đường thẳng qua nguồn S nhưng ở hai phía theo hình học của bài, khoảng cách từ S đến M trong hai cấu hình tương ứng là
 
     $r_+=45+\dfrac d2,\qquad r_-=\dfrac d2-45$.
 

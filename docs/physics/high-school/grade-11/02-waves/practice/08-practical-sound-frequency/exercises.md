@@ -159,14 +159,14 @@ Trong thí nghiệm đo tần số âm. Một học sinh ghi nhận được m�
 |---|---:|---:|---:|
 | Chu kì (ms) | 1,6 | 1,9 | 1,8 |
 
-Giá trị trung bình của tần số trong thí nghiệm này xấp xỉ bao nhiêu Hz? (Làm tròn đến chữ số hàng đơn vị)
+Lấy giá trị trung bình của ba phép đo chu kì rồi suy ra tần số bằng $f=1/\overline T$. Tần số thu được xấp xỉ bao nhiêu Hz? (Làm tròn đến chữ số hàng đơn vị)
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** $566$
 
     **Hướng dẫn giải:**
 
-    Theo cách xử lí số liệu của nguồn, trước hết lấy trung bình các lần đo chu kì:
+    Trước hết lấy trung bình các lần đo chu kì:
 
     $\overline T=\dfrac{1{,}6+1{,}9+1{,}8}{3}=1{,}7667\,\mathrm{ms}=1{,}7667\times10^{-3}\,\mathrm s$.
 
@@ -176,9 +176,7 @@ Giá trị trung bình của tần số trong thí nghiệm này xấp xỉ bao 
 
     Làm tròn đến hàng đơn vị được $566\,\mathrm{Hz}$.
 
-    !!! note "Đối chiếu nguồn"
-        Nếu hiểu cụm “giá trị trung bình của tần số” theo nghĩa lấy trung bình riêng ba giá trị $1/T_i$, kết quả sẽ khoảng $569\,\mathrm{Hz}$. PDF dùng quy trình đo gián tiếp: lấy $\overline T$ rồi tính $f=1/\overline T$, nên đáp án $566\,\mathrm{Hz}$ được giữ theo đúng cách xử lí của nguồn.
-
+    <!-- source-audit-note: Nếu hiểu cụm “giá trị trung bình của tần số” theo nghĩa lấy trung bình riêng ba giá trị $1/T_i$, kết quả sẽ khoảng $569\,\mathrm{Hz}$. PDF dùng quy trình đo gián tiếp: lấy $\overline T$ rồi tính $f=1/\overline T$, nên đáp án $566\,\mathrm{Hz}$ được giữ theo đúng cách xử lí của nguồn. -->
 #### Bài 11
 
 <!-- source-id: BT-Chuong-II-p86-q3-193 -->
@@ -200,11 +198,13 @@ Sai số tuyệt đối của tần số trong thí nghiệm này xấp xỉ bao
     Các tần số đo được:
     $f_1=1/T_1\approx666{,}67\,\mathrm{Hz}$, $f_2\approx833{,}33\,\mathrm{Hz}$, $f_3\approx714{,}29\,\mathrm{Hz}$.
     Tần số trung bình:
-    $\overline f=\dfrac{f_1+f_2+f_3}{3}\approx738{,}01\,\mathrm{Hz}$.
+    $\overline f=\dfrac{f_1+f_2+f_3}{3}\approx738{,}10\,\mathrm{Hz}$.
     Sai số tuyệt đối trung bình:
-    $\overline{\Delta f}=\dfrac{|666{,}67-738{,}01|+|833{,}33-738{,}01|+|714{,}29-738{,}01|}{3}\approx63\,\mathrm{Hz}$.
+    $\overline{\Delta f}=\dfrac{|666{,}67-738{,}10|+|833{,}33-738{,}10|+|714{,}29-738{,}10|}{3}\approx63{,}49\,\mathrm{Hz}$.
 
-    Vậy kết quả cần tìm là **$63$**.
+    Làm tròn đến hàng đơn vị, kết quả cần tìm là **$63\,\mathrm{Hz}$**.
+
+    <!-- source-audit-note: PDF reports the intermediate mean as 738.01 Hz; recomputation gives about 738.10 Hz. The final rounded mean absolute error remains 63 Hz. -->
 
 #### Bài 12
 
@@ -300,9 +300,7 @@ D. $\overline A=\dfrac{A_1+A_2-\cdots-A_n}{n}$.
     Giá trị trung bình của $n$ lần đo là
     $\overline A=\dfrac{A_1+A_2+\cdots+A_n}{n}$.
 
-    !!! warning "Đối chiếu nguồn"
-        PDF in nhầm số hạng cuối ở phương án A thành $A_2$. Ký hiệu được sửa thành $A_n$; đây là công thức mà phương án đúng của nguồn muốn biểu diễn.
-
+    <!-- source-audit-note: PDF in nhầm số hạng cuối ở phương án A thành $A_2$. Ký hiệu được sửa thành $A_n$; đây là công thức mà phương án đúng của nguồn muốn biểu diễn. -->
 #### Bài 16
 
 <!-- source-id: BT-Chuong-II-p76-q2-160 -->
@@ -350,9 +348,7 @@ D. $\delta A=\dfrac{\Delta A'}{\overline A}\cdot100\%$.
     Sai số tỉ đối của phép đo được tính bởi
     $\delta A=\dfrac{\overline{\Delta A}}{\overline A}\cdot100\%$.
 
-    !!! warning "Đối chiếu nguồn"
-        Trong câu dẫn PDF, dấu gạch trên $\Delta A$ bị thiếu/không nhất quán với tên “sai số tuyệt đối trung bình” và với chính phương án A. Ký hiệu được chuẩn hóa thành $\overline{\Delta A}$.
-
+    <!-- source-audit-note: Trong câu dẫn PDF, dấu gạch trên $\Delta A$ bị thiếu/không nhất quán với tên “sai số tuyệt đối trung bình” và với chính phương án A. Ký hiệu được chuẩn hóa thành $\overline{\Delta A}$. -->
 #### Bài 18
 
 <!-- source-id: BT-Chuong-II-p76-q4-162 -->
@@ -440,7 +436,7 @@ D. Dao động (1) trễ pha hơn dao động (2).
 <!-- source-id: BT-Chuong-II-p81-q27-185 -->
 
 
-Trong một thí nghiệm đo tốc độ truyền âm, ngưới ta đo được sai số tỉ đối của tần số là 5% và
+Trong một thí nghiệm đo tốc độ truyền âm, người ta đo được sai số tỉ đối của tần số là 5% và
 sai số tỉ đối của bước sóng là 4%. Các bạn học sinh đo được tốc độ trung bình trong thí nghiệm là 334
 m/s. Sai số tuyệt đối của tốc độ truyền âm trong thí nghiệm xấp xỉ là
 
@@ -554,15 +550,13 @@ d) Việc điều chỉnh núm Timer là thay đổi tần số tín hiệu dao 
 
     d) **Sai.** Núm Timer/Time-div chỉ thay đổi thang thời gian hiển thị của dao động kí, không làm thay đổi tần số âm.
 
-    !!! warning "Đối chiếu nguồn"
-        PDF đánh b) Sai và c) Đúng, nhưng hai kết luận đó không phù hợp với chính cấu hình “âm thoa đặt trước micro” của đề. Đáp án được sửa theo chức năng của micro và dao động kí trong phép đo này.
-
+    <!-- source-audit-note: PDF đánh b) Sai và c) Đúng, nhưng hai kết luận đó không phù hợp với chính cấu hình “âm thoa đặt trước micro” của đề. Đáp án được sửa theo chức năng của micro và dao động kí trong phép đo này. -->
 #### Bài 25
 
 <!-- source-id: BT-Chuong-II-p83-q3-189 -->
 
 
-Trên màn hình một dao động kí điện tử có tín hiệu của hai nguồn âm A và B. Hình dạng hai tín hiệu như hình 2.8 dưới đây.
+Trên màn hình một dao động kí điện tử có tín hiệu của hai nguồn âm A và B. Hai tín hiệu được thu trong cùng điều kiện và hiển thị với cùng thang đo. Hình dạng hai tín hiệu như hình 2.8 dưới đây.
 
 ![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/ii_p83_q3_189_fig1.webp){ loading=lazy }
 
@@ -579,11 +573,11 @@ d) Nguồn âm A dao động sớm pha hơn nguồn âm B.
 
     **Hướng dẫn giải:**
 
-    a) **Sai.** Biên độ tín hiệu A lớn hơn B nên độ to không như nhau.
+    a) **Sai.** Với cùng điều kiện thu và cùng thang đo, biên độ tín hiệu A lớn hơn B nên hai âm không có cùng độ to.
 
     b) **Đúng.** Trong cùng khoảng thời gian, A và B thực hiện cùng số dao động nên có cùng tần số.
 
-    c) **Đúng.** Biên độ A lớn hơn nên âm A to hơn.
+    c) **Đúng.** Với cùng điều kiện thu, biên độ tín hiệu A lớn hơn nên âm A được ghi nhận to hơn âm B.
 
     d) **Đúng.** Ở cùng mốc thời gian, pha của A đi trước B; A sớm pha hơn B.
 
@@ -741,9 +735,7 @@ D. $465\,\mathrm{Hz}$.
     Do đó $T\approx4{,}3\cdot0{,}5\times10^{-3}=2{,}15\times10^{-3}\,\mathrm{s}$,
     $f=1/T\approx465\,\mathrm{Hz}$.
 
-    !!! warning "Đối chiếu nguồn"
-        Một dòng hướng dẫn PDF ghi nhầm $0{,}2\,\mathrm{ms/div}$ nhưng ngay phép nhân và hình đều dùng $0{,}5\,\mathrm{ms/div}$.
-
+    <!-- source-audit-note: Một dòng hướng dẫn PDF ghi nhầm $0{,}2\,\mathrm{ms/div}$ nhưng ngay phép nhân và hình đều dùng $0{,}5\,\mathrm{ms/div}$. -->
 #### Bài 32
 
 <!-- source-id: BT-Chuong-II-p79-q24-182 -->
@@ -1072,7 +1064,7 @@ D. Sai số tuyệt đối trung bình của chu kì là $0,15\,\mathrm s$.
 
     **Hướng dẫn giải:**
 
-    Từ đúng các số liệu in trong bảng:
+    Từ các số liệu trong bảng:
 
     $\overline T=\dfrac{2{,}2+2{,}5+2{,}1+2{,}4}{4}=2{,}3\,\mathrm s$,
 
@@ -1086,5 +1078,4 @@ D. Sai số tuyệt đối trung bình của chu kì là $0,15\,\mathrm s$.
 
     nên D đúng. Dữ liệu có độ phân tán khác 0 nên không thể nói “hoàn toàn chính xác”; C là nhận xét không đúng.
 
-    !!! warning "Đối chiếu nguồn"
-        Bảng PDF in đơn vị chu kì là giây, dẫn tới $f\approx0{,}43\,\mathrm{Hz}$, không phù hợp với một âm thoa dùng để tạo âm nghe được. PDF cũng nhận xét có khả năng sai đơn vị. Không có đủ căn cứ để tự đổi `s` thành `ms`, nhưng sự bất nhất đơn vị này không làm đáp án trở nên mơ hồ: A, B và D đều đúng theo chính bảng số liệu in, còn C sai vì các lần đo có độ phân tán khác 0.
+    <!-- source-audit-note: Bảng PDF in đơn vị chu kì là giây, dẫn tới $f\approx0{,}43\,\mathrm{Hz}$, không phù hợp với một âm thoa dùng để tạo âm nghe được. PDF cũng nhận xét có khả năng sai đơn vị. Không có đủ căn cứ để tự đổi `s` thành `ms`, nhưng sự bất nhất đơn vị này không làm đáp án trở nên mơ hồ: A, B và D đều đúng theo chính bảng số liệu in, còn C sai vì các lần đo có độ phân tán khác 0. -->

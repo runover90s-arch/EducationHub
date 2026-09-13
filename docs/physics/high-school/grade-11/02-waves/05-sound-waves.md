@@ -28,7 +28,7 @@ Bạn cần:
 
 ## 1. Bản chất của âm
 
-Âm là sóng cơ có thể gây cảm giác âm khi tác động lên tai người trong miền tần số thích hợp. Vì là sóng cơ, âm cần môi trường vật chất để truyền.
+Sóng âm là sóng cơ do nguồn âm phát ra và truyền trong môi trường vật chất. Phần sóng âm có tần số trong miền nghe của người có thể gây cảm giác âm; hạ âm và siêu âm vẫn là sóng âm dù tai người không nghe được.
 
 Trong không khí, âm thường được mô hình là sóng dọc gồm các vùng nén và dãn.
 
@@ -46,10 +46,10 @@ Tần số của âm cơ bản liên hệ trực tiếp với tần số dao đ�
 
 ## 3. Miền tần số
 
-Theo quy ước phổ biến trong giáo dục:
+Ngưỡng nghe phụ thuộc người nghe và điều kiện đo. Trong các tài liệu phổ thông, ngưỡng dưới thường được quy ước khoảng $16$–$20\,\mathrm{Hz}$, còn ngưỡng trên khoảng $20\,\mathrm{kHz}$. Vì vậy có thể phân loại gần đúng:
 
-- hạ âm: tần số dưới khoảng $20\,\mathrm{Hz}$;
-- âm nghe được: xấp xỉ $20\,\mathrm{Hz}$ đến $20\,\mathrm{kHz}$;
+- hạ âm: tần số thấp hơn ngưỡng nghe thấp, thường dưới khoảng $16$–$20\,\mathrm{Hz}$;
+- âm nghe được: xấp xỉ từ $16$–$20\,\mathrm{Hz}$ đến $20\,\mathrm{kHz}$;
 - siêu âm: trên khoảng $20\,\mathrm{kHz}$.
 
 Khả năng nghe thực tế phụ thuộc từng người, tuổi và cường độ âm, nên các mốc trên là mốc quy ước gần đúng.
@@ -65,7 +65,7 @@ Không được đồng nhất “cao” với “to”. Một âm có thể r�
 
 ## 5. Cường độ âm
 
-Cường độ âm $I$ tại một điểm là công suất âm truyền qua một đơn vị diện tích đặt vuông góc với phương truyền:
+Cường độ âm $I$ tại một điểm đặc trưng cho công suất âm truyền qua một đơn vị diện tích đặt vuông góc với phương truyền. Nếu trên diện tích $S$ đang xét cường độ gần như đều và công suất truyền qua diện tích đó là $P$, ta có:
 
 $$
 \boxed{I=\frac{P}{S}}.

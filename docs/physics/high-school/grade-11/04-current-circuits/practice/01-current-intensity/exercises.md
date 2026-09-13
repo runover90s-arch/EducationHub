@@ -312,8 +312,6 @@ Mắc nối tiếp một bóng đèn với một ampe kế rồi nối hai đầ
 
     $\Delta q=I\Delta t=0{,}450\cdot600=270\,\mathrm C$.
 
-    !!! warning "Đối chiếu nguồn"
-        Ô đáp án trong PDF ghi $0{,}04$, nhưng chính phần hướng dẫn của PDF tính $\Delta q=0{,}450\cdot600=270\,\mathrm C$. Tính độc lập cũng cho $270\,\mathrm C$, nên đáp án được hiệu chỉnh theo dữ kiện và phép tính nguồn.
 #### Bài 21
 
 <!-- source-id: BT-Chuong-IV-p18-q5-79 -->
@@ -678,12 +676,12 @@ A. $0{,}18\,\mu\mathrm{m/s}$.
 
 B. $0{,}28\,\mu\mathrm{m/s}$.
 
-C. $0{,}38\,\mu\mathrm{m/s}$.
+C. $161\,\mu\mathrm{m/s}$.
 
 D. $0{,}48\,\mu\mathrm{m/s}$.
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** Không có phương án nào đúng. Theo dữ kiện đề, $v\approx161\,\mu\mathrm{m/s}$.
+    **Đáp án:** C
 
     **Hướng dẫn giải:**
 
@@ -699,8 +697,6 @@ D. $0{,}48\,\mu\mathrm{m/s}$.
 
     $v=\dfrac{I}{neS}\approx1{,}61\cdot10^{-4}\,\mathrm{m/s}$ $\approx161\,\mu\mathrm{m/s}$.
 
-    !!! warning "Đối chiếu nguồn"
-        PDF tô C ($0{,}38\,\mu\mathrm{m/s}$) và lời giải dùng tiết diện của một thanh đặc thay vì tiết diện vành khăn của ống; kết quả đó còn không khớp phép thay số. Với đúng hai đường kính đã in, kết quả là khoảng $161\,\mu\mathrm{m/s}$, ngoài bốn phương án. Nhãn lựa chọn cuối của PDF bị lặp thành A; phương án cuối được ký hiệu D để giữ đủ bốn lựa chọn.
 
 #### Bài 39
 
@@ -1192,8 +1188,6 @@ d) Mật độ dòng điện của thanh thép không đổi nếu ta tăng bề
 
     d) **Đúng.** Với cùng vật liệu, cùng chiều dài và hiệu điện thế, điện trường trong thanh không đổi nên mật độ dòng điện $j=\sigma E$ không phụ thuộc tiết diện. Tăng bề dày làm tăng $I$ và $S$ cùng tỉ lệ nhưng không đổi $j=I/S$.
 
-    !!! warning "Đối chiếu nguồn"
-        PDF nhầm “chu vi trong $8\,\mathrm{cm}$” thành cạnh trong $8\,\mathrm{cm}$ khi tính hình học, đồng thời dòng thay số cường độ dùng mật độ hạt tải thấp hơn dữ kiện đề một bậc. Vì vậy đáp án nguồn cho c) là Đúng không phù hợp với dữ kiện đã in; bản trình bày này tính lại trực tiếp từ hình học và $I=neSv$.
 
 #### Bài 61
 
@@ -1824,5 +1818,3 @@ D. $0{,}219\,\mathrm A$.
 
     Do đó $I=Ne/\Delta t=3{,}6\times10^{18}\cdot1{,}6\times10^{-19}=0{,}576\,\mathrm A$. Vậy chọn **A**.
 
-    !!! warning "Đối chiếu nguồn"
-        PDF nguồn chỉ tính dòng do electron và bỏ phần đóng góp của ion dương nên cho $0{,}384\,\mathrm A$. Với dòng điện trong chất khí, hai loại hạt mang điện chuyển động ngược chiều tạo dòng điện quy ước cùng chiều, vì vậy phải cộng hai đóng góp.

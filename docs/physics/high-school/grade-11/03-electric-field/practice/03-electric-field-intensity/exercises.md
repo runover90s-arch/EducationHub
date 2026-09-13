@@ -42,7 +42,7 @@ C. tiếp tuyến vòng tròn quanh điện tích.
 D. không xác định.
 
 ??? success "Đáp án và lời giải"
-    Chọn **B**.
+    Chọn **B**. Điện trường của điện tích điểm dương có hướng ra xa điện tích; điện tích điểm âm tạo điện trường hướng vào điện tích.
 
 ### Bài 3 — Mức 1 — Nhận biết
 
@@ -211,8 +211,7 @@ D. truyền tương tác giữa các điện tích.
 
     **Hướng dẫn giải:**
 
-    Điện trường được tạo ra bởi điện tích, là dạng vật chất tồn tại quanh điện tích và tác dụng lực điện lên mọi
-    vật đặt trong nó.
+    Điện trường được tạo ra bởi điện tích, tồn tại quanh điện tích và tác dụng lực điện lên điện tích khác đặt trong nó; vì vậy B đúng.
 
 #### Bài 14
 
@@ -387,8 +386,7 @@ D. Điện trường tác dụng lực điện lên các điện tích chuyển 
 
     **Hướng dẫn giải:**
 
-    - Điện trường được tạo ra bởi điện tích, là dạng vật chất tồn tại xung quanh điện tích và truyền tương tác
-    giữa các điện tích.
+    B sai vì điện tích chuyển động vẫn tạo ra điện trường; điện trường không chỉ tồn tại quanh điện tích đứng yên. Điện tích đặt trong điện trường chịu lực điện $\vec F=q\vec E$ (với điện trường ngoài đang xét), dù điện tích đang đứng yên hay chuyển động.
 
 #### Bài 22
 
@@ -448,15 +446,16 @@ B. Tất cả các đường sức đều xuất phát từ điện tích dươn
 
 C. Cũng có khi đường sức điện không xuất phát từ điện tích dương mà xuất phát từ vô cùng.
 
-D. Các đường sức của điện trường đều là các đường thẳng song song và cách đều nhau.
+D. Các đường sức của một điện trường đều là các đường thẳng song song và cách đều nhau.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** B
 
     **Hướng dẫn giải:**
 
-    Trong trường hợp có 1 điện tích các đường sức đi từ điện tích dương ra vô cực hoặc từ vô cực đến điện tích
-    âm.
+    B sai vì đường sức tĩnh điện còn có thể đi từ điện tích dương ra vô cực hoặc từ vô cực đi vào điện tích âm. Phương án D nói về **một điện trường đều**, nên đúng.
+
+    <!-- source-audit-note: Thêm từ “một” ở phương án D để loại cách đọc mơ hồ “tất cả các đường sức của điện trường đều...”; đáp án B của nguồn được giữ nguyên. -->
 
 #### Bài 25
 
@@ -479,13 +478,13 @@ D. không thể có các đường sức có dạng như thế.
 
     **Hướng dẫn giải:**
 
-    Đường sức điện đi ra từ điện tích dương và đi vào điện tích âm. Hình nguồn thể hiện một hệ gồm một điện tích dương và một điện tích âm, nên chọn C.
+    Đường sức điện đi ra từ điện tích dương và đi vào điện tích âm. Hình vẽ thể hiện một hệ gồm một điện tích dương và một điện tích âm, nên chọn C.
 
 #### Bài 26
 
 <!-- source-id: BT-Chuong-III-p35-q15-96 -->
 
-Đặt một điện tích âm, khối lượng nhỏ vào một điện trường đều rồi thả nhẹ. Điện tích sẽ chuyển
+Đặt một điện tích âm, khối lượng nhỏ vào một điện trường đều rồi thả nhẹ. Bỏ qua trọng lực và các lực khác. Điện tích sẽ chuyển
 động
 
 A. dọc theo chiều của đường sức điện trường.
@@ -501,7 +500,9 @@ D. theo một quỹ đạo bất kỳ.
 
     **Hướng dẫn giải:**
 
-    Điện tích âm chuyển động ngược chiều đường sức điện trường
+    Vì $\vec F=q\vec E$ và $q<0$, lực điện và gia tốc ngược chiều $\vec E$. Vật được thả từ nghỉ trong điện trường đều nên chuyển động dọc theo đường sức theo chiều ngược lại. Chọn B.
+
+<!-- source-audit-note: PDF không nêu các lực khác; bổ sung điều kiện bỏ qua trọng lực và các lực khác để hướng chuyển động được xác định chỉ bởi $\vec F=q\vec E$. -->
 
 ### Thông hiểu — Trắc nghiệm 4 lựa chọn
 
@@ -586,7 +587,7 @@ D. $E=-9\cdot10^{-9}\dfrac{Q}{r^2}$.
 
     **Hướng dẫn giải:**
 
-    Theo cách viết đại số của nguồn với $Q<0$, $E=-9\cdot10^9Q/r^2$ để độ lớn $E$ dương.
+    Vì $Q<0$ nhưng $E$ là độ lớn nên $E=k|Q|/r^2=-kQ/r^2=-9\cdot10^9Q/r^2$.
 
 #### Bài 31
 
@@ -775,14 +776,16 @@ B. của điện trường tĩnh là đường không khép kín.
 
 C. của cùng một điện trường đều là những đường thẳng song song cách đều.
 
-D. là các đường có hướng, xuất phát ở điện tích dương và kết thúc ở điện tích âm
+D. là các đường có hướng; chiều đi ra khỏi điện tích dương và đi vào điện tích âm, hoặc kéo dài tới/từ vô cực.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** A
 
     **Hướng dẫn giải:**
 
-    Vì qua mỗi điểm trong điện trường chỉ có duy nhất một đường sức điện đi qua
+    A sai vì qua mỗi điểm của điện trường chỉ có một hướng xác định của $\vec E$, nên hai đường sức không thể cắt nhau. B, C và D đều đúng với điện trường tĩnh.
+
+    <!-- source-audit-note: Phương án D được bổ sung trường hợp đường sức kéo dài tới/từ vô cực để không mâu thuẫn với quy tắc đường sức tĩnh điện và để A là phát biểu sai duy nhất. -->
 
 ### Vận dụng — Trắc nghiệm 4 lựa chọn
 
@@ -793,7 +796,7 @@ D. là các đường có hướng, xuất phát ở điện tích dương và k
 Tế bào cơ thể mực ống khi đang nghỉ ngơi, không kích thích. Người ta sử dụng một máy đo điện
 thế (điện kế) cực nhạy để đo điện thế nghỉ của tế bào thần kinh. Đặt điện cực thứ nhất của máy lên mặt
 ngoài của màng tế bào, còn điện cực thứ hai thì đâm xuyên qua màng tế bào, đến tiếp xúc với tế bào chất.
-Mặt trong của màng tế bào trong cơ thể sống mang điện tích âm, mặt ngoài mang điện tích dương. Hiệu điện thế giữa hai mặt này bằng $70\,\mathrm{mV}$. Màng tế bào dày $8\,\mathrm{nm}$. Cường độ điện trường bên trong màng tế bào bằng
+Mặt trong của màng tế bào trong cơ thể sống mang điện tích âm, mặt ngoài mang điện tích dương. Hiệu điện thế giữa hai mặt này bằng $70\,\mathrm{mV}$. Màng tế bào dày $8\,\mathrm{nm}$. Coi điện trường trong bề dày màng là đều. Cường độ điện trường bên trong màng tế bào bằng
 
 A. $8{,}75\,\mathrm{V/m}$.
 
@@ -808,9 +811,11 @@ D. $8{,}75\cdot10^{8}\,\mathrm{V/m}$.
 
     **Hướng dẫn giải:**
 
-    Cường độ điện trường trong màng tế bào:
+    Với giả thiết điện trường trong bề dày màng là đều,
 
-    $$E=\frac{U}{d}=\frac{0{,}07}{8\cdot10^{-9}}=8{,}75\cdot10^6\,\mathrm{V/m}.$$
+    $$E=\frac{|U|}{d}=\frac{0{,}07}{8\cdot10^{-9}}=8{,}75\cdot10^6\,\mathrm{V/m}.$$
+
+<!-- source-audit-note: PDF dùng trực tiếp $E=U/d$ nhưng không nêu giả thiết điện trường đều trong bề dày màng; điều kiện này được bổ sung để phép tính xác định cường độ tại mọi điểm là hợp lệ. -->
 
 ### Nhận biết — Trắc nghiệm 4 lựa chọn
 
@@ -840,7 +845,7 @@ D. độ lớn lực tác dụng lên mọi điện tích không thay đổi.
 
 Chọn câu đúng. Điện trường đều là điện trường
 
-A. có mật độ đường sức không đổi.
+A. có mật độ đường sức thay đổi theo vị trí.
 
 B. có vectơ $\vec E$ không đổi về hướng và độ lớn ở những điểm khác nhau.
 
@@ -853,7 +858,9 @@ D. do hệ 2 điện tích điểm gây ra.
 
     **Hướng dẫn giải:**
 
-    Trong điện trường đều, các đường sức là những đường thẳng song song, cùng chiều và cách đều nhau. Chọn B.
+    Điện trường đều được xác định bởi vectơ $\vec E$ không đổi về cả hướng và độ lớn trong vùng xét. Khi biểu diễn bằng đường sức, các đường sức song song và cách đều; vì vậy A sai còn B là mô tả đầy đủ. Chọn B.
+
+<!-- source-audit-note: PDF ghi A là “có mật độ đường sức không đổi”, một cách diễn đạt có thể được hiểu như hệ quả biểu diễn của điện trường đều và làm câu hỏi có hơn một phương án hợp lí. Đổi tối thiểu “không đổi” thành “thay đổi theo vị trí” để B là đáp án đúng duy nhất. -->
 #### Bài 43
 
 <!-- source-id: BT-Chuong-III-p82-q4-210 -->
@@ -923,7 +930,7 @@ D. $22,5\,\mathrm V$.
 
 <!-- source-id: BT-Chuong-III-p83-q9-215 -->
 
-Giữa hai bản kim loại phẳng song song cách nhau $4\,\mathrm{cm}$ có một hiệu điện thế không đổi $200\,\mathrm V$.
+Giữa hai bản kim loại phẳng rộng, song song cách nhau $4\,\mathrm{cm}$ có một hiệu điện thế không đổi $200\,\mathrm V$. Bỏ qua hiệu ứng mép.
 Cường độ điện trường ở khoảng giữa hai bản kim loại là
 
 A. $5000\,\mathrm{V/m}$.
@@ -939,12 +946,14 @@ D. $80\,\mathrm{V/m}$.
 
     **Hướng dẫn giải:**
 
-    Trong điện trường đều, $E=U/d=200/0{,}040=5{,}0\cdot10^3\,\mathrm{V/m}$. Chọn A.
+    Hai bản đủ rộng và bỏ qua hiệu ứng mép nên điện trường ở vùng giữa hai bản được coi là đều. Do đó $E=U/d=200/0{,}040=5{,}0\cdot10^3\,\mathrm{V/m}$. Chọn A.
+
+<!-- source-audit-note: PDF dùng $E=U/d$ nhưng stem không nêu điều kiện bản đủ rộng/bỏ qua hiệu ứng mép; điều kiện mô hình được bổ sung, không đổi dữ kiện hay đáp án. -->
 #### Bài 47
 
 <!-- source-id: BT-Chuong-III-p83-q11-217 -->
 
-Hai tấm kim loại phẳng nằm ngang song song cách nhau $5\,\mathrm{cm}$. Hiệu điện thế giữa hai tấm là $50\,\mathrm V$.
+Hai tấm kim loại phẳng rộng nằm ngang, song song cách nhau $5\,\mathrm{cm}$. Hiệu điện thế giữa hai tấm là $50\,\mathrm V$. Bỏ qua hiệu ứng mép.
 Hãy cho biết đặc điểm điện trường, dạng đường sức điện trường giữa hai tấm kim loại
 
 A. điện trường biến đổi, đường sức là đường cong, $E=1200\,\mathrm{V/m}$.
@@ -960,7 +969,9 @@ D. điện trường đều, đường sức là đường thẳng, $E=1000\,\ma
 
     **Hướng dẫn giải:**
 
-    Điện trường giữa hai bản song song là đều; với $U=50\,\mathrm V$, $d=0{,}050\,\mathrm m$, $E=U/d=1000\,\mathrm{V/m}$. Chọn D.
+    Hai bản đủ rộng và bỏ qua hiệu ứng mép nên điện trường ở vùng giữa hai bản được coi là đều, đường sức thẳng song song. Với $U=50\,\mathrm V$, $d=0{,}050\,\mathrm m$, $E=U/d=1000\,\mathrm{V/m}$. Chọn D.
+
+<!-- source-audit-note: PDF kết luận điện trường đều nhưng không nêu điều kiện bản đủ rộng/bỏ qua hiệu ứng mép; điều kiện mô hình được bổ sung để đáp án D có cơ sở đầy đủ. -->
 
 ### Thông hiểu — Trắc nghiệm 4 lựa chọn
 
@@ -1149,9 +1160,9 @@ Với $q_1=-10^{-9}\,\mathrm C$, $q_2=10^{-9}\,\mathrm C$ đặt tại A, B các
 
     **Hướng dẫn giải:**
 
-    Theo dữ kiện in trong đề, $q_1=-10^{-9}\,\mathrm C$, $q_2=10^{-9}\,\mathrm C$ và $AB=40\,\mathrm{cm}$. Tại trung điểm N, $r=0{,}20\,\mathrm m$ nên mỗi điện tích tạo $E_1=E_2=225\,\mathrm{V/m}$. Hai vectơ cùng hướng từ điện tích dương về điện tích âm, do đó $E_N=450\,\mathrm{V/m}$.
+    Với $q_1=-10^{-9}\,\mathrm C$, $q_2=10^{-9}\,\mathrm C$ và $AB=40\,\mathrm{cm}$, Tại trung điểm N, $r=0{,}20\,\mathrm m$ nên mỗi điện tích tạo $E_1=E_2=225\,\mathrm{V/m}$. Hai vectơ cùng hướng từ điện tích dương về điện tích âm, do đó $E_N=450\,\mathrm{V/m}$.
 
-    **Đối chiếu nguồn:** ô đáp án và hướng dẫn PDF dùng độ lớn điện tích $6\cdot10^{-9}\,\mathrm C$ dù dòng dữ kiện in rõ $10^{-9}\,\mathrm C$. Kết quả $2700\,\mathrm{V/m}$ của nguồn vì thế lớn hơn đúng 6 lần; lời giải này giữ dữ kiện in trong đề.
+    <!-- source-audit-note: Ô đáp án và hướng dẫn PDF dùng độ lớn điện tích $6\cdot10^{-9}\,\mathrm C$ dù dòng dữ kiện in rõ $10^{-9}\,\mathrm C$. Kết quả $2700\,\mathrm{V/m}$ của nguồn vì thế lớn hơn đúng 6 lần; lời giải dùng dữ kiện in trong đề. -->
 #### Bài 58
 
 <!-- source-id: BT-Chuong-III-p46-q5-136 -->
@@ -1163,9 +1174,10 @@ Tại M có điện trường ngoài cường độ $E=1000\,\mathrm{V/m}$. Tín
 
     **Hướng dẫn giải:**
 
-    Hiểu câu 5 theo ý định tính lực lên điện tích $q=10^{-4}\,\mathrm C$ đặt trong điện trường ngoài có cường độ $E=1000\,\mathrm{V/m}$ tại M. Khi đó $F=|q|E=10^{-4}\cdot1000=0{,}1\,\mathrm N$.
+    Điện tích $q=10^{-4}\,\mathrm C$ đặt trong điện trường ngoài có $E=1000\,\mathrm{V/m}$ nên
+    $F=|q|E=10^{-4}\cdot1000=0{,}1\,\mathrm N$.
 
-    **Đối chiếu nguồn:** câu dẫn chung của PDF vừa nói điện tích $q$ “đặt tại M” vừa dùng M như điểm có điện trường, khiến vai trò điện tích nguồn và điện tích thử bị lẫn. Phép tính trên nêu rõ cách hiểu cần thiết cho Câu 5.
+    <!-- source-audit-note: Câu dẫn chung của PDF vừa nói điện tích $q$ “đặt tại M” vừa dùng M như điểm có điện trường, khiến vai trò điện tích nguồn và điện tích thử bị lẫn. Stem learner-facing đã được làm rõ là điện trường ngoài. -->
 #### Bài 59
 
 <!-- source-id: BT-Chuong-III-p46-q6-137 -->
@@ -1177,9 +1189,10 @@ Một điện tích điểm nguồn $q=10^{-4}\,\mathrm C$ đặt trong chân kh
 
     **Hướng dẫn giải:**
 
-    Hiểu câu 6 theo ý định điện tích nguồn $q=10^{-4}\,\mathrm C$ tạo cường độ $E=1000\,\mathrm{V/m}$ tại M. Từ $E=k|q|/r^2$ suy ra $r=\sqrt{k|q|/E}=\sqrt{9\cdot10^9\cdot10^{-4}/1000}=30\,\mathrm m$.
+    Điện tích nguồn $q=10^{-4}\,\mathrm C$ tạo tại M điện trường $E=1000\,\mathrm{V/m}$. Từ $E=k|q|/r^2$ suy ra
+    $r=\sqrt{k|q|/E}=\sqrt{9\cdot10^9\cdot10^{-4}/1000}=30\,\mathrm m$.
 
-    **Đối chiếu nguồn:** câu dẫn chung của PDF đặt $q$ “tại M” nhưng Câu 6 lại hỏi khoảng cách từ M đến $q$. Lời giải giữ phép tính mà nguồn thực sự sử dụng và làm rõ vai trò điện tích nguồn.
+    <!-- source-audit-note: Câu dẫn chung của PDF đặt $q$ “tại M” nhưng câu hỏi lại hỏi khoảng cách từ M đến $q$. Stem learner-facing đã được làm rõ vai trò điện tích nguồn. -->
 #### Bài 60
 
 <!-- source-id: BT-Chuong-III-p56-q1-162 -->
@@ -1205,7 +1218,7 @@ Một điện tích điểm $q$ đặt trong chân không tạo tại A, cách $
 
     Từ $E_1r_1^2=E_2r_2^2$, ta có $r_2=r_1\sqrt{E_1/E_2}=2\sqrt{10^5/(5\cdot10^5)}=2/\sqrt5\approx0{,}894\,\mathrm{cm}$.
 
-    **Đối chiếu nguồn:** PDF cho đáp án $2{,}5\,\mathrm{cm}$ vì dòng biến đổi trong hướng dẫn dùng $25\cdot10^5\,\mathrm{V/m}$ thay cho $5\cdot10^5\,\mathrm{V/m}$ đã in trong đề. Kết quả trên dùng đúng dữ kiện của câu hỏi.
+    <!-- source-audit-note: PDF cho đáp án $2{,}5\,\mathrm{cm}$ vì dòng biến đổi trong hướng dẫn dùng $25\cdot10^5\,\mathrm{V/m}$ thay cho $5\cdot10^5\,\mathrm{V/m}$ đã in trong đề. Kết quả learner-facing dùng đúng dữ kiện của câu hỏi. -->
 #### Bài 62
 
 <!-- source-id: BT-Chuong-III-p56-q3-166 -->
@@ -1463,10 +1476,7 @@ D. Bên ngoài một quả cầu kim loại nhiễm điện.
 
     **Hướng dẫn giải:**
 
-    Vì sau khi được tích điện, các electron trong quả cầu sẽ có xu hướng chuyển động phân bố ra bề mặt vật
-    dẫn, sau khi đạt trạng thái cân bằng, bên trong vật dẫn sẽ không còn điện tích. Mặt khác, do sự phân bố của
-    các điện tích trên bề mặt, điện trường tổng hợp trong lòng vật dẫn gây ra do các điện tích trên bề mặt bị triệt
-    tiêu bên trong.
+    Ở trạng thái cân bằng tĩnh điện, điện tích dư của vật dẫn phân bố trên bề mặt và điện trường trong phần vật dẫn bằng 0. Vì vậy bên trong quả cầu kim loại nhiễm điện không có điện trường; chọn C.
 
 #### Bài 75
 
@@ -1530,7 +1540,9 @@ D. Cường độ điện trường có phương là đường thẳng nối M v
 
     **Hướng dẫn giải:**
 
-    Cường độ điện trường có độ lớn tỉ lệ nghịch với bình phương r.
+    Với điện tích điểm, $E=k|Q|/r^2$, nên độ lớn cường độ điện trường tỉ lệ nghịch với **bình phương** khoảng cách $r$. Vì vậy B là phát biểu sai duy nhất.
+
+<!-- source-audit-note: Phương án D từng bị import thành công thức sai dạng E_M=k|Q|/(εr). PDF gốc ghi D là “Cường độ điện trường có phương là đường thẳng nối M và Q”; đã phục hồi để B là đáp án sai duy nhất. -->
 
 #### Bài 78
 
@@ -1710,7 +1722,7 @@ d) Cường độ điện trường tại N cách Q $4\,\mathrm{cm}$ là $50\cdo
 
     d) **Sai.** Ở $r=0{,}04\,\mathrm m$, $\varepsilon=3$: $E_N=1{,}875\cdot10^6\,\mathrm{V/m}=18{,}75\cdot10^5\,\mathrm{V/m}$, không phải $50\cdot10^5\,\mathrm{V/m}$.
 
-    **Đối chiếu nguồn:** bảng nguồn đánh b) Đúng và phần hướng dẫn dùng $F=QE_M$ cho chính điện tích nguồn. Mô hình đó không hợp lệ; phép số trong nguồn cũng tự mâu thuẫn.
+<!-- source-audit-note: Bảng nguồn đánh b) Đúng và phần hướng dẫn dùng F=QE_M cho chính điện tích nguồn. Mô hình đó không hợp lệ; phép số trong nguồn cũng tự mâu thuẫn. -->
 #### Bài 86
 
 <!-- source-id: BT-Chuong-III-p41-q2-123 -->
@@ -1738,7 +1750,7 @@ d) Vectơ cường độ điện trường tại M cách O $5\,\mathrm{cm}$ hư�
 
     d) **Sai.** Vì $q>0$, $\vec E$ do q tạo ra hướng ra xa điện tích.
 
-    **Đối chiếu nguồn:** ở b), mệnh đề in $2\cdot10^{-4}\,\mathrm N$ nhưng hướng dẫn PDF lại thế $3\cdot10^{-4}\,\mathrm N$. Kết luận b) vẫn Sai; phép tính trên dùng đúng dữ kiện in trong mệnh đề.
+<!-- source-audit-note: Ở b), mệnh đề in 2·10^-4 N nhưng hướng dẫn PDF lại thế 3·10^-4 N. Kết luận b) vẫn Sai; lời giải dùng đúng dữ kiện in trong mệnh đề. -->
 #### Bài 87
 
 <!-- source-id: BT-Chuong-III-p42-q3-124 -->
@@ -1795,7 +1807,7 @@ d) Điểm N cách điện tích q một khoảng $r=17\,\mathrm{cm}$ có cườ
     d) **Đúng.** Trong cùng môi trường, $E\propto1/r^2$, nên
     $E_N=E_M\left(\dfrac{r_M}{r_N}\right)^2=1{,}5\cdot10^4\left(\dfrac{26}{17}\right)^2\approx3{,}51\cdot10^4\,\mathrm{V/m}$.
 
-    **Đối chiếu nguồn:** bảng Đúng/Sai của PDF đánh b) Sai, c) Đúng, nhưng phần hướng dẫn lại nói điện trường trong không khí tăng 81 lần và bằng $1{,}215\cdot10^6\,\mathrm{V/m}$. Kiểm tra độc lập xác nhận cả b) và c) đều đúng; bảng nguồn bị mâu thuẫn ở ý b).
+<!-- source-audit-note: Bảng Đúng/Sai của PDF đánh b) Sai, c) Đúng, nhưng phần hướng dẫn lại cho điện trường trong không khí tăng 81 lần và bằng 1,215·10^6 V/m. Kiểm tra độc lập xác nhận b) và c) đều đúng. -->
 
 #### Bài 89
 
@@ -1877,6 +1889,6 @@ d) Nếu đặt điện tích q trong dầu ($\varepsilon=2$) thì cường đ�
     b) **Đúng.** $E=k|q|/r^2\Rightarrow10^5=9\cdot10^9|q|/0{,}03^2\Rightarrow|q|=10^{-8}\,\mathrm C$.
 
     c) **Đúng.** Khi khoảng cách tăng từ $3$ lên $6\,\mathrm{cm}$, $E$ giảm 4 lần còn $25000\,\mathrm{V/m}$.
-    **Đối chiếu nguồn:** ở a), phần hướng dẫn PDF ghi “hướng vào điện tích q vì $q>0$”, trái với quy tắc hướng của điện trường do điện tích dương và cũng trái bảng đáp án. Ở c), hướng dẫn PDF in “$10\,\mathrm{cm}$”, nhưng mệnh đề gốc ghi $6\,\mathrm{cm}$ và giá trị $25000\,\mathrm{V/m}$ tương ứng với $6\,\mathrm{cm}$. Hai điểm này được sửa theo dữ kiện và mô hình điện tích điểm.
+<!-- source-audit-note: Ở a), hướng dẫn PDF ghi “hướng vào điện tích q vì q>0”, trái quy tắc hướng của điện trường do điện tích dương và cũng trái bảng đáp án. Ở c), hướng dẫn PDF in 10 cm nhưng mệnh đề gốc ghi 6 cm; 25000 V/m tương ứng với 6 cm. -->
 
     d) **Đúng.** Trong dầu có $\varepsilon=2$, $E$ giảm 2 lần còn $50000\,\mathrm{V/m}$.

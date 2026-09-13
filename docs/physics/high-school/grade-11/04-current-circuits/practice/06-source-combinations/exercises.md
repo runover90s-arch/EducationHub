@@ -182,11 +182,10 @@ Nếu ghép 3 pin giống nhau nối tiếp thu được bộ nguồn $7{,}5\,\m
 
     Khi ba pin giống nhau nối tiếp, $\xi_b=3\xi=7{,}5\,\mathrm V$, nên $\xi=2{,}5\,\mathrm V$.
 
-    Khi ghép ba pin giống nhau song song, suất điện động của bộ bằng suất điện động của mỗi pin:
+    Khi ghép ba pin giống nhau song song đúng cực, suất điện động của bộ bằng suất điện động của mỗi pin:
     $\xi'_b=\xi=2{,}5\,\mathrm V$.
 
-    !!! warning "Đối chiếu nguồn"
-        PDF ghi đáp án $7{,}5\,\mathrm V$ và đồng thời nêu quy tắc “ghép song song thì suất điện động của bộ bằng suất điện động của từng pin”. Hai phần này mâu thuẫn với dữ kiện ban đầu $3\xi=7{,}5\,\mathrm V$. Kết quả độc lập đúng là **$2{,}5\,\mathrm V$**.
+    **Kết quả:** $2{,}5\,\mathrm V$.
 #### Bài 12
 
 <!-- source-id: BT-Chuong-IV-p87-q6-262 -->
@@ -377,14 +376,20 @@ d) Cường độ dòng điện chạy trong mạch có giá trị là $4\,\math
 
     **Hướng dẫn giải:**
 
-    a) **Sai.** Quan sát cực tính cho thấy hai nguồn mắc xung đối.
+    **Topology và cực tính:** $R_1$ và $R_2$ mắc song song giữa cùng hai nút; hai nguồn nối với nhau theo kiểu xung đối (hai cực dương nối nhau). Vì $\xi_1>\xi_2$, nguồn $\xi_1$ quyết định chiều dòng điện ngoài.
 
-    b) **Đúng.** Suất điện động tương đương là $\xi_b=\xi_1-\xi_2=48-36=12\,\mathrm V$.
+    a) **Sai.** Đây là ghép xung đối, không phải ghép nối tiếp cùng chiều.
 
-    c) **Sai.** Khi mạch có dòng điện, hiệu điện thế hai đầu nguồn nói chung không bằng suất điện động vì còn sụt áp trên điện trở trong.
+    b) **Đúng.** Suất điện động tương đương theo chiều của nguồn mạnh hơn là
+    $\xi_b=\xi_1-\xi_2=48-36=12\,\mathrm V$.
 
-    d) **Đúng.** Điện trở mạch ngoài là $R=R_1\parallel R_2=2{,}4\,\Omega$. Do đó
-    $I=\frac{\xi_b}{R+r_1+r_2} =\frac{12}{2{,}4+0{,}4+0{,}2} =4\,\mathrm A.$
+    c) **Sai.** Khi có dòng điện, điện áp hai cực bộ nguồn còn phụ thuộc sụt áp trên điện trở trong nên không nói chung bằng $\xi_b$.
+
+    d) **Đúng.** $R=R_1\parallel R_2=2{,}4\,\Omega$ và $r_b=r_1+r_2=0{,}6\,\Omega$. Phương trình mạch kín là
+    $I(R+r_b)=\xi_b$, nên
+    $I=12/(2{,}4+0{,}6)=4\,\mathrm A$.
+
+    Điện áp mạch ngoài là $U=IR=9{,}6\,\mathrm V$, phù hợp với $U=\xi_b-Ir_b$.
 #### Bài 20
 
 <!-- source-id: BT-Chuong-IV-p82-q2-254 -->
@@ -437,13 +442,13 @@ D. $1{,}2\,\mathrm A$.
 
     **Hướng dẫn giải:**
 
-    Bốn nguồn ghép nối tiếp nên
-    $\xi_b=4\xi_0=12\,\mathrm V,\qquad r_b=4r_0=4\,\Omega.$
+    **Topology:** bốn nguồn nối tiếp cùng chiều nên $\xi_b=12\,\mathrm V$, $r_b=4\,\Omega$. Khi $K$ mở, $R_1$ nối tiếp $R_2$; khi $K$ đóng, khóa nối trực tiếp hai đầu $R_2$ nên $R_2$ bị nối tắt.
 
-    Khi $K$ mở, $R_1$ nối tiếp $R_2$. Từ số chỉ $I=0{,}6\,\mathrm A$:
-    $\xi_b=I(R_1+R_2+r_b) \Rightarrow R_1=\frac{12}{0{,}6}-(10+4)=6\,\Omega.$
+    **Khi $K$ mở:** dòng mạch chính là $0{,}6\,\mathrm A$, vì vậy
+    $12=0{,}6(R_1+10+4)$, suy ra $R_1=6\,\Omega$. Điện áp mạch ngoài khi đó là $U=0{,}6(6+10)=9{,}6\,\mathrm V$.
 
-    Khi $K$ đóng, $R_2$ bị nối tắt nên
-    $I=\frac{\xi_b}{R_1+r_b}=\frac{12}{6+4}=1{,}2\,\mathrm A.$
+    **Khi $K$ đóng:** phương trình mạch kín trở thành
+    $I(R_1+r_b)=\xi_b$, nên
+    $I=12/(6+4)=1{,}2\,\mathrm A$.
 
-    Chọn **D**.
+    **Kết quả:** chọn **D**.

@@ -42,7 +42,7 @@ C. vô hạn.
 D. dòng điện.
 
 ??? success "Đáp án và lời giải"
-    Chọn **B**.
+    Chọn **B**: theo định luật vòng Kirchhoff, tổng đại số các độ tăng và sụt điện thế quanh một vòng kín bằng $0$.
 
 ### Bài 3 — Mức 1 — Nhận biết
 
@@ -57,7 +57,7 @@ C. chỉ một tụ điện.
 D. một nguồn dòng nối tiếp điện trở.
 
 ??? success "Đáp án và lời giải"
-    Chọn **A**.
+    Chọn **A**: nhìn từ hai cực, mạng tuyến tính tương đương Thévenin gồm một nguồn áp $V_{th}$ nối tiếp điện trở $R_{th}$.
 
 ### Bài 4 — Mức 1 — Nhận biết
 
@@ -72,7 +72,7 @@ C. nguồn dòng.
 D. điện trở âm.
 
 ??? success "Đáp án và lời giải"
-    Chọn **B**.
+    Chọn **B**: ở xác lập DC lâu dài, $u_C$ không đổi nên $i_C=C\,du_C/dt=0$; nhánh tụ tương đương hở mạch đối với dòng một chiều.
 
 ## Phần B — Đúng/Sai
 
@@ -95,7 +95,7 @@ d) Khi “tắt” nguồn dòng lí tưởng, thay bằng ngắn mạch.
 
     c) **Đúng.** Nguồn áp lí tưởng bị đặt về $0\,\mathrm V$ tương đương hai cực cùng điện thế, tức một ngắn mạch.
 
-    d) **Sai.** nguồn dòng lí tưởng bị thay bằng hở mạch.
+    d) **Sai.** Nguồn dòng lí tưởng bị đặt về $0\,\mathrm A$ nên tương đương hở mạch.
 
 ### Bài 6 — Mức 2 — Thông hiểu
 
@@ -148,21 +148,15 @@ Tụ $C=100\,\mu\,\mathrm F$ được nạp đến $20\,\mathrm V$. Tính điệ
 Mạch hai vòng có một nguồn $12\,\mathrm V$. Vòng trái gồm nguồn và $R_1=2\,\Omega$; điện trở chung giữa hai vòng $R_3=4\,\Omega$; vòng phải có $R_2=6\,\Omega$. Chọn dòng vòng I1 theo chiều kim đồng hồ ở vòng trái và I2 theo chiều kim đồng hồ ở vòng phải, nên dòng qua R3 theo hướng vòng trái là I1-I2. Lập và giải hệ dòng vòng.
 
 ??? success "Đáp án và lời giải"
-    Phương trình vòng trái:
+    **Sơ đồ tương đương:** hai vòng dùng chung $R_3=4\,\Omega$. Với hai dòng vòng cùng chọn theo chiều kim đồng hồ, chúng đi ngược chiều nhau trên $R_3$, nên dòng qua $R_3$ theo hướng vòng trái là $I_3=I_1-I_2$.
 
-    $12-2I_1-4(I_1-I_2)=0$, hay $6I_1-4I_2=12$.
+    **Phương trình vòng:** vòng trái cho $12-2I_1-4(I_1-I_2)=0$, hay $6I_1-4I_2=12$. Vòng phải không có nguồn nên $-6I_2-4(I_2-I_1)=0$, hay $-4I_1+10I_2=0$.
 
-    Vòng phải không có nguồn:
+    **Giải hệ:** từ phương trình hai, $I_1=2,5I_2$. Thay vào phương trình một: $6(2,5I_2)-4I_2=12\Rightarrow11I_2=12$. Do đó $I_2=12/11\approx1,091\,\mathrm A$ và $I_1=30/11\approx2,727\,\mathrm A$.
 
-    $-6I_2-4(I_2-I_1)=0$, hay $-4I_1+10I_2=0$.
+    **Kiểm tra:** $6(30/11)-4(12/11)=12$ và $-4(30/11)+10(12/11)=0$, nên nghiệm thỏa cả hai vòng.
 
-    Từ phương trình hai: $I_1=2,5I_2$. Thay vào phương trình một:
-
-    $6(2,5I_2)-4I_2=12\Rightarrow11I_2=12$.
-
-    $I_2=12/11\approx1,091\,\mathrm A$; $I_1=30/11\approx2,727\,\mathrm A$.
-
-    Dòng qua R3 theo hướng vòng trái: $I_3=I_1-I_2=18/11\approx1,636\,\mathrm A$.
+    **Kết luận:** $I_1\approx2,727\,\mathrm A$, $I_2\approx1,091\,\mathrm A$ và $I_3=I_1-I_2=18/11\approx1,636\,\mathrm A$ theo hướng vòng trái.
 
 ## Ngân hàng bài tập mở rộng
 

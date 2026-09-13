@@ -28,6 +28,8 @@ Bạn cần:
 
 ## 1. Mô hình cơ bản
 
+Xét mô hình sóng điều hòa chạy trong môi trường đồng tính, tốc độ truyền không đổi và bỏ qua suy hao đáng kể trên đoạn đang xét. Khi đó biên độ có thể coi như không đổi theo vị trí trong công thức cơ bản dưới đây.
+
 Giả sử tại nguồn $O$:
 
 $$

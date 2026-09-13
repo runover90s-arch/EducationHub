@@ -45,6 +45,8 @@ Mạch không rút gọn được hoàn toàn bằng nối tiếp–song song, �
 
 thì phương pháp Kirchhoff cho hệ phương trình tổng quát.
 
+Trong chương này, các định luật được dùng cho **mạch điện một chiều ở trạng thái ổn định** với các phần tử tập trung; khi lập phương trình phải giữ nhất quán quy ước chiều dòng, chiều vòng và cực tính nguồn.
+
 ## 2. Định luật nút Kirchhoff
 
 Tại một nút:

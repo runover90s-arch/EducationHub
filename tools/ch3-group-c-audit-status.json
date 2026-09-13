@@ -1,0 +1,674 @@
+{
+  "base_version": "education-hub-v8",
+  "target_version": "education-hub-v9",
+  "scope": "Chapter III practice GROUP C only",
+  "status_definitions": {
+    "VERIFIED": "Question, answer, solution, units/sign/vector/conditions and source comparison checked; no patch required.",
+    "FIXED": "Audit completed and a repository patch was required.",
+    "UNRESOLVED": "Source/data remain insufficient for a unique result; no guess was introduced."
+  },
+  "lessons": {
+    "07-charged-particle-motion": [
+      {
+        "bai": 1,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 2,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 3,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 4,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 5,
+        "status": "FIXED",
+        "note": "Clarified the authored solution: a charged particle has q != 0, so a uniform electric field gives nonzero acceleration."
+      },
+      {
+        "bai": 6,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 7,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 8,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 9,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 10,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 11,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-III-p77-q2-200"
+      },
+      {
+        "bai": 12,
+        "status": "FIXED",
+        "source_id": "BT-Chuong-III-p80-q7-205",
+        "note": "Removed learner-facing provenance note; retained electron mass 9.1e-31 kg, consistent with the source calculation."
+      },
+      {
+        "bai": 13,
+        "status": "FIXED",
+        "source_id": "BT-Chuong-III-p80-q8-206",
+        "note": "Removed learner-facing provenance note; retained electron mass 9.1e-31 kg, consistent with the source calculation."
+      },
+      {
+        "bai": 14,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-III-p91-q2-230"
+      },
+      {
+        "bai": 15,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-III-p93-q5-233"
+      },
+      {
+        "bai": 16,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-III-p109-q30-264"
+      },
+      {
+        "bai": 17,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-III-p110-q36-273"
+      },
+      {
+        "bai": 18,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-III-p111-q37-274"
+      },
+      {
+        "bai": 19,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-III-p120-q5-301"
+      },
+      {
+        "bai": 20,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-III-p120-q6-302"
+      },
+      {
+        "bai": 21,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-III-p139-q5-343"
+      },
+      {
+        "bai": 22,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-III-p147-q4-370"
+      },
+      {
+        "bai": 23,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-III-p147-q5-371"
+      },
+      {
+        "bai": 24,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-III-p148-q6-372"
+      },
+      {
+        "bai": 25,
+        "status": "FIXED",
+        "source_id": "BT-Chuong-III-p69-q15-188",
+        "note": "Source A-D had no correct option; minimally corrected option A exponent from 10^13 to 10^14 and set answer A."
+      },
+      {
+        "bai": 26,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-III-p69-q16-189"
+      },
+      {
+        "bai": 27,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-III-p70-q17-190"
+      },
+      {
+        "bai": 28,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-III-p70-q18-191"
+      },
+      {
+        "bai": 29,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-III-p71-q19-192"
+      },
+      {
+        "bai": 30,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-III-p71-q20-193"
+      },
+      {
+        "bai": 31,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-III-p82-q1-207"
+      },
+      {
+        "bai": 32,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-III-p82-q5-211"
+      },
+      {
+        "bai": 33,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-III-p83-q10-216"
+      },
+      {
+        "bai": 34,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-III-p84-q12-218"
+      },
+      {
+        "bai": 35,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-III-p84-q14-220"
+      },
+      {
+        "bai": 36,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-III-p85-q16-222"
+      },
+      {
+        "bai": 37,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-III-p86-q17-223"
+      },
+      {
+        "bai": 38,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-III-p101-q2-236"
+      },
+      {
+        "bai": 39,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-III-p101-q3-237"
+      },
+      {
+        "bai": 40,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-III-p102-q8-242"
+      },
+      {
+        "bai": 41,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-III-p106-q25-259"
+      },
+      {
+        "bai": 42,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-III-p112-q2-276"
+      },
+      {
+        "bai": 43,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-III-p113-q8-282"
+      },
+      {
+        "bai": 44,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-III-p113-q9-283"
+      },
+      {
+        "bai": 45,
+        "status": "FIXED",
+        "source_id": "BT-Chuong-III-p114-q10-284",
+        "note": "Removed learner-facing provenance note; kept the stated particle mass and independently checked energy calculation."
+      },
+      {
+        "bai": 46,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-III-p114-q12-286"
+      },
+      {
+        "bai": 47,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-III-p115-q14-288"
+      },
+      {
+        "bai": 48,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-III-p115-q16-290"
+      },
+      {
+        "bai": 49,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-III-p116-q18-292"
+      },
+      {
+        "bai": 50,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-III-p131-q28-330"
+      },
+      {
+        "bai": 51,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-III-p132-q29-331"
+      },
+      {
+        "bai": 52,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-III-p140-q4-348"
+      },
+      {
+        "bai": 53,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-III-p141-q12-356"
+      },
+      {
+        "bai": 54,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-III-p142-q17-361"
+      },
+      {
+        "bai": 55,
+        "status": "FIXED",
+        "source_id": "BT-Chuong-III-p75-q5-198",
+        "note": "Removed learner-facing provenance note; retained independently recalculated T/F values."
+      },
+      {
+        "bai": 56,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-III-p87-q1-225"
+      },
+      {
+        "bai": 57,
+        "status": "FIXED",
+        "source_id": "BT-Chuong-III-p89-q3-227",
+        "note": "Removed learner-facing provenance note; retained corrected field-line direction."
+      },
+      {
+        "bai": 58,
+        "status": "FIXED",
+        "source_id": "BT-Chuong-III-p89-q4-228",
+        "note": "Removed learner-facing provenance note; retained parabolic trajectory from the equations of motion."
+      },
+      {
+        "bai": 59,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-III-p107-q29-263"
+      },
+      {
+        "bai": 60,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-III-p116-q1-293"
+      },
+      {
+        "bai": 61,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-III-p116-q2-294"
+      },
+      {
+        "bai": 62,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-III-p118-q4-296"
+      },
+      {
+        "bai": 63,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-III-p134-q3-335"
+      },
+      {
+        "bai": 64,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-III-p135-q4-336"
+      },
+      {
+        "bai": 65,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-III-p136-q6-338"
+      },
+      {
+        "bai": 66,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-III-p143-q1-363"
+      },
+      {
+        "bai": 67,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-III-p144-q2-364"
+      },
+      {
+        "bai": 68,
+        "status": "FIXED",
+        "source_id": "BT-Chuong-III-p145-q3-365",
+        "note": "Added q>0; independently verified a Đúng, b Đúng, c Sai, d Đúng."
+      },
+      {
+        "bai": 69,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-III-p145-q4-366"
+      },
+      {
+        "bai": 70,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-III-p67-q7-180"
+      },
+      {
+        "bai": 71,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-III-p67-q8-181"
+      },
+      {
+        "bai": 72,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-III-p67-q9-182"
+      },
+      {
+        "bai": 73,
+        "status": "FIXED",
+        "source_id": "BT-Chuong-III-p128-q15-317",
+        "note": "Added q>0; independently verified unique answer A from A=qU."
+      },
+      {
+        "bai": 74,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-III-p68-q11-184"
+      },
+      {
+        "bai": 75,
+        "status": "FIXED",
+        "source_id": "BT-Chuong-III-p104-q18-252",
+        "note": "Source printed A and B identically; minimally changed option A sign and set the unique independently verified answer to B."
+      },
+      {
+        "bai": 76,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-III-p104-q19-253"
+      }
+    ],
+    "08-advanced-capacitors": [
+      {
+        "bai": 1,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 2,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 3,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 4,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 5,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 6,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 7,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 8,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 9,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 10,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 11,
+        "status": "FIXED",
+        "source_id": "BT-Chuong-III-p165-q9-429",
+        "note": "Removed learner-facing provenance/audit label; retained independently verified result and solution."
+      },
+      {
+        "bai": 12,
+        "status": "FIXED",
+        "source_id": "BT-Chuong-III-p165-q10-430",
+        "note": "Removed learner-facing provenance/audit label; retained independently verified result and solution."
+      },
+      {
+        "bai": 13,
+        "status": "FIXED",
+        "source_id": "BT-Chuong-III-p165-q11-431",
+        "note": "Removed learner-facing provenance/audit label; retained independently verified result and solution."
+      },
+      {
+        "bai": 14,
+        "status": "FIXED",
+        "source_id": "BT-Chuong-III-p165-q12-432",
+        "note": "Removed learner-facing provenance/audit label; retained independently verified result and solution."
+      },
+      {
+        "bai": 15,
+        "status": "FIXED",
+        "source_id": "BT-Chuong-III-p165-q13-433",
+        "note": "Removed learner-facing provenance/audit label; retained independently verified result and solution."
+      },
+      {
+        "bai": 16,
+        "status": "FIXED",
+        "source_id": "BT-Chuong-III-p168-q2-457",
+        "note": "Removed learner-facing provenance/audit label; retained independently verified result and solution."
+      },
+      {
+        "bai": 17,
+        "status": "FIXED",
+        "source_id": "BT-Chuong-III-p168-q5-460",
+        "note": "Removed learner-facing provenance/audit label; retained independently verified result and solution."
+      },
+      {
+        "bai": 18,
+        "status": "FIXED",
+        "source_id": "BT-Chuong-III-p168-q6-461",
+        "note": "Removed learner-facing provenance/audit label; retained independently verified result and solution."
+      }
+    ],
+    "09-electrostatic-equilibrium-charged-pendulum": [
+      {
+        "bai": 1,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 2,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 3,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 4,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 5,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 6,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 7,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 8,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 9,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 10,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 11,
+        "status": "FIXED",
+        "source_id": "BT-Chuong-III-p77-q3-201",
+        "note": "Removed learner-facing provenance note; retained independently verified 320 mg."
+      },
+      {
+        "bai": 12,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-III-p78-q4-202"
+      },
+      {
+        "bai": 13,
+        "status": "FIXED",
+        "source_id": "BT-Chuong-III-p78-q5-203",
+        "note": "Removed learner-facing provenance note; retained charge sign q=-2 nC from vector equilibrium."
+      },
+      {
+        "bai": 14,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-III-p79-q6-204"
+      },
+      {
+        "bai": 15,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-III-p91-q3-231"
+      },
+      {
+        "bai": 16,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-III-p92-q4-232"
+      },
+      {
+        "bai": 17,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-III-p93-q6-234"
+      },
+      {
+        "bai": 18,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-III-p5-q6-6"
+      },
+      {
+        "bai": 19,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-III-p68-q13-186"
+      },
+      {
+        "bai": 20,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-III-p68-q14-187"
+      },
+      {
+        "bai": 21,
+        "status": "FIXED",
+        "source_id": "BT-Chuong-III-p84-q13-219",
+        "note": "Restored q1=5e-9 C; independently verified tan(alpha)=1 and alpha=45 degrees, answer C."
+      },
+      {
+        "bai": 22,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-III-p85-q15-221"
+      },
+      {
+        "bai": 23,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-III-p86-q18-224"
+      },
+      {
+        "bai": 24,
+        "status": "FIXED",
+        "source_id": "BT-Chuong-III-p15-q6-47",
+        "note": "Removed learner-facing provenance note; retained vector-equilibrium correction for item b."
+      },
+      {
+        "bai": 25,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-III-p21-q1-72"
+      },
+      {
+        "bai": 26,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-III-p21-q2-73"
+      },
+      {
+        "bai": 27,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-III-p23-q4-75"
+      },
+      {
+        "bai": 28,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-III-p72-q1-194"
+      },
+      {
+        "bai": 29,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-III-p73-q2-195"
+      },
+      {
+        "bai": 30,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-III-p74-q3-196"
+      },
+      {
+        "bai": 31,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-III-p75-q4-197"
+      },
+      {
+        "bai": 32,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-III-p88-q2-226"
+      },
+      {
+        "bai": 33,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-III-p8-q23-23"
+      },
+      {
+        "bai": 34,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-III-p8-q24-24"
+      },
+      {
+        "bai": 35,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-III-p12-q39-39"
+      },
+      {
+        "bai": 36,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-III-p13-q41-41"
+      },
+      {
+        "bai": 37,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-III-p14-q3-44"
+      }
+    ]
+  },
+  "summary": {
+    "VERIFIED": 108,
+    "FIXED": 23,
+    "UNRESOLVED": 0
+  },
+  "next": null,
+  "superseded_by": "tools/ch3-completion-status.json",
+  "completion_status": "COMPLETE_NO_UNRESOLVED"
+}

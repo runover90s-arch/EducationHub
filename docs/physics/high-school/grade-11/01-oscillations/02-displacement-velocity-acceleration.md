@@ -124,7 +124,7 @@ Gia tốc luôn hướng về vị trí cân bằng:
 - nếu $x<0$ thì $a>0$;
 - nếu $x=0$ thì $a=0$.
 
-Nói cách khác, vectơ gia tốc luôn ngược hướng với vectơ li độ.
+Nói cách khác, khi $x\ne0$, vectơ gia tốc ngược hướng với vectơ li độ; tại vị trí cân bằng $x=0$ thì $a=0$.
 
 ## 4. Cực trị của gia tốc
 
@@ -251,7 +251,7 @@ $$
 \boxed{\omega^2=\frac{v_1^2-v_2^2}{x_2^2-x_1^2}}.
 $$
 
-Điều kiện: $x_1^2\ne x_2^2$.
+Điều kiện: $x_1^2\ne x_2^2$. Kết quả phải cho $\omega^2>0$; nếu không, hai trạng thái không phù hợp với cùng một dao động điều hòa theo dữ kiện đã cho.
 
 ### Trường hợp biết (v₁, a₁) và (v₂, a₂)
 
@@ -261,7 +261,7 @@ $$
 \boxed{\omega^2=\frac{a_1^2-a_2^2}{v_2^2-v_1^2}}.
 $$
 
-Cần kiểm tra dấu và đơn vị trước khi lấy căn.
+Điều kiện: $v_1^2\ne v_2^2$. Kết quả phải cho $\omega^2>0$; cần kiểm tra dấu và đơn vị trước khi lấy căn.
 
 ## 11. Đồ thị x–t, v–t và a–t
 

@@ -4,6 +4,16 @@
 >
 > Đây là ghi chú bàn giao dành cho AI/maintainer để những lần làm việc sau giữ đúng cách tổ chức, cách biên soạn và các quyết định đã thống nhất với chủ repository.
 
+## 0. Trạng thái môi trường hiện tại — ưu tiên cao nhất
+
+- Chủ repository hiện làm việc **100% trên điện thoại Android**.
+- **GitHub Codespaces hiện không sử dụng được do quota/budget đã hết và KHÔNG phải workflow hiện hành.** Không hướng dẫn tạo/mở/xóa Codespace, không yêu cầu chạy lệnh trong Codespaces và không coi Codespaces là bước mặc định.
+- **Termux là terminal chính** để clone/pull source, giải nén bản `education-hub-vN.zip`, chạy Git, checker, build và push.
+- `github.dev` chỉ là lựa chọn phụ cho chỉnh sửa nhanh; GitHub Actions là quality gate/build/deploy từ xa.
+- Nếu các mục cũ trong file này có nhắc đến Codespaces, coi chúng là **legacy/fallback không hoạt động**. Chỉ được quay lại Codespaces khi người dùng nói rõ rằng Codespaces đã dùng được trở lại và muốn sử dụng nó.
+- Khi bàn giao một ZIP mới, hướng dẫn tiếp theo phải ưu tiên **một khối lệnh Termux copy-paste**, không phải khối lệnh Codespaces.
+- Quy tắc ở mục 0 này **ghi đè mọi hướng dẫn Codespaces cũ** nếu có xung đột.
+
 ## 1. Nguyên tắc chung
 
 - Repository **Education Hub đã tồn tại** và đang dùng **MkDocs Material + GitHub Pages**.
@@ -27,7 +37,7 @@ Khi dùng các nguồn này:
 - Có thể chuẩn hóa Markdown, LaTeX, đơn vị, dấu câu và cách trình bày để người học đọc dễ hơn, **nhưng không được làm thay đổi nội dung học thuật**.
 - Nếu nhiều nguồn nói về cùng một nội dung, cần đối chiếu để tránh đưa đáp án hoặc công thức mâu thuẫn.
 - Nếu một đề có lỗi logic, thiếu dữ kiện, công thức sai hoặc đáp án nguồn sai/chưa được kiểm chứng, chỉ được hiệu chỉnh **mức tối thiểu cần thiết** sau khi đối chiếu chắc chắn với chính PDF/ảnh trang nguồn. Phiên bản sửa phải giữ cùng ý tưởng kiểm tra, dữ kiện cốt lõi, độ khó và văn phong ra đề gần với nguồn.
-- **Không được âm thầm sửa hoặc thay đáp án nguồn.** Nếu đề/đáp án/lời giải trong chính PDF tự mâu thuẫn, phải ghi rõ điểm mâu thuẫn trong phần đáp án/lời giải hoặc đánh dấu cần kiểm tra; không giả vờ nguồn nhất quán.
+- **Không được lấy đáp án nguồn làm bằng chứng duy nhất.** Mọi đáp án phải được kiểm chứng độc lập từ dữ kiện, mô hình, đơn vị, dấu/pha/vectơ và điều kiện áp dụng. Nếu PDF tự mâu thuẫn, chỉ hiệu chỉnh sau khi đã xác minh chắc chắn và bảo toàn dấu vết bằng comment/metadata/report nội bộ; không đưa lịch sử sai lệch nguồn lên trang người học.
 - Không bịa thêm đáp án chỉ để hoàn thiện trang.
 - Nếu không đủ cơ sở để xác minh, phải đánh dấu vấn đề thay vì đoán.
 
@@ -118,6 +128,13 @@ Yêu cầu:
 
 ## 7. Kiểm tra chất lượng bài tập
 
+### 7.1. Re-audit trạng thái VERIFIED
+
+- Khi người dùng yêu cầu audit/re-audit một practice file, GROUP hoặc chương, **không được dùng trạng thái `VERIFIED` từ lượt trước làm lý do để bỏ qua bài đó**. Nếu bài nằm trong phạm vi audit hiện tại thì phải đọc lại đầy đủ đề/hình/phương án/answer/solution và tự giải kiểm chứng độc lập như một bài mới.
+- `FIXED` cũ cũng không phải bằng chứng học thuật; nếu người dùng yêu cầu rà lại toàn phạm vi thì phải kiểm lại sau sửa.
+- Chỉ được bỏ qua phần đã hoàn tất khi người dùng nói rõ **chỉ tiếp tục từ một `NEXT` cụ thể và không rà lại phần trước**.
+- Nếu re-audit một bài từng `VERIFIED` mà phát hiện lỗi, coi đó là tín hiệu chất lượng: kiểm tra các occurrence cùng công thức/template/OCR trong file hoặc phạm vi liên quan, không chỉ sửa riêng một câu.
+
 Trước khi hoàn tất một đợt nhập/sửa bài tập:
 
 - rà lại toàn bộ số bài;
@@ -146,7 +163,7 @@ Từ bản v16, **toàn bộ 61 bộ luyện tập theo từng bài của Vật 
 - sau mỗi đợt sửa phải chạy `check_practice_bank.py`, `check_pdf_import.py`, `check_solution_quality.py`, `check_site.py` và kiểm tra `mkdocs build --strict` khi môi trường có MkDocs.
 - `check_solution_quality.py` phải bao phủ **cả bài biên soạn trước lẫn bài nhập từ PDF**, kiểm tra sự đồng nhất lời giải, cấu trúc Đúng/Sai và yêu cầu bài Mức 4 có đường suy luận đủ rõ.
 - với câu Đúng/Sai nhập từ PDF, lời giải phải có kết luận rõ và giải thích đủ từng ý; không chấp nhận các dòng `a.`, `b.`, `c.`, `d.` trống.
-- khi PDF tự mâu thuẫn giữa đề, bảng đáp án và hướng dẫn, được phép hiệu chỉnh sau khi tính lại chắc chắn nhưng phải ghi `Đối chiếu nguồn`, không sửa âm thầm.
+- khi PDF tự mâu thuẫn giữa đề, bảng đáp án và hướng dẫn, được phép hiệu chỉnh tối thiểu sau khi tính lại chắc chắn; provenance của hiệu chỉnh phải nằm ở comment/metadata/report nội bộ, không hiển thị `Đối chiếu nguồn` trên trang người học.
 - văn phong lời giải ưu tiên nhịp của corpus PDF: **Đáp án/Kết luận → Hướng dẫn giải → Ta có/Suy ra/Thay số → Vậy**; độ dài tăng theo độ khó thực của bài, không theo nhãn mức độ một cách máy móc.
 
 **Bài 1 là mẫu trực quan để đối chiếu, nhưng chuẩn này áp dụng cho toàn bộ Vật lí 11. Không được quay lại format cũ khi bổ sung bài mới.**
@@ -164,151 +181,170 @@ Từ bản v16, **toàn bộ 61 bộ luyện tập theo từng bài của Vật 
 
 ## 10. Quy tắc đóng gói ZIP
 
-File ZIP bàn giao cho người dùng phải đặt theo mẫu:
+File ZIP bàn giao cho người dùng tiếp tục dùng mẫu:
 
 ```text
 education-hub-vN.zip
 ```
 
-Trong đó `N` là số phiên bản tăng dần.
+### 10.1. Reset version đã được người dùng xác nhận
 
-Ví dụ:
+- Chuỗi checkpoint lịch sử kết thúc tại `education-hub-v60.zip`.
+- Theo quyết định của chủ repository ngày 2026-09-12, **chuỗi version hoạt động được reset về `v1` sau checkpoint v60**.
+- Checkpoint đầu tiên của chuỗi mới là `education-hub-v1.zip`; các lượt sau tăng `v2`, `v3`, ... **trong chuỗi mới**, không quay lại `v61`.
+- Các ZIP lịch sử `v42`–`v60` (và các checkpoint cũ hơn nếu còn) được giữ làm lịch sử nhưng **không được dùng số N của chúng để chọn version kế tiếp**.
+- Không ghi đè một checkpoint đã tồn tại trong cùng chuỗi hoạt động.
 
-```text
-education-hub-v10.zip
-education-hub-v11.zip
-education-hub-v12.zip
+### 10.2. Marker chuỗi checkpoint
+
+- Mỗi checkpoint thuộc chuỗi reset phải có `tools/checkpoint-series.json`.
+- Marker hiện hành dùng schema tối thiểu:
+
+```json
+{
+  "series": 2,
+  "version": 1,
+  "reset_after": "education-hub-v60.zip"
+}
 ```
 
-- Không dùng hậu tố dài kiểu `-bai-1-fixed`, `-final`, `-new`, `-fixed2` nếu người dùng không yêu cầu.
-- Bản tiếp theo phải tăng số version, không ghi đè tên version cũ.
-- ZIP phải chứa nội dung repository ở root của archive, không bọc thêm một thư mục cha không cần thiết.
+- `series=1` được hiểu là chuỗi legacy trước reset; ZIP legacy không có marker cũng được coi là series 1.
+- Khi tạo checkpoint mới, giữ nguyên `series=2` và tăng trường `version` đồng bộ với tên file.
+- Khi recovery có đồng thời ZIP legacy `v60` và ZIP reset `v1`, **ZIP có `series` lớn hơn là source of truth**; trong cùng `series`, chọn `version` lớn nhất.
+- Không dùng riêng `sort -V | tail -n 1` trên tên file sau reset, vì cách đó sẽ chọn nhầm `v60` legacy thay vì `v1` của series mới.
 
-## 11. Quy trình GitHub Codespaces khi bàn giao bản ZIP mới
+### 10.3. Cấu trúc archive
 
-Mỗi lần AI/maintainer bàn giao một bản `education-hub-vN.zip`, phải gửi kèm cho người dùng **một khối lệnh duy nhất** để copy-paste trong GitHub Codespaces. Không chia quy trình thành nhiều code block nếu người dùng không yêu cầu.
+- ZIP phải chứa nội dung repository ở root của archive, không bọc thêm thư mục cha.
+- Không dùng hậu tố dài kiểu `-final`, `-fixed`, `-new` nếu người dùng không yêu cầu.
+- Không chứa `.git/`, `site/`, virtualenv, cache, `__pycache__`, file tạm/render/log hoặc checkpoint ZIP cũ.
+- Phải kiểm path traversal/absolute path và chạy `unzip -t` trước khi bàn giao.
 
-**Không được bắt người dùng sửa tên ZIP/version thủ công trong lệnh.** Khối lệnh phải tự xác định file `education-hub-vN.zip` có version lớn nhất đang có trên `origin/main`, đồng bộ file đó về Codespaces, giải nén vào repository hiện tại, rồi **xóa chính file ZIP vừa giải nén** trước khi commit/push.
+## 11. Quy trình Termux khi bàn giao bản ZIP mới
 
-Quy trình bắt buộc:
+Mỗi lần AI/maintainer bàn giao một bản `education-hub-vN.zip`, phải hướng dẫn người dùng xử lý bằng **Termux trên Android**. Codespaces không phải môi trường hiện hành.
 
-1. kiểm tra repository và trạng thái working tree;
-2. `git fetch origin`;
-3. chuyển về nhánh `main`;
-4. `git pull --rebase origin main` để nhận các file người dùng vừa upload trực tiếp lên GitHub;
-5. tự tìm ZIP mới nhất theo mẫu `education-hub-v[0-9]+.zip` bằng version sort, không hard-code `vN`;
-6. nếu ZIP tồn tại trên `origin/main` nhưng chưa xuất hiện trong working tree, lấy đúng file đó từ `origin/main`;
-7. kiểm tra tính toàn vẹn ZIP và chặn archive có đường dẫn nguy hiểm hoặc chứa `.git/`;
-8. giải nén ZIP vào root repository bằng `unzip -o`;
-9. xóa file ZIP vừa giải nén bằng `rm -f -- "$ZIP"` để ZIP không lưu lại trên nhánh `main` sau lần push kế tiếp;
-10. cài/đồng bộ dependency;
-11. chạy các checker và `mkdocs build --strict`;
-12. `git add -A`, commit nếu có thay đổi và `git push origin main`.
+Nguyên tắc:
 
-### 11.1. Lỗi thường gặp: đã upload ZIP lên `main` nhưng Codespaces báo không tìm thấy file
+1. ZIP người dùng tải từ ChatGPT thường nằm trong `~/storage/downloads/` sau khi đã cấp quyền bằng `termux-setup-storage`.
+2. Repository làm việc mặc định là `~/EducationHub`.
+3. Trước khi ghi đè source, kiểm tra working tree; nếu có thay đổi chưa commit thì dừng, không dùng `git reset --hard`.
+4. `git fetch` + `git pull --rebase origin main` trước khi áp dụng ZIP mới.
+5. Tự tìm checkpoint thuộc **series mới nhất** bằng `tools/checkpoint-series.json`; trong cùng series chọn version lớn nhất. Không bắt người dùng sửa version thủ công.
+6. Kiểm tra ZIP bằng `unzip -t` và chặn archive có path traversal, absolute path hoặc `.git/`.
+7. Giải nén vào thư mục tạm rồi copy vào repository; không commit chính file ZIP.
+8. Xóa `tools/__pycache__` và không commit `*.pyc`.
+9. Chạy checker/build khi dependency trên Termux cho phép; GitHub Actions vẫn là quality gate cuối cùng.
+10. Commit và push lên `main`; sau đó kiểm tra tab Actions.
+11. Nếu Git báo `Author identity unknown`, cấu hình repo-local `user.name`/`user.email` trước khi commit.
 
-Nguyên nhân phổ biến là workspace Codespaces chưa đồng bộ với remote. **Không kết luận file không tồn tại trước khi chạy `git fetch`, `git pull` và kiểm tra trực tiếp cây file của `origin/main`.**
+### 11.1. Mẫu khối lệnh Termux mặc định
 
-Khối lệnh chuẩn bên dưới lấy tên ZIP trực tiếp từ `origin/main`, nên không phụ thuộc việc người dùng nhớ tên version mới nhất. Nếu file có trên remote nhưng chưa có ở working tree, lệnh sẽ dùng `git checkout origin/main -- "$ZIP"` để lấy riêng đúng file đó.
-
-Không dùng `git reset --hard`, `git push --force` hoặc `git push -f` làm quy trình mặc định. Nếu working tree đang có thay đổi chưa commit, quy trình phải dừng để tránh ghi đè dữ liệu cục bộ.
-
-### 11.2. Mẫu khối lệnh bắt buộc khi bàn giao
-
-Đây là mẫu mặc định. **Không thay `vN` bằng tay và không yêu cầu người dùng tự sửa tên ZIP.**
+Khi phù hợp, ưu tiên đưa người dùng **một code block duy nhất** có thể copy-paste. Mẫu hiện hành:
 
 ```bash
 set -euo pipefail
 
-printf '\n== Repository ==\n'
-pwd
-git branch --show-current
-git status --short
+cd "$HOME/EducationHub"
 
-# Không tự ghi đè thay đổi local chưa commit.
+printf '\n== Kiểm tra repository ==\n'
+git status --short
 if ! git diff --quiet || ! git diff --cached --quiet || [ -n "$(git ls-files --others --exclude-standard)" ]; then
-  echo "ERROR: Working tree đang có thay đổi chưa commit. Hãy commit/stash các thay đổi này trước rồi chạy lại."
+  echo "ERROR: Repository đang có thay đổi chưa commit. Dừng để tránh ghi đè dữ liệu."
   git status
   exit 1
 fi
 
-printf '\n== Đồng bộ nhánh main với GitHub ==\n'
+printf '\n== Đồng bộ main ==\n'
 git fetch origin
 git switch main
 git pull --rebase origin main
 
-printf '\n== Xác định ZIP Education Hub mới nhất ==\n'
-ZIP="$(git ls-tree -r --name-only origin/main \
-  | grep -E '^education-hub-v[0-9]+\.zip$' \
-  | sort -V \
-  | tail -n 1 || true)"
+printf '\n== Tìm checkpoint thuộc series mới nhất ==\n'
+ZIP="$(python - <<'PY_SELECT_ZIP'
+from pathlib import Path
+import json, re, zipfile
 
-# Fallback: nếu ZIP chưa được track trên origin/main nhưng đang có ở root working tree.
-if [ -z "$ZIP" ]; then
-  ZIP="$(find . -maxdepth 1 -type f -name 'education-hub-v*.zip' -printf '%f\n' \
-    | grep -E '^education-hub-v[0-9]+\.zip$' \
-    | sort -V \
-    | tail -n 1 || true)"
-fi
+roots = [Path.home() / "storage/downloads", Path.home() / "EducationHub"]
+candidates = []
+for root in roots:
+    if root.exists():
+        candidates.extend(root.glob("education-hub-v*.zip"))
 
-if [ -z "$ZIP" ]; then
-  echo "ERROR: Không tìm thấy education-hub-vN.zip trên origin/main hoặc ở root repository."
-  echo "Các ZIP đang có trên origin/main:"
-  git ls-tree -r --name-only origin/main | grep -Ei '\.zip$' || true
+best = None
+for path in candidates:
+    m = re.fullmatch(r"education-hub-v(\d+)\.zip", path.name)
+    if not m:
+        continue
+    legacy_version = int(m.group(1))
+    series = 1
+    version = legacy_version
+    try:
+        with zipfile.ZipFile(path) as zf:
+            marker = "tools/checkpoint-series.json"
+            if marker in zf.namelist():
+                meta = json.loads(zf.read(marker).decode("utf-8"))
+                series = int(meta["series"])
+                version = int(meta["version"])
+    except Exception:
+        continue
+    key = (series, version, path.stat().st_mtime_ns)
+    if best is None or key > best[0]:
+        best = (key, path)
+
+if best:
+    print(best[1])
+PY_SELECT_ZIP
+)"
+
+if [ -z "${ZIP:-}" ] || [ ! -f "$ZIP" ]; then
+  echo "ERROR: Không tìm thấy checkpoint Education Hub hợp lệ."
   exit 1
 fi
 
-echo "ZIP mới nhất: $ZIP"
-
-# Nếu remote có ZIP nhưng working tree chưa có thì lấy riêng file đó.
-if [ ! -f "$ZIP" ]; then
-  git checkout origin/main -- "$ZIP"
-fi
-
-printf '\n== Kiểm tra và giải nén ==\n'
-ls -lh "$ZIP"
+echo "ZIP: $ZIP"
 unzip -t "$ZIP"
-
-# Chặn path traversal/absolute path và không cho archive ghi vào .git.
 if unzip -Z1 "$ZIP" | grep -Eq '(^/|(^|/)\.\.(/|$)|^\.git(/|$))'; then
   echo "ERROR: ZIP chứa đường dẫn không an toàn hoặc chứa .git/."
   exit 1
 fi
 
-unzip -o "$ZIP" -d .
+printf '\n== Áp dụng source mới ==\n'
+TMP="$(mktemp -d)"
+trap 'rm -rf "$TMP"' EXIT
+unzip -q "$ZIP" -d "$TMP"
+rsync -a --exclude='.git/' "$TMP"/ "$HOME/EducationHub"/
+rm -rf tools/__pycache__
 
-printf '\n== Xóa ZIP sau khi giải nén ==\n'
-rm -f -- "$ZIP"
-echo "Đã xóa: $ZIP"
+touch .gitignore
+grep -qxF '__pycache__/' .gitignore || echo '__pycache__/' >> .gitignore
+grep -qxF '*.py[cod]' .gitignore || echo '*.py[cod]' >> .gitignore
 
-printf '\n== Cài dependency và kiểm tra repository ==\n'
-python -m pip install -r requirements.txt
-python tools/check_practice_bank.py
-python tools/check_pdf_import.py
-python tools/check_solution_quality.py
-python tools/check_site.py
-mkdocs build --strict
+printf '\n== Git identity ==\n'
+git config user.name "runover90s-arch"
+git config user.email "266472043+runover90s-arch@users.noreply.github.com"
 
-printf '\n== Commit và push ==\n'
-git status
+printf '\n== Thay đổi sẽ commit ==\n'
 git add -A
+git status --short
 
 if git diff --cached --quiet; then
   echo "Không có thay đổi mới để commit."
 else
-  VERSION="${ZIP%.zip}"
+  VERSION="$(basename "$ZIP" .zip)"
   git commit -m "Update ${VERSION}"
+  git push origin main
 fi
-
-git push origin main
 
 printf '\n== Hoàn tất ==\n'
 git status
 ```
 
-Nếu lệnh dừng vì working tree đang có thay đổi, **không được hướng dẫn người dùng xóa chúng bằng `reset --hard`**. Hãy kiểm tra `git status`; sau đó commit hoặc `git stash -u` nếu người dùng muốn giữ thay đổi, rồi mới chạy lại khối lệnh.
+Nếu lệnh dừng vì working tree có thay đổi, phải xem `git status` và bảo toàn thay đổi đó trước. Không dùng `git reset --hard`, `git push --force` hoặc `git push -f` làm hướng dẫn mặc định.
 
-Khi gửi lệnh cho người dùng, ưu tiên nguyên khối lệnh trên. Chỉ thay đổi mẫu khi repository thực tế đã thay đổi workflow hoặc tên file chuẩn.
+### 11.2. Codespaces là legacy/fallback, không dùng mặc định
+
+Các workflow Codespaces từ phiên bản cũ chỉ được giữ như lịch sử/fallback. **Không đưa lệnh Codespaces cho người dùng trong trạng thái hiện tại.** Chỉ kích hoạt lại nếu chính người dùng xác nhận Codespaces đã khả dụng trở lại và yêu cầu dùng nó.
 
 
 ## 12. Nguyên tắc học thuật cốt lõi
@@ -350,7 +386,7 @@ Phần này tổng hợp các yêu cầu làm việc mà chủ repository đã n
 - Với câu Đúng/Sai, `a)`, `b)`, `c)`, `d)` phải xếp theo hàng dọc và mỗi ý là một paragraph riêng. Trong lời giải, từng ý cũng phải là paragraph riêng và nêu rõ kết luận Đúng/Sai.
 - Thứ tự learner-facing chuẩn là **đề dẫn → hình/đồ thị/sơ đồ dùng chung (nếu có) → phương án hoặc mệnh đề → `Đáp án và lời giải`**. Không đặt hình dữ kiện dùng chung sau các mệnh đề.
 - Trong `??? success "Đáp án và lời giải"`, phần **Đáp án/Kết luận** và **Hướng dẫn giải** phải là các paragraph riêng; phải có dòng trống Markdown thực sự giữa chúng và giữa nhãn `Hướng dẫn giải` với nội dung giải tiếp theo.
-- `Đối chiếu nguồn`, khi thật sự cần để minh bạch mâu thuẫn học thuật, phải nằm bên trong khối `??? success "Đáp án và lời giải"` của đúng bài; diễn đạt trung tính và tránh từ nội bộ như `repository`, `learner-facing`, `corpus` nếu không cần.
+- Không hiển thị trên trang người học các ghi chú provenance/nội bộ như `Đối chiếu nguồn`, `Đối chiếu nguồn PDF`, `PDF chọn...`, lịch sử source sai, ghi chú repository/corpus/import. Nếu cần bảo toàn provenance, dùng comment HTML ẩn hoặc metadata/report nội bộ theo schema hiện hành.
 - Các quy tắc về A/B/C/D, a/b/c/d, thứ tự đề → hình → lựa chọn/mệnh đề → lời giải và paragraph của `Đáp án`/`Hướng dẫn giải` áp dụng cho toàn bộ nội dung Vật lí 11 có cấu trúc tương ứng, không chỉ các trang practice hoặc Bài 1.
 - Quality gate phải **fail** các lỗi deterministic tương ứng: ghép A/B/C/D hoặc a/b/c/d trong cùng paragraph, thiếu một marker bắt buộc, lời giải Đúng/Sai thiếu verdict/giải thích theo từng ý, `Đáp án` và `Hướng dẫn giải` dính cùng paragraph, hình local không tồn tại, hoặc hình dữ kiện đứng sau choices/statements. Không hạ threshold cũ, không dùng allowlist hàng loạt và không vô hiệu duplicate/source checker để làm gate xanh.
 - Các nghi vấn ngữ nghĩa như câu hỏi quá ngắn, không thấy dữ kiện/hình nhưng có đáp án số chỉ được báo **WARNING** khi checker chưa thể chứng minh lỗi; phải đối chiếu nguồn trước khi sửa dữ kiện.
@@ -377,20 +413,26 @@ Khi người dùng yêu cầu kiểm tra chất lượng đáp án/lời giải,
 
 Mức độ chi tiết của lời giải phải theo độ khó:
 
-- **Nhận biết:** nêu căn cứ/công thức chính và kết luận; không cần kéo dài giả tạo.
-- **Thông hiểu:** chỉ rõ quan hệ vật lí, công thức, thay số và kết luận.
-- **Vận dụng:** chia bước hợp lý, giải thích lựa chọn công thức/phương pháp, theo dõi đơn vị và điều kiện.
-- **Vận dụng cao/bài khó:** giải chi tiết theo từng bước; giải thích chiến lược, biến đổi trung gian quan trọng, điều kiện, kiểm tra kết quả và kết luận rõ ràng.
+- **Dễ/nhận biết:** căn cứ hoặc công thức chính → áp dụng/thay số → kết luận.
+- **Trung bình/thông hiểu:** nêu lí do chọn quan hệ → biến đổi rõ → kết luận.
+- **Vận dụng:** dữ kiện → công thức/phương pháp → thay số → đơn vị/điều kiện → kết luận.
+- **Khó/vận dụng cao:** phân tích dữ kiện → chiến lược → các bước trung gian → điều kiện/dấu/pha/vectơ → kiểm tra → kết luận và bẫy nếu có.
 
 Phong cách lời giải sau khi chỉnh phải **giữ văn phong của các PDF nguồn**: trực tiếp, theo bước, ưu tiên công thức và lập luận vật lí; chỉ làm rõ hơn cho người học, không biến thành một văn phong hoàn toàn khác.
 
 Nếu phát hiện đáp án hoặc lời giải trong PDF nguồn sai:
 
-- được phép sửa khi đã có đủ căn cứ kiểm chứng;
+- được phép sửa khi đã có đủ căn cứ kiểm chứng độc lập;
 - phải sửa cả đáp án và lời giải cho nhất quán;
-- phải ghi rõ trong phần lời giải rằng **đáp án/lời giải nguồn có sai lệch và đã được hiệu chỉnh**, không âm thầm thay đổi;
 - không đổi đề nếu không cần; ưu tiên sửa đúng điểm sai nhỏ nhất;
-- nếu chưa đủ chắc chắn, đánh dấu cần kiểm tra thay vì đoán.
+- provenance của hiệu chỉnh phải được giữ bằng comment/metadata/report nội bộ, không bằng ghi chú learner-facing;
+- nếu chưa đủ chắc chắn, đánh dấu cần kiểm tra trong lớp nội bộ thay vì đoán.
+
+Với câu trắc nghiệm **một đáp án A–D**:
+
+- sau khi kiểm chứng chắc chắn mà không có phương án đúng, được sửa **tối thiểu một phương án** để có đúng một đáp án;
+- không thêm phương án `E`;
+- không để lựa chọn kiểu `Không có phương án phù hợp` nếu kết quả vật lí xác định được chắc chắn.
 
 ### 13.4. Không làm mất dấu vết quyết định dự án
 
@@ -400,14 +442,16 @@ Nếu phát hiện đáp án hoặc lời giải trong PDF nguồn sai:
 - Nếu người dùng nói `tiếp tục`, tiếp tục đúng phần đang làm dở và trạng thái `Next`; không quay lại khởi tạo hoặc làm lại từ đầu.
 
 
-### 13.5. Quy trình Codespaces là một khối lệnh duy nhất
+### 13.5. Quy trình Termux là workflow bàn giao hiện hành
 
-- Mỗi bản ZIP bàn giao phải kèm **một code block duy nhất** cho Codespaces.
-- Khối lệnh phải tự tìm `education-hub-vN.zip` có version lớn nhất; không bắt người dùng sửa tên/version thủ công.
-- Phải `git fetch` + `git pull --rebase origin main` trước khi tìm ZIP để xử lý trường hợp người dùng upload file trực tiếp lên nhánh `main` nhưng Codespaces chưa thấy.
-- Sau khi kiểm tra archive, phải `unzip -o` vào root repo rồi **xóa chính ZIP vừa giải nén**.
-- Sau đó chạy checker/build, `git add -A`, commit nếu có thay đổi và `git push origin main`.
+- Mỗi bản ZIP bàn giao phải ưu tiên **một code block Termux duy nhất** để người dùng copy-paste khi cần áp dụng source vào repository.
+- Không yêu cầu người dùng quay lại Codespaces trong workflow hiện tại.
+- Lệnh phải tự tìm checkpoint thuộc **series mới nhất** trong `~/storage/downloads/` hoặc root repo; trong cùng series chọn version lớn nhất, không bắt sửa `vN` bằng tay.
+- Phải kiểm tra working tree, đồng bộ `origin/main`, kiểm tra archive, giải nén an toàn, bỏ `__pycache__`, commit và push.
+- Phải xử lý trước lỗi Git identity thường gặp trên Termux bằng repo-local `git config user.name` và `git config user.email`.
 - Không dùng `git reset --hard`, `git push --force` hoặc `git push -f` làm hướng dẫn mặc định.
+- GitHub Actions là quality gate/build/deploy sau khi push.
+
 
 ### 13.6. Provenance khi khử trùng và tách source block PDF
 
@@ -427,14 +471,34 @@ Quy tắc này là migration/provenance rule, không phải cơ chế nới qual
 
 **Handoff rule:** Khi repository này được gửi lại trong một phiên ChatGPT mới, hãy coi `tools/AI-INSTRUCTIONS.md` là tài liệu điều phối dự án và đọc nó trước khi đề xuất hoặc thực hiện thay đổi.
 
-## 14. Quy trình mobile-first không phụ thuộc Codespaces — áp dụng từ v39
+## 14. Workflow Android hiện hành — Termux-first, không dùng Codespaces
 
-Chủ repository có thể làm việc hoàn toàn trên điện thoại Android và không muốn phụ thuộc quota GitHub Codespaces.
+Chủ repository hiện làm việc hoàn toàn trên Android và **Codespaces đang không khả dụng do quota/budget**. Trạng thái này là một ràng buộc thực tế, không chỉ là sở thích.
 
-- Ưu tiên `github.dev` cho chỉnh sửa, tìm kiếm, diff, commit/push và quản lý branch.
-- Dùng GitHub Actions làm quality gate/build từ xa; không yêu cầu Codespaces chỉ để chạy checker.
-- Dùng Termux khi cần terminal, chạy checker/build hoặc `mkdocs serve` local.
+- **Termux là môi trường terminal chính** cho Git, giải nén source, checker, build và push.
+- `github.dev` có thể dùng cho chỉnh sửa nhanh nhưng không thay thế Termux khi cần terminal.
+- GitHub Actions làm quality gate/build/deploy từ xa.
+- Không đề xuất mua thêm quota, tăng budget, tạo Codespace mới hoặc quay lại Codespaces trừ khi người dùng chủ động hỏi.
+- Không tạo hướng dẫn phụ thuộc Codespaces trong bản source mới.
 - Workflow `Validate Education Hub` phải kiểm tra branch/PR bằng đủ: `check_practice_bank.py`, `check_pdf_import.py`, `check_solution_quality.py`, `check_site.py`, và `mkdocs build --strict`.
 - Workflow deploy trên `main` cũng phải chạy đủ các checker trên trước khi publish GitHub Pages.
-- Khi bàn giao source trong bối cảnh mobile-first, ưu tiên hướng dẫn upload/commit bằng GitHub web hoặc github.dev; chỉ đưa khối lệnh Codespaces ở mục 11 nếu người dùng thật sự quay lại Codespaces hoặc yêu cầu nó.
-- Tài liệu hướng dẫn mobile chính thức của repository nằm tại `MOBILE-DEVELOPMENT.md`; cập nhật file này nếu workflow hoặc lệnh kiểm tra thay đổi.
+- Khi bàn giao source, ưu tiên workflow: **tải ZIP về Android → Termux áp dụng ZIP vào `~/EducationHub` → commit/push → kiểm tra GitHub Actions**.
+- Tài liệu hướng dẫn mobile chính thức nằm tại `MOBILE-DEVELOPMENT.md`; cập nhật file đó nếu workflow/lệnh thay đổi.
+- Chỉ thay đổi trạng thái này khi người dùng xác nhận rõ rằng Codespaces đã dùng được trở lại và muốn chuyển về Codespaces.
+
+
+## 15. Khi người dùng gửi lại source/ZIP trong một phiên ChatGPT mới
+
+Mục tiêu của phần này là tránh trường hợp AI thấy file ZIP nhưng kết luận nhầm rằng "không đọc được" chỉ vì công cụ tìm kiếm nội dung không index archive.
+
+- Khi người dùng đính kèm `education-hub-vN.zip`, phải coi đó là **source dự án có thể đọc và xử lý**, không yêu cầu người dùng tự giải nén trước.
+- **Không dùng kết quả `files.search` rỗng hoặc thông báo ZIP không được index làm bằng chứng rằng file không đọc được.** ZIP/binary archive thường không có text index.
+- Nếu phiên hiện tại cung cấp đường dẫn file đã mount/sandbox path, dùng **đúng đường dẫn đó** để kiểm tra archive bằng công cụ container (`unzip -l`, `unzip -p`, giải nén vào thư mục tạm khi cần).
+- Nếu file chỉ có file reference mà chưa có bytes trong container, dùng Files để **materialize bản `raw_file`** rồi mới xử lý bằng container. Không đoán đường dẫn từ tên file.
+- Bước đọc đầu tiên sau khi mở ZIP là tìm và đọc `tools/AI-INSTRUCTIONS.md`; sau đó mới đọc cây thư mục, `README.md`, `mkdocs.yml`, workflow và các file liên quan đến yêu cầu hiện tại.
+- Chỉ yêu cầu người dùng upload lại khi file thật sự **không còn trong cuộc trò chuyện/thư viện, materialize thất bại, archive hỏng, hoặc thiếu file cần thiết**. Không yêu cầu upload lại chỉ vì một công cụ semantic search không đọc được ZIP.
+- Khi người dùng gửi một source ZIP mới hơn, coi source đó là trạng thái dự án hiện hành để tiếp tục; không tự quay về bản cũ chỉ vì bản cũ từng được đọc ở phiên trước.
+- Khi bàn giao lại source, tăng version theo mục 10 và giữ cấu trúc repository ở root archive.
+- ZIP bàn giao là **gói trao đổi source**, không phải file nội dung cần giữ trong repository. Khi cập nhật GitHub, phải giải nén/merge nội dung vào repo; không chỉ upload ZIP rồi chờ GitHub tự giải nén.
+
+**Quy tắc chốt:** nếu người dùng nói kiểu “mình gửi file rồi, đọc source này và làm tiếp”, hãy ưu tiên mở chính attachment/source ZIP đó trước; không trả lời rằng không thể đọc file cho đến khi đã thử đúng đường dẫn mount hoặc quy trình materialize `raw_file` nêu trên.
