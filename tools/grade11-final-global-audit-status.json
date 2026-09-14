@@ -1,0 +1,141 @@
+{
+  "mode": "FINAL GLOBAL AUDIT / UPDATE / RELEASE CHECKPOINT",
+  "scope": "docs/physics/high-school/grade-11/",
+  "base_version": "education-hub-v24.zip",
+  "target_checkpoint": "education-hub-v25.zip",
+  "final_status": "VERIFIED SOURCE, BUILD UNAVAILABLE",
+  "repository_inventory": {
+    "chapters": 8,
+    "lesson_practice_sets": 61,
+    "authored_questions": 540,
+    "pdf_canonical_questions": 1633,
+    "total_question_blocks_checked_by_solution_gate": 2173,
+    "canonical_source_ids": 1633,
+    "source_alias_ids": 10,
+    "markdown_files_grade11": 228,
+    "physical_images_grade11_assets": 279,
+    "markdown_image_references": 280
+  },
+  "global_regression": {
+    "learner_facing_internal_source_notes": "PASS: 0 visible occurrences after stripping HTML comments",
+    "forbidden_no_matching_option_phrases": "PASS: 0 visible occurrences",
+    "generic_solution": "PASS: solution-quality gate 0 errors; heuristic exact repeated generic solution body >=3 occurrences: 0; five short 'Chọn X' hits inspected and all follow question-specific reasoning",
+    "single_choice_presentation": "PASS: 0 E options, 0 inline A/B/C/D rows found by source scan",
+    "answer_guidance_separation": "PASS: 0 occurrences with Đáp án and Hướng dẫn giải on the same source line",
+    "latex": "PASS: 0 legacy delimiters and 0 selected LaTeX commands outside math after math spans are removed; site lint 0 errors/0 warnings",
+    "images": "PASS: 280 references resolve; 279 physical image files decode successfully; no referenced exercise image occurs after the first answer option",
+    "links_nav": "PASS at source lint; no dead local image/link reported by check_site",
+    "provenance": "PASS: 1633 canonical source-id + 10 aliases; no duplicate canonical source-id reported by check_pdf_import",
+    "unresolved_learner_text": "PASS: 0 remaining occurrences of prior Ch.III unresolved answer text"
+  },
+  "academic_regressions_fixed": [
+    {
+      "chapter": "III",
+      "source_id": "BT-Chuong-III-p145-q3-365",
+      "display_bai": 68,
+      "file": "docs/physics/high-school/grade-11/03-electric-field/practice/07-charged-particle-motion/exercises.md",
+      "finding": "Original PDF stem omitted sign of q, but its answer table and worked comparison use q as positive; the old repository therefore left b/c unresolved.",
+      "repair": "Minimal stem clarification to 'điện tích dương q'; restored determinate T/F answer a Đúng, b Đúng, c Sai, d Đúng and sign-aware reasoning.",
+      "pdf_visual_check": "BT-Chương III_1.pdf page 145 rendered and inspected"
+    },
+    {
+      "chapter": "III",
+      "source_id": "BT-Chuong-III-p128-q15-317",
+      "display_bai": 73,
+      "file": "docs/physics/high-school/grade-11/03-electric-field/practice/07-charged-particle-motion/exercises.md",
+      "finding": "Original PDF stem omitted sign of q, while option A is highlighted and A=qU comparison assumes q>0; the old repository had no unique A-D answer.",
+      "repair": "Minimal stem clarification to 'điện tích dương q'; restored unique answer A and direct A=qU reasoning.",
+      "pdf_visual_check": "BT-Chương III_1.pdf page 128 rendered and inspected"
+    }
+  ],
+  "expanded_reaudit_due_to_regression": {
+    "scope": "Chapter III sign-sensitive electric-work statements",
+    "result": "Search across Chapter III found no third learner-facing occurrence where an unspecified sign of q changes a keyed work comparison; remaining q-unspecified occurrences are sign-independent or explicitly discuss sign."
+  },
+  "targeted_academic_spot_checks": {
+    "I": [
+      "BT-Chuong-I-p71-q35-194: independently recomputed omega=20 rad/s and A=6 cm; option C",
+      "oscillation-energy authored T/F Bài 5: kinetic/potential extrema, T/2 energy period, total energy conservation",
+      "simple-pendulum authored Bài 8: +21% length -> T2=2.2 s",
+      "BT-Chuong-I-p131-q32-346: undamped exact resonance has no finite steady amplitude; repaired option C remains correct",
+      "BT-Chuong-I-p15-q36-36: rendered graph inspected; A=4 cm, T=0.2 s, phi=2pi/3 matches option A"
+    ],
+    "II": [
+      "mechanical-wave Bài 1/4: lambda=v/f and T/F definitions",
+      "mechanical-interference Bài 8: 10 minima between in-phase sources for AB=20 cm, lambda=4 cm",
+      "standing-wave BT-Chuong-II-p164-q2-386: figure has 3 loops, lambda=0.8 m, f=13.3 Hz",
+      "Young BT-Chuong-II-p144-q1-335: nm/mm conversion gives D=1.6 m",
+      "sound BT-Chuong-II-p56-q3-127: 30 dB difference -> intensity ratio 1000",
+      "Doppler authored Bài 8: f'=875 Hz with source and observer approaching"
+    ],
+    "III": [
+      "Coulomb authored Bài 1: F=0.6 N",
+      "capacitor authored Bài 5/10: T/F invariants and isolated-capacitor energy change",
+      "charged-particle authored Bài 8: 100 V electron acceleration gives 5.93e6 m/s",
+      "clean-v14/iii_p120_q6_302_fig1.webp visually inspected: corrected h-axis labels 2.90 to 3.0 m and E direction retained",
+      "two formerly UNRESOLVED source items p128-q15 and p145-q3 resolved by direct PDF inspection"
+    ],
+    "IV": [
+      "full-circuit Ohm authored Bài 1: 12 V/(5+1) ohm = 2 A",
+      "energy-power authored Bài 8: I=5 A, P=1100 W, Q=3.3e5 J",
+      "BT-Chuong-IV-p99-q35-297 repaired option: r=26/135 ohm, E=538/45 V, unique A",
+      "BT-Chuong-IV-p39-q2-142: circuit figure inspected; topology R1 || {R4 + [R2 || (R3+R5)]}; T/F calculations remain consistent",
+      "ideal meter authored checks: ammeter ~0 ohm, voltmeter ~infinite ohm"
+    ],
+    "V": [
+      "metal authored Bài 4/8: electron drift vs conventional current and linear R(T) example",
+      "electrolysis authored Bài 4/8: m=kq; q=It only for constant current; Ag mass ~3.02 g with unit conversion",
+      "gas authored Bài 8: 15 kV across 5 mm -> ~3.0e6 V/m with stated approximation",
+      "semiconductor authored Bài 4/8: hole is not proton; forward silicon-drop model yields 4.3 mA and is labeled approximate",
+      "vacuum authored Bài 4/8: electron carriers and 5 kV classical estimate ~4.19e7 m/s",
+      "web cross-check: OpenStax electrolysis and semiconductor-device pages plus vatlypt semiconductor page"
+    ],
+    "VI": [
+      "force-on-wire authored Bài 1/4/8: F=BI l sin alpha, vector reversal, balance I=1 A",
+      "parallel-current authored Bài 1/4/8: same-direction attraction and force 6.67e-5 N on 0.5 m segment",
+      "Lorentz theory: q<0 reverses v x B direction; magnetic force does no work",
+      "Lorentz authored Bài 8: r=5 cm with q/m=2e7 and v=2e6 gives B=2 T and half-period 7.85e-8 s",
+      "web cross-check: OpenStax magnetic-force/radius/period/current-loop equations and vatlypt magnetism overview"
+    ],
+    "VII": [
+      "flux authored Bài 1/4/8: alpha is angle to chosen normal; signed flux and N*DeltaPhi=0.12 Wb-turn",
+      "Lenz-Faraday authored Bài 4/8: induced effect opposes change in flux; signed DeltaPhi from +0.06 to -0.02 gives 2 V",
+      "motional-emf authored Bài 1/4/8: B l v only in stated perpendicular geometry; polarity from v x B; Fv=I^2R energy check",
+      "self-induction authored Bài 4/8: -L dI/dt, 16 V and 0.8 J; direction opposes current change",
+      "web cross-check: OpenStax Faraday/Lenz/motional-emf/inductance plus vatlypt induction/self-induction pages"
+    ],
+    "VIII": [
+      "TIR authored Bài 1/4/8: n1>n2 and i>ic; fiber example ic~69 degrees then TIR at 75 degrees",
+      "thin-lens authored Bài 4/8: d'=36 cm, k=-2, real inverted image for f=12 cm,d=18 cm",
+      "Bessel authored Bài 8: L=90 cm,f=20 cm -> d=30 or 60 cm",
+      "eye authored Bài 4/8: myopia corrected by diverging lens; d'=-10 cm with f=-40 cm gives near object 13.3 cm",
+      "optical-instrument Bài 1 rechecked after prior fix: magnifier virtual image requires object inside f; at f gives relaxed viewing to infinity",
+      "web cross-check: OpenStax thin-lens/eye/magnifier pages"
+    ]
+  },
+  "representative_figure_visual_checks": [
+    "Ch.I clean-bai-1/bt-104-p015-q36.webp: axes, amplitude and time labels intact; no answer embedded",
+    "Ch.II clean-v14/ii_p164_q2_386_fig1.webp: three standing-wave loops visible; no answer embedded",
+    "Ch.III clean-v14/iii_p120_q6_302_fig1.webp: axes/data labels intact after prior correction; no answer embedded",
+    "Ch.IV clean-v14/iv_p39_q2_142_fig1.webp: multi-branch topology legible and matches solution; no answer embedded"
+  ],
+  "quality_gate": {
+    "tools/test_quality_gate.py": "NOT RUN: file does not exist in source-of-truth v24",
+    "python tools/check_practice_bank.py": "PASS: 0 structural errors",
+    "python tools/check_pdf_import.py": "PASS: 0 integrity errors; 1633 canonical + 10 aliases",
+    "python tools/check_solution_quality.py": "PASS: 0 errors across 2173 question blocks",
+    "python tools/check_site.py": "PARTIAL: lint PASS 0 errors/0 warnings; command exits at BUILD001 because mkdocs executable is missing",
+    "mkdocs build --strict": "NOT RUN successfully: mkdocs command not found",
+    "dependency_install": "FAILED: python -m pip install -r requirements.txt could not resolve/connect to package index because environment DNS/name resolution is unavailable"
+  },
+  "render_mobile": {
+    "html_build": "UNAVAILABLE because MkDocs could not be installed in this environment",
+    "browser_viewports": "NOT RUN: no built site available for 360/390/430 px smoke test",
+    "source_level_mobile_checks": "PASS: site source lint clean; MathJax/display math CSS has horizontal overflow handling; representative referenced figures visually inspected"
+  },
+  "unresolved": [],
+  "supersedes": {
+    "tools/ch3-final-audit-status.json": "The two historical unresolved source_ids are resolved in this global final pass; the historical file is retained as audit history."
+  },
+  "next": null
+}

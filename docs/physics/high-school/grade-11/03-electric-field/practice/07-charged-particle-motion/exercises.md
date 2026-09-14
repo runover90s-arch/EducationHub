@@ -1588,7 +1588,7 @@ d) Công của lực điện để dịch chuyển một điện tích $q=2\cdot
 
 <!-- source-id: BT-Chuong-III-p145-q3-365 -->
 
-Một điện tích q chuyển động từ điểm A đến B, đến C, đến D và về A trong điện trường đều như hình vẽ.
+Một điện tích dương $q$ chuyển động từ điểm A đến B, đến C, đến D và về A trong điện trường đều như hình vẽ.
 
 ![Hình minh họa của bài](../../../assets/exercise-figures/clean-v14/iii_p145_q3_365_fig1.webp){ loading=lazy }
 
@@ -1601,23 +1601,21 @@ c) Công của lực điện dịch chuyển điện tích: $A_{BC}<A_{CD}$.
 d) Công của lực điện khi dịch chuyển điện tích đi hết chu trình bằng $0\,\mathrm J$.
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** a) Đúng; b) Không xác định duy nhất từ đề; c) Không xác định duy nhất từ đề; d) Đúng.
+    **Đáp án:** a) Đúng; b) Đúng; c) Sai; d) Đúng.
 
     **Hướng dẫn giải:**
 
-    **Chiến lược.** Dùng $A=qE\Delta x$ với $\Delta x$ là hình chiếu độ dời lên chiều $\vec E$, đồng thời tách hai trường hợp dấu của $q$.
+    **Chiến lược.** Với $q>0$, dùng $A=qE\Delta x$, trong đó $\Delta x$ là hình chiếu đại số của độ dời lên chiều $\vec E$.
 
-    a) **Đúng.** Đổi chiều hai điểm đầu - cuối làm $\Delta x$ đổi dấu, nên $A_{AB}=-A_{BA}$ với mọi $q$.
+    a) **Đúng.** Đổi chiều hai điểm đầu - cuối làm $\Delta x$ đổi dấu nên $A_{AB}=-A_{BA}$.
 
-    b) **Không xác định duy nhất.** Từ B đến D, $\Delta x<0$. Vì $A_{BD}=qE\Delta x$, nếu $q>0$ thì $A_{BD}<0$, còn nếu $q<0$ thì $A_{BD}>0$.
+    b) **Đúng.** Từ B đến D, hình chiếu độ dời lên chiều $\vec E$ âm, nên $A_{BD}=qE\Delta x<0$.
 
-    c) **Không xác định duy nhất.** Ta có $d_{BC}>0$ và $d_{CD}<0$. Với $q>0$: $A_{BC}>0>A_{CD}$ nên $A_{BC}<A_{CD}$ sai. Với $q<0$, các dấu đảo lại và mệnh đề trở thành đúng.
+    c) **Sai.** Từ B đến C có hình chiếu dương còn từ C đến D có hình chiếu âm. Vì $q>0$, $A_{BC}>0>A_{CD}$, do đó không thể có $A_{BC}<A_{CD}$.
 
-    d) **Đúng.** Với chu trình kín, $\Delta V=0$ nên tổng công của lực điện bằng $0$ với mọi $q$.
+    d) **Đúng.** Với chu trình kín, $\Delta V=0$ nên tổng công của lực điện bằng $0$.
 
-    **Kiểm tra.** Các ý a), d) không phụ thuộc dấu điện tích; b), c) đổi kết luận khi đổi dấu $q$. Vì đề không cho dấu $q$, hai ý b), c) không thể chốt duy nhất.
-
-    <!-- source-audit: UNRESOLVED — đề và hình không cho dấu của q; b), c) phụ thuộc dấu q nên không có kết luận duy nhất. -->
+    <!-- source-audit: FIXED — stem nguồn không ghi dấu q nhưng bảng đáp án và phần giải của chính PDF đều xử lí q như điện tích dương; learner-facing được bổ sung “dương” tối thiểu để khôi phục bộ Đúng/Sai xác định duy nhất. -->
 #### Bài 69
 
 <!-- source-id: BT-Chuong-III-p145-q4-366 -->
@@ -1728,7 +1726,7 @@ D. Khối lượng $m$ của điện tích.
 
 <!-- source-id: BT-Chuong-III-p128-q15-317 -->
 
-Điện tích $q$ chuyển động từ M đến N trong một điện trường đều, công của lực điện càng nhỏ nếu
+Điện tích dương $q$ chuyển động từ M đến N trong một điện trường đều, công của lực điện càng nhỏ nếu
 
 A. hiệu điện thế $U_{MN}$ càng nhỏ.
 
@@ -1739,19 +1737,13 @@ C. đường đi từ M đến N càng dài.
 D. đường đi từ M đến N càng ngắn.
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** Không đủ dữ kiện để chọn duy nhất; nếu $q>0$ thì chọn A.
+    **Đáp án:** A
 
     **Hướng dẫn giải:**
 
-    **Chiến lược.** Dùng trực tiếp quan hệ công - hiệu điện thế và kiểm tra ảnh hưởng của dấu điện tích.
+    Với điện tích dương, $A_{MN}=qU_{MN}$ nên công tăng cùng $U_{MN}$. Vì vậy $U_{MN}$ càng nhỏ thì công của lực điện càng nhỏ. Công của lực điện tĩnh không phụ thuộc độ dài đường đi, nên C và D không quyết định kết quả. Chọn **A**.
 
-    **Phương trình.** $A_{MN}=qU_{MN}$.
-
-    **Dấu.** Nếu $q>0$, $A_{MN}$ tăng theo $U_{MN}$ nên $U_{MN}$ càng nhỏ thì công càng nhỏ: chọn A. Nếu $q<0$, thứ tự đảo lại nên $U_{MN}$ càng lớn thì công càng nhỏ: khi đó chọn B. Độ dài đường đi không quyết định công của lực điện.
-
-    **Kiểm tra.** Hai dấu của $q$ dẫn đến hai phương án khác nhau, vì vậy đề thiếu dữ kiện để có một đáp án duy nhất.
-
-    <!-- source-audit: UNRESOLVED — câu dẫn chỉ cho điện tích q, không cho dấu; thứ tự A=qU_MN đảo khi q<0. -->
+    <!-- source-audit: FIXED — stem nguồn không ghi dấu q nhưng đáp án A được tô và quan hệ trong hướng dẫn chỉ đúng theo chiều so sánh đó khi q>0; learner-facing được bổ sung “dương” tối thiểu để câu một đáp án xác định. -->
 
 ### Vận dụng — Trắc nghiệm 4 lựa chọn
 
