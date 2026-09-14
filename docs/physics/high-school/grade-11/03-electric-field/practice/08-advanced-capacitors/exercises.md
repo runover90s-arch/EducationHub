@@ -179,6 +179,7 @@ Xét các tụ điện giống nhau có điện dung $C=20\,\mu\mathrm F$. Ghép
     $C_{MN}=C+C/2=3C/2=30\,\mu\mathrm F$.
     Do đó $Q=C_{MN}U=30\cdot10^{-6}\cdot12=3{,}6\cdot10^{-4}\,\mathrm C=0{,}36\,\mathrm{mC}$.
 
+    <!-- source-audit: Ô đáp án PDF để trống; kết quả được kiểm độc lập từ sơ đồ. -->
 
 #### Bài 12
 
@@ -196,6 +197,7 @@ Cho các tụ điện $C_1=C_2=C_3=C_4=5\,\mu\mathrm F$ được mắc thành m�
     M và N nối trực tiếp nên là cùng một nút. Vì vậy $C_1$ song song $C_3$ cho $10\,\mu\mathrm F$, còn $C_2$ song song $C_4$ cũng cho $10\,\mu\mathrm F$. Hai nhóm này nối tiếp nên
     $C_{\mathrm{eq}}=\dfrac{10\cdot10}{10+10}=5\,\mu\mathrm F$.
 
+    <!-- source-audit: Ô đáp án PDF để trống; kết quả được kiểm độc lập từ sơ đồ. -->
 
 #### Bài 13
 
@@ -213,6 +215,7 @@ Ba tụ $C_1=2\cdot10^{-9}\,\mathrm F$, $C_2=4\cdot10^{-9}\,\mathrm F$, $C_3=6\c
     $Q_{\max}=\min(C_1U_{1\max},C_2U_{2\max},C_3U_{3\max})=2\cdot10^{-9}\cdot500=10^{-6}\,\mathrm C$.
     Khi đó $U_1=500\,\mathrm V$, $U_2=250\,\mathrm V$, $U_3\approx166{,}7\,\mathrm V$, nên $U_{\max}\approx916{,}7\,\mathrm V$.
 
+    <!-- source-audit: Ô đáp án PDF để trống; kết quả được kiểm độc lập. -->
 
 #### Bài 14
 
@@ -229,6 +232,7 @@ Hai tụ điện có điện dung và hiệu điện thế giới hạn lần l�
     $Q_{\max}=\min(5\,\mu\mathrm F\cdot500\,\mathrm V,10\,\mu\mathrm F\cdot1000\,\mathrm V)=2{,}5\,\mathrm{mC}$.
     Khi đó $U_1=500\,\mathrm V$, $U_2=250\,\mathrm V$, nên hiệu điện thế giới hạn của bộ là $750\,\mathrm V$.
 
+    <!-- source-audit: Ô đáp án PDF để trống; kết quả được kiểm độc lập. -->
 
 #### Bài 15
 
@@ -247,6 +251,7 @@ Electron thoát ra từ K, được tăng tốc bởi một điện trường đ
     Trên quãng bay tự do $\ell$, độ lệch thêm là $y_2=v_y\ell/v=as\ell/v^2$. Vì $b=y_1+y_2$,
     $v=\sqrt{\dfrac{eUs(\ell+s/2)}{m_e d b}}\approx1{,}585\cdot10^7\,\mathrm{m/s}$.
 
+    <!-- source-audit: Ô đáp án Câu 13 trong PDF để trống; kết quả được kiểm độc lập với e=1,6e-19 C và m_e=9,1e-31 kg. -->
 
 #### Bài 16
 
@@ -264,6 +269,7 @@ giá trị bao nhiêu vôn?
     Nối các bản cùng dấu nên điện tích toàn hệ được bảo toàn và hiệu điện thế cuối là
     $U=\dfrac{C_1U_1+C_2U_2}{C_1+C_2}=\dfrac{2\cdot200+3\cdot400}{2+3}=320\,\mathrm V$.
 
+    <!-- source-audit: Ô đáp án PDF để trống; kết quả được kiểm độc lập. -->
 
 #### Bài 17
 
@@ -280,6 +286,7 @@ Trên vỏ tụ điện (1) ghi $4700\,\mu\mathrm F-35\,\mathrm V$ và tụ đi�
     $Q_{\max}=\min(4700\,\mu\mathrm F\cdot35\,\mathrm V,3300\,\mu\mathrm F\cdot25\,\mathrm V)=82{,}5\,\mathrm{mC}$.
     Do đó $U_1=Q_{\max}/C_1\approx17{,}55\,\mathrm V$, $U_2=25\,\mathrm V$, nên $U_{\max}\approx42{,}55\,\mathrm V$.
 
+    <!-- source-audit: Ô đáp án PDF để trống; kết quả được kiểm độc lập. -->
 
 #### Bài 18
 
@@ -298,4 +305,5 @@ Hiệu điện thế giữa hai điểm M, B là bao nhiêu vôn?
     Gọi $C_1=C$, khi đó $C_2=2C$. Từ M đến B có hai tụ $C_1$ song song nên $C_{MB}=2C$. Nhánh N–M có $C_2=2C$ nối tiếp với $C_{MB}=2C$, tương đương $C$; song song với tụ $C_1$ trực tiếp từ N xuống B nên $C_{NB}=2C$.
     Vì tụ A–N cũng có điện dung $C_2=2C$, hai phần A–N và N–B nối tiếp có điện dung bằng nhau nên $U_{NB}=8\,\mathrm V$. Trong nhánh N–M–B, hai phần đều có điện dung $2C$, nên chia đều $U_{NB}$ và $U_{MB}=4\,\mathrm V$.
 
+    <!-- source-audit: Ô đáp án Câu 6 trong PDF để trống; U_MB=4 V được kiểm độc lập từ sơ đồ. -->
 

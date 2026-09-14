@@ -69,7 +69,7 @@ Với môi trường ngoài có chiết suất khác 1, dùng Snell đầy đủ
 
 ## 3. Góc lệch cực tiểu
 
-Khi đường truyền đối xứng trong lăng kính:
+Khi lăng kính có cùng môi trường ngoài ở hai mặt và đường truyền ở vị trí lệch cực tiểu, đường đi của tia đối xứng trong lăng kính:
 
 $$
 \begin{gathered}

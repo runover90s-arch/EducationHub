@@ -12185,6 +12185,17 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#cau-van-dung" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Câu vận dụng
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#cau-kho" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -12260,6 +12271,17 @@
     <span class="md-ellipsis">
       
         12. Khi đáp án hoặc lời giải nguồn có mâu thuẫn
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#13-quality-gate-cho-cau-truc-learner-facing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13. Quality gate cho cấu trúc learner-facing
       
     </span>
   </a>
@@ -12515,6 +12537,17 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#cau-van-dung" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Câu vận dụng
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#cau-kho" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -12596,6 +12629,17 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#13-quality-gate-cho-cau-truc-learner-facing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13. Quality gate cho cấu trúc learner-facing
+      
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -12669,30 +12713,38 @@
 <li>kiểm tra độ lớn có hợp lí không;</li>
 <li>đối chiếu lựa chọn nếu là trắc nghiệm.</li>
 </ol>
-<p>Không lấy đáp án có sẵn làm bằng chứng duy nhất.</p>
+<p>Không lấy đáp án có sẵn làm bằng chứng duy nhất. PDF là nguồn dữ kiện và văn phong quan trọng, nhưng đáp án phải được kiểm chứng độc lập.</p>
+<p>Với câu <strong>single-choice A–D</strong>, nếu sau khi kiểm chứng chắc chắn không có phương án đúng thì được sửa tối thiểu <strong>một</strong> phương án để có đúng một đáp án. Không thêm phương án <code>E</code>. Không dùng lựa chọn <code>Không có phương án phù hợp</code> khi kết quả vật lí xác định được chắc chắn.</p>
 <h2 id="6-muc-o-chi-tiet-cua-loi-giai">6. Mức độ chi tiết của lời giải</h2>
 <h3 id="cau-de">Câu dễ</h3>
 <ul>
-<li>nêu công thức;</li>
-<li>thay số;</li>
+<li>nêu căn cứ hoặc công thức chính;</li>
+<li>áp dụng/thay số;</li>
 <li>kết luận.</li>
 </ul>
 <h3 id="cau-trung-binh">Câu trung bình</h3>
 <ul>
-<li>giải thích vì sao chọn công thức;</li>
-<li>biến đổi từng bước;</li>
+<li>giải thích vì sao chọn quan hệ;</li>
+<li>biến đổi rõ;</li>
+<li>kết luận.</li>
+</ul>
+<h3 id="cau-van-dung">Câu vận dụng</h3>
+<ul>
+<li>ghi dữ kiện cần dùng;</li>
+<li>chọn công thức/phương pháp;</li>
+<li>thay số;</li>
+<li>theo dõi đơn vị và điều kiện;</li>
 <li>kết luận.</li>
 </ul>
 <h3 id="cau-kho">Câu khó</h3>
 <p>Phải có:</p>
 <ul>
 <li>phân tích dữ kiện;</li>
-<li>nhận dạng ý tưởng;</li>
-<li>lí do chọn phương pháp;</li>
-<li>sơ đồ hoặc phân trường hợp nếu cần;</li>
-<li>phép biến đổi rõ;</li>
+<li>nêu chiến lược;</li>
+<li>trình bày các bước trung gian quan trọng;</li>
+<li>kiểm tra điều kiện, dấu, pha hoặc vectơ khi có;</li>
 <li>kiểm tra kết quả;</li>
-<li>chỉ ra bẫy nếu có.</li>
+<li>kết luận và chỉ ra bẫy nếu có.</li>
 </ul>
 <h2 id="7-ungsai">7. Đúng/Sai</h2>
 <p>Mỗi ý phải được giải thích riêng.</p>
@@ -12727,7 +12779,7 @@
 <div class="highlight"><pre><span></span><code>python<span class="w"> </span>tools/check_practice_bank.py
 python<span class="w"> </span>tools/check_pdf_import.py
 python<span class="w"> </span>tools/check_solution_quality.py
-python<span class="w"> </span>tools/check_site.py<span class="w"> </span>--lint-only
+python<span class="w"> </span>tools/check_site.py
 </code></pre></div>
 <p>Bộ kiểm tra cấu trúc không thay thế việc kiểm chứng học thuật: người biên soạn vẫn phải tính lại đáp án và xem xét điều kiện vật lí của từng câu.</p>
 <h2 id="11-van-phong-loi-giai-vat-li-11-theo-corpus-pdf">11. Văn phong lời giải Vật lí 11 theo corpus PDF</h2>
@@ -12749,10 +12801,26 @@ python<span class="w"> </span>tools/check_site.py<span class="w"> </span>--lint-
 <li>đọc lại câu hỏi và hình gốc;</li>
 <li>tính/biện luận độc lập từ dữ kiện;</li>
 <li>đối chiếu phần đáp án và phần hướng dẫn trong PDF;</li>
-<li>nếu nguồn tự mâu thuẫn nhưng kết quả đúng xác định được chắc chắn, hiệu chỉnh tối thiểu và thêm admonition <code>Đối chiếu nguồn</code>;</li>
-<li>nếu thiếu dữ kiện để quyết định duy nhất, giữ nguyên vấn đề và ghi rõ điều kiện còn thiếu thay vì đoán.</li>
+<li>nếu nguồn tự mâu thuẫn nhưng kết quả đúng xác định được chắc chắn, hiệu chỉnh tối thiểu và lưu provenance bằng comment/metadata/report nội bộ;</li>
+<li>không đưa <code>Đối chiếu nguồn</code>, <code>Đối chiếu nguồn PDF</code>, <code>PDF chọn...</code>, lịch sử source sai hoặc ghi chú repository/corpus/import lên trang người học;</li>
+<li>nếu thiếu dữ kiện để quyết định duy nhất, giữ nguyên vấn đề và đánh dấu ở lớp nội bộ để kiểm tra thay vì đoán.</li>
 </ol>
 <p>Checker <code>tools/check_solution_quality.py</code> kiểm tra cả hai lớp ngân hàng — bài biên soạn trước và bài nhập từ PDF — về tính toàn vẹn, sự đồng nhất giữa lời giải inline/<code>solutions.md</code>, mức độ giải thích theo độ khó và cấu trúc Đúng/Sai. Checker này <strong>không thay thế</strong> bước kiểm chứng vật lí độc lập ở trên.</p>
+<h2 id="13-quality-gate-cho-cau-truc-learner-facing">13. Quality gate cho cấu trúc learner-facing</h2>
+<p>Các lỗi có thể xác định chắc chắn bằng cấu trúc Markdown phải làm checker thất bại, không được hạ ngưỡng hoặc thêm allowlist để né lỗi:</p>
+<ul>
+<li>trắc nghiệm bốn lựa chọn phải có đủ <code>A.</code>–<code>D.</code> và mỗi phương án là một paragraph riêng;</li>
+<li>câu Đúng/Sai phải có đủ <code>a)</code>–<code>d)</code>, mỗi mệnh đề là một paragraph riêng;</li>
+<li>lời giải Đúng/Sai phải có verdict rõ cho từng <code>a)</code>–<code>d)</code> và có giải thích gắn với chính mệnh đề đó; verdict đứng một mình không đạt chuẩn;</li>
+<li><code>**Đáp án:**</code> và <code>**Hướng dẫn giải:**</code> phải ở hai paragraph khác nhau;</li>
+<li>nếu một block có hình dữ kiện và lựa chọn/mệnh đề, hình phải đứng trước <code>A.</code>–<code>D.</code> hoặc <code>a)</code>–<code>d)</code>;</li>
+<li>mọi ảnh Markdown local phải tồn tại và resolve bên trong <code>docs/</code>;</li>
+<li>ghi chú nội bộ về repository/import/corpus không được lộ ở phần mở đầu learner-facing của trang practice;</li>
+<li>trang người học không được chứa <code>Đối chiếu nguồn</code>, <code>Đối chiếu nguồn PDF</code>, <code>PDF chọn...</code> hoặc ghi chú lịch sử source/repository/corpus/import; provenance phải dùng comment/metadata/report nội bộ;</li>
+<li>các câu lời giải mẫu đã xác nhận là placeholder, ví dụ câu chung về <code>$v=\lambda f=\lambda/T$</code> dùng thay cho suy luận riêng của bài, không được quay lại.</li>
+<li>với block nhập PDF, loại câu được suy ra từ marker learner-facing thực tế; heading nhóm lịch sử không được coi là authoritative nếu một nhóm chứa lẫn nhiều format. Trường hợp không đủ bằng chứng để phân loại chắc chắn phải chuyển sang warning/audit thủ công thay vì ép fail sai.</li>
+</ul>
+<p>Các dấu hiệu cần suy luận ngữ nghĩa nhưng chưa đủ chắc chắn để kết luận lỗi chỉ nên tạo <strong>WARNING</strong>. Ví dụ: một câu rất ngắn như “Tính bước sóng?” hoặc “Tính khoảng cách AB?” không có số liệu hay figure trong block nhưng lại có đáp án số cụ thể. Warning là tín hiệu để mở đúng nguồn/PDF kiểm tra, không phải bằng chứng để tự đoán dữ kiện.</p>
 
 
 

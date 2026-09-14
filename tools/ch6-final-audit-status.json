@@ -1,0 +1,120 @@
+{
+  "base_version": "education-hub-v19.zip",
+  "scope": "docs/physics/high-school/grade-11/06-magnetism/",
+  "mode": "CONTINUE / AUDIT / UPDATE / FINAL AUDIT",
+  "practice_partition": {
+    "HALF A": [
+      "01-magnetic-field-field-lines",
+      "02-magnetic-force-current-wire",
+      "03-fields-of-currents-superposition"
+    ],
+    "HALF B": [
+      "04-parallel-currents-current-loop",
+      "05-lorentz-force-charged-particle"
+    ]
+  },
+  "web_verification": {
+    "policy": "mandatory for Chapters V-VIII; Vietnamese THPT sources are cross-checked against academic sources",
+    "sources": [
+      {
+        "name": "Vật Lí Phổ Thông — Từ trường, lực từ, cảm ứng từ",
+        "url": "https://vatlypt.com/tu-truong-luc-tu-cam-ung-tu-vat-li-lop-11.html",
+        "use": "THPT terminology and force-direction scope"
+      },
+      {
+        "name": "Vật Lí Phổ Thông — Lực từ của hai dòng điện thẳng song song",
+        "url": "https://vatlypt.com/bai-tap-luc-tu-cua-dong-dien-thang-dat-song-song.html",
+        "use": "same-direction attraction, opposite-direction repulsion, force-per-length form"
+      },
+      {
+        "name": "OpenStax University Physics Vol. 2 — Magnetic Force between Two Parallel Currents",
+        "url": "https://openstax.org/books/university-physics-volume-2/pages/12-3-magnetic-force-between-two-parallel-currents",
+        "use": "long parallel-wire force and direction"
+      },
+      {
+        "name": "OpenStax University Physics Vol. 2 — Force and Torque on a Current Loop",
+        "url": "https://openstax.org/books/university-physics-volume-2/pages/11-5-force-and-torque-on-a-current-loop",
+        "use": "magnetic dipole moment and torque angle"
+      },
+      {
+        "name": "OpenStax University Physics Vol. 2 — Motion of a Charged Particle in a Magnetic Field",
+        "url": "https://openstax.org/books/university-physics-volume-2/pages/11-3-motion-of-a-charged-particle-in-a-magnetic-field",
+        "use": "Lorentz magnetic force, circular/helical motion, radius, period and pitch"
+      }
+    ]
+  },
+  "half_b_audit": {
+    "04-parallel-currents-current-loop": [
+      {"bai": 1, "status": "VERIFIED", "independent_check": "same-direction long parallel currents attract; A only"},
+      {"bai": 2, "status": "VERIFIED", "independent_check": "opposite-direction long parallel currents repel; B only"},
+      {"bai": 3, "status": "VERIFIED", "independent_check": "tau=NIBS sin(theta), maximum at theta=90 degrees; tau_max=NIBS; A only"},
+      {"bai": 4, "status": "VERIFIED", "independent_check": "a True; b True; c True; d False; force-per-length and direction checked separately"},
+      {"bai": 5, "status": "VERIFIED", "independent_check": "mu0 I1 I2/(2 pi d)=8.0e-5 N/m; same-direction force is attractive"},
+      {"bai": 6, "status": "VERIFIED", "independent_check": "tau=1*3*0.5*0.02=0.03 N m"},
+      {"bai": 7, "status": "VERIFIED", "independent_check": "20 cm^2=2.0e-3 m^2; tau_max=50*0.2*0.1*2.0e-3=2.0e-3 N m"},
+      {"bai": 8, "status": "VERIFIED", "independent_check": "F/L=1.33e-4 N/m and F on 0.50 m is 6.67e-5 N; long-wire model and attraction stated"}
+    ],
+    "05-lorentz-force-charged-particle": [
+      {"bai": 1, "status": "VERIFIED", "independent_check": "magnetic Lorentz magnitude is |q|vB sin(alpha); A only"},
+      {"bai": 2, "status": "VERIFIED", "independent_check": "parallel or antiparallel v and B gives sin(alpha)=0 and zero magnetic force; B only"},
+      {"bai": 3, "status": "VERIFIED", "independent_check": "for v perpendicular B and magnetic force only, F is centripetal and does no work, so uniform circular motion; B only"},
+      {"bai": 4, "status": "VERIFIED", "independent_check": "a True; b True; c True; d False; each statement checked from q v x B and F dot v=0"},
+      {"bai": 5, "status": "VERIFIED", "independent_check": "e*v*B=1.6e-19*2e6*0.02=6.4e-15 N"},
+      {"bai": 6, "status": "VERIFIED", "independent_check": "magnetic force is centripetal; r=mv/(|q|B)=2.0875e-2 m=2.09 cm"},
+      {"bai": 7, "status": "VERIFIED", "independent_check": "nonrelativistic cyclotron period 2 pi m/(|q|B)=1.31e-7 s"},
+      {"bai": 8, "status": "VERIFIED", "independent_check": "r=v/((q/m)B) gives B=2.0 T; half-orbit time=T/2=7.85e-8 s"}
+    ]
+  },
+  "half_b_summary": {
+    "TOTAL_IN_SCOPE": 16,
+    "AUDITED": 16,
+    "VERIFIED": 16,
+    "FIXED": 0,
+    "UNRESOLVED": 0
+  },
+  "chapter_final_audit": {
+    "practice_total": 40,
+    "practice_audited": 40,
+    "practice_verified": 40,
+    "practice_fixed": 0,
+    "practice_unresolved": 0,
+    "theory_status_from_v19": {
+      "VERIFIED": 2,
+      "FIXED": 3,
+      "UNRESOLVED": 0
+    },
+    "final_corrections": [
+      {
+        "file": "docs/physics/high-school/grade-11/06-magnetism/exercises.md",
+        "item": "Cau 27",
+        "type": "stem condition",
+        "correction": "specified that the angle between the loop normal and B is acute so the torque-magnitude equation has one intended answer"
+      },
+      {
+        "file": "docs/physics/high-school/grade-11/06-magnetism/solutions.md",
+        "item": "Cau 27",
+        "type": "solution synchronization",
+        "correction": "selected theta approximately 11.5 degrees under the now-explicit acute-angle condition"
+      }
+    ],
+    "search_results": {
+      "prohibited_source_notes": 0,
+      "no_matching_option_markers": 0,
+      "legacy_latex_delimiters": 0,
+      "dead_markdown_images_in_chapter": 0,
+      "source_id_or_alias_markers_in_chapter": 0,
+      "practice_exercises_solutions_mismatches": 0,
+      "chapter_exercises_solutions_mismatches": 0
+    },
+    "unresolved": []
+  },
+  "quality_gate": {
+    "tools/test_quality_gate.py": "NOT RUN — file does not exist in source of truth",
+    "check_practice_bank.py": "PASS — 0 structural errors",
+    "check_pdf_import.py": "PASS — 0 integrity errors",
+    "check_solution_quality.py": "PASS — 0 errors",
+    "check_site.py": "LINT PASS — 0 errors, 0 warnings; full command exits at BUILD001 because mkdocs executable is missing",
+    "mkdocs build --strict": "NOT RUN — mkdocs executable is missing; pip install -r requirements.txt failed because package network/DNS is unavailable"
+  },
+  "next": "hoàn tất Chương VI"
+}

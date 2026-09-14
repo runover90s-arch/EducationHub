@@ -277,7 +277,7 @@ $$
 \sin\theta=\frac{0,006}{0,030}=0,20.
 $$
 
-$\theta\approx11,5^\circ$ hoặc $168,5^\circ$ nếu chỉ xét độ lớn mômen. Trong bài hình học thông thường lấy góc nhọn $11,5^\circ$ nếu đề ngầm xét tư thế đó.
+Theo điều kiện đề bài, $\theta$ là góc nhọn nên $\theta\approx11,5^\circ$.
 
 ### Câu 28
 Sau cùng U:

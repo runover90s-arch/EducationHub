@@ -14,16 +14,16 @@ tags:
 [← Bài tập](exercises.md)
 
 ## Bài 1
-Chọn **B**.
+Ba nguồn giống nhau mắc nối tiếp cùng chiều nên $\mathcal E_b=3E$ và $r_b=3r$. Chọn **B**.
 
 ## Bài 2
-Chọn **A**.
+Ba nguồn giống nhau mắc song song đúng cực nên $\mathcal E_b=E$ và $r_b=r/3$. Chọn **A**.
 
 ## Bài 3
-Chọn **A**.
+Ghép nối tiếp cùng chiều làm các suất điện động cộng lại, nên phù hợp khi cần tăng suất điện động của bộ. Chọn **A**.
 
 ## Bài 4
-Chọn **B**.
+Với các nguồn giống nhau mắc song song đúng cực, suất điện động bộ không đổi còn điện trở trong giảm còn $r/n$. Vì vậy chọn **B**.
 
 ## Bài 5
 a) **Đúng.** Các suất điện động và điện trở trong cộng đại số khi $n$ nguồn giống nhau mắc nối tiếp cùng chiều.

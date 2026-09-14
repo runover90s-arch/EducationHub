@@ -1,75 +1,66 @@
 {
-  "scope": "docs/physics/high-school/grade-11/04-current-circuits/ — theory audit only",
+  "base_version": "education-hub-v10.zip",
+  "scope": "docs/physics/high-school/grade-11/04-current-circuits/",
   "mode": "AUDIT / UPDATE",
-  "BASE_VERSION": "education-hub-v12.zip",
-  "base_checkpoint": {
-    "series": 2,
-    "version": 12
-  },
-  "target_checkpoint": {
-    "series": 2,
-    "version": 13
-  },
+  "audit_scope": "theory only",
   "practice_audited": false,
-  "sources_checked": [
+  "source_basis": [
     "BT-Chương IV_1.pdf",
     "EBOOK CHUYÊN ĐỀ VẬT LÝ 11 TẬP 2 ĐIỆN TRƯỜNG VÀ DÒNG ĐIỆN, THẦY VŨ HOÀNG QUÂN-compressed.pdf",
     "EBOOK PHONG TOẢ VẬT LÝ 11 TẬP 2 ĐIỆN TRƯỜNG, DÒNG ĐIỆN, MẠCH ĐIỆN, MAPSTUDY-compressed.pdf",
     "EBOOK LÀM CHỦ VÀ NÂNG CAO VẬT LÝ 11 TẬP 2 ĐIỆN TRƯỜNG, DÒNG ĐIỆN MẠCH ĐIỆN, THẦY VŨ TUẤN ANH-compressed.pdf",
     "EBOOK BẢN ĐỒ KIẾN THỨC VẬT LÝ 11, MAPSTUDY-compressed.pdf",
-    "EBOOK SỔ TAY CÔNG THỨC VẬT LÝ 11, THẦY VŨ HOÀNG QUÂN-compressed.pdf",
-    "EBOOK SỔ TAY LÝ THUYẾT VẬT LÝ 10 11 12, IPCLASS-compressed.pdf"
+    "EBOOK SỔ TAY CÔNG THỨC VẬT LÝ 11, THẦY VŨ HOÀNG QUÂN-compressed.pdf"
   ],
-  "theory_files_audited": [
-    "index.md",
-    "01-current-intensity.md",
-    "02-resistance-ohm-law.md",
-    "03-emf-internal-resistance.md",
-    "04-energy-power-joule.md",
-    "05-full-circuit-ohm-law.md",
-    "06-source-combinations.md",
-    "07-circuit-reading-meters.md",
-    "08-advanced-circuit-methods.md",
-    "09-practical-emf-internal-resistance.md",
-    "10-source-receiver-capacitor-branches.md"
+  "theory_audit": {
+    "current_charge_direction": "FIXED: clarified Delta q as charge amount/magnitude for I=Delta q/Delta t and separated conventional-current direction from electron motion.",
+    "resistance_resistivity_ohm_series_parallel": "FIXED: added homogeneity, uniform cross-section and operating-temperature conditions for R=rho*l/S; Ohm and series/parallel relations verified.",
+    "source_emf_internal_resistance": "FIXED: made q>0 explicit in EMF definition and clarified source power formula for generating mode.",
+    "whole_circuit_ohm": "FIXED: stated the steady-DC, single-source, purely resistive external-load model and the limitation of the short-circuit formula.",
+    "energy_power_joule_lenz": "FIXED: made conditions explicit for P=UI, P=I^2R, P=U^2/R and Q=I^2Rt; distinguished pure-resistor heating from useful energy conversion.",
+    "source_combinations": "VERIFIED: series, identical-source parallel, opposed sources and symmetric mixed combinations have the needed conditions; no patch required.",
+    "kirchhoff_superposition_equivalent_source": "FIXED: stated the steady lumped-circuit/no-changing-flux condition for KVL and clarified that internal resistance remains when an ideal EMF is turned off for superposition/Thevenin reduction.",
+    "measuring_instruments": "FIXED: ideal ammeter/voltmeter models verified; practical EMF measurement now states the meter-loading approximation and finite-resistance correction requirement.",
+    "source_receiver_capacitor_branches": "VERIFIED: generating/charging source signs, receiver model and DC steady-state capacitor treatment are consistent; no patch required."
+  },
+  "modified_theory_files": [
+    "docs/physics/high-school/grade-11/04-current-circuits/01-current-intensity.md",
+    "docs/physics/high-school/grade-11/04-current-circuits/02-resistance-ohm-law.md",
+    "docs/physics/high-school/grade-11/04-current-circuits/03-emf-internal-resistance.md",
+    "docs/physics/high-school/grade-11/04-current-circuits/04-energy-power-joule.md",
+    "docs/physics/high-school/grade-11/04-current-circuits/05-full-circuit-ohm-law.md",
+    "docs/physics/high-school/grade-11/04-current-circuits/08-advanced-circuit-methods.md",
+    "docs/physics/high-school/grade-11/04-current-circuits/09-practical-emf-internal-resistance.md"
   ],
-  "updates": [
-    "Clarified current intensity formula as interval-average and stated the full definition of constant current: both direction and magnitude are constant.",
-    "Added explicit conditions for R=rho*l/S: homogeneous conductor, uniform cross-section, fixed thermal state/rho.",
-    "Clarified emf definition uses positive charge magnitude moved internally from negative to positive terminal; q=It statement limited to constant current.",
-    "Tightened conditions for P=UI, P=I^2R, P=U^2/R and Q=I^2Rt; added variable-I/R Joule form and prevented use of resistor formulas for sources/receivers.",
-    "Stated the direct full-circuit Ohm law scope: one equivalent source feeding a purely resistive external equivalent load in steady DC.",
-    "Added practical DC meter polarity/range condition without changing ideal-meter model.",
-    "Stated Kirchhoff section scope as steady DC lumped circuits and emphasized consistent sign conventions."
-  ],
+  "practice_inventory_method": "Structural inventory only: each lesson count = 10 authored Bài headings + canonical source-id units in its exercises.md. No practice question/answer/solution was audited or modified.",
   "practice_groups": {
-    "GROUP_A": [
-      "01-current-intensity",
-      "02-resistance-ohm-law",
-      "03-emf-internal-resistance",
-      "04-energy-power-joule"
-    ],
-    "GROUP_B": [
-      "05-full-circuit-ohm-law",
-      "06-source-combinations",
-      "07-circuit-reading-meters"
-    ],
-    "GROUP_C": [
-      "08-advanced-circuit-methods",
-      "09-practical-emf-internal-resistance",
-      "10-source-receiver-capacitor-branches"
-    ]
+    "GROUP A": {
+      "estimated_items": 149,
+      "lessons": [
+        "01-current-intensity (87)",
+        "03-emf-internal-resistance (49)",
+        "07-circuit-reading-meters (13)"
+      ]
+    },
+    "GROUP B": {
+      "estimated_items": 150,
+      "lessons": [
+        "02-resistance-ohm-law (102)",
+        "05-full-circuit-ohm-law (30)",
+        "08-advanced-circuit-methods (18)"
+      ]
+    },
+    "GROUP C": {
+      "estimated_items": 151,
+      "lessons": [
+        "04-energy-power-joule (87)",
+        "06-source-combinations (21)",
+        "09-practical-emf-internal-resistance (33)",
+        "10-source-receiver-capacitor-branches (10)"
+      ]
+    }
   },
-  "practice_group_basis": "10 practice lesson folders split contiguously as 4/3/3; content was not audited in this turn.",
   "unresolved_theory": [],
-  "next": null,
-  "validation": {
-    "check_site_lint_only": "PASS — 237 Markdown, 0 errors, 0 warnings"
-  },
-  "practice_progress": {
-    "GROUP_A": "COMPLETE",
-    "GROUP_B": "COMPLETE",
-    "GROUP_C": "COMPLETE"
-  },
-  "chapter_final_status": "CHAPTER_IV_COMPLETE"
+  "next": "GROUP B",
+  "group_a_audit_status": "tools/ch4-group-a-audit-status.json"
 }

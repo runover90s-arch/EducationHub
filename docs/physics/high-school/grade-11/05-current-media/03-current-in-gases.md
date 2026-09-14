@@ -32,7 +32,7 @@ Muốn có dòng điện đáng kể, cần tạo ra hạt mang điện bằng *
 
 ## 2. Ion hóa chất khí
 
-Ion hóa là quá trình làm nguyên tử hoặc phân tử mất/nhận electron để tạo ion.
+Trong ngữ cảnh phóng điện khí, **ion hóa** chủ yếu là quá trình nguyên tử hoặc phân tử trung hòa bị tách electron, tạo ion dương và electron tự do. Ion âm có thể hình thành khi một hạt trung hòa bắt thêm electron; quá trình đó thường được gọi là **bắt electron** (electron attachment), không nên đồng nhất máy móc với ion hóa do tách electron.
 
 Tác nhân ion hóa có thể là:
 
@@ -61,7 +61,7 @@ Khi tắt tác nhân, số hạt tải giảm nhanh và dòng gần biến mất
 
 ## 5. Phóng điện tự lực
 
-Ở điện trường đủ mạnh, các hạt được gia tốc có thể tự gây ion hóa thêm. Quá trình sinh hạt tải có thể duy trì mà không cần tác nhân ion hóa bên ngoài ban đầu.
+Ở điện trường đủ mạnh, các hạt được gia tốc có thể gây ion hóa va chạm; đồng thời các cơ chế thứ cấp như phát electron từ điện cực hoặc quang ion hóa có thể tiếp tục tạo hạt tải. Khi các quá trình sinh hạt tải trong chính hệ đủ bù cho tái hợp và thất thoát, phóng điện có thể duy trì mà không cần tác nhân ion hóa bên ngoài ban đầu.
 
 Đây là cơ sở của nhiều dạng phóng điện tự lực.
 

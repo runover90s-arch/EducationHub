@@ -1,116 +1,70 @@
 {
-  "base_version": "education-hub-v9",
-  "target_version": "education-hub-v10",
-  "mode": "FINAL AUDIT / UPDATE",
+  "base_checkpoint": "education-hub-v9.zip",
   "scope": "docs/physics/high-school/grade-11/03-electric-field/",
-  "method": {
-    "full_resolve_from_scratch": false,
-    "approach": "Cross-search repository markers, synchronize exercises/solutions, inspect prior correction points, and spot-check source-sensitive physics against the supplied Chapter III PDF.",
-    "source_primary": "BT-Chương III_1.pdf"
+  "mode": "FINAL AUDIT / UPDATE",
+  "audit_summary": {
+    "lesson_practice_sets": 9,
+    "authored_questions": 90,
+    "pdf_imported_questions": 361,
+    "chapter_aggregate_questions": 42,
+    "authored_exercise_solution_sync": "PASS: Bài 1-10 match in all 9 lesson practice sets",
+    "chapter_exercise_solution_sync": "PASS: Câu 1-42 continuous with no missing/orphan solution"
   },
-  "coverage": {
-    "lesson_files": 9,
-    "practice_sets": 9,
-    "authored_practice_questions": 90,
-    "imported_pdf_questions": 361,
-    "chapter_exercises": 42,
-    "quiz_questions": 10
-  },
-  "search_results": {
-    "learner_facing_Doi_chieu_nguon": 0,
-    "learner_facing_Khong_co_phuong_an_phu_hop": 0,
-    "learner_facing_answer_mismatch_marker": 0,
-    "learner_facing_generic_solution_marker": 0,
-    "learner_facing_Dap_an_sau_kiem_tra": 0,
-    "learner_facing_Dap_an_da_hieu_chinh": 0,
-    "raw_latex_delimiters_backslash_parenthesis_or_bracket": 0
-  },
-  "synchronization": {
-    "chapter_exercises_solutions": "42/42 numbering aligned and continuous",
-    "practice_authored_solutions": "Bài 1–10 represented in each of 9 solution files; imported ranges Bài 11–N remain inline under their source questions by current schema",
-    "practice_numbering": "continuous in all 9 practice sets",
-    "quiz": "10 questions with 10 answer entries"
+  "search_checks": {
+    "learner_facing_source_comparison": "PASS after patch: no learner-facing 'Đối chiếu nguồn' admonition or corrected-answer label remains in Chapter III",
+    "no_matching_option_phrase": "PASS: no 'Không có phương án phù hợp' remains",
+    "answer_mismatch": "PASS: no visible single-choice 'Đáp án' versus 'Chọn X' conflict found by cross-check",
+    "generic_solution": "PASS: confirmed generic placeholders not found; short direct solutions reviewed as question-specific one-step calculations",
+    "latex_units": "PASS at source-lint stage; full site/build gate recorded separately"
   },
   "spot_checks": [
     {
-      "area": "charge sign / electric-field direction / force",
-      "examples": [
-        "BT-Chuong-III-p89-q3-227",
-        "BT-Chuong-III-p89-q4-228",
-        "BT-Chuong-III-p84-q13-219"
-      ],
-      "result": "No remaining unresolved item. BT-Chuong-III-p84-q13-219 was minimally repaired in v11 and independently verified: q1=5e-9 C gives alpha=45 degrees."
+      "topic": "dấu điện tích / hướng lực / cân bằng",
+      "evidence": "BT-Chuong-III pages 15-16, 77-78, 84; checked sign of q, F=qE, vector equilibrium, and restored missing q1"
     },
     {
-      "area": "work / electric potential / potential energy",
-      "examples": [
-        "BT-Chuong-III-p103-q13-247",
-        "BT-Chuong-III-p113-q6-280",
-        "BT-Chuong-III-p129-q21-323",
-        "BT-Chuong-III-p128-q15-317",
-        "BT-Chuong-III-p145-q3-365"
-      ],
-      "result": "No remaining unresolved item. BT-Chuong-III-p128-q15-317 and BT-Chuong-III-p145-q3-365 were minimally repaired in v11 by restoring q>0, then independently verified."
+      "topic": "hướng điện trường / chuyển động điện tích",
+      "evidence": "BT-Chuong-III pages 69 and 145; checked electron acceleration sign and charge-sign dependence"
     },
     {
-      "area": "capacitors / combinations / energy / dielectric / source-connected vs isolated",
-      "examples": [
-        "BT-Chuong-III-p165-q9-429",
-        "BT-Chuong-III-p165-q10-430",
-        "BT-Chuong-III-p165-q11-431",
-        "BT-Chuong-III-p165-q12-432",
-        "BT-Chuong-III-p168-q2-457",
-        "BT-Chuong-III-p168-q5-460",
-        "BT-Chuong-III-p168-q6-461"
-      ],
-      "result": "Equivalent capacitance, voltage sharing, charge conservation, rating limits, and energy/source-isolation rules are consistent with the stated models."
+      "topic": "công / điện thế / bảo toàn năng lượng",
+      "evidence": "BT-Chuong-III pages 104, 109, 127, 145; checked A=qU, potential ordering, path independence, and source figure geometry"
     },
     {
-      "area": "charged-particle motion / energy conservation",
-      "examples": [
-        "BT-Chuong-III-p69-q15-188",
-        "BT-Chuong-III-p106-q25-259",
-        "BT-Chuong-III-p115-q16-290",
-        "BT-Chuong-III-p114-q10-284"
-      ],
-      "result": "Direction/sign conventions, acceleration, stopping distance, and mechanical/electric energy relations spot-check correctly after prior fixes."
+      "topic": "tụ điện / ghép tụ / năng lượng / nguồn nối-ngắt",
+      "evidence": "BT-Chuong-III pages 165 and 168 plus lesson formulas; checked equivalent capacitance, series voltage limits, charge sharing, Q/C/U/W invariants"
+    },
+    {
+      "topic": "bài từng thiếu hoặc sai dữ kiện",
+      "evidence": "Rechecked restored equal-charge condition after contact, missing q1 in charged pendulum source, and source geometry typo for triangle MNP"
     }
   ],
-  "unresolved": [],
-  "updates": [
-    "Reclassified BT-Chuong-III-p84-q13-219 from certain source correction to source ambiguity in tools/v9_import_report.json.",
-    "Registered all three remaining Chapter III source ambiguities in C_source_ambiguity_not_uniquely_resolvable.",
-    "No additional learner-facing academic patch was made where the supplied source did not support one.",
-    "Resolved the three former source ambiguities in education-hub-v11 by minimal source-intent repair followed by independent physics verification.",
-    "Finalized Chapter III status with zero unresolved items and no open NEXT."
+  "patches": [
+    {
+      "file": "docs/physics/high-school/grade-11/03-electric-field/practice/09-electrostatic-equilibrium-charged-pendulum/exercises.md",
+      "change": "Moved four learner-facing source-comparison notes into hidden provenance comments and normalized one 'Đáp án đã hiệu chỉnh' label to 'Đáp án'."
+    }
   ],
-  "status": "COMPLETE_NO_UNRESOLVED",
+  "unresolved": [
+    {
+      "source_id": "BT-Chuong-III-p145-q3-365",
+      "lesson": "07-charged-particle-motion",
+      "display_bai": 68,
+      "reason": "Source and figure omit the sign of q; statements b and c change truth value when q changes sign."
+    },
+    {
+      "source_id": "BT-Chuong-III-p128-q15-317",
+      "lesson": "07-charged-particle-motion",
+      "display_bai": 73,
+      "reason": "Source omits the sign of q; A=qU_MN reverses ordering for q<0, so no unique A-D answer can be justified."
+    }
+  ],
   "next": null,
-  "gate_results": {
-    "python tools/check_practice_bank.py": {
-      "exit_code": 0,
-      "result": "PASS"
-    },
-    "python tools/check_pdf_import.py": {
-      "exit_code": 0,
-      "result": "PASS"
-    },
-    "python tools/check_solution_quality.py": {
-      "exit_code": 0,
-      "result": "PASS"
-    },
-    "python tools/check_site.py": {
-      "exit_code": 1,
-      "result": "Markdown lint PASS (237 files, 0 errors, 0 warnings); build step unavailable because mkdocs executable is not installed."
-    },
-    "python tools/check_site.py --lint-only": {
-      "exit_code": 0,
-      "result": "PASS"
-    },
-    "mkdocs build --strict": {
-      "exit_code": 127,
-      "result": "NOT RUN: mkdocs command unavailable; pip install -r requirements.txt was attempted but PyPI could not be reached due DNS/network failure."
-    }
-  },
-  "superseded_by": "tools/ch3-completion-status.json"
+  "quality_gate": {
+    "check_practice_bank": "PASS: 0 structural errors",
+    "check_pdf_import": "PASS: 0 integrity errors; Chapter III 361 canonical imported questions",
+    "check_solution_quality": "PASS: 0 errors",
+    "check_site": "PARTIAL: source lint PASS with 0 errors/0 warnings; build stage unavailable because mkdocs executable is not installed",
+    "mkdocs_build_strict": "NOT RUN: mkdocs command unavailable; pip install attempt failed because the execution environment has no package-network/DNS access"
+  }
 }

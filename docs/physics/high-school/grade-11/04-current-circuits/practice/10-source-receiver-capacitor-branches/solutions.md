@@ -23,14 +23,14 @@ Chọn **B** trong quy ước máy thu: điện áp ngoài phải thắng suất
 Chọn **A**; tổn hao Joule trong máy thu là $I^2r$.
 
 ## Bài 4
-Chọn **B**: khi dòng đi vào cực dương, nguồn đang nhận điện năng từ mạch ngoài nên làm việc theo chế độ máy thu.
+Dòng điện đi vào cực dương nghĩa là phần tử đang nhận điện năng từ mạch; với suất điện động riêng, nó được mô hình như một máy thu. Chọn **B**.
 
 ## Bài 5
 a) **Đúng.** Phương trình Kirchhoff phụ thuộc chiều quy ước; giữ một quy ước nhất quán giúp dấu của suất điện động và sụt áp phản ánh đúng nghiệm.
 
 b) **Đúng.** Máy thu tiêu thụ điện năng từ mạch và chuyển một phần sang dạng năng lượng có ích như cơ năng hoặc hóa năng.
 
-c) **Sai.** Ở xác lập DC, dòng qua tụ lí tưởng bằng $0$ nhưng tụ vẫn có thể mang điện tích $Q=CU\ne0$ nếu hai bản còn hiệu điện thế.
+c) **Sai.** tụ có thể tích điện.
 
 d) **Đúng.** Tụ có thể giữ điện tích $Q=CU$ sau khi dòng nạp đã về $0$, nên vẫn còn hiệu điện thế giữa hai bản.
 
@@ -53,12 +53,14 @@ $P_{vào}=UI=10\cdot2=20\,\mathrm W$. $P_{ích}=\mathcal E'I=8\cdot2=16\,\mathrm
 Song song nên U tụ bằng $12\,\mathrm V$. $Q=CU=20\cdot10^{-6}\cdot12=240\,\mu\,\mathrm C$.
 
 ## Bài 10
-**Sơ đồ tương đương:** nguồn phát, điện trở ngoài $R$ và máy thu mắc nối tiếp trong một vòng; dòng đi vào cực dương của máy thu nên $\mathcal E'$ là suất phản điện, ngược chiều tác dụng của $\mathcal E$.
+Viết phương trình vòng theo chiều dòng. Suất điện động nguồn phát đẩy dòng, suất phản điện máy thu chống lại:
 
-**Quan hệ dòng và điện áp:** theo chiều dòng, tổng điện trở là $R+r+r'=5+1+2=8\,\Omega$ và suất điện động thuần là $\mathcal E-\mathcal E'=18-10=8\,\mathrm V$.
+$I=\frac{\mathcal E-\mathcal E'}{R+r+r'}=\frac{18-10}{5+1+2}=1\,\mathrm A$.
 
-**Phương trình vòng và nghiệm:** $\mathcal E-\mathcal E'-I(R+r+r')=0$, nên $I=(18-10)/8=1\,\mathrm A$. Điện áp hai đầu máy thu là $U_{thu}=\mathcal E'+Ir'=10+1\cdot2=12\,\mathrm V$.
+Điện áp hai đầu máy thu:
 
-**Công suất và hiệu suất:** $P_{vào}=U_{thu}I=12\,\mathrm W$, $P_{ích}=\mathcal E'I=10\,\mathrm W$, còn tổn hao Joule $I^2r'=2\,\mathrm W$. Vì $12=10+2$, cân bằng công suất thỏa mãn.
+$U_{thu}=\mathcal E'+Ir'=10+1\cdot2=12\,\mathrm V$.
 
-**Kết luận:** $I=1\,\mathrm A$ và $\eta=P_{ích}/P_{vào}=10/12\approx83,3\%$.
+Công suất vào máy thu $P_{vào}=12\,\mathrm W$; công suất có ích $P_{ích}=\mathcal E'I=10\,\mathrm W$.
+
+Hiệu suất máy thu $\eta=P_{ích}/P_{vào}=10/12\approx83,3\%$.

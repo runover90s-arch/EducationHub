@@ -1,152 +1,951 @@
 {
+  "base_version": "education-hub-v12.zip",
+  "target_version": "education-hub-v13.zip",
+  "checkpoint_series": 2,
   "scope": "Chapter IV practice GROUP B only",
-  "mode": "CONTINUE / AUDIT / UPDATE",
-  "BASE_VERSION": "education-hub-v14.zip",
-  "base_checkpoint": {
-    "series": 2,
-    "version": 14
+  "status_definitions": {
+    "VERIFIED": "Question, answer and solution were independently checked; rendered figures/topology were used when present; no patch required.",
+    "FIXED": "Audit completed and a minimal repository patch was required.",
+    "UNRESOLVED": "Source/data remain genuinely insufficient after checking PDF/figure; no unsupported assumption is added."
   },
-  "target_checkpoint": {
-    "series": 2,
-    "version": 15
-  },
-  "folders": [
-    "05-full-circuit-ohm-law",
-    "06-source-combinations",
-    "07-circuit-reading-meters"
-  ],
-  "counts": {
-    "05-full-circuit-ohm-law": {
-      "total": 30,
-      "pdf_canonical": 20,
-      "authored": 10
-    },
-    "06-source-combinations": {
-      "total": 21,
-      "pdf_canonical": 11,
-      "authored": 10
-    },
-    "07-circuit-reading-meters": {
-      "total": 13,
-      "pdf_canonical": 3,
-      "authored": 10
-    }
-  },
-  "summary": {
-    "total": 64,
-    "authored": 30,
-    "pdf_canonical": 34,
-    "unresolved": 0
+  "group_definition": {
+    "02-resistance-ohm-law": 102,
+    "05-full-circuit-ohm-law": 30,
+    "08-advanced-circuit-methods": 18,
+    "total": 150
   },
   "audit_method": [
-    "Every Group B item was independently re-solved; Group A was not re-audited.",
-    "For every circuit figure, topology was determined from the actual repository crop/source PDF image rather than OCR-inferred wires.",
-    "Circuit solutions were checked in the order topology -> current -> voltage -> equation -> result, including source polarity/current direction when material.",
-    "All True/False items were checked statement by statement.",
-    "For A-D items, computed results were checked for zero or multiple matching options before retaining the answer."
+    "Solved each item independently from printed data instead of accepting existing/source answers as evidence.",
+    "For every item with a figure, read the rendered PDF topology/graph/bands directly rather than inferring connections from OCR.",
+    "For circuit items, checked topology, current, voltage/polarity where applicable, governing equations, and final result.",
+    "For True/False items, checked each statement separately.",
+    "If A-D had zero or multiple correct answers, rechecked the source figure/page and applied the minimum option repair needed to restore a single correct answer."
   ],
-  "pdf_source_ids_reverified": [
-    "BT-Chuong-IV-p74-q2-230",
-    "BT-Chuong-IV-p74-q4-232",
-    "BT-Chuong-IV-p76-q6-234",
-    "BT-Chuong-IV-p86-q3-259",
-    "BT-Chuong-IV-p86-q4-260",
-    "BT-Chuong-IV-p62-q1-193",
-    "BT-Chuong-IV-p65-q25-216",
-    "BT-Chuong-IV-p79-q9-243",
-    "BT-Chuong-IV-p80-q15-249",
-    "BT-Chuong-IV-p81-q18-252",
-    "BT-Chuong-IV-p71-q4-226",
-    "BT-Chuong-IV-p72-q6-228",
-    "BT-Chuong-IV-p83-q3-255",
-    "BT-Chuong-IV-p64-q16-208",
-    "BT-Chuong-IV-p64-q18-210",
-    "BT-Chuong-IV-p65-q26-217",
-    "BT-Chuong-IV-p66-q27-218",
-    "BT-Chuong-IV-p66-q28-219",
-    "BT-Chuong-IV-p66-q29-220",
-    "BT-Chuong-IV-p68-q31-222",
-    "BT-Chuong-IV-p74-q3-231",
-    "BT-Chuong-IV-p87-q6-262",
-    "BT-Chuong-IV-p62-q7-199",
-    "BT-Chuong-IV-p79-q10-244",
-    "BT-Chuong-IV-p79-q11-245",
-    "BT-Chuong-IV-p80-q14-248",
-    "BT-Chuong-IV-p80-q16-250",
-    "BT-Chuong-IV-p81-q17-251",
-    "BT-Chuong-IV-p72-q5-227",
-    "BT-Chuong-IV-p82-q2-254",
-    "BT-Chuong-IV-p67-q30-221",
-    "BT-Chuong-IV-p32-q4-109",
-    "BT-Chuong-IV-p50-q3-179",
-    "BT-Chuong-IV-p51-q4-180"
-  ],
-  "topology_visually_checked": [
-    "BT-Chuong-IV-p74-q4-232",
-    "BT-Chuong-IV-p76-q6-234",
-    "BT-Chuong-IV-p86-q3-259",
-    "BT-Chuong-IV-p86-q4-260",
-    "BT-Chuong-IV-p65-q25-216",
-    "BT-Chuong-IV-p79-q9-243",
-    "BT-Chuong-IV-p80-q15-249",
-    "BT-Chuong-IV-p81-q18-252",
-    "BT-Chuong-IV-p71-q4-226",
-    "BT-Chuong-IV-p72-q6-228",
-    "BT-Chuong-IV-p83-q3-255",
-    "BT-Chuong-IV-p66-q27-218",
-    "BT-Chuong-IV-p66-q28-219",
-    "BT-Chuong-IV-p66-q29-220",
-    "BT-Chuong-IV-p68-q31-222",
-    "BT-Chuong-IV-p87-q6-262",
-    "BT-Chuong-IV-p72-q5-227",
-    "BT-Chuong-IV-p67-q30-221",
-    "BT-Chuong-IV-p50-q3-179",
-    "BT-Chuong-IV-p51-q4-180"
-  ],
-  "updates": [
+  "diagram_topology_checks": [
     {
+      "lesson": "02-resistance-ohm-law",
+      "bai": 11,
+      "source_id": "BT-Chuong-IV-p43-q1-147",
+      "check": "R1 and R2 are series in one branch; that branch is parallel with R3."
+    },
+    {
+      "lesson": "02-resistance-ohm-law",
+      "bai": 12,
+      "source_id": "BT-Chuong-IV-p43-q2-148",
+      "check": "Same topology as B11; branch current through R1-R2 is determined from the full 12 V branch voltage."
+    },
+    {
+      "lesson": "02-resistance-ohm-law",
+      "bai": 17,
+      "source_id": "BT-Chuong-IV-p53-q1-181",
+      "check": "R3 is directly across the 6 V rails; R1-R2 form the other series branch."
+    },
+    {
+      "lesson": "02-resistance-ohm-law",
+      "bai": 18,
+      "source_id": "BT-Chuong-IV-p53-q2-182",
+      "check": "Same topology as B17; R1 and R2 are series across the 6 V rails."
+    },
+    {
+      "lesson": "02-resistance-ohm-law",
+      "bai": 54,
+      "source_id": "BT-Chuong-IV-p33-q10-115",
+      "check": "Read resistor bands from the actual figure: brown-black-brown-gold = 100 ohm +/-5%."
+    },
+    {
+      "lesson": "02-resistance-ohm-law",
+      "bai": 69,
+      "source_id": "BT-Chuong-IV-p36-q25-130",
+      "check": "Read U-I graph points directly: R1=6/0.3=20 ohm, R2=4/0.8=5 ohm."
+    },
+    {
+      "lesson": "02-resistance-ohm-law",
+      "bai": 93,
+      "source_id": "BT-Chuong-IV-p39-q2-142",
+      "check": "Read nodes from the figure: R1 is the direct A-B branch; lower branch is R4 + [R2 || (R3+R5)]."
+    },
+    {
+      "lesson": "02-resistance-ohm-law",
+      "bai": 95,
+      "source_id": "BT-Chuong-IV-p41-q4-144",
+      "check": "Read R1 in series with a parallel group consisting of the lamp and R2."
+    },
+    {
+      "lesson": "02-resistance-ohm-law",
+      "bai": 97,
+      "source_id": "BT-Chuong-IV-p42-q6-146",
+      "check": "Read branch 1 as R1 in series with lamp D1, in parallel with lamp D2."
+    },
+    {
+      "lesson": "02-resistance-ohm-law",
+      "bai": 98,
+      "source_id": "BT-Chuong-IV-p49-q1-177",
+      "check": "Read R1, R2 and R3 as three parallel branches across 12 V."
+    },
+    {
+      "lesson": "05-full-circuit-ohm-law",
+      "bai": 12,
+      "source_id": "BT-Chuong-IV-p74-q4-232",
+      "check": "Read two identical sources in parallel with like polarity; R1 and R2 are series externally."
+    },
+    {
+      "lesson": "05-full-circuit-ohm-law",
+      "bai": 13,
       "source_id": "BT-Chuong-IV-p76-q6-234",
-      "action": "Made the ammeter-short topology explicit (C and D same node), then showed current split, branch voltages and node equation before the 0.5 A result."
+      "check": "Read R1 + (R2||R4) + (R3||R5); ideal ammeter current is the branch-current difference."
     },
     {
+      "lesson": "05-full-circuit-ohm-law",
+      "bai": 14,
       "source_id": "BT-Chuong-IV-p86-q3-259",
-      "action": "Reverified the printed stem values and aiding source polarity; kept R=4 ohm, removed learner-facing source-provenance note, and expanded topology/current/voltage/equation reasoning."
+      "check": "Read two sources in series aiding; total emf 10 V and total internal resistance 1 ohm."
     },
     {
+      "lesson": "05-full-circuit-ohm-law",
+      "bai": 15,
       "source_id": "BT-Chuong-IV-p86-q4-260",
-      "action": "Made the R1 series [(R2+R3)||R4] topology and ammeter-branch calculation explicit."
+      "check": "Read R1 + [(R2+R3)||R4], with the ideal ammeter in the R4 branch."
     },
     {
+      "lesson": "05-full-circuit-ohm-law",
+      "bai": 17,
+      "source_id": "BT-Chuong-IV-p65-q25-216",
+      "check": "Read source, ideal ammeter and R as one series loop."
+    },
+    {
+      "lesson": "05-full-circuit-ohm-law",
+      "bai": 18,
+      "source_id": "BT-Chuong-IV-p79-q9-243",
+      "check": "Read three series-connected groups, each group containing two identical cells in parallel with like polarity."
+    },
+    {
+      "lesson": "05-full-circuit-ohm-law",
+      "bai": 19,
+      "source_id": "BT-Chuong-IV-p80-q15-249",
+      "check": "Read R1 in series with (R2||Rv); voltmeter has finite Rv=9 ohm as printed."
+    },
+    {
+      "lesson": "05-full-circuit-ohm-law",
+      "bai": 20,
+      "source_id": "BT-Chuong-IV-p81-q18-252",
+      "check": "Read R1 in parallel with the series branch R2+R3."
+    },
+    {
+      "lesson": "05-full-circuit-ohm-law",
+      "bai": 21,
+      "source_id": "BT-Chuong-IV-p71-q4-226",
+      "check": "Read R3 in series with (R1||R2); ideal ammeter carries total current."
+    },
+    {
+      "lesson": "05-full-circuit-ohm-law",
+      "bai": 22,
+      "source_id": "BT-Chuong-IV-p72-q6-228",
+      "check": "Read two separate A-B branches: R1+R3 and R2+R4; M and N are not connected."
+    },
+    {
+      "lesson": "05-full-circuit-ohm-law",
+      "bai": 23,
+      "source_id": "BT-Chuong-IV-p83-q3-255",
+      "check": "Read ideal ammeter shorting the relevant nodes, giving R1 in series with (R2||R3)."
+    },
+    {
+      "lesson": "05-full-circuit-ohm-law",
+      "bai": 27,
+      "source_id": "BT-Chuong-IV-p66-q27-218",
+      "check": "Read three parallel strings, each string containing four identical series-aiding sources."
+    },
+    {
+      "lesson": "05-full-circuit-ohm-law",
+      "bai": 28,
+      "source_id": "BT-Chuong-IV-p66-q28-219",
+      "check": "Read R1 in series with (R2||Rv), with finite voltmeter resistance Rv=10 ohm."
+    },
+    {
+      "lesson": "05-full-circuit-ohm-law",
+      "bai": 29,
       "source_id": "BT-Chuong-IV-p66-q29-220",
-      "action": "Reverified the actual MN/AB topology; kept U_AB=1.00 V, removed learner-facing source-provenance note, and expanded voltage-path reasoning."
+      "check": "Read (R1+R2)||R3 followed in series by R4; A lies between R1 and R2, N before R4."
     },
     {
-      "source_id": "BT-Chuong-IV-p74-q3-231",
-      "action": "Reverified three-pin series data then parallel regrouping; kept 2.5 V and removed learner-facing source-provenance note."
+      "lesson": "05-full-circuit-ohm-law",
+      "bai": 30,
+      "source_id": "BT-Chuong-IV-p68-q31-222",
+      "check": "Read (R1||R2) in series with R3; ideal ammeter placement makes its reading equal to the R1 branch current."
     },
     {
-      "source_id": "BT-Chuong-IV-p72-q5-227",
-      "action": "Made source opposition/polarity and current direction explicit; retained 12 V equivalent emf and 4 A loop current."
+      "lesson": "08-advanced-circuit-methods",
+      "bai": 11,
+      "source_id": "BT-Chuong-IV-p113-q6-348",
+      "check": "Read R1 and R as parallel loads fed by source E with internal r; the resistance seen by R is r||R1."
     },
     {
-      "source_id": "BT-Chuong-IV-p67-q30-221",
-      "action": "Made switch topology explicit: K open gives R1+R2, K closed shorts R2; retained 1.2 A."
+      "lesson": "08-advanced-circuit-methods",
+      "bai": 14,
+      "source_id": "BT-Chuong-IV-p101-q40-302",
+      "check": "Read R0 and R in series across an ideal constant-voltage source."
     },
     {
-      "source_id": "BT-Chuong-IV-p51-q4-180",
-      "action": "Re-solved K-open/K-closed topology from the figure; retained item d=True at 0.375 A using the stated U_AB=6 V and removed learner-facing source-provenance note."
+      "lesson": "08-advanced-circuit-methods",
+      "bai": 15,
+      "source_id": "BT-Chuong-IV-p102-q47-309",
+      "check": "Read source internal r, fixed R1 and variable R as a series path."
+    },
+    {
+      "lesson": "08-advanced-circuit-methods",
+      "bai": 16,
+      "source_id": "BT-Chuong-IV-p103-q48-310",
+      "check": "Read external load as R1+x in series with source internal r."
+    },
+    {
+      "lesson": "08-advanced-circuit-methods",
+      "bai": 17,
+      "source_id": "BT-Chuong-IV-p109-q18-338",
+      "check": "Read R1 and R in parallel across the source terminals; Thevenin resistance seen by R is r||R1."
     }
   ],
-  "answer_option_repairs_this_turn": [],
-  "learner_facing_forbidden_markers_remaining": 0,
-  "unresolved": [],
-  "next": null,
-  "validation": {
-    "check_practice_bank": "PASS — 61 banks; 540 authored + 1633 PDF; 0 structural errors",
-    "check_solution_quality": "PASS — 2173 total items; 0 errors",
-    "check_site_lint_only": "PASS — 237 Markdown; 0 errors; 0 warnings",
-    "check_pdf_import": "PASS — 1633 canonical PDF items; Chapter IV=350; 0 integrity errors"
+  "lessons": {
+    "02-resistance-ohm-law": [
+      {
+        "bai": 1,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 2,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 3,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 4,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 5,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 6,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 7,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 8,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 9,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 10,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 11,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p43-q1-147"
+      },
+      {
+        "bai": 12,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p43-q2-148"
+      },
+      {
+        "bai": 13,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p43-q3-151"
+      },
+      {
+        "bai": 14,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p44-q4-152"
+      },
+      {
+        "bai": 15,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p44-q5-155"
+      },
+      {
+        "bai": 16,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p44-q6-156"
+      },
+      {
+        "bai": 17,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p53-q1-181"
+      },
+      {
+        "bai": 18,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p53-q2-182"
+      },
+      {
+        "bai": 19,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p53-q3-185"
+      },
+      {
+        "bai": 20,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p53-q4-186"
+      },
+      {
+        "bai": 21,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p53-q5-189"
+      },
+      {
+        "bai": 22,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p54-q6-190"
+      },
+      {
+        "bai": 23,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p26-q1-81"
+      },
+      {
+        "bai": 24,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p26-q2-82"
+      },
+      {
+        "bai": 25,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p26-q3-83"
+      },
+      {
+        "bai": 26,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p26-q4-84"
+      },
+      {
+        "bai": 27,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p26-q5-85"
+      },
+      {
+        "bai": 28,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p27-q6-86"
+      },
+      {
+        "bai": 29,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p27-q7-87"
+      },
+      {
+        "bai": 30,
+        "status": "FIXED",
+        "source_id": "BT-Chuong-IV-p27-q8-88",
+        "note": "Repaired duplicate-correct MCQ: kept I=U/R as B and changed D to U=R/I so exactly one option is correct."
+      },
+      {
+        "bai": 31,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p27-q9-89"
+      },
+      {
+        "bai": 32,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p28-q10-90"
+      },
+      {
+        "bai": 33,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p28-q11-91"
+      },
+      {
+        "bai": 34,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p28-q12-92"
+      },
+      {
+        "bai": 35,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p28-q13-93"
+      },
+      {
+        "bai": 36,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p28-q14-94"
+      },
+      {
+        "bai": 37,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p29-q15-95"
+      },
+      {
+        "bai": 38,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p29-q16-96"
+      },
+      {
+        "bai": 39,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p29-q17-97"
+      },
+      {
+        "bai": 40,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p29-q18-98"
+      },
+      {
+        "bai": 41,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p30-q19-99"
+      },
+      {
+        "bai": 42,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p30-q20-100"
+      },
+      {
+        "bai": 43,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p30-q21-101"
+      },
+      {
+        "bai": 44,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p30-q22-102"
+      },
+      {
+        "bai": 45,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p30-q23-103"
+      },
+      {
+        "bai": 46,
+        "status": "FIXED",
+        "source_id": "BT-Chuong-IV-p31-q2-107",
+        "note": "Independent calculation gives 87.7 C; changed option C and solution from the source arithmetic value 90 C."
+      },
+      {
+        "bai": 47,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p31-q3-108"
+      },
+      {
+        "bai": 48,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p31-q24-104"
+      },
+      {
+        "bai": 49,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p31-q25-105"
+      },
+      {
+        "bai": 50,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p32-q6-111"
+      },
+      {
+        "bai": 51,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p32-q7-112"
+      },
+      {
+        "bai": 52,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p32-q8-113"
+      },
+      {
+        "bai": 53,
+        "status": "FIXED",
+        "source_id": "BT-Chuong-IV-p33-q9-114",
+        "note": "Kept independently verified answer A and removed learner-facing source-comparison provenance."
+      },
+      {
+        "bai": 54,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p33-q10-115"
+      },
+      {
+        "bai": 55,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p33-q11-116"
+      },
+      {
+        "bai": 56,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p34-q12-117"
+      },
+      {
+        "bai": 57,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p34-q13-118"
+      },
+      {
+        "bai": 58,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p34-q14-119"
+      },
+      {
+        "bai": 59,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p34-q15-120"
+      },
+      {
+        "bai": 60,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p34-q16-121"
+      },
+      {
+        "bai": 61,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p34-q17-122"
+      },
+      {
+        "bai": 62,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p35-q18-123"
+      },
+      {
+        "bai": 63,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p35-q19-124"
+      },
+      {
+        "bai": 64,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p35-q20-125"
+      },
+      {
+        "bai": 65,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p35-q21-126"
+      },
+      {
+        "bai": 66,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p35-q22-127"
+      },
+      {
+        "bai": 67,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p35-q23-128"
+      },
+      {
+        "bai": 68,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p36-q24-129"
+      },
+      {
+        "bai": 69,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p36-q25-130"
+      },
+      {
+        "bai": 70,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p37-q3-133"
+      },
+      {
+        "bai": 71,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p37-q4-134"
+      },
+      {
+        "bai": 72,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p37-q5-135"
+      },
+      {
+        "bai": 73,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p38-q6-136"
+      },
+      {
+        "bai": 74,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p38-q7-137"
+      },
+      {
+        "bai": 75,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p38-q9-139"
+      },
+      {
+        "bai": 76,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p39-q10-140"
+      },
+      {
+        "bai": 77,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p46-q4-162"
+      },
+      {
+        "bai": 78,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p46-q5-163"
+      },
+      {
+        "bai": 79,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p46-q6-164"
+      },
+      {
+        "bai": 80,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p46-q7-165"
+      },
+      {
+        "bai": 81,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p47-q8-166"
+      },
+      {
+        "bai": 82,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p47-q9-167"
+      },
+      {
+        "bai": 83,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p47-q10-168"
+      },
+      {
+        "bai": 84,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p47-q11-169"
+      },
+      {
+        "bai": 85,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p47-q12-170"
+      },
+      {
+        "bai": 86,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p48-q13-171"
+      },
+      {
+        "bai": 87,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p48-q14-172"
+      },
+      {
+        "bai": 88,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p48-q15-173"
+      },
+      {
+        "bai": 89,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p48-q16-174"
+      },
+      {
+        "bai": 90,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p48-q17-175"
+      },
+      {
+        "bai": 91,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p49-q18-176"
+      },
+      {
+        "bai": 92,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p39-q1-141"
+      },
+      {
+        "bai": 93,
+        "status": "FIXED",
+        "source_id": "BT-Chuong-IV-p39-q2-142",
+        "note": "Expanded solution from the actual rendered topology and evaluated every True/False statement explicitly."
+      },
+      {
+        "bai": 94,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p40-q3-143"
+      },
+      {
+        "bai": 95,
+        "status": "FIXED",
+        "source_id": "BT-Chuong-IV-p41-q4-144",
+        "note": "Expanded solution from the actual rendered topology and evaluated every True/False statement explicitly."
+      },
+      {
+        "bai": 96,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p42-q5-145"
+      },
+      {
+        "bai": 97,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p42-q6-146"
+      },
+      {
+        "bai": 98,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p49-q1-177"
+      },
+      {
+        "bai": 99,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p50-q2-178"
+      },
+      {
+        "bai": 100,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p31-q1-106"
+      },
+      {
+        "bai": 101,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p36-q1-131"
+      },
+      {
+        "bai": 102,
+        "status": "FIXED",
+        "source_id": "BT-Chuong-IV-p37-q2-132",
+        "note": "Kept the already-corrected aluminum resistivity wording and removed learner-facing source-comparison provenance."
+      }
+    ],
+    "05-full-circuit-ohm-law": [
+      {
+        "bai": 1,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 2,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 3,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 4,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 5,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 6,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 7,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 8,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 9,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 10,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 11,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p74-q2-230"
+      },
+      {
+        "bai": 12,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p74-q4-232"
+      },
+      {
+        "bai": 13,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p76-q6-234"
+      },
+      {
+        "bai": 14,
+        "status": "FIXED",
+        "source_id": "BT-Chuong-IV-p86-q3-259",
+        "note": "Kept independently verified R=4 ohm from printed data and removed learner-facing source-comparison provenance."
+      },
+      {
+        "bai": 15,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p86-q4-260"
+      },
+      {
+        "bai": 16,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p62-q1-193"
+      },
+      {
+        "bai": 17,
+        "status": "FIXED",
+        "source_id": "BT-Chuong-IV-p65-q25-216",
+        "note": "Expanded circuit solution as topology -> current -> terminal voltage -> equation -> result."
+      },
+      {
+        "bai": 18,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p79-q9-243"
+      },
+      {
+        "bai": 19,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p80-q15-249"
+      },
+      {
+        "bai": 20,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p81-q18-252"
+      },
+      {
+        "bai": 21,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p71-q4-226"
+      },
+      {
+        "bai": 22,
+        "status": "FIXED",
+        "source_id": "BT-Chuong-IV-p72-q6-228",
+        "note": "Made the two-branch topology and U_MN polarity convention explicit; retained the independently verified T/F results."
+      },
+      {
+        "bai": 23,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p83-q3-255"
+      },
+      {
+        "bai": 24,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p64-q16-208"
+      },
+      {
+        "bai": 25,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p64-q18-210"
+      },
+      {
+        "bai": 26,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p65-q26-217"
+      },
+      {
+        "bai": 27,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p66-q27-218"
+      },
+      {
+        "bai": 28,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p66-q28-219"
+      },
+      {
+        "bai": 29,
+        "status": "FIXED",
+        "source_id": "BT-Chuong-IV-p66-q29-220",
+        "note": "Kept independently verified 1.0 V result and removed learner-facing source-comparison provenance."
+      },
+      {
+        "bai": 30,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p68-q31-222"
+      }
+    ],
+    "08-advanced-circuit-methods": [
+      {
+        "bai": 1,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 2,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 3,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 4,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 5,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 6,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 7,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 8,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 9,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 10,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 11,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p113-q6-348"
+      },
+      {
+        "bai": 12,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p32-q5-110"
+      },
+      {
+        "bai": 13,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p38-q8-138"
+      },
+      {
+        "bai": 14,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p101-q40-302"
+      },
+      {
+        "bai": 15,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p102-q47-309"
+      },
+      {
+        "bai": 16,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p103-q48-310"
+      },
+      {
+        "bai": 17,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p109-q18-338"
+      },
+      {
+        "bai": 18,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p95-q16-278"
+      }
+    ]
   },
-  "status": "GROUP_B_COMPLETE",
-  "chapter_final_status": "CHAPTER_IV_COMPLETE"
+  "unresolved": [],
+  "next": "GROUP C",
+  "summary": {
+    "VERIFIED": 140,
+    "FIXED": 10,
+    "UNRESOLVED": 0
+  }
 }

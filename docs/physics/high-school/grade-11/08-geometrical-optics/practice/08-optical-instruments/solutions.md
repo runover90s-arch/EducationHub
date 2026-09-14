@@ -18,7 +18,7 @@ tags:
 
 **Hướng dẫn giải:**
 
-Kính lúp là một thấu kính hội tụ có tiêu cự ngắn. Khi đặt vật trong hoặc gần tiêu cự, kính làm tăng góc trông của vật đối với mắt. Vì vậy chọn **A**.
+Kính lúp là một thấu kính hội tụ có tiêu cự ngắn. Khi vật đặt trong tiêu cự, kính cho ảnh ảo phóng đại góc; ở giới hạn ngắm chừng vô cực, vật đặt tại tiêu điểm để tia ló song song. Vì vậy chọn **A**.
 
 ## Bài 2
 **Đáp án:** A.

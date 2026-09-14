@@ -58,7 +58,7 @@ D. đổi dấu.
 
 ## Câu 4
 
-Định luật Faraday cho điện phân cho thấy khối lượng chất giải phóng tỉ lệ với:
+Với dòng điện không đổi $I$ chạy qua bình điện phân trong thời gian $t$, định luật Faraday cho thấy khối lượng chất giải phóng tỉ lệ với:
 
 A. $I/t$.
 
@@ -69,7 +69,7 @@ C. $I^2t$.
 D. $U^2t$.
 
 ??? success "Đáp án"
-    **B.** Vì $m=AIt/(nF)$.
+    **B.** Vì $q=It$ khi $I$ không đổi và $m=(A/nF)q$, nên $m=AIt/(nF)$.
 
 ## Câu 5
 

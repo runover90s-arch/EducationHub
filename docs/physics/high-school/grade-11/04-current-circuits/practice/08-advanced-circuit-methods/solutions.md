@@ -17,13 +17,13 @@ tags:
 Chọn **A**: tổng dòng vào nút bằng tổng dòng ra ở trạng thái ổn định.
 
 ## Bài 2
-Chọn **B**: theo định luật vòng Kirchhoff, tổng đại số các độ tăng và sụt điện thế quanh một vòng kín bằng $0$.
+Chọn **B**.
 
 ## Bài 3
-Chọn **A**: nhìn từ hai cực, mạng tuyến tính tương đương Thévenin gồm một nguồn áp $V_{th}$ nối tiếp điện trở $R_{th}$.
+Chọn **A**.
 
 ## Bài 4
-Chọn **B**: ở xác lập DC lâu dài, $u_C$ không đổi nên $i_C=C\,du_C/dt=0$; nhánh tụ tương đương hở mạch đối với dòng một chiều.
+Chọn **B**.
 
 ## Bài 5
 a) **Đúng.** Các định luật nút và vòng Kirchhoff được xây dựng để lập hệ phương trình dòng-áp cho mạch có nhiều nhánh và nhiều vòng kín.
@@ -32,7 +32,7 @@ b) **Đúng.** Trong mạch tuyến tính, đáp ứng tổng bằng tổng các
 
 c) **Đúng.** Nguồn áp lí tưởng bị đặt về $0\,\mathrm V$ tương đương hai cực cùng điện thế, tức một ngắn mạch.
 
-d) **Sai.** Nguồn dòng lí tưởng bị đặt về $0\,\mathrm A$ nên tương đương hở mạch.
+d) **Sai.** nguồn dòng lí tưởng bị thay bằng hở mạch.
 
 ## Bài 6
 a) **Đúng.** Vì $i=C\,du_C/dt$, một bước nhảy hữu hạn của $u_C$ trong thời gian bằng $0$ sẽ đòi hỏi dòng xung vô hạn.
@@ -53,15 +53,21 @@ $I=V_{th}/(R_{th}+R_L)=12/12=1\,\mathrm A$. $U_L=IR_L=9\,\mathrm V$.
 $Q=CU=100\cdot10^{-6}\cdot20=2\cdot10^{-3}\,\mathrm C$. $W=\frac12CU^2=0,5\cdot100\cdot10^{-6}\cdot400=0,020\,\mathrm J$.
 
 ## Bài 10
-**Sơ đồ tương đương:** hai vòng dùng chung $R_3=4\,\Omega$. Với hai dòng vòng cùng chọn theo chiều kim đồng hồ, chúng đi ngược chiều nhau trên $R_3$, nên dòng qua $R_3$ theo hướng vòng trái là $I_3=I_1-I_2$.
+Phương trình vòng trái:
 
-**Phương trình vòng:** vòng trái cho $12-2I_1-4(I_1-I_2)=0$, hay $6I_1-4I_2=12$. Vòng phải không có nguồn nên $-6I_2-4(I_2-I_1)=0$, hay $-4I_1+10I_2=0$.
+$12-2I_1-4(I_1-I_2)=0$, hay $6I_1-4I_2=12$.
 
-**Giải hệ:** từ phương trình hai, $I_1=2,5I_2$. Thay vào phương trình một: $6(2,5I_2)-4I_2=12\Rightarrow11I_2=12$. Do đó $I_2=12/11\approx1,091\,\mathrm A$ và $I_1=30/11\approx2,727\,\mathrm A$.
+Vòng phải không có nguồn:
 
-**Kiểm tra:** $6(30/11)-4(12/11)=12$ và $-4(30/11)+10(12/11)=0$, nên nghiệm thỏa cả hai vòng.
+$-6I_2-4(I_2-I_1)=0$, hay $-4I_1+10I_2=0$.
 
-**Kết luận:** $I_1\approx2,727\,\mathrm A$, $I_2\approx1,091\,\mathrm A$ và $I_3=I_1-I_2=18/11\approx1,636\,\mathrm A$ theo hướng vòng trái.
+Từ phương trình hai: $I_1=2,5I_2$. Thay vào phương trình một:
+
+$6(2,5I_2)-4I_2=12\Rightarrow11I_2=12$.
+
+$I_2=12/11\approx1,091\,\mathrm A$; $I_1=30/11\approx2,727\,\mathrm A$.
+
+Dòng qua R3 theo hướng vòng trái: $I_3=I_1-I_2=18/11\approx1,636\,\mathrm A$.
 
 ---
 

@@ -89,7 +89,7 @@ với góc trong miền 0–90°. Tia khúc xạ **lệch về phía pháp tuy�
 
 ### Nếu n₂ < n₁
 
-$r>i$: tia **lệch xa pháp tuyến**.
+Nếu vẫn có tia khúc xạ truyền sang môi trường 2 thì $r>i$: tia **lệch xa pháp tuyến**. Khi góc tới vượt góc giới hạn, tia khúc xạ truyền sang môi trường 2 không còn tồn tại và phải chuyển sang xét phản xạ toàn phần ở Bài 3.
 
 ### Tới vuông góc
 

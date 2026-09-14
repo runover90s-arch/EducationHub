@@ -26,10 +26,10 @@ Bạn cần:
 
 ## 1. Lực từ lên điện tích chuyển động
 
-Một điện tích q chuyển động với vận tốc $\vec v$ trong từ trường $\vec B$ chịu lực từ:
+Khi chỉ xét tác dụng của từ trường, một điện tích $q$ chuyển động với vận tốc $\vec v$ trong từ trường $\vec B$ chịu **phần lực từ của lực Lorentz**:
 
 $$
-\boxed{\vec F=q\vec v\times\vec B}.
+\boxed{\vec F_B=q\vec v\times\vec B}.
 $$
 
 Độ lớn:
@@ -38,7 +38,9 @@ $$
 \boxed{F=|q|vB\sin\alpha}
 $$
 
-với $\alpha$ là góc giữa $\vec v$ và $\vec B$.
+với $\alpha$ là góc giữa $\vec v$ và $\vec B$. Trong hệ SI, $q$ tính bằng coulomb (C), $v$ bằng $\mathrm{m/s}$, $B$ bằng tesla (T) và $F$ bằng newton (N).
+
+Nếu đồng thời có điện trường, lực Lorentz tổng quát còn có thêm phần lực điện $q\vec E$; trong bài này, khi nói “lực Lorentz” ta chủ yếu xét phần lực từ ở trên.
 
 ## 2. Chiều lực
 
@@ -128,7 +130,7 @@ $$
 - $v_{\parallel}$ không chịu lực từ → chuyển động thẳng đều dọc B;
 - $v_{\perp}$ gây chuyển động tròn quanh đường sức.
 
-Kết hợp thành **đường xoắn ốc**.
+Nếu $\vec B$ đều và không có lực khác đáng kể, hai chuyển động thành phần kết hợp thành **đường xoắn ốc** quanh phương $\vec B$.
 
 Bán kính:
 
@@ -165,7 +167,7 @@ proton có bán kính lớn hơn electron xấp xỉ tỉ số khối lượng $
 
 ## 9. Hạt được tăng tốc qua hiệu điện thế rồi vào B
 
-Nếu hạt xuất phát gần nghỉ và được tăng tốc qua hiệu điện thế U:
+Nếu hạt xuất phát gần nghỉ và được điện trường tăng tốc qua một hiệu điện thế có độ lớn $U$, bỏ qua hao phí và các lực khác, độ tăng động năng là $|q|U$:
 
 $$
 |q|U=\frac12mv^2.
@@ -177,7 +179,7 @@ $$
 v=\sqrt{\frac{2|q|U}{m}}.
 $$
 
-Thay vào bán kính:
+Nếu sau đó hạt đi vào từ trường với $\vec v\perp\vec B$, thay $v$ vào công thức bán kính:
 
 $$
 \boxed{r=\frac1B\sqrt{\frac{2mU}{|q|}}}.
@@ -187,7 +189,7 @@ Công thức này dùng nhiều trong bài xác định tỉ số q/m hoặc ph�
 
 ## 10. Bộ chọn vận tốc — mở rộng
 
-Nếu đồng thời có điện trường $\vec E$ và từ trường $\vec B$ vuông góc, có thể chọn vận tốc sao cho lực điện và lực từ cân bằng:
+Nếu $\vec E\perp\vec B$ và hạt bay với $\vec v$ vuông góc với cả hai trường, chọn chiều chuyển động sao cho lực điện và lực từ ngược nhau thì hạt đi thẳng khi hai lực cân bằng:
 
 $$
 |q|E=|q|vB.

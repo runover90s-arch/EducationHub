@@ -532,7 +532,9 @@ D. $U=\dfrac{R}{I}$.
 
     **Hướng dẫn giải:**
 
-    Với đoạn mạch thuần điện trở ở nhiệt độ và các điều kiện vật lí không đổi, định luật Ohm cho $I=U/R$. Chọn **B**.
+    Với một điện trở ohmic, định luật Ohm cho $I=U/R$. Trong bốn biểu thức đã cho, chỉ phương án B đúng.
+
+    Chọn **B**.
 #### Bài 31
 
 <!-- source-id: BT-Chuong-IV-p27-q9-89 -->
@@ -874,7 +876,7 @@ A. $25\,^{\circ}\mathrm C$.
 
 B. $75\,^{\circ}\mathrm C$.
 
-C. $90\,^{\circ}\mathrm C$.
+C. $87{,}7\,^{\circ}\mathrm C$.
 
 D. $100\,^{\circ}\mathrm C$.
 
@@ -883,10 +885,13 @@ D. $100\,^{\circ}\mathrm C$.
 
     **Hướng dẫn giải:**
 
-    $43=37[1+4{,}3\times10^{-3}(t-50)]$, suy ra $t\approx90\,^{\circ}\mathrm C$.
+    Dùng quan hệ $R_t=R_{50}[1+\alpha(t-50)]$:
+
+    $43=37[1+4{,}3\times10^{-3}(t-50)]$.
+
+    Suy ra $t=50+\dfrac{43/37-1}{4{,}3\times10^{-3}}\approx87{,}7\,^{\circ}\mathrm C$.
 
     Vậy chọn **C**.
-
 #### Bài 47
 
 <!-- source-id: BT-Chuong-IV-p31-q3-108 -->
@@ -1863,7 +1868,7 @@ D. $0{,}8\,\Omega$.
 
 <!-- source-id: BT-Chuong-IV-p49-q18-176 -->
 
-Một dây dẫn bằng đồng dài $25\,\mathrm m$ có điện trở $42{,}5\,\Omega$. Lấy điện trở suất của đồng $\rho=1{,}7\times10^{-8}\,\Omega\,\mathrm m$. Tiết diện của dây dẫn này là
+Một dây dẫn bằng đồng dài $25\,\mathrm m$ có điện trở $42{,}5\,\Omega$. Lấy điện trở suất của đồng $\rho=1{,}7\times10^{-8}\,\Omega\,\mathrm m$ như giá trị dùng trong hướng dẫn nguồn. Tiết diện của dây dẫn này là
 
 A. $1{,}7\,\mathrm{mm^2}$.
 
@@ -1935,14 +1940,21 @@ d) Hiệu điện thế giữa hai đầu $R_2$ là $60\,\mathrm V$.
 
     **Hướng dẫn giải:**
 
-    a) **Sai.** $U_3=I_3R_3=2\cdot10=20\,\mathrm V$.
+    **Topology:** $R_1$ là một nhánh trực tiếp giữa $A,B$. Nhánh còn lại là $R_4$ nối tiếp với $[R_2\parallel(R_3+R_5)]$.
 
-    b) **Sai.** Từ sơ đồ, nhánh chứa $R_3,R_5$ có $R_{35}=30\,\Omega$ và hiệu điện thế nhánh $U_{35}=60\,\mathrm V$; suy ra $I_2=U_{35}/R_2=3\,\mathrm A$, không phải $2\,\mathrm A$.
+    **Dòng điện:** $R_3$ nối tiếp $R_5$ nên $I_{35}=I_3=2\,\mathrm A$. Do $R_{35}=10+20=30\,\Omega$, ta có $U_{35}=I_{35}R_{35}=60\,\mathrm V$. Vì $R_2\parallel R_{35}$, $I_2=60/20=3\,\mathrm A$. Dòng qua $R_4$ là $I_4=I_2+I_{35}=5\,\mathrm A$.
 
-    c) **Đúng.** Rút gọn mạch theo sơ đồ cho $R_{\rm td}=6{,}4\,\Omega$.
+    **Điện áp:** $U_4=I_4R_4=100\,\mathrm V$, do đó $U_{AB}=U_4+U_2=100+60=160\,\mathrm V$. Nhánh $R_1$ có $I_1=160/8=20\,\mathrm A$.
 
-    d) **Đúng.** $R_2$ mắc song song với nhánh tương ứng nên $U_2=60\,\mathrm V$.
+    **Phương trình tương đương:** $I=I_1+I_4=25\,\mathrm A$, nên $R_{\rm td}=U_{AB}/I=160/25=6{,}4\,\Omega$.
 
+    a) **Sai.** $U_3=I_3R_3=2\cdot10=20\,\mathrm V$, không phải $10\,\mathrm V$.
+
+    b) **Sai.** $I_2=3\,\mathrm A$, không phải $2\,\mathrm A$.
+
+    c) **Đúng.** $R_{\rm td}=6{,}4\,\Omega$.
+
+    d) **Đúng.** $U_2=U_{35}=60\,\mathrm V$.
 #### Bài 94
 
 <!-- source-id: BT-Chuong-IV-p40-q3-143 -->
@@ -1991,13 +2003,19 @@ d) Cường độ dòng điện qua $R_2$ là $1\,\mathrm A$.
 
     **Hướng dẫn giải:**
 
-    a) **Đúng.** Điện trở định mức của đèn $R_\text{đ}=U_\text{đm}^2/P_\text{đm}=6^2/3=12\ \Omega$.
+    **Topology:** $R_1$ nối tiếp với nhóm song song gồm đèn Đ và $R_2$. Khi đèn sáng bình thường, điện áp trên cả nhóm song song là $6\,\mathrm V$.
 
-    b) **Sai.** Dòng định mức $I_\text{đm}=P_\text{đm}/U_\text{đm}=3/6=0{,}5\,\mathrm A$.
+    **Dòng điện:** $I_{\rm đ}=P_{\rm đm}/U_{\rm đm}=3/6=0{,}5\,\mathrm A$. Sụt áp trên $R_1$ là $U_1=9-6=3\,\mathrm V$, nên dòng mạch chính $I=U_1/R_1=3/2=1{,}5\,\mathrm A$. Do đó $I_2=I-I_{\rm đ}=1\,\mathrm A$.
 
-    c) **Đúng.** Từ sơ đồ mạch, $R_1$ nối tiếp với nhánh song song gồm đèn và $R_2$. Đèn sáng bình thường nên hiệu điện thế trên nhánh song song là $6\,\mathrm V$. Khi đó $I_{\rm đ}=3/6=0{,}5\,\mathrm A$, còn trên $R_1$ có $U_1=9-6=3\,\mathrm V$, nên dòng mạch chính $I=U_1/R_1=3/2=1{,}5\,\mathrm A$. Do đó $I_2=I-I_{\rm đ}=1\,\mathrm A$ và $R_2=6/1=6\,\Omega$.
+    **Điện áp và phương trình:** $U_2=6\,\mathrm V$, nên $R_2=U_2/I_2=6\,\Omega$. Điện trở định mức của đèn là $R_{\rm đ}=U_{\rm đm}^2/P_{\rm đm}=12\,\Omega$.
 
-    d) **Đúng.** Theo phép tính trên, dòng qua $R_2$ là $I_2=1\,\mathrm A$.
+    a) **Đúng.** $R_{\rm đ}=12\,\Omega$.
+
+    b) **Sai.** $I_{\rm đm}=0{,}5\,\mathrm A$, không phải $2\,\mathrm A$.
+
+    c) **Đúng.** $R_2=6\,\Omega$.
+
+    d) **Đúng.** $I_2=1\,\mathrm A$.
 #### Bài 96
 
 <!-- source-id: BT-Chuong-IV-p42-q5-145 -->

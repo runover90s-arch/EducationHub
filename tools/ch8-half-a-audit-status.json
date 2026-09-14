@@ -1,0 +1,313 @@
+{
+  "base_version": "education-hub-v22.zip",
+  "scope": "docs/physics/high-school/grade-11/08-geometrical-optics/",
+  "mode": "AUDIT / UPDATE",
+  "source_check": {
+    "working_tree": "continued directly from complete series 2/version 22 working tree",
+    "supplied_pdf_findings": [
+      "The supplied Grade-11 formula/map/current-electricity ebooks do not provide a Chapter VIII geometrical-optics corpus; their visible Grade-11 contents end before this topic.",
+      "EBOOK SỔ TAY LÝ THUYẾT VẬT LÝ 10 11 12, IPCLASS: rendered table of contents shows the Grade-11 section ending after Chương 4 — Dòng điện, mạch điện, then switching to Grade 12; it does not supply the Chapter VIII optics theory used here.",
+      "BT-Chương II_1.pdf contains only scattered generic references to refraction/refractive index in wave/electromagnetic-wave contexts, not a geometrical-optics Chapter VIII exercise corpus.",
+      "Therefore no Chapter VIII learner-facing claim was attributed to the supplied PDFs; web sources and independent physics checks were used for academic verification, while PDF corpus style remained only a writing-style reference."
+    ]
+  },
+  "web_verification": {
+    "policy": "mandatory for Chapters V-VIII; THPT-oriented sources are cross-checked against stronger academic sources",
+    "sources": [
+      {
+        "name": "Vật Lí Phổ Thông — Vật lí lớp 11 Khúc xạ ánh sáng, Thấu kính",
+        "url": "https://vatlypt.com/vat-li-lop-11-khuc-xa-anh-sang-thau-kinh.html",
+        "use": "Vietnamese THPT scope/terminology for refraction, TIR, lenses and optical instruments"
+      },
+      {
+        "name": "Vật Lí Phổ Thông — Công thức khúc xạ ánh sáng",
+        "url": "https://vatlypt.com/cong-thuc-khuc-xa-anh-sang-vat-li-lop-11.html",
+        "use": "Snell law, angles measured from the normal, refractive-index notation"
+      },
+      {
+        "name": "Vật Lí Phổ Thông — Lăng kính, vật lí phổ thông",
+        "url": "https://vatlypt.com/lang-kinh-vat-ly-pho-thong.html",
+        "use": "prism geometry, minimum deviation, thin-prism approximation and TIR at prism faces"
+      },
+      {
+        "name": "Vật Lí Phổ Thông — Công thức thấu kính vật lí 11",
+        "url": "https://vatlypt.com/cong-thuc-thau-kinh-vat-li-11.html",
+        "use": "THPT thin-lens sign convention, magnification and optical power"
+      },
+      {
+        "name": "OpenStax University Physics Vol. 3 — Images Formed by Refraction",
+        "url": "https://openstax.org/books/university-physics-volume-3/pages/2-3-images-formed-by-refraction",
+        "use": "apparent-depth small-angle condition and h_image=(n2/n1)h_object"
+      },
+      {
+        "name": "OpenStax University Physics Vol. 3 — Total Internal Reflection",
+        "url": "https://openstax.org/books/university-physics-volume-3/pages/1-4-total-internal-reflection",
+        "use": "critical-angle and n1>n2 conditions"
+      },
+      {
+        "name": "OpenStax University Physics Vol. 3 — Thin Lenses",
+        "url": "https://openstax.org/books/university-physics-volume-3/pages/2-4-thin-lenses",
+        "use": "thin-lens equation, image sign, magnification and ray tracing"
+      },
+      {
+        "name": "OpenStax Physics — Refraction",
+        "url": "https://openstax.org/books/physics/pages/16-2-refraction",
+        "use": "dispersion and refractive-index wavelength dependence"
+      },
+      {
+        "name": "OpenStax Physics / University Physics — eye, microscopes and telescopes",
+        "url": "https://openstax.org/books/university-physics-volume-3/pages/2-8-microscopes-and-telescopes",
+        "use": "microscope/telescope image formation and angular magnification context"
+      }
+    ]
+  },
+  "theory_audit": [
+    {
+      "file": "01-refraction-refractive-index.md",
+      "status": "FIXED",
+      "corrections": [
+        "qualified the n2<n1 statement: r>i only while a refracted ray exists; for incidence above the critical angle the problem changes to total internal reflection"
+      ]
+    },
+    {
+      "file": "02-parallel-slab-apparent-depth.md",
+      "status": "VERIFIED",
+      "corrections": []
+    },
+    {
+      "file": "03-total-internal-reflection.md",
+      "status": "VERIFIED",
+      "corrections": []
+    },
+    {
+      "file": "04-prism-dispersion.md",
+      "status": "FIXED",
+      "corrections": [
+        "made the same-external-medium condition explicit before using the symmetric minimum-deviation relations i1=i2 and r1=r2=A/2"
+      ]
+    },
+    {
+      "file": "05-thin-lenses-image-construction.md",
+      "status": "FIXED",
+      "corrections": [
+        "completed the sign convention with d<0 for a virtual object, so later two-lens work has an explicit convention rather than an implied one"
+      ]
+    },
+    {
+      "file": "06-lens-problem-methods.md",
+      "status": "FIXED",
+      "corrections": [
+        "defined the signed-radius convention used in the lens-maker formula: for light left-to-right, R>0 when the center of curvature is to the right of the surface and R<0 when it is to the left"
+      ]
+    },
+    {
+      "file": "07-eye-and-defects.md",
+      "status": "VERIFIED",
+      "corrections": []
+    },
+    {
+      "file": "08-optical-instruments.md",
+      "status": "VERIFIED",
+      "corrections": []
+    }
+  ],
+  "practice_partition": {
+    "HALF A": [
+      "01-refraction-refractive-index",
+      "02-parallel-slab-apparent-depth",
+      "03-total-internal-reflection",
+      "04-prism-dispersion"
+    ],
+    "HALF B": [
+      "05-thin-lenses-image-construction",
+      "06-lens-problem-methods",
+      "07-eye-and-defects",
+      "08-optical-instruments"
+    ]
+  },
+  "practice_audit": {
+    "01-refraction-refractive-index": [
+      {
+        "bai": 1,
+        "status": "VERIFIED",
+        "independent_check": "Snell law is n1 sin i = n2 sin r with angles to the normal; A only"
+      },
+      {
+        "bai": 2,
+        "status": "VERIFIED",
+        "independent_check": "v=c/n=3.0e8/1.5=2.0e8 m/s; C only"
+      },
+      {
+        "bai": 3,
+        "status": "VERIFIED",
+        "independent_check": "for n2>n1, transmitted ray has r<i and bends toward the normal; B only"
+      },
+      {
+        "bai": 4,
+        "status": "VERIFIED",
+        "independent_check": "a True, b True, c True, d True; frequency remains fixed across a stationary interface while v and wavelength may change"
+      },
+      {
+        "bai": 5,
+        "status": "VERIFIED",
+        "independent_check": "sin r=(1/1.5)sin30=1/3, giving r=19.47 degrees"
+      },
+      {
+        "bai": 6,
+        "status": "VERIFIED",
+        "independent_check": "n=c/v=3.0e8/2.4e8=1.25"
+      },
+      {
+        "bai": 7,
+        "status": "VERIFIED",
+        "independent_check": "frequency unchanged; lambda=lambda0/n=600/1.5=400 nm"
+      },
+      {
+        "bai": 8,
+        "status": "VERIFIED",
+        "independent_check": "sin r=(1.2/1.5)sin45 gives r=34.45 degrees; r<i so the ray bends toward the normal"
+      }
+    ],
+    "02-parallel-slab-apparent-depth": [
+      {
+        "bai": 1,
+        "status": "VERIFIED",
+        "independent_check": "near-normal small-angle view from air gives h_prime=h/n; B only"
+      },
+      {
+        "bai": 2,
+        "status": "VERIFIED",
+        "independent_check": "h_prime=1.2/(4/3)=0.90 m; A only"
+      },
+      {
+        "bai": 3,
+        "status": "VERIFIED",
+        "independent_check": "same exterior medium on both sides of a parallel slab gives equal entrance/exit angles; emergent ray is parallel and generally laterally displaced; A only"
+      },
+      {
+        "bai": 4,
+        "status": "VERIFIED",
+        "independent_check": "a True, b True, c True, d False; stationary interfaces do not change optical frequency"
+      },
+      {
+        "bai": 5,
+        "status": "VERIFIED",
+        "independent_check": "h_prime=80/(4/3)=60 cm"
+      },
+      {
+        "bai": 6,
+        "status": "VERIFIED",
+        "independent_check": "apparent thickness=6/1.5=4 cm; apparent rise=6-4=2 cm"
+      },
+      {
+        "bai": 7,
+        "status": "VERIFIED",
+        "independent_check": "sin r=sin45/1.5 gives r=28.13 degrees"
+      },
+      {
+        "bai": 8,
+        "status": "VERIFIED",
+        "independent_check": "with r=28.13 degrees, s=4 sin(45-r)/cos r=1.3166 cm, rounding to 1.32 cm"
+      }
+    ],
+    "03-total-internal-reflection": [
+      {
+        "bai": 1,
+        "status": "VERIFIED",
+        "independent_check": "TIR requires propagation from higher n to lower n and sufficiently large incidence; B only"
+      },
+      {
+        "bai": 2,
+        "status": "VERIFIED",
+        "independent_check": "at the critical angle r=90 degrees, so sin ic=n2/n1 for n1>n2; A only"
+      },
+      {
+        "bai": 3,
+        "status": "VERIFIED",
+        "independent_check": "ic=asin(1/1.5)=41.81 degrees; B only"
+      },
+      {
+        "bai": 4,
+        "status": "VERIFIED",
+        "independent_check": "a True, b True, c True, d True under the stated geometrical-optics model"
+      },
+      {
+        "bai": 5,
+        "status": "VERIFIED",
+        "independent_check": "ic=asin(1/(4/3))=48.59 degrees"
+      },
+      {
+        "bai": 6,
+        "status": "VERIFIED",
+        "independent_check": "glass-air ic=asin(1/1.6)=38.68 degrees; 50 degrees exceeds ic, so TIR occurs"
+      },
+      {
+        "bai": 7,
+        "status": "VERIFIED",
+        "independent_check": "sin30=1/n gives n=2"
+      },
+      {
+        "bai": 8,
+        "status": "VERIFIED",
+        "independent_check": "core-cladding ic=asin(1.40/1.50)=68.96 degrees; 75 degrees exceeds ic, so TIR occurs"
+      }
+    ],
+    "04-prism-dispersion": [
+      {
+        "bai": 1,
+        "status": "VERIFIED",
+        "independent_check": "dispersion occurs because refractive index depends on wavelength; A only"
+      },
+      {
+        "bai": 2,
+        "status": "VERIFIED",
+        "independent_check": "normal visible dispersion in ordinary glass has n_violet>n_red, so violet deviates more; B only"
+      },
+      {
+        "bai": 3,
+        "status": "VERIFIED",
+        "independent_check": "thin-prism small-angle approximation in air is D approximately (n-1)A; A only"
+      },
+      {
+        "bai": 4,
+        "status": "VERIFIED",
+        "independent_check": "a True, b True, c True, d False; violet normally deviates more than red in glass"
+      },
+      {
+        "bai": 5,
+        "status": "VERIFIED",
+        "independent_check": "D=(1.50-1)*6 degrees=3.0 degrees"
+      },
+      {
+        "bai": 6,
+        "status": "VERIFIED",
+        "independent_check": "Delta D=(1.54-1.50)*6 degrees=0.24 degrees"
+      },
+      {
+        "bai": 7,
+        "status": "VERIFIED",
+        "independent_check": "n=1+D/A=1+2.2/4=1.55"
+      },
+      {
+        "bai": 8,
+        "status": "VERIFIED",
+        "independent_check": "D_red=0.51*5=2.55 degrees; D_violet=0.55*5=2.75 degrees; separation=0.20 degrees"
+      }
+    ]
+  },
+  "practice_summary": {
+    "TOTAL_IN_SCOPE": 32,
+    "CUMULATIVE_AUDITED": 32,
+    "VERIFIED": 32,
+    "FIXED": 0,
+    "UNRESOLVED": 0
+  },
+  "unresolved": [],
+  "next": "Chương VIII — HALF B + FINAL AUDIT",
+  "quality_gate": {
+    "check_practice_bank.py": "PASS — 0 structural errors",
+    "check_solution_quality.py": "PASS — 0 errors",
+    "check_site.py --lint-only": "PASS — 0 errors, 0 warnings"
+  },
+  "checkpoint": "education-hub-v23.zip"
+}

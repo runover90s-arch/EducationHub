@@ -12619,11 +12619,11 @@
 <li>electron trôi <strong>ngược chiều điện trường</strong>;</li>
 <li>chiều dòng điện quy ước <strong>cùng chiều điện trường</strong> trong dây dẫn thuần trở.</li>
 </ul>
-<p>Liên hệ vi mô đơn giản:</p>
+<p>Với dây dẫn đồng nhất, tiết diện đều và mật độ hạt tải gần như không đổi, liên hệ vi mô theo độ lớn là:</p>
 <div class="arithmatex">\[
 I=neSv_d.
 \]</div>
-<p>Trong đó n là mật độ electron dẫn, e là độ lớn điện tích electron, S là tiết diện dây và <span class="arithmatex">\(v_d\)</span> là tốc độ trôi.</p>
+<p>Trong công thức này, <span class="arithmatex">\(I\)</span> là độ lớn cường độ dòng điện; <span class="arithmatex">\(n\)</span> là mật độ electron dẫn (đơn vị <span class="arithmatex">\(\mathrm{m^{-3}}\)</span>), <span class="arithmatex">\(e\)</span> là độ lớn điện tích electron (C), <span class="arithmatex">\(S\)</span> là tiết diện dây (<span class="arithmatex">\(\mathrm{m^2}\)</span>) và <span class="arithmatex">\(v_d\)</span> là độ lớn tốc độ trôi trung bình (<span class="arithmatex">\(\mathrm{m/s}\)</span>).</p>
 <h2 id="3-vi-sao-kim-loai-co-ien-tro">3. Vì sao kim loại có điện trở?</h2>
 <p>Electron dẫn tương tác với mạng tinh thể, khuyết tật và dao động nhiệt của mạng. Các tương tác này cản trở chuyển động trôi có hướng.</p>
 <p>Khi nhiệt độ kim loại tăng, dao động nhiệt của mạng thường mạnh hơn nên điện trở của kim loại thông thường tăng.</p>
@@ -12632,30 +12632,30 @@ I=neSv_d.
 <div class="arithmatex">\[
 \rho=\rho_0[1+\alpha(T-T_0)].
 \]</div>
-<p>Nếu hình học dây không đổi:</p>
+<p>Nếu hình học dây gần như không đổi (bỏ qua giãn nở nhiệt của dây):</p>
 <div class="arithmatex">\[
 R=R_0[1+\alpha(T-T_0)].
 \]</div>
 <p>Với nhiệt độ Celsius, hiệu nhiệt độ có cùng giá trị số như Kelvin nên có thể dùng <span class="arithmatex">\(t-t_0\)</span>.</p>
 <h3 id="ieu-kien-ap-dung">Điều kiện áp dụng</h3>
-<p>Quan hệ tuyến tính là xấp xỉ. Không được coi <span class="arithmatex">\(\alpha\)</span> là hằng số chính xác trên mọi khoảng nhiệt độ rất rộng hoặc qua các chuyển pha.</p>
+<p>Quan hệ tuyến tính là xấp xỉ quanh một miền nhiệt độ nhất định; <span class="arithmatex">\(\alpha\)</span> được hiểu là hệ số nhiệt điện trở trong miền đó. Không được coi <span class="arithmatex">\(\alpha\)</span> là hằng số chính xác trên mọi khoảng nhiệt độ rất rộng hoặc qua các chuyển pha.</p>
 <h2 id="5-vi-du-day-toc-bong-en">5. Ví dụ — Dây tóc bóng đèn</h2>
 <p>Một dây có <span class="arithmatex">\(R_0=50\,\Omega\)</span> ở 20°C, hệ số <span class="arithmatex">\(\alpha=4,5\times10^{-3}\,\text{K}^{-1}\)</span>. Nếu nhiệt độ làm việc là 2000°C, theo mô hình tuyến tính:</p>
 <div class="arithmatex">\[
 R=50[1+4,5\times10^{-3}(2000-20)]\approx495,5\,\Omega.
 \]</div>
-<p>Kết quả giải thích vì sao điện trở dây tóc nóng có thể lớn hơn rất nhiều điện trở khi nguội.</p>
+<p>Kết quả chỉ minh họa xu hướng điện trở tăng mạnh khi dây nóng. Với khoảng nhiệt độ rất rộng như từ <span class="arithmatex">\(20^\circ\,\mathrm C\)</span> đến <span class="arithmatex">\(2000^\circ\,\mathrm C\)</span>, công thức tuyến tính là ngoại suy thô; muốn tính chính xác phải dùng đặc trưng <span class="arithmatex">\(R(T)\)</span> hoặc <span class="arithmatex">\(\rho(T)\)</span> của vật liệu trong miền nhiệt độ tương ứng.</p>
 <h2 id="6-hien-tuong-nhiet-ien">6. Hiện tượng nhiệt điện</h2>
 <p>Nếu hai kim loại khác nhau tạo thành một mạch có hai mối nối ở hai nhiệt độ khác nhau, có thể xuất hiện suất điện động nhiệt điện.</p>
-<p>Trong mô hình tuyến tính đơn giản:</p>
+<p>Nếu hệ số nhiệt điện của cặp vật liệu có thể coi gần như không đổi trong khoảng nhiệt độ đang xét:</p>
 <div class="arithmatex">\[
-\boxed{\mathcal E=\alpha_T(T_2-T_1)}.
+\boxed{\mathcal E\approx\alpha_T(T_2-T_1)}.
 \]</div>
-<p><span class="arithmatex">\(\alpha_T\)</span> là hệ số nhiệt điện của cặp vật liệu.</p>
+<p><span class="arithmatex">\(\alpha_T\)</span> là hệ số nhiệt điện của cặp vật liệu. Dấu của <span class="arithmatex">\(\mathcal E\)</span> phụ thuộc cách chọn chiều vòng mạch và thứ tự hai vật liệu; nếu bài chỉ hỏi độ lớn thì dùng <span class="arithmatex">\(|\mathcal E|\approx|\alpha_T|\,|T_2-T_1|\)</span>.</p>
 <h3 id="ung-dung">Ứng dụng</h3>
 <p>Cặp nhiệt điện dùng để đo nhiệt độ ở những nơi mà nhiệt kế thông thường không thuận tiện, ví dụ lò nung hoặc hệ đo công nghiệp.</p>
 <h2 id="7-hien-tuong-sieu-dan">7. Hiện tượng siêu dẫn</h2>
-<p>Một số vật liệu khi hạ dưới nhiệt độ tới hạn có điện trở điện một chiều giảm xuống mức cực nhỏ, về mô hình lí tưởng có thể xem bằng 0. Trạng thái này gọi là <strong>siêu dẫn</strong>.</p>
+<p>Một số vật liệu khi hạ dưới nhiệt độ tới hạn chuyển sang trạng thái có điện trở suất điện một chiều giảm đột ngột về 0; trong mô hình mạch lí tưởng có thể xem điện trở của mẫu bằng 0. Trạng thái này gọi là <strong>siêu dẫn</strong>.</p>
 <p>Siêu dẫn không chỉ là "kim loại lạnh nên điện trở nhỏ". Đây là một pha vật chất có tính chất lượng tử tập thể. Nhiệt độ tới hạn phụ thuộc vật liệu, và từ trường/dòng điện quá lớn có thể phá trạng thái siêu dẫn.</p>
 <h3 id="hieu-ung-meissner">Hiệu ứng Meissner</h3>
 <p>Một chất siêu dẫn có thể đẩy từ trường ra khỏi phần thể tích bên trong ở trạng thái siêu dẫn trong điều kiện phù hợp. Đây là hiện tượng quan trọng để phân biệt siêu dẫn với một vật dẫn hoàn hảo đơn giản.</p>
@@ -12684,7 +12684,7 @@ R=50[1+4,5\times10^{-3}(2000-20)]\approx495,5\,\Omega.
 <ol>
 <li>xác định hai nhiệt độ;</li>
 <li>dùng hiệu <span class="arithmatex">\(T_2-T_1\)</span>;</li>
-<li>đổi <span class="arithmatex">\(\mu\)</span>V/K hoặc mV/K sang V/K nếu cần;</li>
+<li>đổi <span class="arithmatex">\(\mu\,\mathrm{V/K}\)</span> hoặc mV/K sang V/K nếu cần;</li>
 <li>tính <span class="arithmatex">\(\mathcal E\)</span>.</li>
 </ol>
 <h2 id="tom-tat">Tóm tắt</h2>

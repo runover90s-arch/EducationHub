@@ -1,0 +1,263 @@
+{
+  "base_version": "education-hub-v16.zip",
+  "scope": "docs/physics/high-school/grade-11/05-current-media/",
+  "mode": "AUDIT / UPDATE",
+  "restart_reason": "User explicitly requested V.1 to be redone with mandatory external-web verification for Chapters V-VIII; therefore prior HALF-A VERIFIED labels were not used as evidence.",
+  "source_check": {
+    "working_tree": "continued directly from complete series 2/version 16 working tree",
+    "supplied_pdf_findings": [
+      "BT-Chương IV_1.pdf contains scattered current-in-metals, drift-current and superconductivity material, plus a generic true/false item mentioning current in vacuum; these pages were rechecked visually.",
+      "The supplied Điện trường/Dòng điện/Mạch điện ebooks and formula/map books do not provide a complete dedicated Chapter V corpus for electrolytes, gases, semiconductors and vacuum-current theory.",
+      "Therefore supplied PDFs were used only where they actually contain relevant material; no missing Chapter V PDF content was invented."
+    ]
+  },
+  "web_verification": {
+    "policy": "mandatory for Chapters V-VIII; curriculum-aligned secondary sources are cross-checked with stronger technical/academic sources",
+    "sources": [
+      {
+        "name": "Vật Lí Phổ Thông (vatlypt.com) — Dòng điện trong kim loại",
+        "url": "https://vatlypt.com/dong-dien-trong-kim-loai-vat-li-lop-11.html",
+        "use": "THPT terminology/scope cross-check"
+      },
+      {
+        "name": "Vật Lí Phổ Thông (vatlypt.com) — Dòng điện trong chất điện phân",
+        "url": "https://vatlypt.com/dong-dien-trong-chat-dien-phan-hien-tuong-duong-cuc-tan.html",
+        "use": "THPT terminology/scope cross-check"
+      },
+      {
+        "name": "Vật Lí Phổ Thông (vatlypt.com) — Dòng điện trong chất khí",
+        "url": "https://vatlypt.com/dong-dien-trong-chat-khi.html",
+        "use": "THPT terminology/scope cross-check"
+      },
+      {
+        "name": "Vật Lí Phổ Thông (vatlypt.com) — Dòng điện trong chất bán dẫn",
+        "url": "https://vatlypt.com/dong-dien-trong-chat-ban-dan.html",
+        "use": "THPT terminology/scope cross-check"
+      },
+      {
+        "name": "Vật Lí Phổ Thông (vatlypt.com) — Dòng điện trong chân không, tế bào quang điện",
+        "url": "https://vatlypt.com/dong-dien-trong-chan-khong-te-bao-quang-dien.html",
+        "use": "THPT terminology/scope cross-check"
+      },
+      {
+        "name": "OpenStax University Physics Vol. 2 — Model of Conduction in Metals",
+        "url": "https://openstax.org/books/university-physics-volume-2/pages/9-2-model-of-conduction-in-metals",
+        "use": "drift velocity/current carriers and microscopic conduction"
+      },
+      {
+        "name": "OpenStax University Physics Vol. 3 — Semiconductor Devices",
+        "url": "https://openstax.org/books/university-physics-volume-3/pages/9-7-semiconductor-devices",
+        "use": "p/n doping, depletion region, diode bias"
+      },
+      {
+        "name": "OpenStax University Physics Vol. 3 — Superconductivity",
+        "url": "https://openstax.org/books/university-physics-volume-3/pages/9-8-superconductivity",
+        "use": "zero resistivity and Meissner effect"
+      },
+      {
+        "name": "Chemistry LibreTexts — Faraday's Law",
+        "url": "https://chem.libretexts.org/Bookshelves/Analytical_Chemistry/Supplemental_Modules_(Analytical_Chemistry)/Electrochemistry/Faraday%27s_Law",
+        "use": "electrolysis mass-charge proportionality"
+      },
+      {
+        "name": "NIST/CODATA — elementary charge and defined SI constants",
+        "url": "https://physics.nist.gov/cuu/Constants/Value/e.html",
+        "use": "elementary charge; Faraday relation checked through N_A e"
+      },
+      {
+        "name": "OpenStax College Physics — cathode rays/electron discovery",
+        "url": "https://openstax.org/books/college-physics-ap-courses/pages/30-2-discovery-of-the-parts-of-the-atom-electrons-and-nuclei",
+        "use": "cathode-ray electron properties in rarefied gas/vacuum context"
+      }
+    ]
+  },
+  "theory_audit": [
+    {
+      "file": "01-current-in-metals.md",
+      "status": "FIXED",
+      "corrections": [
+        "made the superconducting-state wording match the defining zero-dc-resistivity behavior; surrounding content retained"
+      ]
+    },
+    {
+      "file": "02-electrolytes-faraday.md",
+      "status": "FIXED",
+      "corrections": [
+        "kept m=kq as the general Faraday relation and made q=It/m=kIt explicitly conditional on constant current in the microscopic explanation and summary"
+      ]
+    },
+    {
+      "file": "03-current-in-gases.md",
+      "status": "VERIFIED",
+      "corrections": []
+    },
+    {
+      "file": "04-semiconductors.md",
+      "status": "VERIFIED",
+      "corrections": []
+    },
+    {
+      "file": "05-vacuum-photoelectric-cell.md",
+      "status": "VERIFIED",
+      "corrections": []
+    }
+  ],
+  "practice_partition": {
+    "HALF A": [
+      "01-current-in-metals",
+      "02-electrolytes-faraday",
+      "03-current-in-gases"
+    ],
+    "HALF B": [
+      "04-semiconductors",
+      "05-vacuum-photoelectric-cell"
+    ]
+  },
+  "practice_audit": {
+    "01-current-in-metals": [
+      {
+        "bai": 1,
+        "status": "VERIFIED",
+        "independent_check": "electron dẫn/free electron is the mobile carrier; B only"
+      },
+      {
+        "bai": 2,
+        "status": "VERIFIED",
+        "independent_check": "in the intended metal model, stronger lattice vibration/electron-lattice scattering with temperature raises resistance; A only"
+      },
+      {
+        "bai": 3,
+        "status": "VERIFIED",
+        "independent_check": "R=10[1+0.004(70-20)]=12 ohm; C only"
+      },
+      {
+        "bai": 4,
+        "status": "VERIFIED",
+        "independent_check": "a True; b True; c True; d False; each statement checked independently"
+      },
+      {
+        "bai": 5,
+        "status": "VERIFIED",
+        "independent_check": "S=1e-6 m^2; R=1.7e-8*5/1e-6=0.085 ohm"
+      },
+      {
+        "bai": 6,
+        "status": "VERIFIED",
+        "independent_check": "alpha=(60/50-1)/100=2.0e-3 K^-1"
+      },
+      {
+        "bai": 7,
+        "status": "VERIFIED",
+        "independent_check": "same material/length; doubling diameter gives area x4 and resistance /4"
+      },
+      {
+        "bai": 8,
+        "status": "VERIFIED",
+        "independent_check": "R120=28 ohm; I20=0.60 A; I120=0.4286 A; current decreases at fixed voltage"
+      }
+    ],
+    "02-electrolytes-faraday": [
+      {
+        "bai": 1,
+        "status": "VERIFIED",
+        "independent_check": "cation and anion are the carriers; B only"
+      },
+      {
+        "bai": 2,
+        "status": "VERIFIED",
+        "independent_check": "Faraday first law: deposited/liberated mass is proportional to charge q; A only"
+      },
+      {
+        "bai": 3,
+        "status": "VERIFIED",
+        "independent_check": "under the stated fixed-time constant-current comparison, doubling I doubles q=It and therefore m; C only"
+      },
+      {
+        "bai": 4,
+        "status": "FIXED",
+        "independent_check": "a True; b True; c True; d False; answer unchanged; solution corrected so m=kIt is stated only for constant current"
+      },
+      {
+        "bai": 5,
+        "status": "VERIFIED",
+        "independent_check": "t=900 s; m=3.3e-7*2*900 kg=0.594 g"
+      },
+      {
+        "bai": 6,
+        "status": "VERIFIED",
+        "independent_check": "m=1e-3 kg; t=m/(kI)=2000 s=33.3 min"
+      },
+      {
+        "bai": 7,
+        "status": "VERIFIED",
+        "independent_check": "series cells carry the same charge over the same interval; m1/m2=k1/k2=1.5"
+      },
+      {
+        "bai": 8,
+        "status": "VERIFIED",
+        "independent_check": "m=108*1.5*1800/96500=3.0218 g; time converted to 1800 s and A used in g/mol"
+      }
+    ],
+    "03-current-in-gases": [
+      {
+        "bai": 1,
+        "status": "VERIFIED",
+        "independent_check": "ordinary gas has very low free-carrier density; A only"
+      },
+      {
+        "bai": 2,
+        "status": "VERIFIED",
+        "independent_check": "creating free charged carriers by removing electrons is ionization; B only"
+      },
+      {
+        "bai": 3,
+        "status": "VERIFIED",
+        "independent_check": "arc discharge is a luminous, hot, relatively high-current self-sustained discharge; B only"
+      },
+      {
+        "bai": 4,
+        "status": "VERIFIED",
+        "independent_check": "a True; b True; c True; d False; each statement checked separately"
+      },
+      {
+        "bai": 5,
+        "status": "VERIFIED",
+        "independent_check": "I=2e-3 A; q=It=0.020 C"
+      },
+      {
+        "bai": 6,
+        "status": "VERIFIED",
+        "independent_check": "external-agent ionization and impact ionization are valid distinct mechanisms"
+      },
+      {
+        "bai": 7,
+        "status": "VERIFIED",
+        "independent_check": "spark is breakdown/typically transient; arc is self-sustained high-current hot discharge under suitable supply conditions"
+      },
+      {
+        "bai": 8,
+        "status": "VERIFIED",
+        "independent_check": "U=15 kV, d=5 mm gives average E=3.0e6 V/m; solution correctly notes geometry/gas-state limitations"
+      }
+    ]
+  },
+  "practice_summary": {
+    "TOTAL_IN_SCOPE": 24,
+    "CUMULATIVE_AUDITED": 24,
+    "VERIFIED": 23,
+    "FIXED": 1,
+    "UNRESOLVED": 0
+  },
+  "modified_practice_files": [
+    "practice/02-electrolytes-faraday/exercises.md",
+    "practice/02-electrolytes-faraday/solutions.md"
+  ],
+  "unresolved": [],
+  "next": "Chương V — HALF B + FINAL AUDIT",
+  "quality_gate": {
+    "check_practice_bank.py": "PASS — 0 structural errors",
+    "check_solution_quality.py": "PASS — 0 errors",
+    "check_site.py --lint-only": "PASS — 0 errors, 0 warnings"
+  },
+  "checkpoint": "education-hub-v17.zip"
+}

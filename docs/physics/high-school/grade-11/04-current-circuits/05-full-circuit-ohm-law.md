@@ -29,7 +29,7 @@ Bạn cần:
 
 ## 1. Toàn mạch đơn giản
 
-Xét mạch một chiều kín gồm một nguồn (hoặc bộ nguồn đã quy đổi) có suất điện động $\mathcal E$, điện trở trong $r$, cấp cho mạch ngoài **thuần điện trở** có điện trở tương đương $R$. Các đại lượng được coi ổn định theo thời gian.
+Xét mạch một chiều ổn định gồm một nguồn được mô hình bởi suất điện động $\mathcal E$ và điện trở trong $r$ không đổi, cấp cho mạch ngoài thuần trở có điện trở tương đương $R$ và không có nguồn khác.
 
 Dòng điện:
 
@@ -40,10 +40,6 @@ $$
 Đây là định luật Ohm cho toàn mạch.
 
 Nếu mạch ngoài gồm nhiều điện trở, trước hết tìm $R_{eq}$ rồi thay vào R.
-
-
-!!! note "Phạm vi của công thức toàn mạch"
-    $I=\mathcal E/(R+r)$ dùng trực tiếp cho mô hình một nguồn tương đương nối với tải thuần điện trở. Nếu mạch có nhiều nguồn chưa quy đổi, máy thu/suất phản điện hoặc mạng nhiều vòng không rút gọn được thành một $R$ duy nhất, hãy dùng quan hệ điện áp–dòng phù hợp và Kirchhoff thay vì áp dụng công thức này cho từng nhánh.
 
 ## 2. Hiệu điện thế hai cực nguồn
 
@@ -77,13 +73,13 @@ Vôn kế lí tưởng có điện trở vô hạn nên khi mắc trực tiếp 
 
 ## 4. Đoản mạch
 
-Nếu R ngoài gần 0:
+Nếu $R$ ngoài gần 0 và mô hình $\mathcal E,r$ của nguồn vẫn còn phù hợp:
 
 $$
 \boxed{I_{\text{sc}}\approx\frac{\mathcal E}{r}}.
 $$
 
-Nếu r nhỏ, dòng có thể rất lớn, gây tỏa nhiệt mạnh và nguy hiểm.
+Trong nguồn thực, $\mathcal E$ và đặc biệt $r$ có thể thay đổi khi dòng rất lớn, nên công thức trên là kết quả của mô hình nguồn tuyến tính đơn giản. Nếu $r$ nhỏ, dòng có thể rất lớn, gây tỏa nhiệt mạnh và nguy hiểm.
 
 !!! danger "An toàn"
     Không thử đoản mạch pin/ắc quy thực tế để “kiểm chứng công thức”. Dòng lớn có thể làm nóng dây, hỏng pin hoặc gây cháy.
@@ -179,7 +175,7 @@ Nếu U giảm tuyến tính $0,5\,\mathrm V$ khi I tăng $1\,\mathrm A$, độ 
 
 - $I=\mathcal E/(R+r)$.
 - $U=\mathcal E-Ir=IR$.
-- Đoản mạch: $I_{sc}=\mathcal E/r$.
+- Trong mô hình nguồn tuyến tính đơn giản, đoản mạch: $I_{sc}=\mathcal E/r$.
 - $H=R/(R+r)$.
 - Đồ thị U–I cho E và r.
 

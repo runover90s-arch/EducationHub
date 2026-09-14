@@ -38,7 +38,7 @@ $$
 N\Phi=LI.
 $$
 
-L là **hệ số tự cảm** hay độ tự cảm, đơn vị henry (H).
+L là **hệ số tự cảm** hay độ tự cảm, đơn vị henry (H), với $1\,\mathrm H=1\,\mathrm{Wb/A}=1\,\mathrm{V\,s/A}$.
 
 Một cuộn có L lớn nghĩa là cùng mức biến thiên dòng điện, hiệu ứng tự cảm mạnh hơn.
 
@@ -108,7 +108,7 @@ Chiều của suất điện động có xu hướng duy trì dòng theo chiều
 
 ## 7. Năng lượng từ trường
 
-Khi dòng tăng qua cuộn cảm, nguồn phải làm công để thiết lập từ trường. Năng lượng tích trong từ trường của cuộn cảm lí tưởng:
+Khi dòng tăng qua cuộn cảm, nguồn phải làm công để thiết lập từ trường. Với cuộn cảm lí tưởng tuyến tính, $L$ không đổi trong miền dòng điện đang xét, năng lượng tích trong từ trường là
 
 $$
 \boxed{W=\frac12LI^2}.

@@ -12545,7 +12545,7 @@
 <li>ion dương chuyển về catot;</li>
 <li>ion âm chuyển về anot.</li>
 </ul>
-<p>Hai loại ion chuyển ngược hướng nhau nhưng đều góp phần tạo dòng điện quy ước cùng chiều trong mạch ngoài theo quy tắc điện tích.</p>
+<p>Hai loại ion chuyển ngược hướng nhau nhưng, do mang điện tích trái dấu, phần đóng góp của chúng vào dòng điện quy ước <strong>bên trong chất điện phân</strong> có cùng chiều.</p>
 <h2 id="2-ban-chat-dong-ien-trong-chat-ien-phan">2. Bản chất dòng điện trong chất điện phân</h2>
 <p>Dòng điện trong chất điện phân là dòng chuyển dời có hướng của <strong>ion dương và ion âm</strong> dưới tác dụng của điện trường.</p>
 <p>Khác kim loại, dòng điện trong chất điện phân thường đi kèm biến đổi hóa học tại điện cực.</p>
@@ -12562,11 +12562,15 @@
 <p>Trong một số hệ, anot làm bằng chính kim loại có ion trong dung dịch có thể hòa tan dần khi dòng chạy. Đây là hiện tượng dương cực tan.</p>
 <p>Ứng dụng liên quan gồm mạ điện, tinh luyện kim loại và một số quá trình điện hóa công nghiệp.</p>
 <h2 id="5-inh-luat-faraday-thu-nhat">5. Định luật Faraday thứ nhất</h2>
-<p>Khối lượng chất giải phóng ở điện cực tỉ lệ với điện lượng qua bình:</p>
+<p>Khối lượng chất giải phóng ở điện cực tỉ lệ với điện lượng đi qua bình:</p>
 <div class="arithmatex">\[
-\boxed{m=kq=kIt}.
+\boxed{m=kq}.
 \]</div>
-<p>k là đương lượng điện hóa của chất.</p>
+<p>Nếu dòng điện không đổi trong thời gian <span class="arithmatex">\(t\)</span> thì <span class="arithmatex">\(q=It\)</span>, do đó:</p>
+<div class="arithmatex">\[
+\boxed{m=kIt}.
+\]</div>
+<p>Nếu dòng thay đổi theo thời gian, phải dùng điện lượng tổng <span class="arithmatex">\(q=\int I\,dt\)</span> thay vì thay trực tiếp một giá trị <span class="arithmatex">\(I\)</span> bất kì. Trong các bài phổ thông, thường ngầm coi toàn bộ dòng điện tham gia phản ứng điện phân cần xét; nếu đề cho hiệu suất dòng điện nhỏ hơn 100% thì phải nhân thêm hệ số hiệu suất tương ứng. <span class="arithmatex">\(k\)</span> là đương lượng điện hóa của chất, có đơn vị khối lượng trên điện lượng, chẳng hạn <span class="arithmatex">\(\mathrm{kg/C}\)</span> hoặc <span class="arithmatex">\(\mathrm{g/C}\)</span>.</p>
 <h2 id="6-inh-luat-faraday-thu-hai">6. Định luật Faraday thứ hai</h2>
 <p>Đương lượng điện hóa tỉ lệ với đương lượng hóa học <span class="arithmatex">\(A/n\)</span>:</p>
 <div class="arithmatex">\[
@@ -12574,10 +12578,11 @@
 \]</div>
 <p>Với:</p>
 <ul>
-<li>A: khối lượng mol nguyên tử theo đơn vị g/mol trong bài phổ thông;</li>
-<li>n: hóa trị ion;</li>
-<li><span class="arithmatex">\(F\approx9,65\times10^4\)</span> C/mol là hằng số Faraday.</li>
+<li><span class="arithmatex">\(A\)</span>: khối lượng mol của chất được giải phóng; trong các bài kim loại đơn nguyên tử, đây thường là khối lượng mol nguyên tử;</li>
+<li><span class="arithmatex">\(n\)</span>: số mol electron trao đổi trên một mol chất được giải phóng; với ion kim loại đơn giản, <span class="arithmatex">\(n\)</span> trùng với độ lớn hóa trị của ion;</li>
+<li><span class="arithmatex">\(F\approx9,65\times10^4\,\mathrm{C/mol}\)</span> là hằng số Faraday.</li>
 </ul>
+<p>Nếu <span class="arithmatex">\(A\)</span> dùng theo <span class="arithmatex">\(\mathrm{g/mol}\)</span> thì <span class="arithmatex">\(k\)</span> nhận đơn vị <span class="arithmatex">\(\mathrm{g/C}\)</span> và <span class="arithmatex">\(m\)</span> tính ra gam; nếu <span class="arithmatex">\(A\)</span> dùng theo <span class="arithmatex">\(\mathrm{kg/mol}\)</span> thì <span class="arithmatex">\(k\)</span> có đơn vị <span class="arithmatex">\(\mathrm{kg/C}\)</span> và <span class="arithmatex">\(m\)</span> tính ra kilôgam.</p>
 <p>Kết hợp:</p>
 <div class="arithmatex">\[
 \boxed{m=\frac{AIt}{nF}}.
@@ -12587,10 +12592,10 @@
 <div class="arithmatex">\[
 F=N_Ae.
 \]</div>
-<p>Vì vậy công thức Faraday nối điện lượng vĩ mô <span class="arithmatex">\(It\)</span> với số mol electron trao đổi trong phản ứng điện hóa.</p>
+<p>Vì vậy công thức Faraday nối điện lượng vĩ mô <span class="arithmatex">\(q\)</span> với số mol electron trao đổi trong phản ứng điện hóa; chỉ khi dòng điện không đổi mới thay <span class="arithmatex">\(q=It\)</span>.</p>
 <h2 id="8-vi-du-ma-bac">8. Ví dụ — Mạ bạc</h2>
-<p>Dòng <span class="arithmatex">\(I=0,50\)</span> A chạy qua dung dịch bạc trong <span class="arithmatex">\(t=30\)</span> phút. Lấy <span class="arithmatex">\(A=108\)</span> g/mol, n=1.</p>
-<p>Đổi <span class="arithmatex">\(t=1800\)</span> s.</p>
+<p>Dòng <span class="arithmatex">\(I=0,50\,\mathrm A\)</span> chạy qua dung dịch bạc trong <span class="arithmatex">\(t=30\)</span> phút. Lấy <span class="arithmatex">\(A=108\)</span> g/mol, n=1.</p>
+<p>Đổi <span class="arithmatex">\(t=1800\,\mathrm s\)</span>.</p>
 <div class="arithmatex">\[
 m=\frac{108\cdot0,50\cdot1800}{96500}\approx1,01\text{ g}.
 \]</div>
@@ -12644,7 +12649,7 @@ m_{Cu}=2,40\text{ g}.
 <ol>
 <li>Hạt tải điện: ion dương và ion âm.</li>
 <li>Điện phân đi kèm biến đổi hóa học.</li>
-<li><span class="arithmatex">\(m=kIt\)</span>.</li>
+<li>Tổng quát <span class="arithmatex">\(m=kq\)</span>; nếu dòng điện không đổi thì <span class="arithmatex">\(m=kIt\)</span>.</li>
 <li><span class="arithmatex">\(k=(A/n)/F\)</span>.</li>
 <li>Bài mạch phải tìm đúng dòng qua bình trước khi tính m.</li>
 </ol>

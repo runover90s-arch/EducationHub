@@ -27,7 +27,7 @@ C. $U=r/I$.
 D. $U=0$ mọi I.
 
 ??? success "Đáp án và lời giải"
-    Chọn **A**: với nguồn đang phát điện, hiệu điện thế mạch ngoài thỏa $U=\mathcal E-rI$, nên đồ thị $U-I$ là đường thẳng có hệ số góc âm.
+    Với nguồn đang phát điện, hiệu điện thế hai cực giảm tuyến tính theo dòng điện: $U=\mathcal E-rI$. Chọn **A**.
 
 ### Bài 2 — Mức 1 — Nhận biết
 
@@ -42,7 +42,7 @@ C. công suất.
 D. điện lượng.
 
 ??? success "Đáp án và lời giải"
-    Chọn **B**: tại $I=0$, phương trình $U=\mathcal E-rI$ cho $U=\mathcal E$, nên tung độ gốc chính là suất điện động.
+    Tại $I=0$, phương trình $U=\mathcal E-rI$ cho $U=\mathcal E$, nên tung độ gốc là suất điện động của nguồn. Chọn **B**.
 
 ### Bài 3 — Mức 1 — Nhận biết
 
@@ -114,7 +114,7 @@ d) Nên luôn trực tiếp đo I_sc để chính xác nhất.
 
     b) **Đúng.** Thế $I=0$ vào $U=\mathcal E-rI$ cho ngay $U=\mathcal E$.
 
-    c) **Đúng.** Trong mô hình nguồn có $U=\mathcal E-rI$, đặt $U=0$ ở trạng thái ngắn mạch cho $I_{sc}=\mathcal E/r$.
+    c) **Đúng.** về mô hình.
 
     d) **Sai.** vì nguy cơ ngắn mạch; thường suy ra từ đường thẳng an toàn hơn.
 
@@ -511,7 +511,7 @@ c) Để thu được giá trị hiệu điện thế $U\ge0$ thì ta cần xoay
 d) Để đo cường độ dòng điện có độ lớn khoảng mA, ta cần xoay núm của đồng hồ điện vặn về chế độ đo cường độ dòng điện DC và lựa chọn cổng số (2) và (3) trên đồng hồ điện đo cường độ dòng điện trong mạch.
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** a) Đúng; b) Sai; c) Đúng; d) Đúng.
+    **Đáp án:** a) Đúng; b) Sai; c) Sai; d) Đúng.
 
     **Hướng dẫn giải:**
 
@@ -519,7 +519,7 @@ d) Để đo cường độ dòng điện có độ lớn khoảng mA, ta cần 
 
     b) **Sai.** Từ phương trình đặc tuyến $U=\xi-Ir$, hệ số góc của đồ thị $U-I$ là $-r$. Với hai điểm $A,B$: $r=(U_A-U_B)/(I_B-I_A)$, không phải $(U_A-U_B)/(I_A-I_B)$.
 
-    c) **Đúng.** Trên sơ đồ, bản dài của nguồn nối với $M$ nên $V_M>V_N$. Cổng (4) là cổng V và cổng (3) là COM; nối (4) với $M$, (3) với $N$ cho số chỉ $U_{MN}=V_M-V_N\ge0$.
+    c) **Sai.** Khi đo điện áp một chiều cần chọn đúng chế độ DC và đúng cực tính: cổng COM nối phía điện thế thấp, cổng V nối phía điện thế cao. Cách nối chân nêu trong phát biểu bị đảo so với sơ đồ nguồn.
 
     d) **Đúng.** Khi dòng cỡ mA, chọn thang đo dòng một chiều phù hợp và dùng đúng các cổng COM/mA của đồng hồ theo hình.
 #### Bài 27
@@ -539,7 +539,7 @@ c) Để thu được giá trị cường độ dòng điện (khoảng mA) $I\g
 d) Suất điện động trong trường hợp này là $1{,}48\,\mathrm V$.
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** a) Sai; b) Đúng; c) Sai; d) Sai.
+    **Đáp án:** a) Sai; b) Đúng; c) Đúng; d) Sai.
 
     **Hướng dẫn giải:**
 
@@ -547,7 +547,7 @@ d) Suất điện động trong trường hợp này là $1{,}48\,\mathrm V$.
 
     b) **Đúng.** Điện trở dây nối và điện trở trong của dụng cụ đo làm mạch thực khác mô hình lí tưởng, là một nguồn sai số.
 
-    c) **Sai.** Bản dài của nguồn nối với $M$, nên dòng điện quy ước đi từ $M$ qua $R$, $R_x$, ampe kế rồi về $N$. Để đồng hồ hiện $I\ge0$, dòng phải đi vào cổng mA (2) từ phía $R_x$ và đi ra cổng COM (3) về $N$; phát biểu đã nối ngược hai cổng.
+    c) **Đúng.** Với dòng cỡ mA, chọn thang dòng DC; theo sơ đồ cổng (2) là cổng mA và cổng (3) là COM, mắc nối tiếp đúng cực tính như phát biểu.
 
     d) **Sai.** Kéo dài đường thẳng $U-I$ đến $I=0$ cho tung độ khoảng $1{,}50\,\mathrm V$, nên $\xi\approx1{,}50\,\mathrm V$, không phải $1{,}48\,\mathrm V$.
 #### Bài 28
@@ -710,11 +710,14 @@ D. $(1{,}33\pm0{,}02)\,\mathrm V$.
 
     **Hướng dẫn giải:**
 
-    Giá trị trung bình là $\overline U=(1{,}35+1{,}32+1{,}31)/3=1{,}3267\ldots\,\mathrm V$.
+    Giá trị trung bình:
+    $\overline U=(1{,}35+1{,}32+1{,}31)/3=1{,}3267\ldots\,\mathrm V$.
 
     Sai số tuyệt đối trung bình:
     $\overline{\Delta U}\approx(0{,}0233+0{,}0067+0{,}0167)/3\approx0{,}0156\,\mathrm V$.
 
-    Sai số dụng cụ là $\Delta U_{dc}=0{,}005\,\mathrm V$, nên $\Delta U\approx0{,}0206\,\mathrm V\approx0{,}02\,\mathrm V$.
+    Sai số dụng cụ là $\Delta U_{dc}=0{,}005\,\mathrm V$, nên
+    $\Delta U\approx0{,}0156+0{,}005=0{,}0206\,\mathrm V\approx0{,}02\,\mathrm V$.
 
-    Giá trị trung bình phải làm tròn đến cùng hàng thập phân với sai số, nên $\overline U\approx1{,}33\,\mathrm V$. Do đó $U=(1{,}33\pm0{,}02)\,\mathrm V$, chọn **D**.
+    Làm tròn giá trị trung bình đến cùng hàng thập phân với sai số cho $\overline U\approx1{,}33\,\mathrm V$. Do đó
+    $U=(1{,}33\pm0{,}02)\,\mathrm V$, chọn **D**.

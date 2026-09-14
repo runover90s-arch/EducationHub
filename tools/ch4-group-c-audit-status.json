@@ -1,143 +1,766 @@
 {
+  "base_version": "education-hub-v13.zip",
+  "target_version": "education-hub-v14.zip",
+  "checkpoint_series": 2,
   "scope": "Chapter IV practice GROUP C only",
-  "mode": "CONTINUE / AUDIT / UPDATE",
-  "BASE_VERSION": "education-hub-v15.zip",
-  "base_checkpoint": {
-    "series": 2,
-    "version": 15
+  "status_definitions": {
+    "VERIFIED": "Question, answer and solution were independently checked; rendered PDF figures/topology were used when present; no patch required.",
+    "FIXED": "Audit completed and a minimal learner-facing or solution-quality patch was required.",
+    "UNRESOLVED": "Source/data remain genuinely insufficient after checking PDF/figure; no unsupported assumption is added."
   },
-  "target_checkpoint": {
-    "series": 2,
-    "version": 16
-  },
-  "folders": [
-    "08-advanced-circuit-methods",
-    "09-practical-emf-internal-resistance",
-    "10-source-receiver-capacitor-branches"
-  ],
-  "counts": {
-    "08-advanced-circuit-methods": {
-      "total": 18,
-      "authored": 10,
-      "pdf_canonical": 8
-    },
-    "09-practical-emf-internal-resistance": {
-      "total": 33,
-      "authored": 10,
-      "pdf_canonical": 23
-    },
-    "10-source-receiver-capacitor-branches": {
-      "total": 10,
-      "authored": 10,
-      "pdf_canonical": 0
-    }
-  },
-  "summary": {
-    "total": 61,
-    "authored": 30,
-    "pdf_canonical": 31,
-    "unresolved": 0
+  "group_definition": {
+    "04-energy-power-joule": 87,
+    "06-source-combinations": 21,
+    "09-practical-emf-internal-resistance": 33,
+    "10-source-receiver-capacitor-branches": 10,
+    "total": 151
   },
   "audit_method": [
-    "Every Group C item was independently re-solved; Groups A and B were not re-audited.",
-    "All circuit, meter, graph and apparatus figures used for conclusions were inspected directly from repository crops and/or rendered source PDF pages; no wire topology was inferred from OCR.",
-    "Power/energy relations were checked with their physical scope: P=UI for the element port variables, P=I^2R and P=U^2/R for resistive elements, and Joule loss I^2r for internal resistance.",
-    "Hard circuit solutions were checked in the order equivalent topology -> current/voltage relations -> equations -> solve -> consistency check -> conclusion.",
-    "True/False items were checked statement by statement, including meter polarity and current direction.",
-    "If a source answer/options conflict with an independently determined result, learner-facing content is minimally repaired while provenance stays only in this internal report."
+    "Solved every GROUP C item independently from the stated data; existing/source answers were not treated as proof.",
+    "For every circuit or graph item with a figure, read the rendered PDF topology/axes directly rather than inferring wires or values from OCR.",
+    "Checked P=UI generally for DC power, and used P=I^2R or P=U^2/R only when the element/model is ohmic; checked Q=I^2Rt with its constant-current/resistance/time assumptions as stated.",
+    "For True/False items, checked every statement separately, including units, powers of ten, current direction/polarity and efficiency definitions.",
+    "If A-D had zero or multiple correct choices, rechecked the printed PDF and minimally repaired one option to restore exactly one correct answer without adding a fifth option."
   ],
-  "pdf_source_ids_reverified": [
-    "BT-Chuong-IV-p113-q6-348",
-    "BT-Chuong-IV-p32-q5-110",
-    "BT-Chuong-IV-p38-q8-138",
-    "BT-Chuong-IV-p101-q40-302",
-    "BT-Chuong-IV-p102-q47-309",
-    "BT-Chuong-IV-p103-q48-310",
-    "BT-Chuong-IV-p109-q18-338",
-    "BT-Chuong-IV-p95-q16-278",
-    "BT-Chuong-IV-p130-q1-379",
-    "BT-Chuong-IV-p130-q2-380",
-    "BT-Chuong-IV-p130-q3-381",
-    "BT-Chuong-IV-p131-q4-382",
-    "BT-Chuong-IV-p118-q6-354",
-    "BT-Chuong-IV-p119-q8-356",
-    "BT-Chuong-IV-p119-q9-357",
-    "BT-Chuong-IV-p119-q11-359",
-    "BT-Chuong-IV-p120-q12-360",
-    "BT-Chuong-IV-p120-q14-362",
-    "BT-Chuong-IV-p121-q16-364",
-    "BT-Chuong-IV-p121-q17-365",
-    "BT-Chuong-IV-p123-q25-373",
-    "BT-Chuong-IV-p124-q26-374",
-    "BT-Chuong-IV-p126-q1-375",
-    "BT-Chuong-IV-p126-q2-376",
-    "BT-Chuong-IV-p127-q3-377",
-    "BT-Chuong-IV-p128-q4-378",
-    "BT-Chuong-IV-p118-q1-349",
-    "BT-Chuong-IV-p122-q21-369",
-    "BT-Chuong-IV-p122-q22-370",
-    "BT-Chuong-IV-p122-q23-371",
-    "BT-Chuong-IV-p123-q24-372"
-  ],
-  "topology_or_figure_visually_checked": [
-    "BT-Chuong-IV-p113-q6-348",
-    "BT-Chuong-IV-p101-q40-302",
-    "BT-Chuong-IV-p102-q47-309",
-    "BT-Chuong-IV-p103-q48-310",
-    "BT-Chuong-IV-p109-q18-338",
-    "BT-Chuong-IV-p130-q3-381",
-    "BT-Chuong-IV-p131-q4-382",
-    "BT-Chuong-IV-p119-q8-356",
-    "BT-Chuong-IV-p119-q11-359",
-    "BT-Chuong-IV-p120-q12-360",
-    "BT-Chuong-IV-p120-q14-362",
-    "BT-Chuong-IV-p121-q16-364",
-    "BT-Chuong-IV-p123-q25-373",
-    "BT-Chuong-IV-p124-q26-374",
-    "BT-Chuong-IV-p126-q1-375",
-    "BT-Chuong-IV-p126-q2-376",
-    "BT-Chuong-IV-p127-q3-377",
-    "BT-Chuong-IV-p128-q4-378",
-    "BT-Chuong-IV-p118-q1-349"
-  ],
-  "fixed": [
+  "diagram_topology_checks": [
     {
+      "lesson": "04-energy-power-joule",
+      "bai": 30,
+      "source_id": "BT-Chuong-IV-p97-q32-294",
+      "check": "Lamp and variable resistor are in one series loop; lamp normal current fixes the total current."
+    },
+    {
+      "lesson": "04-energy-power-joule",
+      "bai": 38,
+      "source_id": "BT-Chuong-IV-p101-q41-303",
+      "check": "R1 is series with R2||R3."
+    },
+    {
+      "lesson": "04-energy-power-joule",
+      "bai": 39,
+      "source_id": "BT-Chuong-IV-p101-q42-304",
+      "check": "Three parallel branches: source branch, lamp D1 branch, and Rb + lamp D2 branch; source current is the sum of the two load-branch currents."
+    },
+    {
+      "lesson": "04-energy-power-joule",
+      "bai": 41,
+      "source_id": "BT-Chuong-IV-p102-q44-306",
+      "check": "E1, E2, R1 and R2 form one loop; the two emfs aid each other."
+    },
+    {
+      "lesson": "04-energy-power-joule",
+      "bai": 63,
+      "source_id": "BT-Chuong-IV-p104-q4-314",
+      "check": "R1, R2 and R3 are parallel across the source terminal voltage; the ideal ammeter is in series with R1."
+    },
+    {
+      "lesson": "04-energy-power-joule",
+      "bai": 67,
+      "source_id": "BT-Chuong-IV-p111-q4-342",
+      "check": "R3 is parallel with the series branch R1+R2."
+    },
+    {
+      "lesson": "06-source-combinations",
+      "bai": 12,
+      "source_id": "BT-Chuong-IV-p87-q6-262",
+      "check": "Four identical cells are in series; the U-I graph gives total internal resistance from slope."
+    },
+    {
+      "lesson": "06-source-combinations",
+      "bai": 19,
+      "source_id": "BT-Chuong-IV-p72-q5-229",
+      "check": "Two source branches oppose each other as drawn; the external resistors are parallel."
+    },
+    {
+      "lesson": "06-source-combinations",
+      "bai": 21,
+      "source_id": "BT-Chuong-IV-p67-q30-207",
+      "check": "Four cells are in series; closing K shorts R2, leaving R1 as the external resistance."
+    },
+    {
+      "lesson": "09-practical-emf-internal-resistance",
+      "bai": 16,
+      "source_id": "BT-Chuong-IV-p119-q8-356",
+      "check": "Read the voltmeter DC terminal pair directly from the instrument figure."
+    },
+    {
+      "lesson": "09-practical-emf-internal-resistance",
+      "bai": 19,
+      "source_id": "BT-Chuong-IV-p120-q12-360",
+      "check": "Matched the source, switch, connecting wire and battery holder from the printed figures."
+    },
+    {
+      "lesson": "09-practical-emf-internal-resistance",
+      "bai": 21,
+      "source_id": "BT-Chuong-IV-p121-q16-364",
+      "check": "Voltmeter is across source terminals; ammeter and rheostat are in series in the load loop."
+    },
+    {
+      "lesson": "09-practical-emf-internal-resistance",
+      "bai": 25,
+      "source_id": "BT-Chuong-IV-p126-q1-375",
+      "check": "Read the full experimental wiring and meter connections from the PDF figure."
+    },
+    {
+      "lesson": "09-practical-emf-internal-resistance",
+      "bai": 26,
       "source_id": "BT-Chuong-IV-p126-q2-376",
-      "lesson": "09-practical-emf-internal-resistance",
-      "issue": "Source marks item c false, but the battery long plate is connected to M (higher potential) and meter ports are (4)=V, (3)=COM; connecting (4)->M and (3)->N gives U_MN>=0.",
-      "action": "Changed item c verdict to True and rewrote the explanation from the actual polarity/topology."
+      "check": "Read meter polarity/ports from the figure before judging each True/False statement."
     },
     {
+      "lesson": "09-practical-emf-internal-resistance",
+      "bai": 27,
       "source_id": "BT-Chuong-IV-p127-q3-377",
-      "lesson": "09-practical-emf-internal-resistance",
-      "issue": "Source marks item c true although conventional current reaches the ammeter from the Rx side; the stated COM(3)->Rx and mA(2)->N connection reverses meter polarity and would give a negative reading.",
-      "action": "Changed item c verdict to False and explained the required mA(2)->Rx, COM(3)->N orientation for I>=0."
+      "check": "Read U-I graph intercept directly; the line extrapolates to about 1.50 V, not 1.48 V."
     },
     {
-      "source_id": "BT-Chuong-IV-p123-q24-372",
       "lesson": "09-practical-emf-internal-resistance",
-      "issue": "The independent mean is 1.3267 V and total uncertainty rounds to 0.02 V; the source option D used 1.32 V rather than rounding the mean to the same hundredth place.",
-      "action": "Changed only option D to (1.33±0.02) V and set answer D, preserving a unique single-choice question."
+      "bai": 28,
+      "source_id": "BT-Chuong-IV-p128-q4-378",
+      "check": "Read U-I graph intercept and slope directly; E is about 1.50 V and r about 1.25 ohm."
     }
   ],
-  "solution_quality_updates": [
-    "Expanded authored Kirchhoff Bài 10 in lesson 08 with explicit shared-branch topology, loop equations, solved currents and substitution check.",
-    "Expanded authored source/receiver Bài 10 in lesson 10 with equivalent loop, net emf, port voltage, power balance and efficiency check.",
-    "Replaced terse/generic explanations in selected easy authored items with the governing physical relation, and synchronized exercises.md with solutions.md.",
-    "Expanded capacitor True/False reasoning to distinguish zero steady-state current from nonzero stored charge."
+  "key_repairs": [
+    {
+      "lesson": "04-energy-power-joule",
+      "bai": 33,
+      "repair": "Option A changed to E≈12.0 V, r≈0.193 ohm; solved system gives E=538/45 V and r=26/135 ohm."
+    },
+    {
+      "lesson": "04-energy-power-joule",
+      "bai": 45,
+      "repair": "Option B changed from 1800 kJ to 180 kJ so only A equals 500 Wh."
+    },
+    {
+      "lesson": "04-energy-power-joule",
+      "bai": 84,
+      "repair": "Option B changed from 1175 Wh to 117.5 Wh so only A equals 1.175 kWh."
+    },
+    {
+      "lesson": "09-practical-emf-internal-resistance",
+      "bai": 33,
+      "repair": "Option D changed to (1.33±0.02) V; independent mean and uncertainty calculation supports it."
+    }
   ],
-  "answer_option_repairs_this_turn": [
-    "BT-Chuong-IV-p123-q24-372"
-  ],
-  "learner_facing_forbidden_markers_remaining": 0,
-  "unresolved": [],
-  "next": null,
-  "validation": {
-    "check_practice_bank": "PASS — 61 banks; 540 authored + 1633 PDF; 0 structural errors",
-    "check_pdf_import": "PASS — 1633 canonical PDF items; Chapter IV=350; 0 integrity errors",
-    "check_solution_quality": "PASS — 2173 total items; 0 errors",
-    "check_site_lint_only": "PASS — 237 Markdown; 0 errors; 0 warnings"
+  "lessons": {
+    "04-energy-power-joule": [
+      {
+        "bai": 1,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 2,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 3,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 4,
+        "status": "FIXED"
+      },
+      {
+        "bai": 5,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 6,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 7,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 8,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 9,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 10,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 11,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 12,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 13,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 14,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 15,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 16,
+        "status": "FIXED"
+      },
+      {
+        "bai": 17,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 18,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 19,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 20,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 21,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 22,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 23,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 24,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 25,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 26,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 27,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 28,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 29,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 30,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 31,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 32,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 33,
+        "status": "FIXED"
+      },
+      {
+        "bai": 34,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 35,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 36,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 37,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 38,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 39,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 40,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 41,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 42,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 43,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 44,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 45,
+        "status": "FIXED"
+      },
+      {
+        "bai": 46,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 47,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 48,
+        "status": "FIXED"
+      },
+      {
+        "bai": 49,
+        "status": "FIXED"
+      },
+      {
+        "bai": 50,
+        "status": "FIXED"
+      },
+      {
+        "bai": 51,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 52,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 53,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 54,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 55,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 56,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 57,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 58,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 59,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 60,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 61,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 62,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 63,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 64,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 65,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 66,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 67,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 68,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 69,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 70,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 71,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 72,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 73,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 74,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 75,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 76,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 77,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 78,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 79,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 80,
+        "status": "FIXED"
+      },
+      {
+        "bai": 81,
+        "status": "FIXED"
+      },
+      {
+        "bai": 82,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 83,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 84,
+        "status": "FIXED"
+      },
+      {
+        "bai": 85,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 86,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 87,
+        "status": "FIXED"
+      }
+    ],
+    "06-source-combinations": [
+      {
+        "bai": 1,
+        "status": "FIXED"
+      },
+      {
+        "bai": 2,
+        "status": "FIXED"
+      },
+      {
+        "bai": 3,
+        "status": "FIXED"
+      },
+      {
+        "bai": 4,
+        "status": "FIXED"
+      },
+      {
+        "bai": 5,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 6,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 7,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 8,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 9,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 10,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 11,
+        "status": "FIXED"
+      },
+      {
+        "bai": 12,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 13,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 14,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 15,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 16,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 17,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 18,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 19,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 20,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 21,
+        "status": "VERIFIED"
+      }
+    ],
+    "09-practical-emf-internal-resistance": [
+      {
+        "bai": 1,
+        "status": "FIXED"
+      },
+      {
+        "bai": 2,
+        "status": "FIXED"
+      },
+      {
+        "bai": 3,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 4,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 5,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 6,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 7,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 8,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 9,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 10,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 11,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 12,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 13,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 14,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 15,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 16,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 17,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 18,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 19,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 20,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 21,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 22,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 23,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 24,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 25,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 26,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 27,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 28,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 29,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 30,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 31,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 32,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 33,
+        "status": "FIXED"
+      }
+    ],
+    "10-source-receiver-capacitor-branches": [
+      {
+        "bai": 1,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 2,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 3,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 4,
+        "status": "FIXED"
+      },
+      {
+        "bai": 5,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 6,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 7,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 8,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 9,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 10,
+        "status": "VERIFIED"
+      }
+    ]
   },
-  "status": "GROUP_C_COMPLETE",
-  "chapter_final_status": "CHAPTER_IV_COMPLETE"
+  "unresolved": [],
+  "next": "FINAL AUDIT Chapter IV",
+  "summary": {
+    "VERIFIED": 131,
+    "FIXED": 20,
+    "UNRESOLVED": 0
+  }
 }

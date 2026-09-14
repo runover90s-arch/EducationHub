@@ -1,13 +1,104 @@
 {
   "base_version": "education-hub-v8",
-  "target_version": "education-hub-v9",
-  "scope": "Chapter III practice GROUP C only",
+  "scope": "Chapter III practice GROUP C only: capacitors, charged-particle motion, advanced capacitors",
   "status_definitions": {
-    "VERIFIED": "Question, answer, solution, units/sign/vector/conditions and source comparison checked; no patch required.",
+    "VERIFIED": "Question, answer, solution, units/sign/conditions and relevant source/figure were checked; no patch required.",
     "FIXED": "Audit completed and a repository patch was required.",
-    "UNRESOLVED": "Source/data remain insufficient for a unique result; no guess was introduced."
+    "UNRESOLVED": "Audit completed as far as possible but the source truly lacks a decisive sign/condition, so no unsupported assumption was added."
   },
   "lessons": {
+    "06-capacitors": [
+      {
+        "bai": 1,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 2,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 3,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 4,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 5,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 6,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 7,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 8,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 9,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 10,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 11,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-III-p164-q1-421"
+      },
+      {
+        "bai": 12,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-III-p164-q2-422"
+      },
+      {
+        "bai": 13,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-III-p164-q3-423"
+      },
+      {
+        "bai": 14,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-III-p165-q4-424"
+      },
+      {
+        "bai": 15,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-III-p165-q5-425"
+      },
+      {
+        "bai": 16,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-III-p165-q6-426"
+      },
+      {
+        "bai": 17,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-III-p165-q7-427"
+      },
+      {
+        "bai": 18,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-III-p168-q1-456"
+      },
+      {
+        "bai": 19,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-III-p168-q3-458"
+      },
+      {
+        "bai": 20,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-III-p168-q4-459"
+      }
+    ],
     "07-charged-particle-motion": [
       {
         "bai": 1,
@@ -27,8 +118,7 @@
       },
       {
         "bai": 5,
-        "status": "FIXED",
-        "note": "Clarified the authored solution: a charged particle has q != 0, so a uniform electric field gives nonzero acceleration."
+        "status": "VERIFIED"
       },
       {
         "bai": 6,
@@ -58,14 +148,14 @@
       {
         "bai": 12,
         "status": "FIXED",
-        "source_id": "BT-Chuong-III-p80-q7-205",
-        "note": "Removed learner-facing provenance note; retained electron mass 9.1e-31 kg, consistent with the source calculation."
+        "note": "Removed learner-facing source note; retained verified electron mass 9.1e-31 kg used by the source calculation.",
+        "source_id": "BT-Chuong-III-p80-q7-205"
       },
       {
         "bai": 13,
         "status": "FIXED",
-        "source_id": "BT-Chuong-III-p80-q8-206",
-        "note": "Removed learner-facing provenance note; retained electron mass 9.1e-31 kg, consistent with the source calculation."
+        "note": "Removed learner-facing source note; retained verified electron mass 9.1e-31 kg used by the source calculation.",
+        "source_id": "BT-Chuong-III-p80-q8-206"
       },
       {
         "bai": 14,
@@ -99,7 +189,8 @@
       },
       {
         "bai": 20,
-        "status": "VERIFIED",
+        "status": "FIXED",
+        "note": "Corrected graph data labels to d_A=3.0 m and d_B=2.9 m; recomputation gives E≈114 V/m.",
         "source_id": "BT-Chuong-III-p120-q6-302"
       },
       {
@@ -125,8 +216,8 @@
       {
         "bai": 25,
         "status": "FIXED",
-        "source_id": "BT-Chuong-III-p69-q15-188",
-        "note": "Source A-D had no correct option; minimally corrected option A exponent from 10^13 to 10^14 and set answer A."
+        "note": "Corrected option A from 10^13 to 10^14 m/s^2; U/d=1000 V/m gives a=-1.76e14 m/s^2.",
+        "source_id": "BT-Chuong-III-p69-q15-188"
       },
       {
         "bai": 26,
@@ -226,8 +317,8 @@
       {
         "bai": 45,
         "status": "FIXED",
-        "source_id": "BT-Chuong-III-p114-q10-284",
-        "note": "Removed learner-facing provenance note; kept the stated particle mass and independently checked energy calculation."
+        "note": "Removed learner-facing source note; retained the given mass and neutral wording “điện tích âm”.",
+        "source_id": "BT-Chuong-III-p114-q10-284"
       },
       {
         "bai": 46,
@@ -277,8 +368,8 @@
       {
         "bai": 55,
         "status": "FIXED",
-        "source_id": "BT-Chuong-III-p75-q5-198",
-        "note": "Removed learner-facing provenance note; retained independently recalculated T/F values."
+        "note": "Removed learner-facing correction-history note; retained independently checked True/False results.",
+        "source_id": "BT-Chuong-III-p75-q5-198"
       },
       {
         "bai": 56,
@@ -288,14 +379,14 @@
       {
         "bai": 57,
         "status": "FIXED",
-        "source_id": "BT-Chuong-III-p89-q3-227",
-        "note": "Removed learner-facing provenance note; retained corrected field-line direction."
+        "note": "Removed learner-facing correction-history note; retained independently checked field-line and motion results.",
+        "source_id": "BT-Chuong-III-p89-q3-227"
       },
       {
         "bai": 58,
         "status": "FIXED",
-        "source_id": "BT-Chuong-III-p89-q4-228",
-        "note": "Removed learner-facing provenance note; retained parabolic trajectory from the equations of motion."
+        "note": "Removed learner-facing correction-history note; retained parabolic trajectory and recalculated exit speed.",
+        "source_id": "BT-Chuong-III-p89-q4-228"
       },
       {
         "bai": 59,
@@ -344,9 +435,9 @@
       },
       {
         "bai": 68,
-        "status": "FIXED",
-        "source_id": "BT-Chuong-III-p145-q3-365",
-        "note": "Added q>0; independently verified a Đúng, b Đúng, c Sai, d Đúng."
+        "status": "UNRESOLVED",
+        "note": "Source omits the sign of q; statements b and c change truth value when q changes sign.",
+        "source_id": "BT-Chuong-III-p145-q3-365"
       },
       {
         "bai": 69,
@@ -370,9 +461,9 @@
       },
       {
         "bai": 73,
-        "status": "FIXED",
-        "source_id": "BT-Chuong-III-p128-q15-317",
-        "note": "Added q>0; independently verified unique answer A from A=qU."
+        "status": "UNRESOLVED",
+        "note": "Source omits the sign of q; A=qU_MN reverses ordering for q<0, so no unique option exists.",
+        "source_id": "BT-Chuong-III-p128-q15-317"
       },
       {
         "bai": 74,
@@ -382,8 +473,8 @@
       {
         "bai": 75,
         "status": "FIXED",
-        "source_id": "BT-Chuong-III-p104-q18-252",
-        "note": "Source printed A and B identically; minimally changed option A sign and set the unique independently verified answer to B."
+        "note": "Source duplicates options A and B while the verified result is -191e-19 J and marks B; changed A sign minimally to restore a unique answer B.",
+        "source_id": "BT-Chuong-III-p104-q18-252"
       },
       {
         "bai": 76,
@@ -435,240 +526,51 @@
       {
         "bai": 11,
         "status": "FIXED",
-        "source_id": "BT-Chuong-III-p165-q9-429",
-        "note": "Removed learner-facing provenance/audit label; retained independently verified result and solution."
+        "note": "Removed learner-facing source comparison; verified equivalent capacitance and Q=0.36 mC from the circuit.",
+        "source_id": "BT-Chuong-III-p165-q9-429"
       },
       {
         "bai": 12,
         "status": "FIXED",
-        "source_id": "BT-Chuong-III-p165-q10-430",
-        "note": "Removed learner-facing provenance/audit label; retained independently verified result and solution."
+        "note": "Removed learner-facing source comparison; verified C_eq=5 uF from the circuit nodes.",
+        "source_id": "BT-Chuong-III-p165-q10-430"
       },
       {
         "bai": 13,
         "status": "FIXED",
-        "source_id": "BT-Chuong-III-p165-q11-431",
-        "note": "Removed learner-facing provenance/audit label; retained independently verified result and solution."
+        "note": "Removed learner-facing source comparison; verified series voltage limit ≈916.7 V.",
+        "source_id": "BT-Chuong-III-p165-q11-431"
       },
       {
         "bai": 14,
         "status": "FIXED",
-        "source_id": "BT-Chuong-III-p165-q12-432",
-        "note": "Removed learner-facing provenance/audit label; retained independently verified result and solution."
+        "note": "Removed learner-facing source comparison; verified series voltage limit 750 V.",
+        "source_id": "BT-Chuong-III-p165-q12-432"
       },
       {
         "bai": 15,
         "status": "FIXED",
-        "source_id": "BT-Chuong-III-p165-q13-433",
-        "note": "Removed learner-facing provenance/audit label; retained independently verified result and solution."
+        "note": "Removed learner-facing source comparison; verified electron entry speed ≈15.9×10^6 m/s.",
+        "source_id": "BT-Chuong-III-p165-q13-433"
       },
       {
         "bai": 16,
         "status": "FIXED",
-        "source_id": "BT-Chuong-III-p168-q2-457",
-        "note": "Removed learner-facing provenance/audit label; retained independently verified result and solution."
+        "note": "Removed learner-facing source comparison; verified charge sharing gives 320 V.",
+        "source_id": "BT-Chuong-III-p168-q2-457"
       },
       {
         "bai": 17,
         "status": "FIXED",
-        "source_id": "BT-Chuong-III-p168-q5-460",
-        "note": "Removed learner-facing provenance/audit label; retained independently verified result and solution."
+        "note": "Removed learner-facing source comparison; verified series voltage limit ≈42.55 V.",
+        "source_id": "BT-Chuong-III-p168-q5-460"
       },
       {
         "bai": 18,
         "status": "FIXED",
-        "source_id": "BT-Chuong-III-p168-q6-461",
-        "note": "Removed learner-facing provenance/audit label; retained independently verified result and solution."
-      }
-    ],
-    "09-electrostatic-equilibrium-charged-pendulum": [
-      {
-        "bai": 1,
-        "status": "VERIFIED"
-      },
-      {
-        "bai": 2,
-        "status": "VERIFIED"
-      },
-      {
-        "bai": 3,
-        "status": "VERIFIED"
-      },
-      {
-        "bai": 4,
-        "status": "VERIFIED"
-      },
-      {
-        "bai": 5,
-        "status": "VERIFIED"
-      },
-      {
-        "bai": 6,
-        "status": "VERIFIED"
-      },
-      {
-        "bai": 7,
-        "status": "VERIFIED"
-      },
-      {
-        "bai": 8,
-        "status": "VERIFIED"
-      },
-      {
-        "bai": 9,
-        "status": "VERIFIED"
-      },
-      {
-        "bai": 10,
-        "status": "VERIFIED"
-      },
-      {
-        "bai": 11,
-        "status": "FIXED",
-        "source_id": "BT-Chuong-III-p77-q3-201",
-        "note": "Removed learner-facing provenance note; retained independently verified 320 mg."
-      },
-      {
-        "bai": 12,
-        "status": "VERIFIED",
-        "source_id": "BT-Chuong-III-p78-q4-202"
-      },
-      {
-        "bai": 13,
-        "status": "FIXED",
-        "source_id": "BT-Chuong-III-p78-q5-203",
-        "note": "Removed learner-facing provenance note; retained charge sign q=-2 nC from vector equilibrium."
-      },
-      {
-        "bai": 14,
-        "status": "VERIFIED",
-        "source_id": "BT-Chuong-III-p79-q6-204"
-      },
-      {
-        "bai": 15,
-        "status": "VERIFIED",
-        "source_id": "BT-Chuong-III-p91-q3-231"
-      },
-      {
-        "bai": 16,
-        "status": "VERIFIED",
-        "source_id": "BT-Chuong-III-p92-q4-232"
-      },
-      {
-        "bai": 17,
-        "status": "VERIFIED",
-        "source_id": "BT-Chuong-III-p93-q6-234"
-      },
-      {
-        "bai": 18,
-        "status": "VERIFIED",
-        "source_id": "BT-Chuong-III-p5-q6-6"
-      },
-      {
-        "bai": 19,
-        "status": "VERIFIED",
-        "source_id": "BT-Chuong-III-p68-q13-186"
-      },
-      {
-        "bai": 20,
-        "status": "VERIFIED",
-        "source_id": "BT-Chuong-III-p68-q14-187"
-      },
-      {
-        "bai": 21,
-        "status": "FIXED",
-        "source_id": "BT-Chuong-III-p84-q13-219",
-        "note": "Restored q1=5e-9 C; independently verified tan(alpha)=1 and alpha=45 degrees, answer C."
-      },
-      {
-        "bai": 22,
-        "status": "VERIFIED",
-        "source_id": "BT-Chuong-III-p85-q15-221"
-      },
-      {
-        "bai": 23,
-        "status": "VERIFIED",
-        "source_id": "BT-Chuong-III-p86-q18-224"
-      },
-      {
-        "bai": 24,
-        "status": "FIXED",
-        "source_id": "BT-Chuong-III-p15-q6-47",
-        "note": "Removed learner-facing provenance note; retained vector-equilibrium correction for item b."
-      },
-      {
-        "bai": 25,
-        "status": "VERIFIED",
-        "source_id": "BT-Chuong-III-p21-q1-72"
-      },
-      {
-        "bai": 26,
-        "status": "VERIFIED",
-        "source_id": "BT-Chuong-III-p21-q2-73"
-      },
-      {
-        "bai": 27,
-        "status": "VERIFIED",
-        "source_id": "BT-Chuong-III-p23-q4-75"
-      },
-      {
-        "bai": 28,
-        "status": "VERIFIED",
-        "source_id": "BT-Chuong-III-p72-q1-194"
-      },
-      {
-        "bai": 29,
-        "status": "VERIFIED",
-        "source_id": "BT-Chuong-III-p73-q2-195"
-      },
-      {
-        "bai": 30,
-        "status": "VERIFIED",
-        "source_id": "BT-Chuong-III-p74-q3-196"
-      },
-      {
-        "bai": 31,
-        "status": "VERIFIED",
-        "source_id": "BT-Chuong-III-p75-q4-197"
-      },
-      {
-        "bai": 32,
-        "status": "VERIFIED",
-        "source_id": "BT-Chuong-III-p88-q2-226"
-      },
-      {
-        "bai": 33,
-        "status": "VERIFIED",
-        "source_id": "BT-Chuong-III-p8-q23-23"
-      },
-      {
-        "bai": 34,
-        "status": "VERIFIED",
-        "source_id": "BT-Chuong-III-p8-q24-24"
-      },
-      {
-        "bai": 35,
-        "status": "VERIFIED",
-        "source_id": "BT-Chuong-III-p12-q39-39"
-      },
-      {
-        "bai": 36,
-        "status": "VERIFIED",
-        "source_id": "BT-Chuong-III-p13-q41-41"
-      },
-      {
-        "bai": 37,
-        "status": "VERIFIED",
-        "source_id": "BT-Chuong-III-p14-q3-44"
+        "note": "Removed learner-facing source comparison; verified U_MB=4 V from the circuit.",
+        "source_id": "BT-Chuong-III-p168-q6-461"
       }
     ]
-  },
-  "summary": {
-    "VERIFIED": 108,
-    "FIXED": 23,
-    "UNRESOLVED": 0
-  },
-  "next": null,
-  "superseded_by": "tools/ch3-completion-status.json",
-  "completion_status": "COMPLETE_NO_UNRESOLVED"
+  }
 }

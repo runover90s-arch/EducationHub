@@ -45,8 +45,6 @@ Mạch không rút gọn được hoàn toàn bằng nối tiếp–song song, �
 
 thì phương pháp Kirchhoff cho hệ phương trình tổng quát.
 
-Trong chương này, các định luật được dùng cho **mạch điện một chiều ở trạng thái ổn định** với các phần tử tập trung; khi lập phương trình phải giữ nhất quán quy ước chiều dòng, chiều vòng và cực tính nguồn.
-
 ## 2. Định luật nút Kirchhoff
 
 Tại một nút:
@@ -68,7 +66,7 @@ Chỉ cần nhất quán.
 
 ## 3. Định luật vòng Kirchhoff
 
-Đi quanh một vòng kín, tổng đại số các biến thiên điện thế bằng 0:
+Trong mô hình mạch tập trung ở chế độ một chiều ổn định, không có từ thông biến thiên xuyên qua vòng đang xét, đi quanh một vòng kín thì tổng đại số các biến thiên điện thế bằng 0:
 
 $$
 \boxed{\sum \Delta V=0}.
@@ -113,10 +111,12 @@ Không cần viết mọi nút và mọi vòng nếu chúng phụ thuộc nhau. 
 
 Cho mạch tuyến tính chứa nhiều nguồn độc lập. Dòng/điện áp tổng bằng tổng đại số các đáp ứng do từng nguồn tạo riêng.
 
-Khi “tắt” các nguồn còn lại trong mô hình lý tưởng:
+Khi “tắt” các nguồn độc lập còn lại trong mô hình tuyến tính:
 
-- nguồn điện áp lí tưởng $\mathcal E=0$ → thay bằng dây nối;
+- nguồn điện áp **lí tưởng** $\mathcal E=0$ → thay bằng dây nối;
 - nguồn dòng lí tưởng bằng 0 → thay bằng mạch hở (nếu học mô hình nguồn dòng).
+
+Nếu một nguồn thực được mô hình bằng nguồn lí tưởng $\mathcal E$ nối tiếp điện trở trong $r$, khi đặt $\mathcal E=0$ thì **vẫn giữ $r$ trong mạch**. Chỉ phần nguồn điện áp lí tưởng được thay bằng dây nối.
 
 Trong phạm vi nguồn điện áp và điện trở của giáo trình, chủ yếu dùng quy tắc thứ nhất.
 
@@ -141,7 +141,7 @@ Một mạng tuyến tính nhìn từ hai cực A–B có thể trong nhiều b�
 Cách xác định thường dùng:
 
 1. $\mathcal E_{eq}$ là điện áp hở mạch giữa A–B;
-2. $r_{eq}$ là điện trở nhìn vào A–B khi các nguồn điện áp độc lập được đặt $\mathcal E=0$, nếu mô hình nguồn cho phép.
+2. $r_{eq}$ là điện trở nhìn vào A–B khi các nguồn điện áp độc lập được đặt $\mathcal E=0$, nếu mô hình nguồn cho phép; mọi điện trở vật lí, kể cả điện trở trong của nguồn thực, vẫn được giữ lại.
 
 Đây là tư tưởng tương đương kiểu Thévenin, dù bài phổ thông có thể gọi đơn giản là “nguồn tương đương”.
 
@@ -294,7 +294,7 @@ Tụ C nối giữa hai nút A,B của một mạch điện trở. Sau khi ổn 
 
 Các nhóm bài dưới đây được tổ chức theo dấu hiệu nhận biết và công cụ giải để người học chọn phương pháp phù hợp và tự kiểm tra kết quả.
 
-### Dạng 2 — Công suất cực đại
+### Dạng 1 — Công suất cực đại
 
 Với một nguồn có suất điện động $\mathcal E$ và điện trở trong $r$ cấp cho tải biến đổi $R$, công suất tải $P=\mathcal E^2R/(R+r)^2$ đạt cực đại khi $R=r$.
 

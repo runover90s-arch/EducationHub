@@ -44,7 +44,7 @@ $$
 
 ## 2. Kính lúp
 
-Kính lúp là thấu kính hội tụ có tiêu cự ngắn. Vật đặt trong hoặc gần tiêu cự để cho ảnh ảo, cùng chiều, phóng đại góc.
+Kính lúp là thấu kính hội tụ có tiêu cự ngắn. Khi vật đặt **trong tiêu cự**, kính cho ảnh ảo, cùng chiều và làm tăng góc trông; riêng khi ngắm chừng ở vô cực, vật được đặt tại tiêu điểm để chùm tia ló song song.
 
 ### Ngắm chừng ở vô cực
 

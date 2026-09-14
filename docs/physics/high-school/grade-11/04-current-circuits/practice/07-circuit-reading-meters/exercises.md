@@ -166,7 +166,7 @@ Mạch cầu gồm bốn điện trở: $R_1=2\,\Omega$, $R_2=4\,\Omega$ ở nh�
 
 <!-- source-id: BT-Chuong-IV-p32-q4-109 -->
 
-Muốn đo hiệu điện thế giữa hai cực của một nguồn điện, nhưng không có vôn kế, một học sinh đã sử dụng một ampe kế và một điện trở có giá trị $R=50\,\Omega$ mắc nối tiếp nhau, sau đó mắc vào nguồn điện. Biết ampe kế chỉ $1{,}2\,\mathrm A$. Hiệu điện thế giữa hai cực nguồn điện có giá trị bằng
+Muốn đo hiệu điện thế giữa hai cực của một nguồn điện, nhưng không có vôn kế, một học sinh đã sử dụng một ampe kế và một điện trở có giá trị $R=50\,\Omega$ mắc nối tiếp nhau, sau đó mắc vào nguồn điện. Biết ampe kế chỉ $1{,}2\,\mathrm A$. Bỏ qua điện trở của ampe kế. Hiệu điện thế giữa hai cực nguồn điện có giá trị bằng
 
 A. $120\,\mathrm V$.
 
@@ -241,13 +241,13 @@ d) Khi $K$ đóng, số chỉ của ampe kế là $0{,}375\,\mathrm A$.
 
     **Hướng dẫn giải:**
 
-    Ampe kế lí tưởng có điện trở bằng $0$, nên hai điểm ở hai đầu ampe kế là cùng một nút điện thế.
+    Ampe kế lí tưởng có điện trở bằng $0$.
 
-    a) **Sai.** Khi $K$ đóng, $C$ trùng nút $B$. Khi đó $R_2\parallel R_3=4\parallel4=2\,\Omega$; nhánh $R_4+[R_2\parallel R_3]$ có điện trở $8\,\Omega$ và song song với $R_1=8\,\Omega$. Vì vậy $R_{\rm td}=4\,\Omega$, không phải $2\,\Omega$.
+    a) **Sai.** Khi $K$ đóng, $R_2\parallel R_3=4\parallel4=2\ \Omega$; nhánh qua $R_4$ có điện trở $6+2=8\ \Omega$, song song với $R_1=8\ \Omega$. Vì vậy $R_{\rm td}=8\parallel8=4\ \Omega$, không phải $2\ \Omega$.
 
-    b) **Đúng.** Khi $K$ mở, nhánh $R_1+R_2=12\,\Omega$ song song với $R_4=6\,\Omega$, được $4\,\Omega$; nhóm này nối tiếp $R_3=4\,\Omega$, nên $R_{\rm td}=8\,\Omega$.
+    b) **Đúng.** Khi $K$ mở, $R_1+R_2=12\ \Omega$ song song $R_4=6\ \Omega$, được $4\ \Omega$; nhóm này nối tiếp $R_3=4\ \Omega$, nên $R_{\rm td}=8\ \Omega$.
 
-    c) **Đúng.** Khi $K$ mở, ampe kế và $R_3$ nằm trên nhánh chung về cực $B$, nên số chỉ ampe kế bằng dòng mạch chính:
-    $I_A=U_{AB}/R_{\rm td}=6/8=0{,}75\,\mathrm A$.
+    c) **Đúng.** Khi $K$ mở, ampe kế nằm nối tiếp với $R_3$ và dòng mạch chính $I=U/R_{\rm td}=6/8=0{,}75\,\mathrm A$.
 
-    d) **Đúng.** Khi $K$ đóng, dòng qua nhánh $R_4+[R_2\parallel R_3]$ là $6/8=0{,}75\,\mathrm A$. Điện áp trên $R_2\parallel R_3$ là $1{,}5\,\mathrm V$, nên dòng qua $R_3$ bằng $1{,}5/4=0{,}375\,\mathrm A$. Vì nút dưới của ampe kế chỉ nối với $R_3$, ampe kế cũng chỉ $0{,}375\,\mathrm A$.
+    d) **Đúng.** Khi $K$ đóng, nhánh $R_4+[R_2\parallel R_3]$ có điện trở $8\ \Omega$, nên dòng nhánh là $6/8=0{,}75\,\mathrm A$. Hiệu điện thế trên $R_2\parallel R_3$ là $0{,}75\cdot2=1{,}5\,\mathrm V$, do đó ampe kế chỉ $I_3=1{,}5/4=0{,}375\,\mathrm A$.
+

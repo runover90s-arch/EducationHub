@@ -211,23 +211,15 @@ Cho mạch điện như hình. $\xi=12\,\mathrm V$, $r=0{,}5\,\Omega$, $R_1=R_2=
 
     **Hướng dẫn giải:**
 
-    **Topology:** ampe kế lí tưởng làm $C$ và $D$ cùng điện thế. Vì vậy mạch ngoài tương đương
-    $R_1$ nối tiếp $(R_2\parallel R_4)$ nối tiếp $(R_3\parallel R_5)$.
+    $R_N=R_1+(R_2\parallel R_4)+(R_3\parallel R_5)=2+1{,}5+2=5{,}5\,\Omega$.
 
-    **Dòng mạch chính:**
-    $R_N=2+1{,}5+2=5{,}5\,\Omega$, nên
     $I=12/(5{,}5+0{,}5)=2\,\mathrm A$.
 
-    **Điện áp hai nhóm song song:**
-    $U_{24}=I(R_2\parallel R_4)=3\,\mathrm V$ và
-    $U_{35}=I(R_3\parallel R_5)=4\,\mathrm V$.
+    $U_{24}=I(R_2\parallel R_4)=3\,\mathrm V$ nên $I_2=3/2=1{,}5\,\mathrm A$.
 
-    Suy ra $I_2=3/2=1{,}5\,\mathrm A$ và $I_3=4/4=1\,\mathrm A$.
+    $U_{35}=I(R_3\parallel R_5)=4\,\mathrm V$ nên $I_3=4/4=1\,\mathrm A$.
 
-    **Phương trình nút tại $C$:** dòng dư từ nhánh $R_2$ đi qua ampe kế sang $D$,
-    nên $I_A=I_2-I_3=0{,}5\,\mathrm A$.
-
-    **Kết quả:** ampe kế chỉ $0{,}5\,\mathrm A$.
+    Theo định luật nút tại điểm nối, $I_A=I_2-I_3=0{,}5\,\mathrm A$.
 
 #### Bài 14
 
@@ -242,17 +234,11 @@ Cho mạch điện như hình, bỏ qua điện trở dây nối. Biết $\xi_1=
 
     **Hướng dẫn giải:**
 
-    **Topology và cực tính:** hình cho hai nguồn mắc nối tiếp cùng chiều, nên
-    $\xi_b=\xi_1+\xi_2=10\,\mathrm V$ và $r_b=r_1+r_2=1\,\Omega$.
+    Theo sơ đồ, hai nguồn mắc nối tiếp cùng chiều nên $\xi_b=\xi_1+\xi_2=10\,\mathrm V$ và $r_b=r_1+r_2=1\,\Omega$.
 
-    **Dòng điện:** dòng qua mỗi nguồn cũng là dòng mạch chính, $I=2\,\mathrm A$.
+    Với $I=2\,\mathrm A$, định luật Ôm toàn mạch cho
 
-    **Điện áp mạch ngoài:** $U_R=IR$. Đồng thời với bộ nguồn đang phát điện,
-    $U_R=\xi_b-Ir_b=10-2\cdot1=8\,\mathrm V$.
-
-    **Phương trình:** $IR=8$, do đó $R=8/2=4\,\Omega$.
-
-    **Kết quả:** $R=4\,\Omega$.
+    $R=\dfrac{\xi_b}{I}-r_b=\dfrac{10}{2}-1=4\,\Omega$.
 
 #### Bài 15
 
@@ -267,18 +253,11 @@ Cho mạch điện như hình, bỏ qua điện trở dây nối. Biết $\xi=4\
 
     **Hướng dẫn giải:**
 
-    **Topology:** $R_1$ nối tiếp với nhóm $[(R_2+R_3)\parallel R_4]$; ampe kế nằm trong nhánh $R_4$ và được coi có điện trở bằng $0$.
+    $R_N=R_1+[(R_2+R_3)\parallel R_4]=1+(4\parallel4)=3\,\Omega$.
 
-    **Dòng mạch chính:**
-    $R_N=1+(4\parallel4)=3\,\Omega$, nên
     $I=4/(3+2)=0{,}8\,\mathrm A$.
 
-    **Điện áp nhóm song song:** điện trở tương đương của nhóm là $2\,\Omega$, do đó
-    $U=I\cdot2=1{,}6\,\mathrm V$.
-
-    **Phương trình nhánh ampe kế:** $I_A=U/R_4=1{,}6/4=0{,}4\,\mathrm A$.
-
-    **Kết quả:** ampe kế chỉ $0{,}4\,\mathrm A$.
+    Điện áp trên nhóm song song là $U=0{,}8\cdot2=1{,}6\,\mathrm V$, nên dòng qua $R_4$ và số chỉ ampe kế là $I_A=1{,}6/4=0{,}4\,\mathrm A$.
 
 ### Nhận biết — Trắc nghiệm 4 lựa chọn
 
@@ -323,8 +302,15 @@ D. $3\,\Omega$.
 
     **Hướng dẫn giải:**
 
-    $I=\xi/(R+r)$ nên $R=\xi/I-r=3/0{,}5-1=5\,\Omega$.
+    **Topology:** Nguồn $(\xi,r)$ nối tiếp với điện trở ngoài $R$; ampe kế lí tưởng nằm nối tiếp nên chỉ dòng toàn mạch.
 
+    **Dòng điện:** $I=0{,}5\,\mathrm A$.
+
+    **Điện áp mạch ngoài:** $U=\xi-Ir=3-0{,}5\cdot1=2{,}5\,\mathrm V$.
+
+    **Phương trình:** $R=U/I=2{,}5/0{,}5=5\,\Omega$.
+
+    **Kết quả:** $R=5\,\Omega$, chọn **C**.
 #### Bài 18
 
 <!-- source-id: BT-Chuong-IV-p79-q9-243 -->
@@ -460,16 +446,23 @@ d) Nếu chập hai điểm $M$ và $N$ thì sơ đồ mạch điện vẫn khô
 
     **Hướng dẫn giải:**
 
-    $R_{13}=R_1+R_3=8\,\Omega$, $R_{24}=R_2+R_4=24\,\Omega$, nên $R_N=8\parallel24=6\,\Omega$.
+    **Topology:** Giữa hai nút $A,B$ có hai nhánh song song: $(R_1+R_3)$ và $(R_2+R_4)$; $M,N$ không nối dây với nhau.
 
-    a) **Sai.** $R_N=6\,\Omega$.
+    $R_{13}=2+6=8\,\Omega$, $R_{24}=8+16=24\,\Omega$, nên $R_N=8\parallel24=6\,\Omega$.
 
-    b) **Đúng.** $I=48/(6+2)=6\,\mathrm A$.
+    **Dòng điện:** $I=48/(R_N+r)=48/(6+2)=6\,\mathrm A$.
 
-    c) **Đúng.** $U_{AB}=36\,\mathrm V$, nên $I_{13}=4{,}5\,\mathrm A$, $I_{24}=1{,}5\,\mathrm A$; $U_{AM}=9\,\mathrm V$, $U_{AN}=12\,\mathrm V$, suy ra $U_{MN}=3\,\mathrm V$.
+    **Điện áp:** $U_{AB}=IR_N=36\,\mathrm V$. Do đó $I_{13}=36/8=4{,}5\,\mathrm A$ và $I_{24}=36/24=1{,}5\,\mathrm A$. $U_{AM}=I_{13}R_1=9\,\mathrm V$, $U_{AN}=I_{24}R_2=12\,\mathrm V$.
 
-    d) **Sai.** Chập $M,N$ làm thay đổi cách ghép các điện trở.
+    Chọn $U_{MN}=V_M-V_N$. Vì $V_M=V_A-9$ và $V_N=V_A-12$, nên $U_{MN}=3\,\mathrm V$.
 
+    a) **Sai.** $R_N=6\,\Omega$, không phải $8\,\Omega$.
+
+    b) **Đúng.** $I=6\,\mathrm A$.
+
+    c) **Đúng.** $U_{MN}=+3\,\mathrm V$ theo quy ước trên.
+
+    d) **Sai.** Chập $M,N$ làm thay đổi topology mạch.
 #### Bài 23
 
 <!-- source-id: BT-Chuong-IV-p83-q3-255 -->
@@ -645,20 +638,13 @@ D. $0{,}6\,\mathrm V$.
 
     **Hướng dẫn giải:**
 
-    **Topology:** nhánh trên $R_1+R_2=6\,\Omega$ song song với $R_3=2\,\Omega$ giữa $M$ và $N$; toàn bộ nhóm đó nối tiếp $R_4$ từ $N$ đến $B$.
+    $R_{12}=R_1+R_2=6\,\Omega$, $R_{123}=R_{12}\parallel R_3=1{,}5\,\Omega$, nên $R_N=R_{123}+R_4=5{,}5\,\Omega$.
 
-    **Dòng mạch chính:** $R_{MN}=6\parallel2=1{,}5\,\Omega$, nên $R_N=1{,}5+4=5{,}5\,\Omega$ và
     $I=1{,}2/(5{,}5+0{,}5)=0{,}20\,\mathrm A$.
 
-    **Điện áp:** $U_{NB}=IR_4=0{,}80\,\mathrm V$ và $U_{MN}=IR_{MN}=0{,}30\,\mathrm V$.
+    $U_{NB}=IR_4=0{,}80\,\mathrm V$; điện áp trên nhóm $R_{12}\parallel R_3$ là $0{,}30\,\mathrm V$, nên $I_{12}=0{,}30/6=0{,}05\,\mathrm A$ và $U_{AN}=I_{12}R_2=0{,}20\,\mathrm V$.
 
-    **Phương trình nhánh trên:** $I_{12}=U_{MN}/(R_1+R_2)=0{,}05\,\mathrm A$, nên
-    $U_{AN}=I_{12}R_2=0{,}20\,\mathrm V$.
-
-    Vì $A\to N\to B$ là đường đi từ $A$ đến $B$,
-    $U_{AB}=U_{AN}+U_{NB}=1{,}00\,\mathrm V$.
-
-    **Kết quả:** chọn **A**.
+    Do đó $U_{AB}=U_{AN}+U_{NB}=1{,}00\,\mathrm V$.
 
 #### Bài 30
 

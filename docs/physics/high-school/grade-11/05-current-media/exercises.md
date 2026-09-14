@@ -55,7 +55,7 @@ tags:
 
 **Câu 18.** Hai bình Fe$^{3+}$ và Cu$^{2+}$ nối tiếp. Nếu 1,40 g Fe được giải phóng, tính khối lượng Cu tương ứng. Lấy Fe=56, Cu=64.
 
-**Câu 19.** Một dòng quang điện bão hòa 16 µA. Chùm sáng đơn sắc $400\,\mathrm{nm}$ có công suất 20 µW. Lấy $h=6,626\times10^{-34}\,\mathrm{J\,s}$, $c=3,00\times10^8\,\mathrm{m/s}$. Tính hiệu suất đếm electron/photon theo mô hình đơn giản.
+**Câu 19.** Một dòng quang điện bão hòa 16 µA. Chùm sáng đơn sắc $400\,\mathrm{nm}$ có công suất 20 µW. Lấy $h=6,626\times10^{-34}\,\mathrm{J\,s}$, $c=3,00\times10^8\,\mathrm{m/s}$. Tính hiệu suất đếm electron/photon theo mô hình đơn giản và nhận xét tính nhất quán của bộ số liệu.
 
 ## Mức 4 — Vận dụng cao
 

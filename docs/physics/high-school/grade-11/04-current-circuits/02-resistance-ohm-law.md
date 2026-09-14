@@ -52,13 +52,15 @@ hay $U=IR$.
 
 ## 3. Điện trở suất
 
-Với dây dẫn **đồng chất, tiết diện đều** $S$, chiều dài $\ell$ và ở trạng thái nhiệt độ xác định để điện trở suất $\rho$ được coi là không đổi:
+Với dây dẫn **đồng chất, tiết diện đều** $S$, dài $\ell$, ở một nhiệt độ xác định:
 
 $$
 \boxed{R=\rho\frac{\ell}{S}}.
 $$
 
-Trong đó $\rho$ là điện trở suất của vật liệu ở nhiệt độ đang xét, đơn vị $\Omega\cdot\mathrm m$.
+Trong đó $\rho$ là điện trở suất của vật liệu tại nhiệt độ đang xét, đơn vị $\Omega\cdot\mathrm m$.
+
+Công thức này mô tả phần dây có hình học đều; nếu tiết diện hoặc vật liệu thay đổi theo chiều dài thì không được thay toàn bộ dây bằng một giá trị $\rho, S$ duy nhất một cách máy móc.
 
 Hệ quả:
 
@@ -209,7 +211,7 @@ Các nhóm bài dưới đây được tổ chức theo dấu hiệu nhận bi�
 
 ### Dạng 1 — Áp dụng định luật Ohm, xác định điện trở suất
 
-Dùng $U=IR$ và $R=\rho l/S$. Khi thay đổi hình học dây, xét đồng thời chiều dài và tiết diện; nếu dây bị kéo mà thể tích không đổi thì $lS$ không đổi. Với phụ thuộc nhiệt độ, dùng đúng mô hình tuyến tính và mốc nhiệt độ được cho.
+Dùng $U=IR$ và $R=\rho\ell/S$ trong đúng điều kiện của dây đồng chất, tiết diện đều. Khi thay đổi hình học dây, xét đồng thời chiều dài và tiết diện; nếu dây bị kéo mà thể tích không đổi thì $\ell S$ không đổi. Với phụ thuộc nhiệt độ, dùng đúng mô hình tuyến tính và mốc nhiệt độ được cho.
 
 Kiểm tra đơn vị điện trở suất và tiết diện trước khi thay số.
 

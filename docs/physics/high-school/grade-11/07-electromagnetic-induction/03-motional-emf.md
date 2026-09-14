@@ -32,9 +32,9 @@ $$
 \vec F=q\vec v\times\vec B.
 $$
 
-Điện tích dương và âm bị đẩy về hai phía đối diện, làm xuất hiện hiệu điện thế giữa hai đầu thanh.
+Trong thanh kim loại, các electron dẫn tự do bị lệch về một phía; phía còn lại thiếu electron nên mang điện dương tương đối. Sự phân bố này tạo ra điện trường bên trong và hiệu điện thế giữa hai đầu thanh.
 
-Khi lực điện do điện tích phân bố cân bằng lực từ, sự tách điện tích đạt trạng thái ổn định.
+Khi lực điện do phân bố điện tích cân bằng thành phần lực từ dọc theo thanh, sự tách điện tích đạt trạng thái ổn định.
 
 ## 2. Công thức chuẩn
 

@@ -14,13 +14,13 @@ tags:
 [← Bài tập](exercises.md)
 
 ## Bài 1
-Chọn **A**.
+Chọn **A** vì điện dung được định nghĩa bởi $C=Q/U$ với $Q$ và $U$ là độ lớn điện tích trên bản và hiệu điện thế giữa hai bản.
 
 ## Bài 2
 Chọn **C**. $Q=CU=5\cdot12=60\,\mu\,\mathrm C$.
 
 ## Bài 3
-Chọn **B**.
+Chọn **B** vì năng lượng của tụ điện là $W=\dfrac12CU^2=\dfrac{Q^2}{2C}=\dfrac12QU$.
 
 ## Bài 4
 Chọn **C** vì $C=\varepsilon_0\varepsilon_r S/d$.

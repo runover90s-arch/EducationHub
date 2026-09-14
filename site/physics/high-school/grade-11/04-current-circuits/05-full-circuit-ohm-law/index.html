@@ -12575,7 +12575,7 @@
 <li>hiểu sự đánh đổi giữa dòng, điện áp tải, công suất và hiệu suất.</li>
 </ul>
 <h2 id="1-toan-mach-on-gian">1. Toàn mạch đơn giản</h2>
-<p>Nguồn <span class="arithmatex">\((\mathcal E,r)\)</span> nối mạch ngoài có điện trở tương đương R.</p>
+<p>Xét mạch một chiều ổn định gồm một nguồn được mô hình bởi suất điện động <span class="arithmatex">\(\mathcal E\)</span> và điện trở trong <span class="arithmatex">\(r\)</span> không đổi, cấp cho mạch ngoài thuần trở có điện trở tương đương <span class="arithmatex">\(R\)</span> và không có nguồn khác.</p>
 <p>Dòng điện:</p>
 <div class="arithmatex">\[
 \boxed{I=\frac{\mathcal E}{R+r}}.
@@ -12602,11 +12602,11 @@ U\approx\mathcal E.
 \]</div>
 <p>Vôn kế lí tưởng có điện trở vô hạn nên khi mắc trực tiếp hai cực nguồn hở sẽ đọc <span class="arithmatex">\(\mathcal E\)</span> theo mô hình.</p>
 <h2 id="4-oan-mach">4. Đoản mạch</h2>
-<p>Nếu R ngoài gần 0:</p>
+<p>Nếu <span class="arithmatex">\(R\)</span> ngoài gần 0 và mô hình <span class="arithmatex">\(\mathcal E,r\)</span> của nguồn vẫn còn phù hợp:</p>
 <div class="arithmatex">\[
 \boxed{I_{\text{sc}}\approx\frac{\mathcal E}{r}}.
 \]</div>
-<p>Nếu r nhỏ, dòng có thể rất lớn, gây tỏa nhiệt mạnh và nguy hiểm.</p>
+<p>Trong nguồn thực, <span class="arithmatex">\(\mathcal E\)</span> và đặc biệt <span class="arithmatex">\(r\)</span> có thể thay đổi khi dòng rất lớn, nên công thức trên là kết quả của mô hình nguồn tuyến tính đơn giản. Nếu <span class="arithmatex">\(r\)</span> nhỏ, dòng có thể rất lớn, gây tỏa nhiệt mạnh và nguy hiểm.</p>
 <div class="admonition danger">
 <p class="admonition-title">An toàn</p>
 <p>Không thử đoản mạch pin/ắc quy thực tế để “kiểm chứng công thức”. Dòng lớn có thể làm nóng dây, hỏng pin hoặc gây cháy.</p>
@@ -12661,12 +12661,12 @@ U=\mathcal E-rI.
 \]</div>
 <h2 id="10-vi-du">10. Ví dụ</h2>
 <h3 id="vi-du-1">Ví dụ 1</h3>
-<p><span class="arithmatex">\(\mathcal E=12\)</span> V, r=1 Ω, R=5 Ω:</p>
-<p>I=2 A; U=10 V; H=5/6≈83,3%.</p>
+<p><span class="arithmatex">\(\mathcal E=12\,\mathrm V\)</span>, <span class="arithmatex">\(r=1\,\Omega\)</span>, <span class="arithmatex">\(R=5\,\Omega\)</span>:</p>
+<p><span class="arithmatex">\(I=2\,\mathrm A\)</span>; <span class="arithmatex">\(U=10\,\mathrm V\)</span>; H=5/6≈83,3%.</p>
 <h3 id="vi-du-2-oan-mach">Ví dụ 2 — Đoản mạch</h3>
-<p><span class="arithmatex">\(\mathcal E=1,5\)</span> V, r=0,5 Ω → <span class="arithmatex">\(I_{sc}=3\)</span> A.</p>
+<p><span class="arithmatex">\(\mathcal E=1,5\,\mathrm V\)</span>, <span class="arithmatex">\(r=0,5\,\Omega\)</span> → <span class="arithmatex">\(I_{sc}=3\,\mathrm A\)</span>.</p>
 <h3 id="vi-du-3-hai-trang-thai">Ví dụ 3 — Hai trạng thái</h3>
-<p>Nếu U giảm tuyến tính 0,5 V khi I tăng 1 A, độ dốc -0,5 V/A → r=0,5 Ω.</p>
+<p>Nếu U giảm tuyến tính <span class="arithmatex">\(0,5\,\mathrm V\)</span> khi I tăng <span class="arithmatex">\(1\,\mathrm A\)</span>, độ dốc <span class="arithmatex">\(-0,5\,\mathrm{V/A}\)</span> → <span class="arithmatex">\(r=0,5\,\Omega\)</span>.</p>
 <h2 id="11-bay">11. Bẫy</h2>
 <div class="admonition warning">
 <p class="admonition-title">R trong và R ngoài</p>
@@ -12680,7 +12680,7 @@ U=\mathcal E-rI.
 <ul>
 <li><span class="arithmatex">\(I=\mathcal E/(R+r)\)</span>.</li>
 <li><span class="arithmatex">\(U=\mathcal E-Ir=IR\)</span>.</li>
-<li>Đoản mạch: <span class="arithmatex">\(I_{sc}=\mathcal E/r\)</span>.</li>
+<li>Trong mô hình nguồn tuyến tính đơn giản, đoản mạch: <span class="arithmatex">\(I_{sc}=\mathcal E/r\)</span>.</li>
 <li><span class="arithmatex">\(H=R/(R+r)\)</span>.</li>
 <li>Đồ thị U–I cho E và r.</li>
 </ul>

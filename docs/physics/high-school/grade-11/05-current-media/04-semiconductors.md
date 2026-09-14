@@ -26,7 +26,7 @@ Bạn cần:
 
 ## 1. Bán dẫn là gì?
 
-Bán dẫn là vật liệu có độ dẫn nằm giữa chất dẫn tốt và điện môi, đồng thời độ dẫn có thể thay đổi mạnh bởi:
+Bán dẫn là nhóm vật liệu có độ dẫn điện thường nằm giữa chất dẫn tốt và điện môi trong những điều kiện xác định, nhưng đặc trưng quan trọng hơn là mật độ hạt tải và độ dẫn có thể thay đổi rất mạnh bởi:
 
 - nhiệt độ;
 - pha tạp;
@@ -54,7 +54,7 @@ Dòng điện tổng là đóng góp của cả hai loại hạt tải.
 
 ## 4. Bán dẫn loại n
 
-Pha tạp donor làm tăng số electron dẫn. Trong bán dẫn n:
+Pha tạp donor cung cấp thêm electron dễ tham gia dẫn điện. Sau khi cho electron, nguyên tử donor trở thành ion dương gần như cố định trong mạng tinh thể. Trong bán dẫn n:
 
 - electron là hạt tải đa số;
 - lỗ trống là hạt tải thiểu số.
@@ -63,7 +63,7 @@ Chữ n gợi "negative" cho hạt tải đa số, nhưng cả miếng bán dẫ
 
 ## 5. Bán dẫn loại p
 
-Pha tạp acceptor tạo nhiều lỗ trống hiệu dụng hơn.
+Pha tạp acceptor tạo nhiều lỗ trống hiệu dụng hơn; nguyên tử acceptor sau khi nhận electron trở thành ion âm gần như cố định trong mạng tinh thể.
 
 Trong bán dẫn p:
 
@@ -76,7 +76,8 @@ Khi ghép vùng p và n:
 
 - electron từ n khuếch tán sang p;
 - lỗ trống từ p khuếch tán sang n;
-- gần mặt tiếp giáp hình thành vùng nghèo hạt tải và điện trường nội.
+- gần mặt tiếp giáp hình thành vùng nghèo hạt tải;
+- phía n của vùng nghèo còn các ion donor dương cố định, phía p còn các ion acceptor âm cố định, nên điện trường nội có chiều từ n sang p.
 
 Điện trường nội tạo một hàng rào thế cản sự khuếch tán tiếp tục.
 
@@ -102,7 +103,7 @@ Tính chất dẫn mạnh một chiều và cản chiều kia là cơ sở của
 Ở mức mạch đơn giản, điốt có thể được mô hình hóa:
 
 - điốt lí tưởng: dẫn hoàn toàn khi thuận, khóa khi ngược;
-- mô hình sụt áp gần cố định: ví dụ khoảng $0,7\,\mathrm V$ cho diode silic trong một miền dòng, nhưng đây chỉ là gần đúng.
+- mô hình sụt áp gần cố định: ví dụ khoảng $0,7\,\mathrm V$ cho diode silic ở một miền dòng và nhiệt độ thường gặp, nhưng đây chỉ là gần đúng chứ không phải một “ngưỡng” cố định cho mọi diode.
 
 ## 10. Nhiệt độ và độ dẫn bán dẫn
 

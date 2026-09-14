@@ -94,12 +94,13 @@ $$
 \boxed{\frac1f=\frac1d+\frac1{d'}}.
 $$
 
-Trong đó:
+Trong đó, theo quy ước dấu đang dùng trong giáo trình:
 
-- d>0 với vật thật đặt trước thấu kính;
-- d'<0 với ảnh ảo;
-- d'>0 với ảnh thật ở phía sau thấu kính;
-- f>0 hội tụ, f<0 phân kì.
+- $d>0$ với vật thật đặt trước thấu kính;
+- $d<0$ với vật ảo, tức chùm tia tới đang hội tụ về một điểm ở phía sau thấu kính;
+- $d'<0$ với ảnh ảo ở cùng phía với vật thật;
+- $d'>0$ với ảnh thật ở phía sau thấu kính;
+- $f>0$ với thấu kính hội tụ, $f<0$ với thấu kính phân kì.
 
 ### Số phóng đại
 

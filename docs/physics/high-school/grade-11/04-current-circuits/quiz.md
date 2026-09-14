@@ -85,11 +85,11 @@ D. luôn có U=0.
 ### Câu 7
 a) $P=UI$ là công suất điện.
 
-b) $P=U^2/R$ dùng cho điện trở khi U là điện áp trên R.
+b) Với điện trở ohmic thỏa $U=IR$, $P=U^2/R$ khi U là điện áp trên chính điện trở đó.
 
 c) $1\,\mathrm{kWh}$ là đơn vị công suất.
 
-d) Với $I$ và $R$ không đổi trong khoảng thời gian $t$, định luật Joule–Lenz cho $Q=I^2Rt$.
+d) Nếu $I$ và $R$ không đổi trong khoảng $t$, Joule–Lenz cho $Q=I^2Rt$.
 
 ### Câu 8
 a) Nguồn giống nhau nối tiếp làm E và r cùng tăng theo số nguồn.
@@ -116,7 +116,7 @@ Tại nút có $5\,\mathrm A$ đi vào; hai dòng $2\,\mathrm A$ và I đi ra. T
 4. **B**.
 5. **C**.
 6. **C**.
-7. a Đúng; b Đúng; c Sai; d Đúng. kWh là năng lượng.
+7. a Đúng; b Đúng; c Sai; d Đúng. Ở b) dùng định luật Ohm cho điện trở ohmic; ở d) $I$ và $R$ được coi không đổi trong khoảng $t$; kWh là năng lượng.
 8. a Đúng; b Sai; c Đúng; d Sai. Song song giữ E bằng một nguồn; dòng âm chỉ đảo chiều.
 9. $I=6/(2+1)=2\,\mathrm A$.
 10. $5=2+I$ → $I=3\,\mathrm A$.

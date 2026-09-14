@@ -42,13 +42,13 @@ Vì electron mang điện âm:
 - electron trôi **ngược chiều điện trường**;
 - chiều dòng điện quy ước **cùng chiều điện trường** trong dây dẫn thuần trở.
 
-Liên hệ vi mô đơn giản:
+Với dây dẫn đồng nhất, tiết diện đều và mật độ hạt tải gần như không đổi, liên hệ vi mô theo độ lớn là:
 
 $$
 I=neSv_d.
 $$
 
-Trong đó n là mật độ electron dẫn, e là độ lớn điện tích electron, S là tiết diện dây và $v_d$ là tốc độ trôi.
+Trong công thức này, $I$ là độ lớn cường độ dòng điện; $n$ là mật độ electron dẫn (đơn vị $\mathrm{m^{-3}}$), $e$ là độ lớn điện tích electron (C), $S$ là tiết diện dây ($\mathrm{m^2}$) và $v_d$ là độ lớn tốc độ trôi trung bình ($\mathrm{m/s}$).
 
 ## 3. Vì sao kim loại có điện trở?
 
@@ -64,7 +64,7 @@ $$
 \rho=\rho_0[1+\alpha(T-T_0)].
 $$
 
-Nếu hình học dây không đổi:
+Nếu hình học dây gần như không đổi (bỏ qua giãn nở nhiệt của dây):
 
 $$
 R=R_0[1+\alpha(T-T_0)].
@@ -74,7 +74,7 @@ Với nhiệt độ Celsius, hiệu nhiệt độ có cùng giá trị số như
 
 ### Điều kiện áp dụng
 
-Quan hệ tuyến tính là xấp xỉ. Không được coi $\alpha$ là hằng số chính xác trên mọi khoảng nhiệt độ rất rộng hoặc qua các chuyển pha.
+Quan hệ tuyến tính là xấp xỉ quanh một miền nhiệt độ nhất định; $\alpha$ được hiểu là hệ số nhiệt điện trở trong miền đó. Không được coi $\alpha$ là hằng số chính xác trên mọi khoảng nhiệt độ rất rộng hoặc qua các chuyển pha.
 
 ## 5. Ví dụ — Dây tóc bóng đèn
 
@@ -84,19 +84,19 @@ $$
 R=50[1+4,5\times10^{-3}(2000-20)]\approx495,5\,\Omega.
 $$
 
-Kết quả giải thích vì sao điện trở dây tóc nóng có thể lớn hơn rất nhiều điện trở khi nguội.
+Kết quả chỉ minh họa xu hướng điện trở tăng mạnh khi dây nóng. Với khoảng nhiệt độ rất rộng như từ $20^\circ\,\mathrm C$ đến $2000^\circ\,\mathrm C$, công thức tuyến tính là ngoại suy thô; muốn tính chính xác phải dùng đặc trưng $R(T)$ hoặc $\rho(T)$ của vật liệu trong miền nhiệt độ tương ứng.
 
 ## 6. Hiện tượng nhiệt điện
 
 Nếu hai kim loại khác nhau tạo thành một mạch có hai mối nối ở hai nhiệt độ khác nhau, có thể xuất hiện suất điện động nhiệt điện.
 
-Trong mô hình tuyến tính đơn giản:
+Nếu hệ số nhiệt điện của cặp vật liệu có thể coi gần như không đổi trong khoảng nhiệt độ đang xét:
 
 $$
-\boxed{\mathcal E=\alpha_T(T_2-T_1)}.
+\boxed{\mathcal E\approx\alpha_T(T_2-T_1)}.
 $$
 
-$\alpha_T$ là hệ số nhiệt điện của cặp vật liệu.
+$\alpha_T$ là hệ số nhiệt điện của cặp vật liệu. Dấu của $\mathcal E$ phụ thuộc cách chọn chiều vòng mạch và thứ tự hai vật liệu; nếu bài chỉ hỏi độ lớn thì dùng $|\mathcal E|\approx|\alpha_T|\,|T_2-T_1|$.
 
 ### Ứng dụng
 
@@ -104,7 +104,7 @@ Cặp nhiệt điện dùng để đo nhiệt độ ở những nơi mà nhiệt
 
 ## 7. Hiện tượng siêu dẫn
 
-Một số vật liệu khi hạ dưới nhiệt độ tới hạn có điện trở điện một chiều giảm xuống mức cực nhỏ, về mô hình lí tưởng có thể xem bằng 0. Trạng thái này gọi là **siêu dẫn**.
+Một số vật liệu khi hạ dưới nhiệt độ tới hạn chuyển sang trạng thái có điện trở suất điện một chiều giảm đột ngột về 0; trong mô hình mạch lí tưởng có thể xem điện trở của mẫu bằng 0. Trạng thái này gọi là **siêu dẫn**.
 
 Siêu dẫn không chỉ là "kim loại lạnh nên điện trở nhỏ". Đây là một pha vật chất có tính chất lượng tử tập thể. Nhiệt độ tới hạn phụ thuộc vật liệu, và từ trường/dòng điện quá lớn có thể phá trạng thái siêu dẫn.
 

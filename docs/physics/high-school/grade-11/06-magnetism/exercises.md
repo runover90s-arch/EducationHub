@@ -120,7 +120,7 @@ Ba dây thẳng dài vuông góc mặt phẳng hình đặt tại ba đỉnh A, 
 Một vòng dây N=100, $R=5\,\mathrm{cm}$ nằm đồng tâm trong một từ trường ngoài đều vuông góc mặt vòng. Dòng qua vòng là $0,20\,\mathrm A$. Tìm độ lớn trường ngoài để B tổng tại tâm bằng 0 và nêu chiều cần có.
 
 ### Câu 27
-Một khung N=200 vòng, $S=25\,\text{cm}^2$, $I=0,15\,\mathrm A$ trong B=0,40 T chịu mômen $6,0\times10^{-3}\,\mathrm{N\,m}$. Tìm góc giữa pháp tuyến khung và B.
+Một khung N=200 vòng, $S=25\,\text{cm}^2$, $I=0,15\,\mathrm A$ trong B=0,40 T chịu mômen $6,0\times10^{-3}\,\mathrm{N\,m}$. Biết góc giữa pháp tuyến khung và $\vec B$ là góc nhọn. Tìm góc đó.
 
 ### Câu 28
 Một electron và proton được tăng tốc qua cùng hiệu điện thế U rồi đi vuông góc vào cùng B. Tính tỉ số bán kính $r_p/r_e$ theo khối lượng và điện tích, sau đó ước lượng nếu $|q_p|=|q_e|$ và $m_p/m_e=1836$.

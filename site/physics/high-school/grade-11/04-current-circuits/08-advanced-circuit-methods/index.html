@@ -6524,10 +6524,10 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#dang-2-cong-suat-cuc-ai" class="md-nav__link">
+  <a href="#dang-1-cong-suat-cuc-ai" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Dạng 2 — Công suất cực đại
+        Dạng 1 — Công suất cực đại
       
     </span>
   </a>
@@ -12843,10 +12843,10 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#dang-2-cong-suat-cuc-ai" class="md-nav__link">
+  <a href="#dang-1-cong-suat-cuc-ai" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Dạng 2 — Công suất cực đại
+        Dạng 1 — Công suất cực đại
       
     </span>
   </a>
@@ -12924,7 +12924,7 @@
 - hoặc ngược lại.</p>
 <p>Chỉ cần nhất quán.</p>
 <h2 id="3-inh-luat-vong-kirchhoff">3. Định luật vòng Kirchhoff</h2>
-<p>Đi quanh một vòng kín, tổng đại số các biến thiên điện thế bằng 0:</p>
+<p>Trong mô hình mạch tập trung ở chế độ một chiều ổn định, không có từ thông biến thiên xuyên qua vòng đang xét, đi quanh một vòng kín thì tổng đại số các biến thiên điện thế bằng 0:</p>
 <div class="arithmatex">\[
 \boxed{\sum \Delta V=0}.
 \]</div>
@@ -12958,11 +12958,12 @@
 </ol>
 <h2 id="6-phuong-phap-xep-chong">6. Phương pháp xếp chồng</h2>
 <p>Cho mạch tuyến tính chứa nhiều nguồn độc lập. Dòng/điện áp tổng bằng tổng đại số các đáp ứng do từng nguồn tạo riêng.</p>
-<p>Khi “tắt” các nguồn còn lại trong mô hình lý tưởng:</p>
+<p>Khi “tắt” các nguồn độc lập còn lại trong mô hình tuyến tính:</p>
 <ul>
-<li>nguồn điện áp lí tưởng <span class="arithmatex">\(\mathcal E=0\)</span> → thay bằng dây nối;</li>
+<li>nguồn điện áp <strong>lí tưởng</strong> <span class="arithmatex">\(\mathcal E=0\)</span> → thay bằng dây nối;</li>
 <li>nguồn dòng lí tưởng bằng 0 → thay bằng mạch hở (nếu học mô hình nguồn dòng).</li>
 </ul>
+<p>Nếu một nguồn thực được mô hình bằng nguồn lí tưởng <span class="arithmatex">\(\mathcal E\)</span> nối tiếp điện trở trong <span class="arithmatex">\(r\)</span>, khi đặt <span class="arithmatex">\(\mathcal E=0\)</span> thì <strong>vẫn giữ <span class="arithmatex">\(r\)</span> trong mạch</strong>. Chỉ phần nguồn điện áp lí tưởng được thay bằng dây nối.</p>
 <p>Trong phạm vi nguồn điện áp và điện trở của giáo trình, chủ yếu dùng quy tắc thứ nhất.</p>
 <h3 id="quy-trinh">Quy trình</h3>
 <ol>
@@ -12985,7 +12986,7 @@
 <p>Cách xác định thường dùng:</p>
 <ol>
 <li><span class="arithmatex">\(\mathcal E_{eq}\)</span> là điện áp hở mạch giữa A–B;</li>
-<li><span class="arithmatex">\(r_{eq}\)</span> là điện trở nhìn vào A–B khi các nguồn điện áp độc lập được đặt <span class="arithmatex">\(\mathcal E=0\)</span>, nếu mô hình nguồn cho phép.</li>
+<li><span class="arithmatex">\(r_{eq}\)</span> là điện trở nhìn vào A–B khi các nguồn điện áp độc lập được đặt <span class="arithmatex">\(\mathcal E=0\)</span>, nếu mô hình nguồn cho phép; mọi điện trở vật lí, kể cả điện trở trong của nguồn thực, vẫn được giữ lại.</li>
 </ol>
 <p>Đây là tư tưởng tương đương kiểu Thévenin, dù bài phổ thông có thể gọi đơn giản là “nguồn tương đương”.</p>
 <h3 id="nguon-noi-tiep">Nguồn nối tiếp</h3>
@@ -13019,7 +13020,7 @@ r_{eq}=\left(\sum_i\frac1{r_i}\right)^{-1}.
 <li>tìm hiệu điện thế hai đầu tụ;</li>
 <li>tính <span class="arithmatex">\(Q=CU\)</span>.</li>
 </ol>
-<p>Đây là quy tắc trung tâm của nhóm bài RC trong corpus.</p>
+<p>Đây là quy tắc trung tâm của nhóm bài RC trong phần này.</p>
 <h2 id="9-chuyen-mach-voi-tu">9. Chuyển mạch với tụ</h2>
 <p>Khi khóa K thay trạng thái:</p>
 <h3 id="truoc-chuyen">Trước chuyển</h3>
@@ -13045,7 +13046,7 @@ W_C=\frac12CU^2.
 <p>trong mô hình chỉ có nguồn, tụ và điện trở tiêu tán.</p>
 <p>Với nhiều nguồn, <span class="arithmatex">\(A_{\text{nguồn}}\)</span> là tổng công đại số của các nguồn theo điện lượng đi qua từng nguồn.</p>
 <h2 id="11-khong-ua-ham-mu-neu-bai-chi-hoi-trang-thai">11. Không đưa hàm mũ nếu bài chỉ hỏi trạng thái</h2>
-<p>Các bài trong mạch RC của corpus chủ yếu khai thác:</p>
+<p>Các bài mạch RC ở đây chủ yếu khai thác:</p>
 <ul>
 <li>trạng thái xác lập;</li>
 <li>điện lượng chuyển qua khóa;</li>
@@ -13101,7 +13102,7 @@ I_1+I_2=I_3.
 </ol>
 <h2 id="cac-dang-bai-trong-tam">Các dạng bài trọng tâm</h2>
 <p>Các nhóm bài dưới đây được tổ chức theo dấu hiệu nhận biết và công cụ giải để người học chọn phương pháp phù hợp và tự kiểm tra kết quả.</p>
-<h3 id="dang-2-cong-suat-cuc-ai">Dạng 2 — Công suất cực đại</h3>
+<h3 id="dang-1-cong-suat-cuc-ai">Dạng 1 — Công suất cực đại</h3>
 <p>Với một nguồn có suất điện động <span class="arithmatex">\(\mathcal E\)</span> và điện trở trong <span class="arithmatex">\(r\)</span> cấp cho tải biến đổi <span class="arithmatex">\(R\)</span>, công suất tải <span class="arithmatex">\(P=\mathcal E^2R/(R+r)^2\)</span> đạt cực đại khi <span class="arithmatex">\(R=r\)</span>.</p>
 <p>Nếu tải nhìn thấy một mạng mạch phức tạp, trước hết tìm nguồn tương đương và điện trở tương đương nhìn từ hai cực tải, sau đó mới áp dụng điều kiện cực đại. Không dùng <span class="arithmatex">\(R=r\)</span> nếu <span class="arithmatex">\(r\)</span> chưa phải điện trở tương đương mà tải thực sự nhìn thấy.</p>
 <!-- LESSON_PRACTICE_LINKS -->

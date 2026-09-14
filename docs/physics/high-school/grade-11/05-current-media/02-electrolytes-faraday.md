@@ -34,7 +34,7 @@ Khi đặt điện trường:
 - ion dương chuyển về catot;
 - ion âm chuyển về anot.
 
-Hai loại ion chuyển ngược hướng nhau nhưng đều góp phần tạo dòng điện quy ước cùng chiều trong mạch ngoài theo quy tắc điện tích.
+Hai loại ion chuyển ngược hướng nhau nhưng, do mang điện tích trái dấu, phần đóng góp của chúng vào dòng điện quy ước **bên trong chất điện phân** có cùng chiều.
 
 ## 2. Bản chất dòng điện trong chất điện phân
 
@@ -61,13 +61,19 @@ Trong một số hệ, anot làm bằng chính kim loại có ion trong dung d�
 
 ## 5. Định luật Faraday thứ nhất
 
-Khối lượng chất giải phóng ở điện cực tỉ lệ với điện lượng qua bình:
+Khối lượng chất giải phóng ở điện cực tỉ lệ với điện lượng đi qua bình:
 
 $$
-\boxed{m=kq=kIt}.
+\boxed{m=kq}.
 $$
 
-k là đương lượng điện hóa của chất.
+Nếu dòng điện không đổi trong thời gian $t$ thì $q=It$, do đó:
+
+$$
+\boxed{m=kIt}.
+$$
+
+Nếu dòng thay đổi theo thời gian, phải dùng điện lượng tổng $q=\int I\,dt$ thay vì thay trực tiếp một giá trị $I$ bất kì. Trong các bài phổ thông, thường ngầm coi toàn bộ dòng điện tham gia phản ứng điện phân cần xét; nếu đề cho hiệu suất dòng điện nhỏ hơn 100% thì phải nhân thêm hệ số hiệu suất tương ứng. $k$ là đương lượng điện hóa của chất, có đơn vị khối lượng trên điện lượng, chẳng hạn $\mathrm{kg/C}$ hoặc $\mathrm{g/C}$.
 
 ## 6. Định luật Faraday thứ hai
 
@@ -79,9 +85,11 @@ $$
 
 Với:
 
-- A: khối lượng mol nguyên tử theo đơn vị g/mol trong bài phổ thông;
-- n: hóa trị ion;
+- $A$: khối lượng mol của chất được giải phóng; trong các bài kim loại đơn nguyên tử, đây thường là khối lượng mol nguyên tử;
+- $n$: số mol electron trao đổi trên một mol chất được giải phóng; với ion kim loại đơn giản, $n$ trùng với độ lớn hóa trị của ion;
 - $F\approx9,65\times10^4\,\mathrm{C/mol}$ là hằng số Faraday.
+
+Nếu $A$ dùng theo $\mathrm{g/mol}$ thì $k$ nhận đơn vị $\mathrm{g/C}$ và $m$ tính ra gam; nếu $A$ dùng theo $\mathrm{kg/mol}$ thì $k$ có đơn vị $\mathrm{kg/C}$ và $m$ tính ra kilôgam.
 
 Kết hợp:
 
@@ -97,7 +105,7 @@ $$
 F=N_Ae.
 $$
 
-Vì vậy công thức Faraday nối điện lượng vĩ mô $It$ với số mol electron trao đổi trong phản ứng điện hóa.
+Vì vậy công thức Faraday nối điện lượng vĩ mô $q$ với số mol electron trao đổi trong phản ứng điện hóa; chỉ khi dòng điện không đổi mới thay $q=It$.
 
 ## 8. Ví dụ — Mạ bạc
 
@@ -171,7 +179,7 @@ Dòng điện trong chất điện phân do các ion chuyển động có hướ
 
 1. Hạt tải điện: ion dương và ion âm.
 2. Điện phân đi kèm biến đổi hóa học.
-3. $m=kIt$.
+3. Tổng quát $m=kq$; nếu dòng điện không đổi thì $m=kIt$.
 4. $k=(A/n)/F$.
 5. Bài mạch phải tìm đúng dòng qua bình trước khi tính m.
 

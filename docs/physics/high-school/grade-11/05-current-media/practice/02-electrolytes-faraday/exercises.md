@@ -94,7 +94,7 @@ d) Không có sự vận chuyển vật chất trong dung dịch.
 
     b) **Đúng.** Khi ion tới điện cực, phản ứng nhận hoặc nhường electron có thể xảy ra, làm chất bám, khí thoát ra hoặc điện cực biến đổi.
 
-    c) **Đúng.** Định luật Faraday thứ nhất có dạng $m=kq=kIt$, liên hệ trực tiếp khối lượng giải phóng với điện lượng.
+    c) **Đúng.** Định luật Faraday thứ nhất có dạng $m=kq$, liên hệ trực tiếp khối lượng giải phóng với điện lượng. Nếu dòng điện không đổi thì $q=It$, nên mới viết được $m=kIt$.
 
     d) **Sai.** Các ion là các hạt vật chất và chúng chuyển động trong dung dịch; điện phân vì thế gắn với sự vận chuyển vật chất và biến đổi hóa học.
 

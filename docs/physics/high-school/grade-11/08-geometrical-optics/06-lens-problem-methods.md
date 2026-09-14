@@ -200,7 +200,7 @@ Nếu thấu kính trong không khí, $n_m\approx1$.
 
 ### Cảnh báo quy ước
 
-Một số tài liệu phổ thông dùng độ lớn bán kính và thay dấu theo hình từng loại thấu kính. Giáo trình này dùng **bán kính đại số** trong công thức trên. Không trộn hai quy ước giữa chừng.
+Trong công thức trên, lấy chiều truyền ánh sáng từ trái sang phải: $R>0$ nếu tâm cong của mặt đang xét nằm bên phải mặt đó, và $R<0$ nếu tâm cong nằm bên trái. Một số tài liệu phổ thông dùng quy ước dấu khác hoặc chỉ dùng độ lớn bán kính rồi thay dấu theo hình từng loại thấu kính. Không trộn các quy ước giữa chừng.
 
 ## 9. Bài ảnh qua hai thấu kính cách nhau
 

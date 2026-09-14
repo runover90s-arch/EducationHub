@@ -14,10 +14,10 @@ tags:
 [← Bài tập](exercises.md)
 
 ## Bài 1
-Chọn **A**: với nguồn đang phát điện, hiệu điện thế mạch ngoài thỏa $U=\mathcal E-rI$, nên đồ thị $U-I$ là đường thẳng có hệ số góc âm.
+Với nguồn đang phát điện, hiệu điện thế hai cực giảm tuyến tính theo dòng điện: $U=\mathcal E-rI$. Chọn **A**.
 
 ## Bài 2
-Chọn **B**: tại $I=0$, phương trình $U=\mathcal E-rI$ cho $U=\mathcal E$, nên tung độ gốc chính là suất điện động.
+Tại $I=0$, phương trình $U=\mathcal E-rI$ cho $U=\mathcal E$, nên tung độ gốc là suất điện động của nguồn. Chọn **B**.
 
 ## Bài 3
 Chọn **B** vì hệ số góc là $-r$.
@@ -39,7 +39,7 @@ a) **Đúng.** Phương trình $U=\mathcal E-rI$ là hàm bậc nhất theo $I$ 
 
 b) **Đúng.** Thế $I=0$ vào $U=\mathcal E-rI$ cho ngay $U=\mathcal E$.
 
-c) **Đúng.** Trong mô hình nguồn có $U=\mathcal E-rI$, đặt $U=0$ ở trạng thái ngắn mạch cho $I_{sc}=\mathcal E/r$.
+c) **Đúng.** về mô hình.
 
 d) **Sai.** vì nguy cơ ngắn mạch; thường suy ra từ đường thẳng an toàn hơn.
 

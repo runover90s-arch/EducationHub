@@ -27,7 +27,7 @@ C. chỉ áp dụng cho hai điện tích.
 D. điện trường không thể tổng hợp.
 
 ??? success "Đáp án và lời giải"
-    Chọn **B**.
+    Chọn **B** vì nguyên lí chồng chất yêu cầu cộng **vectơ**: $\vec E=\vec E_1+\vec E_2+\cdots$.
 
 ### Bài 2 — Mức 1 — Nhận biết
 
@@ -91,11 +91,11 @@ d) Chỉ cần độ lớn hai điện trường bằng nhau, không cần xét 
 ??? success "Đáp án và lời giải"
     a) **Đúng.** Giữa hai điện tích cùng dấu, hai vectơ điện trường do chúng gây ra ngược chiều nên có thể triệt tiêu tại một điểm thích hợp.
 
-    b) **Đúng.** trong bài toán trên đường nối hai điện tích.
+    b) **Đúng.** Với hai điện tích trái dấu, ở mọi điểm giữa chúng hai vectơ điện trường cùng chiều, nên không thể triệt tiêu; điểm $E=0$ (nếu có) nằm ngoài đoạn nối hai điện tích.
 
     c) **Đúng.** Ở trung điểm, hai điện trường có cùng độ lớn do khoảng cách bằng nhau và ngược chiều vì hai điện tích cùng dấu.
 
-    d) **Sai.** để tổng vectơ bằng 0 cần hai vectơ cùng phương, ngược chiều và cùng độ lớn.
+    d) **Sai.** Để tổng vectơ bằng 0 cần hai vectơ cùng phương, ngược chiều và cùng độ lớn.
 
 ### Bài 6 — Mức 2 — Thông hiểu
 
@@ -233,7 +233,7 @@ Cho hai điện tích điểm $q_1=-10^{-9}\,\mathrm C$, $q_2=10^{-9}\,\mathrm C
 
     Theo dữ kiện in trong đề, $q_1=-10^{-9}\,\mathrm C$, $q_2=10^{-9}\,\mathrm C$ và $AB=40\,\mathrm{cm}$. Vì $MA=20\,\mathrm{cm}$, $MB=60\,\mathrm{cm}$, M nằm ngoài đoạn AB về phía A. Tại M, $E_1=225\,\mathrm{V/m}$ và $E_2=25\,\mathrm{V/m}$, hai vectơ ngược chiều; do đó $E=|E_1-E_2|=200\,\mathrm{V/m}$.
 
-    <!-- audit-note: Source answer/solution used 1200 V/m with |q1|=|q2|=6e-9 C, inconsistent with the printed stem 1e-9 C. Learner-facing solution follows the printed stem. -->
+    <!-- source-audit: PDF có ô đáp án 1200 V/m và phần giải tự dùng |q1|=|q2|=6e-9 C, mâu thuẫn với dữ kiện chung q1=-1e-9 C, q2=1e-9 C. Bản learner-facing dùng dữ kiện đề và kết quả 200 V/m. -->
 #### Bài 14
 
 <!-- source-id: BT-Chuong-III-p56-q5-170 -->
@@ -390,8 +390,7 @@ D. phải cùng dấu, khác độ lớn.
 
     **Hướng dẫn giải:**
 
-    Cho hai điện tích điểm đặt cố định tại hai điểm A và B, để cường độ điện trường gây bởi hai điện tích tại
-    trung điểm của đoạn AB bằng 0 thì hai điện tích phải cùng dấu, cùng độ lớn.
+    Ở trung điểm, khoảng cách đến A và B bằng nhau. Để hai điện trường triệt tiêu, chúng phải ngược chiều nên hai điện tích phải cùng dấu; đồng thời độ lớn điện trường bằng nhau nên $|q_A|=|q_B|$. Vì vậy chọn **B**.
 
 #### Bài 22
 
@@ -451,7 +450,7 @@ d) Giá trị cường độ điện trường tổng hợp tại M bằng 0.
 <!-- source-id: BT-Chuong-III-p53-q2-159 -->
 
 Hai điện tích điểm $q_1=2\cdot10^{-2}\,\mu\mathrm C$ và $q_2=-3\cdot10^{-2}\,\mu\mathrm C$ đặt tại 2 điểm A và B cách nhau một đoạn a =
-$30\,\mathrm{cm}$ trong không khí. M là điểm trên đoan AB và cách đều AB.
+$30\,\mathrm{cm}$ trong không khí. M là trung điểm của đoạn AB.
 
 a) Độ lớn cường độ điện trường do $q_1$ gây ra tại M là $8000\,\mathrm{V/m}$.
 
@@ -489,7 +488,7 @@ b) Độ lớn cường độ điện trường do $q_2$ gây ra tại C là $18
 
 c) Vectơ cường độ điện trường tổng hợp tại C cùng hướng với vectơ cường độ điện trường do $q_2$ gây ra tại C.
 
-d) Cường độ điện trường tổng hợp tại C có độ lớn là $12{,}72\cdot10^5\,\mathrm{V/m}$.
+d) Cường độ điện trường tổng hợp tại C có độ lớn xấp xỉ $12{,}73\cdot10^5\,\mathrm{V/m}$.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** a) Đúng; b) Sai; c) Sai; d) Đúng
@@ -502,6 +501,6 @@ d) Cường độ điện trường tổng hợp tại C có độ lớn là $12
 
     c) **Sai.** Tam giác ABC có các cạnh $3$-$4$-$5$ nên $AC\perp BC$. Vì $\vec E_1$ theo AC và $\vec E_2$ theo BC, hai vectơ điện trường vuông góc; hợp lực không thể cùng hướng với riêng $\vec E_2$.
 
-    d) **Đúng.** $E=\sqrt{E_1^2+E_2^2}=9\sqrt2\cdot10^5\,\mathrm{V/m}\approx12{,}73\cdot10^5\,\mathrm{V/m}$. Giá trị $12{,}72\cdot10^5\,\mathrm{V/m}$ trong mệnh đề là xấp xỉ rất gần nên kết luận Đúng được giữ nguyên.
+    d) **Đúng.** $E=\sqrt{E_1^2+E_2^2}=9\sqrt2\cdot10^5\,\mathrm{V/m}\approx12{,}73\cdot10^5\,\mathrm{V/m}$, đúng với phát biểu đã làm tròn.
 
-    <!-- audit-note: Source solution has inconsistent intermediate values; recomputation from the printed stem gives E1=E2=9e5 V/m and E=9sqrt(2)e5 V/m. -->
+    <!-- source-audit: PDF ghi 12,72e5 V/m và có giá trị trung gian không khớp phép thế số. Từ dữ kiện đề suy ra E1=E2=9e5 V/m, nên E=9sqrt(2)e5≈12,73e5 V/m. -->

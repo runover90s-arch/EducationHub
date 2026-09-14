@@ -1,85 +1,60 @@
 {
-  "scope": "docs/physics/high-school/grade-11/04-current-circuits/ — FINAL AUDIT",
+  "source_version": "education-hub-v14.zip",
+  "target_version": "education-hub-v15.zip",
+  "checkpoint_series": 2,
+  "scope": "docs/physics/high-school/grade-11/04-current-circuits/",
   "mode": "FINAL AUDIT / UPDATE",
-  "SOURCE_VERSION": "education-hub-v16.zip",
-  "source_checkpoint": {
-    "series": 2,
-    "version": 16
+  "method": [
+    "Cross-checked theory, practice structure, chapter exercises/solutions, quiz, source ids, images/links and prior audit corrections without re-solving the entire chapter.",
+    "Deep spot-checks re-read rendered PDF figures for multi-branch circuits, opposed/combined sources, internal resistance, measuring instruments, power optimization, Kirchhoff/topology-sensitive items and previously repaired options.",
+    "Ran explicit searches for learner-facing source-history phrases, generic/placeholder solution patterns, answer-vs-selection mismatches, raw LaTeX delimiters and dead image/link references."
+  ],
+  "practice_summary_from_completed_group_audits": {
+    "total": 450,
+    "VERIFIED": 407,
+    "FIXED": 43,
+    "UNRESOLVED": 0
   },
-  "target_checkpoint": {
-    "series": 2,
-    "version": 17
+  "source_integrity": {
+    "canonical_source_ids_chapter_iv": 350,
+    "unique_source_ids_chapter_iv": 350,
+    "source_alias_ids_chapter_iv": 0,
+    "duplicate_source_ids_chapter_iv": 0,
+    "dead_images_or_links_found": 0,
+    "answer_selection_mismatches_found": 0
   },
-  "audit_scope": [
-    "theory cross-check",
-    "practice answer/solution consistency using completed Group A/B/C audits",
-    "circuit topology and polarity spot-checks",
-    "units and power/Joule-Lenz conditions",
-    "chapter exercises/solutions and quiz",
-    "source-id/source-alias integrity",
-    "LaTeX, links and local image references"
+  "final_audit_corrections": [
+    {
+      "file": "docs/physics/high-school/grade-11/04-current-circuits/exercises.md",
+      "change": "Corrected the Bài 3 practice inventory from 48 to 49 items to match the actual continuous Bài 1-49 bank."
+    },
+    {
+      "file": "docs/physics/high-school/grade-11/04-current-circuits/quiz.md",
+      "change": "Made the conditions explicit for P=U^2/R (ohmic resistor satisfying U=IR) and Q=I^2Rt (I and R constant over t); answer truth values are unchanged."
+    }
   ],
-  "verified": {
-    "theory_files": 11,
-    "practice_items_previously_independently_audited_and_final_cross_checked": 450,
-    "chapter_exercises": 51,
-    "chapter_solutions": 51,
-    "quiz_questions": 10,
-    "chapter_iv_pdf_canonical_source_ids": 350,
-    "chapter_iv_unique_source_ids": 350,
-    "chapter_iv_source_aliases": 0,
-    "chapter_local_image_references": 77,
-    "chapter_unique_local_image_targets": 75,
-    "missing_local_image_targets": 0
+  "answer_option_repairs_retained_and_rechecked": [
+    "02-resistance-ohm-law Bài 30: removed the algebraically duplicate Ohm-law distractor so only B is correct.",
+    "02-resistance-ohm-law Bài 46: corrected the temperature option to 87.7 degC from independent calculation.",
+    "04-energy-power-joule Bài 33: retained E≈12.0 V, r≈0.193 ohm from the independently solved two-state system.",
+    "04-energy-power-joule Bài 45: retained the repaired duplicate-energy distractor so only 500 Wh is correct.",
+    "04-energy-power-joule Bài 84: retained the repaired duplicate-energy distractor so only 1.175 kWh is correct.",
+    "09-practical-emf-internal-resistance Bài 33: retained (1.33±0.02) V after recomputing mean and uncertainty."
+  ],
+  "theory_status": {
+    "new_lesson_theory_corrections_in_final_audit": 0,
+    "note": "The v11 theory corrections remain consistent: current/charge direction, resistivity geometry conditions, source EMF/internal resistance, whole-circuit Ohm model, power/Joule-Lenz conditions, Kirchhoff assumptions and meter loading were rechecked. The final audit only tightened equivalent conditions in the quiz."
   },
-  "deep_spot_checks": [
-    "BT-Chuong-IV-p76-q6-234 — ammeter shorts C-D; node topology and 0.5 A result rechecked from stored figure",
-    "BT-Chuong-IV-p86-q3-259 — two source polarities rechecked visually; emfs aid and R=4 ohm remains correct",
-    "BT-Chuong-IV-p51-q4-180 — K-open/K-closed topology and ammeter currents rechecked from stored figure",
-    "BT-Chuong-IV-p113-q6-348 — load-power maximization rechecked; R=2/3 ohm",
-    "BT-Chuong-IV-p126-q2-376 — meter polarity and M/N source polarity rechecked from figure",
-    "BT-Chuong-IV-p127-q3-377 — current-meter port polarity and U-I graph intercept rechecked from figure",
-    "BT-Chuong-IV-p8-q39-39 — annular copper cross-section independently recomputed; 161 micro-m/s",
-    "BT-Chuong-IV-p99-q35-297 — battery power states independently recomputed; E≈11.96 V, r≈0.193 ohm",
-    "BT-Chuong-IV-p123-q24-372 — uncertainty and rounding independently recomputed; (1.33±0.02) V"
-  ],
-  "cumulative_answer_or_option_repairs_confirmed": [
-    "BT-Chuong-IV-p8-q39-39 — option C -> 161 micro-m/s",
-    "BT-Chuong-IV-p27-q8-88 — option D -> U=R/I so B is the unique Ohm-law answer",
-    "BT-Chuong-IV-p99-q35-297 — option A -> E≈11.96 V, r≈0.193 ohm",
-    "BT-Chuong-IV-p107-q2-322 — option B -> 180 kJ so A=500 Wh is unique",
-    "BT-Chuong-IV-p108-q11-331 — added held-fixed conditions to options A/B, preserving C as unique incorrect statement",
-    "BT-Chuong-IV-p96-q20-282 — option B -> 117.5 Wh so A=1.175 kWh is unique",
-    "BT-Chuong-IV-p123-q24-372 — option D -> (1.33±0.02) V"
-  ],
-  "cumulative_true_false_verdict_repairs_confirmed": [
-    "BT-Chuong-IV-p126-q2-376 item c -> True",
-    "BT-Chuong-IV-p127-q3-377 item c -> False"
-  ],
-  "theory_corrections_confirmed": [
-    "distinguished interval-average current from constant-current I=q/t",
-    "stated conditions for R=rho*l/S",
-    "clarified emf definition and internal resistance/source operating mode",
-    "stated scope of full-circuit Ohm law",
-    "tightened P=UI, P=I^2R, P=U^2/R and Q=I^2Rt conditions",
-    "clarified DC meter polarity/range use",
-    "stated Kirchhoff steady-DC/sign-convention scope"
-  ],
-  "fixed_in_final_audit": [
-    "Quiz item 7d now states the constant-I and constant-R condition for Q=I^2Rt without changing its True verdict.",
-    "Closed historical next fields in Chapter IV audit reports after final verification."
-  ],
-  "forbidden_learner_facing_markers_remaining": 0,
-  "generic_solution_markers_found": 0,
   "unresolved": [],
+  "chapter_status": "COMPLETE",
   "next": null,
-  "status": "CHAPTER_IV_COMPLETE",
-  "validation": {
-    "check_practice_bank": "PASS — 61 banks; 540 authored + 1633 PDF; 0 structural errors",
-    "check_pdf_import": "PASS — 1633 canonical PDF items; Chapter IV=350; 10 aliases globally; 0 integrity errors",
-    "check_solution_quality": "PASS — 2173 total items; 0 errors",
-    "check_site_full": "LINT PASS — 237 Markdown; 0 errors; 0 warnings; build step unavailable because mkdocs executable is missing",
-    "mkdocs_build_strict": "NOT RUN — mkdocs command not found",
-    "dependency_install_attempt": "FAILED — python -m pip install -r requirements.txt could not reach PyPI because DNS/name resolution failed"
+  "quality_gate": {
+    "check_practice_bank.py": "PASS - 0 errors",
+    "check_pdf_import.py": "PASS - 0 integrity errors",
+    "check_solution_quality.py": "PASS - 0 errors",
+    "check_site.py": "PARTIAL/ENVIRONMENT BLOCK - lint 0 errors, 0 warnings; full command exits 1 because mkdocs executable is missing",
+    "check_site.py --lint-only": "PASS - 0 errors, 0 warnings",
+    "mkdocs build --strict": "NOT RUN - mkdocs command/module unavailable",
+    "dependency_install_attempt": "FAILED - python -m pip install -r requirements.txt could not resolve/download mkdocs-material because DNS/network name resolution failed"
   }
 }

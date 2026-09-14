@@ -23,7 +23,7 @@ Chọn **C**. $P=I^2R=4\cdot10=40\,\mathrm W$.
 Chọn **B**. $I=P/U=1100/220=5\,\mathrm A$.
 
 ## Bài 4
-Chọn **A**.
+Với dòng điện không đổi qua điện trở, định luật Joule–Lenz cho $Q=I^2Rt$. Vì vậy chọn **A**.
 
 ## Bài 5
 a) **Đúng.** kW là đơn vị công suất và giờ là đơn vị thời gian, nên tích kW·h là đơn vị của năng lượng.

@@ -1,0 +1,95 @@
+{
+  "base_version": "education-hub-v21.zip",
+  "scope": "docs/physics/high-school/grade-11/07-electromagnetic-induction/",
+  "mode": "CONTINUE / AUDIT / UPDATE / FINAL AUDIT",
+  "source_of_truth": "series 2 / version 21",
+  "practice_partition": {
+    "HALF A": [
+      "01-magnetic-flux-induction",
+      "02-lenz-faraday-law"
+    ],
+    "HALF B": [
+      "03-motional-emf",
+      "04-self-induction-energy"
+    ]
+  },
+  "half_b_audit": {
+    "03-motional-emf": [
+      {"bai": 1, "status": "VERIFIED", "independent_check": "standard geometry gives |E|=B l v; only A is correct"},
+      {"bai": 2, "status": "VERIFIED", "independent_check": "v parallel B gives v cross B = 0, hence motional emf is zero"},
+      {"bai": 3, "status": "VERIFIED", "independent_check": "0.2*0.5*4=0.40 V; only B is correct"},
+      {"bai": 4, "status": "FIXED", "independent_check": "verdicts remain T/T/T/F; microscopic explanation corrected to mobile conduction electrons accumulating at one end and electron deficit at the other, without implying mobile positive carriers in a metal"},
+      {"bai": 5, "status": "VERIFIED", "independent_check": "0.4*0.30*5=0.60 V"},
+      {"bai": 6, "status": "VERIFIED", "independent_check": "B=1.2/(0.4*6)=0.50 T"},
+      {"bai": 7, "status": "VERIFIED", "independent_check": "rod aligned with v cross B gives |E|=B l v sin30=0.60 V"},
+      {"bai": 8, "status": "VERIFIED", "independent_check": "E=0.60 V, I=0.30 A, F=0.060 N; Lenz gives force opposite motion and Fv=I^2R=0.18 W"}
+    ],
+    "04-self-induction-energy": [
+      {"bai": 1, "status": "VERIFIED", "independent_check": "for constant L and uniform current change, average magnitude is L|Delta I|/Delta t; A only"},
+      {"bai": 2, "status": "VERIFIED", "independent_check": "SI unit of inductance is henry; B only"},
+      {"bai": 3, "status": "VERIFIED", "independent_check": "linear ideal inductor stores W=(1/2)LI^2; B only"},
+      {"bai": 4, "status": "VERIFIED", "independent_check": "a True, b True, c True, d False; self-emf opposes change in current and is zero when dI/dt=0"},
+      {"bai": 5, "status": "VERIFIED", "independent_check": "0.5*(2/0.1)=10 V"},
+      {"bai": 6, "status": "VERIFIED", "independent_check": "(1/2)*0.2*3^2=0.90 J"},
+      {"bai": 7, "status": "VERIFIED", "independent_check": "L=6*0.25/3=0.50 H"},
+      {"bai": 8, "status": "VERIFIED", "independent_check": "|E|=0.40*(2/0.05)=16 V; W0=(1/2)*0.40*2^2=0.80 J; under stated assumption Q=0.80 J"}
+    ],
+    "summary": {
+      "TOTAL_IN_SCOPE": 16,
+      "AUDITED": 16,
+      "VERIFIED": 15,
+      "FIXED": 1,
+      "UNRESOLVED": 0
+    }
+  },
+  "chapter_final_audit": {
+    "practice_summary": {
+      "TOTAL_EXERCISES": 32,
+      "AUDITED": 32,
+      "VERIFIED": 31,
+      "FIXED": 1,
+      "UNRESOLVED": 0
+    },
+    "theory_summary": {
+      "TOTAL_FILES": 4,
+      "VERIFIED": 2,
+      "FIXED": 2,
+      "UNRESOLVED": 0,
+      "new_corrections_in_final_pass": 0
+    },
+    "consistency": {
+      "practice_exercises_solutions": "4/4 lesson practice sets match Bài 1-8",
+      "chapter_exercises_solutions": "Câu 1-26 match",
+      "quiz": "10 questions with A-D choices where applicable",
+      "forbidden_learner_facing_source_notes": 0,
+      "legacy_latex_delimiters": 0,
+      "broken_local_links": 0,
+      "source_id_or_alias_entries": 0
+    },
+    "deep_spot_checks": [
+      "magnetic-flux angle uses the surface normal, not the plane",
+      "Faraday N-turn factor and signed flux change",
+      "Lenz direction opposes flux change rather than always opposing external B",
+      "motional emf uses v cross B and the standard B l v geometry only under the stated perpendicular conditions",
+      "self-emf sign opposes current change; energy uses the linear constant-L model"
+    ]
+  },
+  "web_verification": {
+    "sources": [
+      "Vatlypt — motional-emf and self-induction Grade-11 references",
+      "OpenStax College Physics — Faraday/Lenz, motional emf, inductance and inductor energy",
+      "NIST SI references for Wb, T, H, V and A"
+    ],
+    "note": "Supplied PDF corpus supports magnetic flux/Faraday/Lenz in the IPCLASS theory handbook but not a complete Chapter VII exercise corpus; unsupported topics were verified independently and via web sources rather than attributed to PDFs."
+  },
+  "quality_gate": {
+    "tools/test_quality_gate.py": "NOT RUN — file does not exist in source of truth",
+    "check_practice_bank.py": "PASS — 0 structural errors",
+    "check_pdf_import.py": "PASS — 0 integrity errors",
+    "check_solution_quality.py": "PASS — 0 errors",
+    "check_site.py": "LINT PASS — 0 errors, 0 warnings; full command exits at BUILD001 because mkdocs executable is missing",
+    "mkdocs build --strict": "NOT RUN — mkdocs command not found"
+  },
+  "unresolved": [],
+  "next": "hoàn tất Chương VII"
+}

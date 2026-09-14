@@ -153,7 +153,13 @@ $$
 N=\frac{20\times10^{-6}}{4,97\times10^{-19}}\approx4,02\times10^{13}.
 $$
 
-Kết quả cho $n_e>N$, tức hiệu suất đếm lớn hơn 100%, **mâu thuẫn với mô hình một photon tạo tối đa một electron**. Vì vậy bộ số liệu này không phù hợp với mô hình đơn giản đã giả định. Đây là bài kiểm tra logic dữ kiện, không nên ép ra một hiệu suất vật lí vô nghĩa.
+Hiệu suất đếm suy ra từ bộ số liệu là:
+
+$$
+H=\frac{n_e}{N}\times100\%\approx248\%.
+$$
+
+Giá trị $H>100\%$ **mâu thuẫn với mô hình đơn giản một photon tạo tối đa một electron được thu**. Vì vậy bộ số liệu không nhất quán với mô hình đã giả định; kết quả $248\%$ là dấu hiệu để phát hiện mâu thuẫn, không phải một hiệu suất vật lí hợp lệ trong mô hình này.
 
 ## Câu 20
 

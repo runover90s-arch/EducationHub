@@ -12629,15 +12629,16 @@
 <li>biết giới hạn của mô hình không tương đối tính.</li>
 </ul>
 <h2 id="1-luc-tu-len-ien-tich-chuyen-ong">1. Lực từ lên điện tích chuyển động</h2>
-<p>Một điện tích q chuyển động với vận tốc <span class="arithmatex">\(\vec v\)</span> trong từ trường <span class="arithmatex">\(\vec B\)</span> chịu lực từ:</p>
+<p>Khi chỉ xét tác dụng của từ trường, một điện tích <span class="arithmatex">\(q\)</span> chuyển động với vận tốc <span class="arithmatex">\(\vec v\)</span> trong từ trường <span class="arithmatex">\(\vec B\)</span> chịu <strong>phần lực từ của lực Lorentz</strong>:</p>
 <div class="arithmatex">\[
-\boxed{\vec F=q\vec v\times\vec B}.
+\boxed{\vec F_B=q\vec v\times\vec B}.
 \]</div>
 <p>Độ lớn:</p>
 <div class="arithmatex">\[
 \boxed{F=|q|vB\sin\alpha}
 \]</div>
-<p>với <span class="arithmatex">\(\alpha\)</span> là góc giữa <span class="arithmatex">\(\vec v\)</span> và <span class="arithmatex">\(\vec B\)</span>.</p>
+<p>với <span class="arithmatex">\(\alpha\)</span> là góc giữa <span class="arithmatex">\(\vec v\)</span> và <span class="arithmatex">\(\vec B\)</span>. Trong hệ SI, <span class="arithmatex">\(q\)</span> tính bằng coulomb (C), <span class="arithmatex">\(v\)</span> bằng <span class="arithmatex">\(\mathrm{m/s}\)</span>, <span class="arithmatex">\(B\)</span> bằng tesla (T) và <span class="arithmatex">\(F\)</span> bằng newton (N).</p>
+<p>Nếu đồng thời có điện trường, lực Lorentz tổng quát còn có thêm phần lực điện <span class="arithmatex">\(q\vec E\)</span>; trong bài này, khi nói “lực Lorentz” ta chủ yếu xét phần lực từ ở trên.</p>
 <h2 id="2-chieu-luc">2. Chiều lực</h2>
 <h3 id="voi-q-0">Với q &gt; 0</h3>
 <p>Dùng quy tắc bàn tay trái hoặc tích có hướng <span class="arithmatex">\(\vec v\times\vec B\)</span>.</p>
@@ -12696,7 +12697,7 @@ f=\frac{|q|B}{2\pi m}.
 <li><span class="arithmatex">\(v_{\parallel}\)</span> không chịu lực từ → chuyển động thẳng đều dọc B;</li>
 <li><span class="arithmatex">\(v_{\perp}\)</span> gây chuyển động tròn quanh đường sức.</li>
 </ul>
-<p>Kết hợp thành <strong>đường xoắn ốc</strong>.</p>
+<p>Nếu <span class="arithmatex">\(\vec B\)</span> đều và không có lực khác đáng kể, hai chuyển động thành phần kết hợp thành <strong>đường xoắn ốc</strong> quanh phương <span class="arithmatex">\(\vec B\)</span>.</p>
 <p>Bán kính:</p>
 <div class="arithmatex">\[
 r=\frac{mv_{\perp}}{|q|B}.
@@ -12706,12 +12707,12 @@ r=\frac{mv_{\perp}}{|q|B}.
 h=v_{\parallel}T=\frac{2\pi m v_{\parallel}}{|q|B}.
 \]</div>
 <h2 id="7-vi-du-proton-chuyen-ong-tron">7. Ví dụ — proton chuyển động tròn</h2>
-<p>Proton có <span class="arithmatex">\(m=1,67\times10^{-27}\)</span> kg, <span class="arithmatex">\(q=1,60\times10^{-19}\)</span> C, vận tốc <span class="arithmatex">\(2,0\times10^6\)</span> m/s vuông góc với <span class="arithmatex">\(B=0,20\)</span> T.</p>
+<p>Proton có <span class="arithmatex">\(m=1,67\times10^{-27}\,\mathrm{kg}\)</span>, <span class="arithmatex">\(q=1,60\times10^{-19}\,\mathrm C\)</span>, vận tốc <span class="arithmatex">\(2,0\times10^6\,\mathrm{m/s}\)</span> vuông góc với <span class="arithmatex">\(B=0,20\)</span> T.</p>
 <div class="arithmatex">\[
 r=\frac{1,67\times10^{-27}\cdot2,0\times10^6}{1,60\times10^{-19}\cdot0,20}
 \approx0,104\,\text m.
 \]</div>
-<p>Bán kính khoảng 10,4 cm.</p>
+<p>Bán kính khoảng <span class="arithmatex">\(10,4\,\mathrm{cm}\)</span>.</p>
 <h2 id="8-vi-du-electron-va-proton-cung-toc-o">8. Ví dụ — electron và proton cùng tốc độ</h2>
 <p>Cùng v và B, vì</p>
 <div class="arithmatex">\[
@@ -12719,7 +12720,7 @@ r\propto\frac{m}{|q|},
 \]</div>
 <p>proton có bán kính lớn hơn electron xấp xỉ tỉ số khối lượng <span class="arithmatex">\(m_p/m_e\approx1836\)</span> nếu cùng độ lớn điện tích. Hai hạt còn cong về <strong>hai phía ngược nhau</strong> vì dấu q trái nhau.</p>
 <h2 id="9-hat-uoc-tang-toc-qua-hieu-ien-the-roi-vao-b">9. Hạt được tăng tốc qua hiệu điện thế rồi vào B</h2>
-<p>Nếu hạt xuất phát gần nghỉ và được tăng tốc qua hiệu điện thế U:</p>
+<p>Nếu hạt xuất phát gần nghỉ và được điện trường tăng tốc qua một hiệu điện thế có độ lớn <span class="arithmatex">\(U\)</span>, bỏ qua hao phí và các lực khác, độ tăng động năng là <span class="arithmatex">\(|q|U\)</span>:</p>
 <div class="arithmatex">\[
 |q|U=\frac12mv^2.
 \]</div>
@@ -12727,13 +12728,13 @@ r\propto\frac{m}{|q|},
 <div class="arithmatex">\[
 v=\sqrt{\frac{2|q|U}{m}}.
 \]</div>
-<p>Thay vào bán kính:</p>
+<p>Nếu sau đó hạt đi vào từ trường với <span class="arithmatex">\(\vec v\perp\vec B\)</span>, thay <span class="arithmatex">\(v\)</span> vào công thức bán kính:</p>
 <div class="arithmatex">\[
 \boxed{r=\frac1B\sqrt{\frac{2mU}{|q|}}}.
 \]</div>
 <p>Công thức này dùng nhiều trong bài xác định tỉ số q/m hoặc phân tích hạt.</p>
 <h2 id="10-bo-chon-van-toc-mo-rong">10. Bộ chọn vận tốc — mở rộng</h2>
-<p>Nếu đồng thời có điện trường <span class="arithmatex">\(\vec E\)</span> và từ trường <span class="arithmatex">\(\vec B\)</span> vuông góc, có thể chọn vận tốc sao cho lực điện và lực từ cân bằng:</p>
+<p>Nếu <span class="arithmatex">\(\vec E\perp\vec B\)</span> và hạt bay với <span class="arithmatex">\(\vec v\)</span> vuông góc với cả hai trường, chọn chiều chuyển động sao cho lực điện và lực từ ngược nhau thì hạt đi thẳng khi hai lực cân bằng:</p>
 <div class="arithmatex">\[
 |q|E=|q|vB.
 \]</div>

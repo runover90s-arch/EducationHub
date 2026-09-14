@@ -12672,33 +12672,39 @@
 <p>Đơn vị SI: joule (J).</p>
 <p>Vì <span class="arithmatex">\(q=It\)</span>, cũng có <span class="arithmatex">\(A=Uq\)</span>.</p>
 <h2 id="2-cong-suat-ien">2. Công suất điện</h2>
+<p>Với đoạn mạch một chiều, tại trạng thái đang xét:</p>
 <div class="arithmatex">\[
-\boxed{P=\frac{A}{t}=UI}.
+\boxed{P=UI}.
 \]</div>
+<p>Nếu <span class="arithmatex">\(U\)</span> và <span class="arithmatex">\(I\)</span> không đổi trong thời gian <span class="arithmatex">\(t\)</span> thì <span class="arithmatex">\(P=A/t=UI\)</span> và <span class="arithmatex">\(A=Pt\)</span>.</p>
 <p>Đơn vị: watt (W).</p>
-<p>Với điện trở ohmic:</p>
+<div class="admonition note">
+<p class="admonition-title">Điều kiện dùng công thức công suất</p>
+<p>Trong tuyến nền của chương này, <span class="arithmatex">\(U\)</span> và <span class="arithmatex">\(I\)</span> được hiểu là điện áp và cường độ dòng điện của <strong>cùng đoạn mạch</strong> ở chế độ một chiều. Khi tính công suất <strong>tiêu thụ</strong>, lấy chiều dòng đi vào cực có điện thế cao của phần tử. Nếu <span class="arithmatex">\(U\)</span> hoặc <span class="arithmatex">\(I\)</span> biến thiên theo thời gian, không được lấy tích của hai giá trị trung bình rồi coi đó mặc nhiên là công suất trung bình.</p>
+</div>
+<p>Với <strong>điện trở ohmic</strong> thỏa <span class="arithmatex">\(U=IR\)</span> tại trạng thái đang xét:</p>
 <div class="arithmatex">\[
 \boxed{P=I^2R=\frac{U^2}{R}}.
 \]</div>
-<p>Ba dạng tương đương khi U,I,R thuộc <strong>cùng phần tử điện trở</strong>.</p>
+<p>Hai dạng <span class="arithmatex">\(I^2R\)</span> và <span class="arithmatex">\(U^2/R\)</span> chỉ suy ra từ <span class="arithmatex">\(P=UI\)</span> nhờ định luật Ohm. Vì vậy <span class="arithmatex">\(U\)</span>, <span class="arithmatex">\(I\)</span> và <span class="arithmatex">\(R\)</span> phải thuộc <strong>cùng điện trở</strong>, và <span class="arithmatex">\(R\)</span> phải là điện trở ở đúng trạng thái làm việc đang xét. Không áp dụng <span class="arithmatex">\(U^2/R\)</span> hay <span class="arithmatex">\(I^2R\)</span> máy móc cho phần tử không ohmic hoặc cho toàn thiết bị có cơ chế chuyển hóa năng lượng khác nếu chưa có mô hình tương đương phù hợp.</p>
 <h2 id="3-inh-luat-joulelenz">3. Định luật Joule–Lenz</h2>
-<p>Nhiệt lượng tỏa trên điện trở:</p>
+<p>Nếu dòng điện <span class="arithmatex">\(I\)</span> và điện trở <span class="arithmatex">\(R\)</span> <strong>không đổi</strong> trong khoảng thời gian <span class="arithmatex">\(t\)</span>, nhiệt lượng Joule tỏa ra trên điện trở là:</p>
 <div class="arithmatex">\[
 \boxed{Q=I^2Rt}.
 \]</div>
-<p>Nếu điện năng hoàn toàn chuyển thành nhiệt trong điện trở, <span class="arithmatex">\(Q=A\)</span>.</p>
-<p>Nếu thiết bị còn tạo cơ năng, ánh sáng hữu ích..., không nên đồng nhất toàn bộ điện năng với nhiệt lượng hữu ích.</p>
+<p>Nếu <span class="arithmatex">\(I\)</span> hoặc <span class="arithmatex">\(R\)</span> thay đổi đáng kể trong thời gian xét, phải tính nhiệt lượng theo từng khoảng mà các đại lượng có thể coi là không đổi; không thay một giá trị đại diện tùy ý vào <span class="arithmatex">\(I^2Rt\)</span>.</p>
+<p>Với điện trở thuần trong mô hình đang xét, điện năng nhận vào chuyển thành nhiệt nên <span class="arithmatex">\(Q=A\)</span>. Nếu thiết bị còn tạo cơ năng, ánh sáng hữu ích..., không nên đồng nhất toàn bộ điện năng tiêu thụ với nhiệt lượng hữu ích.</p>
 <h2 id="4-on-vi-kwh">4. Đơn vị kWh</h2>
 <p>Điện năng thương mại thường dùng kWh:</p>
 <div class="arithmatex">\[
 1\ \text{kWh}=3,6\times10^6\ \text{J}.
 \]</div>
-<p>Thiết bị công suất P kW chạy t giờ tiêu thụ:</p>
+<p>Thiết bị có công suất tiêu thụ không đổi <span class="arithmatex">\(P\)</span> kW trong <span class="arithmatex">\(t\)</span> giờ dùng điện năng:</p>
 <div class="arithmatex">\[
 A=P\,t\ \text{kWh}.
 \]</div>
 <h2 id="5-inh-muc-thiet-bi">5. Định mức thiết bị</h2>
-<p>Thiết bị ghi 220 V – 1000 W nghĩa là khi hoạt động ở điện áp định mức 220 V trong điều kiện thiết kế, công suất khoảng 1000 W.</p>
+<p>Thiết bị ghi <span class="arithmatex">\(220\,\mathrm V\)</span> – <span class="arithmatex">\(1000\,\mathrm W\)</span> nghĩa là khi hoạt động ở điện áp định mức <span class="arithmatex">\(220\,\mathrm V\)</span> trong điều kiện thiết kế, công suất khoảng <span class="arithmatex">\(1000\,\mathrm W\)</span>.</p>
 <p>Nếu coi thiết bị là điện trở cố định quanh trạng thái định mức:</p>
 <div class="arithmatex">\[
 R_{\text{đm}}=\frac{U_{\text{đm}}^2}{P_{\text{đm}}}.
@@ -12745,7 +12751,7 @@ P_{\text{nguồn}}=P_R+P_r
 \]</div>
 <p>trong mạch chỉ gồm R ngoài và r trong.</p>
 <h2 id="9-cong-suat-tai-cuc-ai">9. Công suất tải cực đại</h2>
-<p>Nguồn <span class="arithmatex">\(\mathcal E,r\)</span> cấp điện trở tải R:</p>
+<p>Xét nguồn một chiều có <span class="arithmatex">\(\mathcal E\)</span> và <span class="arithmatex">\(r\)</span> không đổi, chỉ cấp cho một tải thuần trở <span class="arithmatex">\(R\)</span>:</p>
 <div class="arithmatex">\[
 P_R=I^2R
 =\frac{\mathcal E^2R}{(R+r)^2}.
@@ -12766,14 +12772,14 @@ H=\frac{R}{R+r}=\frac12.
 <p>Muốn hiệu suất gần 100% cần R≫r, nhưng khi đó công suất tải không cực đại. Đây là hai mục tiêu khác nhau.</p>
 <h2 id="10-vi-du">10. Ví dụ</h2>
 <h3 id="vi-du-1">Ví dụ 1</h3>
-<p>Điện trở 6 Ω có dòng 2 A trong 5 phút:</p>
-<p><span class="arithmatex">\(P=I^2R=24\)</span> W.</p>
-<p><span class="arithmatex">\(Q=Pt=24\cdot300=7200\)</span> J.</p>
+<p>Điện trở <span class="arithmatex">\(6\,\Omega\)</span> có dòng <span class="arithmatex">\(2\,\mathrm A\)</span> trong 5 phút:</p>
+<p><span class="arithmatex">\(P=I^2R=24\,\mathrm W\)</span>.</p>
+<p><span class="arithmatex">\(Q=Pt=24\cdot300=7200\,\mathrm J\)</span>.</p>
 <h3 id="vi-du-2-ien-nang">Ví dụ 2 — Điện năng</h3>
-<p>Máy 1,5 kW chạy 2 giờ: 3 kWh.</p>
+<p>Máy 1,5 kW chạy 2 giờ: <span class="arithmatex">\(3\,\mathrm{kWh}\)</span>.</p>
 <h3 id="vi-du-3-un-nuoc">Ví dụ 3 — Đun nước</h3>
-<p>Nếu cần 360 kJ nhiệt hữu ích, bếp 1000 W hiệu suất 80%:</p>
-<p><span class="arithmatex">\(t=360000/(0,8\cdot1000)=450\)</span> s.</p>
+<p>Nếu cần 360 kJ nhiệt hữu ích, bếp <span class="arithmatex">\(1000\,\mathrm W\)</span> hiệu suất 80%:</p>
+<p><span class="arithmatex">\(t=360000/(0,8\cdot1000)=450\,\mathrm s\)</span>.</p>
 <h2 id="11-bay">11. Bẫy</h2>
 <div class="admonition danger">
 <p class="admonition-title">Công suất định mức</p>
@@ -12785,11 +12791,12 @@ H=\frac{R}{R+r}=\frac12.
 </div>
 <h2 id="tom-tat">Tóm tắt</h2>
 <ul>
-<li><span class="arithmatex">\(A=UIt\)</span>.</li>
-<li><span class="arithmatex">\(P=UI=I^2R=U^2/R\)</span> cho điện trở.</li>
-<li><span class="arithmatex">\(Q=I^2Rt\)</span>.</li>
-<li>1 kWh = 3,6 MJ.</li>
-<li>Tải cực đại: R=r.</li>
+<li><span class="arithmatex">\(A=UIt\)</span> khi <span class="arithmatex">\(U\)</span> và <span class="arithmatex">\(I\)</span> không đổi trong khoảng <span class="arithmatex">\(t\)</span>.</li>
+<li><span class="arithmatex">\(P=UI\)</span> cho cùng đoạn mạch ở trạng thái một chiều đang xét; <span class="arithmatex">\(A=Pt\)</span> khi <span class="arithmatex">\(P\)</span> không đổi.</li>
+<li><span class="arithmatex">\(P=I^2R=U^2/R\)</span> chỉ suy ra cho điện trở ohmic thỏa <span class="arithmatex">\(U=IR\)</span>.</li>
+<li><span class="arithmatex">\(Q=I^2Rt\)</span> khi <span class="arithmatex">\(I\)</span> và <span class="arithmatex">\(R\)</span> không đổi trong khoảng <span class="arithmatex">\(t\)</span>.</li>
+<li><span class="arithmatex">\(1\,\mathrm{kWh}\)</span> = 3,6 MJ.</li>
+<li>Với nguồn đơn giản <span class="arithmatex">\(\mathcal E,r\)</span> cấp tải thuần trở biến đổi: công suất tải cực đại khi <span class="arithmatex">\(R=r\)</span>.</li>
 <li>Hiệu suất và công suất cực đại là hai tiêu chí khác nhau.</li>
 </ul>
 <h2 id="5-ieu-can-nho">5 điều cần nhớ</h2>
@@ -12803,7 +12810,7 @@ H=\frac{R}{R+r}=\frac12.
 <h2 id="cac-dang-bai-trong-tam">Các dạng bài trọng tâm</h2>
 <p>Các nhóm bài dưới đây được tổ chức theo dấu hiệu nhận biết và công cụ giải để người học chọn phương pháp phù hợp và tự kiểm tra kết quả.</p>
 <h3 id="dang-1-nang-luong-cong-suat-ien">Dạng 1 — Năng lượng, công suất điện</h3>
-<p>Chọn đúng công thức theo đại lượng đã biết: <span class="arithmatex">\(A=UIt\)</span>, <span class="arithmatex">\(P=UI\)</span>; với điện trở thuần có thể dùng <span class="arithmatex">\(P=I^2R=U^2/R\)</span>. Nhiệt lượng Joule bằng <span class="arithmatex">\(Q=I^2Rt\)</span> nếu điện năng chuyển hoàn toàn thành nhiệt.</p>
+<p>Chọn đúng công thức theo điều kiện: <span class="arithmatex">\(A=UIt\)</span> khi <span class="arithmatex">\(U,I\)</span> không đổi; <span class="arithmatex">\(P=UI\)</span> cho cùng đoạn mạch ở trạng thái đang xét; với điện trở ohmic có thể dùng <span class="arithmatex">\(P=I^2R=U^2/R\)</span>. Dùng <span class="arithmatex">\(Q=I^2Rt\)</span> khi <span class="arithmatex">\(I,R\)</span> không đổi trong khoảng <span class="arithmatex">\(t\)</span>; với điện trở thuần, điện năng nhận vào chuyển thành nhiệt.</p>
 <p>Ở bài thiết bị định mức, từ <span class="arithmatex">\(U_{đm}\)</span> và <span class="arithmatex">\(P_{đm}\)</span> suy <span class="arithmatex">\(R=U_{đm}^2/P_{đm}\)</span> nếu coi điện trở thiết bị không đổi; sau đó mới xét điều kiện mạch thực tế.</p>
 <!-- LESSON_PRACTICE_LINKS -->
 <h2 id="luyen-tap-sau-bai">Luyện tập sau bài</h2>

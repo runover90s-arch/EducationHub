@@ -1,0 +1,276 @@
+{
+  "scope": "Grade 11 Chapter VIII geometrical optics - HALF B + final academic audit",
+  "base_version": "education-hub-v23.zip",
+  "web_verification": [
+    {
+      "name": "Vật Lí Phổ Thông - Công thức thấu kính vật lí 11",
+      "url": "https://vatlypt.com/cong-thuc-thau-kinh-vat-li-11.html",
+      "use": "Vietnamese THPT thin-lens sign convention, magnification and optical power"
+    },
+    {
+      "name": "Vật Lí Phổ Thông - Bài tập mắt, vật lí 11",
+      "url": "https://vatlypt.com/bai-tap-mat-vat-li-11.html",
+      "use": "Vietnamese THPT near/far point and corrective-lens framing"
+    },
+    {
+      "name": "Vật Lí Phổ Thông - Kính lúp, kính hiển vi, kính thiên văn",
+      "url": "https://vatlypt.com/kinh-lup-kinh-hien-vi-kinh-thien-van-vat-li-lop-11.html",
+      "use": "Vietnamese THPT terminology for angular magnification and optical instruments"
+    },
+    {
+      "name": "OpenStax University Physics Vol. 3 - Thin Lenses",
+      "url": "https://openstax.org/books/university-physics-volume-3/pages/2-4-thin-lenses",
+      "use": "thin-lens sign convention and magnification"
+    },
+    {
+      "name": "OpenStax University Physics Vol. 3 - The Eye",
+      "url": "https://openstax.org/books/university-physics-volume-3/pages/2-5-the-eye",
+      "use": "myopia/hyperopia and corrective-lens reasoning"
+    },
+    {
+      "name": "OpenStax University Physics Vol. 3 - The Simple Magnifier",
+      "url": "https://openstax.org/books/university-physics-volume-3/pages/2-7-the-simple-magnifier",
+      "use": "object within focal length for virtual image; object at focus for relaxed viewing at infinity"
+    },
+    {
+      "name": "OpenStax University Physics Vol. 3 - Microscopes and Telescopes",
+      "url": "https://openstax.org/books/university-physics-volume-3/pages/2-8-microscopes-and-telescopes",
+      "use": "microscope/telescope image formation and angular magnification"
+    }
+  ],
+  "practice_partition": {
+    "HALF A": [
+      "01-refraction-refractive-index",
+      "02-parallel-slab-apparent-depth",
+      "03-total-internal-reflection",
+      "04-prism-dispersion"
+    ],
+    "HALF B": [
+      "05-thin-lenses-image-construction",
+      "06-lens-problem-methods",
+      "07-eye-and-defects",
+      "08-optical-instruments"
+    ]
+  },
+  "half_b_audit": {
+    "05-thin-lenses-image-construction": [
+      {
+        "bai": 1,
+        "status": "VERIFIED",
+        "independent_check": "converging lens uses f>0 under chapter sign convention; A only"
+      },
+      {
+        "bai": 2,
+        "status": "VERIFIED",
+        "independent_check": "1/f=1/d+1/d' under the stated convention; A only and distractors fail physically/dimensionally"
+      },
+      {
+        "bai": 3,
+        "status": "VERIFIED",
+        "independent_check": "real object with d>2f gives real inverted reduced image with f<d'<2f; A only"
+      },
+      {
+        "bai": 4,
+        "status": "VERIFIED",
+        "independent_check": "a-d all true in thin-lens model; diverging lens with real object gives virtual upright reduced image"
+      },
+      {
+        "bai": 5,
+        "status": "VERIFIED",
+        "independent_check": "f=10 cm,d=30 cm gives d'=15 cm and k=-0.5"
+      },
+      {
+        "bai": 6,
+        "status": "VERIFIED",
+        "independent_check": "f=20 cm,d=10 cm gives d'=-20 cm, a virtual image on object side"
+      },
+      {
+        "bai": 7,
+        "status": "VERIFIED",
+        "independent_check": "f=-15 cm,d=30 cm gives d'=-10 cm"
+      },
+      {
+        "bai": 8,
+        "status": "VERIFIED",
+        "independent_check": "f=12 cm,d=18 cm gives d'=36 cm,k=-2,h'=-4 cm; real inverted enlarged image"
+      }
+    ],
+    "06-lens-problem-methods": [
+      {
+        "bai": 1,
+        "status": "VERIFIED",
+        "independent_check": "two distinct real-image lens positions require L>4f; A only"
+      },
+      {
+        "bai": 2,
+        "status": "VERIFIED",
+        "independent_check": "conjugate positions exchange d and d'; A only"
+      },
+      {
+        "bai": 3,
+        "status": "VERIFIED",
+        "independent_check": "k=-d'/d=-2 implies d'=2d; A only"
+      },
+      {
+        "bai": 4,
+        "status": "VERIFIED",
+        "independent_check": "a-c true, d false; algebraic roots must satisfy physical geometry"
+      },
+      {
+        "bai": 5,
+        "status": "VERIFIED",
+        "independent_check": "real image equal in size has d=d'=2f=30 cm"
+      },
+      {
+        "bai": 6,
+        "status": "VERIFIED",
+        "independent_check": "real image 3x gives d'=3d; f=10 cm gives d=40/3 cm,d'=40 cm"
+      },
+      {
+        "bai": 7,
+        "status": "VERIFIED",
+        "independent_check": "Bessel formula with L=100 cm,a=60 cm gives f=16 cm and L>4f"
+      },
+      {
+        "bai": 8,
+        "status": "VERIFIED",
+        "independent_check": "L=90 cm,f=20 cm gives d^2-90d+1800=0 -> d=30 or 60 cm"
+      }
+    ],
+    "07-eye-and-defects": [
+      {
+        "bai": 1,
+        "status": "VERIFIED",
+        "independent_check": "myopic far point is finite and in front of the eye; B only"
+      },
+      {
+        "bai": 2,
+        "status": "VERIFIED",
+        "independent_check": "distance correction for myopia uses a diverging lens; B only"
+      },
+      {
+        "bai": 3,
+        "status": "VERIFIED",
+        "independent_check": "near-vision support for hyperopia/presbyopia uses added positive optical power in the simplified model; A only"
+      },
+      {
+        "bai": 4,
+        "status": "VERIFIED",
+        "independent_check": "a-c true and d false; accommodation changes optical power and myopia correction forms a virtual image at far point"
+      },
+      {
+        "bai": 5,
+        "status": "VERIFIED",
+        "independent_check": "far point 50 cm with lens at eye gives f=-0.50 m and P=-2.0 D"
+      },
+      {
+        "bai": 6,
+        "status": "VERIFIED",
+        "independent_check": "far point 1.0 m gives P=-1.0 D"
+      },
+      {
+        "bai": 7,
+        "status": "VERIFIED",
+        "independent_check": "+2.0 D gives f=0.50 m"
+      },
+      {
+        "bai": 8,
+        "status": "VERIFIED",
+        "independent_check": "f=-40 cm,d'=-10 cm gives 1/d=3/40 -> d=40/3 cm; new near point is farther than 10 cm"
+      }
+    ],
+    "08-optical-instruments": [
+      {
+        "bai": 1,
+        "status": "FIXED",
+        "independent_check": "answer A remains correct; solution wording was tightened so a finite virtual image requires object inside focal length, while infinity viewing is the limiting case with object at the focal point"
+      },
+      {
+        "bai": 2,
+        "status": "VERIFIED",
+        "independent_check": "for eye close to magnifier and final image at infinity, G=D/f; A only"
+      },
+      {
+        "bai": 3,
+        "status": "VERIFIED",
+        "independent_check": "basic Kepler refractor uses long-focal-length converging objective and short-focal-length converging eyepiece; A only"
+      },
+      {
+        "bai": 4,
+        "status": "VERIFIED",
+        "independent_check": "a-c true and d false; magnification depends on component focal lengths"
+      },
+      {
+        "bai": 5,
+        "status": "VERIFIED",
+        "independent_check": "D=25 cm,f=5 cm gives G=5"
+      },
+      {
+        "bai": 6,
+        "status": "VERIFIED",
+        "independent_check": "f1=100 cm,f2=5 cm gives |G|=20"
+      },
+      {
+        "bai": 7,
+        "status": "VERIFIED",
+        "independent_check": "+20 D gives f=0.050 m=5 cm and G=25/5=5"
+      },
+      {
+        "bai": 8,
+        "status": "VERIFIED",
+        "independent_check": "Kepler infinity viewing gives |G|=80/4=20 and tube length 80+4=84 cm"
+      }
+    ]
+  },
+  "half_b_summary": {
+    "TOTAL_IN_SCOPE": 32,
+    "AUDITED": 32,
+    "VERIFIED": 31,
+    "FIXED": 1,
+    "UNRESOLVED": 0
+  },
+  "final_practice_summary": {
+    "TOTAL_EXERCISES": 64,
+    "AUDITED": 64,
+    "VERIFIED": 63,
+    "FIXED": 1,
+    "UNRESOLVED": 0
+  },
+  "final_theory_summary": {
+    "TOTAL_THEORY_FILES": 8,
+    "VERIFIED": 3,
+    "FIXED": 5,
+    "UNRESOLVED": 0,
+    "new_final_correction": "08-optical-instruments.md: clarified object placement for a simple magnifier; inside focal length gives finite virtual image, while object at focal point corresponds to viewing at infinity"
+  },
+  "chapter_level_cross_check": {
+    "aggregate_exercises": 33,
+    "aggregate_solutions": 33,
+    "quiz_questions": 10,
+    "status": "VERIFIED",
+    "notes": [
+      "thin-lens signs, Bessel positions, two-lens system, eye correction, magnifier/microscope/telescope formulas and Rayleigh challenge were independently spot-checked",
+      "no answer mismatch, forbidden learner-facing source note, legacy LaTeX delimiter, or broken local image/link detected by source searches before quality gate"
+    ]
+  },
+  "correction_counts_final_pass": {
+    "problem_or_data_edits": 0,
+    "choice_edits": 0,
+    "answer_edits": 0,
+    "solution_rewrites_or_corrections": 1,
+    "true_false_statement_edits": 0,
+    "theory_corrections_new_in_final_pass": 1,
+    "figure_or_source_restorations": 0
+  },
+  "unresolved": [],
+  "next": "hoàn tất Chương VIII — toàn bộ 8 chương đã audit",
+  "quality_gate": {
+    "test_quality_gate.py": "NOT RUN — tools/test_quality_gate.py does not exist in source-of-truth v23",
+    "check_practice_bank.py": "PASS — 0 structural errors",
+    "check_pdf_import.py": "PASS — 0 integrity errors",
+    "check_solution_quality.py": "PASS — 0 errors",
+    "check_site.py": "PARTIAL — source lint PASS with 0 errors/0 warnings; full command exits BUILD001 because mkdocs executable is absent",
+    "mkdocs build --strict": "NOT RUN — mkdocs executable is absent"
+  },
+  "checkpoint": "education-hub-v24.zip"
+}

@@ -195,15 +195,15 @@ Trong thời gian $\Delta t=30\,\mathrm s$, có một điện lượng $\Delta q
 Mật độ electron tự do trong một đoạn dây nhôm hình trụ là $n=1{,}8\times10^{29}\,\mathrm{m^{-3}}$. Cường độ dòng điện chạy qua dây nhôm hình trụ có đường kính $d=2{,}0\,\mathrm{mm}$ là $I=2{,}0\,\mathrm A$. Lấy độ lớn điện tích của mỗi electron là $e=1{,}6\times10^{-19}\,\mathrm C$. Tính tốc độ dịch chuyển có hướng của các electron tự do trong dây nhôm đó (theo đơn vị $\mu\mathrm{m/s}$).
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** $0{,}22$
+    **Đáp án:** $22{,}1$
 
     **Hướng dẫn giải:**
 
     Với $S=\pi d^2/4$ và $I=Snev$,
 
-    $v=\dfrac{4I}{\pi d^2ne}\approx0{,}22\times10^{-6}\,\mathrm{m/s}=0{,}22\,\mu\mathrm{m/s}$.
+    $v=\dfrac{4I}{\pi d^2ne}\approx2{,}21\times10^{-5}\,\mathrm{m/s}=22{,}1\,\mu\mathrm{m/s}$.
 
-    Vậy kết quả cần tìm là **$0{,}22$**.
+    Vậy kết quả cần tìm là **$22{,}1$**.
 #### Bài 14
 
 <!-- source-id: BT-Chuong-IV-p12-q4-50 -->
@@ -211,7 +211,7 @@ Mật độ electron tự do trong một đoạn dây nhôm hình trụ là $n=1
 Cho dòng điện không đổi cường độ $I=4{,}2\,\mathrm A$ chạy qua một đoạn dây dẫn bằng kim loại dài $l=80\,\mathrm{cm}$ có đường kính tiết diện thẳng $d=2{,}5\,\mathrm{mm}$. Mật độ electron dẫn của kim loại này là $n=8{,}5\times10^{28}\,\mathrm{m^{-3}}$. Lấy độ lớn điện tích của mỗi electron là $e=1{,}6\times10^{-19}\,\mathrm C$. Hãy tính thời gian trung bình $t$ để mỗi electron dẫn di chuyển hết chiều dài đoạn dây (theo đơn vị giờ và làm tròn đến chữ số thập phân thứ nhất sau dấu phẩy).
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** $3{,}3$
+    **Đáp án:** $3{,}5$
 
     **Hướng dẫn giải:**
 
@@ -220,9 +220,9 @@ Cho dòng điện không đổi cường độ $I=4{,}2\,\mathrm A$ chạy qua m
     Từ $I=Snev$ suy ra $v=4I/(\pi d^2ne)$.
 
     Do đó
-    $t=l/v=l\pi d^2ne/(4I)\approx1{,}2\times10^4\,\mathrm s\approx3{,}3\,\mathrm h$.
+    $t=l/v=l\pi d^2ne/(4I)\approx1{,}27\times10^4\,\mathrm s\approx3{,}53\,\mathrm h$.
 
-    Vậy kết quả cần tìm là **$3{,}3$**.
+    Làm tròn đến một chữ số sau dấu phẩy: **$3{,}5\,\mathrm h$**.
 #### Bài 15
 
 <!-- source-id: BT-Chuong-IV-p12-q5-51 -->
@@ -336,17 +336,20 @@ Dòng điện không đổi có cường độ $3{,}30\,\mathrm A$ chạy trong 
 Cho dòng điện không đổi cường độ $4{,}25\,\mathrm A$ chạy qua một đoạn dây dẫn bằng kim loại dài $2{,}00\,\mathrm{km}$ có đường kính tiết diện thẳng $2{,}50\,\mathrm{mm}$. Mật độ electron dẫn của kim loại này là $8{,}50\times10^{28}\,\mathrm{m^{-3}}$. Lấy độ lớn điện tích của mỗi electron là $1{,}60\times10^{-19}\,\mathrm C$. Thời gian trung bình để một electron dẫn di chuyển từ đầu này đến đầu kia của đoạn dây này là bao nhiêu tuần (làm tròn đến 1 chữ số sau dấu phẩy thập phân)?
 
 ??? success "Đáp án và lời giải"
-    **Đáp án:** $52{,}1$
+    **Đáp án:** $51{,}9$
 
     **Hướng dẫn giải:**
 
     Từ $I=Snev$, với $S=\pi d^2/4$, suy ra
     $t=l/v=l\pi d^2ne/(4I)$.
 
-    Thay số và đổi từ giây sang tuần:
-    $t\approx52{,}1$ tuần.
+    Thay số:
+    $t\approx3{,}1416\times10^7\,\mathrm s$.
 
-    Vậy kết quả cần tìm là **$52{,}1$**.
+    Vì $1$ tuần $=604800\,\mathrm s$,
+    $t\approx3{,}1416\times10^7/604800\approx51{,}94$ tuần.
+
+    Làm tròn đến một chữ số sau dấu phẩy: **$51{,}9$ tuần**.
 ### Nhận biết — Trắc nghiệm 4 lựa chọn
 
 #### Bài 23
@@ -695,7 +698,9 @@ D. $0{,}48\,\mu\mathrm{m/s}$.
 
     Dùng $I=nevS$:
 
-    $v=\dfrac{I}{neS}\approx1{,}61\cdot10^{-4}\,\mathrm{m/s}$ $\approx161\,\mu\mathrm{m/s}$.
+    $v=\dfrac{I}{neS}\approx1{,}61\cdot10^{-4}\,\mathrm{m/s}\approx161\,\mu\mathrm{m/s}$.
+
+    Vậy chọn **C**.
 
 
 #### Bài 39

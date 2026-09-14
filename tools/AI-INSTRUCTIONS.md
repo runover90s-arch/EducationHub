@@ -46,6 +46,15 @@ Khi dùng các nguồn này:
 - **Không thêm `references.md`, mục "Nguồn", "Tài liệu tham khảo" hoặc danh sách tên PDF lên website/repository public-facing nếu người dùng chưa yêu cầu.**
 - Tên nguồn trong file này chỉ phục vụ bàn giao nội bộ cho AI/maintainer.
 
+### Kiểm chứng web bắt buộc cho Chương V–VIII Vật lí 11
+
+- Với `05-current-media/` đến `08-.../` của Vật lí 11, **bắt buộc kiểm chứng bằng nguồn web bên ngoài uy tín** khi audit, cập nhật hoặc mở rộng nội dung học thuật; không chỉ dựa vào trí nhớ mô hình hay corpus PDF hiện có.
+- Ưu tiên theo thứ tự: nguồn chính thức/cơ quan đo lường hoặc giáo dục, giáo trình/trường đại học và tài liệu chuyên môn uy tín; các website Vật lí phổ thông có chất lượng như `vatlypt.com` được dùng để đối chiếu thuật ngữ, phạm vi và cách trình bày THPT nhưng **không được là bằng chứng duy nhất cho điểm học thuật quan trọng**.
+- Mọi công thức, điều kiện áp dụng, chiều chuyển động hạt tải, dấu điện tích, đáp án và dữ kiện định lượng quan trọng phải được kiểm chéo với nguồn mạnh hơn hoặc tự kiểm chứng vật lí độc lập.
+- **Nội dung learner-facing hiện có nếu đúng thì giữ nguyên.** Không tự rút gọn, viết lại hoặc đổi văn phong chỉ vì nguồn web diễn đạt khác. Chỉ patch tối thiểu phần sai, thiếu điều kiện, sai đơn vị hoặc gây hiểu nhầm.
+- Khi tích hợp kiến thức mới từ web, chỉ lấy ý/dữ kiện cần thiết sau khi xác minh và diễn đạt lại phù hợp repository; không sao chép nguyên văn dài.
+- Không tự tạo mục nguồn/reference learner-facing nếu người dùng chưa yêu cầu. URL/tên nguồn dùng cho kiểm chứng có thể ghi trong report/status nội bộ của `tools/`.
+
 ## 3. Danh sách nguồn Vật lí 11 đã được người dùng cung cấp
 
 Các file nguồn đã dùng/được chỉ định làm corpus tham khảo trong phiên làm việc trước:

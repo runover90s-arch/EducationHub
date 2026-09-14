@@ -38,7 +38,7 @@ Các cơ chế có thể gồm:
 
 ## 2. Bản chất dòng điện trong chân không
 
-Trong ống chân không đơn giản, electron phát từ catot chuyển động có hướng tới anot dưới tác dụng điện trường.
+Trong ống chân không đơn giản, khi catot đã phát electron và anot được đặt ở điện thế đủ dương so với catot, điện trường kéo electron chuyển động có hướng tới anot và hình thành dòng điện.
 
 Vì electron mang điện âm, chiều chuyển động electron ngược chiều dòng điện quy ước.
 
@@ -73,7 +73,7 @@ Phần giải thích sâu về năng lượng photon và công thoát thuộc ki
 
 ## 6. Dòng quang điện bão hòa
 
-Nếu mỗi giây có n electron đến anot, điện lượng mỗi giây là ne nên:
+Nếu mỗi giây có $n$ electron đến anot, trong đó $n$ có đơn vị $\mathrm{s^{-1}}$, điện lượng chuyển qua mạch trong một giây là $ne$ nên:
 
 $$
 \boxed{I_{bh}=ne}.
@@ -85,11 +85,11 @@ $$
 n=\frac{I_{bh}}{e}.
 $$
 
-Đây chỉ là quan hệ đếm điện tích, không phải toàn bộ định luật quang điện.
+Đây chỉ là quan hệ đếm điện tích khi dòng đã ở trạng thái ổn định, không phải toàn bộ định luật quang điện.
 
 ## 7. Công suất chùm sáng đơn sắc
 
-Nếu mỗi photon có năng lượng $\varepsilon=hf$ và mỗi giây có N photon tới:
+Nếu mỗi photon có năng lượng $\varepsilon=hf$ và mỗi giây có $N$ photon tới, với $N$ có đơn vị $\mathrm{s^{-1}}$:
 
 $$
 \boxed{P=Nhf}.

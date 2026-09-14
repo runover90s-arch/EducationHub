@@ -201,6 +201,8 @@ $$
 
 Vì vậy số chỉ vôn kế ở mạch hở cho một ước lượng tốt của suất điện động. Tuy nhiên, để xác định cả $r$, vẫn cần các số đo khi nguồn có tải.
 
+Mô hình xử lí số liệu $U=\mathcal E-rI$ cũng ngầm coi ampe kế có điện trở đủ nhỏ và vôn kế có điện trở đủ lớn để ảnh hưởng tải của hai dụng cụ là không đáng kể. Nếu cần độ chính xác cao, phải đưa điện trở trong của dụng cụ đo vào mô hình mạch.
+
 ## 10. Sai số và cách làm kết quả dễ tin hơn
 
 ### Không giữ mạch đóng quá lâu

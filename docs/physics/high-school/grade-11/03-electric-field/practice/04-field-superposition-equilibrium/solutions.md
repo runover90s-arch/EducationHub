@@ -14,7 +14,7 @@ tags:
 [← Bài tập](exercises.md)
 
 ## Bài 1
-Chọn **B**.
+Chọn **B** vì nguyên lí chồng chất yêu cầu cộng **vectơ**: $\vec E=\vec E_1+\vec E_2+\cdots$.
 
 ## Bài 2
 Chọn **B** theo định lí Pythagore.
@@ -28,11 +28,11 @@ Chọn **B**, nên điện trường tổng hợp khác 0.
 ## Bài 5
 a) **Đúng.** Giữa hai điện tích cùng dấu, hai vectơ điện trường do chúng gây ra ngược chiều nên có thể triệt tiêu tại một điểm thích hợp.
 
-b) **Đúng.** trong bài toán trên đường nối hai điện tích.
+b) **Đúng.** Với hai điện tích trái dấu, ở mọi điểm giữa chúng hai vectơ điện trường cùng chiều, nên không thể triệt tiêu; điểm $E=0$ (nếu có) nằm ngoài đoạn nối hai điện tích.
 
 c) **Đúng.** Ở trung điểm, hai điện trường có cùng độ lớn do khoảng cách bằng nhau và ngược chiều vì hai điện tích cùng dấu.
 
-d) **Sai.** để tổng vectơ bằng 0 cần hai vectơ cùng phương, ngược chiều và cùng độ lớn.
+d) **Sai.** Để tổng vectơ bằng 0 cần hai vectơ cùng phương, ngược chiều và cùng độ lớn.
 
 ## Bài 6
 a) **Đúng.** Hai vectơ cùng phương cùng chiều và cùng độ lớn $E$ có tổng độ lớn bằng $E+E=2E$.

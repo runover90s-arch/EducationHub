@@ -1,200 +1,859 @@
 {
-  "scope": "docs/physics/high-school/grade-11/04-current-circuits/ — ONLY GROUP A practice audit",
-  "mode": "CONTINUE / AUDIT / UPDATE",
-  "BASE_VERSION": "education-hub-v13.zip",
-  "base_checkpoint": {
-    "series": 2,
-    "version": 13
+  "base_version": "education-hub-v11.zip",
+  "target_version": "education-hub-v12.zip",
+  "checkpoint_series": 2,
+  "scope": "Chapter IV practice GROUP A only",
+  "status_definitions": {
+    "VERIFIED": "Question, answer and solution were independently checked; figures/topology were read from the rendered source when present; no patch required.",
+    "FIXED": "Audit completed and a minimal repository patch was required.",
+    "UNRESOLVED": "Source/data remain genuinely insufficient after checking PDF/figure; no unsupported assumption is added."
   },
-  "target_checkpoint": {
-    "series": 2,
-    "version": 14
-  },
-  "groups": {
-    "GROUP_A": [
-      "01-current-intensity",
-      "02-resistance-ohm-law",
-      "03-emf-internal-resistance",
-      "04-energy-power-joule"
-    ],
-    "GROUP_B": [
-      "05-full-circuit-ohm-law",
-      "06-source-combinations",
-      "07-circuit-reading-meters"
-    ],
-    "GROUP_C": [
-      "08-advanced-circuit-methods",
-      "09-practical-emf-internal-resistance",
-      "10-source-receiver-capacitor-branches"
-    ]
-  },
-  "question_counts": {
+  "group_definition": {
     "01-current-intensity": 87,
-    "02-resistance-ohm-law": 102,
     "03-emf-internal-resistance": 49,
-    "04-energy-power-joule": 87,
-    "total": 325,
-    "authored": 40,
-    "pdf_canonical": 285
+    "07-circuit-reading-meters": 13,
+    "total": 149
   },
   "audit_method": [
-    "Solved answer and solution independently for every Group A item.",
-    "For every item with a circuit or measurement diagram, inspected the actual stored figure/PDF render and determined nodes/branches from the image rather than OCR text.",
-    "For multiple-choice items with no unique correct source option, re-opened the source PDF image before making a minimal single-option repair.",
-    "True/False items were checked statement by statement.",
-    "Learner-facing source-comparison/provenance notes were removed; source corrections are recorded only in this internal report."
+    "Solved each item independently from the printed data rather than accepting the existing/source answer as evidence.",
+    "For every item carrying an image, inspected the rendered PDF page/figure; circuit topology was read from actual wires/nodes, not inferred from OCR.",
+    "For True/False items, checked each statement and retained/exposed a reason for each verdict.",
+    "When the printed A-D set lacked the independently determined result, rechecked the PDF/figure and changed the minimum number of options needed to restore one correct answer."
   ],
-  "topology_spot_checks": [
+  "diagram_topology_checks": [
     {
-      "source_id": "BT-Chuong-IV-p41-q4-144",
-      "result": "R1 is in series with the parallel branch containing the lamp and R2; T/F solution expanded from the actual topology."
-    },
-    {
-      "source_id": "BT-Chuong-IV-p42-q6-146",
-      "result": "Upper branch contains R1 then lamp D1; lower branch contains lamp D2; branches are parallel."
-    },
-    {
-      "source_id": "BT-Chuong-IV-p39-q2-142",
-      "result": "Ladder topology verified from figure; no OCR-inferred wire connections used."
-    },
-    {
-      "source_id": "BT-Chuong-IV-p49-q1-177",
-      "result": "R1, R2 and R3 are three parallel branches across the same terminals."
-    },
-    {
-      "source_id": "BT-Chuong-IV-p104-q4-314",
-      "result": "Three external resistor branches are in parallel; ammeter is in the R1 branch."
-    },
-    {
-      "source_id": "BT-Chuong-IV-p111-q4-342",
-      "result": "R3 is parallel with the series pair R1+R2."
-    },
-    {
-      "source_id": "BT-Chuong-IV-p102-q44-306",
-      "result": "Two source polarities were visually checked; both emfs drive the same loop direction, so they add."
-    }
-  ],
-  "fixed": [
-    {
-      "source_id": "BT-Chuong-IV-p8-q39-39",
       "lesson": "01-current-intensity",
-      "issue": "Source modeled a hollow copper tube as a solid disk; none of A-D matched the annular-section calculation.",
-      "action": "Changed only option C to 161 micro-m/s and set answer C; retained independent annular-area derivation."
-    },
-    {
-      "source_id": "BT-Chuong-IV-p27-q8-88",
-      "lesson": "02-resistance-ohm-law",
-      "issue": "Source options B: I=U/R and D: U=IR were algebraically equivalent.",
-      "action": "Changed only option D to U=R/I; B is now the unique Ohm-law answer."
-    },
-    {
-      "source_id": "BT-Chuong-IV-p41-q4-144",
-      "lesson": "02-resistance-ohm-law",
-      "issue": "T/F solution for items c-d was too generic for a topology-dependent problem.",
-      "action": "Expanded the solution using the visually verified series/parallel topology and explicit currents/voltages."
-    },
-    {
-      "source_id": "BT-Chuong-IV-p62-q4-196",
-      "lesson": "03-emf-internal-resistance",
-      "issue": "The statement U<E is not unconditional when a source is charging or ideal.",
-      "action": "Restricted the stem to a source with r>0 operating in discharge/generator mode."
-    },
-    {
-      "source_id": "BT-Chuong-IV-p97-q31-293",
-      "lesson": "04-energy-power-joule",
-      "issue": "Ah was described as stored energy.",
-      "action": "Corrected Ah to electric charge capacity; energy calculation remains UQ."
-    },
-    {
-      "source_id": "BT-Chuong-IV-p99-q35-297",
-      "lesson": "04-energy-power-joule",
-      "issue": "Source solution derived r=26/135 ohm but incorrectly approximated it as 0.9 ohm, so no source option was correct.",
-      "action": "After checking the PDF image, changed only option A to E≈11.96 V, r≈0.193 ohm; answer A."
-    },
-    {
-      "source_id": "BT-Chuong-IV-p107-q2-322",
-      "lesson": "04-energy-power-joule",
-      "issue": "Source options 500 Wh and 1800 kJ were equivalent.",
-      "action": "After checking the PDF image, changed only option B to 180 kJ; answer A is unique."
-    },
-    {
-      "source_id": "BT-Chuong-IV-p107-q5-325",
-      "lesson": "04-energy-power-joule",
-      "issue": "Power-square relation omitted the fixed-resistance condition in the explanation.",
-      "action": "Stated explicitly that R is constant before using P=U^2/R."
-    },
-    {
-      "source_id": "BT-Chuong-IV-p107-q6-326",
-      "lesson": "04-energy-power-joule",
-      "issue": "Incandescent-lamp resistance changes with temperature, so scaling rated power by U^2 needs a model assumption.",
-      "action": "Added the explicit assumption that lamp resistance is treated as constant."
-    },
-    {
-      "source_id": "BT-Chuong-IV-p108-q11-331",
-      "lesson": "04-energy-power-joule",
-      "issue": "Statements that P is proportional to U or I were missing the corresponding held-fixed variable.",
-      "action": "Added I fixed to option A and U fixed to option B, preserving C as the unique incorrect statement."
-    },
-    {
-      "source_id": "BT-Chuong-IV-p96-q20-282",
-      "lesson": "04-energy-power-joule",
-      "issue": "Source options 1.175 kWh and 1175 Wh were equivalent.",
-      "action": "After checking the PDF image, changed only option B to 117.5 Wh; answer A is unique."
-    },
-    {
-      "source_id": "BT-Chuong-IV-p96-q23-285",
-      "lesson": "04-energy-power-joule",
-      "issue": "Solution had raw un-delimited equation text and decimal punctuation inconsistency.",
-      "action": "Normalized the full energy calculation to valid inline LaTeX."
-    }
-  ],
-  "verified_existing_corrections": [
-    {
-      "source_id": "BT-Chuong-IV-p18-q4-78",
-      "result": "q=270 C verified independently."
-    },
-    {
+      "bai": 60,
       "source_id": "BT-Chuong-IV-p10-q4-44",
-      "result": "Hollow-square steel cross-section and I≈451.6 A verified from the printed inner perimeter and carrier density."
+      "check": "Read hollow-square steel cross-section from the figure; inner perimeter 8 cm means inner side 2 cm, wall 1 mm."
     },
     {
-      "source_id": "BT-Chuong-IV-p8-q37-37",
-      "result": "Electron and positive-ion conventional-current contributions add; I=0.576 A."
+      "lesson": "01-current-intensity",
+      "bai": 61,
+      "source_id": "BT-Chuong-IV-p10-q5-45",
+      "check": "Read ammeter as series element in the conductor; current through the wire equals the meter reading."
     },
     {
-      "source_id": "BT-Chuong-IV-p33-q9-114",
-      "result": "Metal winding resistance increases with temperature in the stated model; answer A retained."
+      "lesson": "01-current-intensity",
+      "bai": 62,
+      "source_id": "BT-Chuong-IV-p11-q6-46",
+      "check": "Read split at A and recombination at B; A3/A4 are main-line meters, A1/A2 are branch meters, so I3=I1+I2=I4."
     },
     {
-      "source_id": "BT-Chuong-IV-p37-q2-132",
-      "result": "Aluminum resistivity wording already minimally repaired; R≈10.59 ohm, answer A."
-    },
-    {
+      "lesson": "03-emf-internal-resistance",
+      "bai": 12,
       "source_id": "BT-Chuong-IV-p75-q5-233",
-      "result": "U-I graph gives 9 V for three identical series cells, hence 3 V per cell."
+      "check": "Read U-I graph intercepts; three identical cells are in series."
     },
     {
+      "lesson": "03-emf-internal-resistance",
+      "bai": 15,
+      "source_id": "BT-Chuong-IV-p87-q5-261",
+      "check": "Read all source/load branches as parallel between the same A-B nodes and used signed branch currents; r=3 ohm."
+    },
+    {
+      "lesson": "03-emf-internal-resistance",
+      "bai": 23,
       "source_id": "BT-Chuong-IV-p65-q24-215",
-      "result": "1000 mAh / 5 mA = 200 h."
+      "check": "Read battery label 1000 mAh from the figure."
     },
     {
-      "source_id": "BT-Chuong-IV-p105-q6-320",
-      "result": "Daily cost 0.035625 million VND verified from 9.5 kW × 1.5 h/day."
+      "lesson": "03-emf-internal-resistance",
+      "bai": 33,
+      "source_id": "BT-Chuong-IV-p80-q13-247",
+      "check": "Read the printed battery label/connection from the figure; no OCR topology inference used."
     },
     {
-      "source_id": "BT-Chuong-IV-p108-q8-328",
-      "result": "Q proportional to I^2 for fixed R,t; halving I quarters heat."
+      "lesson": "03-emf-internal-resistance",
+      "bai": 34,
+      "source_id": "BT-Chuong-IV-p70-q3-225",
+      "check": "Read five identical sources in series and external branches: (R1+R2) in parallel with R3; ammeter is in the R3 branch."
+    },
+    {
+      "lesson": "03-emf-internal-resistance",
+      "bai": 35,
+      "source_id": "BT-Chuong-IV-p81-q1-253",
+      "check": "Read battery rating from the source photograph."
+    },
+    {
+      "lesson": "03-emf-internal-resistance",
+      "bai": 36,
+      "source_id": "BT-Chuong-IV-p84-q4-256",
+      "check": "Read the measurement circuit and U-I graph; slope gives r+R0=15 ohm, hence r=1 ohm and emf=0.20 V."
+    },
+    {
+      "lesson": "03-emf-internal-resistance",
+      "bai": 39,
+      "source_id": "BT-Chuong-IV-p63-q13-205",
+      "check": "Read 3 V cell marking directly from the figure."
+    },
+    {
+      "lesson": "03-emf-internal-resistance",
+      "bai": 48,
+      "source_id": "BT-Chuong-IV-p68-q1-223",
+      "check": "Read 3.7 V, 1000 mAh battery marking directly from the figure."
+    },
+    {
+      "lesson": "03-emf-internal-resistance",
+      "bai": 49,
+      "source_id": "BT-Chuong-IV-p69-q2-224",
+      "check": "Read 12 V, 45 Ah battery marking directly from the figure."
+    },
+    {
+      "lesson": "07-circuit-reading-meters",
+      "bai": 12,
+      "source_id": "BT-Chuong-IV-p50-q3-179",
+      "check": "Read two parallel resistor pairs connected in series: (R1||R2) + (R3||R4)."
+    },
+    {
+      "lesson": "07-circuit-reading-meters",
+      "bai": 13,
+      "source_id": "BT-Chuong-IV-p51-q4-180",
+      "check": "Read nodes A,B,C,D and switch K. K open: (R1+R2)||R4 in series with R3. K closed: R1 in parallel with [R4+(R2||R3)]."
     }
   ],
-  "learner_facing_forbidden_markers_remaining": 0,
-  "unresolved": [],
-  "next": null,
-  "validation": {
-    "check_practice_bank": "PASS — 61 banks; 540 authored + 1633 PDF; 0 structural errors",
-    "check_pdf_import": "PASS — 1633 canonical PDF items; Chapter IV=350; 0 integrity errors",
-    "check_solution_quality": "PASS — 2173 total items; 0 errors",
-    "check_site_lint_only": "PASS — 237 Markdown; 0 errors; 0 warnings"
+  "lessons": {
+    "01-current-intensity": [
+      {
+        "bai": 1,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 2,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 3,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 4,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 5,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 6,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 7,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 8,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 9,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 10,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 11,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p11-q1-47"
+      },
+      {
+        "bai": 12,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p12-q2-48"
+      },
+      {
+        "bai": 13,
+        "status": "FIXED",
+        "source_id": "BT-Chuong-IV-p12-q3-49",
+        "note": "Corrected drift speed from 0.22 to 22.1 um/s using v=4I/(pi d^2 n e)."
+      },
+      {
+        "bai": 14,
+        "status": "FIXED",
+        "source_id": "BT-Chuong-IV-p12-q4-50",
+        "note": "Corrected electron transit time to 3.5 h after independent substitution and required one-decimal rounding."
+      },
+      {
+        "bai": 15,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p12-q5-51"
+      },
+      {
+        "bai": 16,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p13-q6-52"
+      },
+      {
+        "bai": 17,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p17-q1-75"
+      },
+      {
+        "bai": 18,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p18-q2-76"
+      },
+      {
+        "bai": 19,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p18-q3-77"
+      },
+      {
+        "bai": 20,
+        "status": "FIXED",
+        "source_id": "BT-Chuong-IV-p18-q4-78",
+        "note": "Removed learner-facing source-comparison note; retained independently verified q=270 C."
+      },
+      {
+        "bai": 21,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p18-q5-79"
+      },
+      {
+        "bai": 22,
+        "status": "FIXED",
+        "source_id": "BT-Chuong-IV-p19-q6-80",
+        "note": "Corrected electron transit time to 51.9 weeks from 3.1416e7 s / 604800."
+      },
+      {
+        "bai": 23,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p4-q1-1"
+      },
+      {
+        "bai": 24,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p4-q2-2"
+      },
+      {
+        "bai": 25,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p4-q3-3"
+      },
+      {
+        "bai": 26,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p4-q4-4"
+      },
+      {
+        "bai": 27,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p4-q5-5"
+      },
+      {
+        "bai": 28,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p4-q6-6"
+      },
+      {
+        "bai": 29,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p4-q7-7"
+      },
+      {
+        "bai": 30,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p4-q8-8"
+      },
+      {
+        "bai": 31,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p4-q9-9"
+      },
+      {
+        "bai": 32,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p4-q10-10"
+      },
+      {
+        "bai": 33,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p5-q12-12"
+      },
+      {
+        "bai": 34,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p5-q13-13"
+      },
+      {
+        "bai": 35,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p5-q14-14"
+      },
+      {
+        "bai": 36,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p5-q15-15"
+      },
+      {
+        "bai": 37,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p8-q38-38"
+      },
+      {
+        "bai": 38,
+        "status": "FIXED",
+        "source_id": "BT-Chuong-IV-p8-q39-39",
+        "note": "For the printed hollow copper tube, used annular area and obtained about 161 um/s; minimally changed option C so A-D contains exactly one correct answer."
+      },
+      {
+        "bai": 39,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p9-q40-40"
+      },
+      {
+        "bai": 40,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p14-q1-53"
+      },
+      {
+        "bai": 41,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p14-q2-54"
+      },
+      {
+        "bai": 42,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p14-q3-55"
+      },
+      {
+        "bai": 43,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p14-q4-56"
+      },
+      {
+        "bai": 44,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p14-q5-57"
+      },
+      {
+        "bai": 45,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p14-q6-58"
+      },
+      {
+        "bai": 46,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p14-q7-59"
+      },
+      {
+        "bai": 47,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p14-q8-60"
+      },
+      {
+        "bai": 48,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p14-q9-61"
+      },
+      {
+        "bai": 49,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p15-q11-63"
+      },
+      {
+        "bai": 50,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p15-q12-64"
+      },
+      {
+        "bai": 51,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p15-q13-65"
+      },
+      {
+        "bai": 52,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p15-q14-66"
+      },
+      {
+        "bai": 53,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p15-q15-67"
+      },
+      {
+        "bai": 54,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p15-q16-68"
+      },
+      {
+        "bai": 55,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p15-q17-69"
+      },
+      {
+        "bai": 56,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p15-q18-70"
+      },
+      {
+        "bai": 57,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p9-q1-41"
+      },
+      {
+        "bai": 58,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p9-q2-42"
+      },
+      {
+        "bai": 59,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p10-q3-43"
+      },
+      {
+        "bai": 60,
+        "status": "FIXED",
+        "source_id": "BT-Chuong-IV-p10-q4-44",
+        "note": "Removed learner-facing source-comparison note; retained independently verified hollow-square area 0.84 cm^2 and I about 451.6 A."
+      },
+      {
+        "bai": 61,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p10-q5-45"
+      },
+      {
+        "bai": 62,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p11-q6-46"
+      },
+      {
+        "bai": 63,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p16-q1-71"
+      },
+      {
+        "bai": 64,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p16-q2-72"
+      },
+      {
+        "bai": 65,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p16-q3-73"
+      },
+      {
+        "bai": 66,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p17-q4-74"
+      },
+      {
+        "bai": 67,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p5-q16-16"
+      },
+      {
+        "bai": 68,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p5-q17-17"
+      },
+      {
+        "bai": 69,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p5-q18-18"
+      },
+      {
+        "bai": 70,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p5-q19-19"
+      },
+      {
+        "bai": 71,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p5-q20-20"
+      },
+      {
+        "bai": 72,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p6-q22-22"
+      },
+      {
+        "bai": 73,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p6-q23-23"
+      },
+      {
+        "bai": 74,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p6-q24-24"
+      },
+      {
+        "bai": 75,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p6-q25-25"
+      },
+      {
+        "bai": 76,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p6-q26-26"
+      },
+      {
+        "bai": 77,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p6-q27-27"
+      },
+      {
+        "bai": 78,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p7-q28-28"
+      },
+      {
+        "bai": 79,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p7-q29-29"
+      },
+      {
+        "bai": 80,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p7-q30-30"
+      },
+      {
+        "bai": 81,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p7-q31-31"
+      },
+      {
+        "bai": 82,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p7-q32-32"
+      },
+      {
+        "bai": 83,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p7-q33-33"
+      },
+      {
+        "bai": 84,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p8-q34-34"
+      },
+      {
+        "bai": 85,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p8-q35-35"
+      },
+      {
+        "bai": 86,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p8-q36-36"
+      },
+      {
+        "bai": 87,
+        "status": "FIXED",
+        "source_id": "BT-Chuong-IV-p8-q37-37",
+        "note": "Removed learner-facing source-comparison note; retained independent current sum from electrons and positive ions, I=0.576 A."
+      }
+    ],
+    "03-emf-internal-resistance": [
+      {
+        "bai": 1,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 2,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 3,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 4,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 5,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 6,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 7,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 8,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 9,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 10,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 11,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p74-q1-229"
+      },
+      {
+        "bai": 12,
+        "status": "FIXED",
+        "source_id": "BT-Chuong-IV-p75-q5-233",
+        "note": "Removed learner-facing source-comparison note; graph and three identical series cells independently give 3 V per cell."
+      },
+      {
+        "bai": 13,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p86-q1-257"
+      },
+      {
+        "bai": 14,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p86-q2-258"
+      },
+      {
+        "bai": 15,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p87-q5-261"
+      },
+      {
+        "bai": 16,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p62-q2-194"
+      },
+      {
+        "bai": 17,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p62-q3-195"
+      },
+      {
+        "bai": 18,
+        "status": "FIXED",
+        "source_id": "BT-Chuong-IV-p62-q4-196",
+        "note": "Added the missing generating-mode conditions r>0 and I>0 so U=E-Ir<E is unambiguous."
+      },
+      {
+        "bai": 19,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p62-q5-197"
+      },
+      {
+        "bai": 20,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p62-q6-198"
+      },
+      {
+        "bai": 21,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p63-q9-201"
+      },
+      {
+        "bai": 22,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p63-q10-202"
+      },
+      {
+        "bai": 23,
+        "status": "FIXED",
+        "source_id": "BT-Chuong-IV-p65-q24-215",
+        "note": "Removed learner-facing source-comparison note; retained 1000 mAh / 5 mA = 200 h."
+      },
+      {
+        "bai": 24,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p78-q1-235"
+      },
+      {
+        "bai": 25,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p78-q2-236"
+      },
+      {
+        "bai": 26,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p78-q3-237"
+      },
+      {
+        "bai": 27,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p78-q4-238"
+      },
+      {
+        "bai": 28,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p78-q5-239"
+      },
+      {
+        "bai": 29,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p78-q6-240"
+      },
+      {
+        "bai": 30,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p78-q7-241"
+      },
+      {
+        "bai": 31,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p78-q8-242"
+      },
+      {
+        "bai": 32,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p79-q12-246"
+      },
+      {
+        "bai": 33,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p80-q13-247"
+      },
+      {
+        "bai": 34,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p70-q3-225"
+      },
+      {
+        "bai": 35,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p81-q1-253"
+      },
+      {
+        "bai": 36,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p84-q4-256"
+      },
+      {
+        "bai": 37,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p63-q11-203"
+      },
+      {
+        "bai": 38,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p63-q12-204"
+      },
+      {
+        "bai": 39,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p63-q13-205"
+      },
+      {
+        "bai": 40,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p63-q14-206"
+      },
+      {
+        "bai": 41,
+        "status": "FIXED",
+        "source_id": "BT-Chuong-IV-p63-q15-207",
+        "note": "Made the constant-current condition explicit for A=xi I t; A=xi q remains general for transferred charge q."
+      },
+      {
+        "bai": 42,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p64-q17-209"
+      },
+      {
+        "bai": 43,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p64-q19-211"
+      },
+      {
+        "bai": 44,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p64-q20-212"
+      },
+      {
+        "bai": 45,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p64-q21-213"
+      },
+      {
+        "bai": 46,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p64-q22-213"
+      },
+      {
+        "bai": 47,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p65-q23-214"
+      },
+      {
+        "bai": 48,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p68-q1-223"
+      },
+      {
+        "bai": 49,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p69-q2-224"
+      }
+    ],
+    "07-circuit-reading-meters": [
+      {
+        "bai": 1,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 2,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 3,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 4,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 5,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 6,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 7,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 8,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 9,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 10,
+        "status": "VERIFIED"
+      },
+      {
+        "bai": 11,
+        "status": "FIXED",
+        "source_id": "BT-Chuong-IV-p32-q4-109",
+        "note": "Added the missing negligible-ammeter-resistance condition; then U=IR=60 V."
+      },
+      {
+        "bai": 12,
+        "status": "VERIFIED",
+        "source_id": "BT-Chuong-IV-p50-q3-179"
+      },
+      {
+        "bai": 13,
+        "status": "FIXED",
+        "source_id": "BT-Chuong-IV-p51-q4-180",
+        "note": "Removed learner-facing source-comparison note; true topology from the figure gives 0.375 A when K is closed."
+      }
+    ]
   },
-  "status": "GROUP_A_COMPLETE",
-  "chapter_final_status": "CHAPTER_IV_COMPLETE"
+  "fixed_count": 13,
+  "verified_count": 136,
+  "unresolved": [],
+  "forbidden_learner_strings_removed": [
+    "Đối chiếu nguồn",
+    "Không có phương án nào đúng"
+  ],
+  "next": "GROUP B"
 }

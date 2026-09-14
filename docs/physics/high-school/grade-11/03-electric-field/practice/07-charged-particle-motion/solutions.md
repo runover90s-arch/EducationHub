@@ -30,7 +30,7 @@ a) **Đúng.** Trong điện trường đều, $\vec F=q\vec E$; nếu $q$ và $
 
 b) **Đúng.** Từ $\vec a=\vec F/m=q\vec E/m$, với $q,m$ và điện trường đều không đổi thì gia tốc là hằng số.
 
-c) **Sai.** Với hạt mang điện ($q\ne0$), lực điện $\vec F=q\vec E$ khác không nên hạt có gia tốc; vì vậy chuyển động không đều.
+c) **Sai.** trừ trường hợp q=0; hạt mang điện chịu gia tốc.
 
 d) **Đúng.** Lực điện chỉ gây gia tốc theo hướng $\vec E$; thành phần vận tốc vuông góc $\vec E$ giữ không đổi còn thành phần song song biến đổi đều.
 

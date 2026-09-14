@@ -12823,9 +12823,6 @@
 
 
 <h1 id="bai-tap-bai-8-kirchhoff-xep-chong-nguon-tuong-uong-va-mach-rc">Bài tập — Bài 8 — Kirchhoff, xếp chồng, nguồn tương đương và mạch RC</h1>
-<blockquote>
-<p>Hệ bài tập được biên soạn theo các dạng xuất hiện trong bộ tài liệu Vật lí 11 của dự án. Câu hỏi được giữ ngắn, trực tiếp; độ khó tăng dần và không cố tình thêm dữ kiện gây nhiễu.</p>
-</blockquote>
 <p><a href="../../../08-advanced-circuit-methods/">← Trở lại bài học</a></p>
 <h2 id="phan-a-trac-nghiem-4-lua-chon">Phần A — Trắc nghiệm 4 lựa chọn</h2>
 <h3 id="bai-1-muc-1-nhan-biet">Bài 1 — Mức 1 — Nhận biết</h3>
@@ -12877,10 +12874,10 @@
 <p>d) Khi “tắt” nguồn dòng lí tưởng, thay bằng ngắn mạch.</p>
 <details class="success">
 <summary>Đáp án và lời giải</summary>
-<p>a) <strong>Đúng</strong>.
-b) <strong>Đúng</strong>.
-c) <strong>Đúng</strong>.
-d) <strong>Sai</strong>: nguồn dòng lí tưởng bị thay bằng hở mạch.</p>
+<p>a) <strong>Đúng.</strong> Các định luật nút và vòng Kirchhoff được xây dựng để lập hệ phương trình dòng-áp cho mạch có nhiều nhánh và nhiều vòng kín.</p>
+<p>b) <strong>Đúng.</strong> Trong mạch tuyến tính, đáp ứng tổng bằng tổng các đáp ứng do từng nguồn độc lập gây ra khi xét riêng từng nguồn.</p>
+<p>c) <strong>Đúng.</strong> Nguồn áp lí tưởng bị đặt về <span class="arithmatex">\(0\,\mathrm V\)</span> tương đương hai cực cùng điện thế, tức một ngắn mạch.</p>
+<p>d) <strong>Sai.</strong> nguồn dòng lí tưởng bị thay bằng hở mạch.</p>
 </details>
 <h3 id="bai-6-muc-2-thong-hieu">Bài 6 — Mức 2 — Thông hiểu</h3>
 <p>Tụ điện trong mạch DC:</p>
@@ -12890,33 +12887,33 @@ d) <strong>Sai</strong>: nguồn dòng lí tưởng bị thay bằng hở mạch
 <p>d) Tụ luôn tương đương ngắn mạch ở mọi thời điểm.</p>
 <details class="success">
 <summary>Đáp án và lời giải</summary>
-<p>a) <strong>Đúng</strong>.
-b) <strong>Đúng</strong>.
-c) <strong>Đúng</strong>.
-d) <strong>Sai</strong>.</p>
+<p>a) <strong>Đúng.</strong> Vì <span class="arithmatex">\(i=C\,du_C/dt\)</span>, một bước nhảy hữu hạn của <span class="arithmatex">\(u_C\)</span> trong thời gian bằng <span class="arithmatex">\(0\)</span> sẽ đòi hỏi dòng xung vô hạn.</p>
+<p>b) <strong>Đúng.</strong> Ở trạng thái một chiều xác lập, điện áp trên tụ không đổi nên <span class="arithmatex">\(du_C/dt=0\)</span> và <span class="arithmatex">\(i=C\,du_C/dt=0\)</span>.</p>
+<p>c) <strong>Đúng.</strong> Năng lượng điện trường tích trong tụ tuyến tính được tính bởi <span class="arithmatex">\(W=\tfrac12CU^2\)</span>.</p>
+<p>d) <strong>Sai.</strong> Tụ chỉ có thể được xem gần như ngắn mạch trong một số thời điểm/quá trình thích hợp; ở xác lập DC lâu dài nó tương đương hở mạch.</p>
 </details>
 <h2 id="phan-c-tra-loi-ngan">Phần C — Trả lời ngắn</h2>
 <h3 id="bai-7-muc-3-van-dung">Bài 7 — Mức 3 — Vận dụng</h3>
-<p>Tại một nút có dòng <span class="arithmatex">\(I_1=2\)</span> A và <span class="arithmatex">\(I_2=1,5\)</span> A đi vào; dòng <span class="arithmatex">\(I_3=0,8\)</span> A đi ra và dòng I4 chưa biết đi ra. Tính I4.</p>
+<p>Tại một nút có dòng <span class="arithmatex">\(I_1=2\,\mathrm A\)</span> và <span class="arithmatex">\(I_2=1,5\,\mathrm A\)</span> đi vào; dòng <span class="arithmatex">\(I_3=0,8\,\mathrm A\)</span> đi ra và dòng I4 chưa biết đi ra. Tính I4.</p>
 <details class="success">
 <summary>Đáp án và lời giải</summary>
-<p>Bảo toàn điện tích tại nút: <span class="arithmatex">\(I_1+I_2=I_3+I_4\)</span>. <span class="arithmatex">\(I_4=2+1,5-0,8=2,7\)</span> A.</p>
+<p>Bảo toàn điện tích tại nút: <span class="arithmatex">\(I_1+I_2=I_3+I_4\)</span>. <span class="arithmatex">\(I_4=2+1,5-0,8=2,7\,\mathrm A\)</span>.</p>
 </details>
 <h3 id="bai-8-muc-3-van-dung">Bài 8 — Mức 3 — Vận dụng</h3>
-<p>Một nguồn Thévenin có <span class="arithmatex">\(V_{th}=12\)</span> V, <span class="arithmatex">\(R_{th}=3\,\Omega\)</span> cấp tải <span class="arithmatex">\(R_L=9\,\Omega\)</span>. Tính dòng và áp tải.</p>
+<p>Một nguồn Thévenin có <span class="arithmatex">\(V_{th}=12\,\mathrm V\)</span>, <span class="arithmatex">\(R_{th}=3\,\Omega\)</span> cấp tải <span class="arithmatex">\(R_L=9\,\Omega\)</span>. Tính dòng và áp tải.</p>
 <details class="success">
 <summary>Đáp án và lời giải</summary>
-<p><span class="arithmatex">\(I=V_{th}/(R_{th}+R_L)=12/12=1\)</span> A. <span class="arithmatex">\(U_L=IR_L=9\)</span> V.</p>
+<p><span class="arithmatex">\(I=V_{th}/(R_{th}+R_L)=12/12=1\,\mathrm A\)</span>. <span class="arithmatex">\(U_L=IR_L=9\,\mathrm V\)</span>.</p>
 </details>
 <h3 id="bai-9-muc-3-van-dung">Bài 9 — Mức 3 — Vận dụng</h3>
-<p>Tụ <span class="arithmatex">\(C=100\,\mu\)</span>F được nạp đến 20 V. Tính điện tích và năng lượng trước khi chuyển mạch.</p>
+<p>Tụ <span class="arithmatex">\(C=100\,\mu\,\mathrm F\)</span> được nạp đến <span class="arithmatex">\(20\,\mathrm V\)</span>. Tính điện tích và năng lượng trước khi chuyển mạch.</p>
 <details class="success">
 <summary>Đáp án và lời giải</summary>
-<p><span class="arithmatex">\(Q=CU=100\cdot10^{-6}\cdot20=2\cdot10^{-3}\)</span> C. <span class="arithmatex">\(W=\frac12CU^2=0,5\cdot100\cdot10^{-6}\cdot400=0,020\)</span> J.</p>
+<p><span class="arithmatex">\(Q=CU=100\cdot10^{-6}\cdot20=2\cdot10^{-3}\,\mathrm C\)</span>. <span class="arithmatex">\(W=\frac12CU^2=0,5\cdot100\cdot10^{-6}\cdot400=0,020\,\mathrm J\)</span>.</p>
 </details>
 <h2 id="phan-d-van-dung-va-van-dung-cao">Phần D — Vận dụng và vận dụng cao</h2>
 <h3 id="bai-10-muc-4-van-dung-cao">Bài 10 — Mức 4 — Vận dụng cao</h3>
-<p>Mạch hai vòng có một nguồn 12 V. Vòng trái gồm nguồn và R1=2 Ω; điện trở chung giữa hai vòng R3=4 Ω; vòng phải có R2=6 Ω. Chọn dòng vòng I1 theo chiều kim đồng hồ ở vòng trái và I2 theo chiều kim đồng hồ ở vòng phải, nên dòng qua R3 theo hướng vòng trái là I1-I2. Lập và giải hệ dòng vòng.</p>
+<p>Mạch hai vòng có một nguồn <span class="arithmatex">\(12\,\mathrm V\)</span>. Vòng trái gồm nguồn và <span class="arithmatex">\(R_1=2\,\Omega\)</span>; điện trở chung giữa hai vòng <span class="arithmatex">\(R_3=4\,\Omega\)</span>; vòng phải có <span class="arithmatex">\(R_2=6\,\Omega\)</span>. Chọn dòng vòng I1 theo chiều kim đồng hồ ở vòng trái và I2 theo chiều kim đồng hồ ở vòng phải, nên dòng qua R3 theo hướng vòng trái là I1-I2. Lập và giải hệ dòng vòng.</p>
 <details class="success">
 <summary>Đáp án và lời giải</summary>
 <p>Phương trình vòng trái:</p>
@@ -12925,8 +12922,8 @@ d) <strong>Sai</strong>.</p>
 <p><span class="arithmatex">\(-6I_2-4(I_2-I_1)=0\)</span>, hay <span class="arithmatex">\(-4I_1+10I_2=0\)</span>.</p>
 <p>Từ phương trình hai: <span class="arithmatex">\(I_1=2,5I_2\)</span>. Thay vào phương trình một:</p>
 <p><span class="arithmatex">\(6(2,5I_2)-4I_2=12\Rightarrow11I_2=12\)</span>.</p>
-<p><span class="arithmatex">\(I_2=12/11\approx1,091\)</span> A; <span class="arithmatex">\(I_1=30/11\approx2,727\)</span> A.</p>
-<p>Dòng qua R3 theo hướng vòng trái: <span class="arithmatex">\(I_3=I_1-I_2=18/11\approx1,636\)</span> A.</p>
+<p><span class="arithmatex">\(I_2=12/11\approx1,091\,\mathrm A\)</span>; <span class="arithmatex">\(I_1=30/11\approx2,727\,\mathrm A\)</span>.</p>
+<p>Dòng qua R3 theo hướng vòng trái: <span class="arithmatex">\(I_3=I_1-I_2=18/11\approx1,636\,\mathrm A\)</span>.</p>
 </details>
 <h2 id="ngan-hang-bai-tap-mo-rong">Ngân hàng bài tập mở rộng</h2>
 <h3 id="nhan-biet-tra-loi-ngan">Nhận biết — Trả lời ngắn</h3>
@@ -12938,8 +12935,8 @@ d) <strong>Sai</strong>.</p>
 <details class="success">
 <summary>Đáp án và lời giải</summary>
 <p><strong>Đáp án:</strong> <span class="arithmatex">\(0{,}67\,\Omega\)</span>.</p>
-<p><strong>Hướng dẫn giải:</strong>
-Điện trở mạch ngoài là <span class="arithmatex">\(R_N=R_1\parallel R=\dfrac{2R}{2+R}\)</span>, nên
+<p><strong>Hướng dẫn giải:</strong></p>
+<p>Điện trở mạch ngoài là <span class="arithmatex">\(R_N=R_1\parallel R=\dfrac{2R}{2+R}\)</span>, nên
 <span class="arithmatex">\(I=\dfrac{\mathcal E}{R_N+r}=\dfrac{15(2+R)}{3R+2}\)</span>.</p>
 <p>Hiệu điện thế hai đầu <span class="arithmatex">\(R\)</span>:
 <span class="arithmatex">\(U=IR_N=\dfrac{30R}{3R+2}\)</span>.</p>
@@ -12958,9 +12955,9 @@ d) <strong>Sai</strong>.</p>
 <p>D. Để giảm điện trở trong mạch.</p>
 <details class="success">
 <summary>Đáp án và lời giải</summary>
-<p><strong>Đáp án:</strong> B
-<strong>Hướng dẫn giải:</strong>
-Cầu chì ngắt mạch khi dòng điện quá lớn, bảo vệ thiết bị khỏi hư hại</p>
+<p><strong>Đáp án:</strong> B</p>
+<p><strong>Hướng dẫn giải:</strong></p>
+<p>Cầu chì ngắt mạch khi dòng điện quá lớn, bảo vệ thiết bị khỏi hư hại</p>
 </details>
 <h4 id="bai-13">Bài 13</h4>
 <!-- source-id: BT-Chuong-IV-p38-q8-138 -->
@@ -12973,8 +12970,8 @@ Cầu chì ngắt mạch khi dòng điện quá lớn, bảo vệ thiết bị k
 <details class="success">
 <summary>Đáp án và lời giải</summary>
 <p><strong>Đáp án:</strong> B</p>
-<p><strong>Hướng dẫn giải:</strong>
-Khi đèn sáng bình thường, <span class="arithmatex">\(I=P/U=60/120=0{,}5\,\mathrm A\)</span>.</p>
+<p><strong>Hướng dẫn giải:</strong></p>
+<p>Khi đèn sáng bình thường, <span class="arithmatex">\(I=P/U=60/120=0{,}5\,\mathrm A\)</span>.</p>
 <p>Điện trở định mức của đèn là <span class="arithmatex">\(R_\text{đ}=U^2/P=120^2/60=240\,\Omega\)</span>.</p>
 <p>Tổng điện trở nối tiếp cần có là <span class="arithmatex">\(R_\text{tđ}=220/0{,}5=440\,\Omega\)</span>, nên
 <span class="arithmatex">\(R=440-240=200\,\Omega\)</span>.</p>

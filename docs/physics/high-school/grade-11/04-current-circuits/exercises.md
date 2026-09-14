@@ -221,7 +221,7 @@ Phần dưới đây **không sao chép lặp lại câu hỏi**. Nó gom các n
 
 - **Bài 1 — Dòng điện và cường độ dòng điện** — 87 câu/bài: [Bài tập](practice/01-current-intensity/exercises.md) · [Đáp án](practice/01-current-intensity/solutions.md)
 - **Bài 2 — Điện trở và định luật Ohm cho đoạn mạch** — 102 câu/bài: [Bài tập](practice/02-resistance-ohm-law/exercises.md) · [Đáp án](practice/02-resistance-ohm-law/solutions.md)
-- **Bài 3 — Nguồn điện, suất điện động và điện trở trong** — 48 câu/bài: [Bài tập](practice/03-emf-internal-resistance/exercises.md) · [Đáp án](practice/03-emf-internal-resistance/solutions.md)
+- **Bài 3 — Nguồn điện, suất điện động và điện trở trong** — 49 câu/bài: [Bài tập](practice/03-emf-internal-resistance/exercises.md) · [Đáp án](practice/03-emf-internal-resistance/solutions.md)
 - **Bài 4 — Năng lượng điện, công suất và định luật Joule–Lenz** — 87 câu/bài: [Bài tập](practice/04-energy-power-joule/exercises.md) · [Đáp án](practice/04-energy-power-joule/solutions.md)
 - **Bài 5 — Định luật Ohm cho toàn mạch** — 30 câu/bài: [Bài tập](practice/05-full-circuit-ohm-law/exercises.md) · [Đáp án](practice/05-full-circuit-ohm-law/solutions.md)
 - **Bài 6 — Ghép nguồn thành bộ** — 21 câu/bài: [Bài tập](practice/06-source-combinations/exercises.md) · [Đáp án](practice/06-source-combinations/solutions.md)

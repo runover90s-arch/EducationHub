@@ -27,7 +27,7 @@ Bạn cần:
 
 ## 1. Lực giữa hai dây dẫn song song
 
-Hai dây thẳng dài song song, cách nhau d, mang dòng $I_1$ và $I_2$.
+Hai dây thẳng dài song song, cách nhau d, mang dòng $I_1$ và $I_2$. Công thức dưới đây dùng cho hai dây có thể coi là rất dài so với khoảng cách $d$, xét đoạn đủ xa hai đầu dây và môi trường là chân không/không khí gần đúng.
 
 Dây 1 tạo từ trường tại dây 2:
 
@@ -93,7 +93,7 @@ $$
 \boxed{\mu=NIS}
 $$
 
-với $\mu$ là độ lớn mômen từ của khung dây.
+với $\mu$ là độ lớn mômen từ của khung dây, đơn vị SI là $\mathrm{A\,m^2}$. Mômen lực $\tau$ có đơn vị $\mathrm{N\,m}$.
 
 Vectơ $\vec\mu$ vuông góc mặt khung, chiều theo quy tắc bàn tay phải đối với chiều dòng điện.
 

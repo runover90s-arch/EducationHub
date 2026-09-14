@@ -12132,6 +12132,17 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#loi-va-canh-bao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lỗi và cảnh báo
+      
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -12218,6 +12229,17 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#loi-va-canh-bao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lỗi và cảnh báo
+      
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -12250,6 +12272,7 @@
 <li>display math chỉ chứa một kí hiệu và tạo khoảng trắng vô ích;</li>
 <li>nhiều display math ngắn xếp sát nhau, làm lời giải bị giãn quá mức trên mobile;</li>
 <li>link Markdown nội bộ bị chết;</li>
+<li>ảnh Markdown local bị thiếu hoặc resolve ra ngoài <code>docs/</code>;</li>
 <li>file được khai báo trong <code>nav</code>, CSS hoặc JavaScript nhưng không tồn tại;</li>
 <li><code>mkdocs.yml</code> không hợp lệ.</li>
 </ul>
@@ -12273,6 +12296,9 @@ $$
 <div class="highlight"><pre><span></span><code>python<span class="w"> </span>tools/check_site.py<span class="w"> </span>--lint-only
 </code></pre></div>
 <p>Chế độ này không cần MkDocs nhưng cũng không thể phát hiện lỗi chỉ xuất hiện sau khi Markdown được kết xuất thành HTML.</p>
+<h2 id="loi-va-canh-bao">Lỗi và cảnh báo</h2>
+<p><code>check_site.py</code> dùng <strong>ERROR</strong> cho lỗi deterministic có thể xác định từ source, gồm link/asset local không tồn tại, path asset thoát khỏi <code>docs/</code>, cấu hình MkDocs sai và các lỗi LaTeX/HTML chắc chắn. Các nghi vấn mang tính ngữ nghĩa của bài tập được để cho checker chuyên biệt báo <strong>WARNING</strong> thay vì làm build thất bại khi chưa đủ bằng chứng.</p>
+<p>Với Vật lí 11, phân công gate tối thiểu là: <code>check_practice_bank.py</code> bắt layout phần biên soạn trước và ghi chú nội bộ learner-facing; <code>check_pdf_import.py</code> bắt layout/provenance/asset của khối nhập PDF; <code>check_solution_quality.py</code> bắt cấu trúc lời giải, Đúng/Sai, placeholder đã xác nhận và cảnh báo đề nghi thiếu dữ kiện; <code>check_site.py</code> tiếp tục là lớp bảo vệ link/asset toàn site. Các gate này bổ sung cho nhau, không thay thế duplicate/source checks hiện có.</p>
 
 
 

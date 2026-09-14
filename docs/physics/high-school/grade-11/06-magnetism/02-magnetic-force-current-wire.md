@@ -37,7 +37,7 @@ $$
 \boxed{F=BIl\sin\alpha}
 $$
 
-trong đó $\alpha$ là góc giữa **chiều dòng điện** và $\vec B$.
+trong đó $\alpha$ là góc giữa **chiều dòng điện** và $\vec B$. Trong hệ SI, $B$ tính bằng tesla (T), $I$ bằng ampere (A), $l$ bằng mét (m) thì $F$ tính bằng newton (N).
 
 ### Các trường hợp đặc biệt
 

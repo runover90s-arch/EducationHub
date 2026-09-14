@@ -60,21 +60,21 @@ Nội dung sâu về cơ chế dẫn điện của các môi trường khác kh�
 
 ## 4. Cường độ dòng điện
 
-Trong khoảng thời gian $\Delta t$, nếu có điện lượng $\Delta q>0$ đi qua tiết diện theo chiều dòng điện quy ước thì cường độ dòng điện trung bình trên khoảng đó là:
+Trong khoảng thời gian $\Delta t$, gọi $\Delta q$ là **lượng điện tích theo độ lớn** đi qua tiết diện. Với dòng điện không đổi:
 
 $$
-\boxed{I_{\text{tb}}=\frac{\Delta q}{\Delta t}}.
+\boxed{I=\frac{\Delta q}{\Delta t}}.
 $$
 
-Với dòng điện không đổi, $I_{\text{tb}}=I$ nên dùng trực tiếp $I=\Delta q/\Delta t$.
+Chiều dòng điện được xác định riêng theo chiều chuyển dời có hướng của điện tích dương; không gán dấu âm cho $I$ chỉ vì hạt tải điện là electron.
 
 Đơn vị: ampere (A), với $1\,\mathrm A=1\,\mathrm{C/s}$.
 
-Với dòng biến thiên, công thức trên cho cường độ trung bình trên khoảng thời gian; mô tả tức thời cần khái niệm giới hạn.
+Với dòng biến thiên, tỉ số $\Delta q/\Delta t$ cho cường độ trung bình trên khoảng thời gian; cường độ tức thời cần xét khoảng thời gian đủ nhỏ hoặc dùng khái niệm giới hạn.
 
 ## 5. Dòng điện không đổi
 
-Dòng điện không đổi có **chiều và cường độ không đổi theo thời gian**. Dòng điện một chiều chỉ yêu cầu chiều không đổi; cường độ vẫn có thể biến thiên theo thời gian.
+Dòng điện không đổi có cường độ không đổi theo thời gian.
 
 Khi đó:
 
@@ -174,7 +174,7 @@ $$
 - Dòng điện là chuyển dời có hướng của điện tích.
 - Chiều quy ước theo điện tích dương.
 - $I=q/t$ với dòng không đổi.
-- Với dòng không đổi: $q=It$, $N=It/e$.
+- $q=It$, $N=It/e$.
 - Trong mô hình kim loại: $I=neSv_d$.
 - Diện tích dưới đồ thị I–t cho điện lượng.
 
@@ -192,7 +192,7 @@ Các nhóm bài dưới đây được tổ chức theo dấu hiệu nhận bi�
 
 ### Dạng 1 — Xác định cường độ dòng điện
 
-$I_{\text{tb}}=\Delta q/\Delta t$ cho cường độ trung bình trên một khoảng thời gian; với dòng điện không đổi, công thức trở thành $I=q/t$. Khi cần số hạt tải điện, dùng $N=|q|/e$. Đổi phút, giờ về giây và mA, µA về A trước khi tính.
+Dùng $I=\Delta q/\Delta t$ cho dòng điện không đổi và $N=|\Delta q|/e$ khi cần số hạt tải điện. Đổi phút, giờ về giây và mA, µA về A trước khi tính.
 
 Nếu có cả ion dương và ion âm chuyển động, xét đóng góp dòng điện theo chiều quy ước; các hạt trái dấu chuyển động ngược chiều có thể tạo dòng điện cùng chiều.
 

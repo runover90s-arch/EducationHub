@@ -94,7 +94,7 @@ d) Nếu $v=0$ thì vẫn luôn có $B\ell v\ne0$.
 
     **Hướng dẫn giải:**
 
-    a) **Đúng.** Điện tích chuyển động cùng thanh chịu lực Lorentz $\vec F=q\vec v\times\vec B$, làm các điện tích trái dấu phân bố khác nhau ở hai đầu thanh.
+    a) **Đúng.** Trong thanh kim loại, electron dẫn chuyển động cùng thanh chịu lực Lorentz $\vec F=q\vec v\times\vec B$ và bị dồn về một đầu; đầu kia dương tương đối do thiếu electron. Sự phân bố điện tích này tạo hiệu điện thế giữa hai đầu thanh.
 
     b) **Đúng.** Đổi $\vec v$ thành $-\vec v$ làm $\vec v\times\vec B$ đổi chiều, nên cực tính hai đầu thanh đảo lại nếu các yếu tố khác giữ nguyên.
 

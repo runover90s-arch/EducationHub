@@ -27,7 +27,7 @@ C. $C=QU$.
 D. $C=Q^2/U$.
 
 ??? success "Đáp án và lời giải"
-    Chọn **A**.
+    Chọn **A** vì điện dung được định nghĩa bởi $C=Q/U$ với $Q$ và $U$ là độ lớn điện tích trên bản và hiệu điện thế giữa hai bản.
 
 ### Bài 2 — Mức 1 — Nhận biết
 
@@ -57,7 +57,7 @@ C. $W=Q/U$.
 D. $W=2QU$.
 
 ??? success "Đáp án và lời giải"
-    Chọn **B**.
+    Chọn **B** vì năng lượng của tụ điện là $W=\dfrac12CU^2=\dfrac{Q^2}{2C}=\dfrac12QU$.
 
 ### Bài 4 — Mức 1 — Nhận biết
 
@@ -175,7 +175,7 @@ tích được điện tích bao nhiêu mC?
 
     $Q=CU=20\cdot10^{-6}\cdot120=2{,}4\cdot10^{-3}\,\mathrm C=2{,}4\,\mathrm{mC}$.
 
-    <!-- audit-note: Source answer cell is blank; learner-facing result is independently computed from the printed data. -->
+    <!-- source-audit: Ô đáp án PDF để trống; kết quả được tính độc lập từ dữ kiện đề. -->
 
 #### Bài 12
 
@@ -192,7 +192,7 @@ chuyển đến bản tích điện âm của tụ điện (đơn vị $\times 1
     $Q=CU=24\cdot10^{-9}\cdot450=1{,}08\cdot10^{-5}\,\mathrm C$.
     Số electron chuyển đến bản âm là $N=Q/e=1{,}08\cdot10^{-5}/(1{,}6\cdot10^{-19})=6{,}75\cdot10^{13}$.
 
-    <!-- audit-note: Source answer cell is blank; learner-facing result is independently computed from the printed data. -->
+    <!-- source-audit: Ô đáp án PDF để trống; kết quả được tính độc lập. -->
 
 #### Bài 13
 
@@ -208,7 +208,7 @@ bằng bao nhiêu J?
 
     $W=\dfrac12CU^2=\dfrac12\cdot2000\cdot10^{-6}\cdot10^2=0{,}10\,\mathrm J$.
 
-    <!-- audit-note: Source answer cell is blank; learner-facing result is independently computed from the printed data. -->
+    <!-- source-audit: Ô đáp án PDF để trống; kết quả được tính độc lập. -->
 
 #### Bài 14
 
@@ -223,7 +223,7 @@ Hai đầu tụ có điện dung là $20\,\mu\mathrm F$ thì hiệu điện th�
 
     $W=\dfrac12CU^2=\dfrac12\cdot20\cdot10^{-6}\cdot5^2=2{,}5\cdot10^{-4}\,\mathrm J=0{,}25\,\mathrm{mJ}$.
 
-    <!-- audit-note: Source answer cell is blank; learner-facing result is independently computed from the printed data. -->
+    <!-- source-audit: Ô đáp án PDF để trống; kết quả được tính độc lập. -->
 
 #### Bài 15
 
@@ -240,7 +240,7 @@ muốn năng lượng của tụ là $22{,}5\,\mathrm{mJ}$ thì phải đặt v�
     Với cùng một tụ, $W=\dfrac12CU^2$ nên $W\propto U^2$. Do đó
     $U_2=U_1\sqrt{W_2/W_1}=10\sqrt{22{,}5/10}=15\,\mathrm V$.
 
-    <!-- audit-note: Source answer cell is blank; learner-facing result is independently computed from the printed data. -->
+    <!-- source-audit: Ô đáp án PDF để trống; kết quả được tính độc lập. -->
 
 #### Bài 16
 
@@ -255,7 +255,7 @@ Cho một tụ điện có điện dung $3\,\mathrm{pF}$ được tích điện 
 
     $W=\dfrac{Q^2}{2C}=\dfrac{(9\cdot10^{-6})^2}{2\cdot3\cdot10^{-12}}=13{,}5\,\mathrm J$.
 
-    <!-- audit-note: Source answer cell is blank; learner-facing result is independently computed from the printed data. -->
+    <!-- source-audit: Ô đáp án PDF để trống; kết quả được tính độc lập. -->
 
 #### Bài 17
 
@@ -263,7 +263,7 @@ Cho một tụ điện có điện dung $3\,\mathrm{pF}$ được tích điện 
 
 Trong một đèn Flash chụp ảnh đơn giản, người ta sử dụng một tụ điện để có thể phát ra một chùm
 sáng với cường độ đủ lớn trong thời gian ngắn. Giả sử tụ điện được sử dụng có điện dung $0,20\,\mathrm F$ được sạc
-bằng pin $9,0\,\mathrm V$, sau đó tụ phóng điện trong $0,001\,\mathrm s$. Công suất phóng điện của tụ bằng bao nhiêu W?
+bằng pin $9,0\,\mathrm V$, sau đó tụ phóng điện trong $0,001\,\mathrm s$. Công suất **trung bình** trong thời gian phóng điện của tụ bằng bao nhiêu W?
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** $8{,}1\cdot10^3\,\mathrm W$.
@@ -273,7 +273,7 @@ bằng pin $9,0\,\mathrm V$, sau đó tụ phóng điện trong $0,001\,\mathrm 
     Năng lượng ban đầu của tụ là $W=\dfrac12CU^2=\dfrac12\cdot0{,}20\cdot9{,}0^2=8{,}1\,\mathrm J$.
     Nếu năng lượng này được phóng trong $0{,}001\,\mathrm s$ thì công suất trung bình là $P=W/t=8{,}1\cdot10^3\,\mathrm W$.
 
-    <!-- audit-note: Source answer cell is blank; learner-facing result is independently computed from the printed data. -->
+    <!-- source-audit: Ô đáp án PDF để trống; kết quả được tính độc lập. -->
 
 #### Bài 18
 
@@ -288,7 +288,7 @@ Cho một tụ điện có điện dung $2\,\mathrm{pF}$ được tích điện 
 
     $W=\dfrac{Q^2}{2C}=\dfrac{(9\cdot10^{-6})^2}{2\cdot2\cdot10^{-12}}=20{,}25\,\mathrm J$.
 
-    <!-- audit-note: Source answer cell is blank; learner-facing result is independently computed from the printed data. -->
+    <!-- source-audit: Ô đáp án PDF để trống; kết quả được tính độc lập. -->
 
 #### Bài 19
 
@@ -306,7 +306,7 @@ lượng tụ điện đã chuyển qua đèn bằng bao nhiêu J?
     Năng lượng chuyển qua đèn bằng độ giảm năng lượng của tụ:
     $\Delta W=\dfrac12C(U_1^2-U_2^2)=\dfrac12\cdot4500\cdot10^{-6}(12^2-6^2)=0{,}243\,\mathrm J$.
 
-    <!-- audit-note: Source answer cell is blank; learner-facing result is independently computed from the printed data. -->
+    <!-- source-audit: Ô đáp án PDF để trống; kết quả được tính độc lập. -->
 
 #### Bài 20
 
@@ -322,5 +322,5 @@ Một tụ điện phẳng có điện dung $4\,\mu\mathrm F$, khoảng cách gi
     Từ $W_{\max}=\dfrac12CU_{\max}^2$ suy ra $U_{\max}=\sqrt{2W_{\max}/C}=150\,\mathrm V$.
     Với $d=1\,\mathrm{mm}=10^{-3}\,\mathrm m$, $E_{\max}=U_{\max}/d=1{,}5\cdot10^5\,\mathrm{V/m}=150\cdot10^3\,\mathrm{V/m}$.
 
-    <!-- audit-note: Source answer cell is blank; learner-facing result is independently computed from the printed data. -->
+    <!-- source-audit: Ô đáp án PDF để trống; kết quả được tính độc lập. -->
 

@@ -305,22 +305,22 @@ D. dự trữ điện tích của nguồn điện.
 
 <!-- source-id: BT-Chuong-IV-p62-q4-196 -->
 
-Khi nguồn có điện trở trong $r>0$ đang phát điện và có dòng điện chạy qua nguồn, hiệu điện thế giữa hai cực của nguồn có độ lớn
+Khi một nguồn điện có điện trở trong $r>0$ đang phát điện với cường độ dòng điện $I>0$, hiệu điện thế giữa hai cực của nguồn có độ lớn
 
-A. luôn bằng suất điện động của nguồn điện.
+A. luôn bằng suất điện động của nguồn điện khi có dòng điện chạy qua nguồn.
 
-B. luôn lớn hơn suất điện động của nguồn điện.
+B. luôn lớn hơn suất điện động của nguồn điện khi có dòng điện chạy qua nguồn.
 
-C. luôn nhỏ hơn suất điện động của nguồn điện.
+C. luôn nhỏ hơn suất điện động của nguồn điện khi có dòng điện chạy qua nguồn.
 
-D. luôn lớn hơn hoặc bằng suất điện động của nguồn điện.
+D. luôn lớn hơn hoặc bằng suất điện động của nguồn điện khi có dòng điện chạy qua nguồn.
 
 ??? success "Đáp án và lời giải"
     **Đáp án:** C
 
     **Hướng dẫn giải:**
 
-    Khi nguồn đang **phát điện**, $U=\mathcal E-Ir$. Với $I>0$ và $r>0$ thì $U<\mathcal E$, nên theo chế độ mà câu hỏi nguồn đang xét chọn C.
+    Ở chế độ phát điện, $U=\mathcal E-Ir$. Với $I>0$ và $r>0$ thì $U<\mathcal E$, nên chọn **C**.
 #### Bài 19
 
 <!-- source-id: BT-Chuong-IV-p62-q5-197 -->
@@ -828,7 +828,7 @@ A. Là đại lượng đặc trưng cho khả năng thực hiện công của n
 
 B. Suất điện động của nguồn điện đặc trưng cho khả năng tích điện của nguồn.
 
-C. Được xác định bằng biểu thức A = ξq = ξIt.
+C. Công của nguồn là $A=\xi q$; nếu dòng điện không đổi thì $A=\xi It$.
 
 D. Có đơn vị là Volt (V).
 

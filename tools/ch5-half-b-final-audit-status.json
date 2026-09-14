@@ -1,0 +1,190 @@
+{
+  "base_version": "education-hub-v17.zip",
+  "scope": "docs/physics/high-school/grade-11/05-current-media/",
+  "mode": "CONTINUE / AUDIT / UPDATE / FINAL AUDIT",
+  "web_verification": {
+    "policy": "mandatory for Chapters V-VIII; curriculum-aligned web sources are cross-checked with stronger academic/standards sources",
+    "sources": [
+      {
+        "name": "Vật Lí Phổ Thông (vatlypt.com) — Dòng điện trong chất bán dẫn",
+        "url": "https://vatlypt.com/dong-dien-trong-chat-ban-dan.html",
+        "use": "THPT terminology, electron/hole carriers, n/p majority carriers"
+      },
+      {
+        "name": "Vật Lí Phổ Thông (vatlypt.com) — Dòng điện trong chân không, tế bào quang điện",
+        "url": "https://vatlypt.com/dong-dien-trong-chan-khong-te-bao-quang-dien.html",
+        "use": "THPT terminology and scope for vacuum current, cathode rays and photoelectric cell"
+      },
+      {
+        "name": "OpenStax University Physics Vol. 3 — Semiconductor Devices",
+        "url": "https://openstax.org/books/university-physics-volume-3/pages/9-7-semiconductor-devices",
+        "use": "p/n doping, depletion layer, forward/reverse bias and rectification"
+      },
+      {
+        "name": "OpenStax University Physics Vol. 3 — Photoelectric Effect",
+        "url": "https://openstax.org/books/university-physics-volume-3/pages/6-2-photoelectric-effect",
+        "use": "photoelectron emission and evacuated photoelectric-cell operation"
+      },
+      {
+        "name": "OpenStax College Physics/AP — cathode-ray electron acceleration",
+        "url": "https://openstax.org/books/college-physics-ap-courses/pages/29-3-photon-energies-and-the-electromagnetic-spectrum",
+        "use": "electron acceleration through a potential difference and cathode-ray-tube context"
+      },
+      {
+        "name": "NIST/CODATA — elementary charge",
+        "url": "https://physics.nist.gov/cuu/Constants/Value/e.html",
+        "use": "elementary charge conversion used in electron/eV checks"
+      }
+    ]
+  },
+  "practice_partition": {
+    "HALF A": [
+      "01-current-in-metals",
+      "02-electrolytes-faraday",
+      "03-current-in-gases"
+    ],
+    "HALF B": [
+      "04-semiconductors",
+      "05-vacuum-photoelectric-cell"
+    ]
+  },
+  "half_b_audit": {
+    "04-semiconductors": [
+      {
+        "bai": 1,
+        "status": "VERIFIED",
+        "independent_check": "intrinsic semiconductor has both conduction electrons and holes; C only"
+      },
+      {
+        "bai": 2,
+        "status": "VERIFIED",
+        "independent_check": "donor-doped n-type semiconductor has electrons as majority carriers; B only"
+      },
+      {
+        "bai": 3,
+        "status": "VERIFIED",
+        "independent_check": "p-n diode is strongly asymmetric in forward/reverse conduction within normal operating range; B only"
+      },
+      {
+        "bai": 4,
+        "status": "VERIFIED",
+        "independent_check": "a True; b True; c True; d False; each statement checked independently; hole is an effective positive carrier, not a free proton"
+      },
+      {
+        "bai": 5,
+        "status": "VERIFIED",
+        "independent_check": "n-type: electrons majority, holes minority under the stated ordinary semiconductor model"
+      },
+      {
+        "bai": 6,
+        "status": "VERIFIED",
+        "independent_check": "p-type: holes majority, electrons minority under the stated ordinary semiconductor model"
+      },
+      {
+        "bai": 7,
+        "status": "VERIFIED",
+        "independent_check": "forward bias lowers the junction barrier and reverse bias suppresses current before breakdown; rectification is the intended property"
+      },
+      {
+        "bai": 8,
+        "status": "VERIFIED",
+        "independent_check": "constant-forward-drop model: U_R=5-0.7=4.3 V; R=1000 ohm; I=4.3 mA; approximation condition is stated"
+      }
+    ],
+    "05-vacuum-photoelectric-cell": [
+      {
+        "bai": 1,
+        "status": "VERIFIED",
+        "independent_check": "vacuum current can be carried by electrons emitted from cathode and collected by a positive anode; A only"
+      },
+      {
+        "bai": 2,
+        "status": "VERIFIED",
+        "independent_check": "thermionic emission requires a sufficiently heated emitting cathode; A only"
+      },
+      {
+        "bai": 3,
+        "status": "VERIFIED",
+        "independent_check": "cathode rays are electron beams; A only"
+      },
+      {
+        "bai": 4,
+        "status": "VERIFIED",
+        "independent_check": "a True; b True; c True; d False; each statement checked separately; electron force sign F=-eE is correct"
+      },
+      {
+        "bai": 5,
+        "status": "VERIFIED",
+        "independent_check": "electron accelerated through 2 kV gains 2000 eV = 2 keV in kinetic energy magnitude"
+      },
+      {
+        "bai": 6,
+        "status": "VERIFIED",
+        "independent_check": "2000 eV * 1.6e-19 J/eV = 3.2e-16 J"
+      },
+      {
+        "bai": 7,
+        "status": "VERIFIED",
+        "independent_check": "q=It=20e-6 A * 1 s = 20 microC = 2.0e-5 C"
+      },
+      {
+        "bai": 8,
+        "status": "VERIFIED",
+        "independent_check": "classical energy eU=mv^2/2 at 5 kV gives v=4.19e7 m/s=0.140c; relativistic correction is below 1%, so the stated model comment is reasonable"
+      }
+    ]
+  },
+  "half_b_summary": {
+    "TOTAL_IN_SCOPE": 16,
+    "AUDITED": 16,
+    "VERIFIED": 16,
+    "FIXED": 0,
+    "UNRESOLVED": 0
+  },
+  "chapter_practice_summary": {
+    "TOTAL_EXERCISES": 40,
+    "AUDITED": 40,
+    "VERIFIED": 39,
+    "FIXED": 1,
+    "UNRESOLVED": 0,
+    "note": "Counts refer to the five per-lesson practice folders. HALF A contributes 23 VERIFIED + 1 FIXED; HALF B contributes 16 VERIFIED."
+  },
+  "final_academic_audit": {
+    "theory": "cross-checked against the already audited v17 theory plus mandatory web verification; no new theory correction required in V.2",
+    "practice_sync": "all five per-lesson exercises.md files have Bài 1-8 matching solutions.md Bài 1-8",
+    "source_provenance": "no source-id/source-alias-id blocks exist in Chapter V authored practice; no duplicate provenance issue",
+    "searches": {
+      "learner_facing_source_notes": "none",
+      "no_matching_option_phrase": "none",
+      "generic_solution_placeholders": "none",
+      "dead_local_links": 0,
+      "latex_legacy_delimiters": "none"
+    },
+    "chapter_level_fixes": [
+      {
+        "file": "exercises.md / solutions.md",
+        "item": "Câu 19",
+        "type": "prompt/solution consistency",
+        "change": "kept all data; prompt now explicitly asks to assess consistency; solution reports H≈248% and identifies the data as incompatible with the stated one-photon/one-collected-electron counting model"
+      },
+      {
+        "file": "quiz.md",
+        "item": "Câu 4",
+        "type": "condition of application",
+        "change": "made constant-current condition explicit before using q=It and m=AIt/(nF); correct option B unchanged"
+      }
+    ],
+    "unresolved": []
+  },
+  "next": "hoàn tất Chương V",
+  "quality_gate": {
+    "tools/test_quality_gate.py": "NOT RUN — file does not exist in source of truth v17",
+    "check_practice_bank.py": "PASS — 0 structural errors",
+    "check_pdf_import.py": "PASS — 0 integrity errors",
+    "check_solution_quality.py": "PASS — 0 errors",
+    "check_site.py": "PARTIAL — lint 0 errors/0 warnings; command exits 1 at BUILD001 because mkdocs executable is missing",
+    "pip_install_requirements": "FAILED — DNS/name resolution prevented installing mkdocs-material>=9,<10",
+    "mkdocs_build_strict": "NOT RUN — mkdocs executable unavailable after dependency install failed"
+  },
+  "checkpoint": "education-hub-v18.zip"
+}

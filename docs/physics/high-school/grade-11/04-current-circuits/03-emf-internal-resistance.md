@@ -39,10 +39,10 @@ Các lực thực hiện công đó thường được gọi chung là **lực l
 Suất điện động $\mathcal E$ của nguồn:
 
 $$
-\boxed{\mathcal E=\frac{A_{\text{nguồn}}}{q}}.
+\boxed{\mathcal E=\frac{A_{\text{nguồn}}}{q}},\qquad q>0.
 $$
 
-Trong đó $A_{\text{nguồn}}$ là công của lực lạ khi dịch chuyển một điện lượng dương $q$ bên trong nguồn, từ cực âm về cực dương.
+Trong đó $A_{\text{nguồn}}$ là công của lực lạ khi dịch chuyển một lượng điện tích dương $q$ bên trong nguồn từ cực âm về cực dương. Cách viết $q>0$ giúp tránh nhầm dấu khi hạt tải điện thực tế là electron.
 
 Đơn vị: volt (V).
 
@@ -92,19 +92,18 @@ Không nên học thuộc dấu tách rời chiều dòng; hãy dùng quy tắc 
 
 ## 6. Công và công suất nguồn
 
-Với dòng điện không đổi trong thời gian $t$, điện lượng $q=It$ đi qua nguồn.
+Trong thời gian $t$, nếu dòng điện không đổi thì lượng điện tích đi qua nguồn là $q=It$.
 
-Công của nguồn:
-
-$$
-\boxed{A_{\text{nguồn}}=\mathcal E It}.
-$$
-
-Công suất nguồn:
+Khi nguồn **đang phát điện**, công của lực lạ và công suất chuyển hóa năng lượng của nguồn là:
 
 $$
-\boxed{P_{\text{nguồn}}=\mathcal E I}.
+\begin{aligned}
+A_{\text{nguồn}}&=\mathcal E It,\\
+P_{\text{nguồn}}&=\mathcal E I.
+\end{aligned}
 $$
+
+Khi nguồn đang được nạp, phần tử nhận điện năng từ mạch ngoài; không dùng dấu của $P_{\text{nguồn}}=\mathcal E I$ tách rời quy ước chiều dòng để kết luận nguồn đang phát hay nhận năng lượng.
 
 Phần hao phí trong nguồn:
 
@@ -112,7 +111,7 @@ $$
 P_{\text{hp}}=I^2r.
 $$
 
-Công suất mạch ngoài trong trường hợp R:
+Nếu mạch ngoài là điện trở thuần $R$, công suất nhận ở mạch ngoài là:
 
 $$
 P_R=I^2R=UI.

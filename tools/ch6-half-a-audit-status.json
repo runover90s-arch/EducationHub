@@ -1,0 +1,241 @@
+{
+  "base_version": "education-hub-v18.zip",
+  "scope": "docs/physics/high-school/grade-11/06-magnetism/",
+  "mode": "AUDIT / UPDATE",
+  "source_check": {
+    "working_tree": "continued directly from complete series 2/version 18 working tree",
+    "supplied_pdf_findings": [
+      "The supplied Grade 11 formula/map/current-electricity ebooks do not contain a dedicated Chapter VI magnetic-field corpus; their visible tables of contents end at current electricity/circuits for the relevant Grade 11 volume.",
+      "BT-Chương II_1.pdf contains occurrences of 'từ trường' only in the electromagnetic-wave context, not the Chapter VI magnetostatics/current-field curriculum audited here.",
+      "BT-Chương IV_1.pdf contains only scattered mentions such as superconducting coils producing strong magnetic fields, not a Chapter VI source bank.",
+      "Therefore no learner-facing Chapter VI content was attributed to the supplied PDFs; they were used only for general corpus style where appropriate."
+    ]
+  },
+  "web_verification": {
+    "policy": "mandatory for Chapters V-VIII; THPT-oriented sources are cross-checked with stronger academic sources",
+    "sources": [
+      {
+        "name": "Vật Lí Phổ Thông (vatlypt.com) — Từ trường, lực từ, cảm ứng từ",
+        "url": "https://vatlypt.com/tu-truong-luc-tu-cam-ung-tu-vat-li-lop-11.html",
+        "use": "Vietnamese THPT terminology and scope cross-check"
+      },
+      {
+        "name": "Vật Lí Phổ Thông (vatlypt.com) — Công thức lực Lorenxơ",
+        "url": "https://vatlypt.com/cong-thuc-luc-lorenxo-vat-li-lop-11.html",
+        "use": "THPT terminology for magnetic force on moving charge"
+      },
+      {
+        "name": "OpenStax University Physics Vol. 2 — Magnetic Force on a Current-Carrying Conductor",
+        "url": "https://openstax.org/books/university-physics-volume-2/pages/11-4-magnetic-force-on-a-current-carrying-conductor",
+        "use": "F = I l x B and conditions for straight wire/uniform field"
+      },
+      {
+        "name": "OpenStax University Physics Vol. 2 — Motion of a Charged Particle in a Magnetic Field",
+        "url": "https://openstax.org/books/university-physics-volume-2/pages/11-3-motion-of-a-charged-particle-in-a-magnetic-field",
+        "use": "Lorentz magnetic force, circular/helical motion, radius and period"
+      },
+      {
+        "name": "OpenStax University Physics Vol. 2 — Force and Torque on a Current Loop",
+        "url": "https://openstax.org/books/university-physics-volume-2/pages/11-5-force-and-torque-on-a-current-loop",
+        "use": "magnetic dipole moment, torque, equilibrium interpretation"
+      },
+      {
+        "name": "OpenStax University Physics Vol. 2 — Chapter 12 Key Equations",
+        "url": "https://openstax.org/books/university-physics-volume-2/pages/12-key-equations",
+        "use": "long straight wire, current loop, solenoid and parallel-current formulas"
+      }
+    ]
+  },
+  "theory_audit": [
+    {
+      "file": "01-magnetic-field-field-lines.md",
+      "status": "VERIFIED",
+      "corrections": []
+    },
+    {
+      "file": "02-magnetic-force-current-wire.md",
+      "status": "FIXED",
+      "corrections": [
+        "added explicit SI units for B, I, l and F at the main force formula; formula and existing examples unchanged"
+      ]
+    },
+    {
+      "file": "03-fields-of-currents-superposition.md",
+      "status": "VERIFIED",
+      "corrections": []
+    },
+    {
+      "file": "04-parallel-currents-current-loop.md",
+      "status": "FIXED",
+      "corrections": [
+        "made the long-wire/vacuum-or-air/away-from-ends conditions explicit for the parallel-current force formula",
+        "added SI units for magnetic dipole moment and torque"
+      ]
+    },
+    {
+      "file": "05-lorentz-force-charged-particle.md",
+      "status": "FIXED",
+      "corrections": [
+        "clarified that q v x B is the magnetic part of the Lorentz force and added SI units",
+        "made uniform-field/no-other-force condition explicit for helical motion",
+        "made the acceleration-through-potential and perpendicular-entry conditions explicit for the radius formula",
+        "made the crossed-field velocity-selector geometry and opposite-force condition explicit"
+      ]
+    }
+  ],
+  "practice_partition": {
+    "HALF A": [
+      "01-magnetic-field-field-lines",
+      "02-magnetic-force-current-wire",
+      "03-fields-of-currents-superposition"
+    ],
+    "HALF B": [
+      "04-parallel-currents-current-loop",
+      "05-lorentz-force-charged-particle"
+    ]
+  },
+  "practice_audit": {
+    "01-magnetic-field-field-lines": [
+      {
+        "bai": 1,
+        "status": "VERIFIED",
+        "independent_check": "tesla is the SI unit of magnetic flux density B; A only"
+      },
+      {
+        "bai": 2,
+        "status": "VERIFIED",
+        "independent_check": "outside a bar magnet field lines go N to S; B only"
+      },
+      {
+        "bai": 3,
+        "status": "VERIFIED",
+        "independent_check": "field-line tangent gives unique B direction, so distinct field lines do not cross; B only"
+      },
+      {
+        "bai": 4,
+        "status": "VERIFIED",
+        "independent_check": "a True; b True; c True; d True; each statement checked independently"
+      },
+      {
+        "bai": 5,
+        "status": "VERIFIED",
+        "independent_check": "0.20 T = 200 mT"
+      },
+      {
+        "bai": 6,
+        "status": "VERIFIED",
+        "independent_check": "stable magnetic dipole orientation has its north pole/magnetic moment along B"
+      },
+      {
+        "bai": 7,
+        "status": "VERIFIED",
+        "independent_check": "uniform-field diagram uses straight parallel equally spaced lines; nonuniform field varies direction and/or spacing"
+      },
+      {
+        "bai": 8,
+        "status": "VERIFIED",
+        "independent_check": "field-line density is qualitative unless the diagram defines a quantitative scale; a 2:1 visual density does not prove B_A/B_B=2"
+      }
+    ],
+    "02-magnetic-force-current-wire": [
+      {
+        "bai": 1,
+        "status": "VERIFIED",
+        "independent_check": "straight-wire uniform-field magnitude is F=B I l sin(alpha); A only"
+      },
+      {
+        "bai": 2,
+        "status": "VERIFIED",
+        "independent_check": "parallel/antiparallel current direction and B gives sin(alpha)=0, so F=0; B only"
+      },
+      {
+        "bai": 3,
+        "status": "VERIFIED",
+        "independent_check": "perpendicular wire gives F=B I l; B only"
+      },
+      {
+        "bai": 4,
+        "status": "VERIFIED",
+        "independent_check": "a True; b True; c True; d False; vector-direction reasoning checked separately"
+      },
+      {
+        "bai": 5,
+        "status": "VERIFIED",
+        "independent_check": "F=0.40*5*0.20=0.40 N"
+      },
+      {
+        "bai": 6,
+        "status": "VERIFIED",
+        "independent_check": "F=0.30*2*0.50*sin30deg=0.15 N"
+      },
+      {
+        "bai": 7,
+        "status": "VERIFIED",
+        "independent_check": "B=0.12/(3*0.20)=0.20 T"
+      },
+      {
+        "bai": 8,
+        "status": "VERIFIED",
+        "independent_check": "m=0.020 kg; balance B I l=mg gives I=1.0 A; required force direction is explicitly stated"
+      }
+    ],
+    "03-fields-of-currents-superposition": [
+      {
+        "bai": 1,
+        "status": "VERIFIED",
+        "independent_check": "long straight wire in vacuum: B=mu0 I/(2 pi r); A only"
+      },
+      {
+        "bai": 2,
+        "status": "VERIFIED",
+        "independent_check": "single circular loop at center: B=mu0 I/(2R); A only"
+      },
+      {
+        "bai": 3,
+        "status": "VERIFIED",
+        "independent_check": "long air-core solenoid away from ends: B≈mu0 n I; A only"
+      },
+      {
+        "bai": 4,
+        "status": "VERIFIED",
+        "independent_check": "a True; b True; c True; d False; superposition is vector addition"
+      },
+      {
+        "bai": 5,
+        "status": "VERIFIED",
+        "independent_check": "r=0.05 m; B=4.0e-5 T"
+      },
+      {
+        "bai": 6,
+        "status": "VERIFIED",
+        "independent_check": "R=0.10 m; B=pi*1e-5 T≈3.14e-5 T"
+      },
+      {
+        "bai": 7,
+        "status": "VERIFIED",
+        "independent_check": "n=2000 m^-1; B≈2.0106e-3 T"
+      },
+      {
+        "bai": 8,
+        "status": "VERIFIED",
+        "independent_check": "same-direction currents give opposite B only between wires; 4/x=9/(0.20-x) gives x=0.06154 m from the 4 A wire"
+      }
+    ]
+  },
+  "practice_summary": {
+    "TOTAL_IN_SCOPE": 24,
+    "CUMULATIVE_AUDITED": 24,
+    "VERIFIED": 24,
+    "FIXED": 0,
+    "UNRESOLVED": 0
+  },
+  "modified_practice_files": [],
+  "unresolved": [],
+  "next": "Chương VI — HALF B + FINAL AUDIT",
+  "quality_gate": {
+    "check_practice_bank.py": "PASS — 0 structural errors",
+    "check_solution_quality.py": "PASS — 0 errors",
+    "check_site.py --lint-only": "PASS — 0 errors, 0 warnings"
+  },
+  "checkpoint": "education-hub-v19.zip"
+}

@@ -1,0 +1,188 @@
+{
+  "base_version": "education-hub-v20.zip",
+  "scope": "docs/physics/high-school/grade-11/07-electromagnetic-induction/",
+  "mode": "AUDIT / UPDATE",
+  "source_check": {
+    "working_tree": "continued directly from complete series 2/version 20 working tree",
+    "supplied_pdf_findings": [
+      "EBOOK SỔ TAY LÝ THUYẾT VẬT LÝ 10 11 12, IPCLASS contains a genuine Grade-11 magnetic-induction section: rendered pages corresponding to printed pages 78-81 cover magnetic flux, flux units, electromagnetic induction, Lenz law and Faraday law; later pages cover AC generation and Foucault currents.",
+      "The supplied Grade-11 map/formula/current-electricity ebooks do not provide a dedicated Chapter VII electromagnetic-induction corpus in their visible Grade-11 tables of contents.",
+      "The inspected magnetic-induction segment of the IPCLASS theory handbook does not provide the self-inductance/inductor-energy treatment used by lesson 04; that material was therefore verified independently rather than attributed to the PDF.",
+      "No BT-Chương I-IV source was treated as a Chapter VII exercise bank because text scans did not locate a corresponding Faraday/Lenz/self-induction section."
+    ]
+  },
+  "web_verification": {
+    "policy": "mandatory for Chapters V-VIII; THPT-oriented sources are cross-checked against academic/standards sources",
+    "sources": [
+      {
+        "name": "Vật Lí Phổ Thông — Từ thông, hiện tượng cảm ứng điện từ",
+        "url": "https://vatlypt.com/chuyen-de-tu-thong-cam-ung-dien-tu-vat-li-lop-11.html",
+        "use": "Vietnamese THPT terminology and scope for magnetic flux, Faraday and Lenz"
+      },
+      {
+        "name": "OpenStax University Physics Vol. 2 — Faraday's Law",
+        "url": "https://openstax.org/books/university-physics-volume-2/pages/13-1-faradays-law",
+        "use": "signed magnetic flux and instantaneous Faraday law"
+      },
+      {
+        "name": "OpenStax College Physics — Faraday's Law of Induction: Lenz's Law",
+        "url": "https://openstax.org/books/college-physics/pages/23-2-faradays-law-of-induction-lenzs-law",
+        "use": "average induced emf, N-turn factor and Lenz-law direction"
+      },
+      {
+        "name": "OpenStax University Physics Vol. 2 — Motional Emf",
+        "url": "https://openstax.org/books/university-physics-volume-2/pages/13-3-motional-emf",
+        "use": "motional emf Blv, rail/rod model and magnetic-force origin"
+      },
+      {
+        "name": "OpenStax University Physics Vol. 2 — Self-Inductance and Inductors",
+        "url": "https://openstax.org/books/university-physics-volume-2/pages/14-2-self-inductance-and-inductors",
+        "use": "self-induced emf, inductance definition and linear-inductor conditions"
+      },
+      {
+        "name": "NIST Guide to the SI — SI derived units",
+        "url": "https://www.nist.gov/pml/special-publication-811/nist-guide-si-chapter-4-two-classes-si-units-and-si-prefixes",
+        "use": "Wb, T, H and their SI relations"
+      }
+    ]
+  },
+  "theory_audit": [
+    {
+      "file": "01-magnetic-flux-induction.md",
+      "status": "VERIFIED",
+      "corrections": []
+    },
+    {
+      "file": "02-lenz-faraday-law.md",
+      "status": "VERIFIED",
+      "corrections": []
+    },
+    {
+      "file": "03-motional-emf.md",
+      "status": "FIXED",
+      "corrections": [
+        "corrected the microscopic description for a metal rod: conduction electrons move to one side while the opposite side is positive because of electron deficit; it no longer implies mobile positive and negative carriers in the metal"
+      ]
+    },
+    {
+      "file": "04-self-induction-energy.md",
+      "status": "FIXED",
+      "corrections": [
+        "added the SI relation 1 H = 1 Wb/A = 1 V s/A",
+        "made the linear/constant-L condition explicit for W = (1/2) L I^2"
+      ]
+    }
+  ],
+  "practice_partition": {
+    "HALF A": [
+      "01-magnetic-flux-induction",
+      "02-lenz-faraday-law"
+    ],
+    "HALF B": [
+      "03-motional-emf",
+      "04-self-induction-energy"
+    ]
+  },
+  "practice_audit": {
+    "01-magnetic-flux-induction": [
+      {
+        "bai": 1,
+        "status": "VERIFIED",
+        "independent_check": "for uniform B and planar S, Phi=B S cos(alpha) with alpha measured from the chosen normal; A only"
+      },
+      {
+        "bai": 2,
+        "status": "VERIFIED",
+        "independent_check": "SI magnetic-flux unit is weber; B only"
+      },
+      {
+        "bai": 3,
+        "status": "VERIFIED",
+        "independent_check": "B parallel to the plane gives alpha=90 degrees to the normal, so Phi=0; B only"
+      },
+      {
+        "bai": 4,
+        "status": "VERIFIED",
+        "independent_check": "a True; b True; c False; d True; each statement checked from signed flux and Faraday condition"
+      },
+      {
+        "bai": 5,
+        "status": "VERIFIED",
+        "independent_check": "50 cm^2=5.0e-3 m^2; Phi=0.2*5.0e-3=1.0e-3 Wb"
+      },
+      {
+        "bai": 6,
+        "status": "VERIFIED",
+        "independent_check": "100 cm^2=1.0e-2 m^2; Phi=0.5*1.0e-2*cos60=2.5e-3 Wb"
+      },
+      {
+        "bai": 7,
+        "status": "VERIFIED",
+        "independent_check": "normal rotates from parallel to perpendicular to B, so |Phi| drops from BS to 0: decrease BS"
+      },
+      {
+        "bai": 8,
+        "status": "VERIFIED",
+        "independent_check": "S=2.0e-3 m^2, deltaB=0.3 T; N|deltaPhi|=200*2.0e-3*0.3=0.12 Wb-turn; stated time is not needed for the asked quantity"
+      }
+    ],
+    "02-lenz-faraday-law": [
+      {
+        "bai": 1,
+        "status": "VERIFIED",
+        "independent_check": "N identical turns: average magnitude |E|=N|deltaPhi|/delta t; A only"
+      },
+      {
+        "bai": 2,
+        "status": "VERIFIED",
+        "independent_check": "Lenz determines induced-current direction so the induced magnetic effect opposes the flux change; B only"
+      },
+      {
+        "bai": 3,
+        "status": "VERIFIED",
+        "independent_check": "one turn: 0.02/0.10=0.20 V; B only"
+      },
+      {
+        "bai": 4,
+        "status": "VERIFIED",
+        "independent_check": "a True; b True; c True; d False; open circuit can have emf but closed conducting path is required for loop current"
+      },
+      {
+        "bai": 5,
+        "status": "VERIFIED",
+        "independent_check": "|deltaPhi|=3e-4 Wb per turn; 100*3e-4/0.02=1.5 V"
+      },
+      {
+        "bai": 6,
+        "status": "VERIFIED",
+        "independent_check": "Phi=0.01 cos(100t) gives dPhi/dt=-sin(100t) Wb/s and E=+sin(100t) V under the stated orientation"
+      },
+      {
+        "bai": 7,
+        "status": "VERIFIED",
+        "independent_check": "B perpendicular to loop plane: |E|=N S deltaB/delta t=50*0.01*0.2/0.5=0.20 V"
+      },
+      {
+        "bai": 8,
+        "status": "VERIFIED",
+        "independent_check": "signed flux changes +0.06 to -0.02 Wb, deltaPhi=-0.08 Wb; |E|=2.0 V and, for constant purely resistive R=2 ohm, I=1.0 A"
+      }
+    ]
+  },
+  "practice_summary": {
+    "TOTAL_IN_SCOPE": 16,
+    "CUMULATIVE_AUDITED": 16,
+    "VERIFIED": 16,
+    "FIXED": 0,
+    "UNRESOLVED": 0
+  },
+  "modified_practice_files": [],
+  "unresolved": [],
+  "next": "Chương VII — HALF B + FINAL AUDIT",
+  "quality_gate": {
+    "check_practice_bank.py": "PASS — 0 structural errors",
+    "check_solution_quality.py": "PASS — 0 errors",
+    "check_site.py --lint-only": "PASS — 0 errors, 0 warnings"
+  },
+  "checkpoint": "education-hub-v21.zip"
+}

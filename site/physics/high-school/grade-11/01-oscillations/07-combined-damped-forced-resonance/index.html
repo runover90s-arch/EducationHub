@@ -12250,8 +12250,8 @@ x=A\cos(\omega t+\varphi).
 </ul>
 <h1 id="phan-b-cac-loai-dao-ong">Phần B — Các loại dao động</h1>
 <h2 id="5-dao-ong-tu-do">5. Dao động tự do</h2>
-<p>Dao động tự do là dao động sau khi hệ được kích thích ban đầu rồi để hệ tự dao động dưới tác dụng của lực nội tại của nó.</p>
-<p>Trong mô hình lí tưởng, tần số dao động bằng tần số riêng của hệ.</p>
+<p>Dao động tự do là dao động sau khi hệ được kích thích ban đầu rồi để hệ tự dao động, không còn chịu ngoại lực tuần hoàn áp đặt tần số.</p>
+<p>Trong mô hình lí tưởng, tần số dao động bằng tần số riêng do các đặc trưng của hệ quyết định.</p>
 <p>Ví dụ: con lắc lò xo không ma sát sau khi kéo lệch rồi thả.</p>
 <h2 id="6-dao-ong-tat-dan">6. Dao động tắt dần</h2>
 <p>Dao động tắt dần là dao động có biên độ giảm dần theo thời gian do lực cản hoặc ma sát làm cơ năng cơ học giảm.</p>
@@ -12260,7 +12260,7 @@ x=A\cos(\omega t+\varphi).
 <li>biên độ giảm dần;</li>
 <li>cơ năng giảm dần;</li>
 <li>phần năng lượng cơ học mất đi chuyển thành nội năng/nhiệt hoặc các dạng khác;</li>
-<li>lực cản càng lớn, dao động tắt càng nhanh.</li>
+<li>trong chế độ hệ vẫn còn dao động qua lại, lực cản lớn hơn thường làm biên độ suy giảm nhanh hơn. Nếu lực cản đủ lớn, hệ có thể trở về vị trí cân bằng mà không còn dao động qua lại, nên không dùng nhận xét này như một quy luật tuyệt đối cho mọi mức cản.</li>
 </ul>
 <h3 id="co-phai-moi-dao-ong-tat-dan-eu-xau">Có phải mọi dao động tắt dần đều xấu?</h3>
 <p>Không. Giảm xóc ô tô, bộ phận giảm rung và cơ cấu đóng cửa cần tắt dao động nhanh. Ngược lại, trong đồng hồ cơ hoặc hệ cần duy trì rung, tắt dần là điều cần bù lại.</p>
@@ -12286,15 +12286,12 @@ F=F_0\cos(\omega_Ft+\phi_F).
 <p>Tần số dao động cưỡng bức ổn định <strong>không bằng tần số riêng</strong> trong mọi trường hợp. Nó bằng tần số ngoại lực. Tần số riêng chỉ quyết định vị trí cộng hưởng.</p>
 </div>
 <h2 id="9-cong-huong">9. Cộng hưởng</h2>
-<p>Cộng hưởng là hiện tượng biên độ dao động cưỡng bức tăng mạnh và đạt cực đại khi tần số của lực cưỡng bức gần hoặc bằng tần số riêng của hệ, tùy mô hình và mức cản.</p>
-<p>Trong mô hình phổ thông với lực cản nhỏ:</p>
+<p>Cộng hưởng là hiện tượng biên độ dao động cưỡng bức tăng mạnh và đạt cực đại khi tần số của lực cưỡng bức ở gần tần số riêng của hệ.</p>
+<p>Trong mô hình phổ thông khi lực cản nhỏ, thường lấy điều kiện cộng hưởng:</p>
 <div class="arithmatex">\[
-\boxed{f_F\approx f_0}.
+\boxed{f_F=f_0},
 \]</div>
-<p>Hoặc theo tần số góc:</p>
-<div class="arithmatex">\[
-\omega_F\approx\omega_0.
-\]</div>
+<p>hay <span class="arithmatex">\(\omega_F=\omega_0\)</span>. Với mô hình có giảm chấn xét chính xác, tần số làm biên độ li độ cực đại có thể lệch nhẹ so với tần số riêng; khi lực cản nhỏ, độ lệch này nhỏ.</p>
 <h2 id="10-anh-huong-cua-luc-can-en-cong-huong">10. Ảnh hưởng của lực cản đến cộng hưởng</h2>
 <p>Nếu lực cản nhỏ:</p>
 <ul>
@@ -12341,18 +12338,18 @@ F=F_0\cos(\omega_Ft+\phi_F).
 </ol>
 <p>Không dùng kết quả này cho mọi dạng lực cản; nó phụ thuộc mô hình lực cản đề bài cho.</p>
 <h2 id="vi-du-1-tong-hop-cung-pha">Ví dụ 1 — Tổng hợp cùng pha</h2>
-<p><span class="arithmatex">\(A_1=3\)</span> cm, <span class="arithmatex">\(A_2=5\)</span> cm và hai dao động cùng pha.</p>
+<p><span class="arithmatex">\(A_1=3\,\mathrm{cm}\)</span>, <span class="arithmatex">\(A_2=5\,\mathrm{cm}\)</span> và hai dao động cùng pha.</p>
 <p>Biên độ tổng hợp:</p>
 <div class="arithmatex">\[
 A=8\text{ cm}.
 \]</div>
 <h2 id="vi-du-2-tong-hop-vuong-pha">Ví dụ 2 — Tổng hợp vuông pha</h2>
-<p><span class="arithmatex">\(A_1=6\)</span> cm, <span class="arithmatex">\(A_2=8\)</span> cm, <span class="arithmatex">\(\Delta\varphi=\pi/2\)</span>.</p>
+<p><span class="arithmatex">\(A_1=6\,\mathrm{cm}\)</span>, <span class="arithmatex">\(A_2=8\,\mathrm{cm}\)</span>, <span class="arithmatex">\(\Delta\varphi=\pi/2\)</span>.</p>
 <div class="arithmatex">\[
 A=\sqrt{6^2+8^2}=10\text{ cm}.
 \]</div>
 <h2 id="vi-du-3-cong-huong">Ví dụ 3 — Cộng hưởng</h2>
-<p>Một hệ có tần số riêng <span class="arithmatex">\(4\)</span> Hz. Ngoại lực có thể điều chỉnh tần số. Khi lực cản nhỏ, biên độ lớn nhất sẽ xuất hiện quanh <span class="arithmatex">\(4\)</span> Hz, không phải ở tần số tùy ý lớn hơn.</p>
+<p>Một hệ có tần số riêng <span class="arithmatex">\(4\,\mathrm{Hz}\)</span>. Ngoại lực có thể điều chỉnh tần số. Khi lực cản nhỏ, biên độ lớn nhất sẽ xuất hiện quanh <span class="arithmatex">\(4\,\mathrm{Hz}\)</span>, không phải ở tần số tùy ý lớn hơn.</p>
 <h2 id="phan-dang">Phân dạng</h2>
 <blockquote>
 <p>Đây là cách phân loại phục vụ mục đích sư phạm, không phải phân loại học thuật chính thức.</p>
@@ -12380,18 +12377,18 @@ A=\sqrt{6^2+8^2}=10\text{ cm}.
 </div>
 <h2 id="bai-tap-nhanh">Bài tập nhanh</h2>
 <ol>
-<li>Hai dao động cùng phương, cùng tần số có <span class="arithmatex">\(A_1=4\)</span> cm, <span class="arithmatex">\(A_2=7\)</span> cm, cùng pha. Tìm <span class="arithmatex">\(A\)</span>.</li>
+<li>Hai dao động cùng phương, cùng tần số có <span class="arithmatex">\(A_1=4\,\mathrm{cm}\)</span>, <span class="arithmatex">\(A_2=7\,\mathrm{cm}\)</span>, cùng pha. Tìm <span class="arithmatex">\(A\)</span>.</li>
 <li>Với cùng hai biên độ trên nhưng ngược pha, tìm <span class="arithmatex">\(A\)</span>.</li>
-<li><span class="arithmatex">\(A_1=A_2=5\)</span> cm, độ lệch pha <span class="arithmatex">\(120^\circ\)</span>. Tính <span class="arithmatex">\(A\)</span>.</li>
-<li>Một hệ có <span class="arithmatex">\(f_0=3\)</span> Hz chịu ngoại lực <span class="arithmatex">\(f_F=5\)</span> Hz. Ở trạng thái ổn định, hệ dao động với tần số bao nhiêu?</li>
+<li><span class="arithmatex">\(A_1=A_2=5\,\mathrm{cm}\)</span>, độ lệch pha <span class="arithmatex">\(120^\circ\)</span>. Tính <span class="arithmatex">\(A\)</span>.</li>
+<li>Một hệ có <span class="arithmatex">\(f_0=3\,\mathrm{Hz}\)</span> chịu ngoại lực <span class="arithmatex">\(f_F=5\,\mathrm{Hz}\)</span>. Ở trạng thái ổn định, hệ dao động với tần số bao nhiêu?</li>
 <li>Khi tăng lực cản, đỉnh cộng hưởng thường cao lên hay thấp xuống?</li>
 </ol>
 <h3 id="ap-an-nhanh">Đáp án nhanh</h3>
 <ol>
-<li><span class="arithmatex">\(11\)</span> cm.</li>
-<li><span class="arithmatex">\(3\)</span> cm.</li>
-<li><span class="arithmatex">\(5\)</span> cm.</li>
-<li><span class="arithmatex">\(5\)</span> Hz.</li>
+<li><span class="arithmatex">\(11\,\mathrm{cm}\)</span>.</li>
+<li><span class="arithmatex">\(3\,\mathrm{cm}\)</span>.</li>
+<li><span class="arithmatex">\(5\,\mathrm{cm}\)</span>.</li>
+<li><span class="arithmatex">\(5\,\mathrm{Hz}\)</span>.</li>
 <li>Thấp xuống.</li>
 </ol>
 <h2 id="tom-tat">Tóm tắt</h2>
