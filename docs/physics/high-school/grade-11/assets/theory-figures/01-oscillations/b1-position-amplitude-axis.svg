@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" role="img" aria-labelledby="title desc">
+<title id="title">Li độ, biên độ và chiều chuyển động</title>
+<desc id="desc">Trục dao động từ -A đến +A. Hai trạng thái tại cùng vị trí x dương có thể có vận tốc trái dấu, cho thấy dấu li độ không xác định chiều chuyển động.</desc>
+<style>
+  .bg { fill: #ffffff; }
+  .axis { stroke: #263238; stroke-width: 3; fill: none; }
+  .grid { stroke: #cfd8dc; stroke-width: 1.5; stroke-dasharray: 6 6; fill: none; }
+  .guide { stroke: #90a4ae; stroke-width: 2; stroke-dasharray: 7 6; fill: none; }
+  .blue { stroke: #1565c0; fill: none; }
+  .green { stroke: #2e7d32; fill: none; }
+  .red { stroke: #c62828; fill: none; }
+  .orange { stroke: #ef6c00; fill: none; }
+  .purple { stroke: #6a1b9a; fill: none; }
+  .bluefill { fill: #1565c0; }
+  .greenfill { fill: #2e7d32; }
+  .redfill { fill: #c62828; }
+  .orangefill { fill: #ef6c00; }
+  .purplefill { fill: #6a1b9a; }
+  .mutedfill { fill: #546e7a; }
+  .label { font: 28px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #263238; }
+  .small { font: 24px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #37474f; }
+  .tiny { font: 21px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #455a64; }
+  .strong { font-weight: 700; }
+  .center { text-anchor: middle; }
+  .right { text-anchor: end; }
+</style>
+<defs>
+  <marker id="arrow" markerWidth="12" markerHeight="10" refX="10" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L0,8 L11,4 z" fill="#263238"/></marker>
+  <marker id="arrow-blue" markerWidth="12" markerHeight="10" refX="10" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L0,8 L11,4 z" fill="#1565c0"/></marker>
+  <marker id="arrow-green" markerWidth="12" markerHeight="10" refX="10" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L0,8 L11,4 z" fill="#2e7d32"/></marker>
+  <marker id="arrow-red" markerWidth="12" markerHeight="10" refX="10" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L0,8 L11,4 z" fill="#c62828"/></marker>
+  <marker id="arrow-orange" markerWidth="12" markerHeight="10" refX="10" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L0,8 L11,4 z" fill="#ef6c00"/></marker>
+
+</defs>
+<rect class="bg" x="1" y="1" width="758" height="418" rx="18" stroke="#cfd8dc" stroke-width="2"/>
+
+<text x="380" y="45" class="label strong center">Li độ là vị trí có dấu, không phải chiều chuyển động</text>
+<line x1="85" y1="190" x2="685" y2="190" class="axis" marker-end="url(#arrow)"/>
+<rect x="145" y="176" width="470" height="28" rx="14" fill="#e3f2fd"/>
+<line x1="150" y1="168" x2="150" y2="212" class="axis"/>
+<line x1="380" y1="162" x2="380" y2="218" class="axis"/>
+<line x1="610" y1="168" x2="610" y2="212" class="axis"/>
+<text x="150" y="248" class="label strong center">−A</text>
+<text x="380" y="248" class="label strong center">O</text>
+<text x="610" y="248" class="label strong center">+A</text>
+<text x="700" y="181" class="small">+x</text>
+<text x="380" y="286" class="small center">Vật chỉ chuyển động trong đoạn [−A, +A], với A &gt; 0</text>
+
+<circle cx="500" cy="125" r="13" class="bluefill"/>
+<line x1="520" y1="125" x2="590" y2="125" stroke="#2e7d32" stroke-width="5" marker-end="url(#arrow-green)"/>
+<text x="600" y="132" class="small">v &gt; 0</text>
+<line x1="500" y1="140" x2="500" y2="176" class="guide"/>
+
+<circle cx="500" cy="335" r="13" class="bluefill"/>
+<line x1="480" y1="335" x2="410" y2="335" stroke="#ef6c00" stroke-width="5" marker-end="url(#arrow-orange)"/>
+<text x="398" y="342" class="small right">v &lt; 0</text>
+<line x1="500" y1="320" x2="500" y2="204" class="guide"/>
+<text x="500" y="375" class="small strong center">Cùng x &gt; 0,</text>
+<text x="500" y="405" class="small strong center">nhưng v có thể dương hoặc âm.</text>
+
+</svg>

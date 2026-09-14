@@ -31,6 +31,13 @@ Bạn cần làm được các việc sau:
 
 Con lắc lò xo lí tưởng gồm vật nhỏ khối lượng $m$ gắn với lò xo nhẹ có độ cứng $k$. Khi bỏ qua ma sát và lực cản, nếu xét li độ từ vị trí cân bằng, phương trình động lực học có dạng
 
+![Ba vị trí biên trái, vị trí cân bằng và biên phải của con lắc lò xo nằm ngang](../assets/theory-figures/01-oscillations/b4-spring-three-positions.svg){ loading=lazy }
+
+*Hình — Ba vị trí đặc trưng cho thấy li độ $x$ luôn được đo từ vị trí cân bằng $O$, còn biên độ $A$ là khoảng cách cực đại từ $O$ đến một biên.*
+
+!!! tip "Đọc hình"
+    Dấu của $x$ chỉ cho biết vật đang ở phía nào so với $O$: $x<0$ ở phía âm và $x>0$ ở phía dương. Biên độ $A$ luôn dương và vật chỉ chuyển động trong đoạn $[-A,A]$. Hình không cho biết chiều chuyển động tức thời; muốn biết vật đang đi sang trái hay sang phải phải xét thêm dấu của $v$.
+
 $$
 ma=-kx.
 $$
@@ -57,13 +64,6 @@ $$
 ### Ý nghĩa
 
 Chu kì chỉ phụ thuộc vào cấu tạo của hệ thông qua $m$ và $k$, không phụ thuộc biên độ nếu mô hình lò xo tuyến tính và các điều kiện lí tưởng còn đúng.
-
-![Con lắc lò xo ngang ở vị trí tức thời với hai biên, vị trí cân bằng và lực kéo về hướng về O](../assets/learning-visuals/oscillations/04-horizontal-spring-restoring-force.svg)
-
-*Hình — Con lắc lò xo ngang dao động quanh $O$: khi vật lệch khỏi cân bằng, lực kéo về luôn hướng về $O$.*
-
-**Ý nghĩa của hình:** Dấu của $x$ quyết định chiều của lực kéo về $F_{kv}=-kx$. Mũi tên lực không biểu diễn quỹ đạo; vật chỉ chuyển động dọc theo trục lò xo.
-
 
 ## 2. Ảnh hưởng của m và k
 
@@ -114,12 +114,12 @@ $$
 !!! note "Điểm quan trọng"
     Trọng lực làm thay đổi vị trí cân bằng nhưng không xuất hiện trực tiếp trong công thức $\omega=\sqrt{k/m}$ khi li độ được đo từ vị trí cân bằng.
 
-![Con lắc lò xo treo đứng phân biệt chiều dài tự nhiên, vị trí cân bằng và vị trí tức thời cùng độ dãn cân bằng](../assets/learning-visuals/oscillations/04-vertical-spring-reference-positions.svg)
+![Ba mốc chiều dài của lò xo treo đứng: tự nhiên, cân bằng và tức thời](../assets/theory-figures/01-oscillations/b4-vertical-spring-reference.svg){ loading=lazy }
 
-*Hình — Ba mốc khác nhau của lò xo treo đứng: chiều dài tự nhiên, vị trí cân bằng và vị trí tức thời.*
+*Hình — Cùng một lò xo có ba mốc khác nhau: chiều dài tự nhiên, chiều dài cân bằng sau khi treo vật và chiều dài tức thời khi vật lệch khỏi VTCB.*
 
-**Cách đọc hình:** Độ dãn cân bằng $\Delta\ell_0$ được đo từ chiều dài tự nhiên đến VTCB; li độ $x$ lại được đo từ VTCB. Vì vậy hai đại lượng này không thể dùng thay cho nhau.
-
+!!! tip "Đọc hình"
+    Ở VTCB, lò xo dãn thêm $\Delta\ell_0$ nên $k\Delta\ell_0=mg$. Nếu chọn chiều dương hướng xuống và vật đang có $x>0$, lò xo còn dãn thêm $x$, nên độ dãn tức thời là $\Delta\ell_0+x$. Vì vậy $x$ **không phải** độ dãn toàn phần của lò xo; $x$ luôn được tính từ VTCB.
 
 ## 4. Chiều dài của lò xo trong dao động
 
@@ -221,12 +221,12 @@ Nó luôn hướng về vị trí cân bằng và bằng $0$ tại vị trí câ
 
 Với con lắc treo thẳng đứng, lực đàn hồi riêng của lò xo tại vị trí cân bằng có độ lớn $mg$, nên **lực đàn hồi không bằng lực kéo về**. Hợp lực của lực đàn hồi và trọng lực mới tạo thành lực kéo về.
 
-![Sơ đồ so sánh lực đàn hồi đo theo độ biến dạng của lò xo và lực kéo về đo theo li độ so với vị trí cân bằng](../assets/learning-visuals/oscillations/04-elastic-vs-restoring-force.svg)
+![So sánh lực đàn hồi, trọng lực và lực kéo về của con lắc lò xo treo đứng](../assets/theory-figures/01-oscillations/b4-elastic-vs-restoring.svg){ loading=lazy }
 
-*Hình — Lực đàn hồi và lực kéo về dùng hai mốc khác nhau: chiều dài tự nhiên và vị trí cân bằng.*
+*Hình — Ở VTCB, lực đàn hồi cân bằng trọng lực nên hợp lực theo phương dao động bằng $0$; khi vật lệch xuống dưới VTCB, hợp lực hướng lên đóng vai trò lực kéo về.*
 
-**Dễ nhầm:** Ở VTCB của con lắc treo đứng, lực kéo về bằng $0$ nhưng lực đàn hồi không bằng $0$; khi đó lực đàn hồi cân bằng trọng lực.
-
+!!! tip "Đọc hình"
+    $F_{dh}$ là một lực riêng do lò xo gây ra và phụ thuộc độ biến dạng so với chiều dài tự nhiên. $F_{kv}$ là **hợp lực theo phương dao động**; trong mô hình điều hòa nó có dạng $F_{kv}=-kx$ và hướng về VTCB. Hai đại lượng chỉ trùng nhau trong những cấu hình mà các lực khác không góp phần theo phương dao động.
 
 ## 8. Năng lượng của con lắc lò xo
 
@@ -276,6 +276,13 @@ $$
 
 ## 10. Ghép lò xo
 
+![Sơ đồ ghép hai lò xo nối tiếp và song song](../assets/theory-figures/01-oscillations/b4-spring-series-parallel.svg){ loading=lazy }
+
+*Hình — Ghép nối tiếp tạo một chuỗi truyền lực qua từng lò xo; ghép song song làm các lò xo cùng nối với vật và cùng tham gia chống lại độ lệch của vật.*
+
+!!! tip "Đọc hình"
+    Hãy nhận dạng cấu trúc trước khi nhớ công thức. Ở ghép nối tiếp, cùng lực truyền qua các phần tử trong chuỗi; ở ghép song song, các lò xo cùng chịu biến dạng của vật. Sau đó mới thay hệ bằng một lò xo tương đương có độ cứng $k_{eq}$.
+
 ### Ghép nối tiếp
 
 Với hai lò xo:
@@ -317,13 +324,6 @@ $$
 $$
 
 Đoạn càng ngắn thì càng cứng.
-
-![Ba sơ đồ lò xo ghép nối tiếp, ghép song song và một lò xo đồng chất bị cắt thành đoạn ngắn hơn](../assets/learning-visuals/oscillations/04-spring-configurations.svg)
-
-*Hình — Nhìn cấu hình trước khi chọn công thức: nối tiếp chịu cùng lực qua từng lò xo, song song cùng biến dạng của vật, còn cắt lò xo làm thay đổi chiều dài hoạt động.*
-
-**Cách đọc hình:** Xác định hệ là nối tiếp, song song hay lò xo bị cắt rồi mới dùng công thức $k_{eq}$ tương ứng. Với lò xo đồng chất, đoạn ngắn hơn có độ cứng lớn hơn.
-
 
 ## 12. Thay đổi khối lượng bằng phương pháp chu kì
 

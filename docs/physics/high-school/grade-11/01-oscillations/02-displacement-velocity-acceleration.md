@@ -126,13 +126,6 @@ Gia tốc luôn hướng về vị trí cân bằng:
 
 Nói cách khác, khi $x\ne0$, vectơ gia tốc ngược hướng với vectơ li độ; tại vị trí cân bằng $x=0$ thì $a=0$.
 
-![Sơ đồ nhiều vị trí trên trục dao động cho thấy vận tốc đổi chiều ở biên và gia tốc luôn hướng về vị trí cân bằng](../assets/learning-visuals/oscillations/02-velocity-acceleration-states.svg)
-
-*Hình — Trạng thái của vật tại các vị trí đặc biệt: gia tốc luôn hướng về vị trí cân bằng, còn vận tốc bằng $0$ tại hai biên và có độ lớn cực đại khi qua $O$.*
-
-**Cách đọc hình:** Nhìn vị trí của vật trước, sau đó đọc riêng mũi tên $\vec v$ và $\vec a$. Dấu của $x$ không quyết định dấu của $v$, nhưng luôn quyết định chiều của $\vec a$ qua $a=-\omega^2x$.
-
-
 ## 4. Cực trị của gia tốc
 
 Từ $a=-\omega^2x$ và $|x|\le A$:
@@ -148,6 +141,13 @@ Vì vậy:
 - $|a|_{\max}=\omega^2A$ tại hai biên;
 - $|a|_{\min}=0$ tại vị trí cân bằng.
 
+![Trục dao động minh họa vận tốc và gia tốc tại trừ A, O và cộng A](../assets/theory-figures/01-oscillations/b2-state-directions.svg){ loading=lazy }
+
+*Hình — Ở hai biên vật tạm dừng để đổi chiều nhưng gia tốc có độ lớn lớn nhất và luôn hướng về VTCB; tại VTCB thì ngược lại.*
+
+!!! tip "Đọc hình"
+    Tại $x=+A$, $v=0$ nhưng $a<0$; tại $x=-A$, $v=0$ nhưng $a>0$. Khi vật qua $O$, $a=0$ còn $|v|$ đạt cực đại. Sơ đồ này giúp tách ba câu hỏi khác nhau: vật **ở đâu**, đang **đi theo chiều nào**, và đang **bị gia tốc kéo về đâu**.
+
 ## 5. Quan hệ pha giữa x, v và a
 
 Ba đại lượng cùng dao động với tần số góc $\omega$ nhưng lệch pha nhau:
@@ -162,15 +162,15 @@ $$
 x\ \xrightarrow{+\pi/2}\ v\ \xrightarrow{+\pi/2}\ a.
 $$
 
-![Ba đồ thị x t, v t và a t cùng trục thời gian với đường dóng tại biên và vị trí cân bằng](../assets/learning-visuals/oscillations/02-x-v-a-aligned.svg)
-
-*Hình — Ba đại lượng $x$, $v$, $a$ có cùng chu kì nhưng lệch pha: $v$ lệch $\pi/2$ so với $x$, còn $a$ ngược pha với $x$.*
-
-**Cách đọc hình:** Chọn một thời điểm rồi đi theo đường dóng dọc qua cả ba đồ thị. Khi $x$ cực đại thì $v=0$ và $|a|$ cực đại; khi $x=0$ thì $|v|$ cực đại và $a=0$.
-
-
 !!! warning "Bẫy thường gặp"
     Không được suy ra rằng $v$ và $a$ luôn cùng dấu vì $a$ "sớm pha" so với $v$. Dấu tức thời còn phụ thuộc vị trí và chiều chuyển động.
+
+![Ba đồ thị chuẩn hóa x trên A, v trên omega A và a trên omega bình A theo cùng một trục thời gian](../assets/theory-figures/01-oscillations/b2-xva-time.svg){ loading=lazy }
+
+*Hình — Ba đại lượng có cùng chu kì nhưng không đạt cực trị và đi qua giá trị $0$ cùng lúc.*
+
+!!! tip "Đọc hình"
+    So theo cùng một mốc thời gian: khi $x=\pm A$ thì $v=0$ và $|a|$ lớn nhất; khi $x=0$ thì $|v|$ lớn nhất và $a=0$. Đồ thị cũng cho thấy $v$ sớm pha $\pi/2$ so với $x$, còn $a$ ngược pha với $x$.
 
 ## 6. Khi nào vật nhanh dần, chậm dần?
 
@@ -321,11 +321,24 @@ Các giao điểm với trục:
 
 Đường elip này mô tả toàn bộ trạng thái động học có thể có của vật trong một dao động điều hòa.
 
+![Elip trạng thái trong mặt phẳng x v, trong đó cùng một x0 có hai điểm vận tốc trái dấu](../assets/theory-figures/01-oscillations/b2-phase-ellipse.svg){ loading=lazy }
+
+*Hình — Mỗi điểm trên elip biểu diễn một trạng thái $(x,v)$; một đường thẳng $x=x_0$ thường cắt elip tại hai trạng thái có vận tốc trái dấu.*
+
+!!! tip "Đọc hình"
+    Hệ thức elip chứa $v^2$, vì vậy từ $x$ chỉ suy ra được $|v|$. Muốn biết vật đang đi theo chiều dương hay âm, phải có thêm dấu của $v$ hoặc một thông tin tương đương về chiều chuyển động.
+
 ## 13. Đồ thị quan hệ a–x
 
 Từ $a=-\omega^2x$, đồ thị $a$ theo $x$ là đường thẳng đi qua gốc tọa độ có hệ số góc $-\omega^2$.
 
 Đây là một dấu hiệu rất mạnh: nếu thí nghiệm cho đồ thị $a-x$ là đường thẳng qua gốc có hệ số góc âm, chuyển động phù hợp với mô hình dao động điều hòa.
+
+![Đồ thị a theo x là đường thẳng qua gốc có hệ số góc âm trừ omega bình](../assets/theory-figures/01-oscillations/b2-acceleration-position.svg){ loading=lazy }
+
+*Hình — Quan hệ $a=-\omega^2x$ biến nhận xét “gia tốc luôn hướng về VTCB” thành một đường thẳng có hệ số góc âm.*
+
+Khi $x>0$ thì điểm trên đồ thị nằm ở nửa $a<0$; khi $x<0$ thì nằm ở nửa $a>0$. Độ dốc của đường thẳng có độ lớn $\omega^2$.
 
 ## Ví dụ 1 — Tính trạng thái từ phương trình
 

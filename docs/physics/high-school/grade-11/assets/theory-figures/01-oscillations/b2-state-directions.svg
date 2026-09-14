@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 430" role="img" aria-labelledby="title desc">
+<title id="title">Hướng vận tốc và gia tốc tại các vị trí đặc biệt</title>
+<desc id="desc">Trục dao động với các trạng thái tại trừ A, O và cộng A. Ở hai biên vận tốc bằng không và gia tốc hướng về O; khi qua O vận tốc có độ lớn cực đại và gia tốc bằng không.</desc>
+<style>
+  .bg { fill: #ffffff; }
+  .axis { stroke: #263238; stroke-width: 3; fill: none; }
+  .grid { stroke: #cfd8dc; stroke-width: 1.5; stroke-dasharray: 6 6; fill: none; }
+  .guide { stroke: #90a4ae; stroke-width: 2; stroke-dasharray: 7 6; fill: none; }
+  .blue { stroke: #1565c0; fill: none; }
+  .green { stroke: #2e7d32; fill: none; }
+  .red { stroke: #c62828; fill: none; }
+  .orange { stroke: #ef6c00; fill: none; }
+  .purple { stroke: #6a1b9a; fill: none; }
+  .bluefill { fill: #1565c0; }
+  .greenfill { fill: #2e7d32; }
+  .redfill { fill: #c62828; }
+  .orangefill { fill: #ef6c00; }
+  .purplefill { fill: #6a1b9a; }
+  .mutedfill { fill: #546e7a; }
+  .label { font: 28px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #263238; }
+  .small { font: 24px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #37474f; }
+  .tiny { font: 21px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #455a64; }
+  .strong { font-weight: 700; }
+  .center { text-anchor: middle; }
+  .right { text-anchor: end; }
+</style>
+<defs>
+  <marker id="arrow" markerWidth="12" markerHeight="10" refX="10" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L0,8 L11,4 z" fill="#263238"/></marker>
+  <marker id="arrow-blue" markerWidth="12" markerHeight="10" refX="10" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L0,8 L11,4 z" fill="#1565c0"/></marker>
+  <marker id="arrow-green" markerWidth="12" markerHeight="10" refX="10" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L0,8 L11,4 z" fill="#2e7d32"/></marker>
+  <marker id="arrow-red" markerWidth="12" markerHeight="10" refX="10" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L0,8 L11,4 z" fill="#c62828"/></marker>
+  <marker id="arrow-orange" markerWidth="12" markerHeight="10" refX="10" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L0,8 L11,4 z" fill="#ef6c00"/></marker>
+
+</defs>
+<rect class="bg" x="1" y="1" width="758" height="428" rx="18" stroke="#cfd8dc" stroke-width="2"/>
+
+<text x="380" y="42" class="label strong center">Trạng thái đặc biệt: vị trí, vận tốc và gia tốc</text>
+<line x1="85" y1="238" x2="685" y2="238" class="axis" marker-end="url(#arrow)"/>
+<line x1="150" y1="218" x2="150" y2="258" class="axis"/>
+<line x1="380" y1="210" x2="380" y2="266" class="axis"/>
+<line x1="610" y1="218" x2="610" y2="258" class="axis"/>
+<text x="150" y="292" class="small strong center">−A</text>
+<text x="380" y="292" class="small strong center">O</text>
+<text x="610" y="292" class="small strong center">+A</text>
+
+<circle cx="150" cy="238" r="14" class="bluefill"/>
+<text x="150" y="118" class="small strong center">tại −A</text>
+<text x="150" y="152" class="small center">v = 0</text>
+<line x1="150" y1="188" x2="235" y2="188" stroke="#c62828" stroke-width="5" marker-end="url(#arrow-red)"/>
+<text x="192" y="178" class="tiny redfill center">a → O</text>
+
+<circle cx="380" cy="238" r="14" class="bluefill"/>
+<text x="380" y="82" class="small strong center">qua O sang phải</text>
+<line x1="330" y1="128" x2="430" y2="128" stroke="#2e7d32" stroke-width="5" marker-end="url(#arrow-green)"/>
+<text x="380" y="116" class="tiny greenfill center">v = +vmax</text>
+<text x="380" y="165" class="small center">a = 0</text>
+
+<circle cx="610" cy="238" r="14" class="bluefill"/>
+<text x="610" y="118" class="small strong center">tại +A</text>
+<text x="610" y="152" class="small center">v = 0</text>
+<line x1="610" y1="188" x2="525" y2="188" stroke="#c62828" stroke-width="5" marker-end="url(#arrow-red)"/>
+<text x="568" y="178" class="tiny redfill center">a → O</text>
+
+<rect x="110" y="325" width="540" height="70" rx="14" fill="#f7f9fa" stroke="#cfd8dc" stroke-width="2"/>
+<text x="380" y="354" class="small center">Gia tốc luôn kéo trạng thái về VTCB:</text>
+<text x="380" y="384" class="small strong center">x &gt; 0 ⇒ a &lt; 0;  x &lt; 0 ⇒ a &gt; 0;  x = 0 ⇒ a = 0</text>
+
+</svg>

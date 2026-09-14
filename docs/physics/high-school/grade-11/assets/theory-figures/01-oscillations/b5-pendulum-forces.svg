@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="590" viewBox="0 0 760 590" role="img" aria-labelledby="title desc">
+<title id="title">Sơ đồ lực con lắc đơn</title>
+<desc id="desc">Tại một vị trí lệch, lực căng hướng dọc dây về điểm treo, trọng lực hướng xuống và thành phần mg sin alpha theo tiếp tuyến hướng về vị trí cân bằng.</desc>
+<style>
+.bg{fill:#fff} .axis{stroke:#263238;stroke-width:3;fill:none} .guide{stroke:#90a4ae;stroke-width:2;stroke-dasharray:7 6;fill:none} .grid{stroke:#cfd8dc;stroke-width:1.5;stroke-dasharray:6 6;fill:none}
+.blue{stroke:#1565c0;fill:none} .green{stroke:#2e7d32;fill:none} .red{stroke:#c62828;fill:none} .orange{stroke:#ef6c00;fill:none} .purple{stroke:#6a1b9a;fill:none} .teal{stroke:#00838f;fill:none}
+.bluefill{fill:#1565c0} .greenfill{fill:#2e7d32} .redfill{fill:#c62828} .orangefill{fill:#ef6c00} .purplefill{fill:#6a1b9a} .mutedfill{fill:#546e7a}
+.label{font:28px system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#263238} .small{font:24px system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#37474f} .tiny{font:21px system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#455a64} .strong{font-weight:700} .center{text-anchor:middle} .right{text-anchor:end}
+</style>
+<defs>
+<marker id="arrow" markerWidth="12" markerHeight="10" refX="10" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L0,8 L11,4 z" fill="#263238"/></marker>
+<marker id="arrow-blue" markerWidth="12" markerHeight="10" refX="10" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L0,8 L11,4 z" fill="#1565c0"/></marker>
+<marker id="arrow-green" markerWidth="12" markerHeight="10" refX="10" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L0,8 L11,4 z" fill="#2e7d32"/></marker>
+<marker id="arrow-red" markerWidth="12" markerHeight="10" refX="10" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L0,8 L11,4 z" fill="#c62828"/></marker>
+<marker id="arrow-orange" markerWidth="12" markerHeight="10" refX="10" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L0,8 L11,4 z" fill="#ef6c00"/></marker>
+<marker id="arrow-purple" markerWidth="12" markerHeight="10" refX="10" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L0,8 L11,4 z" fill="#6a1b9a"/></marker>
+<marker id="arrow-start" markerWidth="12" markerHeight="10" refX="2" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M11,0 L11,8 L0,4 z" fill="#263238"/></marker>
+</defs>
+<rect class="bg" x="1" y="1" width="758" height="588" rx="18" stroke="#cfd8dc" stroke-width="2"/>
+<text x="380" y="43" class="label strong center">Sơ đồ lực của con lắc tại vị trí bất kỳ</text>
+<line x1="210" y1="78" x2="390" y2="78" class="axis"/><circle cx="300" cy="90" r="8" class="mutedfill"/>
+<line x1="300" y1="90" x2="445.5" y2="363.7" class="axis" stroke-width="5"/>
+<circle cx="445.5" cy="363.7" r="30" fill="#e3f2fd" stroke="#1565c0" stroke-width="3"/>
+<line x1="548.8" y1="558.0" x2="365.7" y2="213.6" class="guide"/>
+<line x1="595.6" y1="283.9" x2="295.4" y2="443.5" class="guide"/>
+<text x="560" y="245" class="tiny">tiếp tuyến</text><text x="555" y="455" class="tiny">bán kính</text>
+<!-- tension -->
+<line x1="445.5" y1="363.7" x2="377.5" y2="235.7" class="blue" stroke-width="6" marker-end="url(#arrow-blue)"/><text x="357.8" y="221.9" class="small" fill="#1565c0">Fc</text>
+<!-- weight -->
+<line x1="445.5" y1="363.7" x2="445.5" y2="528.7" class="red" stroke-width="6" marker-end="url(#arrow-red)"/><text x="463.5" y="468.7" class="small" fill="#c62828">mg</text>
+<!-- tangential component -->
+<line x1="445.5" y1="363.7" x2="339.6" y2="420.1" class="orange" stroke-width="6" marker-end="url(#arrow-orange)"/><text x="260.8" y="439.7" class="small" fill="#ef6c00">mg sin α</text>
+<text x="380" y="512" class="tiny center">Fc nằm theo bán kính; mg sin α nằm theo tiếp tuyến.</text>
+<text x="380" y="542" class="tiny center">Thành phần mg sin α hướng về VTCB nên đóng vai trò lực kéo về.</text>
+<text x="380" y="572" class="tiny center">Theo bán kính: Fc − mg cos α = mv²/ℓ.</text>
+</svg>

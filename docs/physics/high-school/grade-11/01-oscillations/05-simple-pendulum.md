@@ -31,12 +31,12 @@ Con lắc đơn gồm vật nhỏ khối lượng $m$ treo bằng sợi dây nh�
 
 Vị trí cân bằng là vị trí dây thẳng đứng, vật ở thấp nhất.
 
-![Con lắc đơn với điểm treo, chiều dài dây l, phương thẳng đứng, góc lệch alpha, vị trí biên và cung dao động](../assets/learning-visuals/oscillations/05-pendulum-geometry.svg)
+![Hình học con lắc đơn với chiều dài dây, góc lệch và cung li độ](../assets/theory-figures/01-oscillations/b5-pendulum-geometry.svg){ loading=lazy }
 
-*Hình — Hình học của con lắc đơn: góc lệch $\alpha$ được đo từ phương thẳng đứng, còn vật chuyển động trên một cung tròn bán kính $\ell$.*
+*Hình — Góc lệch $\alpha$ được đo từ phương thẳng đứng, còn li độ dài $s$ được đo dọc theo cung chuyển động của vật.*
 
-**Ý nghĩa của hình:** Khi dùng li độ dài, độ dài cung từ VTCB đến vị trí tức thời là $s=\ell\alpha$ nếu $\alpha$ tính bằng radian. Đây là đại lượng dọc theo quỹ đạo cong, không phải đoạn thẳng ngang.
-
+!!! tip "Đọc hình"
+    Dây có chiều dài $\ell$ nên cung ứng với góc $\alpha$ có độ dài $s=\ell\alpha$ khi $\alpha$ tính bằng radian. VTCB nằm ở điểm thấp nhất của cung; khi vật lệch sang một phía, dấu của $\alpha$ và $s$ cho biết phía lệch theo quy ước đã chọn.
 
 ## 2. Khi nào con lắc đơn dao động điều hòa?
 
@@ -47,6 +47,13 @@ $$
 $$
 
 khi $\alpha$ tính bằng radian.
+
+![Đồ thị so sánh sin alpha với alpha khi alpha tính bằng radian](../assets/theory-figures/01-oscillations/b5-small-angle.svg){ loading=lazy }
+
+*Hình — Hai đường $y=\sin\alpha$ và $y=\alpha$ gần như trùng nhau quanh $\alpha=0$, nhưng tách dần khi độ lớn góc tăng.*
+
+!!! tip "Đọc hình"
+    Gần VTCB, góc nhỏ làm $\sin\alpha$ gần bằng $\alpha$, nên lực kéo về theo tiếp tuyến gần tỉ lệ với li độ. Đây là bước biến phương trình phi tuyến của con lắc thành mô hình dao động điều hòa; càng ra xa vùng góc nhỏ, phép gần đúng càng kém chính xác.
 
 Trong phạm vi góc nhỏ, thường lấy cỡ dưới khoảng $10^\circ$ trong các bài phổ thông, con lắc được xem gần đúng là dao động điều hòa.
 
@@ -213,16 +220,16 @@ $$
 
 và độ lớn là $|F_{kv}|\approx mg|\alpha|=\dfrac{mg}{\ell}|s|$.
 
-![Sơ đồ lực của con lắc đơn với lực căng dọc dây, trọng lực thẳng đứng và thành phần tiếp tuyến hướng về vị trí cân bằng](../assets/learning-visuals/oscillations/05-pendulum-forces.svg)
-
-*Hình — Thành phần tiếp tuyến của trọng lực kéo vật về VTCB; lực căng dây nằm dọc dây, tức theo phương bán kính.*
-
-**Cách đọc hình:** Tách trọng lực theo phương tiếp tuyến và phương dọc dây. Thành phần $-mg\sin\alpha$ đổi dấu theo $\alpha$, nên chính nó tạo lực kéo về theo phương chuyển động.
-
-
 ## 9. Lực căng dây
 
 Gọi $F_c$ là độ lớn lực căng dây. Khi dây còn căng, theo phương bán kính hướng vào điểm treo:
+
+![Sơ đồ lực của con lắc đơn tại một vị trí lệch](../assets/theory-figures/01-oscillations/b5-pendulum-forces.svg){ loading=lazy }
+
+*Hình — Lực căng nằm dọc dây theo phương bán kính; trọng lực hướng thẳng đứng xuống, còn thành phần $mg\sin\alpha$ theo tiếp tuyến hướng vật về VTCB.*
+
+!!! tip "Đọc hình"
+    Theo tiếp tuyến, thành phần $mg\sin\alpha$ tạo lực kéo về. Theo bán kính, lực căng $F_c$ phải cùng thành phần $mg\cos\alpha$ tạo gia tốc hướng tâm. Vì vậy không thể coi lực căng dây là lực kéo về theo phương tiếp tuyến.
 
 $$
 F_c-mg\cos\alpha=m\frac{v^2}{\ell}.
@@ -299,6 +306,13 @@ Do đó:
 $$
 \boxed{g=\frac{4\pi^2}{a}}.
 $$
+
+![Quy trình đo chiều dài, đo nhiều chu kì và vẽ đồ thị T bình phương theo l](../assets/theory-figures/01-oscillations/b5-measure-g.svg){ loading=lazy }
+
+*Hình — Đo $\ell$ từ điểm treo đến tâm vật, đo thời gian của nhiều chu kì để suy ra $T$, rồi tuyến tính hóa bằng đồ thị $T^2$ theo $\ell$.*
+
+!!! tip "Đọc hình"
+    Từ $T^2=(4\pi^2/g)\ell$, hệ số góc của đường thẳng là $a=4\pi^2/g$. Đo nhiều chu kì làm giảm ảnh hưởng của sai số bấm giờ; dùng nhiều giá trị $\ell$ giúp ước lượng hệ số góc ổn định hơn so với chỉ một phép đo.
 
 Đây là một cách xử lí dữ liệu thí nghiệm rất quan trọng.
 

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="600" viewBox="0 0 760 600" role="img" aria-labelledby="title desc">
+<title id="title">Chiều dài tự nhiên, vị trí cân bằng và vị trí tức thời của lò xo treo đứng</title>
+<desc id="desc">Ba trạng thái của cùng một lò xo cho thấy chiều dài tự nhiên l0, độ dãn cân bằng Delta l0 và li độ x tính từ vị trí cân bằng với chiều dương hướng xuống.</desc>
+<style>
+.bg{fill:#fff} .axis{stroke:#263238;stroke-width:3;fill:none} .guide{stroke:#90a4ae;stroke-width:2;stroke-dasharray:7 6;fill:none} .grid{stroke:#cfd8dc;stroke-width:1.5;stroke-dasharray:6 6;fill:none}
+.blue{stroke:#1565c0;fill:none} .green{stroke:#2e7d32;fill:none} .red{stroke:#c62828;fill:none} .orange{stroke:#ef6c00;fill:none} .purple{stroke:#6a1b9a;fill:none} .teal{stroke:#00838f;fill:none}
+.bluefill{fill:#1565c0} .greenfill{fill:#2e7d32} .redfill{fill:#c62828} .orangefill{fill:#ef6c00} .purplefill{fill:#6a1b9a} .mutedfill{fill:#546e7a}
+.label{font:28px system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#263238} .small{font:24px system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#37474f} .tiny{font:21px system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#455a64} .strong{font-weight:700} .center{text-anchor:middle} .right{text-anchor:end}
+</style>
+<defs>
+<marker id="arrow" markerWidth="12" markerHeight="10" refX="10" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L0,8 L11,4 z" fill="#263238"/></marker>
+<marker id="arrow-blue" markerWidth="12" markerHeight="10" refX="10" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L0,8 L11,4 z" fill="#1565c0"/></marker>
+<marker id="arrow-green" markerWidth="12" markerHeight="10" refX="10" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L0,8 L11,4 z" fill="#2e7d32"/></marker>
+<marker id="arrow-red" markerWidth="12" markerHeight="10" refX="10" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L0,8 L11,4 z" fill="#c62828"/></marker>
+<marker id="arrow-orange" markerWidth="12" markerHeight="10" refX="10" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L0,8 L11,4 z" fill="#ef6c00"/></marker>
+<marker id="arrow-purple" markerWidth="12" markerHeight="10" refX="10" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L0,8 L11,4 z" fill="#6a1b9a"/></marker>
+<marker id="arrow-start" markerWidth="12" markerHeight="10" refX="2" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M11,0 L11,8 L0,4 z" fill="#263238"/></marker>
+</defs>
+<rect class="bg" x="1" y="1" width="758" height="598" rx="18" stroke="#cfd8dc" stroke-width="2"/>
+<text x="380" y="43" class="label strong center">Lò xo treo đứng: ba mốc chiều dài khác nhau</text>
+<line x1="60" y1="85" x2="700" y2="85" class="axis"/>
+<text x="145" y="122" class="small strong center">Tự nhiên</text><text x="375" y="122" class="small strong center">Cân bằng</text><text x="610" y="122" class="small strong center">Tức thời, x &gt; 0</text>
+<line x1="85" y1="140" x2="205" y2="140" class="axis"/><path d="M95,140 l-15,20 M125,140 l-15,20 M155,140 l-15,20 M185,140 l-15,20" class="guide"/><line x1="315" y1="140" x2="435" y2="140" class="axis"/><path d="M325,140 l-15,20 M355,140 l-15,20 M385,140 l-15,20 M415,140 l-15,20" class="guide"/><line x1="550" y1="140" x2="670" y2="140" class="axis"/><path d="M560,140 l-15,20 M590,140 l-15,20 M620,140 l-15,20 M650,140 l-15,20" class="guide"/><polyline points="145.0,140.0 145.0,158.0 162.0,166.0 128.0,174.0 162.0,182.0 128.0,190.0 162.0,198.0 128.0,206.0 162.0,214.0 128.0,222.0 162.0,230.0 128.0,238.0 162.0,246.0 128.0,254.0 162.0,262.0 128.0,270.0 162.0,278.0 128.0,286.0 162.0,294.0 145.0,302.0 145.0,320.0" stroke="#1565c0" stroke-width="5" fill="none"/><circle cx="145" cy="320" r="7" class="bluefill"/><polyline points="375.0,140.0 375.0,158.0 392.0,169.3 358.0,180.7 392.0,192.0 358.0,203.3 392.0,214.7 358.0,226.0 392.0,237.3 358.0,248.7 392.0,260.0 358.0,271.3 392.0,282.7 358.0,294.0 392.0,305.3 358.0,316.7 392.0,328.0 358.0,339.3 392.0,350.7 375.0,362.0 375.0,380.0" stroke="#1565c0" stroke-width="5" fill="none"/><rect x="335" y="380" width="80" height="58" rx="10" fill="#e3f2fd" stroke="#1565c0" stroke-width="3"/><text x="375" y="417" class="small strong center">m</text><polyline points="610.0,140.0 610.0,158.0 627.0,172.9 593.0,187.9 627.0,202.8 593.0,217.8 627.0,232.7 593.0,247.7 627.0,262.6 593.0,277.6 627.0,292.5 593.0,307.4 627.0,322.4 593.0,337.3 627.0,352.3 593.0,367.2 627.0,382.2 593.0,397.1 627.0,412.1 610.0,427.0 610.0,445.0" stroke="#1565c0" stroke-width="5" fill="none"/><rect x="570" y="445" width="80" height="58" rx="10" fill="#e3f2fd" stroke="#1565c0" stroke-width="3"/><text x="610" y="482" class="small strong center">m</text><line x1="90" y1="320" x2="680" y2="320" class="guide"/><text x="72" y="327" class="tiny right">ℓ₀</text>
+<line x1="300" y1="380" x2="680" y2="380" class="guide"/><text x="292" y="387" class="tiny right">ℓcb</text>
+<line x1="455" y1="445" x2="680" y2="445" class="guide"/>
+<line x1="455" y1="320" x2="455" y2="380" class="orange" stroke-width="4" marker-start="url(#arrow-start)" marker-end="url(#arrow-orange)"/><text x="470" y="357" class="small">Δℓ₀</text>
+<line x1="680" y1="380" x2="680" y2="445" class="purple" stroke-width="4" marker-start="url(#arrow-start)" marker-end="url(#arrow-purple)"/><text x="666" y="420" class="small right">x</text>
+<line x1="710" y1="270" x2="710" y2="470" class="axis" marker-end="url(#arrow)"/><text x="704" y="255" class="tiny right">chiều dương</text>
+<text x="380" y="545" class="tiny center">Chọn chiều dương hướng xuống nên độ dãn tức thời bằng Δℓ₀ + x.</text>
+<text x="380" y="575" class="tiny center">Li độ x được đo từ VTCB, không đo từ chiều dài tự nhiên ℓ₀.</text>
+</svg>

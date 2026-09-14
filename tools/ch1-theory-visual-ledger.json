@@ -1,0 +1,384 @@
+{
+  "schema": "education-hub-ch1-theory-visual-ledger-v1",
+  "chapter": "docs/physics/high-school/grade-11/01-oscillations/",
+  "base_source": "education-hub-v25.zip",
+  "workflow_state": "PROMPT 2/2 visual authoring and chapter-wide accessibility/mobile review complete; source packaging blocked only by unavailable MkDocs dependency in this runtime.",
+  "asset_root": "docs/physics/high-school/grade-11/assets/theory-figures/01-oscillations/",
+  "source_review": {
+    "repository_assets": {
+      "clean-bai-1": "audited; figures are mostly exercise-specific",
+      "clean-v14": "audited; i_p81_q4_231 family contains option labels/watermark and is not suitable for learner-facing theory reuse"
+    },
+    "pdf_pages_opened": [
+      "BT-Chương I_1.pdf: pages 4, 5, 56, 57, 58, 59, 87",
+      "EBOOK CHUYÊN ĐỀ VẬT LÝ 11 TẬP 1 DAO ĐỘNG VÀ SÓNG: page 9",
+      "EBOOK PHONG TOẢ VẬT LÝ 11 TẬP 1 DAO ĐỘNG, SÓNG: pages 13-24 reviewed as rendered contact set",
+      "EBOOK LÀM CHỦ VÀ NÂNG CAO VẬT LÝ 11 TẬP 1 DAO ĐỘNG VÀ SÓNG: page 12 plus early theory contact set",
+      "EBOOK BẢN ĐỒ KIẾN THỨC VẬT LÝ 11: pages 7, 9, 10",
+      "EBOOK SỔ TAY CÔNG THỨC VẬT LÝ 11: pages 10, 11"
+    ],
+    "decision": "Create clean generic SVG concept diagrams for Bài 1-3. PDF/old practice figures were used for academic/visual verification but not copied because they are dense, small, watermarked, option-labelled, or tied to specific exercises.",
+    "prompt_2_pdf_pages_opened": [
+      "BT-Chương I_1.pdf: pages 96, 110, 116, 117, 154, 155, 156, 157, 158, 159"
+    ],
+    "prompt_2_asset_audit": {
+      "spring_practice": "i_p29_q3_75_fig1.webp audited; contains an exercise-specific x-t overlay and was not reused for theory.",
+      "pendulum_practice": "i_p22_q1_47_fig1.webp and i_p33_q5_81_fig1.webp audited; both are exercise x-t graphs, not geometry/force diagrams.",
+      "energy_practice": "Energy figures used by practice/06 audited. Generic Wd/Wt-vs-x assets omit the constant-W line and the ±A/sqrt(2) teaching markers; time plots carry exercise-specific numeric data.",
+      "damped_resonance_practice": "i_p126_q19_333_fig1.webp and the other practice/07 figures audited. They are useful source checks but are exercise-specific, numeric, labelled F1/F2/F3, or too sparse for the intended theory explanation."
+    },
+    "prompt_2_decision": "Create clean generic SVG teaching diagrams for Bài 4-7. BT Ch.I pages 116-117 and 154-159 were used to verify damping/resonance and energy graph relationships. No Prompt-2 PDF crop or practice asset was learner-facing reused because none met the full pedagogical/mobile criteria without exercise-specific context or missing key teaching information."
+  },
+  "visuals": [
+    {
+      "lesson": 1,
+      "file": "b1-position-amplitude-axis.svg",
+      "concept": "signed displacement, positive amplitude, direction not implied by sign of x",
+      "method": "new-svg",
+      "source_basis": [
+        "current lesson",
+        "Bản đồ p7"
+      ]
+    },
+    {
+      "lesson": 1,
+      "file": "b1-circle-projection.svg",
+      "concept": "uniform circular motion projected to SHM; x=A cos Phi",
+      "method": "new-svg",
+      "source_basis": [
+        "BT Ch.I p4/p58",
+        "Làm chủ T1 p12"
+      ]
+    },
+    {
+      "lesson": 1,
+      "file": "b1-displacement-time.svg",
+      "concept": "read A and T; zero crossings separated by T/2 are not same state",
+      "method": "new-svg",
+      "source_basis": [
+        "BT Ch.I p5",
+        "current lesson"
+      ]
+    },
+    {
+      "lesson": 2,
+      "file": "b2-state-directions.svg",
+      "concept": "v and a at -A, O, +A",
+      "method": "new-svg",
+      "source_basis": [
+        "BT Ch.I p57",
+        "Bản đồ p9-p10"
+      ]
+    },
+    {
+      "lesson": 2,
+      "file": "b2-xva-time.svg",
+      "concept": "phase relations among x, v, a",
+      "method": "new-svg",
+      "source_basis": [
+        "BT Ch.I p56",
+        "Sổ tay công thức p10"
+      ]
+    },
+    {
+      "lesson": 2,
+      "file": "b2-phase-ellipse.svg",
+      "concept": "x-v ellipse and two velocity signs for one x",
+      "method": "new-svg",
+      "source_basis": [
+        "Sổ tay công thức p11",
+        "current lesson"
+      ]
+    },
+    {
+      "lesson": 2,
+      "file": "b2-acceleration-position.svg",
+      "concept": "a=-omega^2 x as negative-slope line",
+      "method": "new-svg",
+      "source_basis": [
+        "BT Ch.I p57",
+        "current lesson"
+      ]
+    },
+    {
+      "lesson": 3,
+      "file": "b3-phase-map.svg",
+      "concept": "same x maps to two phase points with opposite velocity signs",
+      "method": "new-svg",
+      "source_basis": [
+        "BT Ch.I p58-p59",
+        "current lesson"
+      ]
+    },
+    {
+      "lesson": 3,
+      "file": "b3-forward-arc.svg",
+      "concept": "shortest time follows increasing phase direction",
+      "method": "new-svg",
+      "source_basis": [
+        "BT Ch.I p59",
+        "current lesson"
+      ]
+    },
+    {
+      "lesson": 3,
+      "file": "b3-quarter-cycle.svg",
+      "concept": "pi/2 <-> T/4, pi <-> T/2, 2pi <-> T",
+      "method": "new-svg",
+      "source_basis": [
+        "BT Ch.I p59",
+        "current lesson"
+      ]
+    },
+    {
+      "lesson": 3,
+      "file": "b3-distance-displacement.svg",
+      "concept": "path length differs from displacement when direction reverses",
+      "method": "new-svg",
+      "source_basis": [
+        "current lesson"
+      ]
+    },
+    {
+      "lesson": 4,
+      "section": "§1 Cấu tạo và mô hình",
+      "student_difficulty": "Dấu li độ dễ bị nhầm với chiều chuyển động",
+      "file": "b4-spring-three-positions.svg",
+      "proposed_visual": "b4-spring-three-positions.svg",
+      "method": "new-svg",
+      "source_basis": [
+        "current lesson",
+        "spring practice asset audit"
+      ],
+      "pedagogical_goal": "Show -A, O, +A and the positive axis; separate position sign from velocity direction",
+      "insert_after": "after the opening model paragraph",
+      "status": "inserted-and-render-reviewed"
+    },
+    {
+      "lesson": 4,
+      "section": "§3-4 Lò xo treo thẳng đứng",
+      "student_difficulty": "Dễ đồng nhất li độ x với độ dãn toàn phần",
+      "file": "b4-vertical-spring-reference.svg",
+      "proposed_visual": "b4-vertical-spring-reference.svg",
+      "method": "new-svg",
+      "source_basis": [
+        "current lesson"
+      ],
+      "pedagogical_goal": "Separate natural length, equilibrium extension Δl0, and instantaneous displacement x with downward-positive convention",
+      "insert_after": "after the vertical-spring equilibrium note",
+      "status": "inserted-and-render-reviewed"
+    },
+    {
+      "lesson": 4,
+      "section": "§7 Lực kéo về và lực đàn hồi",
+      "student_difficulty": "Hai khái niệm lực dễ bị coi là một",
+      "file": "b4-elastic-vs-restoring.svg",
+      "proposed_visual": "b4-elastic-vs-restoring.svg",
+      "method": "new-svg",
+      "source_basis": [
+        "current lesson"
+      ],
+      "pedagogical_goal": "Show Fdh and mg separately, then identify Fkv as their resultant along the oscillation axis",
+      "insert_after": "after the distinction paragraph",
+      "status": "inserted-and-render-reviewed"
+    },
+    {
+      "lesson": 4,
+      "section": "§10 Ghép lò xo",
+      "student_difficulty": "Công thức keq khó nhớ nếu không nhìn cấu trúc",
+      "file": "b4-spring-series-parallel.svg",
+      "proposed_visual": "b4-spring-series-parallel.svg",
+      "method": "new-svg",
+      "source_basis": [
+        "current lesson"
+      ],
+      "pedagogical_goal": "Make series vs parallel topology visible before the formulas",
+      "insert_after": "before the series subsection",
+      "status": "inserted-and-render-reviewed"
+    },
+    {
+      "lesson": 5,
+      "section": "§1 Cấu tạo / §3 Li độ",
+      "student_difficulty": "Khó hình dung α, ℓ và cung s trong cùng hình",
+      "file": "b5-pendulum-geometry.svg",
+      "proposed_visual": "b5-pendulum-geometry.svg",
+      "method": "new-svg",
+      "source_basis": [
+        "current lesson"
+      ],
+      "pedagogical_goal": "Connect angular displacement to arc displacement and the equilibrium direction",
+      "insert_after": "after the construction paragraph",
+      "status": "inserted-and-render-reviewed"
+    },
+    {
+      "lesson": 5,
+      "section": "§2 Góc nhỏ",
+      "student_difficulty": "Điều kiện sin α≈α dễ bị học thuộc mà không hiểu",
+      "file": "b5-small-angle.svg",
+      "proposed_visual": "b5-small-angle.svg",
+      "method": "new-svg",
+      "source_basis": [
+        "current lesson"
+      ],
+      "pedagogical_goal": "Show sin α and α nearly coincide only near zero when α is in radians",
+      "insert_after": "after the small-angle approximation",
+      "status": "inserted-and-render-reviewed"
+    },
+    {
+      "lesson": 5,
+      "section": "§9 Lực căng dây",
+      "student_difficulty": "Dễ nhầm lực căng là lực kéo về tiếp tuyến",
+      "file": "b5-pendulum-forces.svg",
+      "proposed_visual": "b5-pendulum-forces.svg",
+      "method": "new-svg",
+      "source_basis": [
+        "current lesson"
+      ],
+      "pedagogical_goal": "Separate radial and tangential directions; place tension, weight, and mg sin α on the correct directions",
+      "insert_after": "before the radial force equation",
+      "status": "inserted-and-render-reviewed"
+    },
+    {
+      "lesson": 5,
+      "section": "§12 Đo g",
+      "student_difficulty": "Quy trình tuyến tính hóa T² theo ℓ khó hình dung từ công thức",
+      "file": "b5-measure-g.svg",
+      "proposed_visual": "b5-measure-g.svg",
+      "method": "new-svg",
+      "source_basis": [
+        "current lesson",
+        "BT Ch.I p110 checked; no reusable experiment diagram"
+      ],
+      "pedagogical_goal": "Connect length measurement, timing multiple cycles, T=tN/N and the T²-ℓ slope",
+      "insert_after": "after g=4π²/a",
+      "status": "inserted-and-render-reviewed"
+    },
+    {
+      "lesson": 6,
+      "section": "§1 Bức tranh năng lượng",
+      "student_difficulty": "Chuyển hóa năng lượng cần trực giác trước công thức",
+      "file": "b6-energy-three-positions.svg",
+      "proposed_visual": "b6-energy-three-positions.svg",
+      "method": "new-svg",
+      "source_basis": [
+        "current lesson",
+        "BT Ch.I p155"
+      ],
+      "pedagogical_goal": "Show energy transfer at -A, O, +A while total energy stays fixed",
+      "insert_after": "after the opening energy paragraph",
+      "status": "inserted-and-render-reviewed"
+    },
+    {
+      "lesson": 6,
+      "section": "§10 Đồ thị theo li độ",
+      "student_difficulty": "Cần thấy đồng thời Wt, Wd, W và giao điểm",
+      "file": "b6-energy-position.svg",
+      "proposed_visual": "b6-energy-position.svg",
+      "method": "new-svg",
+      "source_basis": [
+        "BT Ch.I p154-p155",
+        "energy practice asset audit"
+      ],
+      "pedagogical_goal": "Show the two parabolas, constant W, and |x|=A/sqrt(2) intersections",
+      "insert_after": "after the existing graph description",
+      "status": "inserted-and-render-reviewed"
+    },
+    {
+      "lesson": 6,
+      "section": "§11 Đồ thị theo thời gian",
+      "student_difficulty": "Dễ nhầm chu kì năng lượng với T",
+      "file": "b6-energy-time.svg",
+      "proposed_visual": "b6-energy-time.svg",
+      "method": "new-svg",
+      "source_basis": [
+        "BT Ch.I p155"
+      ],
+      "pedagogical_goal": "Show nonnegative Wt/Wd, opposite exchange, constant W and period T/2",
+      "insert_after": "after the time-graph paragraph",
+      "status": "inserted-and-render-reviewed"
+    },
+    {
+      "lesson": 7,
+      "section": "§4 Vectơ quay",
+      "student_difficulty": "Công thức biên độ tổng hợp thiếu trực giác hình học",
+      "file": "b7-vector-sum.svg",
+      "proposed_visual": "b7-vector-sum.svg",
+      "method": "new-svg",
+      "source_basis": [
+        "current lesson"
+      ],
+      "pedagogical_goal": "Show A1, A2, resultant A and Δφ in one parallelogram",
+      "insert_after": "after the opening vector-method paragraph",
+      "status": "inserted-and-render-reviewed"
+    },
+    {
+      "lesson": 7,
+      "section": "§4 Vectơ quay / trường hợp đặc biệt",
+      "student_difficulty": "Cùng pha, vuông pha, ngược pha dễ bị nhớ rời rạc",
+      "file": "b7-vector-special-cases.svg",
+      "proposed_visual": "b7-vector-special-cases.svg",
+      "method": "new-svg",
+      "source_basis": [
+        "current lesson"
+      ],
+      "pedagogical_goal": "Derive the three special amplitudes from head-to-tail vector addition",
+      "insert_after": "after the general vector-sum diagram",
+      "status": "inserted-and-render-reviewed"
+    },
+    {
+      "lesson": 7,
+      "section": "§6 Dao động tắt dần",
+      "student_difficulty": "Dễ mặc định mọi tắt dần đều qua lại mãi",
+      "file": "b7-damped-oscillation.svg",
+      "proposed_visual": "b7-damped-oscillation.svg",
+      "method": "new-svg",
+      "source_basis": [
+        "BT Ch.I p116",
+        "i_p126_q19_333_fig1.webp audit"
+      ],
+      "pedagogical_goal": "Show a decaying envelope for an oscillatory regime and a separate high-damping non-oscillatory return",
+      "insert_after": "after the definition",
+      "status": "inserted-and-render-reviewed"
+    },
+    {
+      "lesson": 7,
+      "section": "§9-10 Cộng hưởng và lực cản",
+      "student_difficulty": "Dễ nghĩ tăng tần số ngoại lực luôn làm biên độ tăng",
+      "file": "b7-resonance-curves.svg",
+      "proposed_visual": "b7-resonance-curves.svg",
+      "method": "new-svg",
+      "source_basis": [
+        "BT Ch.I p117",
+        "practice/07 resonance asset audit"
+      ],
+      "pedagogical_goal": "Show amplitude peaks near the natural frequency and the damping-dependent peak height/width",
+      "insert_after": "after the damping comparison bullets",
+      "status": "inserted-and-render-reviewed"
+    }
+  ],
+  "pending_prompt_2": [],
+  "final_review": {
+    "visual_count": 26,
+    "unique_visual_references": 26,
+    "mobile_review": "All 26 teaching SVGs were rendered/reviewed at narrow mobile width; Prompt 2 visuals were specifically re-rendered at 390 px. Core axes, vectors, force directions, phase/energy markers, and labels remain legible; long explanations are also provided as normal Markdown captions/tips.",
+    "accessibility": "All theory SVGs parse as XML, carry role=img plus title/desc; all 26 Markdown references have non-empty alt text, loading=lazy, existing targets, and nearby learner-facing captions.",
+    "duplication": "No teaching SVG is referenced more than once as a substitute for another concept; no Prompt 2 practice/PDF figure was duplicated into theory."
+  },
+  "quality_gate": {
+    "check_practice_bank": "PASS: 61 practice sets; 0 structural errors.",
+    "check_pdf_import": "PASS: 1633 canonical PDF items + 10 aliases; 0 integrity errors.",
+    "check_solution_quality": "PASS: 2173 checked items; 0 errors.",
+    "check_site_lint": "PASS: 237 Markdown files; 0 errors, 0 warnings.",
+    "check_site_full": "BLOCKED at build step because mkdocs is not installed in runtime.",
+    "mkdocs_build_strict": "NOT RUN successfully: mkdocs command not found. Attempted isolated venv install from requirements.txt, but runtime DNS/network could not reach package index.",
+    "packaging": "RELEASED AS series 2 version 26 by explicit repository-owner decision on 2026-09-15. All available source/checker gates pass; mkdocs build --strict remains unverified because mkdocs is unavailable and dependency installation cannot reach the package index in this runtime."
+  },
+  "release": {
+    "checkpoint": "education-hub-v26.zip",
+    "series": 2,
+    "version": 26,
+    "base_source": "education-hub-v25.zip",
+    "decision": "Owner explicitly authorized release despite unavailable local MkDocs build.",
+    "mkdocs_build_strict": "UNVERIFIED in current runtime; not reported as PASS."
+  }
+}

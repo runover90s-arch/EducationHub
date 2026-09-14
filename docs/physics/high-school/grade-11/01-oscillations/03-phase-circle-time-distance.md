@@ -46,13 +46,6 @@ $$
 
 Do đó dao động điều hòa có thể được xử lí bằng một chuyển động tròn đều tương ứng.
 
-![Đường tròn pha cho thấy điểm quay M, góc pha Phi và hình chiếu của M lên trục dao động tạo li độ x](../assets/learning-visuals/oscillations/03-phase-circle-projection.svg)
-
-*Hình — Liên hệ giữa pha và li độ: hình chiếu của điểm quay $M$ lên trục dao động cho $x=A\cos\Phi$.*
-
-**Ý nghĩa của hình:** Khi $M$ quay đều trên đường tròn bán kính $A$, hình chiếu của $M$ lên trục dao động chuyển động qua lại giữa $-A$ và $+A$. Đây là mô hình hình học để biểu diễn dao động điều hòa, không phải quỹ đạo tròn thật của vật.
-
-
 ## 2. Quy ước chiều quay và dấu vận tốc
 
 Ta chọn điểm quay tăng pha theo chiều dương lượng giác. Vì
@@ -67,6 +60,13 @@ nên:
 - $\sin\Phi<0$ → $v>0$ → vật đi theo chiều dương.
 
 Điều này đặc biệt hữu ích khi cùng một li độ $x$ ứng với hai góc trên đường tròn nhưng vật có hai chiều chuyển động khác nhau.
+
+![Đường tròn pha với hai điểm có cùng hình chiếu x0 nhưng vận tốc trái dấu](../assets/theory-figures/01-oscillations/b3-phase-map.svg){ loading=lazy }
+
+*Hình — Một đường thẳng đứng tại $x=x_0$ thường cắt đường tròn pha ở hai điểm: cùng li độ nhưng khác nửa trên/dưới của đường tròn, nên dấu vận tốc khác nhau.*
+
+!!! tip "Đọc hình"
+    Ở nửa trên, $\sin\Phi>0$ nên $v=-\omega A\sin\Phi<0$; ở nửa dưới, $\sin\Phi<0$ nên $v>0$. Vì vậy “biết vị trí” chưa đủ để xác định trạng thái; phải biết thêm chiều chuyển động.
 
 ## 3. Từ trạng thái sang pha
 
@@ -89,13 +89,6 @@ Nếu $x=A/2$ thì $\cos\Phi=1/2$, có hai họ góc cơ bản $\Phi=\pm\pi/3+2k
 
 - Nếu $v<0$ thì $\sin\Phi>0$ → chọn $\Phi=\pi/3+2k\pi$.
 - Nếu $v>0$ thì $\sin\Phi<0$ → chọn $\Phi=-\pi/3+2k\pi$.
-
-![Hai điểm trên đường tròn pha có cùng hình chiếu x bằng A trên 2 nhưng vận tốc trái dấu](../assets/learning-visuals/oscillations/03-same-displacement-opposite-velocity.svg)
-
-*Hình — Cùng li độ $x=A/2$ có thể ứng với hai trạng thái: một trạng thái có $v<0$, trạng thái kia có $v>0$.*
-
-**Ý nghĩa của hình:** Phương trình $x=A\cos\Phi$ mới xác định được hình chiếu. Muốn chọn đúng pha trong hai góc có cùng cos, phải dùng thêm chiều chuyển động hoặc dấu của $v=-\omega A\sin\Phi$.
-
 
 ## 4. Góc quay và thời gian
 
@@ -125,12 +118,11 @@ $$
 !!! tip "Mẹo"
     Khi đề nói **thời gian ngắn nhất**, không tự động lấy hiệu hai góc theo trị tuyệt đối. Phải xét đúng chiều quay của pha.
 
-![Đường tròn pha đánh dấu pha đầu, pha cuối và cung quét theo chiều tăng pha để tìm thời gian ngắn nhất](../assets/learning-visuals/oscillations/03-shortest-time-phase-arc.svg)
+![Đường tròn pha từ trạng thái A pha pi trên ba đến B pha năm pi trên ba, với cung đúng chiều pha tăng là bốn pi trên ba](../assets/theory-figures/01-oscillations/b3-forward-arc.svg){ loading=lazy }
 
-*Hình — Thời gian giữa hai trạng thái được xác định bởi góc quét thực sự $\Delta\Phi$ theo chiều tăng pha.*
+*Hình — “Cung ngắn nhất” trong bài toán thời gian là góc quay dương nhỏ nhất **theo chiều pha tăng**, không phải luôn là góc hình học nhỏ hơn giữa hai bán kính.*
 
-**Dễ nhầm:** Không phải lúc nào cũng lấy $|\Phi_2-\Phi_1|$. Cần chọn cung đi đúng chiều tăng pha và phù hợp với trạng thái chuyển động, rồi mới dùng $\Delta t=\Delta\Phi/\omega$.
-
+Trong ví dụ trên, từ $\Phi_1=\pi/3$ đến $\Phi_2=5\pi/3$ theo chiều pha tăng phải quét $\Delta\Phi=4\pi/3$; cung $2\pi/3$ nằm theo chiều ngược lại. Sau khi chọn đúng cung mới dùng $\Delta t=\Delta\Phi/\omega$.
 
 ## 6. Những mốc thời gian đặc biệt
 
@@ -141,12 +133,12 @@ Trong một dao động:
 - từ một trạng thái đến trạng thái cùng pha gần nhất: $T$;
 - đến trạng thái ngược pha: $T/2$.
 
-![Sơ đồ một chu kì dao động đi từ biên dương qua cân bằng tới biên âm rồi quay lại, tổng quãng đường bằng 4A](../assets/learning-visuals/oscillations/03-distance-one-period.svg)
+![Đường tròn pha chia bốn phần với các mốc cộng A, O, trừ A và thời gian T trên bốn, T trên hai, ba T trên bốn, T](../assets/theory-figures/01-oscillations/b3-quarter-cycle.svg){ loading=lazy }
 
-*Hình — Trong một chu kì, vật đi tổng quãng đường $4A$ nhưng trở về vị trí ban đầu nên độ dời bằng $0$.*
+*Hình — Chia một vòng $2\pi$ thành bốn cung $\pi/2$ cho các mốc thời gian cách nhau $T/4$.*
 
-**Cách đọc hình:** Cộng chiều dài từng đoạn vật thực sự đi qua: $+A\to O\to -A\to O\to +A$. Quãng đường luôn không âm, khác với độ dời chỉ phụ thuộc vị trí đầu và cuối.
-
+!!! tip "Đọc hình"
+    Không cần học thuộc các mốc như một bảng rời rạc. Từ $\omega T=2\pi$, cứ mỗi lần pha tăng $\pi/2$ thì thời gian tăng $T/4$; tăng $\pi$ thì thêm $T/2$; tăng $2\pi$ thì thêm đúng $T$.
 
 Với các vị trí đặc biệt $|x|=A/2$, $A/\sqrt2$, $A\sqrt3/2$, có thể dùng các góc lượng giác quen thuộc để tính nhanh.
 
@@ -246,6 +238,12 @@ rồi chia quãng đường theo các mốc vị trí cân bằng hoặc biên m
 ### Tại sao không dùng |x₂ − x₁|?
 
 Vì quãng đường là tổng chiều dài quỹ đạo vật đã đi. Nếu giữa hai thời điểm vật đổi chiều, $|x_2-x_1|$ chỉ là độ lớn độ dời, nhỏ hơn quãng đường thực tế.
+
+![Vật đi từ x1 tới biên cộng A rồi đổi chiều về x2, so sánh quãng đường với độ lớn độ dời](../assets/theory-figures/01-oscillations/b3-distance-displacement.svg){ loading=lazy }
+
+*Hình — Nếu vật đổi chiều ở biên $+A$, đường đi phải cộng hai chặng; đoạn thẳng nối $x_1$ và $x_2$ chỉ biểu diễn độ lớn độ dời.*
+
+Với lộ trình $x_1\rightarrow +A\rightarrow x_2$, quãng đường là $(A-x_1)+(A-x_2)$, còn độ lớn độ dời chỉ là $|x_2-x_1|$. Hai đại lượng chỉ trùng nhau khi vật không đổi chiều trong khoảng đang xét.
 
 ## 12. Quãng đường lớn nhất và nhỏ nhất trong khoảng thời gian ngắn
 

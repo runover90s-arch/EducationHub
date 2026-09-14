@@ -37,12 +37,12 @@ Trong dao động điều hòa lí tưởng, năng lượng không mất đi mà
 
 Tại vị trí cân bằng, tốc độ lớn nhất nên động năng cực đại. Tại biên, vật dừng tức thời nên động năng bằng $0$ và thế năng đạt cực đại.
 
-![Ba trạng thái dao động tại biên âm, vị trí cân bằng và biên dương với mức động năng và thế năng tương ứng](../assets/learning-visuals/oscillations/06-energy-special-positions.svg)
+![Ba vị trí trừ A, O và cộng A với cột động năng và thế năng tương ứng](../assets/theory-figures/01-oscillations/b6-energy-three-positions.svg){ loading=lazy }
 
-*Hình — Sự chuyển hóa năng lượng theo vị trí: tại biên, thế năng cực đại; tại VTCB, động năng cực đại.*
+*Hình — Ở hai biên, năng lượng của dao động nằm hoàn toàn ở thế năng; tại VTCB, thế năng giảm về $0$ còn động năng đạt cực đại.*
 
-**Ý nghĩa của hình:** Trong mô hình không ma sát, cơ năng không mất đi. Khi vật tiến từ biên về $O$, thế năng giảm đồng thời động năng tăng; quá trình đảo ngược khi vật đi từ $O$ ra biên.
-
+!!! tip "Đọc hình"
+    Hãy theo dõi **tổng năng lượng** chứ không chỉ một cột riêng lẻ: trong mô hình lí tưởng, tổng $W=W_d+W_t$ không đổi. Khi vật đi từ biên về $O$, $W_t$ giảm bao nhiêu thì $W_d$ tăng bấy nhiêu; từ $O$ ra biên thì quá trình diễn ra ngược lại.
 
 ## 2. Động năng
 
@@ -238,12 +238,12 @@ Vật đi qua hai vị trí này tổng cộng bốn lần trong một chu kì, 
 
 Hai đồ thị $W_t$ và $W_d$ cắt nhau tại $x=\pm A/\sqrt2$.
 
-![Đồ thị thế năng mở lên, động năng mở xuống và cơ năng không đổi theo li độ trong miền từ trừ A đến cộng A](../assets/learning-visuals/oscillations/06-energy-vs-displacement.svg)
+![Đồ thị thế năng, động năng và cơ năng theo li độ](../assets/theory-figures/01-oscillations/b6-energy-position.svg){ loading=lazy }
 
-*Hình — Theo li độ, $W_t$ tăng theo $x^2$, $W_d$ giảm tương ứng, còn cơ năng $W$ là đường ngang không đổi.*
+*Hình — $W_t$ tăng theo $x^2$, $W_d$ giảm phần còn lại của cơ năng, còn $W$ là đường ngang không đổi trên miền chuyển động $[-A,A]$.*
 
-**Cách đọc hình:** Chọn một giá trị $x$ rồi đọc tung độ của hai đường $W_t$ và $W_d$; tổng của chúng luôn bằng $W$. Hai đường bằng nhau tại $|x|=A/\sqrt2$.
-
+!!! tip "Đọc hình"
+    Tại $x=0$, $W_t=0$ và $W_d=W$; tại $x=\pm A$, $W_t=W$ và $W_d=0$. Hai parabol cắt nhau ở $|x|=A/\sqrt2$, đúng với điều kiện $W_t=W_d=W/2$. Nhìn giao điểm giúp tránh nhầm vị trí bằng $A/2$.
 
 ## 11. Đồ thị năng lượng theo thời gian
 
@@ -251,12 +251,12 @@ Cả $W_d$ và $W_t$ đều không âm và lặp lại sau $T/2$.
 
 Khi $W_d$ cực đại thì $W_t=0$; khi $W_t$ cực đại thì $W_d=0$. Hai dạng năng lượng biến thiên ngược nhau nhưng tổng luôn bằng $W$.
 
-![Hai đồ thị động năng và thế năng theo thời gian cho thấy mỗi đại lượng lặp lại sau T trên 2 trong khi cơ năng giữ nguyên](../assets/learning-visuals/oscillations/06-energy-vs-time.svg)
+![Đồ thị động năng và thế năng của dao động điều hòa theo thời gian](../assets/theory-figures/01-oscillations/b6-energy-time.svg){ loading=lazy }
 
-*Hình — Động năng và thế năng hoàn thành hai chu kì biến thiên trong một chu kì dao động của vật.*
+*Hình — $W_t$ và $W_d$ luôn không âm, luân phiên đạt cực đại và cùng lặp lại sau $T/2$, trong khi cơ năng $W$ không đổi.*
 
-**Ý nghĩa của hình:** Vì năng lượng phụ thuộc vào $x^2$ hoặc $v^2$, đổi dấu của $x$ hay $v$ không làm đổi năng lượng. Do đó $W_d$ và $W_t$ có chu kì $T/2$, tức tần số $2f$.
-
+!!! tip "Đọc hình"
+    Một chu kì của li độ là $T$, nhưng bình phương $\cos^2$ và $\sin^2$ lặp lại sau nửa vòng pha. Vì thế $W_t$ và $W_d$ có chu kì $T/2$, tương ứng tần số $2f$. Đường $W$ nằm ngang nhắc rằng cơ năng của hệ lí tưởng **không** dao động với tần số $2f$.
 
 ## 12. Con lắc đơn — biểu thức năng lượng chính xác
 
@@ -287,6 +287,8 @@ Nếu có ma sát hoặc lực cản môi trường, cơ năng cơ học giảm 
 Không được dùng $W=\frac12kA^2=\text{hằng số}$ xuyên suốt một quá trình tắt dần nếu biên độ đang giảm.
 
 Trong một số bài, phần cơ năng giảm được xem bằng công của lực cản hoặc nhiệt lượng sinh ra.
+
+Hiện tượng biên độ suy giảm do lực cản và hệ quả cơ năng giảm dần được giải thích tiếp ở [Bài 7 — Tổng hợp, tắt dần, cưỡng bức và cộng hưởng](./07-combined-damped-forced-resonance.md).
 
 ## Ví dụ 1 — Tỉ số năng lượng
 

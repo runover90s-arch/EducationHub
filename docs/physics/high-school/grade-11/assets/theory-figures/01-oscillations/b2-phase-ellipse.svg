@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 450" role="img" aria-labelledby="title desc">
+<title id="title">Elip trạng thái x v</title>
+<desc id="desc">Elip x bình trên A bình cộng v bình trên omega bình A bình bằng một. Một đường thẳng x bằng x0 cắt elip tại hai điểm có vận tốc trái dấu.</desc>
+<style>
+  .bg { fill: #ffffff; }
+  .axis { stroke: #263238; stroke-width: 3; fill: none; }
+  .grid { stroke: #cfd8dc; stroke-width: 1.5; stroke-dasharray: 6 6; fill: none; }
+  .guide { stroke: #90a4ae; stroke-width: 2; stroke-dasharray: 7 6; fill: none; }
+  .blue { stroke: #1565c0; fill: none; }
+  .green { stroke: #2e7d32; fill: none; }
+  .red { stroke: #c62828; fill: none; }
+  .orange { stroke: #ef6c00; fill: none; }
+  .purple { stroke: #6a1b9a; fill: none; }
+  .bluefill { fill: #1565c0; }
+  .greenfill { fill: #2e7d32; }
+  .redfill { fill: #c62828; }
+  .orangefill { fill: #ef6c00; }
+  .purplefill { fill: #6a1b9a; }
+  .mutedfill { fill: #546e7a; }
+  .label { font: 28px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #263238; }
+  .small { font: 24px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #37474f; }
+  .tiny { font: 21px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #455a64; }
+  .strong { font-weight: 700; }
+  .center { text-anchor: middle; }
+  .right { text-anchor: end; }
+</style>
+<defs>
+  <marker id="arrow" markerWidth="12" markerHeight="10" refX="10" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L0,8 L11,4 z" fill="#263238"/></marker>
+  <marker id="arrow-blue" markerWidth="12" markerHeight="10" refX="10" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L0,8 L11,4 z" fill="#1565c0"/></marker>
+  <marker id="arrow-green" markerWidth="12" markerHeight="10" refX="10" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L0,8 L11,4 z" fill="#2e7d32"/></marker>
+  <marker id="arrow-red" markerWidth="12" markerHeight="10" refX="10" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L0,8 L11,4 z" fill="#c62828"/></marker>
+  <marker id="arrow-orange" markerWidth="12" markerHeight="10" refX="10" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L0,8 L11,4 z" fill="#ef6c00"/></marker>
+
+</defs>
+<rect class="bg" x="1" y="1" width="758" height="448" rx="18" stroke="#cfd8dc" stroke-width="2"/>
+
+<text x="380" y="42" class="label strong center">Mặt phẳng trạng thái (x, v)</text>
+<line x1="95" y1="235" x2="700" y2="235" class="axis" marker-end="url(#arrow)"/>
+<line x1="390" y1="405" x2="390" y2="72" class="axis" marker-end="url(#arrow)"/>
+<ellipse cx="390" cy="235" rx="245" ry="135" stroke="#1565c0" stroke-width="5" fill="none"/>
+<text x="710" y="225" class="small">x</text>
+<text x="402" y="68" class="small">v</text>
+<text x="145" y="269" class="tiny center">−A</text>
+<text x="635" y="269" class="tiny center">+A</text>
+<text x="375" y="90" class="tiny right">+ωA</text>
+<text x="375" y="400" class="tiny right">−ωA</text>
+<line x1="500.2" y1="114.4" x2="500.2" y2="355.6" class="guide"/>
+<circle cx="500.2" cy="114.4" r="9" class="greenfill"/>
+<circle cx="500.2" cy="355.6" r="9" class="orangefill"/>
+<text x="514.2" y="117.4" class="small greenfill">(x₀, +|v|)</text>
+<text x="514.2" y="363.6" class="small orangefill">(x₀, −|v|)</text>
+<path d="M 627 190 C 670 220, 670 250, 630 290" stroke="#6a1b9a" stroke-width="4" fill="none" marker-end="url(#arrow)"/>
+<text x="665" y="165" class="tiny purplefill center">thời gian tăng</text>
+<text x="380" y="416" class="small strong center">Biết x chưa đủ: cùng x₀ thường có hai dấu vận tốc.</text>
+
+</svg>

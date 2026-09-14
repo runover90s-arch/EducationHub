@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="575" viewBox="0 0 760 575" role="img" aria-labelledby="title desc">
+<title id="title">Giản đồ vectơ tổng hợp hai dao động</title>
+<desc id="desc">Hai vectơ biên độ A1 và A2 tạo góc lệch pha Delta phi; vectơ tổng A là đường chéo hình bình hành.</desc>
+<style>
+.bg{fill:#fff} .axis{stroke:#263238;stroke-width:3;fill:none} .guide{stroke:#90a4ae;stroke-width:2;stroke-dasharray:7 6;fill:none} .grid{stroke:#cfd8dc;stroke-width:1.5;stroke-dasharray:6 6;fill:none}
+.blue{stroke:#1565c0;fill:none} .green{stroke:#2e7d32;fill:none} .red{stroke:#c62828;fill:none} .orange{stroke:#ef6c00;fill:none} .purple{stroke:#6a1b9a;fill:none} .teal{stroke:#00838f;fill:none}
+.bluefill{fill:#1565c0} .greenfill{fill:#2e7d32} .redfill{fill:#c62828} .orangefill{fill:#ef6c00} .purplefill{fill:#6a1b9a} .mutedfill{fill:#546e7a}
+.label{font:28px system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#263238} .small{font:24px system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#37474f} .tiny{font:21px system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#455a64} .strong{font-weight:700} .center{text-anchor:middle} .right{text-anchor:end}
+</style>
+<defs>
+<marker id="arrow" markerWidth="12" markerHeight="10" refX="10" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L0,8 L11,4 z" fill="#263238"/></marker>
+<marker id="arrow-blue" markerWidth="12" markerHeight="10" refX="10" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L0,8 L11,4 z" fill="#1565c0"/></marker>
+<marker id="arrow-green" markerWidth="12" markerHeight="10" refX="10" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L0,8 L11,4 z" fill="#2e7d32"/></marker>
+<marker id="arrow-red" markerWidth="12" markerHeight="10" refX="10" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L0,8 L11,4 z" fill="#c62828"/></marker>
+<marker id="arrow-orange" markerWidth="12" markerHeight="10" refX="10" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L0,8 L11,4 z" fill="#ef6c00"/></marker>
+<marker id="arrow-purple" markerWidth="12" markerHeight="10" refX="10" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L0,8 L11,4 z" fill="#6a1b9a"/></marker>
+<marker id="arrow-start" markerWidth="12" markerHeight="10" refX="2" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M11,0 L11,8 L0,4 z" fill="#263238"/></marker>
+</defs>
+<rect class="bg" x="1" y="1" width="758" height="573" rx="18" stroke="#cfd8dc" stroke-width="2"/>
+<text x="380" y="43" class="label strong center">Giản đồ vectơ quay: dao động tổng hợp là tổng vectơ</text>
+<circle cx="145" cy="430" r="7" class="mutedfill"/><text x="130" y="465" class="small right">O</text>
+<line x1="145" y1="430" x2="392.3" y2="349.7" class="blue" stroke-width="7" marker-end="url(#arrow-blue)"/><text x="268.6" y="424.8" class="small" fill="#1565c0">A₁</text>
+<line x1="145" y1="430" x2="223.7" y2="235.3" class="green" stroke-width="7" marker-end="url(#arrow-green)"/><text x="174.3" y="312.6" class="small" fill="#2e7d32">A₂</text>
+<line x1="392.3" y1="349.7" x2="470.9" y2="154.9" class="green" stroke-width="4" stroke-dasharray="9 7" marker-end="url(#arrow-green)"/>
+<line x1="223.7" y1="235.3" x2="470.9" y2="154.9" class="blue" stroke-width="4" stroke-dasharray="9 7"/>
+<line x1="145" y1="430" x2="470.9" y2="154.9" class="purple" stroke-width="8" marker-end="url(#arrow-purple)"/><text x="326.0" y="287.5" class="small strong" fill="#6a1b9a">A</text>
+<path d="M 219.2 405.9 A 78 78 0 0 0 174.2 357.7" class="orange" stroke-width="4" fill="none"/>
+<text x="250" y="344" class="small" fill="#ef6c00">Δφ</text>
+<text x="380" y="515" class="tiny center">Khi góc Δφ thay đổi, độ dài đường chéo A thay đổi dù A₁ và A₂ giữ nguyên.</text>
+<text x="380" y="550" class="tiny center">Bất đẳng thức tam giác cho ngay |A₁ − A₂| ≤ A ≤ A₁ + A₂.</text>
+</svg>

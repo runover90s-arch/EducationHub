@@ -178,12 +178,12 @@ Hai vị trí $x=+A$ và $x=-A$ là hai vị trí biên.
 !!! warning "Bẫy thường gặp"
     Dấu của $x$ cho biết vị trí so với VTCB, **không tự động cho biết chiều chuyển động**.
 
-![Trục dao động cho thấy hai biên, vị trí cân bằng O, li độ tức thời x và chiều chuyển động của vật](../assets/learning-visuals/oscillations/01-axis-position-motion.svg)
+![Trục dao động từ trừ A qua O đến cộng A, với hai trạng thái có cùng li độ dương nhưng vận tốc trái dấu](../assets/theory-figures/01-oscillations/b1-position-amplitude-axis.svg){ loading=lazy }
 
-*Hình — Li độ được đo từ vị trí cân bằng: $A$ là độ lớn li độ cực đại, còn dấu của $x$ chỉ cho biết vật đang ở phía nào của $O$.*
+*Hình — Li độ xác định vị trí của vật so với VTCB; cùng một li độ dương vẫn có thể xuất hiện khi vật đi theo hai chiều khác nhau.*
 
-**Ý nghĩa của hình:** Vật thật chỉ chuyển động qua lại trên đoạn $[-A,+A]$. Mũi tên vận tốc cho thấy một vật có $x>0$ vẫn có thể đang đi theo chiều âm.
-
+!!! tip "Đọc hình"
+    Vật chỉ nằm trong đoạn $[-A,A]$ và biên độ luôn thỏa $A>0$. Hai chấm xanh ở cùng vị trí $x>0$ biểu diễn **hai thời điểm khác nhau**: một thời điểm $v>0$, thời điểm kia $v<0$. Vì vậy dấu của $x$ không thể dùng thay cho dấu của $v$.
 
 ---
 
@@ -253,6 +253,13 @@ x=A\cos\Phi,
 $$
 
 ta thấy cùng một biên độ nhưng pha khác nhau có thể cho vị trí khác nhau.
+
+![Đường tròn bán kính A với điểm M, góc pha Phi và hình chiếu P lên trục Ox có tọa độ x](../assets/theory-figures/01-oscillations/b1-circle-projection.svg){ loading=lazy }
+
+*Hình — Hình chiếu của chuyển động tròn đều lên trục $Ox$ cho thấy nguồn gốc hình học của công thức $x=A\cos\Phi$.*
+
+!!! tip "Đọc hình"
+    Bán kính $OM$ đóng vai trò biên độ $A$; góc quay của $OM$ là pha $\Phi$; hình chiếu $P$ có tọa độ $OP=x$. Khi $M$ quay đều một vòng $2\pi$, điểm $P$ thực hiện đúng một dao động toàn phần, tương ứng một chu kì $T$.
 
 ### Tính tuần hoàn của pha
 
@@ -349,6 +356,13 @@ $$
 
 đồ thị $x$ theo $t$ là một đường hình sin.
 
+![Đồ thị li độ theo thời gian với các mức cộng A, O, trừ A và một chu kì T giữa hai đỉnh liên tiếp](../assets/theory-figures/01-oscillations/b1-displacement-time.svg){ loading=lazy }
+
+*Hình — Biên độ được đọc theo phương li độ, còn chu kì được đọc theo phương thời gian giữa hai trạng thái lặp lại.*
+
+!!! tip "Đọc hình"
+    Hai đỉnh liên tiếp cách nhau đúng $T$. Hai lần liên tiếp đi qua $x=0$ chỉ cách nhau $T/2$ và có chiều chuyển động trái nhau, nên chưa phải cùng trạng thái. Khi đọc $T$ trên đồ thị, hãy chọn hai điểm lặp lại cả **vị trí lẫn chiều chuyển động**.
+
 ### Đọc biên độ
 
 Biên độ là giá trị lớn nhất của $|x|$:
@@ -374,15 +388,6 @@ Sau khi có $T$:
 $$
 f=\frac{1}{T}.
 $$
-
-![Đồ thị li độ theo thời gian với đường dóng nối một điểm trên đồ thị tới vị trí thật của vật trên trục dao động](../assets/learning-visuals/oscillations/01-displacement-time-meaning.svg)
-
-*Hình — Một điểm trên đồ thị $x-t$ biểu diễn trạng thái của vật ở một thời điểm; đường dóng cho biết li độ đó tương ứng với vị trí nào trên trục dao động.*
-
-**Cách đọc hình:** Chọn một thời điểm trên trục $t$, dóng lên đường cong để đọc $x$, rồi đối chiếu với vị trí thật của vật trên đoạn $[-A,+A]$.
-
-**Dễ nhầm:** Đường sin không phải “đường đi trong không gian” của vật. Quỹ đạo thật của vật chỉ là đoạn thẳng giữa hai biên.
-
 
 ---
 
