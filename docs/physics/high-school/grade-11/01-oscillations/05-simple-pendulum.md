@@ -31,6 +31,13 @@ Con lắc đơn gồm vật nhỏ khối lượng $m$ treo bằng sợi dây nh�
 
 Vị trí cân bằng là vị trí dây thẳng đứng, vật ở thấp nhất.
 
+![Con lắc đơn với điểm treo, chiều dài dây l, phương thẳng đứng, góc lệch alpha, vị trí biên và cung dao động](../assets/learning-visuals/oscillations/05-pendulum-geometry.svg)
+
+*Hình — Hình học của con lắc đơn: góc lệch $\alpha$ được đo từ phương thẳng đứng, còn vật chuyển động trên một cung tròn bán kính $\ell$.*
+
+**Ý nghĩa của hình:** Khi dùng li độ dài, độ dài cung từ VTCB đến vị trí tức thời là $s=\ell\alpha$ nếu $\alpha$ tính bằng radian. Đây là đại lượng dọc theo quỹ đạo cong, không phải đoạn thẳng ngang.
+
+
 ## 2. Khi nào con lắc đơn dao động điều hòa?
 
 Phương trình chính xác theo góc là phi tuyến. Với góc nhỏ, ta dùng gần đúng
@@ -205,6 +212,13 @@ F_{kv}\approx-mg\alpha=-\frac{mg}{\ell}s,
 $$
 
 và độ lớn là $|F_{kv}|\approx mg|\alpha|=\dfrac{mg}{\ell}|s|$.
+
+![Sơ đồ lực của con lắc đơn với lực căng dọc dây, trọng lực thẳng đứng và thành phần tiếp tuyến hướng về vị trí cân bằng](../assets/learning-visuals/oscillations/05-pendulum-forces.svg)
+
+*Hình — Thành phần tiếp tuyến của trọng lực kéo vật về VTCB; lực căng dây nằm dọc dây, tức theo phương bán kính.*
+
+**Cách đọc hình:** Tách trọng lực theo phương tiếp tuyến và phương dọc dây. Thành phần $-mg\sin\alpha$ đổi dấu theo $\alpha$, nên chính nó tạo lực kéo về theo phương chuyển động.
+
 
 ## 9. Lực căng dây
 

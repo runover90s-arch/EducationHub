@@ -58,6 +58,13 @@ $$
 
 Chu kì chỉ phụ thuộc vào cấu tạo của hệ thông qua $m$ và $k$, không phụ thuộc biên độ nếu mô hình lò xo tuyến tính và các điều kiện lí tưởng còn đúng.
 
+![Con lắc lò xo ngang ở vị trí tức thời với hai biên, vị trí cân bằng và lực kéo về hướng về O](../assets/learning-visuals/oscillations/04-horizontal-spring-restoring-force.svg)
+
+*Hình — Con lắc lò xo ngang dao động quanh $O$: khi vật lệch khỏi cân bằng, lực kéo về luôn hướng về $O$.*
+
+**Ý nghĩa của hình:** Dấu của $x$ quyết định chiều của lực kéo về $F_{kv}=-kx$. Mũi tên lực không biểu diễn quỹ đạo; vật chỉ chuyển động dọc theo trục lò xo.
+
+
 ## 2. Ảnh hưởng của m và k
 
 Từ $T\propto\sqrt{m/k}$:
@@ -106,6 +113,13 @@ $$
 
 !!! note "Điểm quan trọng"
     Trọng lực làm thay đổi vị trí cân bằng nhưng không xuất hiện trực tiếp trong công thức $\omega=\sqrt{k/m}$ khi li độ được đo từ vị trí cân bằng.
+
+![Con lắc lò xo treo đứng phân biệt chiều dài tự nhiên, vị trí cân bằng và vị trí tức thời cùng độ dãn cân bằng](../assets/learning-visuals/oscillations/04-vertical-spring-reference-positions.svg)
+
+*Hình — Ba mốc khác nhau của lò xo treo đứng: chiều dài tự nhiên, vị trí cân bằng và vị trí tức thời.*
+
+**Cách đọc hình:** Độ dãn cân bằng $\Delta\ell_0$ được đo từ chiều dài tự nhiên đến VTCB; li độ $x$ lại được đo từ VTCB. Vì vậy hai đại lượng này không thể dùng thay cho nhau.
+
 
 ## 4. Chiều dài của lò xo trong dao động
 
@@ -207,6 +221,13 @@ Nó luôn hướng về vị trí cân bằng và bằng $0$ tại vị trí câ
 
 Với con lắc treo thẳng đứng, lực đàn hồi riêng của lò xo tại vị trí cân bằng có độ lớn $mg$, nên **lực đàn hồi không bằng lực kéo về**. Hợp lực của lực đàn hồi và trọng lực mới tạo thành lực kéo về.
 
+![Sơ đồ so sánh lực đàn hồi đo theo độ biến dạng của lò xo và lực kéo về đo theo li độ so với vị trí cân bằng](../assets/learning-visuals/oscillations/04-elastic-vs-restoring-force.svg)
+
+*Hình — Lực đàn hồi và lực kéo về dùng hai mốc khác nhau: chiều dài tự nhiên và vị trí cân bằng.*
+
+**Dễ nhầm:** Ở VTCB của con lắc treo đứng, lực kéo về bằng $0$ nhưng lực đàn hồi không bằng $0$; khi đó lực đàn hồi cân bằng trọng lực.
+
+
 ## 8. Năng lượng của con lắc lò xo
 
 Động năng:
@@ -296,6 +317,13 @@ $$
 $$
 
 Đoạn càng ngắn thì càng cứng.
+
+![Ba sơ đồ lò xo ghép nối tiếp, ghép song song và một lò xo đồng chất bị cắt thành đoạn ngắn hơn](../assets/learning-visuals/oscillations/04-spring-configurations.svg)
+
+*Hình — Nhìn cấu hình trước khi chọn công thức: nối tiếp chịu cùng lực qua từng lò xo, song song cùng biến dạng của vật, còn cắt lò xo làm thay đổi chiều dài hoạt động.*
+
+**Cách đọc hình:** Xác định hệ là nối tiếp, song song hay lò xo bị cắt rồi mới dùng công thức $k_{eq}$ tương ứng. Với lò xo đồng chất, đoạn ngắn hơn có độ cứng lớn hơn.
+
 
 ## 12. Thay đổi khối lượng bằng phương pháp chu kì
 

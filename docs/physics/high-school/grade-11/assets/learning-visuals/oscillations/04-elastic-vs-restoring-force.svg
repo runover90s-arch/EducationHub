@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" font-family="Inter, Arial, sans-serif" role="img" aria-label="So sánh lực đàn hồi phụ thuộc biến dạng lò xo và lực kéo về phụ thuộc li độ so với vị trí cân bằng">
+<title>So sánh lực đàn hồi phụ thuộc biến dạng lò xo và lực kéo về phụ thuộc li độ so với vị trí cân bằng</title>
+<defs>
+  <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L8,4 L0,8 z" fill="context-stroke"/></marker>
+  <marker id="arrowStart" markerWidth="8" markerHeight="8" refX="1" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M8,0 L0,4 L8,8 z" fill="context-stroke"/></marker>
+</defs>
+<rect x="1" y="1" width="718" height="298" rx="18" fill="#ffffff" stroke="#e5e7eb"/>
+<text x="360" y="34" text-anchor="middle" font-size="22" font-weight="700" fill="#18212f" >Lực đàn hồi và lực kéo về không phải lúc nào cũng trùng nhau</text>
+<rect x="45" y="75" width="295" height="170" rx="12" fill="#f8fafc" stroke="#e5e7eb" stroke-width="2"/>
+<text x="192" y="108" text-anchor="middle" font-size="20" font-weight="700" fill="#18212f" >Lực đàn hồi</text>
+<text x="70" y="145" text-anchor="start" font-size="17" font-weight="500" fill="#18212f" >• Phụ thuộc độ biến dạng của lò xo</text>
+<text x="70" y="178" text-anchor="start" font-size="17" font-weight="500" fill="#18212f" >• Độ lớn: k|Δl|</text>
+<text x="70" y="211" text-anchor="start" font-size="17" font-weight="500" fill="#18212f" >• Hướng chống lại biến dạng</text>
+<rect x="380" y="75" width="295" height="170" rx="12" fill="#f8fafc" stroke="#e5e7eb" stroke-width="2"/>
+<text x="527" y="108" text-anchor="middle" font-size="20" font-weight="700" fill="#18212f" >Lực kéo về</text>
+<text x="405" y="145" text-anchor="start" font-size="17" font-weight="500" fill="#18212f" >• Xét theo li độ x từ VTCB</text>
+<text x="405" y="178" text-anchor="start" font-size="17" font-weight="500" fill="#18212f" >• F = −kx trong SHM tuyến tính</text>
+<text x="405" y="211" text-anchor="start" font-size="17" font-weight="500" fill="#18212f" >• Luôn hướng về VTCB</text>
+
+</svg>

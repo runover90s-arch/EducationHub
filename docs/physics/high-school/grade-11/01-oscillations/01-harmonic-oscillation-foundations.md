@@ -178,6 +178,13 @@ Hai vị trí $x=+A$ và $x=-A$ là hai vị trí biên.
 !!! warning "Bẫy thường gặp"
     Dấu của $x$ cho biết vị trí so với VTCB, **không tự động cho biết chiều chuyển động**.
 
+![Trục dao động cho thấy hai biên, vị trí cân bằng O, li độ tức thời x và chiều chuyển động của vật](../assets/learning-visuals/oscillations/01-axis-position-motion.svg)
+
+*Hình — Li độ được đo từ vị trí cân bằng: $A$ là độ lớn li độ cực đại, còn dấu của $x$ chỉ cho biết vật đang ở phía nào của $O$.*
+
+**Ý nghĩa của hình:** Vật thật chỉ chuyển động qua lại trên đoạn $[-A,+A]$. Mũi tên vận tốc cho thấy một vật có $x>0$ vẫn có thể đang đi theo chiều âm.
+
+
 ---
 
 ## 7. Biên độ
@@ -367,6 +374,15 @@ Sau khi có $T$:
 $$
 f=\frac{1}{T}.
 $$
+
+![Đồ thị li độ theo thời gian với đường dóng nối một điểm trên đồ thị tới vị trí thật của vật trên trục dao động](../assets/learning-visuals/oscillations/01-displacement-time-meaning.svg)
+
+*Hình — Một điểm trên đồ thị $x-t$ biểu diễn trạng thái của vật ở một thời điểm; đường dóng cho biết li độ đó tương ứng với vị trí nào trên trục dao động.*
+
+**Cách đọc hình:** Chọn một thời điểm trên trục $t$, dóng lên đường cong để đọc $x$, rồi đối chiếu với vị trí thật của vật trên đoạn $[-A,+A]$.
+
+**Dễ nhầm:** Đường sin không phải “đường đi trong không gian” của vật. Quỹ đạo thật của vật chỉ là đoạn thẳng giữa hai biên.
+
 
 ---
 

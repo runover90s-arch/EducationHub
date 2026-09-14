@@ -109,6 +109,13 @@ Phương pháp này giúp nhìn trực tiếp:
 - vì sao cùng pha cho biên độ lớn nhất;
 - vì sao ngược pha có thể triệt tiêu nhau.
 
+![Giản đồ vectơ quay cho các trường hợp hai dao động cùng pha, vuông pha và ngược pha cùng vectơ tổng](../assets/learning-visuals/oscillations/07-phasor-superposition.svg)
+
+*Hình — Biên độ tổng hợp là độ dài vectơ tổng; độ lệch pha quyết định cách hai vectơ thành phần cộng hình học.*
+
+**Dễ nhầm:** Vectơ quay là công cụ biểu diễn biên độ và pha, không phải vectơ vị trí thật của vật trong không gian.
+
+
 # Phần B — Các loại dao động
 
 ## 5. Dao động tự do
@@ -133,6 +140,13 @@ Dao động tắt dần là dao động có biên độ giảm dần theo thời
 ### Có phải mọi dao động tắt dần đều xấu?
 
 Không. Giảm xóc ô tô, bộ phận giảm rung và cơ cấu đóng cửa cần tắt dao động nhanh. Ngược lại, trong đồng hồ cơ hoặc hệ cần duy trì rung, tắt dần là điều cần bù lại.
+
+![Đồ thị dao động tắt dần với đường bao biên độ giảm theo thời gian](../assets/learning-visuals/oscillations/07-damped-oscillation.svg)
+
+*Hình — Dao động tắt dần vẫn có sự qua lại quanh VTCB trong chế độ dao động, nhưng biên độ nằm trong một đường bao giảm dần theo thời gian.*
+
+**Ý nghĩa của hình:** “Biên độ giảm” và “tần số dao động” là hai đặc trưng khác nhau. Đường bao mô tả mức giảm biên độ, còn khoảng cách theo thời gian giữa các đỉnh mô tả chu kì.
+
 
 ## 7. Dao động duy trì
 
@@ -186,6 +200,13 @@ Nếu lực cản lớn:
 - đỉnh thấp hơn;
 - đường cong rộng hơn;
 - cộng hưởng kém rõ.
+
+![Hai đường cong biên độ dao động cưỡng bức theo tần số với lực cản nhỏ và lực cản lớn, cùng đánh dấu vùng cộng hưởng gần f0](../assets/learning-visuals/oscillations/07-resonance-curves.svg)
+
+*Hình — Đường cong cộng hưởng: lực cản nhỏ cho đỉnh cao và hẹp hơn; lực cản lớn làm đỉnh thấp và rộng hơn.*
+
+**Ý nghĩa của hình:** Biên độ dao động cưỡng bức tăng mạnh khi tần số ngoại lực ở gần tần số riêng $f_0$. Mức lực cản quyết định độ cao và độ sắc của đỉnh cộng hưởng.
+
 
 ## 11. Ứng dụng và nguy cơ của cộng hưởng
 

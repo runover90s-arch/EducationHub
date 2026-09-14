@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 510" font-family="Inter, Arial, sans-serif" role="img" aria-label="Ba trạng thái của lò xo treo đứng phân biệt chiều dài tự nhiên vị trí cân bằng và vị trí tức thời">
+<title>Ba trạng thái của lò xo treo đứng phân biệt chiều dài tự nhiên vị trí cân bằng và vị trí tức thời</title>
+<defs>
+  <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L8,4 L0,8 z" fill="context-stroke"/></marker>
+  <marker id="arrowStart" markerWidth="8" markerHeight="8" refX="1" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M8,0 L0,4 L8,8 z" fill="context-stroke"/></marker>
+</defs>
+<rect x="1" y="1" width="718" height="508" rx="18" fill="#ffffff" stroke="#e5e7eb"/>
+<text x="360" y="34" text-anchor="middle" font-size="23" font-weight="700" fill="#18212f" >Lò xo treo đứng: chiều dài tự nhiên ≠ vị trí cân bằng</text>
+<text x="130" y="72" text-anchor="middle" font-size="18" font-weight="700" fill="#18212f" >Chiều dài tự nhiên</text>
+<text x="360" y="72" text-anchor="middle" font-size="18" font-weight="700" fill="#18212f" >Vị trí cân bằng</text>
+<text x="590" y="72" text-anchor="middle" font-size="18" font-weight="700" fill="#18212f" >Vị trí tức thời</text>
+<line x1="75" y1="95" x2="185" y2="95" stroke="#18212f" stroke-width="5" stroke-linecap="round" opacity="1" />
+<line x1="305" y1="95" x2="415" y2="95" stroke="#18212f" stroke-width="5" stroke-linecap="round" opacity="1" />
+<line x1="535" y1="95" x2="645" y2="95" stroke="#18212f" stroke-width="5" stroke-linecap="round" opacity="1" />
+<polyline points="130,95 130,111 142,118.11111111111111 118,125.22222222222223 142,132.33333333333334 118,139.44444444444446 142,146.55555555555554 118,153.66666666666666 142,160.77777777777777 118,167.88888888888889 142,175.0 118,182.11111111111111 142,189.22222222222223 118,196.33333333333331 142,203.44444444444446 118,210.55555555555554 142,217.66666666666669 118,224.77777777777777 142,231.88888888888889 118,239.0 130,239 130,255" fill="none" stroke="#18212f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="80" y1="255" x2="180" y2="255" stroke="#6b7280" stroke-width="2" stroke-linecap="round" opacity="1" stroke-dasharray="5 5"/>
+<text x="188" y="261" text-anchor="start" font-size="18" font-weight="700" fill="#6b7280" >l₀</text>
+<polyline points="360,95 360,111 372,122.0 348,133.0 372,144.0 348,155.0 372,166.0 348,177.0 372,188.0 348,199.0 372,210.0 348,221.0 372,232.0 348,243.0 372,254.0 348,265.0 372,276.0 348,287.0 372,298.0 348,309.0 360,309 360,325" fill="none" stroke="#18212f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="325" y="325" width="70" height="55" rx="8" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+<line x1="305" y1="255" x2="415" y2="255" stroke="#6b7280" stroke-width="2" stroke-linecap="round" opacity="1" stroke-dasharray="5 5"/>
+<line x1="305" y1="325" x2="415" y2="325" stroke="#059669" stroke-width="2" stroke-linecap="round" opacity="1" stroke-dasharray="5 5"/>
+<line x1="432" y1="255" x2="432" y2="325" stroke="#7c3aed" stroke-width="3" stroke-linecap="round" opacity="1" marker-end="url(#arrow)" marker-start="url(#arrowStart)"/>
+<text x="447" y="296.0" text-anchor="start" font-size="18" font-weight="700" fill="#7c3aed" >Δl₀</text>
+<polyline points="590,95 590,111 602,124.5 578,138.0 602,151.5 578,165.0 602,178.5 578,192.0 602,205.5 578,219.0 602,232.5 578,246.0 602,259.5 578,273.0 602,286.5 578,300.0 602,313.5 578,327.0 602,340.5 578,354.0 590,354 590,370" fill="none" stroke="#18212f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="555" y="370" width="70" height="55" rx="8" fill="#dcfce7" stroke="#059669" stroke-width="2"/>
+<line x1="535" y1="325" x2="645" y2="325" stroke="#059669" stroke-width="2" stroke-linecap="round" opacity="1" stroke-dasharray="5 5"/>
+<line x1="662" y1="325" x2="662" y2="370" stroke="#2563eb" stroke-width="3" stroke-linecap="round" opacity="1" marker-end="url(#arrow)" marker-start="url(#arrowStart)"/>
+<text x="677" y="353.5" text-anchor="start" font-size="18" font-weight="700" fill="#2563eb" >x</text>
+<line x1="570" y1="400" x2="570" y2="325" stroke="#dc2626" stroke-width="4" stroke-linecap="round" opacity="1" marker-end="url(#arrow)"/>
+<text x="555" y="320" text-anchor="end" font-size="17" font-weight="700" fill="#dc2626" >F_đh</text>
+<line x1="610" y1="400" x2="610" y2="465" stroke="#d97706" stroke-width="4" stroke-linecap="round" opacity="1" marker-end="url(#arrow)"/>
+<text x="625" y="475" text-anchor="start" font-size="17" font-weight="700" fill="#d97706" >P</text>
+
+</svg>

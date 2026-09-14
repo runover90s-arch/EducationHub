@@ -126,6 +126,13 @@ Gia tốc luôn hướng về vị trí cân bằng:
 
 Nói cách khác, khi $x\ne0$, vectơ gia tốc ngược hướng với vectơ li độ; tại vị trí cân bằng $x=0$ thì $a=0$.
 
+![Sơ đồ nhiều vị trí trên trục dao động cho thấy vận tốc đổi chiều ở biên và gia tốc luôn hướng về vị trí cân bằng](../assets/learning-visuals/oscillations/02-velocity-acceleration-states.svg)
+
+*Hình — Trạng thái của vật tại các vị trí đặc biệt: gia tốc luôn hướng về vị trí cân bằng, còn vận tốc bằng $0$ tại hai biên và có độ lớn cực đại khi qua $O$.*
+
+**Cách đọc hình:** Nhìn vị trí của vật trước, sau đó đọc riêng mũi tên $\vec v$ và $\vec a$. Dấu của $x$ không quyết định dấu của $v$, nhưng luôn quyết định chiều của $\vec a$ qua $a=-\omega^2x$.
+
+
 ## 4. Cực trị của gia tốc
 
 Từ $a=-\omega^2x$ và $|x|\le A$:
@@ -154,6 +161,13 @@ Một cách ghi nhớ:
 $$
 x\ \xrightarrow{+\pi/2}\ v\ \xrightarrow{+\pi/2}\ a.
 $$
+
+![Ba đồ thị x t, v t và a t cùng trục thời gian với đường dóng tại biên và vị trí cân bằng](../assets/learning-visuals/oscillations/02-x-v-a-aligned.svg)
+
+*Hình — Ba đại lượng $x$, $v$, $a$ có cùng chu kì nhưng lệch pha: $v$ lệch $\pi/2$ so với $x$, còn $a$ ngược pha với $x$.*
+
+**Cách đọc hình:** Chọn một thời điểm rồi đi theo đường dóng dọc qua cả ba đồ thị. Khi $x$ cực đại thì $v=0$ và $|a|$ cực đại; khi $x=0$ thì $|v|$ cực đại và $a=0$.
+
 
 !!! warning "Bẫy thường gặp"
     Không được suy ra rằng $v$ và $a$ luôn cùng dấu vì $a$ "sớm pha" so với $v$. Dấu tức thời còn phụ thuộc vị trí và chiều chuyển động.

@@ -46,6 +46,13 @@ $$
 
 Do đó dao động điều hòa có thể được xử lí bằng một chuyển động tròn đều tương ứng.
 
+![Đường tròn pha cho thấy điểm quay M, góc pha Phi và hình chiếu của M lên trục dao động tạo li độ x](../assets/learning-visuals/oscillations/03-phase-circle-projection.svg)
+
+*Hình — Liên hệ giữa pha và li độ: hình chiếu của điểm quay $M$ lên trục dao động cho $x=A\cos\Phi$.*
+
+**Ý nghĩa của hình:** Khi $M$ quay đều trên đường tròn bán kính $A$, hình chiếu của $M$ lên trục dao động chuyển động qua lại giữa $-A$ và $+A$. Đây là mô hình hình học để biểu diễn dao động điều hòa, không phải quỹ đạo tròn thật của vật.
+
+
 ## 2. Quy ước chiều quay và dấu vận tốc
 
 Ta chọn điểm quay tăng pha theo chiều dương lượng giác. Vì
@@ -83,6 +90,13 @@ Nếu $x=A/2$ thì $\cos\Phi=1/2$, có hai họ góc cơ bản $\Phi=\pm\pi/3+2k
 - Nếu $v<0$ thì $\sin\Phi>0$ → chọn $\Phi=\pi/3+2k\pi$.
 - Nếu $v>0$ thì $\sin\Phi<0$ → chọn $\Phi=-\pi/3+2k\pi$.
 
+![Hai điểm trên đường tròn pha có cùng hình chiếu x bằng A trên 2 nhưng vận tốc trái dấu](../assets/learning-visuals/oscillations/03-same-displacement-opposite-velocity.svg)
+
+*Hình — Cùng li độ $x=A/2$ có thể ứng với hai trạng thái: một trạng thái có $v<0$, trạng thái kia có $v>0$.*
+
+**Ý nghĩa của hình:** Phương trình $x=A\cos\Phi$ mới xác định được hình chiếu. Muốn chọn đúng pha trong hai góc có cùng cos, phải dùng thêm chiều chuyển động hoặc dấu của $v=-\omega A\sin\Phi$.
+
+
 ## 4. Góc quay và thời gian
 
 Điểm quay quét góc $\Delta\Phi$ trong thời gian $\Delta t$:
@@ -111,6 +125,13 @@ $$
 !!! tip "Mẹo"
     Khi đề nói **thời gian ngắn nhất**, không tự động lấy hiệu hai góc theo trị tuyệt đối. Phải xét đúng chiều quay của pha.
 
+![Đường tròn pha đánh dấu pha đầu, pha cuối và cung quét theo chiều tăng pha để tìm thời gian ngắn nhất](../assets/learning-visuals/oscillations/03-shortest-time-phase-arc.svg)
+
+*Hình — Thời gian giữa hai trạng thái được xác định bởi góc quét thực sự $\Delta\Phi$ theo chiều tăng pha.*
+
+**Dễ nhầm:** Không phải lúc nào cũng lấy $|\Phi_2-\Phi_1|$. Cần chọn cung đi đúng chiều tăng pha và phù hợp với trạng thái chuyển động, rồi mới dùng $\Delta t=\Delta\Phi/\omega$.
+
+
 ## 6. Những mốc thời gian đặc biệt
 
 Trong một dao động:
@@ -119,6 +140,13 @@ Trong một dao động:
 - từ biên này đến biên kia: $T/2$;
 - từ một trạng thái đến trạng thái cùng pha gần nhất: $T$;
 - đến trạng thái ngược pha: $T/2$.
+
+![Sơ đồ một chu kì dao động đi từ biên dương qua cân bằng tới biên âm rồi quay lại, tổng quãng đường bằng 4A](../assets/learning-visuals/oscillations/03-distance-one-period.svg)
+
+*Hình — Trong một chu kì, vật đi tổng quãng đường $4A$ nhưng trở về vị trí ban đầu nên độ dời bằng $0$.*
+
+**Cách đọc hình:** Cộng chiều dài từng đoạn vật thực sự đi qua: $+A\to O\to -A\to O\to +A$. Quãng đường luôn không âm, khác với độ dời chỉ phụ thuộc vị trí đầu và cuối.
+
 
 Với các vị trí đặc biệt $|x|=A/2$, $A/\sqrt2$, $A\sqrt3/2$, có thể dùng các góc lượng giác quen thuộc để tính nhanh.
 

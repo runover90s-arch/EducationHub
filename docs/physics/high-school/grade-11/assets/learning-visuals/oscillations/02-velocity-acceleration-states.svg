@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" font-family="Inter, Arial, sans-serif" role="img" aria-label="Các trạng thái dao động cho thấy vận tốc theo chiều chuyển động và gia tốc luôn hướng về vị trí cân bằng">
+<title>Các trạng thái dao động cho thấy vận tốc theo chiều chuyển động và gia tốc luôn hướng về vị trí cân bằng</title>
+<defs>
+  <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L8,4 L0,8 z" fill="context-stroke"/></marker>
+  <marker id="arrowStart" markerWidth="8" markerHeight="8" refX="1" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M8,0 L0,4 L8,8 z" fill="context-stroke"/></marker>
+</defs>
+<rect x="1" y="1" width="718" height="358" rx="18" fill="#ffffff" stroke="#e5e7eb"/>
+<text x="360" y="34" text-anchor="middle" font-size="23" font-weight="700" fill="#18212f" >Vận tốc đổi chiều ở biên; gia tốc luôn hướng về O</text>
+<line x1="130" y1="90" x2="590" y2="90" stroke="#d1d5db" stroke-width="2" stroke-linecap="round" opacity="1" />
+<line x1="130" y1="82" x2="130" y2="98" stroke="#18212f" stroke-width="2" stroke-linecap="round" opacity="1" />
+<line x1="360" y1="82" x2="360" y2="98" stroke="#18212f" stroke-width="2" stroke-linecap="round" opacity="1" />
+<line x1="590" y1="82" x2="590" y2="98" stroke="#18212f" stroke-width="2" stroke-linecap="round" opacity="1" />
+<circle cx="130" cy="90" r="10" fill="#2563eb" stroke="#2563eb" stroke-width="1" opacity="1"/>
+<text x="95" y="96" text-anchor="end" font-size="17" font-weight="700" fill="#2563eb" >x=−A</text>
+<text x="130" y="66" text-anchor="middle" font-size="17" font-weight="700" fill="#d97706" >v=0</text>
+<line x1="130" y1="114" x2="200" y2="114" stroke="#dc2626" stroke-width="4" stroke-linecap="round" opacity="1" marker-end="url(#arrow)"/>
+<text x="165" y="139" text-anchor="middle" font-size="18" font-weight="700" fill="#dc2626" >a</text>
+<line x1="130" y1="165" x2="590" y2="165" stroke="#d1d5db" stroke-width="2" stroke-linecap="round" opacity="1" />
+<line x1="130" y1="157" x2="130" y2="173" stroke="#18212f" stroke-width="2" stroke-linecap="round" opacity="1" />
+<line x1="360" y1="157" x2="360" y2="173" stroke="#18212f" stroke-width="2" stroke-linecap="round" opacity="1" />
+<line x1="590" y1="157" x2="590" y2="173" stroke="#18212f" stroke-width="2" stroke-linecap="round" opacity="1" />
+<circle cx="233.5" cy="165" r="10" fill="#2563eb" stroke="#2563eb" stroke-width="1" opacity="1"/>
+<text x="95" y="171" text-anchor="end" font-size="17" font-weight="700" fill="#2563eb" >x=&lt;0</text>
+<line x1="233.5" y1="141" x2="303.5" y2="141" stroke="#d97706" stroke-width="4" stroke-linecap="round" opacity="1" marker-end="url(#arrow)"/>
+<text x="268.5" y="131" text-anchor="middle" font-size="18" font-weight="700" fill="#d97706" >v</text>
+<line x1="233.5" y1="189" x2="303.5" y2="189" stroke="#dc2626" stroke-width="4" stroke-linecap="round" opacity="1" marker-end="url(#arrow)"/>
+<text x="268.5" y="214" text-anchor="middle" font-size="18" font-weight="700" fill="#dc2626" >a</text>
+<line x1="130" y1="240" x2="590" y2="240" stroke="#d1d5db" stroke-width="2" stroke-linecap="round" opacity="1" />
+<line x1="130" y1="232" x2="130" y2="248" stroke="#18212f" stroke-width="2" stroke-linecap="round" opacity="1" />
+<line x1="360" y1="232" x2="360" y2="248" stroke="#18212f" stroke-width="2" stroke-linecap="round" opacity="1" />
+<line x1="590" y1="232" x2="590" y2="248" stroke="#18212f" stroke-width="2" stroke-linecap="round" opacity="1" />
+<circle cx="486.5" cy="240" r="10" fill="#2563eb" stroke="#2563eb" stroke-width="1" opacity="1"/>
+<text x="95" y="246" text-anchor="end" font-size="17" font-weight="700" fill="#2563eb" >x=&gt;0</text>
+<line x1="486.5" y1="216" x2="416.5" y2="216" stroke="#d97706" stroke-width="4" stroke-linecap="round" opacity="1" marker-end="url(#arrow)"/>
+<text x="451.5" y="206" text-anchor="middle" font-size="18" font-weight="700" fill="#d97706" >v</text>
+<line x1="486.5" y1="264" x2="416.5" y2="264" stroke="#dc2626" stroke-width="4" stroke-linecap="round" opacity="1" marker-end="url(#arrow)"/>
+<text x="451.5" y="289" text-anchor="middle" font-size="18" font-weight="700" fill="#dc2626" >a</text>
+<line x1="130" y1="315" x2="590" y2="315" stroke="#d1d5db" stroke-width="2" stroke-linecap="round" opacity="1" />
+<line x1="130" y1="307" x2="130" y2="323" stroke="#18212f" stroke-width="2" stroke-linecap="round" opacity="1" />
+<line x1="360" y1="307" x2="360" y2="323" stroke="#18212f" stroke-width="2" stroke-linecap="round" opacity="1" />
+<line x1="590" y1="307" x2="590" y2="323" stroke="#18212f" stroke-width="2" stroke-linecap="round" opacity="1" />
+<circle cx="590" cy="315" r="10" fill="#2563eb" stroke="#2563eb" stroke-width="1" opacity="1"/>
+<text x="95" y="321" text-anchor="end" font-size="17" font-weight="700" fill="#2563eb" >x=+A</text>
+<text x="590" y="291" text-anchor="middle" font-size="17" font-weight="700" fill="#d97706" >v=0</text>
+<line x1="590" y1="339" x2="520" y2="339" stroke="#dc2626" stroke-width="4" stroke-linecap="round" opacity="1" marker-end="url(#arrow)"/>
+<text x="510" y="333" text-anchor="end" font-size="18" font-weight="700" fill="#dc2626" >a</text>
+<text x="360" y="352" text-anchor="middle" font-size="18" font-weight="500" fill="#6b7280" >Ở O: a = 0 và |v| đạt cực đại.</text>
+</svg>

@@ -37,6 +37,13 @@ Trong dao động điều hòa lí tưởng, năng lượng không mất đi mà
 
 Tại vị trí cân bằng, tốc độ lớn nhất nên động năng cực đại. Tại biên, vật dừng tức thời nên động năng bằng $0$ và thế năng đạt cực đại.
 
+![Ba trạng thái dao động tại biên âm, vị trí cân bằng và biên dương với mức động năng và thế năng tương ứng](../assets/learning-visuals/oscillations/06-energy-special-positions.svg)
+
+*Hình — Sự chuyển hóa năng lượng theo vị trí: tại biên, thế năng cực đại; tại VTCB, động năng cực đại.*
+
+**Ý nghĩa của hình:** Trong mô hình không ma sát, cơ năng không mất đi. Khi vật tiến từ biên về $O$, thế năng giảm đồng thời động năng tăng; quá trình đảo ngược khi vật đi từ $O$ ra biên.
+
+
 ## 2. Động năng
 
 Với vật khối lượng $m$:
@@ -231,11 +238,25 @@ Vật đi qua hai vị trí này tổng cộng bốn lần trong một chu kì, 
 
 Hai đồ thị $W_t$ và $W_d$ cắt nhau tại $x=\pm A/\sqrt2$.
 
+![Đồ thị thế năng mở lên, động năng mở xuống và cơ năng không đổi theo li độ trong miền từ trừ A đến cộng A](../assets/learning-visuals/oscillations/06-energy-vs-displacement.svg)
+
+*Hình — Theo li độ, $W_t$ tăng theo $x^2$, $W_d$ giảm tương ứng, còn cơ năng $W$ là đường ngang không đổi.*
+
+**Cách đọc hình:** Chọn một giá trị $x$ rồi đọc tung độ của hai đường $W_t$ và $W_d$; tổng của chúng luôn bằng $W$. Hai đường bằng nhau tại $|x|=A/\sqrt2$.
+
+
 ## 11. Đồ thị năng lượng theo thời gian
 
 Cả $W_d$ và $W_t$ đều không âm và lặp lại sau $T/2$.
 
 Khi $W_d$ cực đại thì $W_t=0$; khi $W_t$ cực đại thì $W_d=0$. Hai dạng năng lượng biến thiên ngược nhau nhưng tổng luôn bằng $W$.
+
+![Hai đồ thị động năng và thế năng theo thời gian cho thấy mỗi đại lượng lặp lại sau T trên 2 trong khi cơ năng giữ nguyên](../assets/learning-visuals/oscillations/06-energy-vs-time.svg)
+
+*Hình — Động năng và thế năng hoàn thành hai chu kì biến thiên trong một chu kì dao động của vật.*
+
+**Ý nghĩa của hình:** Vì năng lượng phụ thuộc vào $x^2$ hoặc $v^2$, đổi dấu của $x$ hay $v$ không làm đổi năng lượng. Do đó $W_d$ và $W_t$ có chu kì $T/2$, tức tần số $2f$.
+
 
 ## 12. Con lắc đơn — biểu thức năng lượng chính xác
 

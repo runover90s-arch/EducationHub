@@ -1,0 +1,110 @@
+{
+  "base_version": "education-hub-v25.zip",
+  "target_version": "education-hub-v26.zip",
+  "chapter": "docs/physics/high-school/grade-11/01-oscillations/",
+  "mode": "UPDATE",
+  "status": "learning-visuals-added",
+  "generated_assets": 20,
+  "asset_root": "docs/physics/high-school/grade-11/assets/learning-visuals/oscillations/",
+  "design": {
+    "format": "SVG",
+    "visual_language": "Education Hub original vector diagrams; restrained palette; labels plus line/arrow encoding; no gradients or decorative imagery",
+    "mobile_review": "All 20 SVGs rendered successfully at 720 px and 360 px widths; long in-figure prose was removed where it became too small on narrow screens, with the teaching explanation kept in Markdown below each image.",
+    "copyright": "Original Education Hub diagrams. PDF sources were used only to identify useful visual ideas and information structure; no source figure was copied, cropped for publication, traced, or reproduced with source branding."
+  },
+  "pdf_visual_references_checked": [
+    {
+      "file": "BT-Chương I_1.pdf",
+      "pages_inspected": "4-5, 20, 57, 64, 85-86, 188-201",
+      "use": "phase-circle, state/graph, spring/pendulum, energy, damped/forced-oscillation visual ideas"
+    },
+    {
+      "file": "EBOOK CHUYÊN ĐỀ VẬT LÝ 11 TẬP 1 DAO ĐỘNG VÀ SÓNG, THẦY VŨ HOÀNG QUÂN-compressed.pdf",
+      "pages_inspected": "representative pages including 9, 13, 24",
+      "use": "phase-circle and x-v-a visual organization"
+    },
+    {
+      "file": "EBOOK PHONG TOẢ VẬT LÝ 11 TẬP 1 DAO ĐỘNG, SÓNG, MAPSTUDY-compressed.pdf",
+      "pages_inspected": "representative Chapter I pages",
+      "use": "visual hierarchy and graph/state organization only"
+    },
+    {
+      "file": "EBOOK LÀM CHỦ VÀ NÂNG CAO VẬT LÝ 11 TẬP 1 DAO ĐỘNG VÀ SÓNG, THẦY VŨ TUẤN ANH-compressed.pdf",
+      "pages_inspected": "representative Chapter I pages",
+      "use": "phase/time/state visualization ideas only"
+    },
+    {
+      "file": "EBOOK BẢN ĐỒ KIẾN THỨC VẬT LÝ 11, MAPSTUDY-compressed.pdf",
+      "use": "checked for Chapter I organization and terminology"
+    },
+    {
+      "file": "EBOOK SỔ TAY CÔNG THỨC VẬT LÝ 11, THẦY VŨ HOÀNG QUÂN-compressed.pdf",
+      "use": "checked for Chapter I notation/formula consistency"
+    },
+    {
+      "file": "EBOOK SỔ TAY LÝ THUYẾT VẬT LÝ 10 11 12, IPCLASS-compressed.pdf",
+      "use": "checked for terminology and general visual conventions"
+    }
+  ],
+  "lesson_assets": {
+    "01-harmonic-oscillation-foundations.md": [
+      "01-axis-position-motion.svg",
+      "01-displacement-time-meaning.svg"
+    ],
+    "02-displacement-velocity-acceleration.md": [
+      "02-velocity-acceleration-states.svg",
+      "02-x-v-a-aligned.svg"
+    ],
+    "03-phase-circle-time-distance.md": [
+      "03-phase-circle-projection.svg",
+      "03-same-displacement-opposite-velocity.svg",
+      "03-shortest-time-phase-arc.svg",
+      "03-distance-one-period.svg"
+    ],
+    "04-spring-oscillator.md": [
+      "04-horizontal-spring-restoring-force.svg",
+      "04-vertical-spring-reference-positions.svg",
+      "04-elastic-vs-restoring-force.svg",
+      "04-spring-configurations.svg"
+    ],
+    "05-simple-pendulum.md": [
+      "05-pendulum-geometry.svg",
+      "05-pendulum-forces.svg"
+    ],
+    "06-oscillation-energy.md": [
+      "06-energy-special-positions.svg",
+      "06-energy-vs-displacement.svg",
+      "06-energy-vs-time.svg"
+    ],
+    "07-combined-damped-forced-resonance.md": [
+      "07-phasor-superposition.svg",
+      "07-damped-oscillation.svg",
+      "07-resonance-curves.svg"
+    ]
+  },
+  "pedagogical_goals": [
+    "separate physical trajectory from the x-t graph",
+    "make velocity and acceleration directions visible at representative states",
+    "read x, v and a simultaneously at one instant",
+    "connect phase angle to projection and use velocity sign to distinguish states with the same displacement",
+    "select the actual positive phase arc in shortest-time problems",
+    "distinguish distance traveled from displacement",
+    "separate spring natural length, equilibrium and instantaneous position",
+    "distinguish elastic force from restoring force",
+    "recognize series/parallel/cut spring configurations before applying formulas",
+    "connect pendulum geometry and force components to the equilibrium direction",
+    "visualize energy conversion and the 2f energy frequency",
+    "use phasors as amplitude/phase representations rather than physical position vectors",
+    "separate amplitude decay from oscillation frequency",
+    "connect resonance-curve shape to damping"
+  ],
+  "validation": {
+    "asset_checks": "PASS: 20 SVGs parse, include title/aria/role, and are referenced exactly once from the seven theory lessons",
+    "mobile_svg_render": "PASS: all 20 SVGs rendered successfully at widths 360, 390, and 430 px; representative contact sheet visually reviewed",
+    "practice_bank": "PASS: 0 structural errors",
+    "pdf_import": "PASS: 0 integrity errors",
+    "solution_quality": "PASS: 0 errors",
+    "site_lint": "PASS: 0 errors, 0 warnings",
+    "mkdocs_build": "UNAVAILABLE in container: mkdocs command missing; pip install -r requirements.txt failed because package index DNS/name resolution was unavailable"
+  }
+}
