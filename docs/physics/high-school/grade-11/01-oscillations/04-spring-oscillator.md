@@ -31,16 +31,17 @@ Bạn cần làm được các việc sau:
 
 Con lắc lò xo lí tưởng gồm vật nhỏ khối lượng $m$ gắn với lò xo nhẹ có độ cứng $k$. Khi bỏ qua ma sát và lực cản, nếu xét li độ từ vị trí cân bằng, phương trình động lực học có dạng
 
-![Ba vị trí biên trái, vị trí cân bằng và biên phải của con lắc lò xo nằm ngang](../assets/theory-figures/01-oscillations/b4-spring-three-positions.svg){ loading=lazy }
-
-*Hình — Ba vị trí đặc trưng cho thấy li độ $x$ luôn được đo từ vị trí cân bằng $O$, còn biên độ $A$ là khoảng cách cực đại từ $O$ đến một biên.*
-
-!!! tip "Đọc hình"
-    Dấu của $x$ chỉ cho biết vật đang ở phía nào so với $O$: $x<0$ ở phía âm và $x>0$ ở phía dương. Biên độ $A$ luôn dương và vật chỉ chuyển động trong đoạn $[-A,A]$. Hình không cho biết chiều chuyển động tức thời; muốn biết vật đang đi sang trái hay sang phải phải xét thêm dấu của $v$.
-
 $$
 ma=-kx.
 $$
+
+<!-- ch1-source-figure: b4-horizontal-spring-positions -->
+[![Ba trạng thái của con lắc lò xo nằm ngang được dóng xuống các vị trí cộng A, O và âm A trên trục x hướng sang phải.](../assets/theory-figures/01-oscillations/b4-horizontal-spring-positions.png){ .pdf-source-figure loading=lazy width="326" height="207" }](../assets/theory-figures/01-oscillations/b4-horizontal-spring-positions.png)
+
+*Hình — Ba hàng là ba trạng thái của cùng một con lắc, không phải ba hệ ghép với nhau.*
+
+Hàng trên ứng với biên dương, hàng giữa với O, hàng dưới với biên âm. Trục ở dưới cho biết $x$ được đo từ O và chiều dương hướng sang phải. Với cấu hình ngang lí tưởng này, vị trí cân bằng trùng chiều dài tự nhiên; nhận xét đó không tự động áp dụng cho lò xo treo đứng.
+<!-- /ch1-source-figure: b4-horizontal-spring-positions -->
 
 Suy ra
 
@@ -114,12 +115,13 @@ $$
 !!! note "Điểm quan trọng"
     Trọng lực làm thay đổi vị trí cân bằng nhưng không xuất hiện trực tiếp trong công thức $\omega=\sqrt{k/m}$ khi li độ được đo từ vị trí cân bằng.
 
-![Ba mốc chiều dài của lò xo treo đứng: tự nhiên, cân bằng và tức thời](../assets/theory-figures/01-oscillations/b4-vertical-spring-reference.svg){ loading=lazy }
+<!-- ch1-source-figure: b4-vertical-spring-reference -->
+[![Lò xo chưa treo vật và lò xo cân bằng được so sánh bằng hai đường ngang cách nhau delta l0; trục li độ hướng xuống đi qua O.](../assets/theory-figures/01-oscillations/b4-vertical-spring-reference.png){ .pdf-source-figure loading=lazy width="203" height="220" }](../assets/theory-figures/01-oscillations/b4-vertical-spring-reference.png)
 
-*Hình — Cùng một lò xo có ba mốc khác nhau: chiều dài tự nhiên, chiều dài cân bằng sau khi treo vật và chiều dài tức thời khi vật lệch khỏi VTCB.*
+*Hình — Vị trí lò xo không biến dạng nằm phía trên vị trí cân bằng một đoạn độ dãn cân bằng.*
 
-!!! tip "Đọc hình"
-    Ở VTCB, lò xo dãn thêm $\Delta\ell_0$ nên $k\Delta\ell_0=mg$. Nếu chọn chiều dương hướng xuống và vật đang có $x>0$, lò xo còn dãn thêm $x$, nên độ dãn tức thời là $\Delta\ell_0+x$. Vì vậy $x$ **không phải** độ dãn toàn phần của lò xo; $x$ luôn được tính từ VTCB.
+Đường ngang qua đầu lò xo chưa treo vật là mốc chiều dài tự nhiên; đường ngang qua O là mốc li độ của dao động. Khoảng cách giữa hai mức là $\Delta\ell_0$ và được xác định bởi $k\Delta\ell_0=mg$. Chọn chiều dương hướng xuống như hình thì mức tự nhiên có li độ $-\Delta\ell_0$, còn độ dãn tại li độ $x$ là $\Delta\ell_0+x$. Phần chú thích nén/dãn trong hình minh họa trường hợp $A>\Delta\ell_0$, không phải mọi biên độ.
+<!-- /ch1-source-figure: b4-vertical-spring-reference -->
 
 ## 4. Chiều dài của lò xo trong dao động
 
@@ -209,6 +211,14 @@ $$
 
 Điều kiện lò xo dãn là $\Delta\ell_0+x>0$; điều kiện lò xo nén là $\Delta\ell_0+x<0$. Từ đây có thể dùng đường tròn lượng giác để tính thời gian dãn/nén.
 
+<!-- ch1-source-figure: b4-compression-phase-interval -->
+[![Đường tròn pha có một miền bên trái đường chiếu giới hạn được ghi nén và hai điểm biên của miền là 1, 2.](../assets/theory-figures/01-oscillations/b4-compression-phase-interval.png){ .pdf-source-figure loading=lazy width="196" height="217" }](../assets/theory-figures/01-oscillations/b4-compression-phase-interval.png)
+
+*Hình — Thời gian lò xo nén là thời gian hình chiếu nằm phía trên mức chiều dài tự nhiên.*
+
+Với quy ước li độ hướng xuống, lò xo nén khi $x<-\Delta\ell_0$. Trên đường tròn, đó là cung từ (1) qua biên âm đến (2), đúng miền được ghi “Nén”; cung còn lại ứng với lò xo dãn. Hai điểm giới hạn là lúc lò xo vừa không biến dạng, không phải lúc vật qua O. Sau khi xác định cung, đổi góc quét sang radian rồi chia cho $\omega$ để tìm thời gian.
+<!-- /ch1-source-figure: b4-compression-phase-interval -->
+
 ## 7. Lực kéo về và lực đàn hồi khác nhau thế nào?
 
 Lực kéo về là hợp lực gây gia tốc dao động, có dạng
@@ -221,12 +231,13 @@ Nó luôn hướng về vị trí cân bằng và bằng $0$ tại vị trí câ
 
 Với con lắc treo thẳng đứng, lực đàn hồi riêng của lò xo tại vị trí cân bằng có độ lớn $mg$, nên **lực đàn hồi không bằng lực kéo về**. Hợp lực của lực đàn hồi và trọng lực mới tạo thành lực kéo về.
 
-![So sánh lực đàn hồi, trọng lực và lực kéo về của con lắc lò xo treo đứng](../assets/theory-figures/01-oscillations/b4-elastic-vs-restoring.svg){ loading=lazy }
+<!-- ch1-source-figure: b4-elastic-restoring-directions -->
+[![Hai cặp mũi tên đen và đỏ hướng về hai mốc khác nhau: O và âm delta l0; vùng giữa hai mốc được đánh dấu hai lực ngược chiều.](../assets/theory-figures/01-oscillations/b4-elastic-restoring-directions.png){ .pdf-source-figure loading=lazy width="272" height="243" }](../assets/theory-figures/01-oscillations/b4-elastic-restoring-directions.png)
 
-*Hình — Ở VTCB, lực đàn hồi cân bằng trọng lực nên hợp lực theo phương dao động bằng $0$; khi vật lệch xuống dưới VTCB, hợp lực hướng lên đóng vai trò lực kéo về.*
+*Hình — Lực kéo về hướng về O, còn lực đàn hồi hướng về trạng thái lò xo không biến dạng.*
 
-!!! tip "Đọc hình"
-    $F_{dh}$ là một lực riêng do lò xo gây ra và phụ thuộc độ biến dạng so với chiều dài tự nhiên. $F_{kv}$ là **hợp lực theo phương dao động**; trong mô hình điều hòa nó có dạng $F_{kv}=-kx$ và hướng về VTCB. Hai đại lượng chỉ trùng nhau trong những cấu hình mà các lực khác không góp phần theo phương dao động.
+Mũi tên đen hội tụ về O, còn mũi tên đỏ hội tụ về mốc $x=-\Delta\ell_0$. Trong khoảng $-\Delta\ell_0<x<0$, vật ở trên O nhưng lò xo vẫn dãn: lực đàn hồi hướng lên, còn hợp lực kéo về hướng xuống. Trục $x$ được đặt nằm ngang trên giản đồ để biểu diễn các miền li độ; quy ước vật lí vẫn là chiều dương hướng xuống của lò xo treo đứng. Hai lực không cùng mốc triệt tiêu nên không thể đồng nhất $F_{dh}$ với $F_{kv}$.
+<!-- /ch1-source-figure: b4-elastic-restoring-directions -->
 
 ## 8. Năng lượng của con lắc lò xo
 
@@ -276,14 +287,15 @@ $$
 
 ## 10. Ghép lò xo
 
-![Sơ đồ ghép hai lò xo nối tiếp và song song](../assets/theory-figures/01-oscillations/b4-spring-series-parallel.svg){ loading=lazy }
-
-*Hình — Ghép nối tiếp tạo một chuỗi truyền lực qua từng lò xo; ghép song song làm các lò xo cùng nối với vật và cùng tham gia chống lại độ lệch của vật.*
-
-!!! tip "Đọc hình"
-    Hãy nhận dạng cấu trúc trước khi nhớ công thức. Ở ghép nối tiếp, cùng lực truyền qua các phần tử trong chuỗi; ở ghép song song, các lò xo cùng chịu biến dạng của vật. Sau đó mới thay hệ bằng một lò xo tương đương có độ cứng $k_{eq}$.
-
 ### Ghép nối tiếp
+
+<!-- ch1-source-figure: b4-series-springs -->
+[![Hai đoạn lò xo k1 và k2 nằm liên tiếp giữa giá cố định và vật ở đầu tự do.](../assets/theory-figures/01-oscillations/b4-series-springs.png){ .pdf-source-figure loading=lazy width="184" height="70" }](../assets/theory-figures/01-oscillations/b4-series-springs.png)
+
+*Hình — Ghép nối tiếp: lực được truyền qua cả hai đoạn trên cùng một chuỗi.*
+
+Một đầu của lò xo thứ nhất nối với giá, đầu còn lại nối với lò xo thứ hai rồi mới đến vật. Với lò xo lí tưởng, hai đoạn chịu cùng độ lớn lực, còn tổng độ biến dạng bằng tổng độ biến dạng của từng đoạn. Vì vậy phải cộng các nghịch đảo độ cứng, không cộng trực tiếp $k_1+k_2$.
+<!-- /ch1-source-figure: b4-series-springs -->
 
 Với hai lò xo:
 
@@ -298,6 +310,14 @@ k_{nt}=\frac{k_1k_2}{k_1+k_2}.
 $$
 
 ### Ghép song song
+
+<!-- ch1-source-figure: b4-parallel-springs -->
+[![Hai lò xo k1 và k2 nằm song song và cùng nối tới một thanh ở đầu phải.](../assets/theory-figures/01-oscillations/b4-parallel-springs.png){ .pdf-source-figure loading=lazy width="128" height="97" }](../assets/theory-figures/01-oscillations/b4-parallel-springs.png)
+
+*Hình — Ghép song song: hai lò xo cùng dịch chuyển ở đầu nối chung.*
+
+Thanh bên phải buộc hai đầu lò xo có cùng độ dịch chuyển theo phương dao động. Lực do hai lò xo tạo ra được cộng lại, nên độ cứng tương đương bằng tổng hai độ cứng. Cấu trúc nối chung hai đầu này khác hẳn chuỗi nối tiếp ở hình trước.
+<!-- /ch1-source-figure: b4-parallel-springs -->
 
 $$
 \boxed{k_{ss}=k_1+k_2}.

@@ -1,384 +1,2513 @@
 {
-  "schema": "education-hub-ch1-theory-visual-ledger-v1",
-  "chapter": "docs/physics/high-school/grade-11/01-oscillations/",
-  "base_source": "education-hub-v25.zip",
-  "workflow_state": "PROMPT 2/2 visual authoring and chapter-wide accessibility/mobile review complete; source packaging blocked only by unavailable MkDocs dependency in this runtime.",
-  "asset_root": "docs/physics/high-school/grade-11/assets/theory-figures/01-oscillations/",
-  "source_review": {
-    "repository_assets": {
-      "clean-bai-1": "audited; figures are mostly exercise-specific",
-      "clean-v14": "audited; i_p81_q4_231 family contains option labels/watermark and is not suitable for learner-facing theory reuse"
-    },
-    "pdf_pages_opened": [
-      "BT-Chương I_1.pdf: pages 4, 5, 56, 57, 58, 59, 87",
-      "EBOOK CHUYÊN ĐỀ VẬT LÝ 11 TẬP 1 DAO ĐỘNG VÀ SÓNG: page 9",
-      "EBOOK PHONG TOẢ VẬT LÝ 11 TẬP 1 DAO ĐỘNG, SÓNG: pages 13-24 reviewed as rendered contact set",
-      "EBOOK LÀM CHỦ VÀ NÂNG CAO VẬT LÝ 11 TẬP 1 DAO ĐỘNG VÀ SÓNG: page 12 plus early theory contact set",
-      "EBOOK BẢN ĐỒ KIẾN THỨC VẬT LÝ 11: pages 7, 9, 10",
-      "EBOOK SỔ TAY CÔNG THỨC VẬT LÝ 11: pages 10, 11"
-    ],
-    "decision": "Create clean generic SVG concept diagrams for Bài 1-3. PDF/old practice figures were used for academic/visual verification but not copied because they are dense, small, watermarked, option-labelled, or tied to specific exercises.",
-    "prompt_2_pdf_pages_opened": [
-      "BT-Chương I_1.pdf: pages 96, 110, 116, 117, 154, 155, 156, 157, 158, 159"
-    ],
-    "prompt_2_asset_audit": {
-      "spring_practice": "i_p29_q3_75_fig1.webp audited; contains an exercise-specific x-t overlay and was not reused for theory.",
-      "pendulum_practice": "i_p22_q1_47_fig1.webp and i_p33_q5_81_fig1.webp audited; both are exercise x-t graphs, not geometry/force diagrams.",
-      "energy_practice": "Energy figures used by practice/06 audited. Generic Wd/Wt-vs-x assets omit the constant-W line and the ±A/sqrt(2) teaching markers; time plots carry exercise-specific numeric data.",
-      "damped_resonance_practice": "i_p126_q19_333_fig1.webp and the other practice/07 figures audited. They are useful source checks but are exercise-specific, numeric, labelled F1/F2/F3, or too sparse for the intended theory explanation."
-    },
-    "prompt_2_decision": "Create clean generic SVG teaching diagrams for Bài 4-7. BT Ch.I pages 116-117 and 154-159 were used to verify damping/resonance and energy graph relationships. No Prompt-2 PDF crop or practice asset was learner-facing reused because none met the full pedagogical/mobile criteria without exercise-specific context or missing key teaching information."
-  },
-  "visuals": [
-    {
-      "lesson": 1,
-      "file": "b1-position-amplitude-axis.svg",
-      "concept": "signed displacement, positive amplitude, direction not implied by sign of x",
-      "method": "new-svg",
-      "source_basis": [
-        "current lesson",
-        "Bản đồ p7"
-      ]
-    },
-    {
-      "lesson": 1,
-      "file": "b1-circle-projection.svg",
-      "concept": "uniform circular motion projected to SHM; x=A cos Phi",
-      "method": "new-svg",
-      "source_basis": [
-        "BT Ch.I p4/p58",
-        "Làm chủ T1 p12"
-      ]
-    },
-    {
-      "lesson": 1,
-      "file": "b1-displacement-time.svg",
-      "concept": "read A and T; zero crossings separated by T/2 are not same state",
-      "method": "new-svg",
-      "source_basis": [
-        "BT Ch.I p5",
-        "current lesson"
-      ]
-    },
-    {
-      "lesson": 2,
-      "file": "b2-state-directions.svg",
-      "concept": "v and a at -A, O, +A",
-      "method": "new-svg",
-      "source_basis": [
-        "BT Ch.I p57",
-        "Bản đồ p9-p10"
-      ]
-    },
-    {
-      "lesson": 2,
-      "file": "b2-xva-time.svg",
-      "concept": "phase relations among x, v, a",
-      "method": "new-svg",
-      "source_basis": [
-        "BT Ch.I p56",
-        "Sổ tay công thức p10"
-      ]
-    },
-    {
-      "lesson": 2,
-      "file": "b2-phase-ellipse.svg",
-      "concept": "x-v ellipse and two velocity signs for one x",
-      "method": "new-svg",
-      "source_basis": [
-        "Sổ tay công thức p11",
-        "current lesson"
-      ]
-    },
-    {
-      "lesson": 2,
-      "file": "b2-acceleration-position.svg",
-      "concept": "a=-omega^2 x as negative-slope line",
-      "method": "new-svg",
-      "source_basis": [
-        "BT Ch.I p57",
-        "current lesson"
-      ]
-    },
-    {
-      "lesson": 3,
-      "file": "b3-phase-map.svg",
-      "concept": "same x maps to two phase points with opposite velocity signs",
-      "method": "new-svg",
-      "source_basis": [
-        "BT Ch.I p58-p59",
-        "current lesson"
-      ]
-    },
-    {
-      "lesson": 3,
-      "file": "b3-forward-arc.svg",
-      "concept": "shortest time follows increasing phase direction",
-      "method": "new-svg",
-      "source_basis": [
-        "BT Ch.I p59",
-        "current lesson"
-      ]
-    },
-    {
-      "lesson": 3,
-      "file": "b3-quarter-cycle.svg",
-      "concept": "pi/2 <-> T/4, pi <-> T/2, 2pi <-> T",
-      "method": "new-svg",
-      "source_basis": [
-        "BT Ch.I p59",
-        "current lesson"
-      ]
-    },
-    {
-      "lesson": 3,
-      "file": "b3-distance-displacement.svg",
-      "concept": "path length differs from displacement when direction reverses",
-      "method": "new-svg",
-      "source_basis": [
-        "current lesson"
-      ]
-    },
-    {
-      "lesson": 4,
-      "section": "§1 Cấu tạo và mô hình",
-      "student_difficulty": "Dấu li độ dễ bị nhầm với chiều chuyển động",
-      "file": "b4-spring-three-positions.svg",
-      "proposed_visual": "b4-spring-three-positions.svg",
-      "method": "new-svg",
-      "source_basis": [
-        "current lesson",
-        "spring practice asset audit"
-      ],
-      "pedagogical_goal": "Show -A, O, +A and the positive axis; separate position sign from velocity direction",
-      "insert_after": "after the opening model paragraph",
-      "status": "inserted-and-render-reviewed"
-    },
-    {
-      "lesson": 4,
-      "section": "§3-4 Lò xo treo thẳng đứng",
-      "student_difficulty": "Dễ đồng nhất li độ x với độ dãn toàn phần",
-      "file": "b4-vertical-spring-reference.svg",
-      "proposed_visual": "b4-vertical-spring-reference.svg",
-      "method": "new-svg",
-      "source_basis": [
-        "current lesson"
-      ],
-      "pedagogical_goal": "Separate natural length, equilibrium extension Δl0, and instantaneous displacement x with downward-positive convention",
-      "insert_after": "after the vertical-spring equilibrium note",
-      "status": "inserted-and-render-reviewed"
-    },
-    {
-      "lesson": 4,
-      "section": "§7 Lực kéo về và lực đàn hồi",
-      "student_difficulty": "Hai khái niệm lực dễ bị coi là một",
-      "file": "b4-elastic-vs-restoring.svg",
-      "proposed_visual": "b4-elastic-vs-restoring.svg",
-      "method": "new-svg",
-      "source_basis": [
-        "current lesson"
-      ],
-      "pedagogical_goal": "Show Fdh and mg separately, then identify Fkv as their resultant along the oscillation axis",
-      "insert_after": "after the distinction paragraph",
-      "status": "inserted-and-render-reviewed"
-    },
-    {
-      "lesson": 4,
-      "section": "§10 Ghép lò xo",
-      "student_difficulty": "Công thức keq khó nhớ nếu không nhìn cấu trúc",
-      "file": "b4-spring-series-parallel.svg",
-      "proposed_visual": "b4-spring-series-parallel.svg",
-      "method": "new-svg",
-      "source_basis": [
-        "current lesson"
-      ],
-      "pedagogical_goal": "Make series vs parallel topology visible before the formulas",
-      "insert_after": "before the series subsection",
-      "status": "inserted-and-render-reviewed"
-    },
-    {
-      "lesson": 5,
-      "section": "§1 Cấu tạo / §3 Li độ",
-      "student_difficulty": "Khó hình dung α, ℓ và cung s trong cùng hình",
-      "file": "b5-pendulum-geometry.svg",
-      "proposed_visual": "b5-pendulum-geometry.svg",
-      "method": "new-svg",
-      "source_basis": [
-        "current lesson"
-      ],
-      "pedagogical_goal": "Connect angular displacement to arc displacement and the equilibrium direction",
-      "insert_after": "after the construction paragraph",
-      "status": "inserted-and-render-reviewed"
-    },
-    {
-      "lesson": 5,
-      "section": "§2 Góc nhỏ",
-      "student_difficulty": "Điều kiện sin α≈α dễ bị học thuộc mà không hiểu",
-      "file": "b5-small-angle.svg",
-      "proposed_visual": "b5-small-angle.svg",
-      "method": "new-svg",
-      "source_basis": [
-        "current lesson"
-      ],
-      "pedagogical_goal": "Show sin α and α nearly coincide only near zero when α is in radians",
-      "insert_after": "after the small-angle approximation",
-      "status": "inserted-and-render-reviewed"
-    },
-    {
-      "lesson": 5,
-      "section": "§9 Lực căng dây",
-      "student_difficulty": "Dễ nhầm lực căng là lực kéo về tiếp tuyến",
-      "file": "b5-pendulum-forces.svg",
-      "proposed_visual": "b5-pendulum-forces.svg",
-      "method": "new-svg",
-      "source_basis": [
-        "current lesson"
-      ],
-      "pedagogical_goal": "Separate radial and tangential directions; place tension, weight, and mg sin α on the correct directions",
-      "insert_after": "before the radial force equation",
-      "status": "inserted-and-render-reviewed"
-    },
-    {
-      "lesson": 5,
-      "section": "§12 Đo g",
-      "student_difficulty": "Quy trình tuyến tính hóa T² theo ℓ khó hình dung từ công thức",
-      "file": "b5-measure-g.svg",
-      "proposed_visual": "b5-measure-g.svg",
-      "method": "new-svg",
-      "source_basis": [
-        "current lesson",
-        "BT Ch.I p110 checked; no reusable experiment diagram"
-      ],
-      "pedagogical_goal": "Connect length measurement, timing multiple cycles, T=tN/N and the T²-ℓ slope",
-      "insert_after": "after g=4π²/a",
-      "status": "inserted-and-render-reviewed"
-    },
-    {
-      "lesson": 6,
-      "section": "§1 Bức tranh năng lượng",
-      "student_difficulty": "Chuyển hóa năng lượng cần trực giác trước công thức",
-      "file": "b6-energy-three-positions.svg",
-      "proposed_visual": "b6-energy-three-positions.svg",
-      "method": "new-svg",
-      "source_basis": [
-        "current lesson",
-        "BT Ch.I p155"
-      ],
-      "pedagogical_goal": "Show energy transfer at -A, O, +A while total energy stays fixed",
-      "insert_after": "after the opening energy paragraph",
-      "status": "inserted-and-render-reviewed"
-    },
-    {
-      "lesson": 6,
-      "section": "§10 Đồ thị theo li độ",
-      "student_difficulty": "Cần thấy đồng thời Wt, Wd, W và giao điểm",
-      "file": "b6-energy-position.svg",
-      "proposed_visual": "b6-energy-position.svg",
-      "method": "new-svg",
-      "source_basis": [
-        "BT Ch.I p154-p155",
-        "energy practice asset audit"
-      ],
-      "pedagogical_goal": "Show the two parabolas, constant W, and |x|=A/sqrt(2) intersections",
-      "insert_after": "after the existing graph description",
-      "status": "inserted-and-render-reviewed"
-    },
-    {
-      "lesson": 6,
-      "section": "§11 Đồ thị theo thời gian",
-      "student_difficulty": "Dễ nhầm chu kì năng lượng với T",
-      "file": "b6-energy-time.svg",
-      "proposed_visual": "b6-energy-time.svg",
-      "method": "new-svg",
-      "source_basis": [
-        "BT Ch.I p155"
-      ],
-      "pedagogical_goal": "Show nonnegative Wt/Wd, opposite exchange, constant W and period T/2",
-      "insert_after": "after the time-graph paragraph",
-      "status": "inserted-and-render-reviewed"
-    },
-    {
-      "lesson": 7,
-      "section": "§4 Vectơ quay",
-      "student_difficulty": "Công thức biên độ tổng hợp thiếu trực giác hình học",
-      "file": "b7-vector-sum.svg",
-      "proposed_visual": "b7-vector-sum.svg",
-      "method": "new-svg",
-      "source_basis": [
-        "current lesson"
-      ],
-      "pedagogical_goal": "Show A1, A2, resultant A and Δφ in one parallelogram",
-      "insert_after": "after the opening vector-method paragraph",
-      "status": "inserted-and-render-reviewed"
-    },
-    {
-      "lesson": 7,
-      "section": "§4 Vectơ quay / trường hợp đặc biệt",
-      "student_difficulty": "Cùng pha, vuông pha, ngược pha dễ bị nhớ rời rạc",
-      "file": "b7-vector-special-cases.svg",
-      "proposed_visual": "b7-vector-special-cases.svg",
-      "method": "new-svg",
-      "source_basis": [
-        "current lesson"
-      ],
-      "pedagogical_goal": "Derive the three special amplitudes from head-to-tail vector addition",
-      "insert_after": "after the general vector-sum diagram",
-      "status": "inserted-and-render-reviewed"
-    },
-    {
-      "lesson": 7,
-      "section": "§6 Dao động tắt dần",
-      "student_difficulty": "Dễ mặc định mọi tắt dần đều qua lại mãi",
-      "file": "b7-damped-oscillation.svg",
-      "proposed_visual": "b7-damped-oscillation.svg",
-      "method": "new-svg",
-      "source_basis": [
-        "BT Ch.I p116",
-        "i_p126_q19_333_fig1.webp audit"
-      ],
-      "pedagogical_goal": "Show a decaying envelope for an oscillatory regime and a separate high-damping non-oscillatory return",
-      "insert_after": "after the definition",
-      "status": "inserted-and-render-reviewed"
-    },
-    {
-      "lesson": 7,
-      "section": "§9-10 Cộng hưởng và lực cản",
-      "student_difficulty": "Dễ nghĩ tăng tần số ngoại lực luôn làm biên độ tăng",
-      "file": "b7-resonance-curves.svg",
-      "proposed_visual": "b7-resonance-curves.svg",
-      "method": "new-svg",
-      "source_basis": [
-        "BT Ch.I p117",
-        "practice/07 resonance asset audit"
-      ],
-      "pedagogical_goal": "Show amplitude peaks near the natural frequency and the damping-dependent peak height/width",
-      "insert_after": "after the damping comparison bullets",
-      "status": "inserted-and-render-reviewed"
-    }
-  ],
-  "pending_prompt_2": [],
-  "final_review": {
-    "visual_count": 26,
-    "unique_visual_references": 26,
-    "mobile_review": "All 26 teaching SVGs were rendered/reviewed at narrow mobile width; Prompt 2 visuals were specifically re-rendered at 390 px. Core axes, vectors, force directions, phase/energy markers, and labels remain legible; long explanations are also provided as normal Markdown captions/tips.",
-    "accessibility": "All theory SVGs parse as XML, carry role=img plus title/desc; all 26 Markdown references have non-empty alt text, loading=lazy, existing targets, and nearby learner-facing captions.",
-    "duplication": "No teaching SVG is referenced more than once as a substitute for another concept; no Prompt 2 practice/PDF figure was duplicated into theory."
-  },
-  "quality_gate": {
-    "check_practice_bank": "PASS: 61 practice sets; 0 structural errors.",
-    "check_pdf_import": "PASS: 1633 canonical PDF items + 10 aliases; 0 integrity errors.",
-    "check_solution_quality": "PASS: 2173 checked items; 0 errors.",
-    "check_site_lint": "PASS: 237 Markdown files; 0 errors, 0 warnings.",
-    "check_site_full": "BLOCKED at build step because mkdocs is not installed in runtime.",
-    "mkdocs_build_strict": "NOT RUN successfully: mkdocs command not found. Attempted isolated venv install from requirements.txt, but runtime DNS/network could not reach package index.",
-    "packaging": "RELEASED AS series 2 version 26 by explicit repository-owner decision on 2026-09-15. All available source/checker gates pass; mkdocs build --strict remains unverified because mkdocs is unavailable and dependency installation cannot reach the package index in this runtime."
-  },
+  "schema_version": 2,
+  "scope": "Physics 11 / Chapter I / seven theory lessons / original PDF figure replacement",
   "release": {
-    "checkpoint": "education-hub-v26.zip",
     "series": 2,
     "version": 26,
-    "base_source": "education-hub-v25.zip",
-    "decision": "Owner explicitly authorized release despite unavailable local MkDocs build.",
-    "mkdocs_build_strict": "UNVERIFIED in current runtime; not reported as PASS."
-  }
+    "revision": 2,
+    "edition": "original-pdf-crops",
+    "status": "RELEASED_WITH_LOCAL_MKDOCS_WAIVER",
+    "replaces_rejected_v26": true,
+    "replacement_authorized_by_owner": true,
+    "old_v26_sha256": "7db4b038bee3974a94dff537be45861edf0d607ff4387386206f7a99c09df276",
+    "mkdocs_strict": "UNVERIFIED",
+    "build_exception_authorized_by_owner": true
+  },
+  "policy": [
+    "Thay toàn bộ 26 SVG v26 bị chủ repository từ chối bằng crop nguyên bản; không tái dựng hình, không OCR để vẽ lại chữ.",
+    "Ảnh raster: lấy XObject gốc và crop ở kích thước pixel thật; bỏ lớp watermark độc lập của PDF mà không inpaint nét khoa học. Không phóng raster nhỏ rồi coi là tăng chi tiết.",
+    "Hình có ký hiệu nằm ở nhiều đối tượng PDF phải render đủ các đối tượng liên quan: b1-phase-delay giữ cả mũi tên và nhãn Delta t.",
+    "b6-energy-time dùng đúng soft mask của ảnh gốc, ghép lên nền trắng bằng alpha compositing; không đổi đường cong hoặc nhãn.",
+    "b5-pendulum-peg chỉ xóa hai mẩu chữ thuộc đoạn văn bên cạnh trong 11 pixel lề trái phía trên; vùng xóa được ghi tọa độ và kiểm soát độc lập, không đụng đường dây hay ký hiệu.",
+    "Lời giải thích nêu đúng quy ước dấu, ký hiệu khác nhau giữa các nguồn; không sửa chữ trên ảnh để ép đồng nhất.",
+    "Tài liệu nguồn và tọa độ crop chỉ lưu nội bộ tools, không thêm trang nguồn công khai."
+  ],
+  "source_scope_note": "13 PDF đều được kiểm tra trực tiếp để xác định phạm vi. 7 tài liệu có phần dao động được rà sâu hơn; hình cuối cùng lấy từ 6 tài liệu. Danh sách rendered_pages_for_screening là các trang đã render phục vụ rà soát, không đồng nghĩa mọi chữ trên các trang đó đã được đọc hay kiểm chứng.",
+  "source_inventory": [
+    {
+      "id": "bt3",
+      "filename": "BT-Chương III_1.pdf",
+      "pages": 180,
+      "sha256": "6986c4d55ec0710811bffd5cab7063621f930ad153e008cda9f78f4abe160194",
+      "scope_review": "Đã mở phần đầu/phạm vi tài liệu; chủ đề chính là sóng hoặc điện, không chọn hình cho Chương I. Không đọc toàn văn phần ngoài phạm vi.",
+      "selected_pdf_pages_1_indexed": [],
+      "selected_image_count": 0,
+      "rendered_pages_for_screening": []
+    },
+    {
+      "id": "bt2",
+      "filename": "BT-Chương II_1.pdf",
+      "pages": 247,
+      "sha256": "2c2c2df2d00edd587749411fa9b152c9ae602656d16e7c5994e0ebfb28bd1626",
+      "scope_review": "Đã mở phần đầu/phạm vi tài liệu; chủ đề chính là sóng hoặc điện, không chọn hình cho Chương I. Không đọc toàn văn phần ngoài phạm vi.",
+      "selected_pdf_pages_1_indexed": [],
+      "selected_image_count": 0,
+      "rendered_pages_for_screening": []
+    },
+    {
+      "id": "bt4",
+      "filename": "BT-Chương IV_1.pdf",
+      "pages": 144,
+      "sha256": "d8c43290991d0f858dbe7f96ef2b3ee9811a261279d9a906460ac8d0f2ee3604",
+      "scope_review": "Đã mở phần đầu/phạm vi tài liệu; chủ đề chính là sóng hoặc điện, không chọn hình cho Chương I. Không đọc toàn văn phần ngoài phạm vi.",
+      "selected_pdf_pages_1_indexed": [],
+      "selected_image_count": 0,
+      "rendered_pages_for_screening": []
+    },
+    {
+      "id": "bt1",
+      "filename": "BT-Chương I_1.pdf",
+      "pages": 202,
+      "sha256": "1fda43f445931f975675e9223b372bd527219217bcca3be2ece71dd01b43cd5e",
+      "scope_review": "Đã rà phần dao động bằng ảnh trang và đối chiếu toàn vùng hình của các trang được chọn; không tuyên bố đã đọc toàn văn mọi trang PDF.",
+      "selected_pdf_pages_1_indexed": [
+        4,
+        5,
+        116,
+        117,
+        155
+      ],
+      "selected_image_count": 6,
+      "rendered_pages_for_screening": [
+        3,
+        4,
+        5,
+        56,
+        57,
+        58,
+        59,
+        60,
+        81,
+        84,
+        85,
+        86,
+        87,
+        96,
+        110,
+        116,
+        117,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159
+      ]
+    },
+    {
+      "id": "ebook4",
+      "filename": "EBOOK BẢN ĐỒ KIẾN THỨC VẬT LÝ 11, MAPSTUDY-compressed.pdf",
+      "pages": 60,
+      "sha256": "459bd4a4987222b96207ac4d85477def8e123efecb5edc8e579d58852d4e7927",
+      "scope_review": "Đã rà phần dao động bằng ảnh trang và đối chiếu toàn vùng hình của các trang được chọn; không tuyên bố đã đọc toàn văn mọi trang PDF.",
+      "selected_pdf_pages_1_indexed": [
+        16
+      ],
+      "selected_image_count": 1,
+      "rendered_pages_for_screening": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ]
+    },
+    {
+      "id": "ebook5",
+      "filename": "EBOOK CHUYÊN ĐỀ VẬT LÝ 11 TẬP 1 DAO ĐỘNG VÀ SÓNG, THẦY VŨ HOÀNG QUÂN-compressed.pdf",
+      "pages": 188,
+      "sha256": "6e0f09b076cdf0e16ec40660e8e5215a11c76736e60518584de4df769c919eeb",
+      "scope_review": "Đã rà phần dao động bằng ảnh trang và đối chiếu toàn vùng hình của các trang được chọn; không tuyên bố đã đọc toàn văn mọi trang PDF.",
+      "selected_pdf_pages_1_indexed": [
+        54,
+        67
+      ],
+      "selected_image_count": 3,
+      "rendered_pages_for_screening": [
+        9,
+        10,
+        11,
+        12,
+        18,
+        25,
+        29,
+        31,
+        37,
+        41,
+        50,
+        54,
+        55,
+        58,
+        60,
+        61,
+        62,
+        67,
+        69,
+        74,
+        78,
+        79,
+        82,
+        84,
+        88,
+        90,
+        92,
+        93,
+        94,
+        95,
+        96
+      ]
+    },
+    {
+      "id": "ebook6",
+      "filename": "EBOOK CHUYÊN ĐỀ VẬT LÝ 11 TẬP 2 ĐIỆN TRƯỜNG VÀ DÒNG ĐIỆN, THẦY VŨ HOÀNG QUÂN-compressed.pdf",
+      "pages": 92,
+      "sha256": "d3ff52081738b38ba8e452578d1e7282a39a2903891aab8e991b22648dda0b03",
+      "scope_review": "Đã mở phần đầu/phạm vi tài liệu; chủ đề chính là sóng hoặc điện, không chọn hình cho Chương I. Không đọc toàn văn phần ngoài phạm vi.",
+      "selected_pdf_pages_1_indexed": [],
+      "selected_image_count": 0,
+      "rendered_pages_for_screening": []
+    },
+    {
+      "id": "ebook7",
+      "filename": "EBOOK LÀM CHỦ VÀ NÂNG CAO VẬT LÝ 11 TẬP 1 DAO ĐỘNG VÀ SÓNG, THẦY VŨ TUẤN ANH-compressed.pdf",
+      "pages": 268,
+      "sha256": "9fd09a279ac7b26c55f0dd4389a136067952e8a73473d7f1bc491e011dd5298d",
+      "scope_review": "Đã rà phần dao động bằng ảnh trang và đối chiếu toàn vùng hình của các trang được chọn; không tuyên bố đã đọc toàn văn mọi trang PDF.",
+      "selected_pdf_pages_1_indexed": [
+        26,
+        39,
+        53,
+        88,
+        89
+      ],
+      "selected_image_count": 9,
+      "rendered_pages_for_screening": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        24,
+        25,
+        26,
+        27,
+        37,
+        38,
+        39,
+        51,
+        52,
+        53,
+        63,
+        64,
+        65,
+        78,
+        88,
+        89,
+        90,
+        97,
+        98,
+        99,
+        107,
+        108,
+        113,
+        114,
+        115,
+        120,
+        121,
+        122,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        148,
+        152,
+        153,
+        154,
+        155
+      ]
+    },
+    {
+      "id": "ebook8",
+      "filename": "EBOOK LÀM CHỦ VÀ NÂNG CAO VẬT LÝ 11 TẬP 2 ĐIỆN TRƯỜNG, DÒNG ĐIỆN MẠCH ĐIỆN, THẦY VŨ TUẤN ANH-compressed.pdf",
+      "pages": 248,
+      "sha256": "66df0c4400f53a32fb3ce17b5a7522c4e1a15f6f050701cc465dc523577dddf9",
+      "scope_review": "Đã mở phần đầu/phạm vi tài liệu; chủ đề chính là sóng hoặc điện, không chọn hình cho Chương I. Không đọc toàn văn phần ngoài phạm vi.",
+      "selected_pdf_pages_1_indexed": [],
+      "selected_image_count": 0,
+      "rendered_pages_for_screening": []
+    },
+    {
+      "id": "ebook9",
+      "filename": "EBOOK PHONG TOẢ VẬT LÝ 11 TẬP 1 DAO ĐỘNG, SÓNG, MAPSTUDY-compressed.pdf",
+      "pages": 348,
+      "sha256": "fdf1663826f700c63ce85854742509e6f2a21f10c822f6f9fa7d0ccaba7348ad",
+      "scope_review": "Đã rà phần dao động bằng ảnh trang và đối chiếu toàn vùng hình của các trang được chọn; không tuyên bố đã đọc toàn văn mọi trang PDF.",
+      "selected_pdf_pages_1_indexed": [
+        13,
+        44,
+        45,
+        127,
+        128,
+        142,
+        143,
+        146
+      ],
+      "selected_image_count": 8,
+      "rendered_pages_for_screening": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        26,
+        27,
+        28,
+        34,
+        35,
+        36,
+        44,
+        45,
+        46,
+        47,
+        50,
+        54,
+        66,
+        67,
+        68,
+        92,
+        93,
+        94,
+        95,
+        127,
+        128,
+        129,
+        130,
+        142,
+        143,
+        144,
+        145,
+        146,
+        147
+      ]
+    },
+    {
+      "id": "ebook10",
+      "filename": "EBOOK PHONG TOẢ VẬT LÝ 11 TẬP 2 ĐIỆN TRƯỜNG, DÒNG ĐIỆN, MẠCH ĐIỆN, MAPSTUDY-compressed.pdf",
+      "pages": 244,
+      "sha256": "c960e83543afa760d704490cd6e4635b945d60593d6eb214fde92f58edd76590",
+      "scope_review": "Đã mở phần đầu/phạm vi tài liệu; chủ đề chính là sóng hoặc điện, không chọn hình cho Chương I. Không đọc toàn văn phần ngoài phạm vi.",
+      "selected_pdf_pages_1_indexed": [],
+      "selected_image_count": 0,
+      "rendered_pages_for_screening": []
+    },
+    {
+      "id": "ebook11",
+      "filename": "EBOOK SỔ TAY CÔNG THỨC VẬT LÝ 11, THẦY VŨ HOÀNG QUÂN-compressed.pdf",
+      "pages": 86,
+      "sha256": "4c11d1ca3a18e9c7447bec700b102e79b46cab7c8e035479e2ff259dcab4491f",
+      "scope_review": "Đã rà phần dao động bằng ảnh trang và đối chiếu toàn vùng hình của các trang được chọn; không tuyên bố đã đọc toàn văn mọi trang PDF.",
+      "selected_pdf_pages_1_indexed": [
+        10,
+        14,
+        21,
+        22,
+        27
+      ],
+      "selected_image_count": 6,
+      "rendered_pages_for_screening": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34
+      ]
+    },
+    {
+      "id": "ipclass",
+      "filename": "EBOOK SỔ TAY LÝ THUYẾT VẬT LÝ 10 11 12, IPCLASS-compressed.pdf",
+      "pages": 116,
+      "sha256": "205baea30badb09970d73282cadc2256f01a8e0414166466590d6b80db7b96c9",
+      "scope_review": "Đã rà phần dao động bằng ảnh trang và đối chiếu toàn vùng hình của các trang được chọn; không tuyên bố đã đọc toàn văn mọi trang PDF.",
+      "selected_pdf_pages_1_indexed": [],
+      "selected_image_count": 0,
+      "rendered_pages_for_screening": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33
+      ]
+    }
+  ],
+  "counts": {
+    "figures": 33,
+    "pdf_sources_selected": 6,
+    "original_embedded_raster_crops": 32,
+    "all_objects_pdf_render_crops": 1,
+    "generative_images": 0,
+    "existing_exercise_assets_reused": 0,
+    "retired_generated_svg": 26
+  },
+  "figures": [
+    {
+      "id": "b1-position-amplitude",
+      "lesson": 1,
+      "asset": "docs/physics/high-school/grade-11/assets/theory-figures/01-oscillations/b1-position-amplitude.png",
+      "pdf_filename": "EBOOK PHONG TOẢ VẬT LÝ 11 TẬP 1 DAO ĐỘNG, SÓNG, MAPSTUDY-compressed.pdf",
+      "pdf_page_1_indexed": 13,
+      "source_id": "ebook9",
+      "pdf_sha256": "fdf1663826f700c63ce85854742509e6f2a21f10c822f6f9fa7d0ccaba7348ad",
+      "processing": "lossless crop of original embedded raster; PDF overlay excluded, no inpainting, no resize, no sharpening",
+      "xref": 58,
+      "smask_xref": 0,
+      "nonfigure_margin_clear_px": [],
+      "image_bbox_pdf_points": [
+        10.850800514221191,
+        6.103515625e-05,
+        584.1488647460938,
+        842.0000610351562
+      ],
+      "native_size_px": [
+        876,
+        1286
+      ],
+      "native_crop_px": [
+        173,
+        912,
+        745,
+        1063
+      ],
+      "embedded_stream_sha256": "e23913e0754bd13e49c8b0c0506f0c949c2775147aec9760042ea1de74375e38",
+      "output_size_px": [
+        572,
+        151
+      ],
+      "output_sha256": "1d7f7eb9dda40b4c8e0205a99be8f1c16f53c101b96763264f3b9c3d16d48e47",
+      "decoded_pixels_sha256": "c6c301b8deccc37ddd491076779091fdae44d92d38fe1cc86a35382984b8f3fc",
+      "section": "7. Biên độ — ý nghĩa hình học",
+      "alt": "Vật nằm giữa hai biên âm và dương; các đoạn đánh dấu li độ, biên độ và chiều dài quỹ đạo.",
+      "caption": "Li độ, biên độ và chiều dài quỹ đạo là ba đại lượng khác nhau.",
+      "explanation": "Chọn chiều dương sang phải như cách đánh dấu hai biên: quả cầu đang ở bên trái O nên có $x<0$, còn độ dài đoạn từ O đến quả cầu là $|x|$. Đoạn từ O đến một biên có độ dài $A$; toàn bộ quỹ đạo có độ dài $L=2A$. Nét đứt phía trên mô tả một lượt đi và về trong chu kì $T$, không phải một đoạn quỹ đạo mới. Chỉ nhìn vị trí quả cầu chưa thể biết nó đang đi sang trái hay sang phải.",
+      "lesson_file": "docs/physics/high-school/grade-11/01-oscillations/01-harmonic-oscillation-foundations.md",
+      "insertion_before": "### Ví dụ\n\nVới:",
+      "status": "inserted_source_crop_reviewed",
+      "student_difficulty": "Li độ, biên độ và chiều dài quỹ đạo là ba đại lượng khác nhau.",
+      "pedagogical_goal": "Chọn chiều dương sang phải như cách đánh dấu hai biên: quả cầu đang ở bên trái O nên có $x<0$, còn độ dài đoạn từ O đến quả cầu là $|x|$. Đoạn từ O đến một biên có độ dài $A$; toàn bộ quỹ đạo có độ dài $L=2A$. Nét đứt phía trên mô tả một lượt đi và về trong chu kì $T$, không phải một đoạn quỹ đạo mới. Chỉ nhìn vị trí quả cầu chưa thể biết nó đang đi sang trái hay sang phải.",
+      "markdown_line": 199,
+      "learner_caption_present": true,
+      "source_figure_status": "VISUALLY_REVIEWED",
+      "source_pixels_status": "PASS",
+      "ai_generation_used": false,
+      "watermark_inpainting_used": false
+    },
+    {
+      "id": "b1-circle-projection",
+      "lesson": 1,
+      "asset": "docs/physics/high-school/grade-11/assets/theory-figures/01-oscillations/b1-circle-projection.png",
+      "pdf_filename": "EBOOK PHONG TOẢ VẬT LÝ 11 TẬP 1 DAO ĐỘNG, SÓNG, MAPSTUDY-compressed.pdf",
+      "pdf_page_1_indexed": 44,
+      "source_id": "ebook9",
+      "pdf_sha256": "fdf1663826f700c63ce85854742509e6f2a21f10c822f6f9fa7d0ccaba7348ad",
+      "processing": "lossless crop of original embedded raster; PDF overlay excluded, no inpainting, no resize, no sharpening",
+      "xref": 213,
+      "smask_xref": 0,
+      "nonfigure_margin_clear_px": [],
+      "image_bbox_pdf_points": [
+        12.8287992477417,
+        0.0,
+        582.1707763671875,
+        842.0
+      ],
+      "native_size_px": [
+        870,
+        1286
+      ],
+      "native_crop_px": [
+        493,
+        294,
+        842,
+        616
+      ],
+      "embedded_stream_sha256": "1860e19fdad2d6134aa8a2720737af524c5744f1fbb504f224d4853037af3ff8",
+      "output_size_px": [
+        349,
+        322
+      ],
+      "output_sha256": "766a881493579fa2df3981a4df2b17d043ad299dd43149ba8f116a58a7eb7814",
+      "decoded_pixels_sha256": "1a1a802140c7fbad7f2164099b9aea047ce87b1861d2a4ba570a2a6a11efe5f2",
+      "section": "8. Pha dao động",
+      "alt": "Bán kính quay ngược chiều kim đồng hồ từ M0 đến M; hình chiếu của M0 được nối bằng nét đứt xuống vật gắn lò xo.",
+      "caption": "Pha là góc của bán kính quay, còn li độ là hình chiếu lên trục dao động.",
+      "explanation": "Trong hình, bán kính có độ dài $A$; $M_0$ biểu diễn thời điểm ban đầu với góc $\\varphi$. Nét đứt từ $M_0$ xuống vật $m$ cho thấy phép chiếu ở thời điểm ấy. Sau thời gian $t$, bán kính đến M và quét thêm góc $\\omega t$, nên góc tổng là $\\Phi=\\varphi+\\omega t$ và hình chiếu có tọa độ $x=A\\cos\\Phi$. Một vòng quay làm pha tăng $2\\pi$ và đưa vật trở lại cùng trạng thái.",
+      "lesson_file": "docs/physics/high-school/grade-11/01-oscillations/01-harmonic-oscillation-foundations.md",
+      "insertion_before": "### Tính tuần hoàn của pha",
+      "status": "inserted_source_crop_reviewed",
+      "student_difficulty": "Pha là góc của bán kính quay, còn li độ là hình chiếu lên trục dao động.",
+      "pedagogical_goal": "Trong hình, bán kính có độ dài $A$; $M_0$ biểu diễn thời điểm ban đầu với góc $\\varphi$. Nét đứt từ $M_0$ xuống vật $m$ cho thấy phép chiếu ở thời điểm ấy. Sau thời gian $t$, bán kính đến M và quét thêm góc $\\omega t$, nên góc tổng là $\\Phi=\\varphi+\\omega t$ và hình chiếu có tọa độ $x=A\\cos\\Phi$. Một vòng quay làm pha tăng $2\\pi$ và đưa vật trở lại cùng trạng thái.",
+      "markdown_line": 258,
+      "learner_caption_present": true,
+      "source_figure_status": "VISUALLY_REVIEWED",
+      "source_pixels_status": "PASS",
+      "ai_generation_used": false,
+      "watermark_inpainting_used": false
+    },
+    {
+      "id": "b1-spring-time-sequence",
+      "lesson": 1,
+      "asset": "docs/physics/high-school/grade-11/assets/theory-figures/01-oscillations/b1-spring-time-sequence.png",
+      "pdf_filename": "BT-Chương I_1.pdf",
+      "pdf_page_1_indexed": 4,
+      "source_id": "bt1",
+      "pdf_sha256": "1fda43f445931f975675e9223b372bd527219217bcca3be2ece71dd01b43cd5e",
+      "processing": "lossless crop of original embedded raster; PDF overlay excluded, no inpainting, no resize, no sharpening",
+      "xref": 36,
+      "smask_xref": 0,
+      "nonfigure_margin_clear_px": [],
+      "image_bbox_pdf_points": [
+        63.0,
+        74.28997802734375,
+        486.489990234375,
+        340.1899719238281
+      ],
+      "native_size_px": [
+        715,
+        449
+      ],
+      "native_crop_px": [
+        8,
+        7,
+        663,
+        417
+      ],
+      "embedded_stream_sha256": "23beaff638116ab5d070c71aa103fd20bfb18c57456959342b1c3f5ba27ccb90",
+      "output_size_px": [
+        655,
+        410
+      ],
+      "output_sha256": "0f43c06c5aa8420099c31c2a4b5c5aaa7282fe8c9e08688e2c627806dfcacb65",
+      "decoded_pixels_sha256": "c50ba11cc3abe3f69b388affd550fe31c61118d37a01e56712dfd67abb224bb1",
+      "section": "12. Đồ thị li độ – thời gian",
+      "alt": "Các trạng thái liên tiếp của một con lắc lò xo treo đứng tạo thành đường li độ theo thời gian, có đánh dấu A và T.",
+      "caption": "Đọc biên độ theo trục li độ, đọc chu kì theo trục thời gian.",
+      "explanation": "Các lò xo vẽ nối tiếp là những ảnh chụp của cùng một hệ ở các thời điểm khác nhau, không phải nhiều vật đang dao động đồng thời. Hình này chọn chiều dương của li độ hướng lên; khoảng cách theo phương đứng từ đường qua O đến một đỉnh là $A$. Hai đáy liên tiếp cách nhau $T$ và lặp lại cùng trạng thái. Hai lần liên tiếp qua O chỉ cách nhau $T/2$ vì chiều chuyển động khi đi qua O đã đổi.",
+      "lesson_file": "docs/physics/high-school/grade-11/01-oscillations/01-harmonic-oscillation-foundations.md",
+      "insertion_before": "### Đọc biên độ",
+      "status": "inserted_source_crop_reviewed",
+      "student_difficulty": "Đọc biên độ theo trục li độ, đọc chu kì theo trục thời gian.",
+      "pedagogical_goal": "Các lò xo vẽ nối tiếp là những ảnh chụp của cùng một hệ ở các thời điểm khác nhau, không phải nhiều vật đang dao động đồng thời. Hình này chọn chiều dương của li độ hướng lên; khoảng cách theo phương đứng từ đường qua O đến một đỉnh là $A$. Hai đáy liên tiếp cách nhau $T$ và lặp lại cùng trạng thái. Hai lần liên tiếp qua O chỉ cách nhau $T/2$ vì chiều chuyển động khi đi qua O đã đổi.",
+      "markdown_line": 361,
+      "learner_caption_present": true,
+      "source_figure_status": "VISUALLY_REVIEWED",
+      "source_pixels_status": "PASS",
+      "ai_generation_used": false,
+      "watermark_inpainting_used": false
+    },
+    {
+      "id": "b1-phase-delay",
+      "lesson": 1,
+      "asset": "docs/physics/high-school/grade-11/assets/theory-figures/01-oscillations/b1-phase-delay.png",
+      "pdf_filename": "BT-Chương I_1.pdf",
+      "pdf_page_1_indexed": 5,
+      "source_id": "bt1",
+      "pdf_sha256": "1fda43f445931f975675e9223b372bd527219217bcca3be2ece71dd01b43cd5e",
+      "processing": "render all PDF objects inside clip at 300 dpi; retain overlaid delta-t label",
+      "pdf_clip_points": [
+        305,
+        249,
+        556,
+        365
+      ],
+      "render_dpi": 300,
+      "source_object_xrefs": [
+        54,
+        55
+      ],
+      "output_size_px": [
+        1047,
+        484
+      ],
+      "output_sha256": "283cfc8dc4dd084b72a4dde8476b2cfc35d3e793e324aabd106d5cf20ad9977f",
+      "decoded_pixels_sha256": "c3a87a76462a8294f15a7147b5342626e2e9010aadc13c2bd717c857170c66ed",
+      "section": "14. Trực giác về pha",
+      "alt": "Hai đường li độ có cùng biên độ và chu kì nhưng dịch nhau theo thời gian; mũi tên delta t nối hai lần qua vị trí cân bằng cùng chiều.",
+      "caption": "Cùng biên độ và chu kì không có nghĩa là cùng pha.",
+      "explanation": "Hai đường đạt cùng độ cao cực đại và có cùng khoảng lặp $T$, nhưng các đỉnh không xảy ra cùng lúc. Đường đỏ đạt đỉnh trước đường xanh nên sớm pha hơn. Mũi tên $\\Delta t$ trong hình nối hai lần qua O cùng chiều; độ lệch pha tương ứng có độ lớn $\\omega\\Delta t=2\\pi\\Delta t/T$. Không đo độ lệch pha bằng khoảng cách thẳng đứng giữa hai đường.",
+      "lesson_file": "docs/physics/high-school/grade-11/01-oscillations/01-harmonic-oscillation-foundations.md",
+      "insertion_before": "## 15. Phân dạng cơ bản",
+      "status": "inserted_source_crop_reviewed",
+      "student_difficulty": "Cùng biên độ và chu kì không có nghĩa là cùng pha.",
+      "pedagogical_goal": "Hai đường đạt cùng độ cao cực đại và có cùng khoảng lặp $T$, nhưng các đỉnh không xảy ra cùng lúc. Đường đỏ đạt đỉnh trước đường xanh nên sớm pha hơn. Mũi tên $\\Delta t$ trong hình nối hai lần qua O cùng chiều; độ lệch pha tương ứng có độ lớn $\\omega\\Delta t=2\\pi\\Delta t/T$. Không đo độ lệch pha bằng khoảng cách thẳng đứng giữa hai đường.",
+      "markdown_line": 439,
+      "learner_caption_present": true,
+      "source_figure_status": "VISUALLY_REVIEWED",
+      "source_pixels_status": "PASS",
+      "ai_generation_used": false,
+      "watermark_inpainting_used": false
+    },
+    {
+      "id": "b2-displacement-time",
+      "lesson": 2,
+      "asset": "docs/physics/high-school/grade-11/assets/theory-figures/01-oscillations/b2-displacement-time.png",
+      "pdf_filename": "EBOOK SỔ TAY CÔNG THỨC VẬT LÝ 11, THẦY VŨ HOÀNG QUÂN-compressed.pdf",
+      "pdf_page_1_indexed": 10,
+      "source_id": "ebook11",
+      "pdf_sha256": "4c11d1ca3a18e9c7447bec700b102e79b46cab7c8e035479e2ff259dcab4491f",
+      "processing": "lossless crop of original embedded raster; PDF overlay excluded, no inpainting, no resize, no sharpening",
+      "xref": 43,
+      "smask_xref": 0,
+      "nonfigure_margin_clear_px": [],
+      "image_bbox_pdf_points": [
+        27.545801162719727,
+        0.0,
+        567.4537963867188,
+        842.0
+      ],
+      "native_size_px": [
+        825,
+        1286
+      ],
+      "native_crop_px": [
+        337,
+        383,
+        655,
+        679
+      ],
+      "embedded_stream_sha256": "2fcd67fc41edcf27b9503e494cbae91191660fc851af85750c47b3079fbfaf79",
+      "output_size_px": [
+        318,
+        296
+      ],
+      "output_sha256": "504d8030919769c0169d622d2c1eca0f4e16fd11faae26639c58f2768ab065ef",
+      "decoded_pixels_sha256": "967d5ad8bb4c68c29c26a9aad00aaf59c637b448a3314aeee1ca6df90de161c0",
+      "section": "5. Quan hệ pha giữa x, v và a",
+      "intro": "Ba đồ thị dưới đây cùng minh họa quy ước $x(0)=A$, $v(0)=0$. Hãy đối chiếu bằng các mốc $T/4$, $T/2$, $3T/4$ được in trên trục, không dóng theo vị trí điểm ảnh: tỉ lệ in của các hình gốc khác nhau.",
+      "alt": "Đồ thị li độ bắt đầu tại A, qua không ở T/4, đạt âm A ở T/2 và trở lại biên dương sau một chu kì.",
+      "caption": "Li độ xác định vị trí của vật ở từng mốc thời gian.",
+      "explanation": "Tại $t=0$, vật ở biên dương; tại $T/4$, vật qua O; tại $T/2$, vật đến biên âm. Sau đó hình lặp lại từ biên dương ở $t=T$. Đối chiếu hai hình tiếp theo để biết vật đi theo chiều nào và gia tốc hướng đâu.",
+      "lesson_file": "docs/physics/high-school/grade-11/01-oscillations/02-displacement-velocity-acceleration.md",
+      "insertion_before": "## 6. Khi nào vật nhanh dần, chậm dần?",
+      "status": "inserted_source_crop_reviewed",
+      "student_difficulty": "Li độ xác định vị trí của vật ở từng mốc thời gian.",
+      "pedagogical_goal": "Tại $t=0$, vật ở biên dương; tại $T/4$, vật qua O; tại $T/2$, vật đến biên âm. Sau đó hình lặp lại từ biên dương ở $t=T$. Đối chiếu hai hình tiếp theo để biết vật đi theo chiều nào và gia tốc hướng đâu.",
+      "markdown_line": 169,
+      "learner_caption_present": true,
+      "source_figure_status": "VISUALLY_REVIEWED",
+      "source_pixels_status": "PASS",
+      "ai_generation_used": false,
+      "watermark_inpainting_used": false
+    },
+    {
+      "id": "b2-velocity-time",
+      "lesson": 2,
+      "asset": "docs/physics/high-school/grade-11/assets/theory-figures/01-oscillations/b2-velocity-time.png",
+      "pdf_filename": "EBOOK LÀM CHỦ VÀ NÂNG CAO VẬT LÝ 11 TẬP 1 DAO ĐỘNG VÀ SÓNG, THẦY VŨ TUẤN ANH-compressed.pdf",
+      "pdf_page_1_indexed": 88,
+      "source_id": "ebook7",
+      "pdf_sha256": "9fd09a279ac7b26c55f0dd4389a136067952e8a73473d7f1bc491e011dd5298d",
+      "processing": "lossless crop of original embedded raster; PDF overlay excluded, no inpainting, no resize, no sharpening",
+      "xref": 433,
+      "smask_xref": 0,
+      "nonfigure_margin_clear_px": [],
+      "image_bbox_pdf_points": [
+        12.47819995880127,
+        0.0,
+        582.522216796875,
+        842.0
+      ],
+      "native_size_px": [
+        871,
+        1286
+      ],
+      "native_crop_px": [
+        257,
+        302,
+        649,
+        532
+      ],
+      "embedded_stream_sha256": "31b624a5c2cd6b40495b763c1ddb89b8c2c689a9d56c93df1e5717cd4ee83355",
+      "output_size_px": [
+        392,
+        230
+      ],
+      "output_sha256": "d8ee439edd5dd3820469be9a23aa1d74be7a8ad8aa09a19d5a2c5cf8e0c288ba",
+      "decoded_pixels_sha256": "790a7fe6d52266176eeb45adf3294f01454b4bca0d85c882233aaed6a1b2c52d",
+      "section": "5. Quan hệ pha giữa x, v và a",
+      "alt": "Đồ thị vận tốc bằng không tại các biên, đạt âm omega A ở T/4 và dương omega A ở 3T/4.",
+      "caption": "Khi li độ qua không, tốc độ đạt cực đại; dấu của vận tốc vẫn phải xét riêng.",
+      "explanation": "Ở điểm M của đồ thị, $t=T/4$ và $v=-\\omega A$: vật qua O theo chiều âm. Tại P, $t=3T/4$ và $v=+\\omega A$: vật cũng qua O nhưng theo chiều dương. Các điểm N và Q có $v=0$, tương ứng với hai biên chứ không phải vị trí cân bằng.",
+      "lesson_file": "docs/physics/high-school/grade-11/01-oscillations/02-displacement-velocity-acceleration.md",
+      "insertion_before": "## 6. Khi nào vật nhanh dần, chậm dần?",
+      "status": "inserted_source_crop_reviewed",
+      "student_difficulty": "Khi li độ qua không, tốc độ đạt cực đại; dấu của vận tốc vẫn phải xét riêng.",
+      "pedagogical_goal": "Ở điểm M của đồ thị, $t=T/4$ và $v=-\\omega A$: vật qua O theo chiều âm. Tại P, $t=3T/4$ và $v=+\\omega A$: vật cũng qua O nhưng theo chiều dương. Các điểm N và Q có $v=0$, tương ứng với hai biên chứ không phải vị trí cân bằng.",
+      "markdown_line": 179,
+      "learner_caption_present": true,
+      "source_figure_status": "VISUALLY_REVIEWED",
+      "source_pixels_status": "PASS",
+      "ai_generation_used": false,
+      "watermark_inpainting_used": false
+    },
+    {
+      "id": "b2-acceleration-time",
+      "lesson": 2,
+      "asset": "docs/physics/high-school/grade-11/assets/theory-figures/01-oscillations/b2-acceleration-time.png",
+      "pdf_filename": "EBOOK LÀM CHỦ VÀ NÂNG CAO VẬT LÝ 11 TẬP 1 DAO ĐỘNG VÀ SÓNG, THẦY VŨ TUẤN ANH-compressed.pdf",
+      "pdf_page_1_indexed": 88,
+      "source_id": "ebook7",
+      "pdf_sha256": "9fd09a279ac7b26c55f0dd4389a136067952e8a73473d7f1bc491e011dd5298d",
+      "processing": "lossless crop of original embedded raster; PDF overlay excluded, no inpainting, no resize, no sharpening",
+      "xref": 433,
+      "smask_xref": 0,
+      "nonfigure_margin_clear_px": [],
+      "image_bbox_pdf_points": [
+        12.47819995880127,
+        0.0,
+        582.522216796875,
+        842.0
+      ],
+      "native_size_px": [
+        871,
+        1286
+      ],
+      "native_crop_px": [
+        253,
+        890,
+        665,
+        1126
+      ],
+      "embedded_stream_sha256": "31b624a5c2cd6b40495b763c1ddb89b8c2c689a9d56c93df1e5717cd4ee83355",
+      "output_size_px": [
+        412,
+        236
+      ],
+      "output_sha256": "f87efac858c0f97e4e1bc0750228f3fd0ebd84c6e882b718538e302bc8c6c73b",
+      "decoded_pixels_sha256": "92e9f42e77cdf13f4fa9c60ee3a357149d3135c9dc0e68137aa188b3973375a4",
+      "section": "5. Quan hệ pha giữa x, v và a",
+      "alt": "Đồ thị gia tốc đạt giá trị âm cực tiểu khi li độ ở biên dương, dương cực đại ở biên âm và bằng không khi qua vị trí cân bằng.",
+      "caption": "Gia tốc ngược pha với li độ, không ngược pha với vận tốc.",
+      "explanation": "Tại $t=0$ và $t=T$, li độ bằng $A$ nhưng gia tốc bằng $-\\omega^2A$. Tại $T/2$, li độ bằng $-A$ và gia tốc đạt $+\\omega^2A$. Hai lần qua O ở $T/4$ và $3T/4$ đều có $a=0$ trong khi tốc độ lớn nhất. Các mốc này cho thấy rõ $a=-\\omega^2x$ và quan hệ sớm pha $\\pi/2$ giữa $v$ với $x$.",
+      "lesson_file": "docs/physics/high-school/grade-11/01-oscillations/02-displacement-velocity-acceleration.md",
+      "insertion_before": "## 6. Khi nào vật nhanh dần, chậm dần?",
+      "status": "inserted_source_crop_reviewed",
+      "student_difficulty": "Gia tốc ngược pha với li độ, không ngược pha với vận tốc.",
+      "pedagogical_goal": "Tại $t=0$ và $t=T$, li độ bằng $A$ nhưng gia tốc bằng $-\\omega^2A$. Tại $T/2$, li độ bằng $-A$ và gia tốc đạt $+\\omega^2A$. Hai lần qua O ở $T/4$ và $3T/4$ đều có $a=0$ trong khi tốc độ lớn nhất. Các mốc này cho thấy rõ $a=-\\omega^2x$ và quan hệ sớm pha $\\pi/2$ giữa $v$ với $x$.",
+      "markdown_line": 187,
+      "learner_caption_present": true,
+      "source_figure_status": "VISUALLY_REVIEWED",
+      "source_pixels_status": "PASS",
+      "ai_generation_used": false,
+      "watermark_inpainting_used": false
+    },
+    {
+      "id": "b2-velocity-position",
+      "lesson": 2,
+      "asset": "docs/physics/high-school/grade-11/assets/theory-figures/01-oscillations/b2-velocity-position.png",
+      "pdf_filename": "EBOOK LÀM CHỦ VÀ NÂNG CAO VẬT LÝ 11 TẬP 1 DAO ĐỘNG VÀ SÓNG, THẦY VŨ TUẤN ANH-compressed.pdf",
+      "pdf_page_1_indexed": 89,
+      "source_id": "ebook7",
+      "pdf_sha256": "9fd09a279ac7b26c55f0dd4389a136067952e8a73473d7f1bc491e011dd5298d",
+      "processing": "lossless crop of original embedded raster; PDF overlay excluded, no inpainting, no resize, no sharpening",
+      "xref": 438,
+      "smask_xref": 0,
+      "nonfigure_margin_clear_px": [],
+      "image_bbox_pdf_points": [
+        7.268710613250732,
+        0.0,
+        587.7317504882812,
+        842.0
+      ],
+      "native_size_px": [
+        887,
+        1286
+      ],
+      "native_crop_px": [
+        73,
+        130,
+        287,
+        335
+      ],
+      "embedded_stream_sha256": "355513a15161d5f24da659ed78d7e92302c3cf0019cafbca161358daa08ffdb3",
+      "output_size_px": [
+        214,
+        205
+      ],
+      "output_sha256": "222462f9877757f4031177be14e4ae30fdcf5950cfb3e1062808d4b799ab116a",
+      "decoded_pixels_sha256": "d9b6a9e71edb0bd0a08dbd86b8c74689e1e3dda172bdf501acf2ca297a6e55df",
+      "section": "7. Hệ thức độc lập thời gian — điều gì còn thiếu",
+      "alt": "Đường khép kín trên hệ trục vận tốc–li độ có các giao điểm âm A, dương A và cộng trừ omega A.",
+      "caption": "Một li độ ở bên trong quỹ đạo thường ứng với hai dấu của vận tốc.",
+      "explanation": "Giữ một giá trị $x$ rồi xét hai giao điểm với đường khép kín: điểm phía trên trục hoành có $v>0$, điểm phía dưới có $v<0$. Chúng biểu diễn cùng vị trí nhưng hai chiều chuyển động khác nhau. Hình gốc chọn tỉ lệ hai trục làm đường trông gần tròn; về quan hệ đại lượng, đó vẫn là elip $x^2/A^2+v^2/(\\omega^2A^2)=1$. Không so trực tiếp độ dài trên trục $x$ với độ dài trên trục $v$ vì hai trục biểu diễn các đại lượng khác đơn vị.",
+      "lesson_file": "docs/physics/high-school/grade-11/01-oscillations/02-displacement-velocity-acceleration.md",
+      "insertion_before": "## 8. Hệ thức giữa x và a",
+      "status": "inserted_source_crop_reviewed",
+      "student_difficulty": "Một li độ ở bên trong quỹ đạo thường ứng với hai dấu của vận tốc.",
+      "pedagogical_goal": "Giữ một giá trị $x$ rồi xét hai giao điểm với đường khép kín: điểm phía trên trục hoành có $v>0$, điểm phía dưới có $v<0$. Chúng biểu diễn cùng vị trí nhưng hai chiều chuyển động khác nhau. Hình gốc chọn tỉ lệ hai trục làm đường trông gần tròn; về quan hệ đại lượng, đó vẫn là elip $x^2/A^2+v^2/(\\omega^2A^2)=1$. Không so trực tiếp độ dài trên trục $x$ với độ dài trên trục $v$ vì hai trục biểu diễn các đại lượng khác đơn vị.",
+      "markdown_line": 242,
+      "learner_caption_present": true,
+      "source_figure_status": "VISUALLY_REVIEWED",
+      "source_pixels_status": "PASS",
+      "ai_generation_used": false,
+      "watermark_inpainting_used": false
+    },
+    {
+      "id": "b2-acceleration-position",
+      "lesson": 2,
+      "asset": "docs/physics/high-school/grade-11/assets/theory-figures/01-oscillations/b2-acceleration-position.png",
+      "pdf_filename": "EBOOK LÀM CHỦ VÀ NÂNG CAO VẬT LÝ 11 TẬP 1 DAO ĐỘNG VÀ SÓNG, THẦY VŨ TUẤN ANH-compressed.pdf",
+      "pdf_page_1_indexed": 89,
+      "source_id": "ebook7",
+      "pdf_sha256": "9fd09a279ac7b26c55f0dd4389a136067952e8a73473d7f1bc491e011dd5298d",
+      "processing": "lossless crop of original embedded raster; PDF overlay excluded, no inpainting, no resize, no sharpening",
+      "xref": 438,
+      "smask_xref": 0,
+      "nonfigure_margin_clear_px": [],
+      "image_bbox_pdf_points": [
+        7.268710613250732,
+        0.0,
+        587.7317504882812,
+        842.0
+      ],
+      "native_size_px": [
+        887,
+        1286
+      ],
+      "native_crop_px": [
+        579,
+        158,
+        818,
+        328
+      ],
+      "embedded_stream_sha256": "355513a15161d5f24da659ed78d7e92302c3cf0019cafbca161358daa08ffdb3",
+      "output_size_px": [
+        239,
+        170
+      ],
+      "output_sha256": "b7a0a6528a647e14a8d0ffd70592eac7785563694758a9513a559cada727c9d5",
+      "decoded_pixels_sha256": "04e4d7cf0f6c5c2926fd9ce6a9eea4e07796722eef061466b92b920700c5e834",
+      "section": "3. Gia tốc — ý nghĩa của dấu âm",
+      "alt": "Đồ thị gia tốc theo li độ là đường thẳng đi xuống qua gốc, nằm trong các góc phần tư có x và a trái dấu.",
+      "caption": "Dấu âm trong quan hệ gia tốc–li độ nhìn thấy được qua độ dốc của đường thẳng.",
+      "explanation": "Nửa đồ thị bên phải có $x>0$ nhưng $a<0$; nửa bên trái có $x<0$ nhưng $a>0$. Vì $a=-\\omega^2x$, hệ số góc là $-\\omega^2$ và vectơ gia tốc luôn hướng về vị trí cân bằng. Giao điểm hai trục ứng với $x=a=0$; điều đó không có nghĩa vận tốc cũng bằng không.",
+      "lesson_file": "docs/physics/high-school/grade-11/01-oscillations/02-displacement-velocity-acceleration.md",
+      "insertion_before": "## 4. Cực trị của gia tốc",
+      "status": "inserted_source_crop_reviewed",
+      "student_difficulty": "Dấu âm trong quan hệ gia tốc–li độ nhìn thấy được qua độ dốc của đường thẳng.",
+      "pedagogical_goal": "Nửa đồ thị bên phải có $x>0$ nhưng $a<0$; nửa bên trái có $x<0$ nhưng $a>0$. Vì $a=-\\omega^2x$, hệ số góc là $-\\omega^2$ và vectơ gia tốc luôn hướng về vị trí cân bằng. Giao điểm hai trục ứng với $x=a=0$; điều đó không có nghĩa vận tốc cũng bằng không.",
+      "markdown_line": 129,
+      "learner_caption_present": true,
+      "source_figure_status": "VISUALLY_REVIEWED",
+      "source_pixels_status": "PASS",
+      "ai_generation_used": false,
+      "watermark_inpainting_used": false
+    },
+    {
+      "id": "b3-phase-map",
+      "lesson": 3,
+      "asset": "docs/physics/high-school/grade-11/assets/theory-figures/01-oscillations/b3-phase-map.png",
+      "pdf_filename": "EBOOK PHONG TOẢ VẬT LÝ 11 TẬP 1 DAO ĐỘNG, SÓNG, MAPSTUDY-compressed.pdf",
+      "pdf_page_1_indexed": 45,
+      "source_id": "ebook9",
+      "pdf_sha256": "fdf1663826f700c63ce85854742509e6f2a21f10c822f6f9fa7d0ccaba7348ad",
+      "processing": "lossless crop of original embedded raster; PDF overlay excluded, no inpainting, no resize, no sharpening",
+      "xref": 218,
+      "smask_xref": 0,
+      "nonfigure_margin_clear_px": [],
+      "image_bbox_pdf_points": [
+        6.110189914703369,
+        0.0,
+        588.89013671875,
+        842.0
+      ],
+      "native_size_px": [
+        890,
+        1286
+      ],
+      "native_crop_px": [
+        129,
+        129,
+        785,
+        773
+      ],
+      "embedded_stream_sha256": "bc47a3d1982229ad16615a01c0eeed4827610e4b19c29a767c64ae6bcfab1477",
+      "output_size_px": [
+        656,
+        644
+      ],
+      "output_sha256": "0707f1dd63a7a1584fd92e7cc3fe676a1402b6edfcfa26b42a5ab66ba5bdeda6",
+      "decoded_pixels_sha256": "f94df02fe8d7dd6a5fca2b9802e02644555a4966f1c1c986c70a873e5fd6373f",
+      "section": "1. Mô hình đường tròn lượng giác",
+      "wide": true,
+      "alt": "Bản đồ các góc pha đặc biệt và hình chiếu tương ứng xuống trục li độ từ âm A đến dương A.",
+      "caption": "Các mốc li độ xuất phát từ phép chiếu bán kính, không phải một bảng thời gian rời rạc.",
+      "explanation": "Bắt đầu từ biên dương: pha $0$ cho $x=A$, pha $\\pi/2$ cho $x=0$, pha $\\pi$ cho $x=-A$. Với pha tăng đều, các góc quét $\\pi/2$, $\\pi$, $2\\pi$ lần lượt ứng với $T/4$, $T/2$, $T$. Các góc âm ở nửa dưới có thể cộng thêm $2\\pi$ để theo dõi một vòng quay liên tục; không đảo chiều quay chỉ vì góc đang được ghi bằng số âm.",
+      "lesson_file": "docs/physics/high-school/grade-11/01-oscillations/03-phase-circle-time-distance.md",
+      "insertion_before": "## 2. Quy ước chiều quay và dấu vận tốc",
+      "status": "inserted_source_crop_reviewed",
+      "student_difficulty": "Các mốc li độ xuất phát từ phép chiếu bán kính, không phải một bảng thời gian rời rạc.",
+      "pedagogical_goal": "Bắt đầu từ biên dương: pha $0$ cho $x=A$, pha $\\pi/2$ cho $x=0$, pha $\\pi$ cho $x=-A$. Với pha tăng đều, các góc quét $\\pi/2$, $\\pi$, $2\\pi$ lần lượt ứng với $T/4$, $T/2$, $T$. Các góc âm ở nửa dưới có thể cộng thêm $2\\pi$ để theo dõi một vòng quay liên tục; không đảo chiều quay chỉ vì góc đang được ghi bằng số âm.",
+      "markdown_line": 49,
+      "learner_caption_present": true,
+      "source_figure_status": "VISUALLY_REVIEWED",
+      "source_pixels_status": "PASS",
+      "ai_generation_used": false,
+      "watermark_inpainting_used": false
+    },
+    {
+      "id": "b3-same-position-opposite-velocity",
+      "lesson": 3,
+      "asset": "docs/physics/high-school/grade-11/assets/theory-figures/01-oscillations/b3-same-position-opposite-velocity.png",
+      "pdf_filename": "EBOOK SỔ TAY CÔNG THỨC VẬT LÝ 11, THẦY VŨ HOÀNG QUÂN-compressed.pdf",
+      "pdf_page_1_indexed": 14,
+      "source_id": "ebook11",
+      "pdf_sha256": "4c11d1ca3a18e9c7447bec700b102e79b46cab7c8e035479e2ff259dcab4491f",
+      "processing": "lossless crop of original embedded raster; PDF overlay excluded, no inpainting, no resize, no sharpening",
+      "xref": 63,
+      "smask_xref": 0,
+      "nonfigure_margin_clear_px": [],
+      "image_bbox_pdf_points": [
+        28.743499755859375,
+        0.0,
+        566.2564697265625,
+        842.0
+      ],
+      "native_size_px": [
+        821,
+        1286
+      ],
+      "native_crop_px": [
+        488,
+        650,
+        688,
+        823
+      ],
+      "embedded_stream_sha256": "6f01f3a003503853082155456ae6e1238fa78f7727fd3c27e7f5f6526c5008f9",
+      "output_size_px": [
+        200,
+        173
+      ],
+      "output_sha256": "e4a08622c925388976d6175053c830fec9d493e4c996b1542e4c0219a14a9df8",
+      "decoded_pixels_sha256": "0bbcce85edcb9874a351e24833fc282a60671e2500853e83f0f5075892d47b7b",
+      "section": "2. Quy ước chiều quay và dấu vận tốc",
+      "alt": "Hai điểm trên và dưới đường tròn có cùng hình chiếu x; điểm trên được ghi v nhỏ hơn không, điểm dưới v lớn hơn không.",
+      "caption": "Một đường chiếu thẳng đứng nối hai trạng thái cùng li độ nhưng khác chiều chuyển động.",
+      "explanation": "Điểm ở nửa trên ứng với $v<0$, điểm ở nửa dưới ứng với $v>0$ khi bán kính quay ngược chiều kim đồng hồ. Hai điểm cùng chiếu xuống một giá trị $x$, nên biết li độ thôi chưa chọn được pha duy nhất. Điều kiện về chiều chuyển động giúp chọn đúng một trong hai điểm trước khi tính thời gian.",
+      "lesson_file": "docs/physics/high-school/grade-11/01-oscillations/03-phase-circle-time-distance.md",
+      "insertion_before": "## 3. Từ trạng thái sang pha",
+      "status": "inserted_source_crop_reviewed",
+      "student_difficulty": "Một đường chiếu thẳng đứng nối hai trạng thái cùng li độ nhưng khác chiều chuyển động.",
+      "pedagogical_goal": "Điểm ở nửa trên ứng với $v<0$, điểm ở nửa dưới ứng với $v>0$ khi bán kính quay ngược chiều kim đồng hồ. Hai điểm cùng chiếu xuống một giá trị $x$, nên biết li độ thôi chưa chọn được pha duy nhất. Điều kiện về chiều chuyển động giúp chọn đúng một trong hai điểm trước khi tính thời gian.",
+      "markdown_line": 78,
+      "learner_caption_present": true,
+      "source_figure_status": "VISUALLY_REVIEWED",
+      "source_pixels_status": "PASS",
+      "ai_generation_used": false,
+      "watermark_inpainting_used": false
+    },
+    {
+      "id": "b3-directed-phase-interval",
+      "lesson": 3,
+      "asset": "docs/physics/high-school/grade-11/assets/theory-figures/01-oscillations/b3-directed-phase-interval.png",
+      "pdf_filename": "EBOOK LÀM CHỦ VÀ NÂNG CAO VẬT LÝ 11 TẬP 1 DAO ĐỘNG VÀ SÓNG, THẦY VŨ TUẤN ANH-compressed.pdf",
+      "pdf_page_1_indexed": 26,
+      "source_id": "ebook7",
+      "pdf_sha256": "9fd09a279ac7b26c55f0dd4389a136067952e8a73473d7f1bc491e011dd5298d",
+      "processing": "lossless crop of original embedded raster; PDF overlay excluded, no inpainting, no resize, no sharpening",
+      "xref": 123,
+      "smask_xref": 0,
+      "nonfigure_margin_clear_px": [],
+      "image_bbox_pdf_points": [
+        0.0,
+        22.6524658203125,
+        595.0,
+        819.3474731445312
+      ],
+      "native_size_px": [
+        909,
+        1217
+      ],
+      "native_crop_px": [
+        634,
+        576,
+        839,
+        737
+      ],
+      "embedded_stream_sha256": "2aca6ab3731beafdd6dff1ddc9dc838e7ba35cbed35bfd59aaf1015d1f5e24b3",
+      "output_size_px": [
+        205,
+        161
+      ],
+      "output_sha256": "6cd591232f22f3c2b78955bd98d5e984c257da0d54ed57432e3afba015aca9b8",
+      "decoded_pixels_sha256": "40615fe6cda87401b80c40df742c7f95aba5ae04b47a1516d592ba4e176bd974",
+      "section": "5. Thời gian ngắn nhất giữa hai trạng thái",
+      "alt": "Hai bán kính ở nửa trên đường tròn chiếu xuống x1 dương và x2 âm, tạo góc delta phi giữa hai trạng thái.",
+      "caption": "Phải chọn góc quét theo chiều pha tăng giữa các trạng thái đã xác định.",
+      "explanation": "Trong hình, đi từ điểm phía trên bên phải đến điểm phía trên bên trái theo chiều ngược kim đồng hồ làm hình chiếu chuyển từ $x_1$ đến $x_2$ theo chiều âm. Góc quét đó là $\\Delta\\Phi$ và thời gian bằng $\\Delta\\Phi/\\omega$. Với các trạng thái khác, cung cần đi có thể dài hơn cung nhỏ hình học; không tự chọn cung ngắn mà bỏ điều kiện về chiều chuyển động.",
+      "lesson_file": "docs/physics/high-school/grade-11/01-oscillations/03-phase-circle-time-distance.md",
+      "insertion_before": "## 6. Những mốc thời gian đặc biệt",
+      "status": "inserted_source_crop_reviewed",
+      "student_difficulty": "Phải chọn góc quét theo chiều pha tăng giữa các trạng thái đã xác định.",
+      "pedagogical_goal": "Trong hình, đi từ điểm phía trên bên phải đến điểm phía trên bên trái theo chiều ngược kim đồng hồ làm hình chiếu chuyển từ $x_1$ đến $x_2$ theo chiều âm. Góc quét đó là $\\Delta\\Phi$ và thời gian bằng $\\Delta\\Phi/\\omega$. Với các trạng thái khác, cung cần đi có thể dài hơn cung nhỏ hình học; không tự chọn cung ngắn mà bỏ điều kiện về chiều chuyển động.",
+      "markdown_line": 136,
+      "learner_caption_present": true,
+      "source_figure_status": "VISUALLY_REVIEWED",
+      "source_pixels_status": "PASS",
+      "ai_generation_used": false,
+      "watermark_inpainting_used": false
+    },
+    {
+      "id": "b3-longest-path",
+      "lesson": 3,
+      "asset": "docs/physics/high-school/grade-11/assets/theory-figures/01-oscillations/b3-longest-path.png",
+      "pdf_filename": "EBOOK LÀM CHỦ VÀ NÂNG CAO VẬT LÝ 11 TẬP 1 DAO ĐỘNG VÀ SÓNG, THẦY VŨ TUẤN ANH-compressed.pdf",
+      "pdf_page_1_indexed": 39,
+      "source_id": "ebook7",
+      "pdf_sha256": "9fd09a279ac7b26c55f0dd4389a136067952e8a73473d7f1bc491e011dd5298d",
+      "processing": "lossless crop of original embedded raster; PDF overlay excluded, no inpainting, no resize, no sharpening",
+      "xref": 188,
+      "smask_xref": 0,
+      "nonfigure_margin_clear_px": [],
+      "image_bbox_pdf_points": [
+        3.9635701179504395,
+        0.0,
+        591.0365600585938,
+        842.0
+      ],
+      "native_size_px": [
+        897,
+        1286
+      ],
+      "native_crop_px": [
+        204,
+        83,
+        412,
+        248
+      ],
+      "embedded_stream_sha256": "c4f623d2a334c0cc850fe6a7603b6167d662304d2423915c7d733a68bfaedd2a",
+      "output_size_px": [
+        208,
+        165
+      ],
+      "output_sha256": "0afe2ef1ba45ddc88f8d55bd173c5d8c8976c3cc4556a4baf0cf8d83f5fc2aa5",
+      "decoded_pixels_sha256": "d412ef470ff868542d39ad3abc96c98e9b9a154f022a83d71642657bd21cb7ca",
+      "section": "12. Quãng đường lớn nhất",
+      "alt": "Hai điểm pha đối xứng qua bán kính hướng xuống chiếu xuống hai li độ đối nhau quanh vị trí cân bằng.",
+      "caption": "Trong cùng một góc quét ngắn, đặt khoảng chuyển động quanh O cho quãng đường lớn nhất.",
+      "explanation": "Hai hình chiếu $x_1$ và $x_2$ nằm đối xứng qua O. Cung ở nửa dưới ứng với vật đi theo chiều dương qua vùng có tốc độ lớn, không đổi chiều giữa hai đầu đoạn. Với $\\alpha=\\omega\\Delta t\\le\\pi$, hai đầu có độ lớn li độ $A\\sin(\\alpha/2)$, nên quãng đường là $S_{\\max}=2A\\sin(\\alpha/2)$.",
+      "lesson_file": "docs/physics/high-school/grade-11/01-oscillations/03-phase-circle-time-distance.md",
+      "insertion_before": "### Quãng đường nhỏ nhất",
+      "status": "inserted_source_crop_reviewed",
+      "student_difficulty": "Trong cùng một góc quét ngắn, đặt khoảng chuyển động quanh O cho quãng đường lớn nhất.",
+      "pedagogical_goal": "Hai hình chiếu $x_1$ và $x_2$ nằm đối xứng qua O. Cung ở nửa dưới ứng với vật đi theo chiều dương qua vùng có tốc độ lớn, không đổi chiều giữa hai đầu đoạn. Với $\\alpha=\\omega\\Delta t\\le\\pi$, hai đầu có độ lớn li độ $A\\sin(\\alpha/2)$, nên quãng đường là $S_{\\max}=2A\\sin(\\alpha/2)$.",
+      "markdown_line": 264,
+      "learner_caption_present": true,
+      "source_figure_status": "VISUALLY_REVIEWED",
+      "source_pixels_status": "PASS",
+      "ai_generation_used": false,
+      "watermark_inpainting_used": false
+    },
+    {
+      "id": "b3-shortest-path",
+      "lesson": 3,
+      "asset": "docs/physics/high-school/grade-11/assets/theory-figures/01-oscillations/b3-shortest-path.png",
+      "pdf_filename": "EBOOK LÀM CHỦ VÀ NÂNG CAO VẬT LÝ 11 TẬP 1 DAO ĐỘNG VÀ SÓNG, THẦY VŨ TUẤN ANH-compressed.pdf",
+      "pdf_page_1_indexed": 39,
+      "source_id": "ebook7",
+      "pdf_sha256": "9fd09a279ac7b26c55f0dd4389a136067952e8a73473d7f1bc491e011dd5298d",
+      "processing": "lossless crop of original embedded raster; PDF overlay excluded, no inpainting, no resize, no sharpening",
+      "xref": 188,
+      "smask_xref": 0,
+      "nonfigure_margin_clear_px": [],
+      "image_bbox_pdf_points": [
+        3.9635701179504395,
+        0.0,
+        591.0365600585938,
+        842.0
+      ],
+      "native_size_px": [
+        897,
+        1286
+      ],
+      "native_crop_px": [
+        229,
+        470,
+        434,
+        638
+      ],
+      "embedded_stream_sha256": "c4f623d2a334c0cc850fe6a7603b6167d662304d2423915c7d733a68bfaedd2a",
+      "output_size_px": [
+        205,
+        168
+      ],
+      "output_sha256": "024ddf66d8ef2e6cdfd0a3d1311c892497b1bdf9aae0ab3a09e7502a16ed9a63",
+      "decoded_pixels_sha256": "bc994be6acf0556ca1cddd56b57f0367dc4cd2b3b272da6c9f00fa5ce073e7cf",
+      "section": "12. Quãng đường nhỏ nhất",
+      "alt": "Hai điểm pha đối xứng qua biên dương có cùng hình chiếu x1 bằng x2, dù cung nối chúng đi qua biên dương.",
+      "caption": "Đi đến biên rồi quay lại có thể có độ dời bằng không nhưng quãng đường khác không.",
+      "explanation": "Đi từ điểm dưới đến điểm trên theo chiều pha tăng: hình chiếu tới $+A$, đổi chiều rồi trở lại cùng li độ $x_1=x_2$. Độ dời bằng không, còn quãng đường bằng hai lần đoạn từ vị trí ấy đến biên. Với góc quét $\\alpha\\le\\pi$, đoạn đó dài $A[1-\\cos(\\alpha/2)]$, cho đúng công thức $S_{\\min}$ vừa nêu.",
+      "lesson_file": "docs/physics/high-school/grade-11/01-oscillations/03-phase-circle-time-distance.md",
+      "insertion_before": "## 13. Tốc độ trung bình",
+      "status": "inserted_source_crop_reviewed",
+      "student_difficulty": "Đi đến biên rồi quay lại có thể có độ dời bằng không nhưng quãng đường khác không.",
+      "pedagogical_goal": "Đi từ điểm dưới đến điểm trên theo chiều pha tăng: hình chiếu tới $+A$, đổi chiều rồi trở lại cùng li độ $x_1=x_2$. Độ dời bằng không, còn quãng đường bằng hai lần đoạn từ vị trí ấy đến biên. Với góc quét $\\alpha\\le\\pi$, đoạn đó dài $A[1-\\cos(\\alpha/2)]$, cho đúng công thức $S_{\\min}$ vừa nêu.",
+      "markdown_line": 282,
+      "learner_caption_present": true,
+      "source_figure_status": "VISUALLY_REVIEWED",
+      "source_pixels_status": "PASS",
+      "ai_generation_used": false,
+      "watermark_inpainting_used": false
+    },
+    {
+      "id": "b4-horizontal-spring-positions",
+      "lesson": 4,
+      "asset": "docs/physics/high-school/grade-11/assets/theory-figures/01-oscillations/b4-horizontal-spring-positions.png",
+      "pdf_filename": "EBOOK CHUYÊN ĐỀ VẬT LÝ 11 TẬP 1 DAO ĐỘNG VÀ SÓNG, THẦY VŨ HOÀNG QUÂN-compressed.pdf",
+      "pdf_page_1_indexed": 54,
+      "source_id": "ebook5",
+      "pdf_sha256": "6e0f09b076cdf0e16ec40660e8e5215a11c76736e60518584de4df769c919eeb",
+      "processing": "lossless crop of original embedded raster; PDF overlay excluded, no inpainting, no resize, no sharpening",
+      "xref": 263,
+      "smask_xref": 0,
+      "nonfigure_margin_clear_px": [],
+      "image_bbox_pdf_points": [
+        7.15516996383667,
+        0.0,
+        587.8451538085938,
+        842.0
+      ],
+      "native_size_px": [
+        887,
+        1286
+      ],
+      "native_crop_px": [
+        474,
+        435,
+        800,
+        642
+      ],
+      "embedded_stream_sha256": "ecd9eab3bd4e1f0d2caacd79e994bc05ce07ae2256f07fb702bedfd9ff059043",
+      "output_size_px": [
+        326,
+        207
+      ],
+      "output_sha256": "45c8a020abcff4befe3694cd5bff70e9c90b96ee0458b1f4ace3577e7052a3e0",
+      "decoded_pixels_sha256": "16b857a99a0ff40c6e76983671c4ebb81fb8884b7b64b683d606fc34a7d73c80",
+      "section": "1. Cấu tạo và mô hình",
+      "alt": "Ba trạng thái của con lắc lò xo nằm ngang được dóng xuống các vị trí cộng A, O và âm A trên trục x hướng sang phải.",
+      "caption": "Ba hàng là ba trạng thái của cùng một con lắc, không phải ba hệ ghép với nhau.",
+      "explanation": "Hàng trên ứng với biên dương, hàng giữa với O, hàng dưới với biên âm. Trục ở dưới cho biết $x$ được đo từ O và chiều dương hướng sang phải. Với cấu hình ngang lí tưởng này, vị trí cân bằng trùng chiều dài tự nhiên; nhận xét đó không tự động áp dụng cho lò xo treo đứng.",
+      "lesson_file": "docs/physics/high-school/grade-11/01-oscillations/04-spring-oscillator.md",
+      "insertion_before": "Suy ra\n\n$$\na=-\\frac{k}{m}x.",
+      "status": "inserted_source_crop_reviewed",
+      "student_difficulty": "Ba hàng là ba trạng thái của cùng một con lắc, không phải ba hệ ghép với nhau.",
+      "pedagogical_goal": "Hàng trên ứng với biên dương, hàng giữa với O, hàng dưới với biên âm. Trục ở dưới cho biết $x$ được đo từ O và chiều dương hướng sang phải. Với cấu hình ngang lí tưởng này, vị trí cân bằng trùng chiều dài tự nhiên; nhận xét đó không tự động áp dụng cho lò xo treo đứng.",
+      "markdown_line": 38,
+      "learner_caption_present": true,
+      "source_figure_status": "VISUALLY_REVIEWED",
+      "source_pixels_status": "PASS",
+      "ai_generation_used": false,
+      "watermark_inpainting_used": false
+    },
+    {
+      "id": "b4-vertical-spring-reference",
+      "lesson": 4,
+      "asset": "docs/physics/high-school/grade-11/assets/theory-figures/01-oscillations/b4-vertical-spring-reference.png",
+      "pdf_filename": "EBOOK CHUYÊN ĐỀ VẬT LÝ 11 TẬP 1 DAO ĐỘNG VÀ SÓNG, THẦY VŨ HOÀNG QUÂN-compressed.pdf",
+      "pdf_page_1_indexed": 67,
+      "source_id": "ebook5",
+      "pdf_sha256": "6e0f09b076cdf0e16ec40660e8e5215a11c76736e60518584de4df769c919eeb",
+      "processing": "lossless crop of original embedded raster; PDF overlay excluded, no inpainting, no resize, no sharpening",
+      "xref": 328,
+      "smask_xref": 0,
+      "nonfigure_margin_clear_px": [],
+      "image_bbox_pdf_points": [
+        16.031400680541992,
+        0.0,
+        578.9683837890625,
+        842.0
+      ],
+      "native_size_px": [
+        860,
+        1286
+      ],
+      "native_crop_px": [
+        82,
+        568,
+        285,
+        788
+      ],
+      "embedded_stream_sha256": "a7a1a7e18a11308422b93d640250d72f1b278d918573451708cae01c0dbc7762",
+      "output_size_px": [
+        203,
+        220
+      ],
+      "output_sha256": "2481f4d4844a4ab6be4502332aa72ade8c0a338d3ee1f4a748ec62346e7e825a",
+      "decoded_pixels_sha256": "c77bbbebf3a4a65a6989143a15a8bdb099e7947d91296ff4ebaef969c992058c",
+      "section": "3. Con lắc lò xo treo thẳng đứng",
+      "alt": "Lò xo chưa treo vật và lò xo cân bằng được so sánh bằng hai đường ngang cách nhau delta l0; trục li độ hướng xuống đi qua O.",
+      "caption": "Vị trí lò xo không biến dạng nằm phía trên vị trí cân bằng một đoạn độ dãn cân bằng.",
+      "explanation": "Đường ngang qua đầu lò xo chưa treo vật là mốc chiều dài tự nhiên; đường ngang qua O là mốc li độ của dao động. Khoảng cách giữa hai mức là $\\Delta\\ell_0$ và được xác định bởi $k\\Delta\\ell_0=mg$. Chọn chiều dương hướng xuống như hình thì mức tự nhiên có li độ $-\\Delta\\ell_0$, còn độ dãn tại li độ $x$ là $\\Delta\\ell_0+x$. Phần chú thích nén/dãn trong hình minh họa trường hợp $A>\\Delta\\ell_0$, không phải mọi biên độ.",
+      "lesson_file": "docs/physics/high-school/grade-11/01-oscillations/04-spring-oscillator.md",
+      "insertion_before": "## 4. Chiều dài của lò xo trong dao động",
+      "status": "inserted_source_crop_reviewed",
+      "student_difficulty": "Vị trí lò xo không biến dạng nằm phía trên vị trí cân bằng một đoạn độ dãn cân bằng.",
+      "pedagogical_goal": "Đường ngang qua đầu lò xo chưa treo vật là mốc chiều dài tự nhiên; đường ngang qua O là mốc li độ của dao động. Khoảng cách giữa hai mức là $\\Delta\\ell_0$ và được xác định bởi $k\\Delta\\ell_0=mg$. Chọn chiều dương hướng xuống như hình thì mức tự nhiên có li độ $-\\Delta\\ell_0$, còn độ dãn tại li độ $x$ là $\\Delta\\ell_0+x$. Phần chú thích nén/dãn trong hình minh họa trường hợp $A>\\Delta\\ell_0$, không phải mọi biên độ.",
+      "markdown_line": 118,
+      "learner_caption_present": true,
+      "source_figure_status": "VISUALLY_REVIEWED",
+      "source_pixels_status": "PASS",
+      "ai_generation_used": false,
+      "watermark_inpainting_used": false
+    },
+    {
+      "id": "b4-compression-phase-interval",
+      "lesson": 4,
+      "asset": "docs/physics/high-school/grade-11/assets/theory-figures/01-oscillations/b4-compression-phase-interval.png",
+      "pdf_filename": "EBOOK CHUYÊN ĐỀ VẬT LÝ 11 TẬP 1 DAO ĐỘNG VÀ SÓNG, THẦY VŨ HOÀNG QUÂN-compressed.pdf",
+      "pdf_page_1_indexed": 67,
+      "source_id": "ebook5",
+      "pdf_sha256": "6e0f09b076cdf0e16ec40660e8e5215a11c76736e60518584de4df769c919eeb",
+      "processing": "lossless crop of original embedded raster; PDF overlay excluded, no inpainting, no resize, no sharpening",
+      "xref": 328,
+      "smask_xref": 0,
+      "nonfigure_margin_clear_px": [],
+      "image_bbox_pdf_points": [
+        16.031400680541992,
+        0.0,
+        578.9683837890625,
+        842.0
+      ],
+      "native_size_px": [
+        860,
+        1286
+      ],
+      "native_crop_px": [
+        286,
+        570,
+        482,
+        787
+      ],
+      "embedded_stream_sha256": "a7a1a7e18a11308422b93d640250d72f1b278d918573451708cae01c0dbc7762",
+      "output_size_px": [
+        196,
+        217
+      ],
+      "output_sha256": "3599e7a2fc62efd48efddca7ed12683e4a6f44c488594c952ca333231f93a3ae",
+      "decoded_pixels_sha256": "d6975e532e084890fc17ea5f58ad551bb8d591668103a36ad90f839ab760ae2f",
+      "section": "6. Khi nào lò xo dãn hoặc nén",
+      "alt": "Đường tròn pha có một miền bên trái đường chiếu giới hạn được ghi nén và hai điểm biên của miền là 1, 2.",
+      "caption": "Thời gian lò xo nén là thời gian hình chiếu nằm phía trên mức chiều dài tự nhiên.",
+      "explanation": "Với quy ước li độ hướng xuống, lò xo nén khi $x<-\\Delta\\ell_0$. Trên đường tròn, đó là cung từ (1) qua biên âm đến (2), đúng miền được ghi “Nén”; cung còn lại ứng với lò xo dãn. Hai điểm giới hạn là lúc lò xo vừa không biến dạng, không phải lúc vật qua O. Sau khi xác định cung, đổi góc quét sang radian rồi chia cho $\\omega$ để tìm thời gian.",
+      "lesson_file": "docs/physics/high-school/grade-11/01-oscillations/04-spring-oscillator.md",
+      "insertion_before": "## 7. Lực kéo về và lực đàn hồi khác nhau thế nào?",
+      "status": "inserted_source_crop_reviewed",
+      "student_difficulty": "Thời gian lò xo nén là thời gian hình chiếu nằm phía trên mức chiều dài tự nhiên.",
+      "pedagogical_goal": "Với quy ước li độ hướng xuống, lò xo nén khi $x<-\\Delta\\ell_0$. Trên đường tròn, đó là cung từ (1) qua biên âm đến (2), đúng miền được ghi “Nén”; cung còn lại ứng với lò xo dãn. Hai điểm giới hạn là lúc lò xo vừa không biến dạng, không phải lúc vật qua O. Sau khi xác định cung, đổi góc quét sang radian rồi chia cho $\\omega$ để tìm thời gian.",
+      "markdown_line": 214,
+      "learner_caption_present": true,
+      "source_figure_status": "VISUALLY_REVIEWED",
+      "source_pixels_status": "PASS",
+      "ai_generation_used": false,
+      "watermark_inpainting_used": false
+    },
+    {
+      "id": "b4-elastic-restoring-directions",
+      "lesson": 4,
+      "asset": "docs/physics/high-school/grade-11/assets/theory-figures/01-oscillations/b4-elastic-restoring-directions.png",
+      "pdf_filename": "EBOOK SỔ TAY CÔNG THỨC VẬT LÝ 11, THẦY VŨ HOÀNG QUÂN-compressed.pdf",
+      "pdf_page_1_indexed": 22,
+      "source_id": "ebook11",
+      "pdf_sha256": "4c11d1ca3a18e9c7447bec700b102e79b46cab7c8e035479e2ff259dcab4491f",
+      "processing": "lossless crop of original embedded raster; PDF overlay excluded, no inpainting, no resize, no sharpening",
+      "xref": 103,
+      "smask_xref": 0,
+      "nonfigure_margin_clear_px": [],
+      "image_bbox_pdf_points": [
+        30.336200714111328,
+        6.103515625e-05,
+        564.6641845703125,
+        842.0000610351562
+      ],
+      "native_size_px": [
+        816,
+        1286
+      ],
+      "native_crop_px": [
+        540,
+        746,
+        812,
+        989
+      ],
+      "embedded_stream_sha256": "1a08440c67e52a4bf107b568cb68c25b28a077340339a151379f86c54267a75a",
+      "output_size_px": [
+        272,
+        243
+      ],
+      "output_sha256": "f77860dbf1c1664391249e5df855ce9e237882ef4a3a71b5d1d5d56b1d4614eb",
+      "decoded_pixels_sha256": "6bb740ff35f0a551b0ae0fd9bb19b3d14f1a1f88430bf7714540e1803a754754",
+      "section": "7. Lực kéo về và lực đàn hồi",
+      "alt": "Hai cặp mũi tên đen và đỏ hướng về hai mốc khác nhau: O và âm delta l0; vùng giữa hai mốc được đánh dấu hai lực ngược chiều.",
+      "caption": "Lực kéo về hướng về O, còn lực đàn hồi hướng về trạng thái lò xo không biến dạng.",
+      "explanation": "Mũi tên đen hội tụ về O, còn mũi tên đỏ hội tụ về mốc $x=-\\Delta\\ell_0$. Trong khoảng $-\\Delta\\ell_0<x<0$, vật ở trên O nhưng lò xo vẫn dãn: lực đàn hồi hướng lên, còn hợp lực kéo về hướng xuống. Trục $x$ được đặt nằm ngang trên giản đồ để biểu diễn các miền li độ; quy ước vật lí vẫn là chiều dương hướng xuống của lò xo treo đứng. Hai lực không cùng mốc triệt tiêu nên không thể đồng nhất $F_{dh}$ với $F_{kv}$.",
+      "lesson_file": "docs/physics/high-school/grade-11/01-oscillations/04-spring-oscillator.md",
+      "insertion_before": "## 8. Năng lượng của con lắc lò xo",
+      "status": "inserted_source_crop_reviewed",
+      "student_difficulty": "Lực kéo về hướng về O, còn lực đàn hồi hướng về trạng thái lò xo không biến dạng.",
+      "pedagogical_goal": "Mũi tên đen hội tụ về O, còn mũi tên đỏ hội tụ về mốc $x=-\\Delta\\ell_0$. Trong khoảng $-\\Delta\\ell_0<x<0$, vật ở trên O nhưng lò xo vẫn dãn: lực đàn hồi hướng lên, còn hợp lực kéo về hướng xuống. Trục $x$ được đặt nằm ngang trên giản đồ để biểu diễn các miền li độ; quy ước vật lí vẫn là chiều dương hướng xuống của lò xo treo đứng. Hai lực không cùng mốc triệt tiêu nên không thể đồng nhất $F_{dh}$ với $F_{kv}$.",
+      "markdown_line": 234,
+      "learner_caption_present": true,
+      "source_figure_status": "VISUALLY_REVIEWED",
+      "source_pixels_status": "PASS",
+      "ai_generation_used": false,
+      "watermark_inpainting_used": false
+    },
+    {
+      "id": "b4-series-springs",
+      "lesson": 4,
+      "asset": "docs/physics/high-school/grade-11/assets/theory-figures/01-oscillations/b4-series-springs.png",
+      "pdf_filename": "EBOOK SỔ TAY CÔNG THỨC VẬT LÝ 11, THẦY VŨ HOÀNG QUÂN-compressed.pdf",
+      "pdf_page_1_indexed": 21,
+      "source_id": "ebook11",
+      "pdf_sha256": "4c11d1ca3a18e9c7447bec700b102e79b46cab7c8e035479e2ff259dcab4491f",
+      "processing": "lossless crop of original embedded raster; PDF overlay excluded, no inpainting, no resize, no sharpening",
+      "xref": 98,
+      "smask_xref": 0,
+      "nonfigure_margin_clear_px": [],
+      "image_bbox_pdf_points": [
+        38.4618034362793,
+        0.0,
+        556.5377807617188,
+        842.0
+      ],
+      "native_size_px": [
+        792,
+        1286
+      ],
+      "native_crop_px": [
+        242,
+        319,
+        426,
+        389
+      ],
+      "embedded_stream_sha256": "9b458b6c61748da892c48496d96b911b67c0a9090d71d55c30f3b61182f9880d",
+      "output_size_px": [
+        184,
+        70
+      ],
+      "output_sha256": "c45c96c6d74b7afaeec59301062a5d5b3f45a15561e250a9f52524794fe60074",
+      "decoded_pixels_sha256": "e4ebbacdf601929085d9fdddeade39ca1e0a9bf1bddc081af42d4e099a72f827",
+      "section": "10. Ghép nối tiếp",
+      "alt": "Hai đoạn lò xo k1 và k2 nằm liên tiếp giữa giá cố định và vật ở đầu tự do.",
+      "caption": "Ghép nối tiếp: lực được truyền qua cả hai đoạn trên cùng một chuỗi.",
+      "explanation": "Một đầu của lò xo thứ nhất nối với giá, đầu còn lại nối với lò xo thứ hai rồi mới đến vật. Với lò xo lí tưởng, hai đoạn chịu cùng độ lớn lực, còn tổng độ biến dạng bằng tổng độ biến dạng của từng đoạn. Vì vậy phải cộng các nghịch đảo độ cứng, không cộng trực tiếp $k_1+k_2$.",
+      "lesson_file": "docs/physics/high-school/grade-11/01-oscillations/04-spring-oscillator.md",
+      "insertion_before": "Với hai lò xo:",
+      "status": "inserted_source_crop_reviewed",
+      "student_difficulty": "Ghép nối tiếp: lực được truyền qua cả hai đoạn trên cùng một chuỗi.",
+      "pedagogical_goal": "Một đầu của lò xo thứ nhất nối với giá, đầu còn lại nối với lò xo thứ hai rồi mới đến vật. Với lò xo lí tưởng, hai đoạn chịu cùng độ lớn lực, còn tổng độ biến dạng bằng tổng độ biến dạng của từng đoạn. Vì vậy phải cộng các nghịch đảo độ cứng, không cộng trực tiếp $k_1+k_2$.",
+      "markdown_line": 292,
+      "learner_caption_present": true,
+      "source_figure_status": "VISUALLY_REVIEWED",
+      "source_pixels_status": "PASS",
+      "ai_generation_used": false,
+      "watermark_inpainting_used": false
+    },
+    {
+      "id": "b4-parallel-springs",
+      "lesson": 4,
+      "asset": "docs/physics/high-school/grade-11/assets/theory-figures/01-oscillations/b4-parallel-springs.png",
+      "pdf_filename": "EBOOK SỔ TAY CÔNG THỨC VẬT LÝ 11, THẦY VŨ HOÀNG QUÂN-compressed.pdf",
+      "pdf_page_1_indexed": 21,
+      "source_id": "ebook11",
+      "pdf_sha256": "4c11d1ca3a18e9c7447bec700b102e79b46cab7c8e035479e2ff259dcab4491f",
+      "processing": "lossless crop of original embedded raster; PDF overlay excluded, no inpainting, no resize, no sharpening",
+      "xref": 98,
+      "smask_xref": 0,
+      "nonfigure_margin_clear_px": [],
+      "image_bbox_pdf_points": [
+        38.4618034362793,
+        0.0,
+        556.5377807617188,
+        842.0
+      ],
+      "native_size_px": [
+        792,
+        1286
+      ],
+      "native_crop_px": [
+        518,
+        305,
+        646,
+        402
+      ],
+      "embedded_stream_sha256": "9b458b6c61748da892c48496d96b911b67c0a9090d71d55c30f3b61182f9880d",
+      "output_size_px": [
+        128,
+        97
+      ],
+      "output_sha256": "62b2875345e40f9582a5c9af520d28f6af67742814e5d8224ccc047c3f1b6610",
+      "decoded_pixels_sha256": "236652702c112d17a15f9ec5e270869a5b00ffecb31c114553f013a4b331ab5f",
+      "section": "10. Ghép song song",
+      "alt": "Hai lò xo k1 và k2 nằm song song và cùng nối tới một thanh ở đầu phải.",
+      "caption": "Ghép song song: hai lò xo cùng dịch chuyển ở đầu nối chung.",
+      "explanation": "Thanh bên phải buộc hai đầu lò xo có cùng độ dịch chuyển theo phương dao động. Lực do hai lò xo tạo ra được cộng lại, nên độ cứng tương đương bằng tổng hai độ cứng. Cấu trúc nối chung hai đầu này khác hẳn chuỗi nối tiếp ở hình trước.",
+      "lesson_file": "docs/physics/high-school/grade-11/01-oscillations/04-spring-oscillator.md",
+      "insertion_before": "$$\n\\boxed{k_{ss}=k_1+k_2}.",
+      "status": "inserted_source_crop_reviewed",
+      "student_difficulty": "Ghép song song: hai lò xo cùng dịch chuyển ở đầu nối chung.",
+      "pedagogical_goal": "Thanh bên phải buộc hai đầu lò xo có cùng độ dịch chuyển theo phương dao động. Lực do hai lò xo tạo ra được cộng lại, nên độ cứng tương đương bằng tổng hai độ cứng. Cấu trúc nối chung hai đầu này khác hẳn chuỗi nối tiếp ở hình trước.",
+      "markdown_line": 314,
+      "learner_caption_present": true,
+      "source_figure_status": "VISUALLY_REVIEWED",
+      "source_pixels_status": "PASS",
+      "ai_generation_used": false,
+      "watermark_inpainting_used": false
+    },
+    {
+      "id": "b5-pendulum-geometry",
+      "lesson": 5,
+      "asset": "docs/physics/high-school/grade-11/assets/theory-figures/01-oscillations/b5-pendulum-geometry.png",
+      "pdf_filename": "EBOOK PHONG TOẢ VẬT LÝ 11 TẬP 1 DAO ĐỘNG, SÓNG, MAPSTUDY-compressed.pdf",
+      "pdf_page_1_indexed": 127,
+      "source_id": "ebook9",
+      "pdf_sha256": "fdf1663826f700c63ce85854742509e6f2a21f10c822f6f9fa7d0ccaba7348ad",
+      "processing": "lossless crop of original embedded raster; PDF overlay excluded, no inpainting, no resize, no sharpening",
+      "xref": 628,
+      "smask_xref": 0,
+      "nonfigure_margin_clear_px": [],
+      "image_bbox_pdf_points": [
+        3.0520999431610107,
+        0.0,
+        591.9481201171875,
+        842.0
+      ],
+      "native_size_px": [
+        900,
+        1286
+      ],
+      "native_crop_px": [
+        603,
+        178,
+        871,
+        356
+      ],
+      "embedded_stream_sha256": "8f1e9095f52f018a6b1a2225803fcdcbb2627272e3358d2c6a174f4aa1952ebe",
+      "output_size_px": [
+        268,
+        178
+      ],
+      "output_sha256": "374d37fc61be95f2644ffd937863252064337883f894f1b062200cf52d8f72f5",
+      "decoded_pixels_sha256": "b2958859186fc19c23f9f528cae65a703e1f47232509638134190b06ba5b43a8",
+      "section": "3. Li độ dài và li độ góc",
+      "alt": "Con lắc đơn có dây dài l, góc lệch alpha, điểm M trên cung, vị trí cân bằng O và hai biên được ghi cộng trừ S0.",
+      "caption": "Li độ dài được đo dọc theo cung tròn, không phải theo đường thẳng nối hai điểm.",
+      "explanation": "Từ vị trí thấp nhất O đến M, cung có li độ $s$ và dây lệch góc $\\alpha$ so với phương thẳng đứng. Chiều dài dây $\\ell$ là bán kính cung nên $s=\\ell\\alpha$ khi góc tính bằng radian. Kí hiệu $S_0$ trên hình tương ứng với biên độ dài $s_0$ trong bài. Hình học cung tròn này không thay thế điều kiện góc nhỏ khi dùng mô hình dao động điều hòa.",
+      "lesson_file": "docs/physics/high-school/grade-11/01-oscillations/05-simple-pendulum.md",
+      "insertion_before": "!!! warning \"Đơn vị\"",
+      "status": "inserted_source_crop_reviewed",
+      "student_difficulty": "Li độ dài được đo dọc theo cung tròn, không phải theo đường thẳng nối hai điểm.",
+      "pedagogical_goal": "Từ vị trí thấp nhất O đến M, cung có li độ $s$ và dây lệch góc $\\alpha$ so với phương thẳng đứng. Chiều dài dây $\\ell$ là bán kính cung nên $s=\\ell\\alpha$ khi góc tính bằng radian. Kí hiệu $S_0$ trên hình tương ứng với biên độ dài $s_0$ trong bài. Hình học cung tròn này không thay thế điều kiện góc nhỏ khi dùng mô hình dao động điều hòa.",
+      "markdown_line": 99,
+      "learner_caption_present": true,
+      "source_figure_status": "VISUALLY_REVIEWED",
+      "source_pixels_status": "PASS",
+      "ai_generation_used": false,
+      "watermark_inpainting_used": false
+    },
+    {
+      "id": "b5-pendulum-forces",
+      "lesson": 5,
+      "asset": "docs/physics/high-school/grade-11/assets/theory-figures/01-oscillations/b5-pendulum-forces.png",
+      "pdf_filename": "EBOOK PHONG TOẢ VẬT LÝ 11 TẬP 1 DAO ĐỘNG, SÓNG, MAPSTUDY-compressed.pdf",
+      "pdf_page_1_indexed": 128,
+      "source_id": "ebook9",
+      "pdf_sha256": "fdf1663826f700c63ce85854742509e6f2a21f10c822f6f9fa7d0ccaba7348ad",
+      "processing": "lossless crop of original embedded raster; PDF overlay excluded, no inpainting, no resize, no sharpening",
+      "xref": 633,
+      "smask_xref": 0,
+      "nonfigure_margin_clear_px": [],
+      "image_bbox_pdf_points": [
+        23.325599670410156,
+        0.0,
+        571.6746826171875,
+        842.0
+      ],
+      "native_size_px": [
+        838,
+        1286
+      ],
+      "native_crop_px": [
+        494,
+        395,
+        730,
+        632
+      ],
+      "embedded_stream_sha256": "9cdb7c77243cb0b2015a1f5800e1bb982a77d5a1dd52dfbb5bf307aa4834644b",
+      "output_size_px": [
+        236,
+        237
+      ],
+      "output_sha256": "c786a3409a0111ca1a2d5c81690c232a5ea0ef9880f6c35365948ded6a16e4cc",
+      "decoded_pixels_sha256": "d2de20b8ae8ab5649ac3c559a2a7e726c4cee80dbbf6dd25b34d3cd2f9107d2d",
+      "section": "8. Lực kéo về — liên hệ phương bán kính",
+      "alt": "Tại quả nặng B, trọng lực P hướng xuống, lực căng T hướng dọc dây về điểm treo; trọng lực được phân tích thành Pt và Pn.",
+      "caption": "Phân biệt phương tiếp tuyến kéo vật về O với phương bán kính dùng để tính lực căng.",
+      "explanation": "$\\vec P_t$ nằm theo tiếp tuyến và hướng về phía vị trí thấp nhất, nên thành phần này tạo lực kéo về. $\\vec P_n$ nằm theo phương dây; hai thành phần này hợp thành $\\vec P$, không phải hai lực mới cộng thêm vào trọng lực. Mũi tên $\\vec T$ là lực căng dây, có độ lớn được kí hiệu $F_c$ trong bài, không phải chu kì $T$. Lực căng không có thành phần tiếp tuyến, còn theo phương bán kính phải xét cả lực căng, $mg\\cos\\alpha$ và gia tốc hướng tâm.",
+      "lesson_file": "docs/physics/high-school/grade-11/01-oscillations/05-simple-pendulum.md",
+      "insertion_before": "## 9. Lực căng dây",
+      "status": "inserted_source_crop_reviewed",
+      "student_difficulty": "Phân biệt phương tiếp tuyến kéo vật về O với phương bán kính dùng để tính lực căng.",
+      "pedagogical_goal": "$\\vec P_t$ nằm theo tiếp tuyến và hướng về phía vị trí thấp nhất, nên thành phần này tạo lực kéo về. $\\vec P_n$ nằm theo phương dây; hai thành phần này hợp thành $\\vec P$, không phải hai lực mới cộng thêm vào trọng lực. Mũi tên $\\vec T$ là lực căng dây, có độ lớn được kí hiệu $F_c$ trong bài, không phải chu kì $T$. Lực căng không có thành phần tiếp tuyến, còn theo phương bán kính phải xét cả lực căng, $mg\\cos\\alpha$ và gia tốc hướng tâm.",
+      "markdown_line": 217,
+      "learner_caption_present": true,
+      "source_figure_status": "VISUALLY_REVIEWED",
+      "source_pixels_status": "PASS",
+      "ai_generation_used": false,
+      "watermark_inpainting_used": false
+    },
+    {
+      "id": "b5-pendulum-peg",
+      "lesson": 5,
+      "asset": "docs/physics/high-school/grade-11/assets/theory-figures/01-oscillations/b5-pendulum-peg.png",
+      "pdf_filename": "EBOOK SỔ TAY CÔNG THỨC VẬT LÝ 11, THẦY VŨ HOÀNG QUÂN-compressed.pdf",
+      "pdf_page_1_indexed": 27,
+      "source_id": "ebook11",
+      "pdf_sha256": "4c11d1ca3a18e9c7447bec700b102e79b46cab7c8e035479e2ff259dcab4491f",
+      "processing": "lossless crop of original embedded raster; PDF overlay excluded, no inpainting, no resize, no sharpening; remove two unrelated prose fragments in the left blank margin only",
+      "xref": 128,
+      "smask_xref": 0,
+      "nonfigure_margin_clear_px": [
+        [
+          0,
+          0,
+          11,
+          126
+        ]
+      ],
+      "image_bbox_pdf_points": [
+        26.511499404907227,
+        0.0,
+        568.4884643554688,
+        842.0
+      ],
+      "native_size_px": [
+        828,
+        1286
+      ],
+      "native_crop_px": [
+        511,
+        808,
+        794,
+        1143
+      ],
+      "embedded_stream_sha256": "7461cf7f8196f92f430743e96484570a6e8c09e08558ca2ea329f41ccc0bdfd0",
+      "output_size_px": [
+        283,
+        335
+      ],
+      "output_sha256": "de5e20168cdb2bdc8aa6518573ce5de0a987ee432c0584bc82392ae00dd9a9ff",
+      "decoded_pixels_sha256": "d287c067c996b8d6fd8b5398e571e3e9dbeefc57537c4f7b8c6a3d0829433245",
+      "section": "13. Con lắc vướng đinh — mức nâng cao",
+      "alt": "Dây con lắc bị chặn bởi đinh trên đường thẳng đứng, tạo hai bán kính quỹ đạo l1 và l2 ở hai phía của O.",
+      "caption": "Vướng đinh làm đổi tâm quay và bán kính quỹ đạo ở một phía.",
+      "explanation": "Chấm đen trên đường thẳng đứng biểu diễn đinh, không phải một quả nặng thứ hai. Ở phía chưa vướng, bán kính là $\\ell_1$; ở phía dây ôm qua đinh, phần dây còn hoạt động có chiều dài $\\ell_2$. Vì hai phần chuyển động có chiều dài hiệu dụng khác nhau, phải tính thời gian từng phần rồi cộng, không dùng một chu kì duy nhất cho cả hai cung.",
+      "lesson_file": "docs/physics/high-school/grade-11/01-oscillations/05-simple-pendulum.md",
+      "insertion_before": "## Ví dụ 1 — Tìm chiều dài từ chu kì",
+      "status": "inserted_source_crop_reviewed",
+      "student_difficulty": "Vướng đinh làm đổi tâm quay và bán kính quỹ đạo ở một phía.",
+      "pedagogical_goal": "Chấm đen trên đường thẳng đứng biểu diễn đinh, không phải một quả nặng thứ hai. Ở phía chưa vướng, bán kính là $\\ell_1$; ở phía dây ôm qua đinh, phần dây còn hoạt động có chiều dài $\\ell_2$. Vì hai phần chuyển động có chiều dài hiệu dụng khác nhau, phải tính thời gian từng phần rồi cộng, không dùng một chu kì duy nhất cho cả hai cung.",
+      "markdown_line": 318,
+      "learner_caption_present": true,
+      "source_figure_status": "VISUALLY_REVIEWED",
+      "source_pixels_status": "PASS",
+      "ai_generation_used": false,
+      "watermark_inpainting_used": false
+    },
+    {
+      "id": "b6-energy-transfer",
+      "lesson": 6,
+      "asset": "docs/physics/high-school/grade-11/assets/theory-figures/01-oscillations/b6-energy-transfer.png",
+      "pdf_filename": "EBOOK BẢN ĐỒ KIẾN THỨC VẬT LÝ 11, MAPSTUDY-compressed.pdf",
+      "pdf_page_1_indexed": 16,
+      "source_id": "ebook4",
+      "pdf_sha256": "459bd4a4987222b96207ac4d85477def8e123efecb5edc8e579d58852d4e7927",
+      "processing": "lossless crop of original embedded raster; PDF overlay excluded, no inpainting, no resize, no sharpening",
+      "xref": 73,
+      "smask_xref": 0,
+      "nonfigure_margin_clear_px": [],
+      "image_bbox_pdf_points": [
+        8.49862003326416,
+        6.103515625e-05,
+        586.5015869140625,
+        842.0000610351562
+      ],
+      "native_size_px": [
+        883,
+        1286
+      ],
+      "native_crop_px": [
+        64,
+        255,
+        462,
+        578
+      ],
+      "embedded_stream_sha256": "405d7e7c9e0202c0e7df2ba16be97b0fb845061f721b35b7981d342c9be24627",
+      "output_size_px": [
+        398,
+        323
+      ],
+      "output_sha256": "0e6d1d8d1b70e2831e0962580122dc8d82a395ee03bc3976a7b197dc550980cc",
+      "decoded_pixels_sha256": "fe81e0ced89c9bf3a947e9bebd90949b9a622c5c83558f64162b9bf22ae2b722",
+      "section": "1. Bức tranh năng lượng",
+      "alt": "Người trượt trên máng đi từ vùng cao xuống thấp rồi lên cao, với các nhãn thế năng ở trên và động năng ở dưới.",
+      "caption": "Đi xuống: thế năng chuyển thành động năng; đi lên: quá trình chuyển hóa đảo chiều.",
+      "explanation": "Quan sát độ cao của người trượt: khi hạ thấp, thế năng trọng trường giảm và tốc độ có thể tăng; khi đi lên, động năng chuyển ngược thành thế năng. Bỏ qua tiêu hao thì tổng hai dạng năng lượng được giữ nguyên. Hình dùng để hình dung sự chuyển hóa, không khẳng định mọi chuyển động trên máng trượt đều là dao động điều hòa. Với hệ điều hòa đang học, hai biên và O là các vị trí đặc biệt đã nêu ở trên.",
+      "lesson_file": "docs/physics/high-school/grade-11/01-oscillations/06-oscillation-energy.md",
+      "insertion_before": "## 2. Động năng",
+      "status": "inserted_source_crop_reviewed",
+      "student_difficulty": "Đi xuống: thế năng chuyển thành động năng; đi lên: quá trình chuyển hóa đảo chiều.",
+      "pedagogical_goal": "Quan sát độ cao của người trượt: khi hạ thấp, thế năng trọng trường giảm và tốc độ có thể tăng; khi đi lên, động năng chuyển ngược thành thế năng. Bỏ qua tiêu hao thì tổng hai dạng năng lượng được giữ nguyên. Hình dùng để hình dung sự chuyển hóa, không khẳng định mọi chuyển động trên máng trượt đều là dao động điều hòa. Với hệ điều hòa đang học, hai biên và O là các vị trí đặc biệt đã nêu ở trên.",
+      "markdown_line": 40,
+      "learner_caption_present": true,
+      "source_figure_status": "VISUALLY_REVIEWED",
+      "source_pixels_status": "PASS",
+      "ai_generation_used": false,
+      "watermark_inpainting_used": false
+    },
+    {
+      "id": "b6-energy-position",
+      "lesson": 6,
+      "asset": "docs/physics/high-school/grade-11/assets/theory-figures/01-oscillations/b6-energy-position.png",
+      "pdf_filename": "BT-Chương I_1.pdf",
+      "pdf_page_1_indexed": 155,
+      "source_id": "bt1",
+      "pdf_sha256": "1fda43f445931f975675e9223b372bd527219217bcca3be2ece71dd01b43cd5e",
+      "processing": "lossless crop of original embedded raster; PDF overlay excluded, no inpainting, no resize, no sharpening",
+      "xref": 2329,
+      "smask_xref": 0,
+      "nonfigure_margin_clear_px": [],
+      "image_bbox_pdf_points": [
+        36.0,
+        428.4800109863281,
+        331.989990234375,
+        617.1300048828125
+      ],
+      "native_size_px": [
+        556,
+        355
+      ],
+      "native_crop_px": [
+        0,
+        0,
+        556,
+        355
+      ],
+      "embedded_stream_sha256": "50076646ab6a95169b0eba903685f2c54987e3cb8a31b29ca3dc62d9b5f13d56",
+      "output_size_px": [
+        556,
+        355
+      ],
+      "output_sha256": "5323b8a8988ad8477efee42828f42a4ccb8d5c0414fccaa6eead5d724381776d",
+      "decoded_pixels_sha256": "e7d650552b161cc8ed48ef4e5b38ec8f0cb78008718249a032cfea2cdb6a6bf9",
+      "section": "5. Tỉ phần năng lượng theo li độ",
+      "alt": "Thế năng là parabol mở lên, động năng là parabol mở xuống trên đoạn âm A đến dương A; cơ năng là đường ngang.",
+      "caption": "Tại cùng một li độ, động năng và thế năng bổ sung cho nhau để bằng cơ năng.",
+      "explanation": "Ở O, đường thế năng chạm mức không còn đường động năng đạt mức cơ năng. Tại hai biên, hai vai trò đổi chỗ. Hai giao điểm của các parabol ứng với $W_t=W_d=W/2$, tức $x=\\pm A/\\sqrt2$; hình gốc không ghi thêm các giá trị này lên trục. Chỉ xét đường động năng trong miền chuyển động $[-A,A]$, không kéo dài nó sang phần cho năng lượng âm.",
+      "lesson_file": "docs/physics/high-school/grade-11/01-oscillations/06-oscillation-energy.md",
+      "insertion_before": "### Ví dụ trực giác",
+      "status": "inserted_source_crop_reviewed",
+      "student_difficulty": "Tại cùng một li độ, động năng và thế năng bổ sung cho nhau để bằng cơ năng.",
+      "pedagogical_goal": "Ở O, đường thế năng chạm mức không còn đường động năng đạt mức cơ năng. Tại hai biên, hai vai trò đổi chỗ. Hai giao điểm của các parabol ứng với $W_t=W_d=W/2$, tức $x=\\pm A/\\sqrt2$; hình gốc không ghi thêm các giá trị này lên trục. Chỉ xét đường động năng trong miền chuyển động $[-A,A]$, không kéo dài nó sang phần cho năng lượng âm.",
+      "markdown_line": 129,
+      "learner_caption_present": true,
+      "source_figure_status": "VISUALLY_REVIEWED",
+      "source_pixels_status": "PASS",
+      "ai_generation_used": false,
+      "watermark_inpainting_used": false
+    },
+    {
+      "id": "b6-energy-time",
+      "lesson": 6,
+      "asset": "docs/physics/high-school/grade-11/assets/theory-figures/01-oscillations/b6-energy-time.png",
+      "pdf_filename": "BT-Chương I_1.pdf",
+      "pdf_page_1_indexed": 155,
+      "source_id": "bt1",
+      "pdf_sha256": "1fda43f445931f975675e9223b372bd527219217bcca3be2ece71dd01b43cd5e",
+      "processing": "lossless crop of original embedded raster; PDF overlay excluded, no inpainting, no resize, no sharpening; apply original PDF soft mask onto white page background",
+      "xref": 1502,
+      "smask_xref": 1503,
+      "nonfigure_margin_clear_px": [],
+      "image_bbox_pdf_points": [
+        276.75,
+        197.01998901367188,
+        468.79998779296875,
+        321.3699951171875
+      ],
+      "native_size_px": [
+        533,
+        345
+      ],
+      "native_crop_px": [
+        0,
+        0,
+        533,
+        345
+      ],
+      "embedded_stream_sha256": "139785d19d24504fa704c5085b52133f58bc26fda8a3955c05a613c605ed0be3",
+      "output_size_px": [
+        533,
+        345
+      ],
+      "output_sha256": "bab70c0f8100a931e8546dd0f0590af95c7a3813bcfbdc472f9502cd29f76e68",
+      "decoded_pixels_sha256": "f2f8ee71e042581c10b1cbba937a71a92476b1134dfb8eb6be72f38156ef69af",
+      "section": "8. Tần số biến thiên của động năng và thế năng",
+      "alt": "Hai đường động năng và thế năng không âm luân phiên đạt cực đại; các đỉnh của cùng một đường cách nhau T/2, cơ năng nằm ngang.",
+      "caption": "Một chu kì chuyển động chứa hai chu kì biến thiên của mỗi dạng năng lượng.",
+      "explanation": "Đường $W_t$ bắt đầu ở mức cơ năng, giảm về không tại $T/4$ rồi trở lại cực đại tại $T/2$. Đường $W_d$ biến thiên bù lại; khi một đường đạt cực đại thì đường kia bằng không. Vì trạng thái năng lượng đã lặp lại sau $T/2$, tần số năng lượng là $2f$, trong khi đường cơ năng $W$ vẫn nằm ngang.",
+      "lesson_file": "docs/physics/high-school/grade-11/01-oscillations/06-oscillation-energy.md",
+      "insertion_before": "!!! warning \"Bẫy\"",
+      "status": "inserted_source_crop_reviewed",
+      "student_difficulty": "Một chu kì chuyển động chứa hai chu kì biến thiên của mỗi dạng năng lượng.",
+      "pedagogical_goal": "Đường $W_t$ bắt đầu ở mức cơ năng, giảm về không tại $T/4$ rồi trở lại cực đại tại $T/2$. Đường $W_d$ biến thiên bù lại; khi một đường đạt cực đại thì đường kia bằng không. Vì trạng thái năng lượng đã lặp lại sau $T/2$, tần số năng lượng là $2f$, trong khi đường cơ năng $W$ vẫn nằm ngang.",
+      "markdown_line": 225,
+      "learner_caption_present": true,
+      "source_figure_status": "VISUALLY_REVIEWED",
+      "source_pixels_status": "PASS",
+      "ai_generation_used": false,
+      "watermark_inpainting_used": false
+    },
+    {
+      "id": "b7-in-phase",
+      "lesson": 7,
+      "asset": "docs/physics/high-school/grade-11/assets/theory-figures/01-oscillations/b7-in-phase.png",
+      "pdf_filename": "EBOOK LÀM CHỦ VÀ NÂNG CAO VẬT LÝ 11 TẬP 1 DAO ĐỘNG VÀ SÓNG, THẦY VŨ TUẤN ANH-compressed.pdf",
+      "pdf_page_1_indexed": 53,
+      "source_id": "ebook7",
+      "pdf_sha256": "9fd09a279ac7b26c55f0dd4389a136067952e8a73473d7f1bc491e011dd5298d",
+      "processing": "lossless crop of original embedded raster; PDF overlay excluded, no inpainting, no resize, no sharpening",
+      "xref": 258,
+      "smask_xref": 0,
+      "nonfigure_margin_clear_px": [],
+      "image_bbox_pdf_points": [
+        0.0,
+        0.943603515625,
+        595.0,
+        841.0565795898438
+      ],
+      "native_size_px": [
+        909,
+        1284
+      ],
+      "native_crop_px": [
+        50,
+        158,
+        311,
+        295
+      ],
+      "embedded_stream_sha256": "b040ed85681212653d5d3e8ee16826e27747ba9e1ad31ed7acad8b2303197dc3",
+      "output_size_px": [
+        261,
+        137
+      ],
+      "output_sha256": "4b903bef20fb4cc677b879cac4f3c37cb84a802d5552a36d390b0efcaa0b9c1f",
+      "decoded_pixels_sha256": "320619b0df75583eda975d2077adff8cfb1e14569c86b9e41ddc32664788b0a1",
+      "section": "2. Biên độ tổng hợp — cùng pha",
+      "alt": "Hai đường li độ có biên độ khác nhau nhưng cùng đạt đỉnh, đáy và đi qua không ở những thời điểm trùng nhau.",
+      "caption": "Cùng pha: các li độ cùng tăng cường nhau ở mọi thời điểm.",
+      "explanation": "Hai đường trong hình cùng đạt đỉnh và cùng qua O theo một chiều, dù biên độ khác nhau. Tại thời điểm đạt đỉnh dương, hai li độ cộng thành $A_1+A_2$, nên biên độ tổng hợp đạt giá trị lớn nhất. Hình chỉ vẽ hai dao động thành phần; không có một đường thứ ba được ngầm coi là dao động tổng hợp.",
+      "lesson_file": "docs/physics/high-school/grade-11/01-oscillations/07-combined-damped-forced-resonance.md",
+      "insertion_before": "## 3. Pha của dao động tổng hợp",
+      "status": "inserted_source_crop_reviewed",
+      "student_difficulty": "Cùng pha: các li độ cùng tăng cường nhau ở mọi thời điểm.",
+      "pedagogical_goal": "Hai đường trong hình cùng đạt đỉnh và cùng qua O theo một chiều, dù biên độ khác nhau. Tại thời điểm đạt đỉnh dương, hai li độ cộng thành $A_1+A_2$, nên biên độ tổng hợp đạt giá trị lớn nhất. Hình chỉ vẽ hai dao động thành phần; không có một đường thứ ba được ngầm coi là dao động tổng hợp.",
+      "markdown_line": 80,
+      "learner_caption_present": true,
+      "source_figure_status": "VISUALLY_REVIEWED",
+      "source_pixels_status": "PASS",
+      "ai_generation_used": false,
+      "watermark_inpainting_used": false
+    },
+    {
+      "id": "b7-antiphase",
+      "lesson": 7,
+      "asset": "docs/physics/high-school/grade-11/assets/theory-figures/01-oscillations/b7-antiphase.png",
+      "pdf_filename": "EBOOK LÀM CHỦ VÀ NÂNG CAO VẬT LÝ 11 TẬP 1 DAO ĐỘNG VÀ SÓNG, THẦY VŨ TUẤN ANH-compressed.pdf",
+      "pdf_page_1_indexed": 53,
+      "source_id": "ebook7",
+      "pdf_sha256": "9fd09a279ac7b26c55f0dd4389a136067952e8a73473d7f1bc491e011dd5298d",
+      "processing": "lossless crop of original embedded raster; PDF overlay excluded, no inpainting, no resize, no sharpening",
+      "xref": 258,
+      "smask_xref": 0,
+      "nonfigure_margin_clear_px": [],
+      "image_bbox_pdf_points": [
+        0.0,
+        0.943603515625,
+        595.0,
+        841.0565795898438
+      ],
+      "native_size_px": [
+        909,
+        1284
+      ],
+      "native_crop_px": [
+        324,
+        158,
+        577,
+        295
+      ],
+      "embedded_stream_sha256": "b040ed85681212653d5d3e8ee16826e27747ba9e1ad31ed7acad8b2303197dc3",
+      "output_size_px": [
+        253,
+        137
+      ],
+      "output_sha256": "62a5f0332f38817050dda9c580ddcea86eadac479dada8ff25996d444fac095a",
+      "decoded_pixels_sha256": "e21823039e82041e28de926282a250b5b8d2606cd4f93754b49f9cc8a846a791",
+      "section": "2. Biên độ tổng hợp — ngược pha",
+      "alt": "Khi một đường li độ đạt đỉnh dương thì đường còn lại đạt đáy âm; hai đường qua không cùng lúc nhưng theo hai chiều ngược nhau.",
+      "caption": "Ngược pha: các li độ trái dấu nên triệt bớt nhau khi cộng.",
+      "explanation": "Đỉnh dương của đường này trùng thời điểm đáy âm của đường kia. Vì các li độ đối dấu, biên độ tổng hợp bằng $|A_1-A_2|$, không phải tổng hai biên độ. Hai đường trong hình có độ cao khác nhau nên chỉ triệt bớt; chỉ khi $A_1=A_2$ mới triệt tiêu hoàn toàn.",
+      "lesson_file": "docs/physics/high-school/grade-11/01-oscillations/07-combined-damped-forced-resonance.md",
+      "insertion_before": "## 3. Pha của dao động tổng hợp",
+      "status": "inserted_source_crop_reviewed",
+      "student_difficulty": "Ngược pha: các li độ trái dấu nên triệt bớt nhau khi cộng.",
+      "pedagogical_goal": "Đỉnh dương của đường này trùng thời điểm đáy âm của đường kia. Vì các li độ đối dấu, biên độ tổng hợp bằng $|A_1-A_2|$, không phải tổng hai biên độ. Hai đường trong hình có độ cao khác nhau nên chỉ triệt bớt; chỉ khi $A_1=A_2$ mới triệt tiêu hoàn toàn.",
+      "markdown_line": 88,
+      "learner_caption_present": true,
+      "source_figure_status": "VISUALLY_REVIEWED",
+      "source_pixels_status": "PASS",
+      "ai_generation_used": false,
+      "watermark_inpainting_used": false
+    },
+    {
+      "id": "b7-damped-oscillation",
+      "lesson": 7,
+      "asset": "docs/physics/high-school/grade-11/assets/theory-figures/01-oscillations/b7-damped-oscillation.png",
+      "pdf_filename": "EBOOK PHONG TOẢ VẬT LÝ 11 TẬP 1 DAO ĐỘNG, SÓNG, MAPSTUDY-compressed.pdf",
+      "pdf_page_1_indexed": 142,
+      "source_id": "ebook9",
+      "pdf_sha256": "fdf1663826f700c63ce85854742509e6f2a21f10c822f6f9fa7d0ccaba7348ad",
+      "processing": "lossless crop of original embedded raster; PDF overlay excluded, no inpainting, no resize, no sharpening",
+      "xref": 703,
+      "smask_xref": 0,
+      "nonfigure_margin_clear_px": [],
+      "image_bbox_pdf_points": [
+        18.536399841308594,
+        0.0,
+        576.46337890625,
+        842.0
+      ],
+      "native_size_px": [
+        852,
+        1286
+      ],
+      "native_crop_px": [
+        213,
+        194,
+        611,
+        435
+      ],
+      "embedded_stream_sha256": "c8109540dc6736fe7f9733e9d38db5621f9b758d879eac17790c62804b40bfb6",
+      "output_size_px": [
+        398,
+        241
+      ],
+      "output_sha256": "dbcbf8785e0441a44e0962e1e67f66a001b67eb2a52c0c7484efdbc33c467fd6",
+      "decoded_pixels_sha256": "d7231025a9fd692d3fee58a6071db24df8d285edecbd576b09d90bcb3392675a",
+      "section": "6. Dao động tắt dần",
+      "alt": "Li độ dao động qua hai phía của O với các đỉnh thấp dần, nằm trong hai đường bao nét đứt thu hẹp theo thời gian.",
+      "caption": "Đường bao thu hẹp cho thấy biên độ giảm, không chỉ li độ đang giảm trong một nửa chu kì.",
+      "explanation": "Hãy so các đỉnh liên tiếp ở cùng một phía của O: chúng thấp dần theo thời gian. Hai đường nét đứt là đường bao biên độ, không phải hai quỹ đạo khác của vật. Lực cản làm cơ năng cơ học giảm nên biên độ suy giảm. Đây là chế độ vẫn còn dao động qua lại; không suy rộng hình này cho mọi mức cản.",
+      "lesson_file": "docs/physics/high-school/grade-11/01-oscillations/07-combined-damped-forced-resonance.md",
+      "insertion_before": "### Đặc điểm",
+      "status": "inserted_source_crop_reviewed",
+      "student_difficulty": "Đường bao thu hẹp cho thấy biên độ giảm, không chỉ li độ đang giảm trong một nửa chu kì.",
+      "pedagogical_goal": "Hãy so các đỉnh liên tiếp ở cùng một phía của O: chúng thấp dần theo thời gian. Hai đường nét đứt là đường bao biên độ, không phải hai quỹ đạo khác của vật. Lực cản làm cơ năng cơ học giảm nên biên độ suy giảm. Đây là chế độ vẫn còn dao động qua lại; không suy rộng hình này cho mọi mức cản.",
+      "markdown_line": 142,
+      "learner_caption_present": true,
+      "source_figure_status": "VISUALLY_REVIEWED",
+      "source_pixels_status": "PASS",
+      "ai_generation_used": false,
+      "watermark_inpainting_used": false
+    },
+    {
+      "id": "b7-damping-regimes",
+      "lesson": 7,
+      "asset": "docs/physics/high-school/grade-11/assets/theory-figures/01-oscillations/b7-damping-regimes.png",
+      "pdf_filename": "BT-Chương I_1.pdf",
+      "pdf_page_1_indexed": 116,
+      "source_id": "bt1",
+      "pdf_sha256": "1fda43f445931f975675e9223b372bd527219217bcca3be2ece71dd01b43cd5e",
+      "processing": "lossless crop of original embedded raster; PDF overlay excluded, no inpainting, no resize, no sharpening",
+      "xref": 1191,
+      "smask_xref": 0,
+      "nonfigure_margin_clear_px": [],
+      "image_bbox_pdf_points": [
+        378.3500061035156,
+        545.6000366210938,
+        560.0999755859375,
+        671.7000122070312
+      ],
+      "native_size_px": [
+        504,
+        350
+      ],
+      "native_crop_px": [
+        0,
+        0,
+        504,
+        350
+      ],
+      "embedded_stream_sha256": "bced9986cb220afafa3ea0e6c13608d88410d69ea2e1766f5d030bd0409849a8",
+      "output_size_px": [
+        504,
+        350
+      ],
+      "output_sha256": "06fc700efecd8d5c84123855d20e625ed5bec7cdae6b39c11221ab9436b6e860",
+      "decoded_pixels_sha256": "1d61014ed57925b5aa5fc233567c4ce84afcc98d928d5cd57f9fb0009d5c0371",
+      "section": "6. Dao động tắt dần — giới hạn nhận xét về lực cản",
+      "details": "Đọc thêm: cản lớn có thể làm mất chuyển động qua lại",
+      "alt": "Ba đường trở về cân bằng: tắt dần dưới hạn còn cắt trục, còn đường tới hạn và vượt hạn trong hình tiến về O mà không qua lại hai phía.",
+      "caption": "Trở về cân bằng không đồng nghĩa với việc còn dao động qua lại.",
+      "explanation": "Đường đỏ dưới hạn còn nhiều lần đi qua O. Hai đường tới hạn và vượt hạn được vẽ trong hình tiến về O mà không luân phiên qua hai phía. So sánh này giải thích vì sao không thể nói “càng tăng lực cản thì vật càng dao động qua lại nhanh hơn rồi tắt”; cơ chế trở về cân bằng còn phụ thuộc chế độ giảm chấn.",
+      "lesson_file": "docs/physics/high-school/grade-11/01-oscillations/07-combined-damped-forced-resonance.md",
+      "insertion_before": "### Có phải mọi dao động tắt dần đều xấu?",
+      "status": "inserted_source_crop_reviewed",
+      "student_difficulty": "Trở về cân bằng không đồng nghĩa với việc còn dao động qua lại.",
+      "pedagogical_goal": "Đường đỏ dưới hạn còn nhiều lần đi qua O. Hai đường tới hạn và vượt hạn được vẽ trong hình tiến về O mà không luân phiên qua hai phía. So sánh này giải thích vì sao không thể nói “càng tăng lực cản thì vật càng dao động qua lại nhanh hơn rồi tắt”; cơ chế trở về cân bằng còn phụ thuộc chế độ giảm chấn.",
+      "markdown_line": 157,
+      "learner_caption_present": true,
+      "source_figure_status": "VISUALLY_REVIEWED",
+      "source_pixels_status": "PASS",
+      "ai_generation_used": false,
+      "watermark_inpainting_used": false
+    },
+    {
+      "id": "b7-forced-transient",
+      "lesson": 7,
+      "asset": "docs/physics/high-school/grade-11/assets/theory-figures/01-oscillations/b7-forced-transient.png",
+      "pdf_filename": "BT-Chương I_1.pdf",
+      "pdf_page_1_indexed": 117,
+      "source_id": "bt1",
+      "pdf_sha256": "1fda43f445931f975675e9223b372bd527219217bcca3be2ece71dd01b43cd5e",
+      "processing": "lossless crop of original embedded raster; PDF overlay excluded, no inpainting, no resize, no sharpening",
+      "xref": 1196,
+      "smask_xref": 0,
+      "nonfigure_margin_clear_px": [],
+      "image_bbox_pdf_points": [
+        138.1300048828125,
+        290.4800109863281,
+        471.260009765625,
+        375.7300109863281
+      ],
+      "native_size_px": [
+        498,
+        127
+      ],
+      "native_crop_px": [
+        0,
+        0,
+        498,
+        127
+      ],
+      "embedded_stream_sha256": "702bd81977f872279ff41dd1d5e46ef8f85e3b7c5e688f2df19815ca9bc49b5a",
+      "output_size_px": [
+        498,
+        127
+      ],
+      "output_sha256": "46fd0a576a823da0b4a5f216f1ce8c61dcfbe89c225cee6477ee6a889a315ab3",
+      "decoded_pixels_sha256": "4f3fd8f42ca97a4db1806cb967d0f353b1524e89226c01f72c932543ab48fc55",
+      "section": "8. Dao động cưỡng bức",
+      "alt": "Đồ thị li độ của dao động cưỡng bức phân biệt giai đoạn chuyển tiếp có biên độ thay đổi và giai đoạn ổn định có biên độ không đổi.",
+      "caption": "Chỉ sau giai đoạn chuyển tiếp mới đọc đặc điểm của dao động cưỡng bức ổn định.",
+      "explanation": "Ở phần bên trái, các đỉnh chưa có độ cao ổn định; phần bên phải đã lặp lại đều với biên độ gần như không đổi. Hình minh họa một quá trình tiến tới ổn định, không phải quy luật rằng mọi dao động cưỡng bức đều tăng biên độ đúng như đường này. Ở giai đoạn ổn định, nhịp dao động theo ngoại lực tuần hoàn, không mặc nhiên bằng tần số riêng của hệ.",
+      "lesson_file": "docs/physics/high-school/grade-11/01-oscillations/07-combined-damped-forced-resonance.md",
+      "insertion_before": "### Ở trạng thái ổn định",
+      "status": "inserted_source_crop_reviewed",
+      "student_difficulty": "Chỉ sau giai đoạn chuyển tiếp mới đọc đặc điểm của dao động cưỡng bức ổn định.",
+      "pedagogical_goal": "Ở phần bên trái, các đỉnh chưa có độ cao ổn định; phần bên phải đã lặp lại đều với biên độ gần như không đổi. Hình minh họa một quá trình tiến tới ổn định, không phải quy luật rằng mọi dao động cưỡng bức đều tăng biên độ đúng như đường này. Ở giai đoạn ổn định, nhịp dao động theo ngoại lực tuần hoàn, không mặc nhiên bằng tần số riêng của hệ.",
+      "markdown_line": 186,
+      "learner_caption_present": true,
+      "source_figure_status": "VISUALLY_REVIEWED",
+      "source_pixels_status": "PASS",
+      "ai_generation_used": false,
+      "watermark_inpainting_used": false
+    },
+    {
+      "id": "b7-resonance-curves",
+      "lesson": 7,
+      "asset": "docs/physics/high-school/grade-11/assets/theory-figures/01-oscillations/b7-resonance-curves.png",
+      "pdf_filename": "EBOOK PHONG TOẢ VẬT LÝ 11 TẬP 1 DAO ĐỘNG, SÓNG, MAPSTUDY-compressed.pdf",
+      "pdf_page_1_indexed": 143,
+      "source_id": "ebook9",
+      "pdf_sha256": "fdf1663826f700c63ce85854742509e6f2a21f10c822f6f9fa7d0ccaba7348ad",
+      "processing": "lossless crop of original embedded raster; PDF overlay excluded, no inpainting, no resize, no sharpening",
+      "xref": 708,
+      "smask_xref": 0,
+      "nonfigure_margin_clear_px": [],
+      "image_bbox_pdf_points": [
+        2.8517799377441406,
+        0.0,
+        592.1478271484375,
+        842.0
+      ],
+      "native_size_px": [
+        900,
+        1286
+      ],
+      "native_crop_px": [
+        481,
+        618,
+        870,
+        927
+      ],
+      "embedded_stream_sha256": "bf66857f89e1f30ec3631bc670f9c3ac0ee38aea0e88860486ad9b756437a4cd",
+      "output_size_px": [
+        389,
+        309
+      ],
+      "output_sha256": "656026a05304ad7a6018eb96d479db4c95c3bdf2c1d599ba2f0448d51942bf62",
+      "decoded_pixels_sha256": "232d675da34dce4285038cb7c5becb72b205eb36d685c57a17a3956be9683024",
+      "section": "10. Ảnh hưởng của lực cản đến cộng hưởng",
+      "alt": "Các đường biên độ theo tần số cưỡng bức đạt đỉnh gần f0; lực cản nhỏ cho đỉnh cao và hẹp, lực cản lớn cho đỉnh thấp hơn.",
+      "caption": "Cộng hưởng là đỉnh của đường biên độ theo tần số, không phải biên độ cứ tăng khi tần số tăng.",
+      "explanation": "Trục ngang là tần số lực cưỡng bức, không phải thời gian; trục đứng là biên độ ổn định. Đi từ hai phía về vùng $f_0$, biên độ tăng rồi giảm khi đi qua vùng cộng hưởng. Đường có lực cản nhỏ cao và nhọn hơn, còn lực cản lớn làm đỉnh thấp và kém rõ. Hình gốc dùng cách biểu diễn định tính phổ thông với đỉnh tại $f_0$; không dùng nó để đọc độ dịch chính xác của đỉnh khi xét mô hình giảm chấn chi tiết.",
+      "lesson_file": "docs/physics/high-school/grade-11/01-oscillations/07-combined-damped-forced-resonance.md",
+      "insertion_before": "## 11. Ứng dụng và nguy cơ của cộng hưởng",
+      "status": "inserted_source_crop_reviewed",
+      "student_difficulty": "Cộng hưởng là đỉnh của đường biên độ theo tần số, không phải biên độ cứ tăng khi tần số tăng.",
+      "pedagogical_goal": "Trục ngang là tần số lực cưỡng bức, không phải thời gian; trục đứng là biên độ ổn định. Đi từ hai phía về vùng $f_0$, biên độ tăng rồi giảm khi đi qua vùng cộng hưởng. Đường có lực cản nhỏ cao và nhọn hơn, còn lực cản lớn làm đỉnh thấp và kém rõ. Hình gốc dùng cách biểu diễn định tính phổ thông với đỉnh tại $f_0$; không dùng nó để đọc độ dịch chính xác của đỉnh khi xét mô hình giảm chấn chi tiết.",
+      "markdown_line": 239,
+      "learner_caption_present": true,
+      "source_figure_status": "VISUALLY_REVIEWED",
+      "source_pixels_status": "PASS",
+      "ai_generation_used": false,
+      "watermark_inpainting_used": false
+    },
+    {
+      "id": "b7-resonance-pendulums",
+      "lesson": 7,
+      "asset": "docs/physics/high-school/grade-11/assets/theory-figures/01-oscillations/b7-resonance-pendulums.png",
+      "pdf_filename": "EBOOK PHONG TOẢ VẬT LÝ 11 TẬP 1 DAO ĐỘNG, SÓNG, MAPSTUDY-compressed.pdf",
+      "pdf_page_1_indexed": 146,
+      "source_id": "ebook9",
+      "pdf_sha256": "fdf1663826f700c63ce85854742509e6f2a21f10c822f6f9fa7d0ccaba7348ad",
+      "processing": "lossless crop of original embedded raster; PDF overlay excluded, no inpainting, no resize, no sharpening",
+      "xref": 723,
+      "smask_xref": 0,
+      "nonfigure_margin_clear_px": [],
+      "image_bbox_pdf_points": [
+        18.0,
+        6.103515625e-05,
+        577.0,
+        842.0000610351562
+      ],
+      "native_size_px": [
+        854,
+        1286
+      ],
+      "native_crop_px": [
+        286,
+        634,
+        553,
+        826
+      ],
+      "embedded_stream_sha256": "79f1c714e11aa319f718fa6cd665b2dc46d276cb50d3a4b3b0ce327096c92321",
+      "output_size_px": [
+        267,
+        192
+      ],
+      "output_sha256": "1350c3c38b5205ab9a6484fa9599e89f3dcc75849f3572ee353c7a5fb0e7102e",
+      "decoded_pixels_sha256": "ac09b948cfb6e85f556f97c4222fd1928ff5c82053194b899dfd8f498913b09f",
+      "section": "9. Cộng hưởng — bộ con lắc ghép",
+      "alt": "Con lắc điều khiển M và bốn con lắc có chiều dài khác nhau được treo trên cùng một dây ngang nối hai giá.",
+      "caption": "Các con lắc nhận cùng một kích thích nhưng không nhất thiết đáp ứng mạnh như nhau.",
+      "explanation": "Kích thích con lắc M làm dây treo chung truyền tác động tuần hoàn đến các con lắc còn lại. Trong chế độ góc nhỏ và cản nhỏ, con lắc có chiều dài gần bằng M có tần số riêng gần nhịp kích thích nên đáp ứng mạnh hơn. Khi so sánh, đo chiều dài từng dây từ điểm treo của nó đến quả nặng, không so độ cao của các quả nặng so với mặt đất: dây treo chung trong hình không nằm ngang hoàn toàn.",
+      "lesson_file": "docs/physics/high-school/grade-11/01-oscillations/07-combined-damped-forced-resonance.md",
+      "insertion_before": "## 10. Ảnh hưởng của lực cản đến cộng hưởng",
+      "status": "inserted_source_crop_reviewed",
+      "student_difficulty": "Các con lắc nhận cùng một kích thích nhưng không nhất thiết đáp ứng mạnh như nhau.",
+      "pedagogical_goal": "Kích thích con lắc M làm dây treo chung truyền tác động tuần hoàn đến các con lắc còn lại. Trong chế độ góc nhỏ và cản nhỏ, con lắc có chiều dài gần bằng M có tần số riêng gần nhịp kích thích nên đáp ứng mạnh hơn. Khi so sánh, đo chiều dài từng dây từ điểm treo của nó đến quả nặng, không so độ cao của các quả nặng so với mặt đất: dây treo chung trong hình không nằm ngang hoàn toàn.",
+      "markdown_line": 217,
+      "learner_caption_present": true,
+      "source_figure_status": "VISUALLY_REVIEWED",
+      "source_pixels_status": "PASS",
+      "ai_generation_used": false,
+      "watermark_inpainting_used": false
+    }
+  ],
+  "retired_assets": [
+    {
+      "path": "docs/physics/high-school/grade-11/assets/theory-figures/01-oscillations/b1-circle-projection.svg",
+      "sha256": "4b8184a6eb1b599ab13d8e3aa760115e9cc9765cc0576f292050c418774bb152"
+    },
+    {
+      "path": "docs/physics/high-school/grade-11/assets/theory-figures/01-oscillations/b1-displacement-time.svg",
+      "sha256": "553c6aa73d4dd25b5843d9ca8ee7d8102081e71ef3233690ab092c65a1bf6db1"
+    },
+    {
+      "path": "docs/physics/high-school/grade-11/assets/theory-figures/01-oscillations/b1-position-amplitude-axis.svg",
+      "sha256": "82c2a94ed6ad98cd7be45ce0c08cbdd5f6bf17b8b246dd005574bcd29342cf8c"
+    },
+    {
+      "path": "docs/physics/high-school/grade-11/assets/theory-figures/01-oscillations/b2-acceleration-position.svg",
+      "sha256": "f7745050400e7f1f508648100b547171f940b1a94df6e7122c8ebdd131815f83"
+    },
+    {
+      "path": "docs/physics/high-school/grade-11/assets/theory-figures/01-oscillations/b2-phase-ellipse.svg",
+      "sha256": "950ea8857a7d4b4b0560445b6e596ba5fbf181dd2022b493b99ebcb468590019"
+    },
+    {
+      "path": "docs/physics/high-school/grade-11/assets/theory-figures/01-oscillations/b2-state-directions.svg",
+      "sha256": "2b690c7c36d0ee16c8205e9411f36d5e37b1f19f67917fa0821315d75ca54326"
+    },
+    {
+      "path": "docs/physics/high-school/grade-11/assets/theory-figures/01-oscillations/b2-xva-time.svg",
+      "sha256": "79f8d85c154ec4014737fd3a3292d5ce7a189f9a2d38bbefd0ce8cdea0d037b5"
+    },
+    {
+      "path": "docs/physics/high-school/grade-11/assets/theory-figures/01-oscillations/b3-distance-displacement.svg",
+      "sha256": "b13a565b1d7abe2837e5d7c26db24018434359bb64ffa5b1236ea25c161d1187"
+    },
+    {
+      "path": "docs/physics/high-school/grade-11/assets/theory-figures/01-oscillations/b3-forward-arc.svg",
+      "sha256": "aa6a8f66b709e24d7d392dd0831b6d22eb86379000b6554bb58734e7e7307ba8"
+    },
+    {
+      "path": "docs/physics/high-school/grade-11/assets/theory-figures/01-oscillations/b3-phase-map.svg",
+      "sha256": "02351d82d076b9e4d9420ea4b4b25d8033a2f073adb0c22b88c4c37b34fa6f47"
+    },
+    {
+      "path": "docs/physics/high-school/grade-11/assets/theory-figures/01-oscillations/b3-quarter-cycle.svg",
+      "sha256": "fe0cceaadd0f9a4c09c297f448b16eed7586718d57484439f14ea3e6503fbbd0"
+    },
+    {
+      "path": "docs/physics/high-school/grade-11/assets/theory-figures/01-oscillations/b4-elastic-vs-restoring.svg",
+      "sha256": "83f22ea93cf7d243b7882d1516f98292476cf28f3cbc32e176f503fad0276bf7"
+    },
+    {
+      "path": "docs/physics/high-school/grade-11/assets/theory-figures/01-oscillations/b4-spring-series-parallel.svg",
+      "sha256": "2e1c1a55091fcd918da2458593b6bbf149a46097185844d9c1e8193607589caa"
+    },
+    {
+      "path": "docs/physics/high-school/grade-11/assets/theory-figures/01-oscillations/b4-spring-three-positions.svg",
+      "sha256": "a3ebaef0b37a8bde87eb0ca049bfa98f8a1778b962f108321cc00d1555d87c90"
+    },
+    {
+      "path": "docs/physics/high-school/grade-11/assets/theory-figures/01-oscillations/b4-vertical-spring-reference.svg",
+      "sha256": "ad809920ce0b1cdcf65ef62e6dbefbf89e04596e17c7deb66e72a914d3015f56"
+    },
+    {
+      "path": "docs/physics/high-school/grade-11/assets/theory-figures/01-oscillations/b5-measure-g.svg",
+      "sha256": "37874e897c39bfa3fe282c265b695e0d872b3e2253a4a20c5b6055f30d51b814"
+    },
+    {
+      "path": "docs/physics/high-school/grade-11/assets/theory-figures/01-oscillations/b5-pendulum-forces.svg",
+      "sha256": "73035d6312200402883694114ca82cda301bb44e5125cf90bac20ea40dd32b2c"
+    },
+    {
+      "path": "docs/physics/high-school/grade-11/assets/theory-figures/01-oscillations/b5-pendulum-geometry.svg",
+      "sha256": "b1dd2d0254c47c4d7b36daa3eb92ea8b592e130a978ce462a926eada7a65b92c"
+    },
+    {
+      "path": "docs/physics/high-school/grade-11/assets/theory-figures/01-oscillations/b5-small-angle.svg",
+      "sha256": "5f3bb8c41b7a96bf2b869622ae42e5cba12c294698b01e1a3a79e82eed7643e8"
+    },
+    {
+      "path": "docs/physics/high-school/grade-11/assets/theory-figures/01-oscillations/b6-energy-position.svg",
+      "sha256": "e77e95bb51e52bfec17f79933a20c78b6120a0a627911e2e473f81eb489ef51d"
+    },
+    {
+      "path": "docs/physics/high-school/grade-11/assets/theory-figures/01-oscillations/b6-energy-three-positions.svg",
+      "sha256": "e3ab756a4ffaa0f633266a67df9f8d52bdbff42453654a0a5e99c8fe25f7a82e"
+    },
+    {
+      "path": "docs/physics/high-school/grade-11/assets/theory-figures/01-oscillations/b6-energy-time.svg",
+      "sha256": "1ca24635a9ab8c95d2eb2ea6be692964f0086adc6616d61fa4f5220c77ebd128"
+    },
+    {
+      "path": "docs/physics/high-school/grade-11/assets/theory-figures/01-oscillations/b7-damped-oscillation.svg",
+      "sha256": "f76acc37b76353638e20119b25b9a308cf4fc6b7d76a334a8e6f4dc0ed09fb0c"
+    },
+    {
+      "path": "docs/physics/high-school/grade-11/assets/theory-figures/01-oscillations/b7-resonance-curves.svg",
+      "sha256": "57442900f4e80e609bdb94c26b1fd0090703407c86978507ca759c71ef4d5934"
+    },
+    {
+      "path": "docs/physics/high-school/grade-11/assets/theory-figures/01-oscillations/b7-vector-special-cases.svg",
+      "sha256": "6a1e4e349c94097c3c847875749059ffef04b315f2eb6e4cc3d4dadabb57fe41"
+    },
+    {
+      "path": "docs/physics/high-school/grade-11/assets/theory-figures/01-oscillations/b7-vector-sum.svg",
+      "sha256": "94bdd513dcf381106d3c9e9d1c36268a36923217eeea0b746e9e2f56fbbf207a"
+    }
+  ],
+  "rejected_or_deferred": [
+    {
+      "item": "26 SVG khái niệm của v26 cũ",
+      "decision": "Loại toàn bộ theo yêu cầu hiện tại; công cụ retirement xóa đúng danh sách có hash, không xóa nhầm asset khác."
+    },
+    {
+      "item": "Nhóm practice i_p81_q4_231 và i_p126_q19_333_fig1; các hình practice đã rà trong clean-bai-1, clean-v14",
+      "decision": "Không dùng trực tiếp: có watermark gắn vào ảnh, ký hiệu phương án hoặc ngữ cảnh câu hỏi; đã chọn ảnh gốc rõ hơn ở PDF khác."
+    },
+    {
+      "item": "BT-Chương I, trang 117: ảnh cộng hưởng nhỏ có watermark gắn trong raster",
+      "decision": "Thay bằng hình gốc Phong Toả tập 1 trang PDF 143, không tái tạo chữ bị che."
+    },
+    {
+      "item": "Giản đồ tổng vectơ Fresnel, hình riêng gần đúng góc nhỏ, đồ thị đo g",
+      "decision": "Chưa tìm được crop đáp ứng đồng thời tính phù hợp và độ rõ trong các trang đã rà. Giữ nguyên lý thuyết, không tạo hình mới lấp chỗ trống; các đồ thị cùng/ngược pha chỉ minh họa hai trường hợp đó, không giả làm giản đồ tổng vectơ."
+    },
+    {
+      "item": "BT II–IV và các tập 2 điện trường/dòng điện",
+      "decision": "Rà phạm vi, không ép dùng hình ngoài Chương I chỉ để tăng số lượng."
+    },
+    {
+      "item": "IPCLASS, phần dao động",
+      "decision": "Đã rà nhưng các hình trùng ý hoặc dày hơn bản được chọn; không nhân đôi visual."
+    }
+  ],
+  "source_fidelity_review": [
+    {
+      "id": "b1-position-amplitude",
+      "unexplained_changed_pixels": 0,
+      "documented_margin_pixels_changed": 0,
+      "status": "PASS"
+    },
+    {
+      "id": "b1-circle-projection",
+      "unexplained_changed_pixels": 0,
+      "documented_margin_pixels_changed": 0,
+      "status": "PASS"
+    },
+    {
+      "id": "b1-spring-time-sequence",
+      "unexplained_changed_pixels": 0,
+      "documented_margin_pixels_changed": 0,
+      "status": "PASS"
+    },
+    {
+      "id": "b1-phase-delay",
+      "unexplained_changed_pixels": 0,
+      "documented_margin_pixels_changed": 0,
+      "status": "PASS"
+    },
+    {
+      "id": "b2-displacement-time",
+      "unexplained_changed_pixels": 0,
+      "documented_margin_pixels_changed": 0,
+      "status": "PASS"
+    },
+    {
+      "id": "b2-velocity-time",
+      "unexplained_changed_pixels": 0,
+      "documented_margin_pixels_changed": 0,
+      "status": "PASS"
+    },
+    {
+      "id": "b2-acceleration-time",
+      "unexplained_changed_pixels": 0,
+      "documented_margin_pixels_changed": 0,
+      "status": "PASS"
+    },
+    {
+      "id": "b2-velocity-position",
+      "unexplained_changed_pixels": 0,
+      "documented_margin_pixels_changed": 0,
+      "status": "PASS"
+    },
+    {
+      "id": "b2-acceleration-position",
+      "unexplained_changed_pixels": 0,
+      "documented_margin_pixels_changed": 0,
+      "status": "PASS"
+    },
+    {
+      "id": "b3-phase-map",
+      "unexplained_changed_pixels": 0,
+      "documented_margin_pixels_changed": 0,
+      "status": "PASS"
+    },
+    {
+      "id": "b3-same-position-opposite-velocity",
+      "unexplained_changed_pixels": 0,
+      "documented_margin_pixels_changed": 0,
+      "status": "PASS"
+    },
+    {
+      "id": "b3-directed-phase-interval",
+      "unexplained_changed_pixels": 0,
+      "documented_margin_pixels_changed": 0,
+      "status": "PASS"
+    },
+    {
+      "id": "b3-longest-path",
+      "unexplained_changed_pixels": 0,
+      "documented_margin_pixels_changed": 0,
+      "status": "PASS"
+    },
+    {
+      "id": "b3-shortest-path",
+      "unexplained_changed_pixels": 0,
+      "documented_margin_pixels_changed": 0,
+      "status": "PASS"
+    },
+    {
+      "id": "b4-horizontal-spring-positions",
+      "unexplained_changed_pixels": 0,
+      "documented_margin_pixels_changed": 0,
+      "status": "PASS"
+    },
+    {
+      "id": "b4-vertical-spring-reference",
+      "unexplained_changed_pixels": 0,
+      "documented_margin_pixels_changed": 0,
+      "status": "PASS"
+    },
+    {
+      "id": "b4-compression-phase-interval",
+      "unexplained_changed_pixels": 0,
+      "documented_margin_pixels_changed": 0,
+      "status": "PASS"
+    },
+    {
+      "id": "b4-elastic-restoring-directions",
+      "unexplained_changed_pixels": 0,
+      "documented_margin_pixels_changed": 0,
+      "status": "PASS"
+    },
+    {
+      "id": "b4-series-springs",
+      "unexplained_changed_pixels": 0,
+      "documented_margin_pixels_changed": 0,
+      "status": "PASS"
+    },
+    {
+      "id": "b4-parallel-springs",
+      "unexplained_changed_pixels": 0,
+      "documented_margin_pixels_changed": 0,
+      "status": "PASS"
+    },
+    {
+      "id": "b5-pendulum-geometry",
+      "unexplained_changed_pixels": 0,
+      "documented_margin_pixels_changed": 0,
+      "status": "PASS"
+    },
+    {
+      "id": "b5-pendulum-forces",
+      "unexplained_changed_pixels": 0,
+      "documented_margin_pixels_changed": 0,
+      "status": "PASS"
+    },
+    {
+      "id": "b5-pendulum-peg",
+      "unexplained_changed_pixels": 0,
+      "documented_margin_pixels_changed": 1309,
+      "status": "PASS"
+    },
+    {
+      "id": "b6-energy-transfer",
+      "unexplained_changed_pixels": 0,
+      "documented_margin_pixels_changed": 0,
+      "status": "PASS"
+    },
+    {
+      "id": "b6-energy-position",
+      "unexplained_changed_pixels": 0,
+      "documented_margin_pixels_changed": 0,
+      "status": "PASS"
+    },
+    {
+      "id": "b6-energy-time",
+      "unexplained_changed_pixels": 0,
+      "documented_margin_pixels_changed": 0,
+      "status": "PASS"
+    },
+    {
+      "id": "b7-in-phase",
+      "unexplained_changed_pixels": 0,
+      "documented_margin_pixels_changed": 0,
+      "status": "PASS"
+    },
+    {
+      "id": "b7-antiphase",
+      "unexplained_changed_pixels": 0,
+      "documented_margin_pixels_changed": 0,
+      "status": "PASS"
+    },
+    {
+      "id": "b7-damped-oscillation",
+      "unexplained_changed_pixels": 0,
+      "documented_margin_pixels_changed": 0,
+      "status": "PASS"
+    },
+    {
+      "id": "b7-damping-regimes",
+      "unexplained_changed_pixels": 0,
+      "documented_margin_pixels_changed": 0,
+      "status": "PASS"
+    },
+    {
+      "id": "b7-forced-transient",
+      "unexplained_changed_pixels": 0,
+      "documented_margin_pixels_changed": 0,
+      "status": "PASS"
+    },
+    {
+      "id": "b7-resonance-curves",
+      "unexplained_changed_pixels": 0,
+      "documented_margin_pixels_changed": 0,
+      "status": "PASS"
+    },
+    {
+      "id": "b7-resonance-pendulums",
+      "unexplained_changed_pixels": 0,
+      "documented_margin_pixels_changed": 0,
+      "status": "PASS"
+    }
+  ],
+  "checks": {
+    "python tools/check_practice_bank.py": {
+      "exit_code": 0,
+      "status": "PASS",
+      "exercise_sets": 61,
+      "authored_questions": 540,
+      "pdf_questions": 1633
+    },
+    "python tools/check_pdf_import.py": {
+      "exit_code": 0,
+      "status": "PASS",
+      "canonical_blocks": 1633,
+      "aliases": 10,
+      "practice_figures": 280
+    },
+    "python tools/check_solution_quality.py": {
+      "exit_code": 0,
+      "status": "PASS",
+      "blocks_checked": 2173
+    },
+    "python tools/check_site.py --lint-only": {
+      "exit_code": 0,
+      "status": "PASS",
+      "markdown_files": 237,
+      "errors": 0,
+      "warnings": 0
+    },
+    "python tools/check_ch1_source_figures.py": {
+      "exit_code": 0,
+      "status": "PASS",
+      "source_crops": 33,
+      "retired_svg_absent": 26
+    },
+    "python tools/check_site.py": {
+      "exit_code": 1,
+      "status": "BLOCKED_BUILD001",
+      "reason": "mkdocs executable absent; rendered MkDocs HTML was NOT verified"
+    },
+    "mkdocs build --strict": {
+      "exit_code": 127,
+      "status": "UNVERIFIED",
+      "reason": "mkdocs: command not found"
+    },
+    "source_pixel_reconstruction": {
+      "status": "PASS",
+      "crops": 33,
+      "unexplained_pixel_differences": 0,
+      "documented_margin_cleanup_pixels": 1309
+    },
+    "responsive_image_preview": {
+      "status": "PASS",
+      "engine": "Pandoc HTML/MathML + Chromium DOM preview; not MkDocs Material build",
+      "viewport_widths": [
+        360,
+        390,
+        430,
+        1024
+      ],
+      "image_viewport_checks": 132,
+      "image_loading_and_bounds": "PASS",
+      "original_phase_map_scroll_region": "PASS",
+      "note": "No network navigation or deployed site checked; source images embedded unchanged in a local DOM preview."
+    },
+    "old_source_migration": [
+      {
+        "baseline": 25,
+        "status": "PASS",
+        "retirement": "Removed 0 verified, rejected Chapter I SVGs. Other assets are untouched.",
+        "merged_source": "byte-for-byte match"
+      },
+      {
+        "baseline": 26,
+        "status": "PASS",
+        "retirement": "Removed 26 verified, rejected Chapter I SVGs. Other assets are untouched.",
+        "merged_source": "byte-for-byte match"
+      },
+      {
+        "baseline": "customized SVG",
+        "status": "PASS",
+        "behavior": "refused; all 26 old assets preserved unchanged"
+      }
+    ],
+    "original_content_preservation": {
+      "status": "PASS",
+      "baseline": "education-hub-v25.zip",
+      "baseline_sha256": "b3df4557cec6348d09669192479798f076a14207bcb0b32d91fb57900dea5508",
+      "original_seven_lesson_prose": "byte-identical after stripping new figure blocks",
+      "practice_and_exercise_assets": "unchanged",
+      "mkdocs_yml": "unchanged",
+      "github_workflow": "unchanged"
+    },
+    "deployed_site": "NOT_CHECKED_NO_PUSH_PERFORMED"
+  },
+  "next": "Duy trì Chương I bằng crop nguồn thật. Chỉ bắt đầu chương khác khi chủ repository yêu cầu; không quay lại bộ SVG bị từ chối. Build/deploy đầy đủ cần chạy trên GitHub Actions hoặc môi trường có MkDocs."
 }

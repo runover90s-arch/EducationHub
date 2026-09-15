@@ -178,13 +178,6 @@ Hai vị trí $x=+A$ và $x=-A$ là hai vị trí biên.
 !!! warning "Bẫy thường gặp"
     Dấu của $x$ cho biết vị trí so với VTCB, **không tự động cho biết chiều chuyển động**.
 
-![Trục dao động từ trừ A qua O đến cộng A, với hai trạng thái có cùng li độ dương nhưng vận tốc trái dấu](../assets/theory-figures/01-oscillations/b1-position-amplitude-axis.svg){ loading=lazy }
-
-*Hình — Li độ xác định vị trí của vật so với VTCB; cùng một li độ dương vẫn có thể xuất hiện khi vật đi theo hai chiều khác nhau.*
-
-!!! tip "Đọc hình"
-    Vật chỉ nằm trong đoạn $[-A,A]$ và biên độ luôn thỏa $A>0$. Hai chấm xanh ở cùng vị trí $x>0$ biểu diễn **hai thời điểm khác nhau**: một thời điểm $v>0$, thời điểm kia $v<0$. Vì vậy dấu của $x$ không thể dùng thay cho dấu của $v$.
-
 ---
 
 ## 7. Biên độ
@@ -202,6 +195,14 @@ Vì vậy chiều dài quỹ đạo là:
 $$
 \boxed{L=2A}.
 $$
+
+<!-- ch1-source-figure: b1-position-amplitude -->
+[![Vật nằm giữa hai biên âm và dương; các đoạn đánh dấu li độ, biên độ và chiều dài quỹ đạo.](../assets/theory-figures/01-oscillations/b1-position-amplitude.png){ .pdf-source-figure loading=lazy width="572" height="151" }](../assets/theory-figures/01-oscillations/b1-position-amplitude.png)
+
+*Hình — Li độ, biên độ và chiều dài quỹ đạo là ba đại lượng khác nhau.*
+
+Chọn chiều dương sang phải như cách đánh dấu hai biên: quả cầu đang ở bên trái O nên có $x<0$, còn độ dài đoạn từ O đến quả cầu là $|x|$. Đoạn từ O đến một biên có độ dài $A$; toàn bộ quỹ đạo có độ dài $L=2A$. Nét đứt phía trên mô tả một lượt đi và về trong chu kì $T$, không phải một đoạn quỹ đạo mới. Chỉ nhìn vị trí quả cầu chưa thể biết nó đang đi sang trái hay sang phải.
+<!-- /ch1-source-figure: b1-position-amplitude -->
 
 ### Ví dụ
 
@@ -254,12 +255,13 @@ $$
 
 ta thấy cùng một biên độ nhưng pha khác nhau có thể cho vị trí khác nhau.
 
-![Đường tròn bán kính A với điểm M, góc pha Phi và hình chiếu P lên trục Ox có tọa độ x](../assets/theory-figures/01-oscillations/b1-circle-projection.svg){ loading=lazy }
+<!-- ch1-source-figure: b1-circle-projection -->
+[![Bán kính quay ngược chiều kim đồng hồ từ M0 đến M; hình chiếu của M0 được nối bằng nét đứt xuống vật gắn lò xo.](../assets/theory-figures/01-oscillations/b1-circle-projection.png){ .pdf-source-figure loading=lazy width="349" height="322" }](../assets/theory-figures/01-oscillations/b1-circle-projection.png)
 
-*Hình — Hình chiếu của chuyển động tròn đều lên trục $Ox$ cho thấy nguồn gốc hình học của công thức $x=A\cos\Phi$.*
+*Hình — Pha là góc của bán kính quay, còn li độ là hình chiếu lên trục dao động.*
 
-!!! tip "Đọc hình"
-    Bán kính $OM$ đóng vai trò biên độ $A$; góc quay của $OM$ là pha $\Phi$; hình chiếu $P$ có tọa độ $OP=x$. Khi $M$ quay đều một vòng $2\pi$, điểm $P$ thực hiện đúng một dao động toàn phần, tương ứng một chu kì $T$.
+Trong hình, bán kính có độ dài $A$; $M_0$ biểu diễn thời điểm ban đầu với góc $\varphi$. Nét đứt từ $M_0$ xuống vật $m$ cho thấy phép chiếu ở thời điểm ấy. Sau thời gian $t$, bán kính đến M và quét thêm góc $\omega t$, nên góc tổng là $\Phi=\varphi+\omega t$ và hình chiếu có tọa độ $x=A\cos\Phi$. Một vòng quay làm pha tăng $2\pi$ và đưa vật trở lại cùng trạng thái.
+<!-- /ch1-source-figure: b1-circle-projection -->
 
 ### Tính tuần hoàn của pha
 
@@ -356,12 +358,13 @@ $$
 
 đồ thị $x$ theo $t$ là một đường hình sin.
 
-![Đồ thị li độ theo thời gian với các mức cộng A, O, trừ A và một chu kì T giữa hai đỉnh liên tiếp](../assets/theory-figures/01-oscillations/b1-displacement-time.svg){ loading=lazy }
+<!-- ch1-source-figure: b1-spring-time-sequence -->
+[![Các trạng thái liên tiếp của một con lắc lò xo treo đứng tạo thành đường li độ theo thời gian, có đánh dấu A và T.](../assets/theory-figures/01-oscillations/b1-spring-time-sequence.png){ .pdf-source-figure loading=lazy width="640" height="401" }](../assets/theory-figures/01-oscillations/b1-spring-time-sequence.png)
 
-*Hình — Biên độ được đọc theo phương li độ, còn chu kì được đọc theo phương thời gian giữa hai trạng thái lặp lại.*
+*Hình — Đọc biên độ theo trục li độ, đọc chu kì theo trục thời gian.*
 
-!!! tip "Đọc hình"
-    Hai đỉnh liên tiếp cách nhau đúng $T$. Hai lần liên tiếp đi qua $x=0$ chỉ cách nhau $T/2$ và có chiều chuyển động trái nhau, nên chưa phải cùng trạng thái. Khi đọc $T$ trên đồ thị, hãy chọn hai điểm lặp lại cả **vị trí lẫn chiều chuyển động**.
+Các lò xo vẽ nối tiếp là những ảnh chụp của cùng một hệ ở các thời điểm khác nhau, không phải nhiều vật đang dao động đồng thời. Hình này chọn chiều dương của li độ hướng lên; khoảng cách theo phương đứng từ đường qua O đến một đỉnh là $A$. Hai đáy liên tiếp cách nhau $T$ và lặp lại cùng trạng thái. Hai lần liên tiếp qua O chỉ cách nhau $T/2$ vì chiều chuyển động khi đi qua O đã đổi.
+<!-- /ch1-source-figure: b1-spring-time-sequence -->
 
 ### Đọc biên độ
 
@@ -432,6 +435,14 @@ Mỗi khi thời gian tăng thêm một chu kì $T$, pha tăng thêm $\omega T=2
 Điều này giải thích vì sao phương pháp đường tròn lượng giác rất hữu ích. Ta sẽ học riêng phương pháp đó ở Bài 3.
 
 ---
+
+<!-- ch1-source-figure: b1-phase-delay -->
+[![Hai đường li độ có cùng biên độ và chu kì nhưng dịch nhau theo thời gian; mũi tên delta t nối hai lần qua vị trí cân bằng cùng chiều.](../assets/theory-figures/01-oscillations/b1-phase-delay.png){ .pdf-source-figure loading=lazy width="640" height="296" }](../assets/theory-figures/01-oscillations/b1-phase-delay.png)
+
+*Hình — Cùng biên độ và chu kì không có nghĩa là cùng pha.*
+
+Hai đường đạt cùng độ cao cực đại và có cùng khoảng lặp $T$, nhưng các đỉnh không xảy ra cùng lúc. Đường đỏ đạt đỉnh trước đường xanh nên sớm pha hơn. Mũi tên $\Delta t$ trong hình nối hai lần qua O cùng chiều; độ lệch pha tương ứng có độ lớn $\omega\Delta t=2\pi\Delta t/T$. Không đo độ lệch pha bằng khoảng cách thẳng đứng giữa hai đường.
+<!-- /ch1-source-figure: b1-phase-delay -->
 
 ## 15. Phân dạng cơ bản
 

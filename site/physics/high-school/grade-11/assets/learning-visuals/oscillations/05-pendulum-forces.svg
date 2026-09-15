@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 410" font-family="Inter, Arial, sans-serif" role="img" aria-label="Sơ đồ lực con lắc đơn gồm lực căng trọng lực và thành phần tiếp tuyến hướng về vị trí cân bằng">
+<title>Sơ đồ lực con lắc đơn gồm lực căng trọng lực và thành phần tiếp tuyến hướng về vị trí cân bằng</title>
+<defs>
+  <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L8,4 L0,8 z" fill="context-stroke"/></marker>
+  <marker id="arrowStart" markerWidth="8" markerHeight="8" refX="1" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M8,0 L0,4 L8,8 z" fill="context-stroke"/></marker>
+</defs>
+<rect x="1" y="1" width="718" height="408" rx="18" fill="#ffffff" stroke="#e5e7eb"/>
+<text x="360" y="34" text-anchor="middle" font-size="23" font-weight="700" fill="#18212f" >Phân tích lực: thành phần tiếp tuyến kéo vật về VTCB</text>
+<line x1="235" y1="55" x2="365" y2="55" stroke="#18212f" stroke-width="6" stroke-linecap="round" opacity="1" />
+<circle cx="300" cy="70" r="6" fill="#18212f" stroke="#18212f" stroke-width="1" opacity="1"/>
+<line x1="300" y1="70" x2="407.5" y2="256.19546181365433" stroke="#18212f" stroke-width="4" stroke-linecap="round" opacity="1" />
+<circle cx="407.5" cy="256.19546181365433" r="16" fill="#2563eb" stroke="#2563eb" stroke-width="2" opacity="1"/>
+<line x1="407.5" y1="256.19546181365433" x2="355.0" y2="165.26279441628827" stroke="#0891b2" stroke-width="4" stroke-linecap="round" opacity="1" marker-end="url(#arrow)"/>
+<text x="348.5" y="154.0044641670906" text-anchor="middle" font-size="20" font-weight="700" fill="#0891b2" >T</text>
+<line x1="407.5" y1="256.19546181365433" x2="407.5" y2="376.19546181365433" stroke="#d97706" stroke-width="4" stroke-linecap="round" opacity="1" marker-end="url(#arrow)"/>
+<text x="425.5" y="361.19546181365433" text-anchor="start" font-size="18" font-weight="700" fill="#d97706" >P=mg</text>
+<line x1="407.5" y1="256.19546181365433" x2="325.2275866404783" y2="303.69546181365433" stroke="#059669" stroke-width="5" stroke-linecap="round" opacity="1" marker-end="url(#arrow)"/>
+<text x="312.2372055837117" y="311.19546181365433" text-anchor="end" font-size="18" font-weight="700" fill="#059669" >−mg sin α</text>
+<rect x="470" y="100" width="205" height="190" rx="12" fill="#f8fafc" stroke="#e5e7eb" stroke-width="2"/>
+<text x="572" y="135" text-anchor="middle" font-size="20" font-weight="700" fill="#18212f" >Theo tiếp tuyến</text>
+<text x="490" y="175" text-anchor="start" font-size="17" font-weight="700" fill="#059669" >F_kéo về = −mg sin α</text>
+<text x="490" y="210" text-anchor="start" font-size="17" font-weight="500" fill="#18212f" >Góc nhỏ:</text>
+<text x="490" y="242" text-anchor="start" font-size="18" font-weight="700" fill="#7c3aed" >sin α ≈ α</text>
+<text x="490" y="270" text-anchor="start" font-size="16" font-weight="500" fill="#6b7280" >⇒ dao động gần điều hòa</text>
+
+</svg>

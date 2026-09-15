@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 410" font-family="Inter, Arial, sans-serif" role="img" aria-label="Đường tròn pha minh họa góc quét đúng theo chiều tăng pha để tìm thời gian ngắn nhất">
+<title>Đường tròn pha minh họa góc quét đúng theo chiều tăng pha để tìm thời gian ngắn nhất</title>
+<defs>
+  <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L8,4 L0,8 z" fill="context-stroke"/></marker>
+  <marker id="arrowStart" markerWidth="8" markerHeight="8" refX="1" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M8,0 L0,4 L8,8 z" fill="context-stroke"/></marker>
+</defs>
+<rect x="1" y="1" width="718" height="408" rx="18" fill="#ffffff" stroke="#e5e7eb"/>
+<text x="360" y="34" text-anchor="middle" font-size="23" font-weight="700" fill="#18212f" >Thời gian ngắn nhất: đo cung theo chiều tăng pha</text>
+<circle cx="285" cy="215" r="125" fill="#fbfdff" stroke="#18212f" stroke-width="3" opacity="1"/>
+<line x1="135" y1="215" x2="460" y2="215" stroke="#d1d5db" stroke-width="2" stroke-linecap="round" opacity="1" />
+<line x1="285" y1="215" x2="393.2531754730548" y2="277.50000000000006" stroke="#d97706" stroke-width="3" stroke-linecap="round" opacity="1" />
+<circle cx="393.2531754730548" cy="277.50000000000006" r="8" fill="#d97706" stroke="#d97706" stroke-width="1" opacity="1"/>
+<text x="407.2531754730548" y="302.50000000000006" text-anchor="start" font-size="20" font-weight="700" fill="#d97706" >Φ₁</text>
+<line x1="285" y1="215" x2="347.5" y2="106.74682452694518" stroke="#2563eb" stroke-width="3" stroke-linecap="round" opacity="1" />
+<circle cx="347.5" cy="106.74682452694518" r="8" fill="#2563eb" stroke="#2563eb" stroke-width="1" opacity="1"/>
+<text x="361.5" y="96.74682452694518" text-anchor="start" font-size="20" font-weight="700" fill="#2563eb" >Φ₂</text>
+<path d="M 393.3 277.5 A 143 143 0 0 0 347.5 106.7" fill="none" stroke="#7c3aed" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="290" y="72" text-anchor="middle" font-size="21" font-weight="700" fill="#7c3aed" >ΔΦ = π/2</text>
+<rect x="485" y="95" width="190" height="230" rx="12" fill="#f8fafc" stroke="#e5e7eb" stroke-width="2"/>
+<text x="580" y="130" text-anchor="middle" font-size="20" font-weight="700" fill="#18212f" >Cách đọc</text>
+<text x="505" y="170" text-anchor="start" font-size="17" font-weight="500" fill="#18212f" >1. Chọn đúng trạng thái</text>
+<text x="505" y="200" text-anchor="start" font-size="17" font-weight="500" fill="#18212f" >2. Đi theo chiều tăng pha</text>
+<text x="505" y="230" text-anchor="start" font-size="17" font-weight="500" fill="#18212f" >3. Đo góc quét ΔΦ</text>
+<text x="505" y="270" text-anchor="start" font-size="20" font-weight="700" fill="#7c3aed" >Δt = ΔΦ / ω</text>
+<text x="360" y="384" text-anchor="middle" font-size="18" font-weight="500" fill="#6b7280" >Dễ nhầm: không phải lúc nào cũng lấy |Φ₂ − Φ₁|.</text>
+</svg>

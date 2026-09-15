@@ -1,5 +1,7 @@
 {
   "series": 2,
   "version": 26,
-  "reset_after": "education-hub-v60.zip"
+  "reset_after": "education-hub-v60.zip",
+  "revision": 2,
+  "edition": "original-pdf-crops"
 }

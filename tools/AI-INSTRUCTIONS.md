@@ -113,6 +113,16 @@ Khi crop ảnh từ PDF:
 - **Không tự tạo/redraw ảnh, đồ thị hoặc sơ đồ mới.** Chỉ dùng hình được crop từ chính PDF nguồn, trừ khi người dùng chủ động yêu cầu tạo hình mới.
 - Ảnh phải đủ rõ để đọc trục, ký hiệu, số liệu và chú thích quan trọng.
 
+### 5.1. Quyết định thay bộ hình Chương I — ngày 2026-09-15
+
+- Chủ repository từ chối toàn bộ 26 SVG tự dựng ở v26 và yêu cầu dùng hình crop nguyên bản từ PDF. Với Chương I, không khôi phục các SVG đó hoặc dùng AI tạo lại nét, chữ, số hay dữ liệu.
+- Trước khi crop phải kiểm tra ảnh gốc và các lớp của PDF. Được lấy trực tiếp XObject ảnh gốc sạch khi watermark chỉ là lớp phủ riêng, nhưng phải giữ các lớp chứa ký hiệu khoa học; không bỏ mũi tên, nhãn hoặc dữ kiện được chèn ngoài ảnh nền.
+- Chủ repository cho phép xử lý watermark, nhưng bảo toàn nội dung là điều kiện bắt buộc. Ưu tiên nguồn sạch/lớp ảnh gốc; watermark dính vào nét hoặc chữ không được khôi phục bằng phỏng đoán. AI inpainting không phải yêu cầu bắt buộc khi có cách tách nguồn nguyên bản an toàn hơn.
+- Raster phải giữ độ phân giải thật, PNG không mất dữ liệu; không quảng cáo upscale là làm tăng chi tiết nguồn. Render toàn vùng PDF nếu hình nằm trên nhiều đối tượng.
+- Mỗi crop phải có alt text, lời đọc hình, PDF/trang, tọa độ crop, hash nguồn và hash đầu ra trong `tools/ch1-theory-visual-ledger.json`. Thông tin nguồn không được tạo thành trang tham khảo mới.
+- Chạy thêm `python tools/check_ch1_source_figures.py` khi chỉnh hình hoặc lời dẫn Chương I. Checker hash/link không thay thế review vật lí và trang nguồn.
+- Khi áp dụng source mới lên repo từng dùng v26 cũ, chạy công cụ `retire_ch1_generated_figures.py` từ ZIP mới trước khi copy. Công cụ chỉ xóa đúng 26 SVG bị từ chối nếu hash vẫn khớp; file đã được chỉnh riêng phải dừng để bảo toàn.
+
 ## 6. Quy tắc đáp án và lời giải
 
 Mỗi bài nên có phần mở rộng bằng MkDocs Material, theo mẫu đang dùng:
@@ -204,6 +214,13 @@ education-hub-vN.zip
 - Các ZIP lịch sử `v42`–`v60` (và các checkpoint cũ hơn nếu còn) được giữ làm lịch sử nhưng **không được dùng số N của chúng để chọn version kế tiếp**.
 - Không ghi đè một checkpoint đã tồn tại trong cùng chuỗi hoạt động.
 
+### Ngoại lệ v26 được chủ repository yêu cầu thay thế
+
+- Ngày 2026-09-15, chủ repository chủ động yêu cầu xóa bản v26 có hình tự dựng và làm lại **v26 mới** bằng crop nguồn. Đây là ngoại lệ riêng đã được xác nhận, không phải cho phép ghi đè các version khác.
+- ZIP vẫn tên `education-hub-v26.zip`, marker giữ `series=2`, `version=26` và bổ sung `revision=2`, `edition="original-pdf-crops"`. Bản v26 cũ thiếu revision được hiểu là revision 1 và không được chọn nhầm khi cập nhật.
+- Mẫu Termux bên dưới nhận cả hậu tố bản sao do trình duyệt thêm khi tải, ví dụ `education-hub-v26 (1).zip`, nhưng vẫn xác minh marker và edition. Không đổi tên phát hành thành `-final/-fixed`.
+- Chủ repository đã cho phép phát hành khi runtime không có MkDocs. Các checker khả dụng vẫn phải PASS; strict build phải ghi **UNVERIFIED**, không được chuyển thành PASS. GitHub Actions là nơi cần chạy build/deploy thực tế; không báo đã deploy khi chưa có kết quả.
+
 ### 10.2. Marker chuỗi checkpoint
 
 - Mỗi checkpoint thuộc chuỗi reset phải có `tools/checkpoint-series.json`.
@@ -239,7 +256,7 @@ Nguyên tắc:
 2. Repository làm việc mặc định là `~/EducationHub`.
 3. Trước khi ghi đè source, kiểm tra working tree; nếu có thay đổi chưa commit thì dừng, không dùng `git reset --hard`.
 4. `git fetch` + `git pull --rebase origin main` trước khi áp dụng ZIP mới.
-5. Tự tìm checkpoint thuộc **series mới nhất** bằng `tools/checkpoint-series.json`; trong cùng series chọn version lớn nhất. Không bắt người dùng sửa version thủ công.
+5. Tự tìm checkpoint thuộc **series mới nhất** bằng `tools/checkpoint-series.json`; trong cùng series chọn version rồi revision lớn nhất. Thiếu revision được hiểu là 1. Không bắt người dùng sửa version thủ công.
 6. Kiểm tra ZIP bằng `unzip -t` và chặn archive có path traversal, absolute path hoặc `.git/`.
 7. Giải nén vào thư mục tạm rồi copy vào repository; không commit chính file ZIP.
 8. Xóa `tools/__pycache__` và không commit `*.pyc`.
@@ -247,105 +264,109 @@ Nguyên tắc:
 10. Commit và push lên `main`; sau đó kiểm tra tab Actions.
 11. Nếu Git báo `Author identity unknown`, cấu hình repo-local `user.name`/`user.email` trước khi commit.
 
-### 11.1. Mẫu khối lệnh Termux mặc định
+### 11.1. Mẫu khối lệnh Termux cho v26 thay thế
 
 Khi phù hợp, ưu tiên đưa người dùng **một code block duy nhất** có thể copy-paste. Mẫu hiện hành:
 
 ```bash
 set -euo pipefail
-
 cd "$HOME/EducationHub"
 
-printf '\n== Kiểm tra repository ==\n'
-git status --short
-if ! git diff --quiet || ! git diff --cached --quiet || [ -n "$(git ls-files --others --exclude-standard)" ]; then
-  echo "ERROR: Repository đang có thay đổi chưa commit. Dừng để tránh ghi đè dữ liệu."
+if [ -n "$(git status --porcelain)" ]; then
+  echo "STOP: Working tree has uncommitted changes. Preserve them first."
   git status
   exit 1
 fi
 
-printf '\n== Đồng bộ main ==\n'
 git fetch origin
 git switch main
 git pull --rebase origin main
 
-printf '\n== Tìm checkpoint thuộc series mới nhất ==\n'
-ZIP="$(python - <<'PY_SELECT_ZIP'
+ZIP="$(python - <<'PY'
 from pathlib import Path
 import json, re, zipfile
-
-roots = [Path.home() / "storage/downloads", Path.home() / "EducationHub"]
-candidates = []
-for root in roots:
-    if root.exists():
-        candidates.extend(root.glob("education-hub-v*.zip"))
-
 best = None
-for path in candidates:
-    m = re.fullmatch(r"education-hub-v(\d+)\.zip", path.name)
-    if not m:
-        continue
-    legacy_version = int(m.group(1))
-    series = 1
-    version = legacy_version
-    try:
-        with zipfile.ZipFile(path) as zf:
-            marker = "tools/checkpoint-series.json"
-            if marker in zf.namelist():
-                meta = json.loads(zf.read(marker).decode("utf-8"))
-                series = int(meta["series"])
-                version = int(meta["version"])
-    except Exception:
-        continue
-    key = (series, version, path.stat().st_mtime_ns)
-    if best is None or key > best[0]:
-        best = (key, path)
-
-if best:
-    print(best[1])
-PY_SELECT_ZIP
+for root in [Path.home()/"storage/downloads", Path.home()/"EducationHub"]:
+    for path in root.glob("education-hub-v*.zip"):
+        match = re.fullmatch(r"education-hub-v(\d+)(?:\s*\(\d+\))?\.zip", path.name)
+        if not match:
+            continue
+        try:
+            with zipfile.ZipFile(path) as z:
+                m = json.loads(z.read("tools/checkpoint-series.json"))
+            if int(m["version"]) != int(match[1]):
+                continue
+            key = (int(m["series"]), int(m["version"]), int(m.get("revision", 1)), path.stat().st_mtime_ns)
+            if best is None or key > best[0]:
+                best = (key, path)
+        except (OSError, ValueError, KeyError, zipfile.BadZipFile):
+            continue
+if best is None:
+    raise SystemExit("No valid Education Hub checkpoint in Downloads.")
+print(best[1])
+PY
 )"
 
-if [ -z "${ZIP:-}" ] || [ ! -f "$ZIP" ]; then
-  echo "ERROR: Không tìm thấy checkpoint Education Hub hợp lệ."
-  exit 1
-fi
+python - "$ZIP" <<'PY'
+import json, stat, sys, zipfile
+from pathlib import Path, PurePosixPath
+with zipfile.ZipFile(sys.argv[1]) as z:
+    names = z.namelist()
+    if len(names) != len(set(names)):
+        raise SystemExit("STOP: Duplicate ZIP entries.")
+    for item in z.infolist():
+        name = item.filename
+        p = PurePosixPath(name)
+        if (p.is_absolute() or ".." in p.parts or ".git" in p.parts
+                or "\\" in name or ":" in name
+                or stat.S_ISLNK(item.external_attr >> 16)):
+            raise SystemExit("STOP: Unsafe ZIP path: " + name)
+        target = Path.cwd()/name
+        if any(q.is_symlink() for q in [target, *target.parents]):
+            raise SystemExit("STOP: Destination contains a symlink: " + name)
+    m = json.loads(z.read("tools/checkpoint-series.json"))
+    if m.get("edition") != "original-pdf-crops" or int(m.get("revision", 1)) < 2:
+        raise SystemExit("STOP: This is not the replacement PDF-crop release.")
+    for required in ["README.md", "mkdocs.yml", "tools/retire_ch1_generated_figures.py", "tools/ch1-theory-visual-ledger.json"]:
+        if required not in names:
+            raise SystemExit("STOP: Incomplete source ZIP.")
+print("Verified:", sys.argv[1], "revision", m["revision"])
+PY
+unzip -t "$ZIP" | tail -n 2
 
-echo "ZIP: $ZIP"
-unzip -t "$ZIP"
-if unzip -Z1 "$ZIP" | grep -Eq '(^/|(^|/)\.\.(/|$)|^\.git(/|$))'; then
-  echo "ERROR: ZIP chứa đường dẫn không an toàn hoặc chứa .git/."
-  exit 1
-fi
-
-printf '\n== Áp dụng source mới ==\n'
 TMP="$(mktemp -d)"
 trap 'rm -rf "$TMP"' EXIT
 unzip -q "$ZIP" -d "$TMP"
-rsync -a --exclude='.git/' "$TMP"/ "$HOME/EducationHub"/
-rm -rf tools/__pycache__
+python "$TMP/tools/retire_ch1_generated_figures.py" --root "$PWD" --apply
+rsync -a --exclude='.git/' "$TMP"/ ./
 
+python tools/check_practice_bank.py
+python tools/check_pdf_import.py
+python tools/check_solution_quality.py
+python tools/check_ch1_source_figures.py
+if python -c 'import yaml' >/dev/null 2>&1; then
+  python tools/check_site.py --lint-only
+else
+  echo "Source lint deferred: PyYAML unavailable here; GitHub Actions will run it."
+fi
+if command -v mkdocs >/dev/null 2>&1; then
+  mkdocs build --strict
+else
+  echo "MkDocs local build: UNVERIFIED. GitHub Actions remains the build gate."
+fi
+
+rm -f "$ZIP"
+rm -rf tools/__pycache__
 touch .gitignore
 grep -qxF '__pycache__/' .gitignore || echo '__pycache__/' >> .gitignore
 grep -qxF '*.py[cod]' .gitignore || echo '*.py[cod]' >> .gitignore
-
-printf '\n== Git identity ==\n'
-git config user.name "runover90s-arch"
-git config user.email "266472043+runover90s-arch@users.noreply.github.com"
-
-printf '\n== Thay đổi sẽ commit ==\n'
+git config user.name >/dev/null || git config user.name "runover90s-arch"
+git config user.email >/dev/null || git config user.email "266472043+runover90s-arch@users.noreply.github.com"
 git add -A
-git status --short
-
-if git diff --cached --quiet; then
-  echo "Không có thay đổi mới để commit."
-else
-  VERSION="$(basename "$ZIP" .zip)"
-  git commit -m "Update ${VERSION}"
+if ! git diff --cached --quiet; then
+  git commit -m "Replace rejected Chapter I visuals with original PDF crops"
   git push origin main
 fi
-
-printf '\n== Hoàn tất ==\n'
 git status
 ```
 

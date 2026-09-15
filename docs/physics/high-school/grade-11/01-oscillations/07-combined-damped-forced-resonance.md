@@ -77,6 +77,22 @@ $$
 - Ngược pha: $\Delta\varphi=(2k+1)\pi$ → $A=|A_1-A_2|$.
 - Vuông pha: $\Delta\varphi=(2k+1)\pi/2$ → $A=\sqrt{A_1^2+A_2^2}$.
 
+<!-- ch1-source-figure: b7-in-phase -->
+[![Hai đường li độ có biên độ khác nhau nhưng cùng đạt đỉnh, đáy và đi qua không ở những thời điểm trùng nhau.](../assets/theory-figures/01-oscillations/b7-in-phase.png){ .pdf-source-figure loading=lazy width="261" height="137" }](../assets/theory-figures/01-oscillations/b7-in-phase.png)
+
+*Hình — Cùng pha: các li độ cùng tăng cường nhau ở mọi thời điểm.*
+
+Hai đường trong hình cùng đạt đỉnh và cùng qua O theo một chiều, dù biên độ khác nhau. Tại thời điểm đạt đỉnh dương, hai li độ cộng thành $A_1+A_2$, nên biên độ tổng hợp đạt giá trị lớn nhất. Hình chỉ vẽ hai dao động thành phần; không có một đường thứ ba được ngầm coi là dao động tổng hợp.
+<!-- /ch1-source-figure: b7-in-phase -->
+
+<!-- ch1-source-figure: b7-antiphase -->
+[![Khi một đường li độ đạt đỉnh dương thì đường còn lại đạt đáy âm; hai đường qua không cùng lúc nhưng theo hai chiều ngược nhau.](../assets/theory-figures/01-oscillations/b7-antiphase.png){ .pdf-source-figure loading=lazy width="253" height="137" }](../assets/theory-figures/01-oscillations/b7-antiphase.png)
+
+*Hình — Ngược pha: các li độ trái dấu nên triệt bớt nhau khi cộng.*
+
+Đỉnh dương của đường này trùng thời điểm đáy âm của đường kia. Vì các li độ đối dấu, biên độ tổng hợp bằng $|A_1-A_2|$, không phải tổng hai biên độ. Hai đường trong hình có độ cao khác nhau nên chỉ triệt bớt; chỉ khi $A_1=A_2$ mới triệt tiêu hoàn toàn.
+<!-- /ch1-source-figure: b7-antiphase -->
+
 ## 3. Pha của dao động tổng hợp
 
 Ta có thể dùng phương pháp vectơ quay hoặc khai triển lượng giác:
@@ -103,20 +119,6 @@ nhưng khi dùng arctan phải xác định đúng góc phần tư từ dấu c�
 
 Mỗi dao động được biểu diễn bằng một vectơ có độ dài $A_i$ và góc pha $\varphi_i$. Tổng hình học của hai vectơ là vectơ đại diện cho dao động tổng hợp.
 
-![Giản đồ hai vectơ biên độ và vectơ tổng với góc lệch pha](../assets/theory-figures/01-oscillations/b7-vector-sum.svg){ loading=lazy }
-
-*Hình — $\vec A_1$ và $\vec A_2$ tạo góc $\Delta\varphi$; đường chéo của hình bình hành là vectơ $\vec A$ biểu diễn dao động tổng hợp.*
-
-!!! tip "Đọc hình"
-    Khi giữ $A_1,A_2$ không đổi và chỉ thay $\Delta\varphi$, độ dài đường chéo $A$ thay đổi. Bất đẳng thức tam giác cho ngay $|A_1-A_2|\le A\le A_1+A_2$: cùng hướng làm $A$ lớn nhất, ngược hướng làm hai vectơ triệt bớt nhau.
-
-![Ba trường hợp cùng pha, vuông pha và ngược pha trong phép cộng vectơ](../assets/theory-figures/01-oscillations/b7-vector-special-cases.svg){ loading=lazy }
-
-*Hình — Ba trường hợp đặc biệt biến công thức tổng quát thành phép cộng độ dài, định lí Pythagore hoặc phép lấy hiệu độ dài.*
-
-!!! tip "Đọc hình"
-    Cùng pha: hai vectơ nối tiếp cùng hướng nên $A=A_1+A_2$. Vuông pha: hai vectơ vuông góc nên $A^2=A_1^2+A_2^2$. Ngược pha: chúng ngược hướng nên $A=|A_1-A_2|$ và có thể triệt tiêu hoàn toàn nếu $A_1=A_2$.
-
 Phương pháp này giúp nhìn trực tiếp:
 
 - vì sao biên độ phụ thuộc độ lệch pha;
@@ -137,12 +139,13 @@ Ví dụ: con lắc lò xo không ma sát sau khi kéo lệch rồi thả.
 
 Dao động tắt dần là dao động có biên độ giảm dần theo thời gian do lực cản hoặc ma sát làm cơ năng cơ học giảm.
 
-![Đồ thị dao động tắt dần còn qua vị trí cân bằng và trường hợp cản rất lớn trở về không dao động qua lại](../assets/theory-figures/01-oscillations/b7-damped-oscillation.svg){ loading=lazy }
+<!-- ch1-source-figure: b7-damped-oscillation -->
+[![Li độ dao động qua hai phía của O với các đỉnh thấp dần, nằm trong hai đường bao nét đứt thu hẹp theo thời gian.](../assets/theory-figures/01-oscillations/b7-damped-oscillation.png){ .pdf-source-figure loading=lazy width="398" height="241" }](../assets/theory-figures/01-oscillations/b7-damped-oscillation.png)
 
-*Hình — Ở chế độ còn dao động qua lại, đường bao biên độ co dần theo thời gian; với cản rất lớn, hệ có thể trở về VTCB mà không tiếp tục đổi phía.*
+*Hình — Đường bao thu hẹp cho thấy biên độ giảm, không chỉ li độ đang giảm trong một nửa chu kì.*
 
-!!! tip "Đọc hình"
-    Đường bao giảm cho thấy biên độ và cơ năng bị mất dần do lực cản. Đường sin co nhỏ ở phần trên chỉ mô tả trường hợp hệ vẫn còn qua lại VTCB; nó không phải hình dạng bắt buộc của mọi hệ tắt dần. Phần dưới nhắc rằng cản đủ lớn có thể làm vật trở về cân bằng mà không dao động qua lại.
+Hãy so các đỉnh liên tiếp ở cùng một phía của O: chúng thấp dần theo thời gian. Hai đường nét đứt là đường bao biên độ, không phải hai quỹ đạo khác của vật. Lực cản làm cơ năng cơ học giảm nên biên độ suy giảm. Đây là chế độ vẫn còn dao động qua lại; không suy rộng hình này cho mọi mức cản.
+<!-- /ch1-source-figure: b7-damped-oscillation -->
 
 ### Đặc điểm
 
@@ -150,6 +153,15 @@ Dao động tắt dần là dao động có biên độ giảm dần theo thời
 - cơ năng giảm dần;
 - phần năng lượng cơ học mất đi chuyển thành nội năng/nhiệt hoặc các dạng khác;
 - trong chế độ hệ vẫn còn dao động qua lại, lực cản lớn hơn thường làm biên độ suy giảm nhanh hơn. Nếu lực cản đủ lớn, hệ có thể trở về vị trí cân bằng mà không còn dao động qua lại, nên không dùng nhận xét này như một quy luật tuyệt đối cho mọi mức cản.
+
+<!-- ch1-source-figure: b7-damping-regimes -->
+??? note "Đọc thêm: cản lớn có thể làm mất chuyển động qua lại"
+    [![Ba đường trở về cân bằng: tắt dần dưới hạn còn cắt trục, còn đường tới hạn và vượt hạn trong hình tiến về O mà không qua lại hai phía.](../assets/theory-figures/01-oscillations/b7-damping-regimes.png){ .pdf-source-figure loading=lazy width="504" height="350" }](../assets/theory-figures/01-oscillations/b7-damping-regimes.png)
+
+    *Hình — Trở về cân bằng không đồng nghĩa với việc còn dao động qua lại.*
+
+    Đường đỏ dưới hạn còn nhiều lần đi qua O. Hai đường tới hạn và vượt hạn được vẽ trong hình tiến về O mà không luân phiên qua hai phía. So sánh này giải thích vì sao không thể nói “càng tăng lực cản thì vật càng dao động qua lại nhanh hơn rồi tắt”; cơ chế trở về cân bằng còn phụ thuộc chế độ giảm chấn.
+<!-- /ch1-source-figure: b7-damping-regimes -->
 
 ### Có phải mọi dao động tắt dần đều xấu?
 
@@ -170,6 +182,14 @@ F=F_0\cos(\omega_Ft+\phi_F).
 $$
 
 Sau giai đoạn quá độ, hệ đi vào trạng thái ổn định.
+
+<!-- ch1-source-figure: b7-forced-transient -->
+[![Đồ thị li độ của dao động cưỡng bức phân biệt giai đoạn chuyển tiếp có biên độ thay đổi và giai đoạn ổn định có biên độ không đổi.](../assets/theory-figures/01-oscillations/b7-forced-transient.png){ .pdf-source-figure loading=lazy width="498" height="127" }](../assets/theory-figures/01-oscillations/b7-forced-transient.png)
+
+*Hình — Chỉ sau giai đoạn chuyển tiếp mới đọc đặc điểm của dao động cưỡng bức ổn định.*
+
+Ở phần bên trái, các đỉnh chưa có độ cao ổn định; phần bên phải đã lặp lại đều với biên độ gần như không đổi. Hình minh họa một quá trình tiến tới ổn định, không phải quy luật rằng mọi dao động cưỡng bức đều tăng biên độ đúng như đường này. Ở giai đoạn ổn định, nhịp dao động theo ngoại lực tuần hoàn, không mặc nhiên bằng tần số riêng của hệ.
+<!-- /ch1-source-figure: b7-forced-transient -->
 
 ### Ở trạng thái ổn định
 
@@ -194,6 +214,14 @@ $$
 
 hay $\omega_F=\omega_0$. Với mô hình có giảm chấn xét chính xác, tần số làm biên độ li độ cực đại có thể lệch nhẹ so với tần số riêng; khi lực cản nhỏ, độ lệch này nhỏ.
 
+<!-- ch1-source-figure: b7-resonance-pendulums -->
+[![Con lắc điều khiển M và bốn con lắc có chiều dài khác nhau được treo trên cùng một dây ngang nối hai giá.](../assets/theory-figures/01-oscillations/b7-resonance-pendulums.png){ .pdf-source-figure loading=lazy width="267" height="192" }](../assets/theory-figures/01-oscillations/b7-resonance-pendulums.png)
+
+*Hình — Các con lắc nhận cùng một kích thích nhưng không nhất thiết đáp ứng mạnh như nhau.*
+
+Kích thích con lắc M làm dây treo chung truyền tác động tuần hoàn đến các con lắc còn lại. Trong chế độ góc nhỏ và cản nhỏ, con lắc có chiều dài gần bằng M có tần số riêng gần nhịp kích thích nên đáp ứng mạnh hơn. Khi so sánh, đo chiều dài từng dây từ điểm treo của nó đến quả nặng, không so độ cao của các quả nặng so với mặt đất: dây treo chung trong hình không nằm ngang hoàn toàn.
+<!-- /ch1-source-figure: b7-resonance-pendulums -->
+
 ## 10. Ảnh hưởng của lực cản đến cộng hưởng
 
 Nếu lực cản nhỏ:
@@ -208,12 +236,13 @@ Nếu lực cản lớn:
 - đường cong rộng hơn;
 - cộng hưởng kém rõ.
 
-![Hai đường cong cộng hưởng với mức lực cản khác nhau](../assets/theory-figures/01-oscillations/b7-resonance-curves.svg){ loading=lazy }
+<!-- ch1-source-figure: b7-resonance-curves -->
+[![Các đường biên độ theo tần số cưỡng bức đạt đỉnh gần f0; lực cản nhỏ cho đỉnh cao và hẹp, lực cản lớn cho đỉnh thấp hơn.](../assets/theory-figures/01-oscillations/b7-resonance-curves.png){ .pdf-source-figure loading=lazy width="389" height="309" }](../assets/theory-figures/01-oscillations/b7-resonance-curves.png)
 
-*Hình — Với cùng kiểu kích thích, lực cản nhỏ tạo đỉnh cộng hưởng cao và hẹp; lực cản lớn hơn làm đỉnh thấp và rộng.*
+*Hình — Cộng hưởng là đỉnh của đường biên độ theo tần số, không phải biên độ cứ tăng khi tần số tăng.*
 
-!!! tip "Đọc hình"
-    Trục ngang là tỉ số giữa tần số lực cưỡng bức và tần số riêng. Biên độ ổn định tăng mạnh khi hai tần số **gần nhau**, rồi lại giảm khi đi xa vùng cộng hưởng; vì vậy "tần số ngoại lực càng lớn thì biên độ càng lớn" là sai. Trong mô hình phổ thông với lực cản nhỏ thường lấy $f_F\approx f_0$ tại cộng hưởng.
+Trục ngang là tần số lực cưỡng bức, không phải thời gian; trục đứng là biên độ ổn định. Đi từ hai phía về vùng $f_0$, biên độ tăng rồi giảm khi đi qua vùng cộng hưởng. Đường có lực cản nhỏ cao và nhọn hơn, còn lực cản lớn làm đỉnh thấp và kém rõ. Hình gốc dùng cách biểu diễn định tính phổ thông với đỉnh tại $f_0$; không dùng nó để đọc độ dịch chính xác của đỉnh khi xét mô hình giảm chấn chi tiết.
+<!-- /ch1-source-figure: b7-resonance-curves -->
 
 ## 11. Ứng dụng và nguy cơ của cộng hưởng
 

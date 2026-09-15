@@ -12933,6 +12933,12 @@ s=s_0\cos(\omega t+\varphi),
 <div class="arithmatex">\[
 \alpha=\alpha_0\cos(\omega t+\varphi).
 \]</div>
+<!-- ch1-source-figure: b5-pendulum-geometry -->
+<p><a href="../../assets/theory-figures/01-oscillations/b5-pendulum-geometry.png"><img alt="Con lắc đơn có dây dài l, góc lệch alpha, điểm M trên cung, vị trí cân bằng O và hai biên được ghi cộng trừ S0." class="pdf-source-figure" height="178" loading="lazy" src="../../assets/theory-figures/01-oscillations/b5-pendulum-geometry.png" width="268" /></a></p>
+<p><em>Hình — Li độ dài được đo dọc theo cung tròn, không phải theo đường thẳng nối hai điểm.</em></p>
+<p>Từ vị trí thấp nhất O đến M, cung có li độ <span class="arithmatex">\(s\)</span> và dây lệch góc <span class="arithmatex">\(\alpha\)</span> so với phương thẳng đứng. Chiều dài dây <span class="arithmatex">\(\ell\)</span> là bán kính cung nên <span class="arithmatex">\(s=\ell\alpha\)</span> khi góc tính bằng radian. Kí hiệu <span class="arithmatex">\(S_0\)</span> trên hình tương ứng với biên độ dài <span class="arithmatex">\(s_0\)</span> trong bài. Hình học cung tròn này không thay thế điều kiện góc nhỏ khi dùng mô hình dao động điều hòa.</p>
+<!-- /ch1-source-figure: b5-pendulum-geometry -->
+
 <div class="admonition warning">
 <p class="admonition-title">Đơn vị</p>
 <p>Khi dùng <span class="arithmatex">\(s=\ell\alpha\)</span>, góc <span class="arithmatex">\(\alpha\)</span> phải ở radian. Không thay trực tiếp số đo độ vào công thức.</p>
@@ -13006,6 +13012,12 @@ F_{kv}=-mg\sin\alpha.
 F_{kv}\approx-mg\alpha=-\frac{mg}{\ell}s,
 \]</div>
 <p>và độ lớn là <span class="arithmatex">\(|F_{kv}|\approx mg|\alpha|=\dfrac{mg}{\ell}|s|\)</span>.</p>
+<!-- ch1-source-figure: b5-pendulum-forces -->
+<p><a href="../../assets/theory-figures/01-oscillations/b5-pendulum-forces.png"><img alt="Tại quả nặng B, trọng lực P hướng xuống, lực căng T hướng dọc dây về điểm treo; trọng lực được phân tích thành Pt và Pn." class="pdf-source-figure" height="237" loading="lazy" src="../../assets/theory-figures/01-oscillations/b5-pendulum-forces.png" width="236" /></a></p>
+<p><em>Hình — Phân biệt phương tiếp tuyến kéo vật về O với phương bán kính dùng để tính lực căng.</em></p>
+<p><span class="arithmatex">\(\vec P_t\)</span> nằm theo tiếp tuyến và hướng về phía vị trí thấp nhất, nên thành phần này tạo lực kéo về. <span class="arithmatex">\(\vec P_n\)</span> nằm theo phương dây; hai thành phần này hợp thành <span class="arithmatex">\(\vec P\)</span>, không phải hai lực mới cộng thêm vào trọng lực. Mũi tên <span class="arithmatex">\(\vec T\)</span> là lực căng dây, có độ lớn được kí hiệu <span class="arithmatex">\(F_c\)</span> trong bài, không phải chu kì <span class="arithmatex">\(T\)</span>. Lực căng không có thành phần tiếp tuyến, còn theo phương bán kính phải xét cả lực căng, <span class="arithmatex">\(mg\cos\alpha\)</span> và gia tốc hướng tâm.</p>
+<!-- /ch1-source-figure: b5-pendulum-forces -->
+
 <h2 id="9-luc-cang-day">9. Lực căng dây</h2>
 <p>Gọi <span class="arithmatex">\(F_c\)</span> là độ lớn lực căng dây. Khi dây còn căng, theo phương bán kính hướng vào điểm treo:</p>
 <div class="arithmatex">\[
@@ -13067,6 +13079,12 @@ a=\frac{4\pi^2}{g}.
 <li>cơ năng vẫn có thể bảo toàn nếu bỏ qua ma sát và va chạm không gây mất năng lượng đáng kể.</li>
 </ul>
 <p>Bài loại này nên chia chuyển động thành từng cung có chiều dài con lắc hiệu dụng riêng, tính thời gian trên mỗi cung rồi cộng lại.</p>
+<!-- ch1-source-figure: b5-pendulum-peg -->
+<p><a href="../../assets/theory-figures/01-oscillations/b5-pendulum-peg.png"><img alt="Dây con lắc bị chặn bởi đinh trên đường thẳng đứng, tạo hai bán kính quỹ đạo l1 và l2 ở hai phía của O." class="pdf-source-figure" height="335" loading="lazy" src="../../assets/theory-figures/01-oscillations/b5-pendulum-peg.png" width="283" /></a></p>
+<p><em>Hình — Vướng đinh làm đổi tâm quay và bán kính quỹ đạo ở một phía.</em></p>
+<p>Chấm đen trên đường thẳng đứng biểu diễn đinh, không phải một quả nặng thứ hai. Ở phía chưa vướng, bán kính là <span class="arithmatex">\(\ell_1\)</span>; ở phía dây ôm qua đinh, phần dây còn hoạt động có chiều dài <span class="arithmatex">\(\ell_2\)</span>. Vì hai phần chuyển động có chiều dài hiệu dụng khác nhau, phải tính thời gian từng phần rồi cộng, không dùng một chu kì duy nhất cho cả hai cung.</p>
+<!-- /ch1-source-figure: b5-pendulum-peg -->
+
 <h2 id="vi-du-1-tim-chieu-dai-tu-chu-ki">Ví dụ 1 — Tìm chiều dài từ chu kì</h2>
 <p>Con lắc có <span class="arithmatex">\(T=2\,\mathrm s\)</span> tại nơi <span class="arithmatex">\(g=\pi^2\,\mathrm{m/s^2}\)</span>.</p>
 <p>Từ <span class="arithmatex">\(T=2\pi\sqrt{\ell/g}\)</span>:</p>

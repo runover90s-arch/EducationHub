@@ -31,13 +31,6 @@ Con lắc đơn gồm vật nhỏ khối lượng $m$ treo bằng sợi dây nh�
 
 Vị trí cân bằng là vị trí dây thẳng đứng, vật ở thấp nhất.
 
-![Hình học con lắc đơn với chiều dài dây, góc lệch và cung li độ](../assets/theory-figures/01-oscillations/b5-pendulum-geometry.svg){ loading=lazy }
-
-*Hình — Góc lệch $\alpha$ được đo từ phương thẳng đứng, còn li độ dài $s$ được đo dọc theo cung chuyển động của vật.*
-
-!!! tip "Đọc hình"
-    Dây có chiều dài $\ell$ nên cung ứng với góc $\alpha$ có độ dài $s=\ell\alpha$ khi $\alpha$ tính bằng radian. VTCB nằm ở điểm thấp nhất của cung; khi vật lệch sang một phía, dấu của $\alpha$ và $s$ cho biết phía lệch theo quy ước đã chọn.
-
 ## 2. Khi nào con lắc đơn dao động điều hòa?
 
 Phương trình chính xác theo góc là phi tuyến. Với góc nhỏ, ta dùng gần đúng
@@ -47,13 +40,6 @@ $$
 $$
 
 khi $\alpha$ tính bằng radian.
-
-![Đồ thị so sánh sin alpha với alpha khi alpha tính bằng radian](../assets/theory-figures/01-oscillations/b5-small-angle.svg){ loading=lazy }
-
-*Hình — Hai đường $y=\sin\alpha$ và $y=\alpha$ gần như trùng nhau quanh $\alpha=0$, nhưng tách dần khi độ lớn góc tăng.*
-
-!!! tip "Đọc hình"
-    Gần VTCB, góc nhỏ làm $\sin\alpha$ gần bằng $\alpha$, nên lực kéo về theo tiếp tuyến gần tỉ lệ với li độ. Đây là bước biến phương trình phi tuyến của con lắc thành mô hình dao động điều hòa; càng ra xa vùng góc nhỏ, phép gần đúng càng kém chính xác.
 
 Trong phạm vi góc nhỏ, thường lấy cỡ dưới khoảng $10^\circ$ trong các bài phổ thông, con lắc được xem gần đúng là dao động điều hòa.
 
@@ -109,6 +95,14 @@ hoặc
 $$
 \alpha=\alpha_0\cos(\omega t+\varphi).
 $$
+
+<!-- ch1-source-figure: b5-pendulum-geometry -->
+[![Con lắc đơn có dây dài l, góc lệch alpha, điểm M trên cung, vị trí cân bằng O và hai biên được ghi cộng trừ S0.](../assets/theory-figures/01-oscillations/b5-pendulum-geometry.png){ .pdf-source-figure loading=lazy width="268" height="178" }](../assets/theory-figures/01-oscillations/b5-pendulum-geometry.png)
+
+*Hình — Li độ dài được đo dọc theo cung tròn, không phải theo đường thẳng nối hai điểm.*
+
+Từ vị trí thấp nhất O đến M, cung có li độ $s$ và dây lệch góc $\alpha$ so với phương thẳng đứng. Chiều dài dây $\ell$ là bán kính cung nên $s=\ell\alpha$ khi góc tính bằng radian. Kí hiệu $S_0$ trên hình tương ứng với biên độ dài $s_0$ trong bài. Hình học cung tròn này không thay thế điều kiện góc nhỏ khi dùng mô hình dao động điều hòa.
+<!-- /ch1-source-figure: b5-pendulum-geometry -->
 
 !!! warning "Đơn vị"
     Khi dùng $s=\ell\alpha$, góc $\alpha$ phải ở radian. Không thay trực tiếp số đo độ vào công thức.
@@ -220,16 +214,17 @@ $$
 
 và độ lớn là $|F_{kv}|\approx mg|\alpha|=\dfrac{mg}{\ell}|s|$.
 
+<!-- ch1-source-figure: b5-pendulum-forces -->
+[![Tại quả nặng B, trọng lực P hướng xuống, lực căng T hướng dọc dây về điểm treo; trọng lực được phân tích thành Pt và Pn.](../assets/theory-figures/01-oscillations/b5-pendulum-forces.png){ .pdf-source-figure loading=lazy width="236" height="237" }](../assets/theory-figures/01-oscillations/b5-pendulum-forces.png)
+
+*Hình — Phân biệt phương tiếp tuyến kéo vật về O với phương bán kính dùng để tính lực căng.*
+
+$\vec P_t$ nằm theo tiếp tuyến và hướng về phía vị trí thấp nhất, nên thành phần này tạo lực kéo về. $\vec P_n$ nằm theo phương dây; hai thành phần này hợp thành $\vec P$, không phải hai lực mới cộng thêm vào trọng lực. Mũi tên $\vec T$ là lực căng dây, có độ lớn được kí hiệu $F_c$ trong bài, không phải chu kì $T$. Lực căng không có thành phần tiếp tuyến, còn theo phương bán kính phải xét cả lực căng, $mg\cos\alpha$ và gia tốc hướng tâm.
+<!-- /ch1-source-figure: b5-pendulum-forces -->
+
 ## 9. Lực căng dây
 
 Gọi $F_c$ là độ lớn lực căng dây. Khi dây còn căng, theo phương bán kính hướng vào điểm treo:
-
-![Sơ đồ lực của con lắc đơn tại một vị trí lệch](../assets/theory-figures/01-oscillations/b5-pendulum-forces.svg){ loading=lazy }
-
-*Hình — Lực căng nằm dọc dây theo phương bán kính; trọng lực hướng thẳng đứng xuống, còn thành phần $mg\sin\alpha$ theo tiếp tuyến hướng vật về VTCB.*
-
-!!! tip "Đọc hình"
-    Theo tiếp tuyến, thành phần $mg\sin\alpha$ tạo lực kéo về. Theo bán kính, lực căng $F_c$ phải cùng thành phần $mg\cos\alpha$ tạo gia tốc hướng tâm. Vì vậy không thể coi lực căng dây là lực kéo về theo phương tiếp tuyến.
 
 $$
 F_c-mg\cos\alpha=m\frac{v^2}{\ell}.
@@ -307,13 +302,6 @@ $$
 \boxed{g=\frac{4\pi^2}{a}}.
 $$
 
-![Quy trình đo chiều dài, đo nhiều chu kì và vẽ đồ thị T bình phương theo l](../assets/theory-figures/01-oscillations/b5-measure-g.svg){ loading=lazy }
-
-*Hình — Đo $\ell$ từ điểm treo đến tâm vật, đo thời gian của nhiều chu kì để suy ra $T$, rồi tuyến tính hóa bằng đồ thị $T^2$ theo $\ell$.*
-
-!!! tip "Đọc hình"
-    Từ $T^2=(4\pi^2/g)\ell$, hệ số góc của đường thẳng là $a=4\pi^2/g$. Đo nhiều chu kì làm giảm ảnh hưởng của sai số bấm giờ; dùng nhiều giá trị $\ell$ giúp ước lượng hệ số góc ổn định hơn so với chỉ một phép đo.
-
 Đây là một cách xử lí dữ liệu thí nghiệm rất quan trọng.
 
 ## 13. Con lắc vướng đinh — mức nâng cao
@@ -326,6 +314,14 @@ Khi dây vướng vào một đinh, bán kính quỹ đạo của vật thay đ�
 - cơ năng vẫn có thể bảo toàn nếu bỏ qua ma sát và va chạm không gây mất năng lượng đáng kể.
 
 Bài loại này nên chia chuyển động thành từng cung có chiều dài con lắc hiệu dụng riêng, tính thời gian trên mỗi cung rồi cộng lại.
+
+<!-- ch1-source-figure: b5-pendulum-peg -->
+[![Dây con lắc bị chặn bởi đinh trên đường thẳng đứng, tạo hai bán kính quỹ đạo l1 và l2 ở hai phía của O.](../assets/theory-figures/01-oscillations/b5-pendulum-peg.png){ .pdf-source-figure loading=lazy width="283" height="335" }](../assets/theory-figures/01-oscillations/b5-pendulum-peg.png)
+
+*Hình — Vướng đinh làm đổi tâm quay và bán kính quỹ đạo ở một phía.*
+
+Chấm đen trên đường thẳng đứng biểu diễn đinh, không phải một quả nặng thứ hai. Ở phía chưa vướng, bán kính là $\ell_1$; ở phía dây ôm qua đinh, phần dây còn hoạt động có chiều dài $\ell_2$. Vì hai phần chuyển động có chiều dài hiệu dụng khác nhau, phải tính thời gian từng phần rồi cộng, không dùng một chu kì duy nhất cho cả hai cung.
+<!-- /ch1-source-figure: b5-pendulum-peg -->
 
 ## Ví dụ 1 — Tìm chiều dài từ chu kì
 

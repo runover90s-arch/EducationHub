@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" font-family="Inter, Arial, sans-serif" role="img" aria-label="Con lắc lò xo ngang với hai biên vị trí cân bằng và lực kéo về hướng về cân bằng">
+<title>Con lắc lò xo ngang với hai biên vị trí cân bằng và lực kéo về hướng về cân bằng</title>
+<defs>
+  <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L8,4 L0,8 z" fill="context-stroke"/></marker>
+  <marker id="arrowStart" markerWidth="8" markerHeight="8" refX="1" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M8,0 L0,4 L8,8 z" fill="context-stroke"/></marker>
+</defs>
+<rect x="1" y="1" width="718" height="328" rx="18" fill="#ffffff" stroke="#e5e7eb"/>
+<text x="360" y="34" text-anchor="middle" font-size="23" font-weight="700" fill="#18212f" >Con lắc lò xo ngang: lực kéo về luôn hướng về O</text>
+<rect x="50" y="75" width="22" height="150" rx="2" fill="#e5e7eb" stroke="#18212f" stroke-width="2"/>
+<polyline points="72,165 90,165 104.25,178 118.5,152 132.75,178 147.0,152 161.25,178 175.5,152 189.75,178 204.0,152 218.25,178 232.5,152 246.75,178 261.0,152 275.25,178 289.5,152 303.75,178 318.0,152 332.25,178 346.5,152 360.75,178 375.0,152 389.25,178 403.5,152 417.75,178 432.0,152 432,165 450,165" fill="none" stroke="#18212f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="450" y="120" width="95" height="90" rx="10" fill="#dbeafe" stroke="#2563eb" stroke-width="3"/>
+<line x1="70" y1="235" x2="650" y2="235" stroke="#18212f" stroke-width="3" stroke-linecap="round" opacity="1" />
+<line x1="195" y1="225" x2="195" y2="245" stroke="#18212f" stroke-width="2" stroke-linecap="round" opacity="1" />
+<text x="195" y="270" text-anchor="middle" font-size="18" font-weight="700" fill="#18212f" >−A</text>
+<line x1="390" y1="225" x2="390" y2="245" stroke="#18212f" stroke-width="2" stroke-linecap="round" opacity="1" />
+<text x="390" y="270" text-anchor="middle" font-size="18" font-weight="700" fill="#18212f" >O</text>
+<line x1="585" y1="225" x2="585" y2="245" stroke="#18212f" stroke-width="2" stroke-linecap="round" opacity="1" />
+<text x="585" y="270" text-anchor="middle" font-size="18" font-weight="700" fill="#18212f" >+A</text>
+<line x1="498" y1="226" x2="498" y2="244" stroke="#2563eb" stroke-width="3" stroke-linecap="round" opacity="1" />
+<text x="498" y="269" text-anchor="middle" font-size="18" font-weight="700" fill="#2563eb" >x</text>
+<line x1="495" y1="105" x2="405" y2="105" stroke="#059669" stroke-width="4" stroke-linecap="round" opacity="1" marker-end="url(#arrow)"/>
+<text x="450" y="92" text-anchor="middle" font-size="18" font-weight="700" fill="#059669" >F_kéo về</text>
+<line x1="495" y1="285" x2="570" y2="285" stroke="#d97706" stroke-width="4" stroke-linecap="round" opacity="1" marker-end="url(#arrow)"/>
+<text x="535" y="313" text-anchor="middle" font-size="17" font-weight="700" fill="#d97706" >v &gt; 0</text>
+
+</svg>

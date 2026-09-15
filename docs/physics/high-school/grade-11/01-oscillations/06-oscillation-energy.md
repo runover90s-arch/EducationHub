@@ -37,12 +37,13 @@ Trong dao động điều hòa lí tưởng, năng lượng không mất đi mà
 
 Tại vị trí cân bằng, tốc độ lớn nhất nên động năng cực đại. Tại biên, vật dừng tức thời nên động năng bằng $0$ và thế năng đạt cực đại.
 
-![Ba vị trí trừ A, O và cộng A với cột động năng và thế năng tương ứng](../assets/theory-figures/01-oscillations/b6-energy-three-positions.svg){ loading=lazy }
+<!-- ch1-source-figure: b6-energy-transfer -->
+[![Người trượt trên máng đi từ vùng cao xuống thấp rồi lên cao, với các nhãn thế năng ở trên và động năng ở dưới.](../assets/theory-figures/01-oscillations/b6-energy-transfer.png){ .pdf-source-figure loading=lazy width="398" height="323" }](../assets/theory-figures/01-oscillations/b6-energy-transfer.png)
 
-*Hình — Ở hai biên, năng lượng của dao động nằm hoàn toàn ở thế năng; tại VTCB, thế năng giảm về $0$ còn động năng đạt cực đại.*
+*Hình — Đi xuống: thế năng chuyển thành động năng; đi lên: quá trình chuyển hóa đảo chiều.*
 
-!!! tip "Đọc hình"
-    Hãy theo dõi **tổng năng lượng** chứ không chỉ một cột riêng lẻ: trong mô hình lí tưởng, tổng $W=W_d+W_t$ không đổi. Khi vật đi từ biên về $O$, $W_t$ giảm bao nhiêu thì $W_d$ tăng bấy nhiêu; từ $O$ ra biên thì quá trình diễn ra ngược lại.
+Quan sát độ cao của người trượt: khi hạ thấp, thế năng trọng trường giảm và tốc độ có thể tăng; khi đi lên, động năng chuyển ngược thành thế năng. Bỏ qua tiêu hao thì tổng hai dạng năng lượng được giữ nguyên. Hình dùng để hình dung sự chuyển hóa, không khẳng định mọi chuyển động trên máng trượt đều là dao động điều hòa. Với hệ điều hòa đang học, hai biên và O là các vị trí đặc biệt đã nêu ở trên.
+<!-- /ch1-source-figure: b6-energy-transfer -->
 
 ## 2. Động năng
 
@@ -124,6 +125,14 @@ $$
 $$
 
 Hai biểu thức này giúp nhìn ngay phần trăm năng lượng đang ở dạng động năng hoặc thế năng.
+
+<!-- ch1-source-figure: b6-energy-position -->
+[![Thế năng là parabol mở lên, động năng là parabol mở xuống trên đoạn âm A đến dương A; cơ năng là đường ngang.](../assets/theory-figures/01-oscillations/b6-energy-position.png){ .pdf-source-figure loading=lazy width="556" height="355" }](../assets/theory-figures/01-oscillations/b6-energy-position.png)
+
+*Hình — Tại cùng một li độ, động năng và thế năng bổ sung cho nhau để bằng cơ năng.*
+
+Ở O, đường thế năng chạm mức không còn đường động năng đạt mức cơ năng. Tại hai biên, hai vai trò đổi chỗ. Hai giao điểm của các parabol ứng với $W_t=W_d=W/2$, tức $x=\pm A/\sqrt2$; hình gốc không ghi thêm các giá trị này lên trục. Chỉ xét đường động năng trong miền chuyển động $[-A,A]$, không kéo dài nó sang phần cho năng lượng âm.
+<!-- /ch1-source-figure: b6-energy-position -->
 
 ### Ví dụ trực giác
 
@@ -213,6 +222,14 @@ Vì vậy động năng và thế năng biến thiên tuần hoàn với:
 - chu kì $T/2$;
 - tần số $2f$.
 
+<!-- ch1-source-figure: b6-energy-time -->
+[![Hai đường động năng và thế năng không âm luân phiên đạt cực đại; các đỉnh của cùng một đường cách nhau T/2, cơ năng nằm ngang.](../assets/theory-figures/01-oscillations/b6-energy-time.png){ .pdf-source-figure loading=lazy width="533" height="345" }](../assets/theory-figures/01-oscillations/b6-energy-time.png)
+
+*Hình — Một chu kì chuyển động chứa hai chu kì biến thiên của mỗi dạng năng lượng.*
+
+Đường $W_t$ bắt đầu ở mức cơ năng, giảm về không tại $T/4$ rồi trở lại cực đại tại $T/2$. Đường $W_d$ biến thiên bù lại; khi một đường đạt cực đại thì đường kia bằng không. Vì trạng thái năng lượng đã lặp lại sau $T/2$, tần số năng lượng là $2f$, trong khi đường cơ năng $W$ vẫn nằm ngang.
+<!-- /ch1-source-figure: b6-energy-time -->
+
 !!! warning "Bẫy"
     Cơ năng không dao động với tần số $2f$. Cơ năng của hệ lí tưởng là hằng số; chỉ động năng và thế năng biến thiên.
 
@@ -238,25 +255,11 @@ Vật đi qua hai vị trí này tổng cộng bốn lần trong một chu kì, 
 
 Hai đồ thị $W_t$ và $W_d$ cắt nhau tại $x=\pm A/\sqrt2$.
 
-![Đồ thị thế năng, động năng và cơ năng theo li độ](../assets/theory-figures/01-oscillations/b6-energy-position.svg){ loading=lazy }
-
-*Hình — $W_t$ tăng theo $x^2$, $W_d$ giảm phần còn lại của cơ năng, còn $W$ là đường ngang không đổi trên miền chuyển động $[-A,A]$.*
-
-!!! tip "Đọc hình"
-    Tại $x=0$, $W_t=0$ và $W_d=W$; tại $x=\pm A$, $W_t=W$ và $W_d=0$. Hai parabol cắt nhau ở $|x|=A/\sqrt2$, đúng với điều kiện $W_t=W_d=W/2$. Nhìn giao điểm giúp tránh nhầm vị trí bằng $A/2$.
-
 ## 11. Đồ thị năng lượng theo thời gian
 
 Cả $W_d$ và $W_t$ đều không âm và lặp lại sau $T/2$.
 
 Khi $W_d$ cực đại thì $W_t=0$; khi $W_t$ cực đại thì $W_d=0$. Hai dạng năng lượng biến thiên ngược nhau nhưng tổng luôn bằng $W$.
-
-![Đồ thị động năng và thế năng của dao động điều hòa theo thời gian](../assets/theory-figures/01-oscillations/b6-energy-time.svg){ loading=lazy }
-
-*Hình — $W_t$ và $W_d$ luôn không âm, luân phiên đạt cực đại và cùng lặp lại sau $T/2$, trong khi cơ năng $W$ không đổi.*
-
-!!! tip "Đọc hình"
-    Một chu kì của li độ là $T$, nhưng bình phương $\cos^2$ và $\sin^2$ lặp lại sau nửa vòng pha. Vì thế $W_t$ và $W_d$ có chu kì $T/2$, tương ứng tần số $2f$. Đường $W$ nằm ngang nhắc rằng cơ năng của hệ lí tưởng **không** dao động với tần số $2f$.
 
 ## 12. Con lắc đơn — biểu thức năng lượng chính xác
 
@@ -287,8 +290,6 @@ Nếu có ma sát hoặc lực cản môi trường, cơ năng cơ học giảm 
 Không được dùng $W=\frac12kA^2=\text{hằng số}$ xuyên suốt một quá trình tắt dần nếu biên độ đang giảm.
 
 Trong một số bài, phần cơ năng giảm được xem bằng công của lực cản hoặc nhiệt lượng sinh ra.
-
-Hiện tượng biên độ suy giảm do lực cản và hệ quả cơ năng giảm dần được giải thích tiếp ở [Bài 7 — Tổng hợp, tắt dần, cưỡng bức và cộng hưởng](./07-combined-damped-forced-resonance.md).
 
 ## Ví dụ 1 — Tỉ số năng lượng
 

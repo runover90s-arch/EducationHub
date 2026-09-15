@@ -15271,7 +15271,7 @@ lấy gốc điện thế ở bản 1.</p>
 <h4 id="bai-68">Bài 68</h4>
 <!-- source-id: BT-Chuong-III-p145-q3-365 -->
 
-<p>Một điện tích q chuyển động từ điểm A đến B, đến C, đến D và về A trong điện trường đều như hình vẽ.</p>
+<p>Một điện tích dương <span class="arithmatex">\(q\)</span> chuyển động từ điểm A đến B, đến C, đến D và về A trong điện trường đều như hình vẽ.</p>
 <p><img alt="Hình minh họa của bài" loading="lazy" src="../../../../assets/exercise-figures/clean-v14/iii_p145_q3_365_fig1.webp" /></p>
 <p>a) Công của lực điện dịch chuyển điện tích: <span class="arithmatex">\(A_{AB}=-A_{BA}\)</span>.</p>
 <p>b) Công của lực điện dịch chuyển điện tích từ B đến D có giá trị âm.</p>
@@ -15279,15 +15279,14 @@ lấy gốc điện thế ở bản 1.</p>
 <p>d) Công của lực điện khi dịch chuyển điện tích đi hết chu trình bằng <span class="arithmatex">\(0\,\mathrm J\)</span>.</p>
 <details class="success">
 <summary>Đáp án và lời giải</summary>
-<p><strong>Đáp án:</strong> a) Đúng; b) Không xác định duy nhất từ đề; c) Không xác định duy nhất từ đề; d) Đúng.</p>
+<p><strong>Đáp án:</strong> a) Đúng; b) Đúng; c) Sai; d) Đúng.</p>
 <p><strong>Hướng dẫn giải:</strong></p>
-<p><strong>Chiến lược.</strong> Dùng <span class="arithmatex">\(A=qE\Delta x\)</span> với <span class="arithmatex">\(\Delta x\)</span> là hình chiếu độ dời lên chiều <span class="arithmatex">\(\vec E\)</span>, đồng thời tách hai trường hợp dấu của <span class="arithmatex">\(q\)</span>.</p>
-<p>a) <strong>Đúng.</strong> Đổi chiều hai điểm đầu - cuối làm <span class="arithmatex">\(\Delta x\)</span> đổi dấu, nên <span class="arithmatex">\(A_{AB}=-A_{BA}\)</span> với mọi <span class="arithmatex">\(q\)</span>.</p>
-<p>b) <strong>Không xác định duy nhất.</strong> Từ B đến D, <span class="arithmatex">\(\Delta x&lt;0\)</span>. Vì <span class="arithmatex">\(A_{BD}=qE\Delta x\)</span>, nếu <span class="arithmatex">\(q&gt;0\)</span> thì <span class="arithmatex">\(A_{BD}&lt;0\)</span>, còn nếu <span class="arithmatex">\(q&lt;0\)</span> thì <span class="arithmatex">\(A_{BD}&gt;0\)</span>.</p>
-<p>c) <strong>Không xác định duy nhất.</strong> Ta có <span class="arithmatex">\(d_{BC}&gt;0\)</span> và <span class="arithmatex">\(d_{CD}&lt;0\)</span>. Với <span class="arithmatex">\(q&gt;0\)</span>: <span class="arithmatex">\(A_{BC}&gt;0&gt;A_{CD}\)</span> nên <span class="arithmatex">\(A_{BC}&lt;A_{CD}\)</span> sai. Với <span class="arithmatex">\(q&lt;0\)</span>, các dấu đảo lại và mệnh đề trở thành đúng.</p>
-<p>d) <strong>Đúng.</strong> Với chu trình kín, <span class="arithmatex">\(\Delta V=0\)</span> nên tổng công của lực điện bằng <span class="arithmatex">\(0\)</span> với mọi <span class="arithmatex">\(q\)</span>.</p>
-<p><strong>Kiểm tra.</strong> Các ý a), d) không phụ thuộc dấu điện tích; b), c) đổi kết luận khi đổi dấu <span class="arithmatex">\(q\)</span>. Vì đề không cho dấu <span class="arithmatex">\(q\)</span>, hai ý b), c) không thể chốt duy nhất.</p>
-<!-- source-audit: UNRESOLVED — đề và hình không cho dấu của q; b), c) phụ thuộc dấu q nên không có kết luận duy nhất. -->
+<p><strong>Chiến lược.</strong> Với <span class="arithmatex">\(q&gt;0\)</span>, dùng <span class="arithmatex">\(A=qE\Delta x\)</span>, trong đó <span class="arithmatex">\(\Delta x\)</span> là hình chiếu đại số của độ dời lên chiều <span class="arithmatex">\(\vec E\)</span>.</p>
+<p>a) <strong>Đúng.</strong> Đổi chiều hai điểm đầu - cuối làm <span class="arithmatex">\(\Delta x\)</span> đổi dấu nên <span class="arithmatex">\(A_{AB}=-A_{BA}\)</span>.</p>
+<p>b) <strong>Đúng.</strong> Từ B đến D, hình chiếu độ dời lên chiều <span class="arithmatex">\(\vec E\)</span> âm, nên <span class="arithmatex">\(A_{BD}=qE\Delta x&lt;0\)</span>.</p>
+<p>c) <strong>Sai.</strong> Từ B đến C có hình chiếu dương còn từ C đến D có hình chiếu âm. Vì <span class="arithmatex">\(q&gt;0\)</span>, <span class="arithmatex">\(A_{BC}&gt;0&gt;A_{CD}\)</span>, do đó không thể có <span class="arithmatex">\(A_{BC}&lt;A_{CD}\)</span>.</p>
+<p>d) <strong>Đúng.</strong> Với chu trình kín, <span class="arithmatex">\(\Delta V=0\)</span> nên tổng công của lực điện bằng <span class="arithmatex">\(0\)</span>.</p>
+<!-- source-audit: FIXED — stem nguồn không ghi dấu q nhưng bảng đáp án và phần giải của chính PDF đều xử lí q như điện tích dương; learner-facing được bổ sung “dương” tối thiểu để khôi phục bộ Đúng/Sai xác định duy nhất. -->
 </details>
 <h4 id="bai-69">Bài 69</h4>
 <!-- source-id: BT-Chuong-III-p145-q4-366 -->
@@ -15363,20 +15362,17 @@ với đường sức không phụ thuộc vào vị trí của điện tích <s
 <h4 id="bai-73">Bài 73</h4>
 <!-- source-id: BT-Chuong-III-p128-q15-317 -->
 
-<p>Điện tích <span class="arithmatex">\(q\)</span> chuyển động từ M đến N trong một điện trường đều, công của lực điện càng nhỏ nếu</p>
+<p>Điện tích dương <span class="arithmatex">\(q\)</span> chuyển động từ M đến N trong một điện trường đều, công của lực điện càng nhỏ nếu</p>
 <p>A. hiệu điện thế <span class="arithmatex">\(U_{MN}\)</span> càng nhỏ.</p>
 <p>B. hiệu điện thế <span class="arithmatex">\(U_{MN}\)</span> càng lớn.</p>
 <p>C. đường đi từ M đến N càng dài.</p>
 <p>D. đường đi từ M đến N càng ngắn.</p>
 <details class="success">
 <summary>Đáp án và lời giải</summary>
-<p><strong>Đáp án:</strong> Không đủ dữ kiện để chọn duy nhất; nếu <span class="arithmatex">\(q&gt;0\)</span> thì chọn A.</p>
+<p><strong>Đáp án:</strong> A</p>
 <p><strong>Hướng dẫn giải:</strong></p>
-<p><strong>Chiến lược.</strong> Dùng trực tiếp quan hệ công - hiệu điện thế và kiểm tra ảnh hưởng của dấu điện tích.</p>
-<p><strong>Phương trình.</strong> <span class="arithmatex">\(A_{MN}=qU_{MN}\)</span>.</p>
-<p><strong>Dấu.</strong> Nếu <span class="arithmatex">\(q&gt;0\)</span>, <span class="arithmatex">\(A_{MN}\)</span> tăng theo <span class="arithmatex">\(U_{MN}\)</span> nên <span class="arithmatex">\(U_{MN}\)</span> càng nhỏ thì công càng nhỏ: chọn A. Nếu <span class="arithmatex">\(q&lt;0\)</span>, thứ tự đảo lại nên <span class="arithmatex">\(U_{MN}\)</span> càng lớn thì công càng nhỏ: khi đó chọn B. Độ dài đường đi không quyết định công của lực điện.</p>
-<p><strong>Kiểm tra.</strong> Hai dấu của <span class="arithmatex">\(q\)</span> dẫn đến hai phương án khác nhau, vì vậy đề thiếu dữ kiện để có một đáp án duy nhất.</p>
-<!-- source-audit: UNRESOLVED — câu dẫn chỉ cho điện tích q, không cho dấu; thứ tự A=qU_MN đảo khi q<0. -->
+<p>Với điện tích dương, <span class="arithmatex">\(A_{MN}=qU_{MN}\)</span> nên công tăng cùng <span class="arithmatex">\(U_{MN}\)</span>. Vì vậy <span class="arithmatex">\(U_{MN}\)</span> càng nhỏ thì công của lực điện càng nhỏ. Công của lực điện tĩnh không phụ thuộc độ dài đường đi, nên C và D không quyết định kết quả. Chọn <strong>A</strong>.</p>
+<!-- source-audit: FIXED — stem nguồn không ghi dấu q nhưng đáp án A được tô và quan hệ trong hướng dẫn chỉ đúng theo chiều so sánh đó khi q>0; learner-facing được bổ sung “dương” tối thiểu để câu một đáp án xác định. -->
 </details>
 <h3 id="van-dung-trac-nghiem-4-lua-chon">Vận dụng — Trắc nghiệm 4 lựa chọn</h3>
 <h4 id="bai-74">Bài 74</h4>

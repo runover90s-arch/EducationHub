@@ -126,6 +126,14 @@ Gia tốc luôn hướng về vị trí cân bằng:
 
 Nói cách khác, khi $x\ne0$, vectơ gia tốc ngược hướng với vectơ li độ; tại vị trí cân bằng $x=0$ thì $a=0$.
 
+<!-- ch1-source-figure: b2-acceleration-position -->
+[![Đồ thị gia tốc theo li độ là đường thẳng đi xuống qua gốc, nằm trong các góc phần tư có x và a trái dấu.](../assets/theory-figures/01-oscillations/b2-acceleration-position.png){ .pdf-source-figure loading=lazy width="239" height="170" }](../assets/theory-figures/01-oscillations/b2-acceleration-position.png)
+
+*Hình — Dấu âm trong quan hệ gia tốc–li độ nhìn thấy được qua độ dốc của đường thẳng.*
+
+Nửa đồ thị bên phải có $x>0$ nhưng $a<0$; nửa bên trái có $x<0$ nhưng $a>0$. Vì $a=-\omega^2x$, hệ số góc là $-\omega^2$ và vectơ gia tốc luôn hướng về vị trí cân bằng. Giao điểm hai trục ứng với $x=a=0$; điều đó không có nghĩa vận tốc cũng bằng không.
+<!-- /ch1-source-figure: b2-acceleration-position -->
+
 ## 4. Cực trị của gia tốc
 
 Từ $a=-\omega^2x$ và $|x|\le A$:
@@ -140,13 +148,6 @@ Vì vậy:
 - $a_{\min}=-\omega^2A$ tại $x=+A$;
 - $|a|_{\max}=\omega^2A$ tại hai biên;
 - $|a|_{\min}=0$ tại vị trí cân bằng.
-
-![Trục dao động minh họa vận tốc và gia tốc tại trừ A, O và cộng A](../assets/theory-figures/01-oscillations/b2-state-directions.svg){ loading=lazy }
-
-*Hình — Ở hai biên vật tạm dừng để đổi chiều nhưng gia tốc có độ lớn lớn nhất và luôn hướng về VTCB; tại VTCB thì ngược lại.*
-
-!!! tip "Đọc hình"
-    Tại $x=+A$, $v=0$ nhưng $a<0$; tại $x=-A$, $v=0$ nhưng $a>0$. Khi vật qua $O$, $a=0$ còn $|v|$ đạt cực đại. Sơ đồ này giúp tách ba câu hỏi khác nhau: vật **ở đâu**, đang **đi theo chiều nào**, và đang **bị gia tốc kéo về đâu**.
 
 ## 5. Quan hệ pha giữa x, v và a
 
@@ -165,12 +166,31 @@ $$
 !!! warning "Bẫy thường gặp"
     Không được suy ra rằng $v$ và $a$ luôn cùng dấu vì $a$ "sớm pha" so với $v$. Dấu tức thời còn phụ thuộc vị trí và chiều chuyển động.
 
-![Ba đồ thị chuẩn hóa x trên A, v trên omega A và a trên omega bình A theo cùng một trục thời gian](../assets/theory-figures/01-oscillations/b2-xva-time.svg){ loading=lazy }
+<!-- ch1-source-figure: b2-displacement-time -->
+Ba đồ thị dưới đây cùng minh họa quy ước $x(0)=A$, $v(0)=0$. Hãy đối chiếu bằng các mốc $T/4$, $T/2$, $3T/4$ được in trên trục, không dóng theo vị trí điểm ảnh: tỉ lệ in của các hình gốc khác nhau.
 
-*Hình — Ba đại lượng có cùng chu kì nhưng không đạt cực trị và đi qua giá trị $0$ cùng lúc.*
+[![Đồ thị li độ bắt đầu tại A, qua không ở T/4, đạt âm A ở T/2 và trở lại biên dương sau một chu kì.](../assets/theory-figures/01-oscillations/b2-displacement-time.png){ .pdf-source-figure loading=lazy width="318" height="296" }](../assets/theory-figures/01-oscillations/b2-displacement-time.png)
 
-!!! tip "Đọc hình"
-    So theo cùng một mốc thời gian: khi $x=\pm A$ thì $v=0$ và $|a|$ lớn nhất; khi $x=0$ thì $|v|$ lớn nhất và $a=0$. Đồ thị cũng cho thấy $v$ sớm pha $\pi/2$ so với $x$, còn $a$ ngược pha với $x$.
+*Hình — Li độ xác định vị trí của vật ở từng mốc thời gian.*
+
+Tại $t=0$, vật ở biên dương; tại $T/4$, vật qua O; tại $T/2$, vật đến biên âm. Sau đó hình lặp lại từ biên dương ở $t=T$. Đối chiếu hai hình tiếp theo để biết vật đi theo chiều nào và gia tốc hướng đâu.
+<!-- /ch1-source-figure: b2-displacement-time -->
+
+<!-- ch1-source-figure: b2-velocity-time -->
+[![Đồ thị vận tốc bằng không tại các biên, đạt âm omega A ở T/4 và dương omega A ở 3T/4.](../assets/theory-figures/01-oscillations/b2-velocity-time.png){ .pdf-source-figure loading=lazy width="392" height="230" }](../assets/theory-figures/01-oscillations/b2-velocity-time.png)
+
+*Hình — Khi li độ qua không, tốc độ đạt cực đại; dấu của vận tốc vẫn phải xét riêng.*
+
+Ở điểm M của đồ thị, $t=T/4$ và $v=-\omega A$: vật qua O theo chiều âm. Tại P, $t=3T/4$ và $v=+\omega A$: vật cũng qua O nhưng theo chiều dương. Các điểm N và Q có $v=0$, tương ứng với hai biên chứ không phải vị trí cân bằng.
+<!-- /ch1-source-figure: b2-velocity-time -->
+
+<!-- ch1-source-figure: b2-acceleration-time -->
+[![Đồ thị gia tốc đạt giá trị âm cực tiểu khi li độ ở biên dương, dương cực đại ở biên âm và bằng không khi qua vị trí cân bằng.](../assets/theory-figures/01-oscillations/b2-acceleration-time.png){ .pdf-source-figure loading=lazy width="412" height="236" }](../assets/theory-figures/01-oscillations/b2-acceleration-time.png)
+
+*Hình — Gia tốc ngược pha với li độ, không ngược pha với vận tốc.*
+
+Tại $t=0$ và $t=T$, li độ bằng $A$ nhưng gia tốc bằng $-\omega^2A$. Tại $T/2$, li độ bằng $-A$ và gia tốc đạt $+\omega^2A$. Hai lần qua O ở $T/4$ và $3T/4$ đều có $a=0$ trong khi tốc độ lớn nhất. Các mốc này cho thấy rõ $a=-\omega^2x$ và quan hệ sớm pha $\pi/2$ giữa $v$ với $x$.
+<!-- /ch1-source-figure: b2-acceleration-time -->
 
 ## 6. Khi nào vật nhanh dần, chậm dần?
 
@@ -218,6 +238,14 @@ Dùng khi đề cho trạng thái tại một thời điểm bằng $x$ và $v$ 
 ### Điều gì còn thiếu?
 
 Công thức $v^2=\omega^2(A^2-x^2)$ chỉ cho **độ lớn** của vận tốc. Muốn xác định dấu của $v$, cần thêm thông tin về chiều chuyển động.
+
+<!-- ch1-source-figure: b2-velocity-position -->
+[![Đường khép kín trên hệ trục vận tốc–li độ có các giao điểm âm A, dương A và cộng trừ omega A.](../assets/theory-figures/01-oscillations/b2-velocity-position.png){ .pdf-source-figure loading=lazy width="214" height="205" }](../assets/theory-figures/01-oscillations/b2-velocity-position.png)
+
+*Hình — Một li độ ở bên trong quỹ đạo thường ứng với hai dấu của vận tốc.*
+
+Giữ một giá trị $x$ rồi xét hai giao điểm với đường khép kín: điểm phía trên trục hoành có $v>0$, điểm phía dưới có $v<0$. Chúng biểu diễn cùng vị trí nhưng hai chiều chuyển động khác nhau. Hình gốc chọn tỉ lệ hai trục làm đường trông gần tròn; về quan hệ đại lượng, đó vẫn là elip $x^2/A^2+v^2/(\omega^2A^2)=1$. Không so trực tiếp độ dài trên trục $x$ với độ dài trên trục $v$ vì hai trục biểu diễn các đại lượng khác đơn vị.
+<!-- /ch1-source-figure: b2-velocity-position -->
 
 ## 8. Hệ thức giữa x và a
 
@@ -321,24 +349,11 @@ Các giao điểm với trục:
 
 Đường elip này mô tả toàn bộ trạng thái động học có thể có của vật trong một dao động điều hòa.
 
-![Elip trạng thái trong mặt phẳng x v, trong đó cùng một x0 có hai điểm vận tốc trái dấu](../assets/theory-figures/01-oscillations/b2-phase-ellipse.svg){ loading=lazy }
-
-*Hình — Mỗi điểm trên elip biểu diễn một trạng thái $(x,v)$; một đường thẳng $x=x_0$ thường cắt elip tại hai trạng thái có vận tốc trái dấu.*
-
-!!! tip "Đọc hình"
-    Hệ thức elip chứa $v^2$, vì vậy từ $x$ chỉ suy ra được $|v|$. Muốn biết vật đang đi theo chiều dương hay âm, phải có thêm dấu của $v$ hoặc một thông tin tương đương về chiều chuyển động.
-
 ## 13. Đồ thị quan hệ a–x
 
 Từ $a=-\omega^2x$, đồ thị $a$ theo $x$ là đường thẳng đi qua gốc tọa độ có hệ số góc $-\omega^2$.
 
 Đây là một dấu hiệu rất mạnh: nếu thí nghiệm cho đồ thị $a-x$ là đường thẳng qua gốc có hệ số góc âm, chuyển động phù hợp với mô hình dao động điều hòa.
-
-![Đồ thị a theo x là đường thẳng qua gốc có hệ số góc âm trừ omega bình](../assets/theory-figures/01-oscillations/b2-acceleration-position.svg){ loading=lazy }
-
-*Hình — Quan hệ $a=-\omega^2x$ biến nhận xét “gia tốc luôn hướng về VTCB” thành một đường thẳng có hệ số góc âm.*
-
-Khi $x>0$ thì điểm trên đồ thị nằm ở nửa $a<0$; khi $x<0$ thì nằm ở nửa $a>0$. Độ dốc của đường thẳng có độ lớn $\omega^2$.
 
 ## Ví dụ 1 — Tính trạng thái từ phương trình
 

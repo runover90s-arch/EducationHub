@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 430" font-family="Inter, Arial, sans-serif" role="img" aria-label="Đồ thị li độ theo thời gian liên hệ một thời điểm trên đồ thị với vị trí thật của vật trên trục dao động">
+<title>Đồ thị li độ theo thời gian liên hệ một thời điểm trên đồ thị với vị trí thật của vật trên trục dao động</title>
+<defs>
+  <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L8,4 L0,8 z" fill="context-stroke"/></marker>
+  <marker id="arrowStart" markerWidth="8" markerHeight="8" refX="1" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M8,0 L0,4 L8,8 z" fill="context-stroke"/></marker>
+</defs>
+<rect x="1" y="1" width="718" height="428" rx="18" fill="#ffffff" stroke="#e5e7eb"/>
+<text x="360" y="35" text-anchor="middle" font-size="24" font-weight="700" fill="#18212f" >Điểm trên đồ thị ↔ vị trí thật của vật</text>
+<line x1="80" y1="175.0" x2="640" y2="175.0" stroke="#18212f" stroke-width="3" stroke-linecap="round" opacity="1" marker-end="url(#arrow)"/>
+<line x1="80" y1="280" x2="80" y2="65" stroke="#18212f" stroke-width="3" stroke-linecap="round" opacity="1" marker-end="url(#arrow)"/>
+<text x="636" y="163.0" text-anchor="end" font-size="20" font-weight="700" fill="#18212f" >t</text>
+<text x="94" y="75" text-anchor="start" font-size="20" font-weight="700" fill="#18212f" >x</text>
+<line x1="80" y1="169.0" x2="80" y2="181.0" stroke="#18212f" stroke-width="2" stroke-linecap="round" opacity="1" />
+<text x="80" y="204.0" text-anchor="middle" font-size="17" font-weight="500" fill="#6b7280" >0</text>
+<line x1="220.0" y1="169.0" x2="220.0" y2="181.0" stroke="#18212f" stroke-width="2" stroke-linecap="round" opacity="1" />
+<text x="220.0" y="204.0" text-anchor="middle" font-size="17" font-weight="500" fill="#6b7280" >T/4</text>
+<line x1="360.0" y1="169.0" x2="360.0" y2="181.0" stroke="#18212f" stroke-width="2" stroke-linecap="round" opacity="1" />
+<text x="360.0" y="204.0" text-anchor="middle" font-size="17" font-weight="500" fill="#6b7280" >T/2</text>
+<line x1="500.0" y1="169.0" x2="500.0" y2="181.0" stroke="#18212f" stroke-width="2" stroke-linecap="round" opacity="1" />
+<text x="500.0" y="204.0" text-anchor="middle" font-size="17" font-weight="500" fill="#6b7280" >3T/4</text>
+<line x1="640" y1="169.0" x2="640" y2="181.0" stroke="#18212f" stroke-width="2" stroke-linecap="round" opacity="1" />
+<text x="640" y="204.0" text-anchor="middle" font-size="17" font-weight="500" fill="#6b7280" >T</text>
+<line x1="80" y1="100.0" x2="640" y2="100.0" stroke="#d1d5db" stroke-width="1.5" stroke-linecap="round" opacity="1" stroke-dasharray="6 6"/>
+<line x1="80" y1="250.0" x2="640" y2="250.0" stroke="#d1d5db" stroke-width="1.5" stroke-linecap="round" opacity="1" stroke-dasharray="6 6"/>
+<text x="68" y="106.0" text-anchor="end" font-size="18" font-weight="700" fill="#18212f" >+A</text>
+<text x="68" y="256.0" text-anchor="end" font-size="18" font-weight="700" fill="#18212f" >−A</text>
+<polyline points="80.0,100.0 83.11,100.05 86.22,100.18 89.33,100.41 92.44,100.73 95.56,101.14 98.67,101.64 101.78,102.23 104.89,102.91 108.0,103.67 111.11,104.52 114.22,105.46 117.33,106.48 120.44,107.59 123.56,108.78 126.67,110.05 129.78,111.4 132.89,112.82 136.0,114.32 139.11,115.9 142.22,117.55 145.33,119.26 148.44,121.05 151.56,122.9 154.67,124.82 157.78,126.79 160.89,128.83 164.0,130.92 167.11,133.06 170.22,135.26 173.33,137.5 176.44,139.79 179.56,142.12 182.67,144.49 185.78,146.9 188.89,149.35 192.0,151.82 195.11,154.33 198.22,156.86 201.33,159.41 204.44,161.98 207.56,164.56 210.67,167.16 213.78,169.77 216.89,172.38 220.0,175.0 223.11,177.62 226.22,180.23 229.33,182.84 232.44,185.44 235.56,188.02 238.67,190.59 241.78,193.14 244.89,195.67 248.0,198.18 251.11,200.65 254.22,203.1 257.33,205.51 260.44,207.88 263.56,210.21 266.67,212.5 269.78,214.74 272.89,216.94 276.0,219.08 279.11,221.17 282.22,223.21 285.33,225.18 288.44,227.1 291.56,228.95 294.67,230.74 297.78,232.45 300.89,234.1 304.0,235.68 307.11,237.18 310.22,238.6 313.33,239.95 316.44,241.22 319.56,242.41 322.67,243.52 325.78,244.54 328.89,245.48 332.0,246.33 335.11,247.09 338.22,247.77 341.33,248.36 344.44,248.86 347.56,249.27 350.67,249.59 353.78,249.82 356.89,249.95 360.0,250.0 363.11,249.95 366.22,249.82 369.33,249.59 372.44,249.27 375.56,248.86 378.67,248.36 381.78,247.77 384.89,247.09 388.0,246.33 391.11,245.48 394.22,244.54 397.33,243.52 400.44,242.41 403.56,241.22 406.67,239.95 409.78,238.6 412.89,237.18 416.0,235.68 419.11,234.1 422.22,232.45 425.33,230.74 428.44,228.95 431.56,227.1 434.67,225.18 437.78,223.21 440.89,221.17 444.0,219.08 447.11,216.94 450.22,214.74 453.33,212.5 456.44,210.21 459.56,207.88 462.67,205.51 465.78,203.1 468.89,200.65 472.0,198.18 475.11,195.67 478.22,193.14 481.33,190.59 484.44,188.02 487.56,185.44 490.67,182.84 493.78,180.23 496.89,177.62 500.0,175.0 503.11,172.38 506.22,169.77 509.33,167.16 512.44,164.56 515.56,161.98 518.67,159.41 521.78,156.86 524.89,154.33 528.0,151.82 531.11,149.35 534.22,146.9 537.33,144.49 540.44,142.12 543.56,139.79 546.67,137.5 549.78,135.26 552.89,133.06 556.0,130.92 559.11,128.83 562.22,126.79 565.33,124.82 568.44,122.9 571.56,121.05 574.67,119.26 577.78,117.55 580.89,115.9 584.0,114.32 587.11,112.82 590.22,111.4 593.33,110.05 596.44,108.78 599.56,107.59 602.67,106.48 605.78,105.46 608.89,104.52 612.0,103.67 615.11,102.91 618.22,102.23 621.33,101.64 624.44,101.14 627.56,100.73 630.67,100.41 633.78,100.18 636.89,100.05 640.0,100.0" fill="none" stroke="#2563eb" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="175.2" y1="70" x2="175.2" y2="350" stroke="#7c3aed" stroke-width="2" stroke-linecap="round" opacity="1" stroke-dasharray="7 6"/>
+<circle cx="175.2" cy="138.86847444237137" r="7" fill="#7c3aed" stroke="#7c3aed" stroke-width="1" opacity="1"/>
+<text x="183.2" y="86" text-anchor="start" font-size="18" font-weight="700" fill="#7c3aed" >t*</text>
+<line x1="125" y1="355" x2="595" y2="355" stroke="#18212f" stroke-width="4" stroke-linecap="round" opacity="1" />
+<line x1="125" y1="345" x2="125" y2="365" stroke="#18212f" stroke-width="2" stroke-linecap="round" opacity="1" />
+<text x="125" y="389" text-anchor="middle" font-size="18" font-weight="700" fill="#18212f" >−A</text>
+<line x1="360" y1="345" x2="360" y2="365" stroke="#18212f" stroke-width="2" stroke-linecap="round" opacity="1" />
+<text x="360" y="389" text-anchor="middle" font-size="18" font-weight="700" fill="#18212f" >O</text>
+<line x1="595" y1="345" x2="595" y2="365" stroke="#18212f" stroke-width="2" stroke-linecap="round" opacity="1" />
+<text x="595" y="389" text-anchor="middle" font-size="18" font-weight="700" fill="#18212f" >+A</text>
+<circle cx="473.21211341390307" cy="355" r="12" fill="#7c3aed" stroke="#7c3aed" stroke-width="1" opacity="1"/>
+<line x1="175.2" y1="350" x2="473.21211341390307" y2="350" stroke="#7c3aed" stroke-width="2" stroke-linecap="round" opacity="1" stroke-dasharray="5 5"/>
+
+</svg>

@@ -202,3 +202,26 @@
     height: 1.45rem;
   }
 }
+
+/* Original PDF figures: keep native proportions; never stretch small scans. */
+.md-typeset img.pdf-source-figure {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Dense source phase map: scroll the figure, not the whole lesson. */
+.md-typeset .pdf-source-figure-scroll {
+  max-width: 100%;
+  overflow-x: auto;
+  overscroll-behavior-inline: contain;
+  padding: 0.2rem 0;
+}
+
+.md-typeset .pdf-source-figure-scroll img.pdf-source-figure {
+  max-width: none;
+}
+
+.md-typeset .pdf-source-figure-scroll:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 2px;
+}
